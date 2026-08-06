@@ -17,6 +17,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 from playwright.sync_api import sync_playwright
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from proxy_env import pw_launch_args
+
 API  = "https://parts.cummins.com/gateway/api/IACDataServices"
 BASE = Path(__file__).parent
 UA   = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -29,9 +32,10 @@ def safe(name: str) -> str:
 
 def new_session():
     """Заводим анонимную сессию браузером и переносим куки в requests."""
+    _args, _ctx = pw_launch_args()
     with sync_playwright() as p:
-        b = p.chromium.launch(headless=True)
-        ctx = b.new_context(user_agent=UA)
+        b = p.chromium.launch(headless=True, args=_args)
+        ctx = b.new_context(user_agent=UA, **_ctx)
         page = ctx.new_page()
         for attempt in range(3):
             try:

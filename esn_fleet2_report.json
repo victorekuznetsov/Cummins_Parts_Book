@@ -1,0 +1,591 @@
+{
+ "checked": [
+  {
+   "esn": "001060",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "001078",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "004736",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "008268",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "015347",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "37290487",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573002CC33",
+   "build": "2023-05-02",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 864
+  },
+  {
+   "esn": "37290615",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573002CC33",
+   "build": "2023-05-22",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 864
+  },
+  {
+   "esn": "37292556",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-12",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37292731",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-30",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37292733",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-29",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293376",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-08",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293377",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-08",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293410",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-10",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293549",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-24",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293592",
+   "ok": true,
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-29",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "41343322",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2022-12-08",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41348156",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41348289",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41348295",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41348302",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41348307",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41349633",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-02",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41349698",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41349704",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41351021",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-07",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41351859",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41353280",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41353290",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41353297",
+   "ok": true,
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41354422",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2023-08-22",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41356585",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41364976",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-04-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365012",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-04-22",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365025",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-08",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365967",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-06",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365971",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-07",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365979",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-07",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365996",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-09",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41366000",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-09",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41367668",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-20",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41367681",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-21",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41369708",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41370102",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41370103",
+   "ok": true,
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41383427",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "41384184",
+   "ok": false,
+   "err": "не найден (404)"
+  },
+  {
+   "esn": "80201235",
+   "ok": true,
+   "model": "X15 CM2350 X114B",
+   "cpl": "4342",
+   "config": "D103016BW25",
+   "build": "2019-07-29",
+   "group": "Heavy Duty",
+   "plant": "82",
+   "options": 75,
+   "parts": 868
+  },
+  {
+   "esn": "85201236",
+   "ok": true,
+   "model": "QSX15 CM570",
+   "cpl": "8761",
+   "config": "D103007CC01",
+   "build": "2022-04-06",
+   "group": "Heavy Duty",
+   "plant": "127",
+   "options": 74,
+   "parts": 729
+  },
+  {
+   "esn": "93058669",
+   "ok": true,
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-09-22",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  },
+  {
+   "esn": "93065419",
+   "ok": true,
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-10-17",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  },
+  {
+   "esn": "93087701",
+   "ok": true,
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-12-08",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  }
+ ],
+ "groups": [
+  {
+   "cpl": "1244",
+   "model": "QST30 CM552",
+   "esns": [
+    "37290487",
+    "37290615",
+    "37292556",
+    "37292731",
+    "37292733",
+    "37293376",
+    "37293377",
+    "37293410",
+    "37293549",
+    "37293592"
+   ],
+   "representative": "37290487"
+  },
+  {
+   "cpl": "3362",
+   "model": "NH/NT 855",
+   "esns": [
+    "41343322",
+    "41354422",
+    "41364976",
+    "41365012",
+    "41365025",
+    "41365967",
+    "41365971",
+    "41365979",
+    "41365996",
+    "41366000",
+    "41367668",
+    "41367681",
+    "41370102",
+    "41370103"
+   ],
+   "representative": "41343322"
+  },
+  {
+   "cpl": "3666",
+   "model": "QSK19 CM2150 MCRS",
+   "esns": [
+    "41349633",
+    "41351021",
+    "41351859",
+    "41353280",
+    "41353290",
+    "41353297"
+   ],
+   "representative": "41349633"
+  },
+  {
+   "cpl": "4342",
+   "model": "X15 CM2350 X114B",
+   "esns": [
+    "80201235"
+   ],
+   "representative": "80201235"
+  },
+  {
+   "cpl": "8761",
+   "model": "QSX15 CM570",
+   "esns": [
+    "85201236"
+   ],
+   "representative": "85201236"
+  },
+  {
+   "cpl": "3105",
+   "model": "6C8.3",
+   "esns": [
+    "93058669",
+    "93065419",
+    "93087701"
+   ],
+   "representative": "93058669"
+  }
+ ],
+ "to_crawl": [
+  "37290487",
+  "93058669",
+  "41343322",
+  "41349633",
+  "80201235",
+  "85201236"
+ ]
+}
