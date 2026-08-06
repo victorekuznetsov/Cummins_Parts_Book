@@ -1,0 +1,150 @@
+{
+ "partNo": "3101641",
+ "partDesc": "flywheel",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FW1033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel"
+  },
+  {
+   "item": "D103002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103017MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/310/3101641/3101641.obj"
+  },
+  {
+   "fileName": "/310/3101641/3101641.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/310/3101641/3101641_iso.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_iso2.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_back.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_right.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_front.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_top.png"
+  },
+  {
+   "fileName": "/310/3101641/3101641_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "23.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "127 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "23.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "7.38 in    "
+     }
+    }
+   ]
+  },
+  {
+   "name": "Compliance",
+   "attributes": [
+    {
+     "REACH Declaration": {
+      "name": "REACH Declaration",
+      "value": "1907_2006_REACH_3101641.pdf"
+     }
+    },
+    {
+     "RoHS Declaration": {
+      "name": "RoHS Declaration",
+      "value": "2011_65_RoHS_3101641.pdf"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

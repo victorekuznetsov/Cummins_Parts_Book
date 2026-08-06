@@ -1,0 +1,966 @@
+{
+ "partNo": "4965483",
+ "partDesc": "twelve point cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "5669779",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658419",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5661754",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3691671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "2873955",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "3691670",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3688272",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "2870231",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "3691496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "2864630",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "3690546",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3690554",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "2864859",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "3691266",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3691267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3691273",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3691274",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3689046",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3691353",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3688349",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3688106",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3691361",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "3690568",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "2864917",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "3689727",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5576315",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4975211",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "4965904",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4965906",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4965905",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4965903",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4965902",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4965901",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4955831",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler kit"
+  },
+  {
+   "item": "4955830",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler kit"
+  },
+  {
+   "item": "4955829",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler gasket kit"
+  },
+  {
+   "item": "4959824",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "4960215",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "4386706",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4386027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4386199",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "4386725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5320555",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler housing"
+  },
+  {
+   "item": "5394166",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5394165",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5484591",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5484590",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5484589",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5484526",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "5615550",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3688349",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter cooler head"
+  },
+  {
+   "item": "D990016XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1797",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1780",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1816",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1802",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC2796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC1783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1774",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2773",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2780",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC2813",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC2793",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1791",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1792",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1793",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1809",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC1763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "D103014GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103011BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0L3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0L3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103009BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103022BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0J3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0J3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103017MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103021GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1G3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/496/4965483/4965483.obj"
+  },
+  {
+   "fileName": "/496/4965483/4965483.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/496/4965483/4965483_iso_mkt.png"
+  },
+  {
+   "fileName": "/496/4965483/4965483_iso.png"
+  },
+  {
+   "fileName": "/496/4965483/4965483_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "M8 X 1.5 X 100"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "08T7-6"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4.86 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".0987 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4.61 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".24 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

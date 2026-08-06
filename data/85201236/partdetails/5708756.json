@@ -1,0 +1,78 @@
+{
+ "partNo": "5708756",
+ "partDesc": "dataplate",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [],
+ "objectFile": [
+  {
+   "fileName": "/570/5708756/5708756.obj"
+  },
+  {
+   "fileName": "/570/5708756/5708756.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/570/5708756/5708756_front.png"
+  },
+  {
+   "fileName": "/570/5708756/5708756_iso.png"
+  },
+  {
+   "fileName": "/570/5708756/5708756_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "0 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".0001 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "0 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "0 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
