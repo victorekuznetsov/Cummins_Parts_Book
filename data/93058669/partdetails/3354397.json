@@ -1,0 +1,229 @@
+{
+ "partNo": "3354397",
+ "partDesc": "intake manifold cover",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB91024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "TB91002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB9235",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB9216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "IC9070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "IM9717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "TB9288",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "TB9247",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "IC9044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake connection"
+  },
+  {
+   "item": "IC9029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "TB91030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "TB9215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "D413013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413019BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413011BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413069MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413041BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/335/3354397/3354397.obj"
+  },
+  {
+   "fileName": "/335/3354397/3354397.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/335/3354397/3354397_front.png"
+  },
+  {
+   "fileName": "/335/3354397/3354397_iso.png"
+  },
+  {
+   "fileName": "/335/3354397/3354397_iso2.png"
+  },
+  {
+   "fileName": "/335/3354397/3354397_right.png"
+  },
+  {
+   "fileName": "/335/3354397/3354397_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "10 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.1 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "10 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "56 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

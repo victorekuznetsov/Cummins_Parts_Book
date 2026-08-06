@@ -1,0 +1,198 @@
+{
+ "componentHash": "1C286D40069B9075FC9A677520310122D2D1CC82AF31E2EE069E64FA75A4E1DB5ED8D0A33920D89F8C24A7203F6EB0AD20B37F9522200D7DDA9A2244F376C239",
+ "esnType": "mbom",
+ "optionName": "Alternator Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/eh/508_eh0959100_01"
+  }
+ ],
+ "remarks": "Alternator Mounting|engine Cylinders: 6|alternator Manufacturer/model:|dfm 24v/70a Or Ptl 28v/70a|support Interface Type: 68mm Spool|alternator Location:|from Engine C/l (mm/in): -294.2/-11.58|from Crank C/l(mm/in): 287.84/11.33|alternator Pulley Diameter Over|2.5mm Balls (mm/in): 67.45/2.66|alternator Pulley Groove Type:|poly V 8 Rib K|alt. Drive Ratio: 2.9:1|alternator Pulley Location:|ffob To C/l Of First Groove|(mm/in): 57.1/2.49|crank Pulley Diameter Over 2.5mm Balls|(mm/in): 199.42/7.85|tensioner Pulley Diameter Over 2.5mm Balls|(mm/in): 73.95/2.91|tensioner Pivot Location:|from Engine C/l (mm/in): -235.7/-9.28|from Crank C/l (mm/in): 133.97/5.27|tensioner Pulley Location:|from  Engine C/l (mm/in): -175.2/-6.79|from Crank C/l(mm/in): 67.34/2.65|tensioner Pulley Type: Grooved|variant Content:|in Place Of P/n 3901249|nci May Use P/n 5567488|in Place Of P/n 3902460|nci May Use P/n 5567489|in Place Of P/n 3903210|nci May Use P/n 5567487|in Place Of P/n 3919952|nci May Use P/n 5567486|in Place Of P/n 3903112|nci May Use P/n 3925344",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3415692",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3901249",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 25",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902460",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 25",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903112",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 30",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903210",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 x 1.75",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3919952",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 120",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3944312",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR BRACE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/eh/508_eh0959100_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "EH9591-01",
+ "optionNo": "EH9591-01",
+ "path": null
+}

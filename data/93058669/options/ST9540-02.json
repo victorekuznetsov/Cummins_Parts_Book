@@ -1,0 +1,103 @@
+{
+ "componentHash": "87777802CC613DEBD5655CD79FA64DED21E96FCB7A93BBC4E6F54865CF346B61FE701CB8335D5E81AE5EC01AFFC93BF3B8BEA31FFA44BEBA2D22EE4B00C35732",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Starting Motor|pinion Diametral Pitch: 8/10|pinion Gear Od: 46.36|pinion Gear Offset: 0|pinion Drive Style: Reduced Drive|mounting Flange Type:sae #3 3 Bolt 120 Degree|frame Size Diameter: 105|pilot Diameter: 92.05|starting Motor Length: 380|starter Motor Engine Mounted Angle (deg):|43.5+/-30|sealing Provision: Sealed|supply Method: Mtd|cranking Torque: Na|removal Length: 60|manufacturer: Beijing Prestolite|model: M105r3004se|voltage: 24|kilowatt Rating: 7.5|nameplate Brand: Beijing Prestolite|unique Characteristics:ground Stud,soft Start|pinion Position-Rest (mm):  47.5|pinion Position-Engaged (mm):  66.5",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5255292",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5266534",
+        "latestPart": "false",
+        "partDesc": "STARTING MOTOR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "5266544",
+        "latestPart": "false",
+        "partDesc": "RELAY SWITCH",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": null,
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "ST9540-02",
+ "optionNo": "ST9540-02",
+ "path": null
+}

@@ -1,0 +1,362 @@
+{
+ "componentHash": "8879F9825396DE4ADA1009DFC64A220CF0A7F83BB4F8AC242C59E4BB55B226C9030C204277E0FCD8899F5E5F642985CBF6F8BFE5675D8769BAF08B779CBC8694",
+ "esnType": "mbom",
+ "optionName": "Oil Pan",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/op/508_op0935200_06_1"
+  },
+  {
+   "fileName": "/508/op/508_op0935200_06_2"
+  }
+ ],
+ "remarks": "Oil Pan|design Phase: Elite Ii|engine Family: C|engine Cylinders: 6|sump Location: Front|oil Pan Material: Stamped Steel|noise Isolation Included: None|pan Capacity|hi (qt): 20|low (qt: 16|oil Pan Angularity|up: 45|down: 45|side To Side: 45|drain Size: M18|drain Location: Exhaust Side|from Eng C/l(mm): Tbd|from Crank C/l (mm): -359|from Ffob (mm): -224|heater Provision: Yes|heater Boss Size: M22x1.5-6h|heater Boss Location: Exhaust Side|from Eng C/l(mm): Tbd|from Crank C/l (mm): -279.5|from Ffob (mm): -222.2|oil Level Sensor Provision: No|oil Level Sensor Tapping Size: N/a|oil Level Sensor Location: N/a|from Eng C/l(mm): N/a|from Crank C/l (mm): N/a|from Ffob (mm): N/a|block Flange (width/length Hole To Hole):|282 X 773.5|oil Pan Mounting Holes (size): 9mm Thru|oil Pan To Block Mtg Pattern: 24 X M8x1.25|oil Pan/block Mtg Hole Spacing: Equal|oil Pan/block Mtg Hole Dimension: 78.5|oil Pan/gear Hsg Mtg Hole: Unequal|oil Pan/gear Hsg Mtg Hole Qty: 4|oil Pan/fly. Hsg. Mtg Hole Spacing: Unequal|oil Pan/fly. Hsg. Mtg Hole Qty: 4|dowelled For Fly Hsg: No|dipstick Calibration:|bfob-Full/low 0 Deg: 65/91|gasket Material: Mp15|pan Includes Full Perimeter Clamping Plates|variant Content:|in Place Of P/n 5332563|dfm May Use P/n 5682906|in Place Of P/n 3902114|tcx May Use P/n 5286931|in Place Of 4992508|tcl/tel May Use 5528109 And 3287561",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900628",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 30",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3901865",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 20",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3906216",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 x 1.00",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3907860",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "32",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910787",
+      "latestPart": "false",
+      "partDesc": "OIL SUCTION CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910960",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3913638",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 16",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3926865",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "8"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3927611",
+      "latestPart": "false",
+      "partDesc": "TUBE BRACE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "9"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3939352",
+      "latestPart": "false",
+      "partDesc": "OIL SUCTION CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3973071",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3974292",
+      "latestPart": "false",
+      "partDesc": "OIL PAN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4992508",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "13"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5627836",
+      "latestPart": "false",
+      "partDesc": "OIL PAN GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "14"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "2",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/op/508_op0935200_06_1",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "OP9352-06",
+ "optionNo": "OP9352-06",
+ "path": null
+}

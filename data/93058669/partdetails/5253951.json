@@ -1,0 +1,223 @@
+{
+ "partNo": "5253951",
+ "partDesc": "flywheel housing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FH90793",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH90094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH9980",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH90689",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH9463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D563031CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563035GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563033MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563026CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413061CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413059GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413065MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412060GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563029CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3099CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E2001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/525/5253951/5253951.obj"
+  },
+  {
+   "fileName": "/525/5253951/5253951.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/525/5253951/5253951_iso.png"
+  },
+  {
+   "fileName": "/525/5253951/5253951_right.png"
+  },
+  {
+   "fileName": "/525/5253951/5253951_iso2.png"
+  },
+  {
+   "fileName": "/525/5253951/5253951_front.png"
+  },
+  {
+   "fileName": "/525/5253951/5253951_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "59.2 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "35.5 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "58.9 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "16.8 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

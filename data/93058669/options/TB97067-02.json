@@ -1,0 +1,83 @@
+{
+ "componentHash": "9D68AD2A1B759E5BBA64601A83BC174A7C2413C42D6180308EC1588FE340AAD07A1E3B888CD9DECD7B9E1C68CDFFB34CF7CD3935017362F0A1AECEE44BF40F56",
+ "esnType": "mbom",
+ "optionName": "Exhaust Manifold",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/tb/508_tb9706700_02"
+  }
+ ],
+ "remarks": "Mr - Manifold,exhaust|design Phase:  T2c|engine Family:  C|engine Cylinders:  6|turbo Location:  Hmfo|exhaust Manifold Turbo Mtg Flange Location|from Exh Mtg Flange To Turbo Mtg Flange|c/l:  -95.5|from Center Of #1 Exh Port To Top Of Turbo|mtg Flange:  83.5|from Turbo Mtg Flange To C/l Of Port #1:|-315.75|customer Mounting Boss Qty:  6|mounting Boss Locations From Exh Port #1(mm):|boss #1 (-96, 56.5, -98.5)|boss #2 (-96, 56.5, -191)|boss #3 (-96, 56.5, -241)|boss #4 (-96, 56.5, -444)|boss #5 (-96, 56.5, -494)|boss #6 (-96, 56.5, -587)|manifold Type:  Dry|manifold Material Standard|horsepower Requirement:  <=200|this Option Cannot Be Used On Engines|which Exceed 200 Hp|manifold Style:  1 Piece|turbo Mtg Flange Geometry: 82.5 X 70|turbo Flange Style:  Rectangular|turbo Flange Angle From Vertical:  0",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3906741",
+      "latestPart": "true",
+      "partDesc": "EXHAUST MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3932063",
+      "latestPart": "false",
+      "partDesc": "EXHAUST MANIFOLD GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/tb/508_tb9706700_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "TB97067-02",
+ "optionNo": "TB97067-02",
+ "buildCode": null,
+ "path": null
+}

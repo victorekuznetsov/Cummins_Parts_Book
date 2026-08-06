@@ -1,0 +1,211 @@
+{
+ "partNo": "3415604",
+ "partDesc": "fan support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3415603",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan support"
+  },
+  {
+   "item": "5583914",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA90457",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA90398",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA90525",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA90323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "D563020BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563031CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563029CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563028BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D883004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413058GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563015GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413059GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413061CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/341/3415604/3415604.obj"
+  },
+  {
+   "fileName": "/341/3415604/3415604.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/341/3415604/3415604_top.png"
+  },
+  {
+   "fileName": "/341/3415604/3415604_front.png"
+  },
+  {
+   "fileName": "/341/3415604/3415604_iso.png"
+  },
+  {
+   "fileName": "/341/3415604/3415604_iso2.png"
+  },
+  {
+   "fileName": "/341/3415604/3415604_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "0 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".1 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "0 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "0 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

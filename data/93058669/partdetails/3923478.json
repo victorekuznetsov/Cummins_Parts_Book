@@ -1,0 +1,1426 @@
+{
+ "partNo": "3923478",
+ "partDesc": "camshaft",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3356593",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "camshaft kit"
+  },
+  {
+   "item": "3415452",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "3968316",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "short block"
+  },
+  {
+   "item": "4090173",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "3934598",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "short block"
+  },
+  {
+   "item": "3935715",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "3964135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "3968606",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "5469661",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP43629",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43662",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP40311",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40303",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP40399",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40355",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP40883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP40929",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP41153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod"
+  },
+  {
+   "item": "PP40997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP42735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8517",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8584",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8657",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8145",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8197",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8222",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8292",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8307",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8388",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8418",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP48585",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP48759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP43672",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP44263",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44322",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44300",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44335",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP44597",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP45240",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43183",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43173",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43294",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43295",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43332",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP43413",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP43398",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP43396",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP43397",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP43433",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft gear"
+  },
+  {
+   "item": "PP41786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP41783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP42337",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP42337",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP42333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP42335",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP42673",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2996",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1668",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1263",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1262",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1372",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP42155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP42164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D553019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413065MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413068MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413069MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413057BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413058GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP1406",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1419",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1439",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2894",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2951",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2960",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2642",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D413059GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413061CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413062BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412060GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412068MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP42863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP8509",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8773",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8774",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8277",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8308",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8405",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8000",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2664",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2873",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2368",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2367",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2290",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2307",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2191",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2194",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2101",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1845",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1918",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1922",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1949",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1566",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1614",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1618",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1615",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1662",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1684",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "3971794",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "3968317",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "short block"
+  },
+  {
+   "item": "4090180",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "3968607",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "3934599",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "short block"
+  },
+  {
+   "item": "D1E2001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412044MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP8269",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D413021CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413008GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412033GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP8270",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8652",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D413003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553002BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413034GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413030MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413027TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413050MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413049BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413046MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413042BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413041BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413007BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553007CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D551010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/392/3923478/3923478.obj"
+  },
+  {
+   "fileName": "/392/3923478/3923478.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/392/3923478/3923478_iso_mkt.png"
+  },
+  {
+   "fileName": "/392/3923478/3923478_right.png"
+  },
+  {
+   "fileName": "/392/3923478/3923478_iso2.png"
+  },
+  {
+   "fileName": "/392/3923478/3923478_top.png"
+  },
+  {
+   "fileName": "/392/3923478/3923478_iso.png"
+  },
+  {
+   "fileName": "/392/3923478/3923478_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "99T1-6"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "39.25 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "28.3 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "5.2 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.25 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

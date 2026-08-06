@@ -1,0 +1,557 @@
+{
+ "componentHash": "8193F10D3849CAE3B1C78259A8E72E15B34C373F8000BF96DDA57AF4A2CDCD9DD7D0A480402CB63DF3E54A848606E364B43CCEA42B3FA2DB632E0D7F267C4DA5",
+ "esnType": "mbom",
+ "optionName": "Engine Oil Cooler",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/lc/508_lc0921000_04"
+  }
+ ],
+ "remarks": "Engine Oil Cooler|filter Head Location:|from Engine C/l(mm): -219.7|from Ffob C/l(mm): -359.5 Mm|advertised Hp Restriction:|less Than Or Equal To 300 Hp.|accessory Support Attachment Supplied: None|pipe Plug 3008468 May Be Used In Place|of 4931643|pipe Plug 3008469 May Be Used In Place|of 4933532|variant Content:|in Place Of P/n 5403905|dfm May Use P/n 3929011|in Place Of|p/n 3900619/3931084/3934410|/3945967/3970655/4931643/|4933532/5450367|dfm May Use P/n 6542759",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3918174",
+      "latestPart": "false",
+      "partDesc": "OIL COOLER CORE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3929011",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL COOLER COVER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3966976",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 65",
+      "qty": "11",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3974815",
+      "latestPart": "true",
+      "partDesc": "COOLER CORE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4936396",
+      "latestPart": "true",
+      "partDesc": "LUBRICATING OIL FILTER HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3008468",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 NPT",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3008469",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/4 NPT",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3906619",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/8 NPT",
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3931084",
+        "latestPart": "false",
+        "partDesc": "RETAINER PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3930910",
+          "latestPart": "false",
+          "partDesc": "RETAINER PLUG",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "8"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3930911",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "9"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "3934410",
+        "latestPart": "false",
+        "partDesc": "BYPASS VALVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3201562",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "10"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3934278",
+          "latestPart": "false",
+          "partDesc": "BYPASS VALVE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "11"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "3945967",
+        "latestPart": "false",
+        "partDesc": "PRESSURE REGULATOR PLUNGER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "12"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3970655",
+        "latestPart": "false",
+        "partDesc": "COMPRESSION SPRING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "13"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "5450367",
+        "latestPart": "false",
+        "partDesc": "LUBRICATING OIL FILTER HEAD",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3907860",
+          "latestPart": "false",
+          "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "M8 X 1.25 X 25",
+          "qty": "4",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "14"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3918334",
+          "latestPart": "false",
+          "partDesc": "LUBRICATING OIL FILTER HEAD",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "15"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3936365",
+          "latestPart": "false",
+          "partDesc": "PRESSURE RELIEF VALVE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "16"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "5443707",
+          "latestPart": "false",
+          "partDesc": "CONNECTION GASKET",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "17"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "5450365",
+          "latestPart": "false",
+          "partDesc": "LUBRICATING OIL COOLER COVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "18"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "8F76BC12D13A2E1AE2178A3A8D68F256C0642AED90252D3D493CEAA4314F41A5F31410A49BF508B7D9A0A5CCDF63A28A8ECD275A637ADEE9E8A4A5E04988BE15",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "3356855",
+   "kitDesc": "Mounting Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/lc/508_lc0921000_04",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "LC9210-04",
+ "optionNo": "LC9210-04",
+ "path": null
+}

@@ -1,0 +1,175 @@
+{
+ "componentHash": "949B47BCAA3454383749E09435637A0972E3056EF3EA3EAF406B5445EA62CA8F10D44FD61C994FDC325BB0D1918C604D7B984C0F8EEF4A6C917C75AB12CE54A2",
+ "esnType": "mbom",
+ "optionName": "Valve Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/vc/508_vc0922100_01"
+  }
+ ],
+ "remarks": "Valve Cover|engine Family: C|engine Cylinders: 6|design Phase: Elite Ii|valve Cover Height: 82.5|valve Cover Mounting Holes: 6 X 11.95 Mm Thru|valve Cover Mounting Flange: 802x106.4|oil Filler Cap Location:front|from Engine C/l (mm): 25|from Crank C/l (mm): 590|from Ffob (mm):  -154|breather Mtg Provision: 26mm|breather Location (mm):|(between #3 And #4 Cylinders)|from Engine C/l (mm): 43.5|from Crank C/l (mm): 571.6|from Ffob (mm):  -428|noise Reduction Provision: No|cns (rmep) Plant Can Use 3920345 Instead Of|3922639",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3902466",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902468",
+      "latestPart": "false",
+      "partDesc": "FILLER CAP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3905449",
+      "latestPart": "false",
+      "partDesc": "SEAL,ROCKER LEVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910824",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3922639",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 68.51 : M8 X 1.25 X 11",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3930903",
+      "latestPart": "false",
+      "partDesc": "VALVE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/vc/508_vc0922100_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "VC9221-01",
+ "optionNo": "VC9221-01",
+ "path": null
+}

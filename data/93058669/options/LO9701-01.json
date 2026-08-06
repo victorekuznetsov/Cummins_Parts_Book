@@ -1,0 +1,60 @@
+{
+ "componentHash": "3F6F4F8EE0BF96B365B780C6E7DC309E38CC67C767ED09F9949CEF20386F8273EF6419F0501581469170D925A26F1D7153C89758C1830C15A33AB6E608DCF3A9",
+ "esnType": "mbom",
+ "optionName": "Engine Oil",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/lo/508_lo0970100_01"
+  }
+ ],
+ "remarks": "Engine Oil|tag Identification: No Oil|tag Location: Front Lifting Bracket|varient Content:|in Place Of P/n 3967353|dfm May Use P/n 4983154|nci May Use P/n 5303249|zck May Use P/n 5320674",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4983154",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/lo/508_lo0970100_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "LO9701-01",
+ "optionNo": "LO9701-01",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "CD6D403603A23328AD162488D7472F46A3475A76C57B89CE868FA13546430F2072E17BBA91C6205F51FBC4FDEEA7FEBA716AC36E3798BB8E5902A04148E5E5C3",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ap/508_ap9025600_01"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Stg Ii|special Allowance: Na|cert Agent: Mep|comment: Na|fuel Type: Diesel|cert Level2:|certified By2:|structure Code:03 Ebm|engine Family:c/l Series|engine Design Phase:current Product|manufacturer Of Record:dcec|mtg Location:gear Housing|language:english|dataplate Material:plastic",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5523414",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/ap/508_ap9025600_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "AP90256-01",
+ "optionNo": "AP90256-01",
+ "path": null
+}

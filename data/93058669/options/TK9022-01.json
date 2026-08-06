@@ -1,0 +1,107 @@
+{
+ "componentHash": "F840C382BD0B024B0C7A50FCA9733BC6EB7FC4C5B7BDA2B10BDF38E1A2AACC2028A5890024CDC9DE99B3A03874BC46A24D34A1808137A67BF2B6E77D5DBE0D4A",
+ "esnType": "mbom",
+ "optionName": "Torque Converter Oil Cooler",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/tk/508_tk0902200_01"
+  }
+ ],
+ "remarks": "Torque Converter Oil Cooler|for Use When No External Bypass Is Required|for Torque Converter Cooler.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3089238",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3089239",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3089240",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/tk/508_tk0902200_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "TK9022-01",
+ "optionNo": "TK9022-01",
+ "path": null
+}

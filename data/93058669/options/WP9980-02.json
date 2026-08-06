@@ -1,0 +1,60 @@
+{
+ "componentHash": "7FA7762BE466BD09672C3123623788D6513D9A56FFAC12A2059E0B603005C7E232DC9C03AA7E015FEE95993371BBB4D8206FBAC2D5F4C19BC9B215FCC0FBDE44",
+ "esnType": "mbom",
+ "optionName": "Water Pump Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wp/508_wp0998000_02"
+  }
+ ],
+ "remarks": "Water Pump Drive|belt Length (mm):  1955.8|material: Orion",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3973181",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/wp/508_wp0998000_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "WP9980-02",
+ "optionNo": "WP9980-02",
+ "buildCode": null,
+ "path": null
+}

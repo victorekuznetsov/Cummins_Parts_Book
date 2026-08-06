@@ -1,0 +1,229 @@
+{
+ "partNo": "3938091",
+ "partDesc": "fuel pump support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FP90370",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump mounting"
+  },
+  {
+   "item": "FP92847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump mounting"
+  },
+  {
+   "item": "FP93002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP99001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump mounting"
+  },
+  {
+   "item": "FP90636",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump mounting"
+  },
+  {
+   "item": "FP82502",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563014MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563015GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413065MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413069MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413058GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413061CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413062BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3099CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E2001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/393/3938091/3938091.obj"
+  },
+  {
+   "fileName": "/393/3938091/3938091.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/393/3938091/3938091_front.png"
+  },
+  {
+   "fileName": "/393/3938091/3938091_iso.png"
+  },
+  {
+   "fileName": "/393/3938091/3938091_right.png"
+  },
+  {
+   "fileName": "/393/3938091/3938091_iso2.png"
+  },
+  {
+   "fileName": "/393/3938091/3938091_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.375 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".56 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "2.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "3.38 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

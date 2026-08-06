@@ -66,5 +66,16 @@ window.ENGINES = [
   "options": 82,
   "parts": 863,
   "fleet": []
+ },
+ {
+  "esn": "93058669",
+  "model": "6C8.3",
+  "cpl": "3105",
+  "machine": "SG21A-3",
+  "build": "2022-09-22",
+  "config": "D413052CX03",
+  "options": 82,
+  "parts": 392,
+  "fleet": []
  }
 ];

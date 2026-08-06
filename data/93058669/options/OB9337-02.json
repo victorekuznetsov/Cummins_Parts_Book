@@ -1,0 +1,83 @@
+{
+ "componentHash": "80174D60FC88595CEA025800903A7049412FC3C6FD2CBD482F92C05310CE6A05FD1C18E02426F5F5F988895BB31550C299C382B268A2F994FBE8C03D4C8838F8",
+ "esnType": "mbom",
+ "optionName": "Hand Hole Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ob/508_ob0933700_02"
+  }
+ ],
+ "remarks": "Hand Hole Cover|access Hole Cover Included: Yes|unique Characteristics:|this Option Used When A Mechanical Tach|drive And Oil Fill Are Not Located On|front Gear Cover",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3903463",
+      "latestPart": "false",
+      "partDesc": "ACCESS HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903475",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/ob/508_ob0933700_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "OB9337-02",
+ "optionNo": "OB9337-02",
+ "buildCode": null,
+ "path": null
+}

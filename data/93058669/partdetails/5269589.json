@@ -1,0 +1,2221 @@
+{
+ "partNo": "5269589",
+ "partDesc": "oil gauge tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4940115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil gauge tube"
+  },
+  {
+   "item": "2867813",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil lever gauge"
+  },
+  {
+   "item": "LG9352",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9641",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9643",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9646",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9655",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9662",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9664",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9666",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9667",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9668",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9669",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9682",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9688",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9756",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9171",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9175",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9182",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9191",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9210",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9224",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9237",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9242",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9244",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9245",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9248",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9249",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9261",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9269",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9276",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9288",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9299",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9328",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9826",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9890",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9939",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9960",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9971",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9972",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9973",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9974",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9383",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9101",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9401",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9402",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9427",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9459",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9473",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9477",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9478",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9479",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9480",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9507",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9518",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9597",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9598",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG9640",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90377",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90395",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90240",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90242",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90243",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90279",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90471",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge location"
+  },
+  {
+   "item": "LG91577",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LG91529",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413065MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413061CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413062BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413058GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553017GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D551018GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553007CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553012CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493017BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493019GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D551010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D551015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D551013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D553002BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493011CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493002BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D493001BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D491018GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D491015CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D491010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563008BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563015GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563014MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563023MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563021BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563031CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563029CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563025BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D883007BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D883006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D883002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D852003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D852002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D883001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D851001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D751001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563036MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LG90337",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG90272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "D403083BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403075MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403068CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403073CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412033GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412043BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412044MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412006BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412004GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412015PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412010MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411048CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403105BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413042BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413034GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413027TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413030MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413018FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413016PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413021CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413019BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413023MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413007BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413008GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413011BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413009MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412054CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412060GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412068MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413059GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413057BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413055CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413050MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413047BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413049BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413046MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413038MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413041BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413068MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383054GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383055CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383047CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383049BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383048CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383045CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402007GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402022PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402013MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401015MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401009BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401047CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401021PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401059BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401052MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401006GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403018FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403020BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403028MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402101CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402081BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402078GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402056CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402049DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402051MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402026MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402016FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403064BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403057CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403054BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403055BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403050DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403041MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403025BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403023PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403031BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403084BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382008BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382013MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382016FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382011MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313014MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382005GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381007BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381010MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381004GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383032CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383022BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383009BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383017BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383015MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383006GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383020PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382043CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382056CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382057GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382035MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E3003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1E2001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403096MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403083BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/526/5269589/5269589.obj"
+  },
+  {
+   "fileName": "/526/5269589/5269589.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/526/5269589/5269589_front.png"
+  },
+  {
+   "fileName": "/526/5269589/5269589_iso2.png"
+  },
+  {
+   "fileName": "/526/5269589/5269589_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.85 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".045 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4.35 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".45 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

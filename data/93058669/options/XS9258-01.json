@@ -1,0 +1,60 @@
+{
+ "componentHash": "02966D5CE40AB0534FD7B094B1A25EF7A37A18D96055B07463C838B7713C665DF4C4AD6ADD5B8C3194A9E0DF8544C4AC94824CD73777BF5B3277534D87B5E5FD",
+ "esnType": "mbom",
+ "optionName": "Exhaust Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/xs/508_xs0925800_01"
+  }
+ ],
+ "remarks": "Exhaust Outlet Connection|connection Supplier:  Customer|mounting Supplied:  V-Band T-Bolt Clamp|groove Width (mm):  6.65 (0.26 In)|clamp Id (mm):  101.6 (4 In)|supply Method: Kitted|variant Content:|in Place Of P/n 3905216|dfm May Use P/n 3415546|nci May Use P/n 6498736|bzl May Use P/n 5331784",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3415546",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/xs/508_xs0925800_01",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "XS9258-01",
+ "optionNo": "XS9258-01",
+ "path": null
+}

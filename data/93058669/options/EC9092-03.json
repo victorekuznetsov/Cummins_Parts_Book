@@ -1,0 +1,60 @@
+{
+ "componentHash": "62AC3809B67F4C4AC74A28C2422DD241FBF5BBC3B5AA0D75BFCCF981BC92363B0710773C934E3C2DEA75B9546EE8E0EEFEA284D853BAB28B84E03F2FC767A163",
+ "esnType": "mbom",
+ "optionName": "Thermostat",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ec/508_ec0909200_03"
+  }
+ ],
+ "remarks": "Thermostat|thermostat Opening Temp : 180 Deg F (82 C)|supplier : Dongfeng Fuji Thomson|connection Orientation: Pointing Up",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5448899",
+      "latestPart": "false",
+      "partDesc": "THERMOSTAT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/ec/508_ec0909200_03",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "EC9092-03",
+ "optionNo": "EC9092-03",
+ "path": null
+}

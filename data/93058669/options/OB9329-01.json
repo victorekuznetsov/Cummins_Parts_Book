@@ -1,0 +1,83 @@
+{
+ "componentHash": "6A2E494218167B003252B38DBDB0194CA3380019DD883727CEC06EE013374DC7B7184CC155E101807B7504271AB493CDEA0336C4DFA70A7362C8628E0246C04C",
+ "esnType": "mbom",
+ "optionName": "Oil Fill Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ob/508_ob0932900_01"
+  }
+ ],
+ "remarks": "Oil Fill Arrangement|design Phase : Elite Ii|engine Family: C|engine Cylinders: 6|oil Fill Supplier: Cummins|oil Fill Location: Fuel Pump Side|from Engine C/l(mm): 176.1|from Crank C/l(mm): 253.2|from Ffob (mm): -496.5|filler Cap Provided: Yes|variant Content :|in Place Of P/n 101322|tcx  May Use P/n 6316437|kcl May Use P/n 107981",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "101322",
+      "latestPart": "false",
+      "partDesc": "FILLER CAP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3905408",
+      "latestPart": "false",
+      "partDesc": "OIL FILLER TUBE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/ob/508_ob0932900_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "OB9329-01",
+ "optionNo": "OB9329-01",
+ "buildCode": null,
+ "path": null
+}

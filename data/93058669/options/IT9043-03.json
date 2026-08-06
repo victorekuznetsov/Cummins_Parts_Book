@@ -1,0 +1,129 @@
+{
+ "componentHash": "89DFD0B47E3ACE7015A00BCA58EB22B18AF4C7FE5F61689431D790717B773687EBD79B5A78865C8A5E356577CEFA7DEF1333020F2DDDA3A9F0A63044ED5D241E",
+ "esnType": "mbom",
+ "optionName": "Air Transfer Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/it/508_it0904300_03"
+  }
+ ],
+ "remarks": "Air Transfer Connection|connection Type: 90 Degree Elbow|orientation: Rotatable|engine Interface Flange Type: Half Marmon|engine Interface Flange Dia (mm):73.85/2.91|engine Interface Flange Thickness(mm/in): 6.4|/0.25|oem Interface Conn. Dia.(mm/in): 101.5/4.00|oem Interface Conn. Clamping Surface(mm/in):|56.5/2.22|turbo Interface To C/l Oem Interface(mm/in):|95.2/3.75|oem Interface To C/l Turbo Interface (mm/in):|123/4.84|customer Tapping: 2 X 1/8 Pipe Tap Thru|supply Method: Mounted|variant Content:|in Place Of P/n 3972681|tcx May Use P/n 5404931",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008465",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/8 NPT",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3415547",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3883284",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3883977",
+      "latestPart": "false",
+      "partDesc": "AIR TRANSFER PIPE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/it/508_it0904300_03",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "optionNo": "IT9043-03",
+ "optionNumber": "IT9043-03",
+ "buildCode": null,
+ "path": null
+}
