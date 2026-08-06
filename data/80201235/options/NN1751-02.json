@@ -1,0 +1,83 @@
+{
+ "componentHash": "8016AD97335B32B26607AA039C24927815D2A9B3BBC2CB427AE072B7FF008F051E6F58469E4BACCF7F58DE154BDDAB326BC95734DAF88864AE2F492A8E7FAE38",
+ "esnType": "mbom",
+ "optionName": "Nameplate",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/nn/082_nn0175100_02"
+  }
+ ],
+ "remarks": "Nameplate|rating: Efficiency Series|application: Automotive|unique Characteristics: Contains Component|cover",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5532540",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5571111",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/082/nn/082_nn0175100_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "082",
+ "optionNumber": "NN1751-02",
+ "optionNo": "NN1751-02",
+ "buildCode": null,
+ "path": null
+}

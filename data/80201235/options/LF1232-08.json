@@ -1,0 +1,83 @@
+{
+ "componentHash": "870EF1708405BB582EFC6CC58D24EB62045A2FDD5D048B1386211BB1C97FEA14ED5983956D32EF7D16F961DAEB6C1DAED327049D9FCC730FEE4FF6BD0C854986",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/lf/082_lf0123200_08"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|one Combo Spin-On Element Mounted.|to The Lube-Cooler.|filter Model: Lf14001nn|decal Provided: Cummins Filtration|lub Oil Filter Head Thread: M95 X 2.5",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4367100",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4367101",
+      "latestPart": "false",
+      "partDesc": "INFORMATION DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/082/lf/082_lf0123200_08",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "082",
+ "optionNumber": "LF1232-08",
+ "optionNo": "LF1232-08",
+ "buildCode": null,
+ "path": null
+}

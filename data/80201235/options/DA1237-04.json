@@ -1,0 +1,129 @@
+{
+ "componentHash": "8C47B792B8E80700D559A3AF2765039B3DCC6DC6928165DD9F1C3C9C87D9E58369EAC9A32D76A7CF9A621B26980DA6317670B70E794B0895A5F24AB4C0DA63F0",
+ "esnType": "mbom",
+ "optionName": "Vibration Damper Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/da/082_da0123700_04"
+  }
+ ],
+ "remarks": "Vibration Damper Arrangement|provision For Mounting Front Power Takeoff:|none|speed Limitation: 2300 Rpm|crank Pulley Groove Description: Poly Vee 12|rib K|crank Pulley Diameter: 240 Mm|number Of Grooves: 12|distance For Ffob To C/l Of First Pulley|groove: 169.28 Mm|unique Characteristics: None",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3680750",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 1.5 X 50",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3680758",
+      "latestPart": "false",
+      "partDesc": "CLAMPING PLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3682627",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4101884",
+      "latestPart": "false",
+      "partDesc": "VISCOUS VIBRATION DAMPER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/da/082_da0123700_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "optionNo": "DA1237-04",
+ "optionNumber": "DA1237-04",
+ "buildCode": null,
+ "path": null
+}

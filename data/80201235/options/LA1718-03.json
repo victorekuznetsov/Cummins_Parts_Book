@@ -1,0 +1,83 @@
+{
+ "componentHash": "A692BF27BDEBD3234B8FF9FE7070AC787EFFD064B8E6009825668F94A0C3FB69C719667A16BC4017FE5109D61AF0322E85651311C47BC390B7AD0AA871D6EC16",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/la/082_la0171800_03"
+  }
+ ],
+ "remarks": "Lifting Bracket Mounting|compatible With Retaining Brace That Mounts|to The Front Of The Cylinder Head: No|front Bracket Capscrews Quantity: 4|4 M12 Capscrews 30 Mm In Length|right Rear Bracket Capscrews Quantity: 3|include 2 Studded Screws",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093938",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 30",
+      "qty": "5",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3687580",
+      "latestPart": "false",
+      "partDesc": "SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 30 : M8 X 1.25 X 21",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/la/082_la0171800_03",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "optionNo": "LA1718-03",
+ "optionNumber": "LA1718-03",
+ "buildCode": null,
+ "path": null
+}

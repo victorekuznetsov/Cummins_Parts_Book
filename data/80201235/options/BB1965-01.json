@@ -1,0 +1,296 @@
+{
+ "componentHash": "FE8983E9E63672255072B4E72DAAED69E237A4764C67D368BFFDAC2F37564BB5876C5F2DBA797539071DB5C1AEC06ED2131134A5E71A4E80809E126659CE9295",
+ "esnType": "mbom",
+ "optionName": "Main Bearing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/bb/082_bb0196500_01"
+  }
+ ],
+ "remarks": "Main Bearing|application: Automotive|thrust Bearing Type: Coined Profile|note: Use With Dual Disk Clutch Flywheels|and Flex Plates.|thrust Bearing Capacity: 11,500 N",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3678555",
+      "latestPart": "false",
+      "partDesc": "MAIN BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "7",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3678556",
+      "latestPart": "false",
+      "partDesc": "MAIN BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "7",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3680202",
+      "latestPart": "true",
+      "partDesc": "CRANKSHAFT THRUST BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5440758",
+      "latestPart": "true",
+      "partDesc": "ENGINE CRANKSHAFT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3068935",
+        "latestPart": "false",
+        "partDesc": "PIN DOWEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3680503",
+        "latestPart": "true",
+        "partDesc": "CRANKSHAFT ADAPTER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3680542",
+        "latestPart": "false",
+        "partDesc": "CRANKSHAFT GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3681054",
+        "latestPart": "false",
+        "partDesc": "PIN DOWEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3689001",
+        "latestPart": "false",
+        "partDesc": "SPEED INDICATOR RING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "5440757",
+        "latestPart": "true",
+        "partDesc": "ENGINE CRANKSHAFT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "9"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "05C5D74CDF03B0966EFE500F7DFEDA21E829503FA9FF46D30337D4B3325AB80F5BE9D2B4891121D11EFD69A86A0A91F02C712B45A545608320B60487C30AFEDE",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "3800298",
+   "kitDesc": "Main Bearing Set",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "C5B5F280DCF66752CFD0050CFAAC7DC4DAC5D5A19A8338EB041F9B5394194CC17A1F890A1D72CDBF3211CFA657CB876123514252DAE266613E1B17B1A197F28C",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "4089845",
+   "kitDesc": "Main Bearing (.010) Set",
+   "kitNotes": "1.00 Mm Oversize",
+   "kitType": "OVERSIZE"
+  },
+  {
+   "componentHash": "C2B09A99C035D61D1C62F173BEFE8795EA56D7910F640494E1C9912A3A8C231DB29D57F040A54FEE346AE7390702553A854031C74CAF07E534528CB03AAFDC53",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "4089846",
+   "kitDesc": "Main Bearing (.020) Set",
+   "kitNotes": "0.50 Mm Oversize",
+   "kitType": "OVERSIZE"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/082/bb/082_bb0196500_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "082",
+ "optionNumber": "BB1965-01",
+ "optionNo": "BB1965-01",
+ "buildCode": null,
+ "path": null
+}

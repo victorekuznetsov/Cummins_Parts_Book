@@ -1,0 +1,106 @@
+{
+ "componentHash": "6C245E51D3F3810F733FDDA1F970E9E71E2EE0B802083D5878C2C76919C854CFBEB6001CC095ABB29E6B7CA9F8161E296C189172A36AE8C1A8B2E5EE30612C30",
+ "esnType": "mbom",
+ "optionName": "Refrigerant Compressor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/cf/082_cf0107200_04"
+  }
+ ],
+ "remarks": "Refrigerant Compressor Mounting|belt Supplied: Customer|cpr Mounting Bracket Provision: Sanden Pad|mount|cpr Mounting Bracket: Cummins|ref Compressor Mounting Position: High|drive Belt: Poly V 6 Rib \"k\"|drive Pulley Rotation:|same As Engine Crankshaft|compressor Pulley Diameter: 125 Mm (4.92 In)|belt Tensioner: Automatic|pulley Groove Location: 133.16 Mm (5.243 In)|customer Supplied Refrigerant Compressor|refrigerant Compressor Spacers Included: No|idler Pulley Included: Yes|used With Standard Alternator",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3689465",
+      "latestPart": "false",
+      "partDesc": "IDLER PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3690067",
+      "latestPart": "false",
+      "partDesc": "BELT TENSIONER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4925884",
+      "latestPart": "false",
+      "partDesc": "SOCKET HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 70",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "082",
+ "artCallOut": "/082/cf/082_cf0107200_04",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "CF1072-04",
+ "optionNo": "CF1072-04",
+ "path": null
+}

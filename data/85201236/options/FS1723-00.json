@@ -1,0 +1,56 @@
+{
+ "componentHash": "5077EDEDD61DDC53012C1BB293E29E2531000A502301987E075C26EDA5A4A70ECFDF7C0E3D0C667E0974ED1A41E8768932140C2C4B6D700CA5D92079506B6674",
+ "esnType": "mbom",
+ "optionName": "Fuel System Accessories",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Fuel System Accessories|component Supplied:  Fuel Drain Hose|hose Size: Sae #10|hose Length:  350 Mm|customer Connection: Sae #10 Male 45 Degree|flare|check Valve Compatible:  Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3101610",
+      "latestPart": "false",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "FS1723-00",
+ "optionNo": "FS1723-00",
+ "path": null
+}

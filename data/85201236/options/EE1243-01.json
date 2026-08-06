@@ -1,0 +1,56 @@
+{
+ "componentHash": "A456C802395DD7403665C47FC3B2211FDC2C3711E8AAA501C12054938FE4DE7DD61F3C645E7EC50F510F78889BD4B6FFCB98B05407094338B637F07B199D467A",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Alternator|quantity:  One|manufacturer/model/type:|delco Remy: 33 Si 450|volts: 24|amps: 100|grounding Method: Negative|insulation Provision: No|sealing Provision: No|built-In Voltage Regulator: Yes|ground Wire Supplier: Customer|alternator Length: 210 Mm (8.27 In.)|unique Characteristics:  Spool Mount And|marine Corrosion Resistant|charging System:  Standard|battery Terminal:  1/4 - 28|r Terminal:  Pin|not Recommended For Severe Cold,|arctic Conditions (less Than -20f/-29c).",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3400698",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "127",
+ "optionNumber": "EE1243-01",
+ "optionNo": "EE1243-01",
+ "buildCode": null,
+ "path": null
+}

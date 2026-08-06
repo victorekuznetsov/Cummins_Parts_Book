@@ -1,0 +1,60 @@
+{
+ "componentHash": "E13EFC55E57C71833AB2BEB57DD560AEFCE5CBB65DDC5C69FAA55CD3E552BD55263A269A6BD68F33073B6DAFD9382567E47B39A35E61ECFFA66C0F3215E3FF37",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/sm/082_sm0173200_04"
+  }
+ ],
+ "remarks": "Starting Motor Mounting|cummins Supplied Mounting|screws: English (in)|clutch Provision: Dry|starter Provision: Single|starter Mounting Location: Left Side",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3103423",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 2 1/2 INCH",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "082",
+ "artCallOut": "/082/sm/082_sm0173200_04",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "SM1732-04",
+ "optionNo": "SM1732-04",
+ "path": null
+}

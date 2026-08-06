@@ -1,0 +1,83 @@
+{
+ "componentHash": "67ABED3B2E6B774B3FF213ACE95EF9C1F9F04FDC3D418DE8791C2D2B35C3FF25A67787953729127A20B227B7D958DC2B2BA59A743B5778016DC71EF6445A0DCF",
+ "esnType": "mbom",
+ "optionName": "Air Cleaner Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ca/082_ca0170600_00"
+  }
+ ],
+ "remarks": "Air Cleaner Plumbing|cummins Interface: Turbo Compressor Inlet|oem Interface: Straight Adapter|air Compressor Plumbing Supplier: Cummins",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3690079",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3691072",
+      "latestPart": "true",
+      "partDesc": "ADAPTER CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/082/ca/082_ca0170600_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "082",
+ "optionNumber": "CA1706-00",
+ "optionNo": "CA1706-00",
+ "buildCode": null,
+ "path": null
+}

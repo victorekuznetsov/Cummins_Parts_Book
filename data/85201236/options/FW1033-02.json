@@ -1,0 +1,107 @@
+{
+ "componentHash": "6B1E7F00C2B403B9EA791FCD87658CA77FB131971808A243339921DB9704187A248598EC5335066452E57722B3F49237FE25B1F814EA4AE06BB7703919D17DD2",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/fw/127_fw0103300_02"
+  }
+ ],
+ "remarks": "Flywheel|type: Flywheel|flywheel Supplier: Cummins|intended Housing Sae: 1|starter Center Distance: 275.6 Mm (10.85 In)|clutch Bearing Pilot Bore Dia:|100.00 Mm (3.94 In)|clutch Size: 355.6 Mm (14 In)|rear Gear Drive: No|intended Drive Hardware: Overcenter Clutch|transmission Mtg Face To Rfob:|130.4 Mm (5.134 In)|additional Information: 118 Tooth Ring Gear|use With Twin Disc Ibf-214-Op1|and Ibf-314-Op1 Clutch Or With 6-S-1500|or F-10000 Series Torque Converters.  Also|with Adc T14ail-10, T14ail-Hd10 Clutches.|provides Unique Mounting Hardware For|flywheel To Crankshaft Joint.|flywheel Mounting Web Thickness: 42.5 Mm|ring Gear Supplier: Cummins",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3101641",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4851",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3101642",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/127/fw/127_fw0103300_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "127",
+ "optionNo": "FW1033-02",
+ "optionNumber": "FW1033-02",
+ "buildCode": null,
+ "path": null
+}

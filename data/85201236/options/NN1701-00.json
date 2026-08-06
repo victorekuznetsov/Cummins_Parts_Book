@@ -1,0 +1,83 @@
+{
+ "componentHash": "55ABCD26217C96E16E8728C2643AB329F03923849F58123DF093839FA26223E10BE20D99E2665002BDF9051E95FC0DC5302DC8CB0435C9ED8266EB0A3500AB6C",
+ "esnType": "mbom",
+ "optionName": "Nameplate",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/nn/127_nn0170100_00"
+  }
+ ],
+ "remarks": "Nameplate|engine Nameplate|application: Industrial, Power Generation",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3101402",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5532540",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/127/nn/127_nn0170100_00",
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "NN1701-00",
+ "optionNo": "NN1701-00",
+ "path": null
+}

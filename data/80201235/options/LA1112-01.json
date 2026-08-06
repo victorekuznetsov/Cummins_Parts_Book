@@ -1,0 +1,83 @@
+{
+ "componentHash": "ABCE9FB12D9DD352651624E94C71EB8B4E19A86CE2DBD7C40832EBDE982E1FC319A6914FB498BF057019E74BB09DEEDCD470DF8C295BC6B5D1349657674FF3A8",
+ "esnType": "mbom",
+ "optionName": "Lifting Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/la/082_la0111200_01"
+  }
+ ],
+ "remarks": "Lifting Arrangement|quantity Of Brackets: 2|left Front Bracket Mounting Hole Locations:|1610, 1613, 6506, 6545|left Front Bracket Angle Ref Crank C/l: 45|left Front Bracket Capscrew Quantity: 4|right Rear Bracket Mounting Hole Locations:|5330, 5331, 5333|right Rear Bracket Angle Ref Crank C/l: 0|right Rear Bracket Capscrew Quantity: 3|thermostat Housing Compatible:|single Thermostat",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3686248",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3686403",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/la/082_la0111200_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "optionNo": "LA1112-01",
+ "optionNumber": "LA1112-01",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,129 @@
+{
+ "componentHash": "6DB27FC957276F77DAF9D5FBD09DD5FD251523E3B042B7B8C68565C463D34484B10E8CA11F63599C9A5131973D76CA9A7B64EF27D446A931DDB6C9A5EF6E6344",
+ "esnType": "mbom",
+ "optionName": "Corrosion Resistor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/wf/127_wf0125500_01"
+  }
+ ],
+ "remarks": "Corrosion Resistor|supplier: Cummins|corrosion Resistor Location:|remote (off Engine)|element Type: Spin-On|element Quantity: Single|element Supplied In Kit|inhibitor Type: Dca4|dca Units: 8|factory Would Need To Precharge The Coolant|with Dose Of Sca.|cooling Capacity Min Value: 45.42 L (12 Gal)|cooling Capacity Max Value: 75.70 L (20 Gal)|crn Rstr Water Supply: Water Inlet Connection|crn Rst Water Return: Water Inlet Connection|water Return Plumbing Provision:|90 Degree Elbow|decal Provided: Yes|decal Supplier: Fleetguard|crn Rst Bracket Supplier: Customer|all Hardware Supplied In Kit.|shutoff Valve Included: Yes|male Push On Connection.|plumbing: Customer Supplied|requires Special Water Inlet Connection For|remote Mount Filter.|option To Be Kitted.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "179901",
+      "latestPart": "false",
+      "partDesc": "SHUTOFF VALVE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "204163",
+      "latestPart": "false",
+      "partDesc": "CORROSION RESISTOR HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3098688",
+      "latestPart": "false",
+      "partDesc": "CORROSION RESISTOR CARTRIDGE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3826824",
+      "latestPart": "false",
+      "partDesc": "DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/127/wf/127_wf0125500_01",
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "WF1255-01",
+ "optionNo": "WF1255-01",
+ "path": null
+}

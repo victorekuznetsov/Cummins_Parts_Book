@@ -1,0 +1,79 @@
+{
+ "componentHash": "FFF0466999F32E848834DD54F152F570C426FCD187CD77FBA4AA1F468301DD9D69496698F5F3EF9732BA5524D7096BB966D0EFE9279180F62A91D2B2E9D00FFD",
+ "esnType": "mbom",
+ "optionName": "Air Intake Hose",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Air Intake Hose|intake Hose Count:  4|air Transfer Connection Hose|intake Hose Length: 7.50 In.(190 Mm)|intake Hose I.d.:    4.00 In.(101.6 Mm)|intake Hose Material:   Silicone|charge Air Cooler Hose|intake Hose Length: 7.50 In (190 Mm)|intake Hose I.d.: 4.00 In (101.6 Mm)|intake Hose Material: Silicone|air Intake Connection Hose|intake Hose Length: 7.50 In (190 Mm)|intake Hose I.d.: 4.00 In (101.6 Mm)|intake Hose Material: Silicone|clamp Type: Spring|engine Aspiration:  Charged Air Cooled|hoses Used To Transfer Air From Turbocharger|to Charge Air Cooler And Intake Manifold.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3926704",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4330737",
+      "latestPart": "false",
+      "partDesc": "HUMP HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "IC1080-03",
+ "optionNo": "IC1080-03",
+ "path": null
+}

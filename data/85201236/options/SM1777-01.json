@@ -1,0 +1,83 @@
+{
+ "componentHash": "A36EECB54E19D8011C882B8F659713DB1E8E2A905FD199D23E5158B89F78E8667827E0E7E659A8838A3175B76A36F229D25F17387A8021DFB329C07B8995D480",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/sm/127_sm0177700_01"
+  }
+ ],
+ "remarks": "Starter Motor Mounting|cummins Supplied Mounting|screws: English (in)|clutch Provision: Dry|for Use With Cummins Or Customer|supplied Single Starting Motor On|cast Iron Flywheel Housing With|dual Starter Provision|(includes Starter Bore Plug)|starter Mounting Location: Left Side",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3103423",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 2 1/2 INCH",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3106206",
+      "latestPart": "false",
+      "partDesc": "STARTER FLANGE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/127/sm/127_sm0177700_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "127",
+ "optionNo": "SM1777-01",
+ "optionNumber": "SM1777-01",
+ "buildCode": null,
+ "path": null
+}

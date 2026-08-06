@@ -1,0 +1,56 @@
+{
+ "componentHash": "39F53CF48AF8A9942F919B089CE7B9DD06CA40604DF1AF1AD5E813DD6391EC73030901BE112EDD63A998F8BB2733BFA31B98D14996955264B6C42AEE087C4F21",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Starting Motor|manufacturer: Prestolite|model: M108r|voltage: 24|rotation: Right Hand|solenoid Angle (degrees): 82.5|length: 324.00 Mm (12.76 In)|power Supply: Electric|starter Location: Engine Left|cummins Branded: Yes|integrated Magnetic Switch: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3691205",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "127",
+ "optionNumber": "ST1471-01",
+ "optionNo": "ST1471-01",
+ "buildCode": null,
+ "path": null
+}

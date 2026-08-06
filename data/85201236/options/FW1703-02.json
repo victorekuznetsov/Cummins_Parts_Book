@@ -1,0 +1,60 @@
+{
+ "componentHash": "FC06B44979457C397976F0453FAF778D54D895AA0948315E88A03283957D3A17CCCEA8FEF3144400B8FADC392A7E75CF8A4C55B721526B7EDA290023BFF0BC12",
+ "esnType": "mbom",
+ "optionName": "Flywheel Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/fw/127_fw0170300_02"
+  }
+ ],
+ "remarks": "Flywheel Mounting|flywheel Mounting Web Thickness: 42.5 Mm|rear Gear Drive: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3101643",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 1.5 X 66.5",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/127/fw/127_fw0170300_02",
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "FW1703-02",
+ "optionNo": "FW1703-02",
+ "path": null
+}

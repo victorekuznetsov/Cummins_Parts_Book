@@ -1,0 +1,83 @@
+{
+ "componentHash": "348FA85DA0D4F008D18B8B3A7B34C72A234C05E47BD238C36F9BCEF28812A6F1D0E3A2E9107BAC9C690647CA5B8BCF7A688DEFEEEE45C8F52C284F42B7877B89",
+ "esnType": "mbom",
+ "optionName": "Turbocharger Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/tb/082_tb0159000_02"
+  }
+ ],
+ "remarks": "Turbocharger Arrangement|engine Aspiration: Charged Air Cooled|turbocharger Location: Mid Mount|exhaust Outlet Location: Rear Out|exhaust Outlet Size: 101.6mm (4.0 In)|turbocharger Model: He451ve|turbo C/l Vertically From Crank C/l:|424.0mm (16.69 In)|turbo C/l Horizontally From Crank C/l:|446.9mm (17.59 In)|exhaust Outlet Flange Type: Round Full Marmon|compressor Outlet Diameter: 73.85mm (2.9 In)|compressor Inlet Diameter: 101.6mm (4.0 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4965512",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4965698",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 100",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/tb/082_tb0159000_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "optionNo": "TB1590-02",
+ "optionNumber": "TB1590-02",
+ "buildCode": null,
+ "path": null
+}

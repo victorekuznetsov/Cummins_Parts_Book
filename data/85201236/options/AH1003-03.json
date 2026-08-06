@@ -1,0 +1,106 @@
+{
+ "componentHash": "0EDFF87BEC95C82750B0B9220AF67BB2A448DE9B92723BF7E3493E534033CF479B13B30592A97503DE8CD51EB6C5B953843B6C84EB554277C47DEE14F2D5F763",
+ "esnType": "mbom",
+ "optionName": "Air Heater Starting Aid",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/ah/127_ah0100300_03"
+  }
+ ],
+ "remarks": "Air Heater Operating Aid|mounting Location: Between Cylinder|head And Intake Connection|volts: 12 Or 24|amps: 12v - 62.5 Amps, 24v - 125 Amps|customer Connection: M6 Stud W/flanged|nuts|ground Strap Included: Yes|cannot Be Used With Decorative Covers.|ic Connections Will Move Outward By|20.35 Mm.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3102171",
+      "latestPart": "false",
+      "partDesc": "INTAKE AIR HEATER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3102173",
+      "latestPart": "false",
+      "partDesc": "CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4938740",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "127",
+ "artCallOut": "/127/ah/127_ah0100300_03",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "AH1003-03",
+ "optionNo": "AH1003-03",
+ "path": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "1405BA5F8D2985822AABCCBC783127307740E58BE64D8BF8664FEFC9C6072399441EEDF50FEA85BF4420A182ABA4E021E173ABA0035316D04700DCB00A60E56A",
+ "esnType": "mbom",
+ "optionName": "Fan Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/fa/082_fa0151100_05"
+  }
+ ],
+ "remarks": "Fan Drive|customer Supplied Fan Hub|customer Supplied Fan Belt|belt Driven Fan, 12 Rib Pulley|ratio: N/a|fan Center: N/a|fan Mounting Distance Forward|from Ffob: N/a|fan Inertia Limit: N/a|fan Power Capability: N/a|rotates Same Direction As Crankshaft|supplier: N/a",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093936",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 90",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3691282",
+      "latestPart": "false",
+      "partDesc": "BELT TENSIONER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/082/fa/082_fa0151100_05",
+ "optionPlantCode": "082",
+ "buildCode": null,
+ "optionNumber": "FA1511-05",
+ "optionNo": "FA1511-05",
+ "path": null
+}

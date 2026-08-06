@@ -1,0 +1,32 @@
+{
+ "componentHash": "AB873BD7155F582F2BC8C0D94D1F5A971BF78F91C08EADADD139602AD69711406B57DC24D7583FB5D2750C0A4C48651962237509E8E07054746583ADBE7FBD2F",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Api|transmission: None|commun Support: J1939|oem Name: Hhi|oem Model: R800lc-7a|oemcomment: Excavator|remote Throttle: Y|high Idle: 1870 Rpm|low Idle: 0700 Rpm|isc Enable: On|isc Validation: Off|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 3    %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: Na|throttle Type: Linear|comment: For Use With 4-Step Wg Control|powermatch: No|guid: Na|comment Cont: For Global Stage Iii|engine Brake Enabled: No|cpl: 8761|application: Nonroad|air Heater Enabled: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "127",
+ "optionNumber": "DO11128-00",
+ "optionNo": "DO11128-00",
+ "buildCode": null,
+ "path": null
+}

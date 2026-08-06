@@ -1,0 +1,130 @@
+{
+ "componentHash": "F3641E586F4F9F9C80D1FBAFCA200DCF4673ED1B1E7134CD82B6FAE5B5EE0826CEBE61C99AD9DB1CBD5CE9D9935BC7B108D0994518E10AE7CBC7958E8E3EB998",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/fw/082_fw0102000_07"
+  }
+ ],
+ "remarks": "Flywheel|type:  Flywheel|flywheel Supplier: Cummins|intended Housing Sae: 1|starter Center Distance: 265.1 Mm (10.437 In)|clutch Bearing Pilot Bore Dia:|72.00 Mm (2.84 In)|clutch Size: 393.7 Mm (15.5 In)|clutch Plate Type: Single Plate|clutch Plate Material: Ceramic Disc|rear Gear Drive:  No|intended Drive Hardware:  Spicer|transmission Mtg Face To Rfob:|92.29 Mm (3.791 In)|additional Information: 113 Tooth Ring Gear|flywheel Mounting Web Thickness: 16 Mm|ring Gear Supplier: Cummins",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3680922",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3680913",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3680921",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4026528",
+      "latestPart": "false",
+      "partDesc": "BEARING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/082/fw/082_fw0102000_07",
+ "optionPlantCode": "082",
+ "buildCode": null,
+ "optionNumber": "FW1020-07",
+ "optionNo": "FW1020-07",
+ "path": null
+}

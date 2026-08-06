@@ -1,0 +1,107 @@
+{
+ "componentHash": "952F0F0E1F1035DD6D803FEA78598C778219853DFDA5BDB1D64C15810F734B3143BC198BE4F106D171440BF4BD67275DF0A1FA7EC1BFC2BC53F3B8A132B405E2",
+ "esnType": "mbom",
+ "optionName": "Drain Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/dl/082_dl0107900_00"
+  }
+ ],
+ "remarks": "Drain Location|fuel Pump Outlet Fitting Size: 21.5 Mm|fuel Outlet Fitting Type: Straight Qck Conn|connection Location: Horizontally From Ffob|to C/l Of Connection: 675.6 Mm|vertically From C/l Of Crank To C/l Of|connection: 430.3 Mm|horizontally From C/l Of Engine To Opening|edge Of Connection: 312.25 Mm|compatible Only With Return Fuel|recirculation Fuel Drain",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3692935",
+      "latestPart": "false",
+      "partDesc": "QUICK DISCONNECT CONNECTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3679139",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3692936",
+        "latestPart": "false",
+        "partDesc": "QUICK DISCONNECT CONNECTOR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/082/dl/082_dl0107900_00",
+ "optionPlantCode": "082",
+ "buildCode": null,
+ "optionNumber": "DL1079-00",
+ "optionNo": "DL1079-00",
+ "path": null
+}

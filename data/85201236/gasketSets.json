@@ -1,0 +1,281 @@
+[
+ {
+  "componentHash": "ED468F615F001C04D7A86C51F80135008D6D1712D838FA1C576292366BA7CCD32AD533DDCC16F74CBD210AEFDD4D2BBE1DD20E7BC873DFA2E9BB2A9BC6526961",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Upper Engine Gasket Set",
+  "plantCode": null,
+  "graphic": "/435/4352144/4352144.png",
+  "parts": [
+   {
+    "partNo": "4352144",
+    "partDesc": "Upper Engine Gasket Set",
+    "systems": []
+   },
+   {
+    "partNo": "3042544",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3330537",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3330538",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3347937",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3347939",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678762",
+    "partDesc": "Grommet Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678770",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3679931",
+    "partDesc": "Camshaft Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3679932",
+    "partDesc": "Camshaft Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3680284",
+    "partDesc": "Electronic Control Module Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3680324",
+    "partDesc": "Flange Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3680602",
+    "partDesc": "Thermostat Housing Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3682177",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3684336",
+    "partDesc": "Thermostat Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4026884",
+    "partDesc": "Turbocharger Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4089255",
+    "partDesc": "Cavity Plug",
+    "systems": []
+   },
+   {
+    "partNo": "4299098",
+    "partDesc": "Cylinder Head Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4299124",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4299125",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4907446",
+    "partDesc": "Exhaust Manifold Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4907447",
+    "partDesc": "Exhaust Manifold Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4907448",
+    "partDesc": "Exhaust Manifold Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4962721",
+    "partDesc": "Rectangular Strip Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4965689",
+    "partDesc": "Fuel Control Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4985660",
+    "partDesc": "Camshaft Cover Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4985661",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4352144",
+  "gasket_part": "4352144"
+ },
+ {
+  "componentHash": "3B8CA1027344766B18F90C9B879DF8AB42525E8BC0C1E196BDEDE3464F7C9E405E798336382E4DE565A168319B8F0E404842E6CF14557005337EA9594E97C536",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Lower Engine Gasket Kit",
+  "plantCode": null,
+  "graphic": "/495/4955590/4955590.png",
+  "parts": [
+   {
+    "partNo": "4955590",
+    "partDesc": "Lower Engine Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3102109",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3103015",
+    "partDesc": "Grommet Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678606",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678724",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678756",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678846",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3684338",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3689755",
+    "partDesc": "Lubricating Oil Cooler Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4026684",
+    "partDesc": "Oil Pan Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4059172",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4393176",
+    "partDesc": "Flywheel Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4955383",
+    "partDesc": "Seal Kit",
+    "systems": []
+   },
+   {
+    "partNo": "127018",
+    "partDesc": "Plain Washer",
+    "systems": []
+   },
+   {
+    "partNo": "3104263",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4076471",
+    "partDesc": "Socket Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "4918681",
+    "partDesc": "Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "4962722",
+    "partDesc": "Rectangular Strip Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4965569",
+    "partDesc": "Seal And Spacer Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4918688",
+    "partDesc": "Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "4962603",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4965690",
+    "partDesc": "Accessory Drive Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4985562",
+    "partDesc": "Gear Housing Gasket",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4955590",
+  "gasket_part": "4955590"
+ }
+]

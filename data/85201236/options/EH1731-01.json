@@ -1,0 +1,60 @@
+{
+ "componentHash": "FA6AA59D3D85DE3A1DA4E274A23CD6E3AF24EFD2DC2B51A006F187A3C6AD6E2A88E75B1D278B4D4BA0FD598EBB7A6175063825024F8D6435C89E0764CBAA936C",
+ "esnType": "mbom",
+ "optionName": "Alternator Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/127/eh/127_eh0173100_01"
+  }
+ ],
+ "remarks": "Alternator Drive|effective Belt Length:  1575 Mm (62.01 In)|alternator Belt Supplied:  On Engine|additional Information:  For Use With Single|alternator With Refrigerant Compressor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3102145",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/127/eh/127_eh0173100_01",
+ "optionPlantCode": "127",
+ "buildCode": null,
+ "optionNumber": "EH1731-01",
+ "optionNo": "EH1731-01",
+ "path": null
+}
