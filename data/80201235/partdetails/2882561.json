@@ -1,0 +1,472 @@
+{
+ "partNo": "2882561",
+ "partDesc": "pressure sensing tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB10140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB10141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB1607",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB1608",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB1609",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB1610",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB1611",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB1612",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "ER1031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "ER1023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ER1027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation air arrangement"
+  },
+  {
+   "item": "ER1030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust recirculation"
+  },
+  {
+   "item": "D103014GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1G3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103009BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/288/2882561/2882561.obj"
+  },
+  {
+   "fileName": "/288/2882561/2882561.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/288/2882561/2882561_iso_mkt.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_top.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_iso2.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_front.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_iso4.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_iso3.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_right.png"
+  },
+  {
+   "fileName": "/288/2882561/2882561_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".11 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

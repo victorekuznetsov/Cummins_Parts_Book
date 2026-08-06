@@ -1,0 +1,117 @@
+{
+ "partNo": "5484117",
+ "partDesc": "electronic control module wiring harness",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WR1801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR1771",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR1770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR1799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": [
+  {
+   "fileName": "/548/5484117/5484117_iso.png"
+  },
+  {
+   "fileName": "/548/5484117/5484117_iso3.png"
+  },
+  {
+   "fileName": "/548/5484117/5484117_right.png"
+  },
+  {
+   "fileName": "/548/5484117/5484117_front.png"
+  },
+  {
+   "fileName": "/548/5484117/5484117_iso2.png"
+  },
+  {
+   "fileName": "/548/5484117/5484117_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "21 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "7.9 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "21.25 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "4.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

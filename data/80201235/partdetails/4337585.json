@@ -1,0 +1,162 @@
+{
+ "partNo": "4337585",
+ "partDesc": "compressor head repair kit",
+ "supersession": [],
+ "reconEquivalent": [
+  {
+   "reconPart": "4337585rx"
+  }
+ ],
+ "whereUsed": [
+  {
+   "item": "4352307",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "air compressor kit"
+  },
+  {
+   "item": "4352306",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "air compressor kit"
+  },
+  {
+   "item": "3689648",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "3689649",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "3689649rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5477169",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "5558790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "5633492",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CP1230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1246",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1G3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "11.76 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "6.19 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "7.76 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "6.76 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "kit",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": "mbom",
+ "componentType": "kit",
+ "componentHash": "3A7B318ACBF6EFDF246BBD5C72A33E299107284450602F9D54ED11D5C5B2541DE099A586A986963E53A83F81EF8D761B286C828E6C73A35DD8327FA5D4A51723"
+}

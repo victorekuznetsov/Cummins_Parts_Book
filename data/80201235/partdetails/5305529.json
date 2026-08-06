@@ -1,0 +1,5889 @@
+{
+ "partNo": "5305529",
+ "partDesc": "sensor input collector",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4353027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353023",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353024",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353086",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353089",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353331",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353331rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353160",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353343",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353345",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353345rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354180",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354058",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354168",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354168rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354174",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354261",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354142",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354142rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353333",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353333rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353337",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353699",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353700",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353723",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353701",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353702",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353335",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353339",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353339rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353821",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353821rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353772",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353778",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353726",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4352854",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4352856",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353025",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354172",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354172rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354323",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354302",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354304",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354263",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354306",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354294",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376591",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376601",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376585",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376587",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376587rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354317",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376627",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376579",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376583",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376613",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376589",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376621",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353849",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353850",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353851",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353852",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353852rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353853",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353856",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353856rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353859",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353847",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353847rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4353848",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354170",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354170rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354056",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354056rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4354166",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354176",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354178",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376755",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376756",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376757",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376758",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376759",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376760",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376761",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376647",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376607",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376595",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376643",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376685",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376629",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376668",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376672",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376737",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376738",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376739",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376740",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376741",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376751",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376752",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376753",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376754",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376713",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376674",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376746",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376747",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376748",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354300",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377004",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377005",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377100",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377101",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377035",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377052",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377053",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377054",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376742",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376743",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376749",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376750",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377125",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377128",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377129",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377130",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377097",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377276",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377142",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377143",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377131",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377111",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377112",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377113",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377314",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377318",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377140",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377141",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377286",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377055",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377056",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377057",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377058",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377059",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387917",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387919",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387919rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4388052",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387921",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388295",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "tube connector elbow"
+  },
+  {
+   "item": "4388127",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388202",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388363",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388342",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387279",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387246",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377462",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377711",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377294",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377334",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377336",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377250",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377332",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377442",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377442rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4377444",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377446",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377306",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377308",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377464",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377460",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377324",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377713",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306814",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308401",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308360",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308328",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308751",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308751rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5308703",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308705",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308707",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308460",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388356",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388492",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388492rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4394480",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4394616",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394358",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388457",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388491",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394933",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "4394934",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "4394615",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303917",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303912",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303893",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303895",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303897",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303914",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303811",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387907",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387911",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313991",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313992",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313993",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313996",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313997",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308450",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308452",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308417",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308405",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310474",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309546",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309903",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309552",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309557",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309396",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309247",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309391",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309243",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311785",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311669",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311261",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311328",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311328rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5303813",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418500",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "5418501",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "5505970",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506000",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505981",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505982",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505988",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506004",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506005",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506006",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506007",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506008",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506010",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505989",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505990",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505991",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505992",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505993",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505996",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505997",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506017",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311330",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311257",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310478",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313998",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313999",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314000",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314000rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5314001",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313981",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313981rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313984",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313984rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313985",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313986",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313986rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313987",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313987rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5312342",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312382",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312171",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312174",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314006",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314002rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5314003",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314004",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314005",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313982",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313983",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313983rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5314007",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314008",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314009",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5314010",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313988",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313988rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313989",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5313989rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313990",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5517314",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5516337",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5506020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506022",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505999",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5506001",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5507001",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509947",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5313995",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5417568",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5417496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "5418327",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "5418328",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet catalyst module"
+  },
+  {
+   "item": "5417724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5509670",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509063",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510038",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509946",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5513942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514276",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514277",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5511705",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5511706",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328793",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328794",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328794rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328782",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328782rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328836",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328836rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328818",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328792",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328792rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328754",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328755",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328795",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328795rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328796",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328796rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328798",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328799",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328799rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328800",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328800rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328801",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328801rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328802rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328804",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328780",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328781",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328783",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328784",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328784rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328785",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328785rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328786",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328787",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328788",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328789",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328791rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4328756",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328757",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328758",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328765",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328767",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328775",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329235",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329235rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4329237",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329237rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4329127",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329121rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4329451",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329453",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329453rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4329449",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330082",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330097",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329720",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329551",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329581",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330169",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330171",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330171rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330172",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330160",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330161",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330162",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330163",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330163rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330164",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330164rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330165",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330166",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330166rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330167",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330167rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330143",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330144",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330146",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330147",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330149",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330150",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330151",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330129",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330132",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330133",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330168",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330168rx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4330153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE1101",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE1100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE1050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE2194",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE2464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE2465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PE1065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE2141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE1074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330111",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330113",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330085",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330096",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330104",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330063",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330105",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330069",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329719",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329580",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330141",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330142",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330134",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330137",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330140",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330122",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330123",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330124",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330106",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328835",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328817",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4328774",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329358",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329350",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329351",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329342",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329343",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329344",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329345",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329354",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329346",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329338",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329339",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329340",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329341",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329349",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329336",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329337",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329234",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329236",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329126",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329450",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329452",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329387",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329382",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329448",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329385",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329386",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329378",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329381",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329373",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329374",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329375",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329383",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329384",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329377",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329369",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329370",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329371",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329379",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329380",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329363",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329364",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329365",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329366",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329376",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329359",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329360",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329361",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329352",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329353",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329372",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329362",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329355",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329356",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329347",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329348",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4329357",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330108",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4330110",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5515015",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514606",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514574",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514323",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514321",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5514225",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517618",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517389",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517456",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517454",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517455",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517453",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517390",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517387",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5506520",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509016",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508987",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509106",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508857",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508988",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508773",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508771",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508634",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508728",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508729",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508726",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508727",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508544",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508633",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508387",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508518",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5508519",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507889",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507396",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507397",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509906",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509574",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509575",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5417698",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5417723",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5417566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5417567",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418149",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5515116",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515748",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515746",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515110",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515108",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515092",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5519351",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509162",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509154",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509062",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509150",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510713",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5511148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510039",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510380",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510286",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510610",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5510609",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5509946",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4388456",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4395136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4395079",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394613",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394614",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4395143",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303915",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303911",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303892",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303894",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303896",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303913",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303909",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303864",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5303812",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308451",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308449",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308438",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308416",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308404",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310184",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310178",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309902",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309545",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309556",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309551",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309390",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309242",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5309246",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311716",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311866",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311327",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311670",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311259",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311260",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5311329",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306991",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306984",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306985",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306995",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306966",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306992",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306993",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418747",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418350",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5418348",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5505892",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5505896",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5310477",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310373",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5310481",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312341",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312170",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5312173",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5516311",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5516312",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515749",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5507180",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4377123",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376792",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376793",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377076",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377089",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377090",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377091",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377079",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377080",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377082",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377083",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377084",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377085",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387916",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387918",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387895",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388051",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387953",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387896",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388113",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388126",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388087",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387920",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388362",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388341",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387278",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387244",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4387855",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377289",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377293",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377333",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377335",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377305",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377249",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377331",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377443",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377445",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377307",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377313",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377463",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377459",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377461",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377323",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377106",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306994",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5306835",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308400",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308394",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308359",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308327",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308750",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308702",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308706",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5308459",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4388355",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394390",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394394",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4394357",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377038",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377086",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377087",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377088",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377137",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377103",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377104",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377105",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376783",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376784",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376785",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376786",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376794",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376795",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376796",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376797",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376809",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376811",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376812",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376787",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376788",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376789",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376769",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376771",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376772",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376804",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376805",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376806",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376800",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376801",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376773",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376774",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376775",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376776",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377108",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377126",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377127",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377124",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377275",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377144",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377145",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377132",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377110",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377133",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377134",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377317",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377285",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377146",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377147",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377149",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377150",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377151",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377122",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376578",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376582",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376584",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376612",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376616",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376590",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376620",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353727",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353728",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353729",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353855",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353857",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353834",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353835",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353836",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353837",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354169",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354171",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354055",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354167",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354177",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376777",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376778",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376779",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376765",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376766",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376808",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376763",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376764",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376798",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376799",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376780",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376781",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376782",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376628",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376606",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376594",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376642",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376646",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376684",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376673",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376767",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376768",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376667",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354297",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354299",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377003",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377077",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377078",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377116",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377119",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377102",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4377037",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353015",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353016",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353019",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353084",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353022",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353133",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353342",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353344",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353332",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354057",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354173",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354175",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354260",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354262",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354141",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354165",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353334",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353338",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353330",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353730",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353731",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353732",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353733",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353705",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353708",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353709",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353710",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353703",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353409",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353477",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353340",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353453",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353474",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353336",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353831",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353832",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353833",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353734",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353773",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353777",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353779",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353780",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353706",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353707",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4352853",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4352855",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4353026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354301",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354322",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354303",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354305",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354316",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376600",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376586",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4376588",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "4354293",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "D103018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0S3009BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0S3005BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515749",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5417566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "5515748",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515746",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515108",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515092",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5515093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5517618",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4329550",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftertreatment device"
+  },
+  {
+   "item": "PE85021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "catalytic converter"
+  },
+  {
+   "item": "PE85007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "catalytic converter"
+  },
+  {
+   "item": "D0Y0005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

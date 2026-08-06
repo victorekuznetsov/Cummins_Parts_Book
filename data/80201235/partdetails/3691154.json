@@ -1,0 +1,127 @@
+{
+ "partNo": "3691154",
+ "partDesc": "fuel drain manifold",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FD1734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD1736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD1735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "D103018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103012BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/369/3691154/3691154.obj"
+  },
+  {
+   "fileName": "/369/3691154/3691154.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/369/3691154/3691154_iso2.png"
+  },
+  {
+   "fileName": "/369/3691154/3691154_right.png"
+  },
+  {
+   "fileName": "/369/3691154/3691154_front.png"
+  },
+  {
+   "fileName": "/369/3691154/3691154_iso.png"
+  },
+  {
+   "fileName": "/369/3691154/3691154_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "8.75 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "2.71 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "8.4 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "6 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
