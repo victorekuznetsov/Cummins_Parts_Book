@@ -999,6 +999,16 @@ $("price-file").addEventListener("change", function () {
   this.value = "";
 });
 
+/* --- переключатель светлой/тёмной темы (по брендбуку «Развитие») --- */
+function currentTheme() { return document.documentElement.getAttribute("data-theme") || "light"; }
+function setTheme(t) {
+  document.documentElement.setAttribute("data-theme", t);
+  try { localStorage.setItem("cummins_theme", t); } catch (e) {}
+}
+$("theme-toggle").onclick = function () {
+  setTheme(currentTheme() === "dark" ? "light" : "dark");
+};
+
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape") { closeCart(); closePartCard(); closeCheck(); }
 });
