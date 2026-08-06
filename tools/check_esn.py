@@ -49,14 +49,38 @@ def new_session():
 
 
 def read_list(path):
-    """Список ESN из файла: игнорируем разметку таблиц, [[ссылки]] и мусор."""
+    """Список ESN. Понимает два формата:
+       - TSV с заголовком machine/vin/esn — тогда берём колонку esn и модель машины
+         (серийные номера бывают буквенно-цифровыми: 1024E008268, 4P25J004736);
+       - произвольный текст — вытаскиваем номера из 6-10 цифр, игнорируя разметку.
+       Возвращает список (esn, машина, vin)."""
     import re
-    txt = Path(path).read_text(encoding="utf-8")
+    lines = Path(path).read_text(encoding="utf-8").splitlines()
+    if lines and "	" in lines[0] and "esn" in lines[0].lower():
+        head = [h.strip().lower() for h in lines[0].split("	")]
+        i_esn = head.index("esn")
+        i_m = head.index("machine") if "machine" in head else None
+        i_v = head.index("vin") if "vin" in head else None
+        out, seen = [], set()
+        for ln in lines[1:]:
+            if not ln.strip():
+                continue
+            c = ln.split("	")
+            if len(c) <= i_esn:
+                continue
+            esn = c[i_esn].strip()
+            if not esn or esn in seen:
+                continue
+            seen.add(esn)
+            out.append((esn,
+                        c[i_m].strip() if i_m is not None and i_m < len(c) else "",
+                        c[i_v].strip() if i_v is not None and i_v < len(c) else ""))
+        return out
     nos, seen = [], set()
-    for m in re.finditer(r"\d{6,10}", txt):
+    for m in re.finditer(r"\d{6,10}", "\n".join(lines)):
         n = m.group(0)
         if n not in seen:
-            seen.add(n); nos.append(n)
+            seen.add(n); nos.append((n, "", ""))
     return nos
 
 
@@ -67,11 +91,10 @@ def main():
     ap.add_argument("--workers", type=int, default=6)
     a = ap.parse_args()
 
-    esns = read_list(a.list)
+    rows = read_list(a.list)
+    esns = [r[0] for r in rows]
+    info = {r[0]: {"machine": r[1], "vin": r[2]} for r in rows}
     print(f">>> Номеров в списке: {len(esns)}")
-    short = [e for e in esns if len(e) != 8]
-    if short:
-        print(f"    ! непохожи на ESN (не 8 цифр), проверю отдельно: {short}")
 
     s, xsrf = new_session()
 
@@ -86,6 +109,8 @@ def main():
                     parts = {p["partNo"] for o in opts for p in (o.get("parts") or [])
                              if p.get("partNo")}
                     return {"esn": esn, "ok": True,
+                            "machine": info.get(esn, {}).get("machine", ""),
+                            "vin": info.get(esn, {}).get("vin", ""),
                             "model": d.get("serviceModel"), "cpl": d.get("cpl"),
                             "config": d.get("marketingConfig"),
                             "build": str(d.get("buildDate") or "")[:10],
@@ -93,12 +118,17 @@ def main():
                             "plant": d.get("enginePlantCode"),
                             "options": len(opts), "parts": len(parts)}
                 if r.status_code in (400, 404):
-                    return {"esn": esn, "ok": False, "err": f"не найден ({r.status_code})"}
+                    return {"esn": esn, "ok": False,
+                            "machine": info.get(esn, {}).get("machine", ""),
+                            "err": f"нет в EPC ({r.status_code})"}
             except Exception as e:
                 if attempt == 2:
-                    return {"esn": esn, "ok": False, "err": str(e)[:60]}
+                    return {"esn": esn, "ok": False,
+                            "machine": info.get(esn, {}).get("machine", ""),
+                            "err": str(e)[:60]}
             time.sleep(1.5 * (attempt + 1))
-        return {"esn": esn, "ok": False, "err": "нет ответа"}
+        return {"esn": esn, "ok": False,
+                "machine": info.get(esn, {}).get("machine", ""), "err": "нет ответа"}
 
     res = []
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
@@ -113,17 +143,17 @@ def main():
     bad  = [r for r in res if not r.get("ok")]
 
     print("\n" + "=" * 76)
-    print(f"  {'ESN':<10} {'МОДЕЛЬ':<16} {'CPL':<6} {'КОНФИГУРАЦИЯ':<14} "
-          f"{'СБОРКА':<11} {'УЗЛОВ':>6} {'ДЕТАЛЕЙ':>8}")
-    print("=" * 76)
-    for r in good:
-        print(f"  {r['esn']:<10} {str(r['model'] or ''):<16} {str(r['cpl'] or ''):<6} "
-              f"{str(r['config'] or ''):<14} {r['build']:<11} "
-              f"{r['options']:>6} {r['parts']:>8}")
+    print(f"  {'МАШИНА':<12} {'ESN':<12} {'ДВИГАТЕЛЬ':<20} {'CPL':<6} "
+          f"{'КОНФИГУРАЦИЯ':<14} {'СБОРКА':<11} {'ДЕТАЛЕЙ':>8}")
+    print("=" * 92)
+    for r in sorted(good, key=lambda x: (x.get("machine", ""), x["esn"])):
+        print(f"  {r.get('machine',''):<12} {r['esn']:<12} {str(r['model'] or ''):<20} "
+              f"{str(r['cpl'] or ''):<6} {str(r['config'] or ''):<14} {r['build']:<11} "
+              f"{r['parts']:>8}")
     if bad:
-        print("\n  НЕ ОТКРЫЛИСЬ:")
-        for r in bad:
-            print(f"    {r['esn']}: {r['err']}")
+        print("\n  НЕТ В КАТАЛОГЕ CUMMINS (двигатель другой марки или номер не подходит):")
+        for r in sorted(bad, key=lambda x: (x.get("machine", ""), x["esn"])):
+            print(f"    {r.get('machine',''):<12} {r['esn']:<12} {r['err']}")
 
     # группировка по CPL
     groups = {}
@@ -134,13 +164,16 @@ def main():
     print("=" * 76)
     to_crawl = []
     for (cpl, model), rows in sorted(groups.items(), key=lambda x: str(x[0][0])):
-        rep = sorted(rows, key=lambda r: r["esn"])[0]
+        # представитель группы — самый свежий по дате сборки
+        rep = sorted(rows, key=lambda r: (r["build"], r["esn"]))[-1]
         configs = sorted({r["config"] for r in rows if r["config"]})
         to_crawl.append(rep["esn"])
-        print(f"\n  CPL {cpl} · {model} · двигателей: {len(rows)}")
+        machines = sorted({r.get("machine", "") for r in rows if r.get("machine")})
+        print(f"\n  CPL {cpl} · {model} · двигателей: {len(rows)} · "
+              f"машины: {', '.join(machines) or '—'}")
         print(f"    конфигурации: {', '.join(configs)}")
-        print(f"    качаем каталог по: {rep['esn']}")
-        others = [r["esn"] for r in sorted(rows, key=lambda r: r["esn"])[1:]]
+        print(f"    качаем по: {rep['esn']} ({rep.get('machine','')}, сборка {rep['build']})")
+        others = [r["esn"] for r in sorted(rows, key=lambda r: r["esn"]) if r["esn"] != rep["esn"]]
         if others:
             print(f"    остальные того же CPL ({len(others)}): {', '.join(others)}")
 
@@ -152,8 +185,10 @@ def main():
 
     Path(a.json).write_text(json.dumps(
         {"checked": res, "groups": [{"cpl": k[0], "model": k[1],
+                                     "machines": sorted({r.get("machine", "") for r in v
+                                                         if r.get("machine")}),
                                      "esns": [r["esn"] for r in v],
-                                     "representative": sorted(r["esn"] for r in v)[0]}
+                                     "representative": sorted(v, key=lambda r: (r["build"], r["esn"]))[-1]["esn"]}
                                     for k, v in groups.items()],
          "to_crawl": to_crawl}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\nОтчёт: {a.json}")

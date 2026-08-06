@@ -98,6 +98,16 @@ function selectEngine(esn) {
   show("view-welcome");
 }
 
+/* Комплекты, которыми заказывается деталь, если отдельно она не продаётся
+   (в источнике это поле sell = "kit"). */
+function kitsOf(pn) {
+  var card = CARDS[pn];
+  if (!card || card.sell !== "kit" || !card.kits) return [];
+  var byKit = {};
+  (C.kits || []).forEach(function (k) { byKit[k.no] = k; });
+  return card.kits.map(function (no) { return byKit[no] || { no: no, name: "", parts: [] }; });
+}
+
 /* Действующий номер: цепочка отсортирована от старого к новому,
    последний элемент — актуальный. */
 function currentNo(pn) {
@@ -278,6 +288,13 @@ function renderParts(o, focusPart) {
       chip.title = "Номер заменён; действующий номер " + newNo;
       tdNo.appendChild(chip);
     }
+    var kits = kitsOf(p.no);
+    if (kits.length) {
+      var kc = el("span", "chip-kit", "комплект " + kits[0].no);
+      kc.title = "Отдельно не продаётся. Заказывается комплектом " +
+                 kits.map(function (k) { return k.no + " (" + k.name + ")"; }).join(", ");
+      tdNo.appendChild(kc);
+    }
     tr.appendChild(tdNo);
 
     var tdName = el("td", "c-name");
@@ -389,6 +406,38 @@ function openPartCard(pn) {
     supBody.appendChild(el("div", "sup-note", note));
     supBox.classList.remove("hidden");
   } else supBox.classList.add("hidden");
+
+  // комплекты: деталь отдельно не продаётся
+  var kits = kitsOf(pn);
+  var kb = $("pc-kits-body");
+  kb.innerHTML = "";
+  if (kits.length) {
+    kb.appendChild(el("div", "sup-note",
+      "Деталь " + pn + " отдельно не продаётся — заказывается в составе комплекта."));
+    kits.forEach(function (k) {
+      var row = el("div", "kit-row");
+      var head = el("div");
+      head.appendChild(el("span", "sup-no cur", k.no));
+      head.appendChild(el("span", "kit-name", k.name + (k.notes ? " · " + k.notes : "")));
+      var add = el("button", "btn-add", "＋ комплект в заказ");
+      add.onclick = function () {
+        addKitToCart(k);
+        add.textContent = "✓ добавлен"; add.classList.add("done");
+        setTimeout(function () {
+          add.textContent = "＋ комплект в заказ"; add.classList.remove("done");
+        }, 1200);
+      };
+      head.appendChild(add);
+      row.appendChild(head);
+      var inner = (k.parts || []).filter(function (x) { return x.no !== k.no; });
+      if (inner.length) {
+        row.appendChild(el("div", "kit-parts",
+          "в комплекте: " + inner.map(function (x) { return x.no; }).join(", ")));
+      }
+      kb.appendChild(row);
+    });
+    $("pc-kits").classList.remove("hidden");
+  } else $("pc-kits").classList.add("hidden");
 
   // характеристики
   var attrs = card.attrs || {};
@@ -550,6 +599,18 @@ function addToCart(p, o, n) {
                       option: o.no, optionName: o.name, pos: p.pos || "", qty: 0 };
   }
   state.cart[k].qty += n;
+  saveCart();
+  renderCart();
+}
+
+function addKitToCart(k) {
+  var key = k.no;
+  if (!state.cart[key]) {
+    state.cart[key] = { no: k.no, name: k.name + " (комплект)", price: null,
+                        group: "", alt: "", option: "—", optionName: "Ремкомплект",
+                        pos: "", qty: 0 };
+  }
+  state.cart[key].qty += 1;
   saveCart();
   renderCart();
 }

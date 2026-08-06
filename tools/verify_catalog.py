@@ -192,6 +192,33 @@ with sync_playwright() as p:
                 page.screenshot(path=str(SHOT / "05_supersession_card.png"), full_page=True)
                 page.locator("#pc-close").click(); page.wait_for_timeout(300)
 
+    print("\n>>> Деталь, которая продаётся только комплектом")
+    kp = page.evaluate("""() => {
+        const c = window.CATALOGS[document.getElementById('engine-select').value];
+        for (const o of c.options) for (const p of o.parts) {
+            const card = c.cards[p.no];
+            if (card && card.sell === 'kit' && (card.kits || []).length)
+                return {opt: o.no, no: p.no, kit: card.kits[0]};
+        }
+        return null; }""")
+    if kp:
+        open_option_by_no(page, kp["opt"])
+        chip = page.locator(f'#parts-body tr[data-no="{kp["no"]}"] .chip-kit')
+        check(f"в строке {kp['no']} видна метка комплекта", chip.count() > 0)
+        page.locator(f'#parts-body .pn-link:text-is("{kp["no"]}")').first.click()
+        page.wait_for_timeout(800)
+        check("в карточке есть блок «Заказывается комплектом»",
+              page.locator("#pc-kits").is_visible()
+              and page.locator("#pc-kits .kit-row").count() > 0,
+              f"комплект {kp['kit']}")
+        page.screenshot(path=str(SHOT / "06_kit_only_part.png"), full_page=True)
+        n_before = page.inner_text("#cart-count")
+        page.locator("#pc-kits .btn-add").first.click(); page.wait_for_timeout(600)
+        check("комплект добавляется в заказ", page.inner_text("#cart-count") != n_before)
+        page.locator("#pc-close").click(); page.wait_for_timeout(300)
+    else:
+        print("  [--] у этого двигателя нет деталей, продающихся только комплектом")
+
     print("\n>>> Заказ")
     page.locator("#parts-body .btn-add").first.click(); page.wait_for_timeout(500)
     cnt = page.inner_text("#cart-count")

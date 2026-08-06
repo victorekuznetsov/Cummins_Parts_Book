@@ -91,12 +91,13 @@ def flatten_parts(groups):
     return out
 
 
-def load_part_cards(src, part_nos):
-    """Карточки деталей: атрибуты, замены номеров, где применяется, ракурсы фото."""
+def load_part_cards(src, part_nos, kit_index=None):
+    """Карточки деталей: атрибуты, замены номеров, комплекты, применяемость, фото."""
     pdir, cards, views = src / "partdetails", {}, set()
-    n_sup = 0
+    kit_index = kit_index or {}
+    n_sup = n_kit = 0
     if not pdir.exists():
-        return cards, views, 0
+        return cards, views, 0, 0
     for pn in sorted(part_nos):
         f = pdir / f"{safe(pn)}.json"
         if not f.exists():
@@ -142,9 +143,14 @@ def load_part_cards(src, part_nos):
             "used":  [{"o": w.get("item"), "n": w.get("itemDesc") or ""}
                       for w in (d.get("whereUsed") or []) if w.get("itemType") == "O"][:60],
             "views": sorted(vs, key=lambda x: (0 if "_iso." in x else 1, x)),
+            # sell == "kit" — деталь отдельно не продаётся, заказывается комплектом
+            "sell": d.get("sell") or "",
+            "kits": kit_index.get(pn, []),
         }
+        if card["sell"] == "kit":
+            n_kit += 1
         cards[pn] = {k: v for k, v in card.items() if v not in ("", [], {}, None)}
-    return cards, views, n_sup
+    return cards, views, n_sup, n_kit
 
 
 def load_prices(path):
@@ -301,8 +307,14 @@ def build(esn, prices_path=None, machine="", fleet_report=None):
             "options": sorted([o["no"] for o in options if code in o["systems"]]),
         })
 
+    kit_index = {}
+    for k in kits:
+        for p in k["parts"]:
+            if p.get("no") and p["no"] != k["no"]:
+                kit_index.setdefault(p["no"], []).append(k["no"])
+
     uniq_nos = {p["no"] for o in options for p in o["parts"] if p["no"]}
-    cards, card_views, n_sup = load_part_cards(src, uniq_nos)
+    cards, card_views, n_sup, n_kit = load_part_cards(src, uniq_nos, kit_index)
     all_photos.update(card_views)
 
     catalog = {
@@ -344,7 +356,8 @@ def build(esn, prices_path=None, machine="", fleet_report=None):
           f"уникальных деталей {len(uniq_nos)}")
     print(f"    чертежей {len(all_sheets)}, фото деталей {len(all_photos)}, "
           f"ремкомплектов {len(kits)}")
-    print(f"    карточек деталей {len(cards)}, из них с заменами номеров {n_sup}")
+    print(f"    карточек деталей {len(cards)}, из них с заменами номеров {n_sup}, "
+          f"продаются только комплектом {n_kit}")
     print(f"    data/{esn}.js: {(CAT / 'data' / f'{esn}.js').stat().st_size / 1024:.0f} КБ")
     print(f"    всего двигателей в каталоге: {len(engines)} "
           f"({', '.join(e['esn'] for e in engines)})")
