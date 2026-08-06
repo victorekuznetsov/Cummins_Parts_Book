@@ -660,12 +660,352 @@ $("cart-csv").onclick = function () {
   setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
 };
 
+/* ==================================================================
+   ДОП. ВОЗМОЖНОСТИ: выгрузка номеров, проверка списка, цены из файла
+   ================================================================== */
+
+/* --- общий помощник выгрузки CSV (открывается в Excel) --- */
+function csvCell(v) {
+  v = String(v == null ? "" : v);
+  return /[";\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+}
+function priceCsv(v) { return (v != null && !isNaN(v)) ? String(v).replace(".", ",") : ""; }
+function downloadCsv(name, rows) {
+  var text = rows.map(function (r) { return r.map(csvCell).join(";"); }).join("\r\n");
+  var blob = new Blob(["﻿" + text], { type: "text/csv;charset=utf-8;" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+}
+/* действующий номер для произвольного каталога (не только текущего) */
+function curNoFor(cat, pn) {
+  var chain = ((cat.cards || {})[pn] || {}).sup || [];
+  if (chain.length < 2) return "";
+  var last = chain[chain.length - 1];
+  return last && last.no !== pn ? last.no : "";
+}
+
+/* --- «Все номера этой модели» --- */
+function exportModel() {
+  var e = engineOf(C.esn), map = {};
+  C.options.forEach(function (o) {
+    o.parts.forEach(function (p) {
+      if (!p.no) return;
+      var k = normNo(p.no);
+      var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price, units: {} });
+      if (rec.price == null && p.price != null) rec.price = p.price;
+      if (!rec.name && p.name) rec.name = p.name;
+      rec.units[o.no] = o.name;
+    });
+  });
+  var keys = Object.keys(map).sort(function (a, b) { return map[a].no.localeCompare(map[b].no); });
+  var head = ["Машина", "Модель", "ESN", "Номер детали", "Наименование",
+              "Действующий номер", "Цена", "Узлов", "Узлы"];
+  var rows = [head];
+  keys.forEach(function (k) {
+    var r = map[k], us = Object.keys(r.units);
+    rows.push([e.machine || "", C.model, C.esn, r.no, r.name, currentNo(r.no),
+               priceCsv(r.price), us.length,
+               us.map(function (u) { return r.units[u] + " (" + u + ")"; }).join(" | ")]);
+  });
+  var tag = (e.machine ? e.machine + "_" : "") + C.model.replace(/[^\wА-Яа-я]+/g, "_") + "_" + C.esn;
+  downloadCsv("nomera_" + tag + ".csv", rows);
+}
+
+/* --- «Все номера всех каталогов» --- */
+function exportAll() {
+  var head = ["Машина", "Модель", "ESN", "CPL", "Номер детали", "Наименование",
+              "Действующий номер", "Цена", "Узлов"];
+  var rows = [head];
+  ENGINES.forEach(function (eng) {
+    var cat = ALL[eng.esn]; if (!cat) return;
+    var map = {};
+    cat.options.forEach(function (o) {
+      o.parts.forEach(function (p) {
+        if (!p.no) return;
+        var k = normNo(p.no);
+        var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price, units: {} });
+        if (rec.price == null && p.price != null) rec.price = p.price;
+        if (!rec.name && p.name) rec.name = p.name;
+        rec.units[o.no] = 1;
+      });
+    });
+    Object.keys(map).sort(function (a, b) { return map[a].no.localeCompare(map[b].no); })
+      .forEach(function (k) {
+        var r = map[k];
+        rows.push([eng.machine || "", cat.model, eng.esn, cat.cpl || "", r.no, r.name,
+                   curNoFor(cat, r.no), priceCsv(r.price), Object.keys(r.units).length]);
+      });
+  });
+  downloadCsv("nomera_vse_katalogi.csv", rows);
+}
+$("dl-model").onclick = exportModel;
+$("dl-all").onclick = exportAll;
+
+/* --- проверка списка номеров по всему каталогу --- */
+var GIDX = null;          // глобальный индекс: прямые номера и заменённые
+var checkResults = null;
+function buildGlobalIndex() {
+  if (GIDX) return GIDX;
+  var direct = {}, via = {};
+  ENGINES.forEach(function (e) {
+    var cat = ALL[e.esn]; if (!cat) return;
+    cat.options.forEach(function (o) {
+      o.parts.forEach(function (p) {
+        if (!p.no) return;
+        var n = normNo(p.no), arr = direct[n] || (direct[n] = []), rec = null;
+        for (var i = 0; i < arr.length; i++) {
+          if (arr[i].esn === e.esn && arr[i].no === p.no) { rec = arr[i]; break; }
+        }
+        if (!rec) {
+          rec = { esn: e.esn, machine: e.machine, model: cat.model,
+                  no: p.no, cur: curNoFor(cat, p.no), units: {} };
+          arr.push(rec);
+        }
+        rec.units[o.no] = o.name;
+      });
+    });
+    var cards = cat.cards || {};
+    Object.keys(cards).forEach(function (pn) {
+      (cards[pn].sup || []).forEach(function (s) {
+        if (!s.no || s.no === pn) return;
+        var n = normNo(s.no);
+        (via[n] || (via[n] = [])).push({ esn: e.esn, machine: e.machine,
+          model: cat.model, no: pn, cur: curNoFor(cat, pn) });
+      });
+    });
+  });
+  GIDX = { direct: direct, via: via };
+  return GIDX;
+}
+function parseNumbers(text) {
+  var toks = String(text || "").split(/[\s,;]+/).map(function (t) { return t.trim(); }).filter(Boolean);
+  var seen = {}, out = [];
+  toks.forEach(function (t) { var k = normNo(t); if (k && !seen[k]) { seen[k] = 1; out.push(t); } });
+  return out;
+}
+function whereList(hits, sup) {
+  return hits.map(function (h) {
+    var label = (h.machine ? h.machine + " · " : "") + h.model;
+    if (sup) return label + " → действующий " + h.no + (h.cur && h.cur !== h.no ? " (" + h.cur + ")" : "");
+    var units = Object.keys(h.units).map(function (u) { return h.units[u]; });
+    var u = units.length ? " · " + units.slice(0, 4).join(", ") +
+            (units.length > 4 ? " и ещё " + (units.length - 4) : "") : "";
+    return label + u;
+  });
+}
+function findOptionOfPart(esn, pn) {
+  var cat = ALL[esn]; if (!cat) return null;
+  for (var i = 0; i < cat.options.length; i++) {
+    var ps = cat.options[i].parts;
+    for (var j = 0; j < ps.length; j++) if (ps[j].no === pn) return cat.options[i].no;
+  }
+  return null;
+}
+function openHit(r) {
+  var h = r.hits[0]; if (!h) return;
+  closeCheck();
+  if (h.esn !== C.esn) selectEngine(h.esn);
+  if (r.status === "sup") {
+    var loc = findOptionOfPart(h.esn, h.no);
+    if (loc) openOption(loc, h.no);
+  } else {
+    openOption(Object.keys(h.units)[0], h.no);
+  }
+}
+function runCheck() {
+  var nums = parseNumbers($("check-input").value), idx = buildGlobalIndex();
+  var results = [], cOk = 0, cSup = 0, cNo = 0;
+  nums.forEach(function (raw) {
+    var n = normNo(raw), d = idx.direct[n], v = idx.via[n];
+    if (d && d.length) { cOk++; results.push({ raw: raw, status: "ok", hits: d }); }
+    else if (v && v.length) { cSup++; results.push({ raw: raw, status: "sup", hits: v }); }
+    else { cNo++; results.push({ raw: raw, status: "no", hits: [] }); }
+  });
+  checkResults = results;
+  renderCheck(results, { ok: cOk, sup: cSup, no: cNo, total: nums.length });
+  $("check-dl").disabled = !results.length;
+}
+function renderCheck(results, sum) {
+  var s = $("check-summary"); s.innerHTML = "";
+  function pill(cls, txt) { s.appendChild(el("span", "pill " + cls, txt)); }
+  pill("tot", "Проверено: " + sum.total);
+  pill("ok", "В каталоге: " + sum.ok);
+  pill("sup", "Как заменённый: " + sum.sup);
+  pill("no", "Нет: " + sum.no);
+  var box = $("check-results"); box.innerHTML = "";
+  if (!results.length) { box.appendChild(el("p", "sub", "Введите номера и нажмите «Проверить».")); return; }
+  var tbl = el("table"), thead = el("thead"), htr = el("tr");
+  ["Номер", "Статус", "Где в каталоге"].forEach(function (h) { htr.appendChild(el("th", null, h)); });
+  thead.appendChild(htr); tbl.appendChild(thead);
+  var tb = el("tbody");
+  results.forEach(function (r) {
+    var tr = el("tr", "st-" + r.status);
+    tr.appendChild(el("td", "r-no", r.raw));
+    var tdS = el("td");
+    var label = r.status === "ok" ? "в каталоге" : r.status === "sup" ? "заменённый" : "нет в каталоге";
+    tdS.appendChild(el("span", "status " + r.status, label));
+    tr.appendChild(tdS);
+    var tdW = el("td", "r-where");
+    if (r.status === "no") tdW.textContent = "—";
+    else {
+      whereList(r.hits, r.status === "sup").forEach(function (t) {
+        tdW.appendChild(el("div", null, t));
+      });
+      tr.style.cursor = "pointer";
+      tr.title = "Открыть в каталоге";
+      tr.onclick = function () { openHit(r); };
+    }
+    tr.appendChild(tdW);
+    tb.appendChild(tr);
+  });
+  tbl.appendChild(tb); box.appendChild(tbl);
+}
+function downloadCheck() {
+  if (!checkResults || !checkResults.length) return;
+  var head = ["Номер", "Статус", "Машины и узлы", "Действующий номер"];
+  var rows = [head];
+  checkResults.forEach(function (r) {
+    var status = r.status === "ok" ? "в каталоге" : r.status === "sup" ? "заменённый" : "нет в каталоге";
+    var where = r.status === "no" ? "" : whereList(r.hits, r.status === "sup").join(" | ");
+    var cur = r.status === "sup" ? (r.hits[0] ? r.hits[0].no : "") : "";
+    rows.push([r.raw, status, where, cur]);
+  });
+  downloadCsv("proverka_spiska.csv", rows);
+}
+function openCheck() {
+  $("check-panel").classList.remove("hidden");
+  $("check-overlay").classList.remove("hidden");
+  $("check-input").focus();
+}
+function closeCheck() {
+  $("check-panel").classList.add("hidden");
+  $("check-overlay").classList.add("hidden");
+}
+$("check-list").onclick = openCheck;
+$("check-close").onclick = closeCheck;
+$("check-overlay").onclick = closeCheck;
+$("check-run").onclick = runCheck;
+$("check-dl").onclick = downloadCheck;
+$("check-reset").onclick = function () {
+  $("check-input").value = ""; checkResults = null;
+  $("check-results").innerHTML = ""; $("check-summary").innerHTML = "";
+  $("check-dl").disabled = true;
+};
+$("check-file-btn").onclick = function () { $("check-file").click(); };
+$("check-file").addEventListener("change", function () {
+  var f = this.files && this.files[0]; if (!f) return;
+  var reader = new FileReader();
+  reader.onload = function () {
+    var lines = String(reader.result || "").split(/\r?\n/).map(function (l) {
+      var c = l.split(/[;,\t]/)[0]; return c ? c.trim() : "";
+    }).filter(Boolean);
+    $("check-input").value = lines.join("\n");
+    runCheck();
+  };
+  reader.readAsText(f, "utf-8");
+  this.value = "";
+});
+
+/* --- цены из файла (клиентский прайс, сохраняется в браузере) --- */
+var LS_PRICES = "cummins_prices";
+var PRICES = {};
+try { PRICES = JSON.parse(localStorage.getItem(LS_PRICES)) || {}; } catch (e) { PRICES = {}; }
+function applyPrices() {
+  var has = Object.keys(PRICES).length > 0;
+  ENGINES.forEach(function (e) {
+    var cat = ALL[e.esn]; if (!cat) return;
+    cat.options.forEach(function (o) {
+      o.parts.forEach(function (p) {
+        if (!p.no) return;
+        var v = PRICES[normNo(p.no)];
+        if (v != null) p.price = v;
+      });
+    });
+    if (has) cat.hasPrices = true;
+  });
+}
+function parsePriceFile(text) {
+  var lines = String(text || "").split(/\r?\n/), map = {}, n = 0;
+  lines.forEach(function (raw) {
+    var line = raw.trim(); if (!line) return;
+    var cells;
+    if (line.indexOf(";") >= 0) cells = line.split(";");
+    else if (line.indexOf("\t") >= 0) cells = line.split("\t");
+    else if (line.indexOf(",") >= 0) cells = line.split(",");
+    else cells = line.split(/\s{2,}/);
+    cells = cells.map(function (c) { return c.trim().replace(/^"|"$/g, ""); });
+    if (cells.length < 2) return;
+    var price = null, priceIdx = -1;
+    for (var i = cells.length - 1; i >= 0; i--) {
+      var num = parseFloat(cells[i].replace(/[^\d.,-]/g, "").replace(/\s/g, "").replace(",", "."));
+      if (isFinite(num) && num > 0) { price = num; priceIdx = i; break; }
+    }
+    if (price == null) return;
+    var no = "";
+    for (var j = 0; j < cells.length; j++) {
+      if (j === priceIdx) continue;
+      if (cells[j]) { no = cells[j]; break; }
+    }
+    if (!no) return;
+    map[normNo(no)] = price; n++;
+  });
+  return { map: map, rows: n };
+}
+function countPricedInCatalog() {
+  var seen = {}, n = 0;
+  ENGINES.forEach(function (e) {
+    var cat = ALL[e.esn]; if (!cat) return;
+    cat.options.forEach(function (o) {
+      o.parts.forEach(function (p) {
+        if (!p.no) return;
+        var k = normNo(p.no);
+        if (!seen[k] && PRICES[k] != null) { seen[k] = 1; n++; }
+      });
+    });
+  });
+  return n;
+}
+$("update-prices").onclick = function () { $("price-file").click(); };
+$("price-file").addEventListener("change", function () {
+  var f = this.files && this.files[0]; if (!f) { return; }
+  if (/\.xlsx?$/i.test(f.name)) {
+    alert("Файл Excel (.xlsx/.xls) напрямую не читается в офлайн-каталоге.\n" +
+          "Сохраните прайс как CSV (Файл → Сохранить как → CSV, разделитель «;»): " +
+          "первый столбец — номер детали, последний — цена.");
+    this.value = ""; return;
+  }
+  var reader = new FileReader();
+  reader.onload = function () {
+    var res = parsePriceFile(String(reader.result || ""));
+    if (!res.rows) {
+      alert("Не найдено пар «номер — цена».\nНужен CSV/текст: в строке номер детали и цена " +
+            "(через «;», табуляцию или запятую).");
+      return;
+    }
+    PRICES = res.map;
+    try { localStorage.setItem(LS_PRICES, JSON.stringify(PRICES)); } catch (e) {}
+    applyPrices();
+    var inCat = countPricedInCatalog();
+    if (state.option) openOption(state.option.no); else renderTree();
+    renderCart();
+    alert("Загружено строк с ценой: " + res.rows +
+          "\nСовпало с номерами каталога: " + inCat +
+          "\n\nЦены сохранены в браузере и применены ко всем двигателям.");
+  };
+  reader.readAsText(f, "utf-8");
+  this.value = "";
+});
+
 document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape") { closeCart(); closePartCard(); }
+  if (e.key === "Escape") { closeCart(); closePartCard(); closeCheck(); }
 });
 
 /* ---------- старт ---------- */
 buildEngineSelect();
+applyPrices();
 var saved = null;
 try { saved = localStorage.getItem(LS_ENG); } catch (e) {}
 selectEngine(saved && ALL[saved] ? saved : ENGINES[0].esn);

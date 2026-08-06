@@ -9,15 +9,34 @@
 <body>
 
 <div class="contacts">
-  По вопросам работы каталога запасных частей, ошибок, замечаний обращаться к
+  По вопросам работы каталога запасных частей, ошибок и замечаний обращаться к
   Кузнецову&nbsp;В.Е. <a href="mailto:KuznetsovVE@industrservice.ru">KuznetsovVE@industrservice.ru</a>
 </div>
 
 <header class="topbar">
   <div class="brand">
-    <div class="brand-title">Каталог запасных частей</div>
-    <div class="brand-sub">
-      <select id="engine-select" title="Выбрать двигатель"></select>
+    <span class="brand-logo" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="40" height="40" role="img" aria-label="Логотип">
+        <rect width="48" height="48" rx="10" fill="var(--accent)"/>
+        <g fill="#fff" transform="translate(24,24)">
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(45)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(90)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(135)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(180)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(225)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(270)"/>
+          <rect x="-2.4" y="-16.5" width="4.8" height="8" rx="1.6" transform="rotate(315)"/>
+          <circle r="9.5"/>
+        </g>
+        <circle cx="24" cy="24" r="4.6" fill="var(--accent)"/>
+      </svg>
+    </span>
+    <div class="brand-text">
+      <div class="brand-title">Каталог запасных частей Cummins</div>
+      <div class="brand-sub">
+        <select id="engine-select" title="Выбрать двигатель"></select>
+      </div>
     </div>
   </div>
   <div class="search-box">
@@ -25,15 +44,28 @@
            placeholder="Поиск по номеру детали или наименованию…">
     <button id="search-clear" class="btn-plain" title="Очистить">✕</button>
   </div>
-  <button id="cart-toggle" class="btn-cart">
-    Заказ <span id="cart-count" class="badge">0</span>
-  </button>
+  <div class="topbar-tools">
+    <button id="check-list" class="btn-tool"
+            title="Проверить свой список номеров на наличие в каталоге">Проверить список</button>
+    <button id="update-prices" class="btn-tool"
+            title="Загрузить прайс-лист (CSV) и подставить цены в каталог">Обновить цены</button>
+    <input id="price-file" type="file" accept=".csv,.txt,.tsv" class="hidden">
+    <button id="cart-toggle" class="btn-cart">
+      Заказ <span id="cart-count" class="badge">0</span>
+    </button>
+  </div>
 </header>
 
 <div class="passport" id="passport"></div>
 
 <main class="layout">
   <aside class="sidebar">
+    <div class="sidebar-export">
+      <button id="dl-model" class="btn-export"
+              title="Скачать все номера деталей текущего двигателя">↓ Все номера этой модели (Excel)</button>
+      <button id="dl-all" class="btn-export"
+              title="Скачать все номера деталей по всем двигателям каталога">↓ Все номера всех каталогов (Excel)</button>
+    </div>
     <div class="sidebar-head">Системы двигателя</div>
     <nav id="tree" class="tree"></nav>
   </aside>
@@ -123,6 +155,31 @@
         <div id="pc-used-body" class="pc-used"></div>
       </div>
     </div>
+  </div>
+</aside>
+
+<!-- Проверка списка номеров -->
+<div id="check-overlay" class="overlay hidden"></div>
+<aside id="check-panel" class="side-panel hidden">
+  <div class="cart-head">
+    <h2>Проверить список на наличие в каталоге</h2>
+    <button class="btn-plain" id="check-close">✕</button>
+  </div>
+  <div class="check-body">
+    <p class="check-hint">Вставьте номера деталей — по одному в строке (можно через запятую,
+       пробел или точку с запятой). Проверка идёт сразу по всем двигателям каталога и находит
+       номер в том числе как <b>заменённый</b> (старый).</p>
+    <textarea id="check-input" rows="6"
+      placeholder="3655668&#10;4327201&#10;3100292&#10;…"></textarea>
+    <div class="check-actions">
+      <button class="btn" id="check-run">Проверить</button>
+      <button class="btn" id="check-file-btn">Загрузить файл…</button>
+      <input id="check-file" type="file" accept=".csv,.txt,.tsv" class="hidden">
+      <button class="btn" id="check-dl" disabled>Скачать результат (Excel)</button>
+      <button class="btn btn-danger" id="check-reset">Очистить</button>
+    </div>
+    <div id="check-summary" class="check-summary"></div>
+    <div id="check-results" class="check-results"></div>
   </div>
 </aside>
 
