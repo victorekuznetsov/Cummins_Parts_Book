@@ -1,0 +1,171 @@
+{
+ "componentHash": "DB9E2B418E4A35795697BEB371B6A9962A6ED77EB5CFDF5908C89F7C3A3854C3F61F5C0CE23C7B117ED239A5E8C68E5FC0F6CDEB7AD7318B5F136DE568272917",
+ "esnType": "mbom",
+ "optionName": "Calibration Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Calibration Software|cpl: 3379|engine Control System: Aan|rated Power: 2000 Bhp @ 1900 Rpm|torque Peak: 05805 Lb Ft @ 1500 Rpm|governed Power: 0000 Bhp @ 0000 Rpm|governed Torque: 0000 Lb Ft|certified By: None,mep|application: Nonroad|cal Restr: C3.0 Injectors Only|power Rating: Na|not Used|speed Input: 60-2 Crank, 24+1 Cam|comment: Primary (ecm 3)|cert Level: None  ,cs Iii|software Phase: 25.02.01.22|comment Cont:|cert Level2:|certified By2:|manufacturer Of Record: Cummins|do Option: Do 61042|centinel: Capable|special Allowance: In The Us, Formerly Sold|as Tpem Until End Of 2017",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2873450",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONTROL SOFTWARE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2873468",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2873469",
+      "latestPart": "false",
+      "partDesc": "ELECTRONIC CONSTANTS DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2873470",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONFIGURATION DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2873472",
+      "latestPart": "false",
+      "partDesc": "SYSTEM CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5471203",
+      "latestPart": "false",
+      "partDesc": "PERFORMANCE CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "075",
+ "buildCode": null,
+ "optionNumber": "SC61878-01",
+ "optionNo": "SC61878-01",
+ "path": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "3BB6F44DFE87740A50BDD64102C521DD9245C2AE29F2F3A23DDB23371DD0E0D969BDF7A24AB72F6DC9A40A2B12E3635F42B7426CD4089A038EAF48DF4B085D5F",
+ "esnType": "mbom",
+ "optionName": "Paint",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ss/075_ss0611200_02"
+  }
+ ],
+ "remarks": "Paint|engine Family: D28, D58, D59, D77|color: Basalt Gray|paint Specification: Ral # 7012",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3643480",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/ss/075_ss0611200_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "SS6112-02",
+ "optionNumber": "SS6112-02",
+ "buildCode": null,
+ "path": null
+}

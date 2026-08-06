@@ -1,0 +1,3252 @@
+{
+ "partNo": "205413",
+ "partDesc": "twelve point cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AR45064",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air supply tube"
+  },
+  {
+   "item": "3865940",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3175382",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover support mounting"
+  },
+  {
+   "item": "3005379",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner"
+  },
+  {
+   "item": "3005702",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "compressor mounting"
+  },
+  {
+   "item": "3248743",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cam follower cover mounting"
+  },
+  {
+   "item": "3626910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover hand hole mounting"
+  },
+  {
+   "item": "3005380",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner"
+  },
+  {
+   "item": "3175382",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover support mounting"
+  },
+  {
+   "item": "3076839",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3005604",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "actuator mounting bracket"
+  },
+  {
+   "item": "FT60892",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60857",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60862",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60851",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60853",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "MP5264",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover mounting"
+  },
+  {
+   "item": "MP5264",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover mounting"
+  },
+  {
+   "item": "TP6839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger coolant plumbing"
+  },
+  {
+   "item": "FT60890",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60899",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "OB6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "HC6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "HC6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bayonet and fill"
+  },
+  {
+   "item": "OB6017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bayonet and fill"
+  },
+  {
+   "item": "OB6025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bayonet and fill"
+  },
+  {
+   "item": "OB6006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bayonet and fill"
+  },
+  {
+   "item": "OB6013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil dipstick and fill"
+  },
+  {
+   "item": "OB6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase explosion valve"
+  },
+  {
+   "item": "OB6129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase explosion valve"
+  },
+  {
+   "item": "OB6130",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6426",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6428",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6428",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6429",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6429",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6380",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6154",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6154",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6134",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "dipstick fill & bre"
+  },
+  {
+   "item": "OB6136",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6136",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather dipstick"
+  },
+  {
+   "item": "OB6123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "dipstick fill & breather"
+  },
+  {
+   "item": "SD6002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase explosion valve"
+  },
+  {
+   "item": "SD6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase explosion valve"
+  },
+  {
+   "item": "TB3057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "OB67155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB6225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6207",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6207",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6392",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6392",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6409",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6409",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6410",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6410",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6173",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6176",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6376",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6380",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6231",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB6216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6430",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6430",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6413",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6422",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6422",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6426",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3640882",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "3640881",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "3631530",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "CP4084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP4052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "BP6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP6010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP6013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP6017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CP4033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP4011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173071MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233023GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233015PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233016PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233008MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233013PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232007MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232009GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232018DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193087RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193078RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193068GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283049MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283033MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283042GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283024GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283016DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283017GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283011DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283013CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283014DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283007PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283008CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283009DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283004LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283005MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283006GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233038MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6217",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6424",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6219",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6214",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fill and breather"
+  },
+  {
+   "item": "OB6395",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6411",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6372",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6373",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6374",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6375",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6341",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6370",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6214",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB6431",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6436",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6437",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6423",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB6218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233038MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283042GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283011DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283014DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/205/205413/205413.obj"
+  },
+  {
+   "fileName": "/205/205413/205413.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/205/205413/205413_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "3/8 - 16 X  3/4 INCH"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4.3 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".065 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.8 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

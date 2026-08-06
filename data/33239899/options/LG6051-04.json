@@ -1,0 +1,106 @@
+{
+ "componentHash": "BCCA0330D8175753FB13F1FF8B737C17190F561A3F725A5DDCB7BDB14C52F9BB42EA69C01F14063EADF70F8A89605EC9FBB904B974455A492BDF2A9EB33520C9",
+ "esnType": "mbom",
+ "optionName": "Oil Level Gauge Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/lg/075_lg0605100_04"
+  }
+ ],
+ "remarks": "Oil Level Gauge Location|engine Family: D23, D28|dipstick Cap Style: Pressed O'ring Connection|dipstick Location:|right Bank #5 Cylinder|dipstick Pull Location:|from Engine C/l (mm): -418.25 (-16.46 In)|from Crank C/l(mm): -29.95 (-1.18 In)|from Ffob (mm): -1087.95 (-42.83 In)|run Level Check Capability: No|power Angle: 0|power Tilt: 0|sight Gauge Included: No|dipstick Calibration:|bfob - Full/low 0 Deg (mm):|59.6/104.1 (2.35/4.10 In)|dipstick Engine Interface:|pressed O'ring Connection X 11.42 Mm Od",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "131026",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3030207",
+      "latestPart": "false",
+      "partDesc": "DIPSTICK RETAINER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3649992",
+      "latestPart": "false",
+      "partDesc": "DIPSTICK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/lg/075_lg0605100_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "LG6051-04",
+ "optionNo": "LG6051-04",
+ "buildCode": null,
+ "path": null
+}

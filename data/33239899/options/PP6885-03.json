@@ -1,0 +1,130 @@
+{
+ "componentHash": "DB764CADAB9A10E9D2188AA253DDA9EE74D6CA15B35701BC838B29DAC125C575A47F066129D20C2DE89539E8C6B141EBC34841D85C09FE1329752652D81CE88D",
+ "esnType": "mbom",
+ "optionName": "Camshaft Gear",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/pp/075_pp0688500_03"
+  }
+ ],
+ "remarks": "Camshaft Gear|engine Family: Qsk38, Qsk50|cpl:|qsk38: 3380, 3738,|qsk50: 2760, 2761, 2762, 2959, 3080, 3171,|3329, 3300, 3330, 3379, 3391, 3548,|3587, 3714, 3762, 3976, 4241, 4261,|4340, 4350|cam Gear Mounting Provision: Keyway|cam Gear Engine Interface (mm):|57.125 (2.25 In) Keyed Pilot Dia|accy Drive Gear Pto Flange Type: None",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3641685",
+      "latestPart": "false",
+      "partDesc": "CAMSHAFT GEAR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "148547",
+        "latestPart": "false",
+        "partDesc": "PIN DOWEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4916772",
+        "latestPart": "false",
+        "partDesc": "CAMSHAFT GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "S302",
+      "latestPart": "false",
+      "partDesc": "PLAIN WOODRUFF KEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/pp/075_pp0688500_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "PP6885-03",
+ "optionNo": "PP6885-03",
+ "buildCode": null,
+ "path": null
+}

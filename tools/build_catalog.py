@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # =====================================================================
-# Сборка интерактивного веб-каталога из выгрузки crawler.py.
+# Сборка интерактивного веб-каталога из выгрузки crawler.py / crawl_details.py.
 #
 #   python tools/build_catalog.py 37292556 [--prices прайс.xlsx]
 #
-# Читает data/<ESN>/ (engine.json, systems.json, options/*.json, drawings/, parts/)
-# и создаёт catalog/:
-#   data.js      — все данные каталога одним файлом (window.CATALOG),
-#                  чтобы index.html открывался двойным щелчком, без сервера
-#   drawings/    — чертежи узлов
-#   parts/       — фото деталей
+# Каталог рассчитан на несколько двигателей: каждый ESN кладётся отдельно и
+# появляется в переключателе в шапке. Создаётся/обновляется:
+#   catalog/data/<ESN>.js    — данные двигателя (window.CATALOGS[<ESN>])
+#   catalog/engines.js       — список двигателей для переключателя
+#   catalog/drawings/<ESN>/  — чертежи узлов
+#   catalog/parts/<ESN>/     — фотографии деталей
+#   catalog/index.html       — дописываются <script> на файлы данных
 # Оболочка (index.html, app.js, styles.css) статическая и не перезаписывается.
 # =====================================================================
 import sys, io, json, re, shutil, argparse
@@ -24,16 +25,18 @@ SYSTEM_RU = {
     "AIR INTAKE": "Воздухозаборник",
     "BASE ENGINE": "Базовый двигатель",
     "COMPRESSORS AND PUMPS": "Компрессоры и насосы",
-    "COOLING": "Охлаждение",
+    "COOLING": "Система охлаждения",
     "DRIVES AND MOUNTINGS": "Приводы и крепления",
     "ELECTRICS": "Электрооборудование",
-    "EXHAUST": "Выпуск",
+    "EXHAUST": "Система выпуска",
     "FUEL": "Топливная система",
-    "LUBRICATION": "Смазка",
+    "LUBRICATION": "Система смазки",
     "MISCELLANEOUS": "Прочее",
     "RATINGS AND CALIBRATIONS": "Номиналы и калибровки",
     "UNCLASSIFIED": "Без системы",
 }
+
+IN_MM, LB_KG = 25.4, 0.45359237
 
 
 def safe(name: str) -> str:
@@ -41,8 +44,24 @@ def safe(name: str) -> str:
 
 
 def drawing_file(fname: str) -> str:
-    """Имя файла чертежа так же, как его сохранил crawler.py."""
     return safe(fname.strip("/").replace("/", "_")) + ".png"
+
+
+def _num(v):
+    m = re.search(r"-?\d+(?:[.,]\d+)?", str(v or ""))
+    return float(m.group(0).replace(",", ".")) if m else None
+
+
+def _conv(value, to):
+    """'7.25 in' -> мм, '2.32 lb' -> кг."""
+    n = _num(value)
+    if n is None:
+        return ""
+    s = str(value).lower()
+    if to == "mm":
+        return f"{n * IN_MM if 'in' in s else n:.0f}"
+    n = n * LB_KG if "lb" in s else n
+    return f"{n:.2f}".rstrip("0").rstrip(".")
 
 
 def flatten_parts(groups):
@@ -61,7 +80,7 @@ def flatten_parts(groups):
                 "dim":  (d.get("dimensions") or "").strip(),
                 "rem":  (d.get("remarks") or "").strip(),
                 "lvl":  level,
-                "img":  bool(d.get("hasGraphic")),
+                "img":  "",
             })
         for ch in (node.get("children") or []):
             walk(ch, level + 1)
@@ -70,26 +89,6 @@ def flatten_parts(groups):
         for p in (g.get("parts") or []):
             walk(p, 0)
     return out
-
-
-IN_MM, LB_KG = 25.4, 0.45359237
-
-
-def _num(v):
-    m = re.search(r"-?\d+(?:[.,]\d+)?", str(v or ""))
-    return float(m.group(0).replace(",", ".")) if m else None
-
-
-def _conv(value, to):
-    """'7.25 in' -> мм, '2.32 lb' -> кг."""
-    n = _num(value)
-    if n is None:
-        return ""
-    s = str(value).lower()
-    if to == "mm":
-        return f"{n * IN_MM if 'in' in s else n:.0f}"
-    n = n * LB_KG if "lb" in s else n
-    return f"{n:.2f}".rstrip("0").rstrip(".")
 
 
 def load_part_cards(src, part_nos):
@@ -110,14 +109,15 @@ def load_part_cards(src, part_nos):
                     nm, val = (v.get("name") or "").strip(), (v.get("value") or "").strip()
                     if nm and val:
                         attrs[nm] = val
-        # цепочка замен: sequence 1 — актуальный номер, дальше по убыванию — старые
+        # цепочка замен: sequence 1 — действующий номер, дальше по убыванию — старые
         sup = []
         for s in (d.get("supersession") or []):
             if not isinstance(s, dict) or not s.get("partNo"):
                 continue
             sup.append({
                 "no":   str(s["partNo"]).strip(),
-                "st":   re.sub(r"^\d+-\s*", "", str(s.get("partSscDesc") or s.get("partSsc") or "")).strip(),
+                "st":   re.sub(r"^\d+-\s*", "",
+                               str(s.get("partSscDesc") or s.get("partSsc") or "")).strip(),
                 "sell": (s.get("sellable") == "Y"),
                 "seq":  int(_num(s.get("sequence")) or 0),
             })
@@ -173,7 +173,7 @@ def load_prices(path):
     i_grp   = col("группа", "group")
     i_alt   = col("взаимозамен", "аналог", "замена", "alt")
     if i_no is None or i_price is None:
-        print(f"!! в прайсе не нашёл колонок номера/цены (заголовки: {header[:8]}) — цены пропущены")
+        print(f"!! в прайсе нет колонок номера/цены (заголовки: {header[:8]}) — цены пропущены")
         return {}
     prices = {}
     for r in rows:
@@ -191,7 +191,55 @@ def load_prices(path):
     return prices
 
 
-def build(esn, prices_path=None):
+def update_registry(catalog, machine="", fleet=None):
+    """catalog/engines.js — список двигателей для переключателя в шапке."""
+    reg = CAT / "engines.js"
+    engines = {}
+    if reg.exists():
+        m = re.search(r"window\.ENGINES\s*=\s*(\[.*?\]);", reg.read_text(encoding="utf-8"), re.S)
+        if m:
+            for e in json.loads(m.group(1)):
+                engines[e["esn"]] = e
+    prev = engines.get(catalog["esn"], {})
+    engines[catalog["esn"]] = {
+        "esn": catalog["esn"], "model": catalog["model"], "cpl": catalog["cpl"],
+        "machine": machine or prev.get("machine", ""),
+        "build": catalog["buildDate"], "config": catalog["config"],
+        "options": len(catalog["options"]),
+        "parts": len({p["no"] for o in catalog["options"] for p in o["parts"] if p["no"]}),
+        "fleet": fleet if fleet is not None else prev.get("fleet", []),
+    }
+    rows = sorted(engines.values(), key=lambda e: (str(e["machine"]), str(e["model"])))
+    reg.write_text("window.ENGINES = " + json.dumps(rows, ensure_ascii=False, indent=1) + ";\n",
+                   encoding="utf-8")
+    return rows
+
+
+def update_index(engines):
+    """Подключаем в index.html engines.js и файлы данных всех двигателей."""
+    idx = CAT / "index.html"
+    html = idx.read_text(encoding="utf-8")
+    tags = ['<script src="engines.js"></script>'] + \
+           [f'<script src="data/{e["esn"]}.js"></script>' for e in engines]
+    block = "\n".join(tags)
+    html = re.sub(r'(?:<script src="(?:engines\.js|data/\d+\.js)"></script>\s*)+', "", html)
+    html = html.replace('<script src="app.js"></script>', block + '\n<script src="app.js"></script>')
+    idx.write_text(html, encoding="utf-8")
+
+
+def load_fleet(report_path, esn):
+    """Остальные ESN с тем же CPL — из отчёта tools/check_esn.py."""
+    if not report_path:
+        return None
+    d = json.loads(Path(report_path).read_text(encoding="utf-8"))
+    for g in d.get("groups", []):
+        if esn in g.get("esns", []):
+            return [e for e in g["esns"] if e != esn]
+    print(f"!! {esn} не найден в {report_path} — список парка не заполнен")
+    return None
+
+
+def build(esn, prices_path=None, machine="", fleet_report=None):
     src = ROOT / "data" / esn
     if not (src / "engine.json").exists():
         sys.exit(f"нет выгрузки {src} — сначала запустите crawler.py {esn}")
@@ -223,8 +271,6 @@ def build(esn, prices_path=None):
             if p["no"] and (src / "parts" / photo).exists():
                 p["img"] = photo
                 all_photos.add(photo)
-            else:
-                p["img"] = ""
         options.append({
             "no": no,
             "name": d.get("optionName") or no,
@@ -255,7 +301,6 @@ def build(esn, prices_path=None):
             "options": sorted([o["no"] for o in options if code in o["systems"]]),
         })
 
-    # карточки деталей (атрибуты, замены номеров, где применяется, ракурсы)
     uniq_nos = {p["no"] for o in options for p in o["parts"] if p["no"]}
     cards, card_views, n_sup = load_part_cards(src, uniq_nos)
     all_photos.update(card_views)
@@ -275,34 +320,38 @@ def build(esn, prices_path=None):
         "cards": cards,
     }
 
-    CAT.mkdir(exist_ok=True)
-    (CAT / "data.js").write_text(
-        "window.CATALOG = " + json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";",
+    (CAT / "data").mkdir(parents=True, exist_ok=True)
+    (CAT / "data" / f"{esn}.js").write_text(
+        "window.CATALOGS = window.CATALOGS || {};\nwindow.CATALOGS[\"" + esn + "\"] = " +
+        json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";\n",
         encoding="utf-8")
 
-    # картинки
+    # картинки — в подпапки по ESN
     for sub, names in (("drawings", all_sheets), ("parts", all_photos)):
-        dst = CAT / sub
-        dst.mkdir(exist_ok=True)
+        dst = CAT / sub / esn
+        dst.mkdir(parents=True, exist_ok=True)
         for n in names:
             s = src / sub / n
             if s.exists() and not (dst / n).exists():
                 shutil.copy2(s, dst / n)
 
+    engines = update_registry(catalog, machine, load_fleet(fleet_report, esn))
+    update_index(engines)
+
     total_pos = sum(len(o["parts"]) for o in options)
-    uniq = {p["no"] for o in options for p in o["parts"] if p["no"]}
-    print(f">>> Каталог собран: {CAT}")
+    print(f">>> Двигатель {esn} ({catalog['model']}, CPL {catalog['cpl']}) добавлен в каталог")
     print(f"    систем {len(systems)}, узлов {len(options)}, позиций {total_pos}, "
-          f"уникальных деталей {len(uniq)}")
+          f"уникальных деталей {len(uniq_nos)}")
     print(f"    чертежей {len(all_sheets)}, фото деталей {len(all_photos)}, "
           f"ремкомплектов {len(kits)}")
     print(f"    карточек деталей {len(cards)}, из них с заменами номеров {n_sup}")
-    print(f"    data.js: {(CAT / 'data.js').stat().st_size / 1024:.0f} КБ")
+    print(f"    data/{esn}.js: {(CAT / 'data' / f'{esn}.js').stat().st_size / 1024:.0f} КБ")
+    print(f"    всего двигателей в каталоге: {len(engines)} "
+          f"({', '.join(e['esn'] for e in engines)})")
 
-    # контроль полноты: ни один номер из состава двигателя не потерян
     from_engine = {p["partNo"] for o in (engine.get("optionList") or [])
                    for p in (o.get("parts") or []) if p.get("partNo")}
-    lost = sorted(from_engine - uniq)
+    lost = sorted(from_engine - uniq_nos)
     print(f"    ПОТЕРЯНО НОМЕРОВ: {len(lost)}" + (f" -> {lost[:10]}" if lost else "  (ноль)"))
     return len(lost) == 0
 
@@ -311,5 +360,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Сборка веб-каталога Cummins")
     ap.add_argument("esn")
     ap.add_argument("--prices", help="прайс-лист .xlsx (необязательно)")
+    ap.add_argument("--machine", default="", help="машина, на которой стоит двигатель (например, NTE200)")
+    ap.add_argument("--fleet-from", dest="fleet", default=None,
+                    help="отчёт check_esn.py — подставит остальные ESN того же CPL")
     a = ap.parse_args()
-    sys.exit(0 if build(a.esn, a.prices) else 1)
+    sys.exit(0 if build(a.esn, a.prices, a.machine, a.fleet) else 1)

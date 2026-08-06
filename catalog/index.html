@@ -16,7 +16,9 @@
 <header class="topbar">
   <div class="brand">
     <div class="brand-title">Каталог запасных частей</div>
-    <div class="brand-sub" id="engine-line">—</div>
+    <div class="brand-sub">
+      <select id="engine-select" title="Выбрать двигатель"></select>
+    </div>
   </div>
   <div class="search-box">
     <input id="search" type="search" autocomplete="off"
@@ -132,6 +134,7 @@
     <button class="btn-plain" id="cart-close">✕</button>
   </div>
   <div class="cart-serial">
+    <div class="cart-engine">Двигатель: <b id="cart-engine"></b></div>
     <label for="serial">Серийный номер машины / ESN</label>
     <input id="serial" type="text" placeholder="например, 37292556">
   </div>
@@ -154,7 +157,9 @@
   </div>
 </aside>
 
-<script src="data.js"></script>
+<script src="engines.js"></script>
+<script src="data/33239899.js"></script>
+<script src="data/37292556.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

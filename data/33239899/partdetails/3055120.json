@@ -1,0 +1,262 @@
+{
+ "partNo": "3055120",
+ "partDesc": "turbocharger bracket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3177292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "3630503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet connection exhaust"
+  },
+  {
+   "item": "3630503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet connection exhaust"
+  },
+  {
+   "item": "3067395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger exhaust elbow"
+  },
+  {
+   "item": "3630504",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet connection exhaust"
+  },
+  {
+   "item": "3630504",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet connection exhaust"
+  },
+  {
+   "item": "3177714",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust connection mounting"
+  },
+  {
+   "item": "TB6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB6770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB6061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "XS6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "XS6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "XS6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "PP6124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "XS8117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust elbow"
+  },
+  {
+   "item": "PP6128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "XS6019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "XS6019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "PP6084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/305/3055120/3055120.obj"
+  },
+  {
+   "fileName": "/305/3055120/3055120.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/305/3055120/3055120_front.png"
+  },
+  {
+   "fileName": "/305/3055120/3055120_iso.png"
+  },
+  {
+   "fileName": "/305/3055120/3055120_iso2.png"
+  },
+  {
+   "fileName": "/305/3055120/3055120_top.png"
+  },
+  {
+   "fileName": "/305/3055120/3055120_iso_mkt.png"
+  },
+  {
+   "fileName": "/305/3055120/3055120_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "20 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "2.47 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "15 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

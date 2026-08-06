@@ -1,0 +1,79 @@
+{
+ "componentHash": "801EF1A6A8C09B5357504F26788F04BA5BDA531409AB6492F49B426CA254E704C11065F236FEA9FC251F719DBA4F6758EC8C00674705072FEBB1F182B1A144D4",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Cs Iii|special Allowance: Na|cert Agent: Mep|comment:|fuel Type: Diesel|cert Level2:|certified By2:|dataplate Language: English And Chinese|manufacturer Of Record: Cummins|engine Family: D23, D28|unique Characteristics:|power Range > 560kw|additional Information:|cannot Be Used In Non-Road Mobile|machinery In The Eu After January 2019.|in The U.s., This Engine Is Solely For|export.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3633720",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6305419",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "AP6384-02",
+ "optionNumber": "AP6384-02",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "E9064C97BFBB9B8A209DE418B27D6D504C30B600E5E7B1F9C395B154661BBCE49A146D3DF2C6CF586C4CCB0FBB4F1D71F05828B28DD748CD16AA2C63EE71AE33",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/sp/075_sp0603800_01"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|fan Spacing(mm): 76 (3.0 In)|fan Hub Diameter (mm): 168.1 Mm (6.62 In)|pilot Bore Diameter (mm): 76.25 (3.0 In)|fan Pilot Spigot Length (mm): 20.95 (.825 In)|mounting Holes: 6 X Dia 14.3 (.563 In)|bolt Center(mm): 140 (5.5 In)|supplied: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "218792",
+      "latestPart": "false",
+      "partDesc": "FAN PILOT SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/075/sp/075_sp0603800_01",
+ "optionPlantCode": "075",
+ "buildCode": null,
+ "optionNumber": "SP6038-01",
+ "optionNo": "SP6038-01",
+ "path": null
+}

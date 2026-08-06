@@ -1,0 +1,83 @@
+{
+ "componentHash": "D735734A39E2A857C5471ADF12E8F8A65FB380229CF2FBC0B73DFE66CDBCB89EF77476F62EED494AFD367530F95225B7243912B1E3C76D38E41F1D66ABCDBC31",
+ "esnType": "mbom",
+ "optionName": "Front Engine Support",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/em/075_em0608900_04"
+  }
+ ],
+ "remarks": "Front Engine Support|engine Family: D23, D28|mount Type: Trunion|mounting Hole Description (mm):|2 X 20.2 (0.797 In) Thru|trunnion Dia (mm): 212.9 (8.39 In)|grease Fitting Provision: Yes|grease Fill Location: Lb  Gear Cover|grease Fitting Thread Size: 1/8 Nptf|grease Fitting Plumbing Provision (mm):|508 (20 In) Hose|front Clutch Mounting Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3638146",
+      "latestPart": "false",
+      "partDesc": "FRONT ENGINE SUPPORT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S2268",
+      "latestPart": "false",
+      "partDesc": "GREASE FITTING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/em/075_em0608900_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "EM6089-04",
+ "optionNumber": "EM6089-04",
+ "buildCode": null,
+ "path": null
+}

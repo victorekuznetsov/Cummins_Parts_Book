@@ -318,11 +318,13 @@ def open_session(pw, esn, headless=True):
     except Exception:
         pass
     page.wait_for_timeout(1200)
-    print(f">>> Ищу ESN {esn}")
-    page.fill("#criteria", esn); page.press("#criteria", "Enter")
-    page.wait_for_timeout(11000)
-    if "esn-entry" not in page.url:
-        raise RuntimeError(f"ESN не открылся, текущий URL: {page.url}")
+    # Сессии с главной страницы достаточно: API отвечает по кукам плюс заголовок
+    # x-xsrf-token. Заходить в карточку ESN не нужно — у части номеров поиск
+    # уводит на страницу результатов, а не в карточку двигателя.
+    cookies = {c["name"]: c["value"] for c in ctx.cookies()}
+    if "XSRF-TOKEN" not in cookies:
+        raise RuntimeError("сессия не завелась: нет куки XSRF-TOKEN")
+    print(f">>> Сессия готова, выгружаю ESN {esn}")
     return b, ctx, page
 
 

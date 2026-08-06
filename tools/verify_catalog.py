@@ -30,6 +30,18 @@ def close_system(page, i):
         page.wait_for_timeout(150)
 
 
+def open_option_by_no(page, no):
+    """Открыть узел по его номеру: раскрываем систему, в которой он есть."""
+    page.evaluate("""(no) => {
+        const box = [...document.querySelectorAll('.tree-opt')]
+            .find(a => a.dataset.no === no);
+        if (box) box.closest('.tree-sys').classList.add('open');
+    }""", no)
+    page.wait_for_timeout(250)
+    page.locator(f'.tree-opt[data-no="{no}"]').first.click()
+    page.wait_for_timeout(1200)
+
+
 def check(name, cond, extra=""):
     global ok
     print(("  [ OK ] " if cond else "  [ФЕЙЛ] ") + name + (f" — {extra}" if extra else ""))
@@ -47,18 +59,39 @@ with sync_playwright() as p:
     page.goto(IDX, wait_until="load", timeout=60000)
     page.wait_for_timeout(1500)
 
-    data = page.evaluate("() => ({sys: CATALOG.systems.length, opt: CATALOG.options.length, "
-                         "cards: Object.keys(CATALOG.cards||{}).length, esn: CATALOG.esn, "
-                         "model: CATALOG.model})")
-    print(f"    ESN {data['esn']}, модель {data['model']}, систем {data['sys']}, "
-          f"узлов {data['opt']}, карточек {data['cards']}")
-    check("паспорт двигателя показан", "QST30" in page.inner_text("#passport"))
+    data = page.evaluate("""() => { const esn = document.getElementById('engine-select').value;
+        const c = window.CATALOGS[esn];
+        return {sys: c.systems.length, opt: c.options.length,
+                cards: Object.keys(c.cards||{}).length, esn: c.esn, model: c.model,
+                engines: window.ENGINES.length}; }""")
+    print(f"    двигателей в каталоге: {data['engines']}; текущий — ESN {data['esn']}, "
+          f"{data['model']}, систем {data['sys']}, узлов {data['opt']}, карточек {data['cards']}")
+    check("паспорт двигателя показан", data["model"].split()[0] in page.inner_text("#passport"))
+    check("переключатель двигателей заполнен",
+          page.locator("#engine-select option").count() == data["engines"])
     check("дерево систем построено", page.locator(".tree-sys").count() == data["sys"])
 
+    # покрытие: у скольких узлов есть чертёж и у скольких деталей — фото
+    cov = page.evaluate("""() => {
+        const c = window.CATALOGS[document.getElementById('engine-select').value];
+        const withParts = c.options.filter(o => o.parts.length);
+        const withDraw = withParts.filter(o => o.sheets.length);
+        const nos = new Set(), withPhoto = new Set();
+        c.options.forEach(o => o.parts.forEach(p => { if (p.no) { nos.add(p.no);
+            if (p.img || ((c.cards[p.no] || {}).views || []).length) withPhoto.add(p.no); } }));
+        let photoPart = null;
+        for (const o of c.options) { for (const p of o.parts)
+            if (p.no && ((c.cards[p.no] || {}).views || []).length) {
+                photoPart = {opt: o.no, no: p.no}; break; }
+            if (photoPart) break; }
+        return {opts: withParts.length, draw: withDraw.length,
+                parts: nos.size, photo: withPhoto.size,
+                drawOpt: withDraw.length ? withDraw[0].no : null, photoPart: photoPart}; }""")
+    print(f"    покрытие: чертежи у {cov['draw']} из {cov['opts']} узлов с позициями, "
+          f"фото у {cov['photo']} из {cov['parts']} деталей")
+
     print("\n>>> Открываю узел с чертежом")
-    open_system(page, 0)
-    page.locator(".tree-sys").first.locator(".tree-opt").first.click()
-    page.wait_for_timeout(1200)
+    open_option_by_no(page, cov["drawOpt"])
     rows = page.locator("#parts-body tr").count()
     check("таблица позиций заполнена", rows > 0, f"строк {rows}")
     first_pos = page.locator("#parts-body tr td.c-pos").first.inner_text().strip()
@@ -76,8 +109,9 @@ with sync_playwright() as p:
     for i in range(data["sys"]):
         # берём первый узел системы, в котором вообще есть позиции
         target = page.evaluate("""(i) => {
-            const sys = CATALOG.systems[i];
-            const byNo = {}; CATALOG.options.forEach(o => byNo[o.no] = o);
+            const c = window.CATALOGS[document.getElementById('engine-select').value];
+            const sys = c.systems[i];
+            const byNo = {}; c.options.forEach(o => byNo[o.no] = o);
             for (const no of sys.options) {
                 const o = byNo[no];
                 if (o && o.parts.length) return no;
@@ -106,10 +140,13 @@ with sync_playwright() as p:
 
     print("\n>>> Поиск по ЗАМЕНЁННОМУ (старому) номеру")
     old = page.evaluate("""() => {
-        const c = CATALOG.cards || {};
+        const c = (window.CATALOGS[document.getElementById('engine-select').value].cards) || {};
+        // берём любой номер цепочки, отличный от самой детали: по нему поиск
+        // обязан вывести на деталь, которая есть в каталоге
         for (const pn in c) {
             const ch = c[pn].sup || [];
-            for (const s of ch) if (s.no !== pn && !s.cur) return {old: s.no, cur: pn};
+            if (ch.length < 2) continue;
+            for (const s of ch) if (s.no !== pn) return {old: s.no, cur: pn};
         }
         return null; }""")
     if old:
@@ -124,10 +161,10 @@ with sync_playwright() as p:
 
     print("\n>>> Карточка детали")
     page.fill("#search", ""); page.wait_for_timeout(400)
-    open_system(page, 0)
-    page.locator(".tree-sys").first.locator(".tree-opt").first.click()
-    page.wait_for_timeout(900)
-    link = page.locator("#parts-body .pn-link").first
+    pp = cov["photoPart"]
+    open_option_by_no(page, pp["opt"] if pp else cov["drawOpt"])
+    link = (page.locator(f'#parts-body .pn-link:text-is("{pp["no"]}")').first
+            if pp else page.locator("#parts-body .pn-link").first)
     if link.count():
         link.click(); page.wait_for_timeout(900)
         vis = page.locator("#part-card").is_visible()
@@ -144,8 +181,6 @@ with sync_playwright() as p:
 
     # карточка детали, у которой номер заменён — там должна быть цепочка замен
     if old:
-        page.evaluate("(pn) => window.__open(pn)", old["cur"]) if page.evaluate(
-            "() => typeof window.__open === 'function'") else None
         page.fill("#search", old["cur"]); page.wait_for_timeout(900)
         if page.locator(".search-hit").count():
             page.locator(".search-hit").first.click(); page.wait_for_timeout(900)
