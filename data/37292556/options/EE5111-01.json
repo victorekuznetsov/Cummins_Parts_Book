@@ -1,0 +1,60 @@
+{
+ "componentHash": "4031362EEE963F48550E37021167720CB7761EC0B2AB4638398F762136841CBD017BC82FBD34ECC778A74E4EF13DFF17B0B59E5B02D2E8996D044ADBF43C3E11",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ee/095_ee0511100_01"
+  }
+ ],
+ "remarks": "Alternator|engine Family: D57|alternator Integral Voltage Reg Provision:|yes|manufacturer/model: Prestolite Bld 3314hc|alternator Mount Type: J-180|alternator Charging System: N/a|alternator Drive Pulley Type: Poly V|alternator Quantity: 1|alternator Fan Provision: N/a|alternator Fan Type: Internal|amperage: 140|voltage: 24|grounding Type: Isolated|electrical Starting Battery Conn Provision:|n/a|electrical Accessories Grd Method: Isolated|electrical Acc. Grd Terminal Provision: N/a|terminal: L N/a|alternator Mtg Bracket Attachment Method:|bolted|alternator Pulley Diameter (mm): N/a|alternator Sealing Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3975140",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ee/095_ee0511100_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "optionNo": "EE5111-01",
+ "optionNumber": "EE5111-01",
+ "buildCode": null,
+ "path": null
+}

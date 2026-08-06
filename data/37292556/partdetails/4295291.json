@@ -1,0 +1,145 @@
+{
+ "partNo": "4295291",
+ "partDesc": "exhaust manifold",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB5732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573009CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/429/4295291/4295291.obj"
+  },
+  {
+   "fileName": "/429/4295291/4295291.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/429/4295291/4295291_back.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_front.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_iso.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_iso2.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_right.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_iso_mkt.png"
+  },
+  {
+   "fileName": "/429/4295291/4295291_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "07T11-2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "18 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "23.575 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "12.2 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "8.6 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

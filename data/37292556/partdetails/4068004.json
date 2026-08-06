@@ -1,0 +1,271 @@
+{
+ "partNo": "4068004",
+ "partDesc": "switch bracket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AH5718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH5730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AH5711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "AH5716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting aid mounting"
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PK86501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "product installation package"
+  },
+  {
+   "item": "D573008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Z3004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/406/4068004/4068004.obj"
+  },
+  {
+   "fileName": "/406/4068004/4068004.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/406/4068004/4068004_iso.png"
+  },
+  {
+   "fileName": "/406/4068004/4068004_iso2.png"
+  },
+  {
+   "fileName": "/406/4068004/4068004_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "7.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "3.46 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "7.8 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.45 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

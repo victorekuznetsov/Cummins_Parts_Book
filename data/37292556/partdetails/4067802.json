@@ -1,0 +1,124 @@
+{
+ "partNo": "4067802",
+ "partDesc": "injector fuel supply tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "PP2640",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41244",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP40191",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "tube clamp"
+  },
+  {
+   "item": "PP42139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/406/4067802/4067802.obj"
+  },
+  {
+   "fileName": "/406/4067802/4067802.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/406/4067802/4067802_front.png"
+  },
+  {
+   "fileName": "/406/4067802/4067802_iso.png"
+  },
+  {
+   "fileName": "/406/4067802/4067802_iso2.png"
+  },
+  {
+   "fileName": "/406/4067802/4067802_right.png"
+  },
+  {
+   "fileName": "/406/4067802/4067802_top.png"
+  },
+  {
+   "fileName": "/406/4067802/4067802_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "28.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".54 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.25 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "3.6 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

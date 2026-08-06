@@ -1,0 +1,83 @@
+{
+ "componentHash": "8ECD0B590649C26013E2CB81F6820AEF4ABFECFBE2CF80EFA68F6778560A2448B9A109E028826A9F5A49231E61E21EF4EF14D9C34C41B54E012DD84417A97A2A",
+ "esnType": "mbom",
+ "optionName": "Alternator Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/eh/095_eh0500800_04"
+  }
+ ],
+ "remarks": "Alternator Mounting|alternator Manufacturer/model:|delco-Remy & Butec 100 Amp|prestolite 140 Amp Bld3314hc|alt Ratio: 3.56:1|alt. Mtg. Location: High Right Bank|pulley Location: Gear Cover|mounting Type: Cradle|belt Description: 5 Ribbed, K Section|poly-Vee|refrigerant Compressor Mtg Provision: Yes|application Limitations:|industrial: Ata And Jwac",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093114",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093932",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 25",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/095/eh/095_eh0500800_04",
+ "optionPlantCode": "095",
+ "buildCode": null,
+ "optionNumber": "EH5008-04",
+ "optionNo": "EH5008-04",
+ "path": null
+}

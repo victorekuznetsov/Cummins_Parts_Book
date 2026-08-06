@@ -1,0 +1,166 @@
+{
+ "partNo": "3092819",
+ "partDesc": "air transfer connection",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "IT5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "IT5001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "IT5707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "IT5701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "IT5706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "IT5010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air transfer connection"
+  },
+  {
+   "item": "D573007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/309/3092819/3092819.obj"
+  },
+  {
+   "fileName": "/309/3092819/3092819.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/309/3092819/3092819_iso_mkt.png"
+  },
+  {
+   "fileName": "/309/3092819/3092819_front.png"
+  },
+  {
+   "fileName": "/309/3092819/3092819_iso.png"
+  },
+  {
+   "fileName": "/309/3092819/3092819_iso2.png"
+  },
+  {
+   "fileName": "/309/3092819/3092819_left.png"
+  },
+  {
+   "fileName": "/309/3092819/3092819_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "06T0-36"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "37.75 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "14.95 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "14.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "10.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

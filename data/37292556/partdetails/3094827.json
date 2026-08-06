@@ -1,0 +1,142 @@
+{
+ "partNo": "3094827",
+ "partDesc": "fuel pump support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3093615",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "DP5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "DP5704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "DP5703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/309/3094827/3094827.obj"
+  },
+  {
+   "fileName": "/309/3094827/3094827.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/309/3094827/3094827_iso.png"
+  },
+  {
+   "fileName": "/309/3094827/3094827_iso_mkt.png"
+  },
+  {
+   "fileName": "/309/3094827/3094827_top.png"
+  },
+  {
+   "fileName": "/309/3094827/3094827_right.png"
+  },
+  {
+   "fileName": "/309/3094827/3094827_front.png"
+  },
+  {
+   "fileName": "/309/3094827/3094827_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "01T9-1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "21.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "28.68 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "12.13 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "9.38 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

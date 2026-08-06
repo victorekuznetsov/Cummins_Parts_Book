@@ -1,0 +1,83 @@
+{
+ "componentHash": "4D3AA4092C6E61141170095CFC97A1AFB61167CCB7DD6C89CA1174BAAA225287010DA2CE460EA3AEB559372DB0CF8EC00BC89D00AB94BF30F0765CC2A78E12EF",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ap/095_ap0513300_04"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep ,none|application: Nonroad|cert Level: Cs Iii,none|special Allowance: Na|cert Agent: Mep|comment: Engines Exported To China|fuel Type: Diesel|cert Level2:|certified By2:|manufacturer Of Record: Cummins|dataplate Quantity: 2|dataplate Language: Chinese And English|china Certification Nameplate Location:|front Of The #1 Cyl. Valve Cover|variant Nameplate Location:|top Of The Valve Cover|additional Information:|for Export, Cannot Be Used In Nonroad|mobile Machinery In The Eu After|january, 2019",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5483900",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5593626",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/095/ap/095_ap0513300_04",
+ "optionPlantCode": "095",
+ "buildCode": null,
+ "optionNumber": "AP5133-04",
+ "optionNo": "AP5133-04",
+ "path": null
+}

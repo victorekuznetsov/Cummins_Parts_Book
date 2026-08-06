@@ -1,0 +1,83 @@
+{
+ "componentHash": "7E34796AA09B8670B3BFC5E0BEF1F02734E6E19FCF0ED122190DE66DDE88499D57B8D623254CDA61C3CCC9E8F8F52259475C81814921E4D73FF68E733B9EFBE2",
+ "esnType": "mbom",
+ "optionName": "Refrigerant Compressor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/cf/095_cf0500200_05"
+  }
+ ],
+ "remarks": "Refrigerant Compressor|engine Family: D57|compressor Supplier: Customer|items Supplied:|single Bracket And Fasteners|additional Information:|pulley And Belts Not Included",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3092518",
+      "latestPart": "false",
+      "partDesc": "FREON COMPRESSOR BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093805",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 35",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "095",
+ "artCallOut": "/095/cf/095_cf0500200_05",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "CF5002-05",
+ "optionNo": "CF5002-05",
+ "path": null
+}

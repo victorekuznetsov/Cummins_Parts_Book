@@ -1,0 +1,133 @@
+{
+ "partNo": "4371618",
+ "partDesc": "alternator pulley",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "EH5736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator drive"
+  },
+  {
+   "item": "EH5721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator drive"
+  },
+  {
+   "item": "EH5720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator drive"
+  },
+  {
+   "item": "EH5737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator drive"
+  },
+  {
+   "item": "D573009CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/437/4371618/4371618.obj"
+  },
+  {
+   "fileName": "/437/4371618/4371618.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/437/4371618/4371618_front.png"
+  },
+  {
+   "fileName": "/437/4371618/4371618_iso.png"
+  },
+  {
+   "fileName": "/437/4371618/4371618_iso2.png"
+  },
+  {
+   "fileName": "/437/4371618/4371618_right.png"
+  },
+  {
+   "fileName": "/437/4371618/4371618_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.725 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.35 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

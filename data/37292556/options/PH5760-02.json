@@ -1,0 +1,107 @@
+{
+ "componentHash": "4D21B2D5595FC9397CE5131BE52E5339A213920E6348486D338426EAC0E50CAFFB37F185A2C0330B3730583CDCD1FC73AC6849AF39B64C5DB37BD9F5ED8A7A2E",
+ "esnType": "mbom",
+ "optionName": "Position Speed Sensor Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ph/095_ph0576000_02"
+  }
+ ],
+ "remarks": "Pos Spe Sen Arrangement|device Type Supplied: Mag Pick Up|connection Interface:  3 Pin Plug|thread Size: M20x1|mounting Location: Flywheel Housing|required Flywheel Hsg Sae Size: 0|engine Wiring Harness Conn Supplied: Yes|unique Characteristics: Sensor For Polarity|sensitive Ecm Required Only By|engine Control System: Bba",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3941718",
+      "latestPart": "false",
+      "partDesc": "SOCKET HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M5 X .8 X 21.75",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5491993",
+      "latestPart": "false",
+      "partDesc": "POSITION SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3408438",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "095",
+ "artCallOut": "/095/ph/095_ph0576000_02",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "PH5760-02",
+ "optionNo": "PH5760-02",
+ "path": null
+}

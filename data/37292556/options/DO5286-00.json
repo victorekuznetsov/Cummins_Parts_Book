@@ -1,0 +1,79 @@
+{
+ "componentHash": "CF43F2DA6D1BD278FA651AA17352D874C725707D40D5B23D53CFB1F5F4F44A9FBC75EE5C64A6924F999F4C05AC514DB039A63177F252CFB05F0879D3028E1F68",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Ven|transmission: Torque Converter|commun Support: J1587,j1939|oem Name: Shantui|oem Model: 1142|oemcomment:crawler Dozer|remote Throttle: N|high Idle: 2274 Rpm|low Idle: 0750 Rpm|isc Enable: On|isc Validation: Off|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 7     %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Hand|comment:|powermatch: Na|guid: Na|comment Cont:|software Phase: 5.1.0.8",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4308487",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4308495",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "optionPlantCode": "095",
+ "artCallOut": null,
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "DO5286-00",
+ "optionNo": "DO5286-00",
+ "path": null
+}
