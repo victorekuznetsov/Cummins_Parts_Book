@@ -1,0 +1,8872 @@
+{
+ "partNo": "70821",
+ "partDesc": "compression spring",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "BM95736",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "spring, governor max"
+  },
+  {
+   "item": "3277962",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pump,fuel uncalibrated"
+  },
+  {
+   "item": "3277961",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pump,fuel uncalibrated"
+  },
+  {
+   "item": "3277964",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pump,fuel uncalibrated"
+  },
+  {
+   "item": "3275648",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "3277624",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "3005052",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "spring, gov. max."
+  },
+  {
+   "item": "3277622",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump kv12 uncalibrat"
+  },
+  {
+   "item": "3035462",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque modification device spring"
+  },
+  {
+   "item": "3019566",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pump,uncalibrated vs"
+  },
+  {
+   "item": "3019568",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pump,uncalibrated vs"
+  },
+  {
+   "item": "3277619",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump kv12 uncalibrat"
+  },
+  {
+   "item": "FCXY45",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY25",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY24",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX15",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX36",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX45",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX6",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX7",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX22",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX23",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXX19",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX977",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX984",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX978",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSA61",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA53",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSQ17",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ70",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ72",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ54",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ42",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSY79",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FCSY31",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ13",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ15",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP95",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP96",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP85",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP82",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ14",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ39",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ40",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ33",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ44",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ46",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSQ47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP21",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP22",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP48",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP10",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSG39",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP65",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP52",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP46",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP41",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP42",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP44",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code,d fuel"
+  },
+  {
+   "item": "TS1008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter governor spring"
+  },
+  {
+   "item": "TS8001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "spring,t c governor"
+  },
+  {
+   "item": "TS8701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "spring,tc governor"
+  },
+  {
+   "item": "FCXZ88",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ64",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ61",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ62",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ63",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ54",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ55",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ14",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ22",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY65",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY66",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY44",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY61",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY54",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY52",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXY50",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCS999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCSA1",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS978",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS991",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS994",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS964",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS943",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS955",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS694",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKI67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FCS651",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS661",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS640",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS641",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS630",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS636",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS639",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS624",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS629",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS572",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS550",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS565",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKF38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP45",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG35",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP23",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG33",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG31",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG32",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG30",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG27",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSP36",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSE62",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSE56",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSG38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSB39",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB24",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB16",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB18",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSD2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSD3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSC67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS691",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS666",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA77",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA78",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA72",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA66",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA56",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA57",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA58",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA59",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC7137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC7143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC7105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC7122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC7123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7134",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC8216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9964",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC9699",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9661",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9679",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9662",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9671",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9672",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9663",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9541",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCCA34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCCA30",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCCA27",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCF51",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCES51",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES52",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES27",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES28",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES44",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES43",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES40",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES34",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES31",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCES23",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCKG25",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCHM82",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FCF113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code,calibration"
+  },
+  {
+   "item": "FCSA55",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA45",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel"
+  },
+  {
+   "item": "FCSA46",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA14",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA16",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA18",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA20",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA22",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA23",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA24",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA6",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB90",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB41",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS530",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCS146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCKI72",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FCSA7",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA8",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA10",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA12",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS998",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC7106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-26"
+  },
+  {
+   "item": "FC234",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC1646",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC413",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC1797",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-20"
+  },
+  {
+   "item": "FC2050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-70"
+  },
+  {
+   "item": "FC1558",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-62"
+  },
+  {
+   "item": "FC1415",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC1803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-62"
+  },
+  {
+   "item": "FC2336",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-102"
+  },
+  {
+   "item": "FC2241",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-2"
+  },
+  {
+   "item": "FC2310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-60"
+  },
+  {
+   "item": "FC2207",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-68"
+  },
+  {
+   "item": "FC2021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-70"
+  },
+  {
+   "item": "FC2394",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0002"
+  },
+  {
+   "item": "FC2374",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0001"
+  },
+  {
+   "item": "FC2356",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-63"
+  },
+  {
+   "item": "FC2441",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0001"
+  },
+  {
+   "item": "FC2387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-69"
+  },
+  {
+   "item": "FC2416",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-62"
+  },
+  {
+   "item": "FC2403",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-69"
+  },
+  {
+   "item": "FC2524",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-26"
+  },
+  {
+   "item": "FC2505",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-69"
+  },
+  {
+   "item": "FC2493",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-68"
+  },
+  {
+   "item": "FC2489",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-20"
+  },
+  {
+   "item": "FC2583",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-123"
+  },
+  {
+   "item": "FC2573",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-18"
+  },
+  {
+   "item": "FC2539",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-60"
+  },
+  {
+   "item": "FC2542",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-60"
+  },
+  {
+   "item": "FC2569",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC2550",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-70"
+  },
+  {
+   "item": "FC2653",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-60"
+  },
+  {
+   "item": "FC2660",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-26"
+  },
+  {
+   "item": "FC2598",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC2582",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-123"
+  },
+  {
+   "item": "FC2578",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC2599",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-18"
+  },
+  {
+   "item": "FC2601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0003"
+  },
+  {
+   "item": "FC2727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-28"
+  },
+  {
+   "item": "FC2728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-59"
+  },
+  {
+   "item": "FC2721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-61"
+  },
+  {
+   "item": "FC2707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-63"
+  },
+  {
+   "item": "FC2630",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0001"
+  },
+  {
+   "item": "FC4142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC2855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC2762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-0008"
+  },
+  {
+   "item": "FC2743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-26"
+  },
+  {
+   "item": "FC2766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-26"
+  },
+  {
+   "item": "FC2741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-61"
+  },
+  {
+   "item": "FC2716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-127"
+  },
+  {
+   "item": "FC2717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl-127"
+  },
+  {
+   "item": "FC7906",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7937",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7935",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7933",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7934",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7931",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7912",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7917",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7926",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7927",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7955",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7939",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7928",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7945",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7941",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7978",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7959",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7961",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7971",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7954",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7966",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7991",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7979",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7976",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 144"
+  },
+  {
+   "item": "FC7997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FC8025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 141"
+  },
+  {
+   "item": "FC8011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC8015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC8016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 63"
+  },
+  {
+   "item": "FC8017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 20"
+  },
+  {
+   "item": "FC8021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC8023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC8043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC8029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC8032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC8033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 150"
+  },
+  {
+   "item": "FC8081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 0001"
+  },
+  {
+   "item": "FC8054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC7804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7921",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7918",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7920",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7902",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC7140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC8305",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 137"
+  },
+  {
+   "item": "FC8320",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 178"
+  },
+  {
+   "item": "FC8323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0001"
+  },
+  {
+   "item": "FC8072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 70"
+  },
+  {
+   "item": "FC8064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC8066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 120"
+  },
+  {
+   "item": "FC8041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 141"
+  },
+  {
+   "item": "FC8062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0004"
+  },
+  {
+   "item": "FC8117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 70"
+  },
+  {
+   "item": "FC8095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 70"
+  },
+  {
+   "item": "FC8068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0001"
+  },
+  {
+   "item": "FC8069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 85"
+  },
+  {
+   "item": "FC8090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 21"
+  },
+  {
+   "item": "FC8093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 26"
+  },
+  {
+   "item": "FC8079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 152"
+  },
+  {
+   "item": "FC8104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8130",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cp 0001"
+  },
+  {
+   "item": "FC8113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC8114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 11"
+  },
+  {
+   "item": "FC8165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 139"
+  },
+  {
+   "item": "FC8140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 143"
+  },
+  {
+   "item": "FC8141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 143"
+  },
+  {
+   "item": "FC8129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 143"
+  },
+  {
+   "item": "FC8160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 137"
+  },
+  {
+   "item": "FC8148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 11"
+  },
+  {
+   "item": "FC8192",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8181",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 85"
+  },
+  {
+   "item": "FC8158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 145"
+  },
+  {
+   "item": "FC8177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 137"
+  },
+  {
+   "item": "FC8169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 143"
+  },
+  {
+   "item": "FC8142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 139"
+  },
+  {
+   "item": "FC8143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 137"
+  },
+  {
+   "item": "FC8161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 139"
+  },
+  {
+   "item": "FC8162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8219",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 155"
+  },
+  {
+   "item": "FC8183",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8398",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 160"
+  },
+  {
+   "item": "FC8399",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8385",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 143"
+  },
+  {
+   "item": "FC8377",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 151"
+  },
+  {
+   "item": "FC8185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8195",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 174"
+  },
+  {
+   "item": "FC8204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 142"
+  },
+  {
+   "item": "FC8240",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 181"
+  },
+  {
+   "item": "FC8241",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 181"
+  },
+  {
+   "item": "FC8242",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 181"
+  },
+  {
+   "item": "FC8234",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 104"
+  },
+  {
+   "item": "FC8235",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 124"
+  },
+  {
+   "item": "FC8210",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8212",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8238",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 11"
+  },
+  {
+   "item": "FC8229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC8230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 179"
+  },
+  {
+   "item": "FC8231",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 22"
+  },
+  {
+   "item": "FC8187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8188",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 101"
+  },
+  {
+   "item": "FC8268",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 85"
+  },
+  {
+   "item": "FC8262",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8263",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8236",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8237",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "qump code cpl 69"
+  },
+  {
+   "item": "FC8254",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 160"
+  },
+  {
+   "item": "FC8243",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8246",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0004"
+  },
+  {
+   "item": "FC8248",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8221",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 155"
+  },
+  {
+   "item": "FC8226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8239",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 181"
+  },
+  {
+   "item": "FC8284",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 139"
+  },
+  {
+   "item": "FC8285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 176"
+  },
+  {
+   "item": "FC8286",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8279",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8252",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8253",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8269",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8271",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0001"
+  },
+  {
+   "item": "FC8274",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8276",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC8264",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8249",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 70"
+  },
+  {
+   "item": "FC8251",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8267",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 180"
+  },
+  {
+   "item": "FC8298",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8299",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 62"
+  },
+  {
+   "item": "FC8300",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8280",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8281",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC8294",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 22"
+  },
+  {
+   "item": "FC8296",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8290",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8266",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 65"
+  },
+  {
+   "item": "FC8416",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl65"
+  },
+  {
+   "item": "FC8409",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 217"
+  },
+  {
+   "item": "FC8410",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 187"
+  },
+  {
+   "item": "FC8434",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8436",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC8429",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8419",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl170"
+  },
+  {
+   "item": "FC8428",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8412",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8421",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl137"
+  },
+  {
+   "item": "FC8312",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8313",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 170"
+  },
+  {
+   "item": "FC8293",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 158"
+  },
+  {
+   "item": "FC8317",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8309",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 135"
+  },
+  {
+   "item": "FC8310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8292",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8335",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8336",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 141"
+  },
+  {
+   "item": "FC8353",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 187"
+  },
+  {
+   "item": "FC8354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 187"
+  },
+  {
+   "item": "FC8341",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 21"
+  },
+  {
+   "item": "FC8345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 176"
+  },
+  {
+   "item": "FC8346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 209"
+  },
+  {
+   "item": "FC8347",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 211"
+  },
+  {
+   "item": "FC8314",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0002"
+  },
+  {
+   "item": "FC8315",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 158"
+  },
+  {
+   "item": "FC8340",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8332",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 145"
+  },
+  {
+   "item": "FC8333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 12"
+  },
+  {
+   "item": "FC8303",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 160"
+  },
+  {
+   "item": "FC8304",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 136"
+  },
+  {
+   "item": "FC8349",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 210"
+  },
+  {
+   "item": "FC8350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 209"
+  },
+  {
+   "item": "FC8352",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 187"
+  },
+  {
+   "item": "FC8364",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 189"
+  },
+  {
+   "item": "FC8366",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 188"
+  },
+  {
+   "item": "FC8370",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 188"
+  },
+  {
+   "item": "FC8371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 145"
+  },
+  {
+   "item": "FC8360",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 207"
+  },
+  {
+   "item": "FC8348",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 210"
+  },
+  {
+   "item": "FC8337",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 126"
+  },
+  {
+   "item": "FC8363",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 189"
+  },
+  {
+   "item": "FC8358",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 207"
+  },
+  {
+   "item": "FC8359",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 207"
+  },
+  {
+   "item": "FC8334",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 10"
+  },
+  {
+   "item": "FC8374",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 145"
+  },
+  {
+   "item": "FC8375",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8376",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8388",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 167"
+  },
+  {
+   "item": "FC8391",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 65"
+  },
+  {
+   "item": "FC8381",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8382",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC8384",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 138"
+  },
+  {
+   "item": "FC8361",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 207"
+  },
+  {
+   "item": "FC8362",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 101"
+  },
+  {
+   "item": "FC8378",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 21"
+  },
+  {
+   "item": "FC8379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 137"
+  },
+  {
+   "item": "FC8380",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 188"
+  },
+  {
+   "item": "FC8372",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 11"
+  },
+  {
+   "item": "FC8373",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 21"
+  },
+  {
+   "item": "FC8386",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC8403",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 158"
+  },
+  {
+   "item": "FC8565",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8603",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8607",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8589",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8504",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8505",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8538",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8539",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8540",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8531",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8517",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8530",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8524",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8508",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8535",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8526",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8575",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8576",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8474",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8475",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8486",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8487",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8498",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8476",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8477",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8492",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8521",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8516",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8499",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8515",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8507",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8456",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8451",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8432",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8445",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC8448",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC8449",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC8437",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC8420",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl170"
+  },
+  {
+   "item": "FC8433",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 101"
+  },
+  {
+   "item": "FC8462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8453",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8469",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8452",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8478",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8467",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8396",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 10"
+  },
+  {
+   "item": "FC8397",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8392",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8393",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 187"
+  },
+  {
+   "item": "FC8394",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0001"
+  },
+  {
+   "item": "FC8417",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 158"
+  },
+  {
+   "item": "FC8418",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl170"
+  },
+  {
+   "item": "FC8408",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 160"
+  },
+  {
+   "item": "FC8401",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 69"
+  },
+  {
+   "item": "FC8414",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC8678",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8694",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8688",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8697",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8698",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8677",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8699",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8700",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8696",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8638",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8620",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8635",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8673",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8675",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8669",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8653",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8665",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8661",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8644",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8634",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8692",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8687",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8670",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8686",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8682",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8582",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8598",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8599",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8593",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8595",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8577",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8613",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8631",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8627",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8602",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8624",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8615",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8617",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8610",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8659",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8650",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8629",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8630",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8645",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8557",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8574",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8563",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8560",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8561",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8590",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8591",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8571",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8572",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8586",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8587",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8579",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8580",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC8851",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8852",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8849",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8844",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8845",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8807",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8813",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8815",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8802",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8809",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8816",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8817",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8811",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8812",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8794",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8784",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8805",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8791",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8778",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8776",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8773",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8676",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8922",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8923",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8945",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8929",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8937",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8931",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8956",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8947",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8900",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8889",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8920",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8918",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8919",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8915",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8905",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8914",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8932",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8917",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8886",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8873",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8869",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8876",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8896",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8890",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8891",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8892",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8906",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8907",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8861",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8857",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8853",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8859",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8870",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8866",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8864",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8865",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8862",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8888",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8837",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8825",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8834",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8836",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8830",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9375",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9408",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9396",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9391",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9372",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9381",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9331",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9327",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9290",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9301",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9317",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9243",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9240",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9238",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9235",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9200",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9216",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9215",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8994",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8949",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8934",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8968",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8969",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8964",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8950",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8961",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8963",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8927",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC8916",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9921",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC9922",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 66"
+  },
+  {
+   "item": "FC9910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 0003"
+  },
+  {
+   "item": "FC9900",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC9904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC9888",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9881",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9973",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 66"
+  },
+  {
+   "item": "FC9990",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9981",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC9982",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FC9928",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC9978",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl202"
+  },
+  {
+   "item": "FC9980",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code"
+  },
+  {
+   "item": "FC9969",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 60"
+  },
+  {
+   "item": "FC9916",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 13"
+  },
+  {
+   "item": "FC9962",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 26"
+  },
+  {
+   "item": "FC9964",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 18"
+  },
+  {
+   "item": "FC9938",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 111"
+  },
+  {
+   "item": "FC9951",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 59"
+  },
+  {
+   "item": "FC9917",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 104"
+  },
+  {
+   "item": "FCB1",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 179"
+  },
+  {
+   "item": "FC9985",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCB3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl179"
+  },
+  {
+   "item": "FC9740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9825",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9811",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FC9834",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9551",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel"
+  },
+  {
+   "item": "FC9574",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9499",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel"
+  },
+  {
+   "item": "FC9445",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9482",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9412",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9427",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE931",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE915",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE911",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE750",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE611",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE533",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE534",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE536",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE524",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE525",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 183"
+  },
+  {
+   "item": "FCE527",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE528",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE516",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE517",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE518",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE500",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 171"
+  },
+  {
+   "item": "FCE501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 171"
+  },
+  {
+   "item": "FCE513",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 183"
+  },
+  {
+   "item": "FCE514",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 183"
+  },
+  {
+   "item": "FCE515",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl183"
+  },
+  {
+   "item": "FCE562",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE567",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE539",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE522",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE570",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE571",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE550",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE553",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE554",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE560",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE561",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE541",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE519",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE544",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE549",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE530",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE592",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE568",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE543",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 171"
+  },
+  {
+   "item": "FCE3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pump code cpl 171"
+  },
+  {
+   "item": "FCCA31",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBG68",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBD38",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBD29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBA37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBB29",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBB25",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel"
+  },
+  {
+   "item": "FCBA88",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCBA2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCB199",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCB313",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FC9833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF11",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF66",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF64",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF63",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF60",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF43",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF57",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF56",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF51",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF53",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF93",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF83",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF84",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF80",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF76",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF77",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF58",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF70",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF69",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF65",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCEZ33",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCEZ17",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF6",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCEZ32",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF50",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF41",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF44",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF46",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF25",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF36",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF1",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF12",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF13",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF22",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF7",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF8",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF9",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCES74",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCES80",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCE972",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCE943",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCES33",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKG15",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCKH10",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF253",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF249",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF247",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF248",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF261",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF199",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF198",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF242",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF238",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF239",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF237",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF231",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF227",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF260",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF258",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF255",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF188",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FCF178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF171",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF99",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF94",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF96",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF78",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF136",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code,calibration"
+  },
+  {
+   "item": "FCF115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCF163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA37",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB97",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKI85",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKI81",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCS937",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKI63",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FCKH63",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCKH60",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCKH62",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCS497",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCKF85",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSG12",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code calibration"
+  },
+  {
+   "item": "FCSG8",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG6",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG26",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSE46",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSE32",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel pump"
+  },
+  {
+   "item": "FCSE59",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSE49",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump code"
+  },
+  {
+   "item": "FCSG23",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSG16",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSD39",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSD83",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSD81",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSE27",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSE28",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSE26",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSE10",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSB39",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSB18",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSD32",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSD2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSD53",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSD50",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSD47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCSA78",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA72",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA61",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSA53",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV359",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV306",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV305",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV302",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV325",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV326",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV322",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV320",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV321",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV315",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV338",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSY12",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSQ53",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV300",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP71",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP69",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP67",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP6",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP68",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP63",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCSP70",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX690",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX678",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX657",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX647",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX674",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX609",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX637",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX639",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX585",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX581",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX599",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX544",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX517",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX518",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX513",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX504",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX506",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX510",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX522",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV954",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV942",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV936",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV921",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV911",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV905",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code,d fuel"
+  },
+  {
+   "item": "FCX115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX96",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX81",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX76",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX70",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX71",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX68",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCX48",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV974",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV960",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV357",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "code fuel"
+  },
+  {
+   "item": "FCV374",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV363",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV388",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV335",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV331",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV329",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV348",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "furl code"
+  },
+  {
+   "item": "FCV346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCV344",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel code"
+  },
+  {
+   "item": "FCXZ87",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FP1082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP1069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP1197",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP1196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FCXZ60",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ75",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ47",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ48",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ49",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCXZ25",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX996",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX987",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX888",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX881",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX837",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX784",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "FCX762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "D093565BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093568CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093580DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093591PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093593PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093503PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093517DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093518GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343106BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353028CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353018CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233047CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092388CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092439PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092447DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092323BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092330CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092318BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092332LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092331CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092333PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091190FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091327PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091325CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091326LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091380RX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092012FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR73696",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "D093478LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093475LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093484CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093493BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093492BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093488BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093491BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093487BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093501CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093397BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093432BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093437CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093436CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093445CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093337PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093335CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093336LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093334CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093341BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093338PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093348MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092489RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092473DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092553DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092574LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092642MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092682MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092667CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092387CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152053FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093619PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093624PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093623LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093631CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093645MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093641MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093635CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093665CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093681MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093592PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093595PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093594PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093601BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093602BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093603CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093616CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093620LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092379BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092391BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092390BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092388CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092394BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092404DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092431BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092266BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092265BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092244BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092278PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092271BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092270BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092294CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092331CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092347MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092375GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091217LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091215CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091325CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091276PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091220CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091241GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091327PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091360GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091346MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091403DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092136CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092135CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092242GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092203BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092199LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092137CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093484CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093491BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093487BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093364BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093411BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093405DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093415BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093413BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093433AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093422PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093445CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093295CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093293BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093280PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093335CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093334CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093341BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093338PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093337PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093350BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093348MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093354GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093352BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093362BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093361BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092555DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092553DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092574LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092642MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092576DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093279PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093243GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093139CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092366BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092387CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152085DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153076PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153074GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153083DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153088GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153084GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093641MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093601BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093613DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093610AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093616CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093549BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093545BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093565BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093580DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093588BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093585AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093506BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093503PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093508BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093517DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093516BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093525BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093540BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093453BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093470BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093468BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343104BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343110CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343118CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343073UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343082BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343094BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343016CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343033BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343032BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343038BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343056BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342015CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342064AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342121CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232007MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193068GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193067DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193078RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172052BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153091CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153089DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153093PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153092LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153101DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153104MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153103DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153102GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172009CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152072GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152021MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/708/70821/70821.obj"
+  },
+  {
+   "fileName": "/708/70821/70821.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/708/70821/70821_front.png"
+  },
+  {
+   "fileName": "/708/70821/70821_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "01T7-3"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "1.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".02 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": ".6 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".63 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

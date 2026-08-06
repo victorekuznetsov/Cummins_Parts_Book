@@ -1,0 +1,56 @@
+{
+ "componentHash": "007F4AF4D6C8532904DDB81338F35E5F7A6C75DEA6C7E3B86E90D6C957DF45152C2B437AFC2659ED5DDDBED04FD2911F17429C6FAD973A7B596760D1654AE9B2",
+ "esnType": "mbom",
+ "optionName": "Compressor Air Inlet Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Cpr Air Inlet Arrangement|engine Family: D09|used With Naturally Aspirated Air|compressor Or When No Air Compressor|is Required|plug(s) Provided: Yes|plug Qty: One|the Air Inlet Port On Aftercooler Or Intake|manifold Needs Plugged",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008470",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "CI1011-01",
+ "optionNo": "CI1011-01",
+ "path": null
+}

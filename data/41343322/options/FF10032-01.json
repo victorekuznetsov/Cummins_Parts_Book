@@ -1,0 +1,83 @@
+{
+ "componentHash": "3EC7C7D2CE6CB5822A92711F2E05FB2709A4094B5DA2FF58CD1D7D8430424E15B58200BE6B5A44FC7C19532580311020962FE269D95FD43C5FF325D507CEDBD7",
+ "esnType": "mbom",
+ "optionName": "Fuel Filter Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ff/485_ff1003200_01"
+  }
+ ],
+ "remarks": "Fuel Filter Plumbing|fuel Filter Hose For Use With Dual|spin-On Fuel Filters Or Fuel Filter/|water Separators Mounted Above Oil|pan Ledge At Center Of Fuel Pump Side.|inlet To Fuel Filter Located Toward|front Of Engine|for Use On Engines Equipped With Efc|governor Or Fuel Pump Only.|includes Commercial Fuel Filter Hose.|unique Characteristics:|only Used For Cqp Plant.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "129859",
+      "latestPart": "false",
+      "partDesc": "MALE UNION ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "AS10022SS",
+      "latestPart": "true",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/ff/485_ff1003200_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "FF10032-01",
+ "optionNumber": "FF10032-01",
+ "buildCode": null,
+ "path": null
+}

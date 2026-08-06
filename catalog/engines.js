@@ -57,6 +57,17 @@ window.ENGINES = [
   ]
  },
  {
+  "esn": "41343322",
+  "model": "NH/NT 855",
+  "cpl": "3362",
+  "machine": "SD32",
+  "build": "2022-12-08",
+  "config": "D093664CX03",
+  "options": 63,
+  "parts": 873,
+  "fleet": []
+ },
+ {
   "esn": "37292556",
   "model": "QST30 CM552",
   "cpl": "1244",

@@ -1,0 +1,91 @@
+{
+ "partNo": "4296266",
+ "partDesc": "water transfer tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WA1758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/429/4296266/4296266.obj"
+  },
+  {
+   "fileName": "/429/4296266/4296266.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/429/4296266/4296266_front.png"
+  },
+  {
+   "fileName": "/429/4296266/4296266_iso2.png"
+  },
+  {
+   "fileName": "/429/4296266/4296266_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "0 In"
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".1 Lbs"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "0 In"
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "0 In"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
