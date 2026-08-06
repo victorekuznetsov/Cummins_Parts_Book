@@ -1,0 +1,60 @@
+{
+ "componentHash": "C36AB5052F639DA062D2E8BB0639B69B1D2A3406DB93F8BB614BF3D66BD0A64C33BC318BA6259698BBB520CE7C916159CA464BDCCFB776E5EF52BABBC0AC2A3B",
+ "esnType": "mbom",
+ "optionName": "Fuel Inlet Fitting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/fi/485_fi0400400_01"
+  }
+ ],
+ "remarks": "Fuel Inlet Fitting|fuel Control System: Cummins Mcrs|oem Stage One Fuel Inlet Interface:|1 1/16 -12 Un 37 Degree Flare Male Union|stage One Fuel Inlet Thread Size:|3/4-14 Nptf|oem Stage Two Fuel Inlet Interface:|1 1/16 -12 Un 37 Degree Flare Male Union|stage Two Fuel Inlet Thread Size:|m27 X 2 Stor|oem Stage Two Fuel Inlet Location:|from Engine C/l (mm): 369.48 (14.55 In)|from Crank C/l (mm): 460.40 (18.13 In)|from Ffob (mm): -619.71 (-24.40 In)|item Supplied: In Kit",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4964180",
+      "latestPart": "false",
+      "partDesc": "MALE UNION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/485/fi/485_fi0400400_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "485",
+ "optionNumber": "FI4004-01",
+ "optionNo": "FI4004-01",
+ "buildCode": null,
+ "path": null
+}

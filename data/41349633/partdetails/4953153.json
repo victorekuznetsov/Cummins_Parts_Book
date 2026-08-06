@@ -1,0 +1,117 @@
+{
+ "partNo": "4953153",
+ "partDesc": "thermostat housing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TH4757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TH4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing arrangement"
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

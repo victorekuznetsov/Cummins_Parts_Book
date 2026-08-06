@@ -1,0 +1,83 @@
+{
+ "componentHash": "C35295B5FA4D3600CFE4F32BE69E1AD700F9B5DC91F53BA26851188A6A94062A183FBBFD0234637802EF0651DE1A2173D63A5AAE54D8A0B8021B4349CB4DA958",
+ "esnType": "mbom",
+ "optionName": "Gear Cover Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/gg/485_gg0472500_01"
+  }
+ ],
+ "remarks": "Front Gear Cover Mounting|fan Support Mounting Provision: No|unique Characteristic:|structure Strategy Under Common Model",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3042329",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "5",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S197",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 4 1/4 INCH",
+      "qty": "5",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/gg/485_gg0472500_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "GG4725-01",
+ "optionNumber": "GG4725-01",
+ "buildCode": null,
+ "path": null
+}

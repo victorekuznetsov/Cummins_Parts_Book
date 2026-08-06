@@ -1,0 +1,141 @@
+{
+ "componentHash": "A43030137C43C6444C03480F34E511BF256C38339EFC2F9770D7E1742D15768768D42DCEB9A76CBF6CB4EDEE9379B154EDBF5339E2830210B229620C7D40990A",
+ "esnType": "mbom",
+ "optionName": "Pressure Temperature Sensor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ph/485_ph0477800_04"
+  }
+ ],
+ "remarks": "Prs Temperature Sensor|engine Family: Qsk19|engine Module Location: Left Bank|fuel Temperature And Pressure Sensor|location: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4954905",
+      "latestPart": "false",
+      "partDesc": "TEMPERATURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4010519",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5698271",
+      "latestPart": "false",
+      "partDesc": "PRESSURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4010519",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "890B07C847325514200254C33DE973B39544933B218F38A2AA87996D11FA4F590AF44BACBE9EEE6EFFCD4D5ED229929908974C26D5485C47C1247C9ED50F5C35",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6546124",
+   "kitDesc": "Pressure Sensor Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/ph/485_ph0477800_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "PH4778-04",
+ "optionNumber": "PH4778-04",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,112 @@
+{
+ "partNo": "4951982",
+ "partDesc": "turbocharger",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4955663",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "PP4781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/495/4951982/4951982.obj"
+  },
+  {
+   "fileName": "/495/4951982/4951982.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/495/4951982/4951982_back.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_bottom.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_front.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_iso.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_iso2.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_left.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_right.png"
+  },
+  {
+   "fileName": "/495/4951982/4951982_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "14.75 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "75 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "14.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "16.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

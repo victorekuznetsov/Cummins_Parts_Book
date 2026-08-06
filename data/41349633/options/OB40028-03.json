@@ -1,0 +1,152 @@
+{
+ "componentHash": "2FAE2C4E14909A798BF749815F701C066B9B9CDC37C667139F20B71150BE32F558D98CB32C2E354ADF74CCEB8A2DA4BE5E6C519DB871D0A56C28EB35755B9C43",
+ "esnType": "mbom",
+ "optionName": "Hand Hole Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ob/485_ob4002800_03"
+  }
+ ],
+ "remarks": "Hand Hole Cover|primary Oil Fill Location:|cam Follower Cover - Left Side|primary Oil Filler Cap Location: None|oil Fill Plmb Connection Location:|left Side Center Hhc|oil Fill Connection Type: Hose Bead|oil Fill Connection O.d. (mm): 21.6 (.85 In)|additional Oil Fill Location(s): None|dipstick Count: 0|dipstick Location(s): None|unique Characteristics:|allows For Clearance With Fuel Filter|with Cummins Mcrs Fuel System",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3040838",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 1/4 INCH",
+      "qty": "18",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3042586",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3069847",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201060",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4057590",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/ob/485_ob4002800_03",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "OB40028-03",
+ "optionNo": "OB40028-03",
+ "path": null
+}

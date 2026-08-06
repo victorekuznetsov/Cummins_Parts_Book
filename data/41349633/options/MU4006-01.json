@@ -1,0 +1,106 @@
+{
+ "componentHash": "B34F3D1D009A887897686831BE5D833A0D8DF184F034EA94D47F5EF8D969A0DBF53BE619861B16AC22AA8ADE342A964F6F07762E0792C6427777167BBDF04D29",
+ "esnType": "mbom",
+ "optionName": "Muffler",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/mu/485_mu0400600_01"
+  }
+ ],
+ "remarks": "Muffler|muffler Supplier: Customer|items Supplied: 2 X Mounting Brackets|muffler Mounting Provision:|4 X 13.0 Mm Dia Thru Holes|muffler Mounting Pattern (mm): 80 X 120|mounting Bracket Location:|#2 And #4 Rocker Housing|distance Between Brackets (mm):|387.34 (15.25 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "108330",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "10",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "158391",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 INCH",
+      "qty": "10",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4951895",
+      "latestPart": "false",
+      "partDesc": "MUFFLER BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/mu/485_mu0400600_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "MU4006-01",
+ "optionNumber": "MU4006-01",
+ "buildCode": null,
+ "path": null
+}

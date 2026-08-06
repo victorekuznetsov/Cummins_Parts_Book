@@ -1,0 +1,1880 @@
+{
+ "partNo": "3085198",
+ "partDesc": "temperature sensor",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3085185",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "temperature sensor"
+  },
+  {
+   "item": "PH2973",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EC6204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitoring system"
+  },
+  {
+   "item": "PH2766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "EI6022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "PH1731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2780",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2774",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1859",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "EI6895",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6885",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6896",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "PH1744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "EI6001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "PH4798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2917",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2868",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2857",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2853",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2961",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2962",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2955",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2956",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2960",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH2827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1778",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2825",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2826",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2852",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2849",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2844",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2812",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2811",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2809",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2807",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH2782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1750",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH1730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67000",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6849",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6844",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6912",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6914",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6905",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6911",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6896",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6881",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6876",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6876",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6975",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH67072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH9710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH9706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH9711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH9712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6942",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6802",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6815",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6990",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6991",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6817",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6865",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6861",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4817",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "3631788",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger inlet sensor kit"
+  },
+  {
+   "item": "3631788",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger inlet sensor kit"
+  },
+  {
+   "item": "3631807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger inlet sensor kit"
+  },
+  {
+   "item": "3633029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sensor kit"
+  },
+  {
+   "item": "3633029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sensor kit"
+  },
+  {
+   "item": "3424962",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine electronic control"
+  },
+  {
+   "item": "3633466",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger inlet sensor kit"
+  },
+  {
+   "item": "3422539",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel assembly control"
+  },
+  {
+   "item": "3631807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger inlet sensor kit"
+  },
+  {
+   "item": "3800843",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3800845",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3800665",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3804875",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3800844",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3804868",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "3804873",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "D353001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1W3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6319844",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5673105",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093676CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353007BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353013MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353012CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353021MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353017GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353025MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353008BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093643BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093646CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093634CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093637BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093628BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233053GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343105BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6320468",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093627BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3425372",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "EI6022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "PH7701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "EI6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "D403033BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403046CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413032CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413028BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D793001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EI6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6885",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6896",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6895",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitor mounting"
+  },
+  {
+   "item": "EI6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "EI6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH7701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "07T19-58"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "1 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "1 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

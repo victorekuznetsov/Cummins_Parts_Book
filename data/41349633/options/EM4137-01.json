@@ -1,0 +1,106 @@
+{
+ "componentHash": "47169A594496EF564D0198BADBBF351CE79828A772138CAF2BB90CD338475F70B09AA1A5796741DA7EF90F2116C4576D8B2EA0891FB78172228BCC5424A0246C",
+ "esnType": "mbom",
+ "optionName": "Front Engine Support",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/em/485_em0413700_01"
+  }
+ ],
+ "remarks": "Front Engine Support|engine Family: Qsk19|engine Mounting Tilt: Vertical|front Engine Support Type: Trunnion|mounting Location: Oil Pan Adapter|mounting Hole Description:|6 X 17.86 (0.70 In)|engine Mtg Surface From C/l Of|crankshaft (mm): 264.8 (10.4 In)|trunnion Dia (mm): 127 (5 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "127316",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "153581",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 2 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "207399",
+      "latestPart": "false",
+      "partDesc": "FRONT ENGINE SUPPORT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/em/485_em0413700_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "EM4137-01",
+ "optionNumber": "EM4137-01",
+ "buildCode": null,
+ "path": null
+}

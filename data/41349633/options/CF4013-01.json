@@ -1,0 +1,129 @@
+{
+ "componentHash": "EABAC914291D0EC74A0E7F79501BE6E12EFDD24DCC51936FDE5ACC7F479A3A7E7F154FDB08364FB060DC3CCFC0A371E8424530535586677ABCBA673A011360CE",
+ "esnType": "mbom",
+ "optionName": "Refrigerant Compressor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/cf/485_cf0401300_01"
+  }
+ ],
+ "remarks": "Refrigerant Compressor|ref Compressor Supplier: Customer|drive Hardware Supplied By: Customer|mounting Supplier: Cummins|to Suit: Tecumseh Dgc-184-E|bracket Attachment Location:|front Gear Cover On Fuel Pump Side|from Engine C/l (mm): 332 (13.1 In)|from Crankshaft C/l (mm): 419.6 (16.51 In)|from Ffob (mm): 4.7 (.19 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "108330",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "5",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "142686",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 2 3/4 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3081784",
+      "latestPart": "false",
+      "partDesc": "REFRIGERANT COMPRESSOR BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S225",
+      "latestPart": "false",
+      "partDesc": "HEAVY HEXAGON JAM NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 UNC",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/cf/485_cf0401300_01",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "CF4013-01",
+ "optionNo": "CF4013-01",
+ "path": null
+}

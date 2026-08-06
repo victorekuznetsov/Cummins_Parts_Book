@@ -1,0 +1,79 @@
+{
+ "componentHash": "35253685398EAD1988F8BA97A203E84845CBC1232D2BBE9BA2B430E38CD7BA8C4864E205072F66BAC3AE6463B90A25DF110CAFC55DCFC865F4B6AC464CC37910",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Aar|transmission: Generic|commun Support: J1939|oem Name: Generic|oem Model: Powermatch|oemcomment: Generic|remote Throttle: Y|high Idle: 1969 Rpm|low Idle: 0750 Rpm|isc Enable: On|isc Validation: Na|switch Speed Input: Yes|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 7 %|idle Validation: No|multiple Unit Synchronization: Na|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Hand|comment: Hand Throttle|powermatch: Yes|guid: Na|comment Cont:|software Phase: 25.02.01.22|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4986532",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5483547",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "DO40136-00",
+ "optionNo": "DO40136-00",
+ "path": null
+}

@@ -68,6 +68,17 @@ window.ENGINES = [
   "fleet": []
  },
  {
+  "esn": "41349633",
+  "model": "QSK19 CM2150 MCRS",
+  "cpl": "3666",
+  "machine": "SD60-C5",
+  "build": "2023-06-02",
+  "config": "D193101CX03",
+  "options": 82,
+  "parts": 700,
+  "fleet": []
+ },
+ {
   "esn": "37292556",
   "model": "QST30 CM552",
   "cpl": "1244",

@@ -1,0 +1,83 @@
+{
+ "componentHash": "854B60CB3CF04EB24EBC0B1EEC7E9D75736EAF0522AD660CDBA91959A2FE6263DB15E3953193BEA6283550F3403E8786A0AAF801285C913EEB7D00D696AF2D0B",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ap/485_ap0409700_01"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: None|application: Nonroad|cert Level: None|special Allowance: Na|cert Agent: None|comment:|fuel Type: Diesel|dataplate Language: Chinese|manufacturer Of Record: Cummins|market Limitation: China Domestic Only",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3056508",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3655817",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "485",
+ "artCallOut": "/485/ap/485_ap0409700_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "AP4097-01",
+ "optionNo": "AP4097-01",
+ "path": null
+}
