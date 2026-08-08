@@ -4,7 +4,27 @@
   publish = "catalog"
   command = ""
 
+# Разметку/стили/скрипты не кэшируем — чтобы обновления каталога и правки
+# появлялись сразу (иначе Safari держит старый styles.css до истечения кэша).
 [[headers]]
-  for = "/*"
+  for = "/*.html"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "no-cache"
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "no-cache"
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Картинки деталей и чертежей неизменны для данного ESN — кэшируем на сутки.
+[[headers]]
+  for = "/drawings/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+[[headers]]
+  for = "/parts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
