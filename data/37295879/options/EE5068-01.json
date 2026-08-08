@@ -1,0 +1,56 @@
+{
+ "componentHash": "080ABF4CA7A7E334BA55BF3A316310075152164676C35306FC397F62BEAFDFF4E00F5309BC1B2449E7B05DDA5F1AA8A99D5D88CEF018BF8661955239CAA1B9E3",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Alternator|manufacturer/model:  Delco Remy 30 Si 400|voltage:  24v|amperage:  100|ground Type:  Negative|insulated:  No|built In Voltage Regulator:  Yes|not Recommended For Severe Cold,|arctic Conditions (less Than -20f/-29c)\"",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3400698",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "095",
+ "buildCode": null,
+ "optionNumber": "EE5068-01",
+ "optionNo": "EE5068-01",
+ "path": null
+}

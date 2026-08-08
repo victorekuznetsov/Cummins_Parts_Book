@@ -1,0 +1,250 @@
+{
+ "partNo": "3094298",
+ "partDesc": "bushing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3093617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3094408",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3094827",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3094826",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3094407",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3093615",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "4975762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "accessory drive support"
+  },
+  {
+   "item": "4955470",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support kit"
+  },
+  {
+   "item": "3093617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "3093615",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support"
+  },
+  {
+   "item": "DF5727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front gear train accessory drive"
+  },
+  {
+   "item": "DP5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "DP5703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "DP5704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DP5704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DP5703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "DP5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4955470",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump support kit"
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/309/3094298/3094298.obj"
+  },
+  {
+   "fileName": "/309/3094298/3094298.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/309/3094298/3094298_iso2.png"
+  },
+  {
+   "fileName": "/309/3094298/3094298_iso.png"
+  },
+  {
+   "fileName": "/309/3094298/3094298_right.png"
+  },
+  {
+   "fileName": "/309/3094298/3094298_top.png"
+  },
+  {
+   "fileName": "/309/3094298/3094298_iso_mkt.png"
+  },
+  {
+   "fileName": "/309/3094298/3094298_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.4 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".33 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.45 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

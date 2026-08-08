@@ -1,0 +1,83 @@
+{
+ "componentHash": "1844E17DA0455DE5F7EF7F8D859E37918AF85AE4E0A0521C0ECDBD6621065D3D83E7FF050475FE182706F2E7C9DF1F69D26C1940EC8197A4A60F38798F0648DB",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/sp/095_sp0500600_01"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|spacer Thickness:  138 Mm (5.44 In)|fan Pilot Diameter:  76.2 Mm (3.0 In)|fan Hub Pilot Bore:  76.2 Mm (3.0 In)|mounting Hole Bolt Circle:  139.7 Mm (5.5 In)|material:  Aluminum",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "42337",
+      "latestPart": "false",
+      "partDesc": "FAN SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "159607",
+      "latestPart": "false",
+      "partDesc": "FAN PILOT SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/sp/095_sp0500600_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "optionNo": "SP5006-01",
+ "optionNumber": "SP5006-01",
+ "buildCode": null,
+ "path": null
+}

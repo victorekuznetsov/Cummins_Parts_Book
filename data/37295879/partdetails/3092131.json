@@ -1,0 +1,148 @@
+{
+ "partNo": "3092131",
+ "partDesc": "fuel drain tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FT5718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT5758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT5731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT5722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT5723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT5720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/309/3092131/3092131.obj"
+  },
+  {
+   "fileName": "/309/3092131/3092131.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/309/3092131/3092131_front.png"
+  },
+  {
+   "fileName": "/309/3092131/3092131_iso.png"
+  },
+  {
+   "fileName": "/309/3092131/3092131_iso2.png"
+  },
+  {
+   "fileName": "/309/3092131/3092131_right.png"
+  },
+  {
+   "fileName": "/309/3092131/3092131_top.png"
+  },
+  {
+   "fileName": "/309/3092131/3092131_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "28 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.07 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "27.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "3.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

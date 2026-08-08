@@ -1,0 +1,79 @@
+{
+ "componentHash": "086EE95DE8E9367F304376C39A141638CA6E14B6719E345E618E0830D1176EBBD244AEDE9E73C0DF7D0851CE7DF47167499224EACBA59A89E486C60AAD183AEA",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Ven|transmission: Allison M8610ar|commun Support: J1587,j1939|oem Name: Nhl|oem Model: Tr100a|oemcomment: Haultruck|remote Throttle: N|high Idle: 2300 Rpm|low Idle: 0750 Rpm|isc Enable: Off|isc Validation: Off|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Min/max|governor Droop: 8 %|idle Validation: Yes|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Foot Pedal|comment:|powermatch: Na|guid: Na|comment Cont:|software Phase: 5.1.0.10",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4997767",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4997768",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "095",
+ "optionNumber": "DO5236-02",
+ "optionNo": "DO5236-02",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,56 @@
+{
+ "componentHash": "7A80122D43DD1113CBB67EE1C7BC4BAE0556C5285978708BF3968551C0DC5944AC8B706742E7BEF4D8B2C2F4DA268A5001AA046DC446AE8406397F268D39BB87",
+ "esnType": "mbom",
+ "optionName": "Water Outlet Connection Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Water Outlet Connection Mounting|water Outlet Mounting Provision:|4 Bolt Flange|no. Of Outlet Connections: 2|provision To Mount Bracket: Yes|bracket Mounting Location:|sandwiched Under Outlet Connections|aspiration: 2p2l|tier 2 Water Cld Brg Hsg Plumbing: Yes|additional Information:|requires Longer Capscrews",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093973",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 135",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "095",
+ "optionNumber": "WO5705-01",
+ "optionNo": "WO5705-01",
+ "buildCode": null,
+ "path": null
+}

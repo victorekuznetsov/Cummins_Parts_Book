@@ -1,0 +1,118 @@
+{
+ "partNo": "4295578",
+ "partDesc": "flywheel",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FW5057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel"
+  },
+  {
+   "item": "PK86501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "product installation package"
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Z3004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/429/4295578/4295578.obj"
+  },
+  {
+   "fileName": "/429/4295578/4295578.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/429/4295578/4295578_top.png"
+  },
+  {
+   "fileName": "/429/4295578/4295578_front.png"
+  },
+  {
+   "fileName": "/429/4295578/4295578_iso.png"
+  },
+  {
+   "fileName": "/429/4295578/4295578_right.png"
+  },
+  {
+   "fileName": "/429/4295578/4295578_iso_mkt.png"
+  },
+  {
+   "fileName": "/429/4295578/4295578_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "25 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "245 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "25 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,109 @@
+{
+ "partNo": "4310907",
+ "partDesc": "oil tube bracket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "OP5151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/431/4310907/4310907.obj"
+  },
+  {
+   "fileName": "/431/4310907/4310907.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/431/4310907/4310907_iso.png"
+  },
+  {
+   "fileName": "/431/4310907/4310907_iso2.png"
+  },
+  {
+   "fileName": "/431/4310907/4310907_right.png"
+  },
+  {
+   "fileName": "/431/4310907/4310907_top.png"
+  },
+  {
+   "fileName": "/431/4310907/4310907_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "19.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "54 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "19.8 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "21.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

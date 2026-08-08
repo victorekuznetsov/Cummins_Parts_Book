@@ -1,0 +1,83 @@
+{
+ "componentHash": "5AA91898BA2C7BBC5D895E78BCAC5862259FFE7E09C9858F5A98444E17AD11BD3F8D689E3546E22FF4E5D4179B14BBD14639BD8ED68D894541C692ED15996733",
+ "esnType": "mbom",
+ "optionName": "Air Heater Starting Aid",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ah/095_ah0500300_06"
+  }
+ ],
+ "remarks": "Air Heater Starting Aid|rio Air Heater Starting Aid: Na|engine Family: Qst30|heater Type: Grid|system Supply Voltage:  24|power Rating: 86 Amp/12 V Per Element|air Heater Relay Locations:|left Bank Rear, Right Bank Rear|lub Filter Location: On-Engine",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3092129",
+      "latestPart": "false",
+      "partDesc": "RELAY SWITCH",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093956",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 12",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/095/ah/095_ah0500300_06",
+ "optionPlantCode": "095",
+ "buildCode": null,
+ "optionNumber": "AH5003-06",
+ "optionNo": "AH5003-06",
+ "path": null
+}

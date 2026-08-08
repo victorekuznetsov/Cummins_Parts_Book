@@ -1,0 +1,139 @@
+{
+ "partNo": "4068495",
+ "partDesc": "manifold brace",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB5838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB5747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB5759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB5731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "D573008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573009CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/406/4068495/4068495.obj"
+  },
+  {
+   "fileName": "/406/4068495/4068495.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/406/4068495/4068495_front.png"
+  },
+  {
+   "fileName": "/406/4068495/4068495_iso.png"
+  },
+  {
+   "fileName": "/406/4068495/4068495_iso2.png"
+  },
+  {
+   "fileName": "/406/4068495/4068495_right.png"
+  },
+  {
+   "fileName": "/406/4068495/4068495_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "15.2 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "7.19 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "6.8 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
