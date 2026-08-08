@@ -300,8 +300,11 @@ mark{background:#ffe08a; color:#3a2c00; padding:0 1px; border-radius:2px}
 
 /* --- логотип «Развитие» и заголовок в шапке --- */
 .brand{display:flex; align-items:center; gap:13px}
-.brand-logo{flex:0 0 auto; display:inline-flex; line-height:0}
-.brand-logo img{display:block; height:34px; width:auto}
+.brand-logo{flex:0 0 auto; display:inline-flex; line-height:0; width:82px; height:34px}
+/* Явные width+height (не auto): Safari/WebKit во флекс-контейнере берёт базовый
+   размер <img> из натуральной ширины SVG (838px) и раздувает логотип во весь
+   экран. Фиксируем размеры и ставим предохранители. Аспект 838:349 ≈ 82:34. */
+.brand-logo img{display:block; width:82px; height:34px; max-width:82px; max-height:34px; object-fit:contain}
 .brand-logo .logo-dark{display:none}
 :root[data-theme="dark"] .brand-logo .logo-light{display:none}
 :root[data-theme="dark"] .brand-logo .logo-dark{display:block}
