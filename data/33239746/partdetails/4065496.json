@@ -1,0 +1,658 @@
+{
+ "partNo": "4065496",
+ "partDesc": "male union elbow",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "PL6743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubrication primer arrangement"
+  },
+  {
+   "item": "PL6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubrication primer arrangement"
+  },
+  {
+   "item": "PL6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubrication primer arrangement"
+  },
+  {
+   "item": "PL6760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6756",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6862",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6807",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6805",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6797",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6918",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6923",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6859",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6872",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6866",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6870",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6885",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL6949",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6950",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6951",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6952",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL7701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6992",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil primer plumbing"
+  },
+  {
+   "item": "PL7700",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "4065529",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "oil priming device kit"
+  },
+  {
+   "item": "D0M3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D873001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/406/4065496/4065496.obj"
+  },
+  {
+   "fileName": "/406/4065496/4065496.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/406/4065496/4065496_iso_mkt.png"
+  },
+  {
+   "fileName": "/406/4065496/4065496_front.png"
+  },
+  {
+   "fileName": "/406/4065496/4065496_right.png"
+  },
+  {
+   "fileName": "/406/4065496/4065496_top.png"
+  },
+  {
+   "fileName": "/406/4065496/4065496_iso.png"
+  },
+  {
+   "fileName": "/406/4065496/4065496_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "02T7-3"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "14 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.22 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "6 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

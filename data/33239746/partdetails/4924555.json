@@ -1,0 +1,127 @@
+{
+ "partNo": "4924555",
+ "partDesc": "water transfer tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB6775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/492/4924555/4924555.obj"
+  },
+  {
+   "fileName": "/492/4924555/4924555.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/492/4924555/4924555_back.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_front.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_iso.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_iso2.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_iso_mkt.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_top.png"
+  },
+  {
+   "fileName": "/492/4924555/4924555_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "11 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.722 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "48 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "13 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

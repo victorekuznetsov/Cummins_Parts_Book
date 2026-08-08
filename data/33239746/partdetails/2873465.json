@@ -1,0 +1,915 @@
+{
+ "partNo": "2873465",
+ "partDesc": "system control data",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "SC60659",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60660",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60693",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60619",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60885",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60834",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60620",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60648",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60864",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60865",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60866",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60849",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60951",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC60891",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61254",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61266",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61273",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61274",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61514",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61315",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61224",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61264",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61269",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61270",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61612",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61664",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61665",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61595",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61596",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61318",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61319",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61267",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61268",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61894",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61980",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61987",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61794",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61795",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61673",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC61710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "calibration software"
+  },
+  {
+   "item": "SC62059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC61914",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62410",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62294",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62180",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62200",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62349",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62409",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62424",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62425",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62297",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62298",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62301",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62853",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62348",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62398",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SC62056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "2891895",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4380319",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4390288",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4906550",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4906538",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4389865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "5408497",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4367852",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4358287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4309790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4314159",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302273",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4303020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4334671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302266",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302276",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302291",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4303015",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "4302270",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "5672795",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5672796",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5672797",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6695284",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6544155",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6544153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5672794",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

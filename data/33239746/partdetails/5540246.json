@@ -1,0 +1,155 @@
+{
+ "partNo": "5540246",
+ "partDesc": "fuel pump",
+ "supersession": [],
+ "reconEquivalent": [
+  {
+   "reconPart": "5540246rx"
+  }
+ ],
+ "whereUsed": [
+  {
+   "item": "FP6988",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP6989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP6990",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP6982",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP6992",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/554/5540246/5540246.obj"
+  },
+  {
+   "fileName": "/554/5540246/5540246.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/554/5540246/5540246_front.png"
+  },
+  {
+   "fileName": "/554/5540246/5540246_iso.png"
+  },
+  {
+   "fileName": "/554/5540246/5540246_iso2.png"
+  },
+  {
+   "fileName": "/554/5540246/5540246_right.png"
+  },
+  {
+   "fileName": "/554/5540246/5540246_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "TSB210090"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "59.5 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "69 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "39 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "43.5 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,107 @@
+{
+ "componentHash": "3F2F4DA59C8D16C06A37254AFBC5DFA26E3C00F96CAE28D21681946133C03A4CD39FF2DC84267BA7D9C68E7B93E68C4AF066640450B6251678E70214C8199B3B",
+ "esnType": "mbom",
+ "optionName": "Drain Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/dl/075_dl0604300_02"
+  }
+ ],
+ "remarks": "Drain Location|engine Family: D23, D28, D59|fuel Control System: Cummins Mcrs|oem Fuel Drain Interface Type:|m27x2 Ermeto Flareless (22mm Tube Od)|oem Interface Location:|d23 T2|from Engine C/l (mm): 672.25 (26.47 In)|from Crank C/l (mm): 278.34 (10.96 In)|from Ffob (mm): -573.11 (-22.56 In)|d23 T4|from Engine C/l (mm): 678.31 (26.71 In)|from Crank C/l (mm): 274.84 (10.82 In)|from Ffob (mm): -573.86 (-22.59 In)|d28|from Engine C/l (mm): 678.31 (26.70 In)|from Crank C/l (mm): 274.84 (10.82 In)|from Ffob (mm): -573.86 (-22.59 In)|d59|from Engine C/l (mm): 686 (27.00 In)|from Crank C/l (mm): 324.5 (12.76 In)|from Ffob (mm): -576.14 (-22.7 In)|engine Interface Drain Fitting Thread Size:|m27 X 2",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3099698",
+      "latestPart": "false",
+      "partDesc": "MALE UNION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3099697",
+        "latestPart": "false",
+        "partDesc": "MALE UNION",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3678606",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/dl/075_dl0604300_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "DL6043-02",
+ "optionNo": "DL6043-02",
+ "buildCode": null,
+ "path": null
+}

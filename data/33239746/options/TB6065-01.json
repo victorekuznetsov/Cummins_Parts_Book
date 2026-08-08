@@ -1,0 +1,106 @@
+{
+ "componentHash": "06C96BE701813F09105B31075BCE0BFF505014EF149E84F3FF3DBE2203709382AAFE029041C4B621F545BDE93E1C2A75DB4214841521444CBFA35F00E693E45E",
+ "esnType": "mbom",
+ "optionName": "Auxiliary Cooling Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/tb/075_tb0606500_01"
+  }
+ ],
+ "remarks": "Auxiliary Cooling Outlet Connection|engine Family: D59|connection Quantity: 1|customer Interface: Hose Bead|outlet Outside Diameter (mm): 76.2 (3.0 In)|connection Orientation (deg): Straight|outlet Direction: Upward Facing|connection Location:|from Engine C/l (mm): 63.8 (2.51 In)|from Crank C/l (mm): 994.5 (39.15 In)|from Ffob (mm):  73.5 (2.89 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3630248",
+      "latestPart": "false",
+      "partDesc": "WATER OUTLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902460",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 25",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4101150",
+      "latestPart": "false",
+      "partDesc": "CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "075",
+ "artCallOut": "/075/tb/075_tb0606500_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "TB6065-01",
+ "optionNo": "TB6065-01",
+ "path": null
+}

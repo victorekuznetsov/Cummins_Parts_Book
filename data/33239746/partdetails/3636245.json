@@ -1,0 +1,172 @@
+{
+ "partNo": "3636245",
+ "partDesc": "exhaust manifold",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB67099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB67098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB67027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB6781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB6776",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/363/3636245/3636245.obj"
+  },
+  {
+   "fileName": "/363/3636245/3636245.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/363/3636245/3636245_iso.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_iso2.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_left.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_right.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_back.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_front.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_iso_mkt.png"
+  },
+  {
+   "fileName": "/363/3636245/3636245_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "35 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "5.79 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "25 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "15 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

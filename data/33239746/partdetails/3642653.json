@@ -1,0 +1,154 @@
+{
+ "partNo": "3642653",
+ "partDesc": "exhaust manifold",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB67027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB67098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB6776",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB67099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/364/3642653/3642653.obj"
+  },
+  {
+   "fileName": "/364/3642653/3642653.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/364/3642653/3642653_front.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_iso_mkt.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_bottom.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_back.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_top.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_right.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_iso2.png"
+  },
+  {
+   "fileName": "/364/3642653/3642653_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "53 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "17.09 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "30 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "40 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

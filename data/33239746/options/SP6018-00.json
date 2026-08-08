@@ -1,0 +1,60 @@
+{
+ "componentHash": "DF0BF49D372EB80CA40CFECC20E220EA5B9FFEC2CF3E3C6F1F49600F9C9301F8FEB6CCBF87979EF8EB4CB78E4E938A105294BE2A8599ED7797AE6DD0C981F993",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/sp/075_sp0601800_00"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|fan Spacing: 25mm (1.0 Inch)|fan Hub Diameter:  240 Mm (9.45 Inch)|pilot Bore Diameter:  76.17 Mm (3.0 Inch)|mounting Holes:    8xdia 17mm (0.67 Inch)|bolt Center:  146 Mm (5.75 Inch)|type Of Drive:   8 Bolt",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4001037",
+      "latestPart": "false",
+      "partDesc": "FAN SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/075/sp/075_sp0601800_00",
+ "optionPlantCode": "075",
+ "buildCode": null,
+ "optionNumber": "SP6018-00",
+ "optionNo": "SP6018-00",
+ "path": null
+}

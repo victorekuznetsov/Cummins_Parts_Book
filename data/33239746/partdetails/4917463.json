@@ -1,0 +1,121 @@
+{
+ "partNo": "4917463",
+ "partDesc": "water transfer tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB6775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/491/4917463/4917463.obj"
+  },
+  {
+   "fileName": "/491/4917463/4917463.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/491/4917463/4917463_front.png"
+  },
+  {
+   "fileName": "/491/4917463/4917463_iso.png"
+  },
+  {
+   "fileName": "/491/4917463/4917463_iso2.png"
+  },
+  {
+   "fileName": "/491/4917463/4917463_right.png"
+  },
+  {
+   "fileName": "/491/4917463/4917463_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "83 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.95 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "10 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "47 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

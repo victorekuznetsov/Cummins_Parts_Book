@@ -1,0 +1,83 @@
+{
+ "componentHash": "0E3A70470A379AE1280E0053767788308A481A4FDC96AE2A8C3051366B214A566F1E56656F5DB4564715C6B87AAEA7B902A3A02FBBAEDEC7D5D679054F7CA158",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/st/075_st0614500_03"
+  }
+ ],
+ "remarks": "Starting Motor|starter Count: 2|power Supply: Electric|voltage: 24|manufacturer:|remy Inc Branded For Cummins|model: 50mt-400|method Of Engagement:  Positive|solenoid Location (deg): 322|gear Pitch: 6/8|sae Type Starter Mounting Flange:  Type No. 3|mounting Location: Left Bank Quads 3 And 4|qsk 60:  Over Cyclinders 7-8|grounding Strap Included: Yes|integral Prelube Included: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3018924",
+      "latestPart": "false",
+      "partDesc": "GROUND WIRE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3651892",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/st/075_st0614500_03",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "ST6145-03",
+ "optionNumber": "ST6145-03",
+ "buildCode": null,
+ "path": null
+}

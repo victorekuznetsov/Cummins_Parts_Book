@@ -1,0 +1,60 @@
+{
+ "componentHash": "FA185FDE88693094D2DCED2C6B918F5CE102C351BCC5B6F14A88E97B4768B098D24DBFD0A7D2A3342CBE4AF9811B02661B872F4E6C717DFF3D3A7AB71C35AED2",
+ "esnType": "mbom",
+ "optionName": "Cylinder Block Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/bb/075_bb0674200_02"
+  }
+ ],
+ "remarks": "Cylinder Block Plumbing|engine Family: D59|aspiration: Single Stage Low Temp Aftercooled|provision For Centinel:  None Or Burn Only|expansion Plug Qty:  8|provision For Fan Clutch:  Yes|port M27x2:  Open",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4017621",
+      "latestPart": "false",
+      "partDesc": "EXPANSION PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/bb/075_bb0674200_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "BB6742-02",
+ "optionNo": "BB6742-02",
+ "buildCode": null,
+ "path": null
+}

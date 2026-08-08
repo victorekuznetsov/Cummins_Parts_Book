@@ -1,0 +1,394 @@
+{
+ "partNo": "5541832",
+ "partDesc": "engine lubricating primer",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "PL6770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6949",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6993",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6925",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6943",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6942",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6988",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6905",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6929",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6916",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "PL6846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine lubricating primer"
+  },
+  {
+   "item": "6634290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PL6992",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/554/5541832/5541832.obj"
+  },
+  {
+   "fileName": "/554/5541832/5541832.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/554/5541832/5541832_front.png"
+  },
+  {
+   "fileName": "/554/5541832/5541832_iso.png"
+  },
+  {
+   "fileName": "/554/5541832/5541832_iso2.png"
+  },
+  {
+   "fileName": "/554/5541832/5541832_left.png"
+  },
+  {
+   "fileName": "/554/5541832/5541832_right.png"
+  },
+  {
+   "fileName": "/554/5541832/5541832_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "13.75 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "20.38 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "8.9 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "8.65 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

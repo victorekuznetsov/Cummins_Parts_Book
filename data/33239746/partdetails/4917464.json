@@ -1,0 +1,115 @@
+{
+ "partNo": "4917464",
+ "partDesc": "water transfer tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TB6775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/491/4917464/4917464.obj"
+  },
+  {
+   "fileName": "/491/4917464/4917464.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/491/4917464/4917464_front.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_iso.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_iso2.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_left.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_right.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_iso_mkt.png"
+  },
+  {
+   "fileName": "/491/4917464/4917464_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "115 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.55 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "65 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "47 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "4560A30021124458A5AB88BBAFBDE257B0164973B1387970D3807ADE35000535BF2A582CF2B337ECDCA0C814AB5464D63BEB86B40EBC033A71074BD8BAA64135",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ap/075_ap0637100_02"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Cs Iii|special Allowance: Na|cert Agent: Mep|comment: N/a|fuel Type: Diesel|cert Level2:|certified By2:|dataplate Language: English And Chinese|manufacturer Of Record: Cummins|engine Family: D59, D77|additional Information:|cannot Be Used In Non-Road Mobile|machinery In The Eu After January 2019.|in The U.s., This Engine Is Solely For|export.|unique Characteristics:|power Range > 560kw",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3056508",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6305426",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/ap/075_ap0637100_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "AP6371-02",
+ "optionNumber": "AP6371-02",
+ "buildCode": null,
+ "path": null
+}

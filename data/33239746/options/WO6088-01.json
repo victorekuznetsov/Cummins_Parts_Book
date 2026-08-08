@@ -1,0 +1,106 @@
+{
+ "componentHash": "EDAE678FF082CBEE973707E31E6AE9ED6C3B07EB007617893D95D7D4D13A05E9A4A895B7E34529E846E078F0A1BE56C7B2E7A3B956D68FC5F97AB926FFA963C0",
+ "esnType": "mbom",
+ "optionName": "Water Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/wo/075_wo0608800_01"
+  }
+ ],
+ "remarks": "Water Outlet Connection|engine Family: D59|connection Quantity: 2|outlet Connection Type: Straight|direction Of Water Connection: Upward Facing|water Outlet Id (mm): 72.3 (2.87 In)|water Outlet Od (mm): 76.2 (3.0 In)|oem Interface Connection Type:|hose Bead|hose Clamping Distance (mm): 32 (1.3 In)|oem Connection Locations:|right Bank:|from Engine C/l (mm): -236 (-9.3)|from Crank C/l (mm): 921.7 (36.3 In)|from Ffob (mm): 175.6 (6.9 In)|left Bank:|from Engine C/l (mm): 236 (9.3)|from Crank C/l (mm): 921.7 (36.3 In)|from Ffob (mm): 175.6 (6.9 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3630248",
+      "latestPart": "false",
+      "partDesc": "WATER OUTLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902460",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 25",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4101150",
+      "latestPart": "false",
+      "partDesc": "CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/wo/075_wo0608800_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "WO6088-01",
+ "optionNumber": "WO6088-01",
+ "buildCode": null,
+ "path": null
+}

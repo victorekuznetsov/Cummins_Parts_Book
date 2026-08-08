@@ -1,0 +1,107 @@
+{
+ "componentHash": "19E4104E2440E8F063E01D70BA3D125B29ABE552FC79D152E8E4703D2AC97437E44E2E3666A52FA748F0B9C6899AA3E5C5E1199F8E2A3C34457C9E93B39740FB",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fp/075_fp0688100_02"
+  }
+ ],
+ "remarks": "Fuel Pump  Plumbing|engine Family: D23, D28, D59|fuel Control System: Cummins Mcrs|fuel Pump Fuel Inlet From Stage 1 Filters:|1 1/16-12 Unf 37 Deg Flare Straight Union|(adaptor From M27 X 2)|fuel Pump Outlet To Stage 2 Filters:|1 - 14 Orfs|fuel Inlet Fitting Location: Fuel Pump|qsk38|from Engine C/l (mm): 479.78 (18.89 In.)|from Crank C/l (mm): -187.84 (-7.40 In.)|from Ffob (mm): -250.58 (-98.7 In.)|qsk50|from Engine C/l (mm): 479.78 (18.89 In.)|from Crank C/l (mm): -187.84 (-7.40 In.)|from Ffob (mm): -301.74 (-11.88 In)|qsk60|from Engine C/l (mm): 600.45 (23.64 In)|from Crank C/l (mm): -76.93 (3.03 In.)|from Ffob (mm): -279.06 (-10.99 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3099698",
+      "latestPart": "false",
+      "partDesc": "MALE UNION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3099697",
+        "latestPart": "false",
+        "partDesc": "MALE UNION",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3678606",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/075/fp/075_fp0688100_02",
+ "optionPlantCode": "075",
+ "buildCode": null,
+ "optionNumber": "FP6881-02",
+ "optionNo": "FP6881-02",
+ "path": null
+}

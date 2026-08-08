@@ -1,0 +1,141 @@
+{
+ "componentHash": "E8CBB6D5988C2317238696BF32A45AD9647B3BB213DBF91CF024F3C85285C4B3C9E98DEB3901CA065C42D2AD6F644DC82D35B879892F1A98DF1CB9180336A5AF",
+ "esnType": "mbom",
+ "optionName": "Pressure Temperature Sensor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ph/075_ph0683300_09"
+  }
+ ],
+ "remarks": "Prs Temperature Sensor|engine Family: D59|engine Module Location: Left Bank|fuel Temperature And Pressure Sensor|supply Method: Mounted|fuel Pressure Sensor|intended Mtg Location:|fuel Filter Head Top|fuel Temperature Sensor|intended Mtg Location:|fuel Filter Head Side",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4954905",
+      "latestPart": "false",
+      "partDesc": "TEMPERATURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4010519",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5698271",
+      "latestPart": "false",
+      "partDesc": "PRESSURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4010519",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "890B07C847325514200254C33DE973B39544933B218F38A2AA87996D11FA4F590AF44BACBE9EEE6EFFCD4D5ED229929908974C26D5485C47C1247C9ED50F5C35",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6546124",
+   "kitDesc": "Pressure Sensor Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "075",
+ "artCallOut": "/075/ph/075_ph0683300_09",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "PH6833-09",
+ "optionNo": "PH6833-09",
+ "path": null
+}

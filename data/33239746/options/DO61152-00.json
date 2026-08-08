@@ -1,0 +1,79 @@
+{
+ "componentHash": "D6DC18F78521305F4A83C2FEF7143019B0FA0F38F3FA7EC8D70F2C7F238E4D72FE3047B039EF25B12A8CDFE7C9B79C2A6988D9FC868D435B15CCE140165F58D0",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Aan|transmission: Ge 5gta41b|commun Support: J1939|oem Name: Nhl|oem Model: Nte240|oemcomment: Haultruck|remote Throttle: N|high Idle: 1920 Rpm|low Idle: 0750 Rpm|isc Enable: On|isc Validation: Na|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 1 %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Analog|comment:|powermatch: Yes|guid: Cd73bd7c394c4a7db541132c5b176034|comment Cont:|software Phase: 25.02.01.22|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2873466",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4358300",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": null,
+ "optionPlantCode": "075",
+ "buildCode": null,
+ "optionNumber": "DO61152-00",
+ "optionNo": "DO61152-00",
+ "path": null
+}

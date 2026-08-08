@@ -1,0 +1,3072 @@
+{
+ "partNo": "3910959",
+ "partDesc": "lock nut",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AH9152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9145",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "AH9113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air heater starting aid"
+  },
+  {
+   "item": "6372680",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CM9079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cam follower cover arrangement"
+  },
+  {
+   "item": "BR9027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9205",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR9206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "2868070",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electrical mounting"
+  },
+  {
+   "item": "2890601",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electrical mounting"
+  },
+  {
+   "item": "3924438",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "solenoid assembly bracket"
+  },
+  {
+   "item": "3924438",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "solenoid assembly bracket"
+  },
+  {
+   "item": "3924439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "solenoid assembly bracket"
+  },
+  {
+   "item": "3924439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "solenoid assembly bracket"
+  },
+  {
+   "item": "3934949",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "solenoid assembly bracket"
+  },
+  {
+   "item": "3800675",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,ford 12v fuel shutoff"
+  },
+  {
+   "item": "3800676",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,ford 24v fuel shutoff"
+  },
+  {
+   "item": "3800677",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,ver 12v fuel shutoff"
+  },
+  {
+   "item": "3800678",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,vert 24v fuel shutoff"
+  },
+  {
+   "item": "3800723",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,chrysler 12v"
+  },
+  {
+   "item": "3800705",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800688",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "4cylinder 24v fuel shut-off kit"
+  },
+  {
+   "item": "3800777",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,bb 12v fuel shutoff"
+  },
+  {
+   "item": "3800778",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,bb 24v fuel shutoff"
+  },
+  {
+   "item": "3802876",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3806186",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800602",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800670",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid 4a-12 kit"
+  },
+  {
+   "item": "3800671",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid 4a-24 kit"
+  },
+  {
+   "item": "3800603",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800604",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800605",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "solenoid kit"
+  },
+  {
+   "item": "3800688",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "4cylinder 24v fuel shut-off kit"
+  },
+  {
+   "item": "3800687",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800687",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800687",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800679",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800679",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800679",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve kit"
+  },
+  {
+   "item": "3800680",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,horiz 24v fuel shutof"
+  },
+  {
+   "item": "3800680",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,horiz 24v fuel shutof"
+  },
+  {
+   "item": "3910819",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "push rod cover"
+  },
+  {
+   "item": "5375377",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "magnetic switch"
+  },
+  {
+   "item": "4963790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electrical mounting"
+  },
+  {
+   "item": "5373846",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "magnetic switch"
+  },
+  {
+   "item": "4963661",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electrical mounting"
+  },
+  {
+   "item": "4943109",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "long block"
+  },
+  {
+   "item": "4943107",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "long block"
+  },
+  {
+   "item": "WR9205",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9205",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9289",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9289",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "TL9006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "WR9267",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9266",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9246",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9245",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9235",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9235",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9234",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9340",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9318",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9319",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9297",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9297",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9296",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9296",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9290",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9290",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9286",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9389",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9389",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9353",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9353",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9341",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9473",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9476",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9477",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9457",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9459",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9433",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9434",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9415",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9416",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9417",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9414",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9390",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9390",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9633",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9594",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9478",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9479",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9684",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "WR9233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control wiring harness"
+  },
+  {
+   "item": "FV9772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9486",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9473",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "NP9003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise panel"
+  },
+  {
+   "item": "NP2005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise panel"
+  },
+  {
+   "item": "NP9014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise panel"
+  },
+  {
+   "item": "NP9017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise panel"
+  },
+  {
+   "item": "NP9049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise reduction device"
+  },
+  {
+   "item": "NP9052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "noise panel"
+  },
+  {
+   "item": "TL9018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle lever"
+  },
+  {
+   "item": "TL9023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle control bracket"
+  },
+  {
+   "item": "TL9083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle lever"
+  },
+  {
+   "item": "TB9094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger location"
+  },
+  {
+   "item": "SB9031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "SB9030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "accessories,elec starting"
+  },
+  {
+   "item": "FV9413",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9414",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9415",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9416",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9541",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9542",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9543",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9544",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9558",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9533",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9534",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9535",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9536",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9537",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9538",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9539",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9540",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9513",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9514",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9529",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9530",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9531",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9532",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9503",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9507",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9508",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9597",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9599",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9642",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9643",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9577",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9580",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9581",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9567",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9568",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9572",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9576",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9559",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9560",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9562",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9227",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "LF2015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "FV9564",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9771",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9156",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9221",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9224",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9209",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9212",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9320",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9321",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9324",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9325",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9307",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9283",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9284",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9234",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9256",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9259",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9260",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9231",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9231",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9389",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9390",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9400",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9401",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9402",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9403",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9381",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9382",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9388",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9370",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9352",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9357",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9358",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9344",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9351",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9487",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9497",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9499",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9500",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9502",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9478",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9482",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9475",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9437",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9448",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9459",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FS9229",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system accessories"
+  },
+  {
+   "item": "FV2127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "D412043BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413007BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413011BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413030MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413027TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413042BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413041BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383066CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383055CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401059BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401047CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401009BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402078GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402056CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402049DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402101CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402086GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402081BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403025BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403020BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6923",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH67049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH67005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6976",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH6941",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "SD6726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "D413037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413049BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413069MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D533002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D990016XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FO6729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FO6732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FO6713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FO6706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FV9104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FV9103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "D403033BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403031BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403050DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403046CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403041MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403042CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403057CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403055BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403054BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403072BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403075MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403068CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403070BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403064BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403058BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403100CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403092GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403088CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403089BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403083BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403084BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403110CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403105BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412006BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5541557",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5541368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CM9014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cam follower cover"
+  },
+  {
+   "item": "D383027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383015MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383017BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383022BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382059CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381058CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343094BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343096BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343095BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343098BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343097BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343100BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342015CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343014BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343016CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343099BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343111BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343110CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343065BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343060BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343072UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343071UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343070UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343074UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343073UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343082BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343081BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343034BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343041DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343109CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343113BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343112BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403064BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403083BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401009BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403020BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/391/3910959/3910959.obj"
+  },
+  {
+   "fileName": "/391/3910959/3910959.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/391/3910959/3910959_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "M6 x 1.00"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "00T5-9"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": ".35 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".005 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": ".35 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".3 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

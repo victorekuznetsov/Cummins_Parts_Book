@@ -1,0 +1,84 @@
+{
+ "componentHash": "1023B7C3E17875E96E07FFF190A3157FE4891F15B97089BB497CE63FE715C6F13EFCCAB6B4AAA160EEB594036DEF5140A10E3166240FB957891EFB3D72576597",
+ "esnType": "mbom",
+ "optionName": "Oil Pressure Sensor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ph/075_ph0697900_01"
+  }
+ ],
+ "remarks": "Oil Pressure Sensor|engine Family: D59|engine Module Location: Left Bank|oil Pressure Sensor (pre/post) Location:|spin On Lube Filter|oil Pressure Sensor Interface:|9/16-18 Unf 2a Stor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5594388",
+      "latestPart": "false",
+      "partDesc": "PRESSURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4010519",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/ph/075_ph0697900_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "PH6979-01",
+ "optionNo": "PH6979-01",
+ "buildCode": null,
+ "path": null
+}

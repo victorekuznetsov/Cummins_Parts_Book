@@ -1,0 +1,121 @@
+{
+ "partNo": "5541362",
+ "partDesc": "accessory drive support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "DP6724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/554/5541362/5541362.obj"
+  },
+  {
+   "fileName": "/554/5541362/5541362.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/554/5541362/5541362_iso.png"
+  },
+  {
+   "fileName": "/554/5541362/5541362_right.png"
+  },
+  {
+   "fileName": "/554/5541362/5541362_front.png"
+  },
+  {
+   "fileName": "/554/5541362/5541362_top.png"
+  },
+  {
+   "fileName": "/554/5541362/5541362_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "27 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "17 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "25 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "28 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

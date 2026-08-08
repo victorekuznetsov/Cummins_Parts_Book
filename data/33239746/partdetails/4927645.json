@@ -1,0 +1,118 @@
+{
+ "partNo": "4927645",
+ "partDesc": "water transfer connection",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TP6785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger coolant plumbing"
+  },
+  {
+   "item": "TP6830",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger coolant plumbing"
+  },
+  {
+   "item": "TP6805",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger coolant plumbing"
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/492/4927645/4927645.obj"
+  },
+  {
+   "fileName": "/492/4927645/4927645.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/492/4927645/4927645_front.png"
+  },
+  {
+   "fileName": "/492/4927645/4927645_iso.png"
+  },
+  {
+   "fileName": "/492/4927645/4927645_iso2.png"
+  },
+  {
+   "fileName": "/492/4927645/4927645_right.png"
+  },
+  {
+   "fileName": "/492/4927645/4927645_top.png"
+  },
+  {
+   "fileName": "/492/4927645/4927645_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "35.5 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "5.126 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "22 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "12 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

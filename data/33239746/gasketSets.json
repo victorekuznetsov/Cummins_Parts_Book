@@ -1,0 +1,795 @@
+[
+ {
+  "componentHash": "E08A95FBE260836B5F13500A4B888783D28DF15058EF93AAB609F2C0EAFB42A694DBA824FCA3274F5A77071089EBD789C1C321AE79AD56ED0471D48E01BF23E6",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Head Quadrant Gasket Kit",
+  "plantCode": null,
+  "graphic": "/437/4376326/4376326.png",
+  "parts": [
+   {
+    "partNo": "4376326",
+    "partDesc": "Head Quadrant Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3081695",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3082315",
+    "partDesc": "Exhaust Manifold Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3171499",
+    "partDesc": "Rocker Lever Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3331089",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3332291",
+    "partDesc": "Valve Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3649981",
+    "partDesc": "Cylinder Head Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3963988",
+    "partDesc": "Sealing Washer",
+    "systems": []
+   },
+   {
+    "partNo": "3963991",
+    "partDesc": "Sealing Washer",
+    "systems": []
+   },
+   {
+    "partNo": "4097510",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4101401",
+    "partDesc": "Lockplate",
+    "systems": []
+   },
+   {
+    "partNo": "4916741",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4916742",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4917500",
+    "partDesc": "Vibration Isolator",
+    "systems": []
+   },
+   {
+    "partNo": "4918072",
+    "partDesc": "Injector Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4098956",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4918068",
+    "partDesc": "Injector Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4918075",
+    "partDesc": "Dust Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4376326",
+  "gasket_part": "4376326"
+ },
+ {
+  "componentHash": "F06DCA8ABA5F9690CAFD630445BD487154E8D3DEFAF8077F17C6C32394A20E70F557A86F7E0610AA6D4D98C4336090891204FB95B5CFB700108301FF074E0279",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Aftercooler Gasket Kit",
+  "plantCode": null,
+  "graphic": "/495/4955369/4955369.png",
+  "parts": [
+   {
+    "partNo": "4955369",
+    "partDesc": "Aftercooler Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "206808",
+    "partDesc": "Grommet Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3035026",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3043487",
+    "partDesc": "Hose Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "3082358",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3171170",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3171287",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3254315",
+    "partDesc": "Hose Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "3637776",
+    "partDesc": "Intake Manifold Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3641726",
+    "partDesc": "Hump Hose",
+    "systems": []
+   },
+   {
+    "partNo": "3644834",
+    "partDesc": "Water Transfer Connection",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4008037",
+    "partDesc": "T Bolt Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "4080573",
+    "partDesc": "Aftercooler Cover Gasket",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4955369",
+  "gasket_part": "4955369"
+ },
+ {
+  "componentHash": "EB4D9A119F5685CE2D0F69E929B0AFCC0C9E88F096C8CF1CDB9259B45264B54E52A54E395DD804800A03273D1D4D58D9B1F1A9DD228BDA3BEB5771A7F1280F86",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Cooling System Gasket Kit",
+  "plantCode": null,
+  "graphic": "/495/4955998/4955998.png",
+  "parts": [
+   {
+    "partNo": "4955998",
+    "partDesc": "Cooling System Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "212161",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089240",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089318",
+    "partDesc": "Flange Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3410850",
+    "partDesc": "Water Header Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3627961",
+    "partDesc": "Thermostat Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3635395",
+    "partDesc": "Water Transfer Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3635947",
+    "partDesc": "Water Transfer Connection",
+    "systems": []
+   },
+   {
+    "partNo": "3637402",
+    "partDesc": "Wear Sleeve",
+    "systems": []
+   },
+   {
+    "partNo": "3637730",
+    "partDesc": "Lubricating Oil Cooler Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3647994",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3649410",
+    "partDesc": "Thermostat Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3678606",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3922794",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4007416",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4066827",
+    "partDesc": "Thermostat Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4101150",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4382132",
+    "partDesc": "Water Transfer Connection Gasket",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4955998",
+  "gasket_part": "4955998"
+ },
+ {
+  "componentHash": "0C1266F211E4DA021FF95DA316120217D5DA06F67F0131BD8DFEBD836A3FFBD29BE00BCAF3C69B44E7011CA0205FA8D2DEA1337AFD574818EE42FEF230784DE2",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Set,hhp Ovhl Tur/intl Gsk",
+  "plantCode": null,
+  "graphic": null,
+  "parts": [
+   {
+    "partNo": "4955999",
+    "partDesc": "Set,hhp Ovhl Tur/intl Gsk",
+    "systems": []
+   },
+   {
+    "partNo": "216187",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089240",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089955",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3331924",
+    "partDesc": "Turbocharger Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3502449",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3521442",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3523412",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3534405",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3627695",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3630740",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3679139",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3922794",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4065349",
+    "partDesc": "Exhaust Outlet Connection Gasket",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4955999",
+  "gasket_part": "4955999"
+ },
+ {
+  "componentHash": "56DFC8567CE62A8C33582BFC43BF613F95AA8D28CC06244810C1959372A08743668DAE4F1DDB4DBB253781A37CD32FF80397C4E143D21234C353C6F11A670188",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Set,hhp Ovhl Oil Pan Gsk",
+  "plantCode": null,
+  "graphic": "/495/4956000/4956000.png",
+  "parts": [
+   {
+    "partNo": "4956000",
+    "partDesc": "Set,hhp Ovhl Oil Pan Gsk",
+    "systems": []
+   },
+   {
+    "partNo": "3089019",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089240",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089886",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089891",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3332084",
+    "partDesc": "Oil Pan Adapter Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3332085",
+    "partDesc": "Oil Pan Cover Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3636374",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3678606",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4101379",
+    "partDesc": "Oil Pan Gasket",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4956000",
+  "gasket_part": "4956000"
+ },
+ {
+  "componentHash": "BB3F121D79137CEC94FDF771F85EE3E0AF76832F238C7412EFA099F597ED1AC25F55978B1CB41E8ED91D0D4A99048752682F67D517EC1BC4171CB5B2344FDE0C",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Lower Pump Gasket Set",
+  "plantCode": null,
+  "graphic": "/495/4956001/4956001.png",
+  "parts": [
+   {
+    "partNo": "4956001",
+    "partDesc": "Lower Pump Gasket Set",
+    "systems": []
+   },
+   {
+    "partNo": "206457",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089019",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089262",
+    "partDesc": "Water Pump Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3089886",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3332297",
+    "partDesc": "Accessory Drive Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3332299",
+    "partDesc": "Water Pump Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3644172",
+    "partDesc": "O Ring Adapter",
+    "systems": []
+   },
+   {
+    "partNo": "3649463",
+    "partDesc": "Water Transfer Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3678603",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4956001",
+  "gasket_part": "4956001"
+ },
+ {
+  "componentHash": "2265A5DC745EC88000F1B59972794FB383F85F0693380C385DCEC4B9B7F8E5D27307111AE47D5675B5D8764EA55F09B3A95BC2CD2814A6FD6AA56287D3339AB5",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Set,hhp Ovhl Fuel Sys Gsk",
+  "plantCode": null,
+  "graphic": "/495/4956002/4956002.png",
+  "parts": [
+   {
+    "partNo": "4956002",
+    "partDesc": "Set,hhp Ovhl Fuel Sys Gsk",
+    "systems": []
+   },
+   {
+    "partNo": "3085709",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089240",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3332297",
+    "partDesc": "Accessory Drive Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3630740",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678606",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678925",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3813247",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "4916449",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4916450",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4956002",
+  "gasket_part": "4956002"
+ },
+ {
+  "componentHash": "C21354CF982A306654B0B35FDFCBFC0E4155DBD858F4D1E16F139C64E8F06140D8CF0029807CEC6423013373E3F289F5EA3AAEADBC9AFCED810FB9DA9702202F",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Lower Block Gasket Kit",
+  "plantCode": null,
+  "graphic": "/495/4956003/4956003.png",
+  "parts": [
+   {
+    "partNo": "4956003",
+    "partDesc": "Lower Block Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "195952",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3031007",
+    "partDesc": "Starter Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3629168",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3631471",
+    "partDesc": "O Ring Adapter",
+    "systems": []
+   },
+   {
+    "partNo": "3631472",
+    "partDesc": "Seal Retainer",
+    "systems": []
+   },
+   {
+    "partNo": "3631473",
+    "partDesc": "Cover Plate",
+    "systems": []
+   },
+   {
+    "partNo": "3640776",
+    "partDesc": "Tamper Proof Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3649550",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678606",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678846",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3679139",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3679139",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4001200",
+    "partDesc": "Cover Plate Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4006223",
+    "partDesc": "Flywheel Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4006223",
+    "partDesc": "Flywheel Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4007165",
+    "partDesc": "Gear Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4017621",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "4017621",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "4017622",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3631473",
+    "partDesc": "Cover Plate",
+    "systems": []
+   },
+   {
+    "partNo": "3631473",
+    "partDesc": "Cover Plate",
+    "systems": []
+   },
+   {
+    "partNo": "4080520",
+    "partDesc": "Seal Retainer",
+    "systems": []
+   },
+   {
+    "partNo": "4100660",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4100660",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4956003",
+  "gasket_part": "4956003"
+ },
+ {
+  "componentHash": "B40C3F6B65145239BABF95CC635300A272BE781778690BFFD7C909B66A3B66490B01FC9167C1D3C960C6BCA0E83AC9BD43482DD1D02E7D5126D9CE528537582C",
+  "esnType": "all",
+  "componentType": "gasket",
+  "description": "Accessory Drive Gasket Kit",
+  "plantCode": null,
+  "graphic": null,
+  "parts": [
+   {
+    "partNo": "4956004",
+    "partDesc": "Accessory Drive Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3035083",
+    "partDesc": "Vibration Isolator",
+    "systems": []
+   },
+   {
+    "partNo": "3035084",
+    "partDesc": "Vibration Isolator",
+    "systems": []
+   },
+   {
+    "partNo": "3082132",
+    "partDesc": "Cover Plate Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3332298",
+    "partDesc": "Hydraulic Drive Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3678925",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4006223",
+    "partDesc": "Flywheel Housing Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4080404",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "6599221",
+    "partDesc": "Oil Seal",
+    "systems": []
+   }
+  ],
+  "path": "rep_options/gaskets/4956004",
+  "gasket_part": "4956004"
+ }
+]

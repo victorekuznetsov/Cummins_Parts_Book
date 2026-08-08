@@ -1,0 +1,70 @@
+{
+ "componentHash": "C07D4A6554663DBDD57F113D493657D7EBE008DBA97A160A0AEC25D1C0FEB70855E8E77953651AB4CBC3714C363501339E8027E8B6B8C0A1C97D842F0DAC83E7",
+ "esnType": "mbom",
+ "optionName": "Coolant Level Switch",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/sd/075_sd0601900_04"
+  }
+ ],
+ "remarks": "Coolant Level Switch|sensor Location: Supplied In Kit|customer Adaptation:|3 Pin Packard Connector 12110293|thread Size:  1/4-18 Npt|allowable Operating Temperature Range (deg):|-40 To 125 Degrees Celsius",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4383933",
+      "latestPart": "false",
+      "partDesc": "COOLANT LEVEL SWITCH",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "93FFD75587EA4E61D9EE57DC19361B1782F44BF488BB20795F693647FFB43D1B887E663C6AF0B892B349A6182B2BE6A7B12111B71E774BC920C97E36631A95D3",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "2881989",
+   "kitDesc": "Coolant Sensor Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/sd/075_sd0601900_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "optionNo": "SD6019-04",
+ "optionNumber": "SD6019-04",
+ "buildCode": null,
+ "path": null
+}

@@ -1,0 +1,116 @@
+{
+ "componentHash": "4725728CE2AB4CE8312E7F8B8B56BCA6073F13DC7644AE653A9AD6479E725FF69F6F31AB837A70AA0E12D36487ABDFD97C4708B4F39F3800B2AAF8D8FA81A8D1",
+ "esnType": "mbom",
+ "optionName": "Accessory Drive Pulley",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ad/075_ad0602200_07"
+  }
+ ],
+ "remarks": "Accessory Drive Pulley|engine Family: D58, D59|pulley Diameter (mm):|169.5 (6.67 In) Over 2.5 (.10 In) Balls|pulley Groove Profile:|5 X Pk Section V-Ribbed|pulley Location:|left Side Front Gear Cover|pulley Material: Cast Iron|drive Ratio To Engine Speed: 1.21:1|rotation: Clockwise|engine Interface (mm):|50.8 (2.0 In) Pilot Dia.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4080395",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5538007",
+      "latestPart": "false",
+      "partDesc": "OIL SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5580861",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "69F5106CD4FABC732FE551A76FC205D1F6EA4A87CA56F851410EB72EC6FA4AC3F194D8554CB6057A54CA8FE1265309DCBBD34415427E469280522A06BD41C44D",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5693975",
+   "kitDesc": "Accessory Drive Gasket Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "075",
+ "artCallOut": "/075/ad/075_ad0602200_07",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "AD6022-07",
+ "optionNo": "AD6022-07",
+ "path": null
+}

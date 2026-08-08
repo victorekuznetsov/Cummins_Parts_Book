@@ -1,0 +1,106 @@
+{
+ "componentHash": "63082B9A135A9CF2D1D6CC822D51EAA5F5E73AFA16B4DB53D36B50C2D4B03137CF7390E09692E17EBA3FF18BDCE55D4CE1D7A8867B9D95426E8338F203D30D82",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/la/075_la0671500_04"
+  }
+ ],
+ "remarks": "Lifting Bracket|engine Family: D58, D59, D84|no Of Lifting Brackets: 4|no Of Lifting Cables:  0|qsk60:|front Bracket Location:|rb Between Cylinder 2 & 3|lb Between Cylinder 1 & 2|rear Bracket Location:|rb Between Cylinder 7 & 8|lb Between Cylinder 6 & 7|qsk45:|front Bracket Location:|rb Between Cylinder 1 & 2|lb Between Cylinder 1 & 2|rear Bracket Location:|rb Between Cylinder 5 & 6|lb Between Cylinder 5 & 6",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3411232",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4016700",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5542205",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 2 X 5.5119",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "075",
+ "artCallOut": "/075/la/075_la0671500_04",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "LA6715-04",
+ "optionNo": "LA6715-04",
+ "path": null
+}

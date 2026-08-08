@@ -1,0 +1,106 @@
+{
+ "componentHash": "07FB31AB3959FC4989F0E193598D0FE56CE40377BDB86DAEE7D5D743D199A404C36C5EC083A4940C489A91D279D518DB271DACD82B148B6E49FA9881FC43E4C4",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/sm/075_sm0673400_02"
+  }
+ ],
+ "remarks": "Starting Motor Mounting|engine Family: Qsk60|starting Motor Count: 2|starter Flange Cover: 1|starter Motor Mounting Location:|lb Quad 3 & 4|starter Flange Cover Location: Rb Quad 1|starter Mtg Hole Qty/thread Size:|3 X M16x2-6h|starter Flange Cover Thickness (mm):|3.17 (.125 In)|clutch Type Provision: Dry",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3089324",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 2 X 30",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628411",
+      "latestPart": "false",
+      "partDesc": "STARTER FLANGE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3648651",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 2 X 45",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/075/sm/075_sm0673400_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "075",
+ "optionNumber": "SM6734-02",
+ "optionNo": "SM6734-02",
+ "buildCode": null,
+ "path": null
+}

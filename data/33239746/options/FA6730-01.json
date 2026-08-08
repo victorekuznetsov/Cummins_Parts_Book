@@ -1,0 +1,60 @@
+{
+ "componentHash": "6E8018CDA08AF267545837AF08506BB0C545EE36BE7F07DC4A550F78DAA5E3C6F1DEC9FA3EC30FE839B3EF0023E4872D504942667A48F80806D7256541A109D9",
+ "esnType": "mbom",
+ "optionName": "Fan Drive Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fa/075_fa0673000_01"
+  }
+ ],
+ "remarks": "Fan Drive Mounting|condition 1|fan Clutch Mtg Provision:|variable Viscous Fan Clutch|belt Tensioner Mounted: Yes|alternator Belt Guard Mounted: No|condition 2|fan Clutch Mtg Provision: None|belt Tensioner Mounted: Yes|alternator Belt Guard Mounted: Yes|alternator Mfg/model: Delco Remy 33si-450|condition 3|fan Clutch Mtg Provision:|variable Viscous Fan Clutch|belt Tensioner Mounted: Yes|alternator Belt Guard Mounted: Yes|alternator Mfg/model:|prestolite/8sc3009z; Niehoff/c653a-1;|prestolite/bld3368hc|delco Remy 55si (250a 24v)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3680437",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 100",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "075",
+ "artCallOut": "/075/fa/075_fa0673000_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "FA6730-01",
+ "optionNo": "FA6730-01",
+ "path": null
+}
