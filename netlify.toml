@@ -1,0 +1,10 @@
+# Публикация офлайн-каталога запчастей Cummins на Netlify.
+# Сайт статический (index.html + *.js + картинки), сборки не требует.
+[build]
+  publish = "catalog"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
