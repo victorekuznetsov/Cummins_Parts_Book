@@ -81,4 +81,20 @@ python tools/check_esn.py esn_list.txt          # группировка по CP
 python crawler.py <ESN>
 python crawl_details.py <ESN> --workers 8
 python tools/build_catalog.py <ESN> --machine <машина> --fleet-from esn_report.json
+python tools/verify_catalog.py
+git add -A && git commit -m "..." && git push          # рабочая ветка
+bash tools/sync_publish.sh                              # обновить Netlify-ветку
 ```
+
+## Публикация на Netlify
+
+Каталог публикуется из отдельной ветки **`netlify-publish`** (в ней лежит
+`netlify.toml` с `publish = "catalog"`). Ветка = рабочая ветка + `netlify.toml`.
+
+**После каждого обновления каталога** в рабочей ветке обязательно запускать
+`bash tools/sync_publish.sh` — он вливает рабочую ветку в `netlify-publish` и
+пушит, после чего Netlify автоматически пересобирает сайт из папки `catalog/`.
+
+Первичная привязка Netlify: Add new site → Import from Git → репозиторий
+`Cummins_Parts_Book` → production branch `netlify-publish` → publish directory
+подхватится из `netlify.toml` (`catalog`).
