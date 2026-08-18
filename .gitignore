@@ -20,3 +20,8 @@ quickserve/portal.html
 quickserve/chrome_profile/
 quickserve/doc_manifest.json
 quickserve/procedures.json
+
+# сборка базы знаний: кэш и промежуточные состояния
+kb_build/_cache/
+kb_build/state_*.json
+kb_build/_todo_*.json
