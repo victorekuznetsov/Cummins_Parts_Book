@@ -1,0 +1,22 @@
+# сессия браузера: куки и токены — в репозиторий не попадают
+session/
+
+# рабочие логи и временные файлы
+*.log
+*.part
+*.output
+__pycache__/
+
+# исходные картинки выгрузки не храним: те же файлы лежат в catalog/
+data/*/drawings/
+data/*/parts/
+
+# QuickServe: секреты и отладка — не публиковать
+quickserve/storage_state.json
+quickserve/traffic*.jsonl
+quickserve/status.txt
+quickserve/after_login.*
+quickserve/portal.html
+quickserve/chrome_profile/
+quickserve/doc_manifest.json
+quickserve/procedures.json
