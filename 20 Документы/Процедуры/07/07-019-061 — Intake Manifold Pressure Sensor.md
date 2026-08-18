@@ -1,0 +1,91 @@
+---
+aliases:
+  - "Датчик давления во впускном коллекторе"
+type: "Процедура"
+doc: "07-019-061"
+title_en: "Intake Manifold Pressure Sensor"
+title_ru: "Датчик давления во впускном коллекторе"
+modified: "2003-12-01"
+engines:
+  - "93058669"
+families:
+  - "C8.3 · 6C8.3"
+manuals:
+  - "4021442"
+figures: 9
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-061.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-061.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/C8.3"
+  - "группа/07"
+---
+
+# Intake Manifold Pressure Sensor
+**Датчик давления во впускном коллекторе**
+
+> [!abstract] Процедура · `07-019-061`
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Семейство:** C8.3 · 6C8.3
+> **Входит в руководства:** [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]]
+> **Секции:** Section 19 - Electronic Engine Controls - Group 19
+> **Даты:** изменён 2003-12-01
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-061.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-061.pdf)
+
+### Initial Check
+
+Connect the INSITE™ electronic service tool to the vehicle datalink.
+
+![[19900524.png]]
+
+Install a 0- to 2030-mm Hg \[0- to 80-in Hg\] manometer (or gauge) in the 3/8-inch pipe plug hole in the aftercooler housing.
+
+Do **not** drill and tap a hole in the aftercooler cover. A faulty reading can result if the aftercooler core is leaking.
+
+![[19a00340.png]]
+
+Operate the engine at rated rpm and full load.
+
+Compare the reading from the electronic service tool to the gauge reading.
+
+If the electronic service tool reading differs by more than 75 mm Hg \[3 in Hg\] from the gauge reading, replace the intake manifold pressure sensor.
+
+![[10400033.png]]
+
+### Remove
+
+Lift up on the tab and disconnect the connector from the sensor.
+
+![[19a00243.png]]
+
+Remove the sensor from the air intake manifold with a deep flank drive socket, Part Number 3823843.
+
+![[19a00244.png]]
+
+### Install
+
+Make sure the new sensor has an o-ring around the surface where it seals against the air intake manifold.
+
+Lubricate the o-ring with clean engine oil.
+
+![[19a00253.png]]
+
+Install the sensor into the air intake manifold by turning it **clockwise**.
+
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
+
+![[19a00244.png]]
+
+> [!warning] CAUTION · Осторожно
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+
+Apply a small amount of lubricant to the connector terminals.
+
+Fill the entire cavity with lubricant before installing.
+
+![[cel29.png]]
+
+Push the harness connector into the sensor until it locks.
+
+![[19a00243.png]]

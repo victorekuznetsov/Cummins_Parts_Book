@@ -1,0 +1,122 @@
+---
+aliases:
+  - "Базовый жгут стендовой калибровки ЭБУ"
+type: "Инструкция по инструменту"
+doc: "3377791"
+title_en: "ECM Bench Calibration Base Harness"
+title_ru: "Базовый жгут стендовой калибровки ЭБУ"
+released: "2019-12-16"
+modified: "2023-05-12"
+revision: "26"
+engines:
+  - "33239746"
+  - "33239899"
+  - "37292556"
+  - "37295879"
+  - "41349633"
+  - "93058669"
+families:
+  - "C8.3 · 6C8.3"
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+  - "QST30"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377791.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377791.pdf"
+tags:
+  - "документ/инструмент"
+  - "двигатель/C8.3"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "двигатель/QST30"
+---
+
+# ECM Bench Calibration Base Harness
+**Базовый жгут стендовой калибровки ЭБУ**
+
+> [!abstract] Инструкция по инструменту · `3377791`
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, QSK19, QST30
+> **Даты:** выпущен 2019-12-16 · изменён 2023-05-12 · ревизия 26
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377791.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377791.pdf)
+
+### Description
+
+ECM Bench Calibration Base Harness
+
+### Purpose
+
+This service tool bulletin provides information for the engine control module (ECM) bench calibration base harness, Part Number 3163151. The base harness is used with the appropriate bench calibration adapter harness (see Table 3) to calibrate an ECM without installing it on the engine. This makes it possible to calibrate it before shipping the ECM to a location where electronic service tools are **not** available. The bench calibration harnesses can also be used for troubleshooting the ECM. Tables 1, 2, and 3 contain items used for the ECM bench calibration procedure.
+
+Some of the bench calibration adapter harnesses include ECM ROM boot capability, (see Table 3). The ROM boot procedure is used when an ECM will **not** accept a calibration or will **not** communicate with the electronic service tool after all other electronic troubleshooting methods have been attempted. The ROM boot procedure resets the software resident in the ECM and is similar to rebooting a personal computer. It is necessary to calibrate the ECM after the ROM boot procedure.
+
+![[22d00433.png]]
+
+| Table 1, ECM Bench Calibration Base Harness |  |  |  |
+|---|---|---|---|
+| Item Number | Part Number | Description | Quantity |
+| 1 | 3163151 | ECM bench calibration base harness | 1 |
+| **Not** Shown | 4918881 | Base Harness Toggle Switch Repair Kit | 1 |
+
+| Table 2, Items used with ECM Bench Calibration Base Harness, Purchased Separately |  |  |  |
+|---|---|---|---|
+| Item Number | Part Number | Description | Quantity |
+| 2 | 2892089 | Kit, Electrical Power Supply (23 Amp, 120 Volt, 60 Hz with input and output cables) | 1 |
+| 2 | 2892090 | Kit, Electrical Power Supply (23 Amp, 230 Volt, 50Hz with input and output cables) | 1 |
+| 3 |  | INSITE™ electronic service tool-equipped personal computer | 1 |
+| 4 | 2892092 | INLINE™ 6 Adapter Kit | 1 |
+| 4 | 3163682 | INLINE™ II Adapter Kit | 1 |
+| 4 | 4918416 | INLINE™ V Adapter Kit | 1 |
+| 4 | 5299899 | INLINE™ 7 Adapter Kit | 1 |
+|  | 2892085 | Detachable input cable with BS 1363 plug (For use in the United Kingdom, use **only** with kit, Part Number 2892090) | 1 |
+
+> [!note] Note · Примечание
+> Previously distributed power supply, Part Number 3164446, may **not** be able to adequately power the CM2150 and CM2250 modules during calibration. The power supply indicator lamp **must** remain continuously illuminated during the calibration download. If the indicator lamp extinguishes or flashes, an inadequate power supply is suspected. The Power Supply Kits listed in the above table will correct these concerns and will power all bench calibration cables distributed by Cummins Inc.
+
+| Table 3, Calibration Adapter Harness, Purchased Separately |  |  |  |  |
+|---|---|---|---|---|
+| Item Number | Part Number | ECM | ROM Boot | Engine |
+| 5 | 3162271 | CM420 | No | B5.9G B5.9LPG C8.3G L10G |
+| 5 | 3164185 | CM850 | Yes | ISB ISC ISL QSK19 MCRS QSK38 MCRS (see table 4) QSK50 MCRS (see table 4) QSK60 MCRS (see table 4) |
+| 5 | 3164185 | CM870 | Yes | Signature™ and ISX ISM |
+| 5 | 3164185 | CM871 | Yes | ISM |
+| 5 | 3164185 | CM875 | Yes | ISM |
+| 5 | 3164185 | CM876 | Yes | ISX |
+| 5 | 4918143 | CM556B | Yes | B Gas Plus B LPG Plus BGI C Gas Plus L Gas Plus |
+| 5 | 3164867 | CM554 | Yes | ISC ISL |
+| 5 | 3164868 | CM550 | Yes | ISB QSB |
+| 5 | 4918145 | ECM B | No | CELECT™ |
+| 5 | 3164869 | ECM C | Yes | CELECT Plus™ |
+| 5 | 3164789 | CM570 | Yes | Signature™ ISX ISM QSM11 |
+| 5 | 3165030 | CM558 | Yes | G5.9E GTA8.3SLB G8.3E G855E GTA855E QSK19G KTA19GC KTA19SLB KTA38GC QSK45G QSK60G QSV81G QSV91G |
+| 5 | 3165031 | CM700 | Yes | QSK19G QSK45G QSK60G QSV81G QSV91G |
+| 5 | 3165062 | CM400 | No | CENTRY™ |
+| 5 | 3165085 | CM552 | Yes | QST30 (Industrial) 480C-E (Marine) |
+| 5 | 3164046 | CM800 | No | ISB e ISB four-cylinder |
+| 5 | 3163062 | CM551D | No | ISB light-duty (Chrysler™) |
+| 5 | 4918142 | CM500 | Yes | QSK19 QSK23 QSK45 QSK60 QSK78 |
+| 5 | 4918583 | CM2150 | Yes | ISB6.7 QSB3.3 ISC ISL QSK19 MCRS |
+| 5 | 5572672 | CM2150 | Yes | QSK38 MCRS QSK50 MCRS QSK60 MCRS |
+| 5 | 4918802 | CM2180/CM2380 | Yes | ISL G ISX12 G ISB5.9G ISB6.7G 15N X15N |
+| 5 | 4918938 | CM2220 | Yes | ISF2.8 ISF3.8 ISB3.9 |
+| 5 | 4919009 | CM2250 | Yes | ISX15 ISX11.9 ISB6.7 QSB6.7 ISC8.3 ISL9 QSL9 |
+| 5 | 5298707 | CM2330 | Yes | K38 K50 K2000 QSK45 QSK60 QSK78 QST30 QSV81 QSV91 |
+| 5 | 2892289 | CM2350/CM2450 | Yes | ISB6.7 ISL9 ISX12 ISX15 |
+| 5 | 5298994 | CM2350/CM2450 | Yes | QSK50 QSK95 |
+| 5 | 5298534 | CM2880 | Yes | ISG11 ISG12 ISB/ISD6.7 ISB5.9 ISL8.9 QSB3.9 QSB5.9 QSB6.7 QSC8.3 QSF2.8 QSF3.8 QSL9.3 |
+| 5 | 5299150 | CM3230 | Yes | ISV5.0 |
+| 5 | 5394436 | CM2358A | Yes | QSK45G QSK60G QSV81G QSV91G |
+| 5 | 5572846 | CM2620 | Yes | F2.8 F3.8 F4.5 B4.0 D4.0 B4.5 D4.5 |
+| 5 | 5572656 | CM2670 | Yes | B6.2 B6.7 L9 X11 X12 X13 Z14 |
+
+| Table 4, Calibration adapter harness used on engines with multiple ECMs. Purchased separately (items **not** shown) (To be used with appropriate calibration adapter harness) |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 4919064 | Bench Calibration Kit\* | 1 |
+| 4919022 | Multiple module harness | 1 |
+| \*(Bench Calibration Kit, Part Number 4919064, contains one, Part Number 4919022, multiple module harness, also purchased separately, and one, Part Number 4918894, multiple module switch harness, **not** sold separately.) |  |  |
+
+### Related Procedures
+
+| 05-019-427 | Engine Control Module ROM Boot |
+|---|---|

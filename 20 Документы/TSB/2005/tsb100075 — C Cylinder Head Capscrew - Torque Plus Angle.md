@@ -1,0 +1,42 @@
+---
+aliases:
+  - "Болты ГБЦ серии C — затяжка моментом с доворотом"
+type: "TSB"
+doc: "tsb100075"
+title_en: "C Cylinder Head Capscrew - Torque Plus Angle"
+title_ru: "Болты ГБЦ серии C — затяжка моментом с доворотом"
+released: "2005-02-21"
+modified: "2005-02-21"
+group: "02 - Cylinder Head"
+engines:
+  - "93058669"
+families:
+  - "C8.3 · 6C8.3"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100075.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100075.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/C8.3"
+  - "год/2005"
+  - "тема/cylinder-head"
+---
+
+# C Cylinder Head Capscrew - Torque Plus Angle
+**Болты ГБЦ серии C — затяжка моментом с доворотом**
+
+> [!abstract] TSB · `tsb100075`
+> **Раздел Cummins:** 02 - Cylinder Head
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Семейство:** C8.3 · 6C8.3
+> **Даты:** выпущен 2005-02-21 · изменён 2005-02-21
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100075.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100075.pdf)
+
+## C Cylinder Head Capscrew - Torque Plus Angle
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+This Technical Service Bulletin has been superseded by Service/Parts Topic 99T2-6.

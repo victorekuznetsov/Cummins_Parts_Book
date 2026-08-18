@@ -1,0 +1,63 @@
+---
+aliases:
+  - "Цепь датчика давления во впускном коллекторе"
+type: "Процедура"
+doc: "82-fc433"
+title_en: "Intake Manifold Pressure Sensor Circuit"
+title_ru: "Цепь датчика давления во впускном коллекторе"
+modified: "2010-09-02"
+engines:
+  - "41343322"
+families:
+  - "NT/NTA855 · ISM/QSM11"
+manuals:
+  - "3666266"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc433.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc433.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/NT/NTA855"
+  - "группа/82"
+---
+
+# Intake Manifold Pressure Sensor Circuit
+**Цепь датчика давления во впускном коллекторе**
+
+> [!abstract] Процедура · `82-fc433`
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Семейство:** NT/NTA855 · ISM/QSM11
+> **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
+> **Секции:** Section TF - Troubleshooting Fault Codes
+> **Даты:** изменён 2010-09-02
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc433.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc433.pdf)
+
+### Fault Code: 433
+
+### Intake Manifold Pressure Sensor Circuit
+
+Printable Version
+
+### Overview
+
+| Codes | Reason | Effect |
+|---|---|---|
+| Fault Code: 433 PID(P): P102 SPN: 102 FMI: 2/2 Lamp: Yellow SRT: | Voltage signal at the intake manifold pressure circuit indicates high intake manifold pressure but other engine characteristics indicate that intake manifold pressure **must** be low. | Derate to no-air setting. |
+
+![[19200329.png]]
+
+Intake Manifold Pressure Sensor Circuit
+
+### Circuit Description
+
+The intake manifold pressure sensor monitors intake manifold pressure and passes information to the electronic control module (ECM) through the sensor harness. If intake manifold pressure exceeds 127 mm-Hg \[5 in-Hg\] for more than 20 seconds while the engine is under 5-percent load, it will cause a derate condition.
+
+### Component Location
+
+The intake manifold pressure sensor is located on the top of the intake manifold toward the front of engine. [[82-100-002 — Engine Diagrams|Refer to Procedure 100-002 in Section E.]]
+
+### Shoptalk
+
+The ECM checks for this fault **only** at engine speeds up to 50 rpm above the set idle speed. If the intake manifold pressure shows too high of a value at this time, the ECM will log this fault code.
+
+Refer to Troubleshooting Fault Code t05-433

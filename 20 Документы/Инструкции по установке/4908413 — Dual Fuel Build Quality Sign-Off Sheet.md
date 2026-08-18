@@ -1,0 +1,136 @@
+---
+aliases:
+  - "Лист приёмки качества сборки газодизельной системы"
+type: "Инструкция по установке"
+doc: "4908413"
+title_en: "Dual Fuel Build Quality Sign-Off Sheet"
+title_ru: "Лист приёмки качества сборки газодизельной системы"
+released: "2014-11-07"
+modified: "2015-07-09"
+engines:
+  - "33239746"
+  - "33239899"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908413.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/install_inst/4908413.pdf"
+tags:
+  - "документ/установка"
+  - "двигатель/K38/K50"
+---
+
+# Dual Fuel Build Quality Sign-Off Sheet
+**Лист приёмки качества сборки газодизельной системы**
+
+> [!abstract] Инструкция по установке · `4908413`
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Даты:** выпущен 2014-11-07 · изменён 2015-07-09
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908413.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/install_inst/4908413.pdf)
+
+## Dual Fuel Build Quality Sign-Off Sheet
+
+For each dual fuel system installation, use the following instructions to correctly install all components **before** system commissioning.
+
+#### Process Instructions
+
+1. Before installing any dual fuel system components, the installing distributor technician **must** complete the Base Engine Preparation process step.
+2. Use the separate QSK50 Tier 2 Dual Fuel Installation Instructions to correctly attach tall dual fuel kit components to the QSK50 base engine.
+3. Use this sheet to make sure QSK50 Tier 2 Dual Fuel Installation Instructions has been followed.
+4. The installing distributor technician will fill out all information required on this sheet.
+5. The acting distribution build manager shall sign off on this sheet where notified.
+6. The acting distribution build manager shall keep a completed copy of each sheet at the distributor for the life of the engine.
+
+| Base Engine Preparation |  |
+|---|---|
+| Build Information | Start Date: |
+| Engine Serial Number (ESN) |  |
+| Installing Distributor |  |
+| Installing Technician |  |
+| Trailer Manufacturer |  |
+| Trailer Number |  |
+| Customer |  |
+| Engine Rating |  |
+
+|  | Complete | Additional Comments |
+|---|---|---|
+| **Run Engine At High Idle** |  |  |
+| Check for and Troubleshoot Active Fault Codes |  |  |
+| Check for and Troubleshoot Active Engine Derates |  |  |
+| **\>7000 Hours: Operate Engine Under Load** |  |  |
+| Check Injector Condition - No Hot/Cold Cylinders |  |  |
+| **Make Sure Air Filters are Clean** |  |  |
+| **Check Controller Area Network (CAN) Bus** |  |  |
+| 60 Ohms Resistance Across J1939 BackBone | Ohms Value: |  |
+| **Process Step Sign-Off** | **DFSEc or Service Manager Sign-Off** |  |
+
+| Kit Assembly | Complete | Additional Comments |
+|---|---|---|
+| **Assembly Kit Components** |  |  |
+| Dual Fuel Component Arrows Point Downstream of Gas Flow |  |  |
+| Dual Fuel Switches Oriented Correctly |  |  |
+| Dual Fuel Switches Set Correctly |  |  |
+| Regulator Outlet Pressure Switch: 889 mm-H 2 O \[35 in-H 2 O\] |  |  |
+| Fuel Shutoff Valve Inlet Pressure Switch: 1397 mm-H 2 O \[55 in-H 2 O\] |  |  |
+| Balance Lines Installed Without Interference (Avoid Rubbing) |  |  |
+| 34 kPa \[5 psi\] Warning Sticker on Filter Cover |  |  |
+| Knock Sensors Oriented Downward (Connector Pointing Down) |  |  |
+| Unused Gas Train Bungs Plugged |  |  |
+| All Flanges Clear of Tape and Debris |  |  |
+| **Installation of Wire Harness** |  |  |
+| Gas Train Wire Harness Properly Connected |  |  |
+| Slack in Wiring Harness Connected to ComAp Panel |  |  |
+| Slick in Wiring Harness Connected to Gas Train Components |  |  |
+| On-Engine Harness Secured to Rear of Engine With P-Clips |  |  |
+| **Installation of Diesel Oxidation Catalyst (DOC)** |  |  |
+| Make sure Temperature Sensor Wire Harnesses do **not** Touch the DOC body |  |  |
+| Make sure Temperature Sensors are Correctly Connected (Right, Left, Outlet) |  |  |
+| **System Leak Checking** |  |  |
+| Fuel System Leak Down: 10 Minutes, No Pressure Loss: 34 kPa \[5 psi\] ±3 kPa \[±0.5 psi\] |  |  |
+| Fuel Shutoff Valve LEDs Illuminate When Valve Powered ON |  |  |
+| Fuel Shutoff Valve 1: No More Than 11 Bubbles in 10 Seconds |  |  |
+| Fuel Shutoff Valve 2: No More Than 11 Bubbles in 10 Seconds |  |  |
+| **Build Aesthetics** |  |  |
+| Paint (Covered to Distributor/Original Equipment Manufacturer (OEM) specifications, No Chips or Drips |  |  |
+| OEM/Distributor Bracketry |  |  |
+| Welds |  |  |
+| **Process Step Sign-Off** | **DFSEc or Service Manager Sign-Off** |  |
+
+| Final Quality Checks | Complete | Additional Comments |
+|---|---|---|
+| **Installation of Dual Fuel Engine Control Module (ECM) Calculations** |  |  |
+| ECM Image Saved Before Recalibration |  |  |
+| Parent 0 | Before \_\_\_\_\_\_\_\_\_\_ After \_\_\_\_\_\_\_\_\_\_ |  |
+| Child 1 | Before \_\_\_\_\_\_\_\_\_\_ After \_\_\_\_\_\_\_\_\_\_ |  |
+| Child 2 | Before \_\_\_\_\_\_\_\_\_\_ After \_\_\_\_\_\_\_\_\_\_ |  |
+| ECM Image Saved After Recalibration |  |  |
+| **Installation of Panel Configuration File** |  |  |
+| Correct Calculation is Loaded on Dual Fuel Panel |  |  |
+| **Installation of Dataplate Sticker** |  |  |
+| Dual Fuel Dataplate Sticker Installed Over existing "Important Engine Information" Section of Dataplate |  |  |
+| **CAN Bus** |  |  |
+| 60Ohms Resistance Across J1939 Backbone | Ohms Value: |  |
+| **System Verification at Engine High Idle** |  |  |
+| Verify Camshaft Position Sensor Light Flashing on Knock Module |  |  |
+| Connect to Panel With InterliMonitor (DriveMonitor) |  |  |
+| Check for Hydraulic Power KW - Signal |  |  |
+| Check for ECM Parameter Fuel Rate |  |  |
+| Check for ECM Parameter Coolant Temperature |  |  |
+| Check for ECM Parameter Engine Speed |  |  |
+| Check the Panel Alarms |  |  |
+| Sd LowGasPressIn is Active |  |  |
+| Troubleshoot All Other Active Panel Alarms |  |  |
+| **Dual Fuel Kit Warranty and QuickServe® Online Part Updated** |  |  |
+| Fill Out and Submit Engine Modification Form |  |  |
+| Warranty Administration Manual - Section 13 Engine History - (111-513-009) Reporting Engine Modifications |  |  |
+| Add Dual Fuel Option Onto Existing ESN Through QuickServe® Online |  |  |
+| Enter ESN QSOL \> "Add Upfit" \> Enter Dual Fuel Option "CN6001" |  |  |
+| **Dual Fuel Kit Installation Complete Date** | Date: |  |
+| **Process Step Sign-Off** | **DFSEc or Service Manager Sign-Off** |  |
+
+| Build Deviations and Additional Checks |  |
+|---|---|
+| Noted Design Addition, Change, or Issue | Resolution |
+| **Process Step Sign-Off** | **DFSEc or Service Manager Sign-Off** |
+
+### Document History

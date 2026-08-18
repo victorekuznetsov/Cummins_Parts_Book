@@ -1,0 +1,98 @@
+---
+aliases:
+  - "Новые увеличенные прокладки ГБЦ"
+type: "TSB"
+doc: "tsb200252"
+title_en: "New Oversized Cylinder Head Gaskets"
+title_ru: "Новые увеличенные прокладки ГБЦ"
+released: "2023-08-28"
+modified: "2023-08-28"
+group: "02 - Cylinder Head"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+figures: 4
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200252.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200252.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "год/2023"
+  - "тема/cylinder-head"
+---
+
+# New Oversized Cylinder Head Gaskets
+**Новые увеличенные прокладки ГБЦ**
+
+> [!abstract] TSB · `tsb200252`
+> **Раздел Cummins:** 02 - Cylinder Head
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2023-08-28 · изменён 2023-08-28
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200252.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200252.pdf)
+
+## New Oversized Cylinder Head Gaskets
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+**Product Affected**
+
+- K19 (All Versions)
+- K38 (All Versions)
+- K50 (All Versions)
+- QSK19 (All Versions)
+- QSK38 (All Versions)
+- QSK50 (All Versions)
+
+**Description of Change**
+
+In addition to the already-available 0.5 mm oversized cylinder head gasket, a 0.25 mm and 0.75 mm oversized gaskets are available. There are new identification features on these oversized gaskets in order to differentiate them:
+
+- All oversized cylinder head gaskets have a single isolated notch (shown in bottom left corner of Figure 1 below)
+- The number of notches in the opposite corner of the cylinder head gasket represent the size:
+
+**Part Identification**
+
+For remaining stock of the existing cylinder head gasket design, Figure 1 below has been included for reference. Note there are no notches at the top right corner, but a notch at the bottom left corner is still present, this is a 0.5mm oversized gasket.
+
+![[02r00128.png]]
+
+Figure 1, Existing Oversized Cylinder Head Gasket Design Showing Notch at Bottom Left (For Differentiation Purposes Only).
+
+![[02r00129.png]]
+
+Figure 2, New 0.25 mm Oversized Cylinder Head Gasket Showing One Notch at Upper Right.
+
+![[02r00130.png]]
+
+Figure 3, New 0.5 mm Oversized Cylinder Head Gasket Showing Two Notches at Upper Right.
+
+![[02r00131.png]]
+
+Figure 4, New 0.75 mm Oversized Cylinder Head Gasket Showing Three Notches at Upper Right.
+
+**Service Parts Availability**
+
+Service parts are available. See Table 1 for part numbers.
+
+| Table 1, Service Parts |  |  |  |  |
+|---|---|---|---|---|
+| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+| 0.25mm Oversized Head Gasket | - | - | - | 5628816 |
+| 0.5 mm Oversized Head Gasket | 4334081 | No | No | - |
+| 0.75mm Oversized Head Gasket | - | - | - | 5628817 |
+
+**Part Inventory Action**
+
+Use existing part number inventory before using the new part number.
+
+### Document History

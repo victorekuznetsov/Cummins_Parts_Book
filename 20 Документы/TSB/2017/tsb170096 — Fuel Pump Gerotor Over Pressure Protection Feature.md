@@ -1,0 +1,563 @@
+---
+aliases:
+  - "Защита героторного топливного насоса от превышения давления"
+type: "TSB"
+doc: "tsb170096"
+title_en: "Fuel Pump Gerotor Over Pressure Protection Feature"
+title_ru: "Защита героторного топливного насоса от превышения давления"
+released: "2017-09-22"
+modified: "2017-09-22"
+group: "19 - Electronic Engine Controls"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170096.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb170096.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "год/2017"
+  - "тема/electronic-engine-controls"
+---
+
+# Fuel Pump Gerotor Over Pressure Protection Feature
+**Защита героторного топливного насоса от превышения давления**
+
+> [!abstract] TSB · `tsb170096`
+> **Раздел Cummins:** 19 - Electronic Engine Controls
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2017-09-22 · изменён 2017-09-22
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170096.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb170096.pdf)
+
+## Fuel Pump Gerotor Over Pressure Protection Feature
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+**Product Affected**
+
+- QSK19 CM2150 MCRS
+- QSK38 CM2150 K106
+- QSK38 CM2150 MCRS
+- QSK50 CM2150 K107
+- QSK50 CM2150 MCRS
+- QSK50 DF CM850/CM2150 MCRS
+- QSK60 CM2150 MCRS
+
+**Issue**
+
+Symptom:
+
+- Fault Codes: 2215, 559, 2261, 2262, or 4615 may be present
+- Engine stumbles/runs rough, exhibit low power then shuts down
+- Engine will **not** restart, check engine light illuminated
+- Possible high lubricating oil levels on lubricating oil dipstick
+
+Root Cause:
+
+- Malfunction at fuel pump gerotor caused by outlet restriction. Stage two fuel filter plugging would be an example.
+
+**Verification**
+
+- Verify presence of Fault Codes: 2215, 559, 2261, 2262, or 4615.
+- Verify fuel pump gerotor malfunction caused by increased outlet restriction.
+
+**Resolution**
+
+- New engine control module (ECM) calibration codes with a fuel pump gerotor overpressure fault code diagnostic strategy are available.
+- Standard troubleshooting procedures for verifying fuel filter restriction across stage two fuel filter head and fuel filter change as required **must** be carried out.
+
+| Table 1, New Primary ECM Codes QSK19, QSK38, QSK50, and QSK60 |  |  |  |
+|---|---|---|---|
+| Engine Model | ECM Code | FR Option | DO Option |
+| QSK19 Parent ECM CM2150 | AQ40088.15 | FR04510 | DO04731 |
+| AQ40089.14 | FR04511 | DO04732 |  |
+| AQ40090.15 | FR04510 | DO04733 |  |
+| AQ40137.12 | FR04549 | DO04796 |  |
+| AQ40138.13 | FR04550 | DO04797 |  |
+| AQ40139.09 | FR04551 | DO04798 |  |
+| AQ40140.09 | FR04553 | DO04800 |  |
+| AQ40142.09 | FR04551 | DO04804 |  |
+| AQ40143.09 | FR04551 | DO04805 |  |
+| AQ40144.10 | FR04551 | DO04806 |  |
+| AQ40145.11 | FR04549 | DO04807 |  |
+| AQ40146.13 | FR04549 | DO04808 |  |
+| AQ40147.09 | FR04549 | DO04809 |  |
+| AQ40148.09 | FR04511 | DO04810 |  |
+| AQ40149.09 | FR04549 | DO04811 |  |
+| AQ40150.13 | FR04555 | DO04812 |  |
+| AQ40152.12 | FR04556 | DO04815 |  |
+| AQ40153.09 | FR04551 | DO04818 |  |
+| AQ40156.09 | FR04549 | DO04825 |  |
+| AQ40157.09 | FR04549 | DO04827 |  |
+| AQ40159.13 | FR04556 | DO04816 |  |
+| AQ40160.13 | FR04556 | DO04817 |  |
+| AQ40163.13 | FR04565 | DO04834 |  |
+| AQ40164.11 | FR04566 | DO04835 |  |
+| AQ40165.11 | FR04567 | DO04836 |  |
+| AQ40166.11 | FR04566 | DO04840 |  |
+| AQ40167.11 | FR04566 | DO04841 |  |
+| AQ40168.12 | FR04564 | DO04847 |  |
+| AQ40169.13 | FR04564 | DO04833 |  |
+| AQ40170.10 | FR04564 | DO04837 |  |
+| AQ40171.10 | FR04564 | DO04839 |  |
+| AQ40172.11 | FR04564 | DO04849 |  |
+| AQ40173.12 | FR04556 | DO04855 |  |
+| AQ40174.12 | FR04556 | DO04856 |  |
+| AQ40175.12 | FR04556 | DO04857 |  |
+| AQ40178.12 | FR04556 | DO04865 |  |
+| AQ40179.12 | FR04564 | DO04866 |  |
+| AQ40180.13 | FR04556 | DO04867 |  |
+| AQ40181.12 | FR04556 | DO04868 |  |
+| AQ40182.12 | FR04556 | DO04869 |  |
+| AQ40183.11 | FR04510 | DO04870 |  |
+| AQ40184.08 | FR04549 | DO04875 |  |
+| AQ40185.08 | FR04511 | DO04876 |  |
+| AQ40186.08 | FR04549 | DO04877 |  |
+| AQ40187.13 | FR04511 | DO04878 |  |
+| AQ40188.09 | FR04565 | DO04879 |  |
+| AQ40189.09 | FR04567 | DO04880 |  |
+| AQ40190.08 | FR04565 | DO04881 |  |
+| AQ40191.08 | FR04565 | DO04882 |  |
+| AQ40192.10 | FR04566 | DO04883 |  |
+| AQ40193.10 | FR04566 | DO04884 |  |
+| AQ40194.09 | FR04551 | DO04871 |  |
+| AQ40195.08 | FR04551 | DO04872 |  |
+| AQ40196.09 | FR04551 | DO04874 |  |
+| AQ40197.10 | FR04551 | DO04863 |  |
+| AQ40198.12 | FR04556 | DO04864 |  |
+| AQ40200.11 | FR04566 | DO04886 |  |
+| AQ40202.10 | FR04511 | DO04888 |  |
+| AQ40203.11 | FR04556 | DO04889 |  |
+| AQ40204.11 | FR04556 | DO04890 |  |
+| AQ40205.10 | FR04564 | DO04891 |  |
+| AQ40206.09 | FR04510 | DO04892 |  |
+| AQ40207.09 | FR04510 | DO04893 |  |
+| AQ40208.08 | FR04549 | DO04898 |  |
+| AQ40209.08 | FR04549 | DO04899 |  |
+| AQ40210.08 | FR04551 | DO04900 |  |
+| AQ40211.08 | FR04551 | DO04901 |  |
+| AQ40212.08 | FR04551 | DO04902 |  |
+| AQ40213.08 | FR04511 | DO04903 |  |
+| AQ40214.08 | FR04511 | DO04904 |  |
+| AQ40215.09 | FR04511 | DO04905 |  |
+| AQ40216.09 | FR04511 | DO04906 |  |
+| AQ40217.09 | FR04511 | DO04907 |  |
+| AQ40218.09 | FR04510 | DO04894 |  |
+| AQ40219.09 | FR04510 | DO04895 |  |
+| AQ40220.12 | FR04556 | DO04897 |  |
+| AQ40221.08 | FR04565 | DO04908 |  |
+| AQ40222.10 | FR04566 | DO04909 |  |
+| AQ40223.09 | FR04566 | DO04910 |  |
+| AQ40224.10 | FR04566 | DO04911 |  |
+| AQ40225.11 | FR04564 | DO04914 |  |
+| AQ40226.14 | FR04556 | DO04917 |  |
+| AQ40227.10 | FR04571 | DO04851 |  |
+| AQ40228.09 | FR04549 | DO04913 |  |
+| AQ40229.10 | FR04571 | DO04915 |  |
+| AQ40230.09 | FR04571 | DO04918 |  |
+| AQ40232.09 | FR04549 | DO04929 |  |
+| AQ40233.08 | FR04551 | DO04948 |  |
+| AQ40234.10 | FR04556 | DO04932 |  |
+| AQ40239.09 | FR04551 | DO04950 |  |
+| AQ40240.08 | FR04549 | DO04957 |  |
+| AQ40241.09 | FR04549 | DO04955 |  |
+| AQ40245.10 | FR04556 | DO04959 |  |
+| AQ40247.10 | FR04571 | DO04965 |  |
+| AQ40248.09 | FR04510 | DO04960 |  |
+| AQ40249.09 | FR04511 | DO04961 |  |
+| AQ40250.11 | FR04556 | DO04962 |  |
+| AQ40251.09 | FR04566 | DO04963 |  |
+| AQ40252.09 | FR04567 | DO04964 |  |
+| AQ40253.09 | FR04551 | DO04971 |  |
+| AQ40254.08 | FR04555 | DO04972 |  |
+| AQ40258.08 | FR04550 | DO04988 |  |
+| AQ40259.07 | FR04551 | DO04989 |  |
+| AQ40260.08 | FR04555 | DO04990 |  |
+| AQ40261.09 | FR04571 | DO04991 |  |
+| AQ40262.07 | FR04571 | DO04984 |  |
+| AQ40263.05 | FR04551 | DO04985 |  |
+| AQ40264.05 | FR04551 | DO04986 |  |
+| AQ40277.05 | FR04522 | DO40022 |  |
+| AQ40278.06 | FR04565 | DO40023 |  |
+| AQ40279.07 | FR04556 | DO40024 |  |
+| AQ40281.04 | FR04549 | DO40031 |  |
+| AQ40284.06 | FR04556 | DO40042 |  |
+| AQ40285.06 | FR04555 | DO40052 |  |
+| AQ40286.05 | FR04551 | DO40059 |  |
+| AQ40287.05 | FR04566 | DO40047 |  |
+| AQ40288.05 | FR04556 | DO40039 |  |
+| AQ40289.05 | FR04564 | DO40074 |  |
+| AQ40290.04 | FR04551 | DO40065 |  |
+| AQ40291.04 | FR04549 | DO40069 |  |
+| AQ40292.05 | FR04565 | DO40075 |  |
+| AQ40293.06 | FR04556 | DO40076 |  |
+| AQ40294.04 | FR04549 | DO40077 |  |
+| AQ40296.04 | FR04551 | DO40049 |  |
+| AQ40297.06 | FR04707 | DO40071 |  |
+| AQ40298.07 | FR04708 | DO40072 |  |
+| AQ40299.05 | FR04555 | DO40086 |  |
+| AQ40301.03 | FR04567 | DO40105 |  |
+| AQ40304.01 | FR04549 | DO40108 |  |
+| AQ40305.02 | FR04522 | DO40109 |  |
+| AQ40306.01 | FR04551 | DO40110 |  |
+| AQ40307.00 | FR04744 | DO40106 |  |
+| QSK38 Parent ECM CM2150 | AQ60215.19 | FR06735 | DO06766 |
+| AQ60268.10 | FR06779 | DO06850 |  |
+| AQ60269.11 | FR06780 | DO06851 |  |
+| AQ60282.11 | FR06853 | DO06968 |  |
+| AQ60283.07 | FR06854 | DO06969 |  |
+| AQ60284.10 | FR06855 | DO06970 |  |
+| AQ60300.12 | FR06735 | DO06987 |  |
+| AQ60319.15 | FR06735 | DO06996 |  |
+| AQ60339.13 | FR06735 | DO60063 |  |
+| AQ60340.14 | FR06735 | DO60064 |  |
+| AQ60351.10 | FR06735 | DO60105 |  |
+| AQ60393.10 | FR06904 | DO60110 |  |
+| AQ60396.09 | FR06779 | DO60159 |  |
+| AQ60408.08 | FR06842 | DO60107 |  |
+| AQ60409.08 | FR06844 | DO60109 |  |
+| AQ60430.07 | FR06843 | DO60108 |  |
+| AQ60434.10 | FR06735 | DO60216 |  |
+| AQ60435.11 | FR06735 | DO60235 |  |
+| AQ60436.10 | FR06779 | DO60237 |  |
+| AQ60437.11 | FR06780 | DO60238 |  |
+| AQ60459.10 | FR06853 | DO60372 |  |
+| AQ60474.07 | FR06842 | DO60367 |  |
+| AQ60478.07 | FR06853 | DO60381 |  |
+| AQ60505.11 | FR06869 | DO06984 |  |
+| AQ60713.07 | FR06780 | DO60756 |  |
+| AQ60714.07 | FR06855 | DO60757 |  |
+| AQ60722.06 | FR60240 | DO60765 |  |
+| AQ60723.05 | FR06735 | DO60782 |  |
+| AQ60736.05 | FR06869 | DO60734 |  |
+| AQ60737.05 | FR06904 | DO60712 |  |
+| AQ60782.00 | FR06843 | DO60966 |  |
+| AQ60783.00 | FR06844 | DO60967 |  |
+| AQ60784.00 | FR06842 | DO60968 |  |
+| QSK50 Parent ECM CM2150 | AQ60217.18 | FR06733 | DO06765 |
+| AQ60220.18 | FR06736 | DO06767 |  |
+| AQ60252.13 | FR06781 | DO06928 |  |
+| AQ60287.13 | FR06793 | DO06853 |  |
+| AQ60288.13 | FR06794 | DO06866 |  |
+| AQ60289.15 | FR06795 | DO06871 |  |
+| AQ60292.10 | FR06796 | DO06977 |  |
+| AQ60293.10 | FR06734 | DO06978 |  |
+| AQ60294.11 | FR06746 | DO06979 |  |
+| AQ60296.11 | FR06830 | DO06976 |  |
+| AQ60297.10 | FR06831 | DO06980 |  |
+| AQ60301.13 | FR06746 | DO06988 |  |
+| AQ60309.13 | FR06859 | DO06981 |  |
+| AQ60310.13 | FR06860 | DO06982 |  |
+| AQ60320.11 | FR06792 | DO60018 |  |
+| AQ60338.15 | FR06898 | DO60081 |  |
+| AQ60359.14 | FR06907 | DO60010 |  |
+| AQ60360.13 | FR06908 | DO60011 |  |
+| AQ60361.13 | FR06898 | DO60012 |  |
+| AQ60362.13 | FR06863 | DO60013 |  |
+| AQ60363.15 | FR06864 | DO60096 |  |
+| AQ60364.13 | FR06865 | DO60097 |  |
+| AQ60365.14 | FR06736 | DO60098 |  |
+| AQ60366.13 | FR06890 | DO60099 |  |
+| AQ60367.13 | FR06890 | DO60123 |  |
+| AQ60368.13 | FR06890 | DO60124 |  |
+| AQ60369.13 | FR06888 | DO60125 |  |
+| AQ60370.13 | FR06888 | DO60126 |  |
+| AQ60371.13 | FR06888 | DO60127 |  |
+| AQ60373.15 | FR06888 | DO60118 |  |
+| AQ60374.14 | FR06888 | DO60119 |  |
+| AQ60375.14 | FR06888 | DO60120 |  |
+| AQ60376.12 | FR06746 | DO60121 |  |
+| AQ60377.14 | FR06888 | DO60122 |  |
+| AQ60378.14 | FR06888 | DO60100 |  |
+| AQ60379.14 | FR06888 | DO60101 |  |
+| AQ60380.13 | FR06888 | DO60102 |  |
+| AQ60381.13 | FR06888 | DO60104 |  |
+| AQ60386.15 | FR06889 | DO60103 |  |
+| AQ60387.16 | FR06889 | DO60128 |  |
+| AQ60388.14 | FR06889 | DO60129 |  |
+| AQ60389.13 | FR06889 | DO60130 |  |
+| AQ60390.13 | FR06889 | DO60131 |  |
+| AQ60391.15 | FR06890 | DO60133 |  |
+| AQ60392.11 | FR06890 | DO60134 |  |
+| AQ60395.14 | FR06890 | DO60132 |  |
+| AQ60397.13 | FR06890 | DO60157 |  |
+| AQ60399.14 | FR06890 | DO60148 |  |
+| AQ60401.13 | FR06890 | DO60038 |  |
+| AQ60402.13 | FR06890 | DO60135 |  |
+| AQ60404.14 | FR06938 | DO60154 |  |
+| AQ60410.12 | FR06905 | DO60173 |  |
+| AQ60416.10 | FR06866 | DO60195 |  |
+| AQ60417.11 | FR06867 | DO60202 |  |
+| AQ60420.09 | FR06889 | DO60204 |  |
+| AQ60421.11 | FR06889 | DO06870 |  |
+| AQ60429.11 | FR06890 | DO60026 |  |
+| AQ60440.12 | FR06795 | DO60213 |  |
+| AQ60441.12 | FR06831 | DO60191 |  |
+| AQ60442.10 | FR06975 | DO60197 |  |
+| AQ60443.15 | FR06890 | DO60205 |  |
+| AQ60444.10 | FR06890 | DO60215 |  |
+| AQ60445.10 | FR06861 | DO60236 |  |
+| AQ60453.12 | FR06863 | DO60368 |  |
+| AQ60454.08 | FR06888 | DO60369 |  |
+| AQ60455.10 | FR06888 | DO60370 |  |
+| AQ60456.11 | FR06889 | DO60375 |  |
+| AQ60458.09 | FR06890 | DO60371 |  |
+| AQ60463.09 | FR06858 | DO60228 |  |
+| AQ60464.10 | FR06890 | DO60229 |  |
+| AQ60475.11 | FR06890 | DO60377 |  |
+| AQ60476.10 | FR06888 | DO60383 |  |
+| AQ60479.08 | FR06734 | DO60405 |  |
+| AQ60480.08 | FR06790 | DO60406 |  |
+| AQ60481.09 | FR06795 | DO60407 |  |
+| AQ60484.07 | FR06782 | DO60418 |  |
+| AQ60489.06 | FR06974 | DO60230 |  |
+| AQ60490.11 | FR06794 | DO60408 |  |
+| AQ60491.08 | FR06746 | DO60409 |  |
+| AQ60492.08 | FR06858 | DO60410 |  |
+| AQ60493.09 | FR06734 | DO60411 |  |
+| AQ60498.08 | FR06831 | DO60445 |  |
+| AQ60499.10 | FR06781 | DO60443 |  |
+| AQ60500.08 | FR06773 | DO60446 |  |
+| AQ60504.07 | FR06906 | DO60447 |  |
+| AQ60677.07 | FR06888 | DO60677 |  |
+| AQ60690.05 | FR06890 | DO60629 |  |
+| AQ60691.08 | FR06898 | DO60711 |  |
+| AQ60694.06 | FR06890 | DO60646 |  |
+| AQ60695.06 | FR06890 | DO60737 |  |
+| AQ60696.06 | FR06888 | DO60739 |  |
+| AQ60700.08 | FR06888 | DO60741 |  |
+| AQ60701.05 | FR06888 | DO60747 |  |
+| AQ60751.03 | FR06897 | DO60849 |  |
+| AQ60769.02 | FR06736 | DO60940 |  |
+| AQ60770.01 | FR06888 | DO60939 |  |
+| AQ60773.01 | FR06890 | DO60949 |  |
+| AQ60775.00 | FR06860 | DO60969 |  |
+| AQ60776.00 | FR06861 | DO60970 |  |
+| AQ60785.00 | FR06794 | DO60979 |  |
+| AQ60786.00 | FR06901 | DO60980 |  |
+| QSK60 Parent ECM CM2150 | AQ60218.20 | FR06734 | DO06764 |
+| AQ60221.18 | FR06746 | DO06792 |  |
+| AQ60236.17 | FR06751 | DO06803 |  |
+| AQ60237.18 | FR06751 | DO06804 |  |
+| AQ60238.18 | FR06773 | DO06839 |  |
+| AQ60253.18 | FR06782 | DO06929 |  |
+| AQ60254.21 | FR06790 | DO06933 |  |
+| AQ60255.11 | FR06791 | DO06931 |  |
+| AQ60285.09 | FR06792 | DO06932 |  |
+| AQ60295.10 | FR06829 | DO06975 |  |
+| AQ60302.12 | FR06734 | DO06868 |  |
+| AQ60303.17 | FR06856 | DO06872 |  |
+| AQ60304.13 | FR06857 | DO06989 |  |
+| AQ60305.16 | FR06858 | DO06869 |  |
+| AQ60312.12 | FR06861 | DO60003 |  |
+| AQ60313.11 | FR06974 | DO60004 |  |
+| AQ60314.13 | FR06792 | DO60002 |  |
+| AQ60315.11 | FR06781 | DO60005 |  |
+| AQ60316.12 | FR06792 | DO60006 |  |
+| AQ60317.13 | FR06751 | DO06852 |  |
+| AQ60318.10 | FR06733 | DO06997 |  |
+| AQ60325.11 | FR06792 | DO60037 |  |
+| AQ60326.13 | FR06888 | DO60020 |  |
+| AQ60327.15 | FR06889 | DO60021 |  |
+| AQ60328.17 | FR06890 | DO60022 |  |
+| AQ60329.16 | FR06888 | DO60023 |  |
+| AQ60330.13 | FR06734 | DO60024 |  |
+| AQ60331.11 | FR06895 | DO60039 |  |
+| AQ60335.12 | FR06896 | DO60048 |  |
+| AQ60337.12 | FR06897 | DO06867 |  |
+| AQ60341.14 | FR06899 | DO60040 |  |
+| AQ60342.12 | FR06900 | DO60042 |  |
+| AQ60343.12 | FR06901 | DO60068 |  |
+| AQ60344.10 | FR06895 | DO60069 |  |
+| AQ60345.10 | FR06905 | DO60070 |  |
+| AQ60352.12 | FR06906 | DO60111 |  |
+| AQ60398.15 | FR06888 | DO60147 |  |
+| AQ60412.08 | FR06888 | DO60174 |  |
+| AQ60413.09 | FR06890 | DO60175 |  |
+| AQ60415.09 | FR06890 | DO60198 |  |
+| AQ60431.11 | FR06773 | DO60203 |  |
+| AQ60433.09 | FR06938 | DO60199 |  |
+| AQ60446.10 | FR06990 | DO60233 |  |
+| AQ60451.08 | FR06991 | DO60025 |  |
+| AQ60477.07 | FR06906 | DO60385 |  |
+| AQ60482.08 | FR06736 | DO60227 |  |
+| AQ60501.08 | FR06796 | DO60431 |  |
+| AQ60502.07 | FR06792 | DO60432 |  |
+| AQ60503.07 | FR06733 | DO60433 |  |
+| AQ60506.07 | FR06751 | DO60427 |  |
+| AQ60507.07 | FR06791 | DO60428 |  |
+| AQ60508.07 | FR06793 | DO60429 |  |
+| AQ60509.10 | FR06890 | DO60423 |  |
+| AQ60510.07 | FR06794 | DO60424 |  |
+| AQ60511.10 | FR06901 | DO60425 |  |
+| AQ60512.09 | FR06734 | DO60426 |  |
+| AQ60528.07 | FR06751 | DO60475 |  |
+| AQ60530.08 | FR06746 | DO60478 |  |
+| AQ60531.08 | FR06898 | DO60479 |  |
+| AQ60534.05 | FR60088 | DO60843 |  |
+| AQ60716.06 | FR06734 | DO60761 |  |
+| AQ60717.06 | FR06791 | DO60760 |  |
+| AQ60724.06 | FR06908 | DO60775 |  |
+| AQ60748.03 | FR06773 | DO60827 |  |
+| AQ60749.04 | FR60323 | DO60828 |  |
+| AQ60750.07 | FR60323 | DO60836 |  |
+| AQ60759.04 | FR06888 | DO60884 |  |
+| AQ60761.05 | FR06751 | DO60876 |  |
+| AQ60762.04 | FR06773 | DO60877 |  |
+| AQ60763.04 | FR06938 | DO60878 |  |
+| AQ60777.00 | FR68867 | DO60971 |  |
+| AQ60778.00 | FR06865 | DO60972 |  |
+| AQ60779.00 | FR06864 | DO60973 |  |
+| AQ60780.00 | FR06863 | DO60974 |  |
+| AQ60781.00 | FR06866 | DO60975 |  |
+| AQ60789.00 | FR60429 | DO60960 |  |
+| AQ60790.00 | FR60431 | DO60962 |  |
+| AQ60791.00 | FR60430 | DO60985 |  |
+| AQ60792.00 | FR60444 | DO60961 |  |
+
+| Table 2, New Secondary ECM Codes QSK38, QSK50, and QSK60 |  |  |  |
+|---|---|---|---|
+| Engine Model | ECM Code | PJ Option | FR Option |
+| QSK38 Child ECM CM2150 | AR60190.08 | PJ60019 | FR06735 |
+| AR60230.05 | PJ60098 | FR06779 |  |
+| AR60231.05 | PJ60099 | FR06780 |  |
+| AR60250.05 | PJ60152 | FR06853 |  |
+| AR60251.05 | PJ60153 | FR06854 |  |
+| AR60252.05 | PJ60154 | FR06855 |  |
+| AR60327.05 | PJ60250 | FR06904 |  |
+| AR60334.04 | PJ60247 | FR06842 |  |
+| AR60335.04 | PJ60248 | FR06843 |  |
+| AR60336.04 | PJ60249 | FR06844 |  |
+| AR60380.04 | PJ60362 | FR06869 |  |
+| AR60510.02 | PJ60357 | FR60240 |  |
+| QSK50 Child ECM CM2150 | AR60193.07 | PJ60017 | FR06734 |
+| AR60199.07 | PJ60020 | FR06736 |  |
+| AR60255.05 | PJ60102 | FR06782 |  |
+| AR60257.05 | PJ60109 | FR06790 |  |
+| AR60349.04 | PJ60117 | FR06794 |  |
+| AR60259.05 | PJ60119 | FR06795 |  |
+| AR60265.05 | PJ60155 | FR06856 |  |
+| AR60267.05 | PJ60157 | FR06857 |  |
+| AR60269.05 | PJ60159 | FR06858 |  |
+| AR60271.04 | PJ60161 | FR06859 |  |
+| AR60283.04 | PJ60163 | FR06860 |  |
+| AR60285.06 | PJ60165 | FR06861 |  |
+| AR60321.06 | PJ60202 | FR06888 |  |
+| AR60323.06 | PJ60204 | FR06889 |  |
+| AR60325.06 | PJ60206 | FR06890 |  |
+| AR60328.07 | PJ60224 | FR06905 |  |
+| AR60343.04 | PJ60295 | FR06974 |  |
+| AR60347.04 | PJ60297 | FR06975 |  |
+| AR60354.04 | PJ60301 | FR06901 |  |
+| AR60360.04 | PJ60312 | FR06990 |  |
+| AR60362.04 | PJ60314 | FR06991 |  |
+| AR60194.07 | PJ60018 | FR06734 |  |
+| AR60200.07 | PJ60021 | FR06736 |  |
+| AR60256.05 | PJ60103 | FR06782 |  |
+| AR60258.05 | PJ60110 | FR06790 |  |
+| AR60350.04 | PJ60118 | FR06794 |  |
+| AR60260.05 | PJ60120 | FR06795 |  |
+| AR60266.05 | PJ60156 | FR06856 |  |
+| AR60268.05 | PJ60158 | FR06857 |  |
+| AR60270.05 | PJ60160 | FR06858 |  |
+| AR60272.04 | PJ60162 | FR06859 |  |
+| AR60284.04 | PJ60164 | FR06860 |  |
+| AR60286.06 | PJ60166 | FR06861 |  |
+| AR60322.05 | PJ60203 | FR06888 |  |
+| AR60324.05 | PJ60205 | FR06889 |  |
+| AR60326.05 | PJ60207 | FR06890 |  |
+| AR60355.04 | PJ60221 | FR06901 |  |
+| AR60329.07 | PJ60225 | FR06905 |  |
+| AR60344.04 | PJ60296 | FR06974 |  |
+| AR60348.04 | PJ60298 | FR06975 |  |
+| AR60361.04 | PJ60313 | FR06990 |  |
+| AR60363.04 | PJ60315 | FR06991 |  |
+| QSK60 Child ECM CM2150 | AR60201.09 | PJ60041 | FR06746 |
+| AR60202.09 | PJ60042 | FR06746 |  |
+| AR60307.06 | PJ60111 | FR06791 |  |
+| AR60308.06 | PJ60112 | FR06791 |  |
+| AR60275.06 | PJ60113 | FR06792 |  |
+| AR60276.06 | PJ60114 | FR06792 |  |
+| AR60279.06 | PJ60115 | FR06793 |  |
+| AR60280.06 | PJ60116 | FR06793 |  |
+| AR60277.06 | PJ60121 | FR06796 |  |
+| AR60278.06 | PJ60122 | FR06796 |  |
+| AR60293.06 | PJ60208 | FR06895 |  |
+| AR60294.06 | PJ60209 | FR06895 |  |
+| AR60295.06 | PJ60210 | FR06896 |  |
+| AR60296.06 | PJ60211 | FR06896 |  |
+| AR60299.06 | PJ60214 | FR06898 |  |
+| AR60300.06 | PJ60215 | FR06898 |  |
+| AR60358.04 | PJ60218 | FR06900 |  |
+| AR60359.04 | PJ60219 | FR06900 |  |
+| AR60303.06 | PJ60226 | FR06906 |  |
+| AR60304.06 | PJ60227 | FR06906 |  |
+| AR60309.06 | PJ60228 | FR06907 |  |
+| AR60310.06 | PJ60229 | FR06907 |  |
+| AR60311.06 | PJ60230 | FR06908 |  |
+| AR60312.06 | PJ60231 | FR06908 |  |
+| AR60313.04 | PJ60241 | FR06863 |  |
+| AR60314.04 | PJ60242 | FR06863 |  |
+| AR60315.04 | PJ60243 | FR06864 |  |
+| AR60316.04 | PJ60244 | FR06864 |  |
+| AR60317.04 | PJ60245 | FR06865 |  |
+| AR60318.04 | PJ60246 | FR06865 |  |
+| AR60337.04 | PJ60279 | FR06866 |  |
+| AR60338.04 | PJ60280 | FR06866 |  |
+| AR60339.04 | PJ60281 | FR06867 |  |
+| AR60340.04 | PJ60282 | FR06867 |  |
+| AR60195.06 | PJ60015 | FR06733 |  |
+| AR60196.06 | PJ60016 | FR06733 |  |
+| AR60210.06 | PJ60049 | FR06751 |  |
+| AR60212.05 | PJ60092 | FR06773 |  |
+| AR60213.05 | PJ60093 | FR06773 |  |
+| AR60211.06 | PJ60095 | FR06751 |  |
+| AR60287.04 | PJ60100 | FR06781 |  |
+| AR60288.04 | PJ60101 | FR06781 |  |
+| AR60297.04 | PJ60212 | FR06897 |  |
+| AR60298.04 | PJ60213 | FR06897 |  |
+| AR60301.04 | PJ60216 | FR06899 |  |
+| AR60302.04 | PJ60217 | FR06899 |  |
+| AR60330.04 | PJ60251 | FR06938 |  |
+| AR60331.04 | PJ60252 | FR06938 |  |
+| AR60405.03 | PJ60435 | FR60088 |  |
+| AR60406.03 | PJ60436 | FR60088 |  |
+| AR60527.00 | PJ60694 | FR60323 |  |
+| AR60528.00 | PJ60695 | FR60323 |  |
+| AR60221.04 | PJ60143 | FR06829 |  |
+| AR60222.04 | PJ60144 | FR06829 |  |
+| AR60253.04 | PJ60145 | FR06830 |  |
+| AR60254.04 | PJ60146 | FR06830 |  |
+| AR60219.09 | PJ60147 | FR06831 |  |
+| AR60220.08 | PJ60148 | FR06831 |  |
+
+**Description of Change**
+
+New fault code diagnostic is comprised of four fault codes, summarized in Table 3 below.
+
+| Table 3, Fault Code Theory of Operation |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Fault Code | Latching | Lamp | SPN | FMI | Condition for Activation | Effect | Conditions for Clearing |
+| FC2261 | Yes | White/Maintenance | 94 | 15 | Fuel supply pressure is above 1000 kPa \[ 145 psi \] for more than three seconds. | None | Powering down ECM followed by engine speed above 600 rpm and fuel supply pressure below 1000 kPa \[ 145 psi \] |
+| FC2216 | Yes | Yellow/Amber | 94 | 16 | Fuel supply pressure is above 1100 kPa \[ 160 psi \] for more than three seconds. | None | Powering down ECM followed by engine speed above 600 rpm and fuel supply pressure below 1100 kPa \[ 160 psi \] |
+| FC4615 | Yes (With Speed Derate) | Yellow/Amber | 94 | 0 | Fuel supply pressure is above 1200 kPa \[ 174 psi \] for more than three seconds. | Ramped speed derate attempts to lower fuel supply pressure to 1000 kPa or below. Speed derate is limited to a minimum target of 1500 rpm. | Powering down ECM followed by engine speed above 600 rpm and fuel supply pressure below 1200 kPa \[ 174 psi \] |
+| FC6719 | No | Red | 94 | 0 | Fuel supply pressure is above 1200 kPa \[ 174 psi \] for more than 30 minutes | System actions can differ based on original equipment manufacturer (OEM) red lamp protocol. | Key OFF. Wait for engine shut down. Key ON and wait for one minute. Crank engine. |
+
+Additional Fault Code Information:
+
+- Fault code diagnostic **only** runs:
+- Higher severity fault codes do **not** mask lower severity fault codes.
+- **Only** FC6719 (red lamp) is cleared at every key-cycle. FC2261, FC2216, and FC4615 are **not** cleared at key-cycle.
+- Once fault codes are invoked, **only** way to clear fault codes will be to perform following steps:
+
+### Document History

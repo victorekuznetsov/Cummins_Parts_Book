@@ -1,0 +1,79 @@
+---
+aliases:
+  - "INSITE™ 7.4: проблема отображения функций и параметров"
+type: "TSB"
+doc: "tsb100051"
+title_en: "INSITE™ 7.4 Features and Parameters Display Issue"
+title_ru: "INSITE™ 7.4: проблема отображения функций и параметров"
+released: "2010-06-17"
+modified: "2010-06-17"
+group: "22 - Service Tools"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+figures: 2
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100051.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100051.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "год/2010"
+  - "тема/service-tools"
+---
+
+# INSITE™ 7.4 Features and Parameters Display Issue
+**INSITE™ 7.4: проблема отображения функций и параметров**
+
+> [!abstract] TSB · `tsb100051`
+> **Раздел Cummins:** 22 - Service Tools
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2010-06-17 · изменён 2010-06-17
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100051.pdf)
+
+## INSITE™ 7.4 Features and Parameters Display Issue
+
+### Core Issue
+
+This Technical Service Bulletin describes an issue with INSITE™ electronic service tool version 7.4 (7.4.0.244) displaying the Features and Parameters column incorrectly (too narrow). This causes the rows to widen and makes it difficult to read the feature names.
+
+### Confirmation
+
+All Engines supported by INSITE™ electronic service tool.
+
+Open Features and Parameters while connected to an ECM and the first column is narrow and the rows are wide.
+
+None
+
+INSITE™ electronic service tool version 7.4 (7.4.0.244) is automatically adjusting the first column width incorrectly on some screen resolutions.
+
+None
+
+### Resolution
+
+Manually adjust the width of the first column:
+
+- Move the curser over the column line until it changes to a double arrow.
+- While holding the left mouse button down, move the column line to the right until the column width has increased and then release the mouse button.
+
+![[22000028.png]]
+
+After resizing the column, the row width will automatically adjust.
+
+![[22000029.png]]
+
+Change the display resolution to any of the following settings:
+
+- 800 by 600
+- 1024 by 768
+- 1280 by Any
+- 1152 by 864
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.

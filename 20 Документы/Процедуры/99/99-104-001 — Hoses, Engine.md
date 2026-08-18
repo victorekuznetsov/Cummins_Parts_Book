@@ -1,0 +1,48 @@
+---
+aliases:
+  - "Шланги двигателя"
+type: "Процедура"
+doc: "99-104-001"
+title_en: "Hoses, Engine"
+title_ru: "Шланги двигателя"
+modified: "2015-05-05"
+engines:
+  - "37292556"
+  - "37295879"
+families:
+  - "QST30"
+manuals:
+  - "3666134"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-104-001.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-104-001.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QST30"
+  - "группа/99"
+---
+
+# Hoses, Engine
+**Шланги двигателя**
+
+> [!abstract] Процедура · `99-104-001`
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
+> **Семейство:** QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
+> **Даты:** изменён 2015-05-05
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-104-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-104-001.pdf)
+
+### Maintenance Check
+
+Check all flexible hoses, tubes, and lines for:
+
+- Leaks
+- Cracks
+- Cuts
+- Collapsing
+- Broken clamps
+
+If damage is found, replace damaged component.
+
+![[rp8hosa.png]]

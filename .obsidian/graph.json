@@ -1,0 +1,31 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "tag:#документ/tsb", "color": { "a": 1, "rgb": 14701138 } },
+    { "query": "tag:#документ/процедура", "color": { "a": 1, "rgb": 4886496 } },
+    { "query": "tag:#документ/руководство", "color": { "a": 1, "rgb": 2201331 } },
+    { "query": "tag:#деталь", "color": { "a": 1, "rgb": 10133670 } },
+    { "query": "tag:#узел", "color": { "a": 1, "rgb": 4113295 } },
+    { "query": "tag:#комплект", "color": { "a": 1, "rgb": 6737151 } },
+    { "query": "tag:#двигатель", "color": { "a": 1, "rgb": 15241517 } },
+    { "query": "tag:#машина", "color": { "a": 1, "rgb": 10513120 } }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 11,
+  "linkStrength": 0.8,
+  "linkDistance": 180,
+  "scale": 0.4,
+  "close": false
+}

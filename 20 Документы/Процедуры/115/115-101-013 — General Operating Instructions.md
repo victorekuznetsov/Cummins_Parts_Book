@@ -1,0 +1,498 @@
+---
+aliases:
+  - "Общие инструкции по эксплуатации"
+type: "Процедура"
+doc: "115-101-013"
+title_en: "General Operating Instructions"
+title_ru: "Общие инструкции по эксплуатации"
+modified: "2006-08-09"
+engines:
+  - "41349633"
+families:
+  - "QSK19"
+manuals:
+  - "4021587"
+figures: 31
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-101-013.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-101-013.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSK19"
+  - "группа/115"
+---
+
+# General Operating Instructions
+**Общие инструкции по эксплуатации**
+
+> [!abstract] Процедура · `115-101-013`
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** QSK19
+> **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
+> **Секции:** Section 1 — Operating Instructions
+> **Даты:** изменён 2006-08-09
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-101-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-101-013.pdf)
+
+### General Information
+
+Customer Interface Box
+
+The engine stop switch and the customer interface box logic unit are the **only** two components that have customer interface capabilities.
+
+- To stop the engine from the customer interface box, depress the engine stop switch.
+- To reset the engine stop switch, turn the switch **clockwise** until it releases and moves outward.
+
+- Make sure the engine is off to access the diagnostic feature of the customer interface box logic unit.
+- Move the diagnostic ON switch to the ON position. The diagnostic ON lamp will illuminate and the effected lamp will begin to flash a fault code.
+- The lamp will flash the first number of the fault code, stop briefly, and flash out the next number of the fault code, stop briefly, and continue the process until the fault code has been flashed out completely. After the completion of the flashing out of the fault code, the lamp will begin to flash out the same fault code again.
+- After the fault code has flashed out, press the Incr. switch to move to the next fault code to be flashed out.
+- If a previous fault code is desired when checking multiple fault codes, press the Decr. switch.
+
+Engine Room Panel
+
+The engine room panel has the capability to perform the following functions:
+
+- Turn the marine basic panel system on.
+- Switch and indicate local start **only** mode
+- Indicate engine alarms visually and audibly
+- Silence audible alarm
+- Start the engine
+- Stop the engine.
+
+To start the engine from the engine room panel, perform the following steps:
+
+- Turn the power switch to the ON position and verify power indication lamp is illuminated
+- Press the local start **only** button and verify the local start **only** lamp is illuminated
+- Make sure the engine alarm lamp is **not** illuminated
+- Press the engine start button and verify the engine started.
+
+To stop the engine from the engine room panel, perform the following step:
+
+- Press the engine stop button and verify engine shutdown.
+
+To silence the alarms from the engine room panel, perform the following step:
+
+- Press the alarm silence button and verify audible alarm silenced.
+
+- The remote panel has the capability of performing the following functions.
+
+Indicate power availability to panel
+
+Indicate the engine room panel is in local start mode
+
+only
+
+Indicate engine alarms visually and audibly
+
+Silence audible alarm
+
+Start the engine
+
+Stop the engine.
+
+To start the engine from the remote panel, perform the following steps:
+
+- Verify power lamp is illuminated
+- Make sure the engine alarm lamp is **not** illuminated
+- Verify local start **only** lamp is **not** illuminated
+- Press the engine start button and verify the engine started.
+
+To stop the engine from the remote panel perform the following step:
+
+- Press the engine stop button and verify engine stopped.
+
+To silence the audible alarm from the remote panel, perform the following step:
+
+- Press the alarm silence button and verify the audible alarm silenced.
+
+Instrument Panel
+
+The ED-3 electronic display is a liquid crystal display with five menu keys that can display engine parameters in variety of formats. Display formats are:
+
+- Basic
+- Analog gauge
+- Graphical
+- Text
+- Quad display.
+
+The electronic display receives engine data from an industry standard SAE J1939 datalink. Displayed engine parameters will vary with the engine application, but typically include:
+
+- Engine speed
+- Throttle position
+- System voltage
+- Engine load.
+
+Power On Screen
+
+The power on screen will be shown when the power is first applied to the unit.
+
+The display will perform a self-test for proper operation of the:
+
+- SAE J1939 datalink
+- Flash
+- Random access memory
+- Liquid crystal display.
+
+The power on screen indications are identified below:
+
+- Parameters tested by display
+- Bar indicating self test progress
+- Current user display is configured for
+- Software version
+- Engine configuration, communication protocol, and engine source.
+
+![[17800084.png]]
+
+### Setup
+
+On initial power up, the display will automatically enter screens within the Settings and Configuration Menu.
+
+These screens need to be set up by the user in order to use this display.
+
+It is **not** necessary to repeat these steps once completed.
+
+If the initial settings have been set incorrectly, the setup screens can be corrected in the configuration menu.
+
+The user is first prompted to select the engine model the display is connected to:
+
+- Use the up and down arrow scroll keys to move the pointer to the desired engine
+- Press the Select key to select the engine
+- Press the back key.
+
+![[17800085.png]]
+
+The display enters the Datalink screen:
+
+- Use the up arrow and down arrow scroll keys to move the pointer to the DATATYPE item
+- Press the ADJUST key and select the J1939 data type.
+
+![[17800086.png]]
+
+The user **must** also enter J1939 Settings menu and select the engine source. Every device on J1939 network including the engine will have a unique address (in the range of 0 to 254). In order for the display to show data from a particular engine the source address of that engine **must** be known. The appropriate display is then configured to match this source address.
+
+The six selections are:
+
+- Engine 1 - Master - Source Address 00
+- Engine 2 - Slave 1 - Source Address 01
+- Engine 3 - Slave 2 - Source Address 242
+- Engine 4 - Slave 3 - Source Address 243
+- Engine 5 - Slave 3 - Source Address 244
+- Engine 6 - Slave 4 - Source Address 245
+
+> [!note] Note · Примечание
+> High horsepower marine engines do **not** use multiple unit synchronization. All applicable displays are set to Engine 1 - Master - Source Address 00.
+
+- Press the adjust key and select Engine 1 - Master - Source Address 00.
+- Press the BACK key and return to the DATALINK menu.
+- Press the BACK key and return to the CONFIGURATION menu.
+- Press the EXIT key to enter the default screen (basic page).
+
+During this process it is also possible to adjust other user configured parameters or alternatively they can be adjusted at anytime from the configuration menu.
+
+![[17800087.png]]
+
+Default Screen
+
+The basic page is displayed after the power on screen is finished testing the functionality of the unit. The SYSTEM OK banner is displayed for the first 60 seconds then turned off.
+
+The ACTIVE FAULT banner is **only** displayed if certain ECM fault codes are active. The ED-3 does **not** show all active fault codes at this time.
+
+If keys are **not** pressed within the first five seconds, the button bar will slide down out of view and reveal supported engine feature switches that are turned on.
+
+- Pressing the first four keys (left to right) will restore the menu button bar to the screen.
+- Pressing the far right key will allow the user to set lighting and contrast values.
+
+![[17800088.png]]
+
+### Viewing Data
+
+To select an alternate parameter to be viewed:
+
+- Press the left hand key to allow the bottom menu bar to be viewable
+- Press the ADJUST key (This will bring up an engine parameter menu)
+- Press the up or down arrow key to scroll through the engine parameter menu shown
+- When desired parameter to be changed has a box around it, press the adjust key to scroll through the list of available parameters
+- When the parameter to be changed is found press the BACK key.
+
+> [!note] Note · Примечание
+> **Only** parameters supported by the engine model will be available for viewing.
+
+![[17800089.png]]
+
+### Page Navigation
+
+There are three different types of pages available:
+
+- VIEW
+- TRIP
+- DISP.
+
+The VIEW key allows the display to be viewed in four different formats.
+
+Press the left hand key to display the bottom menu bar.
+
+Press the left hand bottom key again to select VIEW on the bottom menu bar.
+
+A menu appears with the types of pages available with the type of page in use highlighted:
+
+- BASIC PAGE
+- QUAD GAUGE
+- QUAD TEXT
+- BI TEXT.
+
+If the keys are **not** pressed within five seconds the bottom menus will disappear.
+
+![[17800090.png]]
+
+- Press the left key two times to bring up the page select menu.
+- Press the left hand key to scroll to BASIC PAGE (BASIC PAGE is highlighted).
+- Press GO the basic page will now be the screen on the display.
+
+The engine parameters to monitor can be changed on this page. Refer to the Change Engine Parameter step in this procedure.
+
+![[17800091.png]]
+
+- Press the left hand key two times to bring up the page select menu.
+- Press the left hand key to scroll to QUAD GAUGE (QUAD GAUGE is highlighted).
+- Press the GO key and the quad gauge page will now be the screen on the display.
+
+The engine parameters to monitor can be changed on this page. Refer to the Change Engine Parameter step in this procedure.
+
+![[17800092.png]]
+
+- Press the left hand key two times to bring up the page select menu.
+- Press the left hand key to scroll to QUAD TEXT (QUAD TEXT is highlighted).
+- Press the GO key and the quad text page will now be the screen on the display.
+
+The engine parameters to monitor can be changed on this page. Refer to the Change Engine Parameter step in this procedure.
+
+![[17800093.png]]
+
+- Press the left hand key two times to bring up the page select menu.
+- Press the left hand key to scroll to BI TEXT (BI TEXT is highlighted).
+- Press the GO key and the bi text page will now be the screen on the display.
+
+The engine parameters to monitor can be changed on this page. Refer to the Change Engine Parameter step in this procedure.
+
+![[17800094.png]]
+
+The trip key allows the display of data related to the present trip. Total trip and statistics are **not** affected by turning the engine off.
+
+Data in these screens continues to accumulate until cleared with the reset key.
+
+Using the reset key on either total trip or statistics screen will clear data from memory on both screens.
+
+Press the left hand key. The bottom menu bar will appear.
+
+![[17800090.png]]
+
+- Press the left hand key. Menu bar appears.
+- Press the TRIP key. Menu appears.
+- Press the TRIP key to scroll to TOTAL TRIP (TOTAL TRIP is highlighted).
+- Press the GO key and the total trip will be the display on the screen.
+- Press and hold the fourth key from the left to reset the trip data and statistics.
+
+![[17800096.png]]
+
+- Press the left hand key. Menu bar appears.
+- Press the trip key. Menu appears.
+- Press the trip key to scroll to SPEED GRAPH (SPEED GRAPH is highlighted).
+- Press the GO key and the speed graph will be the display on the screen.
+
+The graph represents the boat speed plotted against engine speed.
+
+The boat speed input is optional and **must** be setup using input from a global positioning satellite or speed transducer.
+
+Press and hold the left hand key for one second and the graph will clear.
+
+Press and hold the second key from the left for one second and the graph will be stored in nonvolatile memory.
+
+![[17800097.png]]
+
+- Press the left hand key. Menu bar appears.
+- Press the TRIP key. Menu appears.
+- Press the TRIP key to scroll to STATISTICS (STATISTICS is highlighted).
+- Press the GO key and the speed graph will be the display on the screen.
+- Press and hold the forth key from the left to reset the statistics, trip data, fuel display data, and start trip hours over again.
+
+![[17800096.png]]
+
+The DISP key allows selection of a single engine parameter to be viewed from the basic page, quad gauge, quad text, and bi text pages.
+
+The screen shot is of the basic page. The steps are the same for all pages.
+
+**Only** parameters supported by the engine model selected will be available for viewing.
+
+![[17800090.png]]
+
+- Press the most left hand key. Menu bar appears.
+- Press the DISP key. Engine parameters menu appears.
+- Press the DISP key again to scroll through engine parameters.
+- Press the GO key when desired engine parameter to monitor is highlighted. The desired engine parameter screen will be shown.
+
+![[17800100.png]]
+
+Alarm Page
+
+When an engine alarm is present, a banner will appear at the top of the screen indicating a fault is present.
+
+If in the basic page, the parameter related to the basic fault code will flash with the fault present banner.
+
+The display will detect selected faults depending on the engine application. The fault condition **must** be corrected and the fault **must** be cleared in the alarm page.
+
+![[17800101.png]]
+
+When the alarm banner is shown to establish the fault code(s), perform the following steps:
+
+- Press the far left key. Menu bar appears.
+- Press the BELL key. Active alarm screen appears.
+
+![[17800170.png]]
+
+The active alarms are indicated.
+
+- To stop the audible alarm, push the STOP key.
+- On this screen the ECM fault number, FMI, and SPN are shown.
+- Use the up or down arrow key to the select the desired alarm.
+
+![[17800102.png]]
+
+To obtain more information on an individual fault code:
+
+- Press the up or down arrow key to scroll through the fault codes
+- When the desired fault code is highlighted press the INFO key.
+
+The fault code, FMI, SPN, and fault definition will be indicated on the screen shown.
+
+![[17800103.png]]
+
+- Make sure all active fault codes are cleared.
+- Press the far right hand key. Lighting or Contrast adjust bar appears.
+- Press the lighting (+) or (-) key to increase or decrease lighting.
+
+![[17800104.png]]
+
+- Make sure all active fault codes are cleared.
+- Press the far right hand key. Lighting and Contrast adjust bar appears.
+- Press the contrast (+) or (-) key to increase or decrease contrast.
+
+If the display contrast has been set so the display is **not** readable and can **not** be adjusted back, press the four left hand keys at the same time. This will set the contrast to central and reset the lighting to maximum.
+
+![[17800105.png]]
+
+Configuration Menu
+
+To enter the configuration menu, press and hold the right hand key for three seconds.
+
+The following Menu options will appear:
+
+- USER
+- SETTING
+- ALARM HISTORY
+- SYSTEM
+- DATALINK
+- RPM.
+
+![[17800106.png]]
+
+- Enter CONFIG menu by holding right hand key for three seconds.
+- Use the arrow keys to scroll to USER.
+- Push the adjust key.
+- Use the arrow keys to scroll to desired user.
+- Press the select key. Box is filled.
+
+Six user setups can be stored in this menu with an associated user name. The user can configure the screens with the desired parameters then store the setup. The selected user's name will appear on the lower right side of the start up screen when the system is first powered on.
+
+![[17800107.png]]
+
+To add or change a user complete the following steps:
+
+- Enter the CONFIG menu by holding the right key for three seconds
+- Use the arrow keys to scroll to USER
+- Use the arrow keys to scroll to the DEFAULT or name to be changed
+- Push the ADJUST key
+- Use the (+) or (-) keys to scroll correct letter or number
+- Press the ADJUST key
+- Repeat the process until the user name is entered
+- Push the BACK key.
+
+![[17800108.png]]
+
+> [!warning] CAUTION · Осторожно
+> Turning the alarm off will prevent the display from showing any active faults. Use this function only when the data display is not used at the helm.
+
+- Enter the CONFIG menu by holding the right key for three seconds.
+- Use the arrow keys to scroll to SETTING.
+- Press the ADJUST key.
+- Use the arrow keys to scroll to desired setting (see table 1).
+- Press the (+) or (-) key to change the setting.
+- Press the BACK key when complete.
+
+| Setting Table |  |
+|---|---|
+| LANG | Configuration |
+| BLEEP | ON/OFF |
+| UNIT | ENGLISH/METRIC |
+| DAMPENING | How fast data is updated on screen (0 to 100 percent) |
+| ALARM | ON/OFF |
+| SPEED GPS | ON/OFF |
+
+![[17800109.png]]
+
+- Enter CONFIG menu by holding right key for three seconds.
+- Use the arrow keys to scroll to ALARM HISTORY.
+- Push the ADJUST key.
+
+This function will capture the last five fault codes. If no fault codes have been logged, “No Snapshots” will appear on the screen.
+
+![[17800110.png]]
+
+- Enter the CONFIG menu by holding the right key for three seconds.
+- Use the arrow keys to scroll to SYSTEM.
+- Press the ADJUST key.
+- Use the up or down arrow keys to scroll to desired setting.
+- Press the adjust key.
+
+This menu was designed for use by Cummins Inc. service personnel. Incorrect use of these features can cause problematic operation.
+
+| System Menu Table |  |
+|---|---|
+| DEMO | Turns display demo mode on or off. |
+| RESET ALL | Resets the engine data display module to default settings. |
+| UPLOAD | Allows the unit to be programmed again when selected. |
+| ABOUT | Summarizes display running mode information. |
+
+![[17800111.png]]
+
+- Enter the CONFIG menu by holding the right key for three seconds.
+- Use the arrow keys to scroll to DATA-LINK.
+- Press the ADJUST key.
+- Use the up or down arrow keys to scroll to desired function.
+- Press the ADJUST key to enter desired function.
+
+The datalink menu has the following sub-menus:
+
+ENGINE - Selects engine model connected to datalink.
+
+DATA TYPE - Select J1939 for the data type.
+
+DATALINK INFO -
+
+Only
+
+used when J1587 is used. This is
+
+not
+
+a used function.
+
+J1939 SETTINGS - Allows the user to set the engine source to suit configuration.
+
+![[17800112.png]]
+
+- Enter the CONFIG menu by holding the right key for three seconds.
+- Use the arrow keys to scroll to RPM.
+- Press the ADJUST key to change RPM settings.
+
+The RPM setting allows the user to select the rounding of the RPM value. Choices are rounding to the nearest 10's, 5's, or 1's. Values are changed by using the adjust key.
+
+![[17800106.png]]

@@ -1,0 +1,54 @@
+---
+aliases:
+  - "Оправка для установки расширительной заглушки"
+type: "Инструкция по инструменту"
+doc: "3400408"
+title_en: "Expansion Plug Installer"
+title_ru: "Оправка для установки расширительной заглушки"
+released: "2011-03-28"
+modified: "2011-07-11"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400408.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400408.pdf"
+tags:
+  - "документ/инструмент"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+---
+
+# Expansion Plug Installer
+**Оправка для установки расширительной заглушки**
+
+> [!abstract] Инструкция по инструменту · `3400408`
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2011-03-28 · изменён 2011-07-11
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400408.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400408.pdf)
+
+### Description
+
+Expansion Plug Installer
+
+### Purpose
+
+This document provides information for expansion plug installer, Part Number 2892394. The tool is used to install the expansion plugs, to the correct depth, into the fuel pump for the QSK19, QSK38, QSK50, and QSK60 MCRS engines.
+
+Use the following procedures for additional information on the expansion plug installer.
+
+- Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592. [[20-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+- Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+- Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in Section 5.
+
+![[22500001.png]]
+
+| Table 1, Expansion Plug Installer, Part Number 2892394 |  |  |  |
+|---|---|---|---|
+| Item | Part Number | Description | Quantity |
+| 1 | 2892394 | Expansion plug installer | 1 |

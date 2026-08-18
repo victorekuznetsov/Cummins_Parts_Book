@@ -1,0 +1,371 @@
+---
+aliases:
+  - "Перекрёстные ссылки FR, DO, ЭБУ и CPL для CM850 и CM2150 (MCRS)"
+type: "TSB"
+doc: "tsb110301"
+title_en: "CM850 and CM2150 (MCRS) FR, DO, Engine Control Module (ECM), and CPL Cross-References"
+title_ru: "Перекрёстные ссылки FR, DO, ЭБУ и CPL для CM850 и CM2150 (MCRS)"
+released: "2016-10-28"
+modified: "2016-10-28"
+group: "19 - Electronic Engine Controls"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+parts:
+  - "2867147"
+  - "2867148"
+  - "2867149"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110301.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110301.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "год/2016"
+  - "тема/electronic-engine-controls"
+---
+
+# CM850 and CM2150 (MCRS) FR, DO, Engine Control Module (ECM), and CPL Cross-References
+**Перекрёстные ссылки FR, DO, ЭБУ и CPL для CM850 и CM2150 (MCRS)**
+
+> [!abstract] TSB · `tsb110301`
+> **Раздел Cummins:** 19 - Electronic Engine Controls
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2016-10-28 · изменён 2016-10-28
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110301.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110301.pdf)
+
+## CM850 and CM2150 (MCRS) FR, DO, Engine Control Module (ECM), and CPL Cross-References
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+Cummins Inc. has released revisions to the Modular Common Rail System (MCRS) fuel system since its introduction. If an engine is upgraded from C1 to C2, C1 to C3 or C2 to C3, it requires a CPL, FR, DO, and ECM code change. The engine data plate **must** be stamped with the new CPL, FR, and DO options and Engine Modification Form 1877 **must** be completed.
+
+Cummins Inc. recommends upgrading the engine to the C3 fuel system during rebuild events to minimize the cost and improve fuel system durability relative to fuel quality issues. Reference TSB100978 for information about the parts required to upgrade.
+
+Use the file below to find the appropriate CM850 to CM2150 FR, DO, and ECM Code for C2 to C3 upgrades:
+
+| QSK19 |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | ECM Code | FR Option | DO Option | ECM Code |  |  |
+| Al's Diesel | Mud Pump | 4463 | 4736 | AQ40108 | 4551 | 4900 | AQ40210 |
+| Atlas Copco | RD20 Drill | 4464 | 4639 | AQ40045 | 4511 | 4732 | AQ40089 |
+| Atlas Copco | Drill | 4465 | 4640 | AQ40049 | 4549 | 4796 | AQ40137 |
+| Atlas Copco | Drill | 4465 | 4726 | AQ40111 | 4549 | 4877 | AQ40186 |
+| Atlas Copco | Drill | 4464 | 4768 | AQ40116 | 4511 | 4878 | AQ40187 |
+| Atlas Copco | MT 5020 | 4466 | 4946 | AQ40237 | 4549 | 4957 | AQ40240 |
+| Baker Corp | Centrifugal Pump | 4467 | 4716 | AQ40091 | 4510 | 4893 | AQ40207 |
+| Bandit | 3680/4680 Beast | 4463 | 4718 | AQ40092 | 4551 | 4805 | AQ40143 |
+| Bandit | 337-FCX Chipper | 4466 | 4699 | AQ40079 | 4556 | 4817 | AQ40160 |
+| Belaz | 7555F | 4466 | 4721 | AQ40097 | 4556 | 4856 | AQ40174 |
+| BJ Services | Acid Frac | 4463 | 4646 | AQ40044 | 4551 | 4804 | AQ40142 |
+| Bonny China | CE125 Excavator | 4467 | 4739 | AQ40095 | 4510 | 4894 | AQ40218 |
+| Bucyrus Intl | SKF Blasthole Drill | 4465 | 4954 | AQ40244 | 4549 | 4955 | AQ40241 |
+| Compression LEA | Air Compressor | 4465 | 4723 | AQ40099 | 4549 | 4899 | AQ40209 |
+| Compression LEA | Booster Combo | 4464 | 4784 | AQ40122 | 4511 | 4905 | AQ40215 |
+| Crown Energy | ST80080 Blender | 4464 | 4662 | AQ40066 | 4511 | 4876 | AQ40185 |
+| Cummins Power | Generic | 4466 | 4650 | AQ40051 | 4556 | 4816 | AQ40159 |
+| Cummins Taiwan | Emergency Pump | 4468 | 4861 | AQ40176 | 4564 | 4914 | AQ40255 |
+| Diamond Z Mfg | Tub Grinder | 4466 | 4654 | AQ40055 | 4556 | 4889 | AQ40203 |
+| Dopplemayer | Ski Lift | 4464 | 4698 | AQ40078 | 4549 | 4898 | AQ40208 |
+| Dressta/HSW | TD40 Dozer | 4473 | 4664 | AQ40060 | 4567 | 4836 | AQ40165 |
+| Dressta/HSW | TD40 Dozer | 4473 | 4729 | AQ40102 | 4567 | 4880 | AQ40189 |
+| Drill Tech | Rock Drill | 4472 | 4706 | AQ40084 | 4566 | 4883 | AQ40192 |
+| Drill Tech/Sandvik | D75 Drill | 4464 | 4686 | AQ40069 | 4511 | 4810 | AQ40148 |
+| DW/TXS | DDW-2000 Drill | 4466 | 4958 | AQ40246 | 4556 | 4959 | AQ40245 |
+| Ensign Drilling | Pump | 4466 | 4661 | AQ40067 | 4556 | 4890 | AQ40204 |
+| Euclid | R60 | 4466 | 4814 | AQ40151 | 4556 | 4868 | AQ40181 |
+| Euclid | EH700 | 4472 | 4795 | AQ40131 | 4566 | 4884 | AQ40193 |
+| Flowtronex | Water Pump | 4467 | 4697 | AQ40077 | 4510 | 4892 | AQ40206 |
+| Foremost | DR40 | 4466 | 4792 | AQ40124 | 4556 | 4857 | AQ40175 |
+| Foremost | DR24 HD | 4466 | 4819 | AQ40154 | 4556 | 4865 | AQ40178 |
+| Foremost | DR24 | 4501 | 4794 | AQ40129 | 4565 | 4879 | AQ40188 |
+| General Equip | NA | 4466 | 4659 | AQ40059 | 4556 | 4855 | AQ40173 |
+| Harsco Track | Rail Grinder | 4467 | 4678 | AQ40068 | 4510 | 4870 | AQ40183 |
+| Hokuriku | Hydraulic Loco | 4466 | 4848 | AQ40177 | 4556 | 4864 | AQ40198 |
+| Hydra Rig | Well Pump | 4463 | 4759 | AQ40113 | 4551 | 4902 | AQ40212 |
+| John Deere | SPFH7900 | 4515 | 4738 | AQ40101 | 4555 | 4812 | AQ40150 |
+| Kawasaki | 115ZA | 4498 | 4688 | AQ40071 | 4556 | 4797 | AQ40138 |
+| Lamb Service | Hydraulic Pump | 4463 | 4725 | AQ40110 | 4551 | 4901 | AQ40211 |
+| Lampson | Transport lift | 4464 | 4802 | AQ40141 | 4511 | 4907 | AQ40217 |
+| Leibherr | R984C | 4467 | 4651 | AQ40052 | 4510 | 4731 | AQ40088 |
+| Leitner Poma | Ski Lift | 4466 | 4724 | AQ40100 | 4556 | 4867 | AQ40180 |
+| Leitner Poma | Ski Lift | 4466 | 4740 | AQ40096 | 4556 | 4869 | AQ40182 |
+| Luigong | Wheel Loader | 4472 | 4708 | AQ40085 | 4566 | 4841 | AQ40167 |
+| Manitowoc | Crane | 4501 | 4783 | AQ40121 | 4565 | 4882 | AQ40191 |
+| Marine | Auxiliary | 4459 | 4629 | Aq40073 | 4528 | 4766 | AQ40117 |
+| Marine | Propulsion | 4462 | 4636 | AQ40043 | 4530 | 4769 | AQ40132 |
+| Marine | Propulsion | 4442 | 4593 | AQ40017 | 4531 | 4770 | AQ40126 |
+| Marine | Propulsion | 4489 | 4681 | Aq40064 | 4532 | 4771 | AQ40127 |
+| Marine | Propulsion | 4488 | 4680 | AQ40063 | 4533 | 4772 | AQ40133 |
+| Marine | Propulsion | 4450 | 4608 | AQ40024 | 4534 | 4773 | AQ40134 |
+| Marine | Propulsion | 4432 | 4545 | AQ40010 | 4535 | 4774 | AQ40135 |
+| Morbark | Tub Grinder | 4468 | 4722 | Aq40098 | 4564 | 4866 | AQ40179 |
+| Motion Industries | NA | 4463 | 4947 | AQ40238 | 4551 | 4948 | AQ40238 |
+| Motive Power | Locomotive | 4468 | 4695 | AQ40075 | 4564 | 4891 | AQ40308 |
+| Multi Power | Siesmic Drill | 4467 | 4756 | AQ40112 | 4510 | 4895 | AQ40219 |
+| Novamac | Drill | 4466 | 4843 | AQ40161 | 4556 | 4897 | AQ40220 |
+| NREC | Locomotive | 4468 | 4658 | AQ40058 | 4564 | 4833 | AQ40169 |
+| Powermatch | Generic | 4465 | 4702 | AQ40082 | 4549 | 4808 | AQ40146 |
+| Powermatch | Generic | 4501 | 4692 | AQ40072 | 4565 | 4834 | AQ40163 |
+| Rolligon | Twin Pumper | 4463 | 4645 | AQ40046 | 4551 | 4798 | AQ40139 |
+| Rolligon | Combo Frac | 4463 | 4660 | AQ40065 | 4551 | 4806 | AQ40144 |
+| Romco | Haul Truck | 4472 | 4719 | AQ40093 | 4566 | 4909 | AQ40222 |
+| Sandvik | D75 Drill | 4468 | 4705 | Aq40083 | 4564 | 4849 | AQ40172 |
+| Schlumberger | Frac Rig | 4463 | 4780 | AQ40120 | 4551 | 4872 | AQ40195 |
+| Shantui | Dozer | 4547 | 4793 | AQ40128 | 4553 | 4800 | AQ10140 |
+| Soilmec | P 560 Drill | 4464 | 4765 | AQ40115 | 4511 | 4904 | AQ40214 |
+| Soilmec | SC100 Drill | 4464 | 4791 | AQ40123 | 4511 | 4906 | AQ40216 |
+| Southern Industries | Mud Pump | 4465 | 4710 | AQ40086 | 4549 | 4807 | AQ40145 |
+| Southern Industries | Draw Works | 4464 | 4641 | AQ40048 | 4549 | 4875 | AQ40184 |
+| Surefire | N2 Pump | 4463 | 4949 | AQ40242 | 4551 | 4950 | AQ40239 |
+| Taylor Brothers | Crane | 4501 | 4631 | AQ40130 | 4565 | 4908 | AQ40221 |
+| Terex | RH120E | 4467 | 4652 | AQ40053 | 4510 | 4733 | AQ40090 |
+| Terex | TR60 | 4466 | 4655 | AQ40056 | 4556 | 4815 | AQ40152 |
+| Terex | TR45 | 4472 | 4665 | AQ40062 | 4566 | 4835 | AQ40164 |
+| Terex | 3-90 | 4472 | 4663 | AQ40061 | 4566 | 4840 | AQ40166 |
+| Texas Recycling | Concrete Recycler | 4472 | 4737 | AQ40109 | 4566 | 4910 | AQ40223 |
+| Toro | T60 | 4465 | 4642 | AQ40050 | 4549 | 4809 | AQ40147 |
+| Trican Well Services | Nitrogen Pump | 4463 | 4701 | AQ40081 | 4551 | 4874 | AQ40196 |
+| Trican Well Services | Fluid Pumper | 4463 | 4970 | AQ40255 | 4551 | 4971 | AQ40253 |
+| Truflo | Water Pump | 4464 | 4764 | AQ40114 | 4511 | 4903 | AQ40213 |
+| Truflo | Water Pump | 4464 | 4930 | AQ40236 | 4556 | 4932 | AQ40234 |
+| Vandel | Landfill Compactor | 4501 | 4720 | AQ40094 | 4565 | 4881 | AQ40190 |
+| Xian | DR130 | 4464 | 4887 | AQ40201 | 4511 | 4888 | AQ40202 |
+| Xugong | GM600 Wheel Loader | 4472 | 4885 | AQ40199 | 4566 | 4886 | AQ40200 |
+| Xugong | GM600 Dump Truck | 4472 | 4775 | AQ40119 | 4566 | 4911 | AQ40224 |
+| Power Generation | G-Drive | 4516 | 4755 | Obsolete | 4580 | 4858 | AQ40276 |
+| 4516 | 4756 | Obsolete | 4580 | 4858 | AQ40276 |  |  |
+| 4517 | 4757 | Obsolete | 4581 | 4859 | AQ40265 |  |  |
+| 4517 | 4758 | Obsolete | 4581 | 4859 | AQ40265 |  |  |
+
+| QSK38 |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | Parent ECM Code | FR Option | DO Option | Parent ECM Code |  |  |
+| Bucyrus | RH200 | 6630 | 6586 | AQ60111 | 6735 | 60063 | AQ60339 |
+| Bucyrus | RH200 | 6630 | 6585 | AQ60110 | 6735 | 60064 | AQ60340 |
+| D.C. Otto | Water Pump | 6630 | 6776 | AQ60216 | 6735 | 60105 | AQ60351 |
+| Hitachi | EX1900 | 6628 | 6525 | AQ60083 | 6780 | 6851 | AQ60269 |
+| Komatsu | PC3000 | 6630 | 6530 | AQ60094 | 6735 | 6766 | AQ60215 |
+| Komatsu | PC3000 w/Centinel | 6630 | 6613 | AQ60116 | 6735 | 6996 | AQ60319 |
+| LeTourneau | L1150 | 6694 | 6670 | AQ60165 | 6779 | 6850 | AQ60268 |
+| Marine | Auxiliary | 6579 | 6457 | AQ60082 | 6757 | 6811 | AQ60306 |
+| Marine | Auxiliary | 6637 | 6541 | AQ60106 | 6758 | 6812 | AQ60307 |
+| Marine | Propulsion | 6592 | 6469 | AQ60041 | 6747 | 6795 | AQ60231 |
+| Marine | Propulsion | 6668 | 6615 | AQ60122 | 6778 | 6808 | AQ60263 |
+| Marine | Propulsion | 6558 | 6360 | AQ60028 | 6755 | 6809 | AQ60264 |
+| Marine | Propulsion | 6591 | 6468 | AQ60042 | 6756 | 6810 | AQ60265 |
+
+| QSK50 |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | Parent ECM Code | FR Option | DO Option | Parent ECM Code |  |  |
+| Bayou Well Services | Hyd. Frac Pump | 6709 | 60247 | AQ60452 | 6888 | 60236 | AQ60445 |
+| BJ Services Canada | Frac Rig | 6717 | 60172 | AQ60411 | 6890 | 60173 | AQ60410 |
+| BJ Services Canada/Propell | Frac Rig | 6709 | 6937 | AQ60259 | 6888 | 60104 | AQ60381 |
+| BJ Services Canada/Propell | Frac Rig | 6717 | 60016 | AQ60323 | 6890 | 60097 | AQ60364 |
+| Cisco High Lift | Frac Rig | 6717 | 6726 | AQ60181 | 6890 | 60129 | AQ60388 |
+| Cisco High Lift | Frac Rig | 6709 | 6753 | AQ60200 | 6888 | 60120 | AQ60375 |
+| Collier Well | Frac Pumper | 6710 | 60194 | AQ60432 | 6889 | 60195 | AQ60416 |
+| CS&P | Frac Rig | 6709 | 6768 | AQ60209 | 688 | 60121 | AQ60376 |
+| CS&P | Frac Rig | 6709 | 60382 | AQ60461 | 6888 | 60383 | AQ60476 |
+| CS&P | Frac Rig | 6717 | 60376 | AQ60460 | 6890 | 60377 | AQ60475 |
+| CS&P | Frac Rig | 6717 | 60374 | AQ60457 | 6890 | 60375 | AQ60456 |
+| Dragon | Frac Rig | 6710 | 6737 | AQ60194 | 6889 | 60123 | AQ60367 |
+| Dragon | Frac Rig | 6717 | 6727 | AQ60182 | 6890 | 60012 | AQ60361 |
+| Enerflow | Frac Rig | 6717 | 6847 | AQ60243 | 6890 | 60131 | AQ60390 |
+| Enerflow | Frac Rig | 6717 | 60113 | AQ60406 | 6890 | 60135 | AQ60402 |
+| Enerflow | Frac Rig | 6710 | 6711 | AQ60191 | 6889 | 60011 | AQ60360 |
+| Halliburton | Frac Rig | 6709 | 6734 | AQ60192 | 6888 | 60013 | AQ60362 |
+| Hitachi | EH3500 | 6612 | 6508 | AQ60069 | 6734 | 6976 | AQ60296 |
+| Hitachi | EX2600/5600 | 6742 | 6789 | AQ60219 | 6790 | 6866 | AQ30288 |
+| Hitachi | EX2500/5500 | 6615 | 6511 | AQ60068 | 6795 | 6871 | AQ60289 |
+| IDMS | Frac Rig | 6709 | 60106 | AQ60394 | 6888 | 60132 | AQ60395 |
+| IDMS | Frac Rig | 6717 | 60231 | AQ60449 | 6890 | 60213 | AQ60440 |
+| IDMS | Frac Rig | 6717 | 60001 | AQ60311 | 6890 | 60133 | AQ60391 |
+| Komatsu | 730E w/Centinel | 6612 | 6510 | AQ60071 | 6734 | 6928 | AQ60252 |
+| Komatsu | 730E | 6612 | 6509 | AQ60070 | 6734 | 6765 | AQ60217 |
+| Komatsu | HD1500-7 | 6609 | 6491 | AQ60056 | 6736 | 6767 | AQ60220 |
+| Letourneau | L1350 | 6625 | 6524 | AQ60090 | 6782 | 6853 | AQ60287 |
+| Liebherr | R9400 | 6660 | 6793 | AQ60223 | 6794 | 6870 | AQ60421 |
+| LKAB-STT | Locomotive | 6689 | 6540 | AQ60115 | 6859 | 6980 | AQ60297 |
+| Marine | Auxiliary | 6638 | 6542 | AQ60107 | 6762 | 6816 | AQ60290 |
+| Marine | Auxiliary | 6580 | 6458 | AQ60038 | 6763 | 6817 | AQ60291 |
+| Marine | Propulsion | 6594 | 6474 | AQ60047 | 6749 | 6797 | AQ60232 |
+| Marine | Propulsion | 6593 | 6473 | AQ60046 | 6761 | 6815 | AQ60273 |
+| Marine | Propulsion | 6669 | 6616 | AQ60123 | 6759 | 6813 | AQ60271 |
+| Marine | Propulsion | 6575 | 6363 | AQ60029 | 6760 | 6814 | AQ60272 |
+| NREC | Locomotive | 6635 | 6539 | AQ60114 | 6861 | 60215 | AQ60444 |
+| Orteq | Hyd. Frac Pump | 6717 | 60196 | AQ60447 | 6890 | 60197 | AQ60442 |
+| Ortowski | Frac Rig | 6710 | 6964 | AQ60280 | 6889 | 60191 | AQ60441 |
+| Ortowski | Frac Rig | 6710 | 6752 | AQ60199 | 6889 | 60126 | AQ60370 |
+| Petrol SJ | Frac Pump | 6717 | 60201 | AQ60448 | 6890 | 60205 | AQ60443 |
+| Propell Oil | Frac Rig | 6709 | 60056 | AQ60336 | 6888 | 60100 | AQ60378 |
+| Propell Oil | Frac Rig | 6717 | 60014 | AQ60321 | 6890 | 60096 | AQ60363 |
+| Propell Oil | Frac Rig | 6717 | 6744 | AQ60195 | 6890 | 60130 | AQ60389 |
+| Rolligon | Frac Rig | 6709 | 6751 | AQ60198 | 6888 | 60119 | AQ60374 |
+| Rolligon | Frac Rig | 6709 | 6935 | AQ60258 | 6888 | 60103 | AQ60386 |
+| Rolligon NOV | Frac Rig | 6709 | 60153 | AQ60403 | 6888 | 60154 | AQ60377 |
+| Rolligon NOV | Frac Rig | 6709 | 6874 | AQ60248 | 6888 | 60122 | AQ60377 |
+| Sanjel | Frac Rig | 6717 | 60156 | AQ60407 | 6890 | 60157 | AQ60397 |
+| Schlumberger | Frac Rig | 6709 | 6735 | AQ60193 | 6888 | 60101 | AQ60379 |
+| Surefire | Frac Rig | 6709 | 60117 | AQ60372 | 6888 | 60118 | AQ60373 |
+| Total Equipment | Frac Rig | 6709 | 60015 | AQ60322 | 6888 | 60099 | AQ60366 |
+| Trican | Frac Rig | 6710 | 6750 | AQ60197 | 6889 | 60125 | AQ60369 |
+| Trican Custom Welding | Frac Rig | 6717 | 6876 | AQ60249 | 6890 | 60128 | AQ60387 |
+| Trican/Tycrop | Frac Rig | 6710 | 6770 | AQ60211 | 6889 | 60127 | AQ60371 |
+| United Equip | Frac Rig | 6709 | 6855 | AQ60262 | 6888 | 60102 | AQ60380 |
+| Universal | Frac Rig | 6717 | 60085 | AQ60346 | 6890 | 60098 | AQ60365 |
+| Well Bank | Frac Rig | 6710 | 6749 | AQ60196 | 6889 | 60124 | AQ60368 |
+| Wirtgen | Plainer | 6609 | 6805 | AQ60222 | 6736 | 60081 | AQ60338 |
+
+| QSK50 G-Drive |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | Parent ECM Code | FR Option | DO Option | Parent ECM Code |  |  |
+| Power Generation | G-Drive | 6667 | 6608 | AQ60151 | 6832 | 6938 | AQ60353 |
+| 6667 | 6609 | AQ60152 | 6832 | 6938 | AQ60353 |  |  |
+| 6621 | 6532 | AQ60102 | 6833 | 6940 | AQ60354 |  |  |
+| 6661 | 6611 | AQ60119 | 6834 | 6941 | AQ60355 |  |  |
+| 6643 | 6555 | AQ60137 | 6838 | 6948 | AQ60382 |  |  |
+| 6643 | 6556 | AQ60138 | 6838 | 6948 | AQ60382 |  |  |
+| 6726 | 6746 | AQ60205 | 6878 | 6998 | AQ60384 |  |  |
+| 6726 | 6747 | AQ60206 | 6878 | 6998 | AQ60384 |  |  |
+| 6726 | 60234 | AQ60473 | 6878 | 6998 | AQ60384 |  |  |
+| 6655 | 6596 | AQ60141 | 6840 | 6952 | AQ60383 |  |  |
+| 6655 | 6597 | AQ60142 | 6840 | 6952 | AQ60383 |  |  |
+| 6654 | 6593 | AQ60139 | 6879 | 6999 | AQ60385 |  |  |
+| 6654 | 6594 | AQ60140 | 6879 | 6999 | AQ60385 |  |  |
+| 6641 | 6549 | AQ60143 | 6835 | 6942 | AQ60356 |  |  |
+| 6641 | 6550 | AQ60144 | 6835 | 6942 | AQ60356 |  |  |
+| 6642 | 6552 | AQ60145 | 6836 | 6944 | AQ60357 |  |  |
+| 6642 | 6553 | AQ60146 | 6836 | 6944 | AQ60357 |  |  |
+| 6653 | 6645 | AQ60153 | 6837 | 6946 | AQ60358 |  |  |
+| 6653 | 6646 | AQ60154 | 6837 | 6946 | AQ60358 |  |  |
+| 6606 | 6528 | AQ60074 | 6878 | 6998 | AQ60384 |  |  |
+| 6606 | 6548 | AQ60100 | 6878 | 6998 | AQ60384 |  |  |
+| 6606 | 6547 | AQ60103 | 6878 | 6998 | AQ60384 |  |  |
+| 6730 | 6760 | AQ60228 | 6839 | 6951 | AQ60298 |  |  |
+| 6731 | 6762 | AQ60229 | 6841 | 6955 | AQ60299 |  |  |
+
+| QSK60 |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | Parent ECM Code | FR Option | DO Option | Parent ECM Code |  |  |
+| Bucyrus | Excavator | 6619 | 6827 | AQ60230 | 6781 | 6997 | AQ60318 |
+| Hitachi | EH4000 | 6629 | 6526 | AQ60097 | 6746 | 6975 | AQ60295 |
+| Hitachi | EX3600/8000 | 6614 | 6521 | AQ60088 | 6796 | 6872 | AQ60303 |
+| Komatsu | PC8000 | 6613 | 6520 | AQ60084 | 6792 | 6989 | AQ60304 |
+| Komatsu | 830E AC | 6618 | 6501 | AQ60067 | 6733 | 6764 | AQ60218 |
+| Komatsu | 830E AC | 6629 | 6849 | AQ60246 | 6746 | 6929 | AQ60253 |
+| Komatsu | 860E | 6617 | 6513 | AQ60075 | 6751 | 60003 | AQ60312 |
+| Komatsu | 860E | 6617 | 6799 | AQ60225 | 6751 | 6803 | AQ60236 |
+| Komatsu | 930E | 6617 | 6512 | AQ60077 | 6751 | 6804 | AQ60237 |
+| Komatsu | 930E | 6724 | 6774 | AQ60240 | 6791 | 6867 | AQ60337 |
+| Komatsu | PC4000 | 6634 | 6535 | AQ60099 | 6793 | 6869 | AQ60305 |
+| Letourneau | L1850 | 6613 | 6518 | AQ60089 | 6792 | 60002 | AQ60314 |
+| Letourneau | L1850 | 6613 | 6844 | AQ60242 | 6792 | 60006 | AQ60316 |
+| Liebherr | PR986 | 6613 | 6519 | AQ60087 | 6792 | 6868 | AQ60302 |
+| Marine | Auxiliary | 6652 | 6572 | AQ60156 | 6772 | 6826 | AQ60257 |
+| Marine | Auxiliary | 6595 | 6573 | AQ60157 | 6771 | 6825 | AQ60256 |
+| Marine | Propulsion | 6651 | 6571 | AQ60109 | 6767 | 6821 | AQ60276 |
+| Marine | Propulsion | 6650 | 6570 | AQ60108 | 6769 | 6823 | AQ60278 |
+| Marine | Propulsion | 6596 | 6499 | AQ60058 | 6770 | 6824 | AQ60279 |
+| Marine | Propulsion | 6663 | 6599 | AQ60120 | 6766 | 6820 | AQ60275 |
+| Marine | Propulsion | 6664 | 6600 | AQ60121 | 6765 | 6819 | AQ60274 |
+| Marine | Offshore Drilling | 6720 | 6730 | AQ60180 | 6737 | 6772 | AQ60233 |
+| Terex | RH400 | 6619 | 6544 | AQ60095 | 6781 | 6852 | AQ60317 |
+
+| QSK60 G-Drive |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| Customer | Application | CM850 (C2) | CM2150 (C3) |  |  |  |  |
+| FR Option | DO Option | Parent ECM Code | FR Option | DO Option | Parent ECM Code |  |  |
+| Power Generation | G-Drive | 6671 | 6617 | AQ60155 | 6807 | 6900 | AQ60427 |
+| 6671 | 6641 | AQ60164 | 6807 | 6900 | AQ60427 |  |  |
+| 6671 | 6748 | AQ60207 | 6807 | 6900 | AQ60427 |  |  |
+| 6644 | 6558 | AQ60124 | 6808 | 6902 | AQ60485 |  |  |
+| 6644 | 6559 | AQ60125 | 6808 | 6902 | AQ60485 |  |  |
+| 6682 | 6637 | AQ60158 | 6809 | 6904 | AQ60513 |  |  |
+| 6682 | 6638 | AQ60159 | 6809 | 6904 | AQ60513 |  |  |
+| 6683 | 6639 | AQ60160 | 6810 | 6906 | AQ60514 |  |  |
+| 6683 | 6640 | AQ60161 | 6810 | 6906 | AQ60514 |  |  |
+| 6665 | 6602 | AQ60128 | 6811 | 6908 | AQ60486 |  |  |
+| 6665 | 6603 | AQ60129 | 6811 | 6908 | AQ60486 |  |  |
+| 6665 | 6842 | AQ60241 | 6811 | 6908 | AQ60486 |  |  |
+| 6666 | 6605 | AQ60130 | 6812 | 6910 | AQ60487 |  |  |
+| 6666 | 6606 | AQ60131 | 6812 | 6910 | AQ60487 |  |  |
+| 6646 | 6564 | AQ60147 | 6813 | 6912 | AQ60515 |  |  |
+| 6646 | 6565 | AQ60148 | 6813 | 6912 | AQ60515 |  |  |
+| 6647 | 6567 | AQ60149 | 6814 | 6914 | AQ60516 |  |  |
+| 6647 | 6568 | AQ60150 | 6814 | 6914 | AQ60516 |  |  |
+| 6670 | 6619 | AQ60132 | 6815 | 6916 | AQ60488 |  |  |
+| 6670 | 6620 | AQ60133 | 6815 | 6916 | AQ60488 |  |  |
+| 6645 | 6561 | AQ60126 | 6816 | 6918 | AQ60324 |  |  |
+| 6645 | 6562 | AQ60127 | 6816 | 6918 | AQ60324 |  |  |
+| 6845 | 6991 | AQ60308 | 6880 | 6921 | AQ60428 |  |  |
+| 6671 | 6748 | AQ60207 | 4580 | 4858 | AQ40276 |  |  |
+| 6962 | 60182 | AQ60418 | 4581 | 4859 | AQ40265 |  |  |
+| 6963 | 60183 | AQ60419 | 4581 | 4859 | AQ40265 |  |  |
+| 6602 | 6529 | AQ60073 | 6807 | 6900 | AQ60427 |  |  |
+
+Use the Engine CPL Cross-Reference Table below to find the appropriate engine CPL:
+
+| Engine CPL Cross-Reference Table |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|
+| Engine Model | C1 CPL | C2 CPL | C3 CPL | C1 Injector | C2 Injector | C3 Injector |
+| QSK19 Tier III | 8533 | 2754 | 3240 | 4928106 | 4964170 | [[2867149]] |
+| 8605 | 2755 | 3798 |  |  |  |  |
+| 1470 | 2757 | 3666 |  |  |  |  |
+| QSK19 Tier II | 563 | 2756 | 3242 | 4928053 | 4964171 | [[2867147]] |
+| 8744 | 2768 | 3455 |  |  |  |  |
+|  | 2882 | 3437 |  |  |  |  |
+| 1485 | 3232 | 3716 |  |  |  |  |
+| QSK38 and QSK50 |  | 0847 | 3327 | 4928104 | 4964172 | [[2867147]] |
+|  | 1158 | 3328 |  |  |  |  |
+|  | 2088 | 3464 |  |  |  |  |
+|  | 2089 | 3465 |  |  |  |  |
+| 1466 | 2758 | 3380 |  |  |  |  |
+| 1925 | 2759 | 3380 |  |  |  |  |
+| 8524 | 2760 | 3379 |  |  |  |  |
+| 8624 | 2761 | 3548 |  |  |  |  |
+| 1764 | 2762 | 3391 |  |  |  |  |
+| 1492 | 2771 | 3621 |  |  |  |  |
+| 2767 | 2959 | 3976 |  |  |  |  |
+|  | 3080 | 3669 |  |  |  |  |
+|  | 3170 | 3465 |  |  |  |  |
+|  | 3300 | 3728 |  |  |  |  |
+|  | 3329 | 3728 |  |  |  |  |
+|  | 3377 | 3621 |  |  |  |  |
+| QSK60 |  | 2703 | 3478 | 4928105 | 4964173 | [[2867148]] |
+|  | 2704 | 3476 |  |  |  |  |
+| 8593 | 2763 | 3416 |  |  |  |  |
+| 1663 | 2764 | 3501 |  |  |  |  |
+| 1773 | 2766 | 3451 |  |  |  |  |
+| 0930 | 2769 | 3578 |  |  |  |  |
+| 8595 | 2770 | 3850 |  |  |  |  |
+| 0931 | 2773 | NONE |  |  |  |  |
+| 2726 | 2794 | 3378 |  |  |  |  |
+|  | 3166 | 3477 |  |  |  |  |
+
+> [!note] Note · Примечание
+> If your CPL is **not** listed, please submit a QuickServe® Online ticket. This list does **not** include some C3 CPLs which are new and have no relation to older CPLs.
+
+### Document History
+
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[2867147]] | INJECTOR | Форсунка |
+| [[2867148]] | INJECTOR | Форсунка |
+| [[2867149]] | Injector | Форсунка |

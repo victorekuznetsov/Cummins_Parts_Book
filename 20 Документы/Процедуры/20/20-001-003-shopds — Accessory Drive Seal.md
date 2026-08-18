@@ -1,0 +1,54 @@
+---
+aliases:
+  - "Сальник привода вспомогательного оборудования"
+type: "Процедура"
+doc: "20-001-003-shopds"
+title_en: "Accessory Drive Seal"
+title_ru: "Сальник привода вспомогательного оборудования"
+modified: "2023-07-11"
+engines:
+  - "41349633"
+families:
+  - "QSK19"
+manuals:
+  - "4021592"
+figures: 3
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-shopds.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-shopds.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSK19"
+  - "группа/20"
+---
+
+# Accessory Drive Seal
+**Сальник привода вспомогательного оборудования**
+
+> [!abstract] Процедура · `20-001-003-shopds`
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** QSK19
+> **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
+> **Секции:** Section DS - Engine Disassembly - Group 00
+> **Даты:** изменён 2023-07-11
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-shopds.pdf)
+
+### Remove
+
+Remove the six button head hex socket capscrews.
+
+![[01400023.png]]
+
+Use three \[1/4-20 x 1 in\] capscrews to remove the seal from the accessory drive shaft.
+
+Install the three capscrews in the clinch nuts in the seal case.
+
+Tighten the capscrews alternately and evenly to remove the seal.
+
+![[01400024.png]]
+
+Remove the o-ring from the groove in the gear cover.
+
+> [!note] Note · Примечание
+> The crankshaft pulley and damper have been removed for clarity.
+
+![[01400025.png]]

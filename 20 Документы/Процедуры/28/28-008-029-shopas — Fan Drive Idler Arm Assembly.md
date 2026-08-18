@@ -1,0 +1,57 @@
+---
+aliases:
+  - "Рычаг натяжного ролика привода вентилятора в сборе"
+type: "Процедура"
+doc: "28-008-029-shopas"
+title_en: "Fan Drive Idler Arm Assembly"
+title_ru: "Рычаг натяжного ролика привода вентилятора в сборе"
+modified: "2015-05-07"
+engines:
+  - "41349633"
+families:
+  - "QSK19"
+manuals:
+  - "4021592"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-029-shopas.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-029-shopas.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSK19"
+  - "группа/28"
+---
+
+# Fan Drive Idler Arm Assembly
+**Рычаг натяжного ролика привода вентилятора в сборе**
+
+> [!abstract] Процедура · `28-008-029-shopas`
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** QSK19
+> **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
+> **Секции:** Section AS - Engine Assembly - Group 00
+> **Даты:** изменён 2015-05-07
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-029-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-029-shopas.pdf)
+
+### Install
+
+> [!note] Note · Примечание
+> **Not** all engines are equipped with this option.
+
+> [!note] Note · Примечание
+> If the engine has two vibration dampers, a longer idler arm than shown is required.
+
+> [!note] Note · Примечание
+> If the engine has a fan hub with 457 mm \[18 in\] center (low mount fan), an adapter plate is required between the idler arm and the front gear cover.
+
+> [!note] Note · Примечание
+> Check to be sure the spring on the idler arm is **not** under tension. This will aid the future installation of the fan hub.
+
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+
+Install the fan belt idler assembly, the three lock washers, and capscrews.
+
+> [!tip] Момент затяжки · Torque Value
+> 60 n•m [45 ft-lb]
+
+![[fa6idha.png]]

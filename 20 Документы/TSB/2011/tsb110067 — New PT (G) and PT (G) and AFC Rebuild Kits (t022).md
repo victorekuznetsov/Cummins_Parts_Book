@@ -1,0 +1,129 @@
+---
+aliases:
+  - "Новые ремкомплекты PT (G) и PT (G) с AFC (t022)"
+type: "TSB"
+doc: "tsb110067"
+title_en: "New PT (G) and PT (G) and AFC Rebuild Kits (t022)"
+title_ru: "Новые ремкомплекты PT (G) и PT (G) с AFC (t022)"
+released: "2011-03-08"
+modified: "2011-03-08"
+group: "05 - Fuel Systems (Pumps)"
+engines:
+  - "41343322"
+  - "41349633"
+families:
+  - "NT/NTA855 · ISM/QSM11"
+  - "QSK19"
+parts:
+  - "3000446"
+  - "3010242"
+  - "3013811"
+  - "3027633"
+  - "3030970"
+  - "3033740"
+  - "3040817"
+  - "3046200"
+  - "3048557"
+  - "3803780"
+figures: 1
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110067.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110067.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/NT/NTA855"
+  - "двигатель/QSK19"
+  - "год/2011"
+  - "тема/fuel-systems-pumps"
+---
+
+# New PT (G) and PT (G) and AFC Rebuild Kits (t022)
+**Новые ремкомплекты PT (G) и PT (G) с AFC (t022)**
+
+> [!abstract] TSB · `tsb110067`
+> **Раздел Cummins:** 05 - Fuel Systems (Pumps)
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** NT/NTA855 · ISM/QSM11, QSK19
+> **Даты:** выпущен 2011-03-08 · изменён 2011-03-08
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110067.pdf)
+
+## New PT (G) and PT (G) and AFC Rebuild Kits (t022)
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+
+The purpose of this document is to introduce two new kits to the field to assist in the rebuilding of both PT (G) and PT (G) and AFC fuel pumps. The addition of these kits will reduce the proliferation of part numbers that presently need to be stocked and will encourage appropriate replacement of key parts since they will be included in the kit. These kits will be available from the Parts Distribution Center (PDC).
+
+Details of the contents of each kit are lined out in the tables below, Table 1 contains the parts for the PT(G)/AFC rebuild kit Part No. [[3803780]], Table 2 contains the parts for the PT(G) rebuild kit Part No. 3803781.
+
+Page 3 illustrates the kit's parts locations.
+
+| Table 1. PTG/AFC Repair Kit - Part No. [[3803780]] |  |  |  |
+|---|---|---|---|
+| Ref. No. | Part No. | Description | Qty Req |
+| 99 | S16052 | Ball Bearing | 1 |
+| 168 | S2286 | Drive Screw | 4 |
+| 58 | 70690 | Fuel Control Plunger Driver | 1 |
+| 73 | 146483 | Screen Filter | 1 |
+| 100 | 212601 | Main Drive Shaft | 1 |
+| 112 | 212607 | Tachometer Drive Shaft | 1 |
+| 113 | 212609 | Tachometer Shaft Bushing | 1 |
+| 107 | 212668 | Square Key | 1 |
+| 68 | 213769 | Ball Plug | 1 |
+| 69 | [[3000446]] | Throttle Shaft Cover | 1 |
+| N/I\* | [[3010242]] | Fuel Pump Gasket Kit | 1 |
+| 134 | [[3013811]] | AFC Diaphragm | 1 |
+| 61 | [[3027633]] | Thrust Bearing | 1 |
+| 12 | [[3030970]] | Shutoff Valve Disc | 1 |
+| 45 | [[3033740]] | Check Valve Elbow | 1 |
+| 160 | [[3040817]] | O-Ring Seal | 1 |
+| N/I\* | [[3046200]] | Jaw Coupling Spider | 1 |
+| 60 | [[3048557]] | Governor Plunger Spacer | 1 |
+| \* Not Illustrated |  |  |  |
+
+| Table 2. PTG Repair Kit-Part No. 3803781 |  |  |  |
+|---|---|---|---|
+| Ref. No. | Part No. | Description | Qty Req |
+| N/I\* | BM68356 | Fuel Pump Gasket Set | 1 |
+| 99 | S1650 | Ball Bearing | 1 |
+| 168 | S2286 | Drive Screw | 4 |
+| 107 | 68174 | Rectangualar Key | 1 |
+| 58 | 70690 | Fuel Control Plunger Driver | 1 |
+| 113 | 70723 | Tachometer Drive Bushing | 1 |
+| 100 | 100192 | Main Drive Shaft | 1 |
+| 112 | 104087 | Tachometer Drive Shaft | 1 |
+| 73 | 146483 | Screen Filter | 1 |
+| 69 | 148977 | Throttle Shaft Cover | 1 |
+| 68 | 213769 | Ball Plug | 1 |
+| 45 | 3027507 | Check Valve Elbow | 1 |
+| 61 | [[3027633]] | Thrust Bearing | 1 |
+| 12 | [[3030970]] | Shutoff Valve Disc | 1 |
+| 160 | [[3040817]] | O-Ring Seal | 1 |
+| N/I\* | [[3046200]] | Jaw Coupling Spider | 1 |
+| 60 | [[3048557]] | Governor Plunger Spacer | 1 |
+| \* Not Illustrated |  |  |  |
+
+![[t022.png]]
+
+PT (TYPE G) AFC FUEL PUMP PARTS
+
+### Document History
+
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3000446]] | Fuel Control Cover | Крышка узла управления подачей топлива |
+| [[3010242]] | Fuel Pump Gasket Set | Комплект прокладок топливного насоса |
+| [[3013811]] | DIAPHRAGM | Мембрана |
+| [[3027633]] | THRUST BEARING | Упорный подшипник |
+| [[3030970]] | Valve Disc | Тарелка клапана |
+| [[3033740]] | CHECK VALVE | Обратный клапан |
+| [[3040817]] | O RING SEAL | Уплотнительное кольцо |
+| [[3046200]] | JAW COUPLING SPIDER | Упругий элемент кулачковой муфты |
+| [[3048557]] | BEARING SPACER | Распорная втулка подшипника |
+| [[3803780]] | Fuel Pump Repair Kit | Ремкомплект топливного насоса |

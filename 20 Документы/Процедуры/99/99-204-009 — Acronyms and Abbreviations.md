@@ -1,0 +1,157 @@
+---
+aliases:
+  - "Сокращения и обозначения"
+type: "Процедура"
+doc: "99-204-009"
+title_en: "Acronyms and Abbreviations"
+title_ru: "Сокращения и обозначения"
+modified: "2020-04-15"
+engines:
+  - "33239746"
+  - "33239899"
+  - "37292556"
+  - "37295879"
+  - "41343322"
+  - "41349633"
+  - "93058669"
+families:
+  - "C8.3 · 6C8.3"
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "NT/NTA855 · ISM/QSM11"
+  - "QSK19"
+  - "QST30"
+manuals:
+  - "2883407"
+  - "3381968"
+  - "3666003"
+  - "3666120"
+  - "3666121"
+  - "3666134"
+  - "3666184"
+  - "3666214"
+  - "3666231"
+  - "3666266"
+  - "3667180"
+  - "3810497"
+  - "4021330"
+  - "4021419"
+  - "4021442"
+  - "4021539"
+  - "4021587"
+  - "4021589"
+  - "4021592"
+  - "4021617"
+  - "4021618"
+  - "4021631"
+  - "4021674"
+  - "4915514"
+  - "4915520"
+  - "4915544"
+  - "4915548"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-009.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-009.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/C8.3"
+  - "двигатель/K38/K50"
+  - "двигатель/NT/NTA855"
+  - "двигатель/QSK19"
+  - "двигатель/QST30"
+  - "группа/99"
+---
+
+# Acronyms and Abbreviations
+**Сокращения и обозначения**
+
+> [!abstract] Процедура · `99-204-009`
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11, QSK19, QST30
+> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[3666003 — C Troubleshooting and Repair Manual|3666003]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666121 — Holset® Air Compressors Master Repair Manual|3666121]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]], [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]], [[3666231 — Centinel™ Master Repair Manual|3666231]], [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]], [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]], [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]], [[4021539 — QST30 Service Manual|4021539]], [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]], [[4021589 — Marine C Command Panel System Owners Manual|4021589]], [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]], [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]], [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual|4021618]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]], [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]], [[4915520 — QST30 Owners Manual|4915520]], [[4915544 — C8.3 Automotive, Recreational Vehicle, and Bus Owners Manual|4915544]], [[4915548 — C8.3 Commercial Marine and Industrial Owners Manual|4915548]]
+> **Секции:** Section i - Introduction · Section i - Introduction 204 · Section i — Introduction
+> **Даты:** изменён 2020-04-15
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-009.pdf)
+
+### General Information
+
+The following list contains some of the acronyms and abbreviations used in this manual.
+
+| **ANSI** | American National Standards Institute |
+|---|---|
+| **API** | American Petroleum Institute |
+| **ASTM** | American Society of Testing and Materials |
+| **ATDC** | After Top Dead Center |
+| **bhp** | Brake Horsepower |
+| **BTU** | British Thermal Unit |
+| **BTDC** | Before Top Dead Center |
+| **°C** | Celsius |
+| **CAN** | Controller Area Network |
+| **CARB** | California Air Resources Board |
+| **CCA** | Cold Cranking Amperes |
+| **CCV** | Closed Crankcase Ventilation |
+| **CES** | Cummins Engineering Standard |
+| **CIB** | Customer Interface Box |
+| **C.I.D.** | Cubic Inch Displacement |
+| **CNG** | Compressed Natural Gas |
+| **CO** | Carbon Monoxide |
+| **CPL** | Control Parts List |
+| **cSt** | Centistokes |
+| **DEF** | Diesel Exhaust Fluid |
+| **DOC** | Diesel Oxidation Catalyst |
+| **DPF** | Diesel Particulate Filter |
+| **ECM** | Engine Control Module |
+| **EFC** | Electronic Fuel Control |
+| **EGR** | Exhaust Gas Recirculation |
+| **EPA** | Environmental Protection Agency |
+| **ESN** | Engine Serial Number |
+| **°F** | Fahrenheit |
+| **ft-lb** | Foot-Pound Force |
+| **FMI** | Failure Mode Indentifier |
+| **GVW** | Gross Vehicle Weight |
+| **Hg** | Mercury |
+| **hp** | Horsepower |
+| **H** 2 **O** | Water |
+| **inHg** | Inches of Mercury |
+| **in H** 2 **0** | Inches of Water |
+| **ICM** | Ignition Control Module |
+| **IEC** | International Electrotechnical Commission |
+| **JSA** | Job Safety Assessment |
+| **km/l** | Kilometers per Liter |
+| **kPa** | Kilopascal |
+| **LNG** | Liquefied Natural Gas |
+| **LPG** | Liquefied Petroleum Gas |
+| **LTA** | Low Temperature Aftercooler |
+| **MCRS** | Modular Common Rail System |
+| **MIL** | Malfunction Indicator Lamp |
+| **MPa** | Megapascal |
+| **mph** | Miles Per Hour |
+| **mpq** | Miles Per Quart |
+| **N•m** | Newton-meter |
+| **NOx** | Nitrogen Oxides |
+| **NG** | Natural Gas |
+| **O2** | Oxygen |
+| **OAT** | Organic Acid Technology |
+| **OBD** | On-Board Diagnostics |
+| **OEM** | Original Equipment Manufacturer |
+| **OSHA** | Occupational Safety and Health Administration |
+| **PCCNet** | Power Command Control Network |
+| **PID** | Parameter Identification Descriptions |
+| **PPE** | Personal Protective Equipment |
+| **ppm** | Parts Per Million |
+| **psi** | Pounds Per Square Inch |
+| **PTO** | Power Takeoff |
+| **QSOL** | QuickServe® Online |
+| **REPTO** | Rear Engine Power Takeoff |
+| **RGT** | Rear Gear Train |
+| **rpm** | Revolutions Per Minute |
+| **SAE** | Society of Automotive Engineers |
+| **SCA** | Supplemental Coolant Additive |
+| **SCR** | Selective Catalytic Reduction |
+| **STC** | Step Timing Control |
+| **SID** | Subsystem Identification Descriptions |
+| **TDC** | Top Dead Center |
+| **TSB** | Technical Service Bulletin |
+| **ULSD** | Ultra Low Sulfur Diesel |
+| **VDC** | Volts of Direct Current |
+| **VGT** | Variable Geometry Turbocharger |
+| **VS** | Variable Speed |
+| **VSS** | Vehicle Speed Sensor |

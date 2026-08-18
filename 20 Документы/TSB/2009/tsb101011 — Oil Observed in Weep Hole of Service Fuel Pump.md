@@ -1,0 +1,69 @@
+---
+aliases:
+  - "Масло в дренажном отверстии сервисного топливного насоса"
+type: "TSB"
+doc: "tsb101011"
+title_en: "Oil Observed in Weep Hole of Service Fuel Pump"
+title_ru: "Масло в дренажном отверстии сервисного топливного насоса"
+released: "2009-11-17"
+modified: "2009-11-17"
+group: "05 - Fuel Systems (Pumps)"
+engines:
+  - "33239746"
+  - "33239899"
+  - "41349633"
+families:
+  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK19"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101011.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101011.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/K38/K50"
+  - "двигатель/QSK19"
+  - "год/2009"
+  - "тема/fuel-systems-pumps"
+---
+
+# Oil Observed in Weep Hole of Service Fuel Pump
+**Масло в дренажном отверстии сервисного топливного насоса**
+
+> [!abstract] TSB · `tsb101011`
+> **Раздел Cummins:** 05 - Fuel Systems (Pumps)
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Даты:** выпущен 2009-11-17 · изменён 2009-11-17
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101011.pdf)
+
+## Oil Observed in Weep Hole of Service Fuel Pump
+
+### Core Issue
+
+The purpose of this Early Field Notification is to highlight what appears to be an oil leak from the weep hole on replacement fuel pumps for QSK MCRS engines.
+
+### Confirmation
+
+QSK19, QSK38, QSK50, and QSK60 engines with MCRS fuel systems and a service fuel pump installed:
+
+| Engine | Part Number |
+|---|---|
+| QSK19 MCRS | 4998820 |
+| QSK38 MCRS | 4998821 |
+| QSK50/60 MCRS | 4998822 |
+| QSK60 MCRS Power Gen | 2881161 \*\*Release date and engine serial number (ESN) First to be determined. |
+
+Reports have been received that some fuel pumps have developed what appears to be an oil leak at the weep hole of the fuel pump. These leaks have been at extremely low hours, usually when the engine reaches operating temperature for the first time following service fuel pump installation.
+
+If an engine with a service fuel pump appears to have an oil leak from the weep hole at extremely low hours or as the engine reaches operating temperature for the first time with a service fuel pump installed, it is likely that the cause identified below is the source of the complaint.
+
+Pumps showing this symptom have been returned to the supplier and found to be properly assembled with no operational issues. The root cause of this leak has been determined to be residual assembly lubricant melting and exiting the assembly through the weep hole. When these pumps are tested at the supplier, they are tested with the lubricating oil at a cooler temperature than that of nominal engine operating temperature. Therefore, when the engine reaches operating temperature for the first time following service fuel pump installation, some residual assembly lubricant is heated and liquefied, the result of which appears to be engine oil leaking from the fuel pump weep hole.
+
+None.
+
+### Resolution
+
+The pump should be free of residual assembly lubricant within the first 1-2 hours of engine operation at normal operating temperature. If this condition is witnessed, clean the weep hole and fuel pump thoroughly. Inspect for a leak again after 2 hours of operation. If the leak has stopped, then no fix is necessary. If the leak continues, the fuel pump **must** be replaced.
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
