@@ -670,3 +670,6 @@ body.lang-en .tree-opt .n-ru{
 }
 body.lang-en td.c-name .n-en{font-weight:600; color:var(--text); display:block}
 body.lang-en td.c-name .n-ru{font-size:13px; font-weight:400; color:var(--muted)}
+
+/* номера документов, найденные в тексте: моноширинный номер-ссылка */
+.lnk.man,.lnk.tsb{font-family:Consolas,"SF Mono",monospace; border-bottom-style:solid}
