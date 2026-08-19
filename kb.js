@@ -10,6 +10,7 @@ var MAN    = window.KB_MANUALS || {};
 var PARTS  = window.KB_PARTS || {};
 var TOPICS = window.KB_TOPICS || [];
 var MLIST  = window.KB_MACHINE_LIST || {};
+var FLEET  = window.KB_FLEET || { m: [], g: [] };
 var MPARTS = window.KB_MPARTS || {};
 var MEDIA  = window.KB_MEDIA || {};
 var SEARCH = window.KB_SEARCH || [];
@@ -19,6 +20,7 @@ var PHOTOS = {};
 window.KB_BODY = window.KB_BODY || {};
 window.KB_BODY_RU = window.KB_BODY_RU || {};
 window.KB_MACHINE = window.KB_MACHINE || {};
+window.KB_FLEET = window.KB_FLEET || { m: [], g: [] };
 
 var LANG = "ru";
 try { LANG = localStorage.getItem("cummins_lang") || "ru"; } catch (e) {}
@@ -882,6 +884,22 @@ function searchHtml(q) {
   var num = q.toUpperCase().replace(/[\s-]/g, "");
   var h = [];
 
+  /* машины парка: по VIN, серийному номеру двигателя, модели и CPL */
+  var fl = FLEET.m.filter(function (m) {
+    return (m.vin || "").toUpperCase().indexOf(num) >= 0 ||
+           (m.esn || "").toUpperCase().indexOf(num) >= 0 ||
+           (m.machine || "").toLowerCase().indexOf(lo) >= 0 ||
+           (m.cpl && m.cpl === q.trim());
+  }).slice(0, 20);
+  if (fl.length) {
+    h.push('<section class="kb-card"><h2>Парк машин <span class="cnt">' +
+      fl.length + "</span></h2>" +
+      '<div class="tw"><table class="kb-table"><thead><tr><th>Машина</th><th>VIN</th>' +
+      "<th>ESN</th><th>CPL</th><th>Двигатель</th><th>Каталог</th></tr></thead><tbody>");
+    fl.forEach(function (m) { h.push(fleetRow(m)); });
+    h.push("</tbody></table></div></section>");
+  }
+
   var pHits = [];
   Object.keys(PARTS).forEach(function (no) {
     if (pHits.length > 200) return;
@@ -1024,8 +1042,114 @@ function route() {
   if (head === "msvc") return viewMachineService(parts[1], parts[2]);
   if (head === "engine") return viewEngine(parts[1]);
   if (head === "engines") return viewEngines();
+  if (head === "fleet") return viewFleet();
+  if (head === "cpl") return viewCpl(parts[1]);
   if (head === "search") return viewSearch(parts.slice(1).join("/"));
   setMode(false);
+}
+
+/* ------------------------------------------------------------ парк машин */
+function fleetGroup(cpl) {
+  var g = null;
+  FLEET.g.forEach(function (x) { if (x.cpl === cpl) g = x; });
+  return g;
+}
+function fleetRow(m) {
+  var cat = m.cat_esn
+    ? '<a class="lnk doc" href="#/engine/' + esc(m.cat_esn) + '">' + esc(m.cat_esn) + "</a>"
+    : '<span class="dim">—</span>';
+  var cpl = m.cpl
+    ? '<a class="lnk doc" href="#/cpl/' + esc(m.cpl) + '">' + esc(m.cpl) + "</a>"
+    : '<span class="dim">нет в каталоге</span>';
+  return "<tr><td>" + esc(m.machine) + '</td><td class="num">' + esc(m.vin) +
+    '</td><td class="num">' + esc(m.esn) + "</td><td>" + cpl + "</td><td>" +
+    esc(m.model || "") + "</td><td>" + esc(m.build || "") + "</td><td>" + cat + "</td></tr>";
+}
+function viewFleet() {
+  var h = [crumbs([{ t: "База знаний", href: "#/kb" }, { t: "Парк машин" }])];
+  var ok = FLEET.m.filter(function (m) { return m.ok; });
+  h.push('<div class="kb-head"><h1>Парк машин</h1><p class="sub">' +
+    FLEET.m.length + " машин · " + FLEET.g.length + " групп по CPL · " +
+    (FLEET.m.length - ok.length) + " двигателей каталог Cummins не знает</p></div>");
+
+  h.push('<div class="kb-hero"><p class="lead">Каталог запчастей определяется ' +
+    "<b>CPL</b>, а не серийным номером: на каждый CPL нужен один каталог, " +
+    "остальные машины группы им покрываются.</p></div>");
+
+  h.push('<div class="kb-cols">');
+  FLEET.g.forEach(function (g) {
+    h.push('<section class="kb-card"><h2><a href="#/cpl/' + esc(g.cpl) + '">CPL ' +
+      esc(g.cpl) + "</a></h2>" +
+      '<p class="sub">' + esc(g.model) + " · " + esc(g.kinds.join(", ")) + "</p>" +
+      '<ul class="kb-list">' +
+      '<li>Машин в парке <span class="cnt">' + g.n + "</span></li>" +
+      '<li>Каталог по ESN <span class="cnt">' + esc(g.cat_esn || "—") + "</span></li>" +
+      '<li>Документов QuickServe <span class="cnt">' + g.docs + "</span></li>" +
+      (g.configs.length > 1
+        ? '<li class="dim">Конфигураций: ' + g.configs.length + "</li>" : "") +
+      "</ul></section>");
+  });
+  h.push("</div>");
+
+  h.push('<h2 class="kb-h2">Все машины</h2>');
+  h.push('<div class="tw"><table class="kb-table"><thead><tr>' +
+    "<th>Машина</th><th>VIN</th><th>ESN</th><th>CPL</th><th>Двигатель</th>" +
+    "<th>Сборка</th><th>Каталог</th></tr></thead><tbody>");
+  FLEET.m.slice().sort(function (a, b) {
+    return (a.machine + a.esn).localeCompare(b.machine + b.esn);
+  }).forEach(function (m) { h.push(fleetRow(m)); });
+  h.push("</tbody></table></div>");
+  render(h.join(""));
+}
+
+function viewCpl(cpl) {
+  var g = fleetGroup(String(cpl));
+  if (!g) { notFound("Группа CPL " + cpl); return; }
+  var mine = FLEET.m.filter(function (m) { return m.cpl === g.cpl; });
+  var h = [crumbs([{ t: "База знаний", href: "#/kb" },
+                   { t: "Парк машин", href: "#/fleet" }, { t: "CPL " + g.cpl }])];
+  h.push('<div class="doc-layout"><article class="kb-doc">');
+  h.push('<div class="doc-head"><h1>CPL ' + esc(g.cpl) + " · " + esc(g.model) + "</h1>" +
+    '<div class="doc-en">' + esc(g.kinds.join(", ")) + "</div>" +
+    '<div class="doc-meta"><span class="mi">машин в парке: ' + g.n +
+    "</span><span class=\"mi\">конфигураций: " + g.configs.length + "</span></div></div>");
+  h.push('<div class="doc-body">');
+  h.push("<p>Каталог запчастей этой группы — по двигателю " +
+    (g.cat_esn ? '<a class="lnk doc" href="#/engine/' + esc(g.cat_esn) + '">' +
+      esc(g.cat_esn) + "</a>" : "—") + ". " +
+    (g.docs
+      ? "Документация QuickServe: <a class=\"lnk doc\" href=\"#/docs/all\">" +
+        g.docs + " документов</a> семейства " + esc(g.family || g.model) + "."
+      : "<b>Документация QuickServe по этой группе не выгружена.</b>") + "</p>");
+  if (g.configs.length > 1) {
+    h.push('<div class="cal warning"><div class="cal-t">Несколько конфигураций</div>' +
+      "<p>В группе " + g.configs.length + " конфигурации (" +
+      esc(g.configs.join(", ")) + ") — состав по редким позициям может отличаться.</p></div>");
+  }
+  h.push('<div class="tw"><table class="doc-table"><thead><tr>' +
+    "<th>Машина</th><th>VIN</th><th>ESN</th><th>Конфигурация</th>" +
+    "<th>Сборка</th><th>Позиций</th></tr></thead><tbody>");
+  mine.sort(function (a, b) { return (a.build || "").localeCompare(b.build || ""); })
+    .forEach(function (m) {
+      var mark = m.esn === g.cat_esn ? ' <span class="tag t-manual">каталог</span>' : "";
+      h.push("<tr><td>" + esc(m.machine) + '</td><td class="num">' + esc(m.vin) +
+        '</td><td class="num">' + esc(m.esn) + mark + "</td><td>" + esc(m.config) +
+        "</td><td>" + esc(m.build) + '</td><td class="num">' + (m.parts || "") +
+        "</td></tr>");
+    });
+  h.push("</tbody></table></div></div></article>");
+
+  h.push('<aside class="doc-side"><section><h3>Каталог</h3><ul class="side-list">');
+  if (g.cat_esn) {
+    h.push('<li><a class="lnk doc" href="#/engine/' + esc(g.cat_esn) + '">Двигатель ' +
+      esc(g.cat_esn) + "</a></li>");
+  }
+  h.push("</ul></section><section><h3>Машины группы</h3><ul class=\"side-list\">");
+  mine.forEach(function (m) {
+    h.push("<li>" + esc(m.machine) + ' <span class="dim">' + esc(m.esn) + "</span></li>");
+  });
+  h.push("</ul></section></aside></div>");
+  render(h.join(""));
 }
 
 /* ------------------------------------------------- клики внутри базы */
