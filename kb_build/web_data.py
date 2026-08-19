@@ -134,6 +134,8 @@ def main():
     index = {}
     chunk_of = {}
     chunks = collections.defaultdict(dict)
+    chunks_ru = collections.defaultdict(dict)
+    cache_ru = os.path.join(BUILD, "_cache_ru")
     stats = collections.Counter()
 
     for n, key in enumerate(order):
@@ -144,9 +146,16 @@ def main():
         cache_file = os.path.join(CACHE, cat, did + ".md")
         if os.path.exists(cache_file):
             body = rend.render(open(cache_file, encoding="utf-8").read())
+        body_ru = ""
+        ru_file = os.path.join(cache_ru, cat, did + ".md")
+        if os.path.exists(ru_file):
+            body_ru = rend.render(open(ru_file, encoding="utf-8").read())
         chunk = n // CHUNK
         if cat != "manual":
             chunks[chunk][did] = body
+            if body_ru:
+                chunks_ru[chunk][did] = body_ru
+                stats["с переводом"] += 1
             chunk_of[did] = chunk
         fams = sorted({FAMILY_OF_CAT.get(e, ("", ""))[0]
                        for e in d.get("engines", []) if e in FAMILY_OF_CAT} |
@@ -168,6 +177,7 @@ def main():
             "pdf": d.get("pdf_rel", ""),
             "ok": 1 if d.get("present") else 0,
             "ch": chunk_of.get(did, -1),
+            "ru_body": 1 if body_ru else 0,
         }
         stats[cat] += 1
 
@@ -189,6 +199,8 @@ def main():
 
     for ch, obj in chunks.items():
         js(f"data/kb/body_{ch}.js", f"window.KB_BODY[{ch}]", obj)
+    for ch, obj in chunks_ru.items():
+        js(f"data/kb/body_ru_{ch}.js", f"window.KB_BODY_RU[{ch}]", obj)
 
     js("data/kb_docs.js", "window.KB_DOCS", index)
 
