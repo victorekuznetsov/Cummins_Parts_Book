@@ -1,0 +1,696 @@
+{
+ "checked": [
+  {
+   "esn": "1024E008268",
+   "ok": false,
+   "machine": "SG21-C6 AWD",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "1024H015347",
+   "ok": false,
+   "machine": "SG21-C6 AWD",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "37290487",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000027",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573002CC33",
+   "build": "2023-05-02",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 864
+  },
+  {
+   "esn": "37290615",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000026",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573002CC33",
+   "build": "2023-05-22",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 864
+  },
+  {
+   "esn": "37292556",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000035",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-12",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37292731",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000043",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-30",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37292733",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000042",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-01-29",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293376",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000050",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-08",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293377",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000049",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-08",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293410",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000048",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-10",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293549",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000045",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-24",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "37293592",
+   "ok": true,
+   "machine": "SD90-C5",
+   "vin": "CHSDA90ANRC000044",
+   "model": "QST30 CM552",
+   "cpl": "1244",
+   "config": "D573011CC33",
+   "build": "2024-04-29",
+   "group": "High Horse Power",
+   "plant": "95",
+   "options": 82,
+   "parts": 863
+  },
+  {
+   "esn": "41343322",
+   "ok": true,
+   "machine": "SD32",
+   "vin": "CHSD32AAJP1008576",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2022-12-08",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41348156",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41348289",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41348295",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41348302",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41348307",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41349633",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60AERC000220",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-02",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41349698",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41349704",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41351021",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60AJRC000239",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-07",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41351859",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60AHRC000250",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-06-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 700
+  },
+  {
+   "esn": "41353280",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60AVRC000227",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41353290",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60AKRC000210",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41353297",
+   "ok": true,
+   "machine": "SD60-C5",
+   "vin": "CHSDA60ACRC000252",
+   "model": "QSK19 CM2150 MCRS",
+   "cpl": "3666",
+   "config": "D193101CX03",
+   "build": "2023-07-28",
+   "group": "High Horse Power",
+   "plant": "485",
+   "options": 82,
+   "parts": 702
+  },
+  {
+   "esn": "41354422",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AVPB009067",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2023-08-22",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41356585",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41364976",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34ATRB009582",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-04-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365012",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AARB009638",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-04-22",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365025",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34ALRB009723",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-08",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365967",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AJRB009585",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-06",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365971",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AVRB009606",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-07",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365979",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AHRB009612",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-07",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41365996",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34APRB009633",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-09",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41366000",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AERB009613",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-09",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41367668",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34AARB009655",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-20",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41367681",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34ACRB009645",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-05-21",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41369708",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41370102",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34ALRB009740",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41370103",
+   "ok": true,
+   "machine": "SD34-B3",
+   "vin": "CHSDA34APRB009728",
+   "model": "NH/NT 855",
+   "cpl": "3362",
+   "config": "D093664CX03",
+   "build": "2024-06-13",
+   "group": "Heavy Duty",
+   "plant": "485",
+   "options": 63,
+   "parts": 873
+  },
+  {
+   "esn": "41383427",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "41384184",
+   "ok": false,
+   "machine": "SD60-C5",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "4P25J004736",
+   "ok": false,
+   "machine": "BHL4CX",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "7524A001060",
+   "ok": false,
+   "machine": "SE420LCW",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "7524A001078",
+   "ok": false,
+   "machine": "SE420LCW",
+   "err": "нет в EPC (404)"
+  },
+  {
+   "esn": "80201235",
+   "ok": true,
+   "machine": "DH46C3 RS",
+   "vin": "CHSDH46HNPC000019",
+   "model": "X15 CM2350 X114B",
+   "cpl": "4342",
+   "config": "D103016BW25",
+   "build": "2019-07-29",
+   "group": "Heavy Duty",
+   "plant": "82",
+   "options": 75,
+   "parts": 868
+  },
+  {
+   "esn": "85201236",
+   "ok": true,
+   "machine": "DH46C3 RS",
+   "vin": "CHSDH46HNPC000021",
+   "model": "QSX15 CM570",
+   "cpl": "8761",
+   "config": "D103007CC01",
+   "build": "2022-04-06",
+   "group": "Heavy Duty",
+   "plant": "127",
+   "options": 74,
+   "parts": 729
+  },
+  {
+   "esn": "93058669",
+   "ok": true,
+   "machine": "SG21A-3",
+   "vin": "CHSGA21AVNB001320",
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-09-22",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  },
+  {
+   "esn": "93065419",
+   "ok": true,
+   "machine": "SG21A-3",
+   "vin": "CHSGA21AHNB001337",
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-10-17",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  },
+  {
+   "esn": "93087701",
+   "ok": true,
+   "machine": "SG21A-3",
+   "vin": "CHSGA21AENB001338",
+   "model": "6C8.3",
+   "cpl": "3105",
+   "config": "D413052CX03",
+   "build": "2022-12-08",
+   "group": "Midrange",
+   "plant": "508",
+   "options": 82,
+   "parts": 392
+  }
+ ],
+ "groups": [
+  {
+   "cpl": "1244",
+   "model": "QST30 CM552",
+   "machines": [
+    "SD90-C5"
+   ],
+   "esns": [
+    "37290487",
+    "37290615",
+    "37292556",
+    "37292731",
+    "37292733",
+    "37293376",
+    "37293377",
+    "37293410",
+    "37293549",
+    "37293592"
+   ],
+   "representative": "37293592"
+  },
+  {
+   "cpl": "3362",
+   "model": "NH/NT 855",
+   "machines": [
+    "SD32",
+    "SD34-B3"
+   ],
+   "esns": [
+    "41343322",
+    "41354422",
+    "41364976",
+    "41365012",
+    "41365025",
+    "41365967",
+    "41365971",
+    "41365979",
+    "41365996",
+    "41366000",
+    "41367668",
+    "41367681",
+    "41370102",
+    "41370103"
+   ],
+   "representative": "41370103"
+  },
+  {
+   "cpl": "3666",
+   "model": "QSK19 CM2150 MCRS",
+   "machines": [
+    "SD60-C5"
+   ],
+   "esns": [
+    "41349633",
+    "41351021",
+    "41351859",
+    "41353280",
+    "41353290",
+    "41353297"
+   ],
+   "representative": "41353297"
+  },
+  {
+   "cpl": "4342",
+   "model": "X15 CM2350 X114B",
+   "machines": [
+    "DH46C3 RS"
+   ],
+   "esns": [
+    "80201235"
+   ],
+   "representative": "80201235"
+  },
+  {
+   "cpl": "8761",
+   "model": "QSX15 CM570",
+   "machines": [
+    "DH46C3 RS"
+   ],
+   "esns": [
+    "85201236"
+   ],
+   "representative": "85201236"
+  },
+  {
+   "cpl": "3105",
+   "model": "6C8.3",
+   "machines": [
+    "SG21A-3"
+   ],
+   "esns": [
+    "93058669",
+    "93065419",
+    "93087701"
+   ],
+   "representative": "93087701"
+  }
+ ],
+ "to_crawl": [
+  "37293592",
+  "93087701",
+  "41370103",
+  "41353297",
+  "80201235",
+  "85201236"
+ ]
+}

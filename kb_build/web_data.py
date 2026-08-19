@@ -332,6 +332,12 @@ def main():
         if os.path.isdir(photo_dir) else []
     js("data/kb_photos.js", "window.KB_PHOTOS", photos)
 
+    # парк машин: машина -> VIN -> ESN -> CPL -> каталог -> документы
+    fleet = load_json(os.path.join(BUILD, "state_fleet.json"), {})
+    if fleet:
+        js("data/kb_fleet.js", "window.KB_FLEET",
+           {"m": fleet.get("machines", []), "g": fleet.get("groups", [])})
+
     js("data/kb_machines.js", "window.KB_MACHINE_LIST",
        {k: {"t": v["t"], "zh": v["zh"], "maker": v["maker"],
             "ns": len(v["s"]), "nsvc": len(v["svc"]), "nes": len(v["es"]),
