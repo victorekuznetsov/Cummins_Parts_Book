@@ -54,7 +54,7 @@ tags:
 
 ## Требования Cummins® к охлаждающей жидкости и её обслуживанию
 
-Для получения информации о рекомендациях и спецификациях охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406. Справочная часть 5.
+Для получения информации о рекомендациях и спецификациях охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Справочная часть 5.
 
 > [!note] Примечание
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)
@@ -65,7 +65,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ## Cummins® Coolant Requirements and Maintenance
 >
-> For information on engine coolant recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Section 5.
+> For information on engine coolant recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Section 5.
 >
 > **Note · Примечание**
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)

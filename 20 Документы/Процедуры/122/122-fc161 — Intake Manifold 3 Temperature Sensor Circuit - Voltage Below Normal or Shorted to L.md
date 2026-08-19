@@ -74,7 +74,7 @@ QSK50 и QSK60 CM2150 Industrial/QSK50 и QSK60 CM2150 Marine/QSK60 CM2150 Drill
 
 ### Расположение компонента
 
-Датчик температуры впускного коллектора 3 расположен в левобережном заднем коллекторе воздухозаборника. См. процедуру 100-002 в разделе E Руководства по обслуживанию K38, K50, QSK38 и QSK50, Бюллетень 4021528, для подробного обзора местоположения компонентов.
+Датчик температуры впускного коллектора 3 расположен в левобережном заднем коллекторе воздухозаборника. См. процедуру 100-002 в разделе E Руководства по обслуживанию K38, K50, QSK38 и QSK50, Бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], для подробного обзора местоположения компонентов.
 
 ### Практические замечания
 
@@ -123,7 +123,7 @@ QSK50 и QSK60 CM2150 Industrial/QSK50 и QSK60 CM2150 Marine/QSK60 CM2150 Drill
 >
 > ### Component Location
 >
-> The intake manifold 3 temperature sensor is located in the left bank rear air intake manifold. Refer to Procedure 100-002 in Section E of the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528, for a detailed component location view.
+> The intake manifold 3 temperature sensor is located in the left bank rear air intake manifold. Refer to Procedure 100-002 in Section E of the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], for a detailed component location view.
 >
 > ### Shoptalk
 >

@@ -63,7 +63,7 @@ ReCon® NT-855 Двигатели:
 
 **Описание изменения**
 
-Воздушный компрессор Holset ST773, часть 3048671, больше не может поддерживаться. Компрессорный комплект для воздушного компрессора был создан, чтобы позволить использовать на пораженном продукте двухкомпрессоры Wabco 636, номер детали 4337583. Для получения информации о комплекте для установки воздушного компрессора см. TSB150085.
+Воздушный компрессор Holset ST773, часть 3048671, больше не может поддерживаться. Компрессорный комплект для воздушного компрессора был создан, чтобы позволить использовать на пораженном продукте двухкомпрессоры Wabco 636, номер детали 4337583. Для получения информации о комплекте для установки воздушного компрессора см. [[tsb150085 — NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wab\|TSB150085]].
 
 В этом документе содержится полный список процедур Руководства по эксплуатации, необходимых для удаления, установки и устранения неполадок двухконтурного воздушного компрессора WabcoTM 636. См. таблицы 1 и 2.
 
@@ -133,7 +133,7 @@ ReCon® NT-855 Двигатели:
 >
 > **Description of Change**
 >
-> The Holset® ST773 air compressor, Part Number 3048671, can no longer be supported. An air compressor upfit kit has been created to allow Wabco™ 636 twin air compressors, Part Number 4337583, to be used on the product affected. For information on the air compressor upfit kit, see TSB150085.
+> The Holset® ST773 air compressor, Part Number 3048671, can no longer be supported. An air compressor upfit kit has been created to allow Wabco™ 636 twin air compressors, Part Number 4337583, to be used on the product affected. For information on the air compressor upfit kit, see [[tsb150085 — NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wab\|TSB150085]].
 >
 > This document contains a complete list Service Manual procedures needed to remove, install, and troubleshoot the Wabco™ 636 twin air compressor. See Tables 1 and 2.
 >

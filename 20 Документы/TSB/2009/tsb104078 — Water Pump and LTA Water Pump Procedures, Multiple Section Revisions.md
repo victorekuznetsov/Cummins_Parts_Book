@@ -51,7 +51,7 @@ tags:
 
 ### Содержание
 
-Эта тема Службы/Части пересматривает Процедуру 008-062 (Водный насос) и Процедуру 008-109 (Низкотемпературный охладитель (LTA) Водяной насос) в разделе 8 в Руководстве по эксплуатации, K38, K50, QSK38 и QSK50, Вестник 4021528. Секции топливных форсунок с механическим приводом были переименованы в куртку, а секции топливных форсунок с электронным приводом были переименованы в двойной импеллер. Название секции форсунки с механическим приводом было удалено из Процедуры 008-109 в разделе 8.
+Эта тема Службы/Части пересматривает Процедуру 008-062 (Водный насос) и Процедуру 008-109 (Низкотемпературный охладитель (LTA) Водяной насос) в разделе 8 в Руководстве по эксплуатации, K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Секции топливных форсунок с механическим приводом были переименованы в куртку, а секции топливных форсунок с электронным приводом были переименованы в двойной импеллер. Название секции форсунки с механическим приводом было удалено из Процедуры 008-109 в разделе 8.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -63,4 +63,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Procedure 008-062 (Water Pump) and Procedure 008-109 (Low-Temperature Aftercooler (LTA) Water Pump)) in Section 8 in Service Manual, K38, K50, QSK38, and QSK50, Bulletin 4021528. The Mechanically Actuated Injector sections have been renamed to Jacket and the Electronically Actuated Injector sections have been renamed to Dual Impeller. The Mechanically Actuated Injector section name was removed from Procedure 008-109 in Section 8.
+> This Service/Parts Topic revises Procedure 008-062 (Water Pump) and Procedure 008-109 (Low-Temperature Aftercooler (LTA) Water Pump)) in Section 8 in Service Manual, K38, K50, QSK38, and QSK50, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. The Mechanically Actuated Injector sections have been renamed to Jacket and the Electronically Actuated Injector sections have been renamed to Dual Impeller. The Mechanically Actuated Injector section name was removed from Procedure 008-109 in Section 8.

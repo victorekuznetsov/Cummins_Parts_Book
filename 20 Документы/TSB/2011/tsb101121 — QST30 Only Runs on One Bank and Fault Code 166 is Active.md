@@ -66,8 +66,8 @@ tags:
 
 Проверьте, есть ли резистор, установленный между положением стойки общего провода и земли на берегу, который не стреляет. Смотрите прилагаемые фигуры для локаций резисторов. Если резистор ** не найден, установите резистор в электропроводку или замените электропроводку. См. схему проводов для идентификации местоположения штифта. Если найден резистор, проверьте сопротивление.
 
-- Для приложений для выработки электроэнергии используйте следующую процедуру в руководстве по устранению неполадок и ремонту системы электронного управления QST30 CM850 Power Generation Interface Engine Electronic Control System, Bulletin 4021674.[[60-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
-- Для промышленных применений используйте следующую процедуру в руководстве по устранению неполадок и ремонту промышленной электронной системы управления QST30, в бюллетене 3666214 для инструкций по проверке сопротивления.[[87-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
+- Для приложений для выработки электроэнергии используйте следующую процедуру в руководстве по устранению неполадок и ремонту системы электронного управления QST30 CM850 Power Generation Interface Engine Electronic Control System, Bulletin [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]].[[60-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
+- Для промышленных применений используйте следующую процедуру в руководстве по устранению неполадок и ремонту промышленной электронной системы управления QST30, в бюллетене [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]] для инструкций по проверке сопротивления.[[87-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
 
 В приведенных ниже таблицах кратко излагаются изменения в ремне электропроводки двигателя:
 
@@ -125,8 +125,8 @@ tags:
 >
 > Check to see if there is a resistor installed between the rack position common wire and ground on the bank that is **not** firing. See the attached figures for resistor locations. If a resistor is **not** found, install a resistor in the wiring harness or replace the wiring harness. Refer to the wiring diagram for the pin location identification. If a resistor is found, check the resistance.
 >
-> - For power generation applications, use the following procedure in the QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021674. [[60-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
-> - For industrial applications, use the following procedure in the QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin 3666214 for resistance check instructions. [[87-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
+> - For power generation applications, use the following procedure in the QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooting and Repair Manual, Bulletin [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]. [[60-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
+> - For industrial applications, use the following procedure in the QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]] for resistance check instructions. [[87-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
 >
 > The tables below summarize changes to the engine wiring harness:
 >

@@ -45,7 +45,7 @@ tags:
 
 ### Общие сведения
 
-Эта процедура описывает спецификации охлаждающей жидкости и требования к обслуживанию охлаждающей жидкости двигателя. Для получения более подробной информации о спецификациях охлаждающей жидкости и требованиях к обслуживанию охлаждающей жидкости двигателя. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406.
+Эта процедура описывает спецификации охлаждающей жидкости и требования к обслуживанию охлаждающей жидкости двигателя. Для получения более подробной информации о спецификациях охлаждающей жидкости и требованиях к обслуживанию охлаждающей жидкости двигателя. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 ### Требования к охлаждающей жидкости
 
@@ -66,7 +66,7 @@ Cummins Inc. требует использования охлаждающей ж
 
 - Для нового оборудования, проверьте с производителем оригинального оборудования (OEM) на тип охлаждающей жидкости, используемой для первого наполнения. Это поможет понять, как правильно поддерживать охлаждающую жидкость.
 - Cummins® рекомендует премиксованную, сверхмощную охлаждающую жидкость при заполнении системы охлаждения.
-- Клиенты, имеющие морские или арктические приложения, см. Руководство по обслуживанию жидкостей для продуктов Cummins®, Бюллетень 5411406.[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004]]в разделе 5 для информации о рекомендациях и спецификациях охлаждающей жидкости, характерных для этих применений.
+- Клиенты, имеющие морские или арктические приложения, см. Руководство по обслуживанию жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004]]в разделе 5 для информации о рекомендациях и спецификациях охлаждающей жидкости, характерных для этих применений.
 
 ### Обслуживание системы охлаждения
 
@@ -90,7 +90,7 @@ Cummins Inc. требует использования охлаждающей ж
 
 Утилизировать использованную охлаждающую жидкость или антифриз в соответствии с федеральными, государственными и местными законами и правилами.
 
-Полный список всех применимых инструментов для тестирования охлаждающей жидкости см. в руководстве по эксплуатации продуктов Cummins®, Bulletin 5411406.[[00-379-007 — Engine Coolant Testing|См. процедуру 379-007 в разделе 5.]]
+Полный список всех применимых инструментов для тестирования охлаждающей жидкости см. в руководстве по эксплуатации продуктов Cummins®, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].[[00-379-007 — Engine Coolant Testing|См. процедуру 379-007 в разделе 5.]]
 
 Cummins® рекомендует ориентироваться на концентрацию гликоля/антифриза в 50 процентов по объему. Концентрация гликола ** должна поддерживаться в соответствии с Таблицей 3.
 
@@ -146,7 +146,7 @@ Cummins® рекомендует использовать охлаждающие
 > [!quote]- Original (English) · английский оригинал
 > ### General Information
 >
-> This procedure describes coolant specifications and service requirements for engine coolant. For more exhaustive information on coolant specifications and service requirements for engine coolant. See Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> This procedure describes coolant specifications and service requirements for engine coolant. For more exhaustive information on coolant specifications and service requirements for engine coolant. See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > ### Coolant Specifications
 >
@@ -167,7 +167,7 @@ Cummins® рекомендует использовать охлаждающие
 >
 > - For new equipment, check with the original equipment manufacturer (OEM) on the type of coolant used for the first fill. This will assist in understanding how to maintain the coolant properly.
 > - Cummins® recommends a premixed, heavy-duty coolant when filling the cooling system.
-> - Customers with marine or arctic applications see Fluids for Cummins® Products Service Manual, Bulletin 5411406. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004]] in Section 5 for information on coolant recommendations and specifications specific to those applications.
+> - Customers with marine or arctic applications see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004]] in Section 5 for information on coolant recommendations and specifications specific to those applications.
 >
 > ### Coolant Service
 >
@@ -191,7 +191,7 @@ Cummins® рекомендует использовать охлаждающие
 >
 > Dispose of used coolant or antifreeze in accordance with federal, state, and local laws and regulations.
 >
-> For a complete list of all applicable coolant testing tools, See Fluids for Cummins® Products Service Manual, Bulletin 5411406. [[00-379-007 — Engine Coolant Testing|Refer to Procedure 379-007 in Section 5.]]
+> For a complete list of all applicable coolant testing tools, See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. [[00-379-007 — Engine Coolant Testing|Refer to Procedure 379-007 in Section 5.]]
 >
 > Cummins® recommends targeting a glycol/antifreeze concentration of 50 percent by volume. Glycol concentration **must** be maintained according to Table 3.
 >

@@ -33,8 +33,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4915520-toc | Table of Contents |  |
-| 4915520-titlepage | Titlepage | 28-Apr-2004 |
+| [[4915520 — QST30 Owners Manual\|4915520]]-toc | Table of Contents |  |
+| [[4915520 — QST30 Owners Manual\|4915520]]-titlepage | Titlepage | 28-Apr-2004 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | own-frwd | Foreword | 14-Jul-2006 |
 
@@ -100,7 +100,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4915520-backcover | Backcover | 22-Sep-2004 |
+| [[4915520 — QST30 Owners Manual\|4915520]]-backcover | Backcover | 22-Sep-2004 |
 
 ### Section 2 - Maintenance Guidelines
 

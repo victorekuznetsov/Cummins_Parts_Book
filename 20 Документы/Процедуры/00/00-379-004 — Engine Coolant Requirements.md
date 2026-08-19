@@ -97,7 +97,7 @@ Cummins Inc. Для большинства применений требуетс
 
 Сверху от системы охлаждения с использованием той же формулы охлаждающей жидкости, которая используется для заполнения системы охлаждения. Охладители Fleetguard® совместимы с другими составами охлаждающей жидкости с аналогичными упаковками добавок, но смешивание составов охлаждающей жидкости таким образом, чтобы один или более охлаждающих(ых) агентов присутствовали в концентрации, превышающей 25 процентов по объему по сравнению с «оригинальным» охлаждающей жидкостью, может привести к критическому истощению добавки и непредсказуемой производительности. В случае перехода с одной составной части охлаждающей жидкости на другую полностью слить систему охлаждения и заправлять желаемой охлаждающей жидкостью.
 
-Используйте следующую процедуру в руководстве по обслуживанию жидкостей для Cummins® Products Service Manual, Bulletin 5411406, для получения информации о техническом обслуживании охлаждающей жидкости и системы охлаждения.[[00-379-006 — Maintenance of Coolant and Cooling System|См. процедуру 379-006 в разделе 5.]]
+Используйте следующую процедуру в руководстве по обслуживанию жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для получения информации о техническом обслуживании охлаждающей жидкости и системы охлаждения.[[00-379-006 — Maintenance of Coolant and Cooling System|См. процедуру 379-006 в разделе 5.]]
 
 В таблице 1 приведены общие технические стандарты Cummins® для охлаждающих жидкостей.
 
@@ -172,7 +172,7 @@ CES 14648 запрещает использование хладагентов �
 >
 > Top off the cooling system using the same coolant formulation used to fill the cooling system. Fleetguard® coolants are compatible with other coolant formulations with similar additive packages, but mixing coolant formulations such that one or more coolant(s) is present in a concentration greater than 25 percent by volume relative to the "original" coolant could result in critical additive depletion and unpredictable performance. In the case of switching from one coolant formulation to another, drain the cooling system completely and refill with the desired coolant.
 >
-> Use the following procedure in the Fluids for Cummins® Products Service Manual, Bulletin 5411406, for information on maintenance of coolant and the cooling system. [[00-379-006 — Maintenance of Coolant and Cooling System|Refer to Procedure 379-006 in Section 5.]]
+> Use the following procedure in the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for information on maintenance of coolant and the cooling system. [[00-379-006 — Maintenance of Coolant and Cooling System|Refer to Procedure 379-006 in Section 5.]]
 >
 > Table 1 summarizes Cummins® Engineering Standards for Coolant.
 >

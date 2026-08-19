@@ -62,7 +62,7 @@ tags:
 
 Улучшенный сборочный комплект трубки включает в себя скобки, прикрепленные к всасывающей трубке, а также изменения в вертикальных и блок-скобках. Новые скобки должны использоваться с этой пересмотренной трубкой и включать в себя прорези для болтов для улучшения выравнивания с зажимами трубки. Номинальный 1 мм \[0,039 в\] зазор предназначен для размещения трубки вдали от скобок, чтобы предотвратить трение между трубкой и скобками.
 
-Используйте следующую процедуру «Смазочная масляная всасывающая трубка (блок установлен)» в руководстве по обслуживанию QST30, Бюллетень 4021539. См. процедуру 007-035 в разделе 7.
+Используйте следующую процедуру «Смазочная масляная всасывающая трубка (блок установлен)» в руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 007-035 в разделе 7.
 
 Серийный номер двигателя: 37259857
 
@@ -109,7 +109,7 @@ tags:
 >
 > The improved tube assembly includes brackets brazed onto the suction tube, as well as changes to the vertical and block brackets. The new brackets must be used with this revised tube and include slots for the capscrews to improve alignment with the tube clamps. A nominal 1 mm \[0.039 in\] gap is designed to space the tube away from the brackets, to prevent fretting between the tube and the brackets.
 >
-> Use the following procedure "Lubricating Oil Suction Tube (Block Mounted)" in the QST30 Service Manual, Bulletin 4021539. Refer to Procedure 007-035 in Section 7.
+> Use the following procedure "Lubricating Oil Suction Tube (Block Mounted)" in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 007-035 in Section 7.
 >
 > Engine Serial Number: 37259857
 >

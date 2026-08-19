@@ -95,7 +95,7 @@ tags:
 
 **Решение**
 
-Заменить неисправную ЭКМ. См. QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin 3666214.[[87-019-031 — Engine Control Module|См. процедуру 019-031 в разделе 19.]]
+Заменить неисправную ЭКМ. См. QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]].[[87-019-031 — Engine Control Module|См. процедуру 019-031 в разделе 19.]]
 
 ### История изменений документа
 
@@ -153,6 +153,6 @@ tags:
 >
 > **Resolution**
 >
-> Replace malfunctioning ECM. See QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin 3666214. [[87-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]
+> Replace malfunctioning ECM. See QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]. [[87-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]
 >
 > ### Document History

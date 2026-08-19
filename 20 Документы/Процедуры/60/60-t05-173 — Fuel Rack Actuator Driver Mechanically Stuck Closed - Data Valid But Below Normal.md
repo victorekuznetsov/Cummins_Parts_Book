@@ -63,7 +63,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Считайте коды неисправностей. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Код ошибки 173 активен? *Да** | Перейдите к коду 173. |
-| Код ошибки 173 активен? **NORepair:** Заменить топливный насос. См. процедуру 005-012 в разделе 5 (Насосы для инъекций топлива, In-Line) в Руководстве по обслуживанию QST30, Бюллетень 4021539. | 2А |  |
+| Код ошибки 173 активен? **NORepair:** Заменить топливный насос. См. процедуру 005-012 в разделе 5 (Насосы для инъекций топлива, In-Line) в Руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]]. | 2А |  |
 
 ### ШАГ 2. Сбросьте коды неисправностей.
 
@@ -105,7 +105,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Read the fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 173 active? **YES** | Go to Fault Code 173. |
-> | Fault Code 173 active? **NORepair:** Replace the fuel pump. Refer to Procedure 005-012 in Section 5 (Fuel Injection Pumps, In-Line) in the QST30 Service Manual, Bulletin 4021539. | 2A |  |
+> | Fault Code 173 active? **NORepair:** Replace the fuel pump. Refer to Procedure 005-012 in Section 5 (Fuel Injection Pumps, In-Line) in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | 2A |  |
 >
 > ### STEP 2. Clear the fault codes.
 >

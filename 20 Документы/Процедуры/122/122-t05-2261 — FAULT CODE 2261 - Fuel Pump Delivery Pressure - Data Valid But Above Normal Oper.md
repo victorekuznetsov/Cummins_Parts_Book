@@ -74,7 +74,7 @@ tags:
 | **Условия:** Подключите инструмент CompuchekTM. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Запуск и эксплуатация двигателя на высоком холостом ходу. Запись показания датчика подачи топлива в электронном сервисном инструменте INSITETM. Запись показаний давления подачи топлива на датчике измерения давления, установленном на месте датчика давления подачи топлива. Используйте следующую процедуру для фильтров 2-й стадии в разделе Меры руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник 4021528. См. процедуру 006-024 в Таблице ассоциированных процедур. Используйте следующую процедуру для фильтров 2-й стадии в разделе Меры в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-024 в Таблице ассоциированных процедур. | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2псия] друг от друга? *Да** | 1В |
+| Запуск и эксплуатация двигателя на высоком холостом ходу. Запись показания датчика подачи топлива в электронном сервисном инструменте INSITETM. Запись показаний давления подачи топлива на датчике измерения давления, установленном на месте датчика давления подачи топлива. Используйте следующую процедуру для фильтров 2-й стадии в разделе Меры руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-024 в Таблице ассоциированных процедур. Используйте следующую процедуру для фильтров 2-й стадии в разделе Меры в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-024 в Таблице ассоциированных процедур. | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2псия] друг от друга? *Да** | 1В |
 | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2псия] друг от друга? **NORepair:** Заменить датчик давления подачи топлива. См. процедуру 019-398 в Таблице ассоциированных процедур. | 2А |  |
 
 #### ШАГ 1B. Проверьте линии подачи топлива.
@@ -90,23 +90,23 @@ tags:
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 1D |
-| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить топливные фильтры 2-го этапа. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 006-076 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-076 в Таблице ассоциированных процедур. | 1С-1-1 |  |
+| Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 1D |
+| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить топливные фильтры 2-го этапа. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-076 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-076 в Таблице ассоциированных процедур. | 1С-1-1 |  |
 
 #### ШАГ 1C-1. Проверьте головку установки топливного фильтра.
 
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 2А |
-| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить установочную головку топливного фильтра 2-й ступени. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2А |  |
+| Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 2А |
+| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить установочную головку топливного фильтра 2-й ступени. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-020 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 006-020 в Таблице ассоциированных процедур. | 2А |  |
 
 #### ШАГ 1D. Проверьте давление подачи топлива на впускном коллекторе топлива.
 
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Закройте клапан подачи топлива. Удалите пробку M14 STOR из впускного коллектора топлива. Установите фитинг CompuchekTM, номер детали 3824844 или эквивалент, в впускном коллекторе топлива. Подключите вакуумный калибр и адаптер, номер 3164491 или эквивалент, и цифровой мультиметр, номер 3164488 или 3164489, или эквивалент, к фитингу CompuchekTM. Откройте клапан подачи топлива. Запуск и эксплуатация двигателя при низком и высоком холостом ходу. Запись показаний давления на входе топлива. | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? *** Заменить топливный насос. Используйте следующие процедуры: K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528. См. процедуру 005-016 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 005-016 в Таблице ассоциированных процедур. | 2А |
+| Закройте клапан подачи топлива. Удалите пробку M14 STOR из впускного коллектора топлива. Установите фитинг CompuchekTM, номер детали 3824844 или эквивалент, в впускном коллекторе топлива. Подключите вакуумный калибр и адаптер, номер 3164491 или эквивалент, и цифровой мультиметр, номер 3164488 или 3164489, или эквивалент, к фитингу CompuchekTM. Откройте клапан подачи топлива. Запуск и эксплуатация двигателя при низком и высоком холостом ходу. Запись показаний давления на входе топлива. | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? *** Заменить топливный насос. Используйте следующие процедуры: K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 005-016 в Таблице ассоциированных процедур. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 005-016 в Таблице ассоциированных процедур. | 2А |
 | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? **NORepair:** См. информацию об обслуживании изготовителя оборудования для снижения давления на входе топлива. | 2А |  |
 
 ### ШАГ 2. Отключите и очистите код ошибки.
@@ -132,18 +132,18 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Топливный насос | [[28-005-016-tr — Fuel Pump\|См. процедуру 005-016]] | K38, K50, QSK38 и QSK50 | 4021528 |
+| Топливный насос | [[28-005-016-tr — Fuel Pump\|См. процедуру 005-016]] | K38, K50, QSK38 и QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 | Топливный насос | См. процедуру 005-016 | QSK38 и QSK50 | 4021530 |
-| Головка топливного фильтра | [[28-006-017-tr — Fuel Filter Head\|См. процедуру 006-017]] | K38, K50, QSK38 и QSK50 | 4021528 |
+| Головка топливного фильтра | [[28-006-017-tr — Fuel Filter Head\|См. процедуру 006-017]] | K38, K50, QSK38 и QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 | Головка топливного фильтра | См. процедуру 006-017 | QSK38 и QSK50 | 4021530 |
-| Сопротивление на входе топлива | [[28-006-020-tr — Fuel Inlet Restriction\|См. процедуру 006-020]] | K38, K50, QSK38 и QSK50 | 4021528 |
+| Сопротивление на входе топлива | [[28-006-020-tr — Fuel Inlet Restriction\|См. процедуру 006-020]] | K38, K50, QSK38 и QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 | Сопротивление на входе топлива | См. процедуру 006-020 | QSK38 и QSK50 | 4021530 |
-| Магистрали подачи топлива | [[28-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024]] | K38, K50, QSK38 и QSK50 | 4021528 |
+| Магистрали подачи топлива | [[28-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024]] | K38, K50, QSK38 и QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 | Магистрали подачи топлива | См. процедуру 006-024 | QSK38 и QSK50 | 4021530 |
-| Топливный фильтр (ступень 2) | См. процедуру 006-076 | K38, K50, QSK38 и QSK50 | 4021528 |
+| Топливный фильтр (ступень 2) | См. процедуру 006-076 | K38, K50, QSK38 и QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 | Топливный фильтр (ступень 2) | См. процедуру 006-076 | QSK45 и QSK60 | 4021530 |
-| Датчик давления топливоподающего насоса | См. процедуру 019-398 | QSK19 | 4022094 |
-| Датчик давления топливоподающего насоса | См. процедуру 019-398 | QSK38, QSK50 и QSK60 | 4022102 |
+| Датчик давления топливоподающего насоса | См. процедуру 019-398 | QSK19 | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] |
+| Датчик давления топливоподающего насоса | См. процедуру 019-398 | QSK38, QSK50 и QSK60 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -178,7 +178,7 @@ tags:
 > | **Conditions:** Connect the Compuchek™ tool. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Start and operate the engine at high idle. Record the fuel supply sensor reading in INSITE™ electronic service tool. Record the fuel supply pressure reading on a pressure gauge installed in place of the fuel supply pressure sensor. Use the following procedure for Stage 2 filters in the Measure section of the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-024 in in the Associated Procedures Table. Use the following procedure for Stage 2 filters in the Measure section in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in the Associated Procedures Table. | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2psia\] of each other? **YES** | 1B |
+> | Start and operate the engine at high idle. Record the fuel supply sensor reading in INSITE™ electronic service tool. Record the fuel supply pressure reading on a pressure gauge installed in place of the fuel supply pressure sensor. Use the following procedure for Stage 2 filters in the Measure section of the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-024 in in the Associated Procedures Table. Use the following procedure for Stage 2 filters in the Measure section in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in the Associated Procedures Table. | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2psia\] of each other? **YES** | 1B |
 > | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2psia\] of each other? **NORepair:** Replace the fuel supply pressure sensor. Refer to Procedure 019-398 in the Associated Procedures Table. | 2A |  |
 >
 > #### STEP 1B. Check the fuel supply lines.
@@ -194,23 +194,23 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in in the Associated Procedures Table. | Stage 2 fuel filter restriction within specification? **YES** | 1D |
-> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the Stage 2 fuel filters. Use the following procedure in the K38,K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-076 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-076 in the Associated Procedures Table. | 1C-1 |  |
+> | Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in in the Associated Procedures Table. | Stage 2 fuel filter restriction within specification? **YES** | 1D |
+> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the Stage 2 fuel filters. Use the following procedure in the K38,K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-076 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-076 in the Associated Procedures Table. | 1C-1 |  |
 >
 > #### STEP 1C-1. Check the fuel filter head.
 >
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Use the following procedure in the K38, K50,QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in Associated Procedures Table. | Stage 2 fuel filter restriction within specification? **YES** | 2A |
-> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the Stage 2 fuel filter head. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in Associated Procedures Table. | 2A |  |
+> | Use the following procedure in the K38, K50,QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in Associated Procedures Table. | Stage 2 fuel filter restriction within specification? **YES** | 2A |
+> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the Stage 2 fuel filter head. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-020 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-020 in Associated Procedures Table. | 2A |  |
 >
 > #### STEP 1D. Check the fuel supply pressure at the fuel inlet manifold.
 >
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Close the fuel supply valve. Remove the M14 STOR plug from the fuel inlet manifold. Install a Compuchek™ fitting, Part Number 3824844, or equivalent, in the fuel inlet manifold. Connect the vacuum gauge and adapter, Part Number 3164491, or equivalent, and digital multimeter, Part Number 3164488 or 3164489,or equivalent, to the Compuchek™ fitting. Open the fuel supply valve. Start and operate the engine at low idle and high idle. Record the fuel inlet pressure readings. | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **YESRepair:** Replace the fuel pump. Use the following procedure the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 005-016 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in the Associated Procedures Table. | 2A |
+> | Close the fuel supply valve. Remove the M14 STOR plug from the fuel inlet manifold. Install a Compuchek™ fitting, Part Number 3824844, or equivalent, in the fuel inlet manifold. Connect the vacuum gauge and adapter, Part Number 3164491, or equivalent, and digital multimeter, Part Number 3164488 or 3164489,or equivalent, to the Compuchek™ fitting. Open the fuel supply valve. Start and operate the engine at low idle and high idle. Record the fuel inlet pressure readings. | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **YESRepair:** Replace the fuel pump. Use the following procedure the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 005-016 in the Associated Procedures Table. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in the Associated Procedures Table. | 2A |
 > | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **NORepair:** Refer to the equipment manufacturer service information to reduce fuel inlet pressure. | 2A |  |
 >
 > ### STEP 2. Disable and clear the fault code.
@@ -236,15 +236,15 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Fuel Pump | [[28-005-016-tr — Fuel Pump\|Refer to Procedure 005-016]] | K38, K50, QSK38 and QSK50 | 4021528 |
+> | Fuel Pump | [[28-005-016-tr — Fuel Pump\|Refer to Procedure 005-016]] | K38, K50, QSK38 and QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 > | Fuel Pump | Refer to Procedure 005-016 | QSK38 and QSK50 | 4021530 |
-> | Fuel Filter Head | [[28-006-017-tr — Fuel Filter Head\|Refer to Procedure 006-017]] | K38, K50, QSK38 and QSK50 | 4021528 |
+> | Fuel Filter Head | [[28-006-017-tr — Fuel Filter Head\|Refer to Procedure 006-017]] | K38, K50, QSK38 and QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 > | Fuel Filter Head | Refer to Procedure 006-017 | QSK38 and QSK50 | 4021530 |
-> | Fuel Inlet Restriction | [[28-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020]] | K38, K50, QSK38 and QSK50 | 4021528 |
+> | Fuel Inlet Restriction | [[28-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020]] | K38, K50, QSK38 and QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 > | Fuel Inlet Restriction | Refer to Procedure 006-020 | QSK38 and QSK50 | 4021530 |
-> | Fuel Supply Lines | [[28-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024]] | K38, K50, QSK38 and QSK50 | 4021528 |
+> | Fuel Supply Lines | [[28-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024]] | K38, K50, QSK38 and QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 > | Fuel Supply Lines | Refer to Procedure 006-024 | QSK38 and QSK50 | 4021530 |
-> | Fuel Filter (Stage 2) | Refer to Procedure 006-076 | K38, K50, QSK38 and QSK50 | 4021528 |
+> | Fuel Filter (Stage 2) | Refer to Procedure 006-076 | K38, K50, QSK38 and QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] |
 > | Fuel Filter (Stage 2) | Refer to Procedure 006-076 | QSK45 and QSK60 | 4021530 |
-> | Fuel Supply Pump Pressure Sensor | Refer to Procedure 019-398 | QSK19 | 4022094 |
-> | Fuel Supply Pump Pressure Sensor | Refer to Procedure 019-398 | QSK38, QSK50, and QSK60 | 4022102 |
+> | Fuel Supply Pump Pressure Sensor | Refer to Procedure 019-398 | QSK19 | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] |
+> | Fuel Supply Pump Pressure Sensor | Refer to Procedure 019-398 | QSK38, QSK50, and QSK60 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |

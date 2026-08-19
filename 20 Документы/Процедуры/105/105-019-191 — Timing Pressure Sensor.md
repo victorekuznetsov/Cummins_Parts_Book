@@ -68,7 +68,7 @@ tags:
 
 ### Снятие
 
-Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене 4021419 или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене 3666113.
+Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене 3666113.
 
 ![[19400295.png]]
 
@@ -95,7 +95,7 @@ tags:
 
 ![[19400308.png]]
 
-Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене 4021419 или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене 3666113.
+Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене 3666113.
 
 ![[19400295.png]]
 
@@ -119,7 +119,7 @@ tags:
 >
 > ### Remove
 >
-> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin 4021419 or Procedure 019-031 in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin 3666113.
+> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure 019-031 in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin 3666113.
 >
 > Clean the control valve body around the pressure sensor.
 >
@@ -138,4 +138,4 @@ tags:
 >
 > Connect the sensor connection.
 >
-> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin 4021419 or Procedure 019-031 in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin 3666113.
+> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure 019-031 in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin 3666113.

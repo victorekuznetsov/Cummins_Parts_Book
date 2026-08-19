@@ -50,7 +50,7 @@ tags:
 
 ### Решение
 
-См. Technical Service Bulletin, New Rear Crankshaft Seal Service Tools, TSB180112.
+См. Technical Service Bulletin, New Rear Crankshaft Seal Service Tools, [[tsb180112 — New Rear Crankshaft Seal Service Tools\|TSB180112]].
 
 ### Положение о гарантии
 
@@ -68,7 +68,7 @@ tags:
 >
 > ### Resolution
 >
-> See Technical Service Bulletin, New Rear Crankshaft Seal Service Tools, TSB180112.
+> See Technical Service Bulletin, New Rear Crankshaft Seal Service Tools, [[tsb180112 — New Rear Crankshaft Seal Service Tools\|TSB180112]].
 >
 > ### Warranty Statement
 >

@@ -53,7 +53,7 @@ tags:
 
 Подготовьте двигатель, чтобы удалить проводную проводку.
 
-- Отключите батарею. См. процедуру 013-009 в разделе 13 Руководства по обслуживанию QSK19, Бюллетень 4021592.
+- Отключите батарею. См. процедуру 013-009 в разделе 13 Руководства по обслуживанию QSK19, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 - Чистый двигатель на всех электрических соединениях.[[99-000-009 — Engine Cleaning|См. процедуру 000-009 в разделе 0 Руководства по обслуживанию QSK19, Бюллетень 4021592.]]
 
 ![[ck800wa.png]]
@@ -239,7 +239,7 @@ tags:
 > [!danger] ОПАСНО
 > Батареи могут выделять взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы уменьшить возможность арки, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-- Подключите батарею. См. процедуру 013-009 в разделе 13 Руководства по обслуживанию QSK19, Бюллетень 4021592.
+- Подключите батарею. См. процедуру 013-009 в разделе 13 Руководства по обслуживанию QSK19, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 - Управляйте двигателем и проверяйте активные коды неисправностей.
 
 ![[ck800wa.png]]
@@ -256,7 +256,7 @@ tags:
 >
 > Prepare engine to remove the wire harness.
 >
-> - Disconnect the battery. Refer to Procedure 013-009 in Section 13 of the QSK19 Service Manual, Bulletin 4021592.
+> - Disconnect the battery. Refer to Procedure 013-009 in Section 13 of the QSK19 Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 > - Clean engine at all electrical connections. [[99-000-009 — Engine Cleaning|Refer to Procedure 000-009 in Section 0 of the QSK19 Service Manual, Bulletin 4021592.]]
 >
 > ### Remove
@@ -382,5 +382,5 @@ tags:
 > **WARNING · Опасно**
 > Batteries can emitt explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arching, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
-> - Connect the battery. Refer to Procedure 013-009 in Section 13 of the QSK19 Service Manual, Bulletin 4021592.
+> - Connect the battery. Refer to Procedure 013-009 in Section 13 of the QSK19 Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 > - Operate the engine and check for active fault codes.

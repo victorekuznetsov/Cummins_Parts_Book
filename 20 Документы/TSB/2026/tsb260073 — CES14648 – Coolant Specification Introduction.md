@@ -147,7 +147,7 @@ tags:
 
 CES14648 был разработан вокруг HHP Top Stop Wet Liners для улучшения защиты цилиндров от кавитации. Данная CES применяется только для промышленных и морских применений. Полный список затронутых платформ двигателя доступен в следующих руководствах и процедурах.
 
-- 5411406 - Руководство по эксплуатации жидкостей для продуктов Cummins® > Раздел 5 - Охлаждающее средство:
+- [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] - Руководство по эксплуатации жидкостей для продуктов Cummins® > Раздел 5 - Охлаждающее средство:
 - Всем Cummins Inc. Руководства владельцев платформ двигателя > Раздел V - Технические характеристики технического обслуживания:
 
 **Причина изменения**
@@ -170,7 +170,7 @@ CES 14648 позволяет использовать хладагенты на 
 
 CEAF 202605200001 представлен и выпущен.
 
-Руководство по жидкостям для двигателей Cummins, раздел 5 (00-379-004) Требования к охлаждению двигателя и (00-379-006) Техническое обслуживание системы охлаждения и охлаждения. Все руководства для владельцев платформ Cummins Inc., раздел V - Технические характеристики технического обслуживания (00-018-004) Рекомендации и спецификации по охлаждению обновлены.
+Руководство по жидкостям для двигателей Cummins, раздел 5 ([[00-379-004 — Engine Coolant Requirements\|00-379-004]]) Требования к охлаждению двигателя и ([[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]]) Техническое обслуживание системы охлаждения и охлаждения. Все руководства для владельцев платформ Cummins Inc., раздел V - Технические характеристики технического обслуживания ([[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]]) Рекомендации и спецификации по охлаждению обновлены.
 
 - Эти руководства служат документами «высокого уровня». Руководящие документы по обслуживанию более низкого уровня (Владелец, Эксплуатация и техническое обслуживание, Сервис) во всех индивидуальных конфигурациях двигателя содержат конфликты с обновленными документами высокого уровня. В случае возникновения таких конфликтов документация высокого уровня имеет приоритет.
 
@@ -178,16 +178,16 @@ CEAF 202605200001 представлен и выпущен.
 
 Следуйте инструкциям Service Manual. Охладители на основе пропиленгликоля (PG) ** должны** содержать нитриты или нитриты и молибдаты в пределах спецификации концентрации в ASTM D6210 Table A1.1. Охладители ОАТ на основе ПГ**, не*** удовлетворяющие этим требованиям, должны быть удалены при первой же возможности и заменены на соответствующие охладители.
 
-Руководство по жидкостям для двигателей Cummins, раздел 5 (00-379-004) Требования к охлаждению двигателя и (00-379-006) Техническое обслуживание системы охлаждения и охлаждения. Все руководства по эксплуатации платформ для двигателей Cummins Inc, раздел V – Технические характеристики технического обслуживания (00-018-004) Рекомендации и технические характеристики по охлаждению обновляются, поскольку они служат документами «высокого уровня». Руководящие документы по обслуживанию более низкого уровня (Владелец, Эксплуатация и техническое обслуживание, Сервис) во всех индивидуальных конфигурациях двигателя содержат конфликты с обновленными документами высокого уровня. В случае возникновения таких конфликтов документация высокого уровня имеет приоритет.
+Руководство по жидкостям для двигателей Cummins, раздел 5 ([[00-379-004 — Engine Coolant Requirements\|00-379-004]]) Требования к охлаждению двигателя и ([[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]]) Техническое обслуживание системы охлаждения и охлаждения. Все руководства по эксплуатации платформ для двигателей Cummins Inc, раздел V – Технические характеристики технического обслуживания ([[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]]) Рекомендации и технические характеристики по охлаждению обновляются, поскольку они служат документами «высокого уровня». Руководящие документы по обслуживанию более низкого уровня (Владелец, Эксплуатация и техническое обслуживание, Сервис) во всех индивидуальных конфигурациях двигателя содержат конфликты с обновленными документами высокого уровня. В случае возникновения таких конфликтов документация высокого уровня имеет приоритет.
 
 **Публикации затронуты**
 
 | Таблица 1, Публикации, затронутые |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Жидкости для Cummins Engines Manual | См. список затронутых продуктов | 5411406 | Требования к охлаждающей жидкости | 00-379-004 | 5 |
-| Жидкости для Cummins Engines Manual | См. список затронутых продуктов | 5411406 | Обслуживание охлаждающей жидкости и системы охлаждения | 00-379-006 | 5 |
-| Руководства владельцев | Все руководства Cummins Inc в Бюллетене технических услуг, Идентификация модели обслуживания Cummins®, TSB130080 |  | Технические характеристики технического обслуживания | 00-018-004 | VV |
+| Жидкости для Cummins Engines Manual | См. список затронутых продуктов | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Требования к охлаждающей жидкости | [[00-379-004 — Engine Coolant Requirements\|00-379-004]] | 5 |
+| Жидкости для Cummins Engines Manual | См. список затронутых продуктов | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Обслуживание охлаждающей жидкости и системы охлаждения | [[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]] | 5 |
+| Руководства владельцев | Все руководства Cummins Inc в Бюллетене технических услуг, Идентификация модели обслуживания Cummins®, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]] |  | Технические характеристики технического обслуживания | [[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]] | VV |
 
 ### История изменений документа
 
@@ -290,7 +290,7 @@ CEAF 202605200001 представлен и выпущен.
 >
 > CES14648 has been developed around HHP Top Stop Wet Liners to improve cylinder liner protection against cavitation. This CES has been applied to Industrial and Marine applications **only**. A full list of affected engine platforms is available in the following manuals and procedures.
 >
-> - 5411406 –Fluids for Cummins® Products Service Manual \> Section 5 – Coolant:
+> - [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] –Fluids for Cummins® Products Service Manual \> Section 5 – Coolant:
 > - All Cummins Inc. Engine Platform Owners Manuals \> Section V – Maintenance Specifications:
 >
 > **Reason for Change**
@@ -313,7 +313,7 @@ CEAF 202605200001 представлен и выпущен.
 >
 > CEAF 202605200001 submitted and issued.
 >
-> Fluids for Cummins Engines Manual, Section 5, (00-379-004) Engine Coolant Requirements and (00-379-006) Maintenance of Coolant and Cooling System. All Cummins Inc Engine Platform Owners Manuals, Section V – Maintenance Specifications, (00-018-004) Coolant Recommendations and Specifications are updated.
+> Fluids for Cummins Engines Manual, Section 5, ([[00-379-004 — Engine Coolant Requirements\|00-379-004]]) Engine Coolant Requirements and ([[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]]) Maintenance of Coolant and Cooling System. All Cummins Inc Engine Platform Owners Manuals, Section V – Maintenance Specifications, ([[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]]) Coolant Recommendations and Specifications are updated.
 >
 > - These manuals serve as "high level" documents. The lower-level service manual documents (Owner, Operation and Maintenance, Service) in all individual engine configurations contain conflicts with the updated high-level documents. Where these conflicts occur, the High-Level documentation takes precedence.
 >
@@ -321,15 +321,15 @@ CEAF 202605200001 представлен и выпущен.
 >
 > Follow Service Manual guidelines. Propylene glycol (PG) based coolants **must** contain nitrite or nitrite and molybdate within the specified concentration limits in ASTM D6210 Table A1.1. PG based OAT coolants **not** meeting these requirements should be removed at the earliest opportunity and replaced with a compliant coolant.
 >
-> Fluids for Cummins Engines Manual, Section 5, (00-379-004) Engine Coolant Requirements and (00-379-006) Maintenance of Coolant and Cooling System. All Cummins Inc Engine Platform Owners Manuals, Section V – Maintenance Specifications, (00-018-004) Coolant Recommendations and Specifications are updated as these serve as ‘high level' documents. The lower-level service manual documents (Owner, Operation and Maintenance, Service) in all individual engine configurations contain conflicts with the updated high-level documents. Where these conflicts occur, the High-Level documentation takes precedence.
+> Fluids for Cummins Engines Manual, Section 5, ([[00-379-004 — Engine Coolant Requirements\|00-379-004]]) Engine Coolant Requirements and ([[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]]) Maintenance of Coolant and Cooling System. All Cummins Inc Engine Platform Owners Manuals, Section V – Maintenance Specifications, ([[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]]) Coolant Recommendations and Specifications are updated as these serve as ‘high level' documents. The lower-level service manual documents (Owner, Operation and Maintenance, Service) in all individual engine configurations contain conflicts with the updated high-level documents. Where these conflicts occur, the High-Level documentation takes precedence.
 >
 > **Publications Affected**
 >
 > | Table 1, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Fluids for Cummins Engines Manual | See Affected Product List | 5411406 | Engine Coolant Requirements | 00-379-004 | 5 |
-> | Fluids for Cummins Engines Manual | See Affected Product List | 5411406 | Maintenance of Coolant and Cooling System | 00-379-006 | 5 |
-> | Owners Manuals | All Cummins Inc Owners Manuals within Technical Service Bulletin, Cummins® Service Model Identification, TSB130080 |  | Maintenance Specifications | 00-018-004 | V |
+> | Fluids for Cummins Engines Manual | See Affected Product List | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Engine Coolant Requirements | [[00-379-004 — Engine Coolant Requirements\|00-379-004]] | 5 |
+> | Fluids for Cummins Engines Manual | See Affected Product List | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Maintenance of Coolant and Cooling System | [[00-379-006 — Maintenance of Coolant and Cooling System\|00-379-006]] | 5 |
+> | Owners Manuals | All Cummins Inc Owners Manuals within Technical Service Bulletin, Cummins® Service Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]] |  | Maintenance Specifications | [[00-018-004 — Coolant Recommendations and Specifications\|00-018-004]] | V |
 >
 > ### Document History

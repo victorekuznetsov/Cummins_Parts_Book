@@ -86,7 +86,7 @@ tags:
 | **Условия: ** Работа двигателя. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте внешние утечки топлива. Запустите двигатель и позвольте двигателю простаивать. Проверка внешних утечек топлива. | Внешние утечки топлива? *** Ремонт: ** Ремонт всех утечек топлива. Ссылка на QSK19, QSK19 CM850 MCRS и QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. | 3А |
+| Проверьте внешние утечки топлива. Запустите двигатель и позвольте двигателю простаивать. Проверка внешних утечек топлива. | Внешние утечки топлива? *** Ремонт: ** Ремонт всех утечек топлива. Ссылка на QSK19, QSK19 CM850 MCRS и QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | 3А |
 | Внешние утечки топлива? ** НЕТ** | 2В |  |
 
 #### ШАГ 2B. Проверьте воздух в топливе.
@@ -94,7 +94,7 @@ tags:
 | ** Условия:** Удалить линию кровотока воздуха из клапана с воздушным кровотоком на блоке коллектора слива топлива. Проведите линию воздушного кровотечения в подходящий контейнер для сбора топлива. Включите переключатель зажигания |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, QSK19, QSK19 CM850 Модульная общая железнодорожная система, QSK19 CM2150 Модульная общая железнодорожная система, Вестник 4021592.[[20-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]. | Воздух, присутствующий в линии расхода топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. См. процедуру 006-024 в Таблице ассоциированных процедур. | 3А |
+| Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, QSK19, QSK19 CM850 Модульная общая железнодорожная система, QSK19 CM2150 Модульная общая железнодорожная система, Вестник [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]. | Воздух, присутствующий в линии расхода топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. См. процедуру 006-024 в Таблице ассоциированных процедур. | 3А |
 | Воздух, присутствующий в линии расхода топлива? ** НЕТ** | 2C |  |
 
 #### ШАГ 2C. Проверьте ограничение топливного фильтра 1-й стадии.
@@ -152,12 +152,12 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Топливный насос | [[20-005-016-tr — Fuel Pump\|См. процедуру 005-016]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-| Сопротивление на входе топлива | [[20-006-020-tr — Fuel Inlet Restriction\|См. процедуру 006-020]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-| Магистрали подачи топлива | [[20-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-| Предохранительный клапан давления топлива | [[20-006-061 — Fuel Pressure Relief Valve\|См. процедуру 006-061]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-| Топливный фильтр (ступень 1) | [[20-006-075-tr — Fuel Filter (Stage 1)\|См. процедуру 006-075]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-| Топливный фильтр (ступень 2) | [[20-006-076-tr — Fuel Filter (Stage 2)\|См. процедуру 006-076]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
+| Топливный насос | [[20-005-016-tr — Fuel Pump\|См. процедуру 005-016]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+| Сопротивление на входе топлива | [[20-006-020-tr — Fuel Inlet Restriction\|См. процедуру 006-020]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+| Магистрали подачи топлива | [[20-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+| Предохранительный клапан давления топлива | [[20-006-061 — Fuel Pressure Relief Valve\|См. процедуру 006-061]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+| Топливный фильтр (ступень 1) | [[20-006-075-tr — Fuel Filter (Stage 1)\|См. процедуру 006-075]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+| Топливный фильтр (ступень 2) | [[20-006-076-tr — Fuel Filter (Stage 2)\|См. процедуру 006-076]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -205,7 +205,7 @@ tags:
 > | **Conditions:** Operate engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for external fuel leaks. Start the engine and let engine idle. Inspect for external fuel leaks. | External fuel leaks? **YESRepair:** Repair all fuel leaks. Reference the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. | 3A |
+> | Check for external fuel leaks. Start the engine and let engine idle. Inspect for external fuel leaks. | External fuel leaks? **YESRepair:** Repair all fuel leaks. Reference the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | 3A |
 > | External fuel leaks? **NO** | 2B |  |
 >
 > #### STEP 2B. Check for air in fuel.
@@ -213,7 +213,7 @@ tags:
 > | **Conditions:** Remove air bleed line from air bleed valve on the fuel drain manifold block. Route the air bleed line into a suitable container to collect fuel. Turn keyswitch ON |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the fuel flow for air. Use the following procedure in Service Manual, QSK19, QSK19 CM850 Modular Common Rail System, QSK19 CM2150 Modular Common Rail System, Bulletin 4021592. [[20-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6]]. | Air present in the fuel flow line? **YESRepair:** Repair or replace the damaged line or loose connection. Refer to Procedure 006-024 in the Associated Procedures Table. | 3A |
+> | Inspect the fuel flow for air. Use the following procedure in Service Manual, QSK19, QSK19 CM850 Modular Common Rail System, QSK19 CM2150 Modular Common Rail System, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6]]. | Air present in the fuel flow line? **YESRepair:** Repair or replace the damaged line or loose connection. Refer to Procedure 006-024 in the Associated Procedures Table. | 3A |
 > | Air present in the fuel flow line? **NO** | 2C |  |
 >
 > #### STEP 2C. Check the Stage 1 fuel filter restriction.
@@ -271,9 +271,9 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Fuel Pump | [[20-005-016-tr — Fuel Pump\|Refer to Procedure 005-016]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-> | Fuel Inlet Restriction | [[20-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-> | Fuel Supply Lines | [[20-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-> | Fuel Pressure Relief Valve | [[20-006-061 — Fuel Pressure Relief Valve\|Refer to Procedure 006-061]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-> | Fuel Filter (Stage 1) | [[20-006-075-tr — Fuel Filter (Stage 1)\|Refer to Procedure 006-075]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
-> | Fuel Filter (Stage 2) | [[20-006-076-tr — Fuel Filter (Stage 2)\|Refer to Procedure 006-076]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | 4021592 |
+> | Fuel Pump | [[20-005-016-tr — Fuel Pump\|Refer to Procedure 005-016]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+> | Fuel Inlet Restriction | [[20-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+> | Fuel Supply Lines | [[20-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+> | Fuel Pressure Relief Valve | [[20-006-061 — Fuel Pressure Relief Valve\|Refer to Procedure 006-061]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+> | Fuel Filter (Stage 1) | [[20-006-075-tr — Fuel Filter (Stage 1)\|Refer to Procedure 006-075]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |
+> | Fuel Filter (Stage 2) | [[20-006-076-tr — Fuel Filter (Stage 2)\|Refer to Procedure 006-076]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] |

@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Сервис/Части» пересматривает раздел «Установка» процедуры 009-001 (Accessory Drive) в Руководстве по обслуживанию QSK19, Бюллетень 4021592.
+Эта тема «Сервис/Части» пересматривает раздел «Установка» процедуры 009-001 (Accessory Drive) в Руководстве по обслуживанию QSK19, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 
 Эта процедура была пересмотрена, чтобы позволить более легко устанавливать дополнительный привод на двигателях MRCS, поскольку не требуется выстраивать временные метки на шасси и шасси бездействия.
 
@@ -68,7 +68,7 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises the Install section of Procedure 009-001 (Accessory Drive) in the QSK19 Service Manual, Bulletin 4021592.
+> This Service/Parts Topic revises the Install section of Procedure 009-001 (Accessory Drive) in the QSK19 Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 >
 > This procedure has been revised to allow for the accessory drive to be installed more easily on MRCS engines, as it is **not** necessary to line up the timing marks on the camshaft and camshaft idler gear.
 >

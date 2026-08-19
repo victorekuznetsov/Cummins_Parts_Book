@@ -81,7 +81,7 @@ tags:
 | Водяная трубка (с фильтром) | 3648346 |
 | Debris Shield (фильтр **только **) | 3648319 |
 
-Для получения дополнительной информации о снятии и установке фильтра водяного насоса и слезоточивого отверстия, см. Процедуру 008-062 в Руководстве по обслуживанию K38, K50, QSK38 и QSK50, Вестник 4021528 или Руководстве по обслуживанию QSK45 и QSK60, Вестник 4021530.
+Для получения дополнительной информации о снятии и установке фильтра водяного насоса и слезоточивого отверстия, см. Процедуру 008-062 в Руководстве по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] или Руководстве по обслуживанию QSK45 и QSK60, Вестник 4021530.
 
 ![[08e00185.png]]
 
@@ -131,7 +131,7 @@ tags:
 > | Water Drain Tube (with filter) | 3648346 |
 > | Debris Shield (filter **only**) | 3648319 |
 >
-> For further information on removal and installation of the water pump and weep hole filter, reference Procedure 008-062 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528, or the QSK45 and QSK60 Service Manual, Bulletin 4021530.
+> For further information on removal and installation of the water pump and weep hole filter, reference Procedure 008-062 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], or the QSK45 and QSK60 Service Manual, Bulletin 4021530.
 >
 > Figure 1, New water pump with weep hole relocated and filter installed.
 >

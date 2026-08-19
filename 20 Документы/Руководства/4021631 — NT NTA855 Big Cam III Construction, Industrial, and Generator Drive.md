@@ -32,10 +32,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021631-toc | Table of Contents |  |
+| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-toc | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | own-frwd | Foreword | 14-Jul-2006 |
-| 4021631-titlepage | Titlepage | 02-Oct-2006 |
+| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-titlepage | Titlepage | 02-Oct-2006 |
 
 ### Section i - Introduction
 
@@ -88,7 +88,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021631-backcover | Backcover | 02-Oct-2006 |
+| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-backcover | Backcover | 02-Oct-2006 |
 
 ### Section 1 - Operating Instructions
 

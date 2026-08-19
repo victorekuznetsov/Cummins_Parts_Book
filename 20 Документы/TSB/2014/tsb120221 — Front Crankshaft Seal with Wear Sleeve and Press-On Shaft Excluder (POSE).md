@@ -77,7 +77,7 @@ tags:
 
 Используйте следующие процедуры для получения дополнительной информации о снятии и установке уплотнения передней коленчатой вал.
 
-- K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528.[[28-001-023-tr — Crankshaft Seal, Front|См. процедуру 001-023 в разделе 1.]]
+- K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-001-023-tr — Crankshaft Seal, Front|См. процедуру 001-023 в разделе 1.]]
 - Руководство по обслуживанию KTA38GC CM558, Вестник 4021642. См. процедуру 001-023 в разделе 1.
 
 ### История изменений документа
@@ -121,7 +121,7 @@ tags:
 >
 > Use the following procedures for further information on removal and installation of the front crankshaft seal.
 >
-> - K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
+> - K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
 > - KTA38GC CM558 Service Manual, Bulletin 4021642. Refer to Procedure 001-023 in Section 1.
 >
 > ### Document History

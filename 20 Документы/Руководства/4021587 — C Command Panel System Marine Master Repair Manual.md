@@ -32,8 +32,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021587-toc | Table of Contents |  |
-| 4021587-titlepage | Titlepage | 08-Jan-2007 |
+| [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]]-toc | Table of Contents |  |
+| [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]]-titlepage | Titlepage | 08-Jan-2007 |
 | marpanel-frwd | Forword | 17-Jan-2007 |
 
 ### Section i — Introduction
@@ -132,7 +132,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021587-backcover | Backcover | 08-Jan-2007 |
+| [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]]-backcover | Backcover | 08-Jan-2007 |
 
 ### Section E — Engine and System Identification
 

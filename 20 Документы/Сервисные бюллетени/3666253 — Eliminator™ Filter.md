@@ -1269,7 +1269,7 @@ tags:
 
 Выпущен новый фильтр Cummins FiltrationTM, цельный центробежный масляный фильтр EliminatorTM с технологией SpiraTecTM.
 
-Полный список деталей, ссылочные TSB150164 и TSB160036.
+Полный список деталей, ссылочные [[tsb150164 — Optional One-Piece Eliminator™ Centrifugal Oil Filter Upgrade\|TSB150164]] и [[tsb160036 — New Centrifuge Cover, Eliminator™ Assembly, and Centrifugal Filter for Eliminator™\|TSB160036]].
 
 ## Список частей для гаскета
 
@@ -2324,7 +2324,7 @@ tags:
 >
 > A new Cummins Filtration™ one-piece Eliminator™ centrifugal oil filter with SpiraTec™ technology has been released.
 >
-> For full parts list, reference TSB150164 and TSB160036.
+> For full parts list, reference [[tsb150164 — Optional One-Piece Eliminator™ Centrifugal Oil Filter Upgrade\|TSB150164]] and [[tsb160036 — New Centrifuge Cover, Eliminator™ Assembly, and Centrifugal Filter for Eliminator™\|TSB160036]].
 >
 > ## Gasket Parts list
 >

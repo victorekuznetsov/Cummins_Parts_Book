@@ -87,7 +87,7 @@ tags:
 | **Условия: ** Работа двигателя. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте внешние утечки топлива. Запустите двигатель и запускайте его на холостом ходу. Проверка внешних утечек топлива. | Внешние утечки топлива? *** Ремонт: ** Ремонт всех утечек топлива. Ссылка на QSK19, QSK19 CM850 MCRS и QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. | 3А |
+| Проверьте внешние утечки топлива. Запустите двигатель и запускайте его на холостом ходу. Проверка внешних утечек топлива. | Внешние утечки топлива? *** Ремонт: ** Ремонт всех утечек топлива. Ссылка на QSK19, QSK19 CM850 MCRS и QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | 3А |
 | Внешние утечки топлива? ** НЕТ** | 2В |  |
 
 #### ШАГ 2B. Проверьте воздух в топливе.
@@ -95,7 +95,7 @@ tags:
 | ** Условия:** Удалить линию кровотока воздуха из клапана с воздушным кровотоком на блоке коллектора слива топлива. Проведите линию воздушного кровотечения в подходящий контейнер для сбора топлива. Включите зажигание. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник 4021528.[[28-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-003 в разделе 6. | Воздух, присутствующий в линии расхода топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. См. процедуру 006-024 в Таблице ассоциированных процедур. | 3А |
+| Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-003 в разделе 6. | Воздух, присутствующий в линии расхода топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. См. процедуру 006-024 в Таблице ассоциированных процедур. | 3А |
 | Воздух, присутствующий в линии расхода топлива? ** НЕТ** | 2C |  |
 
 #### ШАГ 2C. Проверьте ограничение топливного фильтра 1-й стадии.
@@ -206,7 +206,7 @@ tags:
 > | **Conditions:** Operate engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for external fuel leaks. Start the engine and let it idle. Inspect for external fuel leaks. | External fuel leaks? **YESRepair:** Repair all fuel leaks. Reference the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. | 3A |
+> | Check for external fuel leaks. Start the engine and let it idle. Inspect for external fuel leaks. | External fuel leaks? **YESRepair:** Repair all fuel leaks. Reference the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | 3A |
 > | External fuel leaks? **NO** | 2B |  |
 >
 > #### STEP 2B. Check for air in fuel.
@@ -214,7 +214,7 @@ tags:
 > | **Conditions:** Remove air bleed line from air bleed valve on the fuel drain manifold block. Route the air bleed line into a suitable container to collect fuel. Turn keyswitch ON. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the fuel flow for air. Use the following procedure in Service Manual, K38, K50, QSK38 and QSK50, Bulletin 4021528. [[28-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6]] Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow line? **YESRepair:** Repair or replace the damaged line or loose connection. Refer to Procedure 006-024 in the Associated Procedures Table. | 3A |
+> | Inspect the fuel flow for air. Use the following procedure in Service Manual, K38, K50, QSK38 and QSK50, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6]] Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow line? **YESRepair:** Repair or replace the damaged line or loose connection. Refer to Procedure 006-024 in the Associated Procedures Table. | 3A |
 > | Air present in the fuel flow line? **NO** | 2C |  |
 >
 > #### STEP 2C. Check the Stage 1 fuel filter restriction.

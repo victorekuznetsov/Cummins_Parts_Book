@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема для обслуживания/частей пересматривает Процедура 008-018 (Система охлаждения) в разделе 8 Руководства по устранению неполадок и ремонту, Двигатели серии C, Вестник 3666003 и Руководство по устранению неполадок и ремонту, C8.3G, Двигатели C Gas Plus и L Gas Plus, Вестник 3666206. В раздел Заполнитель добавлены предостережение и информация, связанные с работой кабины-обогревателя.
+Эта тема для обслуживания/частей пересматривает Процедура 008-018 (Система охлаждения) в разделе 8 Руководства по устранению неполадок и ремонту, Двигатели серии C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]] и Руководство по устранению неполадок и ремонту, C8.3G, Двигатели C Gas Plus и L Gas Plus, Вестник 3666206. В раздел Заполнитель добавлены предостережение и информация, связанные с работой кабины-обогревателя.
 
 > [!note] Примечание
 > Это усовершенствование продукта и не подлежит кампании.
@@ -65,7 +65,7 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Procedure 008-018 (Cooling System) in Section 8 of the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003 and Troublehsooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206. A caution and information related to the operation of the cab heater were added to the Fill section.
+> This Service/Parts Topic revises Procedure 008-018 (Cooling System) in Section 8 of the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]] and Troublehsooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206. A caution and information related to the operation of the cab heater were added to the Fill section.
 >
 > **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

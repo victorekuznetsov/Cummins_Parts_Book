@@ -53,8 +53,8 @@ tags:
 
 Используйте следующие процедуры для получения дополнительной информации об установщике плагинов расширения.
 
-- Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене 4021592.[[20-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
-- Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528.[[28-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
 - Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 005-016 в разделе 5.
 
 ![[22500001.png]]
@@ -76,8 +76,8 @@ tags:
 >
 > Use the following procedures for additional information on the expansion plug installer.
 >
-> - Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592. [[20-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
-> - Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
 > - Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in Section 5.
 >
 > | Table 1, Expansion Plug Installer, Part Number 2892394 |  |  |  |

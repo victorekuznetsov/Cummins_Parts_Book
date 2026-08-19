@@ -66,7 +66,7 @@ tags:
 
 **Описание изменения**
 
-Для пострадавшего продукта была выпущена новая система насоса для подъёмного электротоплива. Это изменение включает в себя нового поставщика насосов для подъёмного топлива, увеличение с двух до трёх насосов для подъёмного топлива на двигатель и новое соответствующее оборудование. См. таблицу 3. Эти новые насосы для подъема топлива добавляются в Руководство по эксплуатации и техническому обслуживанию, Бюллетень 3666134, в качестве предметов обслуживания.
+Для пострадавшего продукта была выпущена новая система насоса для подъёмного электротоплива. Это изменение включает в себя нового поставщика насосов для подъёмного топлива, увеличение с двух до трёх насосов для подъёмного топлива на двигатель и новое соответствующее оборудование. См. таблицу 3. Эти новые насосы для подъема топлива добавляются в Руководство по эксплуатации и техническому обслуживанию, Бюллетень [[3666134 — QST30 Operation and Maintenance Manual\|3666134]], в качестве предметов обслуживания.
 
 **Указания по обслуживанию**
 
@@ -137,9 +137,9 @@ tags:
 | ** Таблица 5, Затронутые публикации** |  |  |  |  |  |
 |---|---|---|---|---|---|
 | ** Типы **** | ** Машина** | ** Номер бюллетеня** | **Заголовок процедуры** | ** Процедура** | ** Раздел ** |
-| Руководство по обслуживанию | QST30 | 4021539 | Топливоподкачивающий насос | См. процедуру 005-045 | 5 |
-| Руководство по эксплуатации и техническому обслуживанию | QST30 | 3666134 | Регламент технического обслуживания | [[57-102-002-om — Maintenance Schedule\|См. процедуру 102-002]] | 2 |
-| Руководство по эксплуатации и техническому обслуживанию | QST30 | 3666134 | Топливоподкачивающий насос | См. процедуру 005-045 | 6 |
+| Руководство по обслуживанию | QST30 | [[4021539 — QST30 Service Manual\|4021539]] | Топливоподкачивающий насос | См. процедуру 005-045 | 5 |
+| Руководство по эксплуатации и техническому обслуживанию | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Регламент технического обслуживания | [[57-102-002-om — Maintenance Schedule\|См. процедуру 102-002]] | 2 |
+| Руководство по эксплуатации и техническому обслуживанию | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Топливоподкачивающий насос | См. процедуру 005-045 | 6 |
 
 **Идентификация детали**
 
@@ -184,7 +184,7 @@ tags:
 >
 > **Description of Change**
 >
-> A new electric fuel lift pump system has been released for the product affected. This change includes a new supplier for the fuel lift pumps, an increase from two to three fuel lift pumps per engine, and new relevant hardware. See Table 3. These new fuel lift pumps are added to the Operation and Maintenance Manual, Bulletin 3666134, as maintenance items.
+> A new electric fuel lift pump system has been released for the product affected. This change includes a new supplier for the fuel lift pumps, an increase from two to three fuel lift pumps per engine, and new relevant hardware. See Table 3. These new fuel lift pumps are added to the Operation and Maintenance Manual, Bulletin [[3666134 — QST30 Operation and Maintenance Manual\|3666134]], as maintenance items.
 >
 > **Service Instructions**
 >
@@ -255,9 +255,9 @@ tags:
 > | **Table 5, Publications Affected** |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | **Manual Type** | **Engine** | **Bulletin Number** | **Procedure Title** | **Procedure** | **Section** |
-> | Service Manual | QST30 | 4021539 | Fuel Lift Pump | Refer to Procedure 005-045 | 5 |
-> | Operations and Maintenance Manual | QST30 | 3666134 | Maintenance Schedule | [[57-102-002-om — Maintenance Schedule\|Refer to Procedure 102-002]] | 2 |
-> | Operations and Maintenance Manual | QST30 | 3666134 | Fuel Lift Pump | Refer to Procedure 005-045 | 6 |
+> | Service Manual | QST30 | [[4021539 — QST30 Service Manual\|4021539]] | Fuel Lift Pump | Refer to Procedure 005-045 | 5 |
+> | Operations and Maintenance Manual | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Maintenance Schedule | [[57-102-002-om — Maintenance Schedule\|Refer to Procedure 102-002]] | 2 |
+> | Operations and Maintenance Manual | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Fuel Lift Pump | Refer to Procedure 005-045 | 6 |
 >
 > **Part Identification**
 >

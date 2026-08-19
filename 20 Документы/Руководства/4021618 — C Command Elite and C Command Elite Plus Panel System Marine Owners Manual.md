@@ -32,9 +32,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021618-toc | Table of Contents |  |
+| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-toc | Table of Contents |  |
 | marpanel-frwd | Forward | 17-Jan-2007 |
-| 4021618-titlepage | Titlepage | 02-Mar-2007 |
+| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-titlepage | Titlepage | 02-Mar-2007 |
 
 ### Section i - Introduction
 
@@ -80,7 +80,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021618-backcover | Backcover | 02-Mar-2007 |
+| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-backcover | Backcover | 02-Mar-2007 |
 
 ### Section 1 - Operating Instructions
 

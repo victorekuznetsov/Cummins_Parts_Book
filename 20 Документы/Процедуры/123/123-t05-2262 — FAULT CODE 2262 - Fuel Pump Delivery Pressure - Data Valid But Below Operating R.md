@@ -77,7 +77,7 @@ tags:
 | **Условия: ** Работа двигателя. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте внешние утечки топлива. Проверьте наличие внешних утечек топлива или доказательств утечек. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592.[[20-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024 в разделе 6.]] | 3А |
+| Проверьте внешние утечки топлива. Проверьте наличие внешних утечек топлива или доказательств утечек. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-006-024-tr — Fuel Supply Lines\|См. процедуру 006-024 в разделе 6.]] | 3А |
 | Топливо просачивается наружу? ** НЕТ** | 2В |  |
 
 #### ШАГ 2B. Проверьте воздух в топливе.
@@ -85,7 +85,7 @@ tags:
 | ** Условия:** Удалить линию кровотока воздуха из клапана с воздушным кровотоком на блоке коллектора слива топлива. Проведите линию воздушного кровотечения в подходящий контейнер для сбора топлива. Включите зажигание. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте воздух в топливе. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 006-024 в разделе 6. | 3А |
+| Проверьте воздух в топливе. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-024 в разделе 6. | 3А |
 | Присутствует ли воздух в потоке топлива? ** НЕТ** | 2C |  |
 
 #### ШАГ 2C. Проверьте датчик давления подачи топлива.
@@ -101,7 +101,7 @@ tags:
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение входного отверстия на входе топливного фильтра 1-й стадии. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 006-020 в разделе 6. | Является ли ограничение входа на Стадию 1 большим, чем спецификация? ******* См. информацию об услугах изготовителя оборудования для инструкций по ремонту. | 3А |
+| Измерить ограничение входного отверстия на входе топливного фильтра 1-й стадии. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | Является ли ограничение входа на Стадию 1 большим, чем спецификация? ******* См. информацию об услугах изготовителя оборудования для инструкций по ремонту. | 3А |
 | Является ли ограничение входа на Стадию 1 большим, чем спецификация? ** НЕТ** | 2Е |  |
 
 #### ШАГ 2E. Проверьте ограничение фильтра 1-й стадии.
@@ -109,8 +109,8 @@ tags:
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение топливного фильтра 1-й стадии. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 006-020 в разделе 6. | Ограничение фильтра 1-й стадии меньше, чем спецификация? *** Ремонт:** Заменить насосную установку высокого давления. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 005-016 в разделе 5. | 3А |
-| Ограничение фильтра 1-й стадии меньше, чем спецификация? **NORepair:** Заменить топливный фильтр 1-й ступени. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень 4021592. См. процедуру 006-075 в разделе 6. | 3А |  |
+| Измерить ограничение топливного фильтра 1-й стадии. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | Ограничение фильтра 1-й стадии меньше, чем спецификация? *** Ремонт:** Заменить насосную установку высокого давления. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 005-016 в разделе 5. | 3А |
+| Ограничение фильтра 1-й стадии меньше, чем спецификация? **NORepair:** Заменить топливный фильтр 1-й ступени. Используйте следующую процедуру в руководстве по обслуживанию модульной общей железнодорожной системы QSK19, модульной общей железнодорожной системы QSK19 CM850 и модульной общей железнодорожной системы QSK19 CM2150, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-075 в разделе 6. | 3А |  |
 
 ### ШАГ 3. Сбросьте коды неисправностей.
 
@@ -167,7 +167,7 @@ tags:
 > | **Conditions:** Operate engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for external fuel leaks. Check for external fuel leaks or evidence of leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. [[20-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024 in Section 6.]] | 3A |
+> | Check for external fuel leaks. Check for external fuel leaks or evidence of leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-006-024-tr — Fuel Supply Lines\|Refer to Procedure 006-024 in Section 6.]] | 3A |
 > | Fuel leaking externally? **NO** | 2B |  |
 >
 > #### STEP 2B. Check for air in fuel.
@@ -175,7 +175,7 @@ tags:
 > | **Conditions:** Remove air bleed line from air bleed valve on the fuel drain manifold block. Route the air bleed line into a suitable container to collect fuel. Turn keyswitch ON. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for air in fuel. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Repair all fuel leaks. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 006-024 in Section 6. | 3A |
+> | Check for air in fuel. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Repair all fuel leaks. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System, and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-024 in Section 6. | 3A |
 > | Air present in the fuel flow? **NO** | 2C |  |
 >
 > #### STEP 2C. Check the fuel supply pressure sensor.
@@ -191,7 +191,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure fuel inlet restriction at the Stage 1 fuel filter inlet. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 006-020 in Section 6. | Is the Stage 1 inlet restriction greater than specification? **YESRepair:** Refer to the equipment manufacturer service information for repair instructions. | 3A |
+> | Measure fuel inlet restriction at the Stage 1 fuel filter inlet. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Is the Stage 1 inlet restriction greater than specification? **YESRepair:** Refer to the equipment manufacturer service information for repair instructions. | 3A |
 > | Is the Stage 1 inlet restriction greater than specification? **NO** | 2E |  |
 >
 > #### STEP 2E. Check the Stage 1 filter restriction.
@@ -199,8 +199,8 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the Stage 1 fuel filter restriction. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 006-020 in Section 6. | Stage 1 filter restriction less than specification? **YESRepair:** Replace the high-pressure pump assembly. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 005-016 in Section 5. | 3A |
-> | Stage 1 filter restriction less than specification? **NORepair:** Replace the Stage 1 fuel filter. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin 4021592. Refer to Procedure 006-075 in Section 6. | 3A |  |
+> | Measure the Stage 1 fuel filter restriction. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Stage 1 filter restriction less than specification? **YESRepair:** Replace the high-pressure pump assembly. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | 3A |
+> | Stage 1 filter restriction less than specification? **NORepair:** Replace the Stage 1 fuel filter. Use the following procedure in the QSK19, QSK19 CM850 Modular Common Rail System and QSK19 CM2150 Modular Common Rail System Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-075 in Section 6. | 3A |  |
 >
 > ### STEP 3. Clear the fault codes.
 >

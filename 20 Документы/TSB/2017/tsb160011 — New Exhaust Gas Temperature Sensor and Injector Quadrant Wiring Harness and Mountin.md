@@ -143,7 +143,7 @@ tags:
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
 | Устранение неполадок и ремонт | QSK38, QSK50 и QSK60 CM2150 | 4021533 | Жгут проводов двигателя | См. процедуру 019-043 | 19 |
-| Эксплуатация и техническое обслуживание | K38, K50, QSK38 и QSK50 | 3810497 | Крышка коромысел | [[28-003-011-om — Rocker Lever Cover\|См. процедуру 003-011]] | А. |
+| Эксплуатация и техническое обслуживание | K38, K50, QSK38 и QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Крышка коромысел | [[28-003-011-om — Rocker Lever Cover\|См. процедуру 003-011]] | А. |
 
 ### История изменений документа
 
@@ -243,6 +243,6 @@ tags:
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
 > | Troubleshooting and Repair | QSK38, QSK50 and QSK60 CM2150 | 4021533 | Engine Wiring Harness | Refer to Procedure 019-043 | 19 |
-> | Operation and Maintenance | K38, K50, QSK38 and QSK50 | 3810497 | Rocker Lever Cover | [[28-003-011-om — Rocker Lever Cover\|Refer to Procedure 003-011]] | A |
+> | Operation and Maintenance | K38, K50, QSK38 and QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Rocker Lever Cover | [[28-003-011-om — Rocker Lever Cover\|Refer to Procedure 003-011]] | A |
 >
 > ### Document History

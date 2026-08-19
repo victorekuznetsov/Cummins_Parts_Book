@@ -46,7 +46,7 @@ tags:
 
 ### Назначение
 
-В этом документе представлена информация для комплекта установки заднего коленчатого вала, номер детали 4918762. Набор используется для удаления и установки заднего масляного уплотнения и масляных уплотнений сзади на коленчатом валу двигателя серии QST30 с мокрыми корпусами маховиков. Для получения дополнительной информации обратитесь к процедуре 001-024 в руководстве по обслуживанию двигателей серии QST30, в бюллетене 4021539.
+В этом документе представлена информация для комплекта установки заднего коленчатого вала, номер детали 4918762. Набор используется для удаления и установки заднего масляного уплотнения и масляных уплотнений сзади на коленчатом валу двигателя серии QST30 с мокрыми корпусами маховиков. Для получения дополнительной информации обратитесь к процедуре 001-024 в руководстве по обслуживанию двигателей серии QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[22a00244.png]]
 
@@ -69,7 +69,7 @@ tags:
 >
 > ### Purpose
 >
-> This document provides information for the Rear Crankshaft Oil Seal Installer Kit, Part Number 4918762. The kit is used to remove and install the rear oil seal and rear wear sleeve oil seals on the crankshaft of the QST30 series engine with wet flywheel housings. For additional information, refer to Procedure 001-024 in the QST30 Series Engine Service Manual, Bulletin 4021539.
+> This document provides information for the Rear Crankshaft Oil Seal Installer Kit, Part Number 4918762. The kit is used to remove and install the rear oil seal and rear wear sleeve oil seals on the crankshaft of the QST30 series engine with wet flywheel housings. For additional information, refer to Procedure 001-024 in the QST30 Series Engine Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > | Table 1, Rear Crankshaft Oil Seal Installer Kit, Part Number 4918762 |  |  |  |
 > |---|---|---|---|

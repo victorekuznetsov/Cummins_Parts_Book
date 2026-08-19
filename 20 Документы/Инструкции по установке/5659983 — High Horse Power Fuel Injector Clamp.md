@@ -125,7 +125,7 @@ tags:
 
 ** Проверка**
 
-Проверить форсунка удерживают зажимную болтовую чашу для признаков помех с топливным болтом крепления форсунки. Если обнаружены признаки вмешательства, обратитесь к TSB190005, чтобы исправить проблему.
+Проверить форсунка удерживают зажимную болтовую чашу для признаков помех с топливным болтом крепления форсунки. Если обнаружены признаки вмешательства, обратитесь к [[tsb190005 — Modular Common Rail System (MCRS) Fuel Injector Clamp Chamfer Cutting Tool\|TSB190005]], чтобы исправить проблему.
 
 **Ассоциированные публикации**
 
@@ -218,7 +218,7 @@ tags:
 >
 > **Inspect**
 >
-> Inspect injector hold down clamp bolt chamfer for signs of interference with injector hold bolt. If signs of interference are found; refer to TSB190005 to correct the issue.
+> Inspect injector hold down clamp bolt chamfer for signs of interference with injector hold bolt. If signs of interference are found; refer to [[tsb190005 — Modular Common Rail System (MCRS) Fuel Injector Clamp Chamfer Cutting Tool\|TSB190005]] to correct the issue.
 >
 > **Associated Publications**
 >

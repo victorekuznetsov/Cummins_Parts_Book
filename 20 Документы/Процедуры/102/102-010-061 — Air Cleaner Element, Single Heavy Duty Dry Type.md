@@ -91,13 +91,13 @@ Cummins Inc. **не*** рекомендует чистить воздух в б�
 Управляйте двигателем с номинальной скоростью и мощностью и записывайте ограничение на впуск. Используйте следующую процедуру для спецификаций ограничения потребления с новыми фильтрами:
 
 - K19 Руководство по эксплуатации и техническому обслуживанию промышленных и морских двигателей, Бюллетень 3666013.[[18-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
-- QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin 3666120.[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
+- QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
 - Руководство по эксплуатации и техническому обслуживанию двигателей серии QSK45 и QSK60, Бюллетень 3666260.[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
-- K38, K50, QSK38 и QSK50 Руководство по эксплуатации и техническому обслуживанию, Вестник 3810497.[[28-018-019-om — Air Intake System|См. процедуру 018-019 в разделе V.]]
+- K38, K50, QSK38 и QSK50 Руководство по эксплуатации и техническому обслуживанию, Вестник [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].[[28-018-019-om — Air Intake System|См. процедуру 018-019 в разделе V.]]
 - QSK38 CM2150 K106 Руководство по эксплуатации и техническому обслуживанию, Вестник 4332769. См. процедуру 018-019 в разделе V.
 - QSK50 CM2150 K107 Руководство по эксплуатации и техническому обслуживанию, Вестник 4332774. См. процедуру 018-019 в разделе V.
 - QSK50 CM2350 K108 Руководство по эксплуатации и техническому обслуживанию, Вестник 4332824. См. процедуру 018-019 в разделе V.
-- QSK19 CM2150 MCRS (Manufactured in India) Operation and Maintenance Manual, Bulletin 4358453.[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
+- QSK19 CM2150 MCRS (Manufactured in India) Operation and Maintenance Manual, Bulletin [[4358453 — QSK19 CM2150 MCRS Operation and Maintenance Manual (Manufactured in India)\|4358453]].[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
 - QSK19 CM2350 K105 Руководство по эксплуатации и техническому обслуживанию, Вестник 4326158. См. процедуру 018-019 в разделе V.
 - QSK60 CM2250 K112 Руководство по эксплуатации и техническому обслуживанию, Вестник 4367455.[[102-018-019 — Air Intake System|См. процедуру 018-019 в разделе V.]]
 
@@ -141,12 +141,12 @@ Cummins Inc. **не*** рекомендует чистить воздух в б�
 > Operate the engine at rated speed and power, and record the intake restriction. Use the following procedure for intake restriction specifications with new filters:
 >
 > - K19 Industrial and Marine Engines Operation and Maintenance Manual, Bulletin 3666013. [[18-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
-> - QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin 3666120. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
+> - QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
 > - QSK45 and QSK60 Series Engines Operation and Maintenance Manual, Bulletin 3666260. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
-> - K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin 3810497. [[28-018-019-om — Air Intake System|Refer to Procedure 018-019 in Section V.]]
+> - K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. [[28-018-019-om — Air Intake System|Refer to Procedure 018-019 in Section V.]]
 > - QSK38 CM2150 K106 Operation and Maintenance Manual, Bulletin 4332769. Refer to Procedure 018-019 in Section V.
 > - QSK50 CM2150 K107 Operation and Maintenance Manual, Bulletin 4332774. Refer to Procedure 018-019 in Section V.
 > - QSK50 CM2350 K108 Operation and Maintenance Manual, Bulletin 4332824. Refer to Procedure 018-019 in Section V.
-> - QSK19 CM2150 MCRS (Manufactured in India) Operation and Maintenance Manual, Bulletin 4358453. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
+> - QSK19 CM2150 MCRS (Manufactured in India) Operation and Maintenance Manual, Bulletin [[4358453 — QSK19 CM2150 MCRS Operation and Maintenance Manual (Manufactured in India)\|4358453]]. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]
 > - QSK19 CM2350 K105 Operation and Maintenance Manual, Bulletin 4326158. Refer to Procedure 018-019 in Section V.
 > - QSK60 CM2250 K112 Operation and Maintenance Manual, Bulletin 4367455. [[102-018-019 — Air Intake System|Refer to Procedure 018-019 in Section V.]]

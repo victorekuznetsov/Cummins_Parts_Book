@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема службы / частей добавляет два набора в список инструментов для блока цилиндров. Они включают (1) комплект гидравлического привода, номер детали 3823621 и (2) комплект установки и удаления кустарникового вала, номер детали 3162253, в процедуру 022-001 (Сервисные инструменты) в разделе 1 руководства по устранению неполадок и ремонту серии C, вестник 3666003.
+Эта тема службы / частей добавляет два набора в список инструментов для блока цилиндров. Они включают (1) комплект гидравлического привода, номер детали 3823621 и (2) комплект установки и удаления кустарникового вала, номер детали 3162253, в процедуру 022-001 (Сервисные инструменты) в разделе 1 руководства по устранению неполадок и ремонту серии C, вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic adds two kits to the cylinder block service tool list. They are (1) Hydraulic Actuator Kit, Part Number 3823621, and (2) Camshaft Bushing Installation and Removal Kit, Part Number 3162253, to Procedure 022-001 (Service Tools) in Section 1 of the C Series Troubleshooting and Repair Manual, Bulletin 3666003.
+> This Service/Parts Topic adds two kits to the cylinder block service tool list. They are (1) Hydraulic Actuator Kit, Part Number 3823621, and (2) Camshaft Bushing Installation and Removal Kit, Part Number 3162253, to Procedure 022-001 (Service Tools) in Section 1 of the C Series Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].

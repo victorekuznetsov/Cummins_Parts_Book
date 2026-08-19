@@ -52,7 +52,7 @@ tags:
 | 3381700 | Места обслуживания по всему миру |
 | 3666008 | C Серия Машинный магазин Ручной |
 | 3666109 | Альтернативные двигатели серии B и C |
-| 3666003 | Серия C Устранение неполадок и руководство по ремонту |
+| [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Серия C Устранение неполадок и руководство по ремонту |
 | 3666021 | Руководство по спецификациям серии C |
 | 3379001 | Топливо для бюллетеня Cummins Engines |
 | 3666132 | Требования к охлаждению и бюллетень технического обслуживания |
@@ -71,7 +71,7 @@ tags:
 > | 3381700 | Worldwide Service Locations |
 > | 3666008 | C Series Engine Shop Manual |
 > | 3666109 | Alternative Repair Manual, B and C Series Engines |
-> | 3666003 | C Series Troubleshooting and Repair Manual |
+> | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | C Series Troubleshooting and Repair Manual |
 > | 3666021 | C Series Specifications Manual |
 > | 3379001 | Fuel for Cummins Engines Bulletin |
 > | 3666132 | Coolant Requirements and Maintenance Bulletin |

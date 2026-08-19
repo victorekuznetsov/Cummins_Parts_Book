@@ -60,7 +60,7 @@ tags:
 
 
 > [!quote]- Original (English) · английский оригинал
-> ## **Engine Operating Range (99-101-008-om-indmar)**
+> ## **Engine Operating Range ([[99-101-008-om — Engine Operating Range\|99-101-008-om]]-indmar)**
 >
 > This procedure is not yet available at the time of publication.
 >

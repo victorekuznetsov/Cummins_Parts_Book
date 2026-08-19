@@ -50,7 +50,7 @@ tags:
 
 ## Увеличенный интервал обслуживания системы охлаждения
 
-Для получения информации о продлении интервалов обслуживания охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406. Справочная часть 5.
+Для получения информации о продлении интервалов обслуживания охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Справочная часть 5.
 
 > [!note] Примечание
 > [https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/](https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/)
@@ -61,7 +61,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ## Extended Service Interval, Cooling System Maintenance
 >
-> For information on engine coolant extended service intervals, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Section 5.
+> For information on engine coolant extended service intervals, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Section 5.
 >
 > **Note · Примечание**
 > [https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/](https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/)

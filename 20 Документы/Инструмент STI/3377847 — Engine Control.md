@@ -50,11 +50,11 @@ tags:
 
 Дополнительную информацию см. в следующих публикациях.
 
-- См. процедуру[[20-014-005 — Engine Testing (Engine Dynamometer)|014-005]]или[[20-014-006 — Engine Run-in (Engine Dynamometer)|014-006]]в двигателях серий QSK19 и QSK19 CM850 с модульной системой общего пользования, бюллетень 4021592
+- См. процедуру[[20-014-005 — Engine Testing (Engine Dynamometer)|014-005]]или[[20-014-006 — Engine Run-in (Engine Dynamometer)|014-006]]в двигателях серий QSK19 и QSK19 CM850 с модульной системой общего пользования, бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 
 - См. процедуру 014-005 или 014-006 в Руководстве по устранению неполадок и ремонту двигателей серии QSK23, Бюллетень 4021375
 
-- См. процедуру 014-005 или 014-006 в Руководстве по эксплуатации двигателей серий K38, K50 и QSK50, Бюллетень 4021528
+- См. процедуру 014-005 или 014-006 в Руководстве по эксплуатации двигателей серий K38, K50 и QSK50, Бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 - См. процедуру 014-005 или 014-006 в Руководстве по эксплуатации двигателей серии QSK45 и QSK60, Бюллетень 4021530.
 
 > [!note] Примечание
@@ -398,11 +398,11 @@ tags:
 >
 > For additional information, see the following publications.
 >
-> - Refer to Procedure [[20-014-005 — Engine Testing (Engine Dynamometer)|014-005]] or [[20-014-006 — Engine Run-in (Engine Dynamometer)|014-006]] in the QSK19 and QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021592
+> - Refer to Procedure [[20-014-005 — Engine Testing (Engine Dynamometer)|014-005]] or [[20-014-006 — Engine Run-in (Engine Dynamometer)|014-006]] in the QSK19 and QSK19 CM850 Modular Common Rail System Series Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 >
 > - Refer to Procedure 014-005 or 014-006 in the Troubleshooting and Repair Manual QSK23 Series Engines, Bulletin 4021375
 >
-> - Refer to Procedure 014-005 or 014-006 in the Service Manual K38, K50, and QSK50 Series Engines, Bulletin 4021528
+> - Refer to Procedure 014-005 or 014-006 in the Service Manual K38, K50, and QSK50 Series Engines, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 > - Refer to Procedure 014-005 or 014-006 in the Service Manual QSK45 and QSK60 Series Engines, Bulletin 4021530.
 >
 > **Note · Примечание**

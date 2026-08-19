@@ -69,7 +69,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Проверить лампу коленчатого включения подсвечивается на клиентском интерфейсе коробки логический блок. | Светится ли лампа? *** Ремонт: ** См. дерево устранения неисправностей в незапрашиваемом двигателе. | Ремонт завершён. |
-| Светится ли лампа? ** Норепар: ** См. процедуру[[20-013-020-tr — Starting Motor\|013-020]]QSK19 и QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021592. | Ремонт завершён. |  |
+| Светится ли лампа? ** Норепар: ** См. процедуру[[20-013-020-tr — Starting Motor\|013-020]]QSK19 и QSK19 CM850 Modular Common Rail System Series Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | Ремонт завершён. |  |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -100,4 +100,4 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Verify crank lamp is illuminated on customer interface box logic unit. | Is crank lamp illuminated? **YESRepair:** Refer to the Un-requested Engine Start troubleshooting tree. | Repair complete. |
-> | Is crank lamp illuminated? **NORepair:** Refer to Procedure [[20-013-020-tr — Starting Motor\|013-020]] in the QSK19 and QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021592. | Repair complete. |  |
+> | Is crank lamp illuminated? **NORepair:** Refer to Procedure [[20-013-020-tr — Starting Motor\|013-020]] in the QSK19 and QSK19 CM850 Modular Common Rail System Series Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | Repair complete. |  |

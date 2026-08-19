@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема для Службы/Частей пересматривает Процедуру 001-005 (Подшипники, соединительный штандарт) в Руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень 4021592. В пересмотренном варианте добавлены руководящие принципы повторного использования подшипников шатунов к разделу «Чистое и повторное использование» этой процедуры.
+Эта тема для Службы/Частей пересматривает Процедуру 001-005 (Подшипники, соединительный штандарт) в Руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. В пересмотренном варианте добавлены руководящие принципы повторного использования подшипников шатунов к разделу «Чистое и повторное использование» этой процедуры.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Procedure 001-005 (Bearings, Connecting Rod) in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592. The revision adds reuse guidlines for the connecting rod bearings to the Clean and Inspect for Reuse section of this procedure.
+> This Service/Parts Topic revises Procedure 001-005 (Bearings, Connecting Rod) in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. The revision adds reuse guidlines for the connecting rod bearings to the Clean and Inspect for Reuse section of this procedure.

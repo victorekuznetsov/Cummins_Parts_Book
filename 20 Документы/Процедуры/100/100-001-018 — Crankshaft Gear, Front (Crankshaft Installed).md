@@ -45,7 +45,7 @@ tags:
 
 ### Общие сведения
 
-Передняя передача коленчатого вала имеет помехи, подходящие к коленчатому валу. Если шестеренка повреждена, коленчатый вал также будет поврежден. Если необходимо заменить переднюю коленчатую передачу, коленчатый вал *** должен быть заменен. См. процедуру 001-016 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206 или Процедура[[41-001-016 — Crankshaft|001-016]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень 3666003.
+Передняя передача коленчатого вала имеет помехи, подходящие к коленчатому валу. Если шестеренка повреждена, коленчатый вал также будет поврежден. Если необходимо заменить переднюю коленчатую передачу, коленчатый вал *** должен быть заменен. См. процедуру 001-016 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206 или Процедура[[41-001-016 — Crankshaft|001-016]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 ![[nobox.png]]
 
@@ -63,7 +63,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ### General Information
 >
-> The front crankshaft gear has an interference fit with the crankshaft. If the gear is damaged, the crankshaft will also be damaged. If it is necessary to replace the front crankshaft gear, the crankshaft **must** be replaced. Refer to Procedure 001-016 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206 or Procedure [[41-001-016 — Crankshaft|001-016]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> The front crankshaft gear has an interference fit with the crankshaft. If the gear is damaged, the crankshaft will also be damaged. If it is necessary to replace the front crankshaft gear, the crankshaft **must** be replaced. Refer to Procedure 001-016 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206 or Procedure [[41-001-016 — Crankshaft|001-016]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 >
 > ### Inspect for Reuse
 >

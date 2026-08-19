@@ -52,7 +52,7 @@ tags:
 
 Эта тема службы / частей пересматривает Процедуру 007-025, Пан моторного масла для:
 
-- Руководство по устранению неполадок и ремонту двигателей серии C, Бюллетень 3666003
+- Руководство по устранению неполадок и ремонту двигателей серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]
 - C8.3 (Natural Gas) Base Engine Troubleshooting and Repair Manual, Bulletin 3666206.
 
 
@@ -67,5 +67,5 @@ tags:
 >
 > This service/parts topic revises Procedure 007-025, Lubricating Oil Pan for:
 >
-> - C Series Engines Troubleshooting and Repair Manual, Bulletin 3666003
+> - C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]
 > - C8.3 (Natural Gas) Base Engine Troubleshooting and Repair Manual, Bulletin 3666206.

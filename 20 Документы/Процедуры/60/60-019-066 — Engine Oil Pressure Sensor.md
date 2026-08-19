@@ -55,8 +55,8 @@ tags:
 > [!danger] ОПАСНО
 > По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13 в руководстве по обслуживанию QST30, Бюллетень 4021539.
-- Моторное масло высушивать из двигателя. См. процедуру 007-037 (Система моторного масла) в разделе 7 в Руководстве по обслуживанию QST30, Вестник 4021539.
+- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13 в руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
+- Моторное масло высушивать из двигателя. См. процедуру 007-037 (Система моторного масла) в разделе 7 в Руководстве по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -114,8 +114,8 @@ tags:
 > [!danger] ОПАСНО
 > По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Заполните двигатель моторным маслом. См. процедуру 007-037 (Система моторного масла) в разделе 7 в Руководстве по обслуживанию QST30, Вестник 4021539.
-- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13 в руководстве по обслуживанию QST30, Бюллетень 4021539.
+- Заполните двигатель моторным маслом. См. процедуру 007-037 (Система моторного масла) в разделе 7 в Руководстве по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]].
+- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13 в руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -132,8 +132,8 @@ tags:
 > **WARNING · Опасно**
 > Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
 >
-> - Disconnect the batteries. Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13 in the QST30 Service Manual, Bulletin 4021539.
-> - Drain lubricating oil from the engine. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7 in the QST30 Service Manual, Bulletin 4021539.
+> - Disconnect the batteries. Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13 in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
+> - Drain lubricating oil from the engine. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7 in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > ### Remove
 >
@@ -181,5 +181,5 @@ tags:
 > **WARNING · Опасно**
 > Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
 >
-> - Fill the engine with lubricating oil. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7 in the QST30 Service Manual, Bulletin 4021539.
-> - Connect the batteries. Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13 in the QST30 Service Manual, Bulletin 4021539.
+> - Fill the engine with lubricating oil. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7 in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
+> - Connect the batteries. Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13 in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].

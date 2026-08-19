@@ -72,11 +72,11 @@ tags:
 
 Проверьте охлаждающую жидкость непосредственно перед изменением фильтра охлаждающей жидкости.
 
-Используйте только измерительный комплект охлаждающей жидкости Fleetguard®, Part Number CC2602, для проверки концентрации добавки охлаждающей жидкости при использовании SCA. См. процедуру[[102-018-004 — Coolant Recommendations and Specifications|018-004]]В серии QSK19 Operation and Maintenace Manua, l Bulletin 3666120.
+Используйте только измерительный комплект охлаждающей жидкости Fleetguard®, Part Number CC2602, для проверки концентрации добавки охлаждающей жидкости при использовании SCA. См. процедуру[[102-018-004 — Coolant Recommendations and Specifications|018-004]]В серии QSK19 Operation and Maintenace Manua, l Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 
 ![[08200002.png]]
 
-Используйте правильный фильтр охлаждающей жидкости Fleetguard® для поддержания правильной концентрации SCA в системе. Процедура[[102-018-004 — Coolant Recommendations and Specifications|018-004]]В руководстве по эксплуатации и обслуживанию серии QSK19, в бюллетене 3666120.
+Используйте правильный фильтр охлаждающей жидкости Fleetguard® для поддержания правильной концентрации SCA в системе. Процедура[[102-018-004 — Coolant Recommendations and Specifications|018-004]]В руководстве по эксплуатации и обслуживанию серии QSK19, в бюллетене [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 
 Поддерживайте правильную концентрацию, изменяя фильтр для технического обслуживания охлаждающей жидкости через каждый интервал слива масла.
 
@@ -105,8 +105,8 @@ tags:
 >
 > Check the coolant just before changing the coolant filter.
 >
-> Use only coolant test kit, Fleetguard®, Part Number CC2602, to check the coolant additive concentration when SCA is used. Refer to Procedure [[102-018-004 — Coolant Recommendations and Specifications|018-004]] in the QSK19 Series Operation and Maintenace Manua,l Bulletin 3666120.
+> Use only coolant test kit, Fleetguard®, Part Number CC2602, to check the coolant additive concentration when SCA is used. Refer to Procedure [[102-018-004 — Coolant Recommendations and Specifications|018-004]] in the QSK19 Series Operation and Maintenace Manua,l Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 >
-> Use the correct Fleetguard® coolant filter to maintain the correct SCA concentration in the system. Procedure [[102-018-004 — Coolant Recommendations and Specifications|018-004]] in the QSK19 Series Operation and Maintenace Manual, Bulletin 3666120.
+> Use the correct Fleetguard® coolant filter to maintain the correct SCA concentration in the system. Procedure [[102-018-004 — Coolant Recommendations and Specifications|018-004]] in the QSK19 Series Operation and Maintenace Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 >
 > Maintain the correct concentration by changing the maintenance coolant filter at each oil drain interval.

@@ -73,7 +73,7 @@ Cummins Inc. Рекомендуется использовать полност�
 
 В этом разделе также содержится информация о техническом обслуживании системы охлаждения и схема обработки охлаждающей жидкости, которая используется для определения правильного сервисного фильтра SCA.
 
-Альтернативные методы технического обслуживания систем охлаждения можно найти в руководстве по обслуживанию жидкостей для Cummins®, Bulletin 5411406.
+Альтернативные методы технического обслуживания систем охлаждения можно найти в руководстве по обслуживанию жидкостей для Cummins®, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 ### Полностью сформулированный охладитель / антифриз
 
@@ -234,7 +234,7 @@ SCA, или эквивалент, используются для предотв
 >
 > This section also contains information on cooling system maintenance and a coolant treatment chart that is used to determine the correct SCA service filter.
 >
-> Alternative maintenance practices for cooling systems can be found in Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> Alternative maintenance practices for cooling systems can be found in Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > ### Fully Formulated Coolant/Antifreeze
 >

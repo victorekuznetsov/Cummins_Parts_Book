@@ -69,7 +69,7 @@ tags:
 
 При установке нового турбокомпрессора существует возможность того, что фланец сливной линии турбокомпрессора может помешать одному из болтов корпуса турбины турбокомпрессора. Если фланец сливной линии турбокомпрессора может ** не** располагаться на плоской поверхности монтажной розетки сливной линии турбокомпрессора, фланец сливной линии турбокомпрессора должен быть модифицирован с использованием следующих инструкций.
 
-См. Руководство по обслуживанию QST30, Вестник 4021539. См. процедуру 010-045 в разделе 10 для удаления и очистки линии слива масла турбокомпрессора. Используйте защитные крышки Clean Care Kit, чтобы поддерживать чистоту порта слива масла блока двигателя.
+См. Руководство по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 010-045 в разделе 10 для удаления и очистки линии слива масла турбокомпрессора. Используйте защитные крышки Clean Care Kit, чтобы поддерживать чистоту порта слива масла блока двигателя.
 
 С помощью линии слива масла турбокомпрессора, удаленной и очищенной от всего остаточного масла, используйте ленту для покрытия входа и выхода линии слива масла турбокомпрессора, чтобы предотвратить введение мусора в путь слива масла.
 
@@ -81,7 +81,7 @@ tags:
 
 После того, как материал был удален, удалите ленту из входа и выхода линии слива масла турбокомпрессора.
 
-См. Руководство по обслуживанию QST30, Вестник 4021539. См. процедуру 010-045 в разделе 10 для установки линии слива масла турбокомпрессора.
+См. Руководство по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 010-045 в разделе 10 для установки линии слива масла турбокомпрессора.
 
 ** Услуги**
 
@@ -137,7 +137,7 @@ tags:
 >
 > There is a possibility when installing the new turbocharger that the turbocharger oil drain line flange could interfere with one of the turbocharger turbine housing capscrews. If the turbocharger oil drain line flange can **not** be seated flat against the mounting surface of the turbocharger oil drain outlet, the turbocharger oil drain line flange will need to be modified using the following instructions.
 >
-> See the QST30 Service Manual, Bulletin 4021539. Refer to Procedure 010-045 in Section 10 to remove and clean the turbocharger oil drain line. Use Clean Care Kit protective caps to keep the engine block oil drain port clean.
+> See the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 010-045 in Section 10 to remove and clean the turbocharger oil drain line. Use Clean Care Kit protective caps to keep the engine block oil drain port clean.
 >
 > With the turbocharger oil drain line removed and cleaned of all residual oil, use tape to cover the inlet and outlet of the turbocharger oil drain line to prevent introduction of debris into oil drain path.
 >
@@ -147,7 +147,7 @@ tags:
 >
 > After material has been removed, remove tape from the inlet and outlet of the turbocharger oil drain line.
 >
-> See the QST30 Service Manual, Bulletin 4021539. Refer to procedure 010-045 in Section 10 to install the turbocharger oil drain line.
+> See the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to procedure 010-045 in Section 10 to install the turbocharger oil drain line.
 >
 > **Service Parts**
 >

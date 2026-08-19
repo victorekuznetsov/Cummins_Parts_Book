@@ -111,7 +111,7 @@ tags:
 | Таблица 3. Публикации затронуты |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QST30 | 4021539 | Масляный поддон | См. процедуру 007-025 | 7 |
+| Руководство по обслуживанию | QST30 | [[4021539 — QST30 Service Manual\|4021539]] | Масляный поддон | См. процедуру 007-025 | 7 |
 | Руководство по обслуживанию | QST30 CM2350 T101 | 5467179 | Масляный поддон | См. процедуру 007-025 | 7 |
 | Руководство по обслуживанию | QST30 CM2350 T103C | 6309062 | Масляный поддон | См. процедуру 007-025 | 7 |
 
@@ -185,7 +185,7 @@ tags:
 > | Table 3. Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QST30 | 4021539 | Lubricating Oil Pan | Refer to Procedure 007-025 | 7 |
+> | Service Manual | QST30 | [[4021539 — QST30 Service Manual\|4021539]] | Lubricating Oil Pan | Refer to Procedure 007-025 | 7 |
 > | Service Manual | QST30 CM2350 T101 | 5467179 | Lubricating Oil Pan | Refer to Procedure 007-025 | 7 |
 > | Service Manual | QST30 CM2350 T103C | 6309062 | Lubricating Oil Pan | Refer to Procedure 007-025 | 7 |
 >

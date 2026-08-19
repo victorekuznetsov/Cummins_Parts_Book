@@ -84,7 +84,7 @@ tags:
 
 Если адаптер моторного масла для прокладки блока цилиндров идентифицирован как источник утечки моторного масла, Cummins Inc. Рекомендуется, чтобы следующие шаги были реализованы при соблюдении инструкций по ремонту в процедуре 007-027 Адаптер моторного масла, чтобы помочь предотвратить повторные утечки моторного масла.
 
-- Двигатели K19 или QSK19 с бумажной прокладкой, Часть Номер 4000595, ремонт с использованием металлической ребровидной прокладки, Часть Номер 2888747. См. TSB120287.
+- Двигатели K19 или QSK19 с бумажной прокладкой, Часть Номер 4000595, ремонт с использованием металлической ребровидной прокладки, Часть Номер 2888747. См. [[tsb120287 — K QSK19 Edge Molded Rubber Oil Pan Adapter Gasket\|TSB120287]].
 - Для двигателей QSK19 с ребром формованной прокладки, номер детали 2888747, ремонт с аналогичной частью (крайняя формованная прокладка).
 
 Рекомендуемый RTV для использования в инструкциях ниже:
@@ -175,7 +175,7 @@ tags:
 **Ассоциированные публикации**
 
 - Руководство по обслуживанию K19, бюллетень № 4021499
-- QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin Number 4021592
+- QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin Number [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 - QSK19 CM2350 K105 Руководство по обслуживанию, Вестник № 4326157
 - Руководство по эксплуатации KTA19GC CM558, бюллетень № 4021653
 - Генератор QSK19G Устанавливает Устранение неполадок и Ремонт Руководства, Бюллетень № 4021372
@@ -229,7 +229,7 @@ tags:
 >
 > If the lubricating oil pan adapter to cylinder block gasket is identified as the source of the lubricating oil leak, Cummins Inc. recommends that the following steps be implemented while following repair instructions in procedure 007-027 Lubricating Oil Pan Adapter to help prevent reoccurring lubricating oil leaks.
 >
-> - K19 or QSK19 engines with a paper gasket, Part Number 4000595, repair using a metal edge molded gasket, Part Number 2888747. See TSB120287.
+> - K19 or QSK19 engines with a paper gasket, Part Number 4000595, repair using a metal edge molded gasket, Part Number 2888747. See [[tsb120287 — K QSK19 Edge Molded Rubber Oil Pan Adapter Gasket\|TSB120287]].
 > - For QSK19 engines with an edge molded gasket, Part Number 2888747, repair with a like part (edge molded gasket).
 >
 > Recommended RTV to be used in instructions below:
@@ -304,7 +304,7 @@ tags:
 > **Associated Publications**
 >
 > - K19 Service Manual, Bulletin Number 4021499
-> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin Number 4021592
+> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin Number [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 > - QSK19 CM2350 K105 Service Manual, Bulletin Number 4326157
 > - KTA19GC CM558 Service Manual, Bulletin Number 4021653
 > - QSK19G Generator Set Troubleshooting and Repair Manual, Bulletin Number 4021372

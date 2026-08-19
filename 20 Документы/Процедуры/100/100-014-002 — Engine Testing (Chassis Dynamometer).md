@@ -134,7 +134,7 @@ tags:
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Двигатели ISB и QSB5.9, Бюллетень 3666193. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, B3.9, B4.5 и B5.9 Series Engines, Bulletin 3666087. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, ISC, ISCe, QSC8.3, двигателях ISL и QSL9, Бюллетень 4021418. См. процедуру 014-006 в разделе 14.
-- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Серия C, Вестник 3666003.[[41-014-006 — Engine Run-in (Engine Dynamometer)|См. процедуру 014-006 в разделе 14.]]
+- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Серия C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[41-014-006 — Engine Run-in (Engine Dynamometer)|См. процедуру 014-006 в разделе 14.]]
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, ISB, ISBe 4 и 6 Цилиндр, Вестник 4021271. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, серия B, Вестник 3810207. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в руководстве по обслуживанию QSL9 CM2350 L102 и L9 CM2450 L181C, Бюллетень 4332796. См. процедуру 014-006 в разделе 14.
@@ -246,7 +246,7 @@ tags:
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISB and QSB5.9 Engines, Bulletin 3666193. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Troubleshooting and Repair Manual, B3.9, B4.5, and B5.9 Series Engines, Bulletin 3666087. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISC, ISCe, QSC8.3, ISL and QSL9 Engines, Bulletin 4021418. Refer to Procedure 014-006 in Section 14.
-> - Use the following procedure in the Troubleshooting and Repair Manual, C Series, Bulletin 3666003. [[41-014-006 — Engine Run-in (Engine Dynamometer)|Refer to Procedure 014-006 in Section 14.]]
+> - Use the following procedure in the Troubleshooting and Repair Manual, C Series, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[41-014-006 — Engine Run-in (Engine Dynamometer)|Refer to Procedure 014-006 in Section 14.]]
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISB, ISBe 4 and 6 Cylinder, Bulletin 4021271. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Troubleshooting and Repair Manual, B Series, Bulletin 3810207. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the QSL9 CM2350 L102 and L9 CM2450 L181C Service Manual, Bulletin 4332796. Refer to Procedure 014-006 in Section 14.

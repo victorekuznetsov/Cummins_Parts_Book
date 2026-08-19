@@ -260,13 +260,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021528-t108-tr | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
-| 4021528-t057-tr | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
-| 4021528-t021-tr | Coolant Loss - Internal | 20-Feb-2012 |
-| 4021528-t092 | Fuel in the Lubricating Oil | 21-Apr-2013 |
-| 4021528-t027-tr | Crankcase Gases (Blowby) Excessive | 15-Jun-2018 |
-| 4021528-t104-tr | Lubricating Oil Pressure High | 05-Aug-2019 |
-| 4021528-t105-tr | Lubricating Oil Pressure Low | 22-Jan-2020 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t108-tr | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t057-tr | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t021-tr | Coolant Loss - Internal | 20-Feb-2012 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t092 | Fuel in the Lubricating Oil | 21-Apr-2013 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t027-tr | Crankcase Gases (Blowby) Excessive | 15-Jun-2018 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t104-tr | Lubricating Oil Pressure High | 05-Aug-2019 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t105-tr | Lubricating Oil Pressure Low | 22-Jan-2020 |
 
 ### Section 08 - Cooling System
 
@@ -316,8 +316,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021528-t102-tr | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
-| 4021528-t102-tr | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
 
 ### Section 6 - Injectors
 
@@ -392,7 +392,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021528-t107-tr | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t107-tr | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
 
 ### Section 9 - Drive Units
 

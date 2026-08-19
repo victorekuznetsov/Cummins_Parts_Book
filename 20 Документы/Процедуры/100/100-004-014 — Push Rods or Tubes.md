@@ -92,7 +92,7 @@ tags:
 
 Установите клапанные клапанные качели на рычагах. См. процедуру[[100-003-008 — Rocker Lever|003-008]].
 
-Отрегулируйте ресницу клапана. Для дизельных двигателей серии C обратитесь к процедуре 003-004 в руководстве по устранению неполадок и ремонту, двигателям серии C, бюллетеню 3666003. Для газовых двигателей серии C обратитесь к процедуре[[41-003-004 — Overhead Set|003-004]]Руководство по устранению неполадок и ремонту, двигатели C8.3G (природный газ), бюллетень 3666206.
+Отрегулируйте ресницу клапана. Для дизельных двигателей серии C обратитесь к процедуре 003-004 в руководстве по устранению неполадок и ремонту, двигателям серии C, бюллетеню [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Для газовых двигателей серии C обратитесь к процедуре[[41-003-004 — Overhead Set|003-004]]Руководство по устранению неполадок и ремонту, двигатели C8.3G (природный газ), бюллетень 3666206.
 
 ![[rh9clha.png]]
 
@@ -140,7 +140,7 @@ tags:
 >
 > Install the rocker lever assemblies. Refer to Procedure [[100-003-008 — Rocker Lever|003-008]].
 >
-> Adjust the valve lash. For C Series diesel engines, refer to Procedure 003-004 in Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003. For C Series gas engines, refer to Procedure [[41-003-004 — Overhead Set|003-004]] in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
+> Adjust the valve lash. For C Series diesel engines, refer to Procedure 003-004 in Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. For C Series gas engines, refer to Procedure [[41-003-004 — Overhead Set|003-004]] in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
 >
 > ### Finishing Steps
 >

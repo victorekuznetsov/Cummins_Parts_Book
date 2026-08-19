@@ -612,7 +612,7 @@ tags:
 
 С 2007 года компания Cummins Inc. Начала использовать названия моделей сервисов. Для содействия в определении соответствующего названия модели обслуживания:
 
-- См. Technical Service Bulletin, Cummins® Service Engine Model Identification, TSB130080. Обзор связанных с Cummins® технологических процедур.
+- См. Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Обзор связанных с Cummins® технологических процедур.
 
 Сервисные бюллетени:
 
@@ -622,9 +622,9 @@ tags:
 
 Руководство по эксплуатации и техническому обслуживанию:
 
-- См. Cummins® Service Engine Model Identification, Bulletin TSB130080. Просмотрите соответствующие процедуры Cummins® Product Technology.
+- См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
 - См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
-- См. K38, K50, QSK38 и QSK50 Operation and Maintenance Manual, Bulletin 3810497.
+- См. K38, K50, QSK38 и QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
 - См. QSK38 CM2350 K125 Operation and Maintenance Manual, Bulletin 5613390.
 - См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
 - См. QSK50 CM2350 K108 (MCRS) Operation and Maintenance Manual, Bulletin 4332824.
@@ -641,10 +641,10 @@ tags:
 
 Руководства по обслуживанию:
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins, Бюллетень 5411406.
-- См. Cummins® Service Engine Model Identification, Bulletin TSB130080. Просмотрите соответствующие процедуры Cummins® Product Technology.
+- Руководство по эксплуатации жидкостей для продуктов Cummins, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
+- См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
 - См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
-- См. K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.
+- См. K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - См. QSK38 Service Manual, Bulletin 5613391.
 - См. QSK45 и QSK60 Service Manual, Bulletin 4021530.
 - См. QSK50 CM2350 K108 Service Manual, Bulletin 4332823.
@@ -1239,7 +1239,7 @@ tags:
 >
 > Beginning in 2007, Cummins Inc. started using service model names. For assistance in identifying associated service model name:
 >
-> - See Technical Service Bulletin, Cummins® Service Engine Model Identification, TSB130080. Review associated Cummins® Product Technology procedures.
+> - See Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review associated Cummins® Product Technology procedures.
 >
 > Service Bulletins:
 >
@@ -1249,9 +1249,9 @@ tags:
 >
 > Operation and Maintenance Manuals:
 >
-> - See Cummins® Service Engine Model Identification, Bulletin TSB130080. Review the associated Cummins® Product Technology procedures.
+> - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
 > - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
-> - See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin 3810497.
+> - See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
 > - See QSK38 CM2350 K125 Operation and Maintenance Manual, Bulletin 5613390.
 > - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
 > - See QSK50 CM2350 K108 (MCRS) Operation and Maintenance Manual, Bulletin 4332824.
@@ -1268,10 +1268,10 @@ tags:
 >
 > Service Manuals:
 >
-> - Fluids for Cummins Products Service Manual, Bulletin 5411406.
-> - See Cummins® Service Engine Model Identification, Bulletin TSB130080. Review the associated Cummins® Product Technology procedures.
+> - Fluids for Cummins Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
+> - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
 > - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
-> - See K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528.
+> - See K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - See QSK38 Service Manual, Bulletin 5613391.
 > - See QSK45 and QSK60 Service Manual, Bulletin 4021530.
 > - See QSK50 CM2350 K108 Service Manual, Bulletin 4332823.

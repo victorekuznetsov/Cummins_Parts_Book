@@ -334,7 +334,7 @@ tags:
 
 ![[00a00100.png]]
 
-Установите жгут электропроводки двигателя и скобки. Ссылка на следующую процедуру в руководстве по устранению неполадок и ремонту промышленной системы электронного управления двигателем QST30, вестник 3666214.[[87-019-032 — ECM Calibration Code|См. процедуру 019-032 в разделе 19.]]
+Установите жгут электропроводки двигателя и скобки. Ссылка на следующую процедуру в руководстве по устранению неполадок и ремонту промышленной системы электронного управления двигателем QST30, вестник [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]].[[87-019-032 — ECM Calibration Code|См. процедуру 019-032 в разделе 19.]]
 
 ![[06a00041.png]]
 
@@ -663,7 +663,7 @@ tags:
 > **Момент затяжки · Torque Value**
 > 27 n•m [239 in-lb]
 >
-> Install the engine harness and the brackets. Reference the following procedure in the QST30 Industrial Engine Electronic Control System Troubleshooting and Repair Manual, Bulletin 3666214. [[87-019-032 — ECM Calibration Code|Refer to Procedure 019-032 in Section 19]]
+> Install the engine harness and the brackets. Reference the following procedure in the QST30 Industrial Engine Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]. [[87-019-032 — ECM Calibration Code|Refer to Procedure 019-032 in Section 19]]
 >
 > For the fuel inlet line, install new o-rings on the fuel manifold inlet fitting (from tank) and fuel manifold outlet (return-to-tank) fitting.
 >

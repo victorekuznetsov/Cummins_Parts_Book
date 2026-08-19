@@ -81,7 +81,7 @@ tags:
 
 Рекомендуется, чтобы на участках, где наблюдается чрезмерный износ оборудования для втулки, было реализовано 250-часовое изменение масла, если только расширенный анализ масла не выполняется в соответствии с Service Bulletin № 4022060, Методы анализа масла для дизельных двигателей высокой мощности.
 
-См. 5411406 Руководство по эксплуатации жидкостей для кумминовых изделий для руководства по практике использования масла во избежание коррозии масла.
+См. [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] Руководство по эксплуатации жидкостей для кумминовых изделий для руководства по практике использования масла во избежание коррозии масла.
 
 Для сайтов, испытывающих чрезмерный износ оборудования для втулки, см. таблицу 2 ниже для пересмотренных пределов меди и общих пределов количества оснований.
 
@@ -166,7 +166,7 @@ tags:
 >
 > It is recommended that for sites experiencing excessive idler gear bushing wear, a 250 fixed-hour oil change be implemented unless extended oil analysis is performed according to Service Bulletin Number 4022060, Oil Analysis Techniques for High Horsepower Diesel Engines.
 >
-> Refer to 5411406 Fluids for Cummins Products Service Manual for guidance on oil practice to avoid oil becoming corrosive.
+> Refer to [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] Fluids for Cummins Products Service Manual for guidance on oil practice to avoid oil becoming corrosive.
 >
 > For sites experiencing excessive idler gear bushing wear, see Table 2 below for revised copper limits and total base number limits.
 >

@@ -50,7 +50,7 @@ tags:
 
 Для получения дополнительной информации об использовании комплекта замены уплотнения коленчатого вала, номер детали 5298874, используйте следующую процедуру в соответствующем руководстве по обслуживанию двигателя.
 
-- Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528.[[28-001-023-tr — Crankshaft Seal, Front|См. процедуру 001-023 в разделе 1.]]
+- Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-001-023-tr — Crankshaft Seal, Front|См. процедуру 001-023 в разделе 1.]]
 - Используйте следующую процедуру в руководстве по обслуживанию KTA38GC CM558, Bulletin 4021642. См. процедуру 001-023 в разделе 1.
 
 ![[22s00008.png]]
@@ -81,7 +81,7 @@ tags:
 >
 > For additional information on the use of Crankshaft Seal Replacer Kit, Part Number 5298874, use the following procedure in the appropriate engine service manual.
 >
-> - Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
+> - Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
 > - Use the following procedure in the KTA38GC CM558 Service Manual, Bulletin 4021642. Refer to Procedure 001-023 in Section 1.
 >
 > Crankshaft Seal Replacer Kit, Part Number 5298874

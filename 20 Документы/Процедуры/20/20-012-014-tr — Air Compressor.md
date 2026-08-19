@@ -116,7 +116,7 @@ tags:
 | .05 | Мин | .002 |
 | .69 | Макс | .027 |
 
-Если конечный зазор не соответствует спецификациям, перейдите в Руководство по ремонту, Воздушные компрессоры Holset®, Бюллетень 3666121.
+Если конечный зазор не соответствует спецификациям, перейдите в Руководство по ремонту, Воздушные компрессоры Holset®, Бюллетень [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 ![[cp4shna.png]]
 
@@ -398,7 +398,7 @@ tags:
 > | .05 | MIN | .002 |
 > | .69 | MAX | .027 |
 >
-> If end clearance is **not** within specifications, go to the Master Repair Manual, Holset® Air Compressors, Bulletin 3666121.
+> If end clearance is **not** within specifications, go to the Master Repair Manual, Holset® Air Compressors, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
 > Twin Cylinder
 >

@@ -157,7 +157,7 @@ tags:
 |---|---|---|---|
 | Тип ручного | Номер бюллетеня | Название процедуры | Процедура |
 | QSL9 G CM558 Руководство по эксплуатации | 2883375 | Головка блока цилиндров | См. процедуру 002-004 |
-| Серия C Устранение неполадок и руководство по ремонту | 3666003 | Головка блока цилиндров | [[41-002-004-tr — Cylinder Head\|См. процедуру 002-004]] |
+| Серия C Устранение неполадок и руководство по ремонту | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Головка блока цилиндров | [[41-002-004-tr — Cylinder Head\|См. процедуру 002-004]] |
 | C8.3G, C Gas Plus и L Gas Plus Устранение неполадок и ремонт | 3666206 | Головка блока цилиндров | См. процедуру 002-004 |
 | ISC, ISCe, QSC8.3, ISL, ISLe3, ISLe4 и QSL9 Руководство по устранению неполадок и ремонту | 4021418 | Головка блока цилиндров | См. процедуру 002-004 |
 | Руководство по эксплуатации ISC и ISL CM2150 | 4021569 | Головка блока цилиндров | См. процедуру 002-004 |
@@ -313,7 +313,7 @@ tags:
 > |---|---|---|---|
 > | Manual Type | Bulletin Number | Procedure Title | Procedure |
 > | QSL9 G CM558 Service Manual | 2883375 | Cylinder Head | Refer to Procedure 002-004 |
-> | C Series Troubleshooting and Repair Manual | 3666003 | Cylinder Head | [[41-002-004-tr — Cylinder Head\|Refer to Procedure 002-004]] |
+> | C Series Troubleshooting and Repair Manual | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Cylinder Head | [[41-002-004-tr — Cylinder Head\|Refer to Procedure 002-004]] |
 > | C8.3G, C Gas Plus, and L Gas Plus Troubleshooting and Repair Manual | 3666206 | Cylinder Head | Refer to Procedure 002-004 |
 > | ISC, ISCe, QSC8.3, ISL, ISLe3, ISLe4 and QSL9 Troubleshooting and Repair Manual | 4021418 | Cylinder Head | Refer to Procedure 002-004 |
 > | ISC and ISL CM2150 Service Manual | 4021569 | Cylinder Head | Refer to Procedure 002-004 |

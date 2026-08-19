@@ -195,22 +195,22 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| 3810497-t022-om | Coolant Temperature Above Normal - Gradual Overheat | 29-Sep-2006 |
-| 3810497-t023-om | Coolant Temperature Above Normal - Sudden Overheat | 29-Sep-2006 |
-| 3810497-t024-om | Coolant Temperature Below Normal | 29-Sep-2006 |
-| 3810497-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 29-Sep-2006 |
-| 3810497-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 29-Sep-2006 |
-| 3810497-t057-om | Engine Power Output Low | 29-Sep-2006 |
-| 3810497-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 29-Sep-2006 |
-| 3810497-t078-om | Engine Will Not Crank or Cranks Slowly (Electric Starter | 29-Sep-2006 |
-| 3810497-t080-om | Engine Will Not Reach Rated Speed (RPM) | 29-Sep-2006 |
-| 3810497-t081-om | Engine Will Not Shut Off | 29-Sep-2006 |
-| 3810497-t105-om | Lubricating Oil Pressure Low | 29-Sep-2006 |
-| 3810497-t116-om | Smoke, Black - Excessive | 29-Sep-2006 |
-| 3810497-t118-om | Smoke, White - Excessive (PT) | 29-Sep-2006 |
-| 3810497-t072-om | Engine Starts But Will Not Keep Running | 31-Jan-2007 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t022-om | Coolant Temperature Above Normal - Gradual Overheat | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t023-om | Coolant Temperature Above Normal - Sudden Overheat | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t024-om | Coolant Temperature Below Normal | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t057-om | Engine Power Output Low | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t078-om | Engine Will Not Crank or Cranks Slowly (Electric Starter | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t081-om | Engine Will Not Shut Off | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t105-om | Lubricating Oil Pressure Low | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t116-om | Smoke, Black - Excessive | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t118-om | Smoke, White - Excessive (PT) | 29-Sep-2006 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t072-om | Engine Starts But Will Not Keep Running | 31-Jan-2007 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| 3810497-t057-om | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t057-om | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
 | 3666013-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
 | 3666013-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
@@ -326,10 +326,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3810497-toc | Table of Contents | 19-Jul-2004 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-toc | Table of Contents | 19-Jul-2004 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
-| 3810497-titlepage | Titlepage | 31-Jan-2007 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-titlepage | Titlepage | 31-Jan-2007 |
 | 3666013-toc | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
@@ -399,7 +399,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3810497-backcover | Backcover | 31-Jan-2007 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-backcover | Backcover | 31-Jan-2007 |
 | 3666013-backcover | Backcover | 14-Jul-2006 |
 
 ### Section 9 - Maintenance Procedures at 6000 Hours

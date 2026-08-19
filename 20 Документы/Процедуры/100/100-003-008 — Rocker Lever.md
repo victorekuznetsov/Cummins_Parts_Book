@@ -162,7 +162,7 @@ tags:
 
 ### Завершающие операции
 
-- Регулировать впускной и выпускной клапаны. Для дизельных двигателей серии C обратитесь к процедуре[[41-003-004 — Overhead Set|003-004]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень 3666003. Для газовых двигателей серии C обратитесь к процедуре 003-004 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206.
+- Регулировать впускной и выпускной клапаны. Для дизельных двигателей серии C обратитесь к процедуре[[41-003-004 — Overhead Set|003-004]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Для газовых двигателей серии C обратитесь к процедуре 003-004 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206.
 - Установите крышку коромысел. См. процедуру[[100-003-011 — Rocker Lever Cover|003-011]].
 - Установите трубку и шланг для дыхания. См. процедуру[[100-003-011 — Rocker Lever Cover|003-011]].
 
@@ -249,6 +249,6 @@ tags:
 >
 > ### Finishing Steps
 >
-> - Adjust the intake and exhaust valve lash. For C Series diesel engines, refer to Procedure [[41-003-004 — Overhead Set|003-004]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003. For C Series gas engines, refer to Procedure 003-004 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206.
+> - Adjust the intake and exhaust valve lash. For C Series diesel engines, refer to Procedure [[41-003-004 — Overhead Set|003-004]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. For C Series gas engines, refer to Procedure 003-004 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus, and L Gas Plus Engines, Bulletin 3666206.
 > - Install the rocker lever cover. Refer to Procedure [[100-003-011 — Rocker Lever Cover|003-011]].
 > - Install the crankcase breather tube and hose. Refer to Procedure [[100-003-011 — Rocker Lever Cover|003-011]].

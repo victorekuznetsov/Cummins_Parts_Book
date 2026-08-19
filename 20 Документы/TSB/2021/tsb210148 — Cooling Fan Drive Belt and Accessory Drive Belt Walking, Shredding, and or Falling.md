@@ -129,7 +129,7 @@ tags:
 Сценарий 3:
 
 - Если все элементы хорошо проверяются на выравнивание, натяжение ремня, концы стержня в хорошем состоянии и требования к лопаткам вентилятора соблюдаются, замените адаптер шкива демпфера на шкив с двойной губой по сравнению с односкатным шкивом.
-- Дополнительная губа предотвращает отхождение ремня от коленчатого вала. См. Технический бюллетень службы, Прогулка по поясу вентилятора охлаждения или измельчение, TSB210084 для информации о номере детали.
+- Дополнительная губа предотвращает отхождение ремня от коленчатого вала. См. Технический бюллетень службы, Прогулка по поясу вентилятора охлаждения или измельчение, [[tsb210084 — Cooling Fan Drive Belt Walking or Shredding\|TSB210084]] для информации о номере детали.
 
 **Наличие сервисных деталей**
 
@@ -173,10 +173,10 @@ tags:
 | Таблица 3, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QST30 CM552 | 4021539 | Система охлаждения - Drive Belt, Cooling Fan | [[57-008-002-tr — Drive Belt, Cooling Fan\|См. процедуру 008-002]] | 8 |
-| Руководство по обслуживанию | QST30 CM552 | 4021539 | Системы охлаждения Fan Drive Idler Arm Assembly | См. процедуру 008-029 | 8 |
-| Руководство по обслуживанию | QST30 CM552 | 4021539 | Системы охлаждения - вентилятор, охлаждение | См. процедуру 008-040 | 8 |
-| Руководство по обслуживанию | QST30 CM552 | 4021539 | Система охлаждения - охлаждающий вентилятор натяжитель | [[57-008-087-tr — Cooling Fan Belt Tensioner\|См. процедуру 008-087]] | 8 |
+| Руководство по обслуживанию | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Система охлаждения - Drive Belt, Cooling Fan | [[57-008-002-tr — Drive Belt, Cooling Fan\|См. процедуру 008-002]] | 8 |
+| Руководство по обслуживанию | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Системы охлаждения Fan Drive Idler Arm Assembly | См. процедуру 008-029 | 8 |
+| Руководство по обслуживанию | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Системы охлаждения - вентилятор, охлаждение | См. процедуру 008-040 | 8 |
+| Руководство по обслуживанию | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Система охлаждения - охлаждающий вентилятор натяжитель | [[57-008-087-tr — Cooling Fan Belt Tensioner\|См. процедуру 008-087]] | 8 |
 | Руководство по обслуживанию | QST30 CM2350 | 5467179 | Система охлаждения - Drive Belt, Cooling Fan | См. процедуру 008-002 | 8 |
 | Руководство по обслуживанию | QST30 CM2350 | 5467179 | Системы охлаждения Fan Drive Idler Arm Assembly | См. процедуру 008-029 | 8 |
 | Руководство по обслуживанию | QST30 CM2350 | 5467179 | Системы охлаждения - вентилятор, охлаждение | См. процедуру 008-040 | 8 |
@@ -268,7 +268,7 @@ tags:
 > Scenario 3:
 >
 > - If all items check good for alignment, belt tension, rod ends in good condition, and fan blade requirements are met, replace the damper pulley adapter with a double lip pulley in comparison to the single lip pulley.
-> - Extra lip prevents belt from walking off crankshaft pulley. See Technical Service Bulletin, Cooling Fan Drive Belt Walking or Shredding, TSB210084 for part number information.
+> - Extra lip prevents belt from walking off crankshaft pulley. See Technical Service Bulletin, Cooling Fan Drive Belt Walking or Shredding, [[tsb210084 — Cooling Fan Drive Belt Walking or Shredding\|TSB210084]] for part number information.
 >
 > **Service Parts Availability**
 >
@@ -312,10 +312,10 @@ tags:
 > | Table 3, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QST30 CM552 | 4021539 | Cooling System- Drive Belt, Cooling Fan | [[57-008-002-tr — Drive Belt, Cooling Fan\|Refer to Procedure 008-002]] | 8 |
-> | Service Manual | QST30 CM552 | 4021539 | Cooling System- Fan Drive Idler Arm Assembly | Refer to Procedure 008-029 | 8 |
-> | Service Manual | QST30 CM552 | 4021539 | Cooling System- Fan, Cooling | Refer to Procedure 008-040 | 8 |
-> | Service Manual | QST30 CM552 | 4021539 | Cooling System- Cooling Fan Belt Tensioner | [[57-008-087-tr — Cooling Fan Belt Tensioner\|Refer to Procedure 008-087]] | 8 |
+> | Service Manual | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Cooling System- Drive Belt, Cooling Fan | [[57-008-002-tr — Drive Belt, Cooling Fan\|Refer to Procedure 008-002]] | 8 |
+> | Service Manual | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Cooling System- Fan Drive Idler Arm Assembly | Refer to Procedure 008-029 | 8 |
+> | Service Manual | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Cooling System- Fan, Cooling | Refer to Procedure 008-040 | 8 |
+> | Service Manual | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Cooling System- Cooling Fan Belt Tensioner | [[57-008-087-tr — Cooling Fan Belt Tensioner\|Refer to Procedure 008-087]] | 8 |
 > | Service Manual | QST30 CM2350 | 5467179 | Cooling System- Drive Belt, Cooling Fan | Refer to Procedure 008-002 | 8 |
 > | Service Manual | QST30 CM2350 | 5467179 | Cooling System- Fan Drive Idler Arm Assembly | Refer to Procedure 008-029 | 8 |
 > | Service Manual | QST30 CM2350 | 5467179 | Cooling System- Fan, Cooling | Refer to Procedure 008-040 | 8 |

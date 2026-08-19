@@ -894,7 +894,7 @@ TM без CentinelTM без TM
 
 CentinelTM - с непрерывно работающей системой CentinelTM интервал слива масла может быть увеличен до тех пор, пока анализ масла не потребует изменения масла или не будет известно, что масло загрязнено. Анализ масла требуется с интервалом 250 часов при использовании системы CentinelTM. Параметры анализа нефти ** должны** оставаться в пределах, указанных в Таблице 2 Методов анализа нефти для дизельных двигателей большой мощности, Бюллетень[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. См. следующие бюллетени:
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406, Раздел 4 - Масло для двигателей.
+- Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], Раздел 4 - Масло для двигателей.
 - Методы анализа масла для дизельных двигателей высокой мощности, бюллетень[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060.]]
 - Статистический анализ свинцовых показаний образца масла на двигателях большой мощности,[[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|Вестник 2883452.]]
 
@@ -917,7 +917,7 @@ CentinelTM - с непрерывно работающей системой Centi
 
 - Мощность нефтяной системы (сумма плюс любой объем удаленного резервуара)
 - Средний расход топлива
-- Используйте моторное масло, соответствующее стандартам, перечисленным в руководстве по обслуживанию жидкостей для продуктов Cummins®, в бюллетене 5411406, раздел 4 - моторное масло.
+- Используйте моторное масло, соответствующее стандартам, перечисленным в руководстве по обслуживанию жидкостей для продуктов Cummins®, в бюллетене [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], раздел 4 - моторное масло.
 - Анализ масла для демонстрации интервала метода диаграммы является приемлемым. См. следующие бюллетени:
 
 Емкость системы может быть определена путем знания объема масла, необходимого для прикосновения к знаку высокого уровня на измерителе уровня масла, и объема любых удаленных нефтяных резервуаров на машине, в которой масло непрерывно циркулирует. Мощности отстойника масла перечислены в руководствах по эксплуатации и техническому обслуживанию для всех двигателей Cummins®. Крайне важно, чтобы общий объем системы был известен при использовании метода диаграммы. Используйте следующую процедуру для получения информации о мощности нефтеотлива.[[56-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]Если машина оснащена системой запаса масла с резервуаром, удаленным от отстойника моторного масла, объем резервуара *** должен быть добавлен к объему отстойника двигателя для определения общей емкости системы. Это верно только для удаленных резервуаров, в которых нефть постоянно циркулирует. Объем макияжа CentinelTM** не*** увеличивает емкость системы, поскольку моторное масло*** не*** непрерывно циркулирует через этот бак.
@@ -1017,7 +1017,7 @@ QSK60-G6 (FR 6371) Интервал изменения масла, 678 литр�
 
 CentinelTM - с непрерывно работающей системой CentinelTM интервал слива масла может быть увеличен до тех пор, пока анализ масла не потребует изменения масла или не будет известно, что масло загрязнено. Анализ масла требуется с интервалом 250 часов при использовании системы CentinelTM и *** должен включать измерение сажи. Набор анализа масла Fleetguard®, номер детали CC 2543, соответствует этому требованию. См. следующие бюллетени для получения дополнительной информации о отборе и анализе проб нефти.
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406, Раздел 4 - Масло для двигателей.
+- Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], Раздел 4 - Масло для двигателей.
 - Методы анализа масла для дизельных двигателей высокой мощности, бюллетень[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060.]]
 - Статистический анализ свинцовых показаний образца масла на двигателях большой мощности,[[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|Вестник 2883452.]]
 
@@ -1941,7 +1941,7 @@ Cummins Inc. **не рекомендует интервалы изменения
 >
 > Centinel™ - With a continuously operating Centinel™ System, the oil drain interval can be extended until the oil analysis requires the oil to be changed or the oil is known to be contaminated. Oil analysis is required at 250 hour intervals when using the Centinel™ System. Oil analysis parameters **must** remaining within the limits specified in Table 2 of the Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. Reference the following bulletins:
 >
-> - Fluids for Cummins® Products Service Manual, Bulletin 5411406, Section 4 - Engine Oil.
+> - Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], Section 4 - Engine Oil.
 > - Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060.]]
 > - Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|Bulletin 2883452.]]
 >
@@ -1962,7 +1962,7 @@ Cummins Inc. **не рекомендует интервалы изменения
 >
 > - Oil system capacity (sump plus any remote tank volume)
 > - Average fuel consumption rate
-> - Use engine oil that complied to the standards listed in Fluids for Cummins® Products Service Manual, Bulletin 5411406, Section 4 - Engine Oil.
+> - Use engine oil that complied to the standards listed in Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], Section 4 - Engine Oil.
 > - Oil analysis to demonstrate the chart method interval is acceptable. Reference the following bulletins:
 >
 > System capacity can be determined by knowing the volume of the oil required to touch the high-level mark on the dipstick and volume of any remote oil tanks on the machine in which oil is continuously circulated. Oil sump capacities are listed in the operation and maintenance manuals for all Cummins® engines. It is imperative that the total system volume be known when using the chart method. Use the following procedure for information on the oil sump capacity. [[56-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V.]] If the machine is equipped with an oil reserve system with a reservoir remote from the engine oil sump, the reservoir volume **must** be added to the engine sump volume to determine the total system capacity. This is **only** true for remote tanks in which the oil is continuously circulated. The Centinel™ make-up tank volume does **not** add to system capacity since the engine oil is **not** continuously circulated through this tank.
@@ -2040,7 +2040,7 @@ Cummins Inc. **не рекомендует интервалы изменения
 >
 > Centinel™ - With a continuously operating Centinel™ System, the oil drain interval can be extended until the oil analysis requires the oil to be changed or the oil is known to be contaminated. Oil analysis is required at 250 hour intervals when using the Centinel™ System and **must** include soot measurement. Fleetguard® Oil Analysis Kit, Part Number CC 2543, meets this requirement. Reference the following bulletins for more information on oil sampling and analysis.
 >
-> - Fluids for Cummins® Products Service Manual, Bulletin 5411406, Section 4 - Engine Oil.
+> - Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], Section 4 - Engine Oil.
 > - Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060.]]
 > - Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|Bulletin 2883452.]]
 >

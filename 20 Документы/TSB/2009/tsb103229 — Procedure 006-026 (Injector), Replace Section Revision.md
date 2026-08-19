@@ -51,7 +51,7 @@ tags:
 
 ### Содержание
 
-Эта тема Службы/Частей добавляет Процедура 006-026 (форсунка) к Разделу 10 Руководства по эксплуатации и техническому обслуживанию K38, K50, QSK38 и QSK50, Бюллетень 3810497. Эта процедура рекомендует замену форсунки при периоде полураспада двигателя для восстановления как для форсунки с механическим, так и электронным приводом.
+Эта тема Службы/Частей добавляет Процедура 006-026 (форсунка) к Разделу 10 Руководства по эксплуатации и техническому обслуживанию K38, K50, QSK38 и QSK50, Бюллетень [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. Эта процедура рекомендует замену форсунки при периоде полураспада двигателя для восстановления как для форсунки с механическим, так и электронным приводом.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -63,4 +63,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic adds the Procedure 006-026 (Injector) to Section 10 of the Operation and Maintenance Manual K38, K50, QSK38 and QSK50, Bulletin 3810497. This procedure recommends injector replacement at engine half life to rebuild for both the mechanically and electronically actuated injectors.
+> This Service/Parts Topic adds the Procedure 006-026 (Injector) to Section 10 of the Operation and Maintenance Manual K38, K50, QSK38 and QSK50, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. This procedure recommends injector replacement at engine half life to rebuild for both the mechanically and electronically actuated injectors.

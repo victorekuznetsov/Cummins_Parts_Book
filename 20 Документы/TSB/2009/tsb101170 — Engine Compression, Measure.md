@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-В этой теме для обслуживания/частей публикуются новые процедуры, сжатие двигателя, номер процедуры 014-012, которые будут использоваться в руководствах по устранению неполадок и ремонту C8.3, бюллетенях 3666003 и 3810261, а также пересматриваются рядом с последним узлом в Symptom Tree T057, чтобы включить ссылку на новую процедуру.
+В этой теме для обслуживания/частей публикуются новые процедуры, сжатие двигателя, номер процедуры 014-012, которые будут использоваться в руководствах по устранению неполадок и ремонту C8.3, бюллетенях [[3666003 — C Troubleshooting and Repair Manual\|3666003]] и 3810261, а также пересматриваются рядом с последним узлом в Symptom Tree T057, чтобы включить ссылку на новую процедуру.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This service/parts topic releases new procedure, Engine Compression, Procedure Number 014-012, which will be used in the C8.3 Troubleshooting and Repair Manuals, Bulletins 3666003 and 3810261, and also revises the next to the last node in Symptom Tree T057 to include reference to the new procedure.
+> This service/parts topic releases new procedure, Engine Compression, Procedure Number 014-012, which will be used in the C8.3 Troubleshooting and Repair Manuals, Bulletins [[3666003 — C Troubleshooting and Repair Manual\|3666003]] and 3810261, and also revises the next to the last node in Symptom Tree T057 to include reference to the new procedure.

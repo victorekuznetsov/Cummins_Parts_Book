@@ -242,7 +242,7 @@ tags:
 
 Для двигателей K19 используйте следующую процедуру в Руководстве по эксплуатации, K19, Бюллетень 4021499 для информации о сборке натяжителя ремня вентилятора. См. процедуру 008-087 в разделе 8. или в Руководстве по эксплуатации и техническому обслуживанию, K19 Industrial and Marine Engines, Bulletin 3666013. См. процедуру 008-087 в разделе A.
 
-Для двигателей QSK19 используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin 4021592 для информации о сборке натяжителя ремня вентилятора.[[20-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]или в Руководстве по эксплуатации и техническому обслуживанию, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Bulletin 3666120.[[20-008-087-om — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе A.]]
+Для двигателей QSK19 используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] для информации о сборке натяжителя ремня вентилятора.[[20-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]или в Руководстве по эксплуатации и техническому обслуживанию, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].[[20-008-087-om — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе A.]]
 
 Это изменение дизайна предназначено для улучшения дизайна ** только ** и не влияет на гарантию. Если натяжитель ремня вентилятора обнаружен на двигателе K19 или QSK19, замените натяжитель ремня вентилятора на этот пересмотренный дизайн.
 
@@ -453,7 +453,7 @@ tags:
 >
 > For K19 engines, use the following procedure in Service Manual, K19, Bulletin 4021499 for fan belt tensioner assembly information. Refer to Procedure 008-087 in Section 8. or in the Operation and Maintenance Manual, K19 Industrial and Marine Engines, Bulletin 3666013. Refer to Procedure 008-087 in Section A.
 >
-> For QSK19 engines, use the following procedure in Service Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin 4021592 for fan belt tensioner assembly information. [[20-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]] or in the Operation and Maintenance Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Bulletin 3666120. [[20-008-087-om — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section A.]]
+> For QSK19 engines, use the following procedure in Service Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] for fan belt tensioner assembly information. [[20-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]] or in the Operation and Maintenance Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. [[20-008-087-om — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section A.]]
 >
 > This design change is for design improvement **only** and has no effect on warranty. If the fan belt tensioner is found seized on a K19 or QSK19 engine, replace the fan belt tensioner with this revised design.
 >

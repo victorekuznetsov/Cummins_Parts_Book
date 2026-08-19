@@ -107,7 +107,7 @@ tags:
 > [!note] Примечание
 > Предыдущие комплекты для обслуживания, номера деталей 4025260 и 4025261, для механических насосов, которые включали в себя шпильную передачу и монтажное оборудование, теперь устарели.
 
-Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
+Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
 
 | Электронные топливные насосы RP39 |  |  |
 |---|---|---|
@@ -131,7 +131,7 @@ tags:
 | клапан, регулятор давления | 1 | [[4975645]] |
 | Шеф, Шиллинг | 2 | [[4975529]] |
 
-Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
+Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
 
 ## Детали, упомянутые в документе
 
@@ -202,7 +202,7 @@ tags:
 > **Note · Примечание**
 > Previous service kits, Part Numbers 4025260 and 4025261, for the mechanical pumps that included a spline gear, and mounting hardware, are now obsolete.
 >
-> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
+> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
 >
 > | Old Electronic RP39 Fuel Pumps |  |  |
 > |---|---|---|
@@ -226,4 +226,4 @@ tags:
 > | Valve, Pressure Regulator | 1 | [[4975645]] |
 > | Washer, Sealing | 2 | [[4975529]] |
 >
-> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
+> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]

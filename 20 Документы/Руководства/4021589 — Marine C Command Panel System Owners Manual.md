@@ -36,8 +36,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021589-toc | Table of Contents |  |
-| 4021589-titlepage | Titlepage | 08-Jan-2007 |
+| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-toc | Table of Contents |  |
+| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-titlepage | Titlepage | 08-Jan-2007 |
 | marpanel-frwd | Forword | 17-Jan-2007 |
 
 ### Section i - Introduction
@@ -82,7 +82,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4021589-backcover | Backcover | 08-Jan-2007 |
+| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-backcover | Backcover | 08-Jan-2007 |
 
 ### Section E - Engine and System Identification
 

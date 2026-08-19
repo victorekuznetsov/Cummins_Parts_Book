@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема для обслуживания/частей пересматривает Процедуру 011-009, Ограничение выхлопа, чтобы включить информацию о морских приложениях для Руководства по устранению неполадок и ремонту серии C, Вестник 3666003.
+Эта тема для обслуживания/частей пересматривает Процедуру 011-009, Ограничение выхлопа, чтобы включить информацию о морских приложениях для Руководства по устранению неполадок и ремонту серии C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This service/parts topic revises Procedure 011-009, Exhaust Restriction to include Marine application information for the C Series Troubleshooting and Repair Manual, Bulletin 3666003.
+> This service/parts topic revises Procedure 011-009, Exhaust Restriction to include Marine application information for the C Series Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].

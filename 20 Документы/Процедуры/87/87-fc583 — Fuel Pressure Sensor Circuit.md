@@ -66,7 +66,7 @@ tags:
 
 ### Расположение компонента
 
-Датчик давления топлива расположен на выходе топливного фильтра, монтажной головки и перед насосом впрыска топлива на промышленных двигателях QST30 с электрическими насосами подъема топлива. Используйте следующую процедуру в Руководстве по эксплуатации, QST30, Бюллетень 4021539 для определения местоположения датчика давления топлива.[[57-100-002 — Engine Diagrams|См. процедуру 100-002 в разделе E.]]
+Датчик давления топлива расположен на выходе топливного фильтра, монтажной головки и перед насосом впрыска топлива на промышленных двигателях QST30 с электрическими насосами подъема топлива. Используйте следующую процедуру в Руководстве по эксплуатации, QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]] для определения местоположения датчика давления топлива.[[57-100-002 — Engine Diagrams|См. процедуру 100-002 в разделе E.]]
 
 ### Практические замечания
 
@@ -108,7 +108,7 @@ tags:
 >
 > ### Component Location
 >
-> The fuel pressure sensor is located on the outlet of the fuel filter head and before the fuel injection pump on QST30 industrial engines with electric fuel lift pumps. Use the following procedure in Service Manual, QST30, Bulletin 4021539 for fuel pressure sensor location. [[57-100-002 — Engine Diagrams|Refer to Procedure 100-002 in Section E.]]
+> The fuel pressure sensor is located on the outlet of the fuel filter head and before the fuel injection pump on QST30 industrial engines with electric fuel lift pumps. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]] for fuel pressure sensor location. [[57-100-002 — Engine Diagrams|Refer to Procedure 100-002 in Section E.]]
 >
 > ### Shoptalk
 >

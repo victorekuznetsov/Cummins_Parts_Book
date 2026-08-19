@@ -92,7 +92,7 @@ tags:
 2. Очистить память журнала ошибок / трендов
 3. Проверьте наличие доказательств повреждения памяти, таких как ESN, часы, расход топлива и т. д. быть некорректным. Если выявлена коррупция, продолжайте делать шаг 4. В противном случае перейдите к шагу 5
 4. Калибровка модуля CENSETM с использованием последней калибровочной версии
-5. Позволяет двигателю/оборудованию нормально работать в течение 1 часа. Скачать модуль CENSETM. После завершения загрузки проверьте модуль CENSETM на наличие повреждений памяти. Если обнаружена повреждение памяти, замените модуль CENSETM. Ссылка TSB110024 для получения дополнительной информации.
+5. Позволяет двигателю/оборудованию нормально работать в течение 1 часа. Скачать модуль CENSETM. После завершения загрузки проверьте модуль CENSETM на наличие повреждений памяти. Если обнаружена повреждение памяти, замените модуль CENSETM. Ссылка [[tsb110024 — CM530 CENSE™ Module Re-Use\|TSB110024]] для получения дополнительной информации.
 
 Если связь с модулем CENSETM может быть установлена **не**, используйте следующую процедуру, когда симптомы или коды неисправностей выше испытаны, и при использовании INSITE CENSE невозможно установить соединение с модулем CENSETM, в то время как модуль все еще установлен на блоке.
 
@@ -175,7 +175,7 @@ tags:
 > 2. Clear the fault/trend log memory
 > 3. Check for evidence of memory corruption, such as ESN, hours, fuel consumption, etc. being incorrect. If corruption is detected, continue to step 4. Otherwise move to step 5
 > 4. Calibrate the CENSE™ module with the latest calibration version
-> 5. Allow the engine/equipment to operate normally for 1 hour. Download the CENSE™ module. Once the download is complete, inspect the CENSE™ module for evidence of memory corruption. If memory corruption is detected, replace the CENSE™ module. Reference TSB110024 for further information.
+> 5. Allow the engine/equipment to operate normally for 1 hour. Download the CENSE™ module. Once the download is complete, inspect the CENSE™ module for evidence of memory corruption. If memory corruption is detected, replace the CENSE™ module. Reference [[tsb110024 — CM530 CENSE™ Module Re-Use\|TSB110024]] for further information.
 >
 > If communication can **not** be established with the CENSE™ module use the following procedure when the symptoms or fault codes above are experienced, and it is **not** possible to establish a connection with the CENSE™ module when using INSITE CENSE, while the module is still installed on the unit.
 >

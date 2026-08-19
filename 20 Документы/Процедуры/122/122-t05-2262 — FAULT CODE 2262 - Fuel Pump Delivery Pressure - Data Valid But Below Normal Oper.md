@@ -78,7 +78,7 @@ tags:
 | ** Условия: ** Работайте с двигателем на холостом ходу. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Запустите двигатель и проверьте наличие внешних утечек топлива. Проверьте внешние утечки топлива. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру из руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник 4021528. См. процедуру 006-024 в разделе 6. Используйте следующую процедуру из руководства по обслуживанию QSK45 и QSK60, Бюллетень 4021530. См. процедуру 006-024 в разделе 6. | 3А |
+| Запустите двигатель и проверьте наличие внешних утечек топлива. Проверьте внешние утечки топлива. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру из руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-024 в разделе 6. Используйте следующую процедуру из руководства по обслуживанию QSK45 и QSK60, Бюллетень 4021530. См. процедуру 006-024 в разделе 6. | 3А |
 | Топливо просачивается наружу? ** НЕТ** | 2В |  |
 
 #### ШАГ 2B. Проверьте воздух в топливе.
@@ -86,7 +86,7 @@ tags:
 | ** Условия:** Удалить линию кровотока воздуха из клапана с воздушным кровотоком на блоке коллектора слива топлива. Проведите линию воздушного кровотечения в подходящий контейнер для сбора топлива. Включите зажигание. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Направьте поток топлива из линии воздушного кровотечения в контейнер. Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник 4021528.[[28-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. Используйте следующую процедуру из руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник 4021528. См. процедуру 006-024 в разделе 6. Используйте следующую процедуру из руководства по обслуживанию QSK45 и QSK60, Бюллетень 4021530. См. процедуру 006-024 в разделе 6. | 3А |
+| Направьте поток топлива из линии воздушного кровотечения в контейнер. Проверьте расход топлива для воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-003 — Air in Fuel\|См. процедуру 006-003 в разделе 6.]]Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? *** Ремонт:** Ремонт или замена поврежденной линии или свободного соединения. Используйте следующую процедуру из руководства по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 006-024 в разделе 6. Используйте следующую процедуру из руководства по обслуживанию QSK45 и QSK60, Бюллетень 4021530. См. процедуру 006-024 в разделе 6. | 3А |
 | Присутствует ли воздух в потоке топлива? ** НЕТ** | 2C |  |
 
 #### ШАГ 2C. Проверьте датчик давления подачи топлива.
@@ -102,7 +102,7 @@ tags:
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение входного отверстия на входе топливного фильтра 1-й стадии. Для двигателей серий K38, K50 и QSK50 в бюллетене 4021528 используется следующая процедура. См. процедуру 006-020 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-020 в разделе 6. | Ограничение входа 1 стадии больше, чем спецификация? ******* См. информацию об услугах изготовителя оборудования для инструкций по ремонту. | 3А |
+| Измерить ограничение входного отверстия на входе топливного фильтра 1-й стадии. Для двигателей серий K38, K50 и QSK50 в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] используется следующая процедура. См. процедуру 006-020 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-020 в разделе 6. | Ограничение входа 1 стадии больше, чем спецификация? ******* См. информацию об услугах изготовителя оборудования для инструкций по ремонту. | 3А |
 | Ограничение входа 1 стадии больше, чем спецификация? ** НЕТ** | 2Е |  |
 
 #### ШАГ 2E. Проверьте ограничение фильтра 1-й стадии.
@@ -110,8 +110,8 @@ tags:
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение топливного фильтра 1-й стадии. Для двигателей серий K38, K50 и QSK50 в бюллетене 4021528 используется следующая процедура. См. процедуру 006-020 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-020 в разделе 6. | Ограничение фильтра 1-й стадии меньше, чем спецификация? *** Ремонт:** Заменить насосную установку высокого давления. Для двигателей серий K38, K50 и QSK50 в бюллетене 4021528 используется следующая процедура. См. процедуру 005-016 в разделе 5. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 005-016 в разделе 5. | 3А |
-| Ограничение фильтра 1-й стадии меньше, чем спецификация? **NORepair:** Заменить топливный фильтр 1-й ступени. Для двигателей серий K38, K50 и QSK50 в бюллетене 4021528 используется следующая процедура. См. процедуру 006-075 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-075 в разделе 6. | 3А |  |
+| Измерить ограничение топливного фильтра 1-й стадии. Для двигателей серий K38, K50 и QSK50 в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] используется следующая процедура. См. процедуру 006-020 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-020 в разделе 6. | Ограничение фильтра 1-й стадии меньше, чем спецификация? *** Ремонт:** Заменить насосную установку высокого давления. Для двигателей серий K38, K50 и QSK50 в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] используется следующая процедура. См. процедуру 005-016 в разделе 5. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 005-016 в разделе 5. | 3А |
+| Ограничение фильтра 1-й стадии меньше, чем спецификация? **NORepair:** Заменить топливный фильтр 1-й ступени. Для двигателей серий K38, K50 и QSK50 в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] используется следующая процедура. См. процедуру 006-075 в разделе 6. Для двигателей серии QSK45 и QSK60 используйте следующую процедуру в бюллетене 4021530. См. процедуру 006-075 в разделе 6. | 3А |  |
 
 ### ШАГ 3. Отключите и очистите коды ошибок.
 
@@ -168,7 +168,7 @@ tags:
 > | **Conditions:** Operate engine at idle. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Start the engine and check for external fuel leaks. Check for external fuel leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure from the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-024 in Section 6. Use the following procedure from the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in Section 6. | 3A |
+> | Start the engine and check for external fuel leaks. Check for external fuel leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure from the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-024 in Section 6. Use the following procedure from the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in Section 6. | 3A |
 > | Fuel leaking externally? **NO** | 2B |  |
 >
 > #### STEP 2B. Check for air in fuel.
@@ -176,7 +176,7 @@ tags:
 > | **Conditions:** Remove air bleed line from air bleed valve on the fuel drain manifold block. Route the air bleed line into a suitable container to collect fuel. Turn keyswitch ON. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Direct the fuel flow from the air bleed line into a container. Inspect the fuel flow for air. Use the following procedure in Service Manual, K38, K50, QSK38 and QSK50, Bulletin 4021528. [[28-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6.]] Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Repair or replace the damaged line or loose connection. Use the following procedure from the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 006-024 in Section 6. Use the following procedure from the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in Section 6. | 3A |
+> | Direct the fuel flow from the air bleed line into a container. Inspect the fuel flow for air. Use the following procedure in Service Manual, K38, K50, QSK38 and QSK50, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-003 — Air in Fuel\|Refer to Procedure 006-003 in Section 6.]] Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Repair or replace the damaged line or loose connection. Use the following procedure from the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-024 in Section 6. Use the following procedure from the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 006-024 in Section 6. | 3A |
 > | Air present in the fuel flow? **NO** | 2C |  |
 >
 > #### STEP 2C. Check the fuel supply pressure sensor.
@@ -192,7 +192,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure fuel inlet restriction at the Stage 1 fuel filter inlet. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin 4021528. Refer to Procedure 006-020 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-020 in Section 6. | Stage 1 inlet restriction greater than specification? **YESRepair:** Refer to the equipment manufacturer service information for repair instructions. | 3A |
+> | Measure fuel inlet restriction at the Stage 1 fuel filter inlet. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-020 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-020 in Section 6. | Stage 1 inlet restriction greater than specification? **YESRepair:** Refer to the equipment manufacturer service information for repair instructions. | 3A |
 > | Stage 1 inlet restriction greater than specification? **NO** | 2E |  |
 >
 > #### STEP 2E. Check the Stage 1 filter restriction.
@@ -200,8 +200,8 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the Stage 1 fuel filter restriction. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin 4021528. Refer to Procedure 006-020 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-020 in Section 6. | Stage 1 filter restriction less than specification? **YESRepair:** Replace the high-pressure pump assembly. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin 4021528. Refer to Procedure 005-016 in Section 5. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 005-016 in Section 5. | 3A |
-> | Stage 1 filter restriction less than specification? **NORepair:** Replace the Stage 1 fuel filter. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin 4021528. Refer to Procedure 006-075 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-075 in Section 6. | 3A |  |
+> | Measure the Stage 1 fuel filter restriction. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-020 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-020 in Section 6. | Stage 1 filter restriction less than specification? **YESRepair:** Replace the high-pressure pump assembly. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 005-016 in Section 5. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 005-016 in Section 5. | 3A |
+> | Stage 1 filter restriction less than specification? **NORepair:** Replace the Stage 1 fuel filter. For K38, K50, and QSK50 Series Engines, use the following procedure in Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 006-075 in Section 6. For QSK45 and QSK60 Series Engines, use the following procedure in Bulletin 4021530. Refer to Procedure 006-075 in Section 6. | 3A |  |
 >
 > ### STEP 3. Disable and clear the fault codes.
 >

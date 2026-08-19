@@ -51,7 +51,7 @@ tags:
 
 
 > [!quote]- Original (English) · английский оригинал
-> ## **General Safety Instructions (99-204-006-om)**
+> ## **General Safety Instructions ([[99-204-006-om — Manual Not Available\|99-204-006-om]])**
 >
 > This procedure is not yet available at the time of publication.
 >

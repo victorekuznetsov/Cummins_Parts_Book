@@ -52,7 +52,7 @@ tags:
 
 В настоящем документе приводится информация для комплекта для испытания на утечку топливной системы, номер детали 2892246. Набор используется для тестирования топливного форсунка на двигателях QSK19 MCRS.
 
-Используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592, для получения дополнительной информации о тесте на утечку топливной системы.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
+Используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], для получения дополнительной информации о тесте на утечку топливной системы.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
 
 ![[22k00003.png]]
 
@@ -86,7 +86,7 @@ tags:
 >
 > This document provides information for fuel system leak test kit, Part Number 2892246. The kit is used to test the injectors on the QSK19 MCRS engines.
 >
-> Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592, for additional information on the fuel system leak test kit. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+> Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], for additional information on the fuel system leak test kit. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
 >
 > | Table 1, Fuel System Leak Test Kit, Part Number 2892246 |  |  |  |
 > |---|---|---|---|

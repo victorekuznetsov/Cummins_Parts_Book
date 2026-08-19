@@ -50,7 +50,7 @@ tags:
 
 Воздушный компрессор
 
-**только для Cummins Inc. Компрессор, используемый на двигателях QST30, представляет собой двухцилиндровый компрессор с 850-литровым ежеминутным \[30-cfm\]. Для полной инструкции по восстановлению компрессора Cummins обратитесь к руководству по эксплуатации компрессора Cummins Two-Cylinder, которое опубликовано в Bulletin 3666121.
+**только для Cummins Inc. Компрессор, используемый на двигателях QST30, представляет собой двухцилиндровый компрессор с 850-литровым ежеминутным \[30-cfm\]. Для полной инструкции по восстановлению компрессора Cummins обратитесь к руководству по эксплуатации компрессора Cummins Two-Cylinder, которое опубликовано в Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 Для получения полной инструкции по восстановлению для любого воздушного компрессора, кроме Cummins, обратитесь к производителю оригинального оборудования.
 
@@ -66,7 +66,7 @@ tags:
 >
 > Air Compressor
 >
-> The **only** Cummins Inc. compressor used on QST30 engines is the two-cylinder, 850-liter-each-minute \[30-cfm\] compressor. For the complete rebuild instructions of the Cummins compressor, refer to Bulletin 3666121, Cummins Two-Cylinder Air Compressor Shop Manual.
+> The **only** Cummins Inc. compressor used on QST30 engines is the two-cylinder, 850-liter-each-minute \[30-cfm\] compressor. For the complete rebuild instructions of the Cummins compressor, refer to Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]], Cummins Two-Cylinder Air Compressor Shop Manual.
 >
 > For complete rebuild instructions for any air compressor other than Cummins, refer to the original equipment manufacturer.
 >

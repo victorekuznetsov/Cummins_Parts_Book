@@ -119,10 +119,10 @@ tags:
 | Таблица 3, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | GTA38, K38, K50, QSK38, QSK50 | 4021528 | Перепускная масляная трубка | [[28-007-040-tr — Lubricating Oil Transfer Tube\|См. процедуру 007-040]] | 7 |
+| Руководство по обслуживанию | GTA38, K38, K50, QSK38, QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Перепускная масляная трубка | [[28-007-040-tr — Lubricating Oil Transfer Tube\|См. процедуру 007-040]] | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Перепускная масляная трубка | См. процедуру 007-040 | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K130 | 5504180 | Перепускная масляная трубка | См. процедуру 007-040 | 7 |
-| Руководство по обслуживанию | GTA38, K38, K50, QSK38, QSK50 | 4021528 | Перепускное масляное соединение | [[28-007-061-tr — Oil Transfer Connection\|См. процедуру 007-061]] | 7 |
+| Руководство по обслуживанию | GTA38, K38, K50, QSK38, QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Перепускное масляное соединение | [[28-007-061-tr — Oil Transfer Connection\|См. процедуру 007-061]] | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Перепускное масляное соединение | См. процедуру 007-061 | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K130 | 5504180 | Перепускное масляное соединение | См. процедуру 007-061 | 7 |
 
@@ -209,10 +209,10 @@ tags:
 > | Table 3, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | GTA38, K38, K50, QSK38, QSK50 | 4021528 | Lubricating Oil Transfer Tube | [[28-007-040-tr — Lubricating Oil Transfer Tube\|Refer to Procedure 007-040]] | 7 |
+> | Service Manual | GTA38, K38, K50, QSK38, QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Lubricating Oil Transfer Tube | [[28-007-040-tr — Lubricating Oil Transfer Tube\|Refer to Procedure 007-040]] | 7 |
 > | Service Manual | QSK50 CM2350 K108 | 4332823 | Lubricating Oil Transfer Tube | Refer to Procedure 007-040 | 7 |
 > | Service Manual | QSK50 CM2350 K130 | 5504180 | Lubricating Oil Transfer Tube | Refer to Procedure 007-040 | 7 |
-> | Service Manual | GTA38, K38, K50, QSK38, QSK50 | 4021528 | Oil Transfer Connection | [[28-007-061-tr — Oil Transfer Connection\|Refer to Procedure 007-061]] | 7 |
+> | Service Manual | GTA38, K38, K50, QSK38, QSK50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Oil Transfer Connection | [[28-007-061-tr — Oil Transfer Connection\|Refer to Procedure 007-061]] | 7 |
 > | Service Manual | QSK50 CM2350 K108 | 4332823 | Oil Transfer Connection | Refer to Procedure 007-061 | 7 |
 > | Service Manual | QSK50 CM2350 K130 | 5504180 | Oil Transfer Connection | Refer to Procedure 007-061 | 7 |
 >

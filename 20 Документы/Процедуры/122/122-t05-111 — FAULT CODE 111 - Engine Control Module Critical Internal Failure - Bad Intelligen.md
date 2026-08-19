@@ -102,7 +102,7 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Электронный блок управления двигателем | См. процедуру 019-031 | QSK50 CM2150 MCRS | 4022102 |
+| Электронный блок управления двигателем | См. процедуру 019-031 | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -165,4 +165,4 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Engine Control Module | Refer to Procedure 019-031 | QSK50 CM2150 MCRS | 4022102 |
+> | Engine Control Module | Refer to Procedure 019-031 | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |

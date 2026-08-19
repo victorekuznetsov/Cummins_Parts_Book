@@ -73,7 +73,7 @@ tags:
 | **Условия:** Подключите инструмент CompuchekTM. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте датчик давления подачи топлива. Запуск и эксплуатация двигателя на высоком холостом ходу. Запись показания датчика подачи топлива в электронном сервисном инструменте INSITETM. Запись показаний давления подачи топлива на датчике измерения давления, установленном на месте датчика давления подачи топлива. Используйте следующую процедуру в Руководстве по эксплуатации QSK19 и модульных двигателях общей железнодорожной системы QSK19 CM850, Бюллетень 4021592, для фильтров 2-й ступени в разделе Мера. См. процедуру 006-024 в разделе 6. | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2 пс] друг от друга? *Да** | 1В |
+| Проверьте датчик давления подачи топлива. Запуск и эксплуатация двигателя на высоком холостом ходу. Запись показания датчика подачи топлива в электронном сервисном инструменте INSITETM. Запись показаний давления подачи топлива на датчике измерения давления, установленном на месте датчика давления подачи топлива. Используйте следующую процедуру в Руководстве по эксплуатации QSK19 и модульных двигателях общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], для фильтров 2-й ступени в разделе Мера. См. процедуру 006-024 в разделе 6. | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2 пс] друг от друга? *Да** | 1В |
 | Электронная сервисная оснастка INSITETM и показания датчиков давления в пределах 14 кПа[2 пс] друг от друга? **NORepair:** Заменить датчик давления подачи топлива. См. процедуру 019-398 в разделе 19. | 2А |  |
 
 #### ШАГ 1B. Проверьте линии подачи топлива.
@@ -81,7 +81,7 @@ tags:
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверяйте линии подачи топлива на наличие повреждений, изломов, ограничений. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 006-024 в разделе 6. | Повреждены, повреждены или ограничены топливные линии? *** Ремонт:** Заменить линию (линии) подачи топлива. | 2А |
+| Проверяйте линии подачи топлива на наличие повреждений, изломов, ограничений. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-024 в разделе 6. | Повреждены, повреждены или ограничены топливные линии? *** Ремонт:** Заменить линию (линии) подачи топлива. | 2А |
 | Повреждены, повреждены или ограничены топливные линии? ** НЕТ** | 1С |  |
 
 #### ШАГ 1C. Проверьте ограничение топливного фильтра 2 стадии.
@@ -89,23 +89,23 @@ tags:
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение фильтра 2 стадии. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 006-020 в разделе 6. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 1D |
-| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить топливные фильтры 2-й ступени. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 006-076 в разделе 6. | 1С-1-1 |  |
+| Измерить ограничение фильтра 2 стадии. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 1D |
+| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить топливные фильтры 2-й ступени. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-076 в разделе 6. | 1С-1-1 |  |
 
 #### ШАГ 1C-1. Проверьте головку установки топливного фильтра.
 
 | **Условия:** Выключите замок зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение топливного фильтра 2 стадии. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 006-020 в разделе 6. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 2А |
-| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить установочную головку топливного фильтра 2-й ступени. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 006-017 в разделе 6. | 2А |  |
+| Измерить ограничение топливного фильтра 2 стадии. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | 2-й этап ограничения топливного фильтра в установленных пределах. *Да** | 2А |
+| 2-й этап ограничения топливного фильтра в установленных пределах. **NORepair:** Заменить установочную головку топливного фильтра 2-й ступени. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-017 в разделе 6. | 2А |  |
 
 #### ШАГ 1D. Проверьте давление подачи топлива на топливном коллекторе.
 
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте давление подачи топлива на топливном коллекторе. Закройте клапан подачи топлива. Удалите пробку M14 STOR из впускного коллектора топлива. Установите фитинг CompuchekTM, номер детали 3824844 или эквивалент, в впускном коллекторе топлива. Подключите вакуумный калибр и адаптер, номер 3164491 или эквивалент, и цифровой мультиметр, номер 3164488 или 3164489, или эквивалент, к фитингу CompuchekTM. Откройте клапан подачи топлива. Запуск и эксплуатация двигателя при низком и высоком холостом ходу. Запись показаний давления на входе топлива. | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? *** Заменить топливный насос. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень 4021592. См. процедуру 005-016 в разделе 5. | 2А |
+| Проверьте давление подачи топлива на топливном коллекторе. Закройте клапан подачи топлива. Удалите пробку M14 STOR из впускного коллектора топлива. Установите фитинг CompuchekTM, номер детали 3824844 или эквивалент, в впускном коллекторе топлива. Подключите вакуумный калибр и адаптер, номер 3164491 или эквивалент, и цифровой мультиметр, номер 3164488 или 3164489, или эквивалент, к фитингу CompuchekTM. Откройте клапан подачи топлива. Запуск и эксплуатация двигателя при низком и высоком холостом ходу. Запись показаний давления на входе топлива. | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? *** Заменить топливный насос. Используйте следующую процедуру: Руководство по эксплуатации QSK19 и модульные двигатели общей железнодорожной системы QSK19 CM850, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 005-016 в разделе 5. | 2А |
 | Давление на входе в топливо всегда меньше 34,5 кПаГ[5 psig]? **NORepair:** См. руководство по эксплуатации изготовителя оригинального оборудования (OEM) для снижения давления на входе топлива. | 2А |  |
 
 ### ШАГ 2. Очистите код ошибки.
@@ -159,7 +159,7 @@ tags:
 > | **Conditions:** Connect the Compuchek™ tool. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the fuel supply pressure sensor. Start and operate the engine at high idle. Record the fuel supply sensor reading in INSITE™ electronic service tool. Record the fuel supply pressure reading on a pressure gauge installed in place of the fuel supply pressure sensor. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592, for the stage 2 filters in the Measure section. Refer to Procedure 006-024 in Section 6. | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2 psia\] of each other? **YES** | 1B |
+> | Check the fuel supply pressure sensor. Start and operate the engine at high idle. Record the fuel supply sensor reading in INSITE™ electronic service tool. Record the fuel supply pressure reading on a pressure gauge installed in place of the fuel supply pressure sensor. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], for the stage 2 filters in the Measure section. Refer to Procedure 006-024 in Section 6. | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2 psia\] of each other? **YES** | 1B |
 > | INSITE™ electronic service tool and pressure gauge readings within 14 kPa \[2 psia\] of each other? **NORepair:** Replace the fuel supply pressure sensor. Refer to Procedure 019-398 in Section 19. | 2A |  |
 >
 > #### STEP 1B. Check the fuel supply lines.
@@ -167,7 +167,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Examine the fuel supply lines for damages, kinks, restrictions. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 006-024 in Section 6. | Any fuel lines damaged, kinked, or restricted? **YESRepair:** Replace the fuel line(s). | 2A |
+> | Examine the fuel supply lines for damages, kinks, restrictions. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-024 in Section 6. | Any fuel lines damaged, kinked, or restricted? **YESRepair:** Replace the fuel line(s). | 2A |
 > | Any fuel lines damaged, kinked, or restricted? **NO** | 1C |  |
 >
 > #### STEP 1C. Check the stage 2 fuel filter restriction.
@@ -175,23 +175,23 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the stage 2 filter restriction. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 006-020 in Section 6. | Stage 2 fuel filter restriction within specification? **YES** | 1D |
-> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the stage 2 fuel filters. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 006-076 in Section 6. | 1C-1 |  |
+> | Measure the stage 2 filter restriction. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Stage 2 fuel filter restriction within specification? **YES** | 1D |
+> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the stage 2 fuel filters. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-076 in Section 6. | 1C-1 |  |
 >
 > #### STEP 1C-1. Check the fuel filter head.
 >
 > | **Conditions:** Turn keyswitch OFF. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the stage 2 fuel filter restriction. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 006-020 in Section 6. | Stage 2 fuel filter restriction within specification? **YES** | 2A |
-> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the stage 2 fuel filter head. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 006-017 in Section 6. | 2A |  |
+> | Measure the stage 2 fuel filter restriction. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Stage 2 fuel filter restriction within specification? **YES** | 2A |
+> | Stage 2 fuel filter restriction within specification? **NORepair:** Replace the stage 2 fuel filter head. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-017 in Section 6. | 2A |  |
 >
 > #### STEP 1D. Check the fuel supply pressure at the fuel manifold.
 >
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the fuel supply pressure at the fuel manifold. Close the fuel supply valve. Remove the M14 STOR plug from the fuel inlet manifold. Install a Compuchek™ fitting, Part Number 3824844, or equivalent, in the fuel inlet manifold. Connect the vacuum gauge and adapter, Part Number 3164491, or equivalent, and digital multimeter, Part Number 3164488 or 3164489, or equivalent, to the Compuchek™ fitting. Open the fuel supply valve. Start and operate the engine at low idle and high idle. Record the fuel inlet pressure readings. | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **YESRepair:** Replace the fuel pump. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin 4021592. Refer to Procedure 005-016 in Section 5. | 2A |
+> | Check the fuel supply pressure at the fuel manifold. Close the fuel supply valve. Remove the M14 STOR plug from the fuel inlet manifold. Install a Compuchek™ fitting, Part Number 3824844, or equivalent, in the fuel inlet manifold. Connect the vacuum gauge and adapter, Part Number 3164491, or equivalent, and digital multimeter, Part Number 3164488 or 3164489, or equivalent, to the Compuchek™ fitting. Open the fuel supply valve. Start and operate the engine at low idle and high idle. Record the fuel inlet pressure readings. | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **YESRepair:** Replace the fuel pump. Use the following procedure the Service Manual QSK19 and QSK19 CM850 Modular Common Rail System Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | 2A |
 > | Fuel inlet pressure always less than 34.5 kPaG \[5 psig\]? **NORepair:** Refer to the original equipment manufacturer (OEM) service manual to reduce fuel inlet pressure. | 2A |  |
 >
 > ### STEP 2. Clear the fault code.

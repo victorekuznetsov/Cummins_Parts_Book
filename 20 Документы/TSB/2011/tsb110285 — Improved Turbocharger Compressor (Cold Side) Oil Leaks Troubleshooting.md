@@ -53,7 +53,7 @@ tags:
 
 Этот документ вводит новую устранение неполадок для двигателей QSK19, которые имеют утечки масла в сторону впуска двигателя турбокомпрессора.
 
-Ссылка на дерево симптомов неисправности двигателя или топлива турбокомпрессора Утечка моторного масла или топлива в разделе TS в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.
+Ссылка на дерево симптомов неисправности двигателя или топлива турбокомпрессора Утечка моторного масла или топлива в разделе TS в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 
 Новое дерево устранения неполадок описывает шаги, которые необходимо предпринять, прежде чем турбокомпрессор может быть заменен. Это связано с большим количеством замен турбокомпрессоров, которые были сделаны на турбокомпрессорах, которые были обнаружены в рабочем механическом состоянии.
 
@@ -83,7 +83,7 @@ tags:
 >
 > This document introduces new troubleshooting for QSK19 engines that have oil leaks into the engine intake side of the turbocharger.
 >
-> Reference the Turbocharger Leaks Engine Oil or Fuel troubleshooting symptom tree in Section TS in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.
+> Reference the Turbocharger Leaks Engine Oil or Fuel troubleshooting symptom tree in Section TS in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].
 >
 > The new troubleshooting tree outlines steps that must be taken before the turbocharger can be replaced. This is due to a high number of turbocharger replacements that were done on turbochargers that were found to be in working mechanical condition.
 >

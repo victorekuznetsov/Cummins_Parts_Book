@@ -74,7 +74,7 @@ tags:
 | **Условия:** Выключите замок зажигания. Переключитесь на режим «Стоп/Стоп/Авто» |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ограничение фильтра воздухоочистителя двигателя или повреждение, которое может вызвать чрезмерное ограничение. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 010-059 в разделе 10. | Ограниченный фильтр для очистки воздуха? *** Заменить элементы воздухоочистителя. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 010-014 в разделе 10. | 2А |
+| Проверьте ограничение фильтра воздухоочистителя двигателя или повреждение, которое может вызвать чрезмерное ограничение. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-059 в разделе 10. | Ограниченный фильтр для очистки воздуха? *** Заменить элементы воздухоочистителя. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-014 в разделе 10. | 2А |
 | Ограниченный фильтр для очистки воздуха? ** НЕТ** | 6А |  |
 
 ### ШАГ 2. Проверьте наличие активных кодов неисправностей.
@@ -104,7 +104,7 @@ tags:
 | **Условия: ** Соединить все компоненты. Включите зажигание. Run/stop/auto switch в режиме RUN. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверить систему воздухозаборника на наличие утечек. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 010-024 в разделе 10. | Утечка воздуха обнаружена? *** Ремонт:** Ремонт утечек. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528. См. процедуру 010-024 в разделе 10. | 5а |
+| Проверить систему воздухозаборника на наличие утечек. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-024 в разделе 10. | Утечка воздуха обнаружена? *** Ремонт:** Ремонт утечек. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-024 в разделе 10. | 5а |
 | Утечка воздуха обнаружена? ** НЕТ** | 5а |  |
 
 ### ШАГ 5. Проверьте турбокомпрессоры.
@@ -114,7 +114,7 @@ tags:
 | **Условия:** Выключите замок зажигания. Переключатель Run/Stop/Auto в режиме STOP. Трубы для впуска удаляются с обоих турбокомпрессоров. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте турбокомпрессоры. Осмотрите лопасти турбокомпрессора на наличие признаков повреждения. | Поврежденные лопасти импеллера? *** Ремонт: ** Заменить поврежденный турбокомпрессор. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528.[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 6А |
+| Проверьте турбокомпрессоры. Осмотрите лопасти турбокомпрессора на наличие признаков повреждения. | Поврежденные лопасти импеллера? *** Ремонт: ** Заменить поврежденный турбокомпрессор. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 6А |
 | Поврежденные лопасти импеллера? ** НЕТ** | 6А |  |
 
 ### ШАГ 6. Проверить датчик давления.
@@ -188,7 +188,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Turn run/stop/auto switch to STOP position. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the engine air filter restriction or damage that may cause excessive restriction. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-059 in Section 10. | Air filter restricted? **YESRepair:** Replace the air cleaner elements. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-014 in Section 10. | 2A |
+> | Check the engine air filter restriction or damage that may cause excessive restriction. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-059 in Section 10. | Air filter restricted? **YESRepair:** Replace the air cleaner elements. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-014 in Section 10. | 2A |
 > | Air filter restricted? **NO** | 6A |  |
 >
 > ### STEP 2. Check for active fault codes.
@@ -218,7 +218,7 @@ tags:
 > | **Conditions:** Connect all components. Turn keyswitch ON. Run/stop/auto switch in the RUN mode. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the air intake system for leaks. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-024 in Section 10. | Air leak found? **YESRepair:** Repair the leak. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-024 in Section 10. | 5A |
+> | Inspect the air intake system for leaks. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-024 in Section 10. | Air leak found? **YESRepair:** Repair the leak. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-024 in Section 10. | 5A |
 > | Air leak found? **NO** | 5A |  |
 >
 > ### STEP 5. Check the turbochargers.
@@ -228,7 +228,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Run/stop/auto switch in the STOP mode. Intake tubing removed from both turbochargers. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the turbocharger impellers. Inspect the turbocharger impeller blades for signs of damage. | Damaged impeller blades? **YESRepair:** Replace the damaged turbocharger. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 6A |
+> | Inspect the turbocharger impellers. Inspect the turbocharger impeller blades for signs of damage. | Damaged impeller blades? **YESRepair:** Replace the damaged turbocharger. Use the following procedure in the K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 6A |
 > | Damaged impeller blades? **NO** | 6A |  |
 >
 > ### STEP 6. Validate the boost pressure sensor.

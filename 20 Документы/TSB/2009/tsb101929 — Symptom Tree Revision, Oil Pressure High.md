@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Тема данной услуги/частей пересматривает Симптомное дерево, 3666003-t104, Высокое давление моторного масла, для обновления справочной процедуры для коррекции, когда клапан регулятора давления застрял в открытом положении.
+Тема данной услуги/частей пересматривает Симптомное дерево, [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104, Высокое давление моторного масла, для обновления справочной процедуры для коррекции, когда клапан регулятора давления застрял в открытом положении.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Symptom Tree, 3666003-t104, Lubricating Oil Pressure High, to update a procedure reference for correction, when the pressure regulator valve is stuck open.
+> This Service/Parts Topic revises Symptom Tree, [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104, Lubricating Oil Pressure High, to update a procedure reference for correction, when the pressure regulator valve is stuck open.

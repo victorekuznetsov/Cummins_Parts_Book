@@ -78,7 +78,7 @@ tags:
 | **Условия:** Замок зажигания выключен/изолирован. Удалите впускную трубку с обоих турбокомпрессоров. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверить турбированный импеллер. Проверить лопасти турбокомпрессора на наличие признаков повреждения. | Поврежденные лопасти импеллера? *** Заменить турбокомпрессор. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528.[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 3А |
+| Проверить турбированный импеллер. Проверить лопасти турбокомпрессора на наличие признаков повреждения. | Поврежденные лопасти импеллера? *** Заменить турбокомпрессор. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 3А |
 | Поврежденные лопасти импеллера? ** НЕТ** | 3А |  |
 
 ### ШАГ 3. Проверить показания датчиков давления.
@@ -156,7 +156,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF/isolated. Remove intake tubing from both turbochargers. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect turbocharged impeller. Inspect turbocharger impeller blades for signs of damage. | Damaged impeller blades? **YESRepair:** Replace the turbocharger. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 3A |
+> | Inspect turbocharged impeller. Inspect turbocharger impeller blades for signs of damage. | Damaged impeller blades? **YESRepair:** Replace the turbocharger. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 3A |
 > | Damaged impeller blades? **NO** | 3A |  |
 >
 > ### STEP 3. Validate boost pressure sensor readings.

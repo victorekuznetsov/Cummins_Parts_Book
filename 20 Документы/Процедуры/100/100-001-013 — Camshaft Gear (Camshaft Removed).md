@@ -53,7 +53,7 @@ tags:
 
 Снимите переднюю крышку передних колес. См. процедуру 001-031.
 
-Удалить распредвал. Для дизельных двигателей серии C обратитесь к процедуре[[41-001-008 — Camshaft|001-008]]Руководство по устранению неполадок и ремонту, Двигатели серии С, Бюллетень 3666003. Для газовых двигателей серии C обратитесь к процедуре 001-008 в Руководстве по устранению неполадок и ремонту, Двигатели C8.3G (природный газ), Бюллетень 3666206.
+Удалить распредвал. Для дизельных двигателей серии C обратитесь к процедуре[[41-001-008 — Camshaft|001-008]]Руководство по устранению неполадок и ремонту, Двигатели серии С, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Для газовых двигателей серии C обратитесь к процедуре 001-008 в Руководстве по устранению неполадок и ремонту, Двигатели C8.3G (природный газ), Бюллетень 3666206.
 
 ![[ck800wa.png]]
 
@@ -176,7 +176,7 @@ tags:
 
 ### Завершающие операции
 
-Установите распределительный вал. Для дизельных двигателей серии C обратитесь к процедуре[[41-001-008 — Camshaft|001-008]]Руководство по устранению неполадок и ремонту, Двигатели серии С, Бюллетень 3666003. Для двигателей на природном газе серии C обратитесь к процедуре 001-008 в Руководстве по устранению неполадок и ремонту, Двигатели на природном газе C8.3G, Бюллетень 3666206.
+Установите распределительный вал. Для дизельных двигателей серии C обратитесь к процедуре[[41-001-008 — Camshaft|001-008]]Руководство по устранению неполадок и ремонту, Двигатели серии С, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Для двигателей на природном газе серии C обратитесь к процедуре 001-008 в Руководстве по устранению неполадок и ремонту, Двигатели на природном газе C8.3G, Бюллетень 3666206.
 
 Установите переднюю крышку передних передач. См. процедуру 001-031.
 
@@ -203,7 +203,7 @@ tags:
 >
 > Remove the front gear cover. Refer to Procedure 001-031.
 >
-> Remove the camshaft. For C Series diesel engines, refer to Procedure [[41-001-008 — Camshaft|001-008]] in Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003. For C Series gas engines, refer to Procedure 001-008 in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
+> Remove the camshaft. For C Series diesel engines, refer to Procedure [[41-001-008 — Camshaft|001-008]] in Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. For C Series gas engines, refer to Procedure 001-008 in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
 >
 > ### Remove
 >
@@ -298,7 +298,7 @@ tags:
 >
 > ### Finishing Steps
 >
-> Install the camshaft. For C Series diesel engines, refer to Procedure [[41-001-008 — Camshaft|001-008]] in Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003. For C Series natural gas engines, refer to Procedure 001-008 in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
+> Install the camshaft. For C Series diesel engines, refer to Procedure [[41-001-008 — Camshaft|001-008]] in Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. For C Series natural gas engines, refer to Procedure 001-008 in Troubleshooting and Repair Manual, C8.3G (Natural Gas) Engines, Bulletin 3666206.
 >
 > Install the front gear cover. Refer to Procedure 001-031.
 >

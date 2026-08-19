@@ -77,11 +77,11 @@ tags:
 
 **Решение**
 
-Если наблюдается свободный защитный ремень, защитный ремень может быть удален и переустановлен с помощью альтернативных изоляторов. Если защитный ремень также треснул, защитный ремень должен быть заменен при установке альтернативных изоляторов. См. QST30 Service Manual, Bulletin 4021539. См. процедуру 008-001 в разделе 8 для снятия защиты ремня. Следуйте модификациям, описанным в этом бюллетене, чтобы установить защитный ремень.
+Если наблюдается свободный защитный ремень, защитный ремень может быть удален и переустановлен с помощью альтернативных изоляторов. Если защитный ремень также треснул, защитный ремень должен быть заменен при установке альтернативных изоляторов. См. QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 008-001 в разделе 8 для снятия защиты ремня. Следуйте модификациям, описанным в этом бюллетене, чтобы установить защитный ремень.
 
 **Инструкция по обслуживанию**
 
-См. QST30 Service Manual, Bulletin 4021539. См. процедуру 008-001 в разделе 8 для снятия защиты ремня.
+См. QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 008-001 в разделе 8 для снятия защиты ремня.
 
 Установка:
 
@@ -156,11 +156,11 @@ tags:
 >
 > **Resolution**
 >
-> If a loose belt guard is observed, the belt guard can be removed and reinstalled with alternate isolators. If the belt guard is also cracked, the belt guard should be replaced when the alternate isolators are installed. See QST30 Service Manual, Bulletin 4021539. Refer to Procedure 008-001 in Section 8 to remove belt guard. Follow modifications described in this bulletin to install the belt guard.
+> If a loose belt guard is observed, the belt guard can be removed and reinstalled with alternate isolators. If the belt guard is also cracked, the belt guard should be replaced when the alternate isolators are installed. See QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 008-001 in Section 8 to remove belt guard. Follow modifications described in this bulletin to install the belt guard.
 >
 > **Service Instruction**
 >
-> See QST30 Service Manual, Bulletin 4021539. Refer to Procedure 008-001 in Section 8 to remove belt guard.
+> See QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 008-001 in Section 8 to remove belt guard.
 >
 > Install:
 >

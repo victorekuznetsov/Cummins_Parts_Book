@@ -51,7 +51,7 @@ tags:
 | 3379000 | Воздух для ваших двигателей |
 | 3379001 | Топливо для бюллетеня Cummins Engines Service |
 | 3379009 | Операция - Холодная погода |
-| 3666003 | C Серия Двигатели Устранение неполадок и Руководство по ремонту |
+| [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | C Серия Двигатели Устранение неполадок и Руководство по ремонту |
 | 3666008 | C Серия Машинный магазин Ручной |
 | 3666021 | Руководство по спецификациям серии C |
 | 3666109 | B & C Series Альтернативное руководство по ремонту |
@@ -70,7 +70,7 @@ tags:
 > | 3379000 | Air for Your Engines |
 > | 3379001 | Fuels for Cummins Engines Service Bulletin |
 > | 3379009 | Operation - Cold Weather |
-> | 3666003 | C Series Engines Troubleshooting and Repair Manual |
+> | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | C Series Engines Troubleshooting and Repair Manual |
 > | 3666008 | C Series Engine Shop Manual |
 > | 3666021 | C Series Specifications Manual |
 > | 3666109 | B & C Series Alternative Repair Manual |

@@ -62,7 +62,7 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Не используйте средство для замены охлаждающей жидкости для эвакуации загрязненной охлаждающей жидкости или системы, которая подозревается в загрязнении. Это может привести к перекрестному загрязнению охлаждающей жидкости. Метод слива охлаждающей жидкости должен использоваться для удаления загрязненной охлаждающей жидкости. См. руководство производителя для конкретных инструкций по очистке инструмента от загрязнений.
 
-Если обнаружено, что двигатель имеет внутреннюю или внешнюю утечку охлаждающей жидкости, необходимо выполнить испытание охлаждающей жидкости и пройти его с использованием соответствующей испытательной полосы охлаждающей жидкости для использования инструмента замены охлаждающей жидкости. Использование охлаждающей жидкости, которая ** не приемлема для повторного использования, может привести к повреждению ям и коррозии. Охлаждение, которое не соответствует рекомендациям по повторному использованию, должно быть заменено или включено в спецификацию и испытано путем корректировки уровней антифриза, воды и дополнительной добавки к охлаждающей жидкости (SCA), если это применимо. См. раздел 5 в руководстве по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406, для спецификаций антифриза, воды и тест-полосок.
+Если обнаружено, что двигатель имеет внутреннюю или внешнюю утечку охлаждающей жидкости, необходимо выполнить испытание охлаждающей жидкости и пройти его с использованием соответствующей испытательной полосы охлаждающей жидкости для использования инструмента замены охлаждающей жидкости. Использование охлаждающей жидкости, которая ** не приемлема для повторного использования, может привести к повреждению ям и коррозии. Охлаждение, которое не соответствует рекомендациям по повторному использованию, должно быть заменено или включено в спецификацию и испытано путем корректировки уровней антифриза, воды и дополнительной добавки к охлаждающей жидкости (SCA), если это применимо. См. раздел 5 в руководстве по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для спецификаций антифриза, воды и тест-полосок.
 
 > [!note] Примечание
 > См. информацию об обслуживании производителя оборудования для специальных требований к сливу охлаждающей жидкости. Специальные инструкции могут также располагаться вблизи точки доступа системы охлаждения или заполнителя на транспортном средстве.
@@ -130,7 +130,7 @@ tags:
 
 ![[08r00014.png]]
 
-Премиксованная, хладагент с высокой степенью полезного действия или смесь высококачественной воды и хладагента с высокой степенью полезного действия может использоваться, если используемая хладагент соответствует инженерным стандартам Cummins® (CES). Охлаждение должно соответствовать требованиям CES.[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004 в разделе 5.]]Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406.
+Премиксованная, хладагент с высокой степенью полезного действия или смесь высококачественной воды и хладагента с высокой степенью полезного действия может использоваться, если используемая хладагент соответствует инженерным стандартам Cummins® (CES). Охлаждение должно соответствовать требованиям CES.[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004 в разделе 5.]]Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 Хорошее качество воды важно для производительности системы охлаждения. Чрезмерное содержание кальция и магния способствует проблемам масштабирования, а чрезмерное содержание хлоридов и сульфатов вызывает коррозию системы охлаждения.
 
@@ -142,7 +142,7 @@ tags:
 
 Cummins Inc. Рекомендуется использовать продукты Fleetguard®.
 
-См. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406, для получения дополнительной информации о охлаждающей жидкости двигателя.
+См. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для получения дополнительной информации о охлаждающей жидкости двигателя.
 
 ![[08c00127.png]]
 
@@ -494,7 +494,7 @@ RESTORETM - это очиститель для систем охлаждения
 > **CAUTION · Осторожно**
 > Do not use the coolant replacement tool to evacuate contaminated coolant or a system that is suspected of contamination. This could result in cross contamination of coolant. The coolant drain method should be used for removing contaminated coolant. Refer to the manufacturer's manual for specific instructions on cleaning the tool of contaminates.
 >
-> If the engine is found to have internal or external coolant leaks a coolant test **must** be performed and passed using an appropriate coolant test strip to use the coolant replacement tool. Use of coolant that is **not** acceptable for reuse can cause pitting and corrosion damage. Coolant that does not meet reuse guidelines **must** be replaced or brought into specification and tested by adjusting antifreeze, water, and supplemental coolant additive (SCA) levels if applicable. See Section 5 in the Fluids for Cummins® Products Service Manual, Bulletin 5411406, for antifreeze, water, and test strip specifications.
+> If the engine is found to have internal or external coolant leaks a coolant test **must** be performed and passed using an appropriate coolant test strip to use the coolant replacement tool. Use of coolant that is **not** acceptable for reuse can cause pitting and corrosion damage. Coolant that does not meet reuse guidelines **must** be replaced or brought into specification and tested by adjusting antifreeze, water, and supplemental coolant additive (SCA) levels if applicable. See Section 5 in the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for antifreeze, water, and test strip specifications.
 >
 > **Note · Примечание**
 > See equipment manufacturer service information for special coolant drain requirements. Special instructions may also be located near the cooling system access point or fill door on the vehicle.
@@ -548,7 +548,7 @@ RESTORETM - это очиститель для систем охлаждения
 > **Note · Примечание**
 > When the vehicle/equipment or engine is equipped with a quick disconnect fitting in the cooling system package, the Coolant Replacer Method is the preferred method for coolant removal. Use the coolant replacer tool, Part Number 2892459. If the vehicle/equipment or engine does **not** have a quick disconnect fitting presently installed, one can be installed in the cooling system package to utilize the Coolant Replacer Method; otherwise the coolant drain and fill method **must** be used.
 >
-> A premixed, heavy duty coolant, or a mixture of high quality water and heavy duty coolant, can be used if the coolant used meets Cummins® Engineering Standards (CES). Coolant must meet the appropriate CES. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004 in Section 5]] of the Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> A premixed, heavy duty coolant, or a mixture of high quality water and heavy duty coolant, can be used if the coolant used meets Cummins® Engineering Standards (CES). Coolant must meet the appropriate CES. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004 in Section 5]] of the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > Good quality water is important for cooling system performance. Excessive levels of calcium and magnesium contribute to scaling problems, and excessive levels of chlorides and sulfates cause cooling system corrosion.
 >
@@ -560,7 +560,7 @@ RESTORETM - это очиститель для систем охлаждения
 >
 > Cummins Inc. recommends the use of Fleetguard® products.
 >
-> See the Fluids for Cummins® Products Service Manual, Bulletin 5411406, for more engine coolant specifications.
+> See the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for more engine coolant specifications.
 >
 > **CAUTION · Осторожно**
 > Opening the manual bleed valve or removing the pipe plug on applicable installations is critical. Failure to do so can result in engine damage.

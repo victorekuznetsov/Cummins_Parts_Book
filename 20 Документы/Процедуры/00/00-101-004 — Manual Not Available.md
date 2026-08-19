@@ -44,7 +44,7 @@ tags:
 > приведён в свёрнутом блоке в конце заметки и в PDF.
 
 
-## ** Холодная погода (00-101-004)**
+## ** Холодная погода ([[00-101-004 — Manual Not Available\|00-101-004]])**
 
 Данная процедура пока не доступна на момент публикации.
 
@@ -52,7 +52,7 @@ tags:
 
 
 > [!quote]- Original (English) · английский оригинал
-> ## **Cold Weather Starting (00-101-004)**
+> ## **Cold Weather Starting ([[00-101-004 — Manual Not Available\|00-101-004]])**
 >
 > This procedure is not yet available at the time of publication.
 >

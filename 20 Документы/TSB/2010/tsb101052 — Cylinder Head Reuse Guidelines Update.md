@@ -51,7 +51,7 @@ tags:
 
 ### Содержание
 
-В настоящем документе сообщается об изменениях и дополнениях в разделе «Чистая и инспекционная процедура повторного использования» (Cylinder Head) 002-004 в Руководстве по обслуживанию QST30, Бюллетень 4021539.
+В настоящем документе сообщается об изменениях и дополнениях в разделе «Чистая и инспекционная процедура повторного использования» (Cylinder Head) 002-004 в Руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 Изменения включают новые руководящие принципы повторного использования для:
 
@@ -73,7 +73,7 @@ tags:
 >
 > ### Contents
 >
-> This document announces changes and additions to the Clean and Inspect for Reuse section of Procedure 002-004 (Cylinder Head) in the QST30 Service Manual, Bulletin 4021539.
+> This document announces changes and additions to the Clean and Inspect for Reuse section of Procedure 002-004 (Cylinder Head) in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > The changes include new reuse guidelines for:
 >

@@ -70,7 +70,7 @@ tags:
 > [!danger] ОПАСНО
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Отсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Этот материал содержится в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике 4021528.
+- Отсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Этот материал содержится в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - Отсоедините проводку двигателя от кабеля жгута проводов от коробки преобразователя температуры выхлопных газов.
 
 ![[ck800wa.png]]
@@ -187,7 +187,7 @@ QSK50 и QSK60**
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
 - Подключите проводку двигателя кабеля жгута проводов к коробке преобразователя температуры выхлопных газов.
-- Подсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Эта процедура описана в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике 4021528.
+- Подсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Эта процедура описана в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - Подключение рекомендованного Cummins® электронного сервисного инструментария или эквивалента.
 - Управляйте двигателем и проверяйте активные коды неисправностей.
 
@@ -216,7 +216,7 @@ QSK50 и QSK60**
 > **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
-> - Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
+> - Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - Disconnect the engine harness cable from the exhaust gas temperature converter box.
 >
 > ### Remove
@@ -307,6 +307,6 @@ QSK50 и QSK60**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
 > - Connect the engine harness cable to the exhaust gas temperature converter box.
-> - Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
+> - Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - Connect recommended Cummins® electronic service tool or equivalent.
 > - Operate the engine and check for active fault codes.

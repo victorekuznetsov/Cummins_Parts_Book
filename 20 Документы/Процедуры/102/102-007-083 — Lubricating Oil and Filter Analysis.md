@@ -70,7 +70,7 @@ tags:
 
 ![[oi801kj.png]]
 
-Для получения дополнительной информации по анализу масла см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник 5411406.
+Для получения дополнительной информации по анализу масла см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 > [!note] Примечание
 > **Не разбирать двигатель для ремонта на основе ** только по результатам анализа масла. Масляный фильтр *** также должен быть проверен. Если масляный фильтр показывает признаки повреждения двигателя, найдите источник проблемы и исправьте повреждение. Используйте соответствующую процедуру (процедуры) на основе следующего контроля фильтра масла.
@@ -152,7 +152,7 @@ tags:
 > - Oil diluted with fuel
 > - Ceramic or metallic particles causing wear.
 >
-> For additional oil analysis information, see Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> For additional oil analysis information, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > **Note · Примечание**
 > Do **not** disassemble an engine for repair based **only** on the results of an oil analysis. The oil filter **must** also be inspected. If the oil filter shows evidence of internal engine damage, find the source of the problem and repair the damage. Use the appropriate procedure(s) based on the following oil filter inspection.

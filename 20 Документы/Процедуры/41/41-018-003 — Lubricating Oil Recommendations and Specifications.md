@@ -96,11 +96,11 @@ Cummins® рекомендует использовать высококачес
 
 Для C8.3 Промышленные:
 
-См. руководство по эксплуатации и техническому обслуживанию C8.3 Industrial and Generator Drive, 2883407.[[41-018-003 — Lubricating Oil Recommendations and Specifications|См. процедуру 018-003 в разделе V.]]
+См. руководство по эксплуатации и техническому обслуживанию C8.3 Industrial and Generator Drive, [[2883407 — C8.3 (India) Operation and Maintenance Manual\|2883407]].[[41-018-003 — Lubricating Oil Recommendations and Specifications|См. процедуру 018-003 в разделе V.]]
 
 Для C8.3 Commercial Marine:
 
-См. C8.3 Commercial Marine and Industrial Operation and Maintenance Manual, 4021330.[[41-018-003 — Lubricating Oil Recommendations and Specifications|См. процедуру 018-003 в разделе V.]]
+См. C8.3 Commercial Marine and Industrial Operation and Maintenance Manual, [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual\|4021330]].[[41-018-003 — Lubricating Oil Recommendations and Specifications|См. процедуру 018-003 в разделе V.]]
 
 ![[oi8guvb.png]]
 
@@ -150,8 +150,8 @@ Cummins® рекомендует использовать высококачес
 >
 > For C8.3 Industrial:
 >
-> See the C8.3 Industrial and Generator Drive Operation and Maintenance Manual, 2883407. [[41-018-003 — Lubricating Oil Recommendations and Specifications|Refer to Procedure 018-003 in Section V.]]
+> See the C8.3 Industrial and Generator Drive Operation and Maintenance Manual, [[2883407 — C8.3 (India) Operation and Maintenance Manual\|2883407]]. [[41-018-003 — Lubricating Oil Recommendations and Specifications|Refer to Procedure 018-003 in Section V.]]
 >
 > For C8.3 Commercial Marine:
 >
-> See the C8.3 Commercial Marine and Industrial Operation and Maintenance Manual, 4021330. [[41-018-003 — Lubricating Oil Recommendations and Specifications|Refer to Procedure 018-003 in Section V.]]
+> See the C8.3 Commercial Marine and Industrial Operation and Maintenance Manual, [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual\|4021330]]. [[41-018-003 — Lubricating Oil Recommendations and Specifications|Refer to Procedure 018-003 in Section V.]]

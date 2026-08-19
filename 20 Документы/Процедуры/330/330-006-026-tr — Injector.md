@@ -244,7 +244,7 @@ Misfire с использованием инфракрасного термом�
 
 с форсункой электронного управления
 
-Удалите шланг потока форсунки из блока коллектора топливного стока, расположенного на левом берегу двигателя. Удалите шланг из конца блока дренажного коллектора (1) **только. ** См. GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528.[[28-006-013 — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
+Удалите шланг потока форсунки из блока коллектора топливного стока, расположенного на левом берегу двигателя. Удалите шланг из конца блока дренажного коллектора (1) **только. ** См. GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-013 — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
 
 Соединение, устанавливаемое в блоке слива топлива**, должно быть ограничено для предотвращения утечки топлива во время испытания. Он может быть ограничен номером 3164801 или эквивалентом.
 
@@ -286,9 +286,9 @@ Misfire с использованием инфракрасного термом�
 
 с форсункой электронного управления
 
-Охлаждение системы LTA. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Охлаждение системы LTA. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
-Удалите коллекторы для впуска. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+Удалите коллекторы для впуска. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
 
 ![[ck800wa.png]]
 
@@ -344,9 +344,9 @@ Misfire с использованием инфракрасного термом�
 
 Удалите шланг для слива топлива и соберите линии слива топлива. См. процедуру 006-013 в разделе 6.
 
-Установите впускные коллекторы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+Установите впускные коллекторы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
 
-Заправьте систему охлаждения. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Заправьте систему охлаждения. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ck800wa.png]]
 
@@ -354,16 +354,16 @@ Misfire с использованием инфракрасного термом�
 
 с форсункой механического управления
 
-- Удалите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
-- Снимите клапанный клапан с крепления рычага. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Удалите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Снимите клапанный клапан с крепления рычага. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
 
 ![[ck800wa.png]]
 
 с форсункой электронного управления
 
-- Удалите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Удалите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
 - Установите защитные вилки форсунки, часть номер[[4918767]].
-- Снимите двухсекционную крышку рычага клапана. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Снимите двухсекционную крышку рычага клапана. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[nobox.png]]
 
@@ -711,20 +711,20 @@ Misfire с использованием инфракрасного термом�
 
 с форсункой механического управления
 
-- Установите клапанный клапанный крепеж. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
-- Отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
-- Для форсунки STC отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-007-tr — Overhead Set (Travel Method)|См. процедуру 003-007 в разделе 3.]]
-- Установите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Установите клапанный клапанный крепеж. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Для форсунки STC отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-007-tr — Overhead Set (Travel Method)|См. процедуру 003-007 в разделе 3.]]
+- Установите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 - Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
 с форсункой электронного управления
 
-- Отрегулируйте клапаны. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
-- Установите двухсекционную крышку рычага клапанного качалки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Отрегулируйте клапаны. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите двухсекционную крышку рычага клапанного качалки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 - Удалите защитные заглушки форсунки, часть номер[[4918767]].
-- Установите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin 4021528.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Установите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
 - Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[nobox.png]]
@@ -920,7 +920,7 @@ Misfire с использованием инфракрасного термом�
 >
 > with Electronically Actuated Injector
 >
-> Remove the injector drain flow hose from the fuel drain manifold block located on the left bank of the engine. Remove the hose from the drain manifold block end (1) **only.** See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-006-013 — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+> Remove the injector drain flow hose from the fuel drain manifold block located on the left bank of the engine. Remove the hose from the drain manifold block end (1) **only.** See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-013 — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
 >
 > The union fitting in the fuel drain block **must** be capped to prevent fuel leakage during the test. It can be capped with Part Number 3164801, or equivalent.
 >
@@ -952,9 +952,9 @@ Misfire с использованием инфракрасного термом�
 >
 > with Electronically Actuated Injector
 >
-> Drain the LTA cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Drain the LTA cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
 >
-> Remove the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> Remove the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
 >
 > Install the fuel drain hose on cylinder number 1 LB in place of the banjo bolt through the fuel drain line that routes to the fuel drain block. The fuel drain hose for the QSK38 and QSK50 is Part Number 4918679.
 >
@@ -996,22 +996,22 @@ Misfire с использованием инфракрасного термом�
 >
 > Remove the fuel drain hose and assemble the fuel drain lines. Refer to Procedure 006-013 in Section 6.
 >
-> Install the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> Install the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
 >
-> Fill the cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Fill the cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
 >
 > ### Preparatory Steps
 >
 > with Mechanically Actuated Injector
 >
-> - Remove the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-> - Remove the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Remove the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
 >
 > with Electronically Actuated Injector
 >
-> - Remove the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Remove the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
 > - Install the injector protective plugs, Part Number [[4918767]].
-> - Remove the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
 >
 > ### Remove
 >
@@ -1283,16 +1283,16 @@ Misfire с использованием инфракрасного термом�
 >
 > with Mechanically Actuated Injector
 >
-> - Install the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-> - Adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-> - For STC Injectors, adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-007-tr — Overhead Set (Travel Method)|Refer to Procedure 003-007 in Section 3.]]
-> - Install the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Install the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - For STC Injectors, adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-007-tr — Overhead Set (Travel Method)|Refer to Procedure 003-007 in Section 3.]]
+> - Install the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
 > - Operate the engine and check for leaks.
 >
 > with Electronically Actuated Injector
 >
-> - Adjust the valves. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-> - Install the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Adjust the valves. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
 > - Remove the injector protective plugs, Part Number [[4918767]].
-> - Install the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Install the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
 > - Operate the engine and check for leaks.

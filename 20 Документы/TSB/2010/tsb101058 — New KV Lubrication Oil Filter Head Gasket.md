@@ -60,7 +60,7 @@ tags:
 
 Поскольку двигатели, построенные с подвесными охлаждающими насадками, по-прежнему требуют стальных прокладок, они будут по-прежнему доступны для обслуживания.
 
-Используйте следующие процедуры для получения информации об установке головки смазочного фильтра и прокладки в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень 4021528.[[28-007-015-tr — Lubricating Oil Filter Head|См. процедуру 007-015 в разделе 7.]] [[28-007-067-tr — Eliminator™ Filter|См. процедуру 007-067 в разделе 7.]]
+Используйте следующие процедуры для получения информации об установке головки смазочного фильтра и прокладки в руководстве по обслуживанию K38, K50, QSK38 и QSK50, бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-007-015-tr — Lubricating Oil Filter Head|См. процедуру 007-015 в разделе 7.]] [[28-007-067-tr — Eliminator™ Filter|См. процедуру 007-067 в разделе 7.]]
 
 Дата вступления в силу для всех двигателей K38, K50, QSK38 и QSK50 выглядит следующим образом:
 
@@ -94,7 +94,7 @@ tags:
 >
 > Since engines built with outboard cooling nozzles still require the steel core gaskets, they will continue to be available for service.
 >
-> Use the following procedures for information on the lubricating filter head and gasket installation in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-007-015-tr — Lubricating Oil Filter Head|Refer to Procedure 007-015 in Section 7.]] [[28-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067 in Section 7.]]
+> Use the following procedures for information on the lubricating filter head and gasket installation in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-007-015-tr — Lubricating Oil Filter Head|Refer to Procedure 007-015 in Section 7.]] [[28-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067 in Section 7.]]
 >
 > The effective date for implementation into production for all K38, K50, QSK38, and QSK50 engines is as follows:
 >

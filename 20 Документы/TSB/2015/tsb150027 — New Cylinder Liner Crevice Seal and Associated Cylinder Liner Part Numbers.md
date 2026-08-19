@@ -191,7 +191,7 @@ tags:
 |---|---|---|---|---|---|
 | ** Типы **** | ** Машина** | ** Номер бюллетеня** | **Заголовок процедуры** | ** Процедура** | ** Раздел ** |
 | Руководство по обслуживанию | K19 и G19 | 4021499 | Гильза цилиндра | См. процедуру 001-028 | 1 |
-| QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS | 4021592 | [[20-001-028-tr — Cylinder Liner\|См. процедуру 001-028]]­ |  |  |  |
+| QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | [[20-001-028-tr — Cylinder Liner\|См. процедуру 001-028]]­ |  |  |  |
 | QSK19 CM2350 K105 | 4326157 | См. процедуру 001-028 |  |  |  |
 | KTA19GC CM558 | 4021653 | См. процедуру 001-028 |  |  |  |
 | QSK19G | 4021372 | См. процедуру 001-028 |  |  |  |
@@ -347,7 +347,7 @@ tags:
 > |---|---|---|---|---|---|
 > | **Manual Type** | **Engine** | **Bulletin Number** | **Procedure Title** | **Procedure** | **Section** |
 > | Service Manual | K19 and G19 | 4021499 | Cylinder Liner | Refer to Procedure 001-028 | 1 |
-> | QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS | 4021592 | [[20-001-028-tr — Cylinder Liner\|Refer to Procedure 001-028]] ­ |  |  |  |
+> | QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | [[20-001-028-tr — Cylinder Liner\|Refer to Procedure 001-028]] ­ |  |  |  |
 > | QSK19 CM2350 K105 | 4326157 | Refer to Procedure 001-028 |  |  |  |
 > | KTA19GC CM558 | 4021653 | Refer to Procedure 001-028 ­ |  |  |  |
 > | QSK19G | 4021372 | Refer to Procedure 001-028 |  |  |  |

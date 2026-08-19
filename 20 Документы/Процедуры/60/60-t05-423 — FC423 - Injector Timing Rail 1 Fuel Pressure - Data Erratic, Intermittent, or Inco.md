@@ -81,8 +81,8 @@ tags:
 | **Условия:** Включить переключатель зажигания. Запустите двигатель и запускайте его на холостом ходу. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение впуска топлива. См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 Руководства по эксплуатации, двигатели серии QST30, Вестник 4021539. | Ограничение впуска топлива в установленных пределах? *Да** | 3А |
-| Ограничение впуска топлива в установленных пределах? **NORepair:** См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 Руководства по эксплуатации, двигатели серии QST30, Вестник 4021539. | Правильное дерево для устранения неполадок |  |
+| Измерить ограничение впуска топлива. См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 Руководства по эксплуатации, двигатели серии QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ограничение впуска топлива в установленных пределах? *Да** | 3А |
+| Ограничение впуска топлива в установленных пределах? **NORepair:** См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 Руководства по эксплуатации, двигатели серии QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Правильное дерево для устранения неполадок |  |
 
 ### ШАГ 3. Проверьте механическую неисправность насоса.
 
@@ -91,7 +91,7 @@ tags:
 | **Условия:** Включить переключатель зажигания. Запустите двигатель и запускайте его на холостом ходу. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ток рукава. Используйте инструмент электронного обслуживания INSITETM для мониторинга тока рукава при изменении оборотов двигателя. | Смена рукава? *** Ремонт: ** Ремонт или замена топливного насоса. См. процедуру 005-016 (Топливный насос) в разделе 5 Руководства по эксплуатации, двигатели серии QST30, Вестник 4021539. | 4А |
+| Проверьте ток рукава. Используйте инструмент электронного обслуживания INSITETM для мониторинга тока рукава при изменении оборотов двигателя. | Смена рукава? *** Ремонт: ** Ремонт или замена топливного насоса. См. процедуру 005-016 (Топливный насос) в разделе 5 Руководства по эксплуатации, двигатели серии QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | 4А |
 | Смена рукава? **NORepair: ** Призыв к предварительной авторизации. Заменить ECM. См. процедуру 019-031 в разделе 19. | 4А |  |
 
 ### ШАГ 4. Сбросьте коды неисправностей.
@@ -152,8 +152,8 @@ tags:
 > | **Conditions:** Turn keyswitch ON. Start the engine and let it idle. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the fuel inlet restriction. Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the Service Manual, QST30 Series Engines, Bulletin 4021539. | Fuel inlet restriction within specification? **YES** | 3A |
-> | Fuel inlet restriction within specification? **NORepair:** Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the Service Manual, QST30 Series Engines, Bulletin 4021539. | Appropriate troubleshooting tree |  |
+> | Measure the fuel inlet restriction. Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the Service Manual, QST30 Series Engines, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Fuel inlet restriction within specification? **YES** | 3A |
+> | Fuel inlet restriction within specification? **NORepair:** Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the Service Manual, QST30 Series Engines, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Appropriate troubleshooting tree |  |
 >
 > ### STEP 3. Check for mechanical failure of the pump.
 >
@@ -162,7 +162,7 @@ tags:
 > | **Conditions:** Turn keyswitch ON. Start the engine and let it idle. Connect INSITE™ electronic service tool. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the sleeve current. Use INSITE™ electronic service tool to monitor the sleeve current while varying the engine rpm. | Sleeve current changing? **YESRepair:** Repair or replace the fuel pump. Refer to Procedure 005-016 (Fuel Pump) in Section 5 of the Service Manual, QST30 Series Engines, Bulletin 4021539. | 4A |
+> | Check the sleeve current. Use INSITE™ electronic service tool to monitor the sleeve current while varying the engine rpm. | Sleeve current changing? **YESRepair:** Repair or replace the fuel pump. Refer to Procedure 005-016 (Fuel Pump) in Section 5 of the Service Manual, QST30 Series Engines, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | 4A |
 > | Sleeve current changing? **NORepair:** Call for pre-authorization. Replace the ECM. Refer to Procedure 019-031 in Section 19. | 4A |  |
 >
 > ### STEP 4. Clear the fault codes.

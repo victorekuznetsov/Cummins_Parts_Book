@@ -96,7 +96,7 @@ tags:
 | **Условия:** Включить переключатель зажигания. Все компоненты подключены. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте информацию DCU. Проверьте журнал событий в DCU для события кнопки остановки двигателя или теста на сверхскоростную защиту двигателя. Используйте следующую процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin 4021617.[[116-101-013 — General Operating Instructions\|См. процедуру 101-013 в разделе 1.]] | DCU показывает событие с кнопкой остановки или тест свидетеля? *** Ремонт: ** Сбросьте кнопку остановки двигателя или выйдите из измерительного режима. Используйте следующую процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin 4021617.[[116-101-013 — General Operating Instructions\|См. процедуру 101-013 в разделе 1.]] | 7А |
+| Проверьте информацию DCU. Проверьте журнал событий в DCU для события кнопки остановки двигателя или теста на сверхскоростную защиту двигателя. Используйте следующую процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]].[[116-101-013 — General Operating Instructions\|См. процедуру 101-013 в разделе 1.]] | DCU показывает событие с кнопкой остановки или тест свидетеля? *** Ремонт: ** Сбросьте кнопку остановки двигателя или выйдите из измерительного режима. Используйте следующую процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]].[[116-101-013 — General Operating Instructions\|См. процедуру 101-013 в разделе 1.]] | 7А |
 | DCU показывает событие с кнопкой остановки или тест свидетеля? ** НЕТ** | 1С |  |
 
 #### ШАГ 1C. Проверьте другие коды неисправностей.
@@ -125,7 +125,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Проверьте цепь на короткое замыкание. Измерьте сопротивление между терминалами переключателей NO (обычно открытые). Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да** | 4А |
-| Больше 100 тысяч ом? **NORepair:** Заменить кнопку остановки двигателя. Используйте процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin 4021617.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 в разделе 15.]] | 7А |  |
+| Больше 100 тысяч ом? **NORepair:** Заменить кнопку остановки двигателя. Используйте процедуру в руководстве по ремонту панелей Marine C Command EliteTM и C Command Elite PlusTM Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]].[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 в разделе 15.]] | 7А |  |
 
 ### ШАГ 4. Проверьте жгут проводов двигателя.
 
@@ -220,7 +220,7 @@ tags:
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите следующие проверки: Осмотрите шланги горба на наличие признаков повреждения или утечки. Проверьте зазор конца турбокомпрессора. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 010-033 в разделе 10. Используйте следующую процедуру в руководстве по обслуживанию QSK38 и QSK50, в бюллетене 4021528. См. процедуру 010-033 в разделе 10. Осмотр колеса компрессора турбокомпрессора. | Горбатые шланги и турбокомпрессоры соответствуют спецификациям? *Да** | 7C |
+| Проведите следующие проверки: Осмотрите шланги горба на наличие признаков повреждения или утечки. Проверьте зазор конца турбокомпрессора. Используйте следующую процедуру в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 010-033 в разделе 10. Используйте следующую процедуру в руководстве по обслуживанию QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-033 в разделе 10. Осмотр колеса компрессора турбокомпрессора. | Горбатые шланги и турбокомпрессоры соответствуют спецификациям? *Да** | 7C |
 | Горбатые шланги и турбокомпрессоры соответствуют спецификациям? **Заменить поврежденные компоненты. Используйте следующие процедуры в руководстве по обслуживанию QSK45 и QSK60, Бюллетень 4021530: См. процедуру 010-034 в разделе 10. См. процедуру 010-035 в разделе 10. | 7C |  |
 
 #### ШАГ 7C. Отключите код неисправности.
@@ -236,7 +236,7 @@ tags:
 | **Условия:** Включить переключатель зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Управляйте двигателем с нагрузкой и проверяйте прокладки. Запустите двигатель и загрузите его. Проверяйте и слушайте любой шум, связанный с утечкой прокладки головы или послеохлаждения. | Ущерб обнаружен прокладкам? *** Заменить прокладки по мере необходимости. Используйте следующие процедуры в руководстве по обслуживанию QSK45 и QSK60, Бюллетень 4021530: Для ремонта прокладки головы: См. процедуру 002-021 в разделе 2. Для ремонта прокладки после охлаждения: См. процедуру 010-002 в разделе 10. Используйте следующие процедуры в Руководстве по обслуживанию QSK38 и QSK50, Вестник 4021528: Для ремонта прокладки головы: См. процедуру 002-021 в разделе 2. Для ремонта прокладки после охлаждения: См. процедуру 010-002 в разделе 10. | 7Е |
+| Управляйте двигателем с нагрузкой и проверяйте прокладки. Запустите двигатель и загрузите его. Проверяйте и слушайте любой шум, связанный с утечкой прокладки головы или послеохлаждения. | Ущерб обнаружен прокладкам? *** Заменить прокладки по мере необходимости. Используйте следующие процедуры в руководстве по обслуживанию QSK45 и QSK60, Бюллетень 4021530: Для ремонта прокладки головы: См. процедуру 002-021 в разделе 2. Для ремонта прокладки после охлаждения: См. процедуру 010-002 в разделе 10. Используйте следующие процедуры в Руководстве по обслуживанию QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]: Для ремонта прокладки головы: См. процедуру 002-021 в разделе 2. Для ремонта прокладки после охлаждения: См. процедуру 010-002 в разделе 10. | 7Е |
 | Ущерб обнаружен прокладкам? ** НЕТ** | 7Е |  |
 
 #### ШАГ 7E. Отключите код неисправности.
@@ -311,7 +311,7 @@ tags:
 > | **Conditions:** Turn keyswitch ON. All components connected. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check DCU information. Check the event log in the DCU for an engine stop button event or an engine protection overspeed witness test. Use the following procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin 4021617. [[116-101-013 — General Operating Instructions\|Refer to Procedure 101-013 in Section 1.]] | DCU shows a stop button event or witness test? **YESRepair:** Reset the engine stop button or move out of test mode. Use the following procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin 4021617. [[116-101-013 — General Operating Instructions\|Refer to Procedure 101-013 in Section 1.]] | 7A |
+> | Check DCU information. Check the event log in the DCU for an engine stop button event or an engine protection overspeed witness test. Use the following procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]. [[116-101-013 — General Operating Instructions\|Refer to Procedure 101-013 in Section 1.]] | DCU shows a stop button event or witness test? **YESRepair:** Reset the engine stop button or move out of test mode. Use the following procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]. [[116-101-013 — General Operating Instructions\|Refer to Procedure 101-013 in Section 1.]] | 7A |
 > | DCU shows a stop button event or witness test? **NO** | 1C |  |
 >
 > #### STEP 1C. Check for other fault codes.
@@ -340,7 +340,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Check for a short circuit. Measure the resistance between the NO (Normally Open) switch terminals. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 4A |
-> | Greater than 100k ohms? **NORepair:** Replace the engine stop button. Use the procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin 4021617. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | 7A |  |
+> | Greater than 100k ohms? **NORepair:** Replace the engine stop button. Use the procedure in the Marine C Command Elite™ and C Command Elite Plus™ Panel Systems Master Repair Manual, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | 7A |  |
 >
 > ### STEP 4. Check the engine harness.
 >
@@ -435,7 +435,7 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Perform the following inspections: Inspect the hump hoses for signs of damage or leakage. Check the turbocharger shaft end clearance. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 010-033 in Section 10. Use the following procedure in the QSK38 and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-033 in Section 10. Inspect the turbocharger compressor impeller wheel. | Hump hoses and turbochargers meet specifications? **YES** | 7C |
+> | Perform the following inspections: Inspect the hump hoses for signs of damage or leakage. Check the turbocharger shaft end clearance. Use the following procedure in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 010-033 in Section 10. Use the following procedure in the QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-033 in Section 10. Inspect the turbocharger compressor impeller wheel. | Hump hoses and turbochargers meet specifications? **YES** | 7C |
 > | Hump hoses and turbochargers meet specifications? **NORepair:** Replace the damaged components. Use the following procedures in the QSK45 and QSK60 Service Manual, Bulletin 4021530: Refer to Procedure 010-034 in Section 10. Refer to Procedure 010-035 in Section 10. | 7C |  |
 >
 > #### STEP 7C. Disable the fault code.
@@ -451,7 +451,7 @@ tags:
 > | **Conditions:** Turn keyswitch ON. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Operate the engine with load and check the gaskets. Start the engine and load it. Check and listen for any noise associated with head gasket or aftercooler gasket leaks. | Damage to gaskets detected? **YESRepair:** Replace gaskets as necessary. Use the following procedures in the QSK45 and QSK60 Service Manual, Bulletin 4021530: For head gasket repair: Refer to Procedure 002-021 in Section 2. For aftercooler gasket repair: Refer to Procedure 010-002 in Section 10. Use the following procedures in the QSK38 and QSK50 Service Manual, Bulletin 4021528: For head gasket repair: Refer to Procedure 002-021 in Section 2. For aftercooler gasket repair: Refer to Procedure 010-002 in Section 10. | 7E |
+> | Operate the engine with load and check the gaskets. Start the engine and load it. Check and listen for any noise associated with head gasket or aftercooler gasket leaks. | Damage to gaskets detected? **YESRepair:** Replace gaskets as necessary. Use the following procedures in the QSK45 and QSK60 Service Manual, Bulletin 4021530: For head gasket repair: Refer to Procedure 002-021 in Section 2. For aftercooler gasket repair: Refer to Procedure 010-002 in Section 10. Use the following procedures in the QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]: For head gasket repair: Refer to Procedure 002-021 in Section 2. For aftercooler gasket repair: Refer to Procedure 010-002 in Section 10. | 7E |
 > | Damage to gaskets detected? **NO** | 7E |  |
 >
 > #### STEP 7E. Disable the fault code.

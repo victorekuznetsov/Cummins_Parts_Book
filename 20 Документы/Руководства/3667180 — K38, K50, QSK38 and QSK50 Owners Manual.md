@@ -33,10 +33,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3667180-toc | Table of Contents |  |
+| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-toc | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | own-frwd | Foreword | 14-Jul-2006 |
-| 3667180-titlepage | Titlepage | 26-Mar-2010 |
+| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-titlepage | Titlepage | 26-Mar-2010 |
 
 ### Section i - Introduction
 
@@ -83,7 +83,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3667180-backcover | Backcover | 10-Nov-2004 |
+| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-backcover | Backcover | 10-Nov-2004 |
 
 ### Section 1 - Operating Instructions
 

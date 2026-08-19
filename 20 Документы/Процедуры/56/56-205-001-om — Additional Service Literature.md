@@ -79,7 +79,7 @@ tags:
 | 4022084 | QSM60 MCRS CM850 Морской вспомогательный с C Command EliteTM и Elite PlusTM Панельная система проводной схемы |
 | 4022085 | QSM60 MCRS CM850 Морской двигатель с C CommandTM Панельная система провода Диаграмма |
 | 4022086 | QSM60 MCRS CM850 Marine Propulsion с C Command EliteTM и C Command Elite PlusTM |
-| 4022102 | QSK38, QSK50, QSK60 CM2150 Электронная система управления Устранение неполадок и ремонт |
+| [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | QSK38, QSK50, QSK60 CM2150 Электронная система управления Устранение неполадок и ремонт |
 | 4022116 | QSM60 CM2150 Модульные системы общей прокладки железных дорог Промышленная схема проводов |
 | 4022118 | Модульная общая железнодорожная система QSK60 CM2150 Marine Propulsion с системой проводов C CommandTM Panel |
 | 4022119 | Модульные общие железнодорожные системы QSK60 CM2150 с C Commant EliteTM и Elite PlusTM с панельной системой проводной схемы |
@@ -87,9 +87,9 @@ tags:
 | 4022121 | Модульная система Common Rail Systems Marine Auxiliary QSK60 CM2150 с C Command EliteTM и C Command Elite PlusTM |
 | 3666260 | QSK45 и QSK60 Руководство по эксплуатации и техническому обслуживанию |
 | 4915528 | QSK45 и QSK60 Руководство для владельцев |
-| 4021587 | Руководство по ремонту, Панельная система Marine C CommandTM |
-| 4021617 | Руководство по ремонту, панельная система Marine C Command EliteTM и C Command Elite PlusTM |
-| 3666121 | Holset® Air Compressor Master Manual |
+| [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]] | Руководство по ремонту, Панельная система Marine C CommandTM |
+| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]] | Руководство по ремонту, панельная система Marine C Command EliteTM и C Command Elite PlusTM |
+| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Manual |
 | 3666253 | EliminatorTM Filter Введение Бюллетень службы |
 | 3379000 | Воздух для вашего двигателя |
 | 3387622 | Холодная погода Операция |
@@ -135,7 +135,7 @@ tags:
 > | 4022084 | QSM60 MCRS CM850 Marine Auxiliary with C Command Elite™ and Elite Plus™ Panel System Wiring Diagram |
 > | 4022085 | QSM60 MCRS CM850 Marine Propulsion with C Command™ Panel System Wiring Diagram |
 > | 4022086 | QSM60 MCRS CM850 Marine Propulsion with C Command Elite™ and C Command Elite Plus™ Panel System Wiring Diagram |
-> | 4022102 | QSK38, QSK50, QSK60 CM2150 Electronic Control System Troubleshooting and Repair Manual |
+> | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | QSK38, QSK50, QSK60 CM2150 Electronic Control System Troubleshooting and Repair Manual |
 > | 4022116 | QSM60 CM2150 Modular Common Rail Systems Industrial Wiring Diagram |
 > | 4022118 | QSK60 CM2150 Modular Common Rail Systems Marine Propulsion with C Command™ Panel System Wiring Diagram |
 > | 4022119 | QSK60 CM2150 Modular Common Rail Systems Marine Propulsion with C Commant Elite™ and Elite Plus™ Panel System Wiring Diagram |
@@ -143,9 +143,9 @@ tags:
 > | 4022121 | QSK60 CM2150 Modular Common Rail Systems Marine Auxiliary with C Command Elite™, and C Command Elite Plus™ Panel System Wiring Diagram |
 > | 3666260 | QSK45 and QSK60 Operation and Maintenance Manual |
 > | 4915528 | QSK45 and QSK60 Owners Manual |
-> | 4021587 | Master Repair Manual, Marine C Command™ Panel System |
-> | 4021617 | Master Repair Manual, Marine C Command Elite™ and C Command Elite Plus™ Panel System |
-> | 3666121 | Holset® Air Compressor Master Repair Manual |
+> | [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]] | Master Repair Manual, Marine C Command™ Panel System |
+> | [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]] | Master Repair Manual, Marine C Command Elite™ and C Command Elite Plus™ Panel System |
+> | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Repair Manual |
 > | 3666253 | Eliminator™ Filter Introduction Service Bulletin |
 > | 3379000 | Air For Your Engine |
 > | 3387622 | Cold Weather Operation |

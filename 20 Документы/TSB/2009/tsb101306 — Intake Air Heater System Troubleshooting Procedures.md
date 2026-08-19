@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема обновлена для руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень 3666003:
+Эта тема обновлена для руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]:
 
 - Система воздушного нагревателя Manifold Плохо функционирующее дерево симптомов
 - Процедура[[41-010-999 — Air Intake System - Overview|010-999]]Система впуска воздуха - обзор
@@ -71,7 +71,7 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic updates the following for the C Series Engines Troubleshooting and Repair Manual, Bulletin 3666003:
+> This Service/Parts Topic updates the following for the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]:
 >
 > - Intake Manifold Air Heater System Malfunctioning symptom tree
 > - Procedure [[41-010-999 — Air Intake System - Overview|010-999]], Air Intake System - Overview

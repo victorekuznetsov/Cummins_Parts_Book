@@ -104,7 +104,7 @@ tags:
 | **Условия: ** Двигатель работает. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Запустите двигатель и проверьте наличие внешних утечек топлива. Проверьте внешние утечки топлива. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-024 в разделе 6. | 4А |
+| Запустите двигатель и проверьте наличие внешних утечек топлива. Проверьте внешние утечки топлива. | Топливо просачивается наружу? *** Ремонт: ** Ремонт всех утечек топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-024 в разделе 6. | 4А |
 | Топливо просачивается наружу? ** НЕТ** | 3B |  |
 
 #### ШАГ 3B. Проверьте ограничение входного отверстия топлива.
@@ -112,32 +112,32 @@ tags:
 | **Условия:** Выключите замок зажигания. Установите быстросоединяющуюся фитинговую и вакуумную измерительную шкалу. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте ограничение топлива на входе насоса топливного лифта. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-020 в разделе 6. | Ограничение топлива на входе насоса подъемного устройства больше, чем максимальные требования ограничения входного отверстия топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-020 в разделе 6. **Ремонт: ** Затянуть свободные соединения, проверить OEM всасывающую сторону системы на предмет повреждения или мусора, проверить OEM топливный бак на предмет мусора или повреждения, очистить экраны, заменить заглушенный топливный префильтр. См. сервисное руководство изготовителя машины. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-020 в разделе 6. | 4А |
-| Ограничение топлива на входе насоса подъемного устройства больше, чем максимальные требования ограничения входного отверстия топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-020 в разделе 6. ** НЕТ** | 3C |  |
+| Измерьте ограничение топлива на входе насоса топливного лифта. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-020 в разделе 6. | Ограничение топлива на входе насоса подъемного устройства больше, чем максимальные требования ограничения входного отверстия топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-020 в разделе 6. **Ремонт: ** Затянуть свободные соединения, проверить OEM всасывающую сторону системы на предмет повреждения или мусора, проверить OEM топливный бак на предмет мусора или повреждения, очистить экраны, заменить заглушенный топливный префильтр. См. сервисное руководство изготовителя машины. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-020 в разделе 6. | 4А |
+| Ограничение топлива на входе насоса подъемного устройства больше, чем максимальные требования ограничения входного отверстия топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-020 в разделе 6. ** НЕТ** | 3C |  |
 
 #### ШАГ 3C. Проверьте воздух в топливе.
 
 | **Условия:** Установите прицельное стекло на выходе топливного фильтра. Работайте с двигателем на высоком холостом ходу. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте воздух в топливе. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? **YESRepair:** Затянуть свободные соединения и проверить OEM-присоски системы на предмет повреждения или обломков. Заменить заглушенный топливный фильтр. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-015 в разделе 6. | 4А |
-| Присутствует ли воздух в потоке топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 006-003 в разделе 6. ** НЕТ** | 3D |  |
+| Проверьте воздух в топливе. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-003 в разделе 6. | Присутствует ли воздух в потоке топлива? **YESRepair:** Затянуть свободные соединения и проверить OEM-присоски системы на предмет повреждения или обломков. Заменить заглушенный топливный фильтр. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-015 в разделе 6. | 4А |
+| Присутствует ли воздух в потоке топлива? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 006-003 в разделе 6. ** НЕТ** | 3D |  |
 
 #### ШАГ 3D. Измерьте сопротивление по насосам топливного лифта.
 
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Отключите оба насоса подъемника топлива и измерьте сопротивление через штифты. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. | Указывает ли сопротивление на короткий или открытый контур? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. *** Ремонт: ** Заменить поврежденный насос для подъема топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. | 4А |
-| Указывает ли сопротивление на короткий или открытый контур? **NORepair:** Удалить оба насоса с электрическим топливным подъемником из двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. | 3E |  |
+| Отключите оба насоса подъемника топлива и измерьте сопротивление через штифты. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. | Указывает ли сопротивление на короткий или открытый контур? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. *** Ремонт: ** Заменить поврежденный насос для подъема топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. | 4А |
+| Указывает ли сопротивление на короткий или открытый контур? **NORepair:** Удалить оба насоса с электрическим топливным подъемником из двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. | 3E |  |
 
 #### ШАГ 3E. Проверьте насосы для подъёма топлива индивидуально.
 
 | **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Удалите насосы электрического подъемника из двигателя и измерьте способность к перекачке топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. | Соответствует ли расход топлива от каждого насоса для подъема спецификации? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. *Да** | 4А |
-| Соответствует ли расход топлива от каждого насоса для подъема спецификации? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. **NORepair:** Заменить поврежденный насос для подъема топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник 4021539. См. процедуру 005-045 в разделе 5. | 4А |  |
+| Удалите насосы электрического подъемника из двигателя и измерьте способность к перекачке топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. | Соответствует ли расход топлива от каждого насоса для подъема спецификации? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. *Да** | 4А |
+| Соответствует ли расход топлива от каждого насоса для подъема спецификации? Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. **NORepair:** Заменить поврежденный насос для подъема топлива. Используйте следующую процедуру в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. См. процедуру 005-045 в разделе 5. | 4А |  |
 
 ### ШАГ 4. Сбросьте коды неисправностей.
 
@@ -220,7 +220,7 @@ tags:
 > | **Conditions:** Engine running. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Start the engine and check for external fuel leaks. Check for external fuel leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-024 in Section 6. | 4A |
+> | Start the engine and check for external fuel leaks. Check for external fuel leaks. | Fuel leaking externally? **YESRepair:** Repair all fuel leaks. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-024 in Section 6. | 4A |
 > | Fuel leaking externally? **NO** | 3B |  |
 >
 > #### STEP 3B. Check the fuel inlet restriction.
@@ -228,32 +228,32 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Install a quick connecting fitting and vacuum gauge. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the fuel restriction at the fuel lift pump inlet. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-020 in Section 6. | Fuel restriction at the lift pump inlet greater than the maximum fuel inlet restriction specifications? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-020 in Section 6. **YESRepair:** Tighten loose connections, check OEM suction side of system for damage or debris, check OEM fuel tank for debris or damage, clean screens, replace plugged fuel pre-filter. Refer to the OEM service manual. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-020 in Section 6. | 4A |
-> | Fuel restriction at the lift pump inlet greater than the maximum fuel inlet restriction specifications? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-020 in Section 6. **NO** | 3C |  |
+> | Measure the fuel restriction at the fuel lift pump inlet. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-020 in Section 6. | Fuel restriction at the lift pump inlet greater than the maximum fuel inlet restriction specifications? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-020 in Section 6. **YESRepair:** Tighten loose connections, check OEM suction side of system for damage or debris, check OEM fuel tank for debris or damage, clean screens, replace plugged fuel pre-filter. Refer to the OEM service manual. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-020 in Section 6. | 4A |
+> | Fuel restriction at the lift pump inlet greater than the maximum fuel inlet restriction specifications? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-020 in Section 6. **NO** | 3C |  |
 >
 > #### STEP 3C. Check for air in fuel.
 >
 > | **Conditions:** Install a sight glass at the fuel filter outlet. Operate the engine at high idle. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for air in fuel. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Tighten loose connections and check OEM suction side of system for damage or debris. Replace plugged fuel filter. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-015 in Section 6. | 4A |
-> | Air present in the fuel flow? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 006-003 in Section 6. **NO** | 3D |  |
+> | Check for air in fuel. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-003 in Section 6. | Air present in the fuel flow? **YESRepair:** Tighten loose connections and check OEM suction side of system for damage or debris. Replace plugged fuel filter. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-015 in Section 6. | 4A |
+> | Air present in the fuel flow? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 006-003 in Section 6. **NO** | 3D |  |
 >
 > #### STEP 3D. Measure resistance across the fuel lift pumps.
 >
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Unplug both fuel lift pumps and measure the resistance across the pins. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. | Does the resistance indicate a short or open circuit? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. **YESRepair:** Replace the damaged fuel lift pump. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. | 4A |
-> | Does the resistance indicate a short or open circuit? **NORepair:** Remove both electric fuel lift pumps from the engine. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. | 3E |  |
+> | Unplug both fuel lift pumps and measure the resistance across the pins. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. | Does the resistance indicate a short or open circuit? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. **YESRepair:** Replace the damaged fuel lift pump. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. | 4A |
+> | Does the resistance indicate a short or open circuit? **NORepair:** Remove both electric fuel lift pumps from the engine. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. | 3E |  |
 >
 > #### STEP 3E. Check the fuel lift pumps individually.
 >
 > | **Conditions:** Turn keyswitch OFF. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Remove electric lift pumps from engine and measure fuel pumping capability. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. | Does fuel flow from each lift pump meet specification? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. **YES** | 4A |
-> | Does fuel flow from each lift pump meet specification? Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. **NORepair:** Replace the damaged fuel lift pump. Use the following procedure in Service Manual, QST30, Bulletin 4021539. Refer to Procedure 005-045 in Section 5. | 4A |  |
+> | Remove electric lift pumps from engine and measure fuel pumping capability. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. | Does fuel flow from each lift pump meet specification? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. **YES** | 4A |
+> | Does fuel flow from each lift pump meet specification? Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. **NORepair:** Replace the damaged fuel lift pump. Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. Refer to Procedure 005-045 in Section 5. | 4A |  |
 >
 > ### STEP 4. Clear the fault codes.
 >

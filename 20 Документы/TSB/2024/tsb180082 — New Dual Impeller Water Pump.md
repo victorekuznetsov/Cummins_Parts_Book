@@ -87,7 +87,7 @@ tags:
 
 См. следующие Руководства по обслуживанию и справочную процедуру 008-062 в разделе 8:
 
-- GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528
+- GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 - Руководство по обслуживанию K117, Вестник 4367449
 - Руководство по обслуживанию K121, Вестник 4388645
 - Руководство по обслуживанию K135, Вестник 5504626
@@ -187,7 +187,7 @@ tags:
 >
 > See the following Service Manuals and reference Procedure 008-062 in Section 8:
 >
-> - GTA38, K38, K50, QSK38 and QSK50 Service Manual, Bulletin 4021528
+> - GTA38, K38, K50, QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 > - K117 Service Manual, Bulletin 4367449
 > - K121 Service Manual, Bulletin 4388645
 > - K135 Service Manual, Bulletin 5504626

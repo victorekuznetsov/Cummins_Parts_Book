@@ -49,7 +49,7 @@ tags:
 > [!danger] ОПАСНО
 > Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Снимите крышку радиатора. Слить достаточно охлаждающей жидкости из системы охлаждения, чтобы опорожнить верхний резервуар радиатора. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Снимите крышку радиатора. Слить достаточно охлаждающей жидкости из системы охлаждения, чтобы опорожнить верхний резервуар радиатора. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ra800qa.png]]
 
@@ -69,7 +69,7 @@ tags:
 
 Заполните систему охлаждения и проверьте наличие утечек.
 
-Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[19900755.png]]
 
@@ -80,7 +80,7 @@ tags:
 > **WARNING · Опасно**
 > Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 >
-> Remove the radiator cap. Drain enough coolant from the cooling system to empty the radiator top tank. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Remove the radiator cap. Drain enough coolant from the cooling system to empty the radiator top tank. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
 >
 > Lift up on the locking tab and pull the electrical connectors apart.
 >
@@ -94,4 +94,4 @@ tags:
 >
 > Fill the cooling system and check for leaks.
 >
-> Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]

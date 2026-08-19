@@ -138,8 +138,8 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Датчик частоты вращения двигателя (ESS) | [[122-019-042 — Engine Speed Sensor (ESS)\|См. процедуру 019-042]] | QSK50 CM2150 MCRS | 4022102 |
-| Жгут проводов двигателя | [[122-019-043 — Engine Wiring Harness\|См. процедуру 019-043]] | QSK50 CM2150 MCRS | 4022102 |
+| Датчик частоты вращения двигателя (ESS) | [[122-019-042 — Engine Speed Sensor (ESS)\|См. процедуру 019-042]] | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Жгут проводов двигателя | [[122-019-043 — Engine Wiring Harness\|См. процедуру 019-043]] | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -238,5 +238,5 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Engine Speed Sensor (ESS) | [[122-019-042 — Engine Speed Sensor (ESS)\|Refer to Procedure 019-042]] | QSK50 CM2150 MCRS | 4022102 |
-> | Engine Wiring Harness | [[122-019-043 — Engine Wiring Harness\|Refer to Procedure 019-043]] | QSK50 CM2150 MCRS | 4022102 |
+> | Engine Speed Sensor (ESS) | [[122-019-042 — Engine Speed Sensor (ESS)\|Refer to Procedure 019-042]] | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Engine Wiring Harness | [[122-019-043 — Engine Wiring Harness\|Refer to Procedure 019-043]] | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |

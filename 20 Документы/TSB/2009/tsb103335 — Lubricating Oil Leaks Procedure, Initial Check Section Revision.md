@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Служба/Части» пересматривает Процедура 007-024 в разделе 7 Руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень 3666003. В помощь в устранении неполадок внешних утечек нефти был добавлен комплект черного света.
+Эта тема «Служба/Части» пересматривает Процедура 007-024 в разделе 7 Руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. В помощь в устранении неполадок внешних утечек нефти был добавлен комплект черного света.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Procedure 007-024 in Section 7 of the C Series Engines Troubleshooting and Repair Manual, Bulletin 3666003. A black light kit has been added to aid in troubleshooting external oil leaks.
+> This Service/Parts Topic revises Procedure 007-024 in Section 7 of the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. A black light kit has been added to aid in troubleshooting external oil leaks.

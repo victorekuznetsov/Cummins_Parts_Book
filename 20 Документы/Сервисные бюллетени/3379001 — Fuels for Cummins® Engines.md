@@ -54,7 +54,7 @@ tags:
 
 ## Топливо для двигателей Cummins®
 
-Информацию о топливе для двигателей Cummins® см. в руководстве по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406. Справочные разделы 1, 2 и 3
+Информацию о топливе для двигателей Cummins® см. в руководстве по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Справочные разделы 1, 2 и 3
 
 > [!note] Примечание
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)
@@ -65,7 +65,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ## Fuels for Cummins® Engines
 >
-> For information on fuels for Cummins® engines, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Sections 1, 2, and 3
+> For information on fuels for Cummins® engines, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Sections 1, 2, and 3
 >
 > **Note · Примечание**
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)

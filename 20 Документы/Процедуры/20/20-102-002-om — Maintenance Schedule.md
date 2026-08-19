@@ -406,7 +406,7 @@ TM без CentinelTM без TM
 
 CentinelTM - с непрерывно работающей системой CentinelTM интервал слива масла может быть увеличен до тех пор, пока анализ масла не потребует изменения масла или не будет известно, что масло загрязнено. Анализ масла требуется с интервалом 250 часов при использовании системы CentinelTM, и *** должен включать измерение сажи. Набор анализа масла Fleetguard®, номер детали CC 2543, соответствует этому требованию. Параметры анализа нефти ** должны** оставаться в пределах, указанных в Таблице 2 Методики анализа нефти для дизельных двигателей большой мощности, Бюллетень службы[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. См. следующие бюллетени для получения дополнительной информации о отборе и анализе проб нефти:
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник 5411406[[5411406 — Fluids for Cummins® Products Service Manual|5411406]]Раздел 4 Масло для двигателей.
+- Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]][[5411406 — Fluids for Cummins® Products Service Manual|5411406]]Раздел 4 Масло для двигателей.
 - Методы анализа масла для дизельных двигателей большой мощности, бюллетень 4022060[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
 - Статистический анализ свинцовых показаний образца масла на двигателях большой мощности, Бюллетень 2883452[[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
 
@@ -907,7 +907,7 @@ Cummins Inc. **не*** Рекомендует интервалы изменен�
 >
 > Centinel™ - With a continuously operating Centinel™ System, the oil drain interval can be extended until the oil analysis requires the oil to be changed or the oil is known to be contaminated. Oil analysis is required at 250 hour intervals when using the Centinel™ System, and **must** include soot measurement. Fleetguard® Oil Analysis Kit, Part Number CC 2543, meets this requirement. Oil analysis parameters **must** remain within the limits specified in Table 2 of the Oil Analysis Techniques for High Horsepower Diesel Engines, Service Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. Reference the following bulletins for more information on oil sampling and analysis:
 >
-> - Fluids for Cummins® Products Service Manual, Bulletin 5411406 [[5411406 — Fluids for Cummins® Products Service Manual|5411406]], Section 4 Engine Oil.
+> - Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] [[5411406 — Fluids for Cummins® Products Service Manual|5411406]], Section 4 Engine Oil.
 > - Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060 [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
 > - Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452 [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
 >

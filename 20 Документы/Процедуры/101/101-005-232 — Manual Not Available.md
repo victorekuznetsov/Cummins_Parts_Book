@@ -43,7 +43,7 @@ tags:
 > приведён в свёрнутом блоке в конце заметки и в PDF.
 
 
-## **Сборка для давления накачки топлива (101-005-232)**
+## **Сборка для давления накачки топлива ([[101-005-232 — Manual Not Available\|101-005-232]])**
 
 Данная процедура пока не доступна на момент публикации.
 
@@ -51,7 +51,7 @@ tags:
 
 
 > [!quote]- Original (English) · английский оригинал
-> ## **Fuel Pump Pressurizing Assembly (101-005-232)**
+> ## **Fuel Pump Pressurizing Assembly ([[101-005-232 — Manual Not Available\|101-005-232]])**
 >
 > This procedure is not yet available at the time of publication.
 >

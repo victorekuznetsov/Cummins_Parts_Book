@@ -150,7 +150,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Отключите код неисправности. Отключите соленоид управления вентилятором от OEM или жгута проводов двигателя. Выключите замок зажигания. Подключите соленоид управления вентилятором к OEM или жгуту проводов двигателя. Включите зажигание. Используйте инструмент электронного сервиса INSITETM для проверки неактивности кодов неисправностей. | Код 245 неактивен? *Да** | 4B |
-| Код 245 неактивен? **NORepair: ** Ссылка на Руководство по ремонту, Системы управления базовыми панелями Marine C CommandTM, Бюллетень 4021587 или Руководство по ремонту Master, Панельная система Marine C Command EliteTM и C Command Elite PlusTM, Бюллетень 4021617. | Соответствующие шаги по устранению неполадок |  |
+| Код 245 неактивен? **NORepair: ** Ссылка на Руководство по ремонту, Системы управления базовыми панелями Marine C CommandTM, Бюллетень [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]] или Руководство по ремонту Master, Панельная система Marine C Command EliteTM и C Command Elite PlusTM, Бюллетень [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]. | Соответствующие шаги по устранению неполадок |  |
 
 #### ШАГ 4B. Сбросьте неактивные коды неисправностей.
 
@@ -269,7 +269,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Disable the fault code. Disconnect the fan control solenoid from the OEM or engine harness. Turn the keyswitch OFF. Connect the fan control solenoid to the OEM or engine harness. Turn keyswitch ON. Use INSITE™ electronic service tool to verify that the fault codes are inactive. | Fault Code 245 inactive? **YES** | 4B |
-> | Fault Code 245 inactive? **NORepair:** Reference the Master Repair Manual, Marine C Command™ Basic Panel Manual Systems, Bulletin 4021587, or the Master Repair Manual, Marine C Command Elite™ and C Command Elite Plus™ Panel System, Bulletin 4021617. | Appropriate Troubleshooting Steps |  |
+> | Fault Code 245 inactive? **NORepair:** Reference the Master Repair Manual, Marine C Command™ Basic Panel Manual Systems, Bulletin [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]], or the Master Repair Manual, Marine C Command Elite™ and C Command Elite Plus™ Panel System, Bulletin [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]. | Appropriate Troubleshooting Steps |  |
 >
 > #### STEP 4B. Clear the inactive fault codes.
 >

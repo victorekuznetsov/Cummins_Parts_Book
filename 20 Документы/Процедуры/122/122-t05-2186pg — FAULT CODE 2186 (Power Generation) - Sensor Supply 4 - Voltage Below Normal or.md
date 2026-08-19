@@ -367,16 +367,16 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Датчик атмосферного давления | [[122-019-004 — Barometric Pressure Sensor\|См. процедуру 019-004]] | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления охлаждающего двигателя | См. процедуру 019-016 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Жгут проводов двигателя | [[122-019-043 — Engine Wiring Harness\|См. процедуру 019-043]] | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик температуры воздуха во впускном коллекторе | См. процедуру 019-059 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления Manifold Air Pressure Sensor | См. процедуру 019-061 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления моторного масла | См. процедуру 019-066 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления топлива в рампе | [[122-019-115 — Rail Fuel Pressure Sensor\|См. процедуру 019-115]] | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик положения распределительного вала | См. процедуру 019-363 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления топлива | См. процедуру 019-398 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
-| Датчик давления в чемодане | См. процедуру 019-445 | QSK38, QSK50 и QSK60 CM2150 | 4022102 |
+| Датчик атмосферного давления | [[122-019-004 — Barometric Pressure Sensor\|См. процедуру 019-004]] | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления охлаждающего двигателя | См. процедуру 019-016 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Жгут проводов двигателя | [[122-019-043 — Engine Wiring Harness\|См. процедуру 019-043]] | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик температуры воздуха во впускном коллекторе | См. процедуру 019-059 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления Manifold Air Pressure Sensor | См. процедуру 019-061 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления моторного масла | См. процедуру 019-066 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления топлива в рампе | [[122-019-115 — Rail Fuel Pressure Sensor\|См. процедуру 019-115]] | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик положения распределительного вала | См. процедуру 019-363 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления топлива | См. процедуру 019-398 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+| Датчик давления в чемодане | См. процедуру 019-445 | QSK38, QSK50 и QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -704,13 +704,13 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Ambient Air Pressure Sensor | [[122-019-004 — Barometric Pressure Sensor\|Refer to Procedure 019-004]] | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Engine Coolant Pressure Sensor | Refer to Procedure 019-016 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Engine Wiring Harness | [[122-019-043 — Engine Wiring Harness\|Refer to Procedure 019-043]] | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Intake Manifold Air Temperature Sensor | Refer to Procedure 019-059 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Intake Manifold Air Pressure Sensor | Refer to Procedure 019-061 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Engine Oil Pressure Sensor | Refer to Procedure 019-066 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Rail Fuel Pressure Sensor | [[122-019-115 — Rail Fuel Pressure Sensor\|Refer to Procedure 019-115]] | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Camshaft Position Sensor | Refer to Procedure 019-363 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Fuel Supply Pressure Sensor | Refer to Procedure 019-398 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
-> | Crankcase Pressure Sensor | Refer to Procedure 019-445 | QSK38, QSK50, and QSK60 CM2150 | 4022102 |
+> | Ambient Air Pressure Sensor | [[122-019-004 — Barometric Pressure Sensor\|Refer to Procedure 019-004]] | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Engine Coolant Pressure Sensor | Refer to Procedure 019-016 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Engine Wiring Harness | [[122-019-043 — Engine Wiring Harness\|Refer to Procedure 019-043]] | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Intake Manifold Air Temperature Sensor | Refer to Procedure 019-059 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Intake Manifold Air Pressure Sensor | Refer to Procedure 019-061 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Engine Oil Pressure Sensor | Refer to Procedure 019-066 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Rail Fuel Pressure Sensor | [[122-019-115 — Rail Fuel Pressure Sensor\|Refer to Procedure 019-115]] | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Camshaft Position Sensor | Refer to Procedure 019-363 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Fuel Supply Pressure Sensor | Refer to Procedure 019-398 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
+> | Crankcase Pressure Sensor | Refer to Procedure 019-445 | QSK38, QSK50, and QSK60 CM2150 | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |

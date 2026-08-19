@@ -50,7 +50,7 @@ tags:
 > [!note] Примечание
 > Этот ближний бейнер не должен использоваться на головках цилиндров газового двигателя QSK60.
 
-- Для QSK19 используйте следующую процедуру для получения дополнительной информации о ближнем ближнем ближнем ближнем в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.[[20-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
+- Для QSK19 используйте следующую процедуру для получения дополнительной информации о ближнем ближнем ближнем ближнем в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
 - Для QSK 45, QSK60, QSK60 CM850 MCRS и QSK60 CM2150 MCRS используйте следующую процедуру для получения дополнительной информации о направляющем кране клапана в руководстве по обслуживанию QSK45 и QSK60, в бюллетене 4021530. См. процедуру 002-004 в разделе 2.
 
 ![[22k00007.png]]
@@ -72,7 +72,7 @@ tags:
 > **Note · Примечание**
 > This reamer is **not** to be used on QSK60 Gas engine cylinder heads.
 >
-> - For the QSK19, use the following procedure for additional information on the valve guide reamer in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
+> - For the QSK19, use the following procedure for additional information on the valve guide reamer in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
 > - For the QSK 45, QSK60, QSK60 CM850 MCRS and QSK60 CM2150 MCRS, use the following procedure for additional information on the valve guide reamer in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 002-004 in Section 2.
 >
 > Valve Guide Reamer, Part Number 5298510

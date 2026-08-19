@@ -46,7 +46,7 @@ tags:
 
 ### Подготовительные операции
 
-- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Батарейные и кабельные соединения) в разделе 13 Руководства по обслуживанию QST30, Бюллетень 4021539.
+- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Батарейные и кабельные соединения) в разделе 13 Руководства по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -104,7 +104,7 @@ tags:
 
 ### Завершающие операции
 
-- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Батарейные и кабельные соединения) в разделе 13 Руководства по обслуживанию QST30, Бюллетень 4021539.
+- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Батарейные и кабельные соединения) в разделе 13 Руководства по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -112,7 +112,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ### Preparatory Steps
 >
-> - Disconnect the batteries. Refer to Procedure 013-009 (Battery and Cable Connections) in Section 13 of the QST30 Service Manual, Bulletin 4021539.
+> - Disconnect the batteries. Refer to Procedure 013-009 (Battery and Cable Connections) in Section 13 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > ### Remove
 >
@@ -156,4 +156,4 @@ tags:
 >
 > ### Finishing Steps
 >
-> - Connect the batteries. Refer to Procedure 013-009 (Battery and Cable Connections) in Section 13 of the QST30 Service Manual, Bulletin 4021539.
+> - Connect the batteries. Refer to Procedure 013-009 (Battery and Cable Connections) in Section 13 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].

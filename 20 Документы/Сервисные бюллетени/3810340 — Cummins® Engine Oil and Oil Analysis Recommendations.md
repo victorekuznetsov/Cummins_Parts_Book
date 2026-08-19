@@ -54,7 +54,7 @@ tags:
 
 ## Рекомендации Cummins® по маслу и его анализу
 
-Для получения информации о рекомендациях и спецификациях моторного масла см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник 5411406. Справочная часть 4.
+Для получения информации о рекомендациях и спецификациях моторного масла см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Справочная часть 4.
 
 > [!note] Примечание
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)
@@ -65,7 +65,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ## Cummins® Engine Oil and Oil Analysis Recommendations
 >
-> For information on engine oil recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Section 4.
+> For information on engine oil recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Section 4.
 >
 > **Note · Примечание**
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)

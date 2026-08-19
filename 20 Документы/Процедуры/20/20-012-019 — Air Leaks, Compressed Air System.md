@@ -79,7 +79,7 @@ tags:
 
 Сборник и монтажные утечки
 
-Если обнаружены утечки воздуха, замените прокладку или кольцо. См. руководство по ремонту воздушного компрессора Holset®, Bulletin 3666121.
+Если обнаружены утечки воздуха, замените прокладку или кольцо. См. руководство по ремонту воздушного компрессора Holset®, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 > [!note] Примечание
 > **Не все упомянутые воздушные компрессоры могут использоваться на всех двигателях или приложениях.
@@ -122,7 +122,7 @@ tags:
 >
 > Hose and fitting leaks
 >
-> If air leaks are found, replace the leaking gasket or o-ring. Refer to the Holset® Air Compressor Master Repair Manual, Bulletin 3666121.
+> If air leaks are found, replace the leaking gasket or o-ring. Refer to the Holset® Air Compressor Master Repair Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
 > **Note · Примечание**
 > **Not** all air compressors referenced can be used on all engine or applications.

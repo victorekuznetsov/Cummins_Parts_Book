@@ -51,8 +51,8 @@ tags:
 | 4021493 | Руководство по устранению неполадок и ремонту, электронная система управления, QSK19 CM850, модульные двигатели серии Common Rail System |
 | 4021583 | QSK19 CM850 Модульная общая железнодорожная система Морской вспомогательный C командной панелью системы проводной диаграммы |
 | 4021584 | QSK19 CM850 Модульная общая железнодорожная система морского движения с диаграммой проводов командной панели C |
-| 4021589 | Системы управления морскими C Command Panel |
-| 4021592 | Руководство по эксплуатации, QSK19 и QSK19 CM850 Модульная система Common Rail System |
+| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]] | Системы управления морскими C Command Panel |
+| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | Руководство по эксплуатации, QSK19 и QSK19 CM850 Модульная система Common Rail System |
 | 4021593 | Морская вспомогательная командная панель C Диаграмма проводов |
 | 4021594 | Marine Propulsion C Command Panel Wiring Diagram (недоступная ссылка) |
 | 4021608 | Модульная общая железнодорожная система QSK38 CM850 Морской вспомогательный модуль с системой проводов командной панели C |
@@ -71,8 +71,8 @@ tags:
 > | 4021493 | Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Series Engines |
 > | 4021583 | QSK19 CM850 Modular Common Rail System Marine Auxiliary with C Command Panel System Wiring Diagram |
 > | 4021584 | QSK19 CM850 Modular Common Rail System Marine Propulsion with C Command Panel System Wiring Diagram |
-> | 4021589 | Owners Manual Marine C Command Panel Systems |
-> | 4021592 | Service Manual, QSK19 and QSK19 CM850 Modular Common Rail System Series Engine |
+> | [[4021589 — Marine C Command Panel System Owners Manual\|4021589]] | Owners Manual Marine C Command Panel Systems |
+> | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | Service Manual, QSK19 and QSK19 CM850 Modular Common Rail System Series Engine |
 > | 4021593 | Marine Auxiliary C Command Panel Wiring Diagram |
 > | 4021594 | Marine Propulsion C Command Panel Wiring Diagram |
 > | 4021608 | QSK38 CM850 Modular Common Rail System Marine Auxiliary with C Command Panel System Wiring Diagram |

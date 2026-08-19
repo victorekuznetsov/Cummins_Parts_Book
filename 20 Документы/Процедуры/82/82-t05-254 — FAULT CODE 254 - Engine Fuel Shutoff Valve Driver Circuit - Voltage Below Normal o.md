@@ -158,9 +158,9 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Электронный блок управления двигателем | [[82-019-031 — Engine Control Module\|См. процедуру 019-031]] | Двигатели ISM и QSM11 | 3666266 |
-| Жгут проводов двигателя | [[82-019-043-tr — Engine Wiring Harness\|См. процедуру 019-043]] | Двигатели ISM и QSM11 | 3666266 |
-| Клапан отсечки топлива | [[82-019-050 — Fuel Shutoff Valve\|См. процедуру 019-050]] | Двигатели ISM и QSM11 | 3666266 |
+| Электронный блок управления двигателем | [[82-019-031 — Engine Control Module\|См. процедуру 019-031]] | Двигатели ISM и QSM11 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+| Жгут проводов двигателя | [[82-019-043-tr — Engine Wiring Harness\|См. процедуру 019-043]] | Двигатели ISM и QSM11 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+| Клапан отсечки топлива | [[82-019-050 — Fuel Shutoff Valve\|См. процедуру 019-050]] | Двигатели ISM и QSM11 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -280,6 +280,6 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Engine Control Module | [[82-019-031 — Engine Control Module\|Refer to Procedure 019-031]] | ISM and QSM11 Engines | 3666266 |
-> | Engine Wiring Harness | [[82-019-043-tr — Engine Wiring Harness\|Refer to Procedure 019-043]] | ISM and QSM11 Engines | 3666266 |
-> | Fuel Shutoff Valve | [[82-019-050 — Fuel Shutoff Valve\|Refer to Procedure 019-050]] | ISM and QSM11 Engines | 3666266 |
+> | Engine Control Module | [[82-019-031 — Engine Control Module\|Refer to Procedure 019-031]] | ISM and QSM11 Engines | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+> | Engine Wiring Harness | [[82-019-043-tr — Engine Wiring Harness\|Refer to Procedure 019-043]] | ISM and QSM11 Engines | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+> | Fuel Shutoff Valve | [[82-019-050 — Fuel Shutoff Valve\|Refer to Procedure 019-050]] | ISM and QSM11 Engines | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |

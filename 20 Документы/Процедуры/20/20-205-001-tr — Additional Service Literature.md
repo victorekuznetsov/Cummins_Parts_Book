@@ -48,10 +48,10 @@ tags:
 
 | Вестник | Название публикации |
 |---|---|
-| 4021592 | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
+| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
 | 3666113 | QSK19, QSK23, QSK45, QSK60 и QSK78 Двигатели Электронная система управления Устранение неполадок и ремонт Руководства |
 | 4021493 | QSK19 CM850 Модульная система общего железнодорожного сообщения Серия Двигатель Электронная система управления Устранение неполадок и ремонт Ручной |
-| 4022094 | QSK19 CM2150 Электронная система управления Устранение неполадок и ремонт Руководства |
+| [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] | QSK19 CM2150 Электронная система управления Устранение неполадок и ремонт Руководства |
 | 4021350 | QSK19 Индустриальная схема электропитания |
 | 4021497 | QSK19 CM850 Модульная общая железнодорожная система, схема проводов промышленных приложений |
 | 4021583 | Модульная общая железнодорожная система QSK19 CM850, вспомогательная морская система с системой проводов командной панели C |
@@ -65,7 +65,7 @@ tags:
 | 4022099 | QSK19 CM2150 Модульная общая железнодорожная система, морская тяга с C Command Elite и панельной системой Elite Plus |
 | 4022100 | QSK19 CM2150 Модульная общая железнодорожная система, морской вспомогательный модуль с системой проводов командной панели C |
 | 4022101 | QSK19 CM2150 Модульная общая железнодорожная система, морской вспомогательный с C Command Elite и панельной системой Elite Plus |
-| 3666120 | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Руководство по эксплуатации и техническому обслуживанию |
+| [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Руководство по эксплуатации и техническому обслуживанию |
 | 4915516 | Руководство для владельцев QSK19 |
 | 3898170 | QUANTUMTM QSK19 Знакомство с двигателем |
 | 3898180 | QUANTUMTM QSK19 Знакомство с топливной системой |
@@ -74,7 +74,7 @@ tags:
 | 3379084 | Руководство по восстановлению топливного насоса |
 | 3666052 | Указания по повторному использованию распредвалов двигателей Cummins® с роликовыми толкателями |
 | 3666091 | Устройство предпусковой прокачки для двигателей HD и HHP |
-| 3666121 | Holset® Air Compressor Master Manual |
+| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Manual |
 | 3666132 | Требования Cummins® к охлаждающей жидкости и её обслуживанию |
 | 3666191 | Стартеры и генераторы Delco-Remy™ под маркой Cummins® |
 | 3666209 | Увеличенный интервал обслуживания системы охлаждения |
@@ -93,10 +93,10 @@ tags:
 >
 > | Bulletin | Title of Publication |
 > |---|---|
-> | 4021592 | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
+> | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
 > | 3666113 | QSK19, QSK23, QSK45, QSK60, and QSK78 Engines Electronic Control System Troubleshooting and Repair Manual |
 > | 4021493 | QSK19 CM850 Modular Common Rail System Series Engine Electronic Control System Troubleshooting and Repair Manual |
-> | 4022094 | QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual |
+> | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] | QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual |
 > | 4021350 | QSK19 Industrial Power Unit Wiring Diagram |
 > | 4021497 | QSK19 CM850 Modular Common Rail System, Industrial Applications Wiring Diagram |
 > | 4021583 | QSK19 CM850 Modular Common Rail System, Marine Auxiliary with C Command Panel System Wiring Diagram |
@@ -110,7 +110,7 @@ tags:
 > | 4022099 | QSK19 CM2150 Modular Common Rail System, Marine Propulsion with C Command Elite and Elite Plus Panel System Wiring Diagram |
 > | 4022100 | QSK19 CM2150 Modular Common Rail System, Marine Auxiliary with C Command Panel System Wiring Diagram |
 > | 4022101 | QSK19 CM2150 Modular Common Rail System, Marine Auxiliary with C Command Elite and Elite Plus Panel System Wiring Diagram |
-> | 3666120 | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual |
+> | [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Operation and Maintenance Manual |
 > | 4915516 | QSK19 Owners Manual |
 > | 3898170 | QUANTUM™ QSK19 Engine Familiarization |
 > | 3898180 | QUANTUM™ QSK19 Fuel System Familiarization |
@@ -119,7 +119,7 @@ tags:
 > | 3379084 | Fuel Pump Rebuild Manual |
 > | 3666052 | Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets |
 > | 3666091 | Prelubrication Device for Heavy-Duty and High-Horsepower Engines |
-> | 3666121 | Holset® Air Compressor Master Repair Manual |
+> | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Repair Manual |
 > | 3666132 | Cummins® Coolant Requirements and Maintenance |
 > | 3666191 | Cummins®-Branded Delco-Remy™ Starters and Alternators |
 > | 3666209 | Extended Service Interval, Cooling System Maintenance |

@@ -47,7 +47,7 @@ tags:
 
 В настоящем документе приводится информация для контрольного калибра, номер детали 5298508. Калибр используется для проверки цилиндра на головном клапане направляющего цилиндра на искажение и используется с клапанным направляющим реамером, Номер детали 5298510, для ремонта двигателей QSK19, QSK45 и QSK60.
 
-- Для QSK19 используйте следующую процедуру для получения дополнительной информации о контрольном измерительном приборе для проверки клапанов в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.[[20-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
+- Для QSK19 используйте следующую процедуру для получения дополнительной информации о контрольном измерительном приборе для проверки клапанов в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
 - Для QSK45, QSK60, QSK60 CM850 MCRS и QSK60 CM2150 MCRS используйте следующую процедуру для получения дополнительной информации о контрольном измерительном приборе для проверки клапанов в руководстве по эксплуатации QSK45 и QSK60, в бюллетене 4021530. См. процедуру 002-004 в разделе 2.
 
 ![[22600397.png]]
@@ -66,7 +66,7 @@ tags:
 >
 > This document provides information for inspection gauge, Part Number 5298508. The gauge is used to check the cylinder head valve guide bore for distortion, and used with valve guide reamer, Part Number 5298510, for repair of QSK19, QSK45, and QSK60 engines.
 >
-> - For the QSK19, use the following procedure for additional information on the valve guide inspection gauge in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
+> - For the QSK19, use the following procedure for additional information on the valve guide inspection gauge in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
 > - For the QSK45, QSK60, QSK60 CM850 MCRS and QSK60 CM2150 MCRS, use the following procedure for additional information on the valve guide inspection gauge in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 002-004 in Section 2.
 >
 > Inspection Gauge, Part Number 5298508

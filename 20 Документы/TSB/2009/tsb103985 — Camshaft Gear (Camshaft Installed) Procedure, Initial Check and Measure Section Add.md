@@ -51,7 +51,7 @@ tags:
 
 ### Содержание
 
-Эта тема службы / частей добавляет раздел «Первоначальная проверка и измерение» к процедуре 001-012 (Camshaft Gear (Camshaft Installed) в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528).
+Эта тема службы / частей добавляет раздел «Первоначальная проверка и измерение» к процедуре 001-012 (Camshaft Gear (Camshaft Installed) в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]).
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -63,4 +63,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic adds Initial Check and Measure section to Procedure 001-012 (Camshaft Gear (Camshaft Installed) in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528.
+> This Service/Parts Topic adds Initial Check and Measure section to Procedure 001-012 (Camshaft Gear (Camshaft Installed) in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].

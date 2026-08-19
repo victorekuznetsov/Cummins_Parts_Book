@@ -76,7 +76,7 @@ WabcoTM начала производство новой конструкции 
 | Таблица 1 Матрицы номеров воздушных компрессоров Wabco |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
 | Группа двигателей | Двигатель | Старый Cummins Part Number | Новый номер Cummins Part Number | Дата производства | Серийный номер двигателя (ESN) | Пострадавшие публикации |
-| Средний | Серия C | 3969104 | 4936212 | 22-декабрь 2005 года | 46567259 | 3666003 |
+| Средний | Серия C | 3969104 | 4936212 | 22-декабрь 2005 года | 46567259 | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] |
 | 3969108 | 4936213 | **В настоящее время в производстве не | Не применяется |  |  |  |
 | 3969120 | 4936214 | **В настоящее время в производстве не | Не применяется |  |  |  |
 | QSC Tier II (CAPS) | 3969124 | 4936216 | **В настоящее время в производстве не | Не применяется | 4021418 |  |
@@ -125,7 +125,7 @@ WabcoTM начала производство новой конструкции 
 > | Table 1, Wabco Air Compressor Part Number Matrix |  |  |  |  |  |  |
 > |---|---|---|---|---|---|---|
 > | Engine Group | Engine | Old Cummins Part Number | New Cummins Part Number | Production Date | Engine Serial Number (ESN) First | Affected Publications |
-> | Midrange | C Series | 3969104 | 4936212 | 22-Dec-2005 | 46567259 | 3666003 |
+> | Midrange | C Series | 3969104 | 4936212 | 22-Dec-2005 | 46567259 | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] |
 > | 3969108 | 4936213 | **Not** in production at this time | N/A |  |  |  |
 > | 3969120 | 4936214 | **Not** in production at this time | N/A |  |  |  |
 > | QSC Tier II (CAPS) | 3969124 | 4936216 | **Not** in production at this time | N/A | 4021418 |  |

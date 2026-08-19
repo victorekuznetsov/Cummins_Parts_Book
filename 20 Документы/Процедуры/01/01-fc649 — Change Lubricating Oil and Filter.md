@@ -64,7 +64,7 @@ tags:
 
 ### Расположение компонента
 
-Разнообразие по установке. См. руководство по ремонту Centinel Master 3666231 для получения дополнительной информации.
+Разнообразие по установке. См. руководство по ремонту Centinel Master [[3666231 — Centinel™ Master Repair Manual\|3666231]] для получения дополнительной информации.
 
 ### Практические замечания
 
@@ -92,7 +92,7 @@ tags:
 >
 > ### Component Location
 >
-> Varies by installation. Refer to Centinel Master Repair Manual 3666231 for further information.
+> Varies by installation. Refer to Centinel Master Repair Manual [[3666231 — Centinel™ Master Repair Manual\|3666231]] for further information.
 >
 > ### Shoptalk
 >

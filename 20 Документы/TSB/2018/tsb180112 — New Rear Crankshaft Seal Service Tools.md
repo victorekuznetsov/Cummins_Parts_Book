@@ -115,7 +115,7 @@ tags:
 | Руководство по обслуживанию | ISB6.7 CM2150 SQ Service Manual | 2883504 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | ISB6.7 CM2350 B101 Руководство по эксплуатации | 2883567 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | QSB6.7 CM2250 EC (173 л.с. или ниже) Руководство по обслуживанию | 2883621 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
-| Руководство по обслуживанию | Серия C Устранение неполадок и руководство по ремонту | 3666003 | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | См. процедуру 001-024 См. процедуру 001-104 | 1 |
+| Руководство по обслуживанию | Серия C Устранение неполадок и руководство по ремонту | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | См. процедуру 001-024 См. процедуру 001-104 | 1 |
 | Руководство по обслуживанию | B3.9, B4.5, B4.5 RGT и B5.9 Руководство по обслуживанию | 3666087 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | B5.9G, B5.9LPG, B Gas Plus, B LPG Plus, B Gas International и G5.9 Руководство по устранению неполадок и ремонту | 3666164 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | ISB и QSB5.9-44 Руководство по устранению неполадок и ремонту | 3666193 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
@@ -234,7 +234,7 @@ tags:
 > | Service Manual | ISB6.7 CM2150 SQ Service Manual | 2883504 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | ISB6.7 CM2350 B101 Service Manual | 2883567 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | QSB6.7 CM2250 EC (173 HP or Below) Service Manual | 2883621 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
-> | Service Manual | C Series Troubleshooting and Repair Manual | 3666003 | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | Refer to Procedure 001-024 Refer to Procedure 001-104 | 1 |
+> | Service Manual | C Series Troubleshooting and Repair Manual | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | Refer to Procedure 001-024 Refer to Procedure 001-104 | 1 |
 > | Service Manual | B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual | 3666087 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | B5.9G, B5.9LPG, B Gas Plus, B LPG Plus, B Gas International, and G5.9 Troubleshooting and Repair Manual | 3666164 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | ISB and QSB5.9-44 Troubleshooting and Repair Manual | 3666193 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |

@@ -48,7 +48,7 @@ tags:
 
 В настоящем документе приводится информация о комплекте замены уплотнения коленчатого вала, номер детали 4919752. Набор используется для удаления и установки заднего уплотнения коленчатого вала на двигателях V28, K38, K50, QSK38 и QSK50.
 
-Используйте следующую процедуру для получения дополнительной информации о комплекте замены коленчатого вала, Номер детали 4919752, в руководстве по обслуживанию двигателей K38, K50, QSK38 и QSK50, в бюллетене 4021528.[[28-001-024-tr — Crankshaft Seal, Rear|См. процедуру 001-024 в разделе 1.]]
+Используйте следующую процедуру для получения дополнительной информации о комплекте замены коленчатого вала, Номер детали 4919752, в руководстве по обслуживанию двигателей K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-001-024-tr — Crankshaft Seal, Rear|См. процедуру 001-024 в разделе 1.]]
 
 ![[22s00001.png]]
 
@@ -76,7 +76,7 @@ tags:
 >
 > This document provides information for crankshaft seal replacer kit, Part Number 4919752. The kit is used to remove and install the crankshaft rear oil seal on the V28, K38, K50, QSK38 and QSK50 engines.
 >
-> Use the following procedure for additional information on the crankshaft seal replacer kit, Part Number 4919752, in the K38, K50, QSK38 and QSK50 Engines Service Manual, Bulletin 4021528. [[28-001-024-tr — Crankshaft Seal, Rear|Refer to Procedure 001-024 in Section 1.]]
+> Use the following procedure for additional information on the crankshaft seal replacer kit, Part Number 4919752, in the K38, K50, QSK38 and QSK50 Engines Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-001-024-tr — Crankshaft Seal, Rear|Refer to Procedure 001-024 in Section 1.]]
 >
 > | Table 1, Crankshaft Seal Replacer Kit, Part Number 4919752 |  |  |  |
 > |---|---|---|---|

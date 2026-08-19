@@ -170,7 +170,7 @@ EGT Delta представляет собой анализ температур�
 | **Условия: ** Управляйте двигателем. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте элементы воздухоочистителя. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528. См. процедуру 010-014 в разделе 10. | Элементы воздухоочистителя грязные или ограниченные? *** Ремонт:** Очистить или заменить фильтрующий элемент воздухоочистителя. См. сервисную документацию изготовителя оборудования. | 3А |
+| Проверьте элементы воздухоочистителя. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-014 в разделе 10. | Элементы воздухоочистителя грязные или ограниченные? *** Ремонт:** Очистить или заменить фильтрующий элемент воздухоочистителя. См. сервисную документацию изготовителя оборудования. | 3А |
 | Элементы воздухоочистителя грязные или ограниченные? ** НЕТ** | 2D |  |
 
 #### ШАГ 2D. Проверьте на наличие утечек впускной и выхлопной систем.
@@ -178,7 +178,7 @@ EGT Delta представляет собой анализ температур�
 | **Условия: ** Управляйте двигателем. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте воздухозаборник и выхлопную систему на наличие утечек. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528. См. процедуру 010-024 в разделе 10. | Утечки, обнаруженные в системах воздухозаборника или выхлопных газов? *** Ремонт:** Ремонт источника утечки. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528. См. процедуру 010-024 в разделе 10. | 3А |
+| Проверьте воздухозаборник и выхлопную систему на наличие утечек. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-024 в разделе 10. | Утечки, обнаруженные в системах воздухозаборника или выхлопных газов? *** Ремонт:** Ремонт источника утечки. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-024 в разделе 10. | 3А |
 | Утечки, обнаруженные в системах воздухозаборника или выхлопных газов? ** НЕТ** | 2Е |  |
 
 #### ШАГ 2E. Проверьте газовые линии.
@@ -202,7 +202,7 @@ EGT Delta представляет собой анализ температур�
 | ** Условия: ** Выключите двигатель. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте зазоры турбокомпрессора. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528. См. процедуру 010-033 в разделе 10. | Какие-либо измерения в разделе «Опыт повторного использования» выходят за пределы установленных пределов? *** Ремонт:** Ремонт или замена турбокомпрессора. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin 4021528.[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 3А |
+| Измерьте зазоры турбокомпрессора. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 010-033 в разделе 10. | Какие-либо измерения в разделе «Опыт повторного использования» выходят за пределы установленных пределов? *** Ремонт:** Ремонт или замена турбокомпрессора. Используйте GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | 3А |
 | Какие-либо измерения в разделе «Опыт повторного использования» выходят за пределы установленных пределов? ** НЕТ** | 2 ч. |  |
 
 #### ШАГ 2H. Проверьте работу DOC.
@@ -352,7 +352,7 @@ EGT Delta представляет собой анализ температур�
 > | **Conditions:** Operate the engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the air cleaner elements. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-014 in Section 10. | Air cleaner elements dirty or restricted? **YESRepair:** Clean or replace the air filter element. See equipment manufacturer service information. | 3A |
+> | Inspect the air cleaner elements. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-014 in Section 10. | Air cleaner elements dirty or restricted? **YESRepair:** Clean or replace the air filter element. See equipment manufacturer service information. | 3A |
 > | Air cleaner elements dirty or restricted? **NO** | 2D |  |
 >
 > #### STEP 2D. Check for intake and exhaust system leaks.
@@ -360,7 +360,7 @@ EGT Delta представляет собой анализ температур�
 > | **Conditions:** Operate the engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the air intake and exhaust system for leaks. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-024 in Section 10. | Leaks found in the air intake or exhaust systems? **YESRepair:** Repair the source of the leak. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-024 in Section 10. | 3A |
+> | Check the air intake and exhaust system for leaks. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-024 in Section 10. | Leaks found in the air intake or exhaust systems? **YESRepair:** Repair the source of the leak. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-024 in Section 10. | 3A |
 > | Leaks found in the air intake or exhaust systems? **NO** | 2E |  |
 >
 > #### STEP 2E. Check the gas lines.
@@ -384,7 +384,7 @@ EGT Delta представляет собой анализ температур�
 > | **Conditions:** Turn OFF engine. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure turbocharger clearances. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 010-033 in Section 10. | Any measurements in the Inspect for Reuse section outside of the stated limits? **YESRepair:** Repair or replace the turbocharger. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 3A |
+> | Measure turbocharger clearances. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 010-033 in Section 10. | Any measurements in the Inspect for Reuse section outside of the stated limits? **YESRepair:** Repair or replace the turbocharger. Use the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | 3A |
 > | Any measurements in the Inspect for Reuse section outside of the stated limits? **NO** | 2H |  |
 >
 > #### STEP 2H. Check the DOC operation.

@@ -53,7 +53,7 @@ tags:
 
 - См. процедуру 005-014 в Руководстве по устранению неполадок и ремонту QSB3.9-30, QSB4.5-30 и QSB5.9-30 Series Engines, Bulletin 4021398
 
-- См. процедуру[[41-005-012 — Fuel Injection Pumps, In-Line|005-012]]в Руководстве по устранению неполадок и ремонту двигателей серии C, Бюллетень 3666003
+- См. процедуру[[41-005-012 — Fuel Injection Pumps, In-Line|005-012]]в Руководстве по устранению неполадок и ремонту двигателей серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]
 
 - См. процедуру 005-016 в Руководстве по устранению неполадок и ремонту двигателей серии ISB e, ISB и QSB5.9 (Общая система железнодорожного топлива), Бюллетень 4021271
 
@@ -92,7 +92,7 @@ tags:
 >
 > - Refer to Procedure 005-014 in the Troubleshooting and Repair Manual QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines, Bulletin 4021398
 >
-> - Refer to Procedure [[41-005-012 — Fuel Injection Pumps, In-Line|005-012]] in the Troubleshooting and Repair Manual C Series Engines, Bulletin 3666003
+> - Refer to Procedure [[41-005-012 — Fuel Injection Pumps, In-Line|005-012]] in the Troubleshooting and Repair Manual C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]
 >
 > - Refer to Procedure 005-016 in the Troubleshooting and Repair Manual ISB e, ISB, and QSB5.9 (Common Rail Fuel System) Series Engines, Bulletin 4021271
 >

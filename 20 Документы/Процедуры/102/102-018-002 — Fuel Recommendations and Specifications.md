@@ -83,8 +83,8 @@ Cummins Inc. Американское общество испытаний и м�
 | Дистилляция (ASTM D86) | 10 объемных процентов при 282 ° C \[540° F\] максимуме, 90 объемных процентов при 360 ° C \[680° F\] максимуме, 100 объемных процентов при 385 ° C \[725 ° F\] максимуме. Кривая дистилляции ** должна быть гладкой и непрерывной. |
 | Смазка Высокочастотная поршневой шар для риг или надувной нагрузки на оценщик цилиндра | Высокочастотный взаимный Риг: Максимальное значение 0,52 мм \[0,020 в\] Носить диаметр шрама при 60°C \[140°F\]. Бал для измерения нагрузки на цилиндре: Минимум 3100 граммов. |
 
-1. В дополнение к требованиям в таблице «Топливные рекомендуемые свойства», Cummins Inc. Рекомендует использовать топливо с количеством частиц меньше, чем код Международной организации по стандартизации (ISO) 4406 18/16/13. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406, для более подробной информации.
-2. Дополнительную информацию о рекомендациях и спецификациях в отношении топлива см. в руководстве по эксплуатации жидкостей для продуктов Cummins®, Bulletin 5411406. См. информацию о заказе в обратной стороне этого руководства.
+1. В дополнение к требованиям в таблице «Топливные рекомендуемые свойства», Cummins Inc. Рекомендует использовать топливо с количеством частиц меньше, чем код Международной организации по стандартизации (ISO) 4406 18/16/13. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для более подробной информации.
+2. Дополнительную информацию о рекомендациях и спецификациях в отношении топлива см. в руководстве по эксплуатации жидкостей для продуктов Cummins®, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. См. информацию о заказе в обратной стороне этого руководства.
 
 Топливная чистота
 
@@ -141,7 +141,7 @@ Cummins Inc. Рекомендует, чтобы, если топливо не с
 
 1. Качество топлива ** должно** оцениваться на входе в присосательный боковой топливный фильтр.
 
-Для требований к использованию биодизельного топлива в двигателях Cummins® используйте следующие сведения о приемлемых смесях биодизельного топлива. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406.
+Для требований к использованию биодизельного топлива в двигателях Cummins® используйте следующие сведения о приемлемых смесях биодизельного топлива. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -173,8 +173,8 @@ Cummins Inc. Рекомендует, чтобы, если топливо не с
 > | Distillation (ASTM D86) | 10 volume-percent at 282°C \[540°F\] maximum, 90 volume-percent at 360°C \[680°F\] maximum, 100 volume-percent at 385°C \[725°F\] maximum. The distillation curve **must** be smooth and continuous. |
 > | Lubricity High Frequency Reciprocating Rig or Scuffing Load Ball On Cylinder Evaluator | High Frequency Reciprocating Rig: Maximum of 0.52 mm \[0.020 in\] Wear Scar Diameter at 60°C \[140°F\]. Scuffing Load Ball On Cylinder Evaluator: Minimum of 3100 grams. |
 >
-> 1. In addition to the requirements in the Fuel Recommended Properties table, Cummins Inc. strongly recommends the use of fuel with particle counts less than the International Organization for Standardization (ISO) 4406 code of 18/16/13. See Fluids for Cummins® Products Service Manual, Bulletin 5411406, for more details.
-> 2. For additional information on fuel recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. See ordering information in the back of this manual.
+> 1. In addition to the requirements in the Fuel Recommended Properties table, Cummins Inc. strongly recommends the use of fuel with particle counts less than the International Organization for Standardization (ISO) 4406 code of 18/16/13. See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for more details.
+> 2. For additional information on fuel recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. See ordering information in the back of this manual.
 >
 > Fuel Cleanliness
 >
@@ -231,4 +231,4 @@ Cummins Inc. Рекомендует, чтобы, если топливо не с
 >
 > 1. Fuel quality **must** be assessed at the inlet to the suction side fuel filter.
 >
-> For the requirements for Using Biodiesel Fuel in Cummins® Engines, use the following for details on acceptable biodiesel blends. See Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> For the requirements for Using Biodiesel Fuel in Cummins® Engines, use the following for details on acceptable biodiesel blends. See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].

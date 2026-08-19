@@ -49,8 +49,8 @@ tags:
 
 | Номер бюллетеня | Название публикации |
 |---|---|
-| 4021539 | QST30: сервисное руководство |
-| 3666134 | Руководство по эксплуатации и техническому обслуживанию, QST30 |
+| [[4021539 — QST30 Service Manual\|4021539]] | QST30: сервисное руководство |
+| [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Руководство по эксплуатации и техническому обслуживанию, QST30 |
 | 4021346 | QST30 Generator-Drive Control System Wiring Diagram (Система управления электроприводом) |
 | 4021683 | QST30 Power Generation Interface Wiring |
 | 3379000 | Воздух для ваших двигателей |
@@ -67,8 +67,8 @@ tags:
 >
 > | Bulletin Number | Title of Publication |
 > |---|---|
-> | 4021539 | QST30 Service Manual |
-> | 3666134 | Operation and Maintenance Manual, QST30 |
+> | [[4021539 — QST30 Service Manual\|4021539]] | QST30 Service Manual |
+> | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Operation and Maintenance Manual, QST30 |
 > | 4021346 | QST30 Generator-Drive Control System Wiring Diagram |
 > | 4021683 | QST30 Power Generation Interface Wiring Diagram |
 > | 3379000 | Air for Your Engines |

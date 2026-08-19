@@ -51,7 +51,7 @@ tags:
 > [!danger] ОПАСНО
 > Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-- Слейте охлаждающую жидкость. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии С, Вестник 3666003.
+- Слейте охлаждающую жидкость. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии С, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 ![[ck800wa.png]]
 
@@ -127,7 +127,7 @@ tags:
 > [!danger] ОПАСНО
 > Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Заправьте систему охлаждения. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии С, Вестник 3666003.
+- Заправьте систему охлаждения. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии С, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 - Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
@@ -142,7 +142,7 @@ tags:
 > **WARNING · Опасно**
 > Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 >
-> - Drain the cooling system. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> - Drain the cooling system. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 >
 > ### Initial Check
 >
@@ -202,5 +202,5 @@ tags:
 > **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
 >
-> - Fill the cooling system. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> - Fill the cooling system. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 > - Operate the engine and check for leaks.

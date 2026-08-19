@@ -58,7 +58,7 @@ tags:
 
 ### Общие сведения
 
-Эта процедура описывает спецификации охлаждающей жидкости и требования к обслуживанию охлаждающей жидкости двигателя. Для получения более подробной информации о спецификациях охлаждающей жидкости и требованиях к обслуживанию охлаждающей жидкости двигателя. См. Руководство по эксплуатации жидкостей для продуктов Cummins® 5411406.
+Эта процедура описывает спецификации охлаждающей жидкости и требования к обслуживанию охлаждающей жидкости двигателя. Для получения более подробной информации о спецификациях охлаждающей жидкости и требованиях к обслуживанию охлаждающей жидкости двигателя. См. Руководство по эксплуатации жидкостей для продуктов Cummins® [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 ### Требования к охлаждающей жидкости
 
@@ -78,7 +78,7 @@ Cummins Inc. требует использования охлаждающей ж
 
 - Для нового оборудования, проверьте с производителем оригинального оборудования (OEM) на тип охлаждающей жидкости, используемой для первого наполнения. Это поможет понять, как правильно поддерживать охлаждающую жидкость.
 - Cummins Inc. Рекомендуется использовать премиксованную, тяжелую охлаждающую жидкость при заполнении системы охлаждения.
-- Клиенты, имеющие морские или арктические приложения, должны ссылаться на Руководство по обслуживанию жидкостей для продуктов CumminsTM, Бюллетень 5411406.[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004]]в разделе 5 для информации о рекомендациях и спецификациях охлаждающей жидкости, характерных для этих применений.
+- Клиенты, имеющие морские или арктические приложения, должны ссылаться на Руководство по обслуживанию жидкостей для продуктов CumminsTM, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004]]в разделе 5 для информации о рекомендациях и спецификациях охлаждающей жидкости, характерных для этих применений.
 
 ### Обслуживание системы охлаждения
 
@@ -150,7 +150,7 @@ Cummins Inc. Рекомендуется использовать охлажда�
 > [!quote]- Original (English) · английский оригинал
 > ### General Information
 >
-> This procedure describes coolant specifications and service requirements for engine coolant. For more exhaustive information on coolant specifications and service requirements for engine coolant. Refer to Fluids for Cummins® Products Service Manual 5411406.
+> This procedure describes coolant specifications and service requirements for engine coolant. For more exhaustive information on coolant specifications and service requirements for engine coolant. Refer to Fluids for Cummins® Products Service Manual [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > ### Coolant Specifications
 >
@@ -170,7 +170,7 @@ Cummins Inc. Рекомендуется использовать охлажда�
 >
 > - For new equipment, check with the original equipment manufacturer (OEM) on the type of coolant used for the first fill. This will assist in understanding how to maintain the coolant properly.
 > - Cummins Inc. recommends a premixed, heavy-duty coolant when filling the cooling system.
-> - Customers with marine or arctic applications should reference Fluids for Cummins ™ Products Service Manual, Bulletin 5411406. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004]] in Section 5 for information on coolant recommendations and specifications specific to those applications.
+> - Customers with marine or arctic applications should reference Fluids for Cummins ™ Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004]] in Section 5 for information on coolant recommendations and specifications specific to those applications.
 >
 > ### Coolant Service
 >

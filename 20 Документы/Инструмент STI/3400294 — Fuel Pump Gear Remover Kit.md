@@ -50,7 +50,7 @@ tags:
 
 В этом документе содержится информация о комплекте для ремовера топливных насосов Gear Remover Kit, номер детали 4919304. Набор используется для удаления приводной передачи и узла сборки на двигателе QST 30.
 
-Для получения дополнительной информации о снятии оборудования топливного насоса обратитесь к процедуре 009-011 в разделе 9 Руководства по обслуживанию QST30, Вестник 4021539.
+Для получения дополнительной информации о снятии оборудования топливного насоса обратитесь к процедуре 009-011 в разделе 9 Руководства по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[22200473.png]]
 
@@ -86,7 +86,7 @@ tags:
 >
 > This document provides information for Fuel Pump Gear Remover Kit, Part Number 4919304. The kit is used to remove the drive gear and hub assembly on the QST 30 engine.
 >
-> For additional information on removing the fuel pump gear, refer to Procedure 009-011 in Section 9 of the QST30 Service Manual, Bulletin 4021539.
+> For additional information on removing the fuel pump gear, refer to Procedure 009-011 in Section 9 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > | Table 1, Fuel Pump Gear Remover Kit, Part Number 4919304 |  |  |  |
 > |---|---|---|---|

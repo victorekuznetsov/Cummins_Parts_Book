@@ -59,7 +59,7 @@ tags:
 | 3379000 | Воздух для вашего двигателя |
 | 3387266 | Холодная погода Операция |
 | 4021499 | Руководство по эксплуатации двигателей серии K19 |
-| 3666121 | Holset® Turbocharger Master Ремонтное руководство |
+| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Turbocharger Master Ремонтное руководство |
 | 3666078 | Диаграмма проводов CentryTM |
 
 
@@ -76,5 +76,5 @@ tags:
 > | 3379000 | Air For Your Engine |
 > | 3387266 | Cold Weather Operation |
 > | 4021499 | Service Manual, K19 Series Engines |
-> | 3666121 | Holset® Turbocharger Master Repair Manual |
+> | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Turbocharger Master Repair Manual |
 > | 3666078 | CENTRY™ Wiring Diagram |

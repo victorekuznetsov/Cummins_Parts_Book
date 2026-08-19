@@ -77,7 +77,7 @@ tags:
 
 **Описание изменения**
 
-Этот TSB заменяет TSB120148 и не применяется к горизонтальным рельсовым двигателям K19, KTA19, QSK19, поскольку эти двигатели используют другую головку цилиндра. Новые номера клапанных пружинных деталей и номера головных частей цилиндров были выпущены для ReCon® и Service. Новая пружина будет доступна в виде отдельного компонента или в составе полного блока цилиндров.
+Этот TSB заменяет [[tsb120148 — New Valve Spring\|TSB120148]] и не применяется к горизонтальным рельсовым двигателям K19, KTA19, QSK19, поскольку эти двигатели используют другую головку цилиндра. Новые номера клапанных пружинных деталей и номера головных частей цилиндров были выпущены для ReCon® и Service. Новая пружина будет доступна в виде отдельного компонента или в составе полного блока цилиндров.
 
 **Причина изменения**
 
@@ -180,7 +180,7 @@ tags:
 >
 > **Description of Change**
 >
-> This TSB Replaces TSB120148 and does **not** apply to K19, KTA19, QSK19 horizontal rail engines, as these engines use a different cylinder head. New valve spring part number and cylinder head part numbers have been released for ReCon® and Service. The new spring will be made available as an individual component or included as part of a full cylinder head assembly.
+> This TSB Replaces [[tsb120148 — New Valve Spring\|TSB120148]] and does **not** apply to K19, KTA19, QSK19 horizontal rail engines, as these engines use a different cylinder head. New valve spring part number and cylinder head part numbers have been released for ReCon® and Service. The new spring will be made available as an individual component or included as part of a full cylinder head assembly.
 >
 > **Reason for Change**
 >

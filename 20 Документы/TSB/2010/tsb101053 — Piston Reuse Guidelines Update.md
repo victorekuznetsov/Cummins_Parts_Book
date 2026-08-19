@@ -51,7 +51,7 @@ tags:
 
 ### Содержание
 
-В настоящем документе сообщается об изменениях и дополнениях к разделу Процедуры 001-043 (Piston) Инспекции по повторному использованию в Руководстве по обслуживанию QST30, Бюллетень 4021539.
+В настоящем документе сообщается об изменениях и дополнениях к разделу Процедуры 001-043 (Piston) Инспекции по повторному использованию в Руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 Изменения включают новые руководящие принципы повторного использования для:
 
@@ -75,7 +75,7 @@ tags:
 >
 > ### Contents
 >
-> This document announces changes and additions to the Inspect for Reuse section of Procedure 001-043 (Piston) in the QST30 Service Manual, Bulletin 4021539.
+> This document announces changes and additions to the Inspect for Reuse section of Procedure 001-043 (Piston) in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > The changes include new reuse guidelines for:
 >

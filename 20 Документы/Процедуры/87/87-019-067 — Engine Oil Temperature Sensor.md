@@ -49,7 +49,7 @@ tags:
 > [!danger] ОПАСНО
 > Некоторые государственные и федеральные агентства определили, что используемое моторное масло является канцерогенным и может вызывать репродуктивную токсичность. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Утилизируйте в соответствии с федеральными, государственными и местными правилами.
 
-Частично осушить систему моторного масла двигателя. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-007-025-tr — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]]
+Частично осушить систему моторного масла двигателя. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-007-025-tr — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]]
 
 ![[19a00287.png]]
 
@@ -90,7 +90,7 @@ tags:
 > **WARNING · Опасно**
 > Some state and federal agencies have determined that used engine oil be carcinogenic and can cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. Dispose of in accordance with federal, state, and local regulations.
 >
-> Partially drain the engine lubricating oil system. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7.]]
+> Partially drain the engine lubricating oil system. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7.]]
 >
 > Lift up on the locking tab and pull the electrical connectors apart.
 >

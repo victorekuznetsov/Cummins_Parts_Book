@@ -93,7 +93,7 @@ tags:
 | Таблица 2, Публикации затронуты |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по жидкостям | Все двигатели | 5411406 | Классы вязкости моторного масла | 378-007 | 4 |
+| Руководство по жидкостям | Все двигатели | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Классы вязкости моторного масла | 378-007 | 4 |
 | Владелец Руководства | QSK78 CM500 | 4960336 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK78 CM500 | 3666714 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK78 CM2250 K104 | 4332683 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
@@ -112,16 +112,16 @@ tags:
 | Владелец Руководства | QSK60 CM500 | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK60 CM850 MCRS | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK60 CM850 MCRS | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | QSK50 CM850 MCRS | 3810497 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | QSK50 CM850 MCRS | 3667180 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | QSK50 CM850 MCRS | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | QSK50 CM850 MCRS | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK50 CM2350 K108 | 4332824 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK50 CM2350 K108 | 4332825 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK50 CM2150 K107 | 4332774 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK50 CM2150 K107 | 4332775 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK45 CM500 | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK45 CM500 | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | К50 | 3810497 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | К50 | 3667180 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | К50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | К50 | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 
 ### История изменений документа
 
@@ -174,7 +174,7 @@ tags:
 > | Table 2, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Fluids Manual | All engines | 5411406 | Engine Oil Viscosity Grades | 378-007 | 4 |
+> | Fluids Manual | All engines | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Engine Oil Viscosity Grades | 378-007 | 4 |
 > | Owners Manual | QSK78 CM500 | 4960336 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK78 CM500 | 3666714 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK78 CM2250 K104 | 4332683 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
@@ -193,15 +193,15 @@ tags:
 > | Owners Manual | QSK60 CM500 | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK60 CM850 MCRS | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK60 CM850 MCRS | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | QSK50 CM850 MCRS | 3810497 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | QSK50 CM850 MCRS | 3667180 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | QSK50 CM850 MCRS | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | QSK50 CM850 MCRS | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK50 CM2350 K108 | 4332824 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK50 CM2350 K108 | 4332825 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK50 CM2150 K107 | 4332774 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK50 CM2150 K107 | 4332775 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK45 CM500 | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK45 CM500 | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | K50 | 3810497 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | K50 | 3667180 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | K50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | K50 | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 >
 > ### Document History

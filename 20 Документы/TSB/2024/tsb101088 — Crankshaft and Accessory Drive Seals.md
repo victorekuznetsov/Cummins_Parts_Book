@@ -223,7 +223,7 @@ tags:
 | Задняя печать коленчатого вала (мокрая) | - | - | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* |
 | Драйв-привод (Fuel-Pump Side) | 3171909 | 3171909 | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* |
 | Привод (Water-Pump Side) | 3171909 | 3171909 | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* | **Не требуется* |
-| \*См. Бюллетень технического обслуживания, печать с фронтальным коленчатым валом с носовым рукавом и пресс-он валовой эксклюдер (POSE), TSB120221 |  |  |  |  |  |  |  |
+| \*См. Бюллетень технического обслуживания, печать с фронтальным коленчатым валом с носовым рукавом и пресс-он валовой эксклюдер (POSE), [[tsb120221 — Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE)\|TSB120221]] |  |  |  |  |  |  |  |
 
 ### История изменений документа
 
@@ -412,6 +412,6 @@ tags:
 > | Rear Crankshaft Seal (Wet) | - | - | **Not** Required | **Not** Required | **Not** Required | **Not** Required | **Not** Required |
 > | Accessory Drive(Fuel-Pump Side) | 3171909 | 3171909 | **Not** Required | **Not** Required | **Not** Required | **Not** Required | **Not** Required |
 > | Accessory Drive(Water-Pump Side) | 3171909 | 3171909 | **Not** Required | **Not** Required | **Not** Required | **Not** Required | **Not** Required |
-> | \*See Technical Service Bulletin, Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE), TSB120221 |  |  |  |  |  |  |  |
+> | \*See Technical Service Bulletin, Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE), [[tsb120221 — Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE)\|TSB120221]] |  |  |  |  |  |  |  |
 >
 > ### Document History

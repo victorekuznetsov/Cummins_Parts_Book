@@ -91,7 +91,7 @@ tags:
 | Таблица 2, Рекомендации и спецификации |  |  |  |  |
 |---|---|---|---|---|
 | Тип ручного | Вестник | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию жидкостей для продуктов Cummins | 5411406 | Классификации моторных масел | [[00-378-003 — Engine Oil Classifications\|См. процедуру 378-003]] | 4 |
+| Руководство по обслуживанию жидкостей для продуктов Cummins | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Классификации моторных масел | [[00-378-003 — Engine Oil Classifications\|См. процедуру 378-003]] | 4 |
 | Требования к маслу дизельных двигателей | [[00-378-005 — Diesel Engine Oil Requirements\|См. процедуру 378-005]] | 4 |  |  |
 | Руководство по эксплуатации и техническому обслуживанию | Различные | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 
@@ -137,7 +137,7 @@ tags:
 > | Table 2, Recommendations and Specifications |  |  |  |  |
 > |---|---|---|---|---|
 > | Manual Type | Bulletin | Procedure Title | Procedure | Section |
-> | Fluids for Cummins Products Service Manual | 5411406 | Engine Oil Classifications | [[00-378-003 — Engine Oil Classifications\|Refer to Procedure 378-003]] | 4 |
+> | Fluids for Cummins Products Service Manual | [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] | Engine Oil Classifications | [[00-378-003 — Engine Oil Classifications\|Refer to Procedure 378-003]] | 4 |
 > | Diesel Engine Oil Requirements | [[00-378-005 — Diesel Engine Oil Requirements\|Refer to Procedure 378-005]] | 4 |  |  |
 > | Operation and Maintenance Manual | Various | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 >

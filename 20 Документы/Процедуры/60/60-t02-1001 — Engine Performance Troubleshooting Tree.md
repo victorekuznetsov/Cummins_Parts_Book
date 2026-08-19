@@ -325,7 +325,7 @@ tags:
 | **Условия:** Подключить манометр, номер детали ST-1111-3, к шлангу подачи топливного насоса. Включите зажигание. Двигатель работает на номинальной скорости. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ограничение входного отверстия топлива. См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 в Руководстве по обслуживанию, QST30, Вестник 4021539. | Является ли ограничение впуска топлива меньшим, чем перечисленные ниже характеристики? Грязный - 254 мм рт. ст. \[10 в рт. ст. \]; Новый - 152 мм рт. ст. \[6 в рт. ст. \] **Да** | 4C |
+| Проверьте ограничение входного отверстия топлива. См. процедуру 006-020 (Ограничение впуска топлива) в разделе 6 в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Является ли ограничение впуска топлива меньшим, чем перечисленные ниже характеристики? Грязный - 254 мм рт. ст. \[10 в рт. ст. \]; Новый - 152 мм рт. ст. \[6 в рт. ст. \] **Да** | 4C |
 | Является ли ограничение впуска топлива меньшим, чем перечисленные ниже характеристики? Грязный - 254 мм рт.ст. \[10 в рт.ст.]; новый - 152 мм рт.ст. \[6 в рт.ст.] **NORepair:** Найти причину высокого ограничения впуска топлива. Проверьте линии подачи топлива и префильтра. | Ремонт завершён |  |
 
 #### ШАГ 4C. Проверьте ограничение дренажной линии.
@@ -350,7 +350,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Проверьте клапан топливного насоса для правильной установки и работы.[[57-005-012-tr — Fuel Injection Pumps, In-Line\|См. процедуру 005-012 (насосы для инъекций топлива, In-Line)) в разделе 5 в Руководстве по эксплуатации, QST30, Вестник 4021539.]] | Устанавливается и работает ли контрольный клапан правильно? *Да** | 4F |
-| Устанавливается и работает ли контрольный клапан правильно? **NORepair:** При необходимости правильно установить контрольный клапан или заменить контрольный клапан топливного переключателя. См. процедуру 005-012 (насосы для инъекций топлива, In-Line)) в разделе 5 в Руководстве по эксплуатации, QST30, Вестник 4021539. | Ремонт завершён |  |
+| Устанавливается и работает ли контрольный клапан правильно? **NORepair:** При необходимости правильно установить контрольный клапан или заменить контрольный клапан топливного переключателя. См. процедуру 005-012 (насосы для инъекций топлива, In-Line)) в разделе 5 в Руководстве по эксплуатации, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ремонт завершён |  |
 
 #### ШАГ 4F. Проверьте линию подачи топлива на наличие ограничений.
 
@@ -366,7 +366,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Если головка цилиндра ReCon® была установлена, проверьте, что пластиковая вставка была удалена из входного прохода подачи топлива в головке цилиндра. | Удален ли пластиковый вставной элемент из прохода подачи топлива в головке цилиндра? *Да** | Выполните следующую процедуру устранения неполадок. |
-| Удален ли пластиковый вставной элемент из прохода подачи топлива в головке цилиндра? **NORepair:** Удалить пластиковую вставку из прохода подачи топлива в головке цилиндра. См. процедуру 002-004 (Цилиндровая головка) в разделе 2 в Руководстве по обслуживанию, QST30, Вестник 4021539. | Ремонт завершён |  |
+| Удален ли пластиковый вставной элемент из прохода подачи топлива в головке цилиндра? **NORepair:** Удалить пластиковую вставку из прохода подачи топлива в головке цилиндра. См. процедуру 002-004 (Цилиндровая головка) в разделе 2 в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ремонт завершён |  |
 
 ### ШАГ 5. Диагностика топливных форсунок.
 
@@ -376,7 +376,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Выполните тест на вырез цилиндров для электронного обслуживания INSITETM. | Все ли цилиндры проходят испытание на вырез цилиндров? *Да** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
-| Все ли цилиндры проходят испытание на вырез цилиндров? **NORepair:** Заменить форсунка по мере необходимости. См. процедуру 006-026 (форсунка) в разделе 6 в Руководстве по эксплуатации, QST30, Вестник 4021539. | Ремонт завершён |  |
+| Все ли цилиндры проходят испытание на вырез цилиндров? **NORepair:** Заменить форсунка по мере необходимости. См. процедуру 006-026 (форсунка) в разделе 6 в Руководстве по эксплуатации, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ремонт завершён |  |
 
 ### ШАГ 6. Диагностические проверки по обращению с воздухом.
 
@@ -421,15 +421,15 @@ tags:
 | **Условия:** Выключите замок зажигания. Снять клапанную крышку сборки. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте накладные настройки. См. процедуру 003-004 (Накладной комплект) в разделе 3 в Руководстве по обслуживанию, QST30, Вестник 4021539. | Являются ли накладные настройки в пределах лимитов сброса? *Да** | 8B |
-| Являются ли накладные настройки в пределах лимитов сброса? **NORepair:** Отрегулируйте настройки накладных расходов. См. процедуру 003-004 (Накладной комплект) в разделе 3 в Руководстве по обслуживанию, QST30, Вестник 4021539. | Ремонт завершён |  |
+| Измерьте накладные настройки. См. процедуру 003-004 (Накладной комплект) в разделе 3 в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Являются ли накладные настройки в пределах лимитов сброса? *Да** | 8B |
+| Являются ли накладные настройки в пределах лимитов сброса? **NORepair:** Отрегулируйте настройки накладных расходов. См. процедуру 003-004 (Накладной комплект) в разделе 3 в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ремонт завершён |  |
 
 #### ШАГ 8B. Проверьте ограничение выхлопа.
 
 | **Условия:** Установить в выхлопную систему калибр давления. Включите зажигание. Запуск двигателя при рекламируемых лошадиных силах и оборотах в минуту. |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ограничение выхлопных газов, установив калибр давления в выхлопной системе, только что пройдя через выход турбокомпрессора. См. процедуру 011-009 (Ограничение выхлопных газов) в разделе 11 в Руководстве по обслуживанию, QST30, Вестник 4021539. | Является ли ограничение выхлопных газов между 1016 мм H 2 O \[40 в H 2 O \] или 75 мм Hg \[3,0 в Hg \] и 2082 мм H 2 O \[82 в H 2 O \] или 152 мм Hg \[6,0 в Hg \]? *Да** | 8C |
+| Проверьте ограничение выхлопных газов, установив калибр давления в выхлопной системе, только что пройдя через выход турбокомпрессора. См. процедуру 011-009 (Ограничение выхлопных газов) в разделе 11 в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Является ли ограничение выхлопных газов между 1016 мм H 2 O \[40 в H 2 O \] или 75 мм Hg \[3,0 в Hg \] и 2082 мм H 2 O \[82 в H 2 O \] или 152 мм Hg \[6,0 в Hg \]? *Да** | 8C |
 | Является ли ограничение выхлопных газов между 1016 мм H 2 O \[40 в H 2 O \] или 75 мм Hg \[3,0 в Hg \] и 2082 мм H 2 O \[82 в H 2 O \] или 152 мм Hg \[6,0 в Hg \]? **NORepair:** Ремонт выхлопной системы для источника высокого ограничения. | Ремонт завершён |  |
 
 #### ШАГ 8C. Измерить осевой и радиальный зазор турбокомпрессора.
@@ -438,7 +438,7 @@ tags:
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
 | Измерьте осевые и радиальные зазоры турбокомпрессора.[[57-010-033-tr — Turbocharger\|См. процедуру 010-033 (турбокомпрессор) в разделе 10 в Руководстве по обслуживанию, QST30, Вестник 4021539.]] | Являются ли осевые и радиальные зазоры в заданных пределах? *Да** | 8D |
-| Являются ли осевые и радиальные зазоры в заданных пределах? **NORepair:** Заменить сборку турбокомпрессора. См. процедуру 010-033 (турбокомпрессор) в Руководстве по обслуживанию, QST30, Вестник 4021539. | Ремонт завершён |  |
+| Являются ли осевые и радиальные зазоры в заданных пределах? **NORepair:** Заменить сборку турбокомпрессора. См. процедуру 010-033 (турбокомпрессор) в Руководстве по обслуживанию, QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]]. | Ремонт завершён |  |
 
 #### ШАГ 8D. Проверить продувку двигателя в пределах спецификации.
 
@@ -740,7 +740,7 @@ tags:
 > | **Conditions:** Connect a manometer, Part Number ST-1111-3, to the fuel pump supply hose. Turn keyswitch ON. Engine running at rated speed. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the fuel inlet restriction. Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 in the Service Manual, QST30, Bulletin 4021539. | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm Hg \[10 in Hg\]; New - 152 mm Hg \[6 in Hg\] **YES** | 4C |
+> | Check the fuel inlet restriction. Refer to Procedure 006-020 (Fuel Inlet Restriction) in Section 6 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm Hg \[10 in Hg\]; New - 152 mm Hg \[6 in Hg\] **YES** | 4C |
 > | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm Hg \[10 in Hg\]; New - 152 mm Hg \[6 in Hg\] **NORepair:** Locate the cause of high fuel inlet restriction. Check the prefilter and fuel supply lines. | Repair complete |  |
 >
 > #### STEP 4C. Check drain line restriction.
@@ -765,7 +765,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Inspect the fuel gear pump check valve for correct installation and operation. [[57-005-012-tr — Fuel Injection Pumps, In-Line\|Refer to Procedure 005-012 (Fuel Injection Pump, In-Line)) in Section 5 in the Service Manual, QST30, Bulletin 4021539.]] | Is check valve installed and operating correctly? **YES** | 4F |
-> | Is check valve installed and operating correctly? **NORepair:** Install the check valve correctly or replace the fuel gear pump check valve, if necessary. Refer to Procedure 005-012 (Fuel Injection Pump, In-Line)) in Section 5 in the Service Manual, QST30, Bulletin 4021539. | Repair complete |  |
+> | Is check valve installed and operating correctly? **NORepair:** Install the check valve correctly or replace the fuel gear pump check valve, if necessary. Refer to Procedure 005-012 (Fuel Injection Pump, In-Line)) in Section 5 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Repair complete |  |
 >
 > #### STEP 4F. Check fuel supply line for restrictions.
 >
@@ -781,7 +781,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | If a ReCon® cylinder head was installed, check that the plastic insert has been removed from the fuel supply inlet passage in the cylinder head. | Has the plastic insert been removed from the fuel supply passage in the cylinder head? **YES** | Perform the next troubleshooting procedure. |
-> | Has plastic insert been removed from the fuel supply passage in the cylinder head? **NORepair:** Remove the plastic insert from the fuel supply passage in the cylinder head. Refer to Procedure 002-004 (Cylinder Head) in Section 2 in the Service Manual, QST30, Bulletin 4021539. | Repair complete |  |
+> | Has plastic insert been removed from the fuel supply passage in the cylinder head? **NORepair:** Remove the plastic insert from the fuel supply passage in the cylinder head. Refer to Procedure 002-004 (Cylinder Head) in Section 2 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Repair complete |  |
 >
 > ### STEP 5. Injector diagnostics.
 >
@@ -791,7 +791,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Perform INSITE™ electronic service tool cylinder cutout test. | Do all cylinders pass the cylinder cutout test? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-> | Do all cylinders pass the cylinder cutout test? **NORepair:** Replace the injectors as needed. Refer to Procedure 006-026 (Injector) in Section 6 in the Service Manual, QST30, Bulletin 4021539. | Repair complete |  |
+> | Do all cylinders pass the cylinder cutout test? **NORepair:** Replace the injectors as needed. Refer to Procedure 006-026 (Injector) in Section 6 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Repair complete |  |
 >
 > ### STEP 6. Air handling diagnostic checks.
 >
@@ -836,15 +836,15 @@ tags:
 > | **Conditions:** Turn keyswitch OFF. Remove valve cover. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the overhead settings. Refer to Procedure 003-004 (Overhead Set) in Section 3 in the Service Manual, QST30, Bulletin 4021539. | Are the overhead settings within the reset limits? **YES** | 8B |
-> | Are the overhead settings within the reset limits? **NORepair:** Adjust the overhead settings. Refer to Procedure 003-004 (Overhead Set) in Section 3 in the Service Manual, QST30, Bulletin 4021539. | Repair complete |  |
+> | Measure the overhead settings. Refer to Procedure 003-004 (Overhead Set) in Section 3 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Are the overhead settings within the reset limits? **YES** | 8B |
+> | Are the overhead settings within the reset limits? **NORepair:** Adjust the overhead settings. Refer to Procedure 003-004 (Overhead Set) in Section 3 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Repair complete |  |
 >
 > #### STEP 8B. Check exhaust restriction.
 >
 > | **Conditions:** Install a pressure gauge into the exhaust system. Turn keyswitch ON. Run engine at advertised horsepower and rpm. |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Check exhaust restriction by installing a pressure gauge into the exhaust system just past the turbocharger outlet. Refer to Procedure 011-009 (Exhaust Restriction) in Section 11 in the Service Manual, QST30, Bulletin 4021539. | Is exhaust restriction between 1016 mm H 2 O \[40 in H 2 O\] or 75 mm Hg \[3.0 in Hg\] and 2082 mm H 2 O \[82 in H 2 O\] or 152 mm Hg \[6.0 in Hg\]? **YES** | 8C |
+> | Check exhaust restriction by installing a pressure gauge into the exhaust system just past the turbocharger outlet. Refer to Procedure 011-009 (Exhaust Restriction) in Section 11 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Is exhaust restriction between 1016 mm H 2 O \[40 in H 2 O\] or 75 mm Hg \[3.0 in Hg\] and 2082 mm H 2 O \[82 in H 2 O\] or 152 mm Hg \[6.0 in Hg\]? **YES** | 8C |
 > | Is exhaust restriction between 1016 mm H 2 O \[40 in H 2 O\] or 75 mm Hg \[3.0 in Hg\] and 2082 mm H 2 O \[82 in H 2 O\] or 152 mm Hg \[6.0 in Hg\]? **NORepair:** Repair exhaust system for source of high restriction. | Repair complete |  |
 >
 > #### STEP 8C. Measure turbocharger axial and radial clearance.
@@ -853,7 +853,7 @@ tags:
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
 > | Measure the axial and radial clearances of the turbocharger. [[57-010-033-tr — Turbocharger\|Refer to Procedure 010-033 (Turbocharger) in Section 10 in the Service Manual, QST30, Bulletin 4021539.]] | Are the axial and radial clearances within specification? **YES** | 8D |
-> | Are the axial and radial clearances within specification? **NORepair:** Replace the turbocharger assembly. Refer to Procedure 010-033 (Turbocharger) in the Service Manual, QST30, Bulletin 4021539. | Repair complete |  |
+> | Are the axial and radial clearances within specification? **NORepair:** Replace the turbocharger assembly. Refer to Procedure 010-033 (Turbocharger) in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. | Repair complete |  |
 >
 > #### STEP 8D. Verify engine blowby is within specification.
 >

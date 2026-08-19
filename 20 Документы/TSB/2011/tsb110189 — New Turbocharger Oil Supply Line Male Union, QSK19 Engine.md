@@ -56,7 +56,7 @@ tags:
 
 ### Содержание
 
-В этом документе представлено новое оборудование для сантехники моторного масла для двигателя QSK19. Новый с наружной резьбой фитинг, номер детали 2888894, был выпущен для решения проблем маршрутизации сантехники с турбонаддувом. В настоящем документе содержится решение вопроса, описанного в TSB110039. В таблице 1 показаны новые номера деталей и кольца, включенные в эту сборку.
+В этом документе представлено новое оборудование для сантехники моторного масла для двигателя QSK19. Новый с наружной резьбой фитинг, номер детали 2888894, был выпущен для решения проблем маршрутизации сантехники с турбонаддувом. В настоящем документе содержится решение вопроса, описанного в [[tsb110039 — Turbocharger Plumbing Routing Issue\|TSB110039]]. В таблице 1 показаны новые номера деталей и кольца, включенные в эту сборку.
 
 | Таблица 1: Новые внешне резьбовые фитинги и O-кольца |  |  |
 |---|---|---|
@@ -75,9 +75,9 @@ tags:
 
 Серийный номер двигателя (ESN) для этого изменения - 37249951, построенный 25 июня-2011 года.
 
-Процедуры 20-010-041-тр и 20-010-046 в Руководстве по обслуживанию QSK19, Бюллетень 4021595, были обновлены, чтобы включить уведомление о более высоком союзе и проверки на наличие трения и других повреждений на плетеных линиях.
+Процедуры 20-010-041-тр и [[20-010-046 — Turbocharger Oil Supply Line\|20-010-046]] в Руководстве по обслуживанию QSK19, Бюллетень 4021595, были обновлены, чтобы включить уведомление о более высоком союзе и проверки на наличие трения и других повреждений на плетеных линиях.
 
-Процедуры 13-019-390 в руководстве по устранению и ремонту электронных систем управления QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493 и процедуре 123-019-390 в руководстве по устранению и ремонту электронных систем управления QSK19 CM2150, Bulletin 4022094, были обновлены, чтобы включать удаление скобки и установку клипсов для прикрепления провода датчика скорости к линии подачи масла.
+Процедуры 13-019-390 в руководстве по устранению и ремонту электронных систем управления QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493 и процедуре [[123-019-390 — Turbocharger Speed Sensor\|123-019-390]] в руководстве по устранению и ремонту электронных систем управления QSK19 CM2150, Bulletin [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]], были обновлены, чтобы включать удаление скобки и установку клипсов для прикрепления провода датчика скорости к линии подачи масла.
 
 Новый с наружной резьбой фитинг, Part Number 2888894, не заменяет номера деталей, поскольку эти соединения используются на других местах и двигателях. В таблице 2 показаны варианты, на которые повлияло это изменение.
 
@@ -144,7 +144,7 @@ tags:
 >
 > ### Contents
 >
-> This document introduces new turbocharger lubricating oil plumbing hardware for the QSK19 engine. A new male union, Part Number 2888894, was released to address turbocharger plumbing routing issues. This document provides resolution to the issue described in TSB110039. Table 1 shows the new part number and o-rings included in this assembly.
+> This document introduces new turbocharger lubricating oil plumbing hardware for the QSK19 engine. A new male union, Part Number 2888894, was released to address turbocharger plumbing routing issues. This document provides resolution to the issue described in [[tsb110039 — Turbocharger Plumbing Routing Issue\|TSB110039]]. Table 1 shows the new part number and o-rings included in this assembly.
 >
 > | Table 1: New Male Union and O-rings |  |  |
 > |---|---|---|
@@ -161,9 +161,9 @@ tags:
 >
 > The engine serial number (ESN) first for this change is 37249951, built on 25-June-2011.
 >
-> Procedures 20-010-041-tr and 20-010-046 in the QSK19 Service Manual, Bulletin 4021595, have been updated to include notification of the taller union and checks for fretting and other damage on the braided lines.
+> Procedures [[20-010-041-tr — Turbocharger Coolant Hoses\|20-010-041-tr]] and [[20-010-046 — Turbocharger Oil Supply Line\|20-010-046]] in the QSK19 Service Manual, Bulletin 4021595, have been updated to include notification of the taller union and checks for fretting and other damage on the braided lines.
 >
-> Procedures 13-019-390 in the QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493, and procedure 123-019-390 in the QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4022094, have been updated to include removal of the bracket and installation of the clips to attach the speed sensor wire to the oil supply line.
+> Procedures 13-019-390 in the QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493, and procedure [[123-019-390 — Turbocharger Speed Sensor\|123-019-390]] in the QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual, Bulletin [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]], have been updated to include removal of the bracket and installation of the clips to attach the speed sensor wire to the oil supply line.
 >
 > The new male union, Part Number 2888894, does **not** supersede any part numbers because these unions are used on other locations and engines. Table 2 shows the options affected by this change.
 >

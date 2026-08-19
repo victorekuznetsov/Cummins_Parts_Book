@@ -118,7 +118,7 @@ tags:
 
 После установки фитинга в отверстие для плача вручную установите шланг, номер детали 4998213, над фитингом до тех пор, пока конец шланга не коснется лоскута фитинга.
 
-Используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень 4021592, для установки водяного насоса.[[20-008-062-tr — Water Pump|См. процедуру 008-062 в разделе 8.]]
+Используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], для установки водяного насоса.[[20-008-062-tr — Water Pump|См. процедуру 008-062 в разделе 8.]]
 
 Скользите по р-затвору, номер детали 4992548, через свободный конец шланга. Выровняйте болтовое отверстие p-клипа с пробитым боссом в правом нижнем углу корпуса масляного охладителя.
 
@@ -142,7 +142,7 @@ tags:
 
 После установки фитинга в отверстие для плача установите шланг, номер детали 4998213, вручную над фитингом, пока конец шланга не коснется лоскута фитинга.
 
-Используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень 4021592, для установки водяного насоса.[[20-008-062-tr — Water Pump|См. процедуру 008-062 в разделе 8.]]
+Используйте следующую процедуру в Руководстве по эксплуатации, QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], для установки водяного насоса.[[20-008-062-tr — Water Pump|См. процедуру 008-062 в разделе 8.]]
 
 Закрепите шланг и p-клип, номер детали 4992548, на крышке ручного отверстия, используя болты крышки ручного отверстия.
 
@@ -236,7 +236,7 @@ tags:
 >
 > Once the fitting is installed in the weep hole, install the hose, Part Number 4998213, by hand, over the fitting until the end of the hose touches the shank of the fitting.
 >
-> Use the following procedure in the Service Manual, QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS, Bulletin 4021592, to install the water pump. [[20-008-062-tr — Water Pump|Refer to Procedure 008-062 in Section 8.]]
+> Use the following procedure in the Service Manual, QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], to install the water pump. [[20-008-062-tr — Water Pump|Refer to Procedure 008-062 in Section 8.]]
 >
 > Slide the p-clip, Part Number 4992548, over the loose end of the hose. Align the bolt hole of the p-clip with the tapped boss at the lower right corner of the oil cooler housing.
 >
@@ -258,7 +258,7 @@ tags:
 >
 > Once the fitting is installed in the weep hole, install the hose, Part Number 4998213, by hand over the fitting, until the end of the hose touches the shank of the fitting.
 >
-> Use the following procedure in the Service Manual, QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS, Bulletin 4021592, to install the water pump. [[20-008-062-tr — Water Pump|Refer to Procedure 008-062 in Section 8.]]
+> Use the following procedure in the Service Manual, QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], to install the water pump. [[20-008-062-tr — Water Pump|Refer to Procedure 008-062 in Section 8.]]
 >
 > Secure the hose and p-clip, Part Number 4992548, to the hand hole cover, using the hand hole cover capscrew.
 >

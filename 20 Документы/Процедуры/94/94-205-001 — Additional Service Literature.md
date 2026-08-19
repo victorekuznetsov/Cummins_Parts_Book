@@ -49,7 +49,7 @@ tags:
 
 | Вестник нет. | Название публикации |
 |---|---|
-| 3666134 | Руководство по эксплуатации и техническому обслуживанию двигателей QST30 G-Drive |
+| [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Руководство по эксплуатации и техническому обслуживанию двигателей QST30 G-Drive |
 | 3666185 | QST30 G-Drive Wiring/Fault Code Diagram (неисправность) |
 | 3666196 | Руководство пользователя G-Drive (QST30) |
 | 3672101 | QST30-G1/G2/G3 Части Руководство |
@@ -64,7 +64,7 @@ tags:
 >
 > | Bulletin No. | Title of Publication |
 > |---|---|
-> | 3666134 | Operation and Maintenance Manual QST30 G-Drive Engines |
+> | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Operation and Maintenance Manual QST30 G-Drive Engines |
 > | 3666185 | QST30 G-Drive Wiring/Fault Code Diagram |
 > | 3666196 | INSITE™ G-Drive User's Manual (QST30) |
 > | 3672101 | QST30-G1/G2/G3 Parts Manual |

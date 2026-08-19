@@ -60,7 +60,7 @@ tags:
 
 Cummins Inc. С момента своего появления компания выпустила изменения в топливную систему Modular Common Rail System (MCRS). Если двигатель модернизирован с C1 до C2, C1 до C3 или C2 до C3, требуется изменение кода CPL, FR, DO и ECM. Табличка данных двигателя ** должна быть проштампована новыми опциями CPL, FR и DO и должна быть заполнена форма модификации двигателя 1877 **.
 
-Cummins Inc. Рекомендуется модернизировать двигатель до топливной системы C3 во время восстановительных мероприятий, чтобы минимизировать стоимость и повысить долговечность топливной системы по сравнению с проблемами качества топлива. Справка TSB100978 для получения информации о частях, необходимых для обновления.
+Cummins Inc. Рекомендуется модернизировать двигатель до топливной системы C3 во время восстановительных мероприятий, чтобы минимизировать стоимость и повысить долговечность топливной системы по сравнению с проблемами качества топлива. Справка [[tsb100978 — New Modular Common Rail System (MCRS) Fuel System\|TSB100978]] для получения информации о частях, необходимых для обновления.
 
 Используйте файл ниже, чтобы найти подходящий код CM850 для CM2150 FR, DO и ECM для обновлений C2 до C3:
 
@@ -392,7 +392,7 @@ Cummins Inc. Рекомендуется модернизировать двиг�
 >
 > Cummins Inc. has released revisions to the Modular Common Rail System (MCRS) fuel system since its introduction. If an engine is upgraded from C1 to C2, C1 to C3 or C2 to C3, it requires a CPL, FR, DO, and ECM code change. The engine data plate **must** be stamped with the new CPL, FR, and DO options and Engine Modification Form 1877 **must** be completed.
 >
-> Cummins Inc. recommends upgrading the engine to the C3 fuel system during rebuild events to minimize the cost and improve fuel system durability relative to fuel quality issues. Reference TSB100978 for information about the parts required to upgrade.
+> Cummins Inc. recommends upgrading the engine to the C3 fuel system during rebuild events to minimize the cost and improve fuel system durability relative to fuel quality issues. Reference [[tsb100978 — New Modular Common Rail System (MCRS) Fuel System\|TSB100978]] for information about the parts required to upgrade.
 >
 > Use the file below to find the appropriate CM850 to CM2150 FR, DO, and ECM Code for C2 to C3 upgrades:
 >

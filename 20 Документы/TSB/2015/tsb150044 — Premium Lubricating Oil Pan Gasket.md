@@ -99,7 +99,7 @@ tags:
 
 **Ассоциированные публикации**
 
-Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528. См. процедуру 007-025 в разделе 7.
+Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 007-025 в разделе 7.
 
 ### История изменений документа
 
@@ -164,6 +164,6 @@ tags:
 >
 > **Associated Publications**
 >
-> Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 007-025 in Section 7.
+> Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 007-025 in Section 7.
 >
 > ### Document History

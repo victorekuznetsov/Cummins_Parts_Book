@@ -51,7 +51,7 @@ tags:
 
 
 > [!quote]- Original (English) · английский оригинал
-> ## **Cylinder Block (57-001-026-tr)**
+> ## **Cylinder Block ([[57-001-026-tr — Manual Not Available\|57-001-026-tr]])**
 >
 > This procedure is not yet available at the time of publication.
 >

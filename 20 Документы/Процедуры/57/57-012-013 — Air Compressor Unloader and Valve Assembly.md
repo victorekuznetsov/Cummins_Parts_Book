@@ -103,7 +103,7 @@ tags:
 
 Используйте клапанный пружинный тестер для проверки пружины разгрузчика.
 
-См. Cummins Two-Cylinder Air Compressor Shop Manual, Bulletin 3666121.
+См. Cummins Two-Cylinder Air Compressor Shop Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 Замените пружину разгрузчика, если она ** не соответствует указанным спецификациям, или если использована неправильная пружина.
 
@@ -219,7 +219,7 @@ tags:
 >
 > Use a valve spring tester to check the unloader spring.
 >
-> Refer to Cummins Two-Cylinder Air Compressor Shop Manual, Bulletin 3666121.
+> Refer to Cummins Two-Cylinder Air Compressor Shop Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
 > Replace the unloader spring if it does **not** meet the specifications shown, or the wrong spring has been used.
 >

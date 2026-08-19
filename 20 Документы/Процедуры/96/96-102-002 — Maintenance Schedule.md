@@ -56,7 +56,7 @@ Cummins Inc. Рекомендуется, чтобы двигатель подд�
 - Используйте следующую процедуру в Руководстве по эксплуатации и техническому обслуживанию, Двигатели серии N14, Уровни сертификации 1994 года, Бюллетень 3666061. См. процедуру 102-002 в разделе 2.
 - Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию SignatureTM и ISX, Bulletin 3666251. См. процедуру 102-002 в разделе 2.
 - Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию K19, в бюллетене 3666013.[[18-102-002-om-ind — Maintenance Schedule|См. процедуру 102-002 в разделе 2.]]
-- Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию K38, K50, QSK38 и QSK50, вестник 3810497.[[28-102-002-om — Maintenance Schedule|См. процедуру 102-002 в разделе 2.]]
+- Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию K38, K50, QSK38 и QSK50, вестник [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].[[28-102-002-om — Maintenance Schedule|См. процедуру 102-002 в разделе 2.]]
 - Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию QSK45 и QSK60, в бюллетене 3666260.[[56-102-002-om — Maintenance Schedule|См. процедуру 102-002 в разделе 2.]].
 - Используйте следующую процедуру в руководстве по эксплуатации и техническому обслуживанию QSK78, в бюллетене 3666714. См. процедуру 102-002 в разделе 2.
 
@@ -72,6 +72,6 @@ Cummins Inc. Рекомендуется, чтобы двигатель подд�
 > - Use the following procedure in Operation and Maintenance Manual, N14 Series Engines, 1994 Certification Levels, Bulletin 3666061. Refer to Procedure 102-002 in Section 2.
 > - Use the following procedure in Signature™ and ISX Operation and Maintenance Manual, Bulletin 3666251. Refer to Procedure 102-002 in Section 2.
 > - Use the following procedure in K19 Industrial and Marine Operation and Maintenance Manual, Bulletin 3666013. [[18-102-002-om-ind — Maintenance Schedule|Refer to Procedure 102-002 in Section 2.]]
-> - Use the following procedure in K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin 3810497. [[28-102-002-om — Maintenance Schedule|Refer to Procedure 102-002 in Section 2.]]
+> - Use the following procedure in K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. [[28-102-002-om — Maintenance Schedule|Refer to Procedure 102-002 in Section 2.]]
 > - Use the following procedure in QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 3666260. [[56-102-002-om — Maintenance Schedule|Refer to Procedure 102-002 in Section 2]].
 > - Use the following procedure in QSK78 Operation and Maintenance Manual, Bulletin 3666714. Refer to Procedure 102-002 in Section 2.

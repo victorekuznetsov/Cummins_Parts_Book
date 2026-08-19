@@ -85,7 +85,7 @@ tags:
 | 3810307 | Руководство по устранению неполадок и ремонту двигателя серии K19 |
 | 3666013 | Руководство по эксплуатации и техническому обслуживанию, K19, KTA19, KTTA19 |
 | 3810432 | Руководство по устранению неполадок и ремонту двигателя серии K38/50 |
-| 3810497 | Руководство по эксплуатации и техническому обслуживанию двигателя серии K38/K50 |
+| [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Руководство по эксплуатации и техническому обслуживанию двигателя серии K38/K50 |
 | 3666261 | Руководство по устранению неполадок и ремонту, двигатель серии QSK45 и QSK60 |
 | 3666260 | Руководство по эксплуатации и техническому обслуживанию, двигатель серии QSK45 и QSK60 |
 | 3396918 | Руководство пользователя INSITETM CentinelTM |
@@ -131,7 +131,7 @@ tags:
 > | 3810307 | Troubleshooting and Repair Manual, K19 Series Engine |
 > | 3666013 | Operation and Maintenance Manual, K19, KTA19, KTTA19 |
 > | 3810432 | Troubleshooting and Repair Manual, K38/50 Series Engine |
-> | 3810497 | Operation and Maintenance Manual, K38/K50 Series Engine |
+> | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Operation and Maintenance Manual, K38/K50 Series Engine |
 > | 3666261 | Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engine |
 > | 3666260 | Operation and Maintenance Manual, QSK45 and QSK60 Series Engine |
 > | 3396918 | INSITE™ Centinel™ User's Manual |

@@ -88,13 +88,13 @@ tags:
 > [!note] Примечание
 > Расширение жгута проводов, номер детали 2881173, ** должно использоваться при установке быстрого насоса IMV на медленном двигателе IMV для преодоления разрыва в жгуте проводов.
 
-- Используйте следующую процедуру в Руководстве по обслуживанию, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Вестник 4021592.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник 4021528.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Используйте следующую процедуру в Руководстве по обслуживанию, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Вестник [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
 - Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-051 в разделе 6.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK38, QSK50 и модульной общей железнодорожной системе QSK60 CM850, Бюллетень 4021533. См. процедуру 019-115 в разделе 19.
-- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK38, QSK50 и модульной общей железнодорожной системе QSK60 CM2150, Бюллетень 4022102. См. процедуру 019-115 в разделе 19.
+- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK38, QSK50 и модульной общей железнодорожной системе QSK60 CM2150, Бюллетень [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. См. процедуру 019-115 в разделе 19.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронная система управления QSK19 CM850 Модульная общая железнодорожная система, Вестник 4021493. См. процедуру 019-115 в разделе 19.
-- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK19 CM2150 Electronic Control System, Bulletin 4022094. См. процедуру 019-115 в разделе 19.
+- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK19 CM2150 Electronic Control System, Bulletin [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]]. См. процедуру 019-115 в разделе 19.
 
 Новые электропроводки двигателя требуют новых схем электропроводки и руководств по устранению неполадок и ремонту с обновленным искусством схемы. Процедуры устранения неполадок являются общими для обеих топливных систем. См. Таблицу 2 для перечня номеров бюллетеней для новых публикаций.
 
@@ -199,8 +199,8 @@ tags:
 | Таблица 2 |  |
 |---|---|
 | Публикация Заголовок | Номер бюллетеня |
-| QSK19 CM2150 Электронная система управления Устранение неполадок и ремонт Руководства | 4022094 |
-| QSK38/50/60 CM2150 Электронная система управления Устранение неполадок и ремонт | 4022102 |
+| QSK19 CM2150 Электронная система управления Устранение неполадок и ремонт Руководства | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] |
+| QSK38/50/60 CM2150 Электронная система управления Устранение неполадок и ремонт | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 | QSK19 CM2150 Индустриальная модульная система проводов Common Rail | 4022096 |
 | QSK19 CM2150 Модульная общая железнодорожная система морского движения с помощью C CommandTM Panel System Wiring Diagram | 4022098 |
 | Модульная общая железнодорожная система QSK19 CM2150 с поддержкой C Command EliteTM и C Command Elite PlusTM | 4022099 |
@@ -267,13 +267,13 @@ tags:
 > **Note · Примечание**
 > Extension harness, Part Number 2881173, **must** be used when installing a fast IMV pump on a slow IMV engine to bridge the gap in the wiring harness.
 >
-> - Use the following procedure in Service Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin 4021592. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-> - Use the following procedure in Service Manual, K38, K50, QSK38, and QSK50, Bulletin 4021528. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Use the following procedure in Service Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Use the following procedure in Service Manual, K38, K50, QSK38, and QSK50, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
 > - Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-051 in Section 6
 > - Use the following procedure in the Troubleshooting and Repair Manual, QSK38, QSK50, and QSK60 CM850 Modular Common Rail System, Bulletin 4021533. Refer to Procedure 019-115 in Section 19.
-> - Use the following procedure in the Troubleshooting and Repair Manual, QSK38, QSK50, and QSK60 CM2150 Modular Common Rail System, Bulletin 4022102. Refer to Procedure 019-115 in Section 19.
+> - Use the following procedure in the Troubleshooting and Repair Manual, QSK38, QSK50, and QSK60 CM2150 Modular Common Rail System, Bulletin [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. Refer to Procedure 019-115 in Section 19.
 > - Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System QSK19 CM850 Modular Common Rail System, Bulletin 4021493. Refer to Procedure 019-115 in Section 19.
-> - Use the following procedure in the Troubleshooting and Repair Manual, QSK19 CM2150 Electronic Control System, Bulletin 4022094. Refer to Procedure 019-115 in Section 19.
+> - Use the following procedure in the Troubleshooting and Repair Manual, QSK19 CM2150 Electronic Control System, Bulletin [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]]. Refer to Procedure 019-115 in Section 19.
 >
 > The new engine wiring harnesses require new wiring diagrams and Troubleshooting and Repair manuals with updated circuit art. Troubleshooting procedures are common for both fuel systems. See Table 2 for a list of new publication bulletin numbers.
 >
@@ -378,8 +378,8 @@ tags:
 > | Table 2 |  |
 > |---|---|
 > | Publication Title | Bulletin Number |
-> | QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual | 4022094 |
-> | QSK38/50/60 CM2150 Electronic Control System Troubleshooting and Repair Manual | 4022102 |
+> | QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] |
+> | QSK38/50/60 CM2150 Electronic Control System Troubleshooting and Repair Manual | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] |
 > | QSK19 CM2150 Industrial Modular Common Rail System Wiring Diagram | 4022096 |
 > | QSK19 CM2150 Modular Common Rail System Marine Propulsion with C Command™ Panel System Wiring Diagram | 4022098 |
 > | QSK19 CM2150 Modular Common Rail System Marine Propulsion with C Command Elite™ and C Command Elite Plus™ Panel System Wiring Diagram | 4022099 |

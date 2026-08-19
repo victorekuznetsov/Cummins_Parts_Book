@@ -64,7 +64,7 @@ tags:
 | Наименование | Новый номер детали | Прежний номер детали |
 | Датчик температуры выхлопных газов | 4326918 | 4954490 |
 
-Используйте следующую процедуру для получения дополнительной информации о снятии и установке датчика температуры выхлопных газов в руководстве по устранению неполадок и ремонту электронной системы управления K38 и K50 CENSETM, Bulletin 4022102.[[122-019-013 — Exhaust Temperature Sensor|См. процедуру 019-013 в разделе 19.]]
+Используйте следующую процедуру для получения дополнительной информации о снятии и установке датчика температуры выхлопных газов в руководстве по устранению неполадок и ремонту электронной системы управления K38 и K50 CENSETM, Bulletin [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]].[[122-019-013 — Exhaust Temperature Sensor|См. процедуру 019-013 в разделе 19.]]
 
 ### История изменений документа
 
@@ -91,6 +91,6 @@ tags:
 > | Description | New Part Number | Old Part Number |
 > | Exhaust Gas Temperature Sensor | 4326918 | 4954490 |
 >
-> Use the following procedure for more information on removal and installation of the exhaust gas temperature sensor in the K38 and K50 CENSE™ Electronic Control System Troubleshooting and Repair Manual, Bulletin 4022102. [[122-019-013 — Exhaust Temperature Sensor|Refer to Procedure 019-013 in Section 19.]]
+> Use the following procedure for more information on removal and installation of the exhaust gas temperature sensor in the K38 and K50 CENSE™ Electronic Control System Troubleshooting and Repair Manual, Bulletin [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. [[122-019-013 — Exhaust Temperature Sensor|Refer to Procedure 019-013 in Section 19.]]
 >
 > ### Document History

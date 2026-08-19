@@ -51,7 +51,7 @@ tags:
 
 | ** Номер бюллетеня** | ** Название публикации** |
 |---|---|
-| 3666003 | Серия C Устранение неполадок и руководство по ремонту |
+| [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Серия C Устранение неполадок и руководство по ремонту |
 | 3666008 | C Серия Машинный магазин Ручной |
 | 3666021 | Руководство по спецификациям серии C |
 | 3379001 | Топливо для бюллетеня Cummins Engines |
@@ -71,7 +71,7 @@ tags:
 >
 > | **Bulletin Number** | **Title of Publication** |
 > |---|---|
-> | 3666003 | C Series Troubleshooting and Repair Manual |
+> | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | C Series Troubleshooting and Repair Manual |
 > | 3666008 | C Series Engine Shop Manual |
 > | 3666021 | C Series Specifications Manual |
 > | 3379001 | Fuel for Cummins Engines Bulletin |

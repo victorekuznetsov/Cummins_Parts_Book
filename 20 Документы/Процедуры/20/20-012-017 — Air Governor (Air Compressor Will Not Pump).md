@@ -58,9 +58,9 @@ tags:
 
 ![[gv800ka.png]]
 
-Если воздушный компрессор не перекачивает, удалите, очистите и проверьте клапанный узел разгрузчика воздушного компрессора. См. Air Compressor Unloader клапан. См. руководство по ремонту воздушного компрессора Holset®, Bulletin 3666121.
+Если воздушный компрессор не перекачивает, удалите, очистите и проверьте клапанный узел разгрузчика воздушного компрессора. См. Air Compressor Unloader клапан. См. руководство по ремонту воздушного компрессора Holset®, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
-Если разгрузочный клапан в порядке, очистите и проверьте выпускной клапан. См. Holset® Master Repair Manual, Bulletin 3666121.
+Если разгрузочный клапан в порядке, очистите и проверьте выпускной клапан. См. Holset® Master Repair Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 > [!note] Примечание
 > ** Необычные** воздушные компрессоры могут использоваться в вашем двигателе или приложении.
@@ -80,9 +80,9 @@ tags:
 >
 > If the air compressor is pumping, the air governor is malfunctioning and **must** be repaired or replaced. Refer to the manufacturer's instructions.
 >
-> If the air compressor does **not** pump, remove, clean, and inspect the air compressor unloader valve assembly. Refer to Air Compressor Unloader Valve. Refer to the Holset® Air Compressor Master Repair Manual, Bulletin 3666121.
+> If the air compressor does **not** pump, remove, clean, and inspect the air compressor unloader valve assembly. Refer to Air Compressor Unloader Valve. Refer to the Holset® Air Compressor Master Repair Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
-> If the unloader valve assembly is okay, clean and inspect the exhaust valve assembly. Refer to the Holset® Master Repair Manual, Bulletin 3666121.
+> If the unloader valve assembly is okay, clean and inspect the exhaust valve assembly. Refer to the Holset® Master Repair Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
 > **Note · Примечание**
 > **Notall** air compressors referenced may be used on your engine or application.

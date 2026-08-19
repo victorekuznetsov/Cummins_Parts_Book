@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Служба/Части» пересматривает раздел процедуры удаления 001-010 (Camshaft Bushings) в разделе 1 Руководства по устранению неполадок и ремонту серии C, Бюллетень 3666003. Номер детали инструмента для установки и удаления втулки изменился, и был добавлен комплект гидравлического привода вместе с комплектом установки / удаления куста Распредвала.
+Эта тема «Служба/Части» пересматривает раздел процедуры удаления 001-010 (Camshaft Bushings) в разделе 1 Руководства по устранению неполадок и ремонту серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Номер детали инструмента для установки и удаления втулки изменился, и был добавлен комплект гидравлического привода вместе с комплектом установки / удаления куста Распредвала.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises the Remove Section of Procedure 001-010 (Camshaft Bushings) in Section 1 of the C Series Troubleshooting and Repair Manual, Bulletin 3666003. The bushing installation and remove tool part number has changed and the Hydraulic Actuator Kit has been added along with the Camshaft Bushing Installation/Removal Kit.
+> This Service/Parts Topic revises the Remove Section of Procedure 001-010 (Camshaft Bushings) in Section 1 of the C Series Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. The bushing installation and remove tool part number has changed and the Hydraulic Actuator Kit has been added along with the Camshaft Bushing Installation/Removal Kit.

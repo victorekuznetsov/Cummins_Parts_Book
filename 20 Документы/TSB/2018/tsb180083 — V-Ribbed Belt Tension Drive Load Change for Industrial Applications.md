@@ -84,7 +84,7 @@ tags:
 | Таблица 1, Публикации, затронутые |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QST30C | 4021539 | Натяжитель ремня вентилятора | См. процедуру 57-008-087 | 8 |
+| Руководство по обслуживанию | QST30C | [[4021539 — QST30 Service Manual\|4021539]] | Натяжитель ремня вентилятора | См. процедуру [[57-008-087 — Cooling Fan Belt Tensioner\|57-008-087]] | 8 |
 
 ### История изменений документа
 
@@ -131,6 +131,6 @@ tags:
 > | Table 1, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QST30C | 4021539 | Cooling Fan Belt Tensioner | Refer to Procedure 57-008-087 | 8 |
+> | Service Manual | QST30C | [[4021539 — QST30 Service Manual\|4021539]] | Cooling Fan Belt Tensioner | Refer to Procedure [[57-008-087 — Cooling Fan Belt Tensioner\|57-008-087]] | 8 |
 >
 > ### Document History

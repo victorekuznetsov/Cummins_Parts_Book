@@ -53,7 +53,7 @@ tags:
 
 Использование правильных смазочных масел двигателя в сочетании с соответствующими интервалами изменения фильтра моторного масла и сливочного масла является критическим фактором для поддержания производительности и долговечности двигателя. Резкое увеличение износа компонентов и повреждения может произойти, если интервалы обслуживания моторного масла и фильтра ** не соблюдаются, как указано в графике обслуживания.
 
-Cummins Inc. Рекомендуется использовать высококачественное моторное масло для двигателей большой вязкости, которое соответствует требованиям инженерных спецификаций Cummins® (CES) для двигателей на природном газе. Для получения более подробной информации и объяснения смазочных масел для двигателей Cummins®, обратитесь к руководству по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406.
+Cummins Inc. Рекомендуется использовать высококачественное моторное масло для двигателей большой вязкости, которое соответствует требованиям инженерных спецификаций Cummins® (CES) для двигателей на природном газе. Для получения более подробной информации и объяснения смазочных масел для двигателей Cummins®, обратитесь к руководству по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 Укороченные интервалы слива могут потребоваться с односортными смазочными маслами, что определяется тщательным мониторингом состояния моторного масла с запланированным отбором проб моторного масла. Использование односортных смазочных масел может повлиять на управление моторным маслом двигателя.
 
@@ -109,7 +109,7 @@ Cummins Inc. **не рекомендует использовать добавк
 >
 > The use of correct engine lubricating oils, combined with appropriate lubricating oil drain and lubricating oil filter change intervals, is a critical factor in maintaining engine performance and durability. A sharp increase in component wear and damage can occur if lubricating oil and filter maintenance intervals are **not** followed as outlined in the maintenance schedule.
 >
-> Cummins Inc. recommends the use of a high-quality multi-viscosity heavy-duty engine lubricating oil that meets the requirements of Cummins® Engineering Specifications (CES) for natural gas engines. For further details and an explanation of engine lubricating oils for Cummins® engines, refer to Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> Cummins Inc. recommends the use of a high-quality multi-viscosity heavy-duty engine lubricating oil that meets the requirements of Cummins® Engineering Specifications (CES) for natural gas engines. For further details and an explanation of engine lubricating oils for Cummins® engines, refer to Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > Shortened drain intervals can be required with single-grade lubricating oils, as determined by close monitoring of the lubricating oil condition with scheduled lubricating oil sampling. Use of single-grade lubricating oils can affect engine lubricating oil control.
 >

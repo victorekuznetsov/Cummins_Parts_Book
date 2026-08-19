@@ -56,7 +56,7 @@ tags:
 
 ![[oi901km.png]]
 
-Если воздушный компрессор делает **не** насос, удалите воздушный компрессор, очистите и проверьте клапанный узел разгрузчика воздушного компрессора. См. Руководство по ремонту, Holset Air Compressors, Bulletin 3666121.
+Если воздушный компрессор делает **не** насос, удалите воздушный компрессор, очистите и проверьте клапанный узел разгрузчика воздушного компрессора. См. Руководство по ремонту, Holset Air Compressors, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 ![[cp900me.png]]
 
@@ -84,7 +84,7 @@ tags:
 >
 > Operate the engine to activate the air compressor.
 >
-> If the air compressor does **not** pump, remove the air compressor, clean, and inspect the air compressor unloader valve assembly. Refer to the Master Repair Manual, Holset Air Compressors, Bulletin 3666121.
+> If the air compressor does **not** pump, remove the air compressor, clean, and inspect the air compressor unloader valve assembly. Refer to the Master Repair Manual, Holset Air Compressors, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 >
 > **CAUTION · Осторожно**
 > During this test, do not exceed maximum vehicle air system pressure or 1035 kPa \[150 psi\], whichever is lower. Read the manufacturer's specifications.

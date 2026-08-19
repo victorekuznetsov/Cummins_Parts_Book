@@ -46,7 +46,7 @@ tags:
 
 ### Общие сведения
 
-- См. процедуру 005-045 (насосы для поднятия топлива) в разделе 5 Руководства по обслуживанию QST30, Вестник 4021539.
+- См. процедуру 005-045 (насосы для поднятия топлива) в разделе 5 Руководства по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -54,4 +54,4 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ### General Information
 >
-> - Refer to Procedure 005-045 (Fuel Lift Pump) in Section 5 of the QST30 Service Manual, Bulletin 4021539.
+> - Refer to Procedure 005-045 (Fuel Lift Pump) in Section 5 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].

@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Служба/Части» пересматривает раздел «Осмотр повторного использования» Процедуры 002-017 (Руководство по клапанам, головка цилиндра) в разделе 2 Руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень 3666003.
+Эта тема «Служба/Части» пересматривает раздел «Осмотр повторного использования» Процедуры 002-017 (Руководство по клапанам, головка цилиндра) в разделе 2 Руководства по устранению неполадок и ремонту двигателей серии C, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises the Inspect for Reuse section of Procedure 002-017 (Valve Guide, Cylinder Head) in Section 2 of the C Series Engines Troubleshooting and Repair Manual, Bulletin 3666003.
+> This Service/Parts Topic revises the Inspect for Reuse section of Procedure 002-017 (Valve Guide, Cylinder Head) in Section 2 of the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].

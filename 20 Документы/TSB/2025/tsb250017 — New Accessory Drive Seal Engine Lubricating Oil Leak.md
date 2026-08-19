@@ -133,7 +133,7 @@ tags:
 | Таблица 3, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QSK38/50 | 4021528 | Сальник привода вспомогательного оборудования | См. процедуру 001-003 | 1 |
+| Руководство по обслуживанию | QSK38/50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Сальник привода вспомогательного оборудования | См. процедуру 001-003 | 1 |
 | Руководство по обслуживанию | QSK38 CM2150 K106 | 4332768 | Сальник привода вспомогательного оборудования | См. процедуру 001-003 | 1 |
 | Руководство по обслуживанию | QSK50 CM2150 K107 | 4332773 | Сальник привода вспомогательного оборудования | См. процедуру 001-003 | 1 |
 | Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Сальник привода вспомогательного оборудования | См. процедуру 001-003 | 1 |
@@ -239,7 +239,7 @@ tags:
 > | Table 3, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QSK38/50 | 4021528 | Accessory Drive Seal | Refer to Procedure 001-003 | 1 |
+> | Service Manual | QSK38/50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Accessory Drive Seal | Refer to Procedure 001-003 | 1 |
 > | Service Manual | QSK38 CM2150 K106 | 4332768 | Accessory Drive Seal | Refer to Procedure 001-003 | 1 |
 > | Service Manual | QSK50 CM2150 K107 | 4332773 | Accessory Drive Seal | Refer to Procedure 001-003 | 1 |
 > | Service Manual | QSK50 CM2350 K108 | 4332823 | Accessory Drive Seal | Refer to Procedure 001-003 | 1 |

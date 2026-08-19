@@ -49,19 +49,19 @@ tags:
 
 | Вестник | Название публикации |
 |---|---|
-| 4021539 | QST30: сервисное руководство |
-| 3666184 | Руководство по устранению неполадок и ремонту, электронная система управления, двигатель серии генераторов QST30 |
-| 3666214 | Руководство по устранению неполадок и ремонту, электронная система управления, промышленный двигатель серии QST30 |
+| [[4021539 — QST30 Service Manual\|4021539]] | QST30: сервисное руководство |
+| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]] | Руководство по устранению неполадок и ремонту, электронная система управления, двигатель серии генераторов QST30 |
+| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]] | Руководство по устранению неполадок и ремонту, электронная система управления, промышленный двигатель серии QST30 |
 | 3666323 | Руководство по устранению неполадок и ремонту, управляющий топливным регулятором генератора, двигатель серии QST30 |
 | 3666393 | Руководство по устранению неполадок и ремонту, система управления генератором, QSX15, QST30, QSK45 и двигатель серии QSK60 |
-| 4021674 | QST30 CM850 (генераторные установки): руководство по диагностике и ремонту системы управления |
+| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]] | QST30 CM850 (генераторные установки): руководство по диагностике и ремонту системы управления |
 | 3666190 | QST30 Магазинное руководство |
 | 3666185 | QST30 Генератор-драйв-проводка/диаграмма кода ошибки |
 | 3666234 | QST30 Индустриальная проводка/диаграмма кода ошибки |
 | 4021346 | QST30 Generator-Drive Control System Wiring Diagram (Система управления электроприводом) |
 | 4021683 | QST30 CM850 Power Generation Interface (PGI) - интерфейс электропроводки |
 | 3666196 | Руководство пользователя INSITETM QST30 Generator-Drive |
-| 3666134 | Руководство по эксплуатации и техническому обслуживанию, двигатели серии QST30 |
+| [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Руководство по эксплуатации и техническому обслуживанию, двигатели серии QST30 |
 | 3379000 | Воздух для двигателя Cummins® |
 | 3379001 | Топливо для двигателей Cummins® |
 | 3379009 | Эксплуатация дизельных двигателей в холодном климате |
@@ -78,19 +78,19 @@ tags:
 >
 > | Bulletin | Title of Publication |
 > |---|---|
-> | 4021539 | QST30 Service Manual |
-> | 3666184 | Troubleshooting and Repair Manual, Electronic Control System, QST30 Generator-Drive Series Engine |
-> | 3666214 | Troubleshooting and Repair Manual, Electronic Control System, Industrial QST30 Series Engine |
+> | [[4021539 — QST30 Service Manual\|4021539]] | QST30 Service Manual |
+> | [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]] | Troubleshooting and Repair Manual, Electronic Control System, QST30 Generator-Drive Series Engine |
+> | [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]] | Troubleshooting and Repair Manual, Electronic Control System, Industrial QST30 Series Engine |
 > | 3666323 | Troubleshooting and Repair Manual, Generator-Drive Fuel Control Governor, QST30 Series Engine |
 > | 3666393 | Troubleshooting and Repair Manual, Generator Control System, QSX15, QST30, QSK45, and QSK60 Series Engine |
-> | 4021674 | QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooting and Repair Manual |
+> | [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]] | QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooting and Repair Manual |
 > | 3666190 | QST30 Shop Manual |
 > | 3666185 | QST30 Generator-Drive Wiring/Fault Code Diagram |
 > | 3666234 | QST30 Industrial Wiring/Fault Code Diagram |
 > | 4021346 | QST30 Generator-Drive Control System Wiring Diagram |
 > | 4021683 | QST30 CM850 Power Generation Interface (PGI) Wiring Diagram |
 > | 3666196 | INSITE™ QST30 Generator-Drive User's Manual |
-> | 3666134 | Operation and Maintenance Manual, QST30 Series Engines |
+> | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Operation and Maintenance Manual, QST30 Series Engines |
 > | 3379000 | Air For Cummins® Engine |
 > | 3379001 | Fuels for Cummins® Engines |
 > | 3379009 | Operation of Diesel Engines in Cold Climates |

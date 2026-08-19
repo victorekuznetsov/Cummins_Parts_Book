@@ -50,7 +50,7 @@ tags:
 
 | Вестник | Название публикации |
 |---|---|
-| 4021528 | Руководство по эксплуатации K38, K50, QSK38 и QSK50 |
+| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Руководство по эксплуатации K38, K50, QSK38 и QSK50 |
 | 3666070 | Руководство по устранению неполадок и ремонту системы CENTRYTM |
 | 3810385 | Руководство по устранению неполадок и ремонту, система контроля времени выполнения шагов |
 | 3810432 | Руководство по устранению неполадок и ремонту двигателей серий K38 и K50 |
@@ -68,9 +68,9 @@ tags:
 | 4021608 | Модульная общая железнодорожная система QSK38 CM850 Морской вспомогательный модуль с системой проводов командной панели C |
 | 3666069 | CENTRYTM System (PT) Руководство по эксплуатации и техническому обслуживанию |
 | 3666077 | Руководство по эксплуатации и техническому обслуживанию, Морской двигательный блок |
-| 3667180 | K38 и K50 Руководство для владельцев |
-| 3666121 | Holset® Air Compressor Master Manual |
-| 3666231 | Руководство по ремонту системы Centinel™ |
+| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | K38 и K50 Руководство для владельцев |
+| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Manual |
+| [[3666231 — Centinel™ Master Repair Manual\|3666231]] | Руководство по ремонту системы Centinel™ |
 | 3379000 | Воздух для ваших двигателей |
 | 3379001 | Топливо для двигателей Cummins® |
 | 3379068 | Калибровочные значения топливного насоса PT (тип G) (1970-1975) |
@@ -106,7 +106,7 @@ tags:
 >
 > | Bulletin | Title of Publication |
 > |---|---|
-> | 4021528 | Service Manual K38, K50, QSK38 and QSK50 |
+> | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Service Manual K38, K50, QSK38 and QSK50 |
 > | 3666070 | CENTRY™ System Troubleshooting and Repair Manual |
 > | 3810385 | Troubleshooting and Repair Manual, Step Timing Control System |
 > | 3810432 | Troubleshooting and Repair Manual, K38 and K50 Series Engines |
@@ -124,9 +124,9 @@ tags:
 > | 4021608 | QSK38 CM850 Modular Common Rail System Marine Auxiliary with C Command Panel System Wiring Diagram |
 > | 3666069 | CENTRY™ System (PT) Operation and Maintenance Manual |
 > | 3666077 | Operation and Maintenance Manual, Marine Propulsion Unit |
-> | 3667180 | K38 and K50 Owners Manual |
-> | 3666121 | Holset® Air Compressor Master Repair Manual |
-> | 3666231 | Centinel™ Master Repair Manual |
+> | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | K38 and K50 Owners Manual |
+> | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Repair Manual |
+> | [[3666231 — Centinel™ Master Repair Manual\|3666231]] | Centinel™ Master Repair Manual |
 > | 3379000 | Air for Your Engines |
 > | 3379001 | Fuel for Cummins® Engines |
 > | 3379068 | Fuel Pump PT (Type G) Calibration Values (1970-1975) |

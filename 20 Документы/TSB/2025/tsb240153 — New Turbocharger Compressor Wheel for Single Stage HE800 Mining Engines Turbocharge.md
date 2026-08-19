@@ -87,8 +87,8 @@ tags:
 
 **Указания по обслуживанию**
 
-- Если неисправность турбокомпрессора была проверена, удалите крышки послеохладителя для проверки на наличие мусора. Очистите корпус послеохладителя и ядро, если это необходимо. Установите послеохладитель и крышки. См. QSK50 CM2150 MCRS Service Manual, Bulletin 4021528.[[28-010-008-tr — Aftercooler Element|См. процедуру 010-008]]В разделе 10.
-- Заменить турбокомпрессор. См. QSK50 CM2150 MCRS Service Manual, Bulletin 4021528.[[28-010-033-tr — Turbocharger|См. процедуру 010-033]]В разделе 19.
+- Если неисправность турбокомпрессора была проверена, удалите крышки послеохладителя для проверки на наличие мусора. Очистите корпус послеохладителя и ядро, если это необходимо. Установите послеохладитель и крышки. См. QSK50 CM2150 MCRS Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-008-tr — Aftercooler Element|См. процедуру 010-008]]В разделе 10.
+- Заменить турбокомпрессор. См. QSK50 CM2150 MCRS Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-033-tr — Turbocharger|См. процедуру 010-033]]В разделе 19.
 
 **Наличие сервисных деталей**
 
@@ -168,8 +168,8 @@ tags:
 >
 > **Service Instructions**
 >
-> - If a turbocharger malfunction has been verified, remove aftercooler covers to inspect for debris. Clean the aftercooler housing and core if required. Install the aftercooler and covers. See QSK50 CM2150 MCRS Service Manual, Bulletin 4021528. [[28-010-008-tr — Aftercooler Element|Refer to Procedure 010-008]] in Section 10.
-> - Replace turbocharger. See QSK50 CM2150 MCRS Service Manual, Bulletin 4021528. [[28-010-033-tr — Turbocharger|Refer to Procedure 010-033]] in Section 19.
+> - If a turbocharger malfunction has been verified, remove aftercooler covers to inspect for debris. Clean the aftercooler housing and core if required. Install the aftercooler and covers. See QSK50 CM2150 MCRS Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-008-tr — Aftercooler Element|Refer to Procedure 010-008]] in Section 10.
+> - Replace turbocharger. See QSK50 CM2150 MCRS Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-033-tr — Turbocharger|Refer to Procedure 010-033]] in Section 19.
 >
 > **Service Parts Availability**
 >

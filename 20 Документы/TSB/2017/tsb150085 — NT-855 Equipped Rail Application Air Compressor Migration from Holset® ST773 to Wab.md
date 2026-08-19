@@ -81,7 +81,7 @@ ReCon® NT-855 Двигатели:
 
 **Ассоциированные публикации**
 
-Полный список процедур, необходимых для удаления, установки и устранения неполадок двухкомпрессора Wabco 636, см. в TSB150086.
+Полный список процедур, необходимых для удаления, установки и устранения неполадок двухкомпрессора Wabco 636, см. в [[tsb150086 — Service Manual Procedures for NT-855 Equipped Rail Applications using Wabco™ 636 Tw\|TSB150086]].
 
 ### История изменений документа
 
@@ -126,6 +126,6 @@ ReCon® NT-855 Двигатели:
 >
 > **Associated Publications**
 >
-> For a complete list of Service Manual procedures needed to remove, install, and troubleshoot the Wabco™ 636 twin air compressor, see TSB150086.
+> For a complete list of Service Manual procedures needed to remove, install, and troubleshoot the Wabco™ 636 twin air compressor, see [[tsb150086 — Service Manual Procedures for NT-855 Equipped Rail Applications using Wabco™ 636 Tw\|TSB150086]].
 >
 > ### Document History

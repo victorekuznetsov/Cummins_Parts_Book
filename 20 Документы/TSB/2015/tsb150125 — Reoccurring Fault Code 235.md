@@ -79,7 +79,7 @@ tags:
 
 Это создаст шортинг и отключит код неисправности на правом берегу.
 
-Для инструкций по замене штифта используйте следующую процедуру в руководстве по устранению неполадок и ремонту промышленной электронной системы управления QST30, в бюллетене 3666214.[[99-019-217 — Bosch™ ECM OEM Connector Series|См. процедуру 019-217 в разделе 19.]]
+Для инструкций по замене штифта используйте следующую процедуру в руководстве по устранению неполадок и ремонту промышленной электронной системы управления QST30, в бюллетене [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]].[[99-019-217 — Bosch™ ECM OEM Connector Series|См. процедуру 019-217 в разделе 19.]]
 
 На фазу 5 калибровочного программного обеспечения ** не** влияет повторяющийся код 235 ошибки правого берега.
 
@@ -123,7 +123,7 @@ tags:
 >
 > This will create a shorting plug and disable the fault code on the right bank.
 >
-> For pin replacement instructions, use the following procedure in the QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin 3666214. [[99-019-217 — Bosch™ ECM OEM Connector Series|Refer to Procedure 019-217 in Section 19.]]
+> For pin replacement instructions, use the following procedure in the QST30 Industrial Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]. [[99-019-217 — Bosch™ ECM OEM Connector Series|Refer to Procedure 019-217 in Section 19.]]
 >
 > Calibration software phase 5 is **not** affected by the reoccurring right bank fault code 235.
 >

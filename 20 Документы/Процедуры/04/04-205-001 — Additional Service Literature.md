@@ -53,7 +53,7 @@ tags:
 | 3666132 | Требования Cummins® к охлаждающей жидкости и её обслуживанию |
 | 3666286 | Требования Cummins® к увеличенным интервалам обслуживания системы охлаждения |
 | 3810340 | Рекомендации по моторному маслу Cummins® |
-| 3666003 | Руководство по устранению неполадок и ремонту, двигатели серии C |
+| [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Руководство по устранению неполадок и ремонту, двигатели серии C |
 | 3666142 | Руководство по устранению неполадок и ремонту базового двигателя N14 |
 | 3666139 | Руководство по устранению неполадок и ремонту, двигатели серии M11 (STC, CELECTTM, CELECTTM Plus) |
 | 3666087 | Руководство по устранению неполадок и ремонту, двигатели серии B3.9, B4.5 и B5.9 |
@@ -78,7 +78,7 @@ tags:
 > | 3666132 | Cummins® Coolant Requirements and Maintenance |
 > | 3666286 | Cummins® Requirements For Cooling System Extended Service Intervals |
 > | 3810340 | Cummins® Engine Oil Recommendations |
-> | 3666003 | Troubleshooting and Repair Manual, C Series Engines |
+> | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Troubleshooting and Repair Manual, C Series Engines |
 > | 3666142 | Troubleshooting and Repair Manual, N14 Base Engine |
 > | 3666139 | Troubleshooting and Repair Manual, M11 (STC, CELECT™, CELECT™ Plus Models) Series Engines |
 > | 3666087 | Troubleshooting and Repair Manual, B3.9, B4.5, and B5.9 Series Engines |

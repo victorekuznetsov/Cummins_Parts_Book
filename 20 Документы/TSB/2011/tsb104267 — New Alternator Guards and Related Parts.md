@@ -55,9 +55,9 @@ tags:
 Процедуры 008-001 (Охрана пояса) и 013-005 (Пояс привода, Альтернативатор) были обновлены в следующих руководствах:
 
 - Руководство по обслуживанию K19, Вестник 4021499
-- QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592
+- QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 - K19 Руководство по эксплуатации и техническому обслуживанию в промышленности и на море, Вестник 3666013
-- QSK19, QSK19 CM850 MCRS, и QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin 3666120.
+- QSK19, QSK19 CM850 MCRS, и QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 
 Все новые опции полностью совместимы со старыми. Новые ограждения могут быть заменены на старые. Использование оставшегося запаса старых охранников должно быть ограничено заявками за пределами Европейской экономической зоны (ЕЭЗ).
 
@@ -101,9 +101,9 @@ tags:
 > Procedure 008-001 (Belt Guard) and Procedure 013-005 (Drive Belt, Alternator) have been updated in the following manuals:
 >
 > - K19 Service Manual, Bulletin 4021499
-> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592
+> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
 > - K19 Industrial and Marine Operation and Maintenance Manual, Bulletin 3666013
-> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin 3666120.
+> - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 >
 > All new options are fully compatible with the old options. The new guards can be fitted as replacements for the old ones. Use of the remaining stock of old guards **must** be limited to applications outside of the European Economic Area (EEA).
 >

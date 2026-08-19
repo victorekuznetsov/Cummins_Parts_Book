@@ -55,8 +55,8 @@ tags:
 > [!note] Примечание
 > Давление топливной системы **MUST** должно быть снято перед удалением датчика давления в рельсах.
 
-- Очистите двигатель. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528. См. процедуру 000-999 в разделе F.
-- Используйте контактный очиститель, номер детали 3824510 или эквивалент, чтобы тщательно очистить все фитинги и компоненты перед удалением из двигателя. Очистите соединительную арматуру, чтобы удалить как можно больше мусора. Очень важно, чтобы дополнительные меры предосторожности были приняты для поддержания топливных соединений в чистоте во время удаления и установки. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528.[[99-204-008 — General Cleaning Instructions|См. процедуру 204-008 в разделе i.]]
+- Очистите двигатель. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 000-999 в разделе F.
+- Используйте контактный очиститель, номер детали 3824510 или эквивалент, чтобы тщательно очистить все фитинги и компоненты перед удалением из двигателя. Очистите соединительную арматуру, чтобы удалить как можно больше мусора. Очень важно, чтобы дополнительные меры предосторожности были приняты для поддержания топливных соединений в чистоте во время удаления и установки. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[99-204-008 — General Cleaning Instructions|См. процедуру 204-008 в разделе i.]]
 - Убедитесь, что мусор, вода, пар или очистительный раствор не входят в топливную систему.
 
 ![[ck800wa.png]]
@@ -76,7 +76,7 @@ tags:
 > Давление в топливной системе высокого давления никогда не должно измеряться с помощью механического калибра. Возможны значения давления топлива более 1724 бар \[25 000 psi\]. При высоком давлении механическая измерительная манометрия может выйти из строя, вызывая утечку топлива под высоким давлением, что приводит к травмам и имущественному ущербу.
 
 > [!warning] ОСТОРОЖНО
-> Небольшое количество грязи и мусора может быть очень вредным для топливного форсунка и колбочек сидений на топливных форсунках высокого давления. Для поддержания топливных соединений в чистоте во время удаления и установки требуется дополнительная осторожность. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528. См. процедуру 204-008 в разделе i.
+> Небольшое количество грязи и мусора может быть очень вредным для топливного форсунка и колбочек сидений на топливных форсунках высокого давления. Для поддержания топливных соединений в чистоте во время удаления и установки требуется дополнительная осторожность. Используйте следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. См. процедуру 204-008 в разделе i.
 
 > [!warning] ОСТОРОЖНО
 > Не затягивайте и не затягивайте фитинги линии подачи топливного форсунка. Может произойти утечка топлива.
@@ -157,8 +157,8 @@ tags:
 > **Note · Примечание**
 > The fuel system pressure **MUST** be relieved before removing the rail pressure sensor.
 >
-> - Clean the engine. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 000-999 in Section F.
-> - Use contact cleaner, Part Number 3824510 or equivalent, to thoroughly clean all fittings and components before removal from the engine. Clean the connector fittings to remove as much debris as possible. It is very important that extra care is taken to keep the fuel connections clean during removal and installation. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008 in Section i.]]
+> - Clean the engine. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 000-999 in Section F.
+> - Use contact cleaner, Part Number 3824510 or equivalent, to thoroughly clean all fittings and components before removal from the engine. Clean the connector fittings to remove as much debris as possible. It is very important that extra care is taken to keep the fuel connections clean during removal and installation. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008 in Section i.]]
 > - Make sure that debris, water, steam, or cleaning solution does **not** enter the fuel system.
 >
 > ### Remove
@@ -176,7 +176,7 @@ tags:
 > Pressure within the high-pressure fuel system must never be measured using a mechanical gauge. Fuel pressure values of over 1724 bar \[25,000 psi\] are possible. Under high pressure, a mechanical gauge can fail causing a high-pressure fuel leak resulting in personal injury and property damage.
 >
 > **CAUTION · Осторожно**
-> A small amount of dirt and debris can be very harmful to the injectors and the cone seats on the injector high-pressure supply connections. Extra care is required to keep the fuel connections clean during removal and installation. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. Refer to Procedure 204-008 in Section i.
+> A small amount of dirt and debris can be very harmful to the injectors and the cone seats on the injector high-pressure supply connections. Extra care is required to keep the fuel connections clean during removal and installation. Use the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Refer to Procedure 204-008 in Section i.
 >
 > **CAUTION · Осторожно**
 > Do not over-tighten or under-tighten the injector supply line fittings. A fuel leak can occur.

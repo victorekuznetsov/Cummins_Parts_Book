@@ -53,7 +53,7 @@ tags:
 
 Подъемный механизм, номер 4918603, требует комплекта компонентов, номер 5299014, при использовании с двигателями QSK50 и QSK 60.
 
-Дополнительную информацию о двигателях QSK38 и QSK50 можно найти в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528.[[28-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+Дополнительную информацию о двигателях QSK38 и QSK50 можно найти в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
 
 Дополнительную информацию о двигателе QSK60 можно найти в руководстве по обслуживанию QSK45 и QSK60, Bulletin 4021530. См. процедуру 005-016 в разделе 5.
 
@@ -104,7 +104,7 @@ tags:
 >
 > Lifting fixture, Part Number 4918603, requires component kit, Part Number 5299014, when used with the QSK50 and QSK 60 engines.
 >
-> Additional information for the QSK38 and QSK50 engines can be found in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> Additional information for the QSK38 and QSK50 engines can be found in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
 >
 > Additional information for the QSK60 engine can be found in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in Section 5.
 >

@@ -103,7 +103,7 @@ tags:
 | 2 | Обложка Jumper | 3638576 | Не применяется | 3642472 | Не применяется |
 | 3 | Обложка Jumper | 3629146 | Не применяется | 3642473 | Не применяется |
 
-См. следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене № 4021528, для получения дополнительной информации о крышке перемычки для моторного масла.[[28-007-022-tr — Lubricating Oil Jumper Cover|См. процедуру 007-022 в разделе 7.]]
+См. следующую процедуру в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене № [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], для получения дополнительной информации о крышке перемычки для моторного масла.[[28-007-022-tr — Lubricating Oil Jumper Cover|См. процедуру 007-022 в разделе 7.]]
 
 ### История изменений документа
 
@@ -160,6 +160,6 @@ tags:
 > | 2 | Jumper Cover | 3638576 | n/a | 3642472 | n/a |
 > | 3 | Jumper Cover | 3629146 | n/a | 3642473 | n/a |
 >
-> See the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin Number 4021528, for additional information on the lubricating oil jumper cover. [[28-007-022-tr — Lubricating Oil Jumper Cover|Refer to Procedure 007-022 in Section 7.]]
+> See the following procedure in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin Number [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], for additional information on the lubricating oil jumper cover. [[28-007-022-tr — Lubricating Oil Jumper Cover|Refer to Procedure 007-022 in Section 7.]]
 >
 > ### Document History

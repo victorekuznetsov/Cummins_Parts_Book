@@ -118,7 +118,7 @@ tags:
 | Таблица 3, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Эксплуатация и техническое обслуживание | K38, K50, QSK38 и QSK50 | 3810497 | Центрифуга фильтра Eliminator | 007-066 | 6 |
+| Эксплуатация и техническое обслуживание | K38, K50, QSK38 и QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Центрифуга фильтра Eliminator | 007-066 | 6 |
 | QSK38 M2150 | 4332769 | 007-066 |  |  |  |
 | QSK45/QSK60 | 3666260 | 007-066 |  |  |  |
 | QSK50 CM2150 | 4332774 | 007-066 |  |  |  |
@@ -202,7 +202,7 @@ tags:
 > | Table 3, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Operation and Maintenance | K38, K50, QSK38 and QSK50 | 3810497 | Eliminator Filter Centrifuge | 007-066 | 6 |
+> | Operation and Maintenance | K38, K50, QSK38 and QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Eliminator Filter Centrifuge | 007-066 | 6 |
 > | QSK38 CM2150 | 4332769 | 007-066 |  |  |  |
 > | QSK45/QSK60 | 3666260 | 007-066 |  |  |  |
 > | QSK50 CM2150 | 4332774 | 007-066 |  |  |  |

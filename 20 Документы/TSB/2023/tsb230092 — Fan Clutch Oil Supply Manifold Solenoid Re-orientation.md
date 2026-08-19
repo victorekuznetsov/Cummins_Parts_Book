@@ -108,7 +108,7 @@ tags:
 
 Чтобы заменить вентилятор сцепления маслом коллектора и соленоида, см. соответствующее Руководство по эксплуатации. Справочная процедура 007-125 в разделе 7.
 
-- GTA38, K38, K50 QSK38 и QSK50 Service Manual, Bulletin 4021528
+- GTA38, K38, K50 QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 - QSK50 CM2350 K108 Руководство по обслуживанию, Вестник 4332823
 - QSK50 CM2350 K130 Руководство по обслуживанию, Вестник 5504180
 
@@ -199,7 +199,7 @@ tags:
 | Таблица 3, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QSK50 CM2150 MCRS | 4021528 | Масляный коллектор муфты вентилятора | [[28-007-125 — Fan Clutch Lubricating Oil Manifold\|См. процедуру 007-125]] | 7 |
+| Руководство по обслуживанию | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Масляный коллектор муфты вентилятора | [[28-007-125 — Fan Clutch Lubricating Oil Manifold\|См. процедуру 007-125]] | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K130 | 5504180 | Масляный коллектор муфты вентилятора | См. процедуру 007-125 | 7 |
 | Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Масляный коллектор муфты вентилятора | См. процедуру 007-125 | 7 |
 
@@ -270,7 +270,7 @@ tags:
 >
 > To replace the fan clutch oil control manifold and solenoid, see corresponding Service Manual. Reference Procedure 007-125 in Section 7.
 >
-> - GTA38, K38, K50 QSK38 and QSK50 Service Manual, Bulletin 4021528
+> - GTA38, K38, K50 QSK38 and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]
 > - QSK50 CM2350 K108 Service Manual, Bulletin 4332823
 > - QSK50 CM2350 K130 Service Manual, Bulletin 5504180
 >
@@ -353,7 +353,7 @@ tags:
 > | Table 3, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QSK50 CM2150 MCRS | 4021528 | Fan Clutch Lubricating Oil Manifold | [[28-007-125 — Fan Clutch Lubricating Oil Manifold\|Refer to Procedure 007-125]] | 7 |
+> | Service Manual | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Fan Clutch Lubricating Oil Manifold | [[28-007-125 — Fan Clutch Lubricating Oil Manifold\|Refer to Procedure 007-125]] | 7 |
 > | Service Manual | QSK50 CM2350 K130 | 5504180 | Fan Clutch Lubricating Oil Manifold | Refer to Procedure 007-125 | 7 |
 > | Service Manual | QSK50 CM2350 K108 | 4332823 | Fan Clutch Lubricating Oil Manifold | Refer to Procedure 007-125 | 7 |
 >

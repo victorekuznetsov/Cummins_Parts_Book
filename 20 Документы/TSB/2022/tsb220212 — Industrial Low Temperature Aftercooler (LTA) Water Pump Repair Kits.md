@@ -128,7 +128,7 @@ tags:
 | Таблица 4, Связанные публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QST30 CM552 | 4021539 | Низкотемпературный (LTA) водяной насос | См. процедуру 008-109 | 8 |
+| Руководство по обслуживанию | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Низкотемпературный (LTA) водяной насос | См. процедуру 008-109 | 8 |
 | Руководство по обслуживанию | QST30 CM2350 T101 | 5467179 | Низкотемпературный (LTA) водяной насос | См. процедуру 008-109 | 8 |
 | Руководство по обслуживанию | QST30 CM2350 T103C | 6309062 | Низкотемпературный (LTA) водяной насос | См. процедуру 008-109 | 8 |
 
@@ -221,7 +221,7 @@ tags:
 > | Table 4, Associated Publications |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QST30 CM552 | 4021539 | Low-Temperature (LTA) Water Pump | Refer to Procedure 008-109 | 8 |
+> | Service Manual | QST30 CM552 | [[4021539 — QST30 Service Manual\|4021539]] | Low-Temperature (LTA) Water Pump | Refer to Procedure 008-109 | 8 |
 > | Service Manual | QST30 CM2350 T101 | 5467179 | Low-Temperature (LTA) Water Pump | Refer to Procedure 008-109 | 8 |
 > | Service Manual | QST30 CM2350 T103C | 6309062 | Low-Temperature (LTA) Water Pump | Refer to Procedure 008-109 | 8 |
 >

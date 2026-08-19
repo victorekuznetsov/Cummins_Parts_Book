@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Служба/Части» пересматривает заявление о верхних основных несущих оболочках в разделе общей информации (Подшипники, Основная) Процедуры, Процедуры 001-006 для двигателей 6C, C8.3, C8.3G, C Gas Plus и L Gas Plus в Руководстве по устранению и ремонту серии C, Вестник 3666003 и Двигатели C8.3G, C Gas Plus и L Gas Plus, Руководство по устранению и ремонту неполадок, Вестник 3666206.
+Эта тема «Служба/Части» пересматривает заявление о верхних основных несущих оболочках в разделе общей информации (Подшипники, Основная) Процедуры, Процедуры 001-006 для двигателей 6C, C8.3, C8.3G, C Gas Plus и L Gas Plus в Руководстве по устранению и ремонту серии C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]] и Двигатели C8.3G, C Gas Plus и L Gas Plus, Руководство по устранению и ремонту неполадок, Вестник 3666206.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises a statement about the upper main bearing shells in the General Information Section of the (Bearings, Main) Procedure, Procedure 001-006 for 6C, C8.3, C8.3G, C Gas Plus, and L Gas Plus engines in the C Series Troubleshooting and Repair Manual, Bulletin 3666003 and the C8.3G, C Gas Plus, and L Gas Plus Engines, Troubleshooting and Repair Manual, Bulletin 3666206.
+> This Service/Parts Topic revises a statement about the upper main bearing shells in the General Information Section of the (Bearings, Main) Procedure, Procedure 001-006 for 6C, C8.3, C8.3G, C Gas Plus, and L Gas Plus engines in the C Series Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]] and the C8.3G, C Gas Plus, and L Gas Plus Engines, Troubleshooting and Repair Manual, Bulletin 3666206.

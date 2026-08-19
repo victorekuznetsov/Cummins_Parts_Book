@@ -71,7 +71,7 @@ tags:
 
 Возможные причины:
 
-- Неисправный турбонаддув турбины обходного клапана.[[41-010-050 — Turbocharger Wastegate Actuator|См. процедуру 010-050]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень 3666003.
+- Неисправный турбонаддув турбины обходного клапана.[[41-010-050 — Turbocharger Wastegate Actuator|См. процедуру 010-050]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 - Неисправный датчик.
 
@@ -105,7 +105,7 @@ tags:
 >
 > Possible causes:
 >
-> - Malfunctioning turbocharger wastegate. [[41-010-050 — Turbocharger Wastegate Actuator|Refer to Procedure 010-050]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> - Malfunctioning turbocharger wastegate. [[41-010-050 — Turbocharger Wastegate Actuator|Refer to Procedure 010-050]] in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 >
 > - A faulty sensor.
 >

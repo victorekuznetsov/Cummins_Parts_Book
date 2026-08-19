@@ -49,13 +49,13 @@ tags:
 
 | Номер бюллетеня | Название публикации |
 |---|---|
-| 4021539 | QST30: сервисное руководство |
+| [[4021539 — QST30 Service Manual\|4021539]] | QST30: сервисное руководство |
 | 3666239 | Руководство по устранению неполадок и ремонту, подпись, двигатели ISX и QSX15 |
 | 3666261 | Руководство по устранению неполадок и ремонту, топливная система QSK, двигатели QSK45/60 |
 | 3666727 | Руководство по устранению неполадок и ремонту, двигатели QSK78 |
 | 4021375 | Руководство по устранению неполадок и ремонту, двигатели QSK23 |
 | 3666190 | QST30 Магазинное руководство |
-| 3666134 | Руководство по эксплуатации и техническому обслуживанию, QST30 |
+| [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Руководство по эксплуатации и техническому обслуживанию, QST30 |
 | 3666260 | Руководство по эксплуатации и техническому обслуживанию, топливная система QSK, двигатели QSK45/60 |
 | 3666714 | Руководство по эксплуатации и техническому обслуживанию, двигатели QSK78 |
 | 4021374 | Руководство по эксплуатации и техническому обслуживанию, двигатели QSK23 |
@@ -85,13 +85,13 @@ tags:
 >
 > | Bulletin Number | Title of Publication |
 > |---|---|
-> | 4021539 | QST30 Service Manual |
+> | [[4021539 — QST30 Service Manual\|4021539]] | QST30 Service Manual |
 > | 3666239 | Troubleshooting and Repair Manual, Signature, ISX, and QSX15 Engines |
 > | 3666261 | Troubleshooting and Repair Manual, QSK Fuel System, QSK45/60 Engines |
 > | 3666727 | Troubleshooting and Repair Manual, QSK78 Engines |
 > | 4021375 | Troubleshooting and Repair Manual, QSK23 Engines |
 > | 3666190 | QST30 Shop Manual |
-> | 3666134 | Operation and Maintenance Manual, QST30 |
+> | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Operation and Maintenance Manual, QST30 |
 > | 3666260 | Operation and Maintenance Manual, QSK Fuel System, QSK45/60 Engines |
 > | 3666714 | Operation and Maintenance Manual, QSK78 Engines |
 > | 4021374 | Operation and Maintenance Manual, QSK23 Engines |

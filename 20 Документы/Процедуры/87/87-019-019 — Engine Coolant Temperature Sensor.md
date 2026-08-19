@@ -87,7 +87,7 @@ tags:
 
 Слейте охлаждающую жидкость.
 
-Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ra800qa.png]]
 
@@ -114,7 +114,7 @@ tags:
 
 Заполните систему охлаждения и работайте с двигателем, чтобы проверить наличие утечек.
 
-Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[19400382.png]]
 
@@ -155,7 +155,7 @@ tags:
 >
 > Drain the cooling system.
 >
-> Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
 >
 > Lift up on the locking tab and pull the electrical connectors apart.
 >
@@ -176,4 +176,4 @@ tags:
 >
 > Fill the cooling system and operate the engine to check for leaks.
 >
-> Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]

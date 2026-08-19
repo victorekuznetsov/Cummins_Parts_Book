@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Тематика сервиса/частей пересматривает модельное дерево 3666003-t105 для двигателей серии C и C8.3. Ненужные шаги удаляются, и на этапе 4 «Коррекция» изменяется справочный бюллетень.
+Тематика сервиса/частей пересматривает модельное дерево [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t105 для двигателей серии C и C8.3. Ненужные шаги удаляются, и на этапе 4 «Коррекция» изменяется справочный бюллетень.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Symptom Tree 3666003-t105 for C and C8.3 Series engines. Unnecessary steps are removed and a reference bulletin is changed in 'Correction' step 4.
+> This Service/Parts Topic revises Symptom Tree [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t105 for C and C8.3 Series engines. Unnecessary steps are removed and a reference bulletin is changed in 'Correction' step 4.

@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема «Служба/Части» пересматривает Процедура 006-026 (форсунка) в разделе 9 Руководства по эксплуатации и техническому обслуживанию QSK19 и модульной общей железнодорожной системы QSK19 CM850, Бюллетень 3666120. Эта процедура рекомендует замену форсунки при сроке службы двигателя для восстановления.
+Эта тема «Служба/Части» пересматривает Процедура 006-026 (форсунка) в разделе 9 Руководства по эксплуатации и техническому обслуживанию QSK19 и модульной общей железнодорожной системы QSK19 CM850, Бюллетень [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. Эта процедура рекомендует замену форсунки при сроке службы двигателя для восстановления.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic revises Procedure 006-026 (Injector) in Section 9 of the Operation and Maintenance Manual QSK19 and QSK19 CM850 Modular Common Rail System, Bulletin 3666120. This procedure recommends injector replacement at engine half life to rebuild.
+> This Service/Parts Topic revises Procedure 006-026 (Injector) in Section 9 of the Operation and Maintenance Manual QSK19 and QSK19 CM850 Modular Common Rail System, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. This procedure recommends injector replacement at engine half life to rebuild.

@@ -50,7 +50,7 @@ tags:
 
 ### Содержание
 
-Эта тема заменяет Процедуру 010-057 (Давление на впускной коллектор) в Руководстве по устранению неполадок и ремонту, Двигатели серии C, Вестник 3666003.
+Эта тема заменяет Процедуру 010-057 (Давление на впускной коллектор) в Руководстве по устранению неполадок и ремонту, Двигатели серии C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -62,4 +62,4 @@ tags:
 >
 > ### Contents
 >
-> This Service/Parts Topic replaces Procedure 010-057 (Intake Manifold Pressure) in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> This Service/Parts Topic replaces Procedure 010-057 (Intake Manifold Pressure) in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].

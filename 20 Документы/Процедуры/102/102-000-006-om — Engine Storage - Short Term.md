@@ -45,10 +45,10 @@ tags:
 
 ### Общие сведения
 
-Если двигатель выйдет из эксплуатации менее чем за 12 месяцев, должны быть приняты специальные меры предосторожности. Следуйте процедуре краткосрочного хранения в Руководстве по устранению неполадок и ремонту для электронной системы управления CENTRYTM, Бюллетень 3666070, или см. GTA38, K38, K50, QSK38 и Руководство по обслуживанию QSK50, Бюллетень 4021528. Если требуется дополнительная помощь, обратитесь в ближайшее авторизованное место ремонта Cummins® для получения дополнительной информации.
+Если двигатель выйдет из эксплуатации менее чем за 12 месяцев, должны быть приняты специальные меры предосторожности. Следуйте процедуре краткосрочного хранения в Руководстве по устранению неполадок и ремонту для электронной системы управления CENTRYTM, Бюллетень 3666070, или см. GTA38, K38, K50, QSK38 и Руководство по обслуживанию QSK50, Бюллетень [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Если требуется дополнительная помощь, обратитесь в ближайшее авторизованное место ремонта Cummins® для получения дополнительной информации.
 
 
 > [!quote]- Original (English) · английский оригинал
 > ### General Information
 >
-> If the engine will out of service in less than 12 months, special precautions **must** be taken. Follow the short term storage procedure in the Troubleshooting and Repair Manual for the CENTRY™ Electronic Control System, Bulletin 3666070, or see the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528. If further assistance is required, contact the nearest Cummins® Authorized Repair Location for additional information.
+> If the engine will out of service in less than 12 months, special precautions **must** be taken. Follow the short term storage procedure in the Troubleshooting and Repair Manual for the CENTRY™ Electronic Control System, Bulletin 3666070, or see the GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. If further assistance is required, contact the nearest Cummins® Authorized Repair Location for additional information.

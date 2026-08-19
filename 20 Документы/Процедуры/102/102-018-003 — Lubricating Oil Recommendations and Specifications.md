@@ -62,7 +62,7 @@ tags:
 
 Использование качественных смазочных масел двигателя и соответствующих интервалов слива и изменения фильтра масла являются критическими факторами в поддержании производительности и долговечности двигателя.
 
-Cummins Inc. Рекомендует использовать моторное масло, соответствующее требованиям Cummins® Engineering Standards (CES) 20086, American Petroleum Institute (API) CK-4, **только** в двигателях с ультранизким содержанием серы дизельным (менее 15 ppm). CES 20081 (API CJ-4) также может использоваться при работе с дизельным топливом с ультранизким содержанием серы, но может потребовать снижения слива масла. При использовании более 15 ppm сернистого топлива рекомендуется использовать масла, соответствующие CES 20078 (API CI-4). CES 20076 или CES 20077 (API CH-4) также подходят для топлива с содержанием серы более 15 ppm. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406.[[00-378-003 — Engine Oil Classifications|См. процедуру 378-003 Раздел 4.]]
+Cummins Inc. Рекомендует использовать моторное масло, соответствующее требованиям Cummins® Engineering Standards (CES) 20086, American Petroleum Institute (API) CK-4, **только** в двигателях с ультранизким содержанием серы дизельным (менее 15 ppm). CES 20081 (API CJ-4) также может использоваться при работе с дизельным топливом с ультранизким содержанием серы, но может потребовать снижения слива масла. При использовании более 15 ppm сернистого топлива рекомендуется использовать масла, соответствующие CES 20078 (API CI-4). CES 20076 или CES 20077 (API CH-4) также подходят для топлива с содержанием серы более 15 ppm. См. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].[[00-378-003 — Engine Oil Classifications|См. процедуру 378-003 Раздел 4.]]
 
 Поставщики нефти несут ответственность за качество и производительность своей продукции.
 
@@ -84,14 +84,14 @@ Cummins Inc. Рекомендует использовать моторное м
 
 Телефон: (312) 644-6610
 
-Cummins Inc. Рекомендуется использовать масло на основе последних категорий производительности API. Для получения подробной информации о смазочных маслах для двигателей Cummins® обратитесь в авторизованное место ремонта Cummins® или см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень 5411406.
+Cummins Inc. Рекомендуется использовать масло на основе последних категорий производительности API. Для получения подробной информации о смазочных маслах для двигателей Cummins® обратитесь в авторизованное место ремонта Cummins® или см. Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
 ### Рекомендации по вязкости
 
 > [!warning] ОСТОРОЖНО
 > Когда используется односортное масло, убедитесь, что масло будет работать в пределах температурных диапазонов, как показано.
 
-Cummins Inc. Рекомендуется использовать многослойные смазочные масла 15Вт-40 в нормальных условиях. Для низких температур окружающей среды диаграмма справа показывает предпочтительные сорта вязкости масла и температуры. См. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406, для полного списка рекомендуемых оценок вязкости масла Общества автомобильных инженеров (SAE).
+Cummins Inc. Рекомендуется использовать многослойные смазочные масла 15Вт-40 в нормальных условиях. Для низких температур окружающей среды диаграмма справа показывает предпочтительные сорта вязкости масла и температуры. См. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для полного списка рекомендуемых оценок вязкости масла Общества автомобильных инженеров (SAE).
 
 Односортные масла могут быть заменены на короткие периоды до тех пор, пока не будет получена рекомендуемая многосортная продукция. Арктические масла доступны на коммерческой основе с лучшими низкотемпературными свойствами. Проконсультируйтесь с вашим поставщиком.
 
@@ -120,7 +120,7 @@ Cummins Inc. Рекомендуется использовать многосл�
 >
 > The use of quality engine lubricating oils and appropriate oil drain and filter change intervals are critical factors in maintaining engine performance and durability.
 >
-> Cummins Inc. recommends the use of engine oil that meets the requirements of Cummins® Engineering Standards (CES) 20086, American Petroleum Institute (API) CK-4, **only** in engines with ultra low sulphur diesel (less than 15 ppm). CES 20081 (API CJ-4) may also be used when operating with ultra low sulphur diesel but may require reduced oil drains. When using greater than 15 ppm sulphur fuel, oils meeting CES 20078 (API CI-4), are recommended. CES 20076 or CES 20077 (API CH-4) are also suitable with fuels greater than 15 ppm sulphur. See Fluids for Cummins® Products Service Manual, Bulletin 5411406. [[00-378-003 — Engine Oil Classifications|Refer to Procedure 378-003 Section 4.]]
+> Cummins Inc. recommends the use of engine oil that meets the requirements of Cummins® Engineering Standards (CES) 20086, American Petroleum Institute (API) CK-4, **only** in engines with ultra low sulphur diesel (less than 15 ppm). CES 20081 (API CJ-4) may also be used when operating with ultra low sulphur diesel but may require reduced oil drains. When using greater than 15 ppm sulphur fuel, oils meeting CES 20078 (API CI-4), are recommended. CES 20076 or CES 20077 (API CH-4) are also suitable with fuels greater than 15 ppm sulphur. See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. [[00-378-003 — Engine Oil Classifications|Refer to Procedure 378-003 Section 4.]]
 >
 > The oil suppliers are responsible for the quality and performance of their product.
 >
@@ -142,14 +142,14 @@ Cummins Inc. Рекомендуется использовать многосл�
 >
 > Phone: (312) 644-6610
 >
-> Cummins Inc. recommends the use of oil based on the most recent API performance categories. For details on lubricating oils for Cummins® engines, contact a Cummins® Authorized Repair Location or see Fluids for Cummins® Products Service Manual, Bulletin 5411406.
+> Cummins Inc. recommends the use of oil based on the most recent API performance categories. For details on lubricating oils for Cummins® engines, contact a Cummins® Authorized Repair Location or see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 >
 > ### Viscosity Recommendations
 >
 > **CAUTION · Осторожно**
 > When single-grade oil is used, make sure the oil will be operating within the temperature ranges, as shown.
 >
-> Cummins Inc. recommends the use of 15W-40 multigrade lubricating oils normal conditions. For low ambient temperatures, the diagram on the right shows the preferred oil viscosity grades and temperatures. See Fluids for Cummins® Products Service Manual, Bulletin 5411406, for complete list of recommended Society of Automotive Engineers (SAE) oil viscosity grades.
+> Cummins Inc. recommends the use of 15W-40 multigrade lubricating oils normal conditions. For low ambient temperatures, the diagram on the right shows the preferred oil viscosity grades and temperatures. See Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for complete list of recommended Society of Automotive Engineers (SAE) oil viscosity grades.
 >
 > Single-grade oils can be substituted for short durations until the recommended multigrade is procured. Arctic condition oils are available commercially with better low temperature properties. Consult your supplier.
 >

@@ -200,9 +200,9 @@ tags:
 | Связанные процедуры |  |  |  |
 |---|---|---|---|
 | Название процедуры | Процедурный номер | Модельный сервис | Номер бюллетеня |
-| Электронный блок управления двигателем | [[82-019-031 — Engine Control Module\|См. процедуру 019-031]] | ISM11 CM570 QSM11 CM570 | 3666266 |
-| Жгут проводов двигателя | [[82-019-043-tr — Engine Wiring Harness\|См. процедуру 019-043]] | ISM11 CM570 QSM11 CM570 | 3666266 |
-| Датчик давления и температуры масла | [[82-019-155 — Oil Pressure Temperature Sensor\|См. процедуру 019-155]] | ISM11 CM570 QSM11 CM570 | 3666266 |
+| Электронный блок управления двигателем | [[82-019-031 — Engine Control Module\|См. процедуру 019-031]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+| Жгут проводов двигателя | [[82-019-043-tr — Engine Wiring Harness\|См. процедуру 019-043]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+| Датчик давления и температуры масла | [[82-019-155 — Oil Pressure Temperature Sensor\|См. процедуру 019-155]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -364,6 +364,6 @@ tags:
 > | Associated Procedures |  |  |  |
 > |---|---|---|---|
 > | Procedure Title | Procedure Number | Service Model Name | Bulletin Number |
-> | Engine Control Module | [[82-019-031 — Engine Control Module\|Refer to Procedure 019-031]] | ISM11 CM570 QSM11 CM570 | 3666266 |
-> | Engine Wiring Harness | [[82-019-043-tr — Engine Wiring Harness\|Refer to Procedure 019-043]] | ISM11 CM570 QSM11 CM570 | 3666266 |
-> | Oil Pressure/Temperature Sensor | [[82-019-155 — Oil Pressure Temperature Sensor\|Refer to Procedure 019-155]] | ISM11 CM570 QSM11 CM570 | 3666266 |
+> | Engine Control Module | [[82-019-031 — Engine Control Module\|Refer to Procedure 019-031]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+> | Engine Wiring Harness | [[82-019-043-tr — Engine Wiring Harness\|Refer to Procedure 019-043]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |
+> | Oil Pressure/Temperature Sensor | [[82-019-155 — Oil Pressure Temperature Sensor\|Refer to Procedure 019-155]] | ISM11 CM570 QSM11 CM570 | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] |

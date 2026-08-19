@@ -45,7 +45,7 @@ tags:
 
 ### Проверка при повторном использовании
 
-Убедитесь, что используется правильная крышка радиатора. См. процедуру 018-018 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Вестник 3666206 или Процедуру 018-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии C, Вестник 3666003.
+Убедитесь, что используется правильная крышка радиатора. См. процедуру 018-018 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Вестник 3666206 или Процедуру 018-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 Осмотрите резиновое уплотнение крышки радиатора на предмет повреждения.
 
@@ -67,7 +67,7 @@ tags:
 > [!quote]- Original (English) · английский оригинал
 > ### Inspect for Reuse
 >
-> Be sure the correct radiator cap is being used. Refer to Procedure 018-018 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus and L Gas Plus Engines, Bulletin 3666206 or Procedure 018-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin 3666003.
+> Be sure the correct radiator cap is being used. Refer to Procedure 018-018 in the Troubleshooting and Repair Manual, C8.3G, C Gas Plus and L Gas Plus Engines, Bulletin 3666206 or Procedure 018-018 in the Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 >
 > Inspect the rubber seal of the pressure cap for damage.
 >

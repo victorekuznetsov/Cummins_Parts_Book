@@ -59,7 +59,7 @@ tags:
 > [!danger] ОПАСНО
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели аккумуляторов) в разделе 13 в Руководстве по обслуживанию, QST30, Бюллетень 4021539.
+- Отсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели аккумуляторов) в разделе 13 в Руководстве по обслуживанию, QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -154,7 +154,7 @@ tags:
 > [!danger] ОПАСНО
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели аккумуляторов) в разделе 13 в Руководстве по обслуживанию, QST30, Бюллетень 4021539.
+- Подсоедините аккумуляторные батареи. См. процедуру 013-009 (Кабели аккумуляторов) в разделе 13 в Руководстве по обслуживанию, QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
 
@@ -171,7 +171,7 @@ tags:
 > **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
-> - Disconnect the batteries. Refer to Procedure 013-009 (Battery Cables) in Section 13 in the Service Manual, QST30, Bulletin 4021539.
+> - Disconnect the batteries. Refer to Procedure 013-009 (Battery Cables) in Section 13 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 >
 > ### Resistance Check
 >
@@ -252,4 +252,4 @@ tags:
 > **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
-> - Connect the batteries. Refer to Procedure 013-009 (Battery Cables) in Section 13 in the Service Manual, QST30, Bulletin 4021539.
+> - Connect the batteries. Refer to Procedure 013-009 (Battery Cables) in Section 13 in the Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]].

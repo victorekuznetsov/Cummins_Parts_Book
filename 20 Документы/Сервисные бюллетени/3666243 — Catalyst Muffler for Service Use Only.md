@@ -90,7 +90,7 @@ tags:
 Для получения инструкций по проведению измерений, посмотрите следующие публикации:
 
 - Руководство по устранению неполадок и ремонту, Сертификационные уровни двигателей серии В 1991 и 1994 годов, Бюллетень 3666087. См. процедуру.
-- Руководство по устранению неполадок и ремонту, Серия двигателей C 1991 и 1994 Уровни сертификации, Бюллетень 3666003. См. процедуру.
+- Руководство по устранению неполадок и ремонту, Серия двигателей C 1991 и 1994 Уровни сертификации, Бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. См. процедуру.
 
 > [!note] Примечание
 > Вышеупомянутая процедура испытания ** должна** выполняться при номинальной оборотной массе двигателя и нагрузке для надлежащей проверки заглубленного катализатора.
@@ -178,7 +178,7 @@ Cummins Inc. ** не** поставляет заменяющий катализ�
 > For instructions on taking measurements, look at the following publications:
 >
 > - Troubleshooting and Repair Manual, B Series Engines 1991 and 1994 Certification Levels, Bulletin 3666087. Refer to Procedure.
-> - Troubleshooting and Repair Manual, C Series Engines 1991 and 1994 Certification Levels, Bulletin 3666003. Refer to Procedure.
+> - Troubleshooting and Repair Manual, C Series Engines 1991 and 1994 Certification Levels, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. Refer to Procedure.
 >
 > **Note · Примечание**
 > The above test procedure **must** be run at the engine rated rpm and load for proper verification of plugged catalyst.

@@ -212,7 +212,7 @@ tags:
 | ** Условия: ** Топливный бак должен быть заполнен на 1⁄2 или меньше |  |  |
 |---|---|---|
 | **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Собрать образец топлива на входе топливного фильтра стадии 1. Визуально наблюдайте за цветом топлива. | Топливо чёрное? ** Ремонт: ** Двигатели, использующие системы пополнения масла Centinel, которые выбрасывают использованное масло в бак для возврата топлива, будут выглядеть черными. Проверьте клапан управления маслом Centinel для правильной работы. См. процедуру 007-078 в руководстве по ремонту Centinel Master, бюллетень 3666231. Если Centinel не используется, а топливо черное, проверьте источники загрязнения масла в топливную систему. Отправьте образец топлива для асфальтенового метода испытаний ASTM D6560. Если присутствуют асфальтены, используйте асфальтеновый кондиционер. | ** Ремонт завершен** |
+| Собрать образец топлива на входе топливного фильтра стадии 1. Визуально наблюдайте за цветом топлива. | Топливо чёрное? ** Ремонт: ** Двигатели, использующие системы пополнения масла Centinel, которые выбрасывают использованное масло в бак для возврата топлива, будут выглядеть черными. Проверьте клапан управления маслом Centinel для правильной работы. См. процедуру 007-078 в руководстве по ремонту Centinel Master, бюллетень [[3666231 — Centinel™ Master Repair Manual\|3666231]]. Если Centinel не используется, а топливо черное, проверьте источники загрязнения масла в топливную систему. Отправьте образец топлива для асфальтенового метода испытаний ASTM D6560. Если присутствуют асфальтены, используйте асфальтеновый кондиционер. | ** Ремонт завершен** |
 | Топливо чёрное? ** НЕТ** | ** Ремонт завершен** |  |
 
 ### История изменений документа
@@ -382,7 +382,7 @@ tags:
 > | **Conditions:** Equipment fuel tank must be ½ full or less |  |  |
 > |---|---|---|
 > | **Action** | **Specification/Repair** | **Next Step** |
-> | Collect a fuel sample at the inlet of the stage 1 fuel filter. Visually observe the color of the fuel. | Is fuel black? **YESRepair:** Engines using Centinel oil replenishing systems which discard used oil into the fuel return tank will appear black. Inspect the Centinel oil control valve for proper operation. Refer to the Centinel Oil Control Valve procedure 007-078 in the Centinel Master Repair Manual, bulletin 3666231. If Centinel is not being used, and fuel is black, check for sources of oil contamination into fuel system. Submit fuel sample for asphaltene test method ASTM D6560. If asphaltenes are present, use an asphaltene conditioner. | **Repaircomplete** |
+> | Collect a fuel sample at the inlet of the stage 1 fuel filter. Visually observe the color of the fuel. | Is fuel black? **YESRepair:** Engines using Centinel oil replenishing systems which discard used oil into the fuel return tank will appear black. Inspect the Centinel oil control valve for proper operation. Refer to the Centinel Oil Control Valve procedure 007-078 in the Centinel Master Repair Manual, bulletin [[3666231 — Centinel™ Master Repair Manual\|3666231]]. If Centinel is not being used, and fuel is black, check for sources of oil contamination into fuel system. Submit fuel sample for asphaltene test method ASTM D6560. If asphaltenes are present, use an asphaltene conditioner. | **Repaircomplete** |
 > | Is fuel black? **NO** | **Repaircomplete** |  |
 >
 > ### Document History

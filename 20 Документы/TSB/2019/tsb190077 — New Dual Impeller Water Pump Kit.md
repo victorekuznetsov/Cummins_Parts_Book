@@ -74,7 +74,7 @@ tags:
 
 **Указания по обслуживанию**
 
-- См. Service Manual, bulletin number 4021528. Справочная процедура 008-062 в разделе 8.
+- См. Service Manual, bulletin number [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Справочная процедура 008-062 в разделе 8.
 
 - См. Service Manual, bulletin number 4332823. Справочная процедура 008-062 в разделе 8.
 
@@ -122,7 +122,7 @@ tags:
 >
 > **Service Instructions**
 >
-> - See Service Manual, bulletin number 4021528. Reference procedure 008-062 in Section 8.
+> - See Service Manual, bulletin number [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. Reference procedure 008-062 in Section 8.
 >
 > - See Service Manual, bulletin number 4332823. Reference procedure 008-062 in Section 8.
 >

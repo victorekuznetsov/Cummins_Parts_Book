@@ -63,7 +63,7 @@ tags:
 
 ### Содержание
 
-В этом документе сообщается об изменениях в промышленном натяжном устройстве для ремней вентиляторов двигателя QST30. Бывшие схемы натяжения ремней вентилятора QST30 описаны в TSB 110003 и TSB 100650.
+В этом документе сообщается об изменениях в промышленном натяжном устройстве для ремней вентиляторов двигателя QST30. Бывшие схемы натяжения ремней вентилятора QST30 описаны в [[tsb110003 — New QST30 Industrial Fan Belt Tensioner\|TSB 110003]] и [[tsb100650 — New Fan Tensioner Options\|TSB 100650]].
 
 Новый натяжитель ремня вентилятора, Номер детали 2888890, заменяет натяжитель ремня вентилятора, Номер детали 4068467. Новый натяжитель ремня вентилятора имеет удерживающий элемент стержня с канавкой с кольцевым покрытием и кольцевым кольцом, номер детали 43463 А. Пересмотренный сборочный узел стержня управления, номер детали[[2888795]], лучше способен запечатать жидкость из натяжного устройства ремня вентилятора.
 
@@ -97,7 +97,7 @@ tags:
 | [[3402156]] |  | 1 | Гид, Весна |
 | [[4068466]] |  | 1 | Винтовка Hexagon Head Cap |
 
-Используйте следующую процедуру в Руководстве по эксплуатации, QST30, Бюллетень 4021539 для информации о сборке натяжителя ремня вентилятора.[[57-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
+Используйте следующую процедуру в Руководстве по эксплуатации, QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]] для информации о сборке натяжителя ремня вентилятора.[[57-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
 
 Это изменение дизайна предназначено для улучшения дизайна ** только ** и не влияет на гарантию. Если ремень вентилятора обнаружен на двигателе QST30, замените натяжитель ремня вентилятора на этот пересмотренный дизайн.
 
@@ -128,7 +128,7 @@ tags:
 >
 > ### Contents
 >
-> This document announces changes to the industrial fan belt tensioner for the QST30 engine. Former QST30 fan belt tensioner arrangements are explained in TSB 110003 and TSB 100650.
+> This document announces changes to the industrial fan belt tensioner for the QST30 engine. Former QST30 fan belt tensioner arrangements are explained in [[tsb110003 — New QST30 Industrial Fan Belt Tensioner\|TSB 110003]] and [[tsb100650 — New Fan Tensioner Options\|TSB 100650]].
 >
 > The new fan belt tensioner, Part Number 2888890, replaces fan belt tensioner, Part Number 4068467. The new fan belt tensioner has a control rod retainer with an o-ring groove and an o-ring, Part Number 43463 A. The revised control rod retainer assembly, Part Number [[2888795]], is better able to seal out liquid from the fan belt tensioner assembly.
 >
@@ -162,7 +162,7 @@ tags:
 > | [[3402156]] |  | 1 | Guide, Spring |
 > | [[4068466]] |  | 1 | Screw, Hexagon Head Cap |
 >
-> Use the following procedure in Service Manual, QST30, Bulletin 4021539 for fan belt tensioner assembly information. [[57-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
+> Use the following procedure in Service Manual, QST30, Bulletin [[4021539 — QST30 Service Manual\|4021539]] for fan belt tensioner assembly information. [[57-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
 >
 > This design change is for design improvement **only** and has no effect on warranty. If the fan belt is found seized on a QST30 engine, replace the fan belt tensioner with this revised design.
 >

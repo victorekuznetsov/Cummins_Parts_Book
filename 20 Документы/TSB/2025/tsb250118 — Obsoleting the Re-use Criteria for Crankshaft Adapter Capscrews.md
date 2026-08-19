@@ -79,9 +79,9 @@ tags:
 | Таблица 1, Публикации, затронутые |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | К50 | 4021528 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
-| Руководство по обслуживанию | QSK50 CM850 MCRS | 4021528 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
-| Руководство по обслуживанию | QSK50 CM2150 MCRS | 4021528 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | К50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM850 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
 | Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
 | Руководство по обслуживанию | QSK50 CM2350 K130 | 5504180 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
 
@@ -122,9 +122,9 @@ tags:
 > | Table 1, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | K50 | 4021528 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-> | Service Manual | QSK50 CM850 MCRS | 4021528 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-> | Service Manual | QSK50 CM2150 MCRS | 4021528 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | K50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM850 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
 > | Service Manual | QSK50 CM2350 K108 | 4332823 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
 > | Service Manual | QSK50 CM2350 K130 | 5504180 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
 >

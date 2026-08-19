@@ -108,7 +108,7 @@ Cummins Inc. Все биодизельные топливные смеси до�
 
 #### Для содействия в определении названия соответствующей модели обслуживания:
 
-- См. Technical Service Bulletin, Cummins® Service Engine Model Identification, TSB130080. Просмотрите соответствующие процедуры Cummins® Product Technology.
+- См. Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
 - Используйте QuickServeTM Online и введите серийный номер двигателя для обслуживаемого двигателя. QuickServe Online будет отображать название модели сервиса, связанное с введенным серийным номером двигателя.
 
 | Таблица 5, Допускается использование до B7 в соответствии с ASTM D7467** |  |  |
@@ -280,7 +280,7 @@ Cummins Inc. Все биодизельные топливные смеси до�
 >
 > #### For assistance in identifying the associated service model name:
 >
-> - See Technical Service Bulletin, Cummins® Service Engine Model Identification, TSB130080. Review the associated Cummins® Product Technology procedures.
+> - See Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
 > - Use QuickServe™ Online and enter the engine serial number for the engine being serviced. QuickServe™ Online will display the service model name associated with the engine serial number entered.
 >
 > | **Table 5, Acceptable Use Up to B7 in accordance with ASTM D7467** |  |  |

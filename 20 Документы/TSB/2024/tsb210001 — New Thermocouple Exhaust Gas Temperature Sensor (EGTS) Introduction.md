@@ -164,7 +164,7 @@ tags:
 
 Электронный модуль управления (ECM)
 
-Для распознавания, передачи и интерпретации сигналов датчиков термопар необходима пересмотренная калибровка ECM. Подробный обзор новой калибровки ECM будет представлен в отдельном TSB. См. Технический бюллетень службы, Типы датчиков выхлопных газов (EGT) и Стратегия отбора, TSB210137, для получения более подробной информации о новых калибровках ECM.
+Для распознавания, передачи и интерпретации сигналов датчиков термопар необходима пересмотренная калибровка ECM. Подробный обзор новой калибровки ECM будет представлен в отдельном TSB. См. Технический бюллетень службы, Типы датчиков выхлопных газов (EGT) и Стратегия отбора, [[tsb210137 — Exhaust Gas Temperature (EGT) Sensor Types and Selection Strategy\|TSB210137]], для получения более подробной информации о новых калибровках ECM.
 
 **Указания по обслуживанию**
 
@@ -227,8 +227,8 @@ tags:
 | Таблица 4, Затронутые публикации |  |  |  |  |  |
 |---|---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
-| Руководство по обслуживанию | QSK50 CM2150 MCRS | 4022102 | Преобразователь датчика температуры ОГ | [[122-019-450 — Exhaust Gas Temperature Sensor Converter\|См. процедуру 019-450]] | 19 |
-| Руководство по обслуживанию | QSK50 CM2150 MCRS | 4022102 | Датчик температуры отработавших газов | [[122-019-013 — Exhaust Temperature Sensor\|См. процедуру 019-013]] | 19 |
+| Руководство по обслуживанию | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | Преобразователь датчика температуры ОГ | [[122-019-450 — Exhaust Gas Temperature Sensor Converter\|См. процедуру 019-450]] | 19 |
+| Руководство по обслуживанию | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | Датчик температуры отработавших газов | [[122-019-013 — Exhaust Temperature Sensor\|См. процедуру 019-013]] | 19 |
 
 ### История изменений документа
 
@@ -341,7 +341,7 @@ tags:
 >
 > Electronic Control Module (ECM) Calibrations
 >
-> A revised ECM calibration is needed to recognize, transmit, and interpret the signals of the thermocouple sensors. A detail overview of the new ECM calibration will be covered in a separate TSB. See Technical Service Bulletin, Exhaust Gas Temperature (EGT) Sensor Types and Selection Strategy, TSB210137, for more details on the new ECM calibrations.
+> A revised ECM calibration is needed to recognize, transmit, and interpret the signals of the thermocouple sensors. A detail overview of the new ECM calibration will be covered in a separate TSB. See Technical Service Bulletin, Exhaust Gas Temperature (EGT) Sensor Types and Selection Strategy, [[tsb210137 — Exhaust Gas Temperature (EGT) Sensor Types and Selection Strategy\|TSB210137]], for more details on the new ECM calibrations.
 >
 > **Service Instructions**
 >
@@ -404,7 +404,7 @@ tags:
 > | Table 4, Publications Affected |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-> | Service Manual | QSK50 CM2150 MCRS | 4022102 | Exhaust Gas Temperature Sensor Converter | [[122-019-450 — Exhaust Gas Temperature Sensor Converter\|Refer to Procedure 019-450]] | 19 |
-> | Service Manual | QSK50 CM2150 MCRS | 4022102 | Exhaust Temperature Sensor | [[122-019-013 — Exhaust Temperature Sensor\|Refer to Procedure 019-013]] | 19 |
+> | Service Manual | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | Exhaust Gas Temperature Sensor Converter | [[122-019-450 — Exhaust Gas Temperature Sensor Converter\|Refer to Procedure 019-450]] | 19 |
+> | Service Manual | QSK50 CM2150 MCRS | [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]] | Exhaust Temperature Sensor | [[122-019-013 — Exhaust Temperature Sensor\|Refer to Procedure 019-013]] | 19 |
 >
 > ### Document History
