@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc133.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc133.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Remote Throttle Position Sensor Circuit
@@ -32,42 +35,90 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc133.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc133.pdf)
 
-### Fault Code: 133
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Remote Throttle Position Sensor Circuit
 
-Printable Version
+### Код неисправности: 133
 
-### Overview
+### Цепь датчика положения дистанционного органа управления
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 133 PID(P): P029 SPN: 974 FMI: 3/3 Lamp: Red SRT: | High voltage detected at the remote throttle position signal circuit. | None on performance if remote throttle is **not** used. |
+| Код неисправности: 133 P(P): P029 SPN: 974 FMI: 3/3 лампы: Красная СТО: | Высокое напряжение, обнаруженное в цепи сигнала удаленного положения дроссельной заслонки. | Ни один из них не работает, если используется удаленный дроссел ** не **. |
 
 ![[19c00110.png]]
 
-Remote Throttle Position Sensor Circuit
+Цепь датчика положения дистанционного органа управления
 
-### Circuit Description
+### Описание цепи
 
-The remote throttle pedal provides the driver's throttle command to the electronic control module (ECM) through the OEM harness and the OEM interface harness. The ECM uses this signal to determine the fueling command.
+Педаль дистанционного дроссельного заслонка обеспечивает команду дроссельного заслонка водителя электронному модулю управления (ECM) через OEM-проводку и OEM-интерфейс. ECM использует этот сигнал для определения команды заправки.
 
-### Component Location
+### Расположение компонента
 
-The remote throttle pedal location varies with each OEM. Refer to the OEM troubleshooting and repair manual.
+Удалённое расположение педали дросселя варьируется в зависимости от каждого OEM. См. руководство изготовителя машины по диагностике и ремонту.
 
-### Shoptalk
+### Практические замечания
 
-The throttle position sensor is a potentiometer. The throttle position sensor resistance specifications are:
+Датчик положения дроссельной заслонки представляет собой потенциометр. Спецификации сопротивления датчика положения дроссельной заслонки:
 
-- Between supply and return = 2000 to 3000 ohms
+- Между предложением и возвратом = 2000-3000 Ом
 
-- Between supply and signal: Released = 1500 to 3000 ohms, Depressed = 200 to 1500 ohms
+- Между поставкой и сигналом: Выпущено = 1500 до 3000 Ом, угнетено = 200 до 1500 Ом
 
-**Note:** If the throttle or throttle position sensor is replaced, or if a calibration download is performed, cycle the throttle pedal (turn keyswitch on) through its complete travel three times. This procedure calibrates the new throttle with the ECM.
+** Примечание:** Если дроссель или датчик положения дроссельной заслонки заменен или если выполняется загрузка калибровки, проведите педаль дроссельной заслонки (включите переключатель зажигания поворота) через ее полное перемещение три раза. Эта процедура калибрует новый дроссел с ECM.
 
-- The remote throttle enable switch **must** be turned on for the remote throttle to operate.
+- Удаленный дроссел позволяет включить переключатель **must** для работы удаленного дросселя.
 
-- Possible causes of this fault code include an open circuit in the return wire, short circuit to + 5 VDC or + 12 VDC, defective remote throttle position sensor, or a failed ECM power supply.
+- Возможные причины этого кода неисправности включают открытую цепь в обратном проводе, короткое замыкание до + 5 VDC или + 12 VDC, дефектный датчик положения дроссельной заслонки или неисправный источник питания ECM.
 
-Refer to Troubleshooting Fault Code t05-133
+Устранение неполадок код t05-133
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 133
+>
+> ### Remote Throttle Position Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 133 PID(P): P029 SPN: 974 FMI: 3/3 Lamp: Red SRT: | High voltage detected at the remote throttle position signal circuit. | None on performance if remote throttle is **not** used. |
+>
+> Remote Throttle Position Sensor Circuit
+>
+> ### Circuit Description
+>
+> The remote throttle pedal provides the driver's throttle command to the electronic control module (ECM) through the OEM harness and the OEM interface harness. The ECM uses this signal to determine the fueling command.
+>
+> ### Component Location
+>
+> The remote throttle pedal location varies with each OEM. Refer to the OEM troubleshooting and repair manual.
+>
+> ### Shoptalk
+>
+> The throttle position sensor is a potentiometer. The throttle position sensor resistance specifications are:
+>
+> - Between supply and return = 2000 to 3000 ohms
+>
+> - Between supply and signal: Released = 1500 to 3000 ohms, Depressed = 200 to 1500 ohms
+>
+> **Note:** If the throttle or throttle position sensor is replaced, or if a calibration download is performed, cycle the throttle pedal (turn keyswitch on) through its complete travel three times. This procedure calibrates the new throttle with the ECM.
+>
+> - The remote throttle enable switch **must** be turned on for the remote throttle to operate.
+>
+> - Possible causes of this fault code include an open circuit in the return wire, short circuit to + 5 VDC or + 12 VDC, defective remote throttle position sensor, or a failed ECM power supply.
+>
+> Refer to Troubleshooting Fault Code t05-133

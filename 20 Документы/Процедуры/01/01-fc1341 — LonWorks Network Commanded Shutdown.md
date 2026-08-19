@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1341.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1341.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # LonWorks Network Commanded Shutdown
@@ -33,24 +36,54 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1341.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1341.pdf)
 
-### Fault Code: 1341
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### LonWorks Network Commanded Shutdown
 
-Printable Version
+### Код неисправности: 1341
 
-### Overview
+### Команда останова по сети LonWorks
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1341 PCODE(P): SPN: FMI: Lamp: None SRT: | The paralleling controller has requested a generator shutdown. | The generator will shutdown. |
+| Код неисправности: 1341 PCODE(P): СПН: ФМИ: Лампа: Нет, не srt: | Контроллер параллелизма запросил отключение генератора. | Генератор будет отключен. |
 
 ![[19802649.png]]
 
-Generator Set ECM Card Cage
+Генератор установил ECM-картонную клетку
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1341
+См. Код устранения неполадок t05-1341
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1341
+>
+> ### LonWorks Network Commanded Shutdown
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1341 PCODE(P): SPN: FMI: Lamp: None SRT: | The paralleling controller has requested a generator shutdown. | The generator will shutdown. |
+>
+> Generator Set ECM Card Cage
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1341

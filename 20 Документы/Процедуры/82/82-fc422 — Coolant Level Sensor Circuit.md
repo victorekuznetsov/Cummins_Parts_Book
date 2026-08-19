@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc422.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc422.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Coolant Level Sensor Circuit
@@ -32,38 +35,82 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc422.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc422.pdf)
 
-### Fault Code: 422
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Coolant Level Sensor Circuit
 
-Printable Version
+### Код неисправности: 422
 
-### Overview
+### Цепь датчика уровня охлаждающей жидкости
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 422 PID(P): P111 SPN: 111 FMI: 2/2 Lamp: Yellow SRT: | Voltage detected simultaneously on both the coolant level high and low signal circuits **or** no voltage detected on **both** circuits. | No engine protection for coolant level. |
+| Код неисправности: 422 PID(P): P111 SPN: 111 FMI: 2/2 лампы: Желтая СТО: | Напряжение, обнаруживаемое одновременно как на высоко-, так и на низко-сигнальных цепях уровня охлаждающей жидкости ** или **, не обнаруживается на ** обеих цепях***. | Отсутствие защиты двигателя для уровня охлаждающей жидкости. |
 
 ![[19c00538.png]]
 
-Coolant Level Sensor Circuit
+Цепь датчика уровня охлаждающей жидкости
 
-### Circuit Description
+### Описание цепи
 
-The coolant level sensor monitors the coolant level within the coolant system and passes information to the electronic control module (ECM) through the sensor harness. This sensor is very complex. Do **not** use a multimeter to check the coolant level sensor. If the radiator coolant level drops below a certain level, a power derate will occur and become greater as time goes by.
+Датчик уровня охлаждающей жидкости контролирует уровень охлаждающей жидкости в системе охлаждающей жидкости и передает информацию в электронный модуль управления (ECM) через проводку датчика. Этот датчик очень сложный. **Не используйте мультиметр для проверки датчика уровня охлаждающей жидкости. Если уровень охлаждающей жидкости радиатора падает ниже определенного уровня, произойдет снижение мощности и со временем станет больше.
 
-### Component Location
+### Расположение компонента
 
-The coolant level sensor is located in the radiator top tank or surge tank.
+Датчик уровня охлаждающей жидкости расположен в верхнем резервуаре радиатора или резервуаре для перенапряжения.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes for this fault code include:
+Возможные причины этого кода неисправности включают:
 
-- Open circuit
+- Открытая схема
 
-- Short circuit to ground
+- Короткое замыкание на землю
 
-- Short circuit to another wire.
+- Короткое замыкание на другой провод.
 
-Refer to Troubleshooting Fault Code t05-422
+См. Код устранения неполадок t05-422
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 422
+>
+> ### Coolant Level Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 422 PID(P): P111 SPN: 111 FMI: 2/2 Lamp: Yellow SRT: | Voltage detected simultaneously on both the coolant level high and low signal circuits **or** no voltage detected on **both** circuits. | No engine protection for coolant level. |
+>
+> Coolant Level Sensor Circuit
+>
+> ### Circuit Description
+>
+> The coolant level sensor monitors the coolant level within the coolant system and passes information to the electronic control module (ECM) through the sensor harness. This sensor is very complex. Do **not** use a multimeter to check the coolant level sensor. If the radiator coolant level drops below a certain level, a power derate will occur and become greater as time goes by.
+>
+> ### Component Location
+>
+> The coolant level sensor is located in the radiator top tank or surge tank.
+>
+> ### Shoptalk
+>
+> Possible causes for this fault code include:
+>
+> - Open circuit
+>
+> - Short circuit to ground
+>
+> - Short circuit to another wire.
+>
+> Refer to Troubleshooting Fault Code t05-422

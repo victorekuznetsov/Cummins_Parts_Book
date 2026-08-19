@@ -26,6 +26,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-103-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-103-999.pdf"
 tags:
@@ -35,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Daily Maintenance Procedures - Overview
@@ -48,42 +51,90 @@ tags:
 > **Даты:** изменён 2012-06-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-103-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-103-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Preventative maintenance begins with day-to-day awareness of the system. Before starting the system, check the appropriate fluid levels. Look for:
 
-- Leaks
-- Loose or damaged parts
-- Worn or damaged belts
-- Worn or damage low and high voltage harnesses
-- Any change in system appearance.
-- Odor of fuel
-- Odor of electronic devices
+### Общие сведения
 
-### System Operation Report
+Профилактическое обслуживание начинается с ежедневного осознания системы. Перед запуском системы проверьте соответствующие уровни жидкости. Ищите:
 
-The system **must** be maintained in top mechanical and electronic condition if the operator is to get optimum satisfaction from its use. The maintenance department needs daily running reports from the operator to make necessary adjustments in the time allocated. The daily running report also helps to make provisions for more extensive maintenance work as the reports indicate the necessity.
+- Утечки
+- Свободные или поврежденные части
+- Изношенные или поврежденные ремни
+- Изношенные или поврежденные низко- и высоковольтные проводные ремни
+- Любые изменения в внешнем виде системы.
+- Запах топлива
+- Запах электронных устройств
 
-Comparison and intelligent interpretation of the daily report, along with a practical follow-up action, will eliminate most failures and emergency repairs.
+### Отчет о работе системы
 
-Report to the maintenance department any of the following conditions that may apply:
+Система должна поддерживаться в топовом механическом и электронном состоянии, если оператор хочет получить оптимальное удовлетворение от ее использования. Отделу технического обслуживания нужны ежедневные отчеты от оператора, чтобы внести необходимые коррективы в отведенное время. Ежедневный отчет также помогает обеспечить более обширные работы по техническому обслуживанию, поскольку отчеты указывают на необходимость.
 
-- Low lubricating oil pressure
-- Low power
-- Power increases or engine surge
-- Erratic or no accelerator control or response
-- Any warning lights flashing or staying on
-- Abnormal water or oil temperature
-- Unusual system noise
-- Excessive smoke
-- Excessive use of coolant, fuel, or lubricating oil
-- Any fuel, coolant, or lubricating oil leaks
-- Loose or damaged parts
-- Worn or damaged belts
-- Worn or damaged low or high voltage harnesses
+Сравнение и разумная интерпретация ежедневного отчета, наряду с практическими последующими действиями, устранят большинство сбоев и аварийного ремонта.
 
-### Unusual System Noise
+Сообщите в отдел технического обслуживания о любых из следующих условий, которые могут применяться:
 
-During daily maintenance checks, listen for any unusual system noise(s) that can indicate that service is required.
+- Низкое давление моторного масла
+- Низкая мощность
+- Увеличение мощности или скачок двигателя
+- Нерегулярный или отсутствие контроля или реакции ускорителя
+- Любые предупреждающие огни, мигающие или неподвижные
+- Аномальная температура воды или масла
+- Необычный системный шум
+- Чрезмерный дым
+- Чрезмерное использование хладагента, топлива или моторного масла
+- Любые утечки топлива, охлаждающей жидкости или моторного масла
+- Свободные или поврежденные части
+- Изношенные или поврежденные ремни
+- Изношенные или поврежденные низко или высоковольтные проводные ремни
+
+### Необычный системный шум
+
+Во время ежедневных проверок технического обслуживания слушайте любой необычный системный шум, который может указывать на необходимость обслуживания.
 
 ![[ew400kh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Preventative maintenance begins with day-to-day awareness of the system. Before starting the system, check the appropriate fluid levels. Look for:
+>
+> - Leaks
+> - Loose or damaged parts
+> - Worn or damaged belts
+> - Worn or damage low and high voltage harnesses
+> - Any change in system appearance.
+> - Odor of fuel
+> - Odor of electronic devices
+>
+> ### System Operation Report
+>
+> The system **must** be maintained in top mechanical and electronic condition if the operator is to get optimum satisfaction from its use. The maintenance department needs daily running reports from the operator to make necessary adjustments in the time allocated. The daily running report also helps to make provisions for more extensive maintenance work as the reports indicate the necessity.
+>
+> Comparison and intelligent interpretation of the daily report, along with a practical follow-up action, will eliminate most failures and emergency repairs.
+>
+> Report to the maintenance department any of the following conditions that may apply:
+>
+> - Low lubricating oil pressure
+> - Low power
+> - Power increases or engine surge
+> - Erratic or no accelerator control or response
+> - Any warning lights flashing or staying on
+> - Abnormal water or oil temperature
+> - Unusual system noise
+> - Excessive smoke
+> - Excessive use of coolant, fuel, or lubricating oil
+> - Any fuel, coolant, or lubricating oil leaks
+> - Loose or damaged parts
+> - Worn or damaged belts
+> - Worn or damaged low or high voltage harnesses
+>
+> ### Unusual System Noise
+>
+> During daily maintenance checks, listen for any unusual system noise(s) that can indicate that service is required.

@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-317.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-317.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Voltage Regulator
@@ -33,30 +36,60 @@ tags:
 > **Даты:** изменён 2003-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-317.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-317.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The voltage regulator is mounted in the controls box.
 
-Installation can vary.
+### Снятие
 
-Disconnect the 6-pin AMP connector 10 on the AC harness from the voltage regulator.
+Регулятор напряжения установлен в блоке управления.
+
+Установка может варьироваться.
+
+Отсоедините 6-контактный разъем AMP 10 на ремне электропроводки переменного тока от регулятора напряжения.
 
 ![[19802833.png]]
 
-Disconnect the 6-pin Deutsch connector 07 on the generator control harness from the voltage regulator.
+Отсоедините 6-контактный разъем Deutsch 07 на ремне управления генератором от регулятора напряжения.
 
-Remove the four capscrews that hold the voltage regulator to the controls box.
+Удалите четыре болта, которые удерживают регулятор напряжения в блок управления.
 
 ![[19803032.png]]
 
-### Install
+### Установка
 
-Install the new voltage regulator in the controls box. Tighten the four capscrews.
+Установите новый регулятор напряжения в блок управления. Затяните четыре болта.
 
-Connect the 6-pin Deutsch connector 07 on the generator control harness to the voltage regulator.
+Подключите 6-контактный разъем Deutsch 07 на ремне управления генератором к регулятору напряжения.
 
 ![[19803032.png]]
 
-Connect the 6-pin AMP connector 10 on the AC harness to the voltage regulator.
+Подключите 6-контактный разъем AMP 10 на ремне электропроводки переменного тока к регулятору напряжения.
 
 ![[19802833.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The voltage regulator is mounted in the controls box.
+>
+> Installation can vary.
+>
+> Disconnect the 6-pin AMP connector 10 on the AC harness from the voltage regulator.
+>
+> Disconnect the 6-pin Deutsch connector 07 on the generator control harness from the voltage regulator.
+>
+> Remove the four capscrews that hold the voltage regulator to the controls box.
+>
+> ### Install
+>
+> Install the new voltage regulator in the controls box. Tighten the four capscrews.
+>
+> Connect the 6-pin Deutsch connector 07 on the generator control harness to the voltage regulator.
+>
+> Connect the 6-pin AMP connector 10 on the AC harness to the voltage regulator.

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021617"
 figures: 69
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-023.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-023.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Customer Interface Box
@@ -32,481 +35,832 @@ tags:
 > **Даты:** изменён 2010-01-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-023.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Customer Interface Box
 
-Disconnect the C1, C2, C3, and C4 connectors at the bottom of the Customer Interface Box (CIB) panel. The data link has a protective cap and does **not** need to be removed unless the data link is in use.
+### Снятие
+
+Интерфейсная коробка заказчика
+
+Отсоедините разъемы C1, C2, C3 и C4 в нижней части панели клиентского интерфейса (CIB). Шина данных CAN имеет защитный колпачок и не должна быть удалена, если шина данных CAN не используется.
 
 ![[15400057.png]]
 
-Loosen the mounting bolts (1) on the CIB panel mounting brackets.
+Устранить крепежные болты (1) на монтажных скобках панели CIB.
 
 ![[15400059.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, make sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы уменьшить вероятность серьезных травм, убедитесь, что вам помогут или используют соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-Support the CIB panel.
+Поддерживайте панель CIB.
 
-Remove the four mounting bolts (1).
+Удалить четыре крепежных болта (1).
 
 ![[15400058.png]]
 
-Diesel Control Unit
+Дизельный блок управления
 
-Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+Убедитесь, что вся идентификация проводов прикреплена к проводам, прежде чем удалять разъемы разъемов для разъемов терминальной полосы с печатной платы.
 
-Disconnect the wires from the diesel control unit (DCU) by unplugging the terminal strips (1) from the circuit board.
+Отсоедините провода от блока управления дизельным топливом (DCU) путем отключения терминальных полос (1) от печатной платы.
 
 ![[15400060.png]]
 
-Disconnect the Ethernet Modbus™ connector (2) from the DCU.
+Отключите разъем Ethernet ModbusTM (2) от DCU.
 
 ![[15400061.png]]
 
-Remove the DCU mounting screws (1) from the front plate on the outside of the CIB.
+Удалите крепежные винты (1) DCU с передней пластины на внешней стороне CIB.
 
-Slide the DCU out of the front of the CIB panel.
+Выведите DCU из передней части панели CIB.
 
 ![[15400062.png]]
 
-Loosen the spring clamps that hold the circuit board, to aid in removal.
+Освободите пружинные зажимы, которые удерживают печатную плату, чтобы помочь в удалении.
 
-Use a flat head screwdriver to loosen the screw in the clamp.
+Используйте плоскую головную отвертку, чтобы ослабить винт в зажиме.
 
 ![[15400063.png]]
 
-Remove the DCU circuit board from the CIB and rail by pressing down and lifting outward at the bottom of the circuit board.
+Удалите печатную плату DCU из CIB и рельса, нажав и подняв наружу в нижней части печатной платы.
 
 ![[15400064.png]]
 
-Shutdown Unit
+Отряд отключения
 
-Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+Убедитесь, что вся идентификация проводов прикреплена к проводам, прежде чем удалять разъемы разъемов для разъемов терминальной полосы с печатной платы.
 
-Disconnect the wires from the shutdown unit (SDU) by unplugging the terminal strips (1) from the circuit board.
+Отсоедините провода от блока отключения (SDU) путем отключения терминальных полос (1) от печатной платы.
 
 ![[15400060.png]]
 
-Disconnect the Com 3 configuration Ethernet connector (2) from the SDU.
+Отключите конфигурационный Ethernet-разъем Com 3 (2) от SDU.
 
-Disconnect the Com 4 USB connector (3) from the SDU.
+Отключите разъем USB Com 4 (3) от SDU.
 
 ![[15400065.png]]
 
-Loosen the spring clamps that hold the circuit board, to aid in removal.
+Освободите пружинные зажимы, которые удерживают печатную плату, чтобы помочь в удалении.
 
-Use a flat head screwdriver to loosen the screw in the clamp.
+Используйте плоскую головную отвертку, чтобы ослабить винт в зажиме.
 
 ![[15400063.png]]
 
-Remove the SDU circuit board from the CIB and rail by pressing down and lifting outward on the bottom of the circuit board.
+Удалите печатную плату SDU из CIB и рельса, нажав и подняв наружу на нижней части печатной платы.
 
 ![[15400066.png]]
 
-Remote Input/Output Unit
+Удаленная ввод/вывод единицы
 
-Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+Убедитесь, что вся идентификация проводов прикреплена к проводам, прежде чем удалять разъемы разъемов для разъемов терминальной полосы с печатной платы.
 
-Disconnect the wires from the Remote Input/Output Unit (RIO) by unplugging the terminal strips (1) from the circuit board.
+Отсоедините провода от блока удаленного ввода/вывода (RIO) путем отключения терминальных полос (1) от печатной платы.
 
 ![[15400060.png]]
 
-Loosen the spring clamps that hold the circuit board, to aid in removal.
+Освободите пружинные зажимы, которые удерживают печатную плату, чтобы помочь в удалении.
 
-Use a flat head screwdriver to loosen the screw in the clamp.
+Используйте плоскую головную отвертку, чтобы ослабить винт в зажиме.
 
 ![[15400063.png]]
 
-Remove the RIO circuit board from the CIB and rail by pressing down and pulling outward on the bottom of the circuit board.
+Удалите печатную плату RIO из CIB и рельса, нажав и вытащив наружу на нижней части печатной платы.
 
 ![[15400067.png]]
 
-Engine Stop Button
+Кнопка остановки двигателя
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury and equipment damage, shipboard tag out and lock out procedures must be followed.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность травм и повреждения оборудования, необходимо соблюдать процедуры маркировки и блокировки судна.
 
-Make a note of the connection points of all wires.
+Обратите внимание на точки соединения всех проводов.
 
-Loosen the wire set screws and remove the wires from the switch.
+Освободите провода, запирающие винты, и удалите провода из выключателя.
 
-> [!note] Note · Примечание
-> Panels for the offshore drill rig application will have a third contact with corresponding wires in this location.
+> [!note] Примечание
+> Панели для применения буровой установки на шельфе будут иметь третий контакт с соответствующими проводами в этом месте.
 
 ![[15600154.png]]
 
-Loosen the bottom set screw.
+Освободите нижние запирающие винты.
 
-Lift the upper lever.
+Поднимите верхний рычаг.
 
-Pull the rear switch assembly off of the button.
+Выключите заднюю панель выключателя с кнопки.
 
 ![[15600155.png]]
 
-Slide the engine stop button out of the panel door.
+Вытащите кнопку остановки двигателя из двери панели.
 
 ![[15600156.png]]
 
 Power Switch
 
-Make a note of the connection points of all wires.
+Обратите внимание на точки соединения всех проводов.
 
-Loosen the wire set screws and remove the wires from the switch.
+Освободите провода, запирающие винты, и удалите провода из выключателя.
 
 ![[15600157.png]]
 
-Remove the switch assembly by turning the switch assembly **counterclockwise** and pulling outward.
+Удалите коммутаторную сборку, повернув коммутаторную сборку ** против часовой стрелки** и вытащив наружу.
 
 ![[15600158.png]]
 
-Turn the button mounting nut **counterclockwise** and remove the nut.
+Поверните кнопку крепления гайки ** против часовой стрелки** и удалите гайку.
 
-Slide the button out of the panel.
+Вытащите кнопку из панели.
 
 ![[15600159.png]]
 
-Ethernet Switch
+Ethernet коммутатор
 
-Disconnect the Ethernet cable from the Ethernet switch.
+Отключите кабель Ethernet от коммутатора Ethernet.
 
 ![[15600160.png]]
 
-Remove the cable tray cover.
+Снимите крышку кабельного лотка.
 
-Disconnect the Ethernet switch power connector.
+Отключите разъем питания коммутатора Ethernet.
 
 ![[15600161.png]]
 
-Loosen the terminal strip securing mechanism set screw.
+Освободите оконечную полосу, закрепляющую механизм, запирающий винты.
 
-Slide the terminal strip securing mechanism to the right as much as possible.
+Скользите с защитного механизма на правую сторону как можно больше.
 
-Place a flat head screwdriver in the bottom tab of the Ethernet switch.
+Поместите плоскую головную отвертку в нижнюю вкладку Ethernet-коммутатора.
 
-To remove the Ethernet switch, apply downward pressure on the screwdriver handle while lifting up on the Ethernet switch.
+Чтобы удалить Ethernet-коммутатор, нажмите вниз на ручку отвертки, поднимая на Ethernet-коммутаторе.
 
 ![[15600162.png]]
 
-Terminal Strip
+Терминал Стрип
 
-Remove the cable tray cover.
+Снимите крышку кабельного лотка.
 
-Remove the Ethernet switch.
+Удалите Ethernet-коммутатор.
 
 ![[15600161.png]]
 
-Make a note of the connection points of all wires.
+Обратите внимание на точки соединения всех проводов.
 
-Place a flat head screwdriver in the slot below the wire to be removed.
+Поместите плоскую головную отвертку в щель ниже провода, который необходимо удалить.
 
-Apply downward pressure on the screwdriver handle and remove the wire(s).
+Нанесите понижательное давление на ручку отвертки и удалите провод(ы).
 
 ![[15600164.png]]
 
-Place a flat head screwdriver in the upper slot of the connector.
+Поместите плоскую головную отвертку в верхний прорезь разъема.
 
-To remove the terminal strip connector, apply downward pressure on the screwdriver handle while lifting up on the connector.
+Чтобы снять разъём терминальной полосы, нажмите вниз на ручку отвертки, поднимая на разъем.
 
 ![[15600165.png]]
 
-Circuit Breaker
+Сквозной взломщик
 
-Make a note of the wire location of the wires on the circuit breaker.
+Запишите расположение проводов на выключателе.
 
-Loosen the set screws and remove the wires.
+Освободите запирающие винты и удалите провода.
 
 ![[17800123.png]]
 
-Place a flat head screwdriver in the lower release rectangle and move the handle upward to release the circuit breaker from the track.
+Поместите плоскую головную отвертку в нижний прямоугольник выпуска и переместите ручку вверх, чтобы освободить выключатель от дорожки.
 
-Remove the circuit breaker.
+Удалите выключатель.
 
 ![[17800124.png]]
 
-Logic Unit
+Логический блок
 
-Note all locations of the wires on the customer interface box logic unit.
+Обратите внимание на все местоположения проводов на логическом блоке клиентского интерфейса.
 
-Loosen the set screws on the wires.
+Освободите запирающие винты от проводов.
 
-Remove the wires from the customer interface box logic unit.
+Удалите провода из блока логики клиентского интерфейса.
 
 ![[17800125.png]]
 
-Press down on the top of the customer interface box logic unit.
+Нажмите вниз на верхнюю часть логического блока клиентского интерфейса.
 
-At the end of travel, pull outward on the bottom side.
+В конце путешествия вытяните наружу на нижнюю сторону.
 
-Remove the customer interface box logic unit.
+Удалите логический блок клиентского интерфейса.
 
 ![[17800126.png]]
 
-Conductor
+проводник
 
-Remove the associated cable tray covers (1).
+Удалите соответствующие крышки кабельного лотка (1).
 
 ![[17800127.png]]
 
-Note the location of the wire to be removed.
+Обратите внимание на расположение провода, который должен быть удален.
 
-Place the screwdriver in the square slot on the terminal strip.
+Поместите отвертку в квадратное отверстие на терминальной полосе.
 
-Move the handle in an downward motion and remove the wire.
+Переместите ручку в нисходящем движении и удалите провод.
 
 ![[17800149.png]]
 
-Remove the wire from the cable tray.
+Удалите провод из кабельного лотка.
 
-Remove the wire from the other connection point.
+Удалите провод из другой точки соединения.
 
 ![[17800150.png]]
 
-#### Engine Protection Override Relay
+#### Защита двигателя Override Relay
 
-- Solid state relay
-- Mounted in a block.
+- Твердое состояние реле
+- Вмонтирован в блок.
 
-Remove the cable tray cover.
+Снимите крышку кабельного лотка.
 
 ![[15600166.png]]
 
-Make a note of the connection points of all wires.
+Обратите внимание на точки соединения всех проводов.
 
-Loosen the engine protection override relay terminal screws.
+Устраните винты ретрансляционного терминала с защитой двигателя.
 
 ![[15600167.png]]
 
-Place a flat head screwdriver in the tab on the engine protection override relay block.
+Поместите плоскую головную отвертку во вкладку на блок реле защиты от переопределения двигателя.
 
-Apply downward pressure on the screwdriver handle while pushing up on the engine protection override relay block and remove the block and relay assembly.
+Нанесите понижающее давление на ручку отвертки, одновременно нажимая на блок реле защиты от двигателя и удалите блок и реле сборки.
 
 ![[15600168.png]]
 
-### Install
+### Установка
 
-Customer Interface Box
+Интерфейсная коробка заказчика
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, make sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы уменьшить вероятность серьезных травм, убедитесь, что вам помогут или используют соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-> [!warning] CAUTION · Осторожно
-> An isolator must be used when mounting a CIB panel. Vibration can damage the panel and internal components.
+> [!warning] ОСТОРОЖНО
+> При монтаже панели CIB необходимо использовать изолятор. Вибрация может повредить панель и внутренние компоненты.
 
-Support the CIB panel.
+Поддерживайте панель CIB.
 
-Install the four mounting bolts (1) through the panel and into the mounting brackets.
+Установите четыре крепежных болта (1) через панель и в крепежные скобки.
 
-Tighten the mounting bolts.
+Затягивайте крепежные болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 64 n•m [47 ft-lb]
+> [!tip] Момент затяжки
+> 64 Н·м [47 фунт-фут]
 
 ![[15400058.png]]
 
-Connect the C1, C2, C3, and C4 connectors at the bottom of the Customer Interface Box (CIB) panel. Connect the data link if it was previously disconnected.
+Подключите разъемы C1, C2, C3 и C4 в нижней части панели клиентского интерфейса (CIB). Подключите шину данных CAN, если она была ранее отключена.
 
 ![[15400057.png]]
 
-Diesel Control Unit
+Дизельный блок управления
 
-Install the diesel control unit (DCU) through the front of the CIB door and install the 4 mounting screws (1).
+Установите дизельный блок управления (DCU) через переднюю часть двери CIB и установите 4 крепежных винта (1).
 
-Tighten the screws.
+Закручивай винты.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.4 n•m [3.6 in-lb]
+> [!tip] Момент затяжки
+> 0.4 Н·м [3.6 фунт-дюйм]
 
 ![[15400062.png]]
 
-Connect the Ethernet Modbus™ connector (2) to the DCU.
+Подключите разъем Ethernet ModbusTM (2) к DCU.
 
 ![[15400061.png]]
 
-Make sure all wire identification on the terminal strip connector matches the DCU.
+Убедитесь, что вся идентификация проводов на разъеме терминальной полосы соответствует DCU.
 
-Connect the terminal strip connector (1) to the circuit board.
+Подключите концевой разъем (1) к плате.
 
 ![[15400060.png]]
 
-Shutdown Unit
+Отряд отключения
 
-Install the SDU circuit board by latching the unit on the top of the DIN rail and pressing the unit firmly into place.
+Установите печатную плату SDU, закрепив блок на верхней части рельса DIN и прочно прижав блок к месту.
 
-The unit will make an audible noise when it seats into position.
+Устройство будет издавать звуковой шум, когда оно садится в положение.
 
 ![[15400066.png]]
 
-If loosened for removal, tighten the spring clamps with a flat head screwdriver.
+Если ослабить для удаления, затянуть пружинные зажимы плоской отверткой головы.
 
 ![[15400063.png]]
 
-Connect the Com 3 configuration Ethernet connector (2) to the SDU.
+Подключите конфигурационный Ethernet-разъем Com 3 (2) к SDU.
 
-Connect the Com 4 USB connector (3) to the SDU.
+Подключите USB-разъем Com 4 (3) к SDU.
 
 ![[15400065.png]]
 
-Make sure all wire identification matches the circuit board.
+Убедитесь, что все провода идентификации совпадают с печатной платой.
 
-Connect the terminal strip connector (1) to the circuit board.
+Подключите концевой разъем (1) к плате.
 
 ![[15400060.png]]
 
-Remote Input/Output Unit
+Удаленная ввод/вывод единицы
 
-Install the RIO circuit board by latching the unit on the top of the DIN rail and pressing the unit firmly into place.
+Установите печатную плату RIO, закрепив блок на верхней части рельса DIN и прочно прижав блок к месту.
 
-The unit will make an audible noise when it seats into position.
+Устройство будет издавать звуковой шум, когда оно садится в положение.
 
 ![[15400067.png]]
 
-If loosened for removal, tighten the spring clamps with a flat head screwdriver.
+Если ослабить для удаления, затянуть пружинные зажимы плоской отверткой головы.
 
 ![[15400063.png]]
 
-Make sure all wire identification matches the circuit board.
+Убедитесь, что все провода идентификации совпадают с печатной платой.
 
-Connect the terminal strip connector (1) to the circuit board.
+Подключите концевой разъем (1) к плате.
 
 ![[15400060.png]]
 
-Engine Stop Button
+Кнопка остановки двигателя
 
-Slide the engine stop button into the panel door.
+Нажмите кнопку остановки двигателя на дверь панели.
 
 ![[15600156.png]]
 
-Lift the lever on the switch assembly and place onto the button.
+Поднимите рычаг на коммутаторе сборки и поместите на кнопку.
 
-Tighten the bottom set screw.
+Затяните нижние запирающие винты.
 
 ![[15600155.png]]
 
-Install the wires into the locations they were removed from.
+Установите провода в места, из которых они были удалены.
 
-Tighten the set screws.
+Закручивайте запирающие винты.
 
-> [!note] Note · Примечание
-> Panels for the offshore drill rig application will have a third contact and corresponding wires.
+> [!note] Примечание
+> Панели для применения на морской буровой установке будут иметь третий контакт и соответствующие провода.
 
 ![[15600154.png]]
 
 Power Switch
 
-Slide the button into the panel.
+Нажмите кнопку в панель.
 
-Install the button nut and tighten.
+Установите пуговицу гайки и затяните.
 
 ![[15600159.png]]
 
-Place the switch assembly onto the button assembly and push it until it snaps onto the button assembly.
+Поместите коммутатор на сборку кнопки и нажмите его, пока он не защелкнется на сборку кнопки.
 
-Install the wires into the locations they were removed from and tighten the set screws.
+Установите провода в места, из которых они были удалены, и затяните запирающие винты.
 
 ![[15600157.png]]
 
-Ethernet Switch
+Ethernet коммутатор
 
-Place the Ethernet switch on the din rail connector with the top of the switch connecting assembly on the top of the din rail.
+Поместите Ethernet-коммутатор на разъем din rail с верхней частью коммутатора, соединяющего сборку, на верхней части din rail.
 
-Push the bottom of the switch downwards until it snap onto the track.
+Нажмите на нижнюю часть выключателя вниз, пока он не зацепится за дорожку.
 
-Slide the terminal strip securing mechanism to the left and tighten the set screw.
+Сдвиньте защитный механизм терминальной полосы влево и затяните запирающие винты.
 
 ![[15600169.png]]
 
-Connect the Ethernet switch power connector.
+Подключите разъем питания коммутатора Ethernet.
 
-Install the cable tray cover.
+Установите крышку кабельного лотка.
 
 ![[15600161.png]]
 
-Connect the Ethernet cable to the Ethernet switch.
+Подключите кабель Ethernet к коммутатору Ethernet.
 
 ![[15600160.png]]
 
-Terminal Strip
+Терминал Стрип
 
-Position the upper leg of the terminal strip onto the track.
+Поместите верхнюю часть терминальной полосы на дорожку.
 
-Press the lower portion of the terminal strip until it snaps onto the track.
+Нажмите нижнюю часть терминальной полосы, пока она не зацепится за дорожку.
 
 ![[15600170.png]]
 
-Place a flat head screwdriver in the slot below the wire to be installed.
+Поместите плоскую головную отвертку в щель ниже провода, который будет установлен.
 
-Apply downward pressure on the screwdriver handle and install the wire(s).
+Нанесите понижательное давление на ручку отвертки и установите провод(ы).
 
-Install the cable tray cover.
+Установите крышку кабельного лотка.
 
 ![[15600164.png]]
 
-#### Engine Protection Override Relay
+#### Защита двигателя Override Relay
 
-- Solid state relay
-- Mounted in a block.
+- Твердое состояние реле
+- Вмонтирован в блок.
 
-Place the lower leg of the engine protection override relay block on the track.
+Поместите нижнюю ногу блока реле защиты двигателя на дорожку.
 
-Press the upper portion of the block until it snaps into place.
+Нажмите верхнюю часть блока, пока он не встанет на место.
 
 ![[15600171.png]]
 
-Install the wires into the engine protection override relay block.
+Установите провода в блок реле защиты от переопределения двигателя.
 
-Tighten the setscrews.
+Затяните экипажи.
 
-Install the cable tray cover.
+Установите крышку кабельного лотка.
 
 ![[15600167.png]]
 
-Circuit Breaker
+Сквозной взломщик
 
-Place the upper connecting tab on the track.
+Поместите верхнюю соединительную вкладку на дорожку.
 
-Push the lower portion of the circuit breaker until it locks onto the track.
+Нажмите нижнюю часть выключателя, пока он не заблокируется на дорожку.
 
 ![[17800134.png]]
 
-Install the wires into the noted locations and tighten the set screws.
+Установите провода в отмеченные места и затяните запирающие винты.
 
 ![[17800135.png]]
 
-Logic Unit
+Логический блок
 
-Place the upper portion of the logic unit on the track.
+Поместите верхнюю часть логического блока на дорожку.
 
-Push the lower portion of the logic unit until it locks onto the track.
+Нажмите нижнюю часть логического блока, пока он не заблокируется на дорожку.
 
 ![[17800136.png]]
 
-Install the wires into the noted locations and tighten the set screws.
+Установите провода в отмеченные места и затяните запирающие винты.
 
 ![[17800137.png]]
 
-Conductor
+проводник
 
-Route the wire through the cable tray to the associated connector.
+Проводите провод через кабельный лоток к связанному разъему.
 
 ![[17800150.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury and equipment damage, the wire must have the correct ferrule installed with the stripping and crimp tool.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность травм и повреждения оборудования, провод должен иметь правильное феррул, установленный с помощью инструмента для стриптиза и обжима.
 
-Strip the wire with the stripping and crimp tool, Part Number 4918722.
+Раздевайте проволоку с помощью инструмента для полоскания и обжимания, номер детали 4918722.
 
-Crimp the new ferrule onto the end of the wire.
+Нажмите новое феррул на конец провода.
 
 ![[17800139.png]]
 
-Place the screwdriver in the square slot on the terminal strip.
+Поместите отвертку в квадратное отверстие на терминальной полосе.
 
-Move the handle in an downward motion and insert the wire.
+Переместите ручку в нисходящем движении и вставьте провод.
 
 ![[17800149.png]]
 
-Install the cable tray covers (1).
+Установите крышки кабельного лотка (1).
 
 ![[17800127.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Customer Interface Box
+>
+> Disconnect the C1, C2, C3, and C4 connectors at the bottom of the Customer Interface Box (CIB) panel. The data link has a protective cap and does **not** need to be removed unless the data link is in use.
+>
+> Loosen the mounting bolts (1) on the CIB panel mounting brackets.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, make sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Support the CIB panel.
+>
+> Remove the four mounting bolts (1).
+>
+> Diesel Control Unit
+>
+> Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+>
+> Disconnect the wires from the diesel control unit (DCU) by unplugging the terminal strips (1) from the circuit board.
+>
+> Disconnect the Ethernet Modbus™ connector (2) from the DCU.
+>
+> Remove the DCU mounting screws (1) from the front plate on the outside of the CIB.
+>
+> Slide the DCU out of the front of the CIB panel.
+>
+> Loosen the spring clamps that hold the circuit board, to aid in removal.
+>
+> Use a flat head screwdriver to loosen the screw in the clamp.
+>
+> Remove the DCU circuit board from the CIB and rail by pressing down and lifting outward at the bottom of the circuit board.
+>
+> Shutdown Unit
+>
+> Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+>
+> Disconnect the wires from the shutdown unit (SDU) by unplugging the terminal strips (1) from the circuit board.
+>
+> Disconnect the Com 3 configuration Ethernet connector (2) from the SDU.
+>
+> Disconnect the Com 4 USB connector (3) from the SDU.
+>
+> Loosen the spring clamps that hold the circuit board, to aid in removal.
+>
+> Use a flat head screwdriver to loosen the screw in the clamp.
+>
+> Remove the SDU circuit board from the CIB and rail by pressing down and lifting outward on the bottom of the circuit board.
+>
+> Remote Input/Output Unit
+>
+> Make sure all wire identification is attached to the wires before removing the terminal strip plug connectors from the circuit board.
+>
+> Disconnect the wires from the Remote Input/Output Unit (RIO) by unplugging the terminal strips (1) from the circuit board.
+>
+> Loosen the spring clamps that hold the circuit board, to aid in removal.
+>
+> Use a flat head screwdriver to loosen the screw in the clamp.
+>
+> Remove the RIO circuit board from the CIB and rail by pressing down and pulling outward on the bottom of the circuit board.
+>
+> Engine Stop Button
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury and equipment damage, shipboard tag out and lock out procedures must be followed.
+>
+> Make a note of the connection points of all wires.
+>
+> Loosen the wire set screws and remove the wires from the switch.
+>
+> **Note · Примечание**
+> Panels for the offshore drill rig application will have a third contact with corresponding wires in this location.
+>
+> Loosen the bottom set screw.
+>
+> Lift the upper lever.
+>
+> Pull the rear switch assembly off of the button.
+>
+> Slide the engine stop button out of the panel door.
+>
+> Power Switch
+>
+> Make a note of the connection points of all wires.
+>
+> Loosen the wire set screws and remove the wires from the switch.
+>
+> Remove the switch assembly by turning the switch assembly **counterclockwise** and pulling outward.
+>
+> Turn the button mounting nut **counterclockwise** and remove the nut.
+>
+> Slide the button out of the panel.
+>
+> Ethernet Switch
+>
+> Disconnect the Ethernet cable from the Ethernet switch.
+>
+> Remove the cable tray cover.
+>
+> Disconnect the Ethernet switch power connector.
+>
+> Loosen the terminal strip securing mechanism set screw.
+>
+> Slide the terminal strip securing mechanism to the right as much as possible.
+>
+> Place a flat head screwdriver in the bottom tab of the Ethernet switch.
+>
+> To remove the Ethernet switch, apply downward pressure on the screwdriver handle while lifting up on the Ethernet switch.
+>
+> Terminal Strip
+>
+> Remove the cable tray cover.
+>
+> Remove the Ethernet switch.
+>
+> Make a note of the connection points of all wires.
+>
+> Place a flat head screwdriver in the slot below the wire to be removed.
+>
+> Apply downward pressure on the screwdriver handle and remove the wire(s).
+>
+> Place a flat head screwdriver in the upper slot of the connector.
+>
+> To remove the terminal strip connector, apply downward pressure on the screwdriver handle while lifting up on the connector.
+>
+> Circuit Breaker
+>
+> Make a note of the wire location of the wires on the circuit breaker.
+>
+> Loosen the set screws and remove the wires.
+>
+> Place a flat head screwdriver in the lower release rectangle and move the handle upward to release the circuit breaker from the track.
+>
+> Remove the circuit breaker.
+>
+> Logic Unit
+>
+> Note all locations of the wires on the customer interface box logic unit.
+>
+> Loosen the set screws on the wires.
+>
+> Remove the wires from the customer interface box logic unit.
+>
+> Press down on the top of the customer interface box logic unit.
+>
+> At the end of travel, pull outward on the bottom side.
+>
+> Remove the customer interface box logic unit.
+>
+> Conductor
+>
+> Remove the associated cable tray covers (1).
+>
+> Note the location of the wire to be removed.
+>
+> Place the screwdriver in the square slot on the terminal strip.
+>
+> Move the handle in an downward motion and remove the wire.
+>
+> Remove the wire from the cable tray.
+>
+> Remove the wire from the other connection point.
+>
+> #### Engine Protection Override Relay
+>
+> - Solid state relay
+> - Mounted in a block.
+>
+> Remove the cable tray cover.
+>
+> Make a note of the connection points of all wires.
+>
+> Loosen the engine protection override relay terminal screws.
+>
+> Place a flat head screwdriver in the tab on the engine protection override relay block.
+>
+> Apply downward pressure on the screwdriver handle while pushing up on the engine protection override relay block and remove the block and relay assembly.
+>
+> ### Install
+>
+> Customer Interface Box
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, make sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> An isolator must be used when mounting a CIB panel. Vibration can damage the panel and internal components.
+>
+> Support the CIB panel.
+>
+> Install the four mounting bolts (1) through the panel and into the mounting brackets.
+>
+> Tighten the mounting bolts.
+>
+> **Момент затяжки · Torque Value**
+> 64 n•m [47 ft-lb]
+>
+> Connect the C1, C2, C3, and C4 connectors at the bottom of the Customer Interface Box (CIB) panel. Connect the data link if it was previously disconnected.
+>
+> Diesel Control Unit
+>
+> Install the diesel control unit (DCU) through the front of the CIB door and install the 4 mounting screws (1).
+>
+> Tighten the screws.
+>
+> **Момент затяжки · Torque Value**
+> 0.4 n•m [3.6 in-lb]
+>
+> Connect the Ethernet Modbus™ connector (2) to the DCU.
+>
+> Make sure all wire identification on the terminal strip connector matches the DCU.
+>
+> Connect the terminal strip connector (1) to the circuit board.
+>
+> Shutdown Unit
+>
+> Install the SDU circuit board by latching the unit on the top of the DIN rail and pressing the unit firmly into place.
+>
+> The unit will make an audible noise when it seats into position.
+>
+> If loosened for removal, tighten the spring clamps with a flat head screwdriver.
+>
+> Connect the Com 3 configuration Ethernet connector (2) to the SDU.
+>
+> Connect the Com 4 USB connector (3) to the SDU.
+>
+> Make sure all wire identification matches the circuit board.
+>
+> Connect the terminal strip connector (1) to the circuit board.
+>
+> Remote Input/Output Unit
+>
+> Install the RIO circuit board by latching the unit on the top of the DIN rail and pressing the unit firmly into place.
+>
+> The unit will make an audible noise when it seats into position.
+>
+> If loosened for removal, tighten the spring clamps with a flat head screwdriver.
+>
+> Make sure all wire identification matches the circuit board.
+>
+> Connect the terminal strip connector (1) to the circuit board.
+>
+> Engine Stop Button
+>
+> Slide the engine stop button into the panel door.
+>
+> Lift the lever on the switch assembly and place onto the button.
+>
+> Tighten the bottom set screw.
+>
+> Install the wires into the locations they were removed from.
+>
+> Tighten the set screws.
+>
+> **Note · Примечание**
+> Panels for the offshore drill rig application will have a third contact and corresponding wires.
+>
+> Power Switch
+>
+> Slide the button into the panel.
+>
+> Install the button nut and tighten.
+>
+> Place the switch assembly onto the button assembly and push it until it snaps onto the button assembly.
+>
+> Install the wires into the locations they were removed from and tighten the set screws.
+>
+> Ethernet Switch
+>
+> Place the Ethernet switch on the din rail connector with the top of the switch connecting assembly on the top of the din rail.
+>
+> Push the bottom of the switch downwards until it snap onto the track.
+>
+> Slide the terminal strip securing mechanism to the left and tighten the set screw.
+>
+> Connect the Ethernet switch power connector.
+>
+> Install the cable tray cover.
+>
+> Connect the Ethernet cable to the Ethernet switch.
+>
+> Terminal Strip
+>
+> Position the upper leg of the terminal strip onto the track.
+>
+> Press the lower portion of the terminal strip until it snaps onto the track.
+>
+> Place a flat head screwdriver in the slot below the wire to be installed.
+>
+> Apply downward pressure on the screwdriver handle and install the wire(s).
+>
+> Install the cable tray cover.
+>
+> #### Engine Protection Override Relay
+>
+> - Solid state relay
+> - Mounted in a block.
+>
+> Place the lower leg of the engine protection override relay block on the track.
+>
+> Press the upper portion of the block until it snaps into place.
+>
+> Install the wires into the engine protection override relay block.
+>
+> Tighten the setscrews.
+>
+> Install the cable tray cover.
+>
+> Circuit Breaker
+>
+> Place the upper connecting tab on the track.
+>
+> Push the lower portion of the circuit breaker until it locks onto the track.
+>
+> Install the wires into the noted locations and tighten the set screws.
+>
+> Logic Unit
+>
+> Place the upper portion of the logic unit on the track.
+>
+> Push the lower portion of the logic unit until it locks onto the track.
+>
+> Install the wires into the noted locations and tighten the set screws.
+>
+> Conductor
+>
+> Route the wire through the cable tray to the associated connector.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury and equipment damage, the wire must have the correct ferrule installed with the stripping and crimp tool.
+>
+> Strip the wire with the stripping and crimp tool, Part Number 4918722.
+>
+> Crimp the new ferrule onto the end of the wire.
+>
+> Place the screwdriver in the square slot on the terminal strip.
+>
+> Move the handle in an downward motion and insert the wire.
+>
+> Install the cable tray covers (1).

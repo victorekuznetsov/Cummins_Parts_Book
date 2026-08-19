@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc253.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc253.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Level Number 1 Low - Critical
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc253.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc253.pdf)
 
-### Fault Code: 253
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Level Number 1 Low - Critical
 
-Printable Version
+### Код неисправности: 253
 
-### Overview
+### Низкий уровень масла №1 — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 253 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil level has dropped below the shutdown threshold for low oil level. | Engine will shut down. |
+| Код неисправности: 253 P(P): СПН: ФМИ: Лампа: Отключение SRT: | Уровень моторного масла упал ниже порога остановки для низкого уровня масла. | Двигатель отключится. |
 
 ![[19803623.png]]
 
-Oil Level Sensor Circuit
+Сенсорная схема уровня масла
 
-### Circuit Description
+### Описание цепи
 
-The oil level sensor monitors the oil level within the oil system and passes information to the ECM. Low oil level can cause the engine to **not** start.
+Датчик уровня масла контролирует уровень масла в нефтяной системе и передает информацию в ECM. Низкий уровень масла может привести к тому, что двигатель запустится.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams in Section E of this manual for the component location.
+См. диаграммы двигателя в разделе E этого руководства для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-Some engine configurations will use a 3-pin oil level sensor and others will use a 4-pin oil level sensor.
+В некоторых конфигурациях двигателя будет использоваться 3-контактный датчик уровня масла, а в других - 4-контактный датчик уровня масла.
 
-Refer to Troubleshooting Fault Code t05-253
+См. Код устранения неполадок t05-253
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 253
+>
+> ### Engine Oil Level Number 1 Low - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 253 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil level has dropped below the shutdown threshold for low oil level. | Engine will shut down. |
+>
+> Oil Level Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil level sensor monitors the oil level within the oil system and passes information to the ECM. Low oil level can cause the engine to **not** start.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams in Section E of this manual for the component location.
+>
+> ### Shoptalk
+>
+> Some engine configurations will use a 3-pin oil level sensor and others will use a 4-pin oil level sensor.
+>
+> Refer to Troubleshooting Fault Code t05-253

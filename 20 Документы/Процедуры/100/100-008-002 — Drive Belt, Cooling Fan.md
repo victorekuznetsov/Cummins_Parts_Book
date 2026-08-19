@@ -15,12 +15,15 @@ manuals:
   - "3666003"
   - "4021330"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-002.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -34,45 +37,88 @@ tags:
 > **Даты:** изменён 2006-10-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-002.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Using a socket extension is not recommended because it can cause axial twisting damage to the belt tensioner.
 
-> [!note] Note · Примечание
-> If a socket extension is necessary, support the head of the ratchet with one hand to prevent the belt tensioner arm from being subjected to unintended loading.
+### Снятие
+
+> [!warning] ОСТОРОЖНО
+> Использование растяжки не рекомендуется, потому что это может вызвать осевое скручивание повреждения натяжителя ремня.
+
+> [!note] Примечание
+> Если необходимо расширение розетки, поддержите головку скобы одной рукой, чтобы предотвратить непреднамеренную загрузку руки натяжителя ремня.
 
 ![[08d00392.png]]
 
-Lift the tensioner to remove the drive belt.
+Поднимите натяжитель, чтобы снять ремень привода.
 
-> [!note] Note · Примечание
-> The belt tensioner winds in the direction that the spring tang is bent over the tensioner body. To loosen the tension on the belt, rotate the tensioner to wind the spring tighter.
+> [!note] Примечание
+> Натяжитель ремня веет в направлении, в котором пружинный танг согнут над корпусом натяжителя. Чтобы ослабить напряжение на поясе, поверните натяжитель, чтобы затянуть пружину.
 
 ![[fa9toma.png]]
 
-> [!warning] CAUTION · Осторожно
-> Applying excessive force in the opposite direction of windup or after the tensioner has been wound up to the positive stop can cause the tensioner arm to break.
+> [!warning] ОСТОРОЖНО
+> Применение чрезмерной силы в противоположном направлении от обмотки или после того, как натяжитель был накручен до положительной остановки, может привести к разрыву натяжной руки.
 
 ![[fa9toaa.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the drive belt for:
+Осмотрите приводной ремень для:
 
-- Cracks
-- Glazing
-- Tears or cuts
-- Hardening
-- Excessive wear.
+- Трещины
+- остекление
+- Слезы или порезы
+- закаливание
+- Чрезмерная одежда.
 
 ![[fa8blsa.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+> [!warning] ОСТОРОЖНО
+> Натяжитель ремня загружен пружиной и должен быть отвлечен от приводного ремня. Разворот в неправильном направлении может привести к повреждению натяжителя ремня.
 
-Lift the tensioner to install the drive belt.
+Поднимите натяжитель, чтобы установить ремень привода.
 
 ![[17900012.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> Using a socket extension is not recommended because it can cause axial twisting damage to the belt tensioner.
+>
+> **Note · Примечание**
+> If a socket extension is necessary, support the head of the ratchet with one hand to prevent the belt tensioner arm from being subjected to unintended loading.
+>
+> Lift the tensioner to remove the drive belt.
+>
+> **Note · Примечание**
+> The belt tensioner winds in the direction that the spring tang is bent over the tensioner body. To loosen the tension on the belt, rotate the tensioner to wind the spring tighter.
+>
+> **CAUTION · Осторожно**
+> Applying excessive force in the opposite direction of windup or after the tensioner has been wound up to the positive stop can cause the tensioner arm to break.
+>
+> ### Inspect for Reuse
+>
+> Inspect the drive belt for:
+>
+> - Cracks
+> - Glazing
+> - Tears or cuts
+> - Hardening
+> - Excessive wear.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+>
+> Lift the tensioner to install the drive belt.

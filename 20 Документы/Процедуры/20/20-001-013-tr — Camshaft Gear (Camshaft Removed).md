@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 15
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-013-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Camshaft Gear (Camshaft Removed)
@@ -32,212 +35,402 @@ tags:
 > **Даты:** изменён 2006-06-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-013-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Camshaft keys are available in different sizes (amount of offset). The injection timing is controlled by:
 
-- The selection of the camshaft key
-- The direction of the key offset when compared to the camshaft gear rotation
-- The amount of offset
+### Общие сведения
 
-Check and record the direction of the key offset when compared to the camshaft gear rotation (same or opposite).
+Ключи Camshaft доступны в разных размерах (сумма смещения). Сроки введения контролируются:
 
-> [!note] Note · Примечание
-> Engines with electronically actuated injectors do not use off set timing keys.
+- Выбор ключа распределительного вала
+- Направление смещения ключа по сравнению с поворотом зубчатой передачи распределительного вала
+- Сумма компенсации
+
+Проверяйте и записывайте направление смещения ключа по сравнению с поворотом распределительного механизма (тот же или напротив).
+
+> [!note] Примечание
+> Двигатели с электронным топливным форсункой не используют выключенные клавиши времени.
 
 ![[ck4kema.png]]
 
-The camshaft key provides a means of indexing the camshaft with the gear.
+Ключ кулачкового вала обеспечивает средство индексации кулачкового вала с помощью шестерни.
 
-Offset keys allow the camshaft profile to be rotated slightly while the gear train timing remains the same.
+Смещение клавиш позволяет слегка повернуть профиль распределительного вала, в то время как время передачи остается тем же самым.
 
-The more the top of the offset is moved in the direction of the camshaft normal rotation, the more the injection timing will be retarded. The push rod travel numerical value will increase.
+Чем больше верхняя часть смещения перемещается в направлении нормального вращения распределительного вала, тем больше время впрыска будет отставать. Числовой показатель перемещения толкателя будет увеличиваться.
 
-> [!note] Note · Примечание
-> The direction of normal rotation on a QSK19 engine crankshaft is **clockwise** as viewed from the front of the engine.
+> [!note] Примечание
+> Направление нормального вращения коленчатого вала двигателя QSK19 составляет ** по часовой стрелке**, как видно из передней части двигателя.
 
 ![[00400010.png]]
 
-### Remove
+### Снятие
 
-Use a camshaft gear puller, Part Number 3824900, to remove camshaft gear.
+Используйте съёмник с кулачковым механизмом, номер детали 3824900, чтобы снять кулачковую передачу.
 
-Attach the puller to the gear. Remove the gear.
+Прикрепите съёмник к шестере. Снимите шестерёнку.
 
-Remove the key.
+Удалите ключ.
 
-Remove the puller.
+Уберите съёмник.
 
 ![[06400087.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Inspect the camshaft and camshaft gear for reuse. Check for fretting damage. The camshaft **must** be replaced if the fretting damage is more than 3 mm \[1/8 inch\] wide.
+Осмотрите распределительный вал и распределительное устройство для повторного использования. Проверьте, не причиняет ли он вреда. Распредвал *** должен быть заменен, если повреждение трения более 3 мм \[1/8 дюйма\] в ширину.
 
-Measure the outside diameter of the camshaft nose.
+Измерьте внешний диаметр носа распредвала.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 57.200 | MIN | 2.2520 |
-| 57.210 | MAX | 2.2524 |
+| 57.200 | Мин | 2.2520 |
+| 57.210 | Макс | 2.2524 |
 
 ![[cg400ta.png]]
 
-Inspect the camshaft. Refer to Procedure [[20-001-008-tr — Camshaft|001-008]].
+Проверьте распределительный вал. См. процедуру[[20-001-008-tr — Camshaft|001-008]].
 
 ![[01400057.png]]
 
-Inspect the camshaft gear for cracks, chipped or broken teeth.
+Осмотрите вал передач на наличие трещин, сколов или сломанных зубов.
 
-Inspect the bore of the gear for fretting or burrs.
+Осмотрите цилиндрический отсек шестерни на наличие трения или заусенцев.
 
-Measure the inside diameter
+Измерить внутренний диаметр
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 57.125 | MIN | 2.2490 |
-| 57.150 | MAX | 2.2500 |
+| 57.125 | Мин | 2.2490 |
+| 57.150 | Макс | 2.2500 |
 
-The gear **must** be replaced if the inside diameter is **not** within specification.
+Передача ** должна быть заменена, если внутренний диаметр ** не** в пределах спецификации.
 
 ![[06400084.png]]
 
-Inspect the thrust bearing for damage.
+Осмотрите подшипник тяги на предмет повреждения.
 
-Measure the thickness.
+Измерьте толщину.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 9.34 | MIN | 0.368 |
-| 9.44 | MAX | 0.372 |
+| 9.34 | Мин | 0.368 |
+| 9.44 | Макс | 0.372 |
 
 ![[01400029.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Inspect the back side of the gear for cracks, chipped, or broken bosses that the cam position sensor reads. The gear **must** be replaced if the bosses are damaged.
+Осмотрите заднюю сторону шестерни на наличие трещин, сколов или сломанных боссов, которые считывает датчик положения камеры. ****************************************************************************************************************************************************************************************************************************************************************
 
 ![[01400619.png]]
 
-### Magnetic Crack Inspect
+### Магнитный крэк-инспект
 
-> [!warning] CAUTION · Осторожно
-> Use a copper braid contact that has neoprene covers to reduce the possibility of burning the teeth of the gear.
+> [!warning] ОСТОРОЖНО
+> Используйте контакт медной косы, который имеет неопреновые крышки, чтобы уменьшить возможность сжигания зубов зубчатой передачи.
 
-If the gear contains a keyway, position the gear so that the keyway is pointing toward one of the contacts.
+Если передача содержит ключ, поместите передачу так, чтобы ключ указывал на один из контактов.
 
-Use a magnetic particle testing machine.
+Используйте машину для тестирования магнитных частиц.
 
-Use the residual method and apply head shot amperage.
+Используйте остаточный метод и примените усилие выстрела головой.
 
-Adjust the amperage to the value specified in the table.
+Отрегулируйте усилие до значения, указанного в таблице.
 
-| Amperage for Gear Sizes |  |
+| Размеры сиденья для Gear Sizes |  |
 |---|---|
-| Gear Outside Diameter | Direct Current Amperage |
-| Less than 101 mm \[4 in\] | 1000 |
-| 101 to 203 mm \[4 to 8 in\] | 1500 |
-| Greater than 203 mm \[8 in\] | 2000 |
+| Диаметр снаружи | Прямой ток Амперадж |
+| Менее 101 мм \[4 в\] | 1000 |
+| 101 - 203 мм \[4 - 8 в\] | 1500 |
+| Больше 203 мм[8 в] | 2000 |
 
-Check the camshaft gear for cracks.
+Проверьте вал передач на наличие трещин.
 
 ![[01400340.png]]
 
-If the gear contains a keyway, position the gear so that the keyway is pointing toward the coil.
+Если передача содержит ключ, поместите передачу так, чтобы ключ указывал на катушку.
 
-Use the residual method and apply coil shot amperage.
+Используйте остаточный метод и нанесите ударную силу катушки.
 
-Adjust the amperage to the value specified in the table.
+Отрегулируйте усилие до значения, указанного в таблице.
 
-| Amperage for Gear Sizes |  |
+| Размеры сиденья для Gear Sizes |  |
 |---|---|
-| Gear Outside Diameter | Ampere Turns |
-| Less than 101 mm \[4 in\] | 4000 |
-| 101 to 203 mm \[4 to 8 in\] | 6000 |
-| Greater than 203 mm \[8 in\] | 8000 |
+| Диаметр снаружи | Ампер поворачивается |
+| Менее 101 мм \[4 в\] | 4000 |
+| 101 - 203 мм \[4 - 8 в\] | 6000 |
+| Больше 203 мм[8 в] | 8000 |
 
-Ampere turn is an electrical current of one ampere flowing through the coil, multiplied by the number of turns in the coil.
+Амперный виток — это электрический ток одного ампера, протекающий через катушку, умноженный на количество витков в катушке.
 
-Check the camshaft gear fro cracks.
+Проверьте трещины в распределительном вале.
 
 ![[cg8gesd.png]]
 
-> [!warning] CAUTION · Осторожно
-> The gear must be demagnetized completely and cleaned thoroughly. Any small particles will cause engine damage.
+> [!warning] ОСТОРОЖНО
+> Аппарат должен быть полностью размагничен и тщательно очищен. Любые мелкие частицы могут привести к повреждению двигателя.
 
-An open indication is visible after the wetting operation has been completed. An indication below the surface is **not** visible after the wetting operation has been completed. An indication below the surface is visible with the use of the ultraviolet light.
+Открытое указание видно после завершения операции смачивания. Указание ниже поверхности ** не** видно после завершения операции смачивания. Указание ниже поверхности видно с использованием ультрафиолетового света.
 
-Limits of Acceptance - Machined Surfaces.
+Пределы приема - обработанные поверхности.
 
-Do **not** use the gear if:
+**не использовать** снаряжение, если:
 
-- There is an open indication.
-- There is an indication below the surface that is in the shaded area, shown in the graphic.
-- There is an indication below the surface that is longer than 6 mm \[0.250 in\].
+- Есть открытый признак.
+- Под поверхностью есть указание, которое находится в затененной области, показанной на графике.
+- Под поверхностью имеется указание, которое длиннее 6 мм \[0,250 дюйма \].
 
-Limits of Acceptance - Forged Surfaces
+Пределы допуска - кованые поверхности
 
-- There is a open indication that is in a circumferential direction.
-- There is an open indication that is longer than 9.5 mm \[0.375 in\].
-- There is an indication below the surface that is in the shaded area shown in the graphic.
+- Существует открытое указание, которое находится в окружном направлении.
+- Имеется открытый индикатор, который длиннее 9,5 мм \[0,375 дюйма \].
+- Под поверхностью есть указание, которое находится в затененной области, показанной на графике.
 
-An indication below the surface in a radial direction is acceptable if it is in the area that is **not** shaded.
+Указание ниже поверхности в радиальном направлении допустимо, если оно находится в области, которая ** не** затенена.
 
-Demagnetize the gear.
+Размагничивайте шестерёнку.
 
 ![[cg8gesk.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> Engines with electronically actuated injectors do not use off set timing keys.
+> [!note] Примечание
+> Двигатели с электронным топливным форсункой не используют выключенные клавиши времени.
 
-> [!note] Note · Примечание
-> The camshaft gear **must** be removed to adjust the injection timing. If the camshaft was replaced, do **not** install the camshaft gear until the injection timing has been verified
+> [!note] Примечание
+> Для корректировки времени впрыска необходимо снять механизм распредвала ***. Если распределительный вал был заменен, не устанавливайте механизм распределительного вала до тех пор, пока не будет проверено время впрыска.
 
-Use a slip-fit gear to adjust injection timing. Refer to Procedure [[20-006-025-tr — Static Injection Timing|006-025]].
+Используйте приспособление для подгонки, чтобы отрегулировать время впрыска. См. процедуру[[20-006-025-tr — Static Injection Timing|006-025]].
 
-The following table lists the recommended camshaft key for each timing code. Machining tolerances on the camshaft and the gear can cause the injection timing **not** to be within specifications. If the timing is **not** within specifications. See Section 0 for instructions to choose an alternate camshaft key.
+В следующей таблице перечислены рекомендуемые ключи распределительного вала для каждого временного кода. Допуски обработки на распределительном вале и шестерене могут привести к тому, что время впрыска ** не ** будет соответствовать спецификациям. Если время ** не** в пределах спецификаций. См. Раздел 0 для инструкций по выбору альтернативного ключа распределительного вала.
 
-The amount of offset is based on 5.1613 mm (0.2032 inch) of piston travel.
+Количество смещения основано на 5,1613 мм (0,2032 дюйма) поршневого хода.
 
-| Timing Code | Camshaft Key | Amount of Offset |
+| Сроки действия кодекса | Ключ от Camshaft | Количество оффсетов |
 |---|---|---|
-| JF | 216294 | 0.279 Inj. |
-| KG | S-302 | 0.320 Inj. |
+| Дж. | 216294 | 0.279 Индж. |
+| КГ | S-302 | 0.320 Индж. |
 
 ![[ck4kema.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns wear protective clothing when heating the gear.
+> [!danger] ОПАСНО
+> Для уменьшения возможности сильных ожогов надевайте защитную одежду при нагревании снаряжения.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed the specified time or the temperature. Damage to the gear and the gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> Не превышайте заданное время или температуру. Повреждение зубьев и зубьев привода будет иметь последствия.
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to install the gear without using heat.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь установить оборудование без использования тепла.
 
-Use an oven with the temperature adjusted to 235°C \[455°F\]. Heat the gear in the oven for a **minimum** of one hour but **not** more than a maximum of six hours. The inside diameter of the gear will become larger and will simplify the installation.
+Используйте духовку с температурой, отрегулированной до 235 ° C \[455 ° F \]. Нагрейте шестерню в духовке в течение **минимума ** одного часа, но **не ** более шести часов. Внутренний диаметр шестерни станет больше и упростит монтаж.
 
 ![[dp8gewa.png]]
 
-> [!note] Note · Примечание
-> The timing marks **must** be visible on the front of the gear after it is installed. The keyway in the gear **must** be aligned with the key.
+> [!note] Примечание
+> Знаки времени ** должны быть видны на передней части шестерни после ее установки. Ключевой путь в шестерне ** должен быть выровнен с ключом.
 
-Install the thrust plate. Install the camshaft gear.
+Установите тяговую пластину. Установите распределительную передачу.
 
-> [!warning] CAUTION · Осторожно
-> Allow the gear to air cool. Do not use water or oil to reduce the cooling time. It will cause the gear to crack.
+> [!warning] ОСТОРОЖНО
+> Дайте снаряжению остыть. Не используйте воду или масло, чтобы уменьшить время охлаждения. Это приведет к тому, что шестерня расколется.
 
 ![[06400088.png]]
 
-Use a feeler gauge. Measure the camshaft thrust clearance.
+Используйте калибр для щупалец. Измерить расчистку распредвалов.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 0.15 | MIN | 0.006 |
-| 0.33 | MAX | 0.013 |
+| 0.15 | Мин | 0.006 |
+| 0.33 | Макс | 0.013 |
 
-If the clearance is **not** within specification the gear **must** be removed.
+Если зазор ** не** в пределах спецификации, то передача *** должна быть снята.
 
 ![[01400342.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Camshaft keys are available in different sizes (amount of offset). The injection timing is controlled by:
+>
+> - The selection of the camshaft key
+> - The direction of the key offset when compared to the camshaft gear rotation
+> - The amount of offset
+>
+> Check and record the direction of the key offset when compared to the camshaft gear rotation (same or opposite).
+>
+> **Note · Примечание**
+> Engines with electronically actuated injectors do not use off set timing keys.
+>
+> The camshaft key provides a means of indexing the camshaft with the gear.
+>
+> Offset keys allow the camshaft profile to be rotated slightly while the gear train timing remains the same.
+>
+> The more the top of the offset is moved in the direction of the camshaft normal rotation, the more the injection timing will be retarded. The push rod travel numerical value will increase.
+>
+> **Note · Примечание**
+> The direction of normal rotation on a QSK19 engine crankshaft is **clockwise** as viewed from the front of the engine.
+>
+> ### Remove
+>
+> Use a camshaft gear puller, Part Number 3824900, to remove camshaft gear.
+>
+> Attach the puller to the gear. Remove the gear.
+>
+> Remove the key.
+>
+> Remove the puller.
+>
+> ### Clean and Inspect for Reuse
+>
+> Inspect the camshaft and camshaft gear for reuse. Check for fretting damage. The camshaft **must** be replaced if the fretting damage is more than 3 mm \[1/8 inch\] wide.
+>
+> Measure the outside diameter of the camshaft nose.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 57.200 | MIN | 2.2520 |
+> | 57.210 | MAX | 2.2524 |
+>
+> Inspect the camshaft. Refer to Procedure [[20-001-008-tr — Camshaft|001-008]].
+>
+> Inspect the camshaft gear for cracks, chipped or broken teeth.
+>
+> Inspect the bore of the gear for fretting or burrs.
+>
+> Measure the inside diameter
+>
+> | mm |  | in |
+> |---|---|---|
+> | 57.125 | MIN | 2.2490 |
+> | 57.150 | MAX | 2.2500 |
+>
+> The gear **must** be replaced if the inside diameter is **not** within specification.
+>
+> Inspect the thrust bearing for damage.
+>
+> Measure the thickness.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 9.34 | MIN | 0.368 |
+> | 9.44 | MAX | 0.372 |
+>
+> with Electronically Actuated Injector
+>
+> Inspect the back side of the gear for cracks, chipped, or broken bosses that the cam position sensor reads. The gear **must** be replaced if the bosses are damaged.
+>
+> ### Magnetic Crack Inspect
+>
+> **CAUTION · Осторожно**
+> Use a copper braid contact that has neoprene covers to reduce the possibility of burning the teeth of the gear.
+>
+> If the gear contains a keyway, position the gear so that the keyway is pointing toward one of the contacts.
+>
+> Use a magnetic particle testing machine.
+>
+> Use the residual method and apply head shot amperage.
+>
+> Adjust the amperage to the value specified in the table.
+>
+> | Amperage for Gear Sizes |  |
+> |---|---|
+> | Gear Outside Diameter | Direct Current Amperage |
+> | Less than 101 mm \[4 in\] | 1000 |
+> | 101 to 203 mm \[4 to 8 in\] | 1500 |
+> | Greater than 203 mm \[8 in\] | 2000 |
+>
+> Check the camshaft gear for cracks.
+>
+> If the gear contains a keyway, position the gear so that the keyway is pointing toward the coil.
+>
+> Use the residual method and apply coil shot amperage.
+>
+> Adjust the amperage to the value specified in the table.
+>
+> | Amperage for Gear Sizes |  |
+> |---|---|
+> | Gear Outside Diameter | Ampere Turns |
+> | Less than 101 mm \[4 in\] | 4000 |
+> | 101 to 203 mm \[4 to 8 in\] | 6000 |
+> | Greater than 203 mm \[8 in\] | 8000 |
+>
+> Ampere turn is an electrical current of one ampere flowing through the coil, multiplied by the number of turns in the coil.
+>
+> Check the camshaft gear fro cracks.
+>
+> **CAUTION · Осторожно**
+> The gear must be demagnetized completely and cleaned thoroughly. Any small particles will cause engine damage.
+>
+> An open indication is visible after the wetting operation has been completed. An indication below the surface is **not** visible after the wetting operation has been completed. An indication below the surface is visible with the use of the ultraviolet light.
+>
+> Limits of Acceptance - Machined Surfaces.
+>
+> Do **not** use the gear if:
+>
+> - There is an open indication.
+> - There is an indication below the surface that is in the shaded area, shown in the graphic.
+> - There is an indication below the surface that is longer than 6 mm \[0.250 in\].
+>
+> Limits of Acceptance - Forged Surfaces
+>
+> - There is a open indication that is in a circumferential direction.
+> - There is an open indication that is longer than 9.5 mm \[0.375 in\].
+> - There is an indication below the surface that is in the shaded area shown in the graphic.
+>
+> An indication below the surface in a radial direction is acceptable if it is in the area that is **not** shaded.
+>
+> Demagnetize the gear.
+>
+> ### Install
+>
+> **Note · Примечание**
+> Engines with electronically actuated injectors do not use off set timing keys.
+>
+> **Note · Примечание**
+> The camshaft gear **must** be removed to adjust the injection timing. If the camshaft was replaced, do **not** install the camshaft gear until the injection timing has been verified
+>
+> Use a slip-fit gear to adjust injection timing. Refer to Procedure [[20-006-025-tr — Static Injection Timing|006-025]].
+>
+> The following table lists the recommended camshaft key for each timing code. Machining tolerances on the camshaft and the gear can cause the injection timing **not** to be within specifications. If the timing is **not** within specifications. See Section 0 for instructions to choose an alternate camshaft key.
+>
+> The amount of offset is based on 5.1613 mm (0.2032 inch) of piston travel.
+>
+> | Timing Code | Camshaft Key | Amount of Offset |
+> |---|---|---|
+> | JF | 216294 | 0.279 Inj. |
+> | KG | S-302 | 0.320 Inj. |
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns wear protective clothing when heating the gear.
+>
+> **CAUTION · Осторожно**
+> Do not exceed the specified time or the temperature. Damage to the gear and the gear teeth will result.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to install the gear without using heat.
+>
+> Use an oven with the temperature adjusted to 235°C \[455°F\]. Heat the gear in the oven for a **minimum** of one hour but **not** more than a maximum of six hours. The inside diameter of the gear will become larger and will simplify the installation.
+>
+> **Note · Примечание**
+> The timing marks **must** be visible on the front of the gear after it is installed. The keyway in the gear **must** be aligned with the key.
+>
+> Install the thrust plate. Install the camshaft gear.
+>
+> **CAUTION · Осторожно**
+> Allow the gear to air cool. Do not use water or oil to reduce the cooling time. It will cause the gear to crack.
+>
+> Use a feeler gauge. Measure the camshaft thrust clearance.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.15 | MIN | 0.006 |
+> | 0.33 | MAX | 0.013 |
+>
+> If the clearance is **not** within specification the gear **must** be removed.

@@ -10,6 +10,7 @@ engines:
   - "33239899"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810497/3810497-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3810497-history.pdf"
 tags:

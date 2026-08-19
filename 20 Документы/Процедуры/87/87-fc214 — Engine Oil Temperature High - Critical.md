@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc214.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc214.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Temperature High - Critical
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc214.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc214.pdf)
 
-### Fault Code: 214
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Temperature High - Critical
 
-Printable Version
+### Код неисправности: 214
 
-### Overview
+### Высокая температура моторного масла — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 214 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil temperature has exceeded the alarm (shutdown) threshold for high oil temperature. | Engine will shut down. |
+| Код неисправности: 214 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Температура моторного масла превысила порог тревоги (затвора) для высокой температуры масла. | Двигатель отключится. |
 
 ![[19803595.png]]
 
-Oil Temperature Sensor Circuit
+Цепь датчика температуры масла
 
-### Circuit Description
+### Описание цепи
 
-The oil temperature sensor is used by the ECM to monitor the temperature of the engine oil. If the oil temperature becomes too high and engine protection is enabled, a derate condition will be incurred, possibly leading to shutdown.
+Датчик температуры масла используется ECM для мониторинга температуры моторного масла. Если температура масла становится слишком высокой и включена защита двигателя, будет понесено ухудшение состояния, что, возможно, приведет к отключению.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams in Section E of this manual for the component location.
+См. диаграммы двигателя в разделе E этого руководства для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of all the temperature sensors varies with the temperature.
+Сопротивление всех датчиков температуры изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-214
+См. Код устранения неполадок t05-214
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 214
+>
+> ### Engine Oil Temperature High - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 214 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil temperature has exceeded the alarm (shutdown) threshold for high oil temperature. | Engine will shut down. |
+>
+> Oil Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil temperature sensor is used by the ECM to monitor the temperature of the engine oil. If the oil temperature becomes too high and engine protection is enabled, a derate condition will be incurred, possibly leading to shutdown.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams in Section E of this manual for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of all the temperature sensors varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-214

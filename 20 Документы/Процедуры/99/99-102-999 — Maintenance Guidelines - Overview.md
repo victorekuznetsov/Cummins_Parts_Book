@@ -33,6 +33,8 @@ manuals:
   - "4915520"
   - "4915544"
   - "4915548"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-102-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-102-999.pdf"
 tags:
@@ -43,6 +45,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Maintenance Guidelines - Overview
@@ -56,16 +59,40 @@ tags:
 > **Даты:** изменён 2012-10-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-102-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-102-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cummins Inc. recommends that the system be maintained according to the Maintenance Schedule in this section.
 
-If the system is operating in ambient temperatures below -18°C \[0°F\] or above 38°C \[100°F\], perform maintenance at shorter intervals. Shorter maintenance intervals are also required if the system is operated in a dusty environment or if frequent stops are made. For gas fueled generator sets, shorter maintenance intervals are also required, if operating at loads below 70% for prolonged periods. Contact your local Cummins® Authorized Repair Location for recommended maintenance intervals.
+### Общие сведения
 
-Some of these maintenance procedures require special tools or must be completed by qualified personnel. Contact your local Cummins® Authorized Repair Location for detailed information.
+Cummins Inc. Рекомендуется, чтобы система поддерживалась в соответствии с графиком технического обслуживания в этом разделе.
 
-If your system is equipped with a component or accessory not manufactured or supplied by Cummins Inc., refer to the component manufacturer's maintenance recommendations.
+Если система работает при температуре окружающей среды ниже -18 ° C \[0°F\] или выше 38 ° C \[100°F\], выполняйте техническое обслуживание с более короткими интервалами. Более короткие интервалы технического обслуживания также необходимы, если система работает в пыльной среде или если часто делаются остановки. Для генераторных установок, работающих на газе, также требуются более короткие интервалы технического обслуживания, если они работают при нагрузках ниже 70% в течение длительных периодов времени. Свяжитесь с местным авторизованным ремонтным центром Cummins® для рекомендуемых интервалов обслуживания.
 
-OEM supplied equipment and components can impact on the performance and reliability of the engine if they are not correctly maintained.
+Некоторые из этих процедур технического обслуживания требуют специальных инструментов или должны быть завершены квалифицированным персоналом. Свяжитесь с местным авторизованным местом ремонта Cummins® для получения подробной информации.
 
-Use the chart provided in this section as a convenient way to record maintenance performed.
+Если ваша система оснащена компонентом или аксессуаром, не изготовленным или не поставляемым компанией Cummins Inc., обратитесь к рекомендациям производителя компонентов по техническому обслуживанию.
+
+Поставляемое OEM оборудование и компоненты могут повлиять на производительность и надежность двигателя, если они не поддерживаются должным образом.
+
+Используйте график, представленный в этом разделе, как удобный способ записи выполненного технического обслуживания.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Cummins Inc. recommends that the system be maintained according to the Maintenance Schedule in this section.
+>
+> If the system is operating in ambient temperatures below -18°C \[0°F\] or above 38°C \[100°F\], perform maintenance at shorter intervals. Shorter maintenance intervals are also required if the system is operated in a dusty environment or if frequent stops are made. For gas fueled generator sets, shorter maintenance intervals are also required, if operating at loads below 70% for prolonged periods. Contact your local Cummins® Authorized Repair Location for recommended maintenance intervals.
+>
+> Some of these maintenance procedures require special tools or must be completed by qualified personnel. Contact your local Cummins® Authorized Repair Location for detailed information.
+>
+> If your system is equipped with a component or accessory not manufactured or supplied by Cummins Inc., refer to the component manufacturer's maintenance recommendations.
+>
+> OEM supplied equipment and components can impact on the performance and reliability of the engine if they are not correctly maintained.
+>
+> Use the chart provided in this section as a convenient way to record maintenance performed.

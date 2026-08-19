@@ -9,6 +9,7 @@ engines:
   - "41349633"
 families:
   - "QSK19"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666120/3666120-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666120-history.pdf"
 tags:

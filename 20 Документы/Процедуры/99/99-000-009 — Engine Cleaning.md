@@ -22,6 +22,8 @@ manuals:
   - "3810497"
   - "4021592"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-009.pdf"
 tags:
@@ -30,6 +32,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Engine Cleaning
@@ -43,33 +46,70 @@ tags:
 > **Даты:** изменён 2017-03-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-009.pdf)
 
-### Clean
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-> [!warning] CAUTION · Осторожно
-> Steam ingress into electrical components can cause damage.
+### Очистка
 
-Steam is the recommended method of cleaning a dirty engine or a piece of equipment.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Protect all electrical components, openings, and wiring from the full force of the cleaner spray nozzle.
+> [!warning] ОСТОРОЖНО
+> Вхождение пара в электрические компоненты может привести к повреждению.
 
-Components to protect include, but are **not** limited to the following:
+Пар – это рекомендуемый способ очистки грязного двигателя или части оборудования.
 
-- Electrical components and connectors
-- Wiring harnesses
-- Electronic control module (ECM) and connectors, if equipped.
-- Belts and hoses
-- Bearings (ball or taper roller)
+Защитите все электрические компоненты, отверстия и проводку от полного усилия форсунки для распыления.
 
-For additional cleaning information. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008 in Section i.]]
+Компоненты для защиты включают, но не ограничиваются следующим:
+
+- Электрические компоненты и разъемы
+- Связной ремень
+- Электронный модуль управления (ECM) и разъемы, если они оборудованы.
+- Ремни и шланги
+- Подшипники (мяч или тапер-роллер)
+
+Для дополнительной информации о чистке.[[99-204-008 — General Cleaning Instructions|См. процедуру 204-008 в разделе i.]]
 
 ![[00r00208.png]]
 
-> [!warning] CAUTION · Осторожно
-> Soap, solvent, or water ingress into air intake system can cause engine damage.
+> [!warning] ОСТОРОЖНО
+> Мыло, растворитель или вода, поступающая в систему воздухозаборника, могут привести к повреждению двигателя.
 
-Do **not** directly spray or allow soap, solvent, or water to enter any passages, ports, or cowlings that lead to the engine air intake system.
+Не распыляйте непосредственно или позвольте мылу, растворителю или воде проникать в любые проходы, порты или оболочки, которые ведут к системе воздухозаборника двигателя.
 
 ![[00r00209.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **CAUTION · Осторожно**
+> Steam ingress into electrical components can cause damage.
+>
+> Steam is the recommended method of cleaning a dirty engine or a piece of equipment.
+>
+> Protect all electrical components, openings, and wiring from the full force of the cleaner spray nozzle.
+>
+> Components to protect include, but are **not** limited to the following:
+>
+> - Electrical components and connectors
+> - Wiring harnesses
+> - Electronic control module (ECM) and connectors, if equipped.
+> - Belts and hoses
+> - Bearings (ball or taper roller)
+>
+> For additional cleaning information. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008 in Section i.]]
+>
+> **CAUTION · Осторожно**
+> Soap, solvent, or water ingress into air intake system can cause engine damage.
+>
+> Do **not** directly spray or allow soap, solvent, or water to enter any passages, ports, or cowlings that lead to the engine air intake system.

@@ -12,12 +12,15 @@ engines:
   - "41343322"
 families:
   - "NT/NTA855 · ISM/QSM11"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150085.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150085.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
   - "год/2017"
+  - "перевод/машинный"
   - "тема/air-system-compressed"
 ---
 
@@ -31,45 +34,98 @@ tags:
 > **Даты:** выпущен 2017-04-13 · изменён 2017-04-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150085.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150085.pdf)
 
-## NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wabco™ 636
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## NT-855 на ж/д технике: переход с компрессора Holset® ST773 на Wabco™ 636
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Diesel Multiple Unit and Railcar Applications **Only**
+### Содержание
 
-ReCon® NT-855 Engines Affected:
+**Затронутая продукция**
+
+Дизельные многофункциональные установки и железнодорожные вагоны **Только **
+
+ReCon® NT-855 Двигатели:
 
 - DR0683800RX (R1)
 - DR0683900RX (R1)
 - DR0684100RX (R3)
 - DR0684200RX (R3)
 
-**Description of Change**
+**Описание изменения**
 
-The Holset® ST773 air compressor, Part Number 3048671, can no longer be supported. An air compressor upfit kit has been created to allow Wabco™ 636 twin air compressors, Part Number 4337583, to be used on the product affected.
+Воздушный компрессор Holset ST773, часть 3048671, больше не может поддерживаться. Компрессорный комплект для воздушного компрессора был создан, чтобы позволить использовать на пораженном продукте двухкомпрессоры Wabco 636, номер детали 4337583.
 
-**Service Instructions**
+**Указания по обслуживанию**
 
-For Wabco™ 636 twin air compressor installation instructions. Refer to Installation Instruction, NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wabco™ 636, Bulletin 4908443.
+Для WabcoTM 636 инструкции по установке двойного воздушного компрессора. См. Installation Instruction, NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to WabcoTM 636, Bulletin 4908443.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-See Table 1 for required service parts to complete the air compressor conversion.
+См. Таблицу 1 для необходимых служебных частей для завершения преобразования воздушного компрессора.
 
-| Table 1, Required Components for Wabco™ Air Compressor Conversion |  |  |
+| Таблица 1, Необходимые компоненты для конверсии воздушных компрессоров WabcoTM |  |  |
 |---|---|---|
-| Part Description | Quantity | Cummins® Part Number |
-| Wabco™ 636 Twin Air Compressor | 1 | 4337583 |
-| Air Compressor Upfit Kit | 1 | 4337605 |
+| Часть описание | Количество | Cummins® Part Number |
+| Wabco 636 Twin Air Compressor | 1 | 4337583 |
+| Компрессорный комплект Upfit Kit | 1 | 4337605 |
 
-**Associated Publications**
+**Ассоциированные публикации**
 
-For a complete list of Service Manual procedures needed to remove, install, and troubleshoot the Wabco™ 636 twin air compressor, see TSB150086.
+Полный список процедур, необходимых для удаления, установки и устранения неполадок двухкомпрессора Wabco 636, см. в TSB150086.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wabco™ 636
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> Diesel Multiple Unit and Railcar Applications **Only**
+>
+> ReCon® NT-855 Engines Affected:
+>
+> - DR0683800RX (R1)
+> - DR0683900RX (R1)
+> - DR0684100RX (R3)
+> - DR0684200RX (R3)
+>
+> **Description of Change**
+>
+> The Holset® ST773 air compressor, Part Number 3048671, can no longer be supported. An air compressor upfit kit has been created to allow Wabco™ 636 twin air compressors, Part Number 4337583, to be used on the product affected.
+>
+> **Service Instructions**
+>
+> For Wabco™ 636 twin air compressor installation instructions. Refer to Installation Instruction, NT-855 Equipped Rail Application Air Compressor Migration from Holset® ST773 to Wabco™ 636, Bulletin 4908443.
+>
+> **Service Parts Availability**
+>
+> See Table 1 for required service parts to complete the air compressor conversion.
+>
+> | Table 1, Required Components for Wabco™ Air Compressor Conversion |  |  |
+> |---|---|---|
+> | Part Description | Quantity | Cummins® Part Number |
+> | Wabco™ 636 Twin Air Compressor | 1 | 4337583 |
+> | Air Compressor Upfit Kit | 1 | 4337605 |
+>
+> **Associated Publications**
+>
+> For a complete list of Service Manual procedures needed to remove, install, and troubleshoot the Wabco™ 636 twin air compressor, see TSB150086.
+>
+> ### Document History

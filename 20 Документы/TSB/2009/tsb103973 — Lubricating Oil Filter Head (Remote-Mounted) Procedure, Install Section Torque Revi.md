@@ -12,12 +12,15 @@ engines:
   - "41349633"
 families:
   - "QSK19"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103973.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb103973.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -31,12 +34,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2009-11-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103973.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb103973.pdf)
 
-## Lubricating Oil Filter Head (Remote-Mounted) Procedure, Install Section Torque Revisions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура выносной головки масляного фильтра: пересмотр моментов затяжки
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the torque values in the Install section section of Procedure 007-017(Lubricating Oil Filter Head (Remote-Mounted)).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы / частей пересматривает значения крутящего момента в разделе Установка Процедуры 007-017 (Голова фильтра моторного масла (Удаленный наклон)).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Lubricating Oil Filter Head (Remote-Mounted) Procedure, Install Section Torque Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the torque values in the Install section section of Procedure 007-017(Lubricating Oil Filter Head (Remote-Mounted)).

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-076-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-076-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Heat Shield
@@ -32,15 +35,36 @@ tags:
 > **Даты:** изменён 2005-10-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-076-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-076-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
 
-Install the turbocharger heat shield.
+### Установка
 
-Install and tighten the turbocharger heat shield mounting capscrews.
+Судовое применение
 
-> [!tip] Момент затяжки · Torque Value
-> 35 n•m [25 ft-lb]
+Установите тепловой экран турбокомпрессора.
+
+Установите и затяните болты для крепления теплового экрана турбокомпрессора.
+
+> [!tip] Момент затяжки
+> 35 Н·м [25 фунт-фут]
 
 ![[10400065.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Marine Applications
+>
+> Install the turbocharger heat shield.
+>
+> Install and tighten the turbocharger heat shield mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 35 n•m [25 ft-lb]

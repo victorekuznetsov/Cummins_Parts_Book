@@ -14,12 +14,15 @@ manuals:
   - "3666120"
   - "4021592"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-066.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-066.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Eliminator Filter Centrifuge
@@ -33,36 +36,70 @@ tags:
 > **Даты:** изменён 2006-05-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-066.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-Remove the three capscrews, washers, centrifuge cover, and o-ring.
+### Снятие
+
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
+
+Удалите три болта, шайбы, крышку центрифуги и кольцо.
 
 ![[07400361.png]]
 
-Remove the centrifuge filter from the eliminator housing.
+Удалите центрифугальный фильтр из корпуса элиминатора.
 
 ![[07400362.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the o-ring for signs of tears or damage. If damage is found, replace the o-ring.
+Осмотрите кольцо на наличие признаков слез или повреждений. Если повреждение обнаружено, замените кольцо.
 
 ![[07400363.png]]
 
-### Install
+### Установка
 
-Install a new centrifuge filter into the eliminator housing.
+Установите новый фильтр центрифуги в корпус элиминатора.
 
 ![[07400362.png]]
 
-Install the o-ring into the centrifuge cover. Install the cover, washers, and capscrews.
+Установите кольцо в крышку центрифуги. Установите крышку, шайбы и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-| Eliminator Cover Capscrews | 30 n.m | \[22 ft-lb\] |
+| Элиминатор Затворы крышки | 30 Н·м | [22 фунт-фут] |
 |---|---|---|
 
 ![[07400361.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> Remove the three capscrews, washers, centrifuge cover, and o-ring.
+>
+> Remove the centrifuge filter from the eliminator housing.
+>
+> ### Inspect for Reuse
+>
+> Inspect the o-ring for signs of tears or damage. If damage is found, replace the o-ring.
+>
+> ### Install
+>
+> Install a new centrifuge filter into the eliminator housing.
+>
+> Install the o-ring into the centrifuge cover. Install the cover, washers, and capscrews.
+>
+> Tighten the capscrews.
+>
+> | Eliminator Cover Capscrews | 30 n.m | \[22 ft-lb\] |
+> |---|---|---|

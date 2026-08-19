@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 18
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-005-016-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-005-016-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump
@@ -37,175 +40,322 @@ tags:
 > **Даты:** изменён 2019-05-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-005-016-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-005-016-om-ind.pdf)
 
-### Rotation Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the tachometer drive cable from the fuel pump.
+
+### Проверка поворота
+
+Удалите кабель привода тахометра из топливного насоса.
 
 ![[05400222.png]]
 
-Crank the engine and make sure the tachometer drive shaft is turning.
+Прокрутите двигатель и убедитесь, что вал привода тахометра вращается.
 
-If the tachometer drive shaft is **not** turning, remove the fuel pump and check the air compressor and accessory drive operation.
+Если вал тахометра поворачивается **не**, удалите топливный насос и проверьте работу воздушного компрессора и вспомогательного привода.
 
 ![[05400225.png]]
 
-If the tachometer drive shaft rotates, the gear pump rotation **must** be checked.
+Если приводной вал тахометра вращается, то необходимо проверить вращение зубчатого насоса ***.
 
-Remove the fuel supply hose at the gear pump.
+Снимите шланг подачи топлива на шестеренки насоса.
 
 ![[05400226.png]]
 
-Look into the gear pump and crank the engine. The gear pump gears **must** turn.
+Посмотрите на переключатель и заглушите двигатель. Переключатели переключения передач ** должны** поворачиваться.
 
-If the gear pump gears do **not** turn, replace the fuel pump.
+Если шестерни переключателя повернут **не**, замените топливный насос.
 
 ![[05400227.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-All Applications Except Rail
+Все приложения кроме Rail
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation ot reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Храните все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, уменьшите вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) кабель последним.
 
-- Clean the fuel pump and surrounding area.
-- Disconnect the battery cables.
-
-![[ck800wa.png]]
-
-Rail Applications
-
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation ot reduce the possibility of severe personal injury or death when working on the fuel system.
-
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
-
-- Clean the fuel pump and surrounding area.
-- Disconnect the battery cables.
-- Remove the lubricating oil scavenge pump.
+- Очистите топливный насос и окружающую территорию.
+- Отсоедините провода аккумуляторных батарей.
 
 ![[ck800wa.png]]
 
-### Remove
+Железнодорожное применение
 
-Remove the wire to the fuel shutoff valve.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Храните все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, уменьшите вероятность серьезных травм или смерти при работе на топливной системе.
 
-Remove the linkage from the throttle lever.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) кабель последним.
+
+- Очистите топливный насос и окружающую территорию.
+- Отсоедините провода аккумуляторных батарей.
+- Удалите насос для сбора моторного масла.
+
+![[ck800wa.png]]
+
+### Снятие
+
+Удалите провод к клапану отключения топлива.
+
+Удалите связь с рычагом дроссельной заслонки.
 
 ![[05400205.png]]
 
-> [!note] Note · Примечание
-> This step applies **only** to engines equipped with STC.
+> [!note] Примечание
+> Этот шаг применяется только к двигателям, оснащенным STC.
 
-Remove the STC fuel rail switch.
+Удалите выключатель топливной рельсы STC.
 
 ![[05400228.png]]
 
-Remove the below listed items:
+Удалить нижеперечисленные пункты:
 
-- Fuel drain (1)
-- Gear pump cooling drain (2)
-- Gear pump suction line (3)
-- AFC supply hose (4)
-- Fuel supply to injectors (5)
-- AFC drain hose (6)
-- Tachometer cable (7).
+- Слив топлива (1)
+- Охлаждающий слив насоса (2)
+- Линия всасывания насоса 3
+- AFC поставляет шланг (4)
+- Подача топлива в форсунка (5)
+- Сливной шланг AFC (6)
+- Тахометрический кабель (7).
 
 ![[05400206.png]]
 
-Remove the four fuel pump mounting capscrews.
+Удалите четыре болта для установки топливного насоса.
 
-Remove the fuel pump.
+Удалите топливный насос.
 
-Remove the drive coupling (23).
+Удалить приводную муфту (23).
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[fp400ha.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean the fuel pump and the air compressor or accessory drive mounting surfaces.
+Очистите топливный насос и воздушный компрессор или вспомогательный привод монтажных поверхностей.
 
-Inspect the mounting surfaces for damage.
+Осмотрите монтажные поверхности на предмет повреждений.
 
-If the mounting surface is damaged, the fuel pump **must** be repaired or replaced.
+Если поверхность крепления повреждена, топливный насос должен быть отремонтирован или заменен.
 
 ![[05400207.png]]
 
-Inspect the spider coupling for damage.
+Проверьте связь паука на предмет повреждения.
 
-If the spider coupling is damaged, it **must** be replaced.
+Если паутинная связь повреждена, ее необходимо заменить.
 
 ![[05400208.png]]
 
-### Install
+### Установка
 
-All K19 engines use a white nylon or light green fuel pump drive coupling.
+Все двигатели K19 используют белую нейлоновую или светло-зеленую муфту.
 
-Install the drive coupling (23).
+Установите муфту привода (23).
 
-Install the gasket, fuel pump and four capscrews.
+Установите прокладку, топливный насос и четыре болта.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[fp400ha.png]]
 
-Install the following items:
+Установите следующие элементы:
 
-- Fuel drain (1)
-- Gear pump cooling drain (2)
-- Gear pump suction line (3)
-- AFC fuel drain (4)
-- Fuel supply to the injectors (5)
-- AFC air supply hose (6)
-- Tachometer cable (7).
+- Слив топлива (1)
+- Охлаждающий слив насоса (2)
+- Линия всасывания насоса 3
+- Слив топлива AFC (4)
+- Подача топлива в форсунка (5)
+- AFC воздухоснабжающий шланг (6)
+- Тахометрический кабель (7).
 
 ![[05400206.png]]
 
-> [!note] Note · Примечание
-> This step applies **only** to engines equipped with STC.
+> [!note] Примечание
+> Этот шаг применяется только к двигателям, оснащенным STC.
 
-Install the STC pressure switch.
+Установите переключатель давления STC.
 
-Connect the hose to the switch and to the fuel pressure tube fitting on the fuel pump.
+Подключите шланг к выключателю и к трубке давления топлива, установленной на топливном насосе.
 
 ![[05400228.png]]
 
-Make sure the wire connection nut and ground post are clean.
+Убедитесь, что проводное соединение и наземный столб чисты.
 
-Install the electric wire to the fuel shutoff valve.
+Установите электрический провод на клапан отключения топлива.
 
-Tighten the nut.
+Затяните гайку.
 
-Install the linkage to the throttle lever.
+Установите связь с рычагом дроссельной заслонки.
 
 ![[05400205.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-All Applications Except Rail
+Все приложения кроме Rail
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) кабель последним.
 
-- Connect the battery cables.
+- Подсоедините провода аккумуляторных батарей.
+
+![[ck800wa.png]]
+
+Железнодорожное применение
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) кабель последним.
+
+- Подсоедините провода аккумуляторных батарей.
+- Установите насос для сбора моторного масла.
 
 ![[ck800wa.png]]
 
-Rail Applications
 
-> [!danger] WARNING · Опасно
+> [!quote]- Original (English) · английский оригинал
+> ### Rotation Check
+>
+> Remove the tachometer drive cable from the fuel pump.
+>
+> Crank the engine and make sure the tachometer drive shaft is turning.
+>
+> If the tachometer drive shaft is **not** turning, remove the fuel pump and check the air compressor and accessory drive operation.
+>
+> If the tachometer drive shaft rotates, the gear pump rotation **must** be checked.
+>
+> Remove the fuel supply hose at the gear pump.
+>
+> Look into the gear pump and crank the engine. The gear pump gears **must** turn.
+>
+> If the gear pump gears do **not** turn, replace the fuel pump.
+>
+> ### Preparatory Steps
+>
+> All Applications Except Rail
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation ot reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
-
-- Connect the battery cables.
-- Install the lubricating oil scavenge pump.
-
-![[ck800wa.png]]
+>
+> - Clean the fuel pump and surrounding area.
+> - Disconnect the battery cables.
+>
+> Rail Applications
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation ot reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+>
+> - Clean the fuel pump and surrounding area.
+> - Disconnect the battery cables.
+> - Remove the lubricating oil scavenge pump.
+>
+> ### Remove
+>
+> Remove the wire to the fuel shutoff valve.
+>
+> Remove the linkage from the throttle lever.
+>
+> **Note · Примечание**
+> This step applies **only** to engines equipped with STC.
+>
+> Remove the STC fuel rail switch.
+>
+> Remove the below listed items:
+>
+> - Fuel drain (1)
+> - Gear pump cooling drain (2)
+> - Gear pump suction line (3)
+> - AFC supply hose (4)
+> - Fuel supply to injectors (5)
+> - AFC drain hose (6)
+> - Tachometer cable (7).
+>
+> Remove the four fuel pump mounting capscrews.
+>
+> Remove the fuel pump.
+>
+> Remove the drive coupling (23).
+>
+> Remove and discard the gasket.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean the fuel pump and the air compressor or accessory drive mounting surfaces.
+>
+> Inspect the mounting surfaces for damage.
+>
+> If the mounting surface is damaged, the fuel pump **must** be repaired or replaced.
+>
+> Inspect the spider coupling for damage.
+>
+> If the spider coupling is damaged, it **must** be replaced.
+>
+> ### Install
+>
+> All K19 engines use a white nylon or light green fuel pump drive coupling.
+>
+> Install the drive coupling (23).
+>
+> Install the gasket, fuel pump and four capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the following items:
+>
+> - Fuel drain (1)
+> - Gear pump cooling drain (2)
+> - Gear pump suction line (3)
+> - AFC fuel drain (4)
+> - Fuel supply to the injectors (5)
+> - AFC air supply hose (6)
+> - Tachometer cable (7).
+>
+> **Note · Примечание**
+> This step applies **only** to engines equipped with STC.
+>
+> Install the STC pressure switch.
+>
+> Connect the hose to the switch and to the fuel pressure tube fitting on the fuel pump.
+>
+> Make sure the wire connection nut and ground post are clean.
+>
+> Install the electric wire to the fuel shutoff valve.
+>
+> Tighten the nut.
+>
+> Install the linkage to the throttle lever.
+>
+> ### Finishing Steps
+>
+> All Applications Except Rail
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+>
+> - Connect the battery cables.
+>
+> Rail Applications
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+>
+> - Connect the battery cables.
+> - Install the lubricating oil scavenge pump.

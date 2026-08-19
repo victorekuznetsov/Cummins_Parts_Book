@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-004.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Barometric Air Pressure Sensor
@@ -33,31 +36,64 @@ tags:
 > **Даты:** изменён 2007-12-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-004.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect the electronic service tool to the engine harness.
 
-Monitor the ambient air pressure. If ambient air pressure is less than or equal to 523 mm Hg \[20.6 in Hg\] and the present elevation is less than 3.04 km \[10,000 ft\], replace the ambient air pressure sensor.
+### Первичная проверка
+
+Подключите электронный сервисный инструмент к жгуту проводов двигателя.
+
+Контролируйте давление окружающего воздуха. Если давление окружающего воздуха меньше или равно 523 мм рт.ст. \[20,6 в рт.ст.] и настоящее возвышение составляет менее 3,04 км \[10 000 футов \], замените датчик давления окружающего воздуха.
 
 ![[19a00888.png]]
 
-### Remove
+### Снятие
 
-Lift up on the tab and pull the connector from the sensor.
+Поднимите на вкладку и вытащите разъем из датчика.
 
-Remove the mounting capscrew and sensor from the engine.
+Удалите крепежные болты и датчик из двигателя.
 
 ![[19a00824.png]]
 
-### Install
+### Установка
 
-Install a new sensor on the engine.
+Установите новый датчик на двигатель.
 
-Tighten the capscrew.
+Затяните болт.
 
-| QST30 | 23 n.m | \[204 in-lb\] |
+| QST30 | 23 Н·м | [204 фунт-дюйм] |
 |---|---|---|
 
-Push the connector together until locked.
+Скрепите разъем до тех пор, пока он не будет заблокирован.
 
 ![[19a00824.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect the electronic service tool to the engine harness.
+>
+> Monitor the ambient air pressure. If ambient air pressure is less than or equal to 523 mm Hg \[20.6 in Hg\] and the present elevation is less than 3.04 km \[10,000 ft\], replace the ambient air pressure sensor.
+>
+> ### Remove
+>
+> Lift up on the tab and pull the connector from the sensor.
+>
+> Remove the mounting capscrew and sensor from the engine.
+>
+> ### Install
+>
+> Install a new sensor on the engine.
+>
+> Tighten the capscrew.
+>
+> | QST30 | 23 n.m | \[204 in-lb\] |
+> |---|---|---|
+>
+> Push the connector together until locked.

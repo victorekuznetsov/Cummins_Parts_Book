@@ -21,6 +21,7 @@ families:
   - "QST30"
 manuals:
   - "5411406"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/5411406/5411406-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/5411406-history.pdf"
 tags:

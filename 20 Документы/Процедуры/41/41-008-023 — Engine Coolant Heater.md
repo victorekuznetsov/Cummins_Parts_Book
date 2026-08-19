@@ -15,12 +15,15 @@ manuals:
   - "3666003"
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-023.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-023.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Heater
@@ -34,10 +37,26 @@ tags:
 > **Даты:** изменён 2004-11-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-023.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-If your engine is equipped with an optional coolant heater, it should be checked periodically, especially when cold weather nears.
 
-When operating, the engine block heater will make an audible sound and the engine block will be warm to the touch in the water jacket areas. The coolant heater works on shore power.
+### Контроль при обслуживании
+
+Если ваш двигатель оснащен дополнительным нагревателем охлаждающей жидкости, его следует периодически проверять, особенно когда приближается холодная погода.
+
+При работе обогреватель блока двигателя издаст звуковой звук, а блок двигателя будет теплым на ощупь в зонах водяной куртки. Тепловод охлаждающей жидкости работает на береговой энергии.
 
 ![[08900233.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> If your engine is equipped with an optional coolant heater, it should be checked periodically, especially when cold weather nears.
+>
+> When operating, the engine block heater will make an audible sound and the engine block will be warm to the touch in the water jacket areas. The coolant heater works on shore power.

@@ -16,6 +16,8 @@ families:
 manuals:
   - "3666120"
   - "3666134"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-018-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-018-019.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Air Intake System
@@ -36,12 +39,32 @@ tags:
 > **Даты:** изменён 2018-11-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-018-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-018-019.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Maximum Allowable Intake Restriction:
 
-| With Clean Filter Element | 380 mm H 2 0 \[15 in H 2 0\] |
+### Спецификации
+
+#### Максимальное допустимое ограничение потребления:
+
+| С чистым элементом фильтра | 380 мм Н 2 0 \[15 в Н 2 0\] |
 |---|---|
 
-| With Dirty Filter Element | 635 mm H 2 0 \[25 in H 2 0\] |
+| С грязным элементом фильтра | 635 мм Н 2 0 \[25 в Н 2 0\] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Maximum Allowable Intake Restriction:
+>
+> | With Clean Filter Element | 380 mm H 2 0 \[15 in H 2 0\] |
+> |---|---|
+>
+> | With Dirty Filter Element | 635 mm H 2 0 \[25 in H 2 0\] |
+> |---|---|

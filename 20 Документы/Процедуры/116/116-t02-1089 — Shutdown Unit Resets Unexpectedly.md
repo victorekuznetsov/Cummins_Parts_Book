@@ -12,12 +12,15 @@ families:
   - "QSK19"
 manuals:
   - "4021617"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1089.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1089.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Shutdown Unit Resets Unexpectedly
@@ -31,358 +34,724 @@ tags:
 > **Даты:** изменён 2008-04-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1089.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1089.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- The SDU410 unit acknowledges alarms “on its own” with user interaction.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- Устройство SDU410 распознает сигнализацию «самостоятельно» при взаимодействии с пользователем.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-## Troubleshooting Summary
+По этому дереву симптомов можно вести поиск неисправности. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-| STEPS | SPECIFICATIONS |  |
+### Практические замечания
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check customer interface box |  |
-|  | **STEP 1A.** Check the DCU410 unit or remote panel for flashing LED. | LED flashing? |
-|  | **STEP 1B.** Check the low speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1B-1.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1B-2.** Check the low speed oil pressure signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1C.** Check the high speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1C-1.** Check the high speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1C-2.** Check the high speed oil pressure signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1D.** Check the coolant pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1D-1.** Check the coolant pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1D-2.** Check the coolant pressure signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1E.** Check the coolant temperature signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1E-1.** Check the coolant temperature signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1E-2.** Check the coolant temperature signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1F.** Check the engine speed 1 signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1F-1.** Check the engine speed 1 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1F-2.** Check the engine speed 1 signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1G.** Check the engine speed 2 signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1G-1.** Check the engine speed 2 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1G-2.** Check the engine speed 2 signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1H.** Check the remote engine stop signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1H-1.** Check the remote engine stop signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1H-2.** Check the remote engine stop signal wire for a short to ground. | Less than 10 ohms? |
-|  | **STEP 1I.** Check the shutdown unit Modicon™ communication bus supply and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 1I-1.** Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 1I-2.** Check the shutdown unit Modicon™ communication bus supply wire for a short to ground. | Less than 10 ohms? |
-| STEP 2. | Check the OEM wiring harness. |  |
-|  | **STEP 2A.** Check the low speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2A-1.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 2B.** Check the high speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2B-1.** Check the high speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 2C.** Check the coolant pressure signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2C-1.** Check the coolant pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 2D.** Check the coolant temperature signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2D-1.** Check the coolant temperature signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 2E.** Check the engine speed 1 signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2E-1.** Check the engine speed 1 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
-|  | **STEP 2F.** Check the engine speed 2 signal and return wires for an open. | Less than 10 ohms? |
-|  | **STEP 2F-1.** Check the engine speed 2 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+| ШАГ 1. | Проверьте интерфейс клиента |  |
+|  | **STEP 1A.** Проверьте блок DCU410 или удаленную панель для мигающего светодиода. | Светодиодная вспышка? |
+|  | **STEP 1B.** Проверьте сигнал давления масла на низкой скорости и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 1B-1.** Проверьте сигнал давления масла на низкой скорости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1B-2.** Проверить низкоскоростной сигнальный провод давления масла на короткое время до земли. | Менее 10 Ом? |
+|  | **STEP 1C** Проверить сигнал высокого давления масла и провода возврата на наличие открытого. | Менее 10 Ом? |
+|  | **STEP 1C-1.** Проверьте сигнал высокого давления масла и провода возврата для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1C-2.** Проверить высокоскоростной сигнал давления масла на короткое время до земли. | Менее 10 Ом? |
+|  | **STEP 1D.** Проверьте сигнал давления охлаждающей жидкости и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 1D-1.** Проверьте сигнал давления охлаждающей жидкости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1D-2.** Проверить сигнальный провод давления охлаждающей жидкости на короткое время до заземления. | Менее 10 Ом? |
+|  | **ШАГ 1Е.** Проверьте температурный сигнал охлаждающей жидкости и провода возврата для открытого. | Менее 10 Ом? |
+|  | **ШАГ 1Е-1.** Проверьте температурный сигнал охлаждающей жидкости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **ШАГ 1Е-2.** Проверить температурный сигнал охлаждающей жидкости на короткое время до заземления. | Менее 10 Ом? |
+|  | **STEP 1F.** Проверьте сигнал 1 оборота двигателя и провода возврата для открытого сигнала. | Менее 10 Ом? |
+|  | **STEP 1F-1.** Проверьте сигнал 1 оборота двигателя и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1F-2.** Проверьте скорость двигателя 1 сигнальной проволоки на короткое время до земли. | Менее 10 Ом? |
+|  | **STEP 1G.** Проверьте сигнал 2 оборота двигателя и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 1G-1.** Проверьте скорость двигателя 2 сигнала и возвращайте провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1G-2.** Проверьте скорость 2-го сигнала двигателя на короткое время до земли. | Менее 10 Ом? |
+|  | **STEP 1H.** Проверьте сигнал остановки двигателя и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 1H-1.** Проверьте сигнал дистанционного останова двигателя и возврат проводов для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1H-2.** Проверить провод сигнала дистанционного останова двигателя на короткое время до земли. | Менее 10 Ом? |
+|  | **STEP 1I.** Проверьте блок отключения питания шины связи ModiconTM и провода возврата для открытого доступа. | Менее 10 Ом? |
+|  | **STEP 1I-1.** Проверьте блок отключения питания шины связи ModiconTM и провода возврата для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 1I-2.** Проверьте отключаемый блок питания коммуникационной шины ModiconTM на короткое время до заземления. | Менее 10 Ом? |
+| ШАГ 2. | Проверьте жгут проводов изготовителя машины. |  |
+|  | **STEP 2A.** Проверьте сигнал давления масла на низкой скорости и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 2A-1.** Проверьте сигнал давления масла на низкой скорости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 2B.** Проверьте сигнал высокого давления масла и провода возврата для открытого. | Менее 10 Ом? |
+|  | **STEP 2B-1.** Проверьте сигнал высокого давления масла и провода возврата для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 2C** Проверить сигнал давления охлаждающей жидкости и провода возврата на наличие открытого. | Менее 10 Ом? |
+|  | **STEP 2C-1.** Проверьте сигнал давления охлаждающей жидкости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 2D.** Проверьте температурный сигнал охлаждающей жидкости и верните провода для открытого. | Менее 10 Ом? |
+|  | **STEP 2D-1.** Проверьте температурный сигнал охлаждающей жидкости и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **ШАГ 2Е.** Проверьте сигнал 1 оборота двигателя и провода возврата для открытого. | Менее 10 Ом? |
+|  | **ШАГ 2Е-1.** Проверьте сигнал 1 оборота двигателя и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
+|  | **STEP 2F.** Проверьте сигнал 2 оборота двигателя и провода возврата для открытого сигнала. | Менее 10 Ом? |
+|  | **STEP 2F-1.** Проверьте сигнал 2 оборота двигателя и возвратные провода для короткого провода к проводу. | Менее 10 Ом? |
 
-### STEP 1. Check the customer interface box.
+### ШАГ 1. Проверьте окно интерфейса клиента.
 
-#### STEP 1A. Check the DCU410 unit for alarms and LED illumination.
+#### ШАГ 1A. Проверьте устройство DCU410 для сигнализации и светодиодной подсветки.
 
-| **Conditions:** Check for alarm and LED illumination |  |  |
+| ** Условия:** Проверить наличие сигнализации и светодиодного освещения |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the SDU410 unit Acknowledge button. NOTE: Be sure the Acknowledge button is **not** stuck in the activation mode. Press the Acknowledge button to see if it changes to steady illumination. | Acknowledge button stuck? **YESRepair:** Replace the SDU410 unit. Contact a Cummins® Authorized Repair Location. | Repair complete |
-| Acknowledge button stuck? **NO** | 1B |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте кнопку SDU410 блок «Признание». Примечание: Убедитесь, что кнопка «Признать» ** не** застряла в режиме активации. Нажмите кнопку «Признать», чтобы увидеть, изменяется ли она для постоянного освещения. | Кнопка подтверждения застряла? *** Заменить модуль SDU410. Обратитесь в авторизованный сервисный центр Cummins®. | Ремонт завершён |
+| Кнопка подтверждения застряла? ** НЕТ** | 1В |  |
 
-#### STEP 1B. Check the low speed oil pressure signal and return wires for an open.
+#### ШАГ 1B. Проверьте сигнал давления масла низкой скорости и возвратите провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал давления масла низкой скорости и провода возврата на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the signal and return wires for an open. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on the low speed oil pressure signal pin at the C4 connector. Place one test lead on the low speed oil pressure return wire at the SDU410 unit. Place the other test lead on the low speed oil pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1B-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал и верните провода для открытого. Поместите один испытательный щуп на низкоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на низкоскоростной контакт сигнала давления масла на разъем С4. Поместите один испытательный щуп на низкоскоростной провод возврата давления масла на блоке SDU410. Поместите другой испытательный щуп на низкоскоростной обратный контакт под давлением масла на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1В-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1B-1. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 1B-1. Проверьте сигнал давления масла низкой скорости и возвратные провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал давления масла низкой скорости и провода возврата на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1B-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления масла низкой скорости и возвратные провода для короткого провода к проводу. Поместите один испытательный щуп на низкоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на низкоскоростной провод возврата давления масла на блоке SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1В-2-2 |  |
 
-#### STEP 1B-2. Check the low speed oil pressure signal wire for a short to ground.
+#### ШАГ 1B-2. Проверьте низкоскоростной сигнальный провод давления масла для короткого приземления.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините низкоскоростной сигнальный провод давления масла на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure signal wire for a short to ground. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1C |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте низкоскоростной сигнальный провод давления масла для короткого приземления. Поместите один испытательный щуп на низкоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1С |  |
 
-#### STEP 1C. Check the high speed oil pressure signal and return wires for an open.
+#### ШАГ 1C. Проверьте сигнал высокого давления масла и возвратные провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the high speed oil pressure signal and return wires at the SDU410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите высокоскоростной сигнал давления масла и провода возврата на блоке SDU410 и разъёме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the high speed oil pressure signal and return wires for an open. Place one test lead on the high speed oil pressure signal wire at the SDU410 unit. Place the other test lead on the high speed oil pressure signal pin at the C4 connector. Place one test lead on the high speed oil pressure return wire at the SDU410 unit. Place the other test lead on the high speed oil pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1C-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал высокого давления масла и возвратные провода для открытого. Поместите один испытательный щуп на высокоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на высокоскоростной контакт сигнала давления масла на разъем С4. Поместите один испытательный щуп на высокоскоростной провод возврата давления масла в блок SDU410. Поместите другой испытательный щуп на высокоскоростной обратный контакт давления масла на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1С-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1C-1. Check the high speed oil pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 1C-1. Проверьте сигнал высокого давления масла и возвращайте провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the high speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите высокоскоростной сигнал давления масла и провода возврата на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the high speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the high speed oil pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the high speed oil pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1C-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал высокого давления масла и возвращайте провода для короткого провода к проводу. Поместите один испытательный щуп на высокоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на высокоскоростной провод возврата давления масла в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1С-2 |  |
 
-#### STEP 1C-2. Check the low speed oil pressure signal wire for a short to ground.
+#### ШАГ 1C-2. Проверьте низкоскоростной сигнальный провод давления масла для короткого приземления.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините низкоскоростной сигнальный провод давления масла на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the high speed oil pressure signal wire for a short to ground. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1D |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте высокоскоростной сигнал давления масла для короткого приземления. Поместите один испытательный щуп на низкоскоростной провод сигнала давления масла в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1D |  |
 
-#### STEP 1D. Check the coolant pressure signal and return wires for an open.
+#### ШАГ 1D. Проверьте сигнал давления охлаждающей жидкости и верните провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal and return wires at the SDU410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал давления охлаждающей жидкости и провода возврата на блоке SDU410 и разъёме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant pressure signal and return wires for an open. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on the coolant pressure signal pin at the C4 connector. Place one test lead on the coolant pressure return wire at the SDU410 unit. Place the other test lead on the coolant pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1D-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления охлаждающей жидкости и верните провода для открытого. Поместите один испытательный щуп на провод сигнала давления охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на контакт сигнала давления охлаждающей жидкости на разъем С4. Поместите один испытательный щуп на провод возврата давления охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на обратный контакт давления охлаждающей жидкости на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1D-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1D-1. Check the coolant pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 1D-1. Проверьте сигнал давления охлаждающей жидкости и верните провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал давления охлаждающей жидкости и провода возврата на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant pressure signal and return wires for a wire-to-wire short. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1D-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления охлаждающей жидкости и верните провода для короткого провода к проводу. Поместите один испытательный щуп на провод сигнала давления охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на провод возврата давления охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1D-2 |  |
 
-#### STEP 1D-2. Check the coolant pressure signal wire for a short to ground.
+#### ШАГ 1D-2. Проверьте сигнальный провод давления охлаждающей жидкости на короткое время до земли.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините провод сигнала давления охлаждающей жидкости на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant pressure signal wire for a short to ground. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1E |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнальный провод давления охлаждающей жидкости на короткое время до земли. Поместите один испытательный щуп на провод сигнала давления охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1Е |  |
 
-#### STEP 1E. Check the coolant temperature signal and return wires for an open.
+#### ШАГ 1E. Проверьте температурный сигнал охлаждающей жидкости и верните провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal and return wires at the SDU410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал температуры охлаждающей жидкости и возвратные провода на блоке SDU410 и разъёме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant temperature signal and return wires for an open. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on the coolant temperature signal pin at the C4 connector. Place one test lead on the coolant temperature return wire at the SDU410 unit. Place the other test lead on the coolant temperature return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1E-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте температурный сигнал охлаждающей жидкости и верните провода для открытого. Поместите один испытательный щуп на провод температурного сигнала охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на контакт сигнала температуры охлаждающей жидкости на разъеме C4. Поместите один испытательный щуп на провод возврата температуры охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на обратный контакт температуры охлаждающей жидкости на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1Е-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1E-1. Check the coolant temperature signal and return wires for a wire-to-wire short.
+#### ШАГ 1E-1. Проверьте температурный сигнал охлаждающей жидкости и верните провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал температуры охлаждающей жидкости и возвращайте провода на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant temperature signal and return wires for a wire-to-wire short. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant temperature return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1E-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте температурный сигнал охлаждающей жидкости и верните провода для короткого провода к проводу. Поместите один испытательный щуп на провод температурного сигнала охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на провод возврата температуры охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1Е-2 |  |
 
-#### STEP 1E-2. Check the coolant temperature signal wire for a short to ground.
+#### ШАГ 1E-2. Проверьте сигнальный провод температуры охлаждающей жидкости для короткого приземления.
 
-| **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините провод температурного сигнала охлаждающей жидкости на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant temperature signal wire for a short to ground. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1F |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнальный провод температуры охлаждающей жидкости для короткого приземления. Поместите один испытательный щуп на провод температурного сигнала охлаждающей жидкости в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1F |  |
 
-#### STEP 1F. Check the engine speed 1 signal and return wires for an open.
+#### ШАГ 1F. Проверьте сигнал 1 оборота двигателя и верните провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal and return wires at the SDU410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал 1 оборота двигателя и возвратные провода на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 1 signal and return wires for an open. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on the engine speed 1 signal pin at the C4 connector. Place one test lead on the engine speed 1 return wire at the SDU410 unit. Place the other test lead on the engine speed 1 return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1F-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 1 оборота двигателя и верните провода для открытого. Поместите один испытательный щуп на провод сигнала 1 скорости двигателя в блок SDU410. Поместите другой испытательный щуп на контакт сигнала скорости двигателя 1 на разъеме C4. Поместите один испытательный щуп на обратный провод двигателя 1 на блоке SDU410. Поместите другой испытательный щуп на обратный контакт скорости двигателя 1 на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1F-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1F-1. Check the engine speed 1 signal and return wires for a wire-to-wire short.
+#### ШАГ 1F-1. Проверьте сигнал 1 оборота двигателя и верните провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал 1 оборота двигателя и провода возврата на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 1 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 1 return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1F-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 1 оборота двигателя и верните провода для короткого провода к проводу. Поместите один испытательный щуп на провод сигнала 1 скорости двигателя в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный провод двигателя 1 на блоке SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1F-2 |  |
 
-#### STEP 1F-2. Check the engine speed 1 signal wire for a short to ground.
+#### ШАГ 1F-2. Проверьте скорость двигателя 1 сигнального провода на короткий до земли.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините сигнальный провод 1 оборота двигателя на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 1 signal wire for a short to ground. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1G |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте скорость двигателя 1 сигнального провода на короткий до земли. Поместите один испытательный щуп на провод сигнала 1 скорости двигателя в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1G |  |
 
-#### STEP 1G. Check the engine speed 2 signal and return wires for an open.
+#### ШАГ 1G. Проверьте сигнал 2 оборота двигателя и верните провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal and return wires at the SDU410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал 2 оборота двигателя и возвращайте провода на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 2 signal and return wires for an open. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on the engine speed 2 signal pin at the C4 connector. Place one test lead on the engine speed 2 return wire at the SDU410 unit. Place the other test lead on the engine speed 2 return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1G-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 2 оборота двигателя и верните провода для открытого. Поместите один испытательный щуп на сигнальный провод 2 оборота двигателя в блок SDU410. Поместите другой испытательный щуп на контакт сигнала 2 скорости двигателя на разъеме C4. Поместите один испытательный щуп на обратный провод 2 оборота двигателя в блок SDU410. Поместите другой испытательный щуп на обратный контакт с двигателем 2 на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1G-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1G-1. Check the engine speed 2 signal and return wires for a wire-to-wire short.
+#### ШАГ 1G-1. Проверьте сигнал 2 оборота двигателя и верните провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal and return wires at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал 2 оборота двигателя и возвратные провода на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 2 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 2 return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1G-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 2 оборота двигателя и верните провода для короткого провода к проводу. Поместите один испытательный щуп на сигнальный провод 2 оборота двигателя в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный провод 2 оборота двигателя в блок SDU410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1G-2 |  |
 
-#### STEP 1G-2. Check the engine speed 2 signal wire for a short to ground.
+#### ШАГ 1G-2. Проверьте скорость 2 сигнала двигателя для короткого наземного.
 
-| **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal wire at the SDU410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините сигнальный провод 2 оборота двигателя на блоке SDU410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 2 signal wire for a short to ground. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1H |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте скорость 2 сигнала двигателя для короткого наземного. Поместите один испытательный щуп на сигнальный провод 2 оборота двигателя в блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1 ч. |  |
 
-#### STEP 1H. Check the remote engine stop signal and return wires for an open.
+#### ШАГ 1H. Проверьте сигнал остановки удаленного двигателя и верните провода для открытого.
 
-| **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal and return wires at the SDU410 unit and X4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал дистанционного останова двигателя и провода возврата на блоке SDU410 и разъеме X4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the remote engine stop signal and return wires for an open. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on the remote engine stop signal pin at the X4 connector. Place one test lead on the remote engine stop return wire at the SDU410 unit. Place the other test lead on the remote engine stop return pin at the X4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1H-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал остановки удаленного двигателя и верните провода для открытого. Поместите один испытательный щуп на провод сигнала дистанционной остановки двигателя на блоке SDU410. Поместите другой испытательный щуп на удаленный контакт сигнала остановки двигателя на разъеме X4. Поместите один испытательный щуп на провод дистанционного возврата остановки двигателя на блоке SDU410. Поместите другой испытательный щуп на удаленный контакт остановки двигателя на разъеме X4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1Н-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1H-1. Check the remote engine stop signal and return wires for a wire-to-wire short.
+#### ШАГ 1H-1. Проверьте сигнал остановки удаленного двигателя и верните провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal and return wires at the SDU410 unit and X4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите сигнал дистанционного останова двигателя и провода возврата на блоке SDU410 и разъеме X4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the remote engine stop signal and return wires for a wire-to-wire short. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on all other pins at the X4 connector. Place one test lead on the remote engine stop return wire at the SDU410 unit. Place the other test lead on all other pins at the X4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1H-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал остановки удаленного двигателя и верните провода для короткого провода к проводу. Поместите один испытательный щуп на провод сигнала дистанционной остановки двигателя на блоке SDU410. Поместите другой испытательный щуп на все другие штифты в разъем X4. Поместите один испытательный щуп на провод дистанционного возврата остановки двигателя на блоке SDU410. Поместите другой испытательный щуп на все другие штифты в разъем X4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1Н-2 |  |
 
-#### STEP 1H-2. Check the remote engine stop signal wire for a short to ground.
+#### ШАГ 1H-2. Проверьте провод сигнала дистанционного остановки двигателя на короткое время до земли.
 
-| **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal wire at the SDU410 unit and X4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите провод сигнала дистанционной остановки двигателя на блоке SDU410 и разъеме X4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the remote engine stop signal wire for a short to ground. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1I |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте провод сигнала дистанционного остановки двигателя на короткое время до земли. Поместите один испытательный щуп на провод сигнала дистанционной остановки двигателя на блоке SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1II |  |
 
-#### STEP 1I. Check the shutdown unit Modicon™ communication bus supply and return wires for an open.
+#### ШАГ 1I. Проверьте блок отключения питания коммуникационной шины ModiconTM и возвратные провода для открытого доступа.
 
-| **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply and return wires at the SDU410 unit and DCU410 unit. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите блок отключения питания и возврата шины связи ModiconTM на блоке SDU410 и блоке DCU410. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the shutdown unit Modicon™ communication bus supply and return wires for an open. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on the shutdown unit Modicon™ communication bus supply wire at the DCU410 unit. Place one test lead on the shutdown unit Modicon™ communication bus return wire at the SDU410 unit. Place the other test lead on the shutdown unit Modicon™ communication bus return wire at the DCU410 unit. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1I-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте блок отключения питания коммуникационной шины ModiconTM и возвратные провода для открытого доступа. Поместите один испытательный щуп на блок отключения провода питания шины связи ModiconTM на блок SDU410. Поместите другой испытательный щуп на блок отключения провода питания шины связи ModiconTM в блок DCU410. Поместите один испытательный щуп на блок отключения провода обратной шины связи ModiconTM на блок SDU410. Поместите другой испытательный щуп на отключаемый модуль обратного провода шины связи ModiconTM в блок DCU410. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 1I-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 1I-1. Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short.
+#### ШАГ 1I-1. Проверьте блок отключения питания коммуникационной шины ModiconTM и возвратные провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply and return wires at the SDU410 unit and DCU410 unit. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите блок отключения питания и возврата шины связи ModiconTM на блоке SDU410 и блоке DCU410. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on all other wires at the DCU410 unit. Place one test lead on the shutdown unit Modicon™ communication bus return wire at the SDU410 unit. Place the other test lead on all other wires at the DCU410 unit. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 1I-2 |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте блок отключения питания коммуникационной шины ModiconTM и возвратные провода для короткого провода к проводу. Поместите один испытательный щуп на блок отключения провода питания шины связи ModiconTM на блок SDU410. Поместите другой испытательный щуп на все другие провода в блок DCU410. Поместите один испытательный щуп на блок отключения провода обратной шины связи ModiconTM на блок SDU410. Поместите другой испытательный щуп на все другие провода в блок DCU410. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 1I-2 |  |
 
-#### STEP 1I-2. Check the shutdown unit Modicon™ communication bus supply wire for a short to ground.
+#### ШАГ 1I-2. Проверьте блок отключения провода питания коммуникационной шины ModiconTM для короткого заземления.
 
-| **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit and DCU410 unit. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отключите отключающий блок провода питания шины связи ModiconTM на блоке SDU410 и блоке DCU410. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the shutdown unit Modicon™ communication bus supply wire for a short to ground. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2A |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте блок отключения провода питания коммуникационной шины ModiconTM для короткого заземления. Поместите один испытательный щуп на блок отключения провода питания шины связи ModiconTM на блок SDU410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2А |  |
 
-### STEP 2. Check the OEM wiring harness.
+### ШАГ 2. Проверьте жгут проводов изготовителя машины.
 
-#### STEP 2A. Check the low speed oil pressure signal and return wires for an open.
+#### ШАГ 2A. Проверьте сигнал давления масла низкой скорости и возвратите провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure signal and return wires for an open. Place one test lead on the low speed oil pressure signal pin at the C4 connector. Place the other test lead on the low speed oil pressure signal pin at the C11 connector. Place one test lead on the low speed oil pressure return pin at the C4 connector. Place the other test lead on the low speed oil pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2A-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления масла низкой скорости и возвратите провода для открытого. Поместите один испытательный щуп на низкоскоростной контакт сигнала давления масла на разъеме С4. Поместите другой испытательный щуп на низкоскоростной контакт сигнала давления масла на разъем C11. Поместите один испытательный щуп на низкоскоростной обратный контакт под давлением масла на разъеме С4. Поместите другой испытательный щуп на низкоскоростной обратный контакт под давлением масла на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2А-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2A-1. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 2A-1. Проверьте сигнал давления масла низкой скорости и возвратные провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the low speed oil pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2B |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления масла низкой скорости и возвратные провода для короткого провода к проводу. Поместите один испытательный щуп на низкоскоростной контакт сигнала давления масла на разъеме С4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на низкоскоростной обратный контакт под давлением масла на разъеме С4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2В |  |
 
-#### STEP 2B. Check the high speed oil pressure signal and return wires for an open.
+#### ШАГ 2B. Проверьте сигнал высокого давления масла и возвратные провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the high speed oil pressure signal and return wires for an open. Place one test lead on the high speed oil pressure signal pin at the C4 connector. Place the other test lead on the high speed oil pressure signal pin at the C11 connector. Place one test lead on the high speed oil pressure return pin at the C4 connector. Place the other test lead on the high speed oil pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2B-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал высокого давления масла и возвратные провода для открытого. Поместите один испытательный щуп на высокоскоростной контакт сигнала давления масла на разъеме C4. Поместите другой испытательный щуп на высокоскоростной контакт сигнала давления масла на разъеме C11. Поместите один испытательный щуп на высокоскоростной обратный контакт давления масла на разъеме C4. Поместите другой испытательный щуп на высокоскоростной обратный контакт давления масла на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2В-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2B-1. Check the high speed oil pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 2B-1. Проверьте сигнал высокого давления масла и возвращайте провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the high speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the high speed oil pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the high speed oil pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2C |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал высокого давления масла и возвращайте провода для короткого провода к проводу. Поместите один испытательный щуп на высокоскоростной контакт сигнала давления масла на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на высокоскоростной обратный контакт давления масла на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2C |  |
 
-#### STEP 2C. Check the coolant pressure signal and return wires for an open.
+#### ШАГ 2C. Проверьте сигнал давления охлаждающей жидкости и верните провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant pressure signal and return wires for an open. Place one test lead on the coolant pressure signal pin at the C4 connector. Place the other test lead on the coolant pressure signal pin at the C11 connector. Place one test lead on the coolant pressure return pin at the C4 connector. Place the other test lead on the coolant pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2C-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления охлаждающей жидкости и верните провода для открытого. Поместите один испытательный щуп на контакт сигнала давления охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на контакт сигнала давления охлаждающей жидкости на разъеме C11. Поместите один испытательный щуп на обратный контакт давления охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на обратный контакт давления охлаждающей жидкости на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2С-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2C-1. Check the coolant pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 2C-1. Проверьте сигнал давления охлаждающей жидкости и верните провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant pressure signal and return wires for a wire-to-wire short. Place one test lead on the coolant pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2D |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления охлаждающей жидкости и верните провода для короткого провода к проводу. Поместите один испытательный щуп на контакт сигнала давления охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный контакт давления охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2D |  |
 
-#### STEP 2D. Check the coolant temperature signal and return wires for an open.
+#### ШАГ 2D. Проверьте температурный сигнал охлаждающей жидкости и верните провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant temperature signal and return wires for an open. Place one test lead on the coolant temperature signal pin at the C4 connector. Place the other test lead on the coolant temperature signal pin at the C11 connector. Place one test lead on the coolant temperature return pin at the C4 connector. Place the other test lead on the coolant temperature return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2D-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте температурный сигнал охлаждающей жидкости и верните провода для открытого. Поместите один испытательный щуп на контакт сигнала температуры охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на контакт сигнала температуры охлаждающей жидкости на разъеме C11. Поместите один испытательный щуп на обратный контакт температуры охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на обратный контакт температуры охлаждающей жидкости на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2D-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2D-1. Check the coolant temperature signal and return wires for a wire-to-wire short.
+#### ШАГ 2D-1. Проверьте температурный сигнал охлаждающей жидкости и верните провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the coolant temperature signal and return wires for a wire-to-wire short. Place one test lead on the coolant temperature signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant temperature return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2E |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте температурный сигнал охлаждающей жидкости и верните провода для короткого провода к проводу. Поместите один испытательный щуп на контакт сигнала температуры охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный контакт температуры охлаждающей жидкости на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2Е |  |
 
-#### STEP 2E. Check the engine speed 1 signal and return wires for an open.
+#### ШАГ 2E. Проверьте сигнал 1 оборота двигателя и верните провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 1 signal and return wires for an open. Place one test lead on the engine speed 1 signal pin at the C4 connector. Place the other test lead on the engine speed 1 signal pin at the C11 connector. Place one test lead on the engine speed 1 return pin at the C4 connector. Place the other test lead on the engine speed 1 return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2E-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 1 оборота двигателя и верните провода для открытого. Поместите один испытательный щуп на контакт сигнала скорости двигателя 1 на разъеме C4. Поместите другой испытательный щуп на контакт сигнала 1 скорости двигателя на разъеме C11. Поместите один испытательный щуп на обратный контакт скорости двигателя 1 на разъеме C4. Поместите другой испытательный щуп на обратный контакт с двигателем 1 на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2Е-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2E-1. Check the engine speed 1 signal and return wires for a wire-to-wire short.
+#### ШАГ 2E-1. Проверьте сигнал 1 оборота двигателя и верните провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 1 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 1 signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 1 return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | 2F |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 1 оборота двигателя и верните провода для короткого провода к проводу. Поместите один испытательный щуп на контакт сигнала скорости двигателя 1 на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный контакт скорости двигателя 1 на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2F |  |
 
-#### STEP 2F. Check the engine speed 2 signal and return wires for an open.
+#### ШАГ 2F. Проверьте сигнал 2 оборота двигателя и верните провода для открытого.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 2 signal and return wires for an open. Place one test lead on the engine speed 2 signal pin at the C4 connector. Place the other test lead on the engine speed 2 signal pin at the C11 connector. Place one test lead on the engine speed 2 return pin at the C4 connector. Place the other test lead on the engine speed 2 return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2F-1 |
-| Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 2 оборота двигателя и верните провода для открытого. Поместите один испытательный щуп на контакт сигнала 2 скорости двигателя на разъеме C4. Поместите другой испытательный щуп на контакт сигнала 2 скорости двигателя на разъеме C11. Поместите один испытательный щуп на обратный контакт 2 оборота двигателя на разъеме C4. Поместите другой испытательный щуп на обратный контакт с двигателем 2 на разъеме C11. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2F-1-1 |
+| Менее 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |  |
 
-#### STEP 2F-1. Check the engine speed 2 signal and return wires for a wire-to-wire short.
+#### ШАГ 2F-1. Проверьте сигнал 2 оборота двигателя и верните провода для короткого провода к проводу.
 
-| **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+| **Условия: ** Отсоедините проводку OEM от окна интерфейса клиента на разъеме C4. Отключите проводку OEM на разъеме C11. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine speed 2 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 2 signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 2 return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
-| Less than 10 ohms? **NO** | Contact a Cummins® Authorized Repair Location |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал 2 оборота двигателя и верните провода для короткого провода к проводу. Поместите один испытательный щуп на контакт сигнала 2 скорости двигателя на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на обратный контакт 2 оборота двигателя на разъеме C4. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 (Customer Interface Box) в разделе 15.]] | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | Свяжитесь с авторизованным местом ремонта Cummins® |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - The SDU410 unit acknowledges alarms “on its own” with user interaction.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check customer interface box |  |
+> |  | **STEP 1A.** Check the DCU410 unit or remote panel for flashing LED. | LED flashing? |
+> |  | **STEP 1B.** Check the low speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1B-1.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1B-2.** Check the low speed oil pressure signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1C.** Check the high speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1C-1.** Check the high speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1C-2.** Check the high speed oil pressure signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1D.** Check the coolant pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1D-1.** Check the coolant pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1D-2.** Check the coolant pressure signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1E.** Check the coolant temperature signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1E-1.** Check the coolant temperature signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1E-2.** Check the coolant temperature signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1F.** Check the engine speed 1 signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1F-1.** Check the engine speed 1 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1F-2.** Check the engine speed 1 signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1G.** Check the engine speed 2 signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1G-1.** Check the engine speed 2 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1G-2.** Check the engine speed 2 signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1H.** Check the remote engine stop signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1H-1.** Check the remote engine stop signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1H-2.** Check the remote engine stop signal wire for a short to ground. | Less than 10 ohms? |
+> |  | **STEP 1I.** Check the shutdown unit Modicon™ communication bus supply and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 1I-1.** Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 1I-2.** Check the shutdown unit Modicon™ communication bus supply wire for a short to ground. | Less than 10 ohms? |
+> | STEP 2. | Check the OEM wiring harness. |  |
+> |  | **STEP 2A.** Check the low speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2A-1.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 2B.** Check the high speed oil pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2B-1.** Check the high speed oil pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 2C.** Check the coolant pressure signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2C-1.** Check the coolant pressure signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 2D.** Check the coolant temperature signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2D-1.** Check the coolant temperature signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 2E.** Check the engine speed 1 signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2E-1.** Check the engine speed 1 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+> |  | **STEP 2F.** Check the engine speed 2 signal and return wires for an open. | Less than 10 ohms? |
+> |  | **STEP 2F-1.** Check the engine speed 2 signal and return wires for a wire-to-wire short. | Less than 10 ohms? |
+>
+> ### STEP 1. Check the customer interface box.
+>
+> #### STEP 1A. Check the DCU410 unit for alarms and LED illumination.
+>
+> | **Conditions:** Check for alarm and LED illumination |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the SDU410 unit Acknowledge button. NOTE: Be sure the Acknowledge button is **not** stuck in the activation mode. Press the Acknowledge button to see if it changes to steady illumination. | Acknowledge button stuck? **YESRepair:** Replace the SDU410 unit. Contact a Cummins® Authorized Repair Location. | Repair complete |
+> | Acknowledge button stuck? **NO** | 1B |  |
+>
+> #### STEP 1B. Check the low speed oil pressure signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the signal and return wires for an open. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on the low speed oil pressure signal pin at the C4 connector. Place one test lead on the low speed oil pressure return wire at the SDU410 unit. Place the other test lead on the low speed oil pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1B-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1B-1. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1B-2 |  |
+>
+> #### STEP 1B-2. Check the low speed oil pressure signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure signal wire for a short to ground. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1C |  |
+>
+> #### STEP 1C. Check the high speed oil pressure signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the high speed oil pressure signal and return wires at the SDU410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the high speed oil pressure signal and return wires for an open. Place one test lead on the high speed oil pressure signal wire at the SDU410 unit. Place the other test lead on the high speed oil pressure signal pin at the C4 connector. Place one test lead on the high speed oil pressure return wire at the SDU410 unit. Place the other test lead on the high speed oil pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1C-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1C-1. Check the high speed oil pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the high speed oil pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the high speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the high speed oil pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the high speed oil pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1C-2 |  |
+>
+> #### STEP 1C-2. Check the low speed oil pressure signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the high speed oil pressure signal wire for a short to ground. Place one test lead on the low speed oil pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1D |  |
+>
+> #### STEP 1D. Check the coolant pressure signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal and return wires at the SDU410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant pressure signal and return wires for an open. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on the coolant pressure signal pin at the C4 connector. Place one test lead on the coolant pressure return wire at the SDU410 unit. Place the other test lead on the coolant pressure return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1D-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1D-1. Check the coolant pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant pressure signal and return wires for a wire-to-wire short. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant pressure return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1D-2 |  |
+>
+> #### STEP 1D-2. Check the coolant pressure signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant pressure signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant pressure signal wire for a short to ground. Place one test lead on the coolant pressure signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1E |  |
+>
+> #### STEP 1E. Check the coolant temperature signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal and return wires at the SDU410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant temperature signal and return wires for an open. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on the coolant temperature signal pin at the C4 connector. Place one test lead on the coolant temperature return wire at the SDU410 unit. Place the other test lead on the coolant temperature return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1E-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1E-1. Check the coolant temperature signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant temperature signal and return wires for a wire-to-wire short. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant temperature return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1E-2 |  |
+>
+> #### STEP 1E-2. Check the coolant temperature signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the coolant temperature signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant temperature signal wire for a short to ground. Place one test lead on the coolant temperature signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1F |  |
+>
+> #### STEP 1F. Check the engine speed 1 signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal and return wires at the SDU410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 1 signal and return wires for an open. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on the engine speed 1 signal pin at the C4 connector. Place one test lead on the engine speed 1 return wire at the SDU410 unit. Place the other test lead on the engine speed 1 return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1F-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1F-1. Check the engine speed 1 signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 1 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 1 return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1F-2 |  |
+>
+> #### STEP 1F-2. Check the engine speed 1 signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 1 signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 1 signal wire for a short to ground. Place one test lead on the engine speed 1 signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1G |  |
+>
+> #### STEP 1G. Check the engine speed 2 signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal and return wires at the SDU410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 2 signal and return wires for an open. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on the engine speed 2 signal pin at the C4 connector. Place one test lead on the engine speed 2 return wire at the SDU410 unit. Place the other test lead on the engine speed 2 return pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1G-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1G-1. Check the engine speed 2 signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal and return wires at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 2 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 2 return wire at the SDU410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1G-2 |  |
+>
+> #### STEP 1G-2. Check the engine speed 2 signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the engine speed 2 signal wire at the SDU410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 2 signal wire for a short to ground. Place one test lead on the engine speed 2 signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1H |  |
+>
+> #### STEP 1H. Check the remote engine stop signal and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal and return wires at the SDU410 unit and X4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the remote engine stop signal and return wires for an open. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on the remote engine stop signal pin at the X4 connector. Place one test lead on the remote engine stop return wire at the SDU410 unit. Place the other test lead on the remote engine stop return pin at the X4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1H-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1H-1. Check the remote engine stop signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal and return wires at the SDU410 unit and X4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the remote engine stop signal and return wires for a wire-to-wire short. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on all other pins at the X4 connector. Place one test lead on the remote engine stop return wire at the SDU410 unit. Place the other test lead on all other pins at the X4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1H-2 |  |
+>
+> #### STEP 1H-2. Check the remote engine stop signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the remote engine stop signal wire at the SDU410 unit and X4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the remote engine stop signal wire for a short to ground. Place one test lead on the remote engine stop signal wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1I |  |
+>
+> #### STEP 1I. Check the shutdown unit Modicon™ communication bus supply and return wires for an open.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply and return wires at the SDU410 unit and DCU410 unit. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the shutdown unit Modicon™ communication bus supply and return wires for an open. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on the shutdown unit Modicon™ communication bus supply wire at the DCU410 unit. Place one test lead on the shutdown unit Modicon™ communication bus return wire at the SDU410 unit. Place the other test lead on the shutdown unit Modicon™ communication bus return wire at the DCU410 unit. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 1I-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 1I-1. Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply and return wires at the SDU410 unit and DCU410 unit. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the shutdown unit Modicon™ communication bus supply and return wires for a wire-to-wire short. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on all other wires at the DCU410 unit. Place one test lead on the shutdown unit Modicon™ communication bus return wire at the SDU410 unit. Place the other test lead on all other wires at the DCU410 unit. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 1I-2 |  |
+>
+> #### STEP 1I-2. Check the shutdown unit Modicon™ communication bus supply wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit and DCU410 unit. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the shutdown unit Modicon™ communication bus supply wire for a short to ground. Place one test lead on the shutdown unit Modicon™ communication bus supply wire at the SDU410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2A |  |
+>
+> ### STEP 2. Check the OEM wiring harness.
+>
+> #### STEP 2A. Check the low speed oil pressure signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure signal and return wires for an open. Place one test lead on the low speed oil pressure signal pin at the C4 connector. Place the other test lead on the low speed oil pressure signal pin at the C11 connector. Place one test lead on the low speed oil pressure return pin at the C4 connector. Place the other test lead on the low speed oil pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2A-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2A-1. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the low speed oil pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2B |  |
+>
+> #### STEP 2B. Check the high speed oil pressure signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the high speed oil pressure signal and return wires for an open. Place one test lead on the high speed oil pressure signal pin at the C4 connector. Place the other test lead on the high speed oil pressure signal pin at the C11 connector. Place one test lead on the high speed oil pressure return pin at the C4 connector. Place the other test lead on the high speed oil pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2B-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2B-1. Check the high speed oil pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the high speed oil pressure signal and return wires for a wire-to-wire short. Place one test lead on the high speed oil pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the high speed oil pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2C |  |
+>
+> #### STEP 2C. Check the coolant pressure signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant pressure signal and return wires for an open. Place one test lead on the coolant pressure signal pin at the C4 connector. Place the other test lead on the coolant pressure signal pin at the C11 connector. Place one test lead on the coolant pressure return pin at the C4 connector. Place the other test lead on the coolant pressure return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2C-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2C-1. Check the coolant pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant pressure signal and return wires for a wire-to-wire short. Place one test lead on the coolant pressure signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant pressure return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2D |  |
+>
+> #### STEP 2D. Check the coolant temperature signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant temperature signal and return wires for an open. Place one test lead on the coolant temperature signal pin at the C4 connector. Place the other test lead on the coolant temperature signal pin at the C11 connector. Place one test lead on the coolant temperature return pin at the C4 connector. Place the other test lead on the coolant temperature return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2D-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2D-1. Check the coolant temperature signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the coolant temperature signal and return wires for a wire-to-wire short. Place one test lead on the coolant temperature signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the coolant temperature return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2E |  |
+>
+> #### STEP 2E. Check the engine speed 1 signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 1 signal and return wires for an open. Place one test lead on the engine speed 1 signal pin at the C4 connector. Place the other test lead on the engine speed 1 signal pin at the C11 connector. Place one test lead on the engine speed 1 return pin at the C4 connector. Place the other test lead on the engine speed 1 return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2E-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2E-1. Check the engine speed 1 signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 1 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 1 signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 1 return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | 2F |  |
+>
+> #### STEP 2F. Check the engine speed 2 signal and return wires for an open.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 2 signal and return wires for an open. Place one test lead on the engine speed 2 signal pin at the C4 connector. Place the other test lead on the engine speed 2 signal pin at the C11 connector. Place one test lead on the engine speed 2 return pin at the C4 connector. Place the other test lead on the engine speed 2 return pin at the C11 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2F-1 |
+> | Less than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |  |
+>
+> #### STEP 2F-1. Check the engine speed 2 signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM wiring harness from the customer interface box at the C4 connector. Disconnect the OEM wiring harness at the C11 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine speed 2 signal and return wires for a wire-to-wire short. Place one test lead on the engine speed 2 signal pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Place one test lead on the engine speed 2 return pin at the C4 connector. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 (Customer Interface Box) in Section 15.]] | Repair complete |
+> | Less than 10 ohms? **NO** | Contact a Cummins® Authorized Repair Location |  |

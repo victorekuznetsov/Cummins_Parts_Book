@@ -14,12 +14,15 @@ manuals:
   - "3381968"
   - "4915514"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-004-om-mar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-004-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Cold Weather Starting
@@ -33,23 +36,50 @@ tags:
 > **Даты:** изменён 2008-10-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-004-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-004-om-mar.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
 
-Follow the Normal Starting Procedures in this section. In cold weather, the WAIT-TO-START lamp will stay on longer.
+### Общие сведения
+
+Судовое применение
+
+Следуйте обычным процедурам в этом разделе. В холодную погоду лампа «Wait-to-START» будет работать дольше.
 
 ![[nobox.png]]
 
-### Using Starting Aids
+### Использование стартовой помощи
 
-Marine Applications
+Судовое применение
 
-> [!danger] WARNING · Опасно
-> Do not use starting fluids with this engine. This engine is equipped with an intake air heater; use of starting fluid can cause an explosion, fire, personal injury, severe damage to the engine and property damage.
+> [!danger] ОПАСНО
+> Не используйте стартовые жидкости с этим двигателем. Этот двигатель оснащен впускным воздушным обогревателем; использование стартовой жидкости может вызвать взрыв, пожар, травмы, серьезные повреждения двигателя и имущественные повреждения.
 
-The **only** recommended cold weather starting aids for marine applications are engine coolant preheaters and oil pan immersion heaters. Contact a Cummins® Authorized Repair Location for more information
+**только *** рекомендуемые средства запуска холодной погоды для морских применений - это предварительные нагреватели охлаждающей жидкости двигателя и нагреватели погружения масляной поддона. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации
 
-Cold weather starting aids are available for your engine. Contact a Cummins® Authorized Repair Location for more information.
+Стартовые средства для холодной погоды доступны для вашего двигателя. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации.
 
 ![[10900055.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Marine Applications
+>
+> Follow the Normal Starting Procedures in this section. In cold weather, the WAIT-TO-START lamp will stay on longer.
+>
+> ### Using Starting Aids
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
+> Do not use starting fluids with this engine. This engine is equipped with an intake air heater; use of starting fluid can cause an explosion, fire, personal injury, severe damage to the engine and property damage.
+>
+> The **only** recommended cold weather starting aids for marine applications are engine coolant preheaters and oil pan immersion heaters. Contact a Cummins® Authorized Repair Location for more information
+>
+> Cold weather starting aids are available for your engine. Contact a Cummins® Authorized Repair Location for more information.

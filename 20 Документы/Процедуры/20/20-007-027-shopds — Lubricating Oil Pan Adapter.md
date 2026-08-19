@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-027-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-027-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pan Adapter
@@ -32,23 +35,48 @@ tags:
 > **Даты:** изменён 2023-08-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-027-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-027-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the breather vent from the hand hole cover.
+
+### Снятие
+
+Отсоедините вентиляционное отверстие от крышки ручного отверстия.
 
 ![[07400015.png]]
 
-Remove the lubricating oil pan adapter
+Удалите адаптер моторного масла
 
-Remove the two 7/16-14 capscrews and the five 3/8-16 capscrews from the flywheel housing.
+Удалите два болта 7/16-14 и пять болтов 3/8-16 из корпуса маховика.
 
 ![[op4adma.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove all the capscrews and the pan adapter.
+Удалите все болты и адаптер поддона.
 
-Remove and discard the gasket (40) and the four bolt seals (41) from the adapter.
+Удалите и отбросьте прокладку (40) и четыре уплотнения болта (41) из адаптера.
 
 ![[00r01168.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the breather vent from the hand hole cover.
+>
+> Remove the lubricating oil pan adapter
+>
+> Remove the two 7/16-14 capscrews and the five 3/8-16 capscrews from the flywheel housing.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove all the capscrews and the pan adapter.
+>
+> Remove and discard the gasket (40) and the four bolt seals (41) from the adapter.

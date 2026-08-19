@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc286.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc286.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # SAE J1939 Multiplexing Configuration Error - Out of Calibration
@@ -33,60 +36,126 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc286.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc286.pdf)
 
-### Fault Code: 286
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### SAE J1939 Multiplexing Configuration Error - Out of Calibration
 
-Printable Version
+### Код неисправности: 286
 
-### Overview
+### Ошибка конфигурации мультиплексирования SAE J1939 — вне калибровки
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 286 PID(P): S231 SPN: 639 FMI: 13/13 Lamp: Amber SRT: | The ECM expected information from a multiplexed device but **only** received a portion of the necessary information. | At least one multiplexed device will **not** operate properly. |
+| Код неисправности: 286 PID(P): S231 SPN: 639 FMI: 13/13 Лампа: Янтарная СРТ: | ECM ожидала информацию от мультиплексного устройства, но только *** получила часть необходимой информации. | По крайней мере, одно мультиплексное устройство будет работать ** не**. |
 
 ![[19a00866.png]]
 
-J1939 Datalink Circuit
+J1939 CAN Data Bus Circuit (недоступная ссылка)
 
-### Circuit Description
+### Описание цепи
 
-The ECM identified another device on the J1939 datalink network has stopped communicating on the network. The devices on the J1939 datalink network include: ECMs', and the Generator Interface Module. The harness for the J1939 datalink network has a shielded twisted pair of wires that connect each of the network devices and termination resistor.
+ECM определила, что другое устройство в сети шины данных J1939 CAN перестало обмениваться данными в сети. Устройства в сети шины данных J1939 CAN включают: ECMs и модуль интерфейса генератора. Упряжка проводов для сети шины данных J1939 CAN имеет экранированную витую пару проводов, которые соединяют каждое из сетевых устройств и резистор завершения.
 
-### Component Location
+### Расположение компонента
 
-The Engine Control Modules (ECM) are located on a plate that is above the flywheel housing.
+Модули управления двигателем (ECM) расположены на пластине, которая находится над корпусом маховика.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active.
+Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) received an invalid J1939 data link message from a multiplexed device.
+Модуль управления двигателем (ECM) получил недействительное сообщение шины данных J1939 CAN от мультиплексированного устройства.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- The multiplexed device will **not** operate.
+- Мультиплексное устройство будет работать **не**.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Each smart device on the J1939 datalink network need power and ground to turn on, after the smart device turns on, it can then communicate on the J1939 datalink network.
+Каждое интеллектуальное устройство в сети шины данных J1939 CAN нуждается в питании и наземном питании для включения, после включения интеллектуального устройства оно может затем обмениваться данными в сети шины данных J1939 CAN.
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged J1939 datalink wiring harness.
+- Неисправность или повреждение жгута проводов шины данных J1939 CAN.
 
-- Communication failure between J1939 devices
+- Сбой связи между устройствами J1939
 
-Refer to Troubleshooting Fault Code 286.
+См. код ошибки устранения неполадок 286.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 286
+>
+> ### SAE J1939 Multiplexing Configuration Error - Out of Calibration
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 286 PID(P): S231 SPN: 639 FMI: 13/13 Lamp: Amber SRT: | The ECM expected information from a multiplexed device but **only** received a portion of the necessary information. | At least one multiplexed device will **not** operate properly. |
+>
+> J1939 Datalink Circuit
+>
+> ### Circuit Description
+>
+> The ECM identified another device on the J1939 datalink network has stopped communicating on the network. The devices on the J1939 datalink network include: ECMs', and the Generator Interface Module. The harness for the J1939 datalink network has a shielded twisted pair of wires that connect each of the network devices and termination resistor.
+>
+> ### Component Location
+>
+> The Engine Control Modules (ECM) are located on a plate that is above the flywheel housing.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) received an invalid J1939 data link message from a multiplexed device.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - The multiplexed device will **not** operate.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Each smart device on the J1939 datalink network need power and ground to turn on, after the smart device turns on, it can then communicate on the J1939 datalink network.
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged J1939 datalink wiring harness.
+>
+> - Communication failure between J1939 devices
+>
+> Refer to Troubleshooting Fault Code 286.

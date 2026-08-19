@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-012-014-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-012-014-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Air Compressor
@@ -32,25 +35,56 @@ tags:
 > **Даты:** изменён 2014-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-012-014-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-012-014-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> Depending on application, all engines will possibly **not** be equipped with an air compressor.
 
-Inspect the compressor housing for cracks and damage.
+### Контроль при обслуживании
 
-Inspect the hydraulic pump couplings for cracks, wear, or damage (if equipped).
+> [!note] Примечание
+> В зависимости от применения, все двигатели могут быть оснащены воздушным компрессором.
 
-Inspect the air plumbing for splits or cracks.
+Осмотрите корпус компрессора на наличие трещин и повреждений.
 
-Inspect the air compressor mounting nuts, including support bracket, for loose or damaged hardware.
+Осмотрите гидравлические насосные муфты на наличие трещин, износа или повреждений (если они оборудованы).
 
-Operate the engine and check for correct compressor operation and air, oil, and coolant leaks.
+Проверьте сантехнику для расколов или трещин.
 
-> [!tip] Момент затяжки · Torque Value
-> Mounting 18 mm 77 n•m [57 ft-lb]
+Осмотрите крепление воздушных компрессоров, включая опорный кронштейн, на наличие свободного или поврежденного оборудования.
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket 10 mm 45 n•m [33 ft-lb]
+Управляйте двигателем и проверяйте правильность работы компрессора и утечки воздуха, масла и охлаждающей жидкости.
+
+> [!tip] Момент затяжки
+> Монтаж 18 мм 77 Н·м [57 футов-lb]
+
+> [!tip] Момент затяжки
+> Брекет 10 мм 45 Н·м [33 фут-лб]
 
 ![[12d00043.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **Note · Примечание**
+> Depending on application, all engines will possibly **not** be equipped with an air compressor.
+>
+> Inspect the compressor housing for cracks and damage.
+>
+> Inspect the hydraulic pump couplings for cracks, wear, or damage (if equipped).
+>
+> Inspect the air plumbing for splits or cracks.
+>
+> Inspect the air compressor mounting nuts, including support bracket, for loose or damaged hardware.
+>
+> Operate the engine and check for correct compressor operation and air, oil, and coolant leaks.
+>
+> **Момент затяжки · Torque Value**
+> Mounting 18 mm 77 n•m [57 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Bracket 10 mm 45 n•m [33 ft-lb]

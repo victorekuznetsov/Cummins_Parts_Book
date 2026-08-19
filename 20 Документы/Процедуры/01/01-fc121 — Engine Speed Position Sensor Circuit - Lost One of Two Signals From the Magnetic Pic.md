@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc121.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc121.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Speed/Position Sensor Circuit - Lost One of Two Signals From the Magnetic Pickup Sensor
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc121.pdf)
 
-### Fault Code: 121
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Speed/Position Sensor Circuit - Lost One of Two Signals From the Magnetic Pickup Sensor
 
-Printable Version
+### Код неисправности: 121
 
-### Overview
+### Цепь датчика частоты/положения — потерян один из двух сигналов индуктивного датчика
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 121 PID(P): SPN: FMI: Lamp: Warning SRT: | No engine speed signal detected from either the main or backup speed sensors. | No action by the ECM is taken. No effect on performance. |
+| Код неисправности: 121 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Сигнал о скорости двигателя не был обнаружен ни с основных, ни с резервных датчиков скорости. | Никаких действий со стороны ЕКМ не предпринимается. Никакого влияния на производительность. |
 
 ![[19803593.png]]
 
-Engine Speed Sensor Circuit
+Цепь датчика частоты вращения двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine speed sensor is a dual coil circuit that provides the engine speed signal to the engine control module (ECM) through the engine harness.
+Датчик скорости двигателя представляет собой схему с двойной катушкой, которая обеспечивает сигнал скорости двигателя к модулю управления двигателем (ECM) через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-Refer to Procedure 100-002 in Section E for the component location.
+См. процедуру 100-002 в разделе Е для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor circuit while the engine is at that particular temperature. Check for a correct air gap of engine speed sensor to flywheel tooth. Some speed sensors can use a single Deutsch™ harness connector instead of two Weather-Pack™ connectors.
+Если проблема возникает только при определенной температуре двигателя, обязательно проверьте схему датчика скорости двигателя, пока двигатель находится при этой конкретной температуре. Проверьте правильный воздушный зазор датчика скорости двигателя на зуб маховика. Некоторые датчики скорости могут использовать один разъем проводов DeutschTM вместо двух разъемов Weather-PackTM.
 
-Refer to Troubleshooting Fault Code t05-121.
+См. Код устранения неполадок t05-121.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 121
+>
+> ### Engine Speed/Position Sensor Circuit - Lost One of Two Signals From the Magnetic Pickup Sensor
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 121 PID(P): SPN: FMI: Lamp: Warning SRT: | No engine speed signal detected from either the main or backup speed sensors. | No action by the ECM is taken. No effect on performance. |
+>
+> Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine speed sensor is a dual coil circuit that provides the engine speed signal to the engine control module (ECM) through the engine harness.
+>
+> ### Component Location
+>
+> Refer to Procedure 100-002 in Section E for the component location.
+>
+> ### Shoptalk
+>
+> If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor circuit while the engine is at that particular temperature. Check for a correct air gap of engine speed sensor to flywheel tooth. Some speed sensors can use a single Deutsch™ harness connector instead of two Weather-Pack™ connectors.
+>
+> Refer to Troubleshooting Fault Code t05-121.

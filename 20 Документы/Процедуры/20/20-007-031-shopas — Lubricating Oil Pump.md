@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-031-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-031-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pump
@@ -32,23 +35,50 @@ tags:
 > **Даты:** изменён 2026-02-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-031-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-031-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Apply a light coat of grease to the seal ring to hold it in place during assembly.
 
-Install the o-rings and the seal ring onto the pump.
+### Установка
 
-Lubricate the o-rings and bore in the block with vegetable oil.
+Нанесите легкий слой жира на кольцо уплотнения, чтобы удерживать его на месте во время сборки.
 
-Install the pump and the capscrews.
+Установите кольца и кольцо уплотнения на насос.
 
-Tighten the capscrews.
+Смазать кольца и цилиндр, которые были в блоке, растительным маслом.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+Установите насос и болты.
+
+Затяните болты.
+
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[lp400ma.png]]
 
-Look between the number one and number two main bearing caps. The seal **must** be visible in the space between the rear of the pump and the engine block.
+Посмотрите между номером один и номером два основные подшипники. Уплотнение ** должно быть видно в пространстве между задней частью насоса и блоком двигателя.
 
 ![[lp400ha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Apply a light coat of grease to the seal ring to hold it in place during assembly.
+>
+> Install the o-rings and the seal ring onto the pump.
+>
+> Lubricate the o-rings and bore in the block with vegetable oil.
+>
+> Install the pump and the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Look between the number one and number two main bearing caps. The seal **must** be visible in the space between the rear of the pump and the engine block.

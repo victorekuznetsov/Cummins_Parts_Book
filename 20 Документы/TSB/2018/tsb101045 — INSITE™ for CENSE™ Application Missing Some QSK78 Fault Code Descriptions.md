@@ -13,12 +13,15 @@ engines:
   - "37295879"
 families:
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101045.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2018"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -32,22 +35,52 @@ tags:
 > **Даты:** выпущен 2018-10-04 · изменён 2018-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101045.pdf)
 
-## INSITE™ for CENSE™ Application Missing Some QSK78 Fault Code Descriptions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-The root cause for this issue is that fault code information is missing from the necessary resource files for the program.
+## В INSITE™ для CENSE™ отсутствуют описания части кодов QSK78
 
-### Confirmation
+### Суть проблемы
 
-N/A
+Основная причина этой проблемы заключается в том, что информация о коде неисправности отсутствует в необходимых файлах ресурсов для программы.
 
-### Resolution
+### Подтверждение
 
-Download CENSE™ Service Pack 1 from http://care.cummins.com, or install it using INSITE™ electronic service tool DVD.
+Не применяется
 
-### Warranty Statement
+### Решение
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Скачать пакет услуг CENSETM 1 из http://care.cummins.com или установить его с помощью электронного инструментария INSITETM DVD.
 
-### Document History
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ for CENSE™ Application Missing Some QSK78 Fault Code Descriptions
+>
+> ### Core Issue
+>
+> The root cause for this issue is that fault code information is missing from the necessary resource files for the program.
+>
+> ### Confirmation
+>
+> N/A
+>
+> ### Resolution
+>
+> Download CENSE™ Service Pack 1 from http://care.cummins.com, or install it using INSITE™ electronic service tool DVD.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

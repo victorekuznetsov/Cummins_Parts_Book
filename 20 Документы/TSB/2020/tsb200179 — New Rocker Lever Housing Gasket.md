@@ -17,6 +17,8 @@ families:
   - "QSK19"
 parts:
   - "5373849"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200179.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200179.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "год/2020"
+  - "перевод/машинный"
   - "тема/cylinder-head"
 ---
 
@@ -37,73 +40,147 @@ tags:
 > **Даты:** выпущен 2020-11-02 · изменён 2020-11-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200179.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200179.pdf)
 
-## New Rocker Lever Housing Gasket
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новая прокладка корпуса коромысел
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- All KV/QSK 19, 38, and 50 Series Engines
+### Содержание
 
-**Description of Change**
+**Затронутая продукция**
 
-A new rocker lever housing gasket has been released that has changed the material from steel to aluminized steel.
+- Все двигатели серии KV/QSK 19, 38 и 50
 
-**Reason for Change**
+**Описание изменения**
 
-There had been multiple reports of rocker lever housing gaskets leaking on engines in operation caused by corrosion of the gasket. As part of a PPS project, a new aluminized gasket has been released. The new gasket is more resistant to corrosion over the existing steel type gasket and will increase the component's life span.
+Выпущена новая прокладка прокладки рулевого колеса клапанного клапана, которая изменила материал из стали на алюминизированную сталь.
 
-**Customer Communication**
+**Причина изменения**
 
-A new part number has been released for the new rocker lever housing gasket. The current gasket has been obsoleted.
+Было много сообщений о том, что прокладки прокладки клапанного клапана, облицовочные прокладки, просачиваются на двигателях, находящихся в эксплуатации, в результате коррозии прокладки. В рамках проекта PPS была выпущена новая алюминиевая прокладка. Новая прокладка более устойчива к коррозии по сравнению с существующей прокладкой стального типа и увеличит срок службы компонента.
 
-**Service Parts Availability**
+**Клиентская коммуникация**
 
-Service parts are available. See Table 1 for part numbers.
+Был выпущен новый номер детали для новой прокладки прокладки рулевого колеса клапанного клапана. Нынешняя прокладка устарела.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| GASKET, ROCKER LEVER HOUSING | 3630839 | X | X | [[5373849]] |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| ГАЗКЕТ, корпус клапанного клапана | 3630839 | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | [[5373849]] |
 
-**Part Compatibility**
+** Совместимость частей**
 
-Full backwards compatibility. The new gasket will fit the current cylinder head and rocker lever housing as a direct replacement.
+Полная обратная совместимость. Новая прокладка будет соответствовать текущей головке цилиндра и корпусу рычага клапанного клапана в качестве прямой замены.
 
-**Part Identification**
+**Идентификация детали**
 
-New part is aluminized steel and is similar in color to the old gasket. The part number is stamped into the gasket for identification.
+Новая часть представляет собой алюминизированную сталь и по цвету похожа на старую прокладку. Номер детали проштампован в прокладку для идентификации.
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Use existing part number inventory before using the new part number.
+Используйте существующий инвентарь номеров деталей перед использованием нового номера деталей.
 
-**Service Tools and Training Available**
+** Доступны инструменты и обучение**
 
-No special tools are required.
+Специальных инструментов не требуется.
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| Table 2, Production Information |  |  |
+| Таблица 2, Информация о производстве |  |  |
 |---|---|---|
-| ESN First | Build Date 1 | Plant |
-| 33218089 | 13MAR2019 | DAVENTRY |
-| 1 Engine build date can be found on the engine dataplate. |  |  |
+| ESN First | Постройте дату 1 | растение |
+| 33218089 | 13 марта 2019 | ДВЕНТРИЯ |
+| 1 Дату сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 
-**Publications Affected / Associated Publications**
+**Публикации, затронутые / Ассоциированные публикации**
 
-There is no change to publications.
+В публикациях изменений нет.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[5373849]] | ROCKER LEVER HOUSING GASKET | Прокладка корпуса коромысел |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Rocker Lever Housing Gasket
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - All KV/QSK 19, 38, and 50 Series Engines
+>
+> **Description of Change**
+>
+> A new rocker lever housing gasket has been released that has changed the material from steel to aluminized steel.
+>
+> **Reason for Change**
+>
+> There had been multiple reports of rocker lever housing gaskets leaking on engines in operation caused by corrosion of the gasket. As part of a PPS project, a new aluminized gasket has been released. The new gasket is more resistant to corrosion over the existing steel type gasket and will increase the component's life span.
+>
+> **Customer Communication**
+>
+> A new part number has been released for the new rocker lever housing gasket. The current gasket has been obsoleted.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | GASKET, ROCKER LEVER HOUSING | 3630839 | X | X | [[5373849]] |
+>
+> **Part Compatibility**
+>
+> Full backwards compatibility. The new gasket will fit the current cylinder head and rocker lever housing as a direct replacement.
+>
+> **Part Identification**
+>
+> New part is aluminized steel and is similar in color to the old gasket. The part number is stamped into the gasket for identification.
+>
+> **Part Inventory Action**
+>
+> Use existing part number inventory before using the new part number.
+>
+> **Service Tools and Training Available**
+>
+> No special tools are required.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | Table 2, Production Information |  |  |
+> |---|---|---|
+> | ESN First | Build Date 1 | Plant |
+> | 33218089 | 13MAR2019 | DAVENTRY |
+> | 1 Engine build date can be found on the engine dataplate. |  |  |
+>
+> **Publications Affected / Associated Publications**
+>
+> There is no change to publications.
+>
+> ### Document History

@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-002-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-002-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Valve Guide, Cylinder Head
@@ -32,26 +35,56 @@ tags:
 > **Даты:** изменён 2008-09-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-002-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-002-017.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Measure the inside diameter of the valve guide bore in the cylinder head.
 
-| mm |  | in |
+### Проверка при повторном использовании
+
+Измерить внутренний диаметр направляющего цилиндра клапана, который находится в головке цилиндра.
+
+| мм |  | в |
 |---|---|---|
-| 15.931 | MIN | 0.6272 |
-| 15.971 | MAX | 0.6288 |
+| 15.931 | Мин | 0.6272 |
+| 15.971 | Макс | 0.6288 |
 
-If the valve guide bore is worn larger than the maximum specified, the cylinder head **must** be replaced.
+Если штанга направляющего цилиндра клапана изношена больше максимально указанного, головка цилиндра *** должна быть заменена.
 
 ![[kn9gunb.png]]
 
-Inspect the valve guides for scuffing, scoring, chips, or cracks.
+Осмотрите направляющие клапана для потасовки, подсчета очков, чипсов или трещин.
 
-Measure the valve guide inside diameter.
+Измерьте направляющий клапан внутри диаметра.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 9.539 | MIN | 0.3755 |
-| 9.559 | MAX | 0.3763 |
+| 9.539 | Мин | 0.3755 |
+| 9.559 | Макс | 0.3763 |
 
 ![[kn900kj.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> Measure the inside diameter of the valve guide bore in the cylinder head.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 15.931 | MIN | 0.6272 |
+> | 15.971 | MAX | 0.6288 |
+>
+> If the valve guide bore is worn larger than the maximum specified, the cylinder head **must** be replaced.
+>
+> Inspect the valve guides for scuffing, scoring, chips, or cracks.
+>
+> Measure the valve guide inside diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 9.539 | MIN | 0.3755 |
+> | 9.559 | MAX | 0.3763 |

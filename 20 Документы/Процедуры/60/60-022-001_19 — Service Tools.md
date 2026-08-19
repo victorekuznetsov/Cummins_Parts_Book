@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 19
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-022-001_19.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-022-001_19.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -33,7 +36,15 @@ tags:
 > **Даты:** изменён 2007-12-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-022-001_19.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-022-001_19.pdf)
 
-### Electronic Engine Controls
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Электронный контроль двигателя
 
 ![[3377161.png]]
 
@@ -73,23 +84,48 @@ tags:
 
 ![[3822860.png]]
 
-| **Tool Number** 3377161 | **Multimeter** Measure electrical circuits; voltage (volts), resistance (ohms), and current (amperes). |  |
+| ** Инструментальный номер ** 3377161 | **Мультиметр** Измеряет электрические цепи; напряжение (вольты), сопротивление (омы) и ток (амперы). |  |
 |---|---|---|
-| **Tool Number** 3822930 | **Wire Crimping Pliers** Used when repairing connector wires. |  |
-| **Tool Number** 3823843 | **Deep Well Socket (1-1/4-inch)** Used to remove and install sensors and actuators. |  |
-| **Tool Number** 3824510 | **Electrical Contact Cleaner** Used to clean electrical contacts and connectors. |  |
-| **Tool Number** 3822747 | **Engine Position Sensor Installation Tool** Used to remove and install the engine position sensor. |  |
-| **Tool Number** 3822608 | **Weather Pack™ Terminal Removal Tool** Used to repair Weather Pack™ connectors. |  |
-| **Tool Number** 3163971 | **D-sub Terminal Extraction Tool** Used to repair D-sub connectors. |  |
-| **Tool Number** 3822760 | **Deutsch™ Terminal Removal Tool (Blue)** Used to repair \#16 blue wires used in most Deutsch™ connectors. |  |
-| **Tool Number** 3824815 | **Deutsch™ Terminal Removal Tool (Red)** Used to repair \#20 red wires used in Deutsch™ 50-Pin connectors. |  |
-| **Tool Number** 3824816 | **Deutsch™ Terminal Removal Tool (Yellow)** Used to repair \#12 yellow wires used in Deutsch™ 9-Pin connectors. |  |
-| **Tool Number** 3162898 | **Pressure/Temperature Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
-| **Tool Number** 3824774 | **Ambient Air Pressure Sensor Breakout Cable** Used to troubleshoot ambient air pressure sensor issues. |  |
-| **Tool Number** 3824775 | **Pressure Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
-| **Tool Number** 3824776 | **Pressure Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
-| **Tool Number** 3164752 | **Danfoss® Pressure Sensor Breakout Cable(s) and Kit** |  |
-| **Tool Number** 3824287 | **Barometric Air Pressure and Fuel Supply Relay - Siemens Connectors and Procedures** |  |
-| **Tool Number** 3163956 | **Wiring Repair Kit, Power Generation** Contains a variety of connectors, pins, seals, terminals, test leads, and other tools used to repair connectors. |  |
-| **Tool Number** 3824904 | **Wiring Repair Kit, Standard** Contains a variety of connectors, pins, seals, terminals, test leads, and other tools used to repair connectors. |  |
-| **Tool Number** 3163112 | **Heat Gun** Used to repair connector wires. |  |
+| **Инструментальный номер ** 3822930 | **Клинии для обрезки проводов ** Используются при ремонте соединительных проводов. |  |
+| ** Инструментальный номер ** 3823843 | ** Глубокий колодец (1-1/4 дюйма)** Используется для удаления и установки датчиков и исполнительных механизмов. |  |
+| **Инструментальный номер ** 3824510 | ** Электронный контактный очиститель** Используется для очистки электрических контактов и разъемов. |  |
+| ** Инструментальный номер ** 3822747 | **Инструмент установки датчика положения двигателя** Используется для удаления и установки датчика положения двигателя. |  |
+| ** Инструментальный номер ** 3822608 | ** Инструмент удаления терминалов Weather PackTM** Используется для ремонта разъемов Weather PackTM. |  |
+| ** Инструментальный номер ** 3163971 | **D-подстановочный инструмент извлечения терминала** Используется для ремонта разъемов D-подстанции. |  |
+| ** Инструментальный номер ** 3822760 | **DeutschTM Terminal Removal Tool (Blue)** Используется для ремонта \#16 синих проводов, используемых в большинстве разъемов DeutschTM. |  |
+| ** Инструментальный номер ** 3824815 | ** Инструмент удаления терминалов DeutschTM (Красный)** Используется для ремонта \#20 красных проводов, используемых в разъемах DeutschTM 50-Pin. |  |
+| ** Инструментальное число** 3824816 | **DeutschTM Terminal Removal Tool (Yellow)** Используется для ремонта желтых проводов \#12, используемых в разъемах DeutschTM 9-Pin. |  |
+| ** Инструментальное число** 3162898 | **Датчик давления/температурный датчик проводов ветки кабель** Используется для устранения проблем датчика давления. |  |
+| ** Инструментальный номер ** 3824774 | **Сенсор атмосферного давления (Ambient Air Pressure Sensor Wiring Wangage) используется для устранения проблем с датчиком давления окружающего воздуха. |  |
+| ** Инструментальный номер ** 3824775 | **Кабель с датчиком давления ** Используется для устранения проблем с датчиком давления. |  |
+| **Инструментальный номер ** 3824776 | **Кабель с датчиком давления ** Используется для устранения проблем с датчиком давления. |  |
+| **Инструментальный номер ** 3164752 | **Данфосс® Датчик давления Сенсорная проводка ветка кабель(ы) и комплект** |  |
+| ** Инструментальный номер ** 3824287 | ** Барометрическое давление воздуха и реле подачи топлива - Коннекторы и процедуры Siemens** |  |
+| **Инструментальный номер** 3163956 | **Wiring Repair Kit, Power Generation** Содержит различные разъемы, штифты, уплотнения, терминалы, измерительный щуп и другие инструменты, используемые для ремонта разъемов. |  |
+| ** Номер инструмента ** 3824904 | **Wiring Repair Kit, Standard** Содержит различные разъемы, штифты, уплотнения, терминалы, испытательный щуп и другие инструменты, используемые для ремонта разъемов. |  |
+| **Инструментальный номер** 3163112 | ** Тепловая пушка** Используется для ремонта соединительных проводов. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Electronic Engine Controls
+>
+> | **Tool Number** 3377161 | **Multimeter** Measure electrical circuits; voltage (volts), resistance (ohms), and current (amperes). |  |
+> |---|---|---|
+> | **Tool Number** 3822930 | **Wire Crimping Pliers** Used when repairing connector wires. |  |
+> | **Tool Number** 3823843 | **Deep Well Socket (1-1/4-inch)** Used to remove and install sensors and actuators. |  |
+> | **Tool Number** 3824510 | **Electrical Contact Cleaner** Used to clean electrical contacts and connectors. |  |
+> | **Tool Number** 3822747 | **Engine Position Sensor Installation Tool** Used to remove and install the engine position sensor. |  |
+> | **Tool Number** 3822608 | **Weather Pack™ Terminal Removal Tool** Used to repair Weather Pack™ connectors. |  |
+> | **Tool Number** 3163971 | **D-sub Terminal Extraction Tool** Used to repair D-sub connectors. |  |
+> | **Tool Number** 3822760 | **Deutsch™ Terminal Removal Tool (Blue)** Used to repair \#16 blue wires used in most Deutsch™ connectors. |  |
+> | **Tool Number** 3824815 | **Deutsch™ Terminal Removal Tool (Red)** Used to repair \#20 red wires used in Deutsch™ 50-Pin connectors. |  |
+> | **Tool Number** 3824816 | **Deutsch™ Terminal Removal Tool (Yellow)** Used to repair \#12 yellow wires used in Deutsch™ 9-Pin connectors. |  |
+> | **Tool Number** 3162898 | **Pressure/Temperature Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
+> | **Tool Number** 3824774 | **Ambient Air Pressure Sensor Breakout Cable** Used to troubleshoot ambient air pressure sensor issues. |  |
+> | **Tool Number** 3824775 | **Pressure Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
+> | **Tool Number** 3824776 | **Pressure Sensor Breakout Cable** Used to troubleshoot pressure sensor issues. |  |
+> | **Tool Number** 3164752 | **Danfoss® Pressure Sensor Breakout Cable(s) and Kit** |  |
+> | **Tool Number** 3824287 | **Barometric Air Pressure and Fuel Supply Relay - Siemens Connectors and Procedures** |  |
+> | **Tool Number** 3163956 | **Wiring Repair Kit, Power Generation** Contains a variety of connectors, pins, seals, terminals, test leads, and other tools used to repair connectors. |  |
+> | **Tool Number** 3824904 | **Wiring Repair Kit, Standard** Contains a variety of connectors, pins, seals, terminals, test leads, and other tools used to repair connectors. |  |
+> | **Tool Number** 3163112 | **Heat Gun** Used to repair connector wires. |  |

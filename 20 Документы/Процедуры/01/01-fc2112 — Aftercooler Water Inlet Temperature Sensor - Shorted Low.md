@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2112.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc2112.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Aftercooler Water Inlet Temperature Sensor - Shorted Low
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc2112.pdf)
 
-### Fault Code: 2112
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Aftercooler Water Inlet Temperature Sensor - Shorted Low
 
-Printable Version
+### Код неисправности: 2112
 
-### Overview
+### Датчик температуры воды на входе охладителя — замыкание на массу
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2112 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant temperature 2 sensor circuit - shorted low. This was formerly called the aftercooler water inlet temperature sensor. | No engine protection for aftercooler water inlet temperature. |
+| Код неисправности: 2112 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Схема датчика температуры охлаждающей жидкости двигателя 2 - низкокороткая. Ранее это называлось датчиком температуры после охлаждения воды. | Отсутствие защиты двигателя для температуры впуска воды после охлаждения. |
 
 ![[19803592.png]]
 
-Aftercooler Water Inlet Temperature Sensor Circuit
+Послеохладитель Вводная Схема Температурного Датчика
 
-### Circuit Description
+### Описание цепи
 
-The aftercooler water inlet temperature sensor is used by the electronic control module (ECM) to monitor the ability of the engine cooling system to cool down the engine coolant. The aftercooler water inlet temperature is used by the ECM for the engine protection system. The ECM monitors the voltage on the aftercooler water inlet temperature signal pin and expects to see a voltage vary between 0.5 and 4.5 VDC during normal engine operation. Low voltage will trip Fault Code 2112 and can be caused by shorts in the signal, or return wires, an open in the signal wire, or a failed sensor.
+Датчик температуры впуска воды после охлаждения используется электронным модулем управления (ECM) для мониторинга способности системы охлаждения двигателя охлаждать охлаждающую жидкость двигателя. Температура впуска воды после охлаждения используется ECM для системы защиты двигателя. ECM контролирует напряжение на контакте с температурным сигналом впускного отверстия после охлаждения воды и ожидает, что напряжение будет варьироваться от 0,5 до 4,5 ВДК во время нормальной работы двигателя. Низкое напряжение будет сбивать Код 2112 по умолчанию и может быть вызвано шортами в сигнале или обратными проводами, открытым в сигнальном проводе или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-Refer to Procedure 100-002 for the component location.
+См. процедуру 100-002 для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are open circuit, short to ground, failed sensor, and loss of supply voltage inside the ECM. The resistance of the sensor varies with the temperature.
+Возможные режимы отказа - это открытая цепь, короткая к земле, неисправный датчик и потеря напряжения питания внутри ECM. Сопротивление датчика изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-2112
+См. Код устранения неполадок t05-2112
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2112
+>
+> ### Aftercooler Water Inlet Temperature Sensor - Shorted Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2112 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant temperature 2 sensor circuit - shorted low. This was formerly called the aftercooler water inlet temperature sensor. | No engine protection for aftercooler water inlet temperature. |
+>
+> Aftercooler Water Inlet Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The aftercooler water inlet temperature sensor is used by the electronic control module (ECM) to monitor the ability of the engine cooling system to cool down the engine coolant. The aftercooler water inlet temperature is used by the ECM for the engine protection system. The ECM monitors the voltage on the aftercooler water inlet temperature signal pin and expects to see a voltage vary between 0.5 and 4.5 VDC during normal engine operation. Low voltage will trip Fault Code 2112 and can be caused by shorts in the signal, or return wires, an open in the signal wire, or a failed sensor.
+>
+> ### Component Location
+>
+> Refer to Procedure 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> The possible failure modes are open circuit, short to ground, failed sensor, and loss of supply voltage inside the ECM. The resistance of the sensor varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-2112

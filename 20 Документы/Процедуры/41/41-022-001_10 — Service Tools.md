@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-022-001_10.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-022-001_10.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -32,13 +35,28 @@ tags:
 > **Даты:** изменён 2003-05-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-022-001_10.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-022-001_10.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[tb8togf.png]]
 
 ![[eg8togi.png]]
 
 ![[3823799.png]]
 
-| **Tool Number** ST-537 | **Dial Depth Gauge** Used to measure turbocharger axial motion. |  |
+| ** Номер инструмента** ST-537 | ** Дальняя глубина калибра** Используется для измерения осевого движения турбокомпрессора. |  |
 |---|---|---|
-| **Tool Number** ST-1273 | **Pressure Gauge (0 to 75 in Hg)** Used to measure the intake manifold pressure and exhaust back pressure. |  |
-| **Tool Number** 3823799 | **Turbocharger Wastegate Pressure Setting Kit** Used to set wastegate pressure. |  |
+| ** Номер инструмента** ST-1273 | ** Калибр давления (от 0 до 75 рт.ст.)** Используется для измерения давления впускного коллектора и давления в задней части выхлопных газов. |  |
+| ** Инструментальный номер ** 3823799 | ** Набор для установки давления в обходном клапане турбокомпрессора** Используется для установки давления в обходном клапане турбины. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** ST-537 | **Dial Depth Gauge** Used to measure turbocharger axial motion. |  |
+> |---|---|---|
+> | **Tool Number** ST-1273 | **Pressure Gauge (0 to 75 in Hg)** Used to measure the intake manifold pressure and exhaust back pressure. |  |
+> | **Tool Number** 3823799 | **Turbocharger Wastegate Pressure Setting Kit** Used to set wastegate pressure. |  |

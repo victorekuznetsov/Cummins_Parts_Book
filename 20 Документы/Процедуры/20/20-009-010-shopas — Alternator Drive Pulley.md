@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-010-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Alternator Drive Pulley
@@ -32,23 +35,50 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-010-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Replace the alternator drive seal if damaged. Refer to Procedure [[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer to drive the pulley into position. The thrust washers will be damaged.
+### Установка
 
-Use the pulley installation kit, Part Number 3376326, or equivalent. Install the correct adapter in the pusher.
+Замените уплотнение привода генератора переменного тока, если оно повреждено. См. процедуру[[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
 
-Install the pulley on the shaft. The pulley **must** touch the step on the shaft.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток, чтобы привести шкив в положение. Моющие устройства будут повреждены.
 
-Remove the tool and adapter.
+Используйте комплект установки шкива, Номер детали 3376326 или эквивалент. Установите правильный адаптер в толкателе.
+
+Установите шкив на вал. Щелчок ** должен** коснуться ступеньки на валу.
+
+Удалите инструмент и адаптер.
 
 ![[01400115.png]]
 
-Remove the capscrew from the water pump drive.
+Удалите болты из привода водяного насоса.
 
-Install the plastic plug that protects the threads.
+Установите пластиковую вилку, которая защищает резьбу.
 
 ![[dw4puhb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Replace the alternator drive seal if damaged. Refer to Procedure [[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer to drive the pulley into position. The thrust washers will be damaged.
+>
+> Use the pulley installation kit, Part Number 3376326, or equivalent. Install the correct adapter in the pusher.
+>
+> Install the pulley on the shaft. The pulley **must** touch the step on the shaft.
+>
+> Remove the tool and adapter.
+>
+> Remove the capscrew from the water pump drive.
+>
+> Install the plastic plug that protects the threads.

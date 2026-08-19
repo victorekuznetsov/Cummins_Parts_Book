@@ -13,12 +13,15 @@ families:
 manuals:
   - "4022094"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc4642.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-fc4642.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # Water in Fuel Indicator - Data Valid But Above Normal Operating Range - Most Severe Level
@@ -32,70 +35,142 @@ tags:
 > **Даты:** изменён 2015-09-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc4642.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-fc4642.pdf)
 
-### Fault Code: 4642
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Water in Fuel Indicator - Data Valid But Above Normal Operating Range - Most Severe Level
 
-Printable Version
+### Код неисправности: 4642
 
-### Overview
+### Индикатор воды в топливе — выше нормы — наивысший уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 4642 PID(P): SPN: 97 FMI: 0 Lamp: Red SRT: | Water in Fuel Indicator - Data Valid But Above Normal Operating Rage - Most Severe Level. Water has been detected in the fuel filter. | Possible white smoke, loss of power, or hard starting. Engine derate will occur on marine engines if optional engine protection feature is enabled. |
+| Код неисправности: 4642 PID(P): СПН: 97 ФМИ: 0 лампочка: Красная СТО: | Вода в топливном индикаторе - данные действительны, но выше нормального рабочего уровня - самый тяжелый уровень. В топливном фильтре обнаружена вода. | Возможен белый дым, потеря энергии или жесткий старт. Упадок двигателя будет происходить на морских двигателях, если включена дополнительная функция защиты двигателя. |
 
 ![[19401834.png]]
 
-QSK19 CM2150 Industrial - Water In Fuel Indicator Sensor Circuit
+QSK19 CM2150 Industrial - Вода в топливном индикаторе
 
 ![[19401835.png]]
 
-QSK19 CM2150 Marine - Water In Fuel Indicator Sensor Circuit
+QSK19 CM2150 Морской - Вода в топливном индикаторе Сенсорная схема
 
 ![[r8f00016.png]]
 
-QSK19 CM2150 Power Generation - Water In Fuel Indicator Sensor Circuit
+QSK19 CM2150 Электрогенерация - Вода в топливном индикаторе Сенсорная схема
 
-### Circuit Description
+### Описание цепи
 
-The water in fuel indicator sensor is attached to the first stage fuel filter. The water in fuel indicator sensor sends a signal to the engine control module (ECM) when a set volume of water has accumulated in the fuel filter. The water in fuel indicator sensor circuit contains two wires; a water in fuel indicator return (sensor return 1) ground wire and a water in fuel indicator signal wire.
+Вода в датчике индикатора топлива прикрепляется к топливному фильтру первой ступени. Датчик индикатора воды в топливе посылает сигнал модулю управления двигателем (ECM), когда в топливном фильтре накопился заданный объем воды. Вода в цепи датчика индикатора топлива содержит два провода; вода в индикаторе возврата топлива (датчик возврата 1) наземный провод и вода в индикаторе топлива сигнальный провод.
 
-### Component Location
+### Расположение компонента
 
-The water in fuel indicator sensor is integrated into the bottom of the first stage fuel filter. The first stage fuel filter is located on the intake side of the engine.
+Вода в датчике индикатора топлива интегрирована в дно топливного фильтра первой ступени. Первый топливный фильтр ступени расположен на впускной стороне двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The ECM detected water in fuel for an extended period of time.
+ECM обнаружил воду в топливе в течение длительного периода времени.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately after the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу после диагностических прогонов и выходит из строя.
 
-- On marine propulsion engines, if the optional engine protection feature has been enabled, a speed derate will occur.
+- В морских двигателях, если включена дополнительная функция защиты двигателя, произойдет снижение скорости.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого инструментами электронного сервиса INSITETM, будет изменено на INACTIVE сразу после запуска и прохождения диагностики.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The Reset All Faults command in INSITE™ electronic service tool can be used to clear active and inactive faults.
+- Команда Reset All Faults в инструменте электронного сервиса INSITETM может использоваться для устранения активных и неактивных ошибок.
 
-### Shoptalk
+### Практические замечания
 
-Water in the fuel can do extensive damage to the fuel system, due to the tight tolerances of the fuel system components.
+Вода в топливе может нанести значительный ущерб топливной системе из-за герметичных допусков компонентов топливной системы.
 
-Drain the Stage 1 and/or duplex fuel filters.
+Смывать топливные фильтры 1-й стадии и/или дуплекса.
 
-Bulk fuel supply may be contaminated.
+Наливное топливо может быть загрязнено.
 
-If this fault code is active and there is no water in the fuel filter then a malfunctioning water in fuel sensor or water in the sensor connector could be causing the fault.
+Если этот код неисправности активен и в топливном фильтре нет воды, то неисправная вода в датчике топлива или вода в разъеме датчика может вызвать неисправность.
 
-Refer to Troubleshooting Fault Code t05-4642.
+См. Код устранения неполадок t05-4642.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 4642
+>
+> ### Water in Fuel Indicator - Data Valid But Above Normal Operating Range - Most Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 4642 PID(P): SPN: 97 FMI: 0 Lamp: Red SRT: | Water in Fuel Indicator - Data Valid But Above Normal Operating Rage - Most Severe Level. Water has been detected in the fuel filter. | Possible white smoke, loss of power, or hard starting. Engine derate will occur on marine engines if optional engine protection feature is enabled. |
+>
+> QSK19 CM2150 Industrial - Water In Fuel Indicator Sensor Circuit
+>
+> QSK19 CM2150 Marine - Water In Fuel Indicator Sensor Circuit
+>
+> QSK19 CM2150 Power Generation - Water In Fuel Indicator Sensor Circuit
+>
+> ### Circuit Description
+>
+> The water in fuel indicator sensor is attached to the first stage fuel filter. The water in fuel indicator sensor sends a signal to the engine control module (ECM) when a set volume of water has accumulated in the fuel filter. The water in fuel indicator sensor circuit contains two wires; a water in fuel indicator return (sensor return 1) ground wire and a water in fuel indicator signal wire.
+>
+> ### Component Location
+>
+> The water in fuel indicator sensor is integrated into the bottom of the first stage fuel filter. The first stage fuel filter is located on the intake side of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The ECM detected water in fuel for an extended period of time.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately after the diagnostic runs and fails.
+>
+> - On marine propulsion engines, if the optional engine protection feature has been enabled, a speed derate will occur.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The Reset All Faults command in INSITE™ electronic service tool can be used to clear active and inactive faults.
+>
+> ### Shoptalk
+>
+> Water in the fuel can do extensive damage to the fuel system, due to the tight tolerances of the fuel system components.
+>
+> Drain the Stage 1 and/or duplex fuel filters.
+>
+> Bulk fuel supply may be contaminated.
+>
+> If this fault code is active and there is no water in the fuel filter then a malfunctioning water in fuel sensor or water in the sensor connector could be causing the fault.
+>
+> Refer to Troubleshooting Fault Code t05-4642.

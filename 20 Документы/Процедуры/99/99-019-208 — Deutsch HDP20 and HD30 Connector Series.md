@@ -23,6 +23,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 17
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-208.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-208.pdf"
 tags:
@@ -31,6 +33,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Deutsch HDP20 and HD30 Connector Series
@@ -44,139 +47,252 @@ tags:
 > **Даты:** изменён 2004-06-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-208.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-208.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the two clamp capscrews (1) from the rear of the connector.
 
-Turn the retainer of the connector **counterclockwise** until the two pieces are separated.
+### Замена пин
+
+Удалите два зажимных болта (1) с задней части разъема.
+
+Поверните фиксатор разъема ** против часовой стрелки ** до тех пор, пока две части не будут разделены.
 
 ![[ee8coa01.png]]
 
-Use the Deutsch extraction tool, listed in the table below, to remove a pin from the connector.
+Используйте инструмент извлечения Deutsch, указанный в таблице ниже, чтобы удалить штифт из разъема.
 
-| Tool Part Number | Wire Size |
+| Инструмент Часть Номер | Размер провода |
 |---|---|
-| 3824815 | 20 gauge |
-| 3822760 | 16 gauge |
-| 3824816 | 12 gauge |
+| 3824815 | 20 калибр |
+| 3822760 | 16 калибр |
+| 3824816 | 12 калибр |
 
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+См. соответствующий комплект для ремонта проводов в таблице служебных инструментов в передней части Раздела 19 для правильного ремонта провода.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
 ![[ee8comm.png]]
 
-Push the tool into the connector about 25 mm \[1 in\] until it bottoms on the terminal flange.
+Нажмите инструмент на разъем около 25 мм \[1 дюйм \], пока он не опустится на концевой фланж.
 
 ![[ee8comn.png]]
 
-Hold the tool on the terminal flange and pull the wire and the connecting pin out of the connector. Note and record the hole from which the pin is removed.
+Держите инструмент на концевом фланце и вытащите провод и соединительный штифт из разъема. Заметьте и запишите отверстие, из которого вынимается штифт.
 
 ![[ee8como.png]]
 
-> [!note] Note · Примечание
-> The repair wire is 127 mm \[5 in\] long.
+> [!note] Примечание
+> Ремонтная проволока имеет длину 127 мм \[5 \].
 
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
 
-Refer to the appropriate wiring repair kit tools table in the front of Section 19 for the correct repair wire.
+См. таблицу инструментов для ремонта проводов в передней части раздела 19 для правильного ремонта провода.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
-Use wire crimping tool, Part Number 3822930, to cut 127 mm \[5 in\] off the wire and pin.
+Используйте инструмент для обжима проводов, номер детали 3822930, чтобы отрезать 127 мм \[5 in\] от провода и штифта.
 
-Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from the wire.
+Используйте инструмент для обжима провода, чтобы удалить 6 мм \[1⁄4 в\] изоляции от провода.
 
 ![[ee8comm.png]]
 
-Install the correct repair wire on the bare wire.
+Установите правильный ремонтный провод на голый провод.
 
-Make sure the bare wire extends into the splice connector.
+Убедитесь, что голый провод простирается в разъём сплайса.
 
 ![[ee8coaj.png]]
 
-Use the wire crimping tool to crimp the repair wire onto the bare wire.
+Используйте инструмент для обжимания провода, чтобы обрезать ремонтный провод на голый провод.
 
 ![[ee8cohy.png]]
 
-Use heat gun, Part Number 3822860, or an open flame to heat shrink the tubing around the wire. The tubing will shrink and make the connector waterproof.
+Используйте тепловую пушку, номер детали 3822860 или открытое пламя, чтобы уменьшить тепло в трубе. Трубка будет сжиматься и делать разъём водонепроницаемым.
 
 ![[ee8coal.png]]
 
-Insert the pin into the correct hole of the connector.
+Вставьте штифт в правильное отверстие разъема.
 
-The pin **must** click into place and hold the wire in the connector.
+Штырь **must** нажимает на место и удерживает провод в разъеме.
 
-Pull the wire gently to make sure it is seated in the connector.
+Тяните провод осторожно, чтобы убедиться, что он находится в разъеме.
 
 ![[ee8coam.png]]
 
-Install the retainer. Tighten the two clamp capscrews.
+Установите фиксатор. Закрепите два зажимных болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 1 n•m [9 in-lb]
+> [!tip] Момент затяжки
+> 1 Н·м [9 фунт-дюйм]
 
 ![[ee8coa02.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-Remove the two clamp capscrews (1) from the rear of the connector.
+Удалите два зажимных болта (1) с задней части разъема.
 
-Turn the retainer of the connector **counterclockwise** until the two pieces are separated.
+Поверните фиксатор разъема ** против часовой стрелки ** до тех пор, пока две части не будут разделены.
 
 ![[ee8coa01.png]]
 
-Use the Deutsch extraction tool, listed in the table below, to remove a pin from the connector.
+Используйте инструмент извлечения Deutsch, указанный в таблице ниже, чтобы удалить штифт из разъема.
 
-| Tool Part Number | Wire Size |
+| Инструмент Часть Номер | Размер провода |
 |---|---|
-| 3824815 | 20 gauge |
-| 3822760 | 16 gauge |
-| 3824816 | 12 gauge |
+| 3824815 | 20 калибр |
+| 3822760 | 16 калибр |
+| 3824816 | 12 калибр |
 
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+См. соответствующий комплект для ремонта проводов в таблице служебных инструментов в передней части Раздела 19 для правильного ремонта провода.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[ee8comm.png]]
 
-Push the tool into the connector about 25 mm \[1 in\] until it bottoms on the terminal flange.
+Нажмите инструмент на разъем около 25 мм \[1 дюйм \], пока он не опустится на концевой фланж.
 
 ![[ee8comn.png]]
 
-Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin is removed.
+Держите инструмент на концевом фланце и вытащите провод и соединительный штифт из разъема. Заметьте и запишите отверстие, из которого вынимается штифт.
 
 ![[ee8como.png]]
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
 ![[19400421.png]]
 
-Insert the pins into the correct holes of the connector.
+Вставьте штифты в правильные отверстия разъёма.
 
-The pin **must** click into place and hold the wire in the connector.
+Штырь **must** нажимает на место и удерживает провод в разъеме.
 
-Pull the wire gently to make sure it is seated in the connector.
+Тяните провод осторожно, чтобы убедиться, что он находится в разъеме.
 
 ![[ee8coam.png]]
 
-Install the retainer. Tighten the two clamp capscrews
+Установите фиксатор. Затянуть два зажимных болта
 
-> [!tip] Момент затяжки · Torque Value
-> 1 n•m [9 in-lb]
+> [!tip] Момент затяжки
+> 1 Н·м [9 фунт-дюйм]
 
 ![[ee8coa02.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> Remove the two clamp capscrews (1) from the rear of the connector.
+>
+> Turn the retainer of the connector **counterclockwise** until the two pieces are separated.
+>
+> Use the Deutsch extraction tool, listed in the table below, to remove a pin from the connector.
+>
+> | Tool Part Number | Wire Size |
+> |---|---|
+> | 3824815 | 20 gauge |
+> | 3822760 | 16 gauge |
+> | 3824816 | 12 gauge |
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Push the tool into the connector about 25 mm \[1 in\] until it bottoms on the terminal flange.
+>
+> Hold the tool on the terminal flange and pull the wire and the connecting pin out of the connector. Note and record the hole from which the pin is removed.
+>
+> **Note · Примечание**
+> The repair wire is 127 mm \[5 in\] long.
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Refer to the appropriate wiring repair kit tools table in the front of Section 19 for the correct repair wire.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Use wire crimping tool, Part Number 3822930, to cut 127 mm \[5 in\] off the wire and pin.
+>
+> Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from the wire.
+>
+> Install the correct repair wire on the bare wire.
+>
+> Make sure the bare wire extends into the splice connector.
+>
+> Use the wire crimping tool to crimp the repair wire onto the bare wire.
+>
+> Use heat gun, Part Number 3822860, or an open flame to heat shrink the tubing around the wire. The tubing will shrink and make the connector waterproof.
+>
+> Insert the pin into the correct hole of the connector.
+>
+> The pin **must** click into place and hold the wire in the connector.
+>
+> Pull the wire gently to make sure it is seated in the connector.
+>
+> Install the retainer. Tighten the two clamp capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 1 n•m [9 in-lb]
+>
+> ### Connector Replacement
+>
+> Remove the two clamp capscrews (1) from the rear of the connector.
+>
+> Turn the retainer of the connector **counterclockwise** until the two pieces are separated.
+>
+> Use the Deutsch extraction tool, listed in the table below, to remove a pin from the connector.
+>
+> | Tool Part Number | Wire Size |
+> |---|---|
+> | 3824815 | 20 gauge |
+> | 3822760 | 16 gauge |
+> | 3824816 | 12 gauge |
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Push the tool into the connector about 25 mm \[1 in\] until it bottoms on the terminal flange.
+>
+> Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin is removed.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Insert the pins into the correct holes of the connector.
+>
+> The pin **must** click into place and hold the wire in the connector.
+>
+> Pull the wire gently to make sure it is seated in the connector.
+>
+> Install the retainer. Tighten the two clamp capscrews
+>
+> **Момент затяжки · Torque Value**
+> 1 n•m [9 in-lb]

@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 9
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-030-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-030-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Pulley Assembly
@@ -33,97 +36,184 @@ tags:
 > **Даты:** изменён 2024-02-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-030-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-030-om.pdf)
 
-### Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use a dial indicator to measure the end clearance.
 
-| Bearing End Clearance |  |  |
+### Измерение
+
+Используйте индикатор циферблата для измерения конечного зазора.
+
+| Завершение процедуры |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.25 | MAX | 0.010 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.25 | Макс | 0.010 |
 
-If the clearance is **not** within specification, verify the spacer was installed correctly.
+Если зазор ** не** в пределах спецификации, проверьте, правильно ли установлен прокладка.
 
-The bearings **must** touch the spacer. The bearing races must touch the retaining ring.
+Подшипники ** должны** касаться пропеллера. Подшипниковые гонки должны касаться удерживающего кольца.
 
 ![[fa4puta.png]]
 
-### Lubricate
+### смазать
 
-Remove the capscrews, lock washers, cover plate, and gasket.
+Удалите болты, шайбы, крышку и прокладку.
 
-Use high performance, general purpose industrial-type grease (NLGI Grade No. 2) Chevron™ SRI Grease 2 or Mobilux™ EP 2 grease, or equivalent.
+Используйте высокопроизводительную смазку промышленного типа общего назначения (NLGI Grade No). 2) ChevronTM SRI Grease 2 или MobiluxTM EP 2 grease, или эквивалент.
 
-If above greases are not available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+Если вышеперечисленные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
 
-Fill the front cavity 2/3 full of grease.
+Заполните переднюю полость 2/3 полной жиром.
 
-Install the cover plate.
+Установите пластину крышки.
 
 ![[fa4puae.png]]
 
-If the shock absorber has bushing and sleeves supplied separately, then assemble as follows:
+Если амортизатор имеет втулку и рукава, поставляемые отдельно, то собрать следующим образом:
 
-1. Apply P80 Lubriplate™, Cummins® Part Number 3824878, or equivalent, rubber lubricant to the outer surface of the rubber bushing (1). Insert fully into each end of the shock absorber.
-2. Apply P80 Lubriplate™, Cummins® Part Number 3822487, or equivalent, rubber lubricant to the outer surface of the sleeve (2). Insert a sleeve into each of the rubber bushings until the sleeve is fully inserted.
+1. Применять P80 LubriplateTM, Cummins® Part Number 3824878 или эквивалентную резиновую смазку к наружной поверхности резиновой втулки (1). Вставьте полностью в каждый конец амортизатора.
+2. Применять P80 LubriplateTM, Cummins® Part Number 3822487 или эквивалентную резиновую смазку к наружной поверхности рукава (2). Вставьте рукав в каждую резиновую втулку до тех пор, пока рукав не будет полностью вставлен.
 
 ![[08601005.png]]
 
-Install the pulley assembly onto the pivot arm assembly.
+Установите шкивную сборку на стойку разворота.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[fa4idfa.png]]
 
-> [!warning] CAUTION · Осторожно
-> The shock absorber must be installed with the larger outer tube of the shock absorber attached to fan hub support. If the shock absorber is installed incorrectly, dirt and debris can enter the tube and cause the component to malfunction.
+> [!warning] ОСТОРОЖНО
+> Амортизатор должен быть установлен с большей наружной трубкой амортизатора, прикрепленной к опоре вентилятора. Если амортизатор установлен неправильно, грязь и мусор могут попасть в трубку и вызвать неисправность компонента.
 
-Install the following part to install the shock absorber:
+Установите следующую часть для установки амортизатора:
 
-- Spacer (1)
-- Shock absorber (2)
-- Flat washer (3)
-- Lock washer (4)
-- Capscrew (5)
+- Пространство (1)
+- Поглотитель ударов (2)
+- Плоская стиральная машина (3)
+- Стиральная машина (4)
+- болты (5)
 
-Install the shock absorber (2) in the fan support (6).
+Установите амортизатор (2) в поддержку вентилятора (6).
 
-Install the flat washer (3), lock washer (4), and capscrew (5) in the lower end of the shock absorber (2).
+Установите плоскую стиральную машину (3), стиральную машину (4) и болты (5) в нижнем конце амортизатора (2).
 
-Install the shock absorber on the fan idler arm (7).
+Установите амортизатор на вентиляторную руку (7).
 
-Tighten the two capscrews (5).
+Закрепите два болта (5).
 
 ![[08601006.png]]
 
-### Adjust
+### Регулировка
 
-The fan belt **must** be installed and under the tension of the fan idler arm to adjust the control rod. The fan belt and a portion of the flat washer is **not** shown for clarity.
+Ремень вентилятора ** должен быть установлен и под напряжением руки вентилятора бездельника для регулировки управляющего стержня. Ремень вентилятора и часть плоской стиральной машины ** не** показаны для ясности.
 
-Turn the control rod **clockwise** into the upper rod end to increase the belt tension.
+Поверните управляющий стержень ** по часовой стрелке** в верхний конец стержня, чтобы увеличить натяжение ремня.
 
 ![[08600160.png]]
 
-The idler lever screws are adjusted **only** if correct tension can **not** be obtained using the control rod.
+Винты рычага холостого хода регулируются ** только **, если правильное напряжение может ** не** быть получено с помощью управляющего стержня.
 
-Turn the control rod (1) **counterclockwise** out from the upper rod end until the idler lever pulley (2) is off the belt (3) completely.
+Выверните управляющий стержень (1)** против часовой стрелки** из верхнего конца стержня до полного снятия шкива рычага холостого хода (2) с ремня (3).
 
-Loosen three screws (4) on the belt tensioner.
+Устраните три винта (4) на натяжителе ремня.
 
-Loosen six screws (5) on the belt tensioner.
+Устраните шесть винтов (5) на натяжитель ремня.
 
 ![[08600175.png]]
 
-Position the idler lever pulley (2) against the belt (3).
+Положите шкив рычага холостого хода (2) на ремень (3).
 
-Tighten the three screws (4) and the six screws (5) on the belt tensioner.
+Затяните три винта (4) и шесть винтов (5) на натяжитель ремня.
 
 ![[08600176.png]]
 
-Turn the control rod **clockwise** into the upper rod end to tighten the belt tension.
+Поверните управляющий стержень ** по часовой стрелке** в верхний конец стержня, чтобы затянуть натяжение ремня.
 
 ![[08600160.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Measure
+>
+> Use a dial indicator to measure the end clearance.
+>
+> | Bearing End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.25 | MAX | 0.010 |
+>
+> If the clearance is **not** within specification, verify the spacer was installed correctly.
+>
+> The bearings **must** touch the spacer. The bearing races must touch the retaining ring.
+>
+> ### Lubricate
+>
+> Remove the capscrews, lock washers, cover plate, and gasket.
+>
+> Use high performance, general purpose industrial-type grease (NLGI Grade No. 2) Chevron™ SRI Grease 2 or Mobilux™ EP 2 grease, or equivalent.
+>
+> If above greases are not available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+>
+> Fill the front cavity 2/3 full of grease.
+>
+> Install the cover plate.
+>
+> If the shock absorber has bushing and sleeves supplied separately, then assemble as follows:
+>
+> 1. Apply P80 Lubriplate™, Cummins® Part Number 3824878, or equivalent, rubber lubricant to the outer surface of the rubber bushing (1). Insert fully into each end of the shock absorber.
+> 2. Apply P80 Lubriplate™, Cummins® Part Number 3822487, or equivalent, rubber lubricant to the outer surface of the sleeve (2). Insert a sleeve into each of the rubber bushings until the sleeve is fully inserted.
+>
+> Install the pulley assembly onto the pivot arm assembly.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> **CAUTION · Осторожно**
+> The shock absorber must be installed with the larger outer tube of the shock absorber attached to fan hub support. If the shock absorber is installed incorrectly, dirt and debris can enter the tube and cause the component to malfunction.
+>
+> Install the following part to install the shock absorber:
+>
+> - Spacer (1)
+> - Shock absorber (2)
+> - Flat washer (3)
+> - Lock washer (4)
+> - Capscrew (5)
+>
+> Install the shock absorber (2) in the fan support (6).
+>
+> Install the flat washer (3), lock washer (4), and capscrew (5) in the lower end of the shock absorber (2).
+>
+> Install the shock absorber on the fan idler arm (7).
+>
+> Tighten the two capscrews (5).
+>
+> ### Adjust
+>
+> The fan belt **must** be installed and under the tension of the fan idler arm to adjust the control rod. The fan belt and a portion of the flat washer is **not** shown for clarity.
+>
+> Turn the control rod **clockwise** into the upper rod end to increase the belt tension.
+>
+> The idler lever screws are adjusted **only** if correct tension can **not** be obtained using the control rod.
+>
+> Turn the control rod (1) **counterclockwise** out from the upper rod end until the idler lever pulley (2) is off the belt (3) completely.
+>
+> Loosen three screws (4) on the belt tensioner.
+>
+> Loosen six screws (5) on the belt tensioner.
+>
+> Position the idler lever pulley (2) against the belt (3).
+>
+> Tighten the three screws (4) and the six screws (5) on the belt tensioner.
+>
+> Turn the control rod **clockwise** into the upper rod end to tighten the belt tension.

@@ -15,12 +15,15 @@ families:
 parts:
   - "3630125"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140070.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140070.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
   - "год/2014"
+  - "перевод/машинный"
   - "тема/intake-air-systems"
 ---
 
@@ -34,43 +37,83 @@ tags:
 > **Даты:** выпущен 2014-07-02 · изменён 2014-07-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140070.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140070.pdf)
 
-## New Boost Hose for QSK19 Engines
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый шланг наддува для двигателей QSK19
 
-### Contents
+### Положение о гарантии
 
-This document introduces a new boost hose for three options on QSK19 engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This change is being made to address leaks seen on the previous boost hose (Figure 1). The new boost hose (Figure 2) has a metal ring around it to improve the stability of the connection and reduce ballooning of the hose.
+### Содержание
 
-The engine serial number (ESN) for this change is 37259200.
+В этом документе представлен новый усилительный шланг для трех вариантов двигателей QSK19.
 
-There is no change to the installation or removal procedure due to these changes.
+Это изменение вносится для устранения утечек, наблюдаемых на предыдущем шланге для повышения (рисунок 1). Новый усилительный шланг (рисунок 2) имеет металлическое кольцо вокруг него, чтобы улучшить стабильность соединения и уменьшить надувание шланга.
 
-Table 1 lists the old and new part numbers.
+Серийный номер двигателя (ESN) для этого изменения составляет 37259200.
 
-| Table 1: Boost Hose Part Numbers |  |  |
+Внесение изменений в процедуру установки или удаления не происходит из-за этих изменений.
+
+В таблице 1 приведены старые и новые номера частей.
+
+| Таблица 1: Усилить Hose Part Numbers |  |  |
 |---|---|---|
-| Opyion | Old Part Number | New Part Number |
+| мнение | Прежний номер детали | Новый номер детали |
 | IT4003 | 3627750 | 3636437 |
-| IT4001 | [[3630125]] | 3636437 |
+| 4001 | [[3630125]] | 3636437 |
 | IT4026 | [[3630125]] | 3636437 |
 
 ![[10k00031.png]]
 
-Figure 1
+Рисунок 1
 
 ![[10k00033.png]]
 
-Figure 2
+Рисунок 2
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3630125]] | Plain Hose | Шланг гладкий |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Boost Hose for QSK19 Engines
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document introduces a new boost hose for three options on QSK19 engines.
+>
+> This change is being made to address leaks seen on the previous boost hose (Figure 1). The new boost hose (Figure 2) has a metal ring around it to improve the stability of the connection and reduce ballooning of the hose.
+>
+> The engine serial number (ESN) for this change is 37259200.
+>
+> There is no change to the installation or removal procedure due to these changes.
+>
+> Table 1 lists the old and new part numbers.
+>
+> | Table 1: Boost Hose Part Numbers |  |  |
+> |---|---|---|
+> | Opyion | Old Part Number | New Part Number |
+> | IT4003 | 3627750 | 3636437 |
+> | IT4001 | [[3630125]] | 3636437 |
+> | IT4026 | [[3630125]] | 3636437 |
+>
+> Figure 1
+>
+> Figure 2
+>
+> ### Document History

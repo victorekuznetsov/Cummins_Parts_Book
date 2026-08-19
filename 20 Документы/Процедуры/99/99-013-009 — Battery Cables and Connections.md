@@ -27,6 +27,8 @@ manuals:
   - "4021330"
   - "4021592"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-013-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-013-009.pdf"
 tags:
@@ -36,6 +38,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Battery Cables and Connections
@@ -49,35 +52,70 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-013-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-013-009.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-There are two possible heavy-duty battery connections:
 
-- Battery terminal and clamp (1)
-- Threaded battery terminal and nut (2).
+### Первичная проверка
+
+Существует два возможных подключения к аккумуляторам большой мощности:
+
+- Батарейный терминал и зажим (1)
+- Проточенный терминал батареи и гайка (2).
 
 ![[ea1coga.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Remove and inspect the battery cables and connections for cracks or corrosion.
+Удалите и проверьте кабели и соединения аккумулятора на наличие трещин или коррозии.
 
-Replace broken terminals, connectors, or cables.
+Замените сломанные терминалы, разъемы или кабели.
 
 ![[ea8cosa.png]]
 
-If the connections are corroded, use a battery brush or wire brush to clean the connections until shiny.
+Если соединения разъединены, используйте щетку батареи или щетку провода, чтобы очистить соединения до блестящего.
 
-Make sure all debris is removed from the connecting surfaces.
+Убедитесь, что все обломки удалены с соединительных поверхностей.
 
 ![[ea1coeb.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Install the cables and tighten the battery connections.
+Установите кабели и затяните соединения батареи.
 
-Coat the terminals with grease to prevent corrosion.
+Покрыть терминалы смазкой для предотвращения коррозии.
 
 ![[ea1cohd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> There are two possible heavy-duty battery connections:
+>
+> - Battery terminal and clamp (1)
+> - Threaded battery terminal and nut (2).
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Remove and inspect the battery cables and connections for cracks or corrosion.
+>
+> Replace broken terminals, connectors, or cables.
+>
+> If the connections are corroded, use a battery brush or wire brush to clean the connections until shiny.
+>
+> Make sure all debris is removed from the connecting surfaces.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Install the cables and tighten the battery connections.
+>
+> Coat the terminals with grease to prevent corrosion.

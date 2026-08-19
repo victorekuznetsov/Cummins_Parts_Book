@@ -15,12 +15,15 @@ manuals:
   - "3381968"
   - "4021330"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-013-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-013-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator
@@ -34,67 +37,130 @@ tags:
 > **Даты:** изменён 2024-11-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-013-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-013-001.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Always connect the ground or negative (-) cable last to avoid arcing that can ignite explosive battery gases.
 
-Disconnect the ground cable from the battery terminal.
+### Подготовительные операции
 
-Remove and tag all wires.
+> [!danger] ОПАСНО
+> Всегда подключайте грунтовый или отрицательный (-) кабель последним, чтобы избежать дуги, которая может воспламенить взрывоопасные газы батареи.
+
+Отсоедините наземный кабель от аккумуляторного терминала.
+
+Удалите и пометьте все провода.
 
 ![[ee8comk.png]]
 
-Remove the drive belt from the alternator pulley.
+Снимите приводной ремень с шкива генератора.
 
 ![[17d00008.png]]
 
-### Remove
+### Снятие
 
-Remove the alternator link capscrew.
+Удалите болты связи генератора.
 
 ![[13900035.png]]
 
-Remove the alternator mounting capscrew.
+Удалите крепежные болты генератора.
 
-Remove the alternator.
+Удалите генератор.
 
 ![[13900036.png]]
 
-### Install
+### Установка
 
-To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
+Для установки генератора переменного тока компоненты крепления генератора *** должны быть сжаты в следующей последовательности:
 
-1. Alternator-to-alternator bracket capscrew
-2. Lower brace-to-alternator capscrew
-3. Lower alternator brace-to-water pump capscrew
-4. Water inlet-to-block capscrews.
+1. 6.2.1.1 Затворы скобки "альтернатор-альтернатор"
+2. Нижние болты сцепления-альтернатора
+3. Нижние болты насоса сцепления с водой
+4. Впускные болты для забора воды.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Размер гаечного ключа и момент затяжки определяются маркой и моделью генератора.
+
+![[13900036.png]]
+
+Для установки генератора переменного тока компоненты крепления генератора *** должны быть сжаты в следующей последовательности:
+
+1. 6.2.1.1 Затворы скобки "альтернатор-альтернатор"
+
+> [!tip] Момент затяжки
+> 43 Н·м [32 фунт-фут]
+
+2. Нижние болты сцепления-альтернатора
+
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
+
+3. Нижние болты насоса сцепления с водой
+
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
+
+4. Впускные болты для забора воды.
+
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
+
+![[13900036.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Always connect the ground or negative (-) cable last to avoid arcing that can ignite explosive battery gases.
+>
+> Disconnect the ground cable from the battery terminal.
+>
+> Remove and tag all wires.
+>
+> Remove the drive belt from the alternator pulley.
+>
+> ### Remove
+>
+> Remove the alternator link capscrew.
+>
+> Remove the alternator mounting capscrew.
+>
+> Remove the alternator.
+>
+> ### Install
+>
+> To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
+>
+> 1. Alternator-to-alternator bracket capscrew
+> 2. Lower brace-to-alternator capscrew
+> 3. Lower alternator brace-to-water pump capscrew
+> 4. Water inlet-to-block capscrews.
+>
+> **Note · Примечание**
 > The wrench size and torque value is determined by the make and model of the alternator.
-
-![[13900036.png]]
-
-To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
-
-1. Alternator-to-alternator bracket capscrew
-
-> [!tip] Момент затяжки · Torque Value
+>
+> To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
+>
+> 1. Alternator-to-alternator bracket capscrew
+>
+> **Момент затяжки · Torque Value**
 > 43 n•m [32 ft-lb]
-
-2. Lower brace-to-alternator capscrew
-
-> [!tip] Момент затяжки · Torque Value
+>
+> 2. Lower brace-to-alternator capscrew
+>
+> **Момент затяжки · Torque Value**
 > 24 n•m [18 ft-lb]
-
-3. Lower alternator brace-to-water pump capscrew
-
-> [!tip] Момент затяжки · Torque Value
+>
+> 3. Lower alternator brace-to-water pump capscrew
+>
+> **Момент затяжки · Torque Value**
 > 24 n•m [18 ft-lb]
-
-4. Water inlet-to-block capscrews.
-
-> [!tip] Момент затяжки · Torque Value
+>
+> 4. Water inlet-to-block capscrews.
+>
+> **Момент затяжки · Torque Value**
 > 24 n•m [18 ft-lb]
-
-![[13900036.png]]

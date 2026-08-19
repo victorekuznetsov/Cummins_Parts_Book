@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1486.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1486.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Electronic Fuel Control (EFC) Driver - Open Circuit
@@ -33,36 +36,78 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1486.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1486.pdf)
 
-### Fault Code: 1486
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Electronic Fuel Control (EFC) Driver - Open Circuit
 
-Printable Version
+### Код неисправности: 1486
 
-### Overview
+### Драйвер электронного управления подачей (EFC) — обрыв
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1486 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Electronic fuel control driver diagnostic has detected an open circuit condition. | Generator set will shut down. |
+| Код неисправности: 1486 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Электронная диагностика водителя управления топливом выявила состояние открытой цепи. | Генератор будет отключен. |
 
 ![[19802200.png]]
 
-Electronic Fuel Control
+Электронный контроль топлива
 
-### Circuit Description
+### Описание цепи
 
-The engine control module (ECM) checks the electronic fuel control (EFC) driver to make certain it is operating correctly. The ECM uses this fault code to inform the operator that the ECM is no longer driving the EFC.
+Модуль управления двигателем (ECM) проверяет электронный драйвер управления топливом (EFC), чтобы убедиться, что он работает правильно. ECM использует этот код неисправности, чтобы сообщить оператору, что ECM больше не управляет EFC.
 
-The electronic fuel control unit is **only** used on hydromechanical fuel systems. This fault code will **not** be active on any other types (electronic full-authority) of fuel systems.
+Электронный блок управления топливом используется только в гидромеханических топливных системах. Этот код неисправности будет активен на любых других типах (электронных полномочных органах) топливных систем.
 
-The ECM monitors the voltage (no voltage will trip Fault Code 1486), and can be caused by shorts, opens, a failed voltage regulator, or a failed voltage regulator driver in the ECM.
+ECM контролирует напряжение (нет напряжения будет срабатывать код 1486 по умолчанию) и может быть вызван шортами, открытиями, неисправным регулятором напряжения или неисправным драйвером регулятора напряжения в ECM.
 
-### Component Location
+### Расположение компонента
 
-Reference Section E for location of the electronic fuel control.
+Справочный раздел E для определения местоположения электронного топливного управления.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are short circuit, open circuit, and loss of supply voltage inside the ECM.
+Возможные режимы отказа - короткое замыкание, открытая цепь и потеря напряжения питания внутри ECM.
 
-Refer to Troubleshooting Fault Code t05-1486.
+См. Код устранения неполадок t05-1486.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1486
+>
+> ### Electronic Fuel Control (EFC) Driver - Open Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1486 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Electronic fuel control driver diagnostic has detected an open circuit condition. | Generator set will shut down. |
+>
+> Electronic Fuel Control
+>
+> ### Circuit Description
+>
+> The engine control module (ECM) checks the electronic fuel control (EFC) driver to make certain it is operating correctly. The ECM uses this fault code to inform the operator that the ECM is no longer driving the EFC.
+>
+> The electronic fuel control unit is **only** used on hydromechanical fuel systems. This fault code will **not** be active on any other types (electronic full-authority) of fuel systems.
+>
+> The ECM monitors the voltage (no voltage will trip Fault Code 1486), and can be caused by shorts, opens, a failed voltage regulator, or a failed voltage regulator driver in the ECM.
+>
+> ### Component Location
+>
+> Reference Section E for location of the electronic fuel control.
+>
+> ### Shoptalk
+>
+> The possible failure modes are short circuit, open circuit, and loss of supply voltage inside the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-1486.

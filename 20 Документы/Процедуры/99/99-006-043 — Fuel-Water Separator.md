@@ -26,6 +26,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-006-043.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-006-043.pdf"
 tags:
@@ -35,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Fuel-Water Separator
@@ -48,43 +51,88 @@ tags:
 > **Даты:** изменён 2022-08-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-006-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-006-043.pdf)
 
-### Drain
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Drain the water-fuel separator into a container and dispose of in accordance with local environmental regulations.
 
-> [!note] Note · Примечание
-> **Not** draining fuel water separator for extended periods of time will trigger an engine protection derate. Derate will be removed after fuel water separator is drained and water in fuel faults are inactive.
+### дренаж
 
-Cummins Inc. requires a fuel-water separator or fuel filter be installed in the fuel supply system.
+> [!danger] ОПАСНО
+> Слить водотопливный сепаратор в контейнер и утилизировать в соответствии с местными экологическими нормами.
 
-Shut off the engine.
+> [!note] Примечание
+> ** Не** слив топливных сепараторов в течение длительного периода времени приведет к снижению уровня защиты двигателя. Разряд будет удален после того, как сепаратор сточных вод сливается, а вода в топливных разломах неактивна.
 
-Drain the water and sediment from the separator daily.
+Cummins Inc. Для этого в системе подачи топлива должен быть установлен сепаратор топливной воды или топливный фильтр.
 
-Drain valve opening and closing will vary by design.
+Выключи двигатель.
+
+Ежедневно высасывать воду и осадок из разделителя.
+
+Открытие и закрытие дренажных клапанов будут варьироваться по конструкции.
 
 ![[nobox.png]]
 
-Canister Type
+Тип канистра
 
-Use your hand to open the drain valve.
+Используйте руку, чтобы открыть дренажный клапан.
 
-Drain the filter sump until clear fuel is visible.
+Смачиваем фильтр до тех пор, пока не будет видно чистое топливо.
 
-Use your hand to close the drain valve.
+Используйте руку, чтобы закрыть дренажный клапан.
 
 ![[06900130.png]]
 
 Spin-on Type
 
-Use your hand to open the drain valve. Turn the valve **counterclockwise** approximately 3½ turns until the valve drops down 25.4mm \[ 1 in \] and draining occurs.
+Используйте руку, чтобы открыть дренажный клапан. Поверните клапан ** против часовой стрелки ** приблизительно 31⁄2 витка, пока клапан не упадет вниз 25,4 мм \[1 в \] и не произойдет дренаж.
 
-Drain the filter sump until clear fuel is visible.
+Смачиваем фильтр до тех пор, пока не будет видно чистое топливо.
 
-> [!warning] CAUTION · Осторожно
-> When closing the drain valve, do not overtighten the valve. Overtightening can damage the threads.
+> [!warning] ОСТОРОЖНО
+> При закрытии дренажного клапана не перегружайте клапан. Затягивание может повредить резьбу.
 
-To close the valve, lift the valve and turn **clockwise** until it is hand-tight.
+Чтобы закрыть клапан, поднимите клапан и поверните ** по часовой стрелке **, пока он не станет ручным.
 
 ![[06800004.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Drain
+>
+> **WARNING · Опасно**
+> Drain the water-fuel separator into a container and dispose of in accordance with local environmental regulations.
+>
+> **Note · Примечание**
+> **Not** draining fuel water separator for extended periods of time will trigger an engine protection derate. Derate will be removed after fuel water separator is drained and water in fuel faults are inactive.
+>
+> Cummins Inc. requires a fuel-water separator or fuel filter be installed in the fuel supply system.
+>
+> Shut off the engine.
+>
+> Drain the water and sediment from the separator daily.
+>
+> Drain valve opening and closing will vary by design.
+>
+> Canister Type
+>
+> Use your hand to open the drain valve.
+>
+> Drain the filter sump until clear fuel is visible.
+>
+> Use your hand to close the drain valve.
+>
+> Spin-on Type
+>
+> Use your hand to open the drain valve. Turn the valve **counterclockwise** approximately 3½ turns until the valve drops down 25.4mm \[ 1 in \] and draining occurs.
+>
+> Drain the filter sump until clear fuel is visible.
+>
+> **CAUTION · Осторожно**
+> When closing the drain valve, do not overtighten the valve. Overtightening can damage the threads.
+>
+> To close the valve, lift the valve and turn **clockwise** until it is hand-tight.

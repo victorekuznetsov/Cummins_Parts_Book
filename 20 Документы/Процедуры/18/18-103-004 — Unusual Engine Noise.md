@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-103-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-103-004.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Unusual Engine Noise
@@ -37,8 +40,22 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-103-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-103-004.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-During the daily maintenance check, listen for any unusual engine noise which can indicate that service is required.
+
+### Контроль при обслуживании
+
+Во время ежедневной проверки технического обслуживания слушайте любой необычный шум двигателя, который может указывать на необходимость обслуживания.
 
 ![[ew400kh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> During the daily maintenance check, listen for any unusual engine noise which can indicate that service is required.

@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-036-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-036-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -33,32 +36,64 @@ tags:
 > **Даты:** изменён 2015-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-036-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-036-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the fan belt. [[56-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+
+### Контроль при обслуживании
+
+Удалите пояс вентилятора.[[56-008-002-om-rep — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе A.]]
 
 ![[08600162.png]]
 
-Rotate the fan hub pulley to check for rough or damaged bearings.
+Поверните шкив вентилятора, чтобы проверить наличие грубых или поврежденных подшипников.
 
-Inspect the pulley grooves for excessive wear.
+Осмотрите канавки шкивов на предмет чрезмерного износа.
 
-Inspect the fan hub for grease leakage and fan clutch for oil leakage.
+Осмотрите вентиляторный узел на утечку смазки и вентиляторную сцепку на утечку масла.
 
-Use a dial indicator to check the bearing end clearance.
+Используйте индикатор циферблата для проверки оконечного зазора подшипника.
 
-| Fan Hub End Clearance |  |  |
+| Fan Hub End Clearance (альбом) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.03 | MIN | 0.001 |
-| 0.15 | MAX | 0.006 |
+| мм |  | в |
+| 0.03 | Мин | 0.001 |
+| 0.15 | Макс | 0.006 |
 
 ![[08400041.png]]
 
-If the inspections result in a faulty condition, replace the fan hub with a new or rebuilt unit as necessary. Contact a Cummins® Authorized Repair Location.
+Если в результате проверок состояние неисправно, замените вентиляторный узел новым или перестроенным блоком по мере необходимости. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[08600164.png]]
 
-Install the fan belt. [[56-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+Установите ремень вентилятора.[[56-008-002-om-rep — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе A.]]
 
 ![[08600162.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Remove the fan belt. [[56-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+>
+> Rotate the fan hub pulley to check for rough or damaged bearings.
+>
+> Inspect the pulley grooves for excessive wear.
+>
+> Inspect the fan hub for grease leakage and fan clutch for oil leakage.
+>
+> Use a dial indicator to check the bearing end clearance.
+>
+> | Fan Hub End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.03 | MIN | 0.001 |
+> | 0.15 | MAX | 0.006 |
+>
+> If the inspections result in a faulty condition, replace the fan hub with a new or rebuilt unit as necessary. Contact a Cummins® Authorized Repair Location.
+>
+> Install the fan belt. [[56-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]

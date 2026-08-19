@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-061-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-061-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Oil Transfer Connection
@@ -32,12 +35,30 @@ tags:
 > **Даты:** изменён 2004-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-061-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-061-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Rail Applications
 
-Remove the five capscrews, washers, and lubricating oil transfer connection and gasket.
+### Снятие
 
-Discard the gasket.
+Железнодорожное применение
+
+Удалите пять болтов, шайбы и соединение для передачи моторного масла и прокладку.
+
+Прокладку утилизируйте.
 
 ![[17400046.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Rail Applications
+>
+> Remove the five capscrews, washers, and lubricating oil transfer connection and gasket.
+>
+> Discard the gasket.

@@ -14,12 +14,15 @@ manuals:
   - "2883407"
   - "4021330"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-005-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-005-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Exhaust System
@@ -33,22 +36,48 @@ tags:
 > **Даты:** изменён 2012-06-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-005-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-005-om-ind.pdf)
 
-### Engine Views
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
+
+### Двигатель Views
+
+Судовое применение
 
 ![[11d00119.png]]
 
-1. Exhaust valve
-2. Exhaust manifold
-3. Turbocharger
-4. Turbocharger exhaust outlet.
+1. Выпускной клапан
+2. Выпускной коллектор
+3. Турбокомпрессор
+4. Выхлопная труба турбокомпрессора.
 
-Industrial Applications
+Промышленное применение
 
 ![[11900058.png]]
 
-1. Exhaust valve
-2. Exhaust manifold - pulse-type
-3. Dual entry to turbocharger
-4. Turbocharger exhaust outlet.
+1. Выпускной клапан
+2. Выхлопной коллектор - импульсный тип
+3. Двойной вход в турбокомпрессор
+4. Выхлопная труба турбокомпрессора.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Views
+>
+> Marine Applications
+>
+> 1. Exhaust valve
+> 2. Exhaust manifold
+> 3. Turbocharger
+> 4. Turbocharger exhaust outlet.
+>
+> Industrial Applications
+>
+> 1. Exhaust valve
+> 2. Exhaust manifold - pulse-type
+> 3. Dual entry to turbocharger
+> 4. Turbocharger exhaust outlet.

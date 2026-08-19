@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 37
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-001-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-004-001-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cam Follower Assembly
@@ -32,333 +35,600 @@ tags:
 > **Даты:** изменён 2006-09-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-001-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-004-001-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on a fuel system.
+### Подготовительные операции
 
-- Remove the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
-- Remove the rocker levers. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
-- Remove the push rods and crossheads. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
-- Remove the fuel supply lines. Refer to Procedure [[20-006-024-tr — Fuel Supply Lines|006-024]].
-- Remove the crankcase vent tube. Refer to Procedure [[20-003-001-tr — Crankcase Breather (External)|003-001]].
-- Remove the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113, or the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021493.
+с форсункой механического управления
+
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+
+- Снимите крышку коромысел. См. процедуру[[20-003-011-tr — Rocker Lever Cover|003-011]].
+- Удалите рычаги коромысла. См. процедуру[[20-003-009-tr — Rocker Lever Assembly|003-009]].
+- Удалите толкатели и клапанные мосты. См. процедуру[[20-004-014-tr — Push Rods or Tubes|004-014]].
+- Удалите линии подачи топлива. См. процедуру[[20-006-024-tr — Fuel Supply Lines|006-024]].
+- Удалите трубку вентиляционного отверстия. См. процедуру[[20-003-001-tr — Crankcase Breather (External)|003-001]].
+- Снимите проводку. См. процедуру 019-043 в Руководстве по устранению и ремонту неполадок, Электронной системе управления, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78, Бюллетене 3666113 или Руководстве по устранению и ремонту неполадок, Электронной системе управления, двигателях серии модульных систем общего пользования QSK19 CM850, Бюллетене 4021493.
 
 ![[ck800wa.png]]
 
-Rail Applications
+Железнодорожное применение
 
-Disconnect the turbocharger drain hose from the oil scavenge cross connection.
+Отсоедините шланг для слива турбокомпрессора от перекрестного соединения масляного сбора.
 
 ![[17400032.png]]
 
-Remove the two oil scavenging tubes from the fittings on the cam follower cover.
+Удалите две масляные трубки из фитингов на крышке крана.
 
-Discard the face seal o-rings.
+Отбросьте уплотнительные кольца.
 
 ![[17400033.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Remove the fuel pump. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
-- Remove the fuel manifold. Refer to Procedure [[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
-- Remove the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113, or the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021493.
-- Remove the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
-- Remove the rocker lever assembly. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
-- Remove the push rods or tubes. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
+- Удалите топливный насос. См. процедуру[[20-005-016-tr — Fuel Pump|005-016]].
+- Удалите топливный коллектор. См. процедуру[[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
+- Снимите проводку. См. процедуру 019-043 в Руководстве по устранению и ремонту неполадок, Электронной системе управления, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78, Бюллетене 3666113 или Руководстве по устранению и ремонту неполадок, Электронной системе управления, двигателях серии модульных систем общего пользования QSK19 CM850, Бюллетене 4021493.
+- Снимите крышку коромысел. См. процедуру[[20-003-011-tr — Rocker Lever Cover|003-011]].
+- Снимите клапанный клапан с крепления рычага. См. процедуру[[20-003-009-tr — Rocker Lever Assembly|003-009]].
+- Удалите толкатели или трубки. См. процедуру[[20-004-014-tr — Push Rods or Tubes|004-014]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Remove the cam follower cover.
+Снимите крышку крана.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[pr400he.png]]
 
-Remove the cam follower assembly capscrews.
+Удалите болты для сборки кранов.
 
-Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+Удалите крановый сбор, вытащив прямо, пока вал не снимется с кольцевых дюбелей.
 
 ![[04400011.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the cam follower cover. Remove and discard the gasket.
+Снимите крышку крана. Снимите и утилизируйте прокладку.
 
 ![[pr400he.png]]
 
-Remove the two capscrews and washers securing the cam follower assembly. Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+Удалите два болта и шайбы, обеспечивающие сборку крана. Удалите крановый сбор, вытащив прямо, пока вал не снимется с кольцевых дюбелей.
 
 ![[03400083.png]]
 
-### Disassemble
+### Разборка
 
-Remove the 12 point capscrews.
+Удалите 12 точечных болтов.
 
-Remove the retaining ring. Pull the shaft out.
+Удалите удерживающее кольцо. Вытащите вал.
 
-Mark and tag the parts for future installation identification.
+Маркировка и маркировка деталей для будущей идентификации установки.
 
 ![[04400019.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the cam follower assemblies.
+Используйте растворитель для очистки сборок кранов.
 
-Use compressed air to dry the assemblies.
+Используйте сжатый воздух для сушки сборок.
 
 ![[kf4lvea.png]]
 
-Use solvent to clean the cam followers.
+Используйте растворитель для очистки кранов.
 
-Use compressed air to dry the cam followers. Check the oil drillings to make sure they are **not** plugged or blocked.
+Используйте сжатый воздух, чтобы высушить краны. Проверьте бурение нефти, чтобы убедиться, что они не подключены или заблокированы.
 
 ![[04400013.png]]
 
-Use solvent to clean the cam follower shaft.
+Используйте растворитель для очистки кранового вала.
 
-Use compressed air to dry the shaft. Check the nine (9) oil drillings to make sure they are **not** plugged or blocked.
+Используйте сжатый воздух для высушивания вала. Проверьте девять (9) буровых установок, чтобы убедиться, что они не закупорены или заблокированы.
 
 ![[rh6shsa.png]]
 
-Inspect the cam follower assembly.
+Проверьте сборку крана.
 
 ![[kf4lvea.png]]
 
-The shaft **must** rotate easily. If resistance is noted, disassemble and check for burrs on the shaft.
+Вал должен легко вращаться. Если сопротивление отмечено, разберите и проверьте на заусенцы на валу.
 
 ![[kf6shca.png]]
 
-Inspect the cam follower shaft for damage and roughness.
+Осмотрите вал крана на предмет повреждения и шероховатости.
 
-Check the cam follower shaft outside diameter.
+Проверьте вал крана наружного диаметра.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 28.538 | MIN | 1.1235 |
-| 28.575 | MAX | 1.125 |
+| 28.538 | Мин | 1.1235 |
+| 28.575 | Макс | 1.125 |
 
 ![[rh6shsa.png]]
 
-Inspect the cam follower roller for reuse. The cam follower lever assembly **must** be replaced if damaged.
+Проверьте кран-каталку для повторного использования. Сборка рычага крана ** должна быть заменена в случае повреждения.
 
 ![[04400001.png]]
 
-Inspect the push rod socket for damage. If the socket is damaged, the cam follower assembly **must** be replaced.
+Проверьте разъем для толкания на предмет повреждения. Если розетка повреждена, то сборку крана *** необходимо заменить.
 
 ![[04400017.png]]
 
-The roller **must** rotate easily. Check the clearance of the roller.
+Ролик ** должен** легко вращаться. Проверьте зазор ролика.
 
-|  | mm |  | in |
+|  | мм |  | в |
 |---|---|---|---|
-| 1 | 0.230 | MIN | 0.0090 |
-|  | 0.610 | MAX | 0.0240 |
-| 2 | 0.076 | MIN | 0.0030 |
-|  | 0.114 | MAX | 0.0045 |
+| 1 | 0.230 | Мин | 0.0090 |
+|  | 0.610 | Макс | 0.0240 |
+| 2 | 0.076 | Мин | 0.0030 |
+|  | 0.114 | Макс | 0.0045 |
 
-If the clearances do **not** meet specifications, the cam follower lever assembly **must** be replaced.
+Если зазоры ** не** соответствуют техническим требованиям, то сборку рычага для крана *** необходимо заменить.
 
 ![[04400002.png]]
 
-Measure the cam follower lever bore inside diameter.
+Измерьте цилиндр рычага крана, который имеет внутренний диаметр.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 28.611 | MIN | 1.1264 |
-| 28.661 | MAX | 1.1284 |
+| 28.611 | Мин | 1.1264 |
+| 28.661 | Макс | 1.1284 |
 
-If the bore inside diameter does **not** meet specifications, the cam follower lever assembly **must** be replaced.
+Если цилиндр с внутренним диаметром ** не** соответствует спецификациям, то рычажок крана должен быть заменен.
 
 ![[04400018.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Clean the cam follower assembly for reuse.
+Очистите сборку крана для повторного использования.
 
 ![[04400030.png]]
 
-The shaft **must** rotate freely. If resistance is noted, disassemble and check for burrs on the shaft.
+Вал должен вращаться свободно. Если сопротивление отмечено, разберите и проверьте на заусенцы на валу.
 
 ![[04400031.png]]
 
-Inspect the cam follower for reuse. The cam follower lever assembly **must** be replaced if damaged.
+Проверьте кран для повторного использования. Сборка рычага крана ** должна быть заменена в случае повреждения.
 
 ![[04400001.png]]
 
-The roller **must** rotate freely.
+Ролик ** должен** свободно вращаться.
 
-Check the clearance of the roller.
+Проверьте зазор ролика.
 
-|  | mm |  | in |
+|  | мм |  | в |
 |---|---|---|---|
-| 1 | 0.230 | MIN | 0.0090 |
-|  | 0.610 | MAX | 0.0240 |
-| 2 | 0.076 | MIN | 0.0030 |
-|  | 0.114 | MAX | 0.0045 |
+| 1 | 0.230 | Мин | 0.0090 |
+|  | 0.610 | Макс | 0.0240 |
+| 2 | 0.076 | Мин | 0.0030 |
+|  | 0.114 | Макс | 0.0045 |
 
-If the clearances do **not** meet specifications, the cam follower lever assembly **must** be replaced.
+Если зазоры ** не** соответствуют техническим требованиям, то сборку рычага для крана *** необходимо заменить.
 
 ![[04400002.png]]
 
-### Assemble
+### Сборка
 
-Use clean engine oil to lubricate the shaft and bores of the levers.
+Используйте чистое моторное масло для смазки вала и скуки рычагов.
 
-Slide the levers on the shaft.
+Сдвиньте рычаги на вал.
 
-Install the parts illustrated.
+Установите проиллюстрированные части.
 
 ![[04400019.png]]
 
-The shaft **must** rotate easily after assembly.
+Вал должен легко вращаться после сборки.
 
-If resistance is apparent, disassemble and check for burrs on the shaft.
+Если сопротивление очевидно, разберитесь и проверьте наличие заусенцев на валу.
 
 ![[kf6shca.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> The cam follower mounting capscrews are special 12-point flange heads. Shaft failure will result if standard capscrews are used.
+> [!warning] ОСТОРОЖНО
+> Клепковые крепежные болты представляют собой специальные 12-точечные фланцевые головки. Отказ вала будет иметь место, если используются стандартные болты.
 
-> [!note] Note · Примечание
-> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine.
+> [!note] Примечание
+> Сервисные краны для замены покрыты тяжелым консервантом для предотвращения ржавчины. Этот консервант ** должен быть полностью удален с помощью растворителя до установки деталей на двигатель.
 
-Use clean engine oil to lubricate the camshaft and camshaft followers.
+Используйте чистое моторное масло для смазки распределительных валов и распределительных валов.
 
-Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+Установите сборку крана. Вал ** должен** поместиться на обоих кольцевых долотах.
 
-Tighten the capscrews.
+Затяните болты.
 
-| **Torque Value:** | Step 1 | 55 n.m \[40 ft-lb\] |
+| ** Момент затяжки:** | ШАГ 1. | 55 Н·м[40 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 110 n.m \[80 ft-lb\] |
+|  | ШАГ 2. | 110 Н·м[80 фунт-фут] |
 |---|---|---|
 
-|  | Step 3 | 165 n.m \[120 ft-lb\] |
+|  | ШАГ 3. | 165 н.м.[120 фунт-фут] |
 |---|---|---|
 
 ![[04400011.png]]
 
-Add a hardened washer to each cam follower cover capscrew.
+Добавьте закаленную стиральную машину к каждому болту крышки крана.
 
-Apply three drops of Loctite® 246 or equivalent to the capscrews, starting two to three threads from the tip of the capscrew.
+Применяют три капли Loctite® 246 или эквивалентные болтам, начиная от двух до трех резьб с кончика болтов.
 
-Install the gasket, cover, and capscrews.
+Установите прокладку, крышку и болты.
 
 ![[04400067.png]]
 
-> [!note] Note · Примечание
-> The tabs on the cover gasket **must** be removed before installation.
+> [!note] Примечание
+> Закладки на прокладке крышки ** должны быть удалены перед установкой.
 
 ![[pr400he.png]]
 
-Tighten the 14 capscrews in the sequence shown.
+Затягивайте 14 болтов в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 48 Н·м [35 фунт-фут]
 
 ![[17400082.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!warning] CAUTION · Осторожно
-> The cam follower capscrew and washer is special to allow oil to flow to the cam follower shaft. Use of another capscrew will lead to engine damage.
+> [!warning] ОСТОРОЖНО
+> Затворы и стиральная машина являются специальными, чтобы позволить нефти течь к валу затвора. Использование других болтов приведет к повреждению двигателя.
 
-> [!warning] CAUTION · Осторожно
-> The washer is hardened and prevents the capscrew from bottoming out in the hole. Omitting the washer will lead to engine damage.
+> [!warning] ОСТОРОЖНО
+> Стиральная машина затвердевает и предотвращает попадание болтов в отверстие. Отказ от стиральной машины приведет к повреждению двигателя.
 
-> [!note] Note · Примечание
-> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine. Use clean engine oil to lubricate the cam follower assembly and camshaft.
+> [!note] Примечание
+> Сервисные краны для замены покрыты тяжелым консервантом для предотвращения ржавчины. Этот консервант ** должен быть полностью удален с помощью растворителя до установки деталей на двигатель. Используйте чистое моторное масло для смазки кранового узла и распределительного вала.
 
-Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+Установите сборку крана. Вал ** должен** поместиться на обоих кольцевых долотах.
 
-Use clean engine oil to lubricate the capscrew threads.
+Используйте чистое моторное масло для смазки болтов.
 
-Install the capscrews and special washers.
+Установите болты и специальные шайбы.
 
-Tighten capscrews.
+Затягивай болты.
 
-| **Torque Value:** | Step 1 | 55 n.m \[40 ft-lb\] |
+| ** Момент затяжки:** | ШАГ 1. | 55 Н·м[40 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 110 n.m \[80 ft-lb\] |
+|  | ШАГ 2. | 110 Н·м[80 фунт-фут] |
 |---|---|---|
 
-|  | Step 3 | 165 n.m \[120 ft-lb\] |
+|  | ШАГ 3. | 165 н.м.[120 фунт-фут] |
 |---|---|---|
 
 ![[03400083.png]]
 
-Apply three drops of threadlocker to the cam follower cover capscrews, starting two to three threads from the tip of the capscrew.
+Нанесите три капли сцепляющего клея на болты крышки крана, начиная от двух до трех нарезок с кончика болтов.
 
-Install the cam follower cover gasket, cover, and capscrews.
+Установите прокладку, крышку и болты кранового покрытия.
 
 ![[04400067.png]]
 
-The tabs on the cam follower cover gasket **must** be removed before installation.
+Закладки на прокладке крышки крана ** должны быть удалены перед установкой.
 
 ![[pr400he.png]]
 
-Tighten the 14 capscrews in the sequence shown in the illustration.
+Затянуть 14 болтов в последовательности, показанной на иллюстрации.
 
-> [!tip] Момент затяжки · Torque Value
-> 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 48 Н·м [35 фунт-фут]
 
 ![[17400082.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113.
-- Install the crankcase vent tube. Refer to Procedure [[20-003-001-tr — Crankcase Breather (External)|003-001]].
-- Install the fuel supply lines. Refer to Procedure [[20-006-024-tr — Fuel Supply Lines|006-024]].
-- Install the push rods and crossheads. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
-- Install the rocker levers. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
-- Install the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
-- Operate the engine and check for leaks.
+- Установите проводную упряжку. См. процедуру 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления, QSK19, QSK23, QSK45, QSK60 и QSK78 Двигатели, Бюллетень 3666113.
+- Установите трубку вентиляционного клапана. См. процедуру[[20-003-001-tr — Crankcase Breather (External)|003-001]].
+- Установите линии подачи топлива. См. процедуру[[20-006-024-tr — Fuel Supply Lines|006-024]].
+- Установите толкатели и клапанные мосты. См. процедуру[[20-004-014-tr — Push Rods or Tubes|004-014]].
+- Установите рычаги коромысла. См. процедуру[[20-003-009-tr — Rocker Lever Assembly|003-009]].
+- Установите крышку коромысел. См. процедуру[[20-003-011-tr — Rocker Lever Cover|003-011]].
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-Rail Applications
+Железнодорожное применение
 
-Install new face seal o-rings.
+Установите новые кольца для уплотнения лица.
 
-Install the two oil scavenging tubes on the fittings on the cam follower cover.
+Установите две масляные трубки на фитинги на крышке крана.
 
 ![[17400033.png]]
 
-Connect the turbocharger drain hose to the oil scavenge cross.
+Подключите шланг для слива турбокомпрессора к кресту для сбора масла.
 
 ![[17400032.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Install push rods or tubes. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
-- Install the rocker lever assembly. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
-- Install the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
-- Install the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engine, Bulletin 4021493.
-- Install the fuel manifold. Refer to Procedure [[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
-- Install the fuel pump. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
-- Operate the engine and check for leaks.
+- Установите толкатели или трубки. См. процедуру[[20-004-014-tr — Push Rods or Tubes|004-014]].
+- Установите клапанный клапанный крепеж. См. процедуру[[20-003-009-tr — Rocker Lever Assembly|003-009]].
+- Установите крышку коромысел. См. процедуру[[20-003-011-tr — Rocker Lever Cover|003-011]].
+- Установите проводную упряжку. См. процедуру 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления, модульный двигатель серии общей железнодорожной системы QSK19 CM850, Бюллетень 4021493.
+- Установите топливный коллектор. См. процедуру[[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
+- Установите топливный насос. См. процедуру[[20-005-016-tr — Fuel Pump|005-016]].
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on a fuel system.
+>
+> - Remove the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
+> - Remove the rocker levers. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
+> - Remove the push rods and crossheads. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
+> - Remove the fuel supply lines. Refer to Procedure [[20-006-024-tr — Fuel Supply Lines|006-024]].
+> - Remove the crankcase vent tube. Refer to Procedure [[20-003-001-tr — Crankcase Breather (External)|003-001]].
+> - Remove the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113, or the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021493.
+>
+> Rail Applications
+>
+> Disconnect the turbocharger drain hose from the oil scavenge cross connection.
+>
+> Remove the two oil scavenging tubes from the fittings on the cam follower cover.
+>
+> Discard the face seal o-rings.
+>
+> with Electronically Actuated Injector
+>
+> - Remove the fuel pump. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
+> - Remove the fuel manifold. Refer to Procedure [[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
+> - Remove the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113, or the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engines, Bulletin 4021493.
+> - Remove the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
+> - Remove the rocker lever assembly. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
+> - Remove the push rods or tubes. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Remove the cam follower cover.
+>
+> Remove and discard the gasket.
+>
+> Remove the cam follower assembly capscrews.
+>
+> Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+>
+> with Electronically Actuated Injector
+>
+> Remove the cam follower cover. Remove and discard the gasket.
+>
+> Remove the two capscrews and washers securing the cam follower assembly. Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+>
+> ### Disassemble
+>
+> Remove the 12 point capscrews.
+>
+> Remove the retaining ring. Pull the shaft out.
+>
+> Mark and tag the parts for future installation identification.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the cam follower assemblies.
+>
+> Use compressed air to dry the assemblies.
+>
+> Use solvent to clean the cam followers.
+>
+> Use compressed air to dry the cam followers. Check the oil drillings to make sure they are **not** plugged or blocked.
+>
+> Use solvent to clean the cam follower shaft.
+>
+> Use compressed air to dry the shaft. Check the nine (9) oil drillings to make sure they are **not** plugged or blocked.
+>
+> Inspect the cam follower assembly.
+>
+> The shaft **must** rotate easily. If resistance is noted, disassemble and check for burrs on the shaft.
+>
+> Inspect the cam follower shaft for damage and roughness.
+>
+> Check the cam follower shaft outside diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 28.538 | MIN | 1.1235 |
+> | 28.575 | MAX | 1.125 |
+>
+> Inspect the cam follower roller for reuse. The cam follower lever assembly **must** be replaced if damaged.
+>
+> Inspect the push rod socket for damage. If the socket is damaged, the cam follower assembly **must** be replaced.
+>
+> The roller **must** rotate easily. Check the clearance of the roller.
+>
+> |  | mm |  | in |
+> |---|---|---|---|
+> | 1 | 0.230 | MIN | 0.0090 |
+> |  | 0.610 | MAX | 0.0240 |
+> | 2 | 0.076 | MIN | 0.0030 |
+> |  | 0.114 | MAX | 0.0045 |
+>
+> If the clearances do **not** meet specifications, the cam follower lever assembly **must** be replaced.
+>
+> Measure the cam follower lever bore inside diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 28.611 | MIN | 1.1264 |
+> | 28.661 | MAX | 1.1284 |
+>
+> If the bore inside diameter does **not** meet specifications, the cam follower lever assembly **must** be replaced.
+>
+> with Electronically Actuated Injector
+>
+> Clean the cam follower assembly for reuse.
+>
+> The shaft **must** rotate freely. If resistance is noted, disassemble and check for burrs on the shaft.
+>
+> Inspect the cam follower for reuse. The cam follower lever assembly **must** be replaced if damaged.
+>
+> The roller **must** rotate freely.
+>
+> Check the clearance of the roller.
+>
+> |  | mm |  | in |
+> |---|---|---|---|
+> | 1 | 0.230 | MIN | 0.0090 |
+> |  | 0.610 | MAX | 0.0240 |
+> | 2 | 0.076 | MIN | 0.0030 |
+> |  | 0.114 | MAX | 0.0045 |
+>
+> If the clearances do **not** meet specifications, the cam follower lever assembly **must** be replaced.
+>
+> ### Assemble
+>
+> Use clean engine oil to lubricate the shaft and bores of the levers.
+>
+> Slide the levers on the shaft.
+>
+> Install the parts illustrated.
+>
+> The shaft **must** rotate easily after assembly.
+>
+> If resistance is apparent, disassemble and check for burrs on the shaft.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> The cam follower mounting capscrews are special 12-point flange heads. Shaft failure will result if standard capscrews are used.
+>
+> **Note · Примечание**
+> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine.
+>
+> Use clean engine oil to lubricate the camshaft and camshaft followers.
+>
+> Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+>
+> Tighten the capscrews.
+>
+> | **Torque Value:** | Step 1 | 55 n.m \[40 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 110 n.m \[80 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 3 | 165 n.m \[120 ft-lb\] |
+> |---|---|---|
+>
+> Add a hardened washer to each cam follower cover capscrew.
+>
+> Apply three drops of Loctite® 246 or equivalent to the capscrews, starting two to three threads from the tip of the capscrew.
+>
+> Install the gasket, cover, and capscrews.
+>
+> **Note · Примечание**
+> The tabs on the cover gasket **must** be removed before installation.
+>
+> Tighten the 14 capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 48 n•m [35 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> The cam follower capscrew and washer is special to allow oil to flow to the cam follower shaft. Use of another capscrew will lead to engine damage.
+>
+> **CAUTION · Осторожно**
+> The washer is hardened and prevents the capscrew from bottoming out in the hole. Omitting the washer will lead to engine damage.
+>
+> **Note · Примечание**
+> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine. Use clean engine oil to lubricate the cam follower assembly and camshaft.
+>
+> Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+>
+> Use clean engine oil to lubricate the capscrew threads.
+>
+> Install the capscrews and special washers.
+>
+> Tighten capscrews.
+>
+> | **Torque Value:** | Step 1 | 55 n.m \[40 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 110 n.m \[80 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 3 | 165 n.m \[120 ft-lb\] |
+> |---|---|---|
+>
+> Apply three drops of threadlocker to the cam follower cover capscrews, starting two to three threads from the tip of the capscrew.
+>
+> Install the cam follower cover gasket, cover, and capscrews.
+>
+> The tabs on the cam follower cover gasket **must** be removed before installation.
+>
+> Tighten the 14 capscrews in the sequence shown in the illustration.
+>
+> **Момент затяжки · Torque Value**
+> 48 n•m [35 ft-lb]
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113.
+> - Install the crankcase vent tube. Refer to Procedure [[20-003-001-tr — Crankcase Breather (External)|003-001]].
+> - Install the fuel supply lines. Refer to Procedure [[20-006-024-tr — Fuel Supply Lines|006-024]].
+> - Install the push rods and crossheads. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
+> - Install the rocker levers. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
+> - Install the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
+> - Operate the engine and check for leaks.
+>
+> Rail Applications
+>
+> Install new face seal o-rings.
+>
+> Install the two oil scavenging tubes on the fittings on the cam follower cover.
+>
+> Connect the turbocharger drain hose to the oil scavenge cross.
+>
+> with Electronically Actuated Injector
+>
+> - Install push rods or tubes. Refer to Procedure [[20-004-014-tr — Push Rods or Tubes|004-014]].
+> - Install the rocker lever assembly. Refer to Procedure [[20-003-009-tr — Rocker Lever Assembly|003-009]].
+> - Install the rocker lever cover. Refer to Procedure [[20-003-011-tr — Rocker Lever Cover|003-011]].
+> - Install the wiring harness. Refer to Procedure 019-043 in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850 Modular Common Rail System Series Engine, Bulletin 4021493.
+> - Install the fuel manifold. Refer to Procedure [[20-006-022-tr — Fuel Manifold (Supply)|006-022]].
+> - Install the fuel pump. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
+> - Operate the engine and check for leaks.

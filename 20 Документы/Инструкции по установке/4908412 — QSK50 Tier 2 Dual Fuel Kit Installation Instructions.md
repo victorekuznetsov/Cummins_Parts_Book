@@ -29,11 +29,14 @@ parts:
   - "3201128"
   - "3642347"
 figures: 121
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908412.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/install_inst/4908412.pdf"
 tags:
   - "документ/установка"
   - "двигатель/K38/K50"
+  - "перевод/машинный"
 ---
 
 # QSK50 Tier 2 Dual Fuel Kit Installation Instructions
@@ -45,1389 +48,1397 @@ tags:
 > **Даты:** выпущен 2014-11-07 · изменён 2015-07-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908412.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/install_inst/4908412.pdf)
 
-## QSK50 Tier 2 Dual Fuel Kit Installation Instructions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-**General Information**
 
-The following procedure will provide instructions to assemble a Cummins® Hydraulic Fracturing Dual Fuel Kit onto an existing QSK50 Tier 2 base engine.
+## Инструкции по установке газодизельного комплекта QSK50 Tier 2
 
-The QSK50 Tier 2 base engine should be in good working order prior to the installation of kit components. See the Dual Fuel Build Quality Sign-Off Sheet, Bulletin 4908413, in order to properly validate the working condition of the QSK50 Tier 2 base engine.
+** Общая информация**
 
-This procedure will only reference Cummins® factory-provided Dual Fuel Kit components. Additional parts may be necessary. They will be provided by the Cummins® distributor or the original equipment manufacturer (OEM) that is installing the kit. For all OEM and Cummins® distributor sourced components, reference available OEM and distributor documentation.
+В следующей процедуре будут даны инструкции по сборке комплекта двойного топлива Cummins® с гидроразрывом на существующий базовый двигатель QSK50 Tier 2.
+
+Базовый двигатель QSK50 Tier 2 должен быть в хорошем рабочем состоянии до установки комплектующих компонентов. См. табличку с указанием качества сборки двойного топлива, Bulletin 4908413, с тем чтобы должным образом проверить рабочее состояние базового двигателя QSK50 Tier 2.
+
+Эта процедура будет касаться только компонентов Dual Fuel Kit, предоставляемых на заводе Cummins®. Могут потребоваться дополнительные части. Они будут предоставлены дистрибьютором Cummins® или производителем оригинального оборудования (OEM), который устанавливает комплект. Для всех компонентов OEM и Cummins®, доступных для OEM и дистрибьюторской документации.
 
 ![[ck800wa.png]]
 
-**Component Diagrams**
+**Схемы компонентов**
 
 ![[00m00014.png]]
 
-| Off-Engine Gas Train |  |  |  |
+| Немоторный газовый поезд |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | [[3036900]] | 8 | Washer, Plain |
-| 2 | 3046208 | 8 | Nut, Regular Hexagon |
-| 3 | 3063168 | 1 | Tee, Female Run |
-| 4 | 3896807 | 1 | Connector, Male |
-| 5 | 4000616 | 1 | Cap, Tube |
-| 6 | 4322908 | 1 | Adapter, Reducing Pipe |
-| 7 | 4322911 | 4 | Gasket, Flange |
-| 8 | 4322912 | 1 | Filter, Fuel |
-| 9 | 4322914 | 1 | Valve, Pressure Regulator |
-| 10 | 4322915 | 1 | Valve, Fuel Shutoff |
-| 11 | 4322947 | 1 | Support, Accessory |
-| 12 | 4327782 | 1 | Connector, Male |
-| 13 | 4327787 | 1 | Nipple, Plain Hexagon |
-| 14 | 4327792 | 16 | Assembly, Stud |
-| 15 | 4327809 | 1 | Valve, Solenoid |
-| 16 | 4328664 | 4 | Bracket, Module |
-| 17 | 4328672 | 1 | Switch, Pressure |
-| 18 | 4328673 | 1 | Switch, Pressure |
-| 19 | 4328685 | 4 | Washer, Plain |
-| 20 | 4335215 | 1 | Gauge, Pressure |
-| 21 | 4350852 | 1 | Tube, Pressure Sensing |
-| 22 | 4358012 | 1 | Connector, Male |
-| 23 | 4358015 | 1 | Decal, Information |
-| 24 | 4358023 | 1 | Fitting, Orifice |
-| 25 | 4358032 | 2 | Connection, Fuel Transfer |
-| 26 | S145 | 8 | Screw, Hexagon Head Cap |
-| 27 | S910B | 2 | Plug, Pipe |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | [[3036900]] | 8 | Стиральная машина, Плейн |
+| 2 | 3046208 | 8 | Орех, обычный шестиугольник |
+| 3 | 3063168 | 1 | Тэ, беги, беги, беги, беги, беги! |
+| 4 | 3896807 | 1 | Коннектор, мужчина |
+| 5 | 4000616 | 1 | Кап, трубка |
+| 6 | 4322908 | 1 | Адаптер, уменьшающий трубу |
+| 7 | 4322911 | 4 | Гаскет, Фланж |
+| 8 | 4322912 | 1 | Фильтр, топливо |
+| 9 | 4322914 | 1 | клапан, регулятор давления |
+| 10 | 4322915 | 1 | Валюта, отключение топлива |
+| 11 | 4322947 | 1 | Поддержка, аксессуар |
+| 12 | 4327782 | 1 | Коннектор, мужчина |
+| 13 | 4327787 | 1 | Ниппель, Плейн Хексагон |
+| 14 | 4327792 | 16 | Собрание, Студ |
+| 15 | 4327809 | 1 | Валве, Соленоид |
+| 16 | 4328664 | 4 | Брекет, модуль |
+| 17 | 4328672 | 1 | Переключатель, давление |
+| 18 | 4328673 | 1 | Переключатель, давление |
+| 19 | 4328685 | 4 | Стиральная машина, Плейн |
+| 20 | 4335215 | 1 | калибр, давление |
+| 21 | 4350852 | 1 | Трубка, Давление Чувствительность |
+| 22 | 4358012 | 1 | Коннектор, мужчина |
+| 23 | 4358015 | 1 | Декаль, информация |
+| 24 | 4358023 | 1 | Приборы, отверстия |
+| 25 | 4358032 | 2 | Подключение, передача топлива |
+| 26 | S145 | 8 | Винтовка Hexagon Head Cap |
+| 27 | S910B | 2 | Труба, труба |
 
 ![[00m00015.png]]
 
-| Fuel Control Valve |  |  |  |
+| клапан управления топливом |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | 69832 | 4 | Nut, Regular Hexagon |
-| 2 | [[3042328]] | 12 | Washer, Plain |
-| 3 | 3606534 | 2 | Gasket, Connection |
-| 4 | 4322918 | 1 | Governor, Woodward |
-| 5 | 4322970 | 1 | Connection, Fuel Inlet |
-| 6 | 4327742 | 2 | Seal, O-ring |
-| 7 | S111 | 8 | Screw, Hexagon Head Cap |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | 69832 | 4 | Орех, обычный шестиугольник |
+| 2 | [[3042328]] | 12 | Стиральная машина, Плейн |
+| 3 | 3606534 | 2 | Гаскет, соединение |
+| 4 | 4322918 | 1 | Губернатор, Вудворд |
+| 5 | 4322970 | 1 | Подключение, топливный впуск |
+| 6 | 4327742 | 2 | Тюлень, кольцо О |
+| 7 | S111 | 8 | Винтовка Hexagon Head Cap |
 
 ![[00m00016.png]]
 
-| On-Engine Customer Connection |  |  |  |
+| Подключение клиентов к электронике |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | 137872 | 2 | Screw, Hexagon Head Cap |
-| 2 | [[3014766]] | 12 | Screw, Captive Washer Cap |
-| 3 | [[3033038]] | 22 | Screw, Captive Washer Cap |
-| 4 | [[3036900]] | 6 | Washer, Plain |
-| 5 | [[3037536]] | 2 | Plug, Threaded |
-| 6 | 3040837 | 4 | Screw, Captive Washer Cap |
-| 7 | [[3042328]] | 1 | Washer, Plain |
-| 8 | [[3042329]] | 30 | Washer, Plain |
-| 9 | [[3069120]] | 4 | Screw, Captive Washer Cap |
-| 10 | [[3201128]] | 22 | Nut, Regular Hexagon |
-| 11 | [[3642347]] | 1 | Gasket, Hand Hole |
-| 12 | [[3042328]] | 1 | Tee, Male Union |
-| 13 | 4327795 | 1 | Bracket, Debris Shield |
-| 14 | 4327826 | 2 | Brace, Support |
-| 15 | 4327827 | 1 | Brace, Support |
-| 16 | 4327828 | 1 | Shield, Debris |
-| 17 | 4327832 | 1 | Bracket, Breather |
-| 18 | 4328662 | 1 | Bracket, Debris Shield |
-| 19 | 4328686 | 1 | Seal, O-ring |
-| 20 | 4334843 | 1 | Cover, Hand Hole |
-| 21 | 4334859 | 1 | Connection, Fuel Transfer |
-| 22 | 4334861 | 1 | Connection, Fuel Transfer |
-| 23 | 4350851 | 1 | Dataplate |
-| 24 | 4968985 | 2 | Screw, Hexagon Head Cap |
-| 25 | S104 | 2 | Screw, Hexagon Head Cap |
-| 26 | S119 | 1 | Screw, Hexagon Head Cap |
-| 27 | S145 | 6 | Screw, Hexagon Head Cap |
-| 28 | S170A | 2 | Screw, Hexagon Head Cap |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | 137872 | 2 | Винтовка Hexagon Head Cap |
+| 2 | [[3014766]] | 12 | К черту, кэптивный шайба |
+| 3 | [[3033038]] | 22 | К черту, кэптивный шайба |
+| 4 | [[3036900]] | 6 | Стиральная машина, Плейн |
+| 5 | [[3037536]] | 2 | Взломанный, протоптанный |
+| 6 | 3040837 | 4 | К черту, кэптивный шайба |
+| 7 | [[3042328]] | 1 | Стиральная машина, Плейн |
+| 8 | [[3042329]] | 30 | Стиральная машина, Плейн |
+| 9 | [[3069120]] | 4 | К черту, кэптивный шайба |
+| 10 | [[3201128]] | 22 | Орех, обычный шестиугольник |
+| 11 | [[3642347]] | 1 | Гаскет, ручная стрелка |
+| 12 | [[3042328]] | 1 | Тхэ, внешне резьбовые фитинги |
+| 13 | 4327795 | 1 | Брекет, Дебрис Шилд |
+| 14 | 4327826 | 2 | Хватка, поддержка |
+| 15 | 4327827 | 1 | Хватка, поддержка |
+| 16 | 4327828 | 1 | Щит, Дебрис |
+| 17 | 4327832 | 1 | Брекет, дышащий |
+| 18 | 4328662 | 1 | Брекет, Дебрис Шилд |
+| 19 | 4328686 | 1 | Тюлень, кольцо О |
+| 20 | 4334843 | 1 | Ручная дыра, Hand Hole |
+| 21 | 4334859 | 1 | Подключение, передача топлива |
+| 22 | 4334861 | 1 | Подключение, передача топлива |
+| 23 | 4350851 | 1 | Шильдик (табличка данных) |
+| 24 | 4968985 | 2 | Винтовка Hexagon Head Cap |
+| 25 | S104 | 2 | Винтовка Hexagon Head Cap |
+| 26 | S119 | 1 | Винтовка Hexagon Head Cap |
+| 27 | S145 | 6 | Винтовка Hexagon Head Cap |
+| 28 | S170A | 2 | Винтовка Hexagon Head Cap |
 
 ![[00m00017.png]]
 
-| Left Bank Gas Inlet Tubes |  |  |  |
+| Левобережные газовые трубки |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | 137719 | 2 | Screw, Hexagon Head Cap |
-| 2 | [[3029640]] | 1 | Seal, O-ring |
-| 3 | [[3037536]] | 2 | Plug, Threaded |
-| 4 | 3040837 | 2 | Screw, Captive Washer Cap |
-| 5 | [[3042327]] | 4 | Washer, Plain |
-| 6 | [[3064321]] | 3 | Screw, Captive Washer Cap |
-| 7 | 3063828 | 1 | Nut, Hexagon Flange |
-| 8 | [[3175239]] | 3 | Nut, Lock |
-| 9 | 3202124 | 3 | Clip |
-| 10 | 4322974 | 1 | Connector, Male |
-| 11 | 4322977 | 1 | Brace, Tube |
-| 12 | 4322978 | 1 | Clamp, Tube |
-| 13 | 4322979 | 1 | Plate, Clamping |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | 137719 | 2 | Винтовка Hexagon Head Cap |
+| 2 | [[3029640]] | 1 | Тюлень, кольцо О |
+| 3 | [[3037536]] | 2 | Взломанный, протоптанный |
+| 4 | 3040837 | 2 | К черту, кэптивный шайба |
+| 5 | [[3042327]] | 4 | Стиральная машина, Плейн |
+| 6 | [[3064321]] | 3 | К черту, кэптивный шайба |
+| 7 | 3063828 | 1 | Орех, Хексагон Фланж |
+| 8 | [[3175239]] | 3 | Орех, Замок |
+| 9 | 3202124 | 3 | Скоба |
+| 10 | 4322974 | 1 | Коннектор, мужчина |
+| 11 | 4322977 | 1 | Брейс, трубка. |
+| 12 | 4322978 | 1 | Зажим, трубка |
+| 13 | 4322979 | 1 | Пластина, зажим |
 | 14 | 4327732 | 1 | Elbow, Tube Connector |
-| 14 | 4327754 | 1 | Shield, Heat |
-| 16 | 4327788 | 1 | Connection, Air Intake |
-| 17 | 4328541 | 1 | Stud, Continuous Thread |
-| 18 | 4350823 | 1 | Tube, Gas Inlet |
-| 19 | 4350825 | 1 | Tube, Gas Inlet |
-| 20 | 43828D | 2 | Clamp, Hose |
-| 21 | 69911A | 4 | Clip |
-| 22 | S270 | 2 | Nut, Regular Hexagon |
-| 22 | 4334861 | 1 | Connection, Fuel Transfer |
+| 14 | 4327754 | 1 | Щит, тепло |
+| 16 | 4327788 | 1 | Подключение, воздухозаборник |
+| 17 | 4328541 | 1 | Студ, непрерывная резьба |
+| 18 | 4350823 | 1 | Трубка, входной газ |
+| 19 | 4350825 | 1 | Трубка, входной газ |
+| 20 | 43828D | 2 | Зажим, Хосе |
+| 21 | 69911A | 4 | Скоба |
+| 22 | S270 | 2 | Орех, обычный шестиугольник |
+| 22 | 4334861 | 1 | Подключение, передача топлива |
 
 ![[00m00018.png]]
 
-| Right Bank Gas Inlet Tubes |  |  |  |
+| Правые банковские газовые трубки |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | 69832 | 4 | Nut, Regular Hexagon |
-| 2 | 137719 | 4 | Screw, Hexagon Head Cap |
-| 3 | [[3029640]] | 1 | Seal, O-ring |
-| 4 | [[3037536]] | 2 | Plug, Threaded |
-| 5 | 3040837 | 4 | Screw, Captive Washer Cap |
-| 6 | [[3042327]] | 8 | Washer, Plain |
-| 7 | [[3042328]] | 1 | Washer, Plain |
-| 8 | [[3064321]] | 4 | Screw, Captive Washer Cap |
-| 9 | [[3093828]] | 1 | Nut, Hexagon Flange |
-| 10 | [[3175239]] | 4 | Nut, Lock |
-| 11 | 3202124 | 4 | Clip |
-| 12 | 3606534 | 2 | Gasket, Connection |
-| 13 | 43229974 | 1 | Connector, Male |
-| 14 | 4322977 | 2 | Brace, Tube |
-| 15 | 4322978 | 2 | Clamp, Tube |
-| 16 | 4322979 | 2 | Plate, Clamping |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | 69832 | 4 | Орех, обычный шестиугольник |
+| 2 | 137719 | 4 | Винтовка Hexagon Head Cap |
+| 3 | [[3029640]] | 1 | Тюлень, кольцо О |
+| 4 | [[3037536]] | 2 | Взломанный, протоптанный |
+| 5 | 3040837 | 4 | К черту, кэптивный шайба |
+| 6 | [[3042327]] | 8 | Стиральная машина, Плейн |
+| 7 | [[3042328]] | 1 | Стиральная машина, Плейн |
+| 8 | [[3064321]] | 4 | К черту, кэптивный шайба |
+| 9 | [[3093828]] | 1 | Орех, Хексагон Фланж |
+| 10 | [[3175239]] | 4 | Орех, Замок |
+| 11 | 3202124 | 4 | Скоба |
+| 12 | 3606534 | 2 | Гаскет, соединение |
+| 13 | 43229974 | 1 | Коннектор, мужчина |
+| 14 | 4322977 | 2 | Брейс, трубка. |
+| 15 | 4322978 | 2 | Зажим, трубка |
+| 16 | 4322979 | 2 | Пластина, зажим |
 | 17 | 4327732 | 1 | Elbow, Tube Connector |
-| 18 | 4327788 | 1 | Connection, Air Intake |
-| 19 | 4328541 | 1 | Stud, Continuous Thread |
-| 20 | 4328544 | 1 | Orifice, Fuel Flow Limiting |
-| 21 | 4335202 | 1 | Tube, Gas Inlet |
-| 22 | 4350830 | 1 | Tube, Gas Inlet |
-| 23 | 4350832 | 1 | Tube, Gas Inlet |
-| 24 | 69911A | 6 | Clip |
-| 25 | S119 | 4 | Screw, Hexagon Head Cap |
-| 26 | S270 | 4 | Nut, Regular Hexagon |
+| 18 | 4327788 | 1 | Подключение, воздухозаборник |
+| 19 | 4328541 | 1 | Студ, непрерывная резьба |
+| 20 | 4328544 | 1 | Ограничение расхода топлива |
+| 21 | 4335202 | 1 | Трубка, входной газ |
+| 22 | 4350830 | 1 | Трубка, входной газ |
+| 23 | 4350832 | 1 | Трубка, входной газ |
+| 24 | 69911A | 6 | Скоба |
+| 25 | S119 | 4 | Винтовка Hexagon Head Cap |
+| 26 | S270 | 4 | Орех, обычный шестиугольник |
 
 ![[00m00019.png]]
 
-| On-Engine Wiring Harness |  |  |  |
+| Для электропроводки на двигателе Harness |  |  |  |
 |---|---|---|---|
-| Reference Number | Item Number | Quantity | Item Name |
-| 1 | 2897654 | 16 | Sensor, Knock |
-| 2 | [[3040721]] | 1 | Gasket, Cam Follower Housing |
-| 3 | 3040837 | 2 | Screw, Captive Washer Cap |
-| 4 | [[3042327]] | 4 | Washer, Plain |
-| 5 | 4326355 | 1 | Seal, O-ring |
-| 6 | 4087931 | 2 | Screw, Hexagon Head Cap |
-| 7 | 4307676 | 1 | Sensor, Position |
-| 8 | 4322977 | 1 | Brace, Tube |
-| 9 | 4322996 | 1 | Bracket, Wiring Retainer |
-| 10 | 4326355 | 1 | Seal, O-ring |
-| 11 | 4327748 | 2 | Elbow, Male Union |
-| 12 | 4327802 | 2 | Hose, Flexible |
-| 13 | 4334865 | 1 | Harness, Wiring |
-| 14 | 4350835 | 1 | Cover, Camshaft |
-| 15 | S119 | 16 | Screw, Hexagon Head Cap |
-| 16 | 4358036 | 1 | Panel, Control |
-| 17 | 4358010 | 16 | Screw, Hexagon Head Cap |
-| 18 | S270 | 2 | Nut, Regular Hexagon |
+| Справочный номер | Номер позиции | Количество | Имя пункта |
+| 1 | 2897654 | 16 | Сенсор, стук |
+| 2 | [[3040721]] | 1 | Гаскет, кран-кассетный |
+| 3 | 3040837 | 2 | К черту, кэптивный шайба |
+| 4 | [[3042327]] | 4 | Стиральная машина, Плейн |
+| 5 | 4326355 | 1 | Тюлень, кольцо О |
+| 6 | 4087931 | 2 | Винтовка Hexagon Head Cap |
+| 7 | 4307676 | 1 | Сенсор, положение |
+| 8 | 4322977 | 1 | Брейс, трубка. |
+| 9 | 4322996 | 1 | Брекет, проводной ретейнер |
+| 10 | 4326355 | 1 | Тюлень, кольцо О |
+| 11 | 4327748 | 2 | Локтевой, с наружной резьбой фитинг |
+| 12 | 4327802 | 2 | Хлоп, гибкий |
+| 13 | 4334865 | 1 | шнур, проводка |
+| 14 | 4350835 | 1 | Прикрытие, Распредвал |
+| 15 | S119 | 16 | Винтовка Hexagon Head Cap |
+| 16 | 4358036 | 1 | Панель, контроль |
+| 17 | 4358010 | 16 | Винтовка Hexagon Head Cap |
+| 18 | S270 | 2 | Орех, обычный шестиугольник |
 
 **Cylinder 16 Camshaft Cover and Sensor**
 
-Remove the right bank engine wire harness (1) to allow access to the cylinder 16 camshaft cover. Refer to Procedure 019-043 in Section 19 in the QSK50 Service Manual. Retain the mounting capscrews.
+Удалите правый берег провода двигателя жгута (1), чтобы обеспечить доступ к крышке распределительного вала цилиндра 16. См. процедуру 019-043 в разделе 19 в Руководстве по обслуживанию QSK50. Сохраняйте крепежные болты.
 
 ![[00m00020.png]]
 
-Remove the original QSK50 cylinder 16 (R8) camshaft cover (1). Discard the gasket. Keep the original cover capscrews.
+Удалите оригинальную крышку распределительного вала QSK50 16 (R8) (1). Прокладку утилизируйте. Сохраните оригинальные крышки.
 
 ![[00m00021.png]]
 
-Install the Dual Fuel cylinder 16 camshaft cover (1) using a new camshaft cover gasket.
+Установите крышку 16 распределительного вала (1) с помощью новой прокладки крышки распределительного вала.
 
-Install the original three short camshaft cover capscrews.
+Установите оригинальные три коротких болта крышки распределительного вала.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
-> [!note] Note · Примечание
-> The top left camshaft cover bolt hole will be used when the engine wire harness is installed.
+> [!note] Примечание
+> Верхний левый распредвал крышки болтового отверстия будет использоваться, когда провода двигателя провода ремня установлена.
 
 ![[00m00022.png]]
 
-Install the Dual Fuel camshaft position sensor (1) and o-ring, Cummins® Part Number 4326355 (2). Thread the sensor into the camshaft cover sensor bung until seated.
+Установите датчик положения двойного топливного вала (1) и о-кольцо, Cummins® Часть Номер 4326355 (2). Вставьте датчик в крышку распределительного вала, пока он не усидеть.
 
-> [!tip] Момент затяжки · Torque Value
-> 73 n•m [54 ft-lb]
+> [!tip] Момент затяжки
+> 73 Н·м [54 фунт-фут]
 
-> [!note] Note · Примечание
-> The Dual Fuel camshaft position sensor comes with a pre-assembled jam nut. The jam nut is **not** used for sensor installation. Discard the jam nut.
+> [!note] Примечание
+> Датчик положения двойного топливного вала поставляется с предварительно собранным локоном. Штормовой орех ** не используется для установки датчиков. Отбросьте каштан.
 
 ![[00m00023.png]]
 
-Install the QSK50 right bank engine harness (1). Make sure the capscrew is installed into the top left camshaft cover bolt hole. Refer to Procedure 019-043 in Section 19 in the QSK50 Service Manual.
+Установите упряжку для электропроводки двигателя QSK50 с правой стороны (1). Убедитесь, что болты установлены в верхнем левом отверстие крышки распределительного вала. См. процедуру 019-043 в разделе 19 в Руководстве по обслуживанию QSK50.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00024.png]]
 
-**Knock Sensors**
+**Стучать датчики**
 
-Remove the existing QSK50 forward intake manifold bolts and washer from each cylinder, 16 total.
+Удалите существующие болты и стиральную машину QSK50 с передних впускных коллекторов с каждого цилиндра, всего 16.
 
-Install the 16 hex head aftercooler capscrews (1). Make sure washer (2), Cummins® Part Number [[3042329]], is placed between the capscrew and the aftercooler.
+Установите 16-сексовые головные охладители (1). Убедитесь, что стиральная машина (2), Cummins® Part Number[[3042329]], помещается между болтами и послеохлаждением.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Install the knock sensor (3) and mounting capscrew, Cummins® Part Number S119 (4). Leave hand-tight.
+Установите датчик (3) детонации и крепежные болты, Cummins® Part Number S119 (4). Оставь ручную герметичность.
 
 ![[00m00025.png]]
 
-Each of the 16 knock sensors **must** be clocked in a specific direction.
+Каждый из 16 датчиков стука должен быть отсчитан в определенном направлении.
 
-| Knock Sensor Clocking |  |  |
+| Knock Sensor Clocking (переключение датчиков) |  |  |
 |---|---|---|
-| Bank Cylinder Number | Knock Connector | Knock Sensor Clocking |
-| Left Bank Cylinder 1 | C22-1 | 4 o'clock |
-| Left Bank Cylinder 2 | C22-3 | 8 o'clock |
-| Left Bank Cylinder 3 | C22-5 | 9 o'clock |
-| Left Bank Cylinder 4 | C22-7 | 8 o'clock |
-| Left Bank Cylinder 5 | C22-9 | 8 o'clock |
-| Left Bank Cylinder 6 | C22-11 | 8 o'clock |
-| Left Bank Cylinder 7 | C22-13 | 8 o'clock |
-| Left Bank Cylinder 8 | C22-15 | 8 o'clock |
-| Right Bank Cylinder 1 | C22-1 | 4 o'clock |
-| Right Bank Cylinder 2 | C22-1 | 4 o'clock |
-| Right Bank Cylinder 3 | C22-1 | 4 o'clock |
-| Right Bank Cylinder 4 | C22-1 | 4 o'clock |
-| Right Bank Cylinder 5 | C22-1 | 3 o'clock |
-| Right Bank Cylinder 6 | C22-1 | 8 o'clock |
-| Right Bank Cylinder 7 | C22-1 | 4 o'clock |
-| Right Bank Cylinder 8 | C22-1 | 4 o'clock |
+| Банковский цилиндрический номер | Knock Connector | Knock Sensor Clocking (переключение датчиков) |
+| Левобережный цилиндр 1 | С22-1 | 4 часа |
+| Левобережный цилиндр 2 | С22-3 | 8 часов |
+| Левобережный цилиндр 3 | См. | 9 часов |
+| Левобережный цилиндр 4 | C22-7 | 8 часов |
+| Левобережный цилиндр 5 | С22-9 | 8 часов |
+| Левобережный цилиндр 6 | С22-11 | 8 часов |
+| Левобережный цилиндр 7 | С22-13 | 8 часов |
+| Левобережный цилиндр 8 | C22-15 | 8 часов |
+| Правый банковский цилиндр 1 | С22-1 | 4 часа |
+| Правый банковский цилиндр 2 | С22-1 | 4 часа |
+| Правый банковский цилиндр 3 | С22-1 | 4 часа |
+| Правый банковский цилиндр 4 | С22-1 | 4 часа |
+| Правый банковский цилиндр 5 | С22-1 | 3 часа |
+| Правый банковский цилиндр 6 | С22-1 | 8 часов |
+| Правый банковский цилиндр 7 | С22-1 | 4 часа |
+| Правый банковский цилиндр 8 | С22-1 | 4 часа |
 
-Tighten each knock sensor.
+Затягивайте каждый датчик удара.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Do **not** orient the connector upward between 9 o'clock and 3 o'clock, Failure to follow this instruction may result in sensor water intrusion.
+> [!note] Примечание
+> Не ориентируйте разъем вверх между 9 и 3 часами, несоблюдение этой инструкции может привести к проникновению датчика воды.
 
 ![[00m00026.png]]
 
-**On-Engine Customer ConnectionGeneral Information**
+**Общая информация об подключении к электронному устройству**
 
-The hand hole cover, corrosion filters, and crankcase breather will need to be moved and/or modified to meet the Dual Fuel installation requirements.
+Ручная крышка отверстия, коррозионные фильтры и задуватель картера должны быть перемещены и / или изменены для удовлетворения требований к установке двойного топлива.
 
-All brackets and components are provided for full on-engine customer connection assembly.
+Все скобки и компоненты предусмотрены для полной сборки соединения с клиентом на двигателе.
 
-The illustration shows the QSK50 base engine breather, hand hole cover, and corrosion filters.
+На иллюстрации показана базовая дыхательная машина QSK50, крышка ручного отверстия и коррозионные фильтры.
 
 ![[00m00027.png]]
 
-Close the ball valves of the corrosion filter supply and return lines, at the water pump.
+Закройте шаровые клапаны коррозионного фильтра питающей и обратной линий, на водяном насосе.
 
-Remove the fittings at the filter head supply (1) and return (2).
+Удалите фитинги на подаче (1) и возвратите (2).
 
-Remove the corrosion filter assembly by loosening the four capscrews (3) at the filter head and water supply. Keep these capscrews for reuse.
+Удалите сборку коррозионного фильтра, ослабив четыре болта (3) на головке фильтра и подаче воды. Держите эти болты для повторного использования.
 
 ![[00m00028.png]]
 
-Remove and discard the corrosion resistor L-bracket mounting plate. A new mounting plate and location will be provided.
+Удалите и отбросьте коррозионный резистор L-кронштейнной крепежной пластины. Будет предоставлена новая монтажная плита и месторасположение.
 
 ![[00m00029.png]]
 
-Remove the crankcase breather and breather hoses. The breather hoses will be reused in this installation. Keep the crankcase breather capscrews for reuse. New capscrews for the R4 and R5 camshaft covers are provided.
+Удалите заслонку и шланги для засорения. В этой установке будут повторно использованы шланги для дыхания. Держите болты для дыхания для повторного использования. Предусмотрены новые болты для крышек распределительного вала R4 и R5.
 
 ![[00m00030.png]]
 
-Remove and discard the QSK50 base engine hand hole cover and gasket. A new hand hole cover specific to the Dual Fuel System is provided.
+Удалите и отбросьте крышку и прокладку ручного отверстия базового двигателя QSK50. Предусмотрена новая крышка ручного отверстия, характерная для двойной топливной системы.
 
 ![[00m00031.png]]
 
-Install the Dual Fuel hand hole cover and a new hand hole cover gasket onto the engine block.
+Установите крышку ручного отверстия с двойным топливом и новую прокладку крышки ручного отверстия на блок двигателя.
 
-Tighten the 12 capscrews.
+Затяните 12 болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00032.png]]
 
-Install the crankcase breather relocation bracket. There are two capscrews, Cummins® Part Number S104, that will be installed into the forward holes of camshaft covers R4 and R5.
+Установите кронштейн для перемещения затвора. Есть два болта, Cummins® Part Number S104, которые будут установлены в передние отверстия распределительных крышек R4 и R5.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00033.png]]
 
-Install the debris shield bracket on top of the engine wire harness. There are two capscrews, Cummins® Part Number S170A, that will replace the existing wire harness capscrews for bracket installation.
+Установите кронштейн щита мусора поверх жгута проводной проводов двигателя. Есть два болта, Cummins® Part Number S170A, которые заменят существующие болты для монтажа кронштейнов.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00034.png]]
 
-Install the fuel transfer connection onto the aftercooler housing between cylinders 3RB and 4RB. Use two capscrews, Cummins® Part Number 4968985, in the center and right holes.
+Установите соединение для передачи топлива на корпус послеохладителя между цилиндрами 3RB и 4RB. Используйте два болта, Cummins® Part Number 4968985, в центре и правых отверстиях.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Use one capscrew, Cummins® Part Number S119, in the left hole.
+Используйте один болт, Cummins® Part Number S119, в левом отверстии.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[00m00035.png]]
 
-Install the fuel transfer connection support braces between the fuel transfer connection and hand hole cover. The rear support will have eight bolts ([[3033038]]), nuts ([[3201128]]), and washers ([[3042329]]). The forward support will have an identical seven bolts, nuts, and washers.
+Установите подвесные брекеты для передачи топлива между подключением для передачи топлива и крышкой ручного отверстия. Задняя опора будет иметь восемь болтов ([[3033038]]орехи ()[[3201128]]и стиральные машины ()[[3042329]]). Передняя опора будет иметь одинаковые семь болтов, гаек и шайб.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00036.png]]
 
-Install the new corrosion filter support bracket (1) between the forward support brace (2) and hand hole cover. Use eight bolts ([[3033038]]), nuts ([[3201128]]), and washers ([[3042329]]).
+Установите новый защитный кронштейн (1) для коррозионного фильтра между передним опорным скобком (2) и крышкой ручного отверстия. Используйте восемь болтов ([[3033038]]орехи ()[[3201128]]и стиральные машины ()[[3042329]]).
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[00m00037.png]]
 
-Install the coolant filter head using the original filter head capscrews. Leave hand-tight.
+Установите головку фильтра охлаждающей жидкости с использованием оригинальных болтов головки фильтра. Оставь ручную герметичность.
 
-Install the coolant filter return (1) and supply lines (2).
+Установите возврат фильтра охлаждающей жидкости (1) и линии подачи (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
-Tighten the four filter head capscrews.
+Затяните четыре затвора головки фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Make sure that the filter supply and return ball valves are open upon completion of the coolant filter head installation.
+Убедитесь, что клапаны подачи и возврата фильтра открыты после завершения установки головки фильтра охлаждающей жидкости.
 
 ![[00m00038.png]]
 
-Install the crankcase breather onto the relocation bracket using the orignal crankcase breather capscrews. Align the hoses and hose clamps.
+Установите капкан-духовку на кронштейн переезда, используя болты периорального капкан-духовника. Выровняйте шланги и шланги.
 
-Tighten the crankcase breather capscrews (1).
+Затягивать болты для дыхания из картера (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
-Tighten the hose clamps (2).
+Зажимы для шлангов (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[00m00039.png]]
 
-The customer-to-engine fuel transfer connection can be oriented to the front or rear of the engine, depending on the OEM application. Consult with your local distributor or OEM to determine the correct direction for installation.
+Подключение передачи топлива от клиента к двигателю может быть ориентировано на переднюю или заднюю часть двигателя, в зависимости от применения OEM. Проконсультируйтесь с местным дистрибьютором или OEM-производителем, чтобы определить правильное направление установки.
 
-Align the customer-to-engine fuel transfer connection. Use six capscrews(S145), washers ([[3036900]]), and o-ring (4328686). Tighten the capscrews in a crisscross pattern.
+Выровняйте соединение передачи топлива от клиента к двигателю. Используйте шесть болтов (S145), шайбы (S145).[[3036900]]), и о-кольцо (4328686). Затягивай болты поперечно.
 
-> [!tip] Момент затяжки · Torque Value
-> 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> 95 Н·м [70 фунт-фут]
 
 ![[00m00040.png]]
 
-Install both port plugs into the front and rear fuel transfer connection bungs.
+Установите как портовые вилки в передние, так и задние подсоединения для передачи топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[00m00041.png]]
 
-**Fuel Control Valve**
+** Контрольная клапанная система **
 
-Install the debris shield bracket onto the corner of the aftercooler with four new capscrews, Cummins® Part Number 3040837.
+Установите кронштейн щита для мусора на угол послеохладителя с четырьмя новыми болтами, Cummins® Part Number 3040837.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[00m00042.png]]
 
-Install the male union tee onto the debris shield bracket.
+Установите наружный резьбовый фитинг на скобку щита для мусора.
 
-> [!tip] Момент затяжки · Torque Value
-> 55 n•m [41 ft-lb]
+> [!tip] Момент затяжки
+> 55 Н·м [41 фунт-фут]
 
 ![[00m00043.png]]
 
-Place a gasket between the throttle body and the fuel transfer connection.
+Поместите прокладку между корпусом дросселя и соединением для передачи топлива.
 
-Install the throttle body with the arrow pointing upward, in the direction of gas flow.
+Установите корпус дросселя со стрелкой, направленной вверх, в направлении потока газа.
 
-Tighten the four capscrews, Cummins® Part Number S111.
+Затяните четыре болта, Cummins® Part Number S111.
 
-> [!tip] Момент затяжки · Torque Value
-> 22 n•m [195 in-lb]
+> [!tip] Момент затяжки
+> 22 Н·м [195 фунт-дюйм]
 
 ![[00m00044.png]]
 
-Place a gasket between the throttle body and the fuel inlet connection tee.
+Поместите прокладку между корпусом дросселя и впускным топливным тройником.
 
-Install four capscrews, Cummins® Part Number S111, connecting the fuel inlet connection tee to the throttle body.
+Установите четыре болта, Cummins® Part Number S111, соединяющие впускной трос топлива с корпусом дроссельной заслонки.
 
-> [!tip] Момент затяжки · Torque Value
-> 22 n•m [195 in-lb]
+> [!tip] Момент затяжки
+> 22 Н·м [195 фунт-дюйм]
 
 ![[00m00045.png]]
 
-**Air/Fuel Mixers**
+** Воздушные/топливные смесители**
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\] or more. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот компонент или сборка весит более 23 кг [50 фунтов] или более. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Replace the existing turbocharger air intakes with the provided air/fuel mixers. The air/fuel mixers are installed using the same instructions for each bank.
+Заменить существующие воздухозаборники турбокомпрессора на предоставленные смесители воздуха/топлива. Воздушно-топливные смесители устанавливаются с использованием одинаковых инструкций для каждого банка.
 
-Support the weight of the turbocharger so that it is secure upon removing the turbocharger air intake capscrews.
+Поддерживайте вес турбокомпрессора, чтобы он был безопасным при снятии болтов воздухозаборника турбокомпрессора.
 
-Remove the original low-pressure turbocharger air intakes. Three of the four air intake capscrews **must** be kept for reuse with the air/fuel mixers.
+Удалите оригинальные воздухозаборники турбокомпрессора низкого давления. Три из четырех болтов воздухозаборника ** должны быть сохранены для повторного использования с воздухо-топливными смесителями.
 
-Remove and discard the o-ring on the back side of the turbocharger air intake.
+Удалите и отбросьте кольцо на задней стороне воздухозаборника турбокомпрессора.
 
 ![[00m00046.png]]
 
-Insert a new low-pressure turbocharger intake o-ring into the grove on the backside of the air/fuel mixer.
+Вставьте новое впускное кольцо турбокомпрессора низкого давления в рощу на задней стороне смесителя воздуха / топлива.
 
-Before aligning the mixer, insert stud, Cummins® Part Number 4328541, into the bolt hole furthest to the left, when facing the turbocharger, and tighten.
+Перед выравниванием смесителя вставьте шпильку Cummins® Part Number 4328541 в отверстие болта, наиболее удаленное влево, при столкновении с турбокомпрессором и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Align the stud hole with the air/fuel mixer. Rotate the air/fuel mixer into position. When facing the mixer, the gas inlet port **must** be oriented to the left
+Выровнять шпильное отверстие с помощью смесителя воздуха / топлива. Поверните воздух/топливо смесителя в положение. При обращении к смесителю входной порт газа ** должен быть ориентирован влево.
 
 ![[00m00047.png]]
 
-Install the three remaining capscrews through the air/fuel mixer into the compressor housing. Tighten the capscrews.
+Установите три оставшихся болта через смеситель воздуха / топлива в корпус компрессора. Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 48 Н·м [35 фунт-фут]
 
-Install the nut onto the remaining stud and tighten.
+Установите гайку на оставшийся шпиль и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 48 Н·м [35 фунт-фут]
 
-Remove the turbocharger supports added during removal of the turbocharger air intake.
+Удалите опоры турбокомпрессора, добавленные во время удаления воздухозаборника турбокомпрессора.
 
 ![[00m00048.png]]
 
-Make sure there is an o-ring between the male connector (2) and the air/fuel mixer. Install the male connector (2) into the air/fuel mixer using the crows foot adapter, Cummins® Part Number 5299067.
+Убедитесь, что между разъемом (2) и смесителем воздуха / топлива есть кольцо. Установите разъем (2) в смеситель воздуха / топлива с помощью адаптера для ног ворон, Cummins® Part Number 5299067.
 
-> [!tip] Момент затяжки · Torque Value
-> 331 n•m [244 ft-lb]
+> [!tip] Момент затяжки
+> 331 Н·м [244 фунт-фут]
 
-> [!note] Note · Примечание
-> The male connector (2) face with the enclosed o-ring should be oriented away from the air/fuel mixer.
+> [!note] Примечание
+> Разъем (2) штепсельной вилки с закрытым кольцом должен быть ориентирован в сторону от смесителя воздуха/топлива.
 
-Install the port plugs (1) into the dual fuel air/fuel mixer.
+Установите вилки (1) порта в смеситель воздуха/топлива с двойным топливом.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[00m00049.png]]
 
-**Left Bank Gas Inlet Tubes**
+** Газопроводные трубы левобережного банка**
 
-Install the tube brace backing onto the front left aftercooler using capcrews, Cummins® Part Number 3040837. Discard the original 3rd and 4th capscrews back from the front corner of the aftercooler.
+Установите трубчатый скоб, поддерживающий передний левый послеохладитель, используя винты, Cummins® Part Number 3040837. Отбросьте оригинальные 3-й и 4-й болты назад с передней стороны послеохладителя.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[00m00050.png]]
 
-Place o-ring, Cummins® Part Number 4327742, between the gas inlet tube (3) and the fuel inlet connection tee (1).
+Поместите кольцо, Cummins® Номер детали 4327742, между газовой впускной трубкой (3) и топливным впускным соединением тэ (1).
 
-Install the gas inlet tube (3) on the fuel inlet connection tee (1) and tighten the connecting nut (2) using the crows foot adapter, Cummins® Part Number 5299067.
+Установите газовую впускную трубку (3) на впускной топливный трой (1) и затяните соединительный гайку (2) с помощью адаптера для ног ворон, Cummins® Part Number 5299067.
 
-> [!tip] Момент затяжки · Torque Value
-> 508 n•m [375 ft-lb]
+> [!tip] Момент затяжки
+> 508 Н·м [375 фунт-фут]
 
 ![[00m00051.png]]
 
-Make sure the horizontal gas inlet tube is positioned against both sections of the tube clamp on the aftercooler.
+Убедитесь, что горизонтальная газовая впускная трубка расположена против обеих секций зажима трубки на послеохладитель.
 
-Install the tube clamp with capscrews, Cummins® Part Number 137719.
+Установите зажим трубы с болтами, Cummins® Part Number 137719.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00052.png]]
 
-Draw or paint two reference marks on the horizontal gas inlet tube (4). One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+Нарисуйте или покрасьте две опорные отметки на горизонтальной газовой трубке (4). Один на 29 мм \[1,14 дюйма \] и один на 42 мм \[1,65 дюйма \] от открытого конца.
 
-Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube end (4) between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+Установите металлическое зажимное кольцо (3) над трубкой (4). Нажмите пончик (2) на конец трубки (4) между отметками 29 мм \[1,14 дюйма \] и 42 мм \[1,65 дюйма \].
 
-Slide the tube connector elbow (1) over the horizontal gas inlet tube (4) until the 29 mm \[1.14 in\] mark is no longer visible.
+Скользите локтем (1) разъёма трубки по горизонтальной впускной трубке (4) до тех пор, пока отметка 29 мм \[1,14 дюйма \] больше не будет видна.
 
-> [!note] Note · Примечание
-> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+> [!note] Примечание
+> Убедитесь, что отметка 42 мм \[1,65 дюйма \] все еще видна на трубе после сборки.
 
 ![[00m00053.png]]
 
-Make sure the donut seal (2) is positioned against the tube connector elbow (1) mounting surface.
+Убедитесь, что уплотнение пончика (2) расположено на локтевой поверхности разъёма трубки (1).
 
-Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+Установите локтевой зажим (4) разъёма трубы над локтем (1) разъёма трубки, уплотнением пончика (2) и металлическим зажимным кольцом (3). Ужесточение.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00054.png]]
 
-Install the heat shield (1) onto the upper gas inlet tube.
+Установите тепловой экран (1) на верхнюю газовую трубку.
 
-Tighten the hose clamps, Cummins® Part Number, 43828D.
+Зажимы для шлангов, номер детали Cummins®, 43828D.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [50 фунт-дюйм]
 
 ![[00m00055.png]]
 
-Draw or paint two reference marks on the upper gas inlet tube (4) - One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+Нарисуйте или покрасьте две опорные точки на верхней впускной трубке (4) - одна на 29 мм \[1,14 дюйма \] и одна на 42 мм \[1,65 дюйма \] с открытого конца.
 
-Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+Установите металлическое зажимное кольцо (3) над трубкой (4). Нажмите пончик (2) на трубку между отметками 29 мм \[1,14 дюйма \] и 42 мм \[1,65 дюйма \].
 
-Slide the upper gas inlet tube (4) into the tube connector elbow (1) until the 29 mm\[1.14 in\] mark is no longer visible.
+Скользите верхнюю газовую впускную трубку (4) в локтевой разъём трубки (1) до тех пор, пока отметка 29 мм \[1,14 дюйма \] больше не будет видна.
 
-> [!note] Note · Примечание
-> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+> [!note] Примечание
+> Убедитесь, что отметка 42 мм \[1,65 дюйма \] все еще видна на трубе после сборки.
 
 ![[00m00056.png]]
 
-Make sure the donut seal (2) is positioned against the tube connector elbow mounting surface.
+Убедитесь, что уплотнение пончика (2) расположено на поверхности крепления локтя разъёма трубки.
 
-Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+Установите локтевой зажим (4) разъёма трубы над локтем (1) разъёма трубки, уплотнением пончика (2) и металлическим зажимным кольцом (3). Ужесточение.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00057.png]]
 
-Install an o-ring between the gas inlet tube connecting nut (1) and the male connector (2) at the air/fuel mixer.
+Установите кольцо o между впускной трубкой, соединяющей гайку (1) и разъемом (2) штепсельной вентиляции на смесителе воздуха/топлива.
 
-Tighten the connecting nut using the crows foot adapter, Cummins® Part Number 5299067.
+Затянуть соединительный орех с помощью адаптера для ног ворон, Cummins® Part Number 5299067.
 
-> [!note] Note · Примечание
-> A second wrench **must** be used to stabilize the male connector on the mixer.
+> [!note] Примечание
+> Второй гаечный ключ ** должен** использоваться для стабилизации разъема разъема на смесителе.
 
-> [!tip] Момент затяжки · Torque Value
-> 331 n•m [244 ft-lb]
+> [!tip] Момент затяжки
+> 331 Н·м [244 фунт-фут]
 
 ![[00m00058.png]]
 
-**Right Bank Gas Inlet Tubes**
+** Газоотводные трубы в правом банке**
 
-Install two tube brace backings onto the rear left aftercooler using capcrews, Cummins® Part Number 3040837, onto the first and second capscrew holes from the aftercooler front corner and the second and third capscrew holes from the aftercooler rear corner.
+Установите две подложки трубчатых скобок на задний левый послеохладитель с использованием винта, Cummins® Part Number 3040837, на первое и второе болтовые отверстия из переднего угла послеохладителя и второе и третье болтовые отверстия из заднего угла послеохладителя.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[00m00059.png]]
 
-Place o-ring, Cummins® Part Number 4327742, between the gas inlet tube (3) and the fuel inlet connection tee (2).
+Поместите кольцо, Cummins® Часть Номер 4327742, между газовой впускной трубкой (3) и топливным впускным соединением тэ (2).
 
-Install the gas inlet tube (3) on the fuel inlet connection tee (2) and tighten the connecting nut (1) using the crows foot adapter, Cummins® Part Number 5299067.
+Установите газовую впускную трубку (3) на впускной топливный соединительный ти (2) и затяните соединительный гайку (1) с помощью адаптера для ног ворон, Cummins® Part Number 5299067.
 
-> [!tip] Момент затяжки · Torque Value
-> 508 n•m [375 ft-lb]
+> [!tip] Момент затяжки
+> 508 Н·м [375 фунт-фут]
 
 ![[00m00060.png]]
 
-Install gaskets (2) on either side of the orifice plate (3).
+Установите прокладки (2) по обе стороны от отверстия пластины (3).
 
-Install the horizontal gas inlet tube (1).
+Установите горизонтальную газовую трубку (1).
 
-Install and tighten the four bolts (S119), washers ([[3042328]]), and nuts (69832) on the orifice plate assembly.
+Установите и затяните четыре болта (S119), шайбы (S119).[[3042328]]), и орехи (69832) на монтировке пластины отверстия.
 
-> [!tip] Момент затяжки · Torque Value
-> 38 n•m [28 ft-lb]
+> [!tip] Момент затяжки
+> 38 Н·м [28 фунт-фут]
 
 ![[00m00061.png]]
 
-Make sure the horizontal gas inlet tube is positioned against both tube clamps on the aftercooler.
+Убедитесь, что горизонтальная газовая впускная трубка расположена против обоих зажимов трубки на послеохладитель.
 
-Install the tube clamp with capscrews, Cummins® Part Number 137719.
+Установите зажим трубы с болтами, Cummins® Part Number 137719.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00062.png]]
 
-Draw or paint two reference marks on the horizontal gas inlet tube (4) - One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+Нарисуйте или покрасьте две опорные точки на горизонтальной газовой трубке (4) - одна на 29 мм \[1,14 дюйма \] и одна на 42 мм \[1,65 дюйма \] с открытого конца.
 
-Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube end (4) between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+Установите металлическое зажимное кольцо (3) над трубкой (4). Нажмите пончик (2) на конец трубки (4) между отметками 29 мм \[1,14 дюйма \] и 42 мм \[1,65 дюйма \].
 
-Slide the tube connector elbow (1) over the horizontal gas inlet tube (4) until the 29 mm \[1.14 in\] mark is no longer visible.
+Скользите локтем (1) разъёма трубки по горизонтальной впускной трубке (4) до тех пор, пока отметка 29 мм \[1,14 дюйма \] больше не будет видна.
 
-> [!note] Note · Примечание
-> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+> [!note] Примечание
+> Убедитесь, что отметка 42 мм \[1,65 дюйма \] все еще видна на трубе после сборки.
 
 ![[00m00063.png]]
 
-Make sure the donut seal (2) is positioned against the tube connector elbow (1) mounting surface.
+Убедитесь, что уплотнение пончика (2) расположено на локтевой поверхности разъёма трубки (1).
 
-Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+Установите локтевой зажим (4) разъёма трубы над локтем (1) разъёма трубки, уплотнением пончика (2) и металлическим зажимным кольцом (3). Ужесточение.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00064.png]]
 
-Draw or paint two reference marks on the upper gas inlet tube (4). One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+Нарисуйте или покрасьте две контрольные точки на верхней впускной трубе (4). Один на 29 мм \[1,14 дюйма \] и один на 42 мм \[1,65 дюйма \] от открытого конца.
 
-Install the metal clamp ring (3) over the tube (4). Next slide a donut seal (2) onto the tube between the 29 mm \[1.14 in\] and 42 mm marks.
+Установите металлическое зажимное кольцо (3) над трубкой (4). Далее скользить пончик уплотнение (2) на трубку между 29 мм \[1.14 в \] и 42 мм метки.
 
-Slide the upper gas inlet tube (4) into the tube connector elbow (1) until the 29 mm \[1.14 in\] mark is no longer visible.
+Скользите верхнюю газовую впускную трубку (4) в локтевой разъём трубки (1) до тех пор, пока отметка 29 мм \[1,14 дюйма \] больше не будет видна.
 
-> [!note] Note · Примечание
-> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+> [!note] Примечание
+> Убедитесь, что отметка 42 мм \[1,65 дюйма \] все еще видна на трубе после сборки.
 
 ![[00m00065.png]]
 
-Make sure the donut seal (2) is positioned against the tube connector elbow mounting surface.
+Убедитесь, что уплотнение пончика (2) расположено на поверхности крепления локтя разъёма трубки.
 
-Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+Установите локтевой зажим (4) разъёма трубы над локтем (1) разъёма трубки, уплотнением пончика (2) и металлическим зажимным кольцом (3). Ужесточение.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00066.png]]
 
-Make sure an o-ring is between the gas inlet tube connecting nut (1) and the male connector (2) at the air/fuel mixer.
+Убедитесь, что кольцо находится между впускной трубкой, соединяющей гайку (1) и разъемом (2) на смесителе воздуха / топлива.
 
-Tighten the connecting nut using the crows foot adapter, Cummins® Part Number 5299067.
+Затянуть соединительный орех с помощью адаптера для ног ворон, Cummins® Part Number 5299067.
 
-> [!note] Note · Примечание
-> A second wrench **must** be used to stabilize the male connector on the mixer.
+> [!note] Примечание
+> Второй гаечный ключ ** должен** использоваться для стабилизации разъема разъема на смесителе.
 
-> [!tip] Момент затяжки · Torque Value
-> 331 n•m [244 ft-lb]
+> [!tip] Момент затяжки
+> 331 Н·м [244 фунт-фут]
 
 ![[00m00067.png]]
 
-**Fuel Regulator Air Pressure Signal Hose**
+** Регулятор топлива - хоспис для сигнала давления**
 
-Install the left and right bank fuel regulator air pressure signal hose (1) onto the T-fitting (2) at the throttle valve debris shield.
+Установите сигнальный шланг давления воздуха на левом и правом берегу топливного регулятора (1) на T-образный (2) на щите обломков дросселевого клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[00m00068.png]]
 
-Install the 45 degree male fittings (2) into the left and right bank air/fuel mixers (3).
+Установите 45-градусную штыревую фурнитуру (2) в воздухо-топливные смесители (3) левого и правого берега.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
-Install the fuel regulator air pressure signal hose (1) onto the left and right bank 45 degree male fittings (2). Hand-tighten.
+Установите шланг подачи сигнала давления воздуха регулятора топлива (1) на левый и правый боковые 45-градусные штыревые фитинги (2). Рукоять.
 
-Make sure the fitting is oriented towards the main gas manifold tube.
+Убедитесь, что фитинг ориентирован на основную трубку газового коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[00m00069.png]]
 
-The left and right bank fuel regulator air pressure signal hoses (1) will be suspended from P-clips (1) that are supported from the gas manifold tubes.
+Левый и правый боковые шланги сигнала давления воздуха регулятора топлива (1) будут подвешены к P-затворам (1), которые поддерживаются из труб газового коллектора.
 
-Each gas manifold tube clamp needs one P-clip (1), Cummins® Part Number 69911A, added to the bottom capscrew for fuel regulator air pressure signal hose support.
+Каждому зажиму трубки газового коллектора требуется одно P-затвор (1), часть Cummins® № 69911A, добавленная к нижним болтам для поддержки сигнала давления воздуха в топливном регуляторе.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 ft-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-фут]
 
-Several larger P-clips (2), Cummins® Part Number 3202124, will be attached to the gas tubes with nut, Part Number [[3064321]], and bolt, Part Number [[3175239]], for fuel regulator air pressure signal hose support.
+Несколько более крупных P-затворов (2), Cummins® Part Number 3202124, будут прикреплены к газовым трубкам с гайкой, Part Number.[[3064321]]и болт, номер детали[[3175239]]Для регулятора давления топлива поддержка шланга сигнала давления воздуха.
 
-> [!tip] Момент затяжки · Torque Value
-> 41 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 41 Н·м [30 фунт-фут]
 
 ![[00m00098.png]]
 
-P-clip location for right bank rear fuel regulator air pressure signal hose support (1).
+Расположение P-клипа для поддержки сигнала давления воздуха в заднем топливном регуляторе правого берега (1).
 
-> [!note] Note · Примечание
-> Failure to completely secure the fuel regulator air pressure signal hose may result in premature hose wear.
+> [!note] Примечание
+> Неспособность полностью обезопасить шланг сигнала давления воздуха в топливном регуляторе может привести к преждевременному износу шланга.
 
 ![[00m00099.png]]
 
-P-clip location for right bank front fuel regulator air pressure signal hose support (1).
+Расположение P-клипа для поддержки сигнала давления воздуха в шланге правого бокового переднего регулятора топлива (1).
 
-> [!note] Note · Примечание
-> Note: Failure to completely secure the fuel regulator air pressure signal hose may result in premature hose wear.
+> [!note] Примечание
+> Примечание: Неспособность полностью обезопасить шланг сигнала давления воздуха в топливном регуляторе может привести к преждевременному износу шланга.
 
 ![[00m00100.png]]
 
-**On-Engine Wiring Harness Bracket**
+**Бракетка для электропроводки **
 
-Install the wiring harness bracket mounting place onto the rear left-bank aftercooler using capscrews, Cummins® Part Number 3040837.
+Установите место крепления кронштейна для проводов на задний левобережный послеохладитель с использованием болтов, Cummins® Part Number 3040837.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[00m00101.png]]
 
-Install the wire harness bracket onto the mounting plate using capscrews, Cummins® Part Number 4087931.
+Установите кронштейн проводной проводов на монтажную пластину с помощью болтов, Cummins® Part Number 4087931.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 ft-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-фут]
 
 ![[00m00102.png]]
 
-**Diesel Oxidation Catalyst**
+** Катализатор окисления дизельного топлива**
 
-Proper mounting and installation of the diesel oxidation catalyst (DOC) canister must be planned and organized through the OEM and Cummins® Distribution prior to final assembly. The following instructions will guide the technician through canister installation after initial canister mounting planning and fabrication has been completed.
+Правильное монтаж и установка баллона катализатора окисления дизельного топлива (DOC) должны быть спланированы и организованы через OEM и Cummins® Distribution до окончательной сборки. Следующие инструкции будут направлять технического специалиста через установку канистра после того, как будет завершено первоначальное планирование и изготовление монтажа канистра.
 
-The DOC aftertreatment **must only** have brackets/mounting straps located in designated mounting zones (1). Prior to starting the installation process, use approved mounting zones to determine the mount attachment point on the support frame.
+Последующая обработка DOC ** должна иметь только кронштейны/монтажные ремни, расположенные в обозначенных зонах крепления (1). Перед началом процесса установки используйте утвержденные зоны крепления для определения точки крепления крепления на опорной раме.
 
-> [!note] Note · Примечание
-> For a complete list of aftertreatment mounting and installation requirements, please consult with the Cummins® Distributor and/or OEM.
+> [!note] Примечание
+> Для получения полного списка требований к установке и установке после обработки, пожалуйста, проконсультируйтесь с дистрибьютором Cummins® и / или OEM.
 
 ![[00m00103.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-The DOC lifting brackets are designed to lift the DOC canistor **only**. Lifting other components that are attached to the DOC can cause damage to the DOC assembly.
+Подъемные скобки DOC предназначены для поднятия канистра DOC **только **. Подъем других компонентов, которые крепятся к DOC, может привести к повреждению сборки DOC.
 
-> [!note] Note · Примечание
-> When lifting the canister, adjust the strap angle to be less than 45 degrees from vertical. A spreader bar (1) is preferred.
+> [!note] Примечание
+> При подъеме канистра отрегулируйте угол ремня менее чем на 45 градусов от вертикального. Предпочтительным является спредерный бар (1).
 
 .
 
 ![[00m00104.png]]
 
-DOC installation angularity should be 0° ± 15° in all directions.
+Угловатость установки DOC должна быть 0° ± 15° во всех направлениях.
 
 ![[00m00105.png]]
 
-Using the supplied gaskets, attach the DOC inlet flanges (1) to the OEM-supplied exhaust piping.
+Используя поставляемые прокладки, прикрепите впускные фланцы (1) DOC к трубопроводам выхлопных газов, поставляемым OEM.
 
-Fasteners are to be supplied by either the OEM and/or Cummins® Distributor. Tighten the fasteners in a crisscross pattern.
+Застежки должны поставляться либо OEM-дистрибьютором, либо Cummins®. Закрепите крепежи в крестцовом узоре.
 
-> [!tip] Момент затяжки · Torque Value
-> 129 n•m [95 ft-lb]
+> [!tip] Момент затяжки
+> 129 Н·м [95 фунт-фут]
 
-Tighten the fasteners in a crisscross pattern.
+Закрепите крепежи в крестцовом узоре.
 
-> [!tip] Момент затяжки · Torque Value
-> 265 n•m [196 ft-lb]
+> [!tip] Момент затяжки
+> 265 Н·м [196 фунт-фут]
 
 ![[00m00106.png]]
 
-**Off-Engine Gas TrainGeneral Information**
+** Информация о неработающем газе в поезде**
 
-The following instructions detail how to assemble the Dual Fuel Off-Engine Gas Train using all Cummins® factory-supplied components in the Dual Fuel Kit.
+В следующих инструкциях подробно описано, как собрать двухтопливный внемоторный газовый поезд, используя все компоненты, поставляемые на заводе Cummins®, в комплекте с двойным топливом.
 
-Actual assembly and mounting of the gas train may differ, depending on OEM and/or Distributor guidelines. Consult the OEM/Distributor for proper installation and mounting instructions specific to the application.
+Фактическая сборка и монтаж газового поезда могут отличаться в зависимости от руководящих принципов OEM и/или Дистрибьютора. Проконсультируйтесь с OEM / дистрибьютором для правильной установки и установки инструкций, специфичных для приложения.
 
-The gas train **must** be assembled in the following order: filter, fuel shutoff valve, and regulator.
+Газовый поезд *** должен быть собран в следующем порядке: фильтр, клапан отключения топлива и регулятор.
 
-> [!note] Note · Примечание
-> Gas train components **must** be inspected for seals, plastic covers, and/or end caps over component orifices during installation. Remove all seals, plastic covers, and/or end caps from the components before assembly.
+> [!note] Примечание
+> Компоненты газового поезда ** должны быть проверены на наличие уплотнений, пластиковых крышек и/или торцевых крышек над отверстиями компонентов во время установки. Удалите все уплотнения, пластиковые крышки и/или концевые крышки из компонентов перед сборкой.
 
-> [!note] Note · Примечание
-> The fuel shutoff valve comes with a closure validation switch already installed onto the bottom of the valve 2 housing. Do **not** set the fuel shutoff valve on top of this switch.
+> [!note] Примечание
+> Запорный клапан топлива поставляется с переключателем проверки закрытия, уже установленным на нижней части корпуса клапана 2. Не устанавливайте запорный клапан поверх этого выключателя.
 
 ![[00m00107.png]]
 
-Align the OEM flange (1) and the fuel filter housing (2). Insert a gasket, Cummins® Part Number 4322911 (3), between the components. Make sure the fuel filter housing arrow is pointing downstream.
+Выровнять фланж ОЭМ (1) и корпус топливного фильтра (2). Вставьте прокладку, Cummins® Part Number 4322911 (3), между компонентами. Убедитесь, что стрелка корпуса топливного фильтра направлена вниз по течению.
 
-Insert studs, Part Number 4327792, through the four flange holes. Align the mounting bracket (4) through the studs on the outside of the OEM flange (1). Add washers and nuts to each side of the studs.
+Вставьте шпильки, номер детали 4327792, через четыре фланцевых отверстия. Выровнять крепежную скобу (4) через шпильки снаружи фланца OEM (1). Добавьте шайбы и орехи к каждой стороне шпильки.
 
-> [!note] Note · Примечание
-> NOTE: The OEM flange has two ports. It must be oriented so one port faces up and the other port faces outward, away from the engine.
+> [!note] Примечание
+> Примечание: Фланш OEM имеет два порта. Он должен быть ориентирован так, чтобы один порт был обращен вверх, а другой порт обращен наружу, в сторону от двигателя.
 
-> [!note] Note · Примечание
-> There are two different bolt patterns on the OEM flange component. Make sure the holes align between the OEM flange and the filter housing.
+> [!note] Примечание
+> Существует два различных шаблона болтов на фланцевом компоненте OEM. Убедитесь, что отверстия выровнены между фланцем OEM и корпусом фильтра.
 
-> [!note] Note · Примечание
-> The fuel filter should be oriented so the filter cover is pointing outward, away from the engine. Consult the OEM/Distributor if a different orientation is required.
+> [!note] Примечание
+> Топливный фильтр должен быть ориентирован так, чтобы крышка фильтра указывала наружу, подальше от двигателя. Проконсультируйтесь с OEM/дистрибьютором, если требуется другая ориентация.
 
 .
 
 ![[00m00108.png]]
 
-> [!note] Note · Примечание
-> The gas train components are comprised of raised face flanges. Care **must** be taken to make sure that the flanges are aligned flush against each other during assembly.
+> [!note] Примечание
+> Компоненты газового поезда состоят из поднятых фланцев. *** Следует соблюдать осторожность, чтобы убедиться, что фланцы выровнены друг против друга во время сборки.
 
-Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+Соедините фланцы. Убедитесь, что между фланцев была установлена новая прокладка.
 
-With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against one another.
+С помощью шпильки, шайбы и орехи на месте, затягивают каждый из четырех болтов суставы так, что приподнятые лица сидят равномерно друг против друга.
 
-Tightening of the nuts **must** be done in three steps.
+Затягивание гаек *** должно быть сделано в три этапа.
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 33 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 33 Н·м [24 фунт-фут]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
 ![[00m00109.png]]
 
-Align the fuel shutoff valve (3) and the fuel filter housing. Insert a gasket, Cummins® Part Number 4322911 (1) between the components. Make sure the fuel shutoff valve (3) housing arrow is pointing downstream.
+Выровнять запорный клапан (3) топлива и корпус топливного фильтра. Вставьте прокладку, Cummins® Часть Номер 4322911 (1) между компонентами. Убедитесь, что стрелка корпуса 3 запорного клапана топлива направлена вниз по течению.
 
-Install the studs (4327792) through the fuel filter flanges into the fuel shutoff valve (3).Install the mounting bracket and washers onto the studs on the fuel shutoff valve side.
+Установите шпильки (4327792) через фланцы топливного фильтра в клапан отключения топлива (3).Установите крепежные кронштейны и шайбы на шпильки на стороне отключения топливного клапана.
 
-> [!note] Note · Примечание
-> There should be washers on both sides of the fuel shutoff valve mounting foot.
+> [!note] Примечание
+> По обеим сторонам откидного клапана, устанавливающего ступню, должны быть шайбы.
 
 ![[00m00110.png]]
 
-> [!note] Note · Примечание
-> The gas train components are comprised of raised face flanges. Care **must** be taken to make sure that the flanges are aligned flush against one another during assembly.
+> [!note] Примечание
+> Компоненты газового поезда состоят из поднятых фланцев. Следует соблюдать осторожность, чтобы убедиться, что фланцы выровнены друг против друга во время сборки.
 
-Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+Соедините фланцы. Убедитесь, что между фланцев была установлена новая прокладка.
 
-With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against one another.
+С помощью шпильки, шайбы и орехи на месте, затягивают каждый из четырех болтов суставы так, что приподнятые лица сидят равномерно друг против друга.
 
-Tightening of the nuts must be done in three steps.
+Затягивание орехов должно быть сделано в три этапа.
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 33 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 33 Н·м [24 фунт-фут]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
 ![[00m00109.png]]
 
-Align the pressure regulator (4) and the fuel shutoff valve (1). Insert a gasket, Cummins® Part Number 4322911 (2), between the components. Make sure the pressure regulator housing arrow is pointing downstream.
+Выровнять регулятор давления (4) и клапан отключения топлива (1). Вставьте прокладку, Cummins® Part Number 4322911 (2), между компонентами. Убедитесь, что стрелка регулятора давления направлена вниз по течению.
 
-Insert studs, Cummins® Part Number 4327792, through the four flange holes
+Вставить шпильки, Cummins® Часть Номер 4327792, через четыре фланцевых отверстия
 
-Install the mounting bracket (3) and washers onto the studs on the pressure regulator side.
+Установите крепежную кронштейн (3) и шайбы на шпильки на стороне регулятора давления.
 
-> [!note] Note · Примечание
-> There should be washers on both sides of the pressure regulator mounting foot.
+> [!note] Примечание
+> С обеих сторон стопы регулятора давления должны быть шайбы.
 
 ![[00m00111.png]]
 
-> [!note] Note · Примечание
-> The gas train components are comprised of raised face flanges. Care must be taken to make ure that the flanges are aligned flush against one another during assembly.
+> [!note] Примечание
+> Компоненты газового поезда состоят из поднятых фланцев. Необходимо позаботиться о том, чтобы фланцы были выровнены друг с другом во время сборки.
 
-Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+Соедините фланцы. Убедитесь, что между фланцев была установлена новая прокладка.
 
-With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against each other.
+С помощью шпильки, шайбы и орехи на месте, вручную затянуть каждый из четырех болтов суставы так, что приподнятые лица сидят равномерно друг против друга.
 
-Tightening of the nuts **must** be done in three steps.
+Затягивание гаек *** должно быть сделано в три этапа.
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 33 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 33 Н·м [24 фунт-фут]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
 ![[00m00109.png]]
 
-Align the pressure regulator (1) and the OEM flange (4). Insert a gasket, Cummins® Part Number 4322911 (2), between the components.
+Выровнять регулятор давления (1) и фланец OEM (4). Вставьте прокладку, Cummins® Part Number 4322911 (2), между компонентами.
 
-Insert studs, Cummins® Part Number 4327792, through the four flange holes. Align the mounting bracket (3) through the studs on the outside of the OEM flange (4). Add washers and nuts to each side of the studs.
+Вставить шпильки, Cummins® Part Number 4327792, через четыре фланцевых отверстия. Выровнять крепежную кронштейн (3) через шпильки снаружи фланца OEM (4). Добавьте шайбы и орехи к каждой стороне шпильки.
 
-> [!note] Note · Примечание
-> The OEM flange has two ports, it must be oriented so one port faces up and the other port faces outward, away from the engine.
+> [!note] Примечание
+> Фланш OEM имеет два порта, он должен быть ориентирован так, чтобы один порт был обращен вверх, а другой порт обращен наружу, в сторону от двигателя.
 
-> [!note] Note · Примечание
-> There are two different bolt patterns on the OEM flange component. Make sure the holes align between the OEM flange and the fuel regulator.
+> [!note] Примечание
+> Существует два различных шаблона болтов на фланцевом компоненте OEM. Убедитесь, что отверстия выровнены между фланцем OEM и топливным регулятором.
 
 .
 
 ![[00m00112.png]]
 
-> [!note] Note · Примечание
-> The gas train components are comprised of raised face flanges. Care must be taken to make sure that the flanges are aligned flush against one another during assembly.
+> [!note] Примечание
+> Компоненты газового поезда состоят из поднятых фланцев. Необходимо соблюдать осторожность, чтобы фланцы были выровнены друг против друга во время сборки.
 
-Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+Соедините фланцы. Убедитесь, что между фланцев была установлена новая прокладка.
 
-With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against each other.
+С помощью шпильки, шайбы и орехи на месте, вручную затянуть каждый из четырех болтов суставы так, что приподнятые лица сидят равномерно друг против друга.
 
-Tightening of the nuts **must** be done in three steps.
+Затягивание гаек *** должно быть сделано в три этапа.
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 33 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 33 Н·м [24 фунт-фут]
 
-Tighten the nuts in a crisscross pattern.
+Затяните орехи поперечной схеме.
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
 ![[00m00109.png]]
 
-Align the gas train assembly mounting brackets on top of the gas train mounting plate.
+Выровнять кронштейны сборки газового поезда поверх монтажной пластины газового поезда.
 
-Use mounting bolts, Cummins® Part Number 145, and washers to assemble the feet to the plate.
+Используйте крепежные болты, номер детали 145 Cummins® и шайбы для сборки ног на пластину.
 
-> [!tip] Момент затяжки · Torque Value
-> 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> 95 Н·м [70 фунт-фут]
 
-> [!note] Note · Примечание
-> The final placement and location of the gas train assembly onto the trailer application will be determined by the OEM/Distributor.
+> [!note] Примечание
+> Окончательное размещение и расположение сборки газового поезда на прицепе будет определяться OEM/дистрибьютором.
 
 ![[00m00113.png]]
 
-New fuel shutoff valves come with port plugs. Before installing the low-pressure switch, make sure the port plug in port 2 (1) on the fuel shutoff valve is removed.
+Новые запорные клапаны для топлива поставляются с портовыми вилками. Перед установкой выключателя низкого давления убедитесь, что вилка порта 2 (1) на запорном клапане снимается.
 
 ![[00m00114.png]]
 
-Remove and keep the two screws (1) from the clear cover on the low-pressure switch.
+Удалите и удерживайте два винта (1) от прозрачной крышки на выключателе низкого давления.
 
-Remove the clear cover (2) from the low-pressure switch.
+Удалите прозрачную крышку (2) из выключателя низкого давления.
 
-Inside the pressure switch will be two capscrews and an o-ring to mount the switch to port 2 on the fuel shutoff valve.
+Внутри переключателя давления будет два болта и о-кольцо для установки переключателя на порт 2 на клапане отключения топлива.
 
 ![[19m00045.png]]
 
-Place an o-ring in the port groove on the back of the low-pressure switch.
+Поместите кольцо в канавку порта на задней панели выключателя низкого давления.
 
-Align the back of the switch with the number 2 port hole on the fuel shutoff valve. Make sure the o-ring is seated against the fuel shutoff valve and the screw holes are aligned.
+Выровнять заднюю часть выключателя с отверстием порта № 2 на клапане отключения топлива. Убедитесь, что кольцо расположено против клапана отключения топлива, и винтовые отверстия выровнены.
 
-Verify the low-pressure switch is being installed on fuel shutoff valve port number 2 and the switch connector is oriented upwards.
+Проверьте, установлен ли выключатель низкого давления на порту 2 запорного клапана топлива, и разъём переключателя ориентирован вверх.
 
-Insert the two capscrews through the low-pressure switch body into the fuel shutoff valve and tighten.
+Вставьте два болта через корпус переключателя низкого давления в клапан отключения топлива и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 2.5 n•m [22 in-lb]
+> [!tip] Момент затяжки
+> 2.5 Н·м [22 фунт-дюйм]
 
 ![[19m00050.png]]
 
-Make sure the low pressure switch dial is set to 55 in H 2 O. Install the clear cover on the low pressure switch.
+Убедитесь, что циферблат переключателя низкого давления установлен на 55 в H 2 O. Установите прозрачную крышку на выключатель низкого давления.
 
-Insert screws and tighten.
+Вставьте винты и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
 ![[19m00051.png]]
 
-Install the pulse line tee fitting into the downstream OEM flange.
+Установите пульсовую линию, которая вписывается в нисходящий OEM-фланг.
 
-Male connector (3)
+подключаемый разъем (3)
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Install the tee fitting (2) hand-tight. Align the tee fitting so that it is angled for installation of the pulse line. Tighten.
+Установите тройную фитинг (2) ручной. Выровняйте фитинг тиса так, чтобы он был угловат для установки линии импульса. Ужесточение.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Cap (1)
+Кап (1)
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[00m00119.png]]
 
-Remove the existing port plug (1) from underneath the pressure regulator diaphragm.
+Удалите существующую заглушку (1) порта из-под диафрагмы регулятора давления.
 
-Install the regulator male connector (2).
+Установите разъем регуляторной вилки (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [204 in-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
 
 ![[00m00120.png]]
 
-Install the pulse line (2) between the tee fitting (3) and regulator male connector (1).
+Установите импульсную линию (2) между тройным фитингом (3) и разъемом регуляторной пробки (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 ft-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-фут]
 
 ![[00m00121.png]]
 
-Remove the existing port plug (2) from the top of the pressure regulator diaphragm.
+Удалите существующую заглушку (2) порта из верхней части диафрагмы регулятора давления.
 
-Install the male-male fuel regulator air pressure hose line fitting (1).
+Установить штыревой-штыревой регулятор давления воздуха в трубе шланга фитинга (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
-> [!note] Note · Примечание
-> The fuel regulator air pressure signal line from the off-engine gas train to the on-engine components is provided by either the distributor or OEM. Consult your OEM/Distributor for the proper installation guidelines of the fuel regulator air pressure hose line.
+> [!note] Примечание
+> Линия сигнала давления воздуха регулятора топлива от внедвигательного газового поезда до компонентов двигателя обеспечивается либо дистрибьютором, либо OEM. Проконсультируйтесь с вашим OEM / дистрибьютором для правильной установки трубопровода шланга давления воздуха в топливном регуляторе.
 
 ![[00m00122.png]]
 
-Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the bare threads on both sides of the hex orifice fitting.
+Нанесите LoctiteTM 592, или эквивалентный газосовместимый герметик резьбы, на голую резьбу с обеих сторон крепления шестнадцатеричной проволоки.
 
-Install the fitting into the downstream OEM flange pressure port facing away from the engine.
+Установите крепление в нисходящий опорный фланцевый порт давления, обращенный в сторону от двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-> [!note] Note · Примечание
-> The hex orifice fitting **must** be installed so that the arrow (1) points toward the pressure switch, away from the pipe.
+> [!note] Примечание
+> Шестиконный отверстий, устанавливаемый ***, должен быть установлен таким образом, чтобы стрелка (1) указывала на переключатель давления, отводя его от трубы.
 
 ![[00m00123.png]]
 
-Thread the back of the high-pressure switch onto the hex fitting.
+Нажмите на спинку переключателя высокого давления на шестигранную подголовник.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [180 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [180 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Make sure the connector (1) is oriented downward upon installation.
+> [!note] Примечание
+> Убедитесь, что разъем (1) ориентирован вниз при установке.
 
 ![[00m00124.png]]
 
-Make sure the high-pressure switch is set to 35 in H 2 O.
+Убедитесь, что переключатель высокого давления установлен на 35 в H 2 O.
 
-If the switch is **not** set to 35 inH 2 0, remove the two screws (1) from the high-pressure switch front cover.
+Если переключатель установлен на 35 дюйма 2 0, удалите два винта (1) с передней крышки переключателя высокого давления.
 
-Set the switch to 35 inH 2 O by turning the dial.
+Установите переключатель на 35 inH 2 O, повернув циферблат.
 
-Install the high-pressure switch cover.
+Установите крышку переключателя высокого давления.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
 ![[00m00125.png]]
 
-Remove the OEM threaded plug (1).
+Удалите резьбовую вилку OEM (1).
 
-Install the threaded adapter, Cummins® Part Number 4322908 (2), o-ring, and o-ring retainer into the downstream fuel filter housing port.
+Установите резьбовый адаптер, Cummins® Part Number 4322908 (2), окольцевой и окольный фиксатор в оболочку нисходящего топливного фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
 ![[00m00126.png]]
 
-Apply Loctite™ 592, or equivalent gas compatible thread sealant, to both ends of the hex fitting Cummins® Part Number 4327787 (1).
+Нанести LoctiteTM 592 или эквивалентный герметик для резьбы, совместимый с газом, на оба конца шестигранной детали Cummins® Part Number 4327787 (1).
 
-Install the hex fitting onto the threaded adapter and tighten.
+Установите шестигранник, устанавливаемый на резьбовый адаптер, и затяните.
 
-> [!note] Note · Примечание
-> Use a second wrench to stabilize the threaded adapter while tightening, to avoid over tightening
+> [!note] Примечание
+> Используйте второй ключ для стабилизации резьбового адаптера при затягивании, чтобы избежать чрезмерного затягивания
 
 .
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Install the push button valve (2) onto the hex fitting and tighten.
+Установите нажимную кнопку клапана (2) на шестиместную установку и затяните.
 
-> [!note] Note · Примечание
-> Use a second wrench to stabilize the hex fitting while tightening, to avoid overtightening of the threaded adapter.
+> [!note] Примечание
+> Используйте второй гаечный ключ для стабилизации шестигранной фитинги при затягивании, чтобы избежать затягивания резьбового адаптера.
 
 ![[00m00127.png]]
 
-Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the threaded end of the pressure gauge.
+Нанести LoctiteTM 592, или эквивалентный газосовместимый герметик резьбы, на резьбовый конец калибра давления.
 
-Install the pressure gauge into the push button valve.
+Установите датчик измерения давления в клапан нажатия кнопки.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Make sure the pressure gauge faces the operator. Use a second wrench to stabilize the push button valve while tightening to avoid overtightening of the threaded adapter.
+> [!note] Примечание
+> Убедитесь, что датчик измерения давления обращен к оператору. Используйте второй ключ, чтобы стабилизировать клапан кнопки нажатия при затягивании, чтобы избежать затягивания резьбового адаптера.
 
 ![[00m00128.png]]
 
-Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the two port plug threads.
+Применять LoctiteTM 592, или эквивалентный газосовместимый герметик резьбы, к двум портам штепсельной резьбы.
 
-Install both port plugs into the OEM flange test ports.
+Установите оба порта в измерительные порты OEM-флангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[00m00129.png]]
 
-**Control PanelGeneral Information**
+** Информация Генеральной группы по контролю**
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\] or more. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот компонент или сборка весит более 23 кг [50 фунтов] или более. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-There are four dual fuel panel mounting brackets; one at each corner.
+Есть четыре двойных топливных панели монтажные скобки; по одному на каждом углу.
 
-Mounting hardware and installation location guidelines are both provided by either the OEM or Cummins® Distributor. Consult the OEM and/or installing Cummins® Distributor for control panel mounting instructions.
+Руководящие принципы установки оборудования и местоположения установки предоставляются либо OEM, либо дистрибьютором Cummins®. Проконсультируйтесь с OEM и/или установкой Cummins® Distributor для инструкций по установке панели управления.
 
 ![[19m00113.png]]
 
-**Dual Fuel System Wire HarnessesGeneral Information**
+**Общая информация о двухтопливной системе
 
-The QSK50G Dual Fuel wiring harness is comprised of seven main harnesses. The following procedure details installation instructions for the Cummins® factory-supplied harnesses.
+Двухтопливная электропроводка QSK50G состоит из семи основных электропроводных ремней. Следующая процедура подробно описывает инструкции по установке для заводских электропроводных ремней Cummins®.
 
-Cummins Factory supplied:
+Завод Cummins поставляет:
 
-1. Battery and Ground
-2. On-Engine
-3. On-Engine to Panel
-4. Gas Train
-5. DOC
+1. Аккумулятор и земля
+2. В двигателе
+3. Включено в состав группы
+4. Газовый поезд
+5. ДОК
 
-OEM supplied:
+OEM поставляется:
 
-1. Hydraulic pump harness (speed and pressure input)
-2. Fracturing trailer harness (4-20mA hydraulic horsepower signal and OEM gas shutoff input)
+1. Гидравлическая проводка насоса (вход скорости и давления)
+2. Расщепление жгута проводов прицепа (4-20 мА гидравлический сигнал лошадиной силы и вход отключения OEM газа)
 
-> [!note] Note · Примечание
-> Not all OEMs require the use of the OEM-supplied harnesses.
-
-![[ck800wa.png]]
-
-The OEM and/or Distributor will provide installation instructions for non-Cummins® factory-supplied wire harnesses. Consult the OEM/Distributor for proper hydraulic pump harness and fracturing trailer harness installation guidelines if applicable.
-
-All harnesses, when installed, **must** satisfy the following requirements:
-
-- No interference with machine components or any existing connectors
-
-- **Must** have adequate clearance for removal of connectors from mating parts (sensors, actuators, solenoids, etc.)
-
-- Clearance from rotating and hot components
-
-- No potential points where the harness could rub
-
-- No harness stretching to reach its respective mating ends
-
-- **Must** be mechanically supported and secured
-
-- At the Dual Fuel control panel, harnesses will be physically supported by use of tie wrap to minimize the bend radius of the connector wires, limiting physical degradation over the lifetime of this product.
-
-> [!note] Note · Примечание
-> All connectors are physically labeled on the wire harnesses.
+> [!note] Примечание
+> Не все OEM-производители требуют использования проводных ремней, поставляемых OEM.
 
 ![[ck800wa.png]]
 
-**Battery and Ground**
+OEM и/или Дистрибьютор будут предоставлять инструкции по установке для не поставляемых на заводе проводных электропроводок Cummins®. Проконсультируйтесь с OEM / дистрибьютором для надлежащей гидравлической проводов насоса и правил установки прицепной проводов с разрывом, если это применимо.
 
-Consult with the OEM/Cummins Distributor for guidelines on how to connect the power supply harness for the Dual Fuel control module.
+Все проводные ремни, при установке, ** должны ** удовлетворять следующим требованиям:
 
-Connect the four 24 VDC power supply cables (red) to the positive lead (+) of the battery and connect the four common ground cables (black) to the negative lead (-) of the battery.
+- Отсутствие помех для компонентов машины или любых существующих разъемов
+
+- ** Должен иметь достаточный зазор для удаления разъемов из спаривающих частей (датчиков, исполнительных механизмов, соленоидов и т.д.)
+
+- Очистка от вращающихся и горячих компонентов
+
+- Нет потенциальных точек, где проводка может треть
+
+- Нет проводов жгут растягиваться, чтобы достичь соответствующих концов спаривания
+
+- ** Должна быть обеспечена и обеспечена механическая поддержка
+
+- На панели управления двойным топливом проводные ремни будут физически поддерживаться за счет использования завязной обертки для минимизации радиуса изгиба соединительных проводов, ограничивая физическую деградацию в течение срока службы этого продукта.
+
+> [!note] Примечание
+> Все разъемы физически помечены на проводных проводах.
+
+![[ck800wa.png]]
+
+**Батарея и земля**
+
+Проконсультируйтесь с OEM / Cummins Distributor для получения рекомендаций о том, как подключить электропроводку к модулю управления двойным топливом.
+
+Подключите четыре 24 кабеля питания VDC (красный) к положительному щупу (+) батареи и соедините четыре общих кабеля (черный) с отрицательным щупом (-) батареи.
 
 ![[ea1coga.png]]
 
-Connect the power supply wiring harness connector C2 to the Dual Fuel panel port C1.
+Подключите разъём электропроводки ремня C2 к порту панели двойного топлива C1.
 
 ![[19m00114.png]]
 
-**On-EngineLeft Bank**
+**На левом крыле двигателя**
 
-Beginning with the left front quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+Начиная с левого переднего квадранта, установите на двигатель электропроводку с помощью трех креплений (1) с болтами, Cummins® Part Number S107.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Connect the 1LB (2), 2LB (3), 3LB (4), and 4LB (5) knock sensors to connectors C22-1 (2), C22-3 (3), C22-5 (4), C22-7 (5).
+Подключите датчики 1LB (2), 2LB (3), 3LB (4) и 4LB (5) к разъемам C22-1 (2), C22-3 (3), C22-5 (4), C22-7 (5).
 
 ![[19m00115.png]]
 
-On the left rear quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+На левом заднем квадранте установите электропроводку на двигателе с помощью трех креплений (1) с болтами, Cummins® Part Number S107.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Connect the 5LB (2), 6LB (3), 7LB (4), and 8LB (5) knock sensors to connectors C22-9 (2), C22-11 (3), C22-13 (4), C22-15 (5)
+Подключите датчики 5LB (2), 6LB (3), 7LB (4) и 8LB (5) для разъемов C22-9 (2), C22-11 (3), C22-13 (4), C22-15 (5)
 
 ![[19m00116.png]]
 
-Support the main on-engine wire harness connector C10 at the corner of the rear left bank aftercooler. Tighten the connector locknut.
+Поддерживают основную проводную проводную проводку главного разъёма ремней C10 в углу задней левобережной послеохладительной проволоки. Затяните соединительный каштан.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[19m00117.png]]
 
-Near the main on-engine wire harness connector (1), make sure connector C27 is mated to connector C28 (2) of the table switching output stub (4).
+Рядом с основным разъемом (1) проводной проводной упряжки убедитесь, что разъем C27 соединен с разъемом C28 (2) столовой коммутационной выходной заглушки (4).
 
-The table switching output stub (4) includes three pins which **must** be added to the existing OEM 23 pin connector (3) that is a part of the QSK50 base engine. Each pin wire is labeled with the correct position to be added to the connector.
+Таблица переключения выходной заглушки (4) включает в себя три штифта, которые *** должны быть добавлены к существующему разъему 23 штифта OEM (3), который является частью базового двигателя QSK50. Каждый провод пин-кода помечается правильным положением, которое должно быть добавлено к разъему.
 
 ![[19m00118.png]]
 
-Also included in the on-engine harness install is the tachometer output signal stub (1). Make sure harness connector C21-2 is mated to stub connector C21-3 for the tachometer output signal.
+Также в состав электропроводки на двигателе установлена ремешок выходного сигнала тахометра (1). Убедитесь, что разъём C21-2 соединен с разъёмом C21-3 для выходного сигнала тахометра.
 
-The tachometer output signal stub contains two bare pins, which are sealed in heat shrink wrap. Leave the shrink wrap over the pins. The tachometer output signal stub is currently **not** used in the Dual Fuel System operation. Secure the tachometer output sensor stub with tie wrap (2) so that it does **not** interfere with Dual Fuel operation.
+Тахометр выходной сигнальный заглушка содержит два голых штифта, которые запечатаны в термоусадочной обертке. Оставьте термоусадочную пленку на штифтах. Тахометрическая выдающаяся сигнальная заглушка в настоящее время ** не используется в работе двойной топливной системы. Закрепите заглушку датчика вывода тахометра с помощью завязной пленки (2), чтобы она ** не** мешала работе двойного топлива.
 
 ![[19m00119.png]]
 
-**Rear**
+** Задний**
 
-Secure the on-engine Dual Fuel harness to the existing QSK50 base engine harness across the top of the flywheel housing using tie wraps (1).
+Обеспечьте электропроводку двухтопливной электропроводки на двигателе к существующей электропроводке базового двигателя QSK50 поверх корпуса маховика с использованием завязок (1).
 
 ![[19m00120.png]]
 
-**Right Bank**
+**Правый банк**
 
-On the right rear quadrant, install the on-engine harness to the engine using four tie mounts (1) with capscrew, Cummins® Part Number S107.
+На правом заднем квадранте установите электропроводку на двигателе с использованием четырех креплений (1) с болтами, Cummins® Part Number S107.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Connect the Dual Fuel camshaft position sensor to connector C21-1 (2).
+Подключите датчик положения двойного топливного вала к разъему C21-1 (2).
 
-> [!note] Note · Примечание
-> The camshaft sensor harness connector comes with a cap. Store this cap in a secure location.
+> [!note] Примечание
+> Разъем для подключения к распределительной валу датчика и жгута проводов поставляется с крышкой. Храните эту крышку в безопасном месте.
 
 .
 
-Connect the 8RB (3), 7RB (4), 6RB (5), and 5RB (6) knock sensors to connectors C22-16 (3), C22-14 (4), C22-12 (5), and C22-10 (6).
+Подключите датчики 8RB (3), 7RB (4), 6RB (5) и 5RB (6) для датчиков детонации к разъемам C22-16 (3), C22-14 (4), C22-12 (5) и C22-10 (6).
 
 ![[19m00121.png]]
 
-The wire harness **must** be routed behind the throttle valve assembly.
+Проволочная проводка упряжка ** должна** быть наведена за дроссельной заслонкой.
 
-Connector C23 (1) plugs into the throttle valve.
+Коннектор С23 (1) подключается к дроссельному клапану.
 
-Connect the 4RB knock sensor (2) to connector C22-8 (2) located behind the fuel transfer connection.
+Подключите датчик 2 детонации 4RB к разъему C22-8 (2), расположенному за соединением передачи топлива.
 
 ![[19m00122.png]]
 
-On the right front quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+На правом переднем квадранте установите электропроводку на двигателе с помощью трех креплений (1) с болтами, Cummins® Part Number S107.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Connect the 3RB (2), 2RB (3), and 1RB (4) knock sensors to connectors C22-6 (2), C22-4 (3), and C22-2 (4)
+Подключите датчики 3RB (2), 2RB (3) и 1RB (4) к разъемам C22-6 (2), C22-4 (3) и C22-2 (4)
 
 ![[19m00123.png]]
 
-**On-Engine to Panel Harness**
+** Встроенная в панель электропроводка**
 
-Connect the on-engine harness connector C10 (1) to the on-engine to Dual Fuel panel harness connector C9.
+Подключите разъём C10 (1) электропроводки на двигателе к разъёму C9 электропроводки на двухтопливной панели.
 
 ![[19m00124.png]]
 
-Mate the data link connector C20-2 (1) to the existing QSK50 base engine mounted OEM harness connector DT06-3S.
+Соедините разъем шины CAN C20-2 (1) с существующим разъемом OEM-проводов с базовым двигателем QSK50 DT06-3S.
 
 ![[19m00125.png]]
 
-Connect the data link panel connector C6 to the Dual Fuel panel port C5 (1).
+Подключите разъем CAN для панели данных C6 к порту C5 (1) с двойной топливной панелью.
 
 ![[19m00126.png]]
 
-The data link OEM connector (2 - with blue tip) and the data link panel connector (1 - with orange tip) are identical in appearance. Close attention should be given to make sure each connector is correctly installed. They can be distinguished by the identifying tags attached just above the connector.
+Разъем OEM шины данных CAN (2 - с синим наконечником) и разъем панели шины данных CAN (1 - с оранжевым наконечником) идентичны по внешнему виду. Следует уделять пристальное внимание тому, чтобы каждый разъем был правильно установлен. Их можно отличить по идентификационным меткам, прикрепленным чуть выше разъема.
 
-Mate the data link OEM connector C20-1 (2) to the OEM J1939 connection. The OEM J1939 connection **must** be relocated to the ComAp panel.
+Соедините шину данных CAN OEM-разъема C20-1 (2) с OEM-соединением J1939. Подключение OEM J1939** должно быть перенесено на панель ComAp.
 
 ![[19m00127.png]]
 
-Connect the on engine to panel harness connector C8 to the Dual Fuel panel port C7 (1).
+Подключите на двигателе к панели проводов ремня разъема C8 к двухтопливной панели порта C7 (1).
 
 ![[19m00128.png]]
 
-**Gas Train**
+** Газовый поезд**
 
-Make sure there is a rubber gasket and that there are no bent pins on the male high-pressure fuel switch connector. Install a new gasket, if necessary.
+Убедитесь, что есть резиновая прокладка и что на штыревом разъеме переключателя топлива высокого давления нет согнутых контактов. Установите новую прокладку, если это необходимо.
 
-Align and connect C18-2 to the high-pressure switch (1) on the downstream OEM flange.
+Выровнять и подключить C18-2 к переключателю (1) высокого давления на нисходящем фланце OEM.
 
-Install the captive screw and tighten.
+Установите винт и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
 ![[19m00129.png]]
 
-Make sure there is a rubber gasket and that there are no bent pins on the male closure validation switch connector. Install a new gasket, if necessary.
+Убедитесь, что есть резиновая прокладка и что на разъёме переключателя для проверки закрытия не имеется согнутых контактов. Установите новую прокладку, если это необходимо.
 
-Align and connect C29-2 to the POC switch (1).
+Выровнять и подключить C29-2 к POC-переключателю (1).
 
-Install the captive screw and tighten.
+Установите винт и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
-> [!note] Note · Примечание
-> There is an additional wire wrapped in heat shrink branching off from the POC switch wiring harness connector. Do **not** alter this wire.
+> [!note] Примечание
+> Существует дополнительный провод, завернутый в термоусадку, отсоединенный от разъема POC-коммутатора. Не меняйте этот провод.
 
 ![[19m00130.png]]
 
-Make sure there is a rubber gasket and that there are no bent pins on the male low pressure fuel switch connector. Install a new gasket if necessary.
+Убедитесь, что на разъеме топливных выключателей низкого давления нет согнутых контактов. При необходимости установите новую прокладку.
 
-Align and connect C18-1 to the low pressure switch (1) on the fuel shutoff valve.
+Выровнять и подключить C18-1 к выключателю (1) низкого давления на запорном клапане.
 
-Install the captive screw and tighten.
+Установите винт и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
 ![[19m00131.png]]
 
-Make sure there is a rubber gasket and that there are no bent pins on the male fuel shutoff valve connector. Install a new gasket if necessary.
+Убедитесь, что есть резиновая прокладка и что на разъёме запорного клапана штыревого топлива нет согнутых контактов. При необходимости установите новую прокладку.
 
-Align and connect C19 to the top of the fuel shutoff valve (1).
+Выровнять и соединить C19 с верхней частью запорного клапана (1).
 
-Install the captive screw and tighten.
+Установите винт и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.7 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.7 Н·м [6 фунт-дюйм]
 
 ![[19m00132.png]]
 
-After the high-pressure switch, low-pressure switch, closure validation switch, and fuel shutoff valve have been connected, there will be two wire harness branches left for installation. The 4-pin Deutsch™ connector C30 (1) allows for the use of either a gas indication light or switch shutdown function. Consult the OEM and/or installing Cummins® Distributor for proper connector use and installation guidelines. If the connector is **not** used, securely tie-wrap the harness branch so that it does **not** affect Dual Fuel operation.
+После того, как переключатель высокого давления, переключатель низкого давления, переключатель проверки закрытия и клапан отключения топлива будут подключены, для установки останутся две ветки проводной проводов. 4-контактный разъем DeutschTM C30 (1) позволяет использовать либо индикаторный свет, либо функцию выключения переключателя. Проконсультируйтесь с OEM и / или установкой Cummins® Distributor для правильного использования разъема и установки. Если разъем ** не используется, надежно завяжите ветку проводов, чтобы она ** не** не влияла на работу двухтопливного оборудования.
 
-The bare harness stub (2) is currently **not** used in this system installation. Securely tie-wrap the harness branch so that is does **not** affect Dual Fuel operation.
+В настоящее время в этой системе установки используется голая электропроводка упряжки (2) ** не **. Безопасно завязывайте ветку жгута проводов так, чтобы это не влияло на работу двойного топлива.
 
 ![[19m00133.png]]
 
-Connect the gas train wiring harness connector C4 to the Dual Fuel panel port C3 (1).
+Подключите разъём C4 с проводкой газового поезда к порту C3 (1) с двойной топливной панелью.
 
 ![[19m00134.png]]
 
-**DOC Temperature Sensors**
+** Датчики температуры DOC**
 
-Secure the DOC temp sensor wiring harness to the DOC support frame. It is recommend to secure the harness directly above and below the connector.
+Защитите датчик времени DOC проводкой ремня поддержки DOC. Рекомендуется закреплять проводку упряжкой непосредственно над и под разъемом.
 
-> [!note] Note · Примечание
-> No portion of the sensor cable or attached harness may come within 2.54 cm \[1 in\] of the aftertreatment body.
+> [!note] Примечание
+> Ни одна часть сенсорного кабеля или прикрепленной проводной упряжки не может находиться в пределах 2,54 см \[1 в\] от корпуса после обработки.
 
 ![[ck800wa.png]]
 
-Connect connector C24-4 to the left DOC inlet temperature sensor (1).
+Подключите разъём C24-4 к левому датчику температуры входа DOC (1).
 
-Connect connector C24-3 to the right DOC inlet temperature sensor (2).
+Подключите разъём C24-3 к правому датчику температуры входа DOC (2).
 
-Connect connector C24-1 to the DOC outlet temperature sensor (3).
+Подключите разъём C24-1 к датчику температуры выходной точки DOC (3).
 
 ![[19m00135.png]]
 
-Connect the DOC wiring harness connector C12 to the Dual Fuel panel port C11 (1).
+Подключите разъём C12 с проводкой DOC к порту C11 (1) с двойной топливной панелью.
 
 ![[19m00136.png]]
 
-**Debris Shield**
+**Щит мусора**
 
-Install the debris shield.
+Установите щит от мусора.
 
-Tighten the six bolts - four short across the top, Cummins® Part Number [[3069120]] (1), two long on the bottom, Cummins® Part Number 137872 (2).
+Затянуть шесть болтов - четыре коротких поверх, номер детали Cummins®[[3069120]](1), две длинные внизу, Cummins® Part Number 137872 (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 38 n•m [28 ft-lb]
+> [!tip] Момент затяжки
+> 38 Н·м [28 фунт-фут]
 
 ![[00m00131.png]]
 
-**Emissions Dataplate Sticker**
+** Наклейка для табличек с данными о выбросах**
 
-The Dual Fuel emissions dataplate sticker backing **must** be read and understood. After the dataplate sticker backing has been read, choose the correct dataplate sticker to place on top of the "Important Engine Information" section. This will either replace the T.P.E.M. or Environmental Protection Agency Tier 2 language bulletin. After all components have been installed, an emissions dataplate sticker will be placed on top of the existing "Important Engine Information" section of the QSK50 engine dataplate. This sticker will provide the pertinent engine fueling information to verify Dual Fuel engine operation meets or exceeds Tier 2 emissions guidelines.
+Наклейка двойного топливного выброса ** должна быть прочитана и понята. После того, как стикеры с табличками были прочитаны, выберите правильную стикеры с табличками, чтобы разместить их поверх раздела «Важная информация о двигателе». Это либо заменит T.P.E.M. или Информационный бюллетень Агентства по охране окружающей среды уровня 2. После установки всех компонентов наклейка с табличкой о выбросах будет размещена поверх существующего раздела «Важная информация о двигателе» на табличке двигателя QSK50. Эта наклейка предоставит соответствующую информацию о заправке двигателя для проверки соответствия или превышения режима выбросов Tier 2.
 
 ![[00m00132.png]]
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -1448,3 +1459,1146 @@ The Dual Fuel emissions dataplate sticker backing **must** be read and understoo
 | [[3175239]] | LOCK NUT | Контргайка |
 | [[3201128]] | REGULAR HEXAGON NUT | Гайка шестигранная |
 | [[3642347]] | HAND HOLE GASKET | Прокладка смотрового люка |
+
+> [!quote]- Original (English) · английский оригинал
+> ## QSK50 Tier 2 Dual Fuel Kit Installation Instructions
+>
+> **General Information**
+>
+> The following procedure will provide instructions to assemble a Cummins® Hydraulic Fracturing Dual Fuel Kit onto an existing QSK50 Tier 2 base engine.
+>
+> The QSK50 Tier 2 base engine should be in good working order prior to the installation of kit components. See the Dual Fuel Build Quality Sign-Off Sheet, Bulletin 4908413, in order to properly validate the working condition of the QSK50 Tier 2 base engine.
+>
+> This procedure will only reference Cummins® factory-provided Dual Fuel Kit components. Additional parts may be necessary. They will be provided by the Cummins® distributor or the original equipment manufacturer (OEM) that is installing the kit. For all OEM and Cummins® distributor sourced components, reference available OEM and distributor documentation.
+>
+> **Component Diagrams**
+>
+> | Off-Engine Gas Train |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | [[3036900]] | 8 | Washer, Plain |
+> | 2 | 3046208 | 8 | Nut, Regular Hexagon |
+> | 3 | 3063168 | 1 | Tee, Female Run |
+> | 4 | 3896807 | 1 | Connector, Male |
+> | 5 | 4000616 | 1 | Cap, Tube |
+> | 6 | 4322908 | 1 | Adapter, Reducing Pipe |
+> | 7 | 4322911 | 4 | Gasket, Flange |
+> | 8 | 4322912 | 1 | Filter, Fuel |
+> | 9 | 4322914 | 1 | Valve, Pressure Regulator |
+> | 10 | 4322915 | 1 | Valve, Fuel Shutoff |
+> | 11 | 4322947 | 1 | Support, Accessory |
+> | 12 | 4327782 | 1 | Connector, Male |
+> | 13 | 4327787 | 1 | Nipple, Plain Hexagon |
+> | 14 | 4327792 | 16 | Assembly, Stud |
+> | 15 | 4327809 | 1 | Valve, Solenoid |
+> | 16 | 4328664 | 4 | Bracket, Module |
+> | 17 | 4328672 | 1 | Switch, Pressure |
+> | 18 | 4328673 | 1 | Switch, Pressure |
+> | 19 | 4328685 | 4 | Washer, Plain |
+> | 20 | 4335215 | 1 | Gauge, Pressure |
+> | 21 | 4350852 | 1 | Tube, Pressure Sensing |
+> | 22 | 4358012 | 1 | Connector, Male |
+> | 23 | 4358015 | 1 | Decal, Information |
+> | 24 | 4358023 | 1 | Fitting, Orifice |
+> | 25 | 4358032 | 2 | Connection, Fuel Transfer |
+> | 26 | S145 | 8 | Screw, Hexagon Head Cap |
+> | 27 | S910B | 2 | Plug, Pipe |
+>
+> | Fuel Control Valve |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | 69832 | 4 | Nut, Regular Hexagon |
+> | 2 | [[3042328]] | 12 | Washer, Plain |
+> | 3 | 3606534 | 2 | Gasket, Connection |
+> | 4 | 4322918 | 1 | Governor, Woodward |
+> | 5 | 4322970 | 1 | Connection, Fuel Inlet |
+> | 6 | 4327742 | 2 | Seal, O-ring |
+> | 7 | S111 | 8 | Screw, Hexagon Head Cap |
+>
+> | On-Engine Customer Connection |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | 137872 | 2 | Screw, Hexagon Head Cap |
+> | 2 | [[3014766]] | 12 | Screw, Captive Washer Cap |
+> | 3 | [[3033038]] | 22 | Screw, Captive Washer Cap |
+> | 4 | [[3036900]] | 6 | Washer, Plain |
+> | 5 | [[3037536]] | 2 | Plug, Threaded |
+> | 6 | 3040837 | 4 | Screw, Captive Washer Cap |
+> | 7 | [[3042328]] | 1 | Washer, Plain |
+> | 8 | [[3042329]] | 30 | Washer, Plain |
+> | 9 | [[3069120]] | 4 | Screw, Captive Washer Cap |
+> | 10 | [[3201128]] | 22 | Nut, Regular Hexagon |
+> | 11 | [[3642347]] | 1 | Gasket, Hand Hole |
+> | 12 | [[3042328]] | 1 | Tee, Male Union |
+> | 13 | 4327795 | 1 | Bracket, Debris Shield |
+> | 14 | 4327826 | 2 | Brace, Support |
+> | 15 | 4327827 | 1 | Brace, Support |
+> | 16 | 4327828 | 1 | Shield, Debris |
+> | 17 | 4327832 | 1 | Bracket, Breather |
+> | 18 | 4328662 | 1 | Bracket, Debris Shield |
+> | 19 | 4328686 | 1 | Seal, O-ring |
+> | 20 | 4334843 | 1 | Cover, Hand Hole |
+> | 21 | 4334859 | 1 | Connection, Fuel Transfer |
+> | 22 | 4334861 | 1 | Connection, Fuel Transfer |
+> | 23 | 4350851 | 1 | Dataplate |
+> | 24 | 4968985 | 2 | Screw, Hexagon Head Cap |
+> | 25 | S104 | 2 | Screw, Hexagon Head Cap |
+> | 26 | S119 | 1 | Screw, Hexagon Head Cap |
+> | 27 | S145 | 6 | Screw, Hexagon Head Cap |
+> | 28 | S170A | 2 | Screw, Hexagon Head Cap |
+>
+> | Left Bank Gas Inlet Tubes |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | 137719 | 2 | Screw, Hexagon Head Cap |
+> | 2 | [[3029640]] | 1 | Seal, O-ring |
+> | 3 | [[3037536]] | 2 | Plug, Threaded |
+> | 4 | 3040837 | 2 | Screw, Captive Washer Cap |
+> | 5 | [[3042327]] | 4 | Washer, Plain |
+> | 6 | [[3064321]] | 3 | Screw, Captive Washer Cap |
+> | 7 | 3063828 | 1 | Nut, Hexagon Flange |
+> | 8 | [[3175239]] | 3 | Nut, Lock |
+> | 9 | 3202124 | 3 | Clip |
+> | 10 | 4322974 | 1 | Connector, Male |
+> | 11 | 4322977 | 1 | Brace, Tube |
+> | 12 | 4322978 | 1 | Clamp, Tube |
+> | 13 | 4322979 | 1 | Plate, Clamping |
+> | 14 | 4327732 | 1 | Elbow, Tube Connector |
+> | 14 | 4327754 | 1 | Shield, Heat |
+> | 16 | 4327788 | 1 | Connection, Air Intake |
+> | 17 | 4328541 | 1 | Stud, Continuous Thread |
+> | 18 | 4350823 | 1 | Tube, Gas Inlet |
+> | 19 | 4350825 | 1 | Tube, Gas Inlet |
+> | 20 | 43828D | 2 | Clamp, Hose |
+> | 21 | 69911A | 4 | Clip |
+> | 22 | S270 | 2 | Nut, Regular Hexagon |
+> | 22 | 4334861 | 1 | Connection, Fuel Transfer |
+>
+> | Right Bank Gas Inlet Tubes |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | 69832 | 4 | Nut, Regular Hexagon |
+> | 2 | 137719 | 4 | Screw, Hexagon Head Cap |
+> | 3 | [[3029640]] | 1 | Seal, O-ring |
+> | 4 | [[3037536]] | 2 | Plug, Threaded |
+> | 5 | 3040837 | 4 | Screw, Captive Washer Cap |
+> | 6 | [[3042327]] | 8 | Washer, Plain |
+> | 7 | [[3042328]] | 1 | Washer, Plain |
+> | 8 | [[3064321]] | 4 | Screw, Captive Washer Cap |
+> | 9 | [[3093828]] | 1 | Nut, Hexagon Flange |
+> | 10 | [[3175239]] | 4 | Nut, Lock |
+> | 11 | 3202124 | 4 | Clip |
+> | 12 | 3606534 | 2 | Gasket, Connection |
+> | 13 | 43229974 | 1 | Connector, Male |
+> | 14 | 4322977 | 2 | Brace, Tube |
+> | 15 | 4322978 | 2 | Clamp, Tube |
+> | 16 | 4322979 | 2 | Plate, Clamping |
+> | 17 | 4327732 | 1 | Elbow, Tube Connector |
+> | 18 | 4327788 | 1 | Connection, Air Intake |
+> | 19 | 4328541 | 1 | Stud, Continuous Thread |
+> | 20 | 4328544 | 1 | Orifice, Fuel Flow Limiting |
+> | 21 | 4335202 | 1 | Tube, Gas Inlet |
+> | 22 | 4350830 | 1 | Tube, Gas Inlet |
+> | 23 | 4350832 | 1 | Tube, Gas Inlet |
+> | 24 | 69911A | 6 | Clip |
+> | 25 | S119 | 4 | Screw, Hexagon Head Cap |
+> | 26 | S270 | 4 | Nut, Regular Hexagon |
+>
+> | On-Engine Wiring Harness |  |  |  |
+> |---|---|---|---|
+> | Reference Number | Item Number | Quantity | Item Name |
+> | 1 | 2897654 | 16 | Sensor, Knock |
+> | 2 | [[3040721]] | 1 | Gasket, Cam Follower Housing |
+> | 3 | 3040837 | 2 | Screw, Captive Washer Cap |
+> | 4 | [[3042327]] | 4 | Washer, Plain |
+> | 5 | 4326355 | 1 | Seal, O-ring |
+> | 6 | 4087931 | 2 | Screw, Hexagon Head Cap |
+> | 7 | 4307676 | 1 | Sensor, Position |
+> | 8 | 4322977 | 1 | Brace, Tube |
+> | 9 | 4322996 | 1 | Bracket, Wiring Retainer |
+> | 10 | 4326355 | 1 | Seal, O-ring |
+> | 11 | 4327748 | 2 | Elbow, Male Union |
+> | 12 | 4327802 | 2 | Hose, Flexible |
+> | 13 | 4334865 | 1 | Harness, Wiring |
+> | 14 | 4350835 | 1 | Cover, Camshaft |
+> | 15 | S119 | 16 | Screw, Hexagon Head Cap |
+> | 16 | 4358036 | 1 | Panel, Control |
+> | 17 | 4358010 | 16 | Screw, Hexagon Head Cap |
+> | 18 | S270 | 2 | Nut, Regular Hexagon |
+>
+> **Cylinder 16 Camshaft Cover and Sensor**
+>
+> Remove the right bank engine wire harness (1) to allow access to the cylinder 16 camshaft cover. Refer to Procedure 019-043 in Section 19 in the QSK50 Service Manual. Retain the mounting capscrews.
+>
+> Remove the original QSK50 cylinder 16 (R8) camshaft cover (1). Discard the gasket. Keep the original cover capscrews.
+>
+> Install the Dual Fuel cylinder 16 camshaft cover (1) using a new camshaft cover gasket.
+>
+> Install the original three short camshaft cover capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> The top left camshaft cover bolt hole will be used when the engine wire harness is installed.
+>
+> Install the Dual Fuel camshaft position sensor (1) and o-ring, Cummins® Part Number 4326355 (2). Thread the sensor into the camshaft cover sensor bung until seated.
+>
+> **Момент затяжки · Torque Value**
+> 73 n•m [54 ft-lb]
+>
+> **Note · Примечание**
+> The Dual Fuel camshaft position sensor comes with a pre-assembled jam nut. The jam nut is **not** used for sensor installation. Discard the jam nut.
+>
+> Install the QSK50 right bank engine harness (1). Make sure the capscrew is installed into the top left camshaft cover bolt hole. Refer to Procedure 019-043 in Section 19 in the QSK50 Service Manual.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> **Knock Sensors**
+>
+> Remove the existing QSK50 forward intake manifold bolts and washer from each cylinder, 16 total.
+>
+> Install the 16 hex head aftercooler capscrews (1). Make sure washer (2), Cummins® Part Number [[3042329]], is placed between the capscrew and the aftercooler.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the knock sensor (3) and mounting capscrew, Cummins® Part Number S119 (4). Leave hand-tight.
+>
+> Each of the 16 knock sensors **must** be clocked in a specific direction.
+>
+> | Knock Sensor Clocking |  |  |
+> |---|---|---|
+> | Bank Cylinder Number | Knock Connector | Knock Sensor Clocking |
+> | Left Bank Cylinder 1 | C22-1 | 4 o'clock |
+> | Left Bank Cylinder 2 | C22-3 | 8 o'clock |
+> | Left Bank Cylinder 3 | C22-5 | 9 o'clock |
+> | Left Bank Cylinder 4 | C22-7 | 8 o'clock |
+> | Left Bank Cylinder 5 | C22-9 | 8 o'clock |
+> | Left Bank Cylinder 6 | C22-11 | 8 o'clock |
+> | Left Bank Cylinder 7 | C22-13 | 8 o'clock |
+> | Left Bank Cylinder 8 | C22-15 | 8 o'clock |
+> | Right Bank Cylinder 1 | C22-1 | 4 o'clock |
+> | Right Bank Cylinder 2 | C22-1 | 4 o'clock |
+> | Right Bank Cylinder 3 | C22-1 | 4 o'clock |
+> | Right Bank Cylinder 4 | C22-1 | 4 o'clock |
+> | Right Bank Cylinder 5 | C22-1 | 3 o'clock |
+> | Right Bank Cylinder 6 | C22-1 | 8 o'clock |
+> | Right Bank Cylinder 7 | C22-1 | 4 o'clock |
+> | Right Bank Cylinder 8 | C22-1 | 4 o'clock |
+>
+> Tighten each knock sensor.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> **Note · Примечание**
+> Do **not** orient the connector upward between 9 o'clock and 3 o'clock, Failure to follow this instruction may result in sensor water intrusion.
+>
+> **On-Engine Customer ConnectionGeneral Information**
+>
+> The hand hole cover, corrosion filters, and crankcase breather will need to be moved and/or modified to meet the Dual Fuel installation requirements.
+>
+> All brackets and components are provided for full on-engine customer connection assembly.
+>
+> The illustration shows the QSK50 base engine breather, hand hole cover, and corrosion filters.
+>
+> Close the ball valves of the corrosion filter supply and return lines, at the water pump.
+>
+> Remove the fittings at the filter head supply (1) and return (2).
+>
+> Remove the corrosion filter assembly by loosening the four capscrews (3) at the filter head and water supply. Keep these capscrews for reuse.
+>
+> Remove and discard the corrosion resistor L-bracket mounting plate. A new mounting plate and location will be provided.
+>
+> Remove the crankcase breather and breather hoses. The breather hoses will be reused in this installation. Keep the crankcase breather capscrews for reuse. New capscrews for the R4 and R5 camshaft covers are provided.
+>
+> Remove and discard the QSK50 base engine hand hole cover and gasket. A new hand hole cover specific to the Dual Fuel System is provided.
+>
+> Install the Dual Fuel hand hole cover and a new hand hole cover gasket onto the engine block.
+>
+> Tighten the 12 capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the crankcase breather relocation bracket. There are two capscrews, Cummins® Part Number S104, that will be installed into the forward holes of camshaft covers R4 and R5.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the debris shield bracket on top of the engine wire harness. There are two capscrews, Cummins® Part Number S170A, that will replace the existing wire harness capscrews for bracket installation.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the fuel transfer connection onto the aftercooler housing between cylinders 3RB and 4RB. Use two capscrews, Cummins® Part Number 4968985, in the center and right holes.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Use one capscrew, Cummins® Part Number S119, in the left hole.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Install the fuel transfer connection support braces between the fuel transfer connection and hand hole cover. The rear support will have eight bolts ([[3033038]]), nuts ([[3201128]]), and washers ([[3042329]]). The forward support will have an identical seven bolts, nuts, and washers.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the new corrosion filter support bracket (1) between the forward support brace (2) and hand hole cover. Use eight bolts ([[3033038]]), nuts ([[3201128]]), and washers ([[3042329]]).
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the coolant filter head using the original filter head capscrews. Leave hand-tight.
+>
+> Install the coolant filter return (1) and supply lines (2).
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Tighten the four filter head capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Make sure that the filter supply and return ball valves are open upon completion of the coolant filter head installation.
+>
+> Install the crankcase breather onto the relocation bracket using the orignal crankcase breather capscrews. Align the hoses and hose clamps.
+>
+> Tighten the crankcase breather capscrews (1).
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Tighten the hose clamps (2).
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> The customer-to-engine fuel transfer connection can be oriented to the front or rear of the engine, depending on the OEM application. Consult with your local distributor or OEM to determine the correct direction for installation.
+>
+> Align the customer-to-engine fuel transfer connection. Use six capscrews(S145), washers ([[3036900]]), and o-ring (4328686). Tighten the capscrews in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 95 n•m [70 ft-lb]
+>
+> Install both port plugs into the front and rear fuel transfer connection bungs.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Fuel Control Valve**
+>
+> Install the debris shield bracket onto the corner of the aftercooler with four new capscrews, Cummins® Part Number 3040837.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the male union tee onto the debris shield bracket.
+>
+> **Момент затяжки · Torque Value**
+> 55 n•m [41 ft-lb]
+>
+> Place a gasket between the throttle body and the fuel transfer connection.
+>
+> Install the throttle body with the arrow pointing upward, in the direction of gas flow.
+>
+> Tighten the four capscrews, Cummins® Part Number S111.
+>
+> **Момент затяжки · Torque Value**
+> 22 n•m [195 in-lb]
+>
+> Place a gasket between the throttle body and the fuel inlet connection tee.
+>
+> Install four capscrews, Cummins® Part Number S111, connecting the fuel inlet connection tee to the throttle body.
+>
+> **Момент затяжки · Torque Value**
+> 22 n•m [195 in-lb]
+>
+> **Air/Fuel Mixers**
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\] or more. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Replace the existing turbocharger air intakes with the provided air/fuel mixers. The air/fuel mixers are installed using the same instructions for each bank.
+>
+> Support the weight of the turbocharger so that it is secure upon removing the turbocharger air intake capscrews.
+>
+> Remove the original low-pressure turbocharger air intakes. Three of the four air intake capscrews **must** be kept for reuse with the air/fuel mixers.
+>
+> Remove and discard the o-ring on the back side of the turbocharger air intake.
+>
+> Insert a new low-pressure turbocharger intake o-ring into the grove on the backside of the air/fuel mixer.
+>
+> Before aligning the mixer, insert stud, Cummins® Part Number 4328541, into the bolt hole furthest to the left, when facing the turbocharger, and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Align the stud hole with the air/fuel mixer. Rotate the air/fuel mixer into position. When facing the mixer, the gas inlet port **must** be oriented to the left
+>
+> Install the three remaining capscrews through the air/fuel mixer into the compressor housing. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 48 n•m [35 ft-lb]
+>
+> Install the nut onto the remaining stud and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 48 n•m [35 ft-lb]
+>
+> Remove the turbocharger supports added during removal of the turbocharger air intake.
+>
+> Make sure there is an o-ring between the male connector (2) and the air/fuel mixer. Install the male connector (2) into the air/fuel mixer using the crows foot adapter, Cummins® Part Number 5299067.
+>
+> **Момент затяжки · Torque Value**
+> 331 n•m [244 ft-lb]
+>
+> **Note · Примечание**
+> The male connector (2) face with the enclosed o-ring should be oriented away from the air/fuel mixer.
+>
+> Install the port plugs (1) into the dual fuel air/fuel mixer.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Left Bank Gas Inlet Tubes**
+>
+> Install the tube brace backing onto the front left aftercooler using capcrews, Cummins® Part Number 3040837. Discard the original 3rd and 4th capscrews back from the front corner of the aftercooler.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Place o-ring, Cummins® Part Number 4327742, between the gas inlet tube (3) and the fuel inlet connection tee (1).
+>
+> Install the gas inlet tube (3) on the fuel inlet connection tee (1) and tighten the connecting nut (2) using the crows foot adapter, Cummins® Part Number 5299067.
+>
+> **Момент затяжки · Torque Value**
+> 508 n•m [375 ft-lb]
+>
+> Make sure the horizontal gas inlet tube is positioned against both sections of the tube clamp on the aftercooler.
+>
+> Install the tube clamp with capscrews, Cummins® Part Number 137719.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Draw or paint two reference marks on the horizontal gas inlet tube (4). One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+>
+> Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube end (4) between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+>
+> Slide the tube connector elbow (1) over the horizontal gas inlet tube (4) until the 29 mm \[1.14 in\] mark is no longer visible.
+>
+> **Note · Примечание**
+> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+>
+> Make sure the donut seal (2) is positioned against the tube connector elbow (1) mounting surface.
+>
+> Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Install the heat shield (1) onto the upper gas inlet tube.
+>
+> Tighten the hose clamps, Cummins® Part Number, 43828D.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [50 in-lb]
+>
+> Draw or paint two reference marks on the upper gas inlet tube (4) - One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+>
+> Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+>
+> Slide the upper gas inlet tube (4) into the tube connector elbow (1) until the 29 mm\[1.14 in\] mark is no longer visible.
+>
+> **Note · Примечание**
+> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+>
+> Make sure the donut seal (2) is positioned against the tube connector elbow mounting surface.
+>
+> Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Install an o-ring between the gas inlet tube connecting nut (1) and the male connector (2) at the air/fuel mixer.
+>
+> Tighten the connecting nut using the crows foot adapter, Cummins® Part Number 5299067.
+>
+> **Note · Примечание**
+> A second wrench **must** be used to stabilize the male connector on the mixer.
+>
+> **Момент затяжки · Torque Value**
+> 331 n•m [244 ft-lb]
+>
+> **Right Bank Gas Inlet Tubes**
+>
+> Install two tube brace backings onto the rear left aftercooler using capcrews, Cummins® Part Number 3040837, onto the first and second capscrew holes from the aftercooler front corner and the second and third capscrew holes from the aftercooler rear corner.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Place o-ring, Cummins® Part Number 4327742, between the gas inlet tube (3) and the fuel inlet connection tee (2).
+>
+> Install the gas inlet tube (3) on the fuel inlet connection tee (2) and tighten the connecting nut (1) using the crows foot adapter, Cummins® Part Number 5299067.
+>
+> **Момент затяжки · Torque Value**
+> 508 n•m [375 ft-lb]
+>
+> Install gaskets (2) on either side of the orifice plate (3).
+>
+> Install the horizontal gas inlet tube (1).
+>
+> Install and tighten the four bolts (S119), washers ([[3042328]]), and nuts (69832) on the orifice plate assembly.
+>
+> **Момент затяжки · Torque Value**
+> 38 n•m [28 ft-lb]
+>
+> Make sure the horizontal gas inlet tube is positioned against both tube clamps on the aftercooler.
+>
+> Install the tube clamp with capscrews, Cummins® Part Number 137719.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Draw or paint two reference marks on the horizontal gas inlet tube (4) - One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+>
+> Install the metal clamp ring (3) over the tube (4). Slide a donut seal (2) onto the tube end (4) between the 29 mm \[1.14 in\] and 42 mm \[1.65 in\] marks.
+>
+> Slide the tube connector elbow (1) over the horizontal gas inlet tube (4) until the 29 mm \[1.14 in\] mark is no longer visible.
+>
+> **Note · Примечание**
+> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+>
+> Make sure the donut seal (2) is positioned against the tube connector elbow (1) mounting surface.
+>
+> Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Draw or paint two reference marks on the upper gas inlet tube (4). One at 29 mm \[1.14 in\] and one at 42 mm \[1.65 in\] from the open end.
+>
+> Install the metal clamp ring (3) over the tube (4). Next slide a donut seal (2) onto the tube between the 29 mm \[1.14 in\] and 42 mm marks.
+>
+> Slide the upper gas inlet tube (4) into the tube connector elbow (1) until the 29 mm \[1.14 in\] mark is no longer visible.
+>
+> **Note · Примечание**
+> Make sure the 42 mm \[1.65 in\] mark is still visible on the tube after assembly.
+>
+> Make sure the donut seal (2) is positioned against the tube connector elbow mounting surface.
+>
+> Install the tube connector elbow clamp (4) over the tube connector elbow (1), donut seal (2), and metal clamp ring (3). Tighten.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Make sure an o-ring is between the gas inlet tube connecting nut (1) and the male connector (2) at the air/fuel mixer.
+>
+> Tighten the connecting nut using the crows foot adapter, Cummins® Part Number 5299067.
+>
+> **Note · Примечание**
+> A second wrench **must** be used to stabilize the male connector on the mixer.
+>
+> **Момент затяжки · Torque Value**
+> 331 n•m [244 ft-lb]
+>
+> **Fuel Regulator Air Pressure Signal Hose**
+>
+> Install the left and right bank fuel regulator air pressure signal hose (1) onto the T-fitting (2) at the throttle valve debris shield.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Install the 45 degree male fittings (2) into the left and right bank air/fuel mixers (3).
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Install the fuel regulator air pressure signal hose (1) onto the left and right bank 45 degree male fittings (2). Hand-tighten.
+>
+> Make sure the fitting is oriented towards the main gas manifold tube.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> The left and right bank fuel regulator air pressure signal hoses (1) will be suspended from P-clips (1) that are supported from the gas manifold tubes.
+>
+> Each gas manifold tube clamp needs one P-clip (1), Cummins® Part Number 69911A, added to the bottom capscrew for fuel regulator air pressure signal hose support.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 ft-lb]
+>
+> Several larger P-clips (2), Cummins® Part Number 3202124, will be attached to the gas tubes with nut, Part Number [[3064321]], and bolt, Part Number [[3175239]], for fuel regulator air pressure signal hose support.
+>
+> **Момент затяжки · Torque Value**
+> 41 n•m [30 ft-lb]
+>
+> P-clip location for right bank rear fuel regulator air pressure signal hose support (1).
+>
+> **Note · Примечание**
+> Failure to completely secure the fuel regulator air pressure signal hose may result in premature hose wear.
+>
+> P-clip location for right bank front fuel regulator air pressure signal hose support (1).
+>
+> **Note · Примечание**
+> Note: Failure to completely secure the fuel regulator air pressure signal hose may result in premature hose wear.
+>
+> **On-Engine Wiring Harness Bracket**
+>
+> Install the wiring harness bracket mounting place onto the rear left-bank aftercooler using capscrews, Cummins® Part Number 3040837.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the wire harness bracket onto the mounting plate using capscrews, Cummins® Part Number 4087931.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 ft-lb]
+>
+> **Diesel Oxidation Catalyst**
+>
+> Proper mounting and installation of the diesel oxidation catalyst (DOC) canister must be planned and organized through the OEM and Cummins® Distribution prior to final assembly. The following instructions will guide the technician through canister installation after initial canister mounting planning and fabrication has been completed.
+>
+> The DOC aftertreatment **must only** have brackets/mounting straps located in designated mounting zones (1). Prior to starting the installation process, use approved mounting zones to determine the mount attachment point on the support frame.
+>
+> **Note · Примечание**
+> For a complete list of aftertreatment mounting and installation requirements, please consult with the Cummins® Distributor and/or OEM.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> The DOC lifting brackets are designed to lift the DOC canistor **only**. Lifting other components that are attached to the DOC can cause damage to the DOC assembly.
+>
+> **Note · Примечание**
+> When lifting the canister, adjust the strap angle to be less than 45 degrees from vertical. A spreader bar (1) is preferred.
+>
+> .
+>
+> DOC installation angularity should be 0° ± 15° in all directions.
+>
+> Using the supplied gaskets, attach the DOC inlet flanges (1) to the OEM-supplied exhaust piping.
+>
+> Fasteners are to be supplied by either the OEM and/or Cummins® Distributor. Tighten the fasteners in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 129 n•m [95 ft-lb]
+>
+> Tighten the fasteners in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 265 n•m [196 ft-lb]
+>
+> **Off-Engine Gas TrainGeneral Information**
+>
+> The following instructions detail how to assemble the Dual Fuel Off-Engine Gas Train using all Cummins® factory-supplied components in the Dual Fuel Kit.
+>
+> Actual assembly and mounting of the gas train may differ, depending on OEM and/or Distributor guidelines. Consult the OEM/Distributor for proper installation and mounting instructions specific to the application.
+>
+> The gas train **must** be assembled in the following order: filter, fuel shutoff valve, and regulator.
+>
+> **Note · Примечание**
+> Gas train components **must** be inspected for seals, plastic covers, and/or end caps over component orifices during installation. Remove all seals, plastic covers, and/or end caps from the components before assembly.
+>
+> **Note · Примечание**
+> The fuel shutoff valve comes with a closure validation switch already installed onto the bottom of the valve 2 housing. Do **not** set the fuel shutoff valve on top of this switch.
+>
+> Align the OEM flange (1) and the fuel filter housing (2). Insert a gasket, Cummins® Part Number 4322911 (3), between the components. Make sure the fuel filter housing arrow is pointing downstream.
+>
+> Insert studs, Part Number 4327792, through the four flange holes. Align the mounting bracket (4) through the studs on the outside of the OEM flange (1). Add washers and nuts to each side of the studs.
+>
+> **Note · Примечание**
+> NOTE: The OEM flange has two ports. It must be oriented so one port faces up and the other port faces outward, away from the engine.
+>
+> **Note · Примечание**
+> There are two different bolt patterns on the OEM flange component. Make sure the holes align between the OEM flange and the filter housing.
+>
+> **Note · Примечание**
+> The fuel filter should be oriented so the filter cover is pointing outward, away from the engine. Consult the OEM/Distributor if a different orientation is required.
+>
+> .
+>
+> **Note · Примечание**
+> The gas train components are comprised of raised face flanges. Care **must** be taken to make sure that the flanges are aligned flush against each other during assembly.
+>
+> Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+>
+> With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against one another.
+>
+> Tightening of the nuts **must** be done in three steps.
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 33 n•m [24 ft-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> Align the fuel shutoff valve (3) and the fuel filter housing. Insert a gasket, Cummins® Part Number 4322911 (1) between the components. Make sure the fuel shutoff valve (3) housing arrow is pointing downstream.
+>
+> Install the studs (4327792) through the fuel filter flanges into the fuel shutoff valve (3).Install the mounting bracket and washers onto the studs on the fuel shutoff valve side.
+>
+> **Note · Примечание**
+> There should be washers on both sides of the fuel shutoff valve mounting foot.
+>
+> **Note · Примечание**
+> The gas train components are comprised of raised face flanges. Care **must** be taken to make sure that the flanges are aligned flush against one another during assembly.
+>
+> Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+>
+> With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against one another.
+>
+> Tightening of the nuts must be done in three steps.
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 33 n•m [24 ft-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> Align the pressure regulator (4) and the fuel shutoff valve (1). Insert a gasket, Cummins® Part Number 4322911 (2), between the components. Make sure the pressure regulator housing arrow is pointing downstream.
+>
+> Insert studs, Cummins® Part Number 4327792, through the four flange holes
+>
+> Install the mounting bracket (3) and washers onto the studs on the pressure regulator side.
+>
+> **Note · Примечание**
+> There should be washers on both sides of the pressure regulator mounting foot.
+>
+> **Note · Примечание**
+> The gas train components are comprised of raised face flanges. Care must be taken to make ure that the flanges are aligned flush against one another during assembly.
+>
+> Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+>
+> With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against each other.
+>
+> Tightening of the nuts **must** be done in three steps.
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 33 n•m [24 ft-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> Align the pressure regulator (1) and the OEM flange (4). Insert a gasket, Cummins® Part Number 4322911 (2), between the components.
+>
+> Insert studs, Cummins® Part Number 4327792, through the four flange holes. Align the mounting bracket (3) through the studs on the outside of the OEM flange (4). Add washers and nuts to each side of the studs.
+>
+> **Note · Примечание**
+> The OEM flange has two ports, it must be oriented so one port faces up and the other port faces outward, away from the engine.
+>
+> **Note · Примечание**
+> There are two different bolt patterns on the OEM flange component. Make sure the holes align between the OEM flange and the fuel regulator.
+>
+> .
+>
+> **Note · Примечание**
+> The gas train components are comprised of raised face flanges. Care must be taken to make sure that the flanges are aligned flush against one another during assembly.
+>
+> Bring the flanges together. Make sure that a new gasket has been placed between the flanges.
+>
+> With the studs, washers, and nuts in place, hand-tighten each of the four bolted joints so that the raised faces are seated evenly against each other.
+>
+> Tightening of the nuts **must** be done in three steps.
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 33 n•m [24 ft-lb]
+>
+> Tighten the nuts in a crisscross pattern.
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> Align the gas train assembly mounting brackets on top of the gas train mounting plate.
+>
+> Use mounting bolts, Cummins® Part Number 145, and washers to assemble the feet to the plate.
+>
+> **Момент затяжки · Torque Value**
+> 95 n•m [70 ft-lb]
+>
+> **Note · Примечание**
+> The final placement and location of the gas train assembly onto the trailer application will be determined by the OEM/Distributor.
+>
+> New fuel shutoff valves come with port plugs. Before installing the low-pressure switch, make sure the port plug in port 2 (1) on the fuel shutoff valve is removed.
+>
+> Remove and keep the two screws (1) from the clear cover on the low-pressure switch.
+>
+> Remove the clear cover (2) from the low-pressure switch.
+>
+> Inside the pressure switch will be two capscrews and an o-ring to mount the switch to port 2 on the fuel shutoff valve.
+>
+> Place an o-ring in the port groove on the back of the low-pressure switch.
+>
+> Align the back of the switch with the number 2 port hole on the fuel shutoff valve. Make sure the o-ring is seated against the fuel shutoff valve and the screw holes are aligned.
+>
+> Verify the low-pressure switch is being installed on fuel shutoff valve port number 2 and the switch connector is oriented upwards.
+>
+> Insert the two capscrews through the low-pressure switch body into the fuel shutoff valve and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 2.5 n•m [22 in-lb]
+>
+> Make sure the low pressure switch dial is set to 55 in H 2 O. Install the clear cover on the low pressure switch.
+>
+> Insert screws and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> Install the pulse line tee fitting into the downstream OEM flange.
+>
+> Male connector (3)
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Install the tee fitting (2) hand-tight. Align the tee fitting so that it is angled for installation of the pulse line. Tighten.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Cap (1)
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Remove the existing port plug (1) from underneath the pressure regulator diaphragm.
+>
+> Install the regulator male connector (2).
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [204 in-lb]
+>
+> Install the pulse line (2) between the tee fitting (3) and regulator male connector (1).
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 ft-lb]
+>
+> Remove the existing port plug (2) from the top of the pressure regulator diaphragm.
+>
+> Install the male-male fuel regulator air pressure hose line fitting (1).
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> **Note · Примечание**
+> The fuel regulator air pressure signal line from the off-engine gas train to the on-engine components is provided by either the distributor or OEM. Consult your OEM/Distributor for the proper installation guidelines of the fuel regulator air pressure hose line.
+>
+> Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the bare threads on both sides of the hex orifice fitting.
+>
+> Install the fitting into the downstream OEM flange pressure port facing away from the engine.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> **Note · Примечание**
+> The hex orifice fitting **must** be installed so that the arrow (1) points toward the pressure switch, away from the pipe.
+>
+> Thread the back of the high-pressure switch onto the hex fitting.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [180 in-lb]
+>
+> **Note · Примечание**
+> Make sure the connector (1) is oriented downward upon installation.
+>
+> Make sure the high-pressure switch is set to 35 in H 2 O.
+>
+> If the switch is **not** set to 35 inH 2 0, remove the two screws (1) from the high-pressure switch front cover.
+>
+> Set the switch to 35 inH 2 O by turning the dial.
+>
+> Install the high-pressure switch cover.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> Remove the OEM threaded plug (1).
+>
+> Install the threaded adapter, Cummins® Part Number 4322908 (2), o-ring, and o-ring retainer into the downstream fuel filter housing port.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> Apply Loctite™ 592, or equivalent gas compatible thread sealant, to both ends of the hex fitting Cummins® Part Number 4327787 (1).
+>
+> Install the hex fitting onto the threaded adapter and tighten.
+>
+> **Note · Примечание**
+> Use a second wrench to stabilize the threaded adapter while tightening, to avoid over tightening
+>
+> .
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Install the push button valve (2) onto the hex fitting and tighten.
+>
+> **Note · Примечание**
+> Use a second wrench to stabilize the hex fitting while tightening, to avoid overtightening of the threaded adapter.
+>
+> Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the threaded end of the pressure gauge.
+>
+> Install the pressure gauge into the push button valve.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> **Note · Примечание**
+> Make sure the pressure gauge faces the operator. Use a second wrench to stabilize the push button valve while tightening to avoid overtightening of the threaded adapter.
+>
+> Apply Loctite™ 592, or equivalent gas compatible thread sealant, to the two port plug threads.
+>
+> Install both port plugs into the OEM flange test ports.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> **Control PanelGeneral Information**
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\] or more. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> There are four dual fuel panel mounting brackets; one at each corner.
+>
+> Mounting hardware and installation location guidelines are both provided by either the OEM or Cummins® Distributor. Consult the OEM and/or installing Cummins® Distributor for control panel mounting instructions.
+>
+> **Dual Fuel System Wire HarnessesGeneral Information**
+>
+> The QSK50G Dual Fuel wiring harness is comprised of seven main harnesses. The following procedure details installation instructions for the Cummins® factory-supplied harnesses.
+>
+> Cummins Factory supplied:
+>
+> 1. Battery and Ground
+> 2. On-Engine
+> 3. On-Engine to Panel
+> 4. Gas Train
+> 5. DOC
+>
+> OEM supplied:
+>
+> 1. Hydraulic pump harness (speed and pressure input)
+> 2. Fracturing trailer harness (4-20mA hydraulic horsepower signal and OEM gas shutoff input)
+>
+> **Note · Примечание**
+> Not all OEMs require the use of the OEM-supplied harnesses.
+>
+> The OEM and/or Distributor will provide installation instructions for non-Cummins® factory-supplied wire harnesses. Consult the OEM/Distributor for proper hydraulic pump harness and fracturing trailer harness installation guidelines if applicable.
+>
+> All harnesses, when installed, **must** satisfy the following requirements:
+>
+> - No interference with machine components or any existing connectors
+>
+> - **Must** have adequate clearance for removal of connectors from mating parts (sensors, actuators, solenoids, etc.)
+>
+> - Clearance from rotating and hot components
+>
+> - No potential points where the harness could rub
+>
+> - No harness stretching to reach its respective mating ends
+>
+> - **Must** be mechanically supported and secured
+>
+> - At the Dual Fuel control panel, harnesses will be physically supported by use of tie wrap to minimize the bend radius of the connector wires, limiting physical degradation over the lifetime of this product.
+>
+> **Note · Примечание**
+> All connectors are physically labeled on the wire harnesses.
+>
+> **Battery and Ground**
+>
+> Consult with the OEM/Cummins Distributor for guidelines on how to connect the power supply harness for the Dual Fuel control module.
+>
+> Connect the four 24 VDC power supply cables (red) to the positive lead (+) of the battery and connect the four common ground cables (black) to the negative lead (-) of the battery.
+>
+> Connect the power supply wiring harness connector C2 to the Dual Fuel panel port C1.
+>
+> **On-EngineLeft Bank**
+>
+> Beginning with the left front quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the 1LB (2), 2LB (3), 3LB (4), and 4LB (5) knock sensors to connectors C22-1 (2), C22-3 (3), C22-5 (4), C22-7 (5).
+>
+> On the left rear quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the 5LB (2), 6LB (3), 7LB (4), and 8LB (5) knock sensors to connectors C22-9 (2), C22-11 (3), C22-13 (4), C22-15 (5)
+>
+> Support the main on-engine wire harness connector C10 at the corner of the rear left bank aftercooler. Tighten the connector locknut.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Near the main on-engine wire harness connector (1), make sure connector C27 is mated to connector C28 (2) of the table switching output stub (4).
+>
+> The table switching output stub (4) includes three pins which **must** be added to the existing OEM 23 pin connector (3) that is a part of the QSK50 base engine. Each pin wire is labeled with the correct position to be added to the connector.
+>
+> Also included in the on-engine harness install is the tachometer output signal stub (1). Make sure harness connector C21-2 is mated to stub connector C21-3 for the tachometer output signal.
+>
+> The tachometer output signal stub contains two bare pins, which are sealed in heat shrink wrap. Leave the shrink wrap over the pins. The tachometer output signal stub is currently **not** used in the Dual Fuel System operation. Secure the tachometer output sensor stub with tie wrap (2) so that it does **not** interfere with Dual Fuel operation.
+>
+> **Rear**
+>
+> Secure the on-engine Dual Fuel harness to the existing QSK50 base engine harness across the top of the flywheel housing using tie wraps (1).
+>
+> **Right Bank**
+>
+> On the right rear quadrant, install the on-engine harness to the engine using four tie mounts (1) with capscrew, Cummins® Part Number S107.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the Dual Fuel camshaft position sensor to connector C21-1 (2).
+>
+> **Note · Примечание**
+> The camshaft sensor harness connector comes with a cap. Store this cap in a secure location.
+>
+> .
+>
+> Connect the 8RB (3), 7RB (4), 6RB (5), and 5RB (6) knock sensors to connectors C22-16 (3), C22-14 (4), C22-12 (5), and C22-10 (6).
+>
+> The wire harness **must** be routed behind the throttle valve assembly.
+>
+> Connector C23 (1) plugs into the throttle valve.
+>
+> Connect the 4RB knock sensor (2) to connector C22-8 (2) located behind the fuel transfer connection.
+>
+> On the right front quadrant, install the on-engine harness to the engine using three tie mounts (1) with capscrew, Cummins® Part Number S107.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the 3RB (2), 2RB (3), and 1RB (4) knock sensors to connectors C22-6 (2), C22-4 (3), and C22-2 (4)
+>
+> **On-Engine to Panel Harness**
+>
+> Connect the on-engine harness connector C10 (1) to the on-engine to Dual Fuel panel harness connector C9.
+>
+> Mate the data link connector C20-2 (1) to the existing QSK50 base engine mounted OEM harness connector DT06-3S.
+>
+> Connect the data link panel connector C6 to the Dual Fuel panel port C5 (1).
+>
+> The data link OEM connector (2 - with blue tip) and the data link panel connector (1 - with orange tip) are identical in appearance. Close attention should be given to make sure each connector is correctly installed. They can be distinguished by the identifying tags attached just above the connector.
+>
+> Mate the data link OEM connector C20-1 (2) to the OEM J1939 connection. The OEM J1939 connection **must** be relocated to the ComAp panel.
+>
+> Connect the on engine to panel harness connector C8 to the Dual Fuel panel port C7 (1).
+>
+> **Gas Train**
+>
+> Make sure there is a rubber gasket and that there are no bent pins on the male high-pressure fuel switch connector. Install a new gasket, if necessary.
+>
+> Align and connect C18-2 to the high-pressure switch (1) on the downstream OEM flange.
+>
+> Install the captive screw and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> Make sure there is a rubber gasket and that there are no bent pins on the male closure validation switch connector. Install a new gasket, if necessary.
+>
+> Align and connect C29-2 to the POC switch (1).
+>
+> Install the captive screw and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> **Note · Примечание**
+> There is an additional wire wrapped in heat shrink branching off from the POC switch wiring harness connector. Do **not** alter this wire.
+>
+> Make sure there is a rubber gasket and that there are no bent pins on the male low pressure fuel switch connector. Install a new gasket if necessary.
+>
+> Align and connect C18-1 to the low pressure switch (1) on the fuel shutoff valve.
+>
+> Install the captive screw and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> Make sure there is a rubber gasket and that there are no bent pins on the male fuel shutoff valve connector. Install a new gasket if necessary.
+>
+> Align and connect C19 to the top of the fuel shutoff valve (1).
+>
+> Install the captive screw and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 0.7 n•m [6 in-lb]
+>
+> After the high-pressure switch, low-pressure switch, closure validation switch, and fuel shutoff valve have been connected, there will be two wire harness branches left for installation. The 4-pin Deutsch™ connector C30 (1) allows for the use of either a gas indication light or switch shutdown function. Consult the OEM and/or installing Cummins® Distributor for proper connector use and installation guidelines. If the connector is **not** used, securely tie-wrap the harness branch so that it does **not** affect Dual Fuel operation.
+>
+> The bare harness stub (2) is currently **not** used in this system installation. Securely tie-wrap the harness branch so that is does **not** affect Dual Fuel operation.
+>
+> Connect the gas train wiring harness connector C4 to the Dual Fuel panel port C3 (1).
+>
+> **DOC Temperature Sensors**
+>
+> Secure the DOC temp sensor wiring harness to the DOC support frame. It is recommend to secure the harness directly above and below the connector.
+>
+> **Note · Примечание**
+> No portion of the sensor cable or attached harness may come within 2.54 cm \[1 in\] of the aftertreatment body.
+>
+> Connect connector C24-4 to the left DOC inlet temperature sensor (1).
+>
+> Connect connector C24-3 to the right DOC inlet temperature sensor (2).
+>
+> Connect connector C24-1 to the DOC outlet temperature sensor (3).
+>
+> Connect the DOC wiring harness connector C12 to the Dual Fuel panel port C11 (1).
+>
+> **Debris Shield**
+>
+> Install the debris shield.
+>
+> Tighten the six bolts - four short across the top, Cummins® Part Number [[3069120]] (1), two long on the bottom, Cummins® Part Number 137872 (2).
+>
+> **Момент затяжки · Torque Value**
+> 38 n•m [28 ft-lb]
+>
+> **Emissions Dataplate Sticker**
+>
+> The Dual Fuel emissions dataplate sticker backing **must** be read and understood. After the dataplate sticker backing has been read, choose the correct dataplate sticker to place on top of the "Important Engine Information" section. This will either replace the T.P.E.M. or Environmental Protection Agency Tier 2 language bulletin. After all components have been installed, an emissions dataplate sticker will be placed on top of the existing "Important Engine Information" section of the QSK50 engine dataplate. This sticker will provide the pertinent engine fueling information to verify Dual Fuel engine operation meets or exceeds Tier 2 emissions guidelines.
+>
+> ### Document History

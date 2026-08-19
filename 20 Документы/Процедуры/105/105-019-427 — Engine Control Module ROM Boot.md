@@ -17,6 +17,8 @@ manuals:
   - "3666266"
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-427.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-427.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/105"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module ROM Boot
@@ -37,25 +40,56 @@ tags:
 > **Даты:** изменён 2023-08-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-427.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-427.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Cummins® ECM bench calibration harness, Part Number 3163151.
+### Выбор сервисного инструмента
 
-- No additional service items required.
+#### Рекомендованный сервисный инструмент Cummins®
 
-### General Information
+- Cummins® ECM test stand calibration Wiring harness, Part Number 3163151.
 
-Engine Control Module (ECM) ROM Boot Procedure:
+- Никаких дополнительных предметов обслуживания не требуется.
 
-- Install the calibration cable with ROM boot switch.
-- With the keyswitch (2) in the OFF position, press the ROM boot switch (1), located on the ECM-specific calibration adapter harness, and hold.
-- Switch the keyswitch to the ON position while holding the ROM boot switch down, wait for five seconds.
-- Release the ROM boot switch.
-- Recalibrate the ECM. [[105-019-032 — Engine Control Module Calibration Code|Refer to Procedure 019-032 in Section 19.]]
-- Remove the ROM boot cable from the ECM.
+### Общие сведения
 
-For general tool information, including the correct installation configuration, see the ECM-specific calibration adapter cable with ROM boot switch in the ECM Bench Calibration Base Harness, Service Tool Instruction 3377791.
+Модуль управления двигателем (ECM) ROM Boot Procedure
+
+- Установите калибровочный кабель с помощью ROM-переключателя загрузки.
+- С помощью переключателя (2) зажигания в положении OFF нажмите загрузочный переключатель (1) ROM, расположенный на электропроводке электропривода для калибровки ECM-специфического калибровочного адаптера, и удерживайте.
+- Переключите переключатель зажигания в положение Включения, удерживая выключатель загрузки ПЗУ, подождите пять секунд.
+- Выпустите загрузочный коммутатор ROM.
+- Перенастройка ECM.[[105-019-032 — Engine Control Module Calibration Code|См. процедуру 019-032 в разделе 19.]]
+- Удалить загрузочный кабель ROM из ECM.
+
+Для получения общей информации об инструменте, включая правильную конфигурацию установки, см. кабель калибровочного адаптера ECM с загрузочным переключателем ROM в испытательном стенде ECM, оснастка базовой электропроводки, инструкция по обслуживанию инструмента 3377791.
 
 ![[19r00161.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Cummins® ECM bench calibration harness, Part Number 3163151.
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> Engine Control Module (ECM) ROM Boot Procedure:
+>
+> - Install the calibration cable with ROM boot switch.
+> - With the keyswitch (2) in the OFF position, press the ROM boot switch (1), located on the ECM-specific calibration adapter harness, and hold.
+> - Switch the keyswitch to the ON position while holding the ROM boot switch down, wait for five seconds.
+> - Release the ROM boot switch.
+> - Recalibrate the ECM. [[105-019-032 — Engine Control Module Calibration Code|Refer to Procedure 019-032 in Section 19.]]
+> - Remove the ROM boot cable from the ECM.
+>
+> For general tool information, including the correct installation configuration, see the ECM-specific calibration adapter cable with ROM boot switch in the ECM Bench Calibration Base Harness, Service Tool Instruction 3377791.

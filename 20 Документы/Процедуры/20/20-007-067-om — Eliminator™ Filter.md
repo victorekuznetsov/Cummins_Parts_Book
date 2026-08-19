@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666120"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-067-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-067-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Eliminator™ Filter
@@ -32,12 +35,30 @@ tags:
 > **Даты:** изменён 2021-01-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-067-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-067-om.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-To provide continued reliable operation, the filter **must** be checked at regular intervals.
 
-The operating indicator is used to check the operation of the hydraulic motor.
+### Осмотр
 
-Check the operating indicator daily at low idle condition. If the indicator makes one revolution between 227 - 650 seconds, the Eliminator™ hydraulic motor is operating properly. If it does **not** make the revolution in this time period, contact a Cummins® Authorized Repair Location.
+Для обеспечения непрерывной надежной работы фильтр *** должен проверяться через регулярные промежутки времени.
+
+Рабочий индикатор используется для проверки работы гидравлического двигателя.
+
+Ежедневно проверяйте рабочий индикатор при низком уровне холостого хода. Если индикатор совершает один оборот между 227 - 650 секундами, гидравлический двигатель Eliminator работает должным образом. Если это не делает революцию в этот период времени, свяжитесь с авторизованным ремонтным центром Cummins®.
 
 ![[07600040.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> To provide continued reliable operation, the filter **must** be checked at regular intervals.
+>
+> The operating indicator is used to check the operation of the hydraulic motor.
+>
+> Check the operating indicator daily at low idle condition. If the indicator makes one revolution between 227 - 650 seconds, the Eliminator™ hydraulic motor is operating properly. If it does **not** make the revolution in this time period, contact a Cummins® Authorized Repair Location.

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-071.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-071.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Water Pump Bearings
@@ -32,71 +35,138 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-071.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-071.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-> [!warning] CAUTION · Осторожно
-> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-- Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]]
-- Remove and disassemble the water pump. Refer to [[20-008-062-tr — Water Pump|008-062]].
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе охлаждающей жидкости, чтобы охлаждающая жидкость не пролилась или не слилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если охлаждающая жидкость не используется повторно, она должна быть утилизирована в соответствии с местными экологическими нормами.
+
+- Слейте охлаждающую жидкость. См. процедуру[[20-008-018-tr — Cooling System|008-018]]
+- Удалить и разобрать водяной насос. Видишь?[[20-008-062-tr — Water Pump|008-062]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Use a water pump bearing separator, Part Number 3375326, or equivalent, to disassemble the bearing and shaft assembly.
+Используйте сепаратор подшипников водяного насоса, номер детали 3375326, или эквивалент, для разборки подшипника и вала.
 
-Remove the retaining ring (1).
+Удалить удерживающее кольцо (1).
 
-Remove the front bearing (2).
+Удалить передний подшипник (2).
 
-Remove the rear bearing (3).
+Удалить задний подшипник (3).
 
 ![[08400113.png]]
 
-### Measure
+### Измерение
 
-Measure the shaft outside diameter and the bearing inside diameter. Compare the differences.
+Измерить вал наружного диаметра и подшипник внутреннего диаметра. Сравните различия.
 
-| Bearing shaft differences |  |  |  |
+| Разница между несущими валами |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Clearance | 0.003 | MAX | 0.0001 |
-| Interference | 0.018 | MAX | 0.0007 |
+|  | мм |  | в |
+| Разрешение | 0.003 | Макс | 0.0001 |
+| Вмешательство | 0.018 | Макс | 0.0007 |
 
 ![[08400114.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> The mandrel must make contact on the inner race of the bearing to prevent damage to the bearing.
+> [!warning] ОСТОРОЖНО
+> Мандель должна контактировать с внутренней расой подшипника, чтобы предотвратить повреждение подшипника.
 
-Support the shaft.
+Поддержите вал.
 
-Use an arbor press and a water pump bearing mandrel, Part Number ST-658 (4), or equivalent, install the bearings.
+Используйте пресс для беседки и подшипник для водяного насоса, часть номер ST-658 (4), или эквивалент, установите подшипники.
 
 ![[08400115.png]]
 
-Install the retaining ring.
+Установите удерживающее кольцо.
 
 ![[08400116.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!warning] CAUTION · Осторожно
-> Use caution when filling the cooling system so that the coolant is not spilled into the bilge area. Do not pump coolant overboard. If the coolant is spilled, it must be disposed of in accordance with local environmental regulations
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при заполнении системы охлаждения, чтобы охлаждающая жидкость не пролилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если хладагент разливается, он должен быть утилизирован в соответствии с местными экологическими нормами.
 
-- Assemble the install the water pump. Refer to Procedure [[20-008-062-tr — Water Pump|008-062]].
-- Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
-- Operate the engine and check for leaks.
+- Соберите установку водяного насоса. См. процедуру[[20-008-062-tr — Water Pump|008-062]].
+- Заправьте систему охлаждения. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]]
+> - Remove and disassemble the water pump. Refer to [[20-008-062-tr — Water Pump|008-062]].
+>
+> ### Remove
+>
+> Use a water pump bearing separator, Part Number 3375326, or equivalent, to disassemble the bearing and shaft assembly.
+>
+> Remove the retaining ring (1).
+>
+> Remove the front bearing (2).
+>
+> Remove the rear bearing (3).
+>
+> ### Measure
+>
+> Measure the shaft outside diameter and the bearing inside diameter. Compare the differences.
+>
+> | Bearing shaft differences |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Clearance | 0.003 | MAX | 0.0001 |
+> | Interference | 0.018 | MAX | 0.0007 |
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> The mandrel must make contact on the inner race of the bearing to prevent damage to the bearing.
+>
+> Support the shaft.
+>
+> Use an arbor press and a water pump bearing mandrel, Part Number ST-658 (4), or equivalent, install the bearings.
+>
+> Install the retaining ring.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **CAUTION · Осторожно**
+> Use caution when filling the cooling system so that the coolant is not spilled into the bilge area. Do not pump coolant overboard. If the coolant is spilled, it must be disposed of in accordance with local environmental regulations
+>
+> - Assemble the install the water pump. Refer to Procedure [[20-008-062-tr — Water Pump|008-062]].
+> - Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+> - Operate the engine and check for leaks.

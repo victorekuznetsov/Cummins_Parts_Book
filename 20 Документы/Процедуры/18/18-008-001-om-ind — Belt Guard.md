@@ -21,6 +21,8 @@ manuals:
   - "3810497"
   - "4021539"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-001-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-008-001-om-ind.pdf"
 tags:
@@ -29,6 +31,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Belt Guard
@@ -42,42 +45,86 @@ tags:
 > **Даты:** изменён 2011-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-001-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-008-001-om-ind.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The alternator guard may appear different than illustrated depending on the alternator option. Although different in apperance, the procedure remains the same.
 
-Remove the alternator belt guard assembly.
+### Снятие
 
-If equipped, use **only** the captive-washer capscrews.
+> [!note] Примечание
+> Защита генератора может выглядеть иначе, чем проиллюстрирована, в зависимости от опции генератора. Хотя в апперансе иная процедура, процедура остается прежней.
+
+Снимите блок защиты ремня генератора.
+
+Если они оборудованы, используйте только болты для мытья пленных.
 
 ![[08i00001.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+Осмотрите защитный ремень и кронштейн на наличие трещин или других повреждений. Если они повреждены, их необходимо заменить.
 
-Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+Проверить изоляторы на предмет повреждения. Если изоляторы жесткие и хрупкие, их необходимо заменить.
 
-If damaged or bent, replace the belt guard studs.
+Если поврежден или согнут, замените шпильки для защиты ремня.
 
 ![[08400513.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> The alternator guard may appear different than illustrated depending on the alternator option. Although different in apperance, the procedure remains the same.
+> [!note] Примечание
+> Защита генератора может выглядеть иначе, чем проиллюстрирована, в зависимости от опции генератора. Хотя в апперансе иная процедура, процедура остается прежней.
 
-Install the alternator belt guard assembly.
+Установите сборку ремня защиты генератора.
 
-Tighten the captive-washer capscrews.
+Затяните болты для мытья пленников.
 
-> [!tip] Момент затяжки · Torque Value
-> 3/8 inch Capscrew 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 3/8 дюймовые болты 40 Н·м [30 футов-lb]
 
-Install the two captive-washer capscrews.
+Установите два болта для мытья в неволе.
 
-> [!tip] Момент затяжки · Torque Value
-> 1/4 inch Capscrew 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 1/4 дюйма болты 10 Н·м [89 фунт-дюйм]
 
 ![[08i00001.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> The alternator guard may appear different than illustrated depending on the alternator option. Although different in apperance, the procedure remains the same.
+>
+> Remove the alternator belt guard assembly.
+>
+> If equipped, use **only** the captive-washer capscrews.
+>
+> ### Inspect for Reuse
+>
+> Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+>
+> Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+>
+> If damaged or bent, replace the belt guard studs.
+>
+> ### Install
+>
+> **Note · Примечание**
+> The alternator guard may appear different than illustrated depending on the alternator option. Although different in apperance, the procedure remains the same.
+>
+> Install the alternator belt guard assembly.
+>
+> Tighten the captive-washer capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 3/8 inch Capscrew 40 n•m [30 ft-lb]
+>
+> Install the two captive-washer capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 1/4 inch Capscrew 10 n•m [89 in-lb]

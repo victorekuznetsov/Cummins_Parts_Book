@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 55
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-026-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-026-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Cylinder Block
@@ -33,39 +36,47 @@ tags:
 > **Даты:** изменён 2020-07-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-026-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-026-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Since the introduction of the K38 engines, the design of the cylinder liner counterbore was changed. Older engines do **not** contain a counterbore ring, but have a thick flange liner. Newer engines have a counterbore for thick flange cylinder liners and contain a counterbore ring.
 
-All K50 engines contain a counterbore for thick flange cylinder liners and contain counterbore rings.
+### Общие сведения
 
-The liner protrusion for the K38 and K50 engines was changed. The liner protrusion **must** be within 0.152 mm to 0.203 mm \[0.006 in to 0.008 in\]. The depth of the counterbore on present blocks was changed to obtain the correct protrusion.
+С момента появления двигателей К38 изменилась конструкция цилиндрового лайнера-контрбора. Старые двигатели не содержат кольца против ствола, но имеют толстый фланцевый лайнер. Более новые двигатели имеют противоборство для толстых фланцевых цилиндрических лайнеров и содержат противоборное кольцо.
 
-Coolant passage machining has been changed from 1 in NPTF to straight bored holes with an o-ring connection. Two 3/8 -16 tapped holes were added at each access hole for securing the new connection. There are three coolant access passages on each side of the block. Some holes have been relocated (see illustrations for plugs and dowels).
+Все двигатели K50 содержат противоборство для толстых фланцевых цилиндрических вкладышей и содержат противоборные кольца.
 
-The front and rear coolant holes are used for the aftercooler water supply on all KV engines with side mounted aftercoolers.
+Изменилась линейная протрузия для двигателей К38 и К50. Протрузия лайнера ** должна быть в пределах от 0,152 мм до 0,203 мм \[0,006 до 0,008 дюйма \]. Глубина противоборства на существующих блоках была изменена для получения правильного выступа.
 
-The vee cover plates that attach to the block on the K38 were changed. Previous engines had two cover plates that were the same size. Present engines require one small, and three large cover plates.
+Обработка охлаждающего прохода была изменена с 1 в NPTF на прямые скученные отверстия с соединением с кольцом. Два 3/8-16 прорезных отверстия были добавлены в каждом отверстие доступа для обеспечения нового соединения. На каждой стороне блока есть три прохода доступа к охлаждающей жидкости. Некоторые отверстия были перемещены (см. иллюстрации для вилок и дюбелей).
 
-The vee cover plates were changed on the K50 cylinder block. The number of cover plates remains at five, but the location of the smaller plate was changed.
+Передние и задние отверстия охлаждающей жидкости используются для подачи воды после охлаждения на всех двигателях КВ с боковыми монтируемыми послеохладителями.
 
-The cylinder block casting for K2000E and K1800E engines, starting with engine serial number 33123861, has been modified from the original K50 cylinder block at the oil transfer cover and filter head oil inlet mounting pad to reduce oil flow restriction and increase the flow area. A different bolt pattern is used for the oil transfer cover. Older style K50 cylinder blocks can **not** be used for K2000E or K1800E engines.
+Были изменены пластины крышки Vee, которые крепятся к блоку на K38. Предыдущие двигатели имели две крышки, которые были одинакового размера. Современные двигатели требуют одной маленькой и трех больших крышных пластин.
 
-K2000E and K1800E engines have two blank hand hole covers on each engine. The covers have clearance machined on the top edge to clear the oil transfer connection. The covers are to be installed in the locations below the oil transfer connection and lubricating oil filter head when blank covers are used in those locations. If a hand hole cover with a breather, oil filler tube, or dipstick is installed in the location below the oil transfer connection or lubricating oil filter head, the hand hole cover is to be installed in any other location requiring a blank cover. There will not be an interference between the oil transfer connection and the hand hole covers having oil filler tubes, breathers, or dipsticks as the cover height is 180 mm \[7.09 in\] on these covers, rather than 191 mm \[7.52 in\] on blank covers.
+Пластины крышки Vee были изменены на блоке цилиндров K50. Количество пластинок для покрытия остается на уровне пяти, но расположение плиты меньшего размера было изменено.
 
-The cylinder block was changed to allow the installation of a longer cylinder head capscrew. Previous engines **must** have capscrews that are 171 mm \[6.73 in\] in length. Present engines **must** have capscrews that are 203 mm \[8.00 in\] in length. The short capscrews are available for service. These capscrews are cadmium plated (silver or gold colored). The short capscrews **must** be torqued to 353 N•m \[260 ft-lb\]. If the short capscrews have been coated with lubrite and are black in color, they **must** be replaced. The 203 mm \[8 in\] capscrews are **only** available with the lubrite coating. A torque of 555 N•m \[409 ft-lb\] **must** be applied to these capscrews. K50 engines have **always** had the 203 mm \[8.00 in\] capscrews.
+Блок цилиндров для двигателей K2000E и K1800E, начиная с серийного номера двигателя 33123861, был модифицирован из оригинального блока цилиндров K50 на масляной крышке и фильтрующей головке масляной впускной монтажной площадки для уменьшения ограничения потока масла и увеличения площади потока. Для масляной крышки используется другой шаблон болта. Блоки цилиндров K50 старого образца могут быть использованы для двигателей K2000E или K1800E.
 
-Two capscrews have been used for the main bearing caps. One capscrew is black and has a 12-point head. The other capscrew is dark silver or gray and has a 6-point head. The capscrews can be installed on the same main cap, and the same torque specification can be applied.
+Двигатели K2000E и K1800E имеют два пустых крышки для ручного отверстия на каждом двигателе. Крышки имеют зазор, обработанный на верхнем краю, чтобы очистить соединение передачи масла. Крышки должны быть установлены в местах ниже соединения для передачи масла и головки фильтра моторного масла, когда в этих местах используются пустые крышки. Если крышка ручного отверстия с дыхательной камерой, трубкой масляного наполнителя или калибром уровня масла установлена в месте ниже головки фильтра для передачи масла или моторного масла, крышка ручного отверстия должна быть установлена в любом другом месте, требующем пустого покрытия. Не будет помех между соединением переноса масла и крышками ручного отверстия, имеющими масляные наполнители, дыхательные аппараты или дипстики, поскольку высота крышки составляет 180 мм \[7,09 дюйма \] на этих крышках, а не 191 мм \[7,52 дюйма \] на пустых крышках.
 
-The cylinder blocks for the K38 and K50 engines were revised when the KTTA38 and KTTA50 engines were introduced. These engines require an increased number of ports in the block coolant cavity for the aftercooler coolant inlet tubing. The blocks with the increased number of ports were produced for all K38 and K50 engines. The cylinder head surface of these blocks was revised to allow for the attachment of turbocharger oil drain tubes with an o-ring and capscrew. Previous blocks contained holes with pipe threads for the connection of the oil drain tubes.
+Блок цилиндров был изменен, чтобы позволить установку более длинных головных болтов цилиндров. Предыдущие двигатели ** должны иметь болты длиной 171 мм \[6,73 дюйма \]. Современные двигатели ** должны иметь болты длиной 203 мм \[8,00 дюйма \]. Короткие болты доступны для обслуживания. Эти болты покрыты кадмием (серебряного или золотого цвета). Короткие болты ** должны быть крутыми до 353 Н•м \[260 футов-лб\]. Если короткие болты были покрыты лубритом и имеют черный цвет, их необходимо заменить. 203 мм \[8 in\] болты ** доступны только с любритным покрытием. К этим болтам должен быть приложен крутящий момент 555 Н•м \[409 фут-лб\]**. Двигатели K50 всегда имели 203 мм \[8,00 в\] болтов.
 
-Previous K38 and K50 cylinder blocks contained a hole at the right bank rear and the left bank front that allowed the attachment of the crankcase breathers. The crankcase breathers are mounted on the intake manifold on revised block engines. A plate and a gasket are available to plug the old breather holes when the revised design of the breather is installed. Revised cylinder blocks contain holes that are near the location of the previous breather holes. The holes in the revised blocks are for the connection of the turbocharger oil drain hose.
+Для основных подшипников использовались два болта. Один болт черный и имеет 12-точечную головку. Другие болты темно-серебристые или серые и имеют 6-точечную головку. Болты могут быть установлены на одном и том же основном колпачке, и может применяться та же спецификация крутящего момента.
 
-A further revision in the cylinder block was the bore for the water pump idler gear shaft. The bore is larger and deeper so that a new shaft can be installed. This new shaft provides a greater area of contact with the block. The new shaft requires a change in the counterbore in the front gear housing for the flange on the shaft. A special service tool kit is available to machine an old block and gear housing for the new shaft.
+Блоки цилиндров для двигателей K38 и K50 были пересмотрены, когда были введены двигатели KTTA38 и KTTA50. Эти двигатели требуют увеличения количества портов в блочной полости охлаждающей жидкости для впускной трубки охлаждающей жидкости после охлаждения. Блоки с увеличенным числом портов выпускались для всех двигателей К38 и К50. Поверхность головки цилиндров этих блоков была пересмотрена, чтобы обеспечить крепление трубок для слива масла турбокомпрессора с кольцом и болтами. Предыдущие блоки содержали отверстия с резьбой труб для соединения труб слива масла.
 
-In November 1993, beginning with engine serial number 33124631, K38 and K50 engine blocks had extra machining in two locations (except K2000E and K1800E which was carried out in January 1992) to reduce lube oil restrictions.
+Предыдущие блоки цилиндров K38 и K50 содержали отверстие в задней части правого берега и передней части левого берега, которое позволяло крепить воздухозаборники. Вздоховщики картерных коробок установлены на впускном коллекторе на пересмотренных блок-двигателях. Пластина и прокладка доступны для подключения старых отверстий передышки при установке пересмотренной конструкции передатчика. Пересмотренные блоки цилиндров содержат отверстия, которые находятся вблизи места расположения предыдущих отверстий для дыхания. Отверстия в пересмотренных блоках предназначены для подключения шланга для слива масла турбокомпрессора.
 
-For a short period of time, the bores for both camshaft idler gear shafts were machined the same as the new water pump idler gear shaft bore. The following engine serial numbers require idler shaft, Part Number 3176836, in the camshaft idler locations.
+Дальнейшим пересмотром в блоке цилиндров стал цилиндрический отсек для вала шестерни водяного насоса. Шнур цилиндра больше и глубже, так что новый вал может быть установлен. Этот новый вал обеспечивает большую площадь контакта с блоком. Новый вал требует изменения противоборства в передней коробке передач фланца на валу. Специальный сервисный комплект инструментов доступен для машинирования старого блока и зубчатого кожуха для нового вала.
+
+В ноябре 1993 года, начиная с серийного номера двигателя 33124631, блоки двигателей K38 и K50 имели дополнительную обработку в двух местах (кроме K2000E и K1800E, которая была проведена в январе 1992 года), чтобы уменьшить ограничения на моторное масло.
+
+В течение короткого периода времени, отверстия для обоих распределительных валов были обработаны так же, как и новый цилиндрический цилиндр для водяного насоса. Следующие серийные номера двигателя требуют вала бездействия, Часть Номер 3176836, в местах бездействия распределительного вала.
 
 | 33110658 | 33110708 | 33110726 |
 |---|---|---|
@@ -81,879 +92,1696 @@ For a short period of time, the bores for both camshaft idler gear shafts were m
 | 33110705 | 33110723 |  |
 | 33110706 | 33110724 |  |
 
-Present cylinder blocks do **not** contain threads for pipe plugs in some locations. These pipe plugs were replaced with expandable rivet type plugs (AVSEAL®). The AVSEAL® **must** be removed to clean the part properly. A service tool for the removal and installation of these plugs is available, Part Number 3823154. The hole for the AVSEAL® is smaller than the hole for a pipe plug. The hole **must** be reamed and tapped to install a pipe plug until the new tools are available.
+Существующие блоки цилиндров ** не ** содержат резьбу для трубных пробок в некоторых местах. Эти трубные пробки были заменены расширяемыми заклепками типа (AVSEAL®). AVSEAL® *** должен быть удален, чтобы правильно очистить деталь. Доступна сервисная инструментальная установка для удаления и установки этих вилок, номер детали 3823154. Отверстие для AVSEAL® меньше, чем отверстие для трубной пробки. Отверстие *** должно быть перенаправлено и прослушивано для установки пробки трубы до тех пор, пока не появятся новые инструменты.
 
-All crankshaft oil seals on the K38 and K50 engines are the Teflon® lay-down lip (scroll) type. Many other shaft seals are the Teflon® lay-down lip type. The Teflon® lay-down lip type seal does **not** contain a spring on the back of the sealing lip. The sealing lip is a thin stiff piece of Teflon®. Some Teflon® type seals contain a second sealing lip that performs as a dust lip. These seals are required in a severe operating environment, such as a high dust environment.
+Все уплотнения коленчатого вала на двигателях K38 и K50 являются типами укладки (прокрутки) Teflon®. Многие другие уплотнения вала являются типом укладки губ Teflon®. Уплотнение типа губы Teflon® для укладки ** не ** содержит пружину на задней части уплотнительной губы. Уплотняющая губа представляет собой тонкий жесткий кусок тефлона®. Некоторые уплотнения типа Teflon содержат вторую уплотняющую губу, которая действует как пылевая губа. Эти уплотнения необходимы в суровых условиях эксплуатации, таких как высокая пылевая среда.
 
-Teflon® seals **must** be dry before installation. Do **not** lubricate the seal lip or the shaft. After the first few turns of the shaft, a thin film of Teflon® is transferred from the seal lip to the shaft. The seal will leak if the shaft is **not** clean and dry because the Teflon® can **not** be transferred.
+Уплотнения Teflon® ** должны быть сухими перед установкой. **не*** смазывать уплотнение губы или вала. После первых нескольких витков вала тонкая пленка Тефлона® переносится с уплотнительной губы на вал. Уплотнение будет протекать, если вал ** не ** чистый и сухой, потому что тефлон® может ** не ** быть перенесен.
 
-If the seal is **not** the Teflon® type, lubricate both the sealing lip and the shaft with engine oil.
+Если уплотнение **не** типа Teflon®, смазайте как уплотняющую губу, так и вал моторным маслом.
 
-All oil seals **must** be installed in one of two ways; even with the cast surface, or even with the bottom of the entry chamfer on the seal bore.
+Все масляные уплотнения ** должны быть установлены одним из двух способов; даже с литой поверхностью или даже с днищем входной чамфера на цилиндре уплотнения.
 
-Engines that have a wet type flywheel housing **must** have a double-lip type seal for the rear of the crankshaft. This type of seal is required to prevent torque converter oil from entering the engine.
+Двигатели, которые имеют мокрый корпус маховика ** должны ** иметь двойное уплотнение типа губы для задней части коленчатого вала. Этот тип уплотнения необходим для предотвращения попадания масла преобразователя крутящего момента в двигатель.
 
-There are four lifting brackets on the K38 and K50 engine that bolt to the cylinder block. These lifting brackets are designed to hold the weight of an assembled engine **only**.
+На двигателе K38 и K50 установлены четыре подъемных кронштейна, которые затвориваются в блок цилиндров. Эти подъемные кронштейны предназначены для удержания веса сборного двигателя **только **.
 
-> [!danger] WARNING · Опасно
-> Inspect the engine lifting brackets for damage or cracks. Do not attempt to lift the engine if any cracks or damage is visible. Using damaged lifting equipment can cause serious person injury and/or property damage.
+> [!danger] ОПАСНО
+> Осмотрите кронштейны для подъема двигателя на предмет повреждения или трещин. Не пытайтесь поднять двигатель, если видны какие-либо трещины или повреждения. Использование поврежденного подъемного оборудования может привести к серьезным травмам и / или имущественному ущербу.
 
-> [!danger] WARNING · Опасно
-> The engine lifting brackets must be properly and securely attached to the engine before proceeding with the engine removal. Failure to do so can result in equipment damage, severe personal injury or death.
+> [!danger] ОПАСНО
+> Подъемные скобки двигателя должны быть надлежащим образом и надежно прикреплены к двигателю, прежде чем приступить к снятию двигателя. Неспособность сделать это может привести к повреждению оборудования, серьезным травмам или смерти.
 
-> [!danger] WARNING · Опасно
-> The engine lifting brackets are designed to lift the engine safely. Do not lift the engine, gearbox, if fitted, and main generator as an assembly. Exceeding the weight limit of the engine lifting brackets can result in equipment damage, severe personal injury or death.
+> [!danger] ОПАСНО
+> Подъемные скобки двигателя предназначены для безопасного подъема двигателя. Не поднимайте двигатель, коробку передач, если она установлена, и главный генератор в качестве сборки. Превышение предела веса кронштейнов для подъема двигателя может привести к повреждению оборудования, серьезным травмам или смерти.
 
-The lifting brackets on the block are capable of lifting an engine that has a sea (raw) water pump and a marine heat exchanger attached.
+Подъемные скобки на блоке способны поднимать двигатель, который имеет морской (сырой) водяной насос и морской теплообменник.
 
-Before installation of the lifting brackets, a room temperature vulcanizing sealant **must** be applied. The sealant prevents entry of water and subsequent corrosion of the capscrew. Corrosion of the capscrew can cause the part to break when the lifting bracket is used.
+Перед установкой подъемных скобок необходимо нанести герметик для вулканизации комнатной температуры ***. Уплотнитель предотвращает попадание воды и последующую коррозию болтов. Коррозия болтов может привести к разрыву детали при использовании подъемного кронштейна.
 
-### Exploded View
+### Взрывной вид
 
 ![[01600029.png]]
 
-1. Cylinder block
-2. Pipe plug
-3. Pipe plug
-4. Pipe plug
-5. Ring dowel
-6. Dowel pin
-7. Dowel pin
-8. Dowel
-9. Pipe plug
-10. Pipe plug
-11. Expansion plug
-12. Expansion plug
-13. Pipe plug
-14. Lifting bracket
-15. Plain washer
-16. Hexagon head capscrew
-17. Groove pin
-18. Bushing
-19. Expansion plug
-20. Bushing
-21. Dowel pin
-22. Main bearing cap
-23. Plain washer
-24. Hexagon head capscrew
-25. Plain washer
-26. Hexagon head capscrew.
+1. Блок цилиндров
+2. Трубная пробка
+3. Трубная пробка
+4. Трубная пробка
+5. Установочное кольцо
+6. Пин-дювель
+7. Пин-дювель
+8. Дюбель
+9. Трубная пробка
+10. Трубная пробка
+11. Расширительная заглушка
+12. Расширительная заглушка
+13. Трубная пробка
+14. Подъёмный кронштейн
+15. Плоская шайба
+16. Затворы шестиугольника
+17. Штифт с насечкой
+18. Втулка
+19. Расширительная заглушка
+20. Втулка
+21. Пин-дювель
+22. Крышка коренного подшипника
+23. Плоская шайба
+24. Затворы шестиугольника
+25. Плоская шайба
+26. Шестиугольные затворы.
 
 ![[01600022.png]]
 
-Plugs and Dowels - K38 and K50 (Front)
+Плагины и полотенца - K38 и K50 (Фронт)
 
-1. Main oil rifle cup plug
-2. No plug (This **must** be open to provide oil to the front gear housing and cover.)
-3. Coolant passage drilling cup plug, (Newer blocks; most K38 and K50 engines do **not** have this hole. Older K38 engines have a cup plug or a pipe plug).
-4. Camshaft oil rifle cup plug
-5. Front gear housing and cover dowel.
+1. Главная » Масляная винтовка »
+2. Нет вилки (это **должно быть ** открыто для подачи масла в переднюю коробку передач и крышку).
+3. Штеклоукладчик для бурения холодильного прохода (новые блоки; большинство двигателей K38 и K50 не имеют этого отверстия). Старые двигатели K38 имеют заглушку для чашки или трубку.
+4. Распредвальная масляная винтовка
+5. Передняя шестерня и крышка.
 
 ![[01600021.png]]
 
-Plugs and Dowels - K38 and K50 (Rear)
+Сумки и полотенца - K38 и K50 (задние)
 
-1. Main oil rifle cup plug
-2. Coolant passage drilling cup plug, (Newer blocks; most K38 and K50 engines do **not** have this hole. Older K38 engines have a cup plug or a pipe plug).
-3. Rear seal housing or rear gear drive dowel - lower unit
-4. Plate and seal (**Only** if the engine has rear seal housing; **must** be open if engine has rear gear drive lower unit to provide oil to the rear gear drive lower and upper units. The left bank (LB) and right (RB) plates are different. Some blocks do **not** contain these holes.)
-5. Camshaft oil rifle cup plug
-6. Flywheel housing dowel.
+1. Главная » Масляная винтовка »
+2. Штеклоукладчик для бурения холодильного прохода (новые блоки; большинство двигателей K38 и K50 не имеют этого отверстия). Старые двигатели K38 имеют заглушку для чашки или трубку.
+3. Задний уплотнительный кожух или дюбель привода задних передач - нижний блок
+4. Пластина и уплотнение (**Только**, если двигатель имеет задний уплотнительный кожух; ***, если двигатель имеет задний привод передачи, должны быть открыты, чтобы обеспечить маслом задний привод передачи, нижний и верхний блоки). Левый берег (LB) и правый (RB) пластины отличаются. Некоторые блоки ** не** содержат эти отверстия.
+5. Распредвальная масляная винтовка
+6. Дюбель с гильзой.
 
 ![[01600020.png]]
 
-Plugs and Dowels - K38 (Left Bank)
+Плагины и дюбели - K38 (Левый банк)
 
-10. Air compressor water inlet hose fitting, if equipped with an air compressor; pipe plug if no air compressor.
+10. Воздушный компрессор, входящий в шланг, если он оснащен воздушным компрессором; трубная пробка, если нет воздушного компрессора.
 
-11. Cylinder block coolant draincock.
+11. Клапан для слива охлаждающей жидкости.
 
-12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose).
+12. Плагин для прохода блока охлаждающей жидкости (двигатели KTTA и KTA с подвесными охладителями имеют арматуру для впускного шланга охлаждающей жидкости после охлаждения).
 
-13. Block coolant passage plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed on older blocks).
+13. Блокировать штепсель для прохода охлаждающей жидкости (это может быть приспособлением для возвратного шланга отопительного прибора транспортного средства на некоторых приложениях; ** не ** установлен на старых блоках).
 
-14. Main oil rifle pipe plug (On engines with Step Timing Control (STC), a fitting for the STC control valve oil inlet hose is to be installed).
+14. Основная масляная винтовка трубная пробка (на двигателях с контролем времени шага (STC), фитинг для STC контрольного клапана впускного шланга масла должен быть установлен).
 
-15. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+15. AVSEAL® или трубная пробка (бурение масла для штопоров холостого вала).
 
-16. Cam follower shaft ring dowel (no need to remove for cleaning).
+16. Щелчок вала кольцевой дольки (не нужно снимать для очистки).
 
 ![[01600019.png]]
 
-Plugs and Dowels - K38 (Right Bank)
+Плагины и дюбели - K38 (Правый банк)
 
-11. Cylinder block coolant draincock.
+11. Клапан для слива охлаждающей жидкости.
 
-12. Coolant block passage pipe plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.)
+12. Заглушка трубопровода с охлаждающим блоком (двигатели KTTA и KTA с подвесными охладителями имеют фитинг для впускного шланга охладителя после охлаждения).
 
-13. Block coolant passage pipe plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed on older blocks.)
+13. Блокировать шланг для прохода охлаждающей жидкости (это может быть приспособлением для возвратного шланга отопительного прибора транспортного средства на некоторых применениях; ** не ** установлен на старых блоках).
 
-14. Main oil rifle pipe plug (on engines with STC, a fitting for the STC control valve oil inlet hose is to be installed).
+14. Основная масляная винтовка трубная пробка (на двигателях с STC, фитинг для STC управления клапаном впускного шланга масла должен быть установлен).
 
-15. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+15. AVSEAL® или трубная пробка (бурение масла для штопоров холостого вала).
 
-16. Ring dowel, cam follower shaft ring (no need to remove for cleaning).
+16. Кольцевой дюбель, крановое кольцо вала (не нужно снимать для очистки).
 
-17. Fuel tube or hose fitting (The hole nearest to the front of the block is for fuel pressure. The hole nearest to the rear of the block is for fuel drain.)
+17. Топливная трубка или шланговая установка (отверстие, ближайшее к передней части блока, предназначено для давления топлива). Отверстие, ближайшее к задней части блока, предназначено для слива топлива.
 
 ![[01600017.png]]
 
-Plugs and Dowels - K38 (Top)
+Plugs and Dowels - K38 (вверху)
 
-18. Overhead oil rifle restriction plug.
+18. Надбавная масляная винтовка.
 
-19. Cylinder head groove pin.
+19. Пин-штукатурка для цилиндров.
 
-20. Oil drilling pipe plug (Common for vehicle oil pressure gauge fitting.)
+20. Штепсель для бурения нефтяных труб (обычно для установки калибра давления масла в транспортном средстве).
 
-21. Oil drilling AVSEAL® or pipe plug.
+21. Масляное бурение AVSEAL® или трубная пробка.
 
-22. Oil drilling pipe plug (flange type oil inlet hose for turbocharger in some engines).
+22. Штепсель для бурения нефтяных труб (в некоторых двигателях впускной шланг типа масла для турбокомпрессора).
 
-23. Crankcase drilling cup plug (flange type oil drain hose for turbocharger in some engines).
+23. Картерная пробка для сверления чаши (сливной шланг типа фланга для турбокомпрессора в некоторых двигателях).
 
-24. Crankcase drilling cup plug.
+24. Заглушка для сверления чемодана.
 
-25. Crankcase drilling cup plug (flange type turbocharger drain in some engines; **always** a cup plug on KTTA engines).
+25. Кранкейс сверлильный кружок (слив турбокомпрессора типа фланга в некоторых двигателях; ** всегда ** кружок на двигателях KTTA).
 
-26. Crankcase drilling cup plug (On newer engines this is a straight threaded tapped hole for turbocharger support bracket. Older engines contain a hole with pipe threads for oil drain hose fitting for turbocharger.)
+26. Кранкейс сверлильный штепсель (на новых двигателях это прямое резьбовое прорезное отверстие для турбокомпрессора опорной кронштейн). Старые двигатели содержат отверстие с резьбой труб для шланга для слива масла, подходящего для турбокомпрессора.
 
-27. Crankcase drilling cup plug (On engines with outboard aftercoolers, a gasket and plate are required. On engines with center mount aftercooler, it is the mounting for the aftercooler water inlet connection).
+27. Картерная пробка для сверления стакана (На двигателях с подвесными охладителями требуется прокладка и пластина). На двигателях с центральным креплением послеохладителя, это крепление для послеохладительного впускного соединения воды.
 
 ![[01600018.png]]
 
-Plugs and Dowels - K50 (Left Bank)
+Плагины и дюбели - К50 (Левый банк)
 
-10. Air compressor water inlet hose fitting, if equipped with an air compressor; pipe plug if no air compressor.
+10. Воздушный компрессор, входящий в шланг, если он оснащен воздушным компрессором; трубная пробка, если нет воздушного компрессора.
 
-11. Cylinder block coolant draincock.
+11. Клапан для слива охлаждающей жидкости.
 
-12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.).
+12. Заглушка пропуска блока охлаждающей жидкости (двигатели KTTA и KTA с подвесными охладителями имеют фитинг для впускного шланга охлаждающей жидкости после охлаждения.).
 
-13. Block coolant passage plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed in older blocks.).
+13. Блокировать штепсель для прохода охлаждающей жидкости (это может быть приспособлением для возвратного шланга отопительного прибора транспортного средства для некоторых применений; ** не ** установлен в старых блоках.).
 
-14. Main oil rifle pipe plug (On engines with STC, a fitting for the STC control valve oil inlet hose is to be installed.).
+14. Основная масляная винтовка трубная пробка (На двигателях с STC устанавливается фитинг для впускного шланга STC управляющего клапана масла).
 
-15. AVSEAL® or pipe plug (oil drilling for shaft bores).
+15. AVSEAL® или трубная пробка (масляное бурение для валов).
 
-16. Cam follower shaft ring dowel (no need to remove for cleaning).
+16. Щелчок вала кольцевой дольки (не нужно снимать для очистки).
 
 ![[01600016.png]]
 
-Plugs and Dowels - K50 (Right Bank)
+Сумки и дюбели - K50 (Правый банк)
 
-11. Cylinder block coolant draincock.
+11. Клапан для слива охлаждающей жидкости.
 
-12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.).
+12. Заглушка пропуска блока охлаждающей жидкости (двигатели KTTA и KTA с подвесными охладителями имеют фитинг для впускного шланга охлаждающей жидкости после охлаждения.).
 
-13. Main oil rifle pipe plug (On engines with STC, a fitting for the STC control valve oil inlet hose is to be installed.).
+13. Основная масляная винтовка трубная пробка (На двигателях с STC устанавливается фитинг для впускного шланга STC управляющего клапана масла).
 
-14. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+14. AVSEAL® или трубная пробка (бурение масла для штопоров холостого вала).
 
-15. Cam follower shaft ring dowel (no need to remove for cleaning).
+15. Щелчок вала кольцевой дольки (не нужно снимать для очистки).
 
-16. Fuel tube or hose fitting (The hole nearest to the front of the block is for fuel pressure. The hole nearest to the rear of the block is for fuel drain).
+16. Топливная трубка или шланговая установка (отверстие, ближайшее к передней части блока, предназначено для давления топлива). Отверстие, ближайшее к задней части блока, предназначено для слива топлива.
 
 ![[01600015.png]]
 
-Plugs and Dowels - K50 (Top)
+Плагины и полотенца - K50 (Top)
 
-18. Overhead oil rifle restriction plug.
+18. Надбавная масляная винтовка.
 
-19. Cylinder head pin.
+19. Штырь цилиндра.
 
-20. Oil drilling pipe plug (common for vehicle oil pressure gauge fitting).
+20. Штепсель нефтебуровой трубы (обычно для установки калибра давления масла в транспортном средстве).
 
-21. Oil drilling AVSEAL® or pipe plug.
+21. Масляное бурение AVSEAL® или трубная пробка.
 
-22. Oil drilling pipe plug (flange type oil inlet hose for turbocharger in some engines).
+22. Штепсель для бурения нефтяных труб (в некоторых двигателях впускной шланг типа масла для турбокомпрессора).
 
-23. Crankcase drilling cup plug (flange type oil drain hose for turbocharger in some engines).
+23. Картерная пробка для сверления чаши (сливной шланг типа фланга для турбокомпрессора в некоторых двигателях).
 
-24. Crankcase drilling cup plug.
+24. Заглушка для сверления чемодана.
 
-25. Crankcase drilling cup plug (flange type turbocharger drain in some engines; **always** a cup plug on KTTA engines).
+25. Кранкейс сверлильный кружок (слив турбокомпрессора типа фланга в некоторых двигателях; ** всегда ** кружок на двигателях KTTA).
 
-26. Crankcase drilling cup plug (On newer engines, this is a straight threaded tapped hole for the turbocharger support bracket. Older engines contain a hole with pipe threads for a oil drain hose fitting for the turbocharger.).
+26. Разъем для бурения корпуса (на новых двигателях это прямое резьбовое прорезное отверстие для опорного кронштейна турбокомпрессора). Старые двигатели содержат отверстие с резьбой труб для шланга для слива масла, подходящего для турбокомпрессора.
 
-27. Crankcase drilling cup plug (On engines with outboard aftercoolers, a gasket and plate are required. On engines with center mount aftercooler, it is the mounting for the aftercooler water inlet connection.).
+27. Картерная пробка для сверления стакана (На двигателях с подвесными охладителями требуется прокладка и пластина). На двигателях с центральным креплением послеохладителя, это крепление для послеохладительного впускного соединения воды.
 
-28. Lifting bracket holes plug.
+28. Подъем кронштейнов.
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!warning] CAUTION · Осторожно
-> Use care when cleaning the engine block. Machined gasket surfaces and camshaft bushings can be damaged.
+> [!warning] ОСТОРОЖНО
+> Используйте уход при очистке блока двигателя. Поверхности прокладок и втулки распределительного вала могут быть повреждены.
 
-Use a scraper, a wire brush, or a Scotch-Brite™ pad to clean the heavy dirt deposits from the engine block.
+Используйте скребок, проволочную щетку или колодку Scotch-BriteTM для очистки тяжелых отложений грязи от блока двигателя.
 
-- Gasket surfaces
-- Mounting surfaces
-- Cylinder liner counterbore ledge and the press fit areas
-- Cylinder liner packing ring bore
-- Top of the engine block
-- Main bearing saddles and the caps
-- Cup plug bores.
+- Поверхности гаскета
+- Горные поверхности
+- Крыша противоборствующего шлюза цилиндрового лайнера и зоны, подходящие для прессы
+- Цилиндровый цилиндр для упаковки цилиндров
+- Верхняя часть блока двигателя
+- Главная » Седла и колпаки »
+- Кубок штепсельных засовов.
 
-Use a bottle brush with a long handle to clean all the oil passages.
+Используйте щетку для бутылок с длинной ручкой, чтобы очистить все проходы масла.
 
 ![[ck6bdwa.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury. Be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Предотвращение серьезных травм. Обязательно используйте соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> Use a cleaning solution that will not damage the camshaft bushings or the AVSEAL® sleeves.
+> [!warning] ОСТОРОЖНО
+> Используйте чистящий раствор, который не повредит втулки распределительного вала или рукава AVSEAL®.
 
-Remove the engine block from the engine stand and place the block in a cleaning tank.
+Удалите блок двигателя из подставки двигателя и поместите блок в резервуар для очистки.
 
-Follow the instructions of the manufacturer of the cleaning tank and the manufacturer of the cleaning solution.
+Следуйте инструкциям производителя чистящего бака и производителя чистящего раствора.
 
-> [!note] Note · Примечание
-> Cummins Inc. does **not** recommend any specific cleaning solution.
+> [!note] Примечание
+> Cummins Inc. ** не рекомендует какой-либо конкретный раствор для очистки.
 
-Experience indicates that the best results are obtained using a cleaning solution that can be heated to 82°C to 93°C \[180°F to 199°F\].
+Опыт показывает, что наилучшие результаты получают с использованием чистящего раствора, который можно нагревать до 82°C до 93°C \[180°F до 199°F\].
 
-A cleaning tank that will mix and filter the cleaning solution gives the best results.
+Цистерна для очистки, которая будет смешивать и фильтровать раствор для очистки, дает наилучшие результаты.
 
 ![[ck6bdea.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine block damage, make sure all the water is removed from the capscrew holes and the oil passages.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения блока двигателя, убедитесь, что вся вода удалена из болтовых отверстий и нефтяных проходов.
 
-Remove the block from the cleaning tank.
+Удалите блок из резервуара для очистки.
 
-Clean the engine block with a steam cleaner. Make sure all the oil passages are clean.
+Очистите блок двигателя паровым очистителем. Убедитесь, что все нефтяные каналы чистые.
 
-Use compressed air to dry the block.
+Используйте сжатый воздух, чтобы высушить блок.
 
-If the cylinder block is **not** going to be used immediately, apply a coating of preservative oil to prevent rust. Cover the block to prevent dirt from sticking to the oil.
+Если блок цилиндра ** не будет использоваться немедленно, нанесите покрытие из консервантного масла для предотвращения ржавчины. Покройте блок, чтобы предотвратить попадание грязи в масло.
 
 ![[ck6bdeb.png]]
 
-Metallurgical analysis of cross sections of counterbores having circumferential cracks has revealed that the cracks are surface-initiated on the top of the counterbore ledge, and normally do **not** propagate vertically through the counterbore ledge into the coolant passage around the cylinder liner.
+Металлургический анализ поперечных сечений контрбор, имеющих окружные трещины, показал, что трещины инициируются поверхностью на вершине выступа контрборы и обычно распространяются вертикально через выступ контрборы в проход охлаждающей жидкости вокруг цилиндрового лайнера.
 
 ![[01400320.png]]
 
-Check the liner seats of the engine block for pitting.
+Проверьте сиденья лайнера блока двигателя на прокладку.
 
-Pitting on the liner seat is **not** acceptable. This illustration shows an example of pitting in an unacceptable area. This block requires counterbore machining before it can be reused. Contact a Cummins® Authorized Repair Location.
+Питание на линейном сиденье ** не приемлемо. На этой иллюстрации показан пример затопления в неприемлемой области. Этот блок требует обработки контрбора, прежде чем его можно будет повторно использовать. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[ck4slsa.png]]
 
-> [!warning] CAUTION · Осторожно
-> All measurements of the cylinder block must be performed with the block positioned on a flat surface. If the block is mounted on an engine stand, distortion will cause the measurements to be wrong.
+> [!warning] ОСТОРОЖНО
+> Все измерения блока цилиндров должны выполняться с блоком, расположенным на плоской поверхности. Если блок установлен на подставке двигателя, искажение приведет к неправильному измерению.
 
-To inspect the block properly, the counterbore design **must** be determined.
+Для надлежащего осмотра блока необходимо определить конструкцию противоборок ****.
 
-Definition of numerical terms (call-outs):
+Определение числовых терминов (call-outs):
 
-1. Upper counterbore, inside diameter
-2. Counterbore depth
-3. Lower counterbore, inside diameter
-4. Packing ring bore
-5. Counterbore ledge
-6. Counterbore radius.
+1. Верхний контрбор, внутренний диаметр
+2. Глубина контрасбора
+3. Нижняя контрбора, внутренний диаметр
+4. Упаковочный цилиндр
+5. Крыша контрбора
+6. Противоборевой радиус.
 
-Review the following illustrations to determine the counterbore design of the block.
+Просмотрите следующие иллюстрации, чтобы определить дизайн контрбора блока.
 
 ![[ck6brsa.png]]
 
-> [!note] Note · Примечание
-> This section applies to Counterbore Ring - Thick Deck Block Design.
+> [!note] Примечание
+> Данный раздел относится к Counterbore Ring - Thick Deck Block Design.
 
-Most K38 engines with an engine serial number higher than 33100193 contain this design.
+Большинство двигателей K38 с серийным номером двигателя выше 33100193 содержат эту конструкцию.
 
-All K50 engines contain this design.
+Все двигатели К50 имеют такую конструкцию.
 
-The diameter (1) depends on whether standard size or oversize liners were installed.
+Диаметр (1) зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 190.28 | MIN | 7.492 |
-|  | 190.34 | MAX | 7.494 |
-| 0.010 | 190.53 | MIN | 7.502 |
-|  | 190.59 | MAX | 7.504 |
-| 0.020 | 190.79 | MIN | 7.512 |
-|  | 190.85 | MAX | 7.514 |
-| 0.030 | 191.04 | MIN | 7.522 |
-|  | 191.10 | MAX | 7.524 |
-| 0.040 | 191.30 | MIN | 7.532 |
-|  | 191.36 | MAX | 7.534 |
+|  | мм |  | в |
+| Стандартный стандарт | 190.28 | Мин | 7.492 |
+|  | 190.34 | Макс | 7.494 |
+| 0.010 | 190.53 | Мин | 7.502 |
+|  | 190.59 | Макс | 7.504 |
+| 0.020 | 190.79 | Мин | 7.512 |
+|  | 190.85 | Макс | 7.514 |
+| 0.030 | 191.04 | Мин | 7.522 |
+|  | 191.10 | Макс | 7.524 |
+| 0.040 | 191.30 | Мин | 7.532 |
+|  | 191.36 | Макс | 7.534 |
 
-The depth (2) depends on whether standard size or oversize liners were installed. The depth also depends on whether the block was cut for shims.
+Глубина (2) зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры. Глубина также зависит от того, был ли блок разрезан для трамплинов.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 18.24 | MIN | 0.718 |
-|  | 18.29 | MAX | 0.720 |
-| 0.010 | 18.49 | MIN | 0.728 |
-|  | 18.54 | MAX | 0.730 |
-| 0.020 | 18.75 | MIN | 0.738 |
-|  | 18.80 | MAX | 0.740 |
-| 0.030 | 19.00 | MIN | 0.748 |
-|  | 19.05 | MAX | 0.750 |
-| 0.040 | 19.25 | MIN | 0.758 |
-|  | 19.30 | MAX | 0.760 |
+|  | мм |  | в |
+| Стандартный стандарт | 18.24 | Мин | 0.718 |
+|  | 18.29 | Макс | 0.720 |
+| 0.010 | 18.49 | Мин | 0.728 |
+|  | 18.54 | Макс | 0.730 |
+| 0.020 | 18.75 | Мин | 0.738 |
+|  | 18.80 | Макс | 0.740 |
+| 0.030 | 19.00 | Мин | 0.748 |
+|  | 19.05 | Макс | 0.750 |
+| 0.040 | 19.25 | Мин | 0.758 |
+|  | 19.30 | Макс | 0.760 |
 
-The depth can be a maximum of 3.38 mm \[0.133 in\] greater if the block was machined previously for shims and oversize liners.
+Глубина может быть максимум 3,38 мм \[0,133 дюйма \] больше, если блок был обработан ранее для шасси и негабаритных лайнеров.
 
-| (3) Lower Counterbore Inside Diameter |  |  |
+| 3 Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.74 | MIN | 7.155 |
-| 181.79 | MAX | 7.157 |
+| мм |  | в |
+| 181.74 | Мин | 7.155 |
+| 181.79 | Макс | 7.157 |
 
-For engines with engine serial number lower than 33101028
+Для двигателей с серийным номером двигателя ниже 33101028
 
-| Lower Counterbore Inside Diameter |  |  |
+| Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.80 | MIN | 7.157 |
-| 181.81 | MAX | 7.158 |
+| мм |  | в |
+| 181.80 | Мин | 7.157 |
+| 181.81 | Макс | 7.158 |
 
-> [!note] Note · Примечание
-> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+> [!note] Примечание
+> Блок цилиндра может быть использован снова ** только **, если получена правильная подгонка пресса между вкладышем цилиндра и размерами (1).
 
-(6) This design contains a double undercut radius.
+(6) Данная конструкция содержит двойной радиус разреза.
 
-(7) This design contains a counterbore ring that functions as a load distribution washer.
+(7) Эта конструкция содержит противоборное кольцо, которое функционирует как стиральная машина распределения нагрузки.
 
-(8) Counterbore ring height.
+8) Высота колец контрбора.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 5.055 | MIN | 0.1990 |
-|  | 5.067 | MAX | 0.1995 |
-| 0.002 | 5.105 | MIN | 0.2010 |
-|  | 5.118 | MAX | 0.2015 |
-| 0.004 | 5.156 | MIN | 0.2030 |
-|  | 5.169 | MAX | 0.2035 |
+|  | мм |  | в |
+| Стандартный стандарт | 5.055 | Мин | 0.1990 |
+|  | 5.067 | Макс | 0.1995 |
+| 0.002 | 5.105 | Мин | 0.2010 |
+|  | 5.118 | Макс | 0.2015 |
+| 0.004 | 5.156 | Мин | 0.2030 |
+|  | 5.169 | Макс | 0.2035 |
 
-(9) This depth depends on the size of the liner. Liner protrusion **must** be 0.152 to 0.203 mm \[0.006 to 0.008 in\].
+(9) Эта глубина зависит от размера лайнера. Протрузия линейного типа ** должна быть от 0,152 до 0,203 мм \[0,006 до 0,008 дюйма \].
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 13.18 | MIN | 0.519 |
-|  | 13.23 | MAX | 0.521 |
-| 0.010 | 13.44 | MIN | 0.529 |
-|  | 13.49 | MAX | 0.531 |
-| 0.020 | 13.69 | MIN | 0.539 |
-|  | 13.74 | MAX | 0.541 |
-| 0.030 | 13.94 | MIN | 0.549 |
-|  | 14.00 | MAX | 0.551 |
-| 0.040 | 14.20 | MIN | 0.559 |
-|  | 14.25 | MAX | 0.561 |
+|  | мм |  | в |
+| Стандартный стандарт | 13.18 | Мин | 0.519 |
+|  | 13.23 | Макс | 0.521 |
+| 0.010 | 13.44 | Мин | 0.529 |
+|  | 13.49 | Макс | 0.531 |
+| 0.020 | 13.69 | Мин | 0.539 |
+|  | 13.74 | Макс | 0.541 |
+| 0.030 | 13.94 | Мин | 0.549 |
+|  | 14.00 | Макс | 0.551 |
+| 0.040 | 14.20 | Мин | 0.559 |
+|  | 14.25 | Макс | 0.561 |
 
-If the upper counterbore is **not** within standard specifications, the block **must** be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если верхняя противоборка ** не** в стандартных спецификациях, блок ** должен быть обработан для негабаритных лайнеров.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-If the block is larger than the specification for the largest oversize, a repair sleeve can be installed.
+Если блок больше, чем спецификация для самого большого размера, может быть установлен ремонтный рукав.
 
-[[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-If **only** the counterbore depth (2) is **not** within specifications, the block **must** be machined for shims. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]] Before machining the block for shims, check to see if the protrusion can be corrected by installing an oversize counterbore ring.
+Если ** только *** глубина противоборства (2) ** не** в пределах спецификаций, блок *** должен быть обработан для тиснителей.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]Перед обработкой блока для шимов проверьте, можно ли исправить выступ, установив противоборное кольцо негабаритного размера.
 
 ![[ck6brsb.png]]
 
-> [!note] Note · Примечание
-> This section applies to Thin Deck Block - Double Undercut Radius Design.
+> [!note] Примечание
+> В этом разделе вы найдете описание Thin Deck Block - Double Undercut Radius Design.
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to machine blocks of this design for a counterbore ring, as it will cause the block to break.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь автоматизировать блоки этой конструкции для противоборствующего кольца, так как это приведет к разрыву блока.
 
-Some K38 standby generator set engines with an engine serial number higher than 33100193 contain this design.
+Некоторые двигатели К38 с серийным номером двигателя выше 33100193 содержат эту конструкцию.
 
-No K50 engines contain this design.
+Двигатели К50 не имеют такой конструкции.
 
-(1) The actual size depends on whether the standard size or the oversize liners were installed.
+(1) Фактический размер зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 190.276 | MIN | 7.4912 |
-|  | 190.343 | MAX | 7.4938 |
-| 0.01" | 190.530 | MIN | 7.5012 |
-|  | 190.597 | MAX | 7.5038 |
-| 0.02" | 190.784 | MIN | 7.5112 |
-|  | 190.851 | MAX | 7.5138 |
-| 0.03" | 191.038 | MIN | 7.5212 |
-|  | 191.105 | MAX | 7.5238 |
-| 0.04" | 191.292 | MIN | 7.5312 |
-|  | 191.359 | MAX | 7.5338 |
+|  | мм |  | в |
+| Стандартный стандарт | 190.276 | Мин | 7.4912 |
+|  | 190.343 | Макс | 7.4938 |
+| 0.01" | 190.530 | Мин | 7.5012 |
+|  | 190.597 | Макс | 7.5038 |
+| 0.02" | 190.784 | Мин | 7.5112 |
+|  | 190.851 | Макс | 7.5138 |
+| 0.03" | 191.038 | Мин | 7.5212 |
+|  | 191.105 | Макс | 7.5238 |
+| 0.04" | 191.292 | Мин | 7.5312 |
+|  | 191.359 | Макс | 7.5338 |
 
-(2) These specifications are required for a liner protrusion of 0.152 to 0.203 mm \[0.006 to 0.008 in\]. The protrusion specification has changed since blocks with this design were introduced. The actual size depends on whether the standard size or the oversize liners were installed, and if the block was machined for shims.
+(2) Эти спецификации необходимы для протрузии лайнера от 0,152 до 0,203 мм \[0,006 до 0,008 дюйма \]. Спецификация протрузии изменилась с тех пор, как были введены блоки с этой конструкцией. Фактический размер зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры, и был ли блок обработан для шампиньонов.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 13.18 | MIN | 0.519 |
-|  | 13.23 | MAX | 0.521 |
-| 0.010 | 13.44 | MIN | 0.529 |
-|  | 13.49 | MAX | 0.531 |
-| 0.020 | 13.69 | MIN | 0.539 |
-|  | 13.74 | MAX | 0.541 |
-| 0.030 | 13.94 | MIN | 0.549 |
-|  | 14.00 | MAX | 0.551 |
-| 0.040 | 14.20 | MIN | 0.559 |
-|  | 14.25 | MAX | 0.561 |
+|  | мм |  | в |
+| Стандартный стандарт | 13.18 | Мин | 0.519 |
+|  | 13.23 | Макс | 0.521 |
+| 0.010 | 13.44 | Мин | 0.529 |
+|  | 13.49 | Макс | 0.531 |
+| 0.020 | 13.69 | Мин | 0.539 |
+|  | 13.74 | Макс | 0.541 |
+| 0.030 | 13.94 | Мин | 0.549 |
+|  | 14.00 | Макс | 0.551 |
+| 0.040 | 14.20 | Мин | 0.559 |
+|  | 14.25 | Макс | 0.561 |
 
-| (3) Lower Counterbore Inside Diameter |  |  |
+| 3 Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.74 | MIN | 7.155 |
-| 181.79 | MAX | 7.157 |
+| мм |  | в |
+| 181.74 | Мин | 7.155 |
+| 181.79 | Макс | 7.157 |
 
-For engines with engine serial number lower than 33101028
+Для двигателей с серийным номером двигателя ниже 33101028
 
-| Lower Counterbore Inside Diameter |  |  |
+| Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.80 | MIN | 7.157 |
-| 181.81 | MAX | 7.158 |
+| мм |  | в |
+| 181.80 | Мин | 7.157 |
+| 181.81 | Макс | 7.158 |
 
-> [!note] Note · Примечание
-> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+> [!note] Примечание
+> Блок цилиндра может быть использован снова ** только **, если получена правильная подгонка пресса между вкладышем цилиндра и размерами (1).
 
-(6) This design has the double undercut radius.
+(6) Эта конструкция имеет двойной радиус разреза.
 
-If the upper counterbore is **not** within standard specifications, the block **must** be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если верхняя противоборка ** не** в стандартных спецификациях, блок ** должен быть обработан для негабаритных лайнеров.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-If **only** the counterbore depth (2) is **not** within specifications, the block **must** be machined for shims. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если ** только *** глубина противоборства (2) ** не** в пределах спецификаций, блок *** должен быть обработан для тиснителей.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-If the block is larger than the specification for the largest oversize liner, a repair sleeve can be installed. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если блок больше, чем спецификация для самого большого лайнера, может быть установлен ремонтный рукав.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-It is recommended that a block of this design be used **only** for K38 standby generator set applications.
+Рекомендуется использовать блок этой конструкции **только** для приложений резервного генераторного набора K38.
 
 ![[ck4brgb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to machine blocks of this design for a counterbore ring as it will cause the block to break.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь автоматизировать блоки этой конструкции для противоборствующего кольца, так как это приведет к разрыву блока.
 
-Thin Deck Block Design:
+Дизайн блока тонкой палубы:
 
-Most K38 engines with an engine serial number lower than 33100193 contain this design.
+Большинство двигателей K38 с серийным номером двигателя ниже 33100193 содержат эту конструкцию.
 
-No K50 engines contain this design.
+Двигатели К50 не имеют такой конструкции.
 
-(1) The actual size depends on whether the standard size or oversize liners were installed.
+(1) Фактический размер зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры.
 
-Standard
+Стандартный стандарт
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 190.276 | MIN | 7.4912 |
-|  | 190.343 | MAX | 7.4938 |
-| 0.01" | 190.530 | MIN | 7.5012 |
-|  | 190.597 | MAX | 7.5038 |
-| 0.02" | 190.784 | MIN | 7.5112 |
-|  | 190.851 | MAX | 7.5138 |
-| 0.03" | 191.038 | MIN | 7.5212 |
-|  | 191.105 | MAX | 7.5238 |
-| 0.04" | 191.292 | MIN | 7.5312 |
-|  | 191.359 | MAX | 7.5338 |
+|  | мм |  | в |
+| Стандартный стандарт | 190.276 | Мин | 7.4912 |
+|  | 190.343 | Макс | 7.4938 |
+| 0.01" | 190.530 | Мин | 7.5012 |
+|  | 190.597 | Макс | 7.5038 |
+| 0.02" | 190.784 | Мин | 7.5112 |
+|  | 190.851 | Макс | 7.5138 |
+| 0.03" | 191.038 | Мин | 7.5212 |
+|  | 191.105 | Макс | 7.5238 |
+| 0.04" | 191.292 | Мин | 7.5312 |
+|  | 191.359 | Макс | 7.5338 |
 
 ![[ck4brgg.png]]
 
-> [!note] Note · Примечание
-> These specifications are those required for a liner protrusion of 0.152 mm to 0.203 mm \[0.006 in to 0.008 in\]. The protrusion specification has changed since blocks with this design were produced.
+> [!note] Примечание
+> Эти спецификации являются теми, которые необходимы для протрузии лайнера от 0,152 мм до 0,203 мм \[0,006 до 0,008 дюйма \]. Спецификация протрузии изменилась с тех пор, как были изготовлены блоки с этой конструкцией.
 
-(2) The actual size depends on whether the standard size or the oversize liners were installed, and if the block was machined for shims.
+(2) Фактический размер зависит от того, были ли установлены стандартные размеры или негабаритные лайнеры, и был ли блок обработан для шасси.
 
-| Oversize |  |  |  |
+| негабаритный |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Standard | 13.16 | MIN | 0.519 |
-|  | 13.23 | MAX | 0.521 |
-| 0.010 | 13.41 | MIN | 0.529 |
-|  | 13.49 | MAX | 0.531 |
-| 0.020 | 13.67 | MIN | 0.539 |
-|  | 13.74 | MAX | 0.541 |
-| 0.030 | 13.92 | MIN | 0.549 |
-|  | 14.00 | MAX | 0.551 |
-| 0.040 | 14.17 | MIN | 0.559 |
-|  | 14.25 | MAX | 0.561 |
+|  | мм |  | в |
+| Стандартный стандарт | 13.16 | Мин | 0.519 |
+|  | 13.23 | Макс | 0.521 |
+| 0.010 | 13.41 | Мин | 0.529 |
+|  | 13.49 | Макс | 0.531 |
+| 0.020 | 13.67 | Мин | 0.539 |
+|  | 13.74 | Макс | 0.541 |
+| 0.030 | 13.92 | Мин | 0.549 |
+|  | 14.00 | Макс | 0.551 |
+| 0.040 | 14.17 | Мин | 0.559 |
+|  | 14.25 | Макс | 0.561 |
 
-| (3) Lower Counterbore Inside Diameter |  |  |
+| 3 Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.74 | MIN | 7.155 |
-| 181.79 | MAX | 7.157 |
+| мм |  | в |
+| 181.74 | Мин | 7.155 |
+| 181.79 | Макс | 7.157 |
 
-For engines with engine serial number lower than 33101028.
+Для двигателей с серийным номером двигателя ниже 33101028.
 
-| Lower Counterbore Inside Diameter |  |  |
+| Нижний контрбор внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 181.80 | MIN | 7.157 |
-| 181.81 | MAX | 7.158 |
+| мм |  | в |
+| 181.80 | Мин | 7.157 |
+| 181.81 | Макс | 7.158 |
 
-> [!note] Note · Примечание
-> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+> [!note] Примечание
+> Блок цилиндра может быть использован снова ** только **, если получена правильная подгонка пресса между вкладышем цилиндра и размерами (1).
 
-This design does **not** contain the double undercut radius.
+Эта конструкция не содержит двойного радиуса подреза.
 
-It is recommended that a block of this design be used **only** for K38 standby generator set applications or those applications requiring a rated power of 675 kw \[900 bhp\] or less.
+Рекомендуется использовать блок этой конструкции **только** для приложений резервных генераторных установок K38 или тех приложений, которые требуют номинальной мощности 675 кВт \[900 л.с. \] или менее.
 
 ![[ck4brgg.png]]
 
-> [!note] Note · Примечание
-> This section applies to All Cylinder Blocks.
+> [!note] Примечание
+> Данный раздел относится ко всем блокам цилиндров.
 
-> [!warning] CAUTION · Осторожно
-> Make sure the micrometer contacts the flat surface of the ledge. It must not touch the radius.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что микрометр контактирует с плоской поверхностью выступа. Не должно касаться радиуса.
 
-Use a depth micrometer. Measure the counterbore depth at the four places shown.
+Используйте микрометр глубины. Измерьте глубину противоборства в четырех показанных местах.
 
-The four measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurements exceed the specification, the counterbore ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Четыре измерения ** не должны ** изменяться более чем на 0,25 мм \[0,001 в\]. Если измерения превышают спецификацию, то необходимо обработать выступ контрборе ***.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
 ![[ck4brta.png]]
 
-> [!warning] CAUTION · Осторожно
-> Be sure that the indicator does not contact the counterbore radius on a block that does not have a double undercut.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что индикатор не контактирует с радиусом встречной стрелки на блоке, который не имеет двойного подреза.
 
-Use an indicator and a gauge block, Part Number 3164438, or equivalent. Measure the angle of the counterbore ledge at no less than four places on the counterbore circumference.
+Используйте индикатор и измерительный блок, номер детали 3164438, или эквивалент. Измерить угол выступа контрбора не менее чем в четырех местах по окружности контрбора.
 
-The measurement of the ledge depth **must** be as near to the counterbore radius as possible, and as near to the counterbore edge as possible.
+Измерение глубины выступа должно быть как можно ближе к радиусу противоборства и как можно ближе к краю противоборства.
 
 ![[ck4brtb.png]]
 
-The angle (20) of the counterbore ledge is acceptable (OK) if the measurement that is near the counterbore edge is the same, or no more than 0.036 mm \[0.0014 in\] shorter, than the measurement near the counterbore radius.
+Угол (20) выступа противного бора приемлем (ОК), если измерение, которое находится вблизи края противного бора, является одинаковым или не более 0,036 мм \[0,0014 в\] короче, чем измерение вблизи радиуса противного бора.
 
-If the measurement near the counterbore ledge is longer than the measurement near the counterbore radius, the ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если измерение вблизи выступа против бора длиннее, чем измерение вблизи радиуса противоборства, выступ *** должен быть обработан.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
 ![[ck8brna.png]]
 
-Use a Crack Detection Kit, Part Number 3375432, or equivalent. Check the counterbore ledge for cracks.
+Используйте набор для обнаружения трещин, номер детали 3375432 или эквивалент. Проверьте выступ контрбора на наличие трещин.
 
-Circumferential cracks are acceptable (OK) if they do **not** extend more than half of the distance across the ledge.
+Обходные трещины допустимы (ОК), если они *** не** простираются более чем на половину расстояния по выступу.
 
-Any cracks that extend into a water hole are **not** acceptable (**not** OK). Do **not** use the block.
+Любые трещины, которые распространяются в отверстие для воды, ** не приемлемы (** не** ОК). **Не использовать блок.
 
-Any cracks that extend into a capscrew hole are **not** acceptable (**not** OK). The block can be used if a capscrew hole thread insert is installed in the capscrew hole. See Alternative Repair Manual, Bulletin 3379035.
+Любые трещины, которые распространяются в отверстие болтов, ** не приемлемы (**не** OK). Блок может быть использован, если в отверстие болтов установлена вставка для потока болтов. См. Alternative Repair Manual, Bulletin 3379035.
 
 ![[ck8brnb.png]]
 
-Measure the inside diameter of the upper counterbore. The point of measurement **must** be within 2.5 mm \[0.100 in\] from the top of the block (1).
+Измерьте внутренний диаметр верхней контрборы. Точка измерения ** должна быть в пределах 2,5 мм \[0,100 в\] от верхней части блока (1).
 
-The inside diameter of the upper counterbore **must** be round within 0.025 mm \[0.001 in\]. If the measurement is **not** within specification, check to determine if the block can be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Внутренний диаметр верхней контрборы ** должен быть круглым в пределах 0,025 мм \[0,001 дюйма \]. Если измерение ** не** в пределах спецификации, проверьте, можно ли обработать блок для негабаритных лайнеров.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-> [!note] Note · Примечание
-> The upper counterbore **must** be no more than 0.025 mm \[0.001 in\] larger than the cylinder liner flange, or no more than 0.076 mm \[0.003 in\] smaller than the cylinder liner flange.
+> [!note] Примечание
+> Верхняя контрбора ** должна** быть не более 0,025 мм \[0,001 дюйма \] больше, чем фланец цилиндрового лайнера, или не более 0,076 мм \[0,003 дюйма \] меньше, чем фланец цилиндрового лайнера.
 
 ![[ck6brsc.png]]
 
-Measure the inside diameter of the lower counterbore. The point of measurement **must** be within 2.5 mm \[0.100 in\] from the top of the counterbore ledge (3).
+Измерьте внутренний диаметр нижней противоборки. Точка измерения ** должна быть в пределах 2,5 мм \[0,100 дюйма \] от верхней части выступа контрборе (3).
 
-The inside diameter of the lower counterbore **must** be round within 0.025 mm \[0.001 in\].
+Внутренний диаметр нижней противоборки ** должен быть круглым в пределах 0,025 мм \[0,001 дюйма \].
 
-If the inside diameter of the lower counterbore is larger than the specification, the block can be used **only** if the outside diameter of the liner flange is 0.025 mm \[0.001 in\] larger than the inside diameter of the upper counterbore (1). If there is **not** a press fit between the liner and the upper counterbore, the block **must** be machined for oversize liners.
+Если внутренний диаметр нижней противоборки больше спецификации, блок может быть использован только ***, если внешний диаметр фланца лайнера составляет 0,025 мм \[0,001 дюйма \] больше внутреннего диаметра верхней противоборки (1). Если между лайнером и верхней встречной штангой имеется **не**, блок *** должен быть обработан для негабаритных лайнеров.
 
 ![[ck6brsd.png]]
 
-Check the chamfer at the top of the packing ring bore. Excessive pitting **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+Проверьте шарнир в верхней части цилиндра упаковочного кольца. Излишнюю грязь** надо починить. См. Руководство по альтернативному ремонту, Вестник 3379035.
 
-Measure the Inside Diameter.
+Измерьте внутренний диаметр.
 
-| (4) Packing Ring Bore |  |  |
+| 4) Упаковочный цилиндр с кольцом |  |  |
 |---|---|---|
-| mm |  | in |
-| 177.32 | MIN | 6.981 |
-| 177.48 | MAX | 6.987 |
+| мм |  | в |
+| 177.32 | Мин | 6.981 |
+| 177.48 | Макс | 6.987 |
 
 ![[ck6brse.png]]
 
-Measure the inside diameter of the bore for the camshaft idler shafts.
+Измерить внутренний диаметр цилиндра, который был установлен для распределительных валов холостого хода.
 
-> [!note] Note · Примечание
-> Some engines have camshaft idler shaft bores that have the same inside diameter specification as the new water pump idler bore.
+> [!note] Примечание
+> Некоторые двигатели имеют распредвальные валы, которые имеют те же характеристики внутреннего диаметра, что и новый цилиндрический цилиндр водяного насоса.
 
-| Camshaft Idler Shaft Bore Inside Diameter |  |  |
+| Распредвальный цилиндр Idler Shaft с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 25.362 | MIN | 0.9985 |
-| 25.412 | MAX | 1.000 |
+| мм |  | в |
+| 25.362 | Мин | 0.9985 |
+| 25.412 | Макс | 1.000 |
 
-If the bore is **not** within specifications, a repair sleeve can be installed. See to the Alternative Repair Manual, Bulletin 3379035.
+Если цилиндрический штанга ** не** в пределах спецификаций, можно установить ремонтный рукав. См. Alternative Repair Manual, Bulletin 3379035.
 
 ![[ck6brsf.png]]
 
-The bore for the water pump idler shaft can be one of two designs.
+Цилиндр, который служит для вала водяного насоса, может быть одной из двух конструкций.
 
-Newer cylinder blocks and blocks that have been repaired for the new shaft have a counterbore (13) and (14).
+Новые блоки цилиндров и блоки, которые были отремонтированы для нового вала, имеют противоборство (13) и (14).
 
-Dimensions **must** be within 0.051 mm \[.002 in\] at all locations on any bore.
+Размеры ** должны быть в пределах 0,051 мм \[.002 в\] во всех местах на любом цилиндре.
 
-| Water Pump Idler Shaft Counter Bore - New (13) |  |  |
+| Водяной насос Idler Shaft Counter Bore - новый (13) |  |  |
 |---|---|---|
-| mm |  | in |
-| 43.18 | MIN | 1.7000 |
-| 43.244 | MAX | 1.7025 |
+| мм |  | в |
+| 43.18 | Мин | 1.7000 |
+| 43.244 | Макс | 1.7025 |
 
-| Water Pump Idler Shaft Counter Bore Depth - New (14) |  |  |
+| Водяной насос Idler Shaft Counter цилиндровый с глубиной - новый (14) |  |  |
 |---|---|---|
-| mm |  | in |
-| 4.57 | MIN | 0.180 |
-| 5.08 | MAX | 0.200 |
+| мм |  | в |
+| 4.57 | Мин | 0.180 |
+| 5.08 | Макс | 0.200 |
 
-| Water Pump Idler Shaft Bore - New (15) |  |  |
+| Водяной насос Idler Шафт цилиндра бор - новый (15) |  |  |
 |---|---|---|
-| mm |  | in |
-| 22.00 | MIN | 0.866 |
-| 22.25 | MAX | 0.876 |
+| мм |  | в |
+| 22.00 | Мин | 0.866 |
+| 22.25 | Макс | 0.876 |
 
 ![[ck6brsg.png]]
 
-Older cylinder blocks do **not** contain the counterbore.
+Старые блоки цилиндров ** не** содержат противоборок.
 
-| Water Pump Idler Shaft Bore - Old (16) |  |  |
+| Водяной насос Idler Шафт цилиндровый бор - Старый (16) |  |  |
 |---|---|---|
-| mm |  | in |
-| 25.37 | MIN | 0.999 |
-| 25.40 | MAX | 1.000 |
+| мм |  | в |
+| 25.37 | Мин | 0.999 |
+| 25.40 | Макс | 1.000 |
 
-An Idler Bore Kit, Part Number 3822548, is available to modify the bore for the new shaft. The old shaft is available for service.
+Комплект цилиндра Idler, номер детали 3822548, доступен для модификации цилиндра для нового вала. Старый вал доступен для обслуживания.
 
 ![[ck6brsh.png]]
 
-Use a precision straight edge, Part Number 4918219, or equivalent (17).
+Используйте точный прямой край, номер детали 4918219, или эквивалент (17).
 
-Check the head deck of the block for wear. If fretting is visible in an area where a head gasket seal ring or a grommet touches, the surface **must** be repaired.
+Проверьте головную палубу блока на предмет износа. Если трения видны в области, где касается кольца уплотнения прокладки головы или громета, поверхность *** должна быть отремонтирована.
 
-Fretting damage in any other area is acceptable if it does **not** reduce the ability to measure the liner protrusion accurately.
+Ущерб от трения в любой другой области допустим, если он не уменьшает способность точно измерять выступ лайнера.
 
-See the Alternative Repair Manual, Bulletin 3379035, for machining instructions.
+См. Руководство по альтернативному ремонту, Бюллетень 3379035, для инструкций по обработке.
 
-A newly machined surface **must** be flat within 0.051 mm \[0.002 in\] under a cylinder head. Waves on the surface are acceptable as long as they are no more than 0.018 mm \[0.0007 in\] in height. The high and low points of the waves **must not** be any closer than 25.4 mm \[1.0 in\].
+Новая обработанная поверхность ** должна быть плоской в пределах 0,051 мм \[0,002 дюйма \] под головкой цилиндра. Волны на поверхности приемлемы, если они не более 0,018 мм \[0,0007 дюйма \] в высоту. Высокая и низкая точки волн ** не должны быть ближе 25,4 мм \[1,0 дюйма \].
 
-A newly machined surface **must** be within the specifications for block height as stated in the next illustration. If the top surface of the block is machined, the ledge depth of the cylinder liner counterbore **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Новая обработанная поверхность ** должна быть в пределах спецификаций для высоты блока, как указано в следующей иллюстрации. Если верхняя поверхность блока обработана, то должна быть обработана глубина выступа противоборства цилиндрового лайнера ***.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
 ![[ck6bdta.png]]
 
-> [!warning] CAUTION · Осторожно
-> The parting line of the main bearing cap is not the same height as the centerline of the main bearing bore.
+> [!warning] ОСТОРОЖНО
+> Распределительная линия главного подшипника не имеет такой же высоты, как центральная линия главного подшипника цилиндра.
 
-Measure the height of the cylinder block.
+Измерьте высоту блока цилиндров.
 
-| (18) Cylinder Block Height |  |  |
+| 18 Цилиндровый блок высота |  |  |
 |---|---|---|
-| mm |  | in |
-| 481.94 | MIN | 18.974\* |
-| 482.78 | MAX | 19.007 |
+| мм |  | в |
+| 481.94 | Мин | 18.974\* |
+| 482.78 | Макс | 19.007 |
 
-\* If the height of the block is less than 482.45 mm \[18.994 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be installed.
+* Если высота блока меньше 482,45 мм[18,94 дюйма], то должна быть установлена прокладка головы размером 0,51 мм[0,020 дюйма].
 
-If the checking ring or the centering ring is **not** available, the height of the block can be measured from the top of the main bearing saddle.
+Если контрольное кольцо или центрирующее кольцо ** недоступно, высоту блока можно измерить с верхней части основного несущего седла.
 
-| (19) Cylinder Block Height - Main Bearing Saddle |  |  |
+| (19) Цилиндровая высота блока - главное несущее седло |  |  |
 |---|---|---|
-| mm |  | in |
-| 395.00 | MIN | 15.551\* |
-| 395.81 | MAX | 15.583 |
+| мм |  | в |
+| 395.00 | Мин | 15.551\* |
+| 395.81 | Макс | 15.583 |
 
-\* If the block height (19) is less than 395.48 mm \[15.570 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be installed.
+* Если высота блока (19) меньше 395,48 мм \[15,570 дюйма \], необходимо установить прокладку головы размером 0,51 мм \[0,020 дюйма \].
 
-The height of the block **must not** vary more than 0.08 mm \[0.003 in\] from end-to-end of the block. If the block height is **not** within specifications, the top surface of the block **must** be machined or the block **must** be replaced.
+Высота блока ** не должна ** изменяться более чем на 0,08 мм \[0,003 в\] от конца до конца блока. Если высота блока ** не** в пределах спецификаций, верхняя поверхность блока ** должна быть обработана или блок ** должен быть заменен.
 
-> [!note] Note · Примечание
-> If the head deck surface of the block is machined, the ledge depth of the cylinder liner counterbore **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+> [!note] Примечание
+> Если обрабатывается поверхность головной палубы блока, то обрабатывается глубина выступа противоборки цилиндрового лайнера ***.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-The cylinder block height of the two engine banks **must not** vary more than 0.13 mm \[0.005 in\] between the banks.
+Высота блока цилиндров двух банков двигателей ** не должна ** изменяться более чем на 0,13 мм \[0,005 дюйма \] между банками.
 
 ![[ck6bdtb.png]]
 
-The cylinder bore angle does **not** need to be measured, but **must** be maintained if the cylinder head surface is machined.
+Угол наклона цилиндра в цилиндре ** не** должен быть измерен, но *** должен поддерживаться, если поверхность головки цилиндра обработана.
 
 ![[ck6bdtc.png]]
 
-Check the amount of copper exposure on the camshaft bushing. If it extends more than 120 degrees around the bushing, the bushing **must** be replaced. [[28-001-010-tr — Camshaft Bushings|Refer to Procedure 001-010 in Section 1.]] [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Проверьте количество воздействия меди на втулку распределительного вала. Если он простирается более чем на 120 градусов вокруг втулки, втулку *** следует заменить.[[28-001-010-tr — Camshaft Bushings|См. процедуру 001-010 в разделе 1.]] [[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
-Measure the inside diameter
+Измерить внутренний диаметр
 
-| Camshaft Bushing Inside Diameter |  |  |
+| Распредвал бушинг внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 76.200 | MIN | 3.0000 |
-| 76.289 | MAX | 3.0035 |
+| мм |  | в |
+| 76.200 | Мин | 3.0000 |
+| 76.289 | Макс | 3.0035 |
 
-If the bushing is **not** within specifications, the bushing **must** be replaced. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если втулка ** не** в пределах спецификаций, то втулка *** должна быть заменена.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
 ![[ck6brsi.png]]
 
-Measure Main Bearing Bore Alignment
+Измерение Главного несущего цилиндра выравнивание
 
-Use three centering rings, Part Number 3375063, 17.368 mm \[6.8465 in\] diameter. Put the rings in the number "1", "4", and "7" main bearing saddles of the K38 cylinder block.
+Используйте три центрирующих кольца, номер детали 3375063, 17.368 мм \[6.8465 в \] диаметр. Поместите кольца в число «1», «4», «7» основных несущих седлов блока цилиндров К38.
 
 ![[ck6brsj.png]]
 
-On the K50 engine, put the rings in the number "1", "5", and "9" main bearing saddles.
+На двигатель К50 ставят кольца в число «1», «5», «9» седлами главного несущего.
 
 ![[ck6brsk.png]]
 
-> [!warning] CAUTION · Осторожно
-> The main bearing caps are numbered through "7" on the K38, and through "9" on the K50 engines. Install each cap in the correct location. Number "1" cap is to be installed at the front of the block. The slot in the cap for the bearing tang must be on the same side as the slot in the block.
+> [!warning] ОСТОРОЖНО
+> Основные подшипники пронумерованы через «7» на К38, а через «9» на двигателях К50. Установите каждый колпачок в правильном месте. Шапка «1» должна быть установлена в передней части блока. Слот в крышке для подшипника должен быть на той же стороне, что и слот в блоке.
 
-Use clean engine oil to lubricate the capscrew threads, heads, and washers.
+Используйте чистое моторное масло для смазки болтов, головок и шайб.
 
-Install each capscrew and washer (21) by hand to be sure they are positioned properly.
+Установите каждый болт и стиральную машину (21) вручную, чтобы убедиться, что они расположены правильно.
 
-Use a mallet to install the caps until they touch the block.
+Используйте молоток для установки колпачков, пока они не коснутся блока.
 
-If any of the caps do **not** require force during installation, mark the cap to check the side clearance.
+Если какой-либо из колпачков ** не** требует силы во время установки, пометьте колпачок, чтобы проверить боковой зазор.
 
-See Alternative Repair Manual, Bulletin 3379035, for instructions to replace the cap.
+См. Alternative Repair Manual, Bulletin 3379035, for instructions to replace the cap.
 
-Install and tighten the side bolts (22) and washers. [[28-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1, for side bolt and main bearing capscrew torque steps.]]
+Установите и затяните боковые болты (22) и шайбы.[[28-001-006-tr — Bearings, Main|См. процедуру 001-006 в разделе 1, для боковых болтов и основных несущих болтов, имеющих крутящий момент.]]
 
 ![[ck6brsl.png]]
 
-> [!note] Note · Примечание
-> The next three illustrations cover checking the number "1" main bearing bore on a K19 engine. The procedure and specifications are the same for the K38 and K50 engines.
+> [!note] Примечание
+> Следующие три иллюстрации охватывают проверку номера «1» основного несущего цилиндра, который был установлен на двигателе K19. Процедура и спецификации одинаковы для двигателей К38 и К50.
 
-Use clean engine oil to lubricate the inside diameter of the centering rings.
+Используйте чистое моторное масло для смазки внутреннего диаметра центрирующих колец.
 
-Install the alignment and boring bar, Part Number 3375061, in the centering rings. The bar **must** turn easily. If the bar does **not** turn easily, check to make sure that the main bearing caps are installed correctly. If they appear to be correct, move one of the centering rings to another bearing location.
+Установите выравнивание и скучную планку, Часть Номер 3375061, в центрирующие кольца. Бар должен легко поворачиваться. Если бар поворачивается **не**, проверьте, правильно ли установлены основные колпачки подшипников. Если они кажутся правильными, переместите одно из центральных колец в другое место подшипника.
 
 ![[mb4brda.png]]
 
-Install the checking ring, Part Number 3375064, 173.81 mm \[6.8430 in\] diameter, by hand, in the main bearing bore. If the ring does **not** slide through the bore, check the bore for burrs. If the ring still does **not** slide through the bore, the bore is undersize and **must** be repaired.
+Установите контрольное кольцо, номер детали 3375064, 173,81 мм \[6,8430 в\] диаметром вручную, в основной несущий цилиндр. Если кольцо **не** скользит по цилиндру, проверьте цилиндр на наличие заусениц. Если кольцо все еще скользит через цилиндрический отсек, то цилиндрический отсек имеет меньший размер и должен быть отремонтирован.
 
-See the Alternative Repair Manual, Bulletin 3379035.
+См. Руководство по альтернативному ремонту, Вестник 3379035.
 
 ![[mb4brdb.png]]
 
-Use a 0.076 mm \[0.003 in\] feeler gauge that is a maximum of 13 mm \[0.5 in\] wide.
+Используйте калибр для считывания 0,076 мм \[0,003 in\], который имеет ширину максимум 13 мм \[0,5 in\].
 
-Center the checking ring in the bore. Try to put the feeler gauge between the checking ring and the bore. Rotate the gauge in the bore at both sides of the checking ring.
+В центре проверочного кольца в цилиндре. Постарайтесь поставить калибр между контрольным кольцом и цилиндром. Поверните калибр в цилиндре, который был с обеих сторон контрольного кольца.
 
-The bore alignment of the main bearing is acceptable if:
+Выравнивание цилиндра основного подшипника допустимо, если:
 
-- the gauge does **not** enter at any point
-- the gauge will enter, but will **not** slide through or around the bore, and the alignment bar will rotate with the gauge inserted.
+- Калибр ** не** вводится в любой момент
+- Калибр войдет, но ** не** не будет скользить через или вокруг цилиндра, и выравнивающая панель будет вращаться с вставленным калибром.
 
-The bore alignment of the main bearing is **not** acceptable if:
+Выравнивание цилиндра основного подшипника ** не** приемлемо, если:
 
-- the gauge enters and slides around the bore. This means that the bore is oversize and **must** be repaired.
-- the gauge will enter on one side **only**, but can slide around the bore. This means that the bore is tapered and **must** be repaired.
+- Калибр входит и скользит вокруг цилиндра. Это означает, что цилиндрический отсек имеет большой размер и должен быть отремонтирован.
+- Калибр войдет с одной стороны **только **, но может скользить по цилиндру. Это означает, что цилиндрический отсек сужен и ** должен быть отремонтирован.
 
 ![[mb4brdc.png]]
 
-If the tools to check the main bearing bore alignment are **not** available, use a dial bore indicator.
+Если инструменты для проверки выравнивания несущих цилиндров ** не доступны, используйте индикатор цилиндров с циферблатом.
 
-Measure the inside diameter in the three positions shown. The inside diameter **must** be round within 0.013 mm \[0.0005 in\].
+Измерьте внутренний диаметр в трех показанных положениях. Внутренний диаметр ** должен быть круглым в пределах 0,013 мм \[0,0005 дюйма \].
 
-| Main Bearing Bore Inside Diameter (Capscrews Torqued to Specification) |  |  |
+| Основной несущий цилиндр с внутренним диаметром (болты, прикрученные к спецификации) |  |  |
 |---|---|---|
-| mm |  | in |
-| 173.86 | MIN | 6.845 |
-| 173.89 | MAX | 6.846 |
+| мм |  | в |
+| 173.86 | Мин | 6.845 |
+| 173.89 | Макс | 6.846 |
 
-> [!note] Note · Примечание
-> Make sure the weight of the dial bore indicator does **not** interfere with the measurement. Keep the solid stem of the indicator against the wall of the bore.
+> [!note] Примечание
+> Убедитесь, что вес индикатора цилиндра циферблата не мешает измерению. Держите твердый стебель индикатора против стенки цилиндра.
 
 ![[ck6brsm.png]]
 
-Check the main bearing caps that are loose. The main bearing cap **must** be replaced if it is **not** 0.000 to 0.025 mm \[0.0000 to 0.0010 in\] larger than the block as shown.
+Проверьте основные колпачки подшипников, которые являются рыхлыми. Основной подшипник *** должен быть заменен, если он **не** от 0,000 до 0,025 мм \[0,0000 до 0,0010 в\] больше блока, как показано.
 
-Service caps do **not** have the bore machined to a final specification. If a cap is replaced, the main bearing bore **must** be machined. Use the correct parts of the main bearing boring tool, Part Number ST-1177. See the Alternative Repair Manual, Bulletin 3379035.
+Обслуживающие крышки ** не** имеют цилиндрическую стволу, обработанную до окончательной спецификации. Если крышка заменена, то основной несущий цилиндр должен быть обработан. Используйте правильные части основного инструмента для прокачки подшипника, часть номер ST-1177. См. Руководство по альтернативному ремонту, Вестник 3379035.
 
 ![[ck6brsn.png]]
 
-Check the water holes (23). If erosion or pitting exceeds 0.08 mm \[0.003 in\] deep, or extends more than 2.41 mm \[0.095 in\] from the edge of the hole, the water hole **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+Проверьте отверстия для воды (23). Если эрозия или проколы превышают 0,08 мм \[0,003 дюйма \] в глубину или простираются более чем на 2,41 мм \[0,095 дюйма \] от края отверстия, то водяное отверстие ** должно быть отремонтировано. См. Руководство по альтернативному ремонту, Вестник 3379035.
 
-Check the threads of the bolt holes (24) for damage. Use a threaded insert if a damaged bolt hole **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+Проверьте резьбу болтовых отверстий (24) на предмет повреждения. Используйте резьбовую вставку, если поврежденное болтовое отверстие ** должно быть отремонтировано. См. Руководство по альтернативному ремонту, Вестник 3379035.
 
 ![[ck6bdsa.png]]
 
-### Magnetic Crack Inspect
+### Магнитный крэк-инспект
 
-Use a crack Detection Kit, Part Number 3375432, or equivalent, to check the counterbore ledge for cracks.
+Используйте набор обнаружения трещин, часть 3375432 или эквивалент, чтобы проверить выступ противоборства на наличие трещин.
 
-Circumferential cracks of the counterbore ledge are acceptable if the cracks do **not** extend to or over the edge of the ledge as shown. Circumferential cracks in the radius are acceptable if they do **not** extend more than 90 degrees around the circumference of the counterbore radius.
+Круговые трещины выступа против бора приемлемы, если трещины распространяются **не** на край выступа или над ним, как показано. Круговые трещины в радиусе допустимы, если они *** не** распространяются более чем на 90 градусов по окружности радиуса противоборства.
 
 ![[01400311.png]]
 
-It is **not** necessary to machine the block in an effort to remove acceptable cracks. If cracks that are **not** acceptable are found during the initial inspection, the counterbore ledge **must** be machined. Contact a Cummins® Authorized Repair Location.
+** не требуется для того, чтобы обработать блок, чтобы удалить приемлемые трещины. Если трещины, которые ** не приемлемы**, обнаружены во время первоначального осмотра, то выступ против бора** должен быть обработан. Обратитесь в авторизованный сервисный центр Cummins®.
 
-If a crack that is **not** acceptable remains after the machining repair procedure is completed, the block is **not** acceptable for reuse.
+Если трещина, которая является **не приемлемой, остается после завершения процедуры ремонта обработки, блок ** не приемлем для повторного использования.
 
 ![[01400312.png]]
 
-Check the capscrew holes for cracks.
+Проверьте отверстия болтов на наличие трещин.
 
-Cracks that extend from the counterbore wall to the capscrew hole are acceptable for use **only** if they do **not** extend into the threaded portion of the hole.
+Трещины, которые простираются от стенки противоборства до отверстия болтов, приемлемы для использования только ***, если они ** не ** распространяются в резьбовую часть отверстия.
 
 ![[01400313.png]]
 
-Cracks that extend into the threaded portion of the hole require repair with a blind-end thread insert.
+Трещины, которые распространяются в резьбовую часть отверстия, требуют ремонта с помощью вставки с слепой резьбой.
 
-Contact a Cummins® Authorized Repair Location for the proper threaded inserts.
+Свяжитесь с авторизованным местом ремонта Cummins® для правильных резьбовых вставок.
 
 ![[01400314.png]]
 
-Check for cracks running horizontally around the vertical wall of the counterbore. All coolant passages that are close to the bore **must** be repaired with coolant passage threaded inserts.
+Проверьте наличие трещин, проходящих горизонтально вокруг вертикальной стенки противоборства. Все проходы охлаждающей жидкости, которые находятся близко к цилиндру, должны быть отремонтированы резьбовыми вставками для прохода охлаждающей жидкости.
 
 ![[01400316.png]]
 
-Check for cracks that run vertically to a coolant passage or a capscrew hole. Those passages **must** be repaired with coolant passage threaded inserts.
+Проверьте наличие трещин, которые проходят вертикально к проходу охлаждающей жидкости или отверстию болтов. Эти проходы *** должны быть отремонтированы с помощью хладагентных проходных резьбовых вставок.
 
 ![[01400317.png]]
 
-Cylinder blocks with vertical cracks that extend from a coolant passage down over the counterbore ledge can **not** be repaired.
+Цилиндровые блоки с вертикальными трещинами, которые простираются от прохода охлаждающей жидкости вниз по выступу против бора, могут ** не** быть отремонтированы.
 
 ![[01400318.png]]
 
-### Machine
+### Машина
 
-Resurface the cylinder block, if required, before machining the counterbore ledge depth.
+Повторно всплыть блок цилиндров, если это необходимо, перед обработкой глубины выступа противоборок.
 
 ![[ck1bdxa.png]]
 
-Use the cylinder block counterbore tool, Part Number 3376563, to machine the counterbore ledge depth.
+Используйте инструмент блок цилиндров, номер детали 3376563, для обработки глубины выступа.
 
 ![[ck8togy.png]]
 
-Use a depth micrometer to measure the counterbore ledge depth in the four locations illustrated.
+Используйте микрометр глубины для измерения глубины выступа контрбора в четырех показанных местах.
 
-The measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurement exceeds the specification, the counterbore **must** be machined again.
+Измерения ** не должны ** изменяться более чем на 0,25 мм \[0,001 в\]. Если измерение превышает спецификацию, то контрбор *** должен быть обработан снова.
 
 ![[ck4brta.png]]
 
-The indicator **must not** touch the counterbore radius on a block that does **not** have a double undercut.
+Индикатор ** не должен** касаться радиуса встречной стволы на блоке, который ** не** имеет двойное подрезание.
 
-Use the indicator and gauge block, Part Number 3164438, or equivalent, to measure the angle of the counterbore ledge at four equally spaced locations.
+Используйте индикатор и измерительный блок, номер детали 3164438, или эквивалент, для измерения угла выступа контрбора в четырех одинаково расположенных местах.
 
-The measurement of the ledge depth **must** be performed as near to the counterbore radius as possible, and as near to the counterbore ledge edge as possible.
+Измерение глубины выступа *** должно быть выполнено как можно ближе к радиусу противоборства и как можно ближе к краю выступа противоборства.
 
 ![[ck4brtb.png]]
 
-The angle (20) of the counterbore ledge is acceptable (OK) if the measurement that is near the counterbore edge is the same or no more than 0.036 mm \[0.0014 in\] shorter than the measurement near the counterbore radius.
+Угол (20) выступа противного бора приемлем (ОК), если измерение, которое находится вблизи края противного бора, является одинаковым или не более 0,036 мм \[0,0014 в\] короче, чем измерение вблизи радиуса противного бора.
 
-If the measurement near the counterbore ledge is longer than the measurement near the counterbore radius, the ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+Если измерение вблизи выступа против бора длиннее, чем измерение вблизи радиуса противоборства, выступ *** должен быть обработан.[[28-001-058-tr — Cylinder Block Counterbore|См. процедуру 001-058 в разделе 1.]]
 
 ![[ck8brna.png]]
 
-> [!warning] CAUTION · Осторожно
-> Concentricity must be within specifications. Engine damage will result when the liner is not seated correctly in the bore.
+> [!warning] ОСТОРОЖНО
+> Концентрация должна быть в пределах спецификаций. Повреждение двигателя будет иметь место, когда лайнер неправильно сидит в цилиндре.
 
-Check the cylinder block liner bore concentricity. Refer to Procedure 001-070 in Section 1.
+Проверьте концентриситет цилиндра блока цилиндра. См. процедуру 001-070 в разделе 1.
 
-The bore **must** be repaired when consistent readings are **not** obtained. See the Alternative Repair Manual, Bulletin 3379035.
+Цилиндровый отсек *** должен быть отремонтирован, если получены непротиворечивые показания **. См. Руководство по альтернативному ремонту, Вестник 3379035.
 
 ![[ck8gavd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Since the introduction of the K38 engines, the design of the cylinder liner counterbore was changed. Older engines do **not** contain a counterbore ring, but have a thick flange liner. Newer engines have a counterbore for thick flange cylinder liners and contain a counterbore ring.
+>
+> All K50 engines contain a counterbore for thick flange cylinder liners and contain counterbore rings.
+>
+> The liner protrusion for the K38 and K50 engines was changed. The liner protrusion **must** be within 0.152 mm to 0.203 mm \[0.006 in to 0.008 in\]. The depth of the counterbore on present blocks was changed to obtain the correct protrusion.
+>
+> Coolant passage machining has been changed from 1 in NPTF to straight bored holes with an o-ring connection. Two 3/8 -16 tapped holes were added at each access hole for securing the new connection. There are three coolant access passages on each side of the block. Some holes have been relocated (see illustrations for plugs and dowels).
+>
+> The front and rear coolant holes are used for the aftercooler water supply on all KV engines with side mounted aftercoolers.
+>
+> The vee cover plates that attach to the block on the K38 were changed. Previous engines had two cover plates that were the same size. Present engines require one small, and three large cover plates.
+>
+> The vee cover plates were changed on the K50 cylinder block. The number of cover plates remains at five, but the location of the smaller plate was changed.
+>
+> The cylinder block casting for K2000E and K1800E engines, starting with engine serial number 33123861, has been modified from the original K50 cylinder block at the oil transfer cover and filter head oil inlet mounting pad to reduce oil flow restriction and increase the flow area. A different bolt pattern is used for the oil transfer cover. Older style K50 cylinder blocks can **not** be used for K2000E or K1800E engines.
+>
+> K2000E and K1800E engines have two blank hand hole covers on each engine. The covers have clearance machined on the top edge to clear the oil transfer connection. The covers are to be installed in the locations below the oil transfer connection and lubricating oil filter head when blank covers are used in those locations. If a hand hole cover with a breather, oil filler tube, or dipstick is installed in the location below the oil transfer connection or lubricating oil filter head, the hand hole cover is to be installed in any other location requiring a blank cover. There will not be an interference between the oil transfer connection and the hand hole covers having oil filler tubes, breathers, or dipsticks as the cover height is 180 mm \[7.09 in\] on these covers, rather than 191 mm \[7.52 in\] on blank covers.
+>
+> The cylinder block was changed to allow the installation of a longer cylinder head capscrew. Previous engines **must** have capscrews that are 171 mm \[6.73 in\] in length. Present engines **must** have capscrews that are 203 mm \[8.00 in\] in length. The short capscrews are available for service. These capscrews are cadmium plated (silver or gold colored). The short capscrews **must** be torqued to 353 N•m \[260 ft-lb\]. If the short capscrews have been coated with lubrite and are black in color, they **must** be replaced. The 203 mm \[8 in\] capscrews are **only** available with the lubrite coating. A torque of 555 N•m \[409 ft-lb\] **must** be applied to these capscrews. K50 engines have **always** had the 203 mm \[8.00 in\] capscrews.
+>
+> Two capscrews have been used for the main bearing caps. One capscrew is black and has a 12-point head. The other capscrew is dark silver or gray and has a 6-point head. The capscrews can be installed on the same main cap, and the same torque specification can be applied.
+>
+> The cylinder blocks for the K38 and K50 engines were revised when the KTTA38 and KTTA50 engines were introduced. These engines require an increased number of ports in the block coolant cavity for the aftercooler coolant inlet tubing. The blocks with the increased number of ports were produced for all K38 and K50 engines. The cylinder head surface of these blocks was revised to allow for the attachment of turbocharger oil drain tubes with an o-ring and capscrew. Previous blocks contained holes with pipe threads for the connection of the oil drain tubes.
+>
+> Previous K38 and K50 cylinder blocks contained a hole at the right bank rear and the left bank front that allowed the attachment of the crankcase breathers. The crankcase breathers are mounted on the intake manifold on revised block engines. A plate and a gasket are available to plug the old breather holes when the revised design of the breather is installed. Revised cylinder blocks contain holes that are near the location of the previous breather holes. The holes in the revised blocks are for the connection of the turbocharger oil drain hose.
+>
+> A further revision in the cylinder block was the bore for the water pump idler gear shaft. The bore is larger and deeper so that a new shaft can be installed. This new shaft provides a greater area of contact with the block. The new shaft requires a change in the counterbore in the front gear housing for the flange on the shaft. A special service tool kit is available to machine an old block and gear housing for the new shaft.
+>
+> In November 1993, beginning with engine serial number 33124631, K38 and K50 engine blocks had extra machining in two locations (except K2000E and K1800E which was carried out in January 1992) to reduce lube oil restrictions.
+>
+> For a short period of time, the bores for both camshaft idler gear shafts were machined the same as the new water pump idler gear shaft bore. The following engine serial numbers require idler shaft, Part Number 3176836, in the camshaft idler locations.
+>
+> | 33110658 | 33110708 | 33110726 |
+> |---|---|---|
+> | 33110684 | 33110709 | 33110727 |
+> | 33110689 | 33110710 | 33110730 |
+> | 33110688 | 33110711 | 33110731 |
+> | 33110690 | 33110712 | 33110732 |
+> | 33110695 | 33110714 | 33110733 |
+> | 33110696 | 33110715 | 33110736 |
+> | 33110698 | 33110716 | 33110738 |
+> | 33110702 | 33110719 | 33110740 |
+> | 33110704 | 33110720 | 33110742 |
+> | 33110705 | 33110723 |  |
+> | 33110706 | 33110724 |  |
+>
+> Present cylinder blocks do **not** contain threads for pipe plugs in some locations. These pipe plugs were replaced with expandable rivet type plugs (AVSEAL®). The AVSEAL® **must** be removed to clean the part properly. A service tool for the removal and installation of these plugs is available, Part Number 3823154. The hole for the AVSEAL® is smaller than the hole for a pipe plug. The hole **must** be reamed and tapped to install a pipe plug until the new tools are available.
+>
+> All crankshaft oil seals on the K38 and K50 engines are the Teflon® lay-down lip (scroll) type. Many other shaft seals are the Teflon® lay-down lip type. The Teflon® lay-down lip type seal does **not** contain a spring on the back of the sealing lip. The sealing lip is a thin stiff piece of Teflon®. Some Teflon® type seals contain a second sealing lip that performs as a dust lip. These seals are required in a severe operating environment, such as a high dust environment.
+>
+> Teflon® seals **must** be dry before installation. Do **not** lubricate the seal lip or the shaft. After the first few turns of the shaft, a thin film of Teflon® is transferred from the seal lip to the shaft. The seal will leak if the shaft is **not** clean and dry because the Teflon® can **not** be transferred.
+>
+> If the seal is **not** the Teflon® type, lubricate both the sealing lip and the shaft with engine oil.
+>
+> All oil seals **must** be installed in one of two ways; even with the cast surface, or even with the bottom of the entry chamfer on the seal bore.
+>
+> Engines that have a wet type flywheel housing **must** have a double-lip type seal for the rear of the crankshaft. This type of seal is required to prevent torque converter oil from entering the engine.
+>
+> There are four lifting brackets on the K38 and K50 engine that bolt to the cylinder block. These lifting brackets are designed to hold the weight of an assembled engine **only**.
+>
+> **WARNING · Опасно**
+> Inspect the engine lifting brackets for damage or cracks. Do not attempt to lift the engine if any cracks or damage is visible. Using damaged lifting equipment can cause serious person injury and/or property damage.
+>
+> **WARNING · Опасно**
+> The engine lifting brackets must be properly and securely attached to the engine before proceeding with the engine removal. Failure to do so can result in equipment damage, severe personal injury or death.
+>
+> **WARNING · Опасно**
+> The engine lifting brackets are designed to lift the engine safely. Do not lift the engine, gearbox, if fitted, and main generator as an assembly. Exceeding the weight limit of the engine lifting brackets can result in equipment damage, severe personal injury or death.
+>
+> The lifting brackets on the block are capable of lifting an engine that has a sea (raw) water pump and a marine heat exchanger attached.
+>
+> Before installation of the lifting brackets, a room temperature vulcanizing sealant **must** be applied. The sealant prevents entry of water and subsequent corrosion of the capscrew. Corrosion of the capscrew can cause the part to break when the lifting bracket is used.
+>
+> ### Exploded View
+>
+> 1. Cylinder block
+> 2. Pipe plug
+> 3. Pipe plug
+> 4. Pipe plug
+> 5. Ring dowel
+> 6. Dowel pin
+> 7. Dowel pin
+> 8. Dowel
+> 9. Pipe plug
+> 10. Pipe plug
+> 11. Expansion plug
+> 12. Expansion plug
+> 13. Pipe plug
+> 14. Lifting bracket
+> 15. Plain washer
+> 16. Hexagon head capscrew
+> 17. Groove pin
+> 18. Bushing
+> 19. Expansion plug
+> 20. Bushing
+> 21. Dowel pin
+> 22. Main bearing cap
+> 23. Plain washer
+> 24. Hexagon head capscrew
+> 25. Plain washer
+> 26. Hexagon head capscrew.
+>
+> Plugs and Dowels - K38 and K50 (Front)
+>
+> 1. Main oil rifle cup plug
+> 2. No plug (This **must** be open to provide oil to the front gear housing and cover.)
+> 3. Coolant passage drilling cup plug, (Newer blocks; most K38 and K50 engines do **not** have this hole. Older K38 engines have a cup plug or a pipe plug).
+> 4. Camshaft oil rifle cup plug
+> 5. Front gear housing and cover dowel.
+>
+> Plugs and Dowels - K38 and K50 (Rear)
+>
+> 1. Main oil rifle cup plug
+> 2. Coolant passage drilling cup plug, (Newer blocks; most K38 and K50 engines do **not** have this hole. Older K38 engines have a cup plug or a pipe plug).
+> 3. Rear seal housing or rear gear drive dowel - lower unit
+> 4. Plate and seal (**Only** if the engine has rear seal housing; **must** be open if engine has rear gear drive lower unit to provide oil to the rear gear drive lower and upper units. The left bank (LB) and right (RB) plates are different. Some blocks do **not** contain these holes.)
+> 5. Camshaft oil rifle cup plug
+> 6. Flywheel housing dowel.
+>
+> Plugs and Dowels - K38 (Left Bank)
+>
+> 10. Air compressor water inlet hose fitting, if equipped with an air compressor; pipe plug if no air compressor.
+>
+> 11. Cylinder block coolant draincock.
+>
+> 12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose).
+>
+> 13. Block coolant passage plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed on older blocks).
+>
+> 14. Main oil rifle pipe plug (On engines with Step Timing Control (STC), a fitting for the STC control valve oil inlet hose is to be installed).
+>
+> 15. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+>
+> 16. Cam follower shaft ring dowel (no need to remove for cleaning).
+>
+> Plugs and Dowels - K38 (Right Bank)
+>
+> 11. Cylinder block coolant draincock.
+>
+> 12. Coolant block passage pipe plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.)
+>
+> 13. Block coolant passage pipe plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed on older blocks.)
+>
+> 14. Main oil rifle pipe plug (on engines with STC, a fitting for the STC control valve oil inlet hose is to be installed).
+>
+> 15. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+>
+> 16. Ring dowel, cam follower shaft ring (no need to remove for cleaning).
+>
+> 17. Fuel tube or hose fitting (The hole nearest to the front of the block is for fuel pressure. The hole nearest to the rear of the block is for fuel drain.)
+>
+> Plugs and Dowels - K38 (Top)
+>
+> 18. Overhead oil rifle restriction plug.
+>
+> 19. Cylinder head groove pin.
+>
+> 20. Oil drilling pipe plug (Common for vehicle oil pressure gauge fitting.)
+>
+> 21. Oil drilling AVSEAL® or pipe plug.
+>
+> 22. Oil drilling pipe plug (flange type oil inlet hose for turbocharger in some engines).
+>
+> 23. Crankcase drilling cup plug (flange type oil drain hose for turbocharger in some engines).
+>
+> 24. Crankcase drilling cup plug.
+>
+> 25. Crankcase drilling cup plug (flange type turbocharger drain in some engines; **always** a cup plug on KTTA engines).
+>
+> 26. Crankcase drilling cup plug (On newer engines this is a straight threaded tapped hole for turbocharger support bracket. Older engines contain a hole with pipe threads for oil drain hose fitting for turbocharger.)
+>
+> 27. Crankcase drilling cup plug (On engines with outboard aftercoolers, a gasket and plate are required. On engines with center mount aftercooler, it is the mounting for the aftercooler water inlet connection).
+>
+> Plugs and Dowels - K50 (Left Bank)
+>
+> 10. Air compressor water inlet hose fitting, if equipped with an air compressor; pipe plug if no air compressor.
+>
+> 11. Cylinder block coolant draincock.
+>
+> 12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.).
+>
+> 13. Block coolant passage plug (This can be a fitting for a vehicle heater return hose on some applications; **not** installed in older blocks.).
+>
+> 14. Main oil rifle pipe plug (On engines with STC, a fitting for the STC control valve oil inlet hose is to be installed.).
+>
+> 15. AVSEAL® or pipe plug (oil drilling for shaft bores).
+>
+> 16. Cam follower shaft ring dowel (no need to remove for cleaning).
+>
+> Plugs and Dowels - K50 (Right Bank)
+>
+> 11. Cylinder block coolant draincock.
+>
+> 12. Coolant block passage plug (KTTA and KTA engines with outboard aftercoolers have a fitting for the aftercooler coolant inlet hose.).
+>
+> 13. Main oil rifle pipe plug (On engines with STC, a fitting for the STC control valve oil inlet hose is to be installed.).
+>
+> 14. AVSEAL® or pipe plug (oil drilling for idler shaft bores).
+>
+> 15. Cam follower shaft ring dowel (no need to remove for cleaning).
+>
+> 16. Fuel tube or hose fitting (The hole nearest to the front of the block is for fuel pressure. The hole nearest to the rear of the block is for fuel drain).
+>
+> Plugs and Dowels - K50 (Top)
+>
+> 18. Overhead oil rifle restriction plug.
+>
+> 19. Cylinder head pin.
+>
+> 20. Oil drilling pipe plug (common for vehicle oil pressure gauge fitting).
+>
+> 21. Oil drilling AVSEAL® or pipe plug.
+>
+> 22. Oil drilling pipe plug (flange type oil inlet hose for turbocharger in some engines).
+>
+> 23. Crankcase drilling cup plug (flange type oil drain hose for turbocharger in some engines).
+>
+> 24. Crankcase drilling cup plug.
+>
+> 25. Crankcase drilling cup plug (flange type turbocharger drain in some engines; **always** a cup plug on KTTA engines).
+>
+> 26. Crankcase drilling cup plug (On newer engines, this is a straight threaded tapped hole for the turbocharger support bracket. Older engines contain a hole with pipe threads for a oil drain hose fitting for the turbocharger.).
+>
+> 27. Crankcase drilling cup plug (On engines with outboard aftercoolers, a gasket and plate are required. On engines with center mount aftercooler, it is the mounting for the aftercooler water inlet connection.).
+>
+> 28. Lifting bracket holes plug.
+>
+> ### Clean and Inspect for Reuse
+>
+> **CAUTION · Осторожно**
+> Use care when cleaning the engine block. Machined gasket surfaces and camshaft bushings can be damaged.
+>
+> Use a scraper, a wire brush, or a Scotch-Brite™ pad to clean the heavy dirt deposits from the engine block.
+>
+> - Gasket surfaces
+> - Mounting surfaces
+> - Cylinder liner counterbore ledge and the press fit areas
+> - Cylinder liner packing ring bore
+> - Top of the engine block
+> - Main bearing saddles and the caps
+> - Cup plug bores.
+>
+> Use a bottle brush with a long handle to clean all the oil passages.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury. Be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Use a cleaning solution that will not damage the camshaft bushings or the AVSEAL® sleeves.
+>
+> Remove the engine block from the engine stand and place the block in a cleaning tank.
+>
+> Follow the instructions of the manufacturer of the cleaning tank and the manufacturer of the cleaning solution.
+>
+> **Note · Примечание**
+> Cummins Inc. does **not** recommend any specific cleaning solution.
+>
+> Experience indicates that the best results are obtained using a cleaning solution that can be heated to 82°C to 93°C \[180°F to 199°F\].
+>
+> A cleaning tank that will mix and filter the cleaning solution gives the best results.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine block damage, make sure all the water is removed from the capscrew holes and the oil passages.
+>
+> Remove the block from the cleaning tank.
+>
+> Clean the engine block with a steam cleaner. Make sure all the oil passages are clean.
+>
+> Use compressed air to dry the block.
+>
+> If the cylinder block is **not** going to be used immediately, apply a coating of preservative oil to prevent rust. Cover the block to prevent dirt from sticking to the oil.
+>
+> Metallurgical analysis of cross sections of counterbores having circumferential cracks has revealed that the cracks are surface-initiated on the top of the counterbore ledge, and normally do **not** propagate vertically through the counterbore ledge into the coolant passage around the cylinder liner.
+>
+> Check the liner seats of the engine block for pitting.
+>
+> Pitting on the liner seat is **not** acceptable. This illustration shows an example of pitting in an unacceptable area. This block requires counterbore machining before it can be reused. Contact a Cummins® Authorized Repair Location.
+>
+> **CAUTION · Осторожно**
+> All measurements of the cylinder block must be performed with the block positioned on a flat surface. If the block is mounted on an engine stand, distortion will cause the measurements to be wrong.
+>
+> To inspect the block properly, the counterbore design **must** be determined.
+>
+> Definition of numerical terms (call-outs):
+>
+> 1. Upper counterbore, inside diameter
+> 2. Counterbore depth
+> 3. Lower counterbore, inside diameter
+> 4. Packing ring bore
+> 5. Counterbore ledge
+> 6. Counterbore radius.
+>
+> Review the following illustrations to determine the counterbore design of the block.
+>
+> **Note · Примечание**
+> This section applies to Counterbore Ring - Thick Deck Block Design.
+>
+> Most K38 engines with an engine serial number higher than 33100193 contain this design.
+>
+> All K50 engines contain this design.
+>
+> The diameter (1) depends on whether standard size or oversize liners were installed.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 190.28 | MIN | 7.492 |
+> |  | 190.34 | MAX | 7.494 |
+> | 0.010 | 190.53 | MIN | 7.502 |
+> |  | 190.59 | MAX | 7.504 |
+> | 0.020 | 190.79 | MIN | 7.512 |
+> |  | 190.85 | MAX | 7.514 |
+> | 0.030 | 191.04 | MIN | 7.522 |
+> |  | 191.10 | MAX | 7.524 |
+> | 0.040 | 191.30 | MIN | 7.532 |
+> |  | 191.36 | MAX | 7.534 |
+>
+> The depth (2) depends on whether standard size or oversize liners were installed. The depth also depends on whether the block was cut for shims.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 18.24 | MIN | 0.718 |
+> |  | 18.29 | MAX | 0.720 |
+> | 0.010 | 18.49 | MIN | 0.728 |
+> |  | 18.54 | MAX | 0.730 |
+> | 0.020 | 18.75 | MIN | 0.738 |
+> |  | 18.80 | MAX | 0.740 |
+> | 0.030 | 19.00 | MIN | 0.748 |
+> |  | 19.05 | MAX | 0.750 |
+> | 0.040 | 19.25 | MIN | 0.758 |
+> |  | 19.30 | MAX | 0.760 |
+>
+> The depth can be a maximum of 3.38 mm \[0.133 in\] greater if the block was machined previously for shims and oversize liners.
+>
+> | (3) Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.74 | MIN | 7.155 |
+> | 181.79 | MAX | 7.157 |
+>
+> For engines with engine serial number lower than 33101028
+>
+> | Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.80 | MIN | 7.157 |
+> | 181.81 | MAX | 7.158 |
+>
+> **Note · Примечание**
+> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+>
+> (6) This design contains a double undercut radius.
+>
+> (7) This design contains a counterbore ring that functions as a load distribution washer.
+>
+> (8) Counterbore ring height.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 5.055 | MIN | 0.1990 |
+> |  | 5.067 | MAX | 0.1995 |
+> | 0.002 | 5.105 | MIN | 0.2010 |
+> |  | 5.118 | MAX | 0.2015 |
+> | 0.004 | 5.156 | MIN | 0.2030 |
+> |  | 5.169 | MAX | 0.2035 |
+>
+> (9) This depth depends on the size of the liner. Liner protrusion **must** be 0.152 to 0.203 mm \[0.006 to 0.008 in\].
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 13.18 | MIN | 0.519 |
+> |  | 13.23 | MAX | 0.521 |
+> | 0.010 | 13.44 | MIN | 0.529 |
+> |  | 13.49 | MAX | 0.531 |
+> | 0.020 | 13.69 | MIN | 0.539 |
+> |  | 13.74 | MAX | 0.541 |
+> | 0.030 | 13.94 | MIN | 0.549 |
+> |  | 14.00 | MAX | 0.551 |
+> | 0.040 | 14.20 | MIN | 0.559 |
+> |  | 14.25 | MAX | 0.561 |
+>
+> If the upper counterbore is **not** within standard specifications, the block **must** be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> If the block is larger than the specification for the largest oversize, a repair sleeve can be installed.
+>
+> [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> If **only** the counterbore depth (2) is **not** within specifications, the block **must** be machined for shims. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]] Before machining the block for shims, check to see if the protrusion can be corrected by installing an oversize counterbore ring.
+>
+> **Note · Примечание**
+> This section applies to Thin Deck Block - Double Undercut Radius Design.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to machine blocks of this design for a counterbore ring, as it will cause the block to break.
+>
+> Some K38 standby generator set engines with an engine serial number higher than 33100193 contain this design.
+>
+> No K50 engines contain this design.
+>
+> (1) The actual size depends on whether the standard size or the oversize liners were installed.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 190.276 | MIN | 7.4912 |
+> |  | 190.343 | MAX | 7.4938 |
+> | 0.01" | 190.530 | MIN | 7.5012 |
+> |  | 190.597 | MAX | 7.5038 |
+> | 0.02" | 190.784 | MIN | 7.5112 |
+> |  | 190.851 | MAX | 7.5138 |
+> | 0.03" | 191.038 | MIN | 7.5212 |
+> |  | 191.105 | MAX | 7.5238 |
+> | 0.04" | 191.292 | MIN | 7.5312 |
+> |  | 191.359 | MAX | 7.5338 |
+>
+> (2) These specifications are required for a liner protrusion of 0.152 to 0.203 mm \[0.006 to 0.008 in\]. The protrusion specification has changed since blocks with this design were introduced. The actual size depends on whether the standard size or the oversize liners were installed, and if the block was machined for shims.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 13.18 | MIN | 0.519 |
+> |  | 13.23 | MAX | 0.521 |
+> | 0.010 | 13.44 | MIN | 0.529 |
+> |  | 13.49 | MAX | 0.531 |
+> | 0.020 | 13.69 | MIN | 0.539 |
+> |  | 13.74 | MAX | 0.541 |
+> | 0.030 | 13.94 | MIN | 0.549 |
+> |  | 14.00 | MAX | 0.551 |
+> | 0.040 | 14.20 | MIN | 0.559 |
+> |  | 14.25 | MAX | 0.561 |
+>
+> | (3) Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.74 | MIN | 7.155 |
+> | 181.79 | MAX | 7.157 |
+>
+> For engines with engine serial number lower than 33101028
+>
+> | Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.80 | MIN | 7.157 |
+> | 181.81 | MAX | 7.158 |
+>
+> **Note · Примечание**
+> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+>
+> (6) This design has the double undercut radius.
+>
+> If the upper counterbore is **not** within standard specifications, the block **must** be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> If **only** the counterbore depth (2) is **not** within specifications, the block **must** be machined for shims. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> If the block is larger than the specification for the largest oversize liner, a repair sleeve can be installed. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> It is recommended that a block of this design be used **only** for K38 standby generator set applications.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to machine blocks of this design for a counterbore ring as it will cause the block to break.
+>
+> Thin Deck Block Design:
+>
+> Most K38 engines with an engine serial number lower than 33100193 contain this design.
+>
+> No K50 engines contain this design.
+>
+> (1) The actual size depends on whether the standard size or oversize liners were installed.
+>
+> Standard
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 190.276 | MIN | 7.4912 |
+> |  | 190.343 | MAX | 7.4938 |
+> | 0.01" | 190.530 | MIN | 7.5012 |
+> |  | 190.597 | MAX | 7.5038 |
+> | 0.02" | 190.784 | MIN | 7.5112 |
+> |  | 190.851 | MAX | 7.5138 |
+> | 0.03" | 191.038 | MIN | 7.5212 |
+> |  | 191.105 | MAX | 7.5238 |
+> | 0.04" | 191.292 | MIN | 7.5312 |
+> |  | 191.359 | MAX | 7.5338 |
+>
+> **Note · Примечание**
+> These specifications are those required for a liner protrusion of 0.152 mm to 0.203 mm \[0.006 in to 0.008 in\]. The protrusion specification has changed since blocks with this design were produced.
+>
+> (2) The actual size depends on whether the standard size or the oversize liners were installed, and if the block was machined for shims.
+>
+> | Oversize |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Standard | 13.16 | MIN | 0.519 |
+> |  | 13.23 | MAX | 0.521 |
+> | 0.010 | 13.41 | MIN | 0.529 |
+> |  | 13.49 | MAX | 0.531 |
+> | 0.020 | 13.67 | MIN | 0.539 |
+> |  | 13.74 | MAX | 0.541 |
+> | 0.030 | 13.92 | MIN | 0.549 |
+> |  | 14.00 | MAX | 0.551 |
+> | 0.040 | 14.17 | MIN | 0.559 |
+> |  | 14.25 | MAX | 0.561 |
+>
+> | (3) Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.74 | MIN | 7.155 |
+> | 181.79 | MAX | 7.157 |
+>
+> For engines with engine serial number lower than 33101028.
+>
+> | Lower Counterbore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 181.80 | MIN | 7.157 |
+> | 181.81 | MAX | 7.158 |
+>
+> **Note · Примечание**
+> The cylinder block can be used again **only** if the correct press fit between the cylinder liner and dimensions (1) is obtained.
+>
+> This design does **not** contain the double undercut radius.
+>
+> It is recommended that a block of this design be used **only** for K38 standby generator set applications or those applications requiring a rated power of 675 kw \[900 bhp\] or less.
+>
+> **Note · Примечание**
+> This section applies to All Cylinder Blocks.
+>
+> **CAUTION · Осторожно**
+> Make sure the micrometer contacts the flat surface of the ledge. It must not touch the radius.
+>
+> Use a depth micrometer. Measure the counterbore depth at the four places shown.
+>
+> The four measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurements exceed the specification, the counterbore ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> **CAUTION · Осторожно**
+> Be sure that the indicator does not contact the counterbore radius on a block that does not have a double undercut.
+>
+> Use an indicator and a gauge block, Part Number 3164438, or equivalent. Measure the angle of the counterbore ledge at no less than four places on the counterbore circumference.
+>
+> The measurement of the ledge depth **must** be as near to the counterbore radius as possible, and as near to the counterbore edge as possible.
+>
+> The angle (20) of the counterbore ledge is acceptable (OK) if the measurement that is near the counterbore edge is the same, or no more than 0.036 mm \[0.0014 in\] shorter, than the measurement near the counterbore radius.
+>
+> If the measurement near the counterbore ledge is longer than the measurement near the counterbore radius, the ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> Use a Crack Detection Kit, Part Number 3375432, or equivalent. Check the counterbore ledge for cracks.
+>
+> Circumferential cracks are acceptable (OK) if they do **not** extend more than half of the distance across the ledge.
+>
+> Any cracks that extend into a water hole are **not** acceptable (**not** OK). Do **not** use the block.
+>
+> Any cracks that extend into a capscrew hole are **not** acceptable (**not** OK). The block can be used if a capscrew hole thread insert is installed in the capscrew hole. See Alternative Repair Manual, Bulletin 3379035.
+>
+> Measure the inside diameter of the upper counterbore. The point of measurement **must** be within 2.5 mm \[0.100 in\] from the top of the block (1).
+>
+> The inside diameter of the upper counterbore **must** be round within 0.025 mm \[0.001 in\]. If the measurement is **not** within specification, check to determine if the block can be machined for oversize liners. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> **Note · Примечание**
+> The upper counterbore **must** be no more than 0.025 mm \[0.001 in\] larger than the cylinder liner flange, or no more than 0.076 mm \[0.003 in\] smaller than the cylinder liner flange.
+>
+> Measure the inside diameter of the lower counterbore. The point of measurement **must** be within 2.5 mm \[0.100 in\] from the top of the counterbore ledge (3).
+>
+> The inside diameter of the lower counterbore **must** be round within 0.025 mm \[0.001 in\].
+>
+> If the inside diameter of the lower counterbore is larger than the specification, the block can be used **only** if the outside diameter of the liner flange is 0.025 mm \[0.001 in\] larger than the inside diameter of the upper counterbore (1). If there is **not** a press fit between the liner and the upper counterbore, the block **must** be machined for oversize liners.
+>
+> Check the chamfer at the top of the packing ring bore. Excessive pitting **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+>
+> Measure the Inside Diameter.
+>
+> | (4) Packing Ring Bore |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 177.32 | MIN | 6.981 |
+> | 177.48 | MAX | 6.987 |
+>
+> Measure the inside diameter of the bore for the camshaft idler shafts.
+>
+> **Note · Примечание**
+> Some engines have camshaft idler shaft bores that have the same inside diameter specification as the new water pump idler bore.
+>
+> | Camshaft Idler Shaft Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 25.362 | MIN | 0.9985 |
+> | 25.412 | MAX | 1.000 |
+>
+> If the bore is **not** within specifications, a repair sleeve can be installed. See to the Alternative Repair Manual, Bulletin 3379035.
+>
+> The bore for the water pump idler shaft can be one of two designs.
+>
+> Newer cylinder blocks and blocks that have been repaired for the new shaft have a counterbore (13) and (14).
+>
+> Dimensions **must** be within 0.051 mm \[.002 in\] at all locations on any bore.
+>
+> | Water Pump Idler Shaft Counter Bore - New (13) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 43.18 | MIN | 1.7000 |
+> | 43.244 | MAX | 1.7025 |
+>
+> | Water Pump Idler Shaft Counter Bore Depth - New (14) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 4.57 | MIN | 0.180 |
+> | 5.08 | MAX | 0.200 |
+>
+> | Water Pump Idler Shaft Bore - New (15) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 22.00 | MIN | 0.866 |
+> | 22.25 | MAX | 0.876 |
+>
+> Older cylinder blocks do **not** contain the counterbore.
+>
+> | Water Pump Idler Shaft Bore - Old (16) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 25.37 | MIN | 0.999 |
+> | 25.40 | MAX | 1.000 |
+>
+> An Idler Bore Kit, Part Number 3822548, is available to modify the bore for the new shaft. The old shaft is available for service.
+>
+> Use a precision straight edge, Part Number 4918219, or equivalent (17).
+>
+> Check the head deck of the block for wear. If fretting is visible in an area where a head gasket seal ring or a grommet touches, the surface **must** be repaired.
+>
+> Fretting damage in any other area is acceptable if it does **not** reduce the ability to measure the liner protrusion accurately.
+>
+> See the Alternative Repair Manual, Bulletin 3379035, for machining instructions.
+>
+> A newly machined surface **must** be flat within 0.051 mm \[0.002 in\] under a cylinder head. Waves on the surface are acceptable as long as they are no more than 0.018 mm \[0.0007 in\] in height. The high and low points of the waves **must not** be any closer than 25.4 mm \[1.0 in\].
+>
+> A newly machined surface **must** be within the specifications for block height as stated in the next illustration. If the top surface of the block is machined, the ledge depth of the cylinder liner counterbore **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> **CAUTION · Осторожно**
+> The parting line of the main bearing cap is not the same height as the centerline of the main bearing bore.
+>
+> Measure the height of the cylinder block.
+>
+> | (18) Cylinder Block Height |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 481.94 | MIN | 18.974\* |
+> | 482.78 | MAX | 19.007 |
+>
+> \* If the height of the block is less than 482.45 mm \[18.994 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be installed.
+>
+> If the checking ring or the centering ring is **not** available, the height of the block can be measured from the top of the main bearing saddle.
+>
+> | (19) Cylinder Block Height - Main Bearing Saddle |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 395.00 | MIN | 15.551\* |
+> | 395.81 | MAX | 15.583 |
+>
+> \* If the block height (19) is less than 395.48 mm \[15.570 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be installed.
+>
+> The height of the block **must not** vary more than 0.08 mm \[0.003 in\] from end-to-end of the block. If the block height is **not** within specifications, the top surface of the block **must** be machined or the block **must** be replaced.
+>
+> **Note · Примечание**
+> If the head deck surface of the block is machined, the ledge depth of the cylinder liner counterbore **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> The cylinder block height of the two engine banks **must not** vary more than 0.13 mm \[0.005 in\] between the banks.
+>
+> The cylinder bore angle does **not** need to be measured, but **must** be maintained if the cylinder head surface is machined.
+>
+> Check the amount of copper exposure on the camshaft bushing. If it extends more than 120 degrees around the bushing, the bushing **must** be replaced. [[28-001-010-tr — Camshaft Bushings|Refer to Procedure 001-010 in Section 1.]] [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> Measure the inside diameter
+>
+> | Camshaft Bushing Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 76.200 | MIN | 3.0000 |
+> | 76.289 | MAX | 3.0035 |
+>
+> If the bushing is **not** within specifications, the bushing **must** be replaced. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> Measure Main Bearing Bore Alignment
+>
+> Use three centering rings, Part Number 3375063, 17.368 mm \[6.8465 in\] diameter. Put the rings in the number "1", "4", and "7" main bearing saddles of the K38 cylinder block.
+>
+> On the K50 engine, put the rings in the number "1", "5", and "9" main bearing saddles.
+>
+> **CAUTION · Осторожно**
+> The main bearing caps are numbered through "7" on the K38, and through "9" on the K50 engines. Install each cap in the correct location. Number "1" cap is to be installed at the front of the block. The slot in the cap for the bearing tang must be on the same side as the slot in the block.
+>
+> Use clean engine oil to lubricate the capscrew threads, heads, and washers.
+>
+> Install each capscrew and washer (21) by hand to be sure they are positioned properly.
+>
+> Use a mallet to install the caps until they touch the block.
+>
+> If any of the caps do **not** require force during installation, mark the cap to check the side clearance.
+>
+> See Alternative Repair Manual, Bulletin 3379035, for instructions to replace the cap.
+>
+> Install and tighten the side bolts (22) and washers. [[28-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1, for side bolt and main bearing capscrew torque steps.]]
+>
+> **Note · Примечание**
+> The next three illustrations cover checking the number "1" main bearing bore on a K19 engine. The procedure and specifications are the same for the K38 and K50 engines.
+>
+> Use clean engine oil to lubricate the inside diameter of the centering rings.
+>
+> Install the alignment and boring bar, Part Number 3375061, in the centering rings. The bar **must** turn easily. If the bar does **not** turn easily, check to make sure that the main bearing caps are installed correctly. If they appear to be correct, move one of the centering rings to another bearing location.
+>
+> Install the checking ring, Part Number 3375064, 173.81 mm \[6.8430 in\] diameter, by hand, in the main bearing bore. If the ring does **not** slide through the bore, check the bore for burrs. If the ring still does **not** slide through the bore, the bore is undersize and **must** be repaired.
+>
+> See the Alternative Repair Manual, Bulletin 3379035.
+>
+> Use a 0.076 mm \[0.003 in\] feeler gauge that is a maximum of 13 mm \[0.5 in\] wide.
+>
+> Center the checking ring in the bore. Try to put the feeler gauge between the checking ring and the bore. Rotate the gauge in the bore at both sides of the checking ring.
+>
+> The bore alignment of the main bearing is acceptable if:
+>
+> - the gauge does **not** enter at any point
+> - the gauge will enter, but will **not** slide through or around the bore, and the alignment bar will rotate with the gauge inserted.
+>
+> The bore alignment of the main bearing is **not** acceptable if:
+>
+> - the gauge enters and slides around the bore. This means that the bore is oversize and **must** be repaired.
+> - the gauge will enter on one side **only**, but can slide around the bore. This means that the bore is tapered and **must** be repaired.
+>
+> If the tools to check the main bearing bore alignment are **not** available, use a dial bore indicator.
+>
+> Measure the inside diameter in the three positions shown. The inside diameter **must** be round within 0.013 mm \[0.0005 in\].
+>
+> | Main Bearing Bore Inside Diameter (Capscrews Torqued to Specification) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 173.86 | MIN | 6.845 |
+> | 173.89 | MAX | 6.846 |
+>
+> **Note · Примечание**
+> Make sure the weight of the dial bore indicator does **not** interfere with the measurement. Keep the solid stem of the indicator against the wall of the bore.
+>
+> Check the main bearing caps that are loose. The main bearing cap **must** be replaced if it is **not** 0.000 to 0.025 mm \[0.0000 to 0.0010 in\] larger than the block as shown.
+>
+> Service caps do **not** have the bore machined to a final specification. If a cap is replaced, the main bearing bore **must** be machined. Use the correct parts of the main bearing boring tool, Part Number ST-1177. See the Alternative Repair Manual, Bulletin 3379035.
+>
+> Check the water holes (23). If erosion or pitting exceeds 0.08 mm \[0.003 in\] deep, or extends more than 2.41 mm \[0.095 in\] from the edge of the hole, the water hole **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+>
+> Check the threads of the bolt holes (24) for damage. Use a threaded insert if a damaged bolt hole **must** be repaired. See the Alternative Repair Manual, Bulletin 3379035.
+>
+> ### Magnetic Crack Inspect
+>
+> Use a crack Detection Kit, Part Number 3375432, or equivalent, to check the counterbore ledge for cracks.
+>
+> Circumferential cracks of the counterbore ledge are acceptable if the cracks do **not** extend to or over the edge of the ledge as shown. Circumferential cracks in the radius are acceptable if they do **not** extend more than 90 degrees around the circumference of the counterbore radius.
+>
+> It is **not** necessary to machine the block in an effort to remove acceptable cracks. If cracks that are **not** acceptable are found during the initial inspection, the counterbore ledge **must** be machined. Contact a Cummins® Authorized Repair Location.
+>
+> If a crack that is **not** acceptable remains after the machining repair procedure is completed, the block is **not** acceptable for reuse.
+>
+> Check the capscrew holes for cracks.
+>
+> Cracks that extend from the counterbore wall to the capscrew hole are acceptable for use **only** if they do **not** extend into the threaded portion of the hole.
+>
+> Cracks that extend into the threaded portion of the hole require repair with a blind-end thread insert.
+>
+> Contact a Cummins® Authorized Repair Location for the proper threaded inserts.
+>
+> Check for cracks running horizontally around the vertical wall of the counterbore. All coolant passages that are close to the bore **must** be repaired with coolant passage threaded inserts.
+>
+> Check for cracks that run vertically to a coolant passage or a capscrew hole. Those passages **must** be repaired with coolant passage threaded inserts.
+>
+> Cylinder blocks with vertical cracks that extend from a coolant passage down over the counterbore ledge can **not** be repaired.
+>
+> ### Machine
+>
+> Resurface the cylinder block, if required, before machining the counterbore ledge depth.
+>
+> Use the cylinder block counterbore tool, Part Number 3376563, to machine the counterbore ledge depth.
+>
+> Use a depth micrometer to measure the counterbore ledge depth in the four locations illustrated.
+>
+> The measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurement exceeds the specification, the counterbore **must** be machined again.
+>
+> The indicator **must not** touch the counterbore radius on a block that does **not** have a double undercut.
+>
+> Use the indicator and gauge block, Part Number 3164438, or equivalent, to measure the angle of the counterbore ledge at four equally spaced locations.
+>
+> The measurement of the ledge depth **must** be performed as near to the counterbore radius as possible, and as near to the counterbore ledge edge as possible.
+>
+> The angle (20) of the counterbore ledge is acceptable (OK) if the measurement that is near the counterbore edge is the same or no more than 0.036 mm \[0.0014 in\] shorter than the measurement near the counterbore radius.
+>
+> If the measurement near the counterbore ledge is longer than the measurement near the counterbore radius, the ledge **must** be machined. [[28-001-058-tr — Cylinder Block Counterbore|Refer to Procedure 001-058 in Section 1.]]
+>
+> **CAUTION · Осторожно**
+> Concentricity must be within specifications. Engine damage will result when the liner is not seated correctly in the bore.
+>
+> Check the cylinder block liner bore concentricity. Refer to Procedure 001-070 in Section 1.
+>
+> The bore **must** be repaired when consistent readings are **not** obtained. See the Alternative Repair Manual, Bulletin 3379035.

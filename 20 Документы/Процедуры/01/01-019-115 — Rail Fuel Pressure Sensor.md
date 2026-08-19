@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 12
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-115.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-115.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Rail Fuel Pressure Sensor
@@ -33,116 +36,216 @@ tags:
 > **Даты:** изменён 2003-07-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-115.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-115.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Общие сведения
 
 QSX15
 
-The fuel rail pressure sensor is located on the fuel delivery housing, of the integrated fuel management system toward, the front of the engine on the QSX15.
+Датчик давления топливной рельсы расположен на корпусе подачи топлива, интегрированной системы управления топливом в направлении передней части двигателя на QSX15.
 
 ![[19c00424.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-The fuel rail pressure sensor is located as part of the control valve body on the QSK23, QSK45, QSK60, and QSK78 engines.
+Датчик давления топливной рельсы расположен в составе корпуса управляющего клапана на двигателях QSK23, QSK45, QSK60 и QSK78.
 
 ![[19400372.png]]
 
-### Remove
+### Снятие
 
 QSX15
 
-Clean the area around the fuel rail pressure sensor.
+Очистите область вокруг датчика давления топливной рельсы.
 
-Disconnect the engine harness from the fuel rail pressure sensor.
+Отсоедините проводку двигателя от датчика давления топливной рельсы.
 
-Remove the fuel rail pressure sensor from the integrated fuel management system.
+Удалите датчик давления рельсов топлива из интегрированной системы управления топливом.
 
 ![[19c00424.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-Clean the electronic control valve body around the fuel rail pressure sensor.
+Очистите корпус электронного клапана управления вокруг датчика давления топливной рельсы.
 
-Disconnect the engine harness from the sensor.
+Отсоедините жгут электропроводки двигателя от датчика.
 
 ![[19400371.png]]
 
-Remove the fuel rail pressure sensor with a deep-well socket, Part Number 3823843.
+Удалите датчик давления в топливной рельсе с глубоководной розеткой, номер детали 3823843.
 
 ![[19400372.png]]
 
-### Test
+### Проверка
 
-Connect the electronic service tool to the datalink.
+Подключите инструмент электронного сервиса к шине данных CAN.
 
 ![[19800902.png]]
 
 QSX15
 
-Connect the engine harness to the fuel rail pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления топливной рельсы.
 
-Allow the fuel rail pressure sensor and harness to hang in air.
+Дайте датчику давления топливной рельсы и проводах висеть в воздухе.
 
 ![[19e00168.png]]
 
-Monitor the fuel rail pressure with the electronic service tool.
+Мониторинг давления топливной рельсы с помощью электронного инструментария обслуживания.
 
-The fuel rail pressure **must** be within ±41.4 kPa \[6 psi\] of the barometric pressure sensor value.
+Давление в топливной рельсе ** должно быть в пределах ±41,4 кПа \[6 psi\] от значения барометрического датчика давления.
 
-If the fuel rail pressure is **not** within specification, the fuel rail pressure sensor **must** be replaced.
+Если давление на топливных рельсах не соответствует указанным пределам, датчик давления на топливных рельсах должен быть заменен.
 
-Disconnect the electronic service tool.
+Отключите инструмент электронного сервиса.
 
-Disconnect the fuel rail pressure sensor from the engine harness.
+Отсоедините датчик давления топливной рельсы от электропроводки двигателя.
 
 ![[19800902.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-Connect the engine harness to the fuel rail pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления топливной рельсы.
 
-Allow the fuel rail pressure sensor and harness to hang in air.
+Дайте датчику давления топливной рельсы и проводах висеть в воздухе.
 
 ![[19e00167.png]]
 
-Monitor the fuel rail pressure with the electronic service tool.
+Мониторинг давления топливной рельсы с помощью электронного инструментария обслуживания.
 
-The fuel rail pressure **must** be within ±41.4 kPa \[6 psi\] of the barometric pressure sensor value.
+Давление в топливной рельсе ** должно быть в пределах ±41,4 кПа \[6 psi\] от значения барометрического датчика давления.
 
-If the fuel rail pressure is **not** within specification, the fuel rail pressure sensor **must** be replaced.
+Если давление на топливных рельсах не соответствует указанным пределам, датчик давления на топливных рельсах должен быть заменен.
 
-Disconnect the electronic service tool.
+Отключите инструмент электронного сервиса.
 
-Disconnect the fuel rail pressure sensor from the engine harness.
+Отсоедините датчик давления топливной рельсы от электропроводки двигателя.
 
 ![[19800902.png]]
 
-### Install
+### Установка
 
 QSX15
 
-If a new fuel pressure sensor is used, make sure the o-ring is installed.
+Если используется новый датчик давления топлива, убедитесь, что установлено кольцо.
 
-Install the fuel rail pressure sensor and tighten.
+Установите датчик давления топливной рельсы и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Connect the engine harness to the fuel rail pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления топливной рельсы.
 
 ![[19c00424.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-If a new fuel pressure sensor is used, make sure the o-ring is installed.
+Если используется новый датчик давления топлива, убедитесь, что установлено кольцо.
 
-Install the fuel rail pressure sensor into the electronic control valve assembly.
+Установите датчик давления топливной рельсы в электронный клапанный узел управления.
 
-Use a deep-well socket, Part Number 3283843 to tighten the fuel rail pressure sensor.
+Используйте розетку глубокого колодца, номер детали 3283843, чтобы затянуть датчик давления топливной рельсы.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Connect the engine harness to the fuel rail pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления топливной рельсы.
 
 ![[19400373.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> QSX15
+>
+> The fuel rail pressure sensor is located on the fuel delivery housing, of the integrated fuel management system toward, the front of the engine on the QSX15.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> The fuel rail pressure sensor is located as part of the control valve body on the QSK23, QSK45, QSK60, and QSK78 engines.
+>
+> ### Remove
+>
+> QSX15
+>
+> Clean the area around the fuel rail pressure sensor.
+>
+> Disconnect the engine harness from the fuel rail pressure sensor.
+>
+> Remove the fuel rail pressure sensor from the integrated fuel management system.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> Clean the electronic control valve body around the fuel rail pressure sensor.
+>
+> Disconnect the engine harness from the sensor.
+>
+> Remove the fuel rail pressure sensor with a deep-well socket, Part Number 3823843.
+>
+> ### Test
+>
+> Connect the electronic service tool to the datalink.
+>
+> QSX15
+>
+> Connect the engine harness to the fuel rail pressure sensor.
+>
+> Allow the fuel rail pressure sensor and harness to hang in air.
+>
+> Monitor the fuel rail pressure with the electronic service tool.
+>
+> The fuel rail pressure **must** be within ±41.4 kPa \[6 psi\] of the barometric pressure sensor value.
+>
+> If the fuel rail pressure is **not** within specification, the fuel rail pressure sensor **must** be replaced.
+>
+> Disconnect the electronic service tool.
+>
+> Disconnect the fuel rail pressure sensor from the engine harness.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> Connect the engine harness to the fuel rail pressure sensor.
+>
+> Allow the fuel rail pressure sensor and harness to hang in air.
+>
+> Monitor the fuel rail pressure with the electronic service tool.
+>
+> The fuel rail pressure **must** be within ±41.4 kPa \[6 psi\] of the barometric pressure sensor value.
+>
+> If the fuel rail pressure is **not** within specification, the fuel rail pressure sensor **must** be replaced.
+>
+> Disconnect the electronic service tool.
+>
+> Disconnect the fuel rail pressure sensor from the engine harness.
+>
+> ### Install
+>
+> QSX15
+>
+> If a new fuel pressure sensor is used, make sure the o-ring is installed.
+>
+> Install the fuel rail pressure sensor and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Connect the engine harness to the fuel rail pressure sensor.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> If a new fuel pressure sensor is used, make sure the o-ring is installed.
+>
+> Install the fuel rail pressure sensor into the electronic control valve assembly.
+>
+> Use a deep-well socket, Part Number 3283843 to tighten the fuel rail pressure sensor.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Connect the engine harness to the fuel rail pressure sensor.

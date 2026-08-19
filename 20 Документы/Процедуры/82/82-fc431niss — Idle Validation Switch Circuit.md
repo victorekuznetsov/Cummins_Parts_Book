@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc431niss.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc431niss.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Idle Validation Switch Circuit
@@ -32,34 +35,74 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc431niss.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc431niss.pdf)
 
-### Fault Code: 431
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Idle Validation Switch Circuit
 
-Printable Version
+### Код неисправности: 431
 
-### Overview
+### Цепь выключателя подтверждения холостого хода
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 431 PID(P): P091 SPN: 91 FMI: 2/2 Lamp: Yellow SRT: | Voltage detected simultaneously on both the idle validation off-idle and on-idle signal pins. | None on performance. |
+| Код неисправности: 431 PID(P): P091 SPN: 91 ФМИ: 2/2 лампы: Желтая СТО: | Напряжение, обнаруживаемое одновременно как на штифтах неработающего валидирования, так и на штифтах сигнала на холостом ходу. | Ни одного на выступление. |
 
 ![[19c00644.png]]
 
-Idle Validation Switch Circuit
+Цепь выключателя подтверждения холостого хода
 
-### Circuit Description
+### Описание цепи
 
-The idle validation switch is used by the electronic control module (ECM) to indicate when the accelerator pedal is released (on-idle) or depressed (off-idle). The switch is adjusted at the factory to switch from on-idle to off-idle at the correct accelerator pedal position.
+Переключатель проверки бездействия используется электронным модулем управления (ECM) для указания, когда педаль акселератора выпущена (на холостом ходу) или подавлена (вне холостом ходу). Переключатель настраивается на заводе для переключения с on-idle на off-idle в правильном положении педали акселератора.
 
-### Component Location
+### Расположение компонента
 
-The nonintegrated sensor switch (NISS) is located on the accelerator pedal assembly.
+Неинтегрированный сенсорный переключатель (NISS) расположен на педальном сборе ускорителя.
 
-### Shoptalk
+### Практические замечания
 
-- This fault code is usually caused by a loose connection, uncalibrated accelerator pedal, or miswired idle validation switch.
+- Этот код неисправности обычно вызван свободным соединением, некалиброванной педалью ускорителя или неправильно проводным переключателем проверки.
 
-- The integrated sensor switch (ISS) has a different idle validation switch (IVS) resistance specification (125 ohms) as compared to nonintegrated sensor switch (NISS) (10 ohms).
+- Интегрированный сенсорный переключатель (ISS) имеет другую спецификацию сопротивления холостого валидационного переключателя (IVS) (125 Ом) по сравнению с неинтегрированным сенсорным переключателем (NISS) (10 Ом).
 
-Refer to Troubleshooting Fault Code t05-431niss
+Устранение неполадок код t05-431niss
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 431
+>
+> ### Idle Validation Switch Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 431 PID(P): P091 SPN: 91 FMI: 2/2 Lamp: Yellow SRT: | Voltage detected simultaneously on both the idle validation off-idle and on-idle signal pins. | None on performance. |
+>
+> Idle Validation Switch Circuit
+>
+> ### Circuit Description
+>
+> The idle validation switch is used by the electronic control module (ECM) to indicate when the accelerator pedal is released (on-idle) or depressed (off-idle). The switch is adjusted at the factory to switch from on-idle to off-idle at the correct accelerator pedal position.
+>
+> ### Component Location
+>
+> The nonintegrated sensor switch (NISS) is located on the accelerator pedal assembly.
+>
+> ### Shoptalk
+>
+> - This fault code is usually caused by a loose connection, uncalibrated accelerator pedal, or miswired idle validation switch.
+>
+> - The integrated sensor switch (ISS) has a different idle validation switch (IVS) resistance specification (125 ohms) as compared to nonintegrated sensor switch (NISS) (10 ohms).
+>
+> Refer to Troubleshooting Fault Code t05-431niss

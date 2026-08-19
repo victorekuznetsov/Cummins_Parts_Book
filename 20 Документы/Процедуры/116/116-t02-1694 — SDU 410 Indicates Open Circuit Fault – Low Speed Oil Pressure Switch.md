@@ -12,12 +12,15 @@ families:
   - "QSK19"
 manuals:
   - "4021617"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1694.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1694.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # SDU 410: Indicates Open Circuit Fault – Low Speed Oil Pressure Switch
@@ -31,116 +34,240 @@ tags:
 > **Даты:** изменён 2026-04-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1694.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1694.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-The fault message is displayed on the diesel control unit (DCU) 410E.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-**Circuit Description**
+Сообщение об ошибке отображается на блоке управления дизельным двигателем (DCU) 410E.
 
-The SDU 410 has eight switch inputs. Each switch input has open circuit fault detection. The SDU 410 is monitoring the resistance of the circuit. The low speed oil pressure switch monitors oil pressure above 1400 RPM. A 10k ohm resistor is installed in the connector that mates to the switch.
+### Как пользоваться этим деревом
 
-**Component Location**
+** Описание схемы**
 
-The SDU 410 is in the customer interface box.
+SDU 410 имеет восемь входов переключателей. Каждый вход переключателя имеет обнаружение неисправности открытой цепи. SDU 410 отслеживает сопротивление цепи. Низкоскоростной переключатель давления масла контролирует давление масла выше 1400 оборотов в минуту. Резистор 10k Ом установлен в разъеме, который соединяется с переключателем.
 
-**Conditions for Running the Diagnostics**
+** Местонахождение компонента**
 
-Customer interface box power switch ON.
+SDU 410 находится в поле интерфейса клиента.
 
-**Conditions for Setting the Code**
+** Условия для проведения диагностики**
 
-The SDU 410 detects an open circuit. The overall resistance of the circuit is greater than 10k ohms.
+Включатель питания клиентского интерфейса.
 
-**Actions Taken when the Fault Code is Active**
+** Условия для установки кода**
 
-The DCU 410E will display one of the following faults:
+SDU 410 обнаруживает открытую цепь. Общее сопротивление цепи больше 10k ом.
 
-Lube Oil Pressure Low (Low Speed)
+** Действия, предпринимаемые при активной работе кода ошибки**
 
-**Conditions for Clearing the Fault Code**
+DCU 410E будет отображать одну из следующих ошибок:
 
-SDU 410 detects adequate resistance on the affected circuit.
+Низкое давление масла (низкая скорость)
 
-Acknowledge the fault on the DCU 410E.
+** Условия для устранения кода ошибки**
 
-### Shoptalk
+SDU 410 обнаруживает достаточное сопротивление на пораженной цепи.
 
-Possible causes include:
+Признать вину на DCU 410E.
 
-- Broken or disconnected wiring
+### Практические замечания
 
-- Damaged or missing open circuit detection resistor
+Возможные причины включают:
 
-- Malfunctioning switch
+- Сломанная или отключенная проводка
 
-## Troubleshooting Summary
+- Поврежденный или отсутствующий резистор обнаружения открытой цепи
 
-| STEPS | SPECIFICATIONS |  |
+- Неисправный переключатель
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check wiring connections. |  |
-|  | **STEP 1A.** Check all wiring harness connection points. | Connections tight and secure? |
-| STEP 2. | Check the low speed oil pressure switch. |  |
-|  | **STEP 2A.** Check the low speed oil pressure switch. | Greater than 100k ohms? |
-|  | **STEP 2B.** Check the low speed oil pressure switch connector resistor. | Greater than 11k ohms? |
-| STEP 3. | Check the low speed oil pressure switch wiring harness. |  |
-|  | **STEP 3A.** Check the low speed oil pressure signal and return wires for an open circuit. | Greater than 10 ohms? |
-|  | **STEP 3B.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Greater than 10 ohms? |
-|  | **STEP 3C.** Check the low speed oil pressure signal wire for a short to ground. | Greater than 10 ohms? |
+| ШАГ 1. | Проверьте проводные соединения. |  |
+|  | **ШАГ 1А.** Проверить все точки подключения проводной упряжки. | Связи плотные и безопасные? |
+| ШАГ 2. | Проверьте переключатель давления масла с низкой скоростью. |  |
+|  | **ШАГ 2А.** Проверьте переключатель давления масла на низкой скорости. | Больше 100 тысяч ом? |
+|  | **STEP 2B** Проверьте низкоскоростной резистор переключателя давления масла. | Больше 11 тысяч ом? |
+| ШАГ 3. | Проверьте низкоскоростной переключатель давления масла. |  |
+|  | **STEP 3A.** Проверьте сигнал давления масла на низкой скорости и провода возврата для открытой цепи. | Больше 10 Ом? |
+|  | **STEP 3B.** Проверьте сигнал давления масла на низкой скорости и возвратные провода для короткого провода к проводу. | Больше 10 Ом? |
+|  | **STEP 3C** Проверить низкоскоростной сигнальный провод давления масла на короткое время до земли. | Больше 10 Ом? |
 
-### STEP 1. Check wiring connections.
+### ШАГ 1. Проверьте проводные соединения.
 
-#### STEP 1A. Check all wiring harness connection points.
+#### ШАГ 1A. Проверьте все точки подключения проводов.
 
-| **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+| **Условия: ** Двигатель выключен. Выключатель питания клиентского интерфейса. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the following connection points for secure connection. SDU 410 terminal block connection inside the customer interface box. Optional customer-provided circuit connections. | Connections tight and secure? **YES** | 2A |
-| Connections tight and secure? **NORepair:** Connect any disconnected harnesses. Repair or replace damaged connections. Inside customer interface box: Refer to Procedure 015-138 in Section 15. Optional customer-provided circuit connections: See equipment manufacturer service information. | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте следующие точки подключения для безопасного соединения. SDU 410 терминально-блоковое соединение внутри окна интерфейса клиента. Опциональные клиентские сетевые соединения. | Связи плотные и безопасные? *Да** | 2А |
+| Связи плотные и безопасные? **NORepair:** Подключите любые неподключенные проводные ремни. Ремонт или замена поврежденных соединений. Внутри клиентского интерфейса: См. процедуру 015-138 в разделе 15. Дополнительные клиентские сетевые соединения: См. сервисную документацию изготовителя оборудования. | Ремонт завершён. |  |
 
-### STEP 2. Check the low speed oil pressure switch.
+### ШАГ 2. Проверьте переключатель давления масла с низкой скоростью.
 
-#### STEP 2A. Check the low speed oil pressure switch.
+#### ШАГ 2A. Проверьте переключатель давления масла с низкой скоростью.
 
-| **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+| **Условия: ** Двигатель выключен. Выключатель питания клиентского интерфейса. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Disconnect the low speed lubricating oil pressure switch connector. Measure the resistance at the low speed lubricating oil pressure switch. Place one test lead on the low speed lubricating oil pressure SIGNAL pin at the switch. Place the other test lead on the low speed lubricating oil pressure RETURN pin at the switch. See the appropriate wiring diagram or pin and wire identification. | Greater than 100k ohms? **YES** | 2B |
-| Greater than 100k ohms? **NORepair:** Replace the low speed lubricating oil pressure switch. [[116-015-141 — Alarm System Engine Lubricating Oil Pressure Switch\|Refer to Procedure 015-141 in Section 15.]] | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Отключите низкоскоростной разъем переключателя давления моторного масла. Измерьте сопротивление на низкоскоростном переключателе давления моторного масла. Поместите один испытательный щуп на контакт сигнала давления моторного масла на выключателе. Поместите другой испытательный щуп на низкоскоростной контакт с давлением моторного масла на выключателе. См. соответствующую схему проводов или идентификацию штифта и провода. | Больше 100 тысяч ом? *Да** | 2В |
+| Больше 100 тысяч ом? **NORepair:** Заменить выключатель давления моторного масла на низкоскоростной.[[116-015-141 — Alarm System Engine Lubricating Oil Pressure Switch\|См. процедуру 015-141 в разделе 15.]] | Ремонт завершён. |  |
 
-#### STEP 2B. Check the low speed oil pressure switch connector resistor.
+#### ШАГ 2B. Проверьте низкоскоростной резистор переключателя давления масла.
 
-| **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+| **Условия: ** Двигатель выключен. Выключатель питания клиентского интерфейса. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Disconnect the low speed lubricating oil pressure switch connector. Measure the resistance across SUPPLY and the SIGNAL pins on the low speed oil pressure switch connector. Place one test lead on the low speed lubricating oil pressure wiring harness SIGNAL pin. Place the other test lead on the SUPPLY pin. See the appropriate wiring diagram or pin and wire identification. | Greater than 11k ohms? **YESRepair:** Replace the resistor in the connector of the low speed oil pressure switch wiring harness. | Repair complete. |
-| Greater than 11k ohms? **NO** | 3A |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Отключите низкоскоростной разъем переключателя давления моторного масла. Измерьте сопротивление через SUPPLY и SIGNAL штифты на низкоскоростном разъеме переключателя давления масла. Поместите один испытательный щуп на низкоскоростную проводку под давлением моторного масла, чтобы установить контакт сигнала. Поместите другой испытательный щуп на контакт с поставкой. См. соответствующую схему проводов или идентификацию штифта и провода. | Больше 11 тысяч ом? **YESRepair:** Заменить резистор в разъеме низкоскоростной проводов переключателя давления масла. | Ремонт завершён. |
+| Больше 11 тысяч ом? ** НЕТ** | 3А |  |
 
-### STEP 3. Check the low speed oil pressure switch wiring harness.
+### ШАГ 3. Проверьте низкоскоростной переключатель давления масла.
 
-#### STEP 3A. Check the low speed oil pressure signal and return wires for an open circuit.
+#### ШАГ 3A. Проверьте сигнал давления масла низкой скорости и возвратные провода для открытой цепи.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL and RETURN wires at the SDU 410 unit and connector C4. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините низкоскоростные провода SIGNAL и RETURN на блоке SDU 410 и разъёме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure SIGNAL and RETURN wires for an open circuit. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on the low speed oil pressure SIGNAL pin at the C4 connector. Place one test lead on the low speed oil pressure RETURN wire at the SDU 410 unit. Place the other test lead on the low speed oil pressure RETURN pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YES** | 3B |
-| Greater than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте низкоскоростные провода давления масла SIGNAL и RETURN для открытой цепи. Поместите один испытательный щуп на низкоскоростной проволоке SIGNAL с масляным давлением на блоке SDU 410. Поместите другой испытательный щуп на низкоскоростной контакт сигнала давления масла на разъем С4. Поместите один испытательный щуп на низкоскоростной провод под давлением масла RETURN на блоке SDU 410. Поместите другой испытательный щуп на низкоскоростной обратный контакт под давлением масла на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Больше 10 Ом? *Да** | 3B |
+| Больше 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 в разделе 15.]] | Ремонт завершён. |  |
 
-#### STEP 3B. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+#### ШАГ 3B. Проверьте сигнал давления масла низкой скорости и возвратные провода для короткого провода к проводу.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL and RETURN wires at the SDU 410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините низкоскоростные провода давления масла SIGNAL и RETURN на блоке SDU 410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure SIGNAL and RETURN wires for a wire-to-wire short. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure RETURN wire at the SDU 410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YES** | 3C |
-| Greater than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте низкоскоростные провода давления масла SIGNAL и RETURN для короткой проволоки. Поместите один испытательный щуп на низкоскоростной проволоке SIGNAL с масляным давлением на блоке SDU 410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. Поместите один испытательный щуп на низкоскоростной провод под давлением масла RETURN на блоке SDU 410. Поместите другой испытательный щуп на все другие штифты на разъеме C4. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Больше 10 Ом? *Да** | 3C |
+| Больше 10 Ом? **NORepair:** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 в разделе 15.]] | Ремонт завершён. |  |
 
-#### STEP 3C. Check the low speed oil pressure signal wire for a short to ground.
+#### ШАГ 3C. Проверьте низкоскоростной сигнальный провод давления масла для короткого приземления.
 
-| **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL wire at the SDU 410 unit and C4 connector. |  |  |
+| **Условия: ** Откройте окно интерфейса клиента. Отсоедините низкоскоростной провод SIGNAL с давлением масла на блоке SDU 410 и разъеме C4. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the low speed oil pressure SIGNAL wire for a short to ground. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |
-| Greater than 10 ohms? **NORepair:** Replace the SDU 410. [[116-015-122 — Customer Interface Box Shutdown Unit\|Refer to Procedure 015-122 in Section 15.]] | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте низкоскоростной проволоку под давлением масла SIGNAL для короткого наземного. Поместите один испытательный щуп на низкоскоростной проволоке SIGNAL с масляным давлением на блоке SDU 410. Поместите другой испытательный щуп на панельную площадку. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Больше 10 Ом? *** Заменить провод.[[116-015-023 — Customer Interface Box\|См. процедуру 015-023 в разделе 15.]] | Ремонт завершён. |
+| Больше 10 Ом? **NORepair:** Заменить SDU 410.[[116-015-122 — Customer Interface Box Shutdown Unit\|См. процедуру 015-122 в разделе 15.]] | Ремонт завершён. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> The fault message is displayed on the diesel control unit (DCU) 410E.
+>
+> ### How To Use This Tree
+>
+> **Circuit Description**
+>
+> The SDU 410 has eight switch inputs. Each switch input has open circuit fault detection. The SDU 410 is monitoring the resistance of the circuit. The low speed oil pressure switch monitors oil pressure above 1400 RPM. A 10k ohm resistor is installed in the connector that mates to the switch.
+>
+> **Component Location**
+>
+> The SDU 410 is in the customer interface box.
+>
+> **Conditions for Running the Diagnostics**
+>
+> Customer interface box power switch ON.
+>
+> **Conditions for Setting the Code**
+>
+> The SDU 410 detects an open circuit. The overall resistance of the circuit is greater than 10k ohms.
+>
+> **Actions Taken when the Fault Code is Active**
+>
+> The DCU 410E will display one of the following faults:
+>
+> Lube Oil Pressure Low (Low Speed)
+>
+> **Conditions for Clearing the Fault Code**
+>
+> SDU 410 detects adequate resistance on the affected circuit.
+>
+> Acknowledge the fault on the DCU 410E.
+>
+> ### Shoptalk
+>
+> Possible causes include:
+>
+> - Broken or disconnected wiring
+>
+> - Damaged or missing open circuit detection resistor
+>
+> - Malfunctioning switch
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check wiring connections. |  |
+> |  | **STEP 1A.** Check all wiring harness connection points. | Connections tight and secure? |
+> | STEP 2. | Check the low speed oil pressure switch. |  |
+> |  | **STEP 2A.** Check the low speed oil pressure switch. | Greater than 100k ohms? |
+> |  | **STEP 2B.** Check the low speed oil pressure switch connector resistor. | Greater than 11k ohms? |
+> | STEP 3. | Check the low speed oil pressure switch wiring harness. |  |
+> |  | **STEP 3A.** Check the low speed oil pressure signal and return wires for an open circuit. | Greater than 10 ohms? |
+> |  | **STEP 3B.** Check the low speed oil pressure signal and return wires for a wire-to-wire short. | Greater than 10 ohms? |
+> |  | **STEP 3C.** Check the low speed oil pressure signal wire for a short to ground. | Greater than 10 ohms? |
+>
+> ### STEP 1. Check wiring connections.
+>
+> #### STEP 1A. Check all wiring harness connection points.
+>
+> | **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the following connection points for secure connection. SDU 410 terminal block connection inside the customer interface box. Optional customer-provided circuit connections. | Connections tight and secure? **YES** | 2A |
+> | Connections tight and secure? **NORepair:** Connect any disconnected harnesses. Repair or replace damaged connections. Inside customer interface box: Refer to Procedure 015-138 in Section 15. Optional customer-provided circuit connections: See equipment manufacturer service information. | Repair complete. |  |
+>
+> ### STEP 2. Check the low speed oil pressure switch.
+>
+> #### STEP 2A. Check the low speed oil pressure switch.
+>
+> | **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Disconnect the low speed lubricating oil pressure switch connector. Measure the resistance at the low speed lubricating oil pressure switch. Place one test lead on the low speed lubricating oil pressure SIGNAL pin at the switch. Place the other test lead on the low speed lubricating oil pressure RETURN pin at the switch. See the appropriate wiring diagram or pin and wire identification. | Greater than 100k ohms? **YES** | 2B |
+> | Greater than 100k ohms? **NORepair:** Replace the low speed lubricating oil pressure switch. [[116-015-141 — Alarm System Engine Lubricating Oil Pressure Switch\|Refer to Procedure 015-141 in Section 15.]] | Repair complete. |  |
+>
+> #### STEP 2B. Check the low speed oil pressure switch connector resistor.
+>
+> | **Conditions:** Engine OFF. Customer interface box power switch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Disconnect the low speed lubricating oil pressure switch connector. Measure the resistance across SUPPLY and the SIGNAL pins on the low speed oil pressure switch connector. Place one test lead on the low speed lubricating oil pressure wiring harness SIGNAL pin. Place the other test lead on the SUPPLY pin. See the appropriate wiring diagram or pin and wire identification. | Greater than 11k ohms? **YESRepair:** Replace the resistor in the connector of the low speed oil pressure switch wiring harness. | Repair complete. |
+> | Greater than 11k ohms? **NO** | 3A |  |
+>
+> ### STEP 3. Check the low speed oil pressure switch wiring harness.
+>
+> #### STEP 3A. Check the low speed oil pressure signal and return wires for an open circuit.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL and RETURN wires at the SDU 410 unit and connector C4. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure SIGNAL and RETURN wires for an open circuit. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on the low speed oil pressure SIGNAL pin at the C4 connector. Place one test lead on the low speed oil pressure RETURN wire at the SDU 410 unit. Place the other test lead on the low speed oil pressure RETURN pin at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YES** | 3B |
+> | Greater than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |  |
+>
+> #### STEP 3B. Check the low speed oil pressure signal and return wires for a wire-to-wire short.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL and RETURN wires at the SDU 410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure SIGNAL and RETURN wires for a wire-to-wire short. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on all other pins at the C4 connector. Place one test lead on the low speed oil pressure RETURN wire at the SDU 410 unit. Place the other test lead on all other pins at the C4 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YES** | 3C |
+> | Greater than 10 ohms? **NORepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |  |
+>
+> #### STEP 3C. Check the low speed oil pressure signal wire for a short to ground.
+>
+> | **Conditions:** Open the customer interface box. Disconnect the low speed oil pressure SIGNAL wire at the SDU 410 unit and C4 connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the low speed oil pressure SIGNAL wire for a short to ground. Place one test lead on the low speed oil pressure SIGNAL wire at the SDU 410 unit. Place the other test lead on panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Greater than 10 ohms? **YESRepair:** Replace the wire. [[116-015-023 — Customer Interface Box\|Refer to Procedure 015-023 in Section 15.]] | Repair complete. |
+> | Greater than 10 ohms? **NORepair:** Replace the SDU 410. [[116-015-122 — Customer Interface Box Shutdown Unit\|Refer to Procedure 015-122 in Section 15.]] | Repair complete. |  |

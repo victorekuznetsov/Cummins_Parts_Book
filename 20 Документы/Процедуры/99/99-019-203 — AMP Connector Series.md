@@ -24,6 +24,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 12
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-203.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-203.pdf"
 tags:
@@ -32,6 +34,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # AMP Connector Series
@@ -45,113 +48,210 @@ tags:
 > **Даты:** изменён 2003-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-203.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-203.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Use care in handling the AMP connectors. They are very fragile and easily damaged. Follow the steps outlined in this procedure to avoid damage.
 
-Check to be sure the connector wedge lock is in the open position.
+### Замена пин
 
-> [!note] Note · Примечание
-> The connector assembly is shipped in one piece, with the wedge lock in the open position. It is possible that during adverse shipping conditions that some wedge locks can get bumped into the closed position.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при обращении с разъемами AMP. Они очень хрупкие и легко повреждаются. Следуйте шагам, изложенным в этой процедуре, чтобы избежать повреждений.
+
+Убедитесь, что замок клина разъема находится в открытом положении.
+
+> [!note] Примечание
+> Коннекторная сборка отгружается в один кусок, с клиновым замком в открытом положении. Возможно, что при неблагоприятных условиях доставки некоторые клиновые замки могут попасть в закрытое положение.
 
 ![[19900336.png]]
 
-If the wedge lock is closed, perform the following:
+Если клиновой замок закрыт, выполните следующее:
 
-Insert screwdriver blade (flat) between the matting seal and one of the red wedge lock tabs.
+Вставьте отвертку (плоско) между матовой печатью и одной из красных вкладок клинового замка.
 
-Depress the lock tabs (Item 3 in the figure in the previous step).
+Уплотните вкладки блокировки (пункт 3 на рисунке на предыдущем шаге).
 
-Pry open the wedge lock to the open position.
+Откройте клиновой замок в открытое положение.
 
-> [!note] Note · Примечание
-> The wedge lock **must not** be removed from the housing for insertion or removal of the contacts.
+> [!note] Примечание
+> Клиновый замок ** не должен** быть снят с кожуха для вставки или удаления контактов.
 
 ![[19900337.png]]
 
-Remove the damaged contacts, rotate the contact wire back and forth over a half turn (¼ turn in each direction). Gently pull the wire until the contact is removed.
+Удалите поврежденные контакты, поверните контактный провод назад и вперед на полоборота (1⁄4 поворота в каждом направлении). Тщательно тяните провод, пока контакт не будет удален.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+См. соответствующий комплект для ремонта проводов в таблице служебных инструментов в передней части Раздела 19 для правильного ремонта провода.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
+
+Расположение контактов см. на электрической схеме в разделе E.
+
+![[19900338.png]]
+
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
+
+Установите новый провод и контакт.
+
+Вставьте провод прямо в соответствующую полость цепи.
+
+Вставьте провод, пока штифт не вылезет.
+
+Отодвиньтесь осторожно, чтобы убедиться, что удерживающие пальцы удерживают контакт.
+
+![[19900339.png]]
+
+После того, как все необходимые контакты были заменены, клиновой замок ** должен быть закрыт до его закрытого положения. Отпустите защелки, сжимая их внутрь.
+
+![[19900340.png]]
+
+Сдвиньте клиновой замок в кожух, пока он не смыт кожухом.
+
+![[19900341.png]]
+
+### Замена разъёма
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при обращении с разъемами AMP. Они очень хрупкие и легко повреждаются. Следуйте шагам, изложенным в этой процедуре, чтобы избежать повреждений.
+
+> [!note] Примечание
+> Коннекторная сборка отгружается в один кусок, с клиновым замком в открытом положении. Возможно, что при неблагоприятных условиях доставки некоторые клиновые замки могут попасть в закрытое положение.
+
+Убедитесь, что замок клина разъема находится в открытом положении.
+
+![[19900336.png]]
+
+> [!note] Примечание
+> Клиновый замок ** не должен** быть снят с кожуха для вставки или удаления контактов.
+
+Если клиновой замок закрыт, выполните следующее:
+
+Вставьте отвертку (плоско) между матовой печатью и одной из красных вкладок клинового замка.
+
+Уплотните вкладки блокировки (пункт 3 на рисунке на предыдущем шаге).
+
+Откройте клиновой замок в открытое положение.
+
+![[19900337.png]]
+
+Замените один контактный провод за раз. Прикрепите буквенную метку к каждому удаленному проводу.
+
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
+
+Удалите все контакты. Поверните контактные провода назад и вперед на полоборота (1⁄4 поворота в каждом направлении). Тщательно тяните провод, пока контакт не будет удален.
+
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
+
+Расположение контактов см. на электрической схеме в разделе E.
+
+![[19900338.png]]
+
+Установите новый провод и свяжитесь с ним:
+
+Вставьте провод прямо в соответствующую полость цепи.
+
+Вставьте провод, пока штифт не вылезет.
+
+Отодвиньтесь осторожно, чтобы убедиться, что удерживающие пальцы удерживают контакт.
+
+![[19900339.png]]
+
+После того, как все необходимые контакты были заменены, клиновой замок ** должен быть закрыт до его закрытого положения. Отпустите защелки, сжимая их внутрь.
+
+![[19900340.png]]
+
+Сдвиньте клиновой замок в кожух, пока он не смыт кожухом.
+
+![[19900341.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> **CAUTION · Осторожно**
+> Use care in handling the AMP connectors. They are very fragile and easily damaged. Follow the steps outlined in this procedure to avoid damage.
+>
+> Check to be sure the connector wedge lock is in the open position.
+>
+> **Note · Примечание**
+> The connector assembly is shipped in one piece, with the wedge lock in the open position. It is possible that during adverse shipping conditions that some wedge locks can get bumped into the closed position.
+>
+> If the wedge lock is closed, perform the following:
+>
+> Insert screwdriver blade (flat) between the matting seal and one of the red wedge lock tabs.
+>
+> Depress the lock tabs (Item 3 in the figure in the previous step).
+>
+> Pry open the wedge lock to the open position.
+>
+> **Note · Примечание**
+> The wedge lock **must not** be removed from the housing for insertion or removal of the contacts.
+>
+> Remove the damaged contacts, rotate the contact wire back and forth over a half turn (¼ turn in each direction). Gently pull the wire until the contact is removed.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+>
+> **Note · Примечание**
 > Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
-
-Refer to the wiring diagram in Section E for pin locations.
-
-![[19900338.png]]
-
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
-
-Install a new wire and contact.
-
-Insert wire straight into the appropriate circuit cavity.
-
-Insert the wire until the pin bottoms out.
-
-Pull back gently to be sure the retention fingers are holding the contact.
-
-![[19900339.png]]
-
-After all of the required contacts have been replaced, the wedge lock **must** be closed to its LOCKED position. Release the locking latches by squeezing them inward.
-
-![[19900340.png]]
-
-Slide the wedge lock into the housing until it is flush with the housing.
-
-![[19900341.png]]
-
-### Connector Replacement
-
-> [!warning] CAUTION · Осторожно
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Install a new wire and contact.
+>
+> Insert wire straight into the appropriate circuit cavity.
+>
+> Insert the wire until the pin bottoms out.
+>
+> Pull back gently to be sure the retention fingers are holding the contact.
+>
+> After all of the required contacts have been replaced, the wedge lock **must** be closed to its LOCKED position. Release the locking latches by squeezing them inward.
+>
+> Slide the wedge lock into the housing until it is flush with the housing.
+>
+> ### Connector Replacement
+>
+> **CAUTION · Осторожно**
 > Use care in handling the AMP connectors. They are very fragile and easily damaged. Follow the steps outlined in this procedure to avoid damage.
-
-> [!note] Note · Примечание
+>
+> **Note · Примечание**
 > The connector assembly is shipped in one piece, with the wedge lock in the open position. It is possible that during adverse shipping conditions that some wedge locks can get bumped into the closed position.
-
-Check to be sure the connector wedge lock is in the open position.
-
-![[19900336.png]]
-
-> [!note] Note · Примечание
+>
+> Check to be sure the connector wedge lock is in the open position.
+>
+> **Note · Примечание**
 > The wedge lock **must not** be removed from the housing for insertion or removal of the contacts.
-
-If the wedge lock is closed, perform the following:
-
-Insert screwdriver blade (flat) between the matting seal and one of the red wedge lock tabs.
-
-Depress the lock tabs (Item 3 in the figure in the previous step).
-
-Pry open the wedge lock to the open position.
-
-![[19900337.png]]
-
-Replace one contact wire at a time. Attach a lettered tag to each wire removed.
-
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
-
-Remove all of the contacts. Rotate the contact wires back and forth over a half turn (¼ turn in each direction). Gently pull the wire until the contact is removed.
-
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
-
-Refer to the wiring diagram in Section E for pin locations.
-
-![[19900338.png]]
-
-Install a new wire and contact by:
-
-Insert wire straight into the appropriate circuit cavity.
-
-Insert the wire until the pin bottoms out.
-
-Pull back gently to be sure the retention fingers are holding the contact.
-
-![[19900339.png]]
-
-After all of the required contacts have been replaced, the wedge lock **must** be closed to its LOCKED position. Release the locking latches by squeezing them inward.
-
-![[19900340.png]]
-
-Slide the wedge lock into the housing until it is flush with the housing.
-
-![[19900341.png]]
+>
+> If the wedge lock is closed, perform the following:
+>
+> Insert screwdriver blade (flat) between the matting seal and one of the red wedge lock tabs.
+>
+> Depress the lock tabs (Item 3 in the figure in the previous step).
+>
+> Pry open the wedge lock to the open position.
+>
+> Replace one contact wire at a time. Attach a lettered tag to each wire removed.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Remove all of the contacts. Rotate the contact wires back and forth over a half turn (¼ turn in each direction). Gently pull the wire until the contact is removed.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Install a new wire and contact by:
+>
+> Insert wire straight into the appropriate circuit cavity.
+>
+> Insert the wire until the pin bottoms out.
+>
+> Pull back gently to be sure the retention fingers are holding the contact.
+>
+> After all of the required contacts have been replaced, the wedge lock **must** be closed to its LOCKED position. Release the locking latches by squeezing them inward.
+>
+> Slide the wedge lock into the housing until it is flush with the housing.

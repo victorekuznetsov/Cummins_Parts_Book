@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021442"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc173.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc173.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/07"
+  - "перевод/машинный"
 ---
 
 # Rack Actuator Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
@@ -32,34 +35,74 @@ tags:
 > **Даты:** изменён 2012-12-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc173.pdf)
 
-### Fault Code: 173
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Rack Actuator Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
 
-Printable Version
+### Код неисправности: 173
 
-### Overview
+### Привод рейки заклинил в закрытом положении — ниже нормы — умеренный уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 173 PID(P): S23 SPN: 638 FMI: 18 Lamp: Amber SRT: | Rack actuator mechanically stuck closed - data valid but below normal operating range - moderately severe level. | No action taken by the electronic control module (ECM). |
+| Код неисправности: 173 PID(P): S23 SPN: 638 FMI: 18 ламп: Янтарная СРТ: | Привод рейки заклинил в закрытом положении — ниже нормы — умеренный уровень. | Никаких действий, предпринятых электронным модулем управления (ECM). |
 
 ![[19901354.png]]
 
-Rack Actuator Circuit
+Цепь привода рейки
 
-### Circuit Description
+### Описание цепи
 
-The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
+Реестр управления топливом и соленоид определяют количество топлива, отмеренное для двигателя.
 
-### Component Location
+### Расположение компонента
 
-The fuel control rack and solenoid are integral parts of the P7100 fuel pump
+Реестр управления топливом и соленоид являются неотъемлемой частью топливного насоса P7100.
 
-### Shoptalk
+### Практические замечания
 
-- Confirm the actuator connector is firmly in place.
+- Подтвердите, что разъем привода прочно на месте.
 
-- A defective fuel pump can cause Fault Code 173.
+- Неисправный топливный насос может вызвать неисправность кода 173.
 
-Refer to Troubleshooting Fault Code t05-173
+См. Устранение неполадок код t05-173
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 173
+>
+> ### Rack Actuator Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 173 PID(P): S23 SPN: 638 FMI: 18 Lamp: Amber SRT: | Rack actuator mechanically stuck closed - data valid but below normal operating range - moderately severe level. | No action taken by the electronic control module (ECM). |
+>
+> Rack Actuator Circuit
+>
+> ### Circuit Description
+>
+> The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
+>
+> ### Component Location
+>
+> The fuel control rack and solenoid are integral parts of the P7100 fuel pump
+>
+> ### Shoptalk
+>
+> - Confirm the actuator connector is firmly in place.
+>
+> - A defective fuel pump can cause Fault Code 173.
+>
+> Refer to Troubleshooting Fault Code t05-173

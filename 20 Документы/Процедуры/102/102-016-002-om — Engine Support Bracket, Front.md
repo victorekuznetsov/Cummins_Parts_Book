@@ -14,12 +14,15 @@ families:
 manuals:
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-002-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-016-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -33,12 +36,30 @@ tags:
 > **Даты:** изменён 2015-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-016-002-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
 
-If the above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+### Контроль при обслуживании
 
-Lubricate the support until grease appears on the outside of the support.
+Используйте высокопроизводительную смазку промышленного типа (NLGI Grade Number 2), обогащенную добавками с экстремальным давлением (EP), такими как BP EnergreaseTM FPG или Castrol SpheerolTM EPL 2, или ее эквивалент.
+
+Если вышеуказанные смазки ** не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
+
+Смазать поддержку до тех пор, пока смазка не появится снаружи поддержки.
 
 ![[07600260.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
+>
+> If the above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+>
+> Lubricate the support until grease appears on the outside of the support.

@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 21
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-011-om-rep.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-003-011-om-rep.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -33,157 +36,280 @@ tags:
 > **Даты:** изменён 2019-03-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-011-om-rep.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-003-011-om-rep.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Remove the mounting capscrews from the rocker lever cover.
+### Снятие
 
-Remove the rocker lever cover and gasket.
+с форсункой механического управления
 
-Discard the gasket.
+Удалите крепежные болты с крышки рычага клапанного клапана.
+
+Удалите крышку рычага клапанного клапана и прокладку.
+
+Прокладку утилизируйте.
 
 ![[07400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Disconnect the electrical connectors for the injector and exhaust gas temperature sensor.
+Отключите электрические разъемы для топливного форсунка и датчика температуры выхлопных газов.
 
 ![[06600254.png]]
 
-Remove the two P-clips securing the wiring harness to the rocker lever cover.
+Удалите два P-клипа, обеспечивающих проводку, к крышке рычага клапанного клапана.
 
 ![[06600255.png]]
 
-Remove the injector wiring harness from the rocker cover bracket by using a small flat tip screwdriver to release the locking mechanism.
+Удалите упряжку форсунки из кронштейна крышки коромысла, используя небольшую плоскую отвертку для отключения механизма блокировки.
 
 ![[06600256.png]]
 
-Remove the two capscrews securing the two brackets to the rocker lever cover and remove the brackets.
+Удалите два болта, крепящих два кронштейна, на крышку рычага клапанного клапана и удалите кронштейны.
 
 ![[06600260.png]]
 
-Remove the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+Удалите P-клип, закрепляющий провод датчика температуры выхлопных газов, на крышку форсунки.
 
 ![[06600261.png]]
 
-If equipped with a turbocharger speed sensor, remove the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+Если он оснащен датчиком скорости турбокомпрессора, удалите четыре болта, закрепляющие скобки на пластине крышки рычага клапанного клапана (задний цилиндр левого берега).
 
 ![[06600262.png]]
 
-Remove the two capscrews securing the injector cover plate to the rocker lever cover and remove the injector cover plate. Pry injector cover plate evenly on opposite sides using a heel bar.
+Удалите два болта, закрепляющие крышку топливного форсунка, на крышку рычага клапанного клапана и удалите крышку топливного форсунка. Покрыть форсунка пластины равномерно на противоположных сторонах с помощью штанги на каблуке.
 
-Remove the o-ring seal from the rocker lever cover plate and discard it.
+Удалите уплотнение с кольца клапана с пластины крышки рычага качения и отбросьте его.
 
 ![[06600257.png]]
 
-Remove the four capscrews securing the rocker lever cover.
+Удалите четыре болта, обеспечивающие крышку рычага клапанного клапана.
 
-Remove the rocker lever cover and gasket.
+Удалите крышку рычага клапанного клапана и прокладку.
 
-Discard the old gasket.
+Отбросьте старую прокладку.
 
 ![[06600258.png]]
 
-Install the cylinder head protective cover, Part Number 4918282, in the hole located between the push tubes to prevent debris from entering the engine while the rocker lever cover is removed.
+Установите защитную крышку головки цилиндра, номер детали 4918282, в отверстие, расположенное между толкающими трубками, чтобы предотвратить попадание мусора в двигатель, в то время как крышка рычага клапанного клапана удалена.
 
 ![[22400276.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+> [!warning] ОСТОРОЖНО
+> Не используйте прокладочный цемент. Гаскетный цемент не позволит прокладке должным образом запечататься.
 
-Install a new gasket, rocker lever cover, and mounting capscrews.
+Установите новую прокладку, крышку рычага клапанного качения и крепежные болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the cylinder head protective cover from the push tube hole.
+Удалите защитную крышку головки цилиндра из отверстия в толкающей трубке.
 
 ![[22400276.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+> [!warning] ОСТОРОЖНО
+> Не используйте прокладочный цемент. Гаскетный цемент не позволит прокладке должным образом запечататься.
 
-Install the new rocker lever cover gasket and the rocker lever cover.
+Установите новую прокладку крышки клапанного клапана и крышку рычага клапанного клапана.
 
-Install the rocker lever cover capscrews and tighten.
+Установите клапанные клапанные качели наручного покрытия и затяните.
 
-Torque Value:
+Момент затяжки:
 
-Rocker Lever Cover Capscrews
+клапанный клапан коромысло рычаг Ковровые болты
 
 ![[06600258.png]]
 
-If the injector cover plate's dust seal was damaged and needs to be replaced, lubricate the new dust seal with clean engine oil.
+Если пылевое уплотнение форсунки было повреждено и нуждается в замене, смазайте новое пылевое уплотнение чистым моторным маслом.
 
-Tap the seal into place using a soft rubber mallet.
+Нажмите на уплотнение на место с помощью мягкого резинового молотка.
 
-Check that the smooth side of the seal is facing upward and the side with the groove is facing downward.
+Убедитесь, что гладкая сторона уплотнения обращена вверх, а сторона с канавкой обращена вниз.
 
 ![[03600158.png]]
 
-Lubricate the large o-ring and damper on the injector with clean engine oil. The engine oil will protect the o-ring and damper during the installation of the rocker lever cover plate.
+Смазать большое кольцо и демпфер на топливном форсунке чистым моторным маслом. Масло двигателя защитит кольцо и демпфер во время установки пластины крышки клапанного клапана.
 
-Install the new o-ring on the rocker lever cover plate.
+Установите новое кольцо на пластину крышки клапанного клапана.
 
-Install the rocker lever cover plate on the injector and tap it into place with a soft rubber mallet.
+Установите пластину крышки клапанного клапана на форсунка и нажмите на нее с мягким резиновым молотком.
 
-Install the rocker lever cover plate capscrews and tighten.
+Установите клапанные клапанные качалки наручных пластинчатых болтов и затяните.
 
-Torque Value:
+Момент затяжки:
 
-Rocker Lever Cover Plate Capscrews
+клапанный клапан коромысло рычаг Cover Plate болты
 
 ![[06600257.png]]
 
-If equipped with a turbocharger speed sensor, install the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+Если оснащен датчиком скорости турбокомпрессора, установите четыре болта, закрепляющие скобки на пластине крышки рычага клапанного клапана (задний цилиндр левого берега).
 
-Torque Value:
+Момент затяжки:
 
-Turbocharger Speed Sensor Bracket Capscrews
+Турбонаддув Speed Sensor Bracket болты
 
 ![[06600262.png]]
 
-Install the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+Установите P-клип, обеспечивающий закрепление провода датчика температуры выхлопных газов на крышке топливного форсунка.
 
-Torque Value:
+Момент затяжки:
 
-Exhaust Gas Temperature Sensor P-clip Capscrews
+Датчик температуры выхлопных газов P-clip болты
 
 ![[06600261.png]]
 
-Install the two brackets and capscrews that retain the injector and exhaust gas temperature sensor connectors.
+Установите два скобки и болты, которые сохраняют форсунка и датчики температуры выхлопных газов.
 
-Torque Value:
+Момент затяжки:
 
-Sensor Bracket Capscrews
+Сенсорные болты для брекетов
 
 ![[06600260.png]]
 
-Install the injector wiring harness connector to the bracket by sliding it onto the bracket until the connector locks into position.
+Установите разъём форсунки с жгутом к кронштейну, разместив его на кронштейн до тех пор, пока разъём не заблокируется в положение.
 
-If the locking fixture on the connector is missing, use a cable tie, Part Number 3822924, or equivalent, to secure the wiring harness to the bracket.
+Если блокировка на разъеме отсутствует, используйте кабельный галстук, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
 
 ![[06600263.png]]
 
-Install the two P-clips securing the wiring harness to the rocker lever cover brackets.
+Установите два P-клипа, обеспечивающих проводку ремня к кронштейнам крышки клапанного клапана.
 
-Torque Value:
+Момент затяжки:
 
-P-clip Capscrews
+болты с P-клипом
 
 ![[06600255.png]]
 
-Connect the electrical connectors for the injector and exhaust gas temperature sensor.
+Подключите электрические разъемы для топливного форсунка и датчика температуры выхлопных газов.
 
 ![[06600254.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Remove the mounting capscrews from the rocker lever cover.
+>
+> Remove the rocker lever cover and gasket.
+>
+> Discard the gasket.
+>
+> with Electronically Actuated Injector
+>
+> Disconnect the electrical connectors for the injector and exhaust gas temperature sensor.
+>
+> Remove the two P-clips securing the wiring harness to the rocker lever cover.
+>
+> Remove the injector wiring harness from the rocker cover bracket by using a small flat tip screwdriver to release the locking mechanism.
+>
+> Remove the two capscrews securing the two brackets to the rocker lever cover and remove the brackets.
+>
+> Remove the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+>
+> If equipped with a turbocharger speed sensor, remove the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+>
+> Remove the two capscrews securing the injector cover plate to the rocker lever cover and remove the injector cover plate. Pry injector cover plate evenly on opposite sides using a heel bar.
+>
+> Remove the o-ring seal from the rocker lever cover plate and discard it.
+>
+> Remove the four capscrews securing the rocker lever cover.
+>
+> Remove the rocker lever cover and gasket.
+>
+> Discard the old gasket.
+>
+> Install the cylinder head protective cover, Part Number 4918282, in the hole located between the push tubes to prevent debris from entering the engine while the rocker lever cover is removed.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+>
+> Install a new gasket, rocker lever cover, and mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Remove the cylinder head protective cover from the push tube hole.
+>
+> **CAUTION · Осторожно**
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+>
+> Install the new rocker lever cover gasket and the rocker lever cover.
+>
+> Install the rocker lever cover capscrews and tighten.
+>
+> Torque Value:
+>
+> Rocker Lever Cover Capscrews
+>
+> If the injector cover plate's dust seal was damaged and needs to be replaced, lubricate the new dust seal with clean engine oil.
+>
+> Tap the seal into place using a soft rubber mallet.
+>
+> Check that the smooth side of the seal is facing upward and the side with the groove is facing downward.
+>
+> Lubricate the large o-ring and damper on the injector with clean engine oil. The engine oil will protect the o-ring and damper during the installation of the rocker lever cover plate.
+>
+> Install the new o-ring on the rocker lever cover plate.
+>
+> Install the rocker lever cover plate on the injector and tap it into place with a soft rubber mallet.
+>
+> Install the rocker lever cover plate capscrews and tighten.
+>
+> Torque Value:
+>
+> Rocker Lever Cover Plate Capscrews
+>
+> If equipped with a turbocharger speed sensor, install the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+>
+> Torque Value:
+>
+> Turbocharger Speed Sensor Bracket Capscrews
+>
+> Install the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+>
+> Torque Value:
+>
+> Exhaust Gas Temperature Sensor P-clip Capscrews
+>
+> Install the two brackets and capscrews that retain the injector and exhaust gas temperature sensor connectors.
+>
+> Torque Value:
+>
+> Sensor Bracket Capscrews
+>
+> Install the injector wiring harness connector to the bracket by sliding it onto the bracket until the connector locks into position.
+>
+> If the locking fixture on the connector is missing, use a cable tie, Part Number 3822924, or equivalent, to secure the wiring harness to the bracket.
+>
+> Install the two P-clips securing the wiring harness to the rocker lever cover brackets.
+>
+> Torque Value:
+>
+> P-clip Capscrews
+>
+> Connect the electrical connectors for the injector and exhaust gas temperature sensor.

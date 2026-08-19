@@ -13,12 +13,15 @@ engines:
   - "37295879"
 families:
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb102004.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -32,12 +35,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2006-12-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb102004.pdf)
 
-## New Fault Codes 772 and 773
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые коды неисправностей 772 и 773
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic introduces Fault Codes 772 and 773 for the QST30 engine.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+В этой теме службы/частей представлены коды ошибок 772 и 773 для двигателя QST30.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Fault Codes 772 and 773
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic introduces Fault Codes 772 and 773 for the QST30 engine.

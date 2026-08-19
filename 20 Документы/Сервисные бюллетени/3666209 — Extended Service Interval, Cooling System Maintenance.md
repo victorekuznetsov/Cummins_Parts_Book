@@ -17,6 +17,8 @@ families:
   - "C8.3 · 6C8.3"
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666209.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666209.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/C8.3"
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
+  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -37,11 +40,30 @@ tags:
 > **Даты:** выпущен 2016-05-09 · изменён 2018-01-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666209.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666209.pdf)
 
-## Extended Service Interval, Cooling System Maintenance
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-For information on engine coolant extended service intervals, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Section 5.
 
-> [!note] Note · Примечание
+## Увеличенный интервал обслуживания системы охлаждения
+
+Для получения информации о продлении интервалов обслуживания охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin 5411406. Справочная часть 5.
+
+> [!note] Примечание
 > [https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/](https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/)
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Extended Service Interval, Cooling System Maintenance
+>
+> For information on engine coolant extended service intervals, see Fluids for Cummins® Products Service Manual, Bulletin 5411406. Reference Section 5.
+>
+> **Note · Примечание**
+> [https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/](https://qsol.cummins.com/qs3/portal/service/manual/en/5411406/)
+>
+> ### Document History

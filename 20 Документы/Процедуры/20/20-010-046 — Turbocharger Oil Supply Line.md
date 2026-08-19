@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 15
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-046.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-046.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Oil Supply Line
@@ -32,149 +35,276 @@ tags:
 > **Даты:** изменён 2015-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-046.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-046.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-- Clean the area around the turbocharger.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+
+- Очистите область вокруг турбокомпрессора.
 
 ![[10400312.png]]
 
-### Remove
+### Снятие
 
-Remove the capscrews securing the turbocharger oil supply tube clips to the braces.
+Удалите болты, закрепляющие зажимы трубки подачи масла турбокомпрессора на брекетах.
 
 ![[10400228.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Disconnect the turbocharger oil supply hose line from the turbocharger.
+Отсоедините линию подачи масла турбокомпрессора от турбокомпрессора.
 
-Remove the male union from the turbocharger and discard the o-rings.
+Удалите наружно резьбовую фитинг из турбокомпрессора и отбросьте кольца.
 
-Disconnect the turbocharger oil supply tube from the engine.
+Отсоедините трубку подачи масла турбокомпрессора от двигателя.
 
-Remove the male union and discard the o-rings.
+Удалите внешне резьбовую фитинг и отбросьте кольца.
 
 ![[10400229.png]]
 
-Remove the capscrews securing the turbocharger oil supply line braces to the engine.
+Удалите болты, обеспечивающие подвеску линии подачи масла турбокомпрессора к двигателю.
 
 ![[10400230.png]]
 
-Disconnect the turbocharger oil supply hose from the turbocharger oil supply tube at the male union.
+Отсоедините шланг подачи масла турбокомпрессора от трубки подачи масла турбокомпрессора на внешне резьбовом фитинге.
 
-Discard the o-rings from the male union.
+Отбросьте кольца от внешней резьбы фитинга.
 
 ![[10400231.png]]
 
-Marine Applications
+Судовое применение
 
-Remove the p-clips and turbocharger oil supply line.
+Удалите линии подачи масла для p-clips и турбокомпрессора.
 
 ![[10400282.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean all components with solvent.
+Очистить все компоненты растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[10400232.png]]
 
-- Inspect the turbocharger oil supply hose for damage, kinks, fretting, or restrictions.
-- Inspect the turbocharger oil supply tube for damage, kinks, or restrictions. Replace the tube, if damaged.
-- Inspect and replace any of the clips, if damaged or worn.
-- Inspect the male unions for damage, including stripped threads. Replace male unions, if damaged.
-- Inspect the oil supply line braces for cracks, other damage, and corrosion. Replace any braces that are damaged.
+- Проверьте шланг подачи масла турбокомпрессора на предмет повреждения, изломов, волнения или ограничений.
+- Проверить трубку подачи масла турбокомпрессора на предмет повреждения, изломов или ограничений. Замените трубку, если она повреждена.
+- Проверяйте и заменяйте любые клипы, если они повреждены или изношены.
+- Проверяйте штыревые союзы на предмет повреждений, в том числе на порванных резьбах. Заменить штыревые союзы, если они повреждены.
+- Проверьте брекеты линии подачи масла на наличие трещин, других повреждений и коррозии. Замените любые поврежденные брекеты.
 
 ![[10k00006.png]]
 
-### Install
+### Установка
 
-Install the turbocharger oil supply line braces with capscrews.
+Установите брекеты линии подачи масла турбокомпрессора с болтами.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[10400230.png]]
 
-Install new o-rings on the male union and install on the turbocharger.
+Установите новые кольца на внешне резьбовую арматуру и установите на турбокомпрессор.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Install new o-rings on the male union and install on the engine.
+Установите новые кольца на внешне резьбовую арматуру и установите на двигатель.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[10400235.png]]
 
-Install a new o-ring on the male union and attach the turbocharger oil supply hose.
+Установите новое о-кольцо на внешне резьбовую арматуру и прикрепите шланг подачи масла турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-If more clearance is needed for the turbocharger oil supply line, there is a 1 inch extended male union available for the turbocharger oil supply line.
+Если для линии подачи масла турбокомпрессора требуется больший зазор, для линии подачи масла турбокомпрессора имеется 1-дюймовая протяженная внешне резьбовая фитинга.
 
-Install a new o-ring on male union and attach the turbocharger oil supply tube.
+Установите новое кольцо на внешне резьбовую фитинг и прикрепите трубку подачи масла турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[10400231.png]]
 
-Install the turbocharger oil supply line to the turbocharger male union.
+Установите линию подачи масла турбокомпрессора на внешне резьбовую фитингу турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Make sure that the turbocharger oil supply line is **not** in contact with the coolant return hose. If they are in contact and more clearance is needed, there is a 1 inch extended male union available for the turbocharger oil supply line.
+Убедитесь, что линия подачи масла турбокомпрессора ** не** в контакте с шлангом для возврата охлаждающей жидкости. Если они находятся в контакте и требуется больший зазор, для линии подачи масла турбокомпрессора имеется 1-дюймовая протяженная внешне резьбовая фитинга.
 
-Install the turbocharger oil supply line to the engine male union.
+Установите линию подачи масла турбокомпрессора на фитинг с внешней резьбой двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Use the following procedures for proper speed sensor wire routing if the 1 inch extended male union is upfitted on an engine with a turbocharger speed sensor. Use the following procedure in the QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493. Refer to Procedure 019-390 in Section 19
+Используйте следующие процедуры для правильной маршрутизации провода датчика скорости, если 1-дюймовая протяженная внешне резьбовая фитинга установлена на двигателе с датчиком скорости турбокомпрессора. Используйте следующую процедуру в руководстве по устранению неполадок и ремонту электронной системы управления QSK19 (CM850 Modular Common Rail System) Bulletin 4021493. См. процедуру 019-390 в разделе 19.
 
 ![[10400229.png]]
 
-Attach the turbocharger oil supply tube with P-clips and capscrews.
+Прикрепите трубку подачи масла турбокомпрессора P-затворами и болтами.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[10400228.png]]
 
-Marine Applications
+Судовое применение
 
-Install the turbocharger oil supply tube. These line connections are designed to be tightened until bottomed out.
+Установите трубку подачи масла турбокомпрессора. Эти линии связи предназначены для того, чтобы быть затянутыми до тех пор, пока не будут доведены до дна.
 
-Install the P-clips.
+Установите P-клипы.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[10400282.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[14400006.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> - Clean the area around the turbocharger.
+>
+> ### Remove
+>
+> Remove the capscrews securing the turbocharger oil supply tube clips to the braces.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Disconnect the turbocharger oil supply hose line from the turbocharger.
+>
+> Remove the male union from the turbocharger and discard the o-rings.
+>
+> Disconnect the turbocharger oil supply tube from the engine.
+>
+> Remove the male union and discard the o-rings.
+>
+> Remove the capscrews securing the turbocharger oil supply line braces to the engine.
+>
+> Disconnect the turbocharger oil supply hose from the turbocharger oil supply tube at the male union.
+>
+> Discard the o-rings from the male union.
+>
+> Marine Applications
+>
+> Remove the p-clips and turbocharger oil supply line.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean all components with solvent.
+>
+> Dry with compressed air.
+>
+> - Inspect the turbocharger oil supply hose for damage, kinks, fretting, or restrictions.
+> - Inspect the turbocharger oil supply tube for damage, kinks, or restrictions. Replace the tube, if damaged.
+> - Inspect and replace any of the clips, if damaged or worn.
+> - Inspect the male unions for damage, including stripped threads. Replace male unions, if damaged.
+> - Inspect the oil supply line braces for cracks, other damage, and corrosion. Replace any braces that are damaged.
+>
+> ### Install
+>
+> Install the turbocharger oil supply line braces with capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install new o-rings on the male union and install on the turbocharger.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install new o-rings on the male union and install on the engine.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install a new o-ring on the male union and attach the turbocharger oil supply hose.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> If more clearance is needed for the turbocharger oil supply line, there is a 1 inch extended male union available for the turbocharger oil supply line.
+>
+> Install a new o-ring on male union and attach the turbocharger oil supply tube.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the turbocharger oil supply line to the turbocharger male union.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Make sure that the turbocharger oil supply line is **not** in contact with the coolant return hose. If they are in contact and more clearance is needed, there is a 1 inch extended male union available for the turbocharger oil supply line.
+>
+> Install the turbocharger oil supply line to the engine male union.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Use the following procedures for proper speed sensor wire routing if the 1 inch extended male union is upfitted on an engine with a turbocharger speed sensor. Use the following procedure in the QSK19 (CM850 Modular Common Rail System) Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021493. Refer to Procedure 019-390 in Section 19
+>
+> Attach the turbocharger oil supply tube with P-clips and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Marine Applications
+>
+> Install the turbocharger oil supply tube. These line connections are designed to be tightened until bottomed out.
+>
+> Install the P-clips.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> ### Finishing Steps
+>
+> Operate the engine and check for leaks.

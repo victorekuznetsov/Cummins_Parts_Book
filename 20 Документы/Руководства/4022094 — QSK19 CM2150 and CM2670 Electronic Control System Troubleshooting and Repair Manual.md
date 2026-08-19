@@ -11,6 +11,7 @@ families:
   - "QSK19"
 manuals:
   - "4022094"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4022094/4022094-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4022094-history.pdf"
 tags:

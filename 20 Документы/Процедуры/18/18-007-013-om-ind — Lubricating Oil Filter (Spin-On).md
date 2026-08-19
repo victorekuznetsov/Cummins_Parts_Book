@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-013-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-007-013-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter (Spin-On)
@@ -37,39 +40,78 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-013-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-007-013-om-ind.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The following steps show the combination oil filter. Use the same procedures when changing the remote bypass oil filters.
 
-Remove the oil filters with oil filter wrench, Part Number 3400157 or 3400158, or equivalent.
+### Снятие
 
-Discard the oil filters if they are **not** needed for failure analysis.
+> [!note] Примечание
+> Следующие шаги показывают комбинированный масляный фильтр. Используйте те же процедуры при замене дистанционных обходных масляных фильтров.
+
+Удалите масляные фильтры с помощью гаечного ключа масляного фильтра, Части 3400157 или 3400158, или эквивалент.
+
+Откажитесь от масляных фильтров, если они не нужны для анализа отказов.
 
 ![[07400045.png]]
 
-### Install
+### Установка
 
-Clean the oil filter head surface.
+Очистите поверхность головы масляного фильтра.
 
-Lubricate the gasket surface of the oil filter with clean engine oil.
+Смазать прокладку поверхности масляного фильтра чистым моторным маслом.
 
 ![[07400356.png]]
 
-Fill the oil filters with clean 15W-40 oil.
+Заполните масляные фильтры чистым маслом 15W-40.
 
-Install the oil filters on the oil filter head.
+Установите масляные фильтры на головку масляного фильтра.
 
-Mechanical overtightening can distort the threads or damage the oil filter element seal.
+Механическое затяжение может исказить резьбу или повредить уплотнение масляного фильтрующего элемента.
 
-Turn the oil filter until the seal contacts the oil filter head.
+Поверните масляный фильтр до тех пор, пока уплотнение не свяжется с головкой масляного фильтра.
 
-Turn an additional ¾ to 1 turn.
+Поверните дополнительно 3⁄4 на 1 поворот.
 
 ![[07400044.png]]
 
-Operate the engine until the oil temperature is at a minimum of 65°C \[150°F\].
+Работайте с двигателем до тех пор, пока температура масла не достигнет минимум 65 ° C[150° F].
 
-Check for leaks.
+Проверьте на отсутствие утечек.
 
 ![[14400006.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> The following steps show the combination oil filter. Use the same procedures when changing the remote bypass oil filters.
+>
+> Remove the oil filters with oil filter wrench, Part Number 3400157 or 3400158, or equivalent.
+>
+> Discard the oil filters if they are **not** needed for failure analysis.
+>
+> ### Install
+>
+> Clean the oil filter head surface.
+>
+> Lubricate the gasket surface of the oil filter with clean engine oil.
+>
+> Fill the oil filters with clean 15W-40 oil.
+>
+> Install the oil filters on the oil filter head.
+>
+> Mechanical overtightening can distort the threads or damage the oil filter element seal.
+>
+> Turn the oil filter until the seal contacts the oil filter head.
+>
+> Turn an additional ¾ to 1 turn.
+>
+> Operate the engine until the oil temperature is at a minimum of 65°C \[150°F\].
+>
+> Check for leaks.

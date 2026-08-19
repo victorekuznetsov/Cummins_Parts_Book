@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 9
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-314.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-314.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Control Panel Assembly
@@ -33,54 +36,98 @@ tags:
 > **Даты:** изменён 2003-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-314.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-314.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The control panel assembly is made up of the operator interface panel and switch panel. The switch panel is mounted on the rear of the alternator housing. The operator interface panel can be mounted to the left of the switch panel or it can be mounted remotely.
+
+### Общие сведения
+
+Панель управления состоит из панели интерфейса оператора и панели переключателей. Выключательная панель установлена на задней части корпуса генератора. Панель интерфейса оператора может быть установлена слева от панели переключателя или она может быть установлена удаленно.
 
 ![[19802694.png]]
 
-### Remove
+### Снятие
 
-Access to the switch panel (operator interface panel removal is similar), is gained through the rear of the control panel assembly. Open the controls box on the rear of the alternator. (On some QSK60 generator sets, sheet metal on the side of the alternator will need to be unbolted to gain access).
+Доступ к коммутационной панели (удаление панели интерфейса оператора аналогично), получается через заднюю панель панели управления сборкой. Откройте коробку управления на задней части генератора. (На некоторых генераторных установках QSK60 для получения доступа к нему необходимо разболтать листовой металл на стороне генератора.)
 
 ![[19802827.png]]
 
-Disconnect the 23-pin AMP connector 23 from the switch panel.
+Отсоедините 23-контактный разъем 23 AMP от панели переключателей.
 
-When removing the operator interface panel, disconnect the 12-pin Deutsch connector 21 operator interface panel.
+При удалении панели интерфейса оператора отсоедините 12-контактный разъем 21 панели интерфейса оператора.
 
 ![[19802828.png]]
 
-Remove the ground strap on rear of panel.
+Снимите наземный ремешок сзади панели.
 
-Remove the nut and washer at each corner of the panel.
+Удалите гайку и стиральную машину в каждом углу панели.
 
 ![[19802829.png]]
 
-Pull switch panel forward through the front of the control panel assembly.
+Вытяните переключательную панель вперед через переднюю часть панели управления.
 
 ![[19802830.png]]
 
-### Install
+### Установка
 
-Access to the switch panel (operator interface panel installation is similar), is gained through the rear of the control panel assembly. Open the controls box on the rear of the alternator. (On some QSK60 generator sets, sheet metal on the side of the alternator will need to be unbolted to gain access).
+Доступ к коммутационной панели (установка панели интерфейса оператора аналогична), получается через заднюю панель панели управления сборкой. Откройте коробку управления на задней части генератора. (На некоторых генераторных установках QSK60 для получения доступа к нему необходимо разболтать листовой металл на стороне генератора.)
 
 ![[19802810.png]]
 
-Insert switch panel through the front of the control panel assembly.
+Вставьте панель переключателя через переднюю часть панели управления.
 
 ![[19802830.png]]
 
-Install the ground strap on the rear of the panel.
+Установите наземный ремешок на заднюю часть панели.
 
-Install the nut and washer at each corner of the panel.
+Установите гайку и стиральную машину на каждом углу панели.
 
 ![[19802829.png]]
 
-Connect the 23-pin AMP connector 23 to the switch panel.
+Подключите 23-контактный AMP-разъем 23 к панели переключателей.
 
-When installing the operator interface panel, connect the 12-pin Deutsch connector 21 to the operator interface panel.
+При установке панели интерфейса оператора подключите 12-контактный разъем Deutsch 21 к панели интерфейса оператора.
 
-Replace all sheet metal to controls box or close controls box.
+Замените весь листовой металл на блок управления или закройте блок управления.
 
 ![[19802827.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The control panel assembly is made up of the operator interface panel and switch panel. The switch panel is mounted on the rear of the alternator housing. The operator interface panel can be mounted to the left of the switch panel or it can be mounted remotely.
+>
+> ### Remove
+>
+> Access to the switch panel (operator interface panel removal is similar), is gained through the rear of the control panel assembly. Open the controls box on the rear of the alternator. (On some QSK60 generator sets, sheet metal on the side of the alternator will need to be unbolted to gain access).
+>
+> Disconnect the 23-pin AMP connector 23 from the switch panel.
+>
+> When removing the operator interface panel, disconnect the 12-pin Deutsch connector 21 operator interface panel.
+>
+> Remove the ground strap on rear of panel.
+>
+> Remove the nut and washer at each corner of the panel.
+>
+> Pull switch panel forward through the front of the control panel assembly.
+>
+> ### Install
+>
+> Access to the switch panel (operator interface panel installation is similar), is gained through the rear of the control panel assembly. Open the controls box on the rear of the alternator. (On some QSK60 generator sets, sheet metal on the side of the alternator will need to be unbolted to gain access).
+>
+> Insert switch panel through the front of the control panel assembly.
+>
+> Install the ground strap on the rear of the panel.
+>
+> Install the nut and washer at each corner of the panel.
+>
+> Connect the 23-pin AMP connector 23 to the switch panel.
+>
+> When installing the operator interface panel, connect the 12-pin Deutsch connector 21 to the operator interface panel.
+>
+> Replace all sheet metal to controls box or close controls box.

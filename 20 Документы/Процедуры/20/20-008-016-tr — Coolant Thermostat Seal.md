@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-016-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Coolant Thermostat Seal
@@ -32,73 +35,142 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-016-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-> [!warning] CAUTION · Осторожно
-> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
-- Remove the engine and low temperature aftercooler (LTA) thermostats (if equipped). Refer to Procedure [[20-008-013-tr — Coolant Thermostat|008-013]].
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе охлаждающей жидкости, чтобы охлаждающая жидкость не пролилась или не слилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если охлаждающая жидкость не используется повторно, она должна быть утилизирована в соответствии с местными экологическими нормами.
+
+- Слейте охлаждающую жидкость. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
+- Удалите двигатель и термостаты послеохладителя низкой температуры (LTA) (если они оборудованы). См. процедуру[[20-008-013-tr — Coolant Thermostat|008-013]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Industrial Applications
+Промышленное применение
 
-> [!warning] CAUTION · Осторожно
-> Do not damage the thermostat housing when removing the thermostat seals. If housing damage occurs, it will not allow a proper seal, resulting in cooling system failure.
+> [!warning] ОСТОРОЖНО
+> Не повреждайте корпус термостата при снятии термостатных уплотнений. Если происходит повреждение корпуса, это не позволит правильно уплотнить, что приведет к отказу системы охлаждения.
 
-> [!note] Note · Примечание
-> The thermostat housing has a machined counterbore to locate the seals.
+> [!note] Примечание
+> Корпус термостата имеет обработанный контрбор, чтобы найти уплотнения.
 
-Use a rolling head pry bar. Position the pry bar tip under the top flange of the seal and pry upward. Remove the seals from the housing.
-
-![[08400020.png]]
-
-Marine Applications
-
-> [!warning] CAUTION · Осторожно
-> Do not damage the thermostat housing when removing the thermostat seals. If housing damage occurs, it will not allow a proper seal, resulting in cooling system failure.
-
-> [!note] Note · Примечание
-> The mechanically actuated injector thermostat housing is shown. Although different in appearance, The electronically actuated injector thermostat seal removal procedure is the same.
-
-Position a rolling head pry bar tip under the top flange of the seal and pry upward to remove the seal.
+Используйте прыжок с покатыми головами. Поместите острый наконечник под верхний фланж печати и поднимитесь вверх. Удалите уплотнения из корпуса.
 
 ![[08400020.png]]
 
-### Install
+Судовое применение
 
-Industrial Applications
+> [!warning] ОСТОРОЖНО
+> Не повреждайте корпус термостата при снятии термостатных уплотнений. Если происходит повреждение корпуса, это не позволит правильно уплотнить, что приведет к отказу системы охлаждения.
 
-The seal **must** be installed with the part number positioned upward.
+> [!note] Примечание
+> Показано механическое приводимое в действие термостатное устройство форсунки. Хотя по внешнему виду они отличаются, процедура удаления термостата с топливным форсункой с электронным приводом одинакова.
 
-Use a mallet and seal driver, Part Number 3824833 or equivalent, or a socket with a diameter the same as the diameter of the seal case to install the seals. Make sure the seals seat in the bottom of the counterbore.
+Поместите наконечник скатывающей головки под верхний фланж уплотнения и поднимите его вверх, чтобы удалить уплотнение.
+
+![[08400020.png]]
+
+### Установка
+
+Промышленное применение
+
+Уплотнение *** должно быть установлено с номером детали, расположенным вверх.
+
+Используйте мальлет и шофёр уплотнения, номер детали 3824833 или эквивалент, или розетку диаметром, аналогичным диаметру корпуса уплотнения для установки уплотнений. Убедитесь, что уплотнения находятся в нижней части противоборства.
 
 ![[08400046.png]]
 
-Marine Applications
+Судовое применение
 
-> [!note] Note · Примечание
-> The mechanically actuated injector thermostat housing is shown. Although different in appearance, The electronically actuated injector thermostat seal procedure is the same.
+> [!note] Примечание
+> Показано механическое приводимое в действие термостатное устройство форсунки. Хотя по внешнему виду они отличаются, процедура уплотнения термостата с электронным приводом форсунки одинакова.
 
-The seal **must** be installed with the seal lip positioned towards the mandrel.
+Уплотнение *** должно быть установлено с помощью губы уплотнения, расположенной в направлении подмандатной стрелки.
 
-Use a mallet and seal driver, Part Number 3824833 or equivalent, to install the seal.
+Используйте мальлет и шофёр уплотнения, номер детали 3824833 или эквивалент, для установки уплотнения.
 
 > [!missing]- Иллюстрация `08400416.png` не извлечена — смотрите PDF-оригинал документа
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the engine and low temperature aftercooler (LTA) thermostats (if equipped). Refer to Procedure [[20-008-013-tr — Coolant Thermostat|008-013]].
-- Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
-- Operate the engine and check for leaks and proper seal function.
+- Установите двигатель и термостаты послеохладителя низкой температуры (LTA) (если они оборудованы). См. процедуру[[20-008-013-tr — Coolant Thermostat|008-013]].
+- Заправьте систему охлаждения. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
+- Управляйте двигателем и проверяйте наличие утечек и правильную функцию уплотнения.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+> - Remove the engine and low temperature aftercooler (LTA) thermostats (if equipped). Refer to Procedure [[20-008-013-tr — Coolant Thermostat|008-013]].
+>
+> ### Remove
+>
+> Industrial Applications
+>
+> **CAUTION · Осторожно**
+> Do not damage the thermostat housing when removing the thermostat seals. If housing damage occurs, it will not allow a proper seal, resulting in cooling system failure.
+>
+> **Note · Примечание**
+> The thermostat housing has a machined counterbore to locate the seals.
+>
+> Use a rolling head pry bar. Position the pry bar tip under the top flange of the seal and pry upward. Remove the seals from the housing.
+>
+> Marine Applications
+>
+> **CAUTION · Осторожно**
+> Do not damage the thermostat housing when removing the thermostat seals. If housing damage occurs, it will not allow a proper seal, resulting in cooling system failure.
+>
+> **Note · Примечание**
+> The mechanically actuated injector thermostat housing is shown. Although different in appearance, The electronically actuated injector thermostat seal removal procedure is the same.
+>
+> Position a rolling head pry bar tip under the top flange of the seal and pry upward to remove the seal.
+>
+> ### Install
+>
+> Industrial Applications
+>
+> The seal **must** be installed with the part number positioned upward.
+>
+> Use a mallet and seal driver, Part Number 3824833 or equivalent, or a socket with a diameter the same as the diameter of the seal case to install the seals. Make sure the seals seat in the bottom of the counterbore.
+>
+> Marine Applications
+>
+> **Note · Примечание**
+> The mechanically actuated injector thermostat housing is shown. Although different in appearance, The electronically actuated injector thermostat seal procedure is the same.
+>
+> The seal **must** be installed with the seal lip positioned towards the mandrel.
+>
+> Use a mallet and seal driver, Part Number 3824833 or equivalent, to install the seal.
+>
+> ### Finishing Steps
+>
+> - Install the engine and low temperature aftercooler (LTA) thermostats (if equipped). Refer to Procedure [[20-008-013-tr — Coolant Thermostat|008-013]].
+> - Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+> - Operate the engine and check for leaks and proper seal function.

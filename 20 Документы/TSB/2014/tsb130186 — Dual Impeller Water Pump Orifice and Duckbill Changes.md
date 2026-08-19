@@ -16,12 +16,15 @@ families:
 parts:
   - "3651196"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130186.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130186.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "год/2014"
+  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -35,49 +38,97 @@ tags:
 > **Даты:** выпущен 2014-03-03 · изменён 2014-02-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130186.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130186.pdf)
 
-## Dual Impeller Water Pump Orifice and Duckbill Changes
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Изменения жиклёра и дренажного клапана двухкрыльчаткового насоса
 
-### Contents
+### Положение о гарантии
 
-This document announces the release of an improved dual impeller water pump for QSK 38, 50, and 60 engine models as shown below.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Two changes are being announced in this document.
+### Содержание
 
-- A reduction in diameter in the internal oil orifice that is used to supply the bearings with oil.
-- A more robust debris shield, to prevent dirt ingress through the weep hole.
+В этом документе сообщается о выпуске улучшенного водяного насоса с двойным рабочим колесом для моделей двигателей QSK 38, 50 и 60, как показано ниже.
 
-The oil feed orifice previously had a higher flow which exceeded the oil requirement for the bearings and caused oil to leak past the oil seal.
+В этом документе объявлены два изменения.
 
-The debris shield (duckbill), has been redesigned to be longer and a more secure fit for robustness.
+- Уменьшение диаметра во внутреннем масляном отверстии, которое используется для подачи подшипников с маслом.
+- Более прочный щит от мусора, чтобы предотвратить попадание грязи через дыру плача.
 
-| Item Description | New Part Number | Old Part Number | Engine Model |
+Отверстие для подачи масла ранее имело более высокий поток, который превышал потребность в масле для подшипников и вызывал утечку масла мимо нефтяного уплотнения.
+
+Щит от мусора (duckbill) был переработан, чтобы быть более длинным и более безопасным для прочности.
+
+| Пункт Описание | Новый номер детали | Прежний номер детали | Модель двигателя |
 |---|---|---|---|
-| Pump, Water | 3651198 | 3648265 | QSK50 Frac Rigs |
-| Pump, Water | 3651200 | 3648269 | QSK50 Non-Frac Rig |
-| Pump, Water | 3651202 | 3648270 | QSK38 |
-| Pump, Water | 3651206 | 3648277 | QSK60 |
-| Pump, Water | 3651204 | 3648275 | QSK60 1200 rpm Oil and Gas |
-| Tube, Water Drain | [[3651196]] | 3648346 | All |
-| Shield, Debris | 3651395 | 3648319 | All |
+| Насос, вода | 3651198 | 3648265 | QSK50 Frac Rigs (Фрак Ригс) |
+| Насос, вода | 3651200 | 3648269 | QSK50 Non-Frac Rig (нефраковый) |
+| Насос, вода | 3651202 | 3648270 | QSK38 |
+| Насос, вода | 3651206 | 3648277 | QSK60 |
+| Насос, вода | 3651204 | 3648275 | QSK60 1200 об/мин Нефть и газ |
+| Трубка, Утечка воды | [[3651196]] | 3648346 | Все |
+| Щит, Дебрис | 3651395 | 3648319 | Все |
 
 ![[07500019.png]]
 
-For four weeks prior to implementation, the new part numbers pumps were produced with the new sized orifice and existing part numbers. These pumps can be identified by the "&" after the serial number stamped on the pump body, as shown above.
+За четыре недели до внедрения были изготовлены новые насосы с новым размером отверстия и существующими номерами деталей. Эти насосы могут быть идентифицированы по букве «&» после серийного номера, проштампованного на корпусе насоса, как показано выше.
 
-#### Engine Serial Number (ESN) Firsts are as follows:
+#### Серийный номер двигателя (ESN) выглядит следующим образом:
 
-- Part Number 3651202 - ESN 33199433
-- Part Number 3651200 - ESN 33199408
-- Part Number 3651206 - ESN 33199709.
+- Номер детали 3651202 - ESN 33199433
+- Номер детали 3651200 - ESN 33199408
+- Номер детали 3651206 — ESN 33199709.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3651196]] | Water Drain Tube | Трубка слива воды |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Dual Impeller Water Pump Orifice and Duckbill Changes
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document announces the release of an improved dual impeller water pump for QSK 38, 50, and 60 engine models as shown below.
+>
+> Two changes are being announced in this document.
+>
+> - A reduction in diameter in the internal oil orifice that is used to supply the bearings with oil.
+> - A more robust debris shield, to prevent dirt ingress through the weep hole.
+>
+> The oil feed orifice previously had a higher flow which exceeded the oil requirement for the bearings and caused oil to leak past the oil seal.
+>
+> The debris shield (duckbill), has been redesigned to be longer and a more secure fit for robustness.
+>
+> | Item Description | New Part Number | Old Part Number | Engine Model |
+> |---|---|---|---|
+> | Pump, Water | 3651198 | 3648265 | QSK50 Frac Rigs |
+> | Pump, Water | 3651200 | 3648269 | QSK50 Non-Frac Rig |
+> | Pump, Water | 3651202 | 3648270 | QSK38 |
+> | Pump, Water | 3651206 | 3648277 | QSK60 |
+> | Pump, Water | 3651204 | 3648275 | QSK60 1200 rpm Oil and Gas |
+> | Tube, Water Drain | [[3651196]] | 3648346 | All |
+> | Shield, Debris | 3651395 | 3648319 | All |
+>
+> For four weeks prior to implementation, the new part numbers pumps were produced with the new sized orifice and existing part numbers. These pumps can be identified by the "&" after the serial number stamped on the pump body, as shown above.
+>
+> #### Engine Serial Number (ESN) Firsts are as follows:
+>
+> - Part Number 3651202 - ESN 33199433
+> - Part Number 3651200 - ESN 33199408
+> - Part Number 3651206 - ESN 33199709.
+>
+> ### Document History

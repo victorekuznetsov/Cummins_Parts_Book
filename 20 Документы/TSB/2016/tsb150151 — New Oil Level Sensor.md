@@ -13,12 +13,15 @@ engines:
   - "33239899"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150151.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150151.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "год/2016"
+  - "перевод/машинный"
   - "тема/electronic-engine-controls"
 ---
 
@@ -32,15 +35,23 @@ tags:
 > **Даты:** выпущен 2016-01-21 · изменён 2016-01-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150151.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150151.pdf)
 
-## New Oil Level Sensor
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый датчик уровня масла
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QSK38
 - QSK45 CM500
@@ -56,44 +67,112 @@ The information in this document has no effect on present warranty coverage or r
 - QSK60 G
 - QSK78 CM500
 - QSK78 CM2250 K104
-- QKS78 PG CM500 and CM850
+- QKS78 PG CM500 и CM850
 
-**Description of Change**
+**Описание изменения**
 
-This document announces the release of a new oil level sensor. The new oil level sensor, Part Number 4358900, includes a hard convolute attached to a hardened backshell. A heat shrink seal has replaced the existing oil level sensor nylon dust guard and will help to increases the connector robustness against foreign material and moisture intrusion.
+В этом документе сообщается о выпуске нового датчика уровня масла. Новый датчик уровня масла, часть 4358900, включает в себя твердую извилину, прикрепленную к закаленной оболочке разъема. Теплоусадочная печать заменила существующий датчик уровня масла нейлоновой пылевой защитой и поможет повысить надежность разъема против инородного материала и влажности.
 
-**Reason for Change**
+**Причина изменения**
 
-The oil level sensor was improved to prevent foreign material and moisture ingress into the backshell of the connector. Foreign material and moisture can cause a change in resistance between pins, which causes erratic signal and false readings. Fault Codes 471, 252, 219, 141, 147, 232, 422, and 729 can become active.
+Датчик уровня масла был улучшен, чтобы предотвратить попадание постороннего материала и влаги в соединительную оболочку разъёма. Инородный материал и влага могут вызвать изменение сопротивления между штифтами, что вызывает неустойчивый сигнал и ложные показания. Коды 471, 252, 219, 141, 147, 232, 422 и 729 могут стать активными.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-| **Table 1, Service Parts** |  |  |
+| ** Таблица 1, Части обслуживания** |  |  |
 |---|---|---|
-| **Part Description** | **Obsolete Part Number** | **New Part Number** |
-| Oil Level Sensor | 3408653 | 4358900 |
+| ** Часть описания** | ** Устаревший номер детали** | **Новый номер** |
+| Сенсор уровня масла | 3408653 | 4358900 |
 
-**Part Identification**
+**Идентификация детали**
 
-The new oil level sensor can be identified by a hard convolute/corrugated tube attached to a hardened backshell connector.
+Новый датчик уровня масла может быть идентифицирован жесткой сверточной / провернутой трубкой, прикрепленной к закаленной соединительной оболочке.
 
-**Part Structure**
+** Часть структуры**
 
-The previous oil level sensor, Part Number 3408653, has been obsoleted and superseded by the new oil level sensor, Part Number 4358900.
+Предыдущий датчик уровня масла, номер детали 3408653, был устаревшим и заменен новым датчиком уровня масла, номер детали 4358900.
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-None.
+Нет.
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| **Table 2, Production Information** |  |  |  |
+| **Таблица 2, Информация о производстве** |  |  |  |
 |---|---|---|---|
-| **Product** | **ESN First** | **Build Date** \* | **Engine Plant** |
-| QSK78 CM500 | 66303676 | 1 September 15 | Daventry |
-| QSK60 CM500 | 33205636 | 1 September 15 | Daventry |
-| \* Engine build date can be found on the engine dataplate. |  |  |  |
+| **Продукт** | **Впервые** | ** Дата строительства** | ** Инженерный завод** |
+| QSK78 CM500 | 66303676 | 1 сентября 15 сентября | Давентри |
+| QSK60 CM500 | 33205636 | 1 сентября 15 сентября | Давентри |
+| * Дата сборки двигателя можно найти на табличке с данными двигателя. |  |  |  |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Oil Level Sensor
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK38
+> - QSK45 CM500
+> - QSK45 G
+> - QSK50 CM850
+> - QSK50 CM2150 MCRS
+> - QSK50 DF CM850/CM2150 MCRS
+> - QSK50 CM2150 K107
+> - QSK50 CM2350 K108
+> - QSK60 CM500
+> - QSK60 CM850 MCRS
+> - QSK60 CM2150 MCRS
+> - QSK60 G
+> - QSK78 CM500
+> - QSK78 CM2250 K104
+> - QKS78 PG CM500 and CM850
+>
+> **Description of Change**
+>
+> This document announces the release of a new oil level sensor. The new oil level sensor, Part Number 4358900, includes a hard convolute attached to a hardened backshell. A heat shrink seal has replaced the existing oil level sensor nylon dust guard and will help to increases the connector robustness against foreign material and moisture intrusion.
+>
+> **Reason for Change**
+>
+> The oil level sensor was improved to prevent foreign material and moisture ingress into the backshell of the connector. Foreign material and moisture can cause a change in resistance between pins, which causes erratic signal and false readings. Fault Codes 471, 252, 219, 141, 147, 232, 422, and 729 can become active.
+>
+> **Service Parts Availability**
+>
+> | **Table 1, Service Parts** |  |  |
+> |---|---|---|
+> | **Part Description** | **Obsolete Part Number** | **New Part Number** |
+> | Oil Level Sensor | 3408653 | 4358900 |
+>
+> **Part Identification**
+>
+> The new oil level sensor can be identified by a hard convolute/corrugated tube attached to a hardened backshell connector.
+>
+> **Part Structure**
+>
+> The previous oil level sensor, Part Number 3408653, has been obsoleted and superseded by the new oil level sensor, Part Number 4358900.
+>
+> **Part Inventory Action**
+>
+> None.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | **Table 2, Production Information** |  |  |  |
+> |---|---|---|---|
+> | **Product** | **ESN First** | **Build Date** \* | **Engine Plant** |
+> | QSK78 CM500 | 66303676 | 1 September 15 | Daventry |
+> | QSK60 CM500 | 33205636 | 1 September 15 | Daventry |
+> | \* Engine build date can be found on the engine dataplate. |  |  |  |
+>
+> ### Document History

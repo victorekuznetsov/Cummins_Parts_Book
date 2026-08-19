@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc423.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc423.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Injector Timing Rail 1 Fuel Pressure - Data Erratic, Intermittent, or Incorrect
@@ -33,60 +36,126 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc423.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc423.pdf)
 
-### Fault Code: 423
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Injector Timing Rail 1 Fuel Pressure - Data Erratic, Intermittent, or Incorrect
 
-Printable Version
+### Код неисправности: 423
 
-### Overview
+### Давление топлива в рампе опережения 1 — данные нестабильны или неверны
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 423 PID(P): P156 SPN: 156 FMI: 2/2 Lamp: Amber SRT: | Signal voltage indicates that the timing pressure sensor signal is irrational. | Possible reduced engine performance. |
+| Код неисправности: 423 PID(P): P156 SPN: 156 FMI: 2/2 лампы: Янтарная СРТ: | Напряжение сигнала указывает на то, что сигнал датчика давления времени является иррациональным. | Возможно снижение производительности двигателя. |
 
 ![[19a00870.png]]
 
-Engine Fuel Timing Actuator Circuit
+Схема привода привода двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine fuel timing actuator circuit is used to control the start of injection. The engine control module (ECM) monitors the current on the timing actuator pulse width modulated supply circuit.
+Схема привода привода синхронизации двигателя используется для управления началом впрыска. Модуль управления двигателем (ECM) контролирует ток на цепи питания с модулированной шириной импульса привода синхронизации.
 
-### Component Location
+### Расположение компонента
 
-The engine timing pressure actuator is internal to the fuel pump.
+Привод давления в момент двигателя является внутренним для топливного насоса.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs when the timing rail actuator is commanded ON.
+Эта диагностика выполняется, когда включается привод рельсового привода синхронизации.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected a fueling timing or quantity error for all injectors.
+Модуль управления двигателем (ECM) обнаружил ошибку времени или количества заправки для всех топливных форсунок.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+- Для проверки ремонта доведите двигатель до рабочей температуры и запускайте его в нормальных условиях нагрузки в течение 15 минут.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Damaged or malfunctioning engine fuel timing actuator
+- Поврежденный или неисправный привод двигателя синхронизации
 
-- Damaged or loose connectors.
+- Поврежденные или рыхлые разъемы.
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Drainline restriction
+- Ограничение дренажа
 
-Refer to Troubleshooting Fault Code 423.
+См. Код 423 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 423
+>
+> ### Injector Timing Rail 1 Fuel Pressure - Data Erratic, Intermittent, or Incorrect
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 423 PID(P): P156 SPN: 156 FMI: 2/2 Lamp: Amber SRT: | Signal voltage indicates that the timing pressure sensor signal is irrational. | Possible reduced engine performance. |
+>
+> Engine Fuel Timing Actuator Circuit
+>
+> ### Circuit Description
+>
+> The engine fuel timing actuator circuit is used to control the start of injection. The engine control module (ECM) monitors the current on the timing actuator pulse width modulated supply circuit.
+>
+> ### Component Location
+>
+> The engine timing pressure actuator is internal to the fuel pump.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs when the timing rail actuator is commanded ON.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected a fueling timing or quantity error for all injectors.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Damaged or malfunctioning engine fuel timing actuator
+>
+> - Damaged or loose connectors.
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Drainline restriction
+>
+> Refer to Troubleshooting Fault Code 423.

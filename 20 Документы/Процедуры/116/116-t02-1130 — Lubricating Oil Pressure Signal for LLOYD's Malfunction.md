@@ -12,12 +12,15 @@ families:
   - "QSK19"
 manuals:
   - "4021617"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1130.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1130.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pressure Signal for LLOYD's Malfunction
@@ -31,60 +34,128 @@ tags:
 > **Даты:** изменён 2008-05-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1130.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-t02-1130.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- The OEM signal for LLOYD's sensor has malfunctioned.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- Сигнал OEM для датчика LLOYD вышел из строя.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-This LLOYD's sensor is connected to the OEM side (X7 connector) of the remote input/output unit. The OEM is responsible for this connection.
+По этому дереву симптомов можно вести поиск неисправности. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-## Troubleshooting Summary
+### Практические замечания
 
-| STEPS | SPECIFICATIONS |  |
+Этот датчик LLOYD подключен к OEM-стороне (разъем X7) удаленного блока ввода/вывода. OEM отвечает за эту связь.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the OEM wiring harness. |  |
-|  | **STEP 1A.** Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open. |  |
-|  | **STEP 1B.** Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short. |  |
-|  | **STEP 1C.** Check the lubricating oil pressure signal wire for a short to ground. |  |
-|  | **STEP 1D.** Check the lubricating oil pressure sensor supply +24-VDC for voltage. |  |
+| ШАГ 1. | Проверьте жгут проводов изготовителя машины. |  |
+|  | **STEP 1A.** Проверить сигнал давления моторного масла и подачу датчика +24-VDC проводов на наличие открытого. |  |
+|  | **STEP 1B.** Проверьте сигнал давления моторного масла и подачу датчика +24-VDC для короткого провода к проводу. |  |
+|  | **STEP 1C** Проверить сигнальный провод давления моторного масла на короткое время до заземления. |  |
+|  | **STEP 1D.** Проверьте подачу моторного масла +24-VDC на напряжение. |  |
 
-### STEP 1. Check the OEM wiring harness.
+### ШАГ 1. Проверьте жгут проводов изготовителя машины.
 
-#### STEP 1A. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open.
+#### ШАГ 1A. Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для открытого.
 
-| **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+| **Условия: ** Отключите электропроводку OEM-производителя на разъеме X7. Отключите разъем датчика давления моторного масла. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on the lubricating oil pressure signal pin at the sensor connector. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the X7 connector. Place the other test lead on the lubricating oil pressure sensor supply +24-VDC pin at the sensor connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2B |
-| Less than 10 ohms? **NORepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для открытого. Поместите один испытательный щуп на контакт сигнала давления моторного масла на разъем X7. Поместите другой испытательный щуп на контакт сигнала давления моторного масла на разъем датчика. Поместите один испытательный щуп на датчик давления моторного масла +24-VDC на разъеме X7. Поместите другой испытательный щуп на датчик давления моторного масла, подаваемый +24-VDC штифт на разъем датчика. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *Да** | 2В |
+| Менее 10 Ом? **NORepair:** Заменить провод. См. сервисное руководство изготовителя машины. | Ремонт завершён |  |
 
-#### STEP 2B. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short.
+#### ШАГ 2B. Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для короткой проводной проводов.
 
-| **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+| **Условия: ** Отключите электропроводку OEM-производителя на разъеме X7. Отключите разъем датчика давления моторного масла. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on all other pins at the X7 connector. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the X7 connector. Place the other test lead on all other pins at the X7 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |
-| Less than 10 ohms? **NO** | 2C |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для короткой проводной проводов. Поместите один испытательный щуп на контакт сигнала давления моторного масла на разъем X7. Поместите другой испытательный щуп на все другие штифты в разъем X7. Поместите один испытательный щуп на датчик давления моторного масла +24-VDC на разъеме X7. Поместите другой испытательный щуп на все другие штифты в разъем X7. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод. См. сервисное руководство изготовителя машины. | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2C |  |
 
-#### STEP 2C. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a short to ground.
+#### ШАГ 2C. Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для короткого наземного.
 
-| **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+| **Условия: ** Отключите электропроводку OEM-производителя на разъеме X7. Отключите разъем датчика давления моторного масла. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a short to ground. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on engine ground. Place one test lead on the sensor supply +24-VDC pin at the X7 connector. Place the other test lead on engine ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |
-| Less than 10 ohms? **NO** | 2D |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте сигнал давления моторного масла и датчик питания проводов +24-VDC для короткого наземного. Поместите один испытательный щуп на контакт сигнала давления моторного масла на разъем X7. Поместите другой испытательный щуп на землю двигателя. Поместите один испытательный щуп на датчик питания +24-VDC штифта на разъем X7. Поместите другой испытательный щуп на землю двигателя. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Менее 10 Ом? *** Заменить провод. См. сервисное руководство изготовителя машины. | Ремонт завершён |
+| Менее 10 Ом? ** НЕТ** | 2D |  |
 
-#### STEP 2D. Check the lubricating oil pressure sensor supply +24-VDC wire for voltage.
+#### ШАГ 2D. Проверьте датчик давления моторного масла подачу провода +24-VDC на напряжение.
 
-| **Conditions:** Disconnect the lubricating oil pressure sensor connector. |  |  |
+| **Условия:** Отключите разъем датчика давления моторного масла. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the lubricating oil pressure sensor supply +24-VDC wire for voltage. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the sensor connector. Place the other test lead on engine ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | +24-VDC? **YESRepair:** Replace the lubricating oil pressure sensor. Refer to the OEM service manual or contact a Cummins® Authorized Repair Location. | Repair complete |
-| +24-VDC? **NORepair:** Check the batteries. Refer to the OEM service manual. Replace the remote input/output unit. Contact a Cummins® Authorized Repair Location. | Repair complete |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте датчик давления моторного масла подачу провода +24-VDC на напряжение. Поместите один испытательный щуп на датчик давления моторного масла +24-VDC на разъем датчика. Поместите другой испытательный щуп на землю двигателя. См. соответствующую схему или схему проводов для идентификации штифта и провода. | +24-VDC? *** Ремонт:** Заменить датчик давления моторного масла. См. руководство по обслуживанию OEM или свяжитесь с авторизованным местом ремонта Cummins®. | Ремонт завершён |
+| +24-VDC? **Батарные батареи:** Проверить. См. сервисное руководство изготовителя машины. Заменить удаленный блок ввода/вывода. Обратитесь в авторизованный сервисный центр Cummins®. | Ремонт завершён |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - The OEM signal for LLOYD's sensor has malfunctioned.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> This LLOYD's sensor is connected to the OEM side (X7 connector) of the remote input/output unit. The OEM is responsible for this connection.
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the OEM wiring harness. |  |
+> |  | **STEP 1A.** Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open. |  |
+> |  | **STEP 1B.** Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short. |  |
+> |  | **STEP 1C.** Check the lubricating oil pressure signal wire for a short to ground. |  |
+> |  | **STEP 1D.** Check the lubricating oil pressure sensor supply +24-VDC for voltage. |  |
+>
+> ### STEP 1. Check the OEM wiring harness.
+>
+> #### STEP 1A. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open.
+>
+> | **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the lubricating oil pressure signal and sensor supply +24-VDC wires for an open. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on the lubricating oil pressure signal pin at the sensor connector. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the X7 connector. Place the other test lead on the lubricating oil pressure sensor supply +24-VDC pin at the sensor connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YES** | 2B |
+> | Less than 10 ohms? **NORepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |  |
+>
+> #### STEP 2B. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short.
+>
+> | **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a wire-to-wire short. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on all other pins at the X7 connector. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the X7 connector. Place the other test lead on all other pins at the X7 connector. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |
+> | Less than 10 ohms? **NO** | 2C |  |
+>
+> #### STEP 2C. Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a short to ground.
+>
+> | **Conditions:** Disconnect the OEM harness at the X7 connector. Disconnect the lubricating oil pressure sensor connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the lubricating oil pressure signal and sensor supply +24-VDC wires for a short to ground. Place one test lead on the lubricating oil pressure signal pin at the X7 connector. Place the other test lead on engine ground. Place one test lead on the sensor supply +24-VDC pin at the X7 connector. Place the other test lead on engine ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than 10 ohms? **YESRepair:** Replace the wire. Refer to the OEM service manual. | Repair complete |
+> | Less than 10 ohms? **NO** | 2D |  |
+>
+> #### STEP 2D. Check the lubricating oil pressure sensor supply +24-VDC wire for voltage.
+>
+> | **Conditions:** Disconnect the lubricating oil pressure sensor connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the lubricating oil pressure sensor supply +24-VDC wire for voltage. Place one test lead on the lubricating oil pressure sensor supply +24-VDC pin at the sensor connector. Place the other test lead on engine ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | +24-VDC? **YESRepair:** Replace the lubricating oil pressure sensor. Refer to the OEM service manual or contact a Cummins® Authorized Repair Location. | Repair complete |
+> | +24-VDC? **NORepair:** Check the batteries. Refer to the OEM service manual. Replace the remote input/output unit. Contact a Cummins® Authorized Repair Location. | Repair complete |  |

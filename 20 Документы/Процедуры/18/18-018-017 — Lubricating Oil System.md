@@ -16,6 +16,8 @@ families:
 manuals:
   - "3666120"
   - "3810497"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-018-017.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil System
@@ -36,54 +39,62 @@ tags:
 > **Даты:** изменён 2023-01-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-018-017.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Oil Pressure (with 15W-40 oil at 93°C to 121°C \[ 200°F to 250°F \]):
 
-| At Idle (minimum allowable) | 138 kPa \[ 20 psi \] |
+### Спецификации
+
+#### Масляное давление (с маслом 15W-40 при 93°C до 121°C \[200°F до 250°F \]):
+
+| В Idle (минимально допустимый) | 138 кПа[20 psi] |
 |---|---|
 
-| At No-Load Governed Speed | 345 to 551 kPa \[ 50 to 80 psi \] |
+| При ненагруженной скорости | 345-551 кПа[50-80 psi] |
 |---|---|
 
-#### Oil Temperature:
+#### Температура масла:
 
-| Maximum | 120°C \[ 250°F \] |
+| Максимум | 120°C[250°F] |
 |---|---|
 
-#### Oil Filter Capacity:
+#### Мощность фильтра масла:
 
-| Bypass Filter (spin-on) | 2.3 liters \[ 0.6 U.S. gal \] |
+| Bypass Filter (всплеск) | 2,3 литра [0,6 США]. гал |
 |---|---|
 
-| Full-Flow Filter (spin-on) | 2.7 liters \[ 0.7 U.S. gal \] |
+| Фильтр полного потока (spin-on) | 2,7 литра[0,7 США]. гал |
 |---|---|
 
-| Combination Filter | 2.3 liters \[ 0.6 U.S. gal \] |
+| Комбинированный фильтр | 2,3 литра [0,6 США]. гал |
 |---|---|
 
-| Bypass Filter, Canister Type | 11.3 liters \[ 3.0 U.S. gal \] |
+| Обходной фильтр, тип контейнера | 11,3 литра [3,0 шт.] гал |
 |---|---|
 
-#### Piston Cooling Regulator:
+#### Регулятор охлаждения Piston:
 
-| Start to Open Pressure (nominal) | 131 kPa \[ 19 psi \] |
+| Начало работы с открытым давлением (номинальное) | 131 кПа[19 psi] |
 |---|---|
 
-| Fully Open Pressure (nominal) | 200 kpa \[ 29 psi \] |
+| Полностью открытое давление (номинальное) | 200 кПа[29 psi] |
 |---|---|
 
-#### Maximum Difference in Main Oil Rifle Pressure and Piston Cooling Rifle Pressure
+#### Максимальная разница в основном давлении на нефтяную винтовку и давлении на стрелку с пестонным охлаждением
 
-| Rated Speed, Hot Oil | 34 kPa \[ 5 psi \] |
+| Скорость, горячее масло | 34 кПа[5 psi] |
 |---|---|
 
-| Maximum Pressure Drop Across Oil Filters | 55 kPa \[ 8 psi \] |
+| Максимальное давление падает через масляные фильтры | 55 кПа[8 psi] |
 |---|---|
 
-| Lubricating Oil Pan Capacities |  |  |  |  |
+| Мощности пана моторного масла |  |  |  |  |
 |---|---|---|---|---|
-| Part Number | Low (Liter) | High (Liter) | Low \[ U.S. Gallon \] | High \[ U.S. Gallon \] |
+| Номер детали | Низкий (Liter) | High (литература) | Низкий[США]. Галлон \ | High[править править код] Галлон \ |
 | 205774 | 32 | 38 | 8.5 | 10 |
 | 205881 | 57 | 64 | 15 | 17 |
 | 207304 | 40 | 47 | 10.5 | 12.5 |
@@ -105,5 +116,79 @@ tags:
 | 3627067 | 53 | 61 | 14 | 16 |
 | 3630061 | 55 | 61 | 14.5 | 16 |
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Если двигатель содержит задний зубчатый состав, добавьте 7,6 литра[2]. gal \) к емкости масляного поддон.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Oil Pressure (with 15W-40 oil at 93°C to 121°C \[ 200°F to 250°F \]):
+>
+> | At Idle (minimum allowable) | 138 kPa \[ 20 psi \] |
+> |---|---|
+>
+> | At No-Load Governed Speed | 345 to 551 kPa \[ 50 to 80 psi \] |
+> |---|---|
+>
+> #### Oil Temperature:
+>
+> | Maximum | 120°C \[ 250°F \] |
+> |---|---|
+>
+> #### Oil Filter Capacity:
+>
+> | Bypass Filter (spin-on) | 2.3 liters \[ 0.6 U.S. gal \] |
+> |---|---|
+>
+> | Full-Flow Filter (spin-on) | 2.7 liters \[ 0.7 U.S. gal \] |
+> |---|---|
+>
+> | Combination Filter | 2.3 liters \[ 0.6 U.S. gal \] |
+> |---|---|
+>
+> | Bypass Filter, Canister Type | 11.3 liters \[ 3.0 U.S. gal \] |
+> |---|---|
+>
+> #### Piston Cooling Regulator:
+>
+> | Start to Open Pressure (nominal) | 131 kPa \[ 19 psi \] |
+> |---|---|
+>
+> | Fully Open Pressure (nominal) | 200 kpa \[ 29 psi \] |
+> |---|---|
+>
+> #### Maximum Difference in Main Oil Rifle Pressure and Piston Cooling Rifle Pressure
+>
+> | Rated Speed, Hot Oil | 34 kPa \[ 5 psi \] |
+> |---|---|
+>
+> | Maximum Pressure Drop Across Oil Filters | 55 kPa \[ 8 psi \] |
+> |---|---|
+>
+> | Lubricating Oil Pan Capacities |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Number | Low (Liter) | High (Liter) | Low \[ U.S. Gallon \] | High \[ U.S. Gallon \] |
+> | 205774 | 32 | 38 | 8.5 | 10 |
+> | 205881 | 57 | 64 | 15 | 17 |
+> | 207304 | 40 | 47 | 10.5 | 12.5 |
+> | 207305 | 32 | 38 | 8.5 | 10 |
+> | 3006484 | 40 | 47 | 10.5 | 12.5 |
+> | 3008538 | 32 | 38 | 8.5 | 10 |
+> | 3009643 | 40 | 47 | 10.5 | 12.5 |
+> | 3024391 | 66 | 72 | 17.4 | 19 |
+> | 3032521 | 40 | 47 | 10.5 | 12.5 |
+> | 3032541 | 61 | 68 | 16 | 18 |
+> | 3046856 | 32 | 38 | 8.5 | 10 |
+> | 3088256 | 40 | 47 | 10.5 | 12.5 |
+> | 3166244 | 32 | 38 | 8.5 | 10 |
+> | 3200709 | 40 | 47 | 10.5 | 12.5 |
+> | 3201960 | 40 | 47 | 10.5 | 12.5 |
+> | 3202152 | 32 | 38 | 8.5 | 10 |
+> | 3227451 | 32 | 38 | 8.5 | 10 |
+> | 3234794 | 55 | 61 | 14.5 | 16 |
+> | 3627067 | 53 | 61 | 14 | 16 |
+> | 3630061 | 55 | 61 | 14.5 | 16 |
+>
+> **Note · Примечание**
 > If the engine contains a rear gear train, add 7.6 liters \[ 2 U.S. gal \] to the oil pan capacity.

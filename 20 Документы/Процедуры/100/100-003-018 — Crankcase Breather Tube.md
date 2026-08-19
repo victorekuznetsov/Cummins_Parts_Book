@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-003-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-003-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather Tube
@@ -32,32 +35,66 @@ tags:
 > **Даты:** изменён 2004-08-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-003-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-003-018.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the two hose clamps from the crankcase breather.
 
-Remove the two breather tube support bracket capscrews (A and B).
+### Снятие
+
+Удалите два шланговых зажима из зажима для дыхания.
+
+Удалите два болта для поддержки дыхательной трубки (A и B).
 
 ![[br9tbma.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the hose and tube for restrictions, cracks, or other damage.
+Проверьте шланг и трубку на наличие ограничений, трещин или других повреждений.
 
-Replace the hose and tube if damaged.
+Замените шланг и трубку, если они повреждены.
 
 ![[br9tbea.png]]
 
-### Install
+### Установка
 
-Install the breather tube and hose clamps with the outlet oriented to allow the best routing of a 2.54 cm \[1 in\] diameter breather hose to the oil pan flange.
+Установите дыхательную трубку и шланговые зажимы с выходом, ориентированным на то, чтобы обеспечить наилучшую маршрутизацию дыхательного шланга диаметром 2,54 см \[1 в\] к фланцу масляной поддонной подвески.
 
-Tighten the capscrews for the breather tube support brackets.
+Затянуть болты для подпорных скобок дыхательной трубки.
 
-| **Torque Value:** | Step 1 | 24 n.m \[18 ft-lb\] |
+| ** Момент затяжки:** | ШАГ 1. | 24 Н·м[18 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 43 n.m \[32 ft-lb\] |
+|  | ШАГ 2. | 43 Н·м[32 фут-лб] |
 |---|---|---|
 
 ![[br9tbma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the two hose clamps from the crankcase breather.
+>
+> Remove the two breather tube support bracket capscrews (A and B).
+>
+> ### Inspect for Reuse
+>
+> Inspect the hose and tube for restrictions, cracks, or other damage.
+>
+> Replace the hose and tube if damaged.
+>
+> ### Install
+>
+> Install the breather tube and hose clamps with the outlet oriented to allow the best routing of a 2.54 cm \[1 in\] diameter breather hose to the oil pan flange.
+>
+> Tighten the capscrews for the breather tube support brackets.
+>
+> | **Torque Value:** | Step 1 | 24 n.m \[18 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 43 n.m \[32 ft-lb\] |
+> |---|---|---|

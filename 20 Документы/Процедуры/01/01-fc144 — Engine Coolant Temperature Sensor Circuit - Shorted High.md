@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc144.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc144.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Temperature Sensor Circuit - Shorted High
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc144.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc144.pdf)
 
-### Fault Code: 144
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Coolant Temperature Sensor Circuit - Shorted High
 
-Printable Version
+### Код неисправности: 144
 
-### Overview
+### Цепь датчика температуры ОЖ — замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 144 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant temperature sensor signal is shorted high. | No engine protection for coolant temperature. Possible white smoke. |
+| Код неисправности: 144 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Сигнал датчика температуры охлаждающей жидкости двигателя высоко закорочен. | Отсутствие защиты двигателя от температуры охлаждающей жидкости. Возможен белый дым. |
 
 ![[19803592.png]]
 
-Engine Coolant Temperature Sensor Circuit
+Схема датчика температуры двигателя
 
-### Circuit Description
+### Описание цепи
 
-The coolant temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the engine coolant. The coolant temperature is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 144. Voltage high can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
+Датчик температуры охлаждающей жидкости используется электронным модулем управления (ECM) для мониторинга температуры охлаждающей жидкости двигателя. Температура охлаждающей жидкости используется ECM для системы защиты двигателя, управления временем и заправкой. Если напряжение высокое, ECM регистрирует код 144 ошибки. Высокое напряжение может быть вызвано открытиями в сигнале или обратных проводах, шортами напряжения к сигналу или обратным проводам или неисправным открытым датчиком.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of the sensor varies with the temperature.
+Сопротивление датчика изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-144
+Устранение неполадок код t05-144
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 144
+>
+> ### Engine Coolant Temperature Sensor Circuit - Shorted High
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 144 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant temperature sensor signal is shorted high. | No engine protection for coolant temperature. Possible white smoke. |
+>
+> Engine Coolant Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The coolant temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the engine coolant. The coolant temperature is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 144. Voltage high can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of the sensor varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-144

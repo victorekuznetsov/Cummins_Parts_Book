@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1445.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1445.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Alternator Short Circuit - Alternator Protection
@@ -33,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1445.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1445.pdf)
 
-### Fault Code: 1445
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Alternator Short Circuit - Alternator Protection
 
-Printable Version
+### Код неисправности: 1445
 
-### Overview
+### Короткое замыкание генератора — защита генератора
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1445 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Alternator short circuit. | Generator set will shut down. |
+| Код неисправности: 1445 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Короткое замыкание альтернатора. | Генератор будет отключен. |
 
 ![[19802906.png]]
 
-Alternator Circuit
+Альтернативный маршрут
 
-### Circuit Description
+### Описание цепи
 
-The alternator turns the mechanical energy produced by the engine into electrical energy. The ECM monitors the performance and operation of the alternator. The threshold for short circuit condition is 175 percent of rated.
+Генератор превращает механическую энергию, вырабатываемую двигателем, в электрическую энергию. ECM контролирует работу и производительность генератора. Порог для состояния короткого замыкания составляет 175% от номинального.
 
-The ECM uses this fault code to inform the operator that a short circuit condition exists in the generator set alternator output circuit.
+ECM использует этот код неисправности, чтобы сообщить оператору, что в выходной цепи генераторного генератора существует условие короткого замыкания.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the alternator. Refer to customer/facility/installation documentation for diagrams on the generator set/electric bus setup.
+См. раздел E для определения местоположения генератора. См. документацию о клиенте/объекте/установке для диаграмм на генераторной установке/настройке электрической шины.
 
-### Shoptalk
+### Практические замечания
 
-Check the load and load lead connections.
+Проверьте нагрузку и загрузку свинцовых соединений.
 
-Refer to Troubleshooting Fault Code t05-1445
+См. Код устранения неисправностей t05-1445
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1445
+>
+> ### Alternator Short Circuit - Alternator Protection
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1445 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Alternator short circuit. | Generator set will shut down. |
+>
+> Alternator Circuit
+>
+> ### Circuit Description
+>
+> The alternator turns the mechanical energy produced by the engine into electrical energy. The ECM monitors the performance and operation of the alternator. The threshold for short circuit condition is 175 percent of rated.
+>
+> The ECM uses this fault code to inform the operator that a short circuit condition exists in the generator set alternator output circuit.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the alternator. Refer to customer/facility/installation documentation for diagrams on the generator set/electric bus setup.
+>
+> ### Shoptalk
+>
+> Check the load and load lead connections.
+>
+> Refer to Troubleshooting Fault Code t05-1445

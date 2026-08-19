@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc228.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc228.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Coolant Pressure - Data Valid But Below Normal Operating Range - Most Severe Level
@@ -33,64 +36,134 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc228.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc228.pdf)
 
-### Fault Code: 228
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Coolant Pressure - Data Valid But Below Normal Operating Range - Most Severe Level
 
-Printable Version
+### Код неисправности: 228
 
-### Overview
+### Давление ОЖ ниже нормы — наивысший уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 228 PID(P): P109 SPN: 109 FMI: 1/1 Lamp: Red SRT: | Coolant pressure signal indicates coolant pressure is below the engine protection critical limit. | Engine may shutdown. |
+| Код неисправности: 228 PID(P): P109 SPN: 109 FMI: 1/1 лампа: Красная СТО: | Сигнал давления охлаждающей жидкости указывает на то, что давление охлаждающей жидкости ниже критического предела защиты двигателя. | Двигатель может отключиться. |
 
 ![[19a00861.png]]
 
-Coolant Pressure Sensor Circuit
+Цепь датчика давления охлаждающей жидкости
 
-### Circuit Description
+### Описание цепи
 
-The engine coolant pressure sensor is a variable resistance sensor used by the ECM to monitor the coolant pressure. The engine coolant pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the coolant pressure in the engine cooling system.
+Датчик давления охлаждающей жидкости двигателя представляет собой датчик переменного сопротивления, используемый ECM для мониторинга давления охлаждающей жидкости. Датчик давления охлаждающей жидкости двигателя имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на давление охлаждающей жидкости в системе охлаждения двигателя.
 
-### Component Location
+### Расположение компонента
 
-The coolant pressure sensor is located on the water pump connection to the engine block.
+Датчик давления охлаждающей жидкости расположен на подсоединении водяного насоса к блоку двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the engine coolant pressure was less than the engine protection limit.
+Модуль управления двигателем (ECM) обнаружил, что давление охлаждающей жидкости двигателя было меньше предела защиты двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность выключения сразу же, когда диагностика работает и выходит из строя.
 
-- The engine will be shut down if the Engine Protection Shutdown feature is enabled.
+- Двигатель будет отключен, если включена функция защиты двигателя.
 
-- The torque output of the engine will be reduced.
+- Выходной крутящий момент двигателя будет уменьшен.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, operate the engine under load for at least 5 minutes.
+- Для проверки ремонта, работайте с двигателем под нагрузкой не менее 5 минут.
 
-- The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+- Контроллер генераторной установки отключит индикатор выключения сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Low coolant level
+- Низкий уровень охлаждающей жидкости
 
-- A malfunctioning radiator cap.
+- Неисправная крышка радиатора.
 
-- A malfunctioning coolant pressure sensor.
+- Неисправный датчик давления охлаждающей жидкости.
 
-- A malfunctioning water pump.
+- Неисправный водяной насос.
 
-Refer to Troubleshooting Fault Code 228.
+См. Код 228 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 228
+>
+> ### Coolant Pressure - Data Valid But Below Normal Operating Range - Most Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 228 PID(P): P109 SPN: 109 FMI: 1/1 Lamp: Red SRT: | Coolant pressure signal indicates coolant pressure is below the engine protection critical limit. | Engine may shutdown. |
+>
+> Coolant Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine coolant pressure sensor is a variable resistance sensor used by the ECM to monitor the coolant pressure. The engine coolant pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the coolant pressure in the engine cooling system.
+>
+> ### Component Location
+>
+> The coolant pressure sensor is located on the water pump connection to the engine block.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the engine coolant pressure was less than the engine protection limit.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+>
+> - The engine will be shut down if the Engine Protection Shutdown feature is enabled.
+>
+> - The torque output of the engine will be reduced.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, operate the engine under load for at least 5 minutes.
+>
+> - The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Low coolant level
+>
+> - A malfunctioning radiator cap.
+>
+> - A malfunctioning coolant pressure sensor.
+>
+> - A malfunctioning water pump.
+>
+> Refer to Troubleshooting Fault Code 228.

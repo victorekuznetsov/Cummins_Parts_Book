@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # CENSE™ Datalogger
@@ -33,26 +36,56 @@ tags:
 > **Даты:** изменён 2013-01-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf)
 
-### Reset
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-CENSE™ data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+### сброс
 
-For CENSE™ CM530 modules **only**, the data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+с форсункой механического управления
 
-1. First retrieve the CENSE™ data that has been saved.
-2. Select the fault codes and trend data options for resetting.
+Данные CENSETM** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
 
-Contact a Cummins ® Authorized Repair Location for detailed instructions.
+Для модулей CENSETM CM530** только*** данные*** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+
+1. Сначала извлеките сохраненные данные CENSETM.
+2. Выберите коды ошибок и параметры данных тренда для сброса.
+
+Свяжитесь с авторизованным местом ремонта Cummins для получения подробных инструкций.
 
 ![[19800902.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-These engines do **not** use CENSE™. Instead, they have advanced engine monitoring built into the ECMs. This data does **not** need to be reset because it will automatically write over the oldest data if the memory capacity becomes full. However, this memory can be cleared manually using INSITE™ electronic service tool. Fault logs **must** be viewed every 250 hours even if they are **not** going to be reset.
+Эти двигатели не используют CENSETM. Вместо этого они разработали усовершенствованный мониторинг двигателя, встроенный в ECM. Эти данные не должны быть сброшены, потому что они будут автоматически записываться по самым старым данным, если емкость памяти станет полной. Однако эта память может быть очищена вручную с помощью инструментария электронного обслуживания INSITETM. Журналы ошибок ** должны просматриваться каждые 250 часов, даже если они ** не будут сбрасывать.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Модули CENSETM CM2330 не нуждаются в сбросе.
+
+![[19800902.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Reset
+>
+> with Mechanically Actuated Injector
+>
+> CENSE™ data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+>
+> For CENSE™ CM530 modules **only**, the data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+>
+> 1. First retrieve the CENSE™ data that has been saved.
+> 2. Select the fault codes and trend data options for resetting.
+>
+> Contact a Cummins ® Authorized Repair Location for detailed instructions.
+>
+> with Electronically Actuated Injector
+>
+> These engines do **not** use CENSE™. Instead, they have advanced engine monitoring built into the ECMs. This data does **not** need to be reset because it will automatically write over the oldest data if the memory capacity becomes full. However, this memory can be cleared manually using INSITE™ electronic service tool. Fault logs **must** be viewed every 250 hours even if they are **not** going to be reset.
+>
+> **Note · Примечание**
 > CENSE™ CM2330 modules do **not** need to be reset.
-
-![[19800902.png]]

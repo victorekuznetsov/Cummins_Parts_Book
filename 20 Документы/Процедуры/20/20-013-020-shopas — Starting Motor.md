@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-020-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-020-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Starting Motor
@@ -32,29 +35,64 @@ tags:
 > **Даты:** изменён 2016-01-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-020-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-020-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-> [!note] Note · Примечание
-> **Not** all engines use spacers.
+### Установка
 
-> [!note] Note · Примечание
-> The wet type flywheel housing requires gaskets for the starting motor.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install any spacer or gaskets.
+> [!note] Примечание
+> **Не все двигатели используют прокладки.
 
-Install the starting motor and capscrews.
+> [!note] Примечание
+> Корпус маховика мокрого типа требует прокладок для запуска двигателя.
 
-Use the following torque values to tighten the capscrews.
+Установите любой прокладки или прокладки.
 
-Torque Value:
+Установите пусковой двигатель и болты.
 
-Cast Iron Flywheel Housing
+Используйте следующие значения крутящего момента, чтобы затянуть болты.
 
-Torque Value:
+Момент затяжки:
 
-Aluminum Flywheel Housing
+Закладка Iron Flywheel
+
+Момент затяжки:
+
+Алюминиевый корпус Flywheel
 
 ![[st4bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> **Not** all engines use spacers.
+>
+> **Note · Примечание**
+> The wet type flywheel housing requires gaskets for the starting motor.
+>
+> Install any spacer or gaskets.
+>
+> Install the starting motor and capscrews.
+>
+> Use the following torque values to tighten the capscrews.
+>
+> Torque Value:
+>
+> Cast Iron Flywheel Housing
+>
+> Torque Value:
+>
+> Aluminum Flywheel Housing

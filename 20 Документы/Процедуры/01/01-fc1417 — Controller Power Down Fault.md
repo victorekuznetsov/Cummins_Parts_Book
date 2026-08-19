@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1417.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1417.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Controller Power Down Fault
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1417.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1417.pdf)
 
-### Fault Code: 1417
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Controller Power Down Fault
 
-Printable Version
+### Код неисправности: 1417
 
-### Overview
+### Неисправность отключения питания контроллера
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1417 PID(P): SPN: FMI: Lamp: Warning SRT: | A controller power-down error has been detected. | The ECM can **not** power down because of some unknown condition. Possible drain on battery. |
+| Код неисправности: 1417 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Была обнаружена ошибка отключения питания контроллера. | ECM может ** не** отключаться из-за какого-то неизвестного состояния. Возможен дренаж батареи. |
 
 ![[19802494.png]]
 
-GCS ECM
+СХУ ECM
 
-### Circuit Description
+### Описание цепи
 
-The ECM checks during the power-down sequences to see if power is being shut off. If the power line is still hot, it checks for a reason for **not** shutting down. If no reason exists, then there **must** be a problem with the module that is **not** allowing it to power down.
+ECM проверяет во время последовательности выключения питания, чтобы увидеть, отключается ли питание. Если линия электропередачи все еще горячая, она проверяется по причине **не** отключения. Если нет причин, то должна быть проблема с модулем, который не позволяет ему отключаться.
 
-### Component Location
+### Расположение компонента
 
-Refer to the OEM manual for location of the ECM.
+См. руководство по OEM для определения местоположения ECM.
 
-### Shoptalk
+### Практические замечания
 
-This fault indicates a hardware failure in the ECM.
+Эта ошибка указывает на аппаратный сбой в ECM.
 
-Refer to Troubleshooting Fault Code t05-1417
+См. Код устранения неисправностей t05-1417
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1417
+>
+> ### Controller Power Down Fault
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1417 PID(P): SPN: FMI: Lamp: Warning SRT: | A controller power-down error has been detected. | The ECM can **not** power down because of some unknown condition. Possible drain on battery. |
+>
+> GCS ECM
+>
+> ### Circuit Description
+>
+> The ECM checks during the power-down sequences to see if power is being shut off. If the power line is still hot, it checks for a reason for **not** shutting down. If no reason exists, then there **must** be a problem with the module that is **not** allowing it to power down.
+>
+> ### Component Location
+>
+> Refer to the OEM manual for location of the ECM.
+>
+> ### Shoptalk
+>
+> This fault indicates a hardware failure in the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-1417

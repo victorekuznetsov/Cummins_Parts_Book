@@ -23,6 +23,8 @@ manuals:
   - "4021674"
   - "4022102"
 figures: 15
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-474.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-474.pdf"
 tags:
@@ -31,6 +33,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Bosch Aftertreatment DEF Controller Connector
@@ -44,119 +47,216 @@ tags:
 > **Даты:** изменён 2010-07-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-474.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-474.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This connector is used to attach the appropriate harness to the DEF (Diesel Exhaust Fluid) Controller.
+
+### Замена пин
+
+Этот разъем используется для подключения соответствующей электропроводки к контроллеру DEF (дизельный выхлопной жидкости).
 
 ![[19804024.png]]
 
-Remove the connector cover by inserting a small screwdriver into the angled slot on the side of the cover and twisting. Then slide the cover off of the connector.
+Удалите крышку разъема, вставив небольшую отвертку в угловой прорезь на стороне крышки и скручивая. Затем отодвиньте крышку от разъема.
 
-Cut the wire tie holding the wire bundle to free the wires.
+Перережьте проводной галстук, удерживающий проводной связок, чтобы освободить провода.
 
 ![[19804025.png]]
 
 53 Pin Connector
 
-Before the 1.2mm terminals can be removed it is necessary to remove the secondary lock \#1 from the small terminal block using a small screwdriver to move from the closed detent and completely remove from connector body.
+Перед тем, как 1,2-мм терминалы могут быть удалены, необходимо удалить вторичный замок \#1 из небольшого блока терминала с помощью небольшой отвертки, чтобы перейти от закрытого детента и полностью удалить из корпуса разъема.
 
-Before the 2.8mm terminals can be removed it is necessary to unlock the secondary lock \#2 by using a small screwdriver to move secondary lock \#2 from closed detent to the open detent position approximately 1.5mm travel.
+Перед тем, как 2,8-мм терминалы могут быть удалены, необходимо разблокировать вторичный замок \#2 с помощью небольшой отвертки, чтобы переместить вторичный замок \#2 из закрытого стенда в открытое положение стенки примерно 1,5 мм.
 
-DO NOT REMOVE COMPLETELY.
+Не удаляйте полностью.
 
 ![[19804026.png]]
 
 86 Pin Connector
 
-Repeat steps from 53 way connector.
+Повторите шаги с 53-х пути разъема.
 
-> [!note] Note · Примечание
-> The secondary locks are on opposite ends of the 86 way connector than the 53 way connector
+> [!note] Примечание
+> Вторичные замки находятся на противоположных концах разъема 86 пути, чем разъем 53 пути.
 
-Notice that the secondary lock \#2 should only move about 1.5mm and stop in an open detent position.
+Обратите внимание, что вторичный замок \#2 должен двигаться только около 1,5 мм и останавливаться в открытом положении.
 
 ![[19804027.png]]
 
-The same procedure is used to remove the wires from both connectors.
+Та же процедура используется для удаления проводов из обоих разъемов.
 
-Use Cummins electrical terminal replacer part number 4919735 to remove the wire terminals from the connector.
+Используйте замену электрического терминала Cummins 4919735 для удаления проводных терминалов из разъема.
 
 ![[19804028.png]]
 
-Replace one terminal wire at a time. If more than one terminal wire must be replaced, attach an identification tag to each wire removed.
+Замените один терминальный провод за раз. Если необходимо заменить более одного оконечного провода, прикрепите идентификационный тег к каждому удаленному проводу.
 
-Refer to the wiring diagram in Section E for terminal locations.
+См. схему проводов в разделе E для местоположений терминала.
 
-Refer to the appropriate wiring harness repair kit in the service tools table in front of section 19 for the correct repair wire.
+См. соответствующий комплект для ремонта жгутов проводов в таблице инструментов обслуживания перед секцией 19 для правильного ремонта провода.
 
 ![[19804029.png]]
 
-Removing Terminal
+Удаление терминала
 
-Insert the proper end of the replacer into the terminal unlocking holes in the face of the connector being careful to hold the replacer perpendicular to the face of the connector.
+Вставьте правильный конец заменителя в выводные отверстия на передней части разъема, стараясь удерживать заменитель перпендикулярно к поверхности разъема.
 
 ![[19804030.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the wire is difficult to remove, do not pull hard on the wire, otherwise, the locking tang of the terminal will stick or the terminal will pull off the wire and remain in the connector.
+> [!warning] ОСТОРОЖНО
+> Если провод трудно удалить, не тяните жестко на провод, в противном случае запирающий привязка терминала будет прилипать или терминал будет стягивать провод и оставаться в разъеме.
 
-Carefully pull the wire from the connector. If it is difficult to remove, repeat the entire process.
+Тщательно вытащите провод из разъема. Если его трудно удалить, повторите весь процесс.
 
 ![[19804029.png]]
 
-> [!note] Note · Примечание
-> The repair wire is 115mm \[4.5 in\] long.
+> [!note] Примечание
+> Ремонтный провод имеет длину 115 мм \[4,5 дюйма \].
 
-Use wire cutters to remove 115mm \[4.5 in.\] of the terminal and wire to be replaced.
+Используйте резак для удаления 115 мм \[4.5 in.\] терминала и провода, который должен быть заменен.
 
-Use wire stripping tool, Part Number 3400045, to remove 6mm \[¼ in.\] of insulation from the wire.
+Используйте инструмент для полоскания провода, номер детали 3400045, чтобы удалить 6 мм изоляции из провода.
 
 ![[19804031.png]]
 
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
 
-Install the repair wire on the bare wire.
+Установите ремонтный провод на голый провод.
 
-Make sure the bare wire extends into the splice connector properly.
+Убедитесь, что голый провод правильно распространяется на сплайс-коннектор.
 
 ![[19d01802.png]]
 
-Use wire crimping tool, Part Number 3163109, to crimp the repair wire onto the bare wire.
+Используйте инструмент для обжима проводов, номер детали 3163109, чтобы обрезать ремонтный провод на голый провод.
 
 ![[19804032.png]]
 
-Use Heat Gun, Part Number 3822860, to heat the shrink tubing around the wire.
+Используйте тепловой пистолет, номер детали 3822860, чтобы нагреть термоусадочную трубку вокруг провода.
 
-The tubing will shrink and make the connection waterproof.
+Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[ea8cohi.png]]
 
-Inserting Terminal
+Вставка терминала
 
-The wire terminals have locating features that only allow the terminal to be inserted in the proper orientation.
+Проволочные терминалы имеют функции определения местоположения, которые позволяют вставлять терминал только в правильной ориентации.
 
-Insert the wire from the top of the connector.
+Вставьте провод с верхней части разъема.
 
-Push the wire until the terminal locks into place.
+Проводите провод до тех пор, пока терминал не заблокируется.
 
-Pull on the wire gently to make sure it is locked into the connector.
+Тяните провод осторожно, чтобы убедиться, что он заблокирован в разъеме.
 
-Reinstall secondary locks and snap into locked position.
+Установите вторичные замки и защелкните в заблокированное положение.
 
 ![[19804029.png]]
 
-Position the wire bundle into place.
+Положите пучку провода на место.
 
-Install a wire tie to hold the wire bundle in place on the connector.
+Установите проводной галстук, чтобы удерживать проводной пучок на месте на разъеме.
 
-Remove the excess wire tie.
+Удалите лишний проводной галстук.
 
 ![[19804033.png]]
 
-Replace the connector shell by inserting the bottom sliding guides into the connector guide rails.
+Заменить соединительную оболочку, вставив нижние направляющие скольжения в направляющие рельсы разъёма.
 
-Slide toward the wire bundle and align the top slide guides into the upper connector guides.
+Скользите к пучку провода и выровните верхние направляющие слайда в верхние направляющие разъёма.
 
-Slide toward the wire bundle until the connector cover is snapped into place.
+Скользите к пучку провода, пока крышка разъема не будет защелкнута на место.
 
 > [!missing]- Иллюстрация `19804034.png` не извлечена — смотрите PDF-оригинал документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> This connector is used to attach the appropriate harness to the DEF (Diesel Exhaust Fluid) Controller.
+>
+> Remove the connector cover by inserting a small screwdriver into the angled slot on the side of the cover and twisting. Then slide the cover off of the connector.
+>
+> Cut the wire tie holding the wire bundle to free the wires.
+>
+> 53 Pin Connector
+>
+> Before the 1.2mm terminals can be removed it is necessary to remove the secondary lock \#1 from the small terminal block using a small screwdriver to move from the closed detent and completely remove from connector body.
+>
+> Before the 2.8mm terminals can be removed it is necessary to unlock the secondary lock \#2 by using a small screwdriver to move secondary lock \#2 from closed detent to the open detent position approximately 1.5mm travel.
+>
+> DO NOT REMOVE COMPLETELY.
+>
+> 86 Pin Connector
+>
+> Repeat steps from 53 way connector.
+>
+> **Note · Примечание**
+> The secondary locks are on opposite ends of the 86 way connector than the 53 way connector
+>
+> Notice that the secondary lock \#2 should only move about 1.5mm and stop in an open detent position.
+>
+> The same procedure is used to remove the wires from both connectors.
+>
+> Use Cummins electrical terminal replacer part number 4919735 to remove the wire terminals from the connector.
+>
+> Replace one terminal wire at a time. If more than one terminal wire must be replaced, attach an identification tag to each wire removed.
+>
+> Refer to the wiring diagram in Section E for terminal locations.
+>
+> Refer to the appropriate wiring harness repair kit in the service tools table in front of section 19 for the correct repair wire.
+>
+> Removing Terminal
+>
+> Insert the proper end of the replacer into the terminal unlocking holes in the face of the connector being careful to hold the replacer perpendicular to the face of the connector.
+>
+> **CAUTION · Осторожно**
+> If the wire is difficult to remove, do not pull hard on the wire, otherwise, the locking tang of the terminal will stick or the terminal will pull off the wire and remain in the connector.
+>
+> Carefully pull the wire from the connector. If it is difficult to remove, repeat the entire process.
+>
+> **Note · Примечание**
+> The repair wire is 115mm \[4.5 in\] long.
+>
+> Use wire cutters to remove 115mm \[4.5 in.\] of the terminal and wire to be replaced.
+>
+> Use wire stripping tool, Part Number 3400045, to remove 6mm \[¼ in.\] of insulation from the wire.
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Install the repair wire on the bare wire.
+>
+> Make sure the bare wire extends into the splice connector properly.
+>
+> Use wire crimping tool, Part Number 3163109, to crimp the repair wire onto the bare wire.
+>
+> Use Heat Gun, Part Number 3822860, to heat the shrink tubing around the wire.
+>
+> The tubing will shrink and make the connection waterproof.
+>
+> Inserting Terminal
+>
+> The wire terminals have locating features that only allow the terminal to be inserted in the proper orientation.
+>
+> Insert the wire from the top of the connector.
+>
+> Push the wire until the terminal locks into place.
+>
+> Pull on the wire gently to make sure it is locked into the connector.
+>
+> Reinstall secondary locks and snap into locked position.
+>
+> Position the wire bundle into place.
+>
+> Install a wire tie to hold the wire bundle in place on the connector.
+>
+> Remove the excess wire tie.
+>
+> Replace the connector shell by inserting the bottom sliding guides into the connector guide rails.
+>
+> Slide toward the wire bundle and align the top slide guides into the upper connector guides.
+>
+> Slide toward the wire bundle until the connector cover is snapped into place.

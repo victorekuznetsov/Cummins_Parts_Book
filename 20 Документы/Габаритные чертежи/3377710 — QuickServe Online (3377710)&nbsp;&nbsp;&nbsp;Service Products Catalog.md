@@ -16,6 +16,7 @@ families:
   - "NT/NTA855 · ISM/QSM11"
   - "QSK19"
   - "QST30"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/outlines/3377710.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/outlines/3377710.pdf"
 tags:

@@ -27,6 +27,8 @@ manuals:
   - "4021330"
   - "4021592"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-013-007.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-013-007.pdf"
 tags:
@@ -36,6 +38,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Batteries
@@ -49,19 +52,42 @@ tags:
 > **Даты:** изменён 2015-08-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-013-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-013-007.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gas. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the battery (-) negative cable first and attach the battery negative cable last.
 
-There are many types of batteries with varying technology. Common battery types include:
+### Общие сведения
 
-- Standard lead acid (also called flooded or wet cell)
-- Maintenance free absorbent glass mat (AGM)
-- Maintenance free gel cell
+> [!danger] ОПАСНО
+> Батареи могут выделять взрывоопасный газ. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы уменьшить возможность дуги, сначала удалите отрицательный кабель батареи (-) и прикрепите отрицательный кабель батареи последним.
+
+Существует множество типов батарей с различными технологиями. Типы батарей включают в себя:
+
+- Стандартная свинцовая кислота (также называемая затопленной или влажной клеткой)
+- Техническое обслуживание свободного абсорбирующего стеклянного коврика (AGM)
+- Обслуживание свободных гелевых клеток
 
 ![[ea1coga.png]]
 
-Check Original Equipment Manufacturer (OEM) or battery supplier service literature for battery removal and installation, maintenance, inspection, and testing requirements.
+Проверьте литературу по обслуживанию производителя оригинального оборудования (OEM) или поставщика батарей для требований по удалению и установке аккумуляторов, техническому обслуживанию, проверке и тестированию.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gas. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the battery (-) negative cable first and attach the battery negative cable last.
+>
+> There are many types of batteries with varying technology. Common battery types include:
+>
+> - Standard lead acid (also called flooded or wet cell)
+> - Maintenance free absorbent glass mat (AGM)
+> - Maintenance free gel cell
+>
+> Check Original Equipment Manufacturer (OEM) or battery supplier service literature for battery removal and installation, maintenance, inspection, and testing requirements.

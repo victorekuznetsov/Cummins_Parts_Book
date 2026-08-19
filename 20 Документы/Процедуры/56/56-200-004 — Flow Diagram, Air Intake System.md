@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-200-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-200-004.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -33,59 +36,116 @@ tags:
 > **Даты:** изменён 2006-02-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-200-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-200-004.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
+
+### Диаграмма потока
+
+с форсункой механического управления
 
 ![[10600059.png]]
 
-QSK45 Intake System - Single Stage
+Система приема QSK45 - одиночная стадия
 
-1. Intake air inlet to turbocharger
-2. Turbocharged air to aftercooler
-3. Aftercooler assemblies
-4. Aftercooled air to intake ports.
+1. Впуск воздуха в турбокомпрессор
+2. Турбонаддув для охладителя
+3. Послеохлаждение сборок
+4. После охлаждения воздуха в порты забора.
 
 ![[10600061.png]]
 
-QSK60 Intake System- Single Stage
+QSK60 - одноступенчатая система
 
-1. Intake air inlet to turbochargers
-2. Turbocharged air to aftercooler
-3. Turbocharged air travels through aftercoolers
-4. Aftercooled air to intake ports.
+1. Впуск воздуха в турбокомпрессоры
+2. Турбонаддув для охладителя
+3. Турбированный воздух проходит через афтеркулеры
+4. После охлаждения воздуха в порты забора.
 
 ![[10600060.png]]
 
-QSK60 Intake System- Two Stage
+Система приема QSK60 - два этапа
 
-1. Intake air inlet to low-pressure turbochargers
-2. Low-pressure turbocharger to intercooler air crossover
-3. Intercooler assemblies
-4. Intake air inlet to high-pressure turbochargers
-5. High-pressure turbocharger to aftercooler air crossover
-6. Aftercooler inlet
-7. Aftercooled air to intake ports.
+1. Впуск воздуха в турбокомпрессоры низкого давления
+2. Турбокомпрессор низкого давления для интеркулерного воздушного кроссовера
+3. Сборки интеркулеров
+4. Впуск воздуха в турбокомпрессоры высокого давления
+5. Турбокомпрессор высокого давления для послеохлажденного воздушного кроссовера
+6. Впуск послеохладителя
+7. После охлаждения воздуха в порты забора.
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
 ![[10600421.png]]
 
-QSK60 Intake System- Single Stage
+QSK60 - одноступенчатая система
 
-1. Intake air inlet to turbochargers
-2. Turbocharged air to aftercooler
-3. Turbocharged air travels through aftercoolers
-4. Aftercooled air to intake ports.
+1. Впуск воздуха в турбокомпрессоры
+2. Турбонаддув для охладителя
+3. Турбированный воздух проходит через афтеркулеры
+4. После охлаждения воздуха в порты забора.
 
 ![[10600422.png]]
 
-QSK60 Intake System- Two Stage
+Система приема QSK60 - два этапа
 
-1. Intake air inlet to low-pressure turbochargers
-2. Low-pressure turbocharger to intercooler air crossover
-3. Intercooler assemblies
-4. Intake air inlet to high-pressure turbochargers
-5. High-pressure turbocharger to aftercooler air crossover
-6. Aftercooler inlet
-7. Aftercooled air to intake ports.
+1. Впуск воздуха в турбокомпрессоры низкого давления
+2. Турбокомпрессор низкого давления для интеркулерного воздушного кроссовера
+3. Сборки интеркулеров
+4. Впуск воздуха в турбокомпрессоры высокого давления
+5. Турбокомпрессор высокого давления для послеохлажденного воздушного кроссовера
+6. Впуск послеохладителя
+7. После охлаждения воздуха в порты забора.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> with Mechanically Actuated Injector
+>
+> QSK45 Intake System - Single Stage
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharged air to aftercooler
+> 3. Aftercooler assemblies
+> 4. Aftercooled air to intake ports.
+>
+> QSK60 Intake System- Single Stage
+>
+> 1. Intake air inlet to turbochargers
+> 2. Turbocharged air to aftercooler
+> 3. Turbocharged air travels through aftercoolers
+> 4. Aftercooled air to intake ports.
+>
+> QSK60 Intake System- Two Stage
+>
+> 1. Intake air inlet to low-pressure turbochargers
+> 2. Low-pressure turbocharger to intercooler air crossover
+> 3. Intercooler assemblies
+> 4. Intake air inlet to high-pressure turbochargers
+> 5. High-pressure turbocharger to aftercooler air crossover
+> 6. Aftercooler inlet
+> 7. Aftercooled air to intake ports.
+>
+> with Electronically Actuated Injector
+>
+> QSK60 Intake System- Single Stage
+>
+> 1. Intake air inlet to turbochargers
+> 2. Turbocharged air to aftercooler
+> 3. Turbocharged air travels through aftercoolers
+> 4. Aftercooled air to intake ports.
+>
+> QSK60 Intake System- Two Stage
+>
+> 1. Intake air inlet to low-pressure turbochargers
+> 2. Low-pressure turbocharger to intercooler air crossover
+> 3. Intercooler assemblies
+> 4. Intake air inlet to high-pressure turbochargers
+> 5. High-pressure turbocharger to aftercooler air crossover
+> 6. Aftercooler inlet
+> 7. Aftercooled air to intake ports.

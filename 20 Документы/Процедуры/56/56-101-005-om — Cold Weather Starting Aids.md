@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-101-005-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-101-005-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Cold Weather Starting Aids
@@ -33,22 +36,48 @@ tags:
 > **Даты:** изменён 2004-05-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-101-005-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-101-005-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the lubricating oil heater for proper operation. If operating properly, the oil pan will be warm.
 
-Inspect for loose connections, frayed wires, and oil leaks. Repair or replace as needed.
+### Контроль при обслуживании
+
+Проверьте нагреватель моторного масла для правильной работы. Если работать правильно, масло будет теплым.
+
+Проверка на наличие свободных соединений, испорченных проводов и утечек масла. Ремонт или замена по мере необходимости.
 
 ![[el600la.png]]
 
-Check the coolant preheater for proper operation.
+Проверьте предварительный нагреватель охлаждающей жидкости для правильной работы.
 
-Check for loose connections, frayed wires, and coolant leaks.
+Проверьте наличие свободных соединений, испорченных проводов и утечек охлаждающей жидкости.
 
-Clean all alkali and sludge from the unit. Clean the scale from the copper heating element with a wire brush.
+Очистите всю щелочь и шлам от агрегата. Очистить шкалу от медного нагревательного элемента проволочной щеткой.
 
-The outlet connection from the coolant heater will experience a large number of thermal cycles and, therefore, **must** be of high quality with specific operating capabilities.
+Выходное соединение от нагревателя охлаждающей жидкости будет испытывать большое количество тепловых циклов и, следовательно, должно быть высокого качества с определенными эксплуатационными возможностями.
 
-Replacement hose material for the coolant heater to the block hose connection **must** be a polyester-reinforced silicone rubber material, capable of 120°C \[248°F\] temperatures and a minimum working pressure rating of 689 kPa \[100 psi\].
+Заменой материала шланга для нагревателя охлаждающей жидкости на соединение блок- шлангов *** должен быть полиэфир-укрепленный силиконовый резиновый материал, способный к температурам 120°C \[248°F\] и минимальному рабочему давлению 689 кПа \[100 psi\].
 
 ![[ch6etva.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Check the lubricating oil heater for proper operation. If operating properly, the oil pan will be warm.
+>
+> Inspect for loose connections, frayed wires, and oil leaks. Repair or replace as needed.
+>
+> Check the coolant preheater for proper operation.
+>
+> Check for loose connections, frayed wires, and coolant leaks.
+>
+> Clean all alkali and sludge from the unit. Clean the scale from the copper heating element with a wire brush.
+>
+> The outlet connection from the coolant heater will experience a large number of thermal cycles and, therefore, **must** be of high quality with specific operating capabilities.
+>
+> Replacement hose material for the coolant heater to the block hose connection **must** be a polyester-reinforced silicone rubber material, capable of 120°C \[248°F\] temperatures and a minimum working pressure rating of 689 kPa \[100 psi\].

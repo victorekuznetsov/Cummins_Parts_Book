@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc266.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc266.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fuel Temperature High - Critical
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc266.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc266.pdf)
 
-### Fault Code: 266
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fuel Temperature High - Critical
 
-Printable Version
+### Код неисправности: 266
 
-### Overview
+### Высокая температура топлива — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 266 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine fuel temperature has exceeded the shutdown threshold for high fuel temperature. | Engine will shut down. |
+| Код неисправности: 266 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Температура топлива двигателя превысила порог отключения для высокой температуры топлива. | Двигатель отключится. |
 
 ![[19803592.png]]
 
-Fuel Temperature Sensor Circuit
+Схема датчика температуры топлива
 
-### Circuit Description
+### Описание цепи
 
-The fuel temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the fuel. The fuel temperature value is used by the ECM for the engine protection system.
+Датчик температуры топлива используется электронным модулем управления (ECM) для мониторинга температуры топлива. Значение температуры топлива используется ECM для системы защиты двигателя.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of all the temperature sensors varies with the temperature.
+Сопротивление всех датчиков температуры изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-266
+См. Код устранения неполадок t05-266
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 266
+>
+> ### Fuel Temperature High - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 266 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine fuel temperature has exceeded the shutdown threshold for high fuel temperature. | Engine will shut down. |
+>
+> Fuel Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The fuel temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the fuel. The fuel temperature value is used by the ECM for the engine protection system.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of all the temperature sensors varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-266

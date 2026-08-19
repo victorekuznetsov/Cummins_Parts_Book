@@ -13,12 +13,15 @@ engines:
   - "37295879"
 families:
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100601.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100601.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2007"
+  - "перевод/машинный"
   - "тема/lubricating-oil-systems"
 ---
 
@@ -32,17 +35,25 @@ tags:
 > **Даты:** выпущен 2007-06-26 · изменён 2007-06-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100601.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100601.pdf)
 
-## New Prelube Primer Options
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые варианты насоса предпусковой прокачки
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin announces the release of new prelube primer options for the QST30 engine.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The new prelube motor is included in the following options:
+### Содержание
+
+В этом бюллетене технического обслуживания анонсируется выпуск новых прелюбовых праймеров для двигателя QST30.
+
+Новый прелюбовый мотор входит в следующие варианты:
 
 - FA5716
 - FA5717
@@ -53,7 +64,7 @@ The new prelube motor is included in the following options:
 - PL5722
 - PL5723
 
-The previous prelube primer was integral with the Delco 50MT Starter; those options included:
+Предыдущий праймер прелюбия был интегрирован с Delco 50MT Starter; эти варианты включали:
 
 - FA5707
 - FA5708
@@ -62,4 +73,38 @@ The previous prelube primer was integral with the Delco 50MT Starter; those opti
 - PL5712
 - PL5713
 
-The effective date for these options at the factory is 30 April, 2007.
+Дата вступления в силу этих опционов на заводе - 30 апреля 2007 года.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Prelube Primer Options
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin announces the release of new prelube primer options for the QST30 engine.
+>
+> The new prelube motor is included in the following options:
+>
+> - FA5716
+> - FA5717
+> - PL5718
+> - PL5719
+> - PL5720
+> - PL5721
+> - PL5722
+> - PL5723
+>
+> The previous prelube primer was integral with the Delco 50MT Starter; those options included:
+>
+> - FA5707
+> - FA5708
+> - PL5709
+> - PL5710
+> - PL5712
+> - PL5713
+>
+> The effective date for these options at the factory is 30 April, 2007.

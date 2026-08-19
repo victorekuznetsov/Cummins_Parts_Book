@@ -13,12 +13,15 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
 manuals:
   - "4021528"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-005-232.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/101-005-232.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -32,8 +35,24 @@ tags:
 > **Даты:** изменён 2007-09-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-005-232.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/101-005-232.pdf)
 
-## **Fuel Pump Pressurizing Assembly (101-005-232)**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 13-Sep-2007
+## **Сборка для давления накачки топлива (101-005-232)**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 13 сентября 2007 года
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **Fuel Pump Pressurizing Assembly (101-005-232)**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 13-Sep-2007

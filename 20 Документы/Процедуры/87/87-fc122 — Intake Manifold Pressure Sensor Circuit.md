@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc122.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc122.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Sensor Circuit
@@ -33,42 +36,90 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc122.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc122.pdf)
 
-### Fault Code: 122
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 122
 
-### Overview
+### Цепь датчика давления во впускном коллекторе
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 122 PID(P): P102 SPN: 102 FMI: 3 Lamp: Yellow SRT: | More than 4.72 VDC detected at the intake manifold air pressure sensor signal pin 45 of the engine harness. | Engine power derate to no-air setting. |
+| Код неисправности: 122 P(P): P102 SPN: 102 FMI: 3 лампы: Желтая СТО: | Более 4,72 ВДК обнаружены при контакте датчика давления воздуха впускного коллектора 45 проводов двигателя ремня. | Мощность двигателя снижается до уровня без воздуха. |
 
 ![[19900354.png]]
 
-Intake Manifold Pressure Sensor Circuit
+Цепь датчика давления во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold pressure sensor monitors boost pressure and passes information to the electronic control module (ECM) through pin 45 of the engine harness. The ECM monitors the voltage on pin 45 and expects to see the voltage vary between 0.5 and 4.5 VDC during normal engine operation. Voltage above 4.72 VDC on pin 45 will trip Fault Code 122.
+Датчик давления впускного коллектора контролирует давление наддува и передает информацию электронному модулю управления (ECM) через контакт 45 с ремнем электропроводки двигателя. ECM контролирует напряжение на контакте 45 и ожидает, что напряжение будет варьироваться от 0,5 до 4,5 ВДК во время нормальной работы двигателя. Напряжение выше 4,72 VDC при контакте 45 будет сбивать код 122 ошибки.
 
-### Component Location
+### Расположение компонента
 
-Two intake manifold pressure sensors are found on the QST30 industrial engines, one on each side. They are located in the intake manifold in front of each ECM.
+Два датчика давления впускного коллектора установлены на промышленных двигателях QST30, по одному с каждой стороны. Они расположены в впускном коллекторе перед каждым ECM.
 
-### Shoptalk
+### Практические замечания
 
-- The intake manifold pressure sensor measures gauge pressure. Confirm that the sensor is reading properly by comparing the reading seen in the ECM with a reading taken with a mechanical gauge. The sensor should read -1.5 to +1.5 in Hg using INSITE™, with the keyswitch turned to the ON position, but the engine **not** running.
+- Датчик давления впускного коллектора измеряет давление в измерительной машине. Подтвердите, что датчик читает правильно, сравнивая показания, наблюдаемые в ECM, с показаниями, взятыми с помощью механического калибра. Датчик должен читать -1,5 до +1,5 в Hg с помощью INSITETM, при этом переключатель зажигания поворачивается в положение Включения, но двигатель ** не** работает.
 
-- Determine if the engine is being overfueled.
+- Определите, перегружается ли двигатель.
 
-- Confirm that the correct intake manifold pressure sensor part number is being used.
+- Подтвердите, что используется правильный номер детали датчика давления коллектора впуска.
 
-- Confirm that the correct turbocharger is being used.
+- Подтвердите, что используется правильный турбокомпрессор.
 
-- If it is suspected that cold intake air can be the cause of the high intake manifold pressure, test the engine while feeding it warm intake air.
+- Если есть подозрение, что холодный воздух может быть причиной высокого давления впускного коллектора, проверьте двигатель, подпитывая его теплым воздухом.
 
-- Inspect the intake manifold pressure sensor circuit for signs of tampering. Remove any extra wires from the circuit.
+- Осмотрите цепь датчика давления впускного коллектора на наличие признаков подделки. Удалите любые дополнительные провода из схемы.
 
-Refer to Troubleshooting Fault Code t05-122
+См. Код устранения неполадок t05-122
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 122
+>
+> ### Intake Manifold Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 122 PID(P): P102 SPN: 102 FMI: 3 Lamp: Yellow SRT: | More than 4.72 VDC detected at the intake manifold air pressure sensor signal pin 45 of the engine harness. | Engine power derate to no-air setting. |
+>
+> Intake Manifold Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold pressure sensor monitors boost pressure and passes information to the electronic control module (ECM) through pin 45 of the engine harness. The ECM monitors the voltage on pin 45 and expects to see the voltage vary between 0.5 and 4.5 VDC during normal engine operation. Voltage above 4.72 VDC on pin 45 will trip Fault Code 122.
+>
+> ### Component Location
+>
+> Two intake manifold pressure sensors are found on the QST30 industrial engines, one on each side. They are located in the intake manifold in front of each ECM.
+>
+> ### Shoptalk
+>
+> - The intake manifold pressure sensor measures gauge pressure. Confirm that the sensor is reading properly by comparing the reading seen in the ECM with a reading taken with a mechanical gauge. The sensor should read -1.5 to +1.5 in Hg using INSITE™, with the keyswitch turned to the ON position, but the engine **not** running.
+>
+> - Determine if the engine is being overfueled.
+>
+> - Confirm that the correct intake manifold pressure sensor part number is being used.
+>
+> - Confirm that the correct turbocharger is being used.
+>
+> - If it is suspected that cold intake air can be the cause of the high intake manifold pressure, test the engine while feeding it warm intake air.
+>
+> - Inspect the intake manifold pressure sensor circuit for signs of tampering. Remove any extra wires from the circuit.
+>
+> Refer to Troubleshooting Fault Code t05-122

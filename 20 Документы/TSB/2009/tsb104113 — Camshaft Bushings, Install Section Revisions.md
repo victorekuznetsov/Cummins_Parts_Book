@@ -12,12 +12,15 @@ engines:
   - "93058669"
 families:
   - "C8.3 · 6C8.3"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104113.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104113.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -31,12 +34,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2010-04-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104113.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104113.pdf)
 
-## Camshaft Bushings, Install Section Revisions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Втулки распредвала: изменения раздела установки
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the Install section of Procedure 001-010 (Camshaft Bushings) with revised illustrations showing the radial notch and the presence of two lubricating oil holes in the camshaft bushing.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Служба/Части» пересматривает раздел «Установка» процедуры 001-010 (Комшафтные бусинки) с пересмотренными иллюстрациями, показывающими радиальную выемку и наличие двух отверстий моторного масла в кустарнике распределительного вала.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Camshaft Bushings, Install Section Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the Install section of Procedure 001-010 (Camshaft Bushings) with revised illustrations showing the radial notch and the presence of two lubricating oil holes in the camshaft bushing.

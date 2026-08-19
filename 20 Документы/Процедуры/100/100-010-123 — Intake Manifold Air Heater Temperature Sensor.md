@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-123.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-123.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Air Heater Temperature Sensor
@@ -32,38 +35,78 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-123.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-123.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The intake air temperature sensor is located in the intake manifold.
 
-Disconnect the harness connector from the temperature sensor.
+### Первичная проверка
+
+Датчик температуры воздуха для впуска расположен в впускном коллекторе.
+
+Отсоедините проводку от разъёма ремня от датчика температуры.
 
 ![[10900298.png]]
 
-### Resistance Check
+### Проверка сопротивления
 
-Use an ohmmeter to measure the resistance between the two pins of the intake air temperature sensor.
+Используйте омметр для измерения сопротивления между двумя штифтами датчика температуры воздуха.
 
-If the resistance is **not** correct, replace the sensor.
+Если сопротивление ** не** правильно, замените датчик.
 
-If the resistance is correct, the sensor **must** be checked for a short to ground.
+Если сопротивление правильное, датчик ** должен быть проверен на короткое время до земли.
 
-The resistance value is temperature-dependent.
+Значение сопротивления зависит от температуры.
 
-| Temperature (°C) | Temperature (°F) | Acceptable Resistance Range (ohms) |
+| Температура (°C) | Температура (°F) | Допустимая дальность сопротивления (Омс) |
 |---|---|---|
-| 0 | 32 | 30k to 36k |
-| 25 | 77 | 9k to 11k |
-| 50 | 122 | 3k to 4k |
-| 75 | 167 | 1350 to 1500 |
-| 100 | 212 | 600 to 675 |
+| 0 | 32 | 30k до 36k |
+| 25 | 77 | 9k до 11k |
+| 50 | 122 | 3k - 4k |
+| 75 | 167 | 1350—1500 |
+| 100 | 212 | 600-675 |
 
 ![[ee1coke.png]]
 
-Measure the resistance from each pin of the intake air temperature sensor to the engine block.
+Измерьте сопротивление от каждого штифта датчика температуры воздуха на блоке двигателя.
 
-The ohmmeter **must** show an open circuit (more than 100k ohms).
+Омметр ** должен** показывать открытую схему (более 100k ом).
 
-If the circuit is **not** open, replace the sensor.
+Если схема ** не** открыта, замените датчик.
 
 ![[ee1cokf.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> The intake air temperature sensor is located in the intake manifold.
+>
+> Disconnect the harness connector from the temperature sensor.
+>
+> ### Resistance Check
+>
+> Use an ohmmeter to measure the resistance between the two pins of the intake air temperature sensor.
+>
+> If the resistance is **not** correct, replace the sensor.
+>
+> If the resistance is correct, the sensor **must** be checked for a short to ground.
+>
+> The resistance value is temperature-dependent.
+>
+> | Temperature (°C) | Temperature (°F) | Acceptable Resistance Range (ohms) |
+> |---|---|---|
+> | 0 | 32 | 30k to 36k |
+> | 25 | 77 | 9k to 11k |
+> | 50 | 122 | 3k to 4k |
+> | 75 | 167 | 1350 to 1500 |
+> | 100 | 212 | 600 to 675 |
+>
+> Measure the resistance from each pin of the intake air temperature sensor to the engine block.
+>
+> The ohmmeter **must** show an open circuit (more than 100k ohms).
+>
+> If the circuit is **not** open, replace the sensor.

@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Heater
@@ -33,8 +36,22 @@ tags:
 > **Даты:** изменён 2005-11-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-001.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the engine oil heater (oil pan heater) for proper operation. If operating properly, the oil pan will be warm. Inspect for loose connections, frayed wires, and oil leaks. Repair or replace as needed.
+
+### Контроль при обслуживании
+
+Проверьте нагреватель масла двигателя (маслосборник) для правильной работы. Если работать правильно, масло будет теплым. Проверка на наличие свободных соединений, испорченных проводов и утечек масла. Ремонт или замена по мере необходимости.
 
 ![[el600la.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Check the engine oil heater (oil pan heater) for proper operation. If operating properly, the oil pan will be warm. Inspect for loose connections, frayed wires, and oil leaks. Repair or replace as needed.

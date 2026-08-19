@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 7
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-014.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-014.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Coolant Thermostat Housing
@@ -32,48 +35,90 @@ tags:
 > **Даты:** изменён 2004-12-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-014.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-014.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the thermostat housing and and belt tensioner assembly.
 
-Refer to Procedure [[100-008-013 — Coolant Thermostat|008-013]].
+### Снятие
+
+Снять корпус термостата и ремень натяжителя сборки.
+
+См. процедуру[[100-008-013 — Coolant Thermostat|008-013]].
 
 ![[th900ma.png]]
 
-Remove the thermostats.
+Удалите термостаты.
 
 ![[ec900ma.png]]
 
-### Clean
+### Очистка
 
-Use a gasket scraper to remove the gasket material from the mating surfaces of the housing.
+Используйте прокладочный скребок для удаления прокладочного материала с спаривающихся поверхностей кожуха.
 
 ![[th9hsea.png]]
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear protective clothing and safety glasses or a face shield. Hot steam will cause serious personal injury.
+> [!danger] ОПАСНО
+> При использовании пароочистителя надевайте защитную одежду и защитные очки или щит для лица. Горячий пар нанесет серьезные личные травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Use solvent or steam to clean the parts.
+Используйте растворитель или пар для очистки деталей.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[th9hseb.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the thermostat housing for cracks, corrosion, or damage. Replace the thermostat housing if damaged.
+Проверьте корпус термостата на наличие трещин, коррозии или повреждений. Замените корпус термостата, если он поврежден.
 
 ![[th9hssa.png]]
 
-### Install
+### Установка
 
-Install the thermostats; refer to Procedure [[100-008-013 — Coolant Thermostat|008-013]].
+Установите термостаты; обратитесь к процедуре[[100-008-013 — Coolant Thermostat|008-013]].
 
 ![[ec900ha.png]]
 
-Install a new thermostat gasket and the thermostat housing. Install two capscrews. Do **not** tighten the capscrews until after the coolant outlet connection is installed.
+Установите новую прокладку термостата и корпус термостата. Установите два болта. Затормозите болты до тех пор, пока не будет установлено выходное соединение охлаждающей жидкости.
 
 ![[th9gkha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the thermostat housing and and belt tensioner assembly.
+>
+> Refer to Procedure [[100-008-013 — Coolant Thermostat|008-013]].
+>
+> Remove the thermostats.
+>
+> ### Clean
+>
+> Use a gasket scraper to remove the gasket material from the mating surfaces of the housing.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear protective clothing and safety glasses or a face shield. Hot steam will cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Use solvent or steam to clean the parts.
+>
+> Dry with compressed air.
+>
+> ### Inspect for Reuse
+>
+> Inspect the thermostat housing for cracks, corrosion, or damage. Replace the thermostat housing if damaged.
+>
+> ### Install
+>
+> Install the thermostats; refer to Procedure [[100-008-013 — Coolant Thermostat|008-013]].
+>
+> Install a new thermostat gasket and the thermostat housing. Install two capscrews. Do **not** tighten the capscrews until after the coolant outlet connection is installed.

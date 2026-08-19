@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-011-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-011-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Camshaft Cover Plate
@@ -32,14 +35,34 @@ tags:
 > **Даты:** изменён 2004-05-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-011-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-011-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The notch in the gasket and the cover **must** align with the oil drainback hole.
 
-Install the camshaft cover gasket and the cover. Install the capscrews. Tighten the capscrews.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!note] Примечание
+> Выемка в прокладке и крышке ** должна** выровняться с отверстием для отвода масла.
+
+Установите прокладку крышки распределительного вала и крышку. Установите болты. Затяните болты.
+
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[cg4cvha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **Note · Примечание**
+> The notch in the gasket and the cover **must** align with the oil drainback hole.
+>
+> Install the camshaft cover gasket and the cover. Install the capscrews. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]

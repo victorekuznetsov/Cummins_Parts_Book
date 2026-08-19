@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666121"
 figures: 61
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-012-102.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-012-102.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/04"
+  - "перевод/машинный"
 ---
 
 # Air Compressor (Holset® SS191 Model)
@@ -33,415 +36,716 @@ tags:
 > **Даты:** изменён 2005-06-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-012-102.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-012-102.pdf)
 
-### Disassemble
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+### Разборка
 
-Use steam to clean the air compressor.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Dry the air compressor with compressed air.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+
+Используйте пар для очистки воздушного компрессора.
+
+Высушить воздушный компрессор сжатым воздухом.
 
 ![[cp8bdeg.png]]
 
-Mount the compressor to the mounting plate, Part Number ST-749, or equivalent, which is used with the ball joint vise, Part Number ST-302, or equivalent.
+Нажмите компрессор на монтажную пластину, номер детали ST-749 или эквивалент, который используется с шаровой шторой, номер детали ST-302 или эквивалент.
 
 ![[cp8plhd.png]]
 
-Disassemble the air compressor cylinder head and remove the following parts. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
+Разобрать головку воздушного компрессора и удалить следующие части. См. процедуру[[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
 
-- Unloader valve (1).
-- Copper washer (2).
-- Unloader pin (4).
-- Spring (5).
+- Разгрузочный клапан (1).
+- Медная стиральная машина (2).
+- Разгрузочный штифт (4).
+- Весна (5).
 
-Discard the copper washer.
+Отбросьте медную стиральную машину.
 
 ![[cp8cvmf.png]]
 
-Remove the four bottom plate capscrews (18) and washers (19).
+Удалите четыре болта нижней пластины (18) и шайбы (19).
 
-Remove the bottom cover plate (20).
+Удалите нижнюю крышку (20).
 
-Remove and discard the gasket (21).
+Удалить и выбросить прокладку (21).
 
 ![[cp8csml.png]]
 
-Rotate the crankshaft so the connecting rod journal is at bottom dead center (BDC).
+Поверните коленчатый вал так, чтобы журнал шатунов находился в нижней мертвой точке (BDC).
 
 ![[cx8bdmc.png]]
 
-Measure the side clearance between the connecting rod and the crankshaft.
+Измерьте боковой зазор между шатуном и коленчатым валом.
 
-Replace the connecting rod if the clearance between it and the crankshaft exceeds 0.2540 mm \[0.010 in\].
+Заменить шатун, если зазор между ним и коленчатым валом превышает 0,2540 мм \[0,010 в\].
 
-> [!note] Note · Примечание
-> If the connecting rod needs to be replaced, the piston and connecting rod **must** be replaced as an assembly.
+> [!note] Примечание
+> Если шатун необходимо заменить, поршень и шатун *** должны быть заменены в виде сборки.
 
 ![[cx8bdna.png]]
 
-Remove the two 12-point connecting rod capscrews (22).
+Удалите два 12-точечных соединительных болта (22).
 
-Remove the connecting rod cap (23).
+Удалите соединительную крышку стержня (23).
 
 ![[cx8csmb.png]]
 
-Remove the piston (24) and connecting rod from the crankcase.
+Удалите поршень (24) и соедините стержень из картера.
 
 ![[cx8psmb.png]]
 
-Install the piston and connecting rod assembly into a soft jawed vise.
+Установите поршень и соедините сборку стержня в мягкую челюстную челюсть.
 
 ![[cx8psha.png]]
 
-Remove the piston rings (26).
+Удалить поршневые кольца (26).
 
 ![[pi8rimb.png]]
 
-Remove the two buttons (31) from the piston wrist pin holes.
+Удалите две кнопки (31) из отверстия штифта поршневого запястья.
 
 ![[pi8pxma.png]]
 
-Remove the wrist pin (32) from the piston (24).
+Удалите зажим запястья (32) из поршня (24).
 
 ![[pi8pimc.png]]
 
-Remove the four cylinder block capscrews (14) and washers (15).
+Удалите четыре цилиндра блок-болта (14) и шайбы (15).
 
-Remove the cylinder block (16) from the crankcase (30).
+Удалите блок (16) цилиндра из картера (30).
 
-Remove and discard the gasket (17).
+Удалить и выбросить прокладку (17).
 
 ![[cp8csmm.png]]
 
-Remove the four capscrews (27) from the bearing cap (28) or power steering adapter (33).
+Удалите четыре болта (27) из подшипникового колпачка (28) или адаптера рулевого управления (33).
 
-Remove the bearing cap or power steering adapter.
+Снимите подшипник или адаптер рулевого управления.
 
-Remove and discard the gasket (29).
+Удалить и выбросить прокладку (29).
 
 ![[cp8csmn.png]]
 
-Remove the capscrew (35) and the power steering coupling (34).
+Удалите болты (35) и муфту рулевого управления (34).
 
 ![[cp8csmo.png]]
 
-The crankshaft and bearings can **not** be removed from the crankcase. If these parts are damaged, they **must** be replaced as an assembly.
+Рукоятка и подшипники могут ** не** быть удалены из картера. Если эти части повреждены, они должны быть заменены в сборе.
 
 ![[cp8bdmf.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Soak the parts in a kerosene emulsion based cleaner designed to remove carbon. The cleaner **must** have a pH of 9.5 or less to avoid turning aluminum parts black. The cleaner manufacturer or supplier can be contacted about solution concentration, temperature, and soak time.
+Замочите детали в керосиновой эмульсии на основе чистящего средства, предназначенного для удаления углерода. Уборщик должен иметь рН 9,5 или менее, чтобы избежать черного цвета алюминиевых деталей. С производителем или поставщиком более чистых продуктов можно связаться по поводу концентрации раствора, температуры и времени выдержки.
 
 ![[cp8bdeh.png]]
 
-Inspect the air compressor cylinder head components. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
+Проверить компоненты головки воздушного компрессора. См. процедуру[[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
 
 ![[cp8vasi.png]]
 
-Inspect the piston top and pin bore for cracks.
+Осмотрите поршневой верх и цилиндр штифта на наличие трещин.
 
-Check the ring grooves and skirt for damage. Replace, if damaged.
+Проверьте кольцевые канавки и юбку на предмет повреждения. Заменить, если поврежден.
 
-> [!note] Note · Примечание
-> If the piston needs to be replaced, the piston and connecting rod **must** be replaced as an assembly.
+> [!note] Примечание
+> Если поршень необходимо заменить, поршень и шатун *** должны быть заменены в виде сборки.
 
 ![[pi8brsb.png]]
 
-Measure the outside diameter of the piston at 90 degrees from the piston pin bore and below the compression rings.
+Измерьте внешний диаметр поршня на 90 градусов от цилиндра поршневого штифта и ниже колец сжатия.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 79.858 | MIN | 3.1440 |
-| 79.883 | MAX | 3.1450 |
+| 79.858 | Мин | 3.1440 |
+| 79.883 | Макс | 3.1450 |
 
-Replace the piston and connecting rod assembly, if **not** within specification.
+Заменить поршневой и соединительный стержневой сборки, если **не** в пределах спецификации.
 
 ![[pi8brna.png]]
 
-Measure the piston pin bore.
+Измерить цилиндр с поршневым штифтом.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 14.290 | MIN | 0.5626 |
-| 14.295 | MAX | 0.5628 |
+| 14.290 | Мин | 0.5626 |
+| 14.295 | Макс | 0.5628 |
 
 ![[pi8brnb.png]]
 
-Use new piston rings and a feeler gauge to measure for ring groove wear.
+Используйте новые поршневые кольца и калибр для измерения износа кольцевой канавки.
 
-Replace the piston and connecting rod assembly if the gaps are worn larger than the dimensions listed below:
+Заменить поршневой и соединительный стержневой сборки, если пробелы изношены больше, чем размеры, перечисленные ниже:
 
-|  | mm |  | in |
+|  | мм |  | в |
 |---|---|---|---|
-| Compression Ring | 0.010 | MIN | 0.0004 |
-|  | 0.058 | MAX | 0.0023 |
-| Oil Ring | 0.013 | MIN | 0.0005 |
-|  | 0.114 | MAX | 0.0045 |
+| Кольцо сжатия | 0.010 | Мин | 0.0004 |
+|  | 0.058 | Макс | 0.0023 |
+| Нефтяное кольцо | 0.013 | Мин | 0.0005 |
+|  | 0.114 | Макс | 0.0045 |
 
 ![[pi8rina.png]]
 
-> [!note] Note · Примечание
-> Cummins Inc. recommends that new piston rings be installed during rebuild.
+> [!note] Примечание
+> Cummins Inc. Рекомендуется устанавливать новые поршневые кольца во время реконструкции.
 
-If old rings are used, follow the instructions listed below to measure the ring gaps.
+Если используются старые кольца, следуйте инструкциям, перечисленным ниже, чтобы измерить разрывы в кольцах.
 
-Insert on ring at a time into the cylinder bore. Seat the ring with a piston head squarely 25.00 mm \[1.0 in\] below the top of the crankcase.
+Вставьте на кольцо за раз в цилиндр цилиндра с отверстием. Установите кольцо с поршневой головой прямо на 25,00 мм \[1,0 дюйма\] ниже верхней части картера.
 
 ![[pi8rihd.png]]
 
-If the ring gap exceeds the specifications listed below, the rings **must** be replaced.
+Если разрыв в кольце превышает указанные ниже характеристики, кольца *** должны быть заменены.
 
-|  | mm |  | in |
+|  | мм |  | в |
 |---|---|---|---|
-| Compression Ring | 0.020 | MIN | 0.0008 |
-|  | 0.051 | MAX | 0.0020 |
-| Oil Ring | 0.035 | MIN | 0.0015 |
-|  | 1.40 | MAX | 0.0055 |
+| Кольцо сжатия | 0.020 | Мин | 0.0008 |
+|  | 0.051 | Макс | 0.0020 |
+| Нефтяное кольцо | 0.035 | Мин | 0.0015 |
+|  | 1.40 | Макс | 0.0055 |
 
 ![[cp8rinb.png]]
 
-> [!note] Note · Примечание
-> Cummins Inc. recommends that new bearings be installed during rebuild.
+> [!note] Примечание
+> Cummins Inc. Рекомендуется устанавливать новые подшипники во время реконструкции.
 
-Inspect the connecting rod bearing for scoring or wear.
+Осмотрите подшипник шатуна для забивания или износа.
 
 ![[cx8besb.png]]
 
-Replace the bearings if the clearance between the bearings and crankshaft journal exceeds 0.1270 to 0.5334 mm \[0.005 too 0.0021 in\].
+Замените подшипники, если зазор между подшипниками и коленчатым валом превышает 0,1270 до 0,5334 мм \[0,005 слишком 0,0021 в\].
 
 ![[cx8bena.png]]
 
-Measure the piston pin outside diameter.
+Измерьте поршневой штифт наружного диаметра.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 14.270 | MIN | 0.5618 |
-| 14.275 | MAX | 0.5620 |
+| 14.270 | Мин | 0.5618 |
+| 14.275 | Макс | 0.5620 |
 
-Replace the piston and connecting rod assembly, if **not** within specification.
+Заменить поршневой и соединительный стержневой сборки, если **не** в пределах спецификации.
 
 ![[pi8pina.png]]
 
-Measure the inside diameter of the piston end of the connecting rod.
+Измерить внутренний диаметр поршневого конца шатуна.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 14.290 | MIN | 0.5625 |
-| 14.303 | MAX | 0.5631 |
+| 14.290 | Мин | 0.5625 |
+| 14.303 | Макс | 0.5631 |
 
-Replace the piston and connecting rod, if **not** within specification.
+Заменить поршень и шатун, если **не** в пределах спецификации.
 
 ![[cx8psna.png]]
 
-Inspect and replace the cylinder block if cracks, scoring, or other damage is found.
+Проверить и заменить блок цилиндра, если трещины, забивающий или другие повреждения обнаружены.
 
 ![[ck8bdsa.png]]
 
-Use a dial bore gauge, Part Number 3375072, or equivalent, to measure the cylinder bore.
+Используйте циферблатный калибр цилиндрического отверстия, номер детали 3375072, или эквивалент, для измерения цилиндрового цилиндра.
 
-Measure at 25.0 mm \[1.00 in\] below the top of the block.
+Измерение на 25,0 мм \[1,00 в\] ниже верхней части блока.
 
-Replace the block, if **not** with specification.
+Заменить блок, если ** не** с указанием спецификации.
 
-Maximum out-of-round is 0.013 mm \[0.0005 in\].
+Максимальный выход из-за рубежа составляет 0,013 мм \[0,0005 in\].
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 80.013 | MIN | 3.1501 |
-| 80.038 | MAX | 3.1511 |
+| 80.013 | Мин | 3.1501 |
+| 80.038 | Макс | 3.1511 |
 
 ![[ck8brnd.png]]
 
-Maximum taper in the piston travel area is 0.038 mm \[0.0015 in\].
+Максимальное сужение в зоне проезда поршня составляет 0,038 мм \[0,0015 дюйма \].
 
 ![[12800078.png]]
 
-Inspect and replace the crankcase assembly, if any damage is found.
+Проверить и заменить картер сборки, если есть какие-либо повреждения.
 
 ![[ck8bdsb.png]]
 
-Inspect and replace the crankcase assembly if the crankshaft or roller bearings are damaged.
+Проверить и заменить картерный сбор, если коленчатый вал или роликовые подшипники повреждены.
 
 ![[ck8besa.png]]
 
-Measure the crankshaft journal diameter.
+Измерьте диаметр журнала коленчатого вала.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 30.099 | MIN | 1.1850 |
-| 30.112 | MAX | 1.1855 |
+| 30.099 | Мин | 1.1850 |
+| 30.112 | Макс | 1.1855 |
 
-Replace the crankcase assembly, if **not** within specification.
+Заменить сборку картера, если ** не** в пределах спецификации.
 
 ![[ck8bdna.png]]
 
-Measure the crankshaft journal width.
+Измерьте ширину журнала коленчатого вала.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 32.13 | MIN | 1.265 |
-| 32.18 | MAX | 1.267 |
+| 32.13 | Мин | 1.265 |
+| 32.18 | Макс | 1.267 |
 
-Replace the crankcase assembly, if **not** within specification.
+Заменить сборку картера, если ** не** в пределах спецификации.
 
 ![[ck8bdnb.png]]
 
-Measure the crankshaft end play.
+Измерьте осевой зазор коленчатого вала.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 0.03 | MIN | 0.001 |
-| 0.81 | MAX | 0.032 |
+| 0.03 | Мин | 0.001 |
+| 0.81 | Макс | 0.032 |
 
-Replace the crankcase assembly, if **not** within specification.
+Заменить сборку картера, если ** не** в пределах спецификации.
 
 ![[ck8bdnc.png]]
 
-Inspect the power steering coupling for wear or cracks. Replace the coupling, if damaged.
+Проверьте сцепление рулевого управления с усилителем на износ или трещины. Замените сцепление, если оно повреждено.
 
 ![[cp8cpsd.png]]
 
-Inspect and replace the power steering adapter, if any damage is found.
+Проверить и заменить адаптер рулевого управления, если есть какие-либо повреждения.
 
 ![[cp8adsa.png]]
 
-### Assemble
+### Сборка
 
-Install the crankcase to the mounting plate, Part Number ST-749, or equivalent, which is used with the ball joint vise, Part Number ST-302, or equivalent.
+Установите картер на монтажную пластину, номер детали ST-749 или эквивалент, который используется с шариковой шторкой, номер детали ST-302 или эквивалент.
 
 ![[cp8plhc.png]]
 
-Install the power steering (34) coupling and capscrew (35) into the crankshaft.
+Установите усилитель рулевого управления (34) сцепления и болты (35) в коленчатый вал.
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [17 ft-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [17 фунт-фут]
 
 ![[cp8csmo.png]]
 
-Install a new gasket (29) and the bearing cap (28) or power steering adapter (33). Align the scribe markds with the mark on the crankcase.
+Установите новую прокладку (29) и подшипниковый колпачок (28) или адаптер рулевого управления (33). Нанесите метку писца на картон.
 
-Install the four capscrews (27) and tighten the capscrews.
+Установите четыре болта (27) и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [12 ft-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [12 фунт-фут]
 
 ![[cp8csmn.png]]
 
-Install a new gasket and the cylinder block to the crankcase with the scribed marks aligned.
+Установите новую прокладку и блок цилиндра в картер с выровненными маркировками.
 
 ![[cp8gkhe.png]]
 
-Install the four capscrews and tighten in the following sequence:
+Установите четыре болта и затянитесь в следующей последовательности:
 
-| **Torque Value:** | Step 1 | 20 n.m \[15 ft-lb\] |
+| ** Момент затяжки:** | ШАГ 1. | 20 Н·м[15 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 41 n.m \[30 ft-lb\] |
+|  | ШАГ 2. | 41 Н·м[30 фунт-фут] |
 |---|---|---|
 
 ![[cp8cshi.png]]
 
-Install the connecting rod into a soft jawed vise.
+Установите шатун в мягкую челюстную челюсть.
 
 ![[cp8cowd.png]]
 
-Use clean 15W-40 lubricating engine oil to lubricate the piston pin bore of the connecting rod.
+Используйте чистое моторное масло 15W-40 для смазки цилиндра с поршневым штифтом шатуна.
 
 ![[cx8brwa.png]]
 
-Use clean 15W-40 lubricating engine oil to lubricate the piston pin bore.
+Используйте чистое моторное масло 15W-40 для смазки цилиндра с поршневым штифтом.
 
 ![[pi8brva.png]]
 
-Use clean 15W-40 lubricating engine oil to lubricate the piston pin outside diameter.
+Используйте чистое моторное масло 15W-40 для смазки поршневого штифта наружного диаметра.
 
 ![[pi8piva.png]]
 
-Install the piston pin.
+Установите поршневой штифт.
 
 ![[pi8pimc.png]]
 
-Install the two buttons.
+Установите две кнопки.
 
 ![[pi8pxma.png]]
 
-Piston ring positions.
+Позиции на поршневом кольце.
 
 ![[pi8riga.png]]
 
-Install the compression rings with the top up. Top is identified with the letter “N” or a dot near the end of the ring gap.
+Установите кольца сжатия с верхней частью. Топ идентифицируется с буквой «N» или точкой вблизи конца кольцевого зазора.
 
-Install the piston oil ring. If installing a three piece ring, first install the center expander and then the two rails.
+Установите кольцо с поршневым маслом. Если установить кольцо из трех частей, сначала установите центр расширения, а затем два рельса.
 
-> [!note] Note · Примечание
-> The oil ring has no top or bottom.
+> [!note] Примечание
+> Кольцо масла не имеет ни верха, ни дна.
 
 ![[pi8rihe.png]]
 
-Position the ring gaps apart and make sure they are **not** over the piston pin bores.
+Поместите кольцо раздельно и убедитесь, что они ** не ** над поршневыми штифтами.
 
 ![[pi8rivb.png]]
 
-Use clean 15W-40 lubricating engine oil to lubricate the rings.
+Используйте чистое моторное масло 15W-40 для смазки колец.
 
 ![[pi8rivc.png]]
 
-Use a piston ring compressor, Part Number ST-755, or equivalent, to compress the rings.
+Используйте поршневой кольцевой компрессор, номер детали ST-755, или эквивалент, для сжатия колец.
 
 ![[pi8rivd.png]]
 
-> [!note] Note · Примечание
-> Cummins Inc. recommends that new bearings be installed during rebuild.
+> [!note] Примечание
+> Cummins Inc. Рекомендуется устанавливать новые подшипники во время реконструкции.
 
-Install the connecting rod bearings into the connecting rod and rod cap.
+Установите соединительные подшипники стержня в шатун и штангу стержня.
 
 ![[cx8behg.png]]
 
-Use clean 15W-40 lubricating engine oil to lubricate the connecting rod and rod cap.
+Используйте чистое моторное масло 15W-40 для смазки шатуна и крышки стержня.
 
-Use clean 15W-40 lubricating engine oil to lubricate the cylinder block bore.
+Используйте чистое моторное масло 15W-40 для смазки цилиндра.
 
 ![[cx8caaa.png]]
 
-Rotate the crankshaft so the connecting rod journal is at bottom dead center (BDC).
+Поверните коленчатый вал так, чтобы журнал шатунов находился в нижней мертвой точке (BDC).
 
 ![[cx8bdmc.png]]
 
-Carefully install the piston and connecting rod assembly into the cylinder block bore.
+Тщательно установить поршень и соединить стержень сборки в цилиндр блока цилиндра бора.
 
 ![[pi8brha.png]]
 
-Install the connecting rod cap aligning the arrows.
+Установите соединительную штангу, выравнивающую стрелки.
 
-Install the two 12-point capscrews into the cap and connecting rod.
+Установите два 12-точечных болта в колпачок и шатун.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [18 фунт-фут]
 
 ![[cx8caha.png]]
 
-Install a new gasket (21) and the bottom cover plate (20).
+Установите новую прокладку (21) и нижнюю крышку (20).
 
-Install the four washers (19) and capscrews (18) and tighten the capscrews.
+Установите четыре шайбы (19) и болты (18) и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [12 ft-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [12 фунт-фут]
 
 ![[cp8csmi.png]]
 
-Assemble the air compressor cylinder head. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
+Соберите головку воздушного компрессора. См. процедуру[[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
 
 ![[cp8spmi.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Disassemble
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use steam to clean the air compressor.
+>
+> Dry the air compressor with compressed air.
+>
+> Mount the compressor to the mounting plate, Part Number ST-749, or equivalent, which is used with the ball joint vise, Part Number ST-302, or equivalent.
+>
+> Disassemble the air compressor cylinder head and remove the following parts. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
+>
+> - Unloader valve (1).
+> - Copper washer (2).
+> - Unloader pin (4).
+> - Spring (5).
+>
+> Discard the copper washer.
+>
+> Remove the four bottom plate capscrews (18) and washers (19).
+>
+> Remove the bottom cover plate (20).
+>
+> Remove and discard the gasket (21).
+>
+> Rotate the crankshaft so the connecting rod journal is at bottom dead center (BDC).
+>
+> Measure the side clearance between the connecting rod and the crankshaft.
+>
+> Replace the connecting rod if the clearance between it and the crankshaft exceeds 0.2540 mm \[0.010 in\].
+>
+> **Note · Примечание**
+> If the connecting rod needs to be replaced, the piston and connecting rod **must** be replaced as an assembly.
+>
+> Remove the two 12-point connecting rod capscrews (22).
+>
+> Remove the connecting rod cap (23).
+>
+> Remove the piston (24) and connecting rod from the crankcase.
+>
+> Install the piston and connecting rod assembly into a soft jawed vise.
+>
+> Remove the piston rings (26).
+>
+> Remove the two buttons (31) from the piston wrist pin holes.
+>
+> Remove the wrist pin (32) from the piston (24).
+>
+> Remove the four cylinder block capscrews (14) and washers (15).
+>
+> Remove the cylinder block (16) from the crankcase (30).
+>
+> Remove and discard the gasket (17).
+>
+> Remove the four capscrews (27) from the bearing cap (28) or power steering adapter (33).
+>
+> Remove the bearing cap or power steering adapter.
+>
+> Remove and discard the gasket (29).
+>
+> Remove the capscrew (35) and the power steering coupling (34).
+>
+> The crankshaft and bearings can **not** be removed from the crankcase. If these parts are damaged, they **must** be replaced as an assembly.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Soak the parts in a kerosene emulsion based cleaner designed to remove carbon. The cleaner **must** have a pH of 9.5 or less to avoid turning aluminum parts black. The cleaner manufacturer or supplier can be contacted about solution concentration, temperature, and soak time.
+>
+> Inspect the air compressor cylinder head components. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].
+>
+> Inspect the piston top and pin bore for cracks.
+>
+> Check the ring grooves and skirt for damage. Replace, if damaged.
+>
+> **Note · Примечание**
+> If the piston needs to be replaced, the piston and connecting rod **must** be replaced as an assembly.
+>
+> Measure the outside diameter of the piston at 90 degrees from the piston pin bore and below the compression rings.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 79.858 | MIN | 3.1440 |
+> | 79.883 | MAX | 3.1450 |
+>
+> Replace the piston and connecting rod assembly, if **not** within specification.
+>
+> Measure the piston pin bore.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 14.290 | MIN | 0.5626 |
+> | 14.295 | MAX | 0.5628 |
+>
+> Use new piston rings and a feeler gauge to measure for ring groove wear.
+>
+> Replace the piston and connecting rod assembly if the gaps are worn larger than the dimensions listed below:
+>
+> |  | mm |  | in |
+> |---|---|---|---|
+> | Compression Ring | 0.010 | MIN | 0.0004 |
+> |  | 0.058 | MAX | 0.0023 |
+> | Oil Ring | 0.013 | MIN | 0.0005 |
+> |  | 0.114 | MAX | 0.0045 |
+>
+> **Note · Примечание**
+> Cummins Inc. recommends that new piston rings be installed during rebuild.
+>
+> If old rings are used, follow the instructions listed below to measure the ring gaps.
+>
+> Insert on ring at a time into the cylinder bore. Seat the ring with a piston head squarely 25.00 mm \[1.0 in\] below the top of the crankcase.
+>
+> If the ring gap exceeds the specifications listed below, the rings **must** be replaced.
+>
+> |  | mm |  | in |
+> |---|---|---|---|
+> | Compression Ring | 0.020 | MIN | 0.0008 |
+> |  | 0.051 | MAX | 0.0020 |
+> | Oil Ring | 0.035 | MIN | 0.0015 |
+> |  | 1.40 | MAX | 0.0055 |
+>
+> **Note · Примечание**
+> Cummins Inc. recommends that new bearings be installed during rebuild.
+>
+> Inspect the connecting rod bearing for scoring or wear.
+>
+> Replace the bearings if the clearance between the bearings and crankshaft journal exceeds 0.1270 to 0.5334 mm \[0.005 too 0.0021 in\].
+>
+> Measure the piston pin outside diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 14.270 | MIN | 0.5618 |
+> | 14.275 | MAX | 0.5620 |
+>
+> Replace the piston and connecting rod assembly, if **not** within specification.
+>
+> Measure the inside diameter of the piston end of the connecting rod.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 14.290 | MIN | 0.5625 |
+> | 14.303 | MAX | 0.5631 |
+>
+> Replace the piston and connecting rod, if **not** within specification.
+>
+> Inspect and replace the cylinder block if cracks, scoring, or other damage is found.
+>
+> Use a dial bore gauge, Part Number 3375072, or equivalent, to measure the cylinder bore.
+>
+> Measure at 25.0 mm \[1.00 in\] below the top of the block.
+>
+> Replace the block, if **not** with specification.
+>
+> Maximum out-of-round is 0.013 mm \[0.0005 in\].
+>
+> | mm |  | in |
+> |---|---|---|
+> | 80.013 | MIN | 3.1501 |
+> | 80.038 | MAX | 3.1511 |
+>
+> Maximum taper in the piston travel area is 0.038 mm \[0.0015 in\].
+>
+> Inspect and replace the crankcase assembly, if any damage is found.
+>
+> Inspect and replace the crankcase assembly if the crankshaft or roller bearings are damaged.
+>
+> Measure the crankshaft journal diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 30.099 | MIN | 1.1850 |
+> | 30.112 | MAX | 1.1855 |
+>
+> Replace the crankcase assembly, if **not** within specification.
+>
+> Measure the crankshaft journal width.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 32.13 | MIN | 1.265 |
+> | 32.18 | MAX | 1.267 |
+>
+> Replace the crankcase assembly, if **not** within specification.
+>
+> Measure the crankshaft end play.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.03 | MIN | 0.001 |
+> | 0.81 | MAX | 0.032 |
+>
+> Replace the crankcase assembly, if **not** within specification.
+>
+> Inspect the power steering coupling for wear or cracks. Replace the coupling, if damaged.
+>
+> Inspect and replace the power steering adapter, if any damage is found.
+>
+> ### Assemble
+>
+> Install the crankcase to the mounting plate, Part Number ST-749, or equivalent, which is used with the ball joint vise, Part Number ST-302, or equivalent.
+>
+> Install the power steering (34) coupling and capscrew (35) into the crankshaft.
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [17 ft-lb]
+>
+> Install a new gasket (29) and the bearing cap (28) or power steering adapter (33). Align the scribe markds with the mark on the crankcase.
+>
+> Install the four capscrews (27) and tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [12 ft-lb]
+>
+> Install a new gasket and the cylinder block to the crankcase with the scribed marks aligned.
+>
+> Install the four capscrews and tighten in the following sequence:
+>
+> | **Torque Value:** | Step 1 | 20 n.m \[15 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 41 n.m \[30 ft-lb\] |
+> |---|---|---|
+>
+> Install the connecting rod into a soft jawed vise.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the piston pin bore of the connecting rod.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the piston pin bore.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the piston pin outside diameter.
+>
+> Install the piston pin.
+>
+> Install the two buttons.
+>
+> Piston ring positions.
+>
+> Install the compression rings with the top up. Top is identified with the letter “N” or a dot near the end of the ring gap.
+>
+> Install the piston oil ring. If installing a three piece ring, first install the center expander and then the two rails.
+>
+> **Note · Примечание**
+> The oil ring has no top or bottom.
+>
+> Position the ring gaps apart and make sure they are **not** over the piston pin bores.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the rings.
+>
+> Use a piston ring compressor, Part Number ST-755, or equivalent, to compress the rings.
+>
+> **Note · Примечание**
+> Cummins Inc. recommends that new bearings be installed during rebuild.
+>
+> Install the connecting rod bearings into the connecting rod and rod cap.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the connecting rod and rod cap.
+>
+> Use clean 15W-40 lubricating engine oil to lubricate the cylinder block bore.
+>
+> Rotate the crankshaft so the connecting rod journal is at bottom dead center (BDC).
+>
+> Carefully install the piston and connecting rod assembly into the cylinder block bore.
+>
+> Install the connecting rod cap aligning the arrows.
+>
+> Install the two 12-point capscrews into the cap and connecting rod.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [18 ft-lb]
+>
+> Install a new gasket (21) and the bottom cover plate (20).
+>
+> Install the four washers (19) and capscrews (18) and tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [12 ft-lb]
+>
+> Assemble the air compressor cylinder head. Refer to Procedure [[04-012-101 — Air Compressor Cylinder Head (Holset® SS191 Model)|012-101]].

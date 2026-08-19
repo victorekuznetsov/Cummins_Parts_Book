@@ -14,6 +14,7 @@ manuals:
   - "4021589"
   - "4021617"
   - "4021618"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-006-mrm-marpanel.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-006-mrm-marpanel.pdf"
 tags:

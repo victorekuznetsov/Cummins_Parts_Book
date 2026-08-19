@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-066-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-066-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor
@@ -32,15 +35,36 @@ tags:
 > **Даты:** изменён 2004-05-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-066-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-066-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
 
-Install the sensor in the engine block.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [10 ft-lb]
+Убедитесь, что новый датчик имеет кольцо вокруг поверхности, где он уплотняет блок двигателя.
 
-Push the connectors together until they lock.
+Установите датчик в блок двигателя.
+
+> [!tip] Момент затяжки
+> 14 Н·м [10 фунт-фут]
+
+Соедините разъёмы до фиксации.
 
 ![[19400438.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
+>
+> Install the sensor in the engine block.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [10 ft-lb]
+>
+> Push the connectors together until they lock.

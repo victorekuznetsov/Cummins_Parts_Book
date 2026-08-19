@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-031.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-031.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Air Intake Restriction
@@ -32,47 +35,90 @@ tags:
 > **Даты:** изменён 2003-04-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-031.pdf)
 
-### Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install a vacuum gauge or water manometer in the intake piping between the turbocharger and the air filter. The gauge **must** have a capacity of 1270 mm H 2 O \[50 inch H 2 O\].
+
+### Измерение
+
+Установите вакуумный калибр или водный манометр в трубопроводе для впуска между турбокомпрессором и фильтром для очистки воздуха. Калибр ** должен** иметь емкость 1270 мм Н2 О[50 дюймов Н2 О].
 
 ![[10400011.png]]
 
-The gauge adapter (or fitting) **must** be installed at a 90 degree angle to the air flow in a straight section of pipe. The adapter location **must** be at least one pipe diameter before the turbocharger.
+Измерительный датчик (или фитинг) ** должен быть установлен под углом 90 градусов к потоку воздуха в прямом участке трубы. Расположение адаптера ** должно быть по крайней мере один диаметр трубы перед турбокомпрессором.
 
-The adapter **must not** extend through the wall of the air intake tubing.
+Адаптер ** не должен** проходить через стенку воздухозаборной трубы.
 
-If the adapter **must** be located in a curved section of tubing, locate it on the flat side of the curve, **not** in the radius.
+Если адаптер ** должен** располагаться в изогнутом участке трубки, то его следует расположить на плоской стороне кривой, **не** в радиусе.
 
 ![[ci8gaha.png]]
 
-Operate the engine at full throttle and rated rpm with maximum load. Record the reading of the gauge or manometer.
+Работайте с двигателем на полном дроссельном и номинальном оборотах при максимальной нагрузке. Запишите показания калибра или манометра.
 
-> [!note] Note · Примечание
-> Restriction **must not** exceed 635 mm H 2 O \[25 inch H 2 O\].
+> [!note] Примечание
+> Ограничение ** не должно** превышать 635 мм Н2 О[25 дюймов Н2 О].
 
-**Maximum Operating Air Restriction (Dirty Filter):**
+** Максимальное ограничение воздуха (грязный фильтр)**
 
-635 mm H 2 O \[25 inch H 2 O\]
+635 мм H 2 O \[25 дюймов H 2 O\]
 
-> [!note] Note · Примечание
-> Stall speed is **not** full power. Operate the engine at rated rpm and load.
+> [!note] Примечание
+> Скорость остановки ** не ** полная мощность. Работайте с двигателем при номинальной оборотах и нагрузке.
 
 ![[eg800kb.png]]
 
-If the restriction exceeds specifications, do the following:
+Если ограничение превышает спецификации, сделайте следующее:
 
-Replace or clean the air filter element. Refer to the equipment manufacturer's instructions.
+Замените или очистите фильтрующий элемент воздухоочистителя. Смотрите инструкции производителя оборудования.
 
 ![[ac1etma.png]]
 
-Inspect the intake air piping for damage. Refer to the equipment manufacturer's instructions.
+Проверить впускной воздухопровод на предмет повреждения. Смотрите инструкции производителя оборудования.
 
-> [!note] Note · Примечание
-> If **no** damage is visible, check the size and routing of the intake air piping. Refer to the Installation Recommendations.
+> [!note] Примечание
+> Если **no** повреждения видны, проверьте размер и маршрутизацию впускного воздушного трубопровода. См. рекомендации по установке.
 
 ![[ci400sa.png]]
 
-Remove the test equipment.
+Удалите испытательное оборудование.
 
 ![[10400011.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Measure
+>
+> Install a vacuum gauge or water manometer in the intake piping between the turbocharger and the air filter. The gauge **must** have a capacity of 1270 mm H 2 O \[50 inch H 2 O\].
+>
+> The gauge adapter (or fitting) **must** be installed at a 90 degree angle to the air flow in a straight section of pipe. The adapter location **must** be at least one pipe diameter before the turbocharger.
+>
+> The adapter **must not** extend through the wall of the air intake tubing.
+>
+> If the adapter **must** be located in a curved section of tubing, locate it on the flat side of the curve, **not** in the radius.
+>
+> Operate the engine at full throttle and rated rpm with maximum load. Record the reading of the gauge or manometer.
+>
+> **Note · Примечание**
+> Restriction **must not** exceed 635 mm H 2 O \[25 inch H 2 O\].
+>
+> **Maximum Operating Air Restriction (Dirty Filter):**
+>
+> 635 mm H 2 O \[25 inch H 2 O\]
+>
+> **Note · Примечание**
+> Stall speed is **not** full power. Operate the engine at rated rpm and load.
+>
+> If the restriction exceeds specifications, do the following:
+>
+> Replace or clean the air filter element. Refer to the equipment manufacturer's instructions.
+>
+> Inspect the intake air piping for damage. Refer to the equipment manufacturer's instructions.
+>
+> **Note · Примечание**
+> If **no** damage is visible, check the size and routing of the intake air piping. Refer to the Installation Recommendations.
+>
+> Remove the test equipment.

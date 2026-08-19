@@ -25,6 +25,8 @@ manuals:
   - "3666134"
   - "3810497"
   - "4021330"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-001.pdf"
 tags:
@@ -34,6 +36,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # To the Owner and Operator
@@ -47,10 +50,28 @@ tags:
 > **Даты:** изменён 2025-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This guide contains information for the correct operation and maintenance of your Cummins® product. This manual also includes important safety information which can be found in Section i - Introduction.
 
-Cummins Inc. will claim all emissions credits authorized by EPA, CARB, or CARB-adopting state regulations for sale of our engines. This may result in products being ineligible for purchase using certain grant or incentive funding ("voluntary purchase incentive program(s)"). Purchasers and users of products are solely responsible for ensuring their compliance with the terms of any voluntary purchase incentive program(s).
+### Общие сведения
 
-Thank you for depending on Cummins® products. If you have any questions about this product, please contact your local Cummins® Authorized Repair Location. To locate a Cummins® Authorized Repair Location, refer to Section S - Service Assistance in this manual.
+Это руководство содержит информацию для правильной эксплуатации и обслуживания вашего продукта Cummins®. Это руководство также содержит важную информацию о безопасности, которая может быть найдена в разделе i - Введение.
+
+Cummins Inc. Мы будем требовать все кредиты на выбросы, разрешенные EPA, CARB или CARB-принятыми государственными правилами для продажи наших двигателей. Это может привести к тому, что продукты не будут иметь права на покупку с использованием определенного гранта или стимулирующего финансирования («программа (программы) стимулирования добровольной покупки»). Покупатели и пользователи продукции несут единоличную ответственность за обеспечение соблюдения ими условий любой программы (программ) стимулирования добровольной покупки.
+
+Спасибо за то, что вы зависите от продуктов Cummins®. Если у вас есть какие-либо вопросы об этом продукте, пожалуйста, свяжитесь с вашим местным авторизованным ремонтным центром Cummins®. Чтобы найти авторизованное место ремонта Cummins®, обратитесь к разделу S - Помощь в обслуживании в этом руководстве.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This guide contains information for the correct operation and maintenance of your Cummins® product. This manual also includes important safety information which can be found in Section i - Introduction.
+>
+> Cummins Inc. will claim all emissions credits authorized by EPA, CARB, or CARB-adopting state regulations for sale of our engines. This may result in products being ineligible for purchase using certain grant or incentive funding ("voluntary purchase incentive program(s)"). Purchasers and users of products are solely responsible for ensuring their compliance with the terms of any voluntary purchase incentive program(s).
+>
+> Thank you for depending on Cummins® products. If you have any questions about this product, please contact your local Cummins® Authorized Repair Location. To locate a Cummins® Authorized Repair Location, refer to Section S - Service Assistance in this manual.

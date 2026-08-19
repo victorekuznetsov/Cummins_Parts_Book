@@ -34,12 +34,15 @@ parts:
   - "3963988"
   - "4068689"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110112.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110112.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2018"
+  - "перевод/машинный"
   - "тема/fuel-systems-pumps"
 ---
 
@@ -53,140 +56,148 @@ tags:
 > **Даты:** выпущен 2018-03-16 · изменён 2018-03-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110112.pdf)
 
-## Fuel Pump Service Parts
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Сервисные детали топливного насоса
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic clarifies the available service parts for the QST30 Bosch® fuel pump.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема, касающаяся услуг/частей, разъясняет имеющиеся сервисные детали для топливного насоса QST30 Bosch®.
 
 ![[05a00094.png]]
 
-Figure 1, Bosch® Fuel Injection Pump Dataplate
+Рисунок 1, Таблица данных насоса для впрыска топлива Bosch®
 
-Dataplate is mounted on outboard side of injection pump housing and provides the following information:
+Таблица с данными устанавливается на бортовой стороне корпуса насоса для впрыска и предоставляет следующую информацию:
 
-1. Injection pump serial number
-2. Bosch® part number
-3. Bosch® pump identification code
-4. Cummins® part number (first seven digits of line).
+1. Серийный номер насоса для инжекций
+2. Bosch® часть номера
+3. Идентификационный код насоса Bosch®
+4. Номер детали Cummins® (первые семь цифр строки).
 
-**New Fuel Pump Service Kits**
+** Новые комплекты для подачи топлива**
 
-Table 1, New Fuel Pump Kits, introduces the new fuel pump kits for the P7100, P8500, P8500 light-load advance, and RP39 fuel pumps. If an entire fuel pump is rewired for service, order the appropriate kit listed in Table 1, New Fuel Pump Kits, Spline Gears, spline gear nuts, and oil feed hole o-rings are now supplied so it is **not** necessary to reuse these components from pump.
+Таблица 1 Новые топливные насосные комплекты, представляет новые комплекты топливных насосов для P7100, P8500, P8500 с легкой нагрузкой и топливных насосов RP39. Если весь топливный насос переоборудован для обслуживания, закажите соответствующий комплект, указанный в таблице 1, Новые топливные насосные комплекты, Spline Gears, гайки для шпильных передач и кольца для отверстий для подачи масла, теперь поставляются, поэтому нет необходимости повторно использовать эти компоненты из насоса.
 
-| **Table 1, New Fuel Pump Kits and Contents** |  |  |  |  |  |  |  |  |
+| ** Таблица 1, новые топливные насосы и комплекты** |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|
-| **Kit Part Number** | **Part Description** | **Obselete** | **Pump Description** | **Pump Part Number** | **Obselete** | **Spline Gear** | **Nut** | **Oil Supply O-Ring** |
-| 4025258 | Fuel Pump kit | Yes | P8500 flange (left) | 3094435 | Yes | 3093561 | 3094892 | [[4068689]] |
-| 4025259 | Fuel pump kit | Yes | P8500 flange (right) | 3094436 | Yes | 3093561 | 3094892 | [[4068689]] |
-| 4025260RX | Fuel pump kit | No | RP39 flange (left) | 2881832 | No | [[3093559]] | [[3094343]] | [[4068689]] |
-| 4025261RX | Fuel pump kit | No | RP39 flange (right) | 2881833 | No | [[3093559]] | [[3094343]] | [[4068689]] |
-| 4025262 | Fuel pump kit | Yes | P8500 light-load advance (left) | 3093638 | No | 3093561 | 3094892 | [[4068689]] |
-| 4025263 | Fuel pump kit | Yes | P8500 light-load advance (right) | 3093637 | No | 3093561 | 3094892 | [[4068689]] |
-| 4025264RX | Fuel pump kit | No | P7100 flange (left) | 3093634 | No | 3093561 | 3094892 | [[4068689]] |
-| 4025265RX | Fuel pump kit | No | P7100 flange (right) | 3093633 | No | 3093561 | 3094892 | [[4068689]] |
+| ** Заполните номер** | ** Часть описания** | ** ОБСЕЛЕТА** | ** Накачка Описание** | ** Накачка Часть Номер** | ** ОБСЕЛЕТА** | ** Сплайн-Гир** | ** Nut** | ** Нефтяное кольцо** |
+| 4025258 | Комплект топливного насоса | Да | Фланге P8500 (слева) | 3094435 | Да | 3093561 | 3094892 | [[4068689]] |
+| 4025259 | Комплект топливного насоса | Да | Фланге P8500 (справа) | 3094436 | Да | 3093561 | 3094892 | [[4068689]] |
+| 4025260RX | Комплект топливного насоса | Нет | RP39 Фланге (слева) | 2881832 | Нет | [[3093559]] | [[3094343]] | [[4068689]] |
+| 4025261RX | Комплект топливного насоса | Нет | Фланге RP39 (справа) | 2881833 | Нет | [[3093559]] | [[3094343]] | [[4068689]] |
+| 4025262 | Комплект топливного насоса | Да | P8500 Light-load Avanced (слева) | 3093638 | Нет | 3093561 | 3094892 | [[4068689]] |
+| 4025263 | Комплект топливного насоса | Да | P8500 Light-load Avanced (справа) | 3093637 | Нет | 3093561 | 3094892 | [[4068689]] |
+| 4025264RX | Комплект топливного насоса | Нет | Фланге P7100 (слева) | 3093634 | Нет | 3093561 | 3094892 | [[4068689]] |
+| 4025265RX | Комплект топливного насоса | Нет | Фланге P7100 (справа) | 3093633 | Нет | 3093561 | 3094892 | [[4068689]] |
 
-> [!note] Note · Примечание
-> New pump kits are **not** available for the base mount type of fuel pump. Part numbers as stated with “obsolete” are no longer available for service purchase and may be purchased from a third party unless superseded with another part number or Recon® suffix part number.
+> [!note] Примечание
+> Новые комплекты насосов ** не** доступны для базового типа топливного насоса. Номера частей, указанные в пункте «устаревшие», больше не доступны для покупки услуг и могут быть приобретены у третьей стороны, если они не заменены другим номером детали или номером суффикса Recon®.
 
-**Service Parts Available by Fuel Pump Part Number**
+** Услуги, доступные по номеру детали топливного насоса**
 
-Tables 2, 3, and 4 list the part numbers and quantities available for service on each fuel pump. The service parts are interchangeable for both the left-bank and right-bank applications.
+В таблицах 2, 3 и 4 приведены номера деталей и количества, доступные для обслуживания на каждом топливном насосе. Части сервиса взаимозаменяемы как для лево-банковских, так и для право-банковских приложений.
 
 ![[05a00099.png]]
 
-Figure 2, Industrial Fuel Pump (RP39).
+Рисунок 2, Промышленный топливный насос (РР39).
 
-Table 2 lists parts for the RP39 flange mount fuel pump, Part Numbers 2881832 (left bank) and 2881833 (right bank).
+В таблице 2 перечислены детали для топливного насоса RP39, номера частей 2881832 (левый берег) и 2881833 (правый берег).
 
-| **Table 2, Industrial Fuel Pump Service Parts; Reference Figure 2** |  |  |  |  |
+| **Таблица 2, Части обслуживания промышленных топливных насосов; Справочная фигура 2** |  |  |  |  |
 |---|---|---|---|---|
-| **Figure 2, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
-| 1 | [[3092738]] | 2 914 552 155, 6216 79 1640 | EHAB mounting screw | 3 |
-| 1 | 3092739 | 2 912 742 209, 6216 79 1650 | EHAB mounting screw | 2 |
-| 2 | 3092734 | 2 417 413 082 | Overflow valve | 1 |
-| 3 | 3092737 | 2 417 205 029, 6216 79 1630 | EHAB shutoff device (24-VDC) | 1 |
-| **Not** shown | [[3092200]] | 2 410 206 009, 6216 74 6350 | O-ring seal | 2 |
-| 4 | [[3092740]] | 2 911 272 753, 6216 79 1660 | Oil fill plug | 1 |
-| **Not** shown | [[3092741]] | 2 911 272 753, 6216 79 1660 | Oil fill plug seal | 1 |
-| 5 | [[3912888]] | 1 423 452 041 | Timing plug | 1 |
-| **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
-| **Not** shown | [[3094640]] | 4 423 124 063 | Lock pin | 1 |
-| **Not** shown | [[3094641]] | 2 424 617 063 | Lock pin spring | 1 |
-| 6 | [[3092736]] | 1 410 210 054 6216 79 1580 6216 79 1620 | Bearing end plate pilot bore o-ring | 1 |
-| 7 | [[3093559]] | 6216 71 3271 | Spline adapter | 1 |
-| 8 | [[3094343]] | 6216 71 3380 | Regular hexagon nut | 1 |
-| 9 | 3092731 | 0 440 008 113, 6216 79 1510 | Fuel transfer pump | 1 |
-| 10 | 3092733 | 2 915 012 007, 6216 79 1540 | Fuel transfer pump mounting nut | 3 |
-| **Not** shown | 3094629 | 1 230 203 001, 6216 79 1520 | Fuel transfer pump seal | 1 |
-| **Not** shown | 3094630 | 1 411 073 004, 6216 79 1530 | Fuel transfer pump gasket | 1 |
-| **Not** shown | [[3094632]] | 2 916 699 083, 6216 79 1550 | Fuel transfer pump mounting washer | 3 |
-| 11 | [[4068689]] | 6216 74 6430 | Oil supply o-ring seal | 1 |
-| 12 | 3064642 | 1 413 462 095, 6216 79 1590 | Rack access plug | 1 |
-| **Not** shown | [[3094643]] | 2 916 710 618, 6216 79 1610 | Rack access plug seal | 1 |
+| ** Рисунок 2, Номер пункта** | **Численная часть номера** | **Часовой номер** | **Описание** | ** Количество** |
+| 1 | [[3092738]] | 2 914 552 155, 6216 79 1640 | Винт для крепления EHAB | 3 |
+| 1 | 3092739 | 2 912 742 209, 6216 79 1650 | Винт для крепления EHAB | 2 |
+| 2 | 3092734 | 2 417 413 082 | Перепускной (переливной) клапан | 1 |
+| 3 | 3092737 | 2 417 205 029, 6216 79 1630 | Устройство отключения EHAB (24-VDC) | 1 |
+| ** Не показана** | [[3092200]] | 2 410 206 009, 6216 74 6350 | Уплотнение кольца | 2 |
+| 4 | [[3092740]] | 2 911 272 753, 6216 79 1660 | Пробка маслозаливного отверстия | 1 |
+| ** Не показана** | [[3092741]] | 2 911 272 753, 6216 79 1660 | Уплотнение маслозаливной пробки | 1 |
+| 5 | [[3912888]] | 1 423 452 041 | Пробка установки угла опережения | 1 |
+| ** Не показана** | [[3912889]] | 2 916 710 613 | Уплотнительная шайба | 1 |
+| ** Не показана** | [[3094640]] | 4 423 124 063 | Стопорный штифт | 1 |
+| ** Не показана** | [[3094641]] | 2 424 617 063 | Пружина стопорного штифта | 1 |
+| 6 | [[3092736]] | 1 410 210 054 6216 79 1580 6216 79 1620 | Пилотный цилиндр с подшипниковым концом | 1 |
+| 7 | [[3093559]] | 6216 71 3271 | Шлицевой переходник | 1 |
+| 8 | [[3094343]] | 6216 71 3380 | Гайка шестигранная | 1 |
+| 9 | 3092731 | 0 440 008 113, 6216 79 1510 | Топливоподкачивающий насос | 1 |
+| 10 | 3092733 | 2 915 012 007, 6216 79 1540 | Гайка крепления топливоподкачивающего насоса | 3 |
+| ** Не показана** | 3094629 | 1 230 203 001, 6216 79 1520 | Уплотнение насоса для передачи топлива | 1 |
+| ** Не показана** | 3094630 | 1 411 073 004, 6216 79 1530 | Прокладка насоса для транспортировки топлива | 1 |
+| ** Не показана** | [[3094632]] | 2 916 699 083, 6216 79 1550 | Шайба крепления топливоподкачивающего насоса | 3 |
+| 11 | [[4068689]] | 6216 74 6430 | Уплотнение для уплотнения кольца | 1 |
+| 12 | 3064642 | 1 413 462 095, 6216 79 1590 | Плагин доступа к взлому | 1 |
+| ** Не показана** | [[3094643]] | 2 916 710 618, 6216 79 1610 | Затвор для доступа к взлому | 1 |
 
 ![[05r00138.png]]
 
-Figure 3, Generator-Drive Flange Mount Fuel Pump.
+Рисунок 3, Генератор-Драйв Фланж Маунт Топливный Насос.
 
-Table 3 lists service parts for the following generator-drive flange mount fuel pumps:
+В таблице 3 перечислены служебные части следующих топливных насосов с фланцевым креплением на генераторном приводе:
 
-- P8500 light-load advance, flange mount, Part Numbers 3093279 (left bank) and [[3093728]] (right bank)
-- P7100 flange mount, Part Numbers 3093281 (left bank) and 3093280 (right bank)
+- P8500 Light-load Avancion, Flange mount, Part Numbers 3093279 (левый берег)[[3093728]](правый банк)
+- Фланцевое крепление P7100, номера частей 3093281 (левый берег) и 3093280 (правый берег)
 
-| **Table 3, Generator Fuel Pump Service Parts; Reference Figure 3** |  |  |  |  |
+| ** Таблица 3, Части обслуживания топливных насосов генератора; Справочная фигура 3** |  |  |  |  |
 |---|---|---|---|---|
-| **Figure 3, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
-| 1 | [[3912888]] | 1 423 462 041 | Timing plug | 1 |
-| **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
-| **Not** shown | [[3094640]] | 2 243 124 063 | Lock pin | 1 |
-| **Not** shown | [[3094641]] | 2 424 617 053 | Lock pin spring | 1 |
-| 2 | [[3094631]] | 2 915 011 007 | Fuel transfer pump mounting nut | 3 |
-| 3 | 3800695 | 6216 04 1010 | Fuel transfer pump kit (pump & gasket) | 1 |
-| **Not** shown | 3094629 | 1 230 203 001, 6216 79 1520 | Fuel transfer pump seal | 1 |
-| **Not** shown | [[3897783]] | 6216 79 1680 | Fuel transfer pump gasket | 1 |
-| **Not** shown | [[3094632]] | 2 916 699 083, 6216 79 1550 | Fuel transfer pump mounting washer | 3 |
-| 4 | [[3092736]] | 1 410 210 054 | Bearing end plate pilot bore o-ring | 1 |
-| 5 | 3093561 | N/A | Spline adapter | 1 |
-| 6 | 3094892 | N/A | Regular hexagon spline nut | 1 |
-| 7 | [[4068689]] | 6216 74 6430 | Oil supply o-ring seal | 1 |
-| 8 | [[3094642]] | 1 413 462 095 | Rack access plug | 1 |
-| **Not** shown | [[3094643]] | 2 916 710 618 | Rack access plug seal | 1 |
-| 9 | 3800696 | N/A | Overflow valve kit (valve, 2-washers) | 1 |
-| **Not shown** | [[3963988]] | 6731-74-5910 | Washer (1 included only – need 2 if not purchasing valve kit) | 2 |
+| ** Рисунок 3, номер пункта** | **Численная часть номера** | **Часовой номер** | **Описание** | ** Количество** |
+| 1 | [[3912888]] | 1 423 462 041 | Пробка установки угла опережения | 1 |
+| ** Не показана** | [[3912889]] | 2 916 710 613 | Уплотнительная шайба | 1 |
+| ** Не показана** | [[3094640]] | 2 243 124 063 | Стопорный штифт | 1 |
+| ** Не показана** | [[3094641]] | 2 424 617 053 | Пружина стопорного штифта | 1 |
+| 2 | [[3094631]] | 2 915 011 007 | Гайка крепления топливоподкачивающего насоса | 3 |
+| 3 | 3800695 | 6216 04 1010 | Набор насосов для перекачки топлива (насос и прокладка) | 1 |
+| ** Не показана** | 3094629 | 1 230 203 001, 6216 79 1520 | Уплотнение насоса для передачи топлива | 1 |
+| ** Не показана** | [[3897783]] | 6216 79 1680 | Прокладка насоса для транспортировки топлива | 1 |
+| ** Не показана** | [[3094632]] | 2 916 699 083, 6216 79 1550 | Шайба крепления топливоподкачивающего насоса | 3 |
+| 4 | [[3092736]] | 1 410 210 054 | Пилотный цилиндр с подшипниковым концом | 1 |
+| 5 | 3093561 | Не применяется | Шлицевой переходник | 1 |
+| 6 | 3094892 | Не применяется | Регулярный шестиугольный орех | 1 |
+| 7 | [[4068689]] | 6216 74 6430 | Уплотнение для уплотнения кольца | 1 |
+| 8 | [[3094642]] | 1 413 462 095 | Плагин доступа к взлому | 1 |
+| ** Не показана** | [[3094643]] | 2 916 710 618 | Затвор для доступа к взлому | 1 |
+| 9 | 3800696 | Не применяется | Набор клапанов перелива (клапан, 2-мойки) | 1 |
+| ** Не показан** | [[3963988]] | 6731-74-5910 | Стиральная машина (1 включена только - нужно 2, если не покупаете клапанный комплект) | 2 |
 
 ![[05a00101.png]]
 
-Figure 4, Generator-Drive Base Mount Fuel Pump.
+Рисунок 4, Генератор-привод базы Горный топливный насос.
 
-Table 4 lists service parts for the generator-drive P8500 base mount fuel pump, Part Numbers 3094654 (left bank) and 3094653 (right bank).
+В таблице 4 перечислены служебные части для топливного насоса с приводом генератора P8500, номера частей 3094654 (левый берег) и 3094653 (правый берег).
 
-| **Table 4, Generator Base Mount Fuel Pump Service Parts; Reference Figure 4** |  |  |  |  |
+| ** Таблица 4, Генераторная база Гора Топливные насосы, Части обслуживания; Справочная фигура 4** |  |  |  |  |
 |---|---|---|---|---|
-| **Figure 4, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
-| 1 | [[3912888]] | 1 423 462 041 | Timing plug | 1 |
-| **Not** shown | [[3094641]] | 2 424 617 063 | Lock pin spring | 1 |
-| **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
-| **Not** shown | [[3094640]] | 2 423 124 063 | Lock pin | 1 |
-| 2 | 3094629 | 1 230 203 001 6216 79 1520 | Fuel transfer pump seal | 1 |
-| 3 | [[3094631]] | 2 915 011 007 | Fuel transfer pump nut | 3 |
-| 4 | 3800695 | 6216 04 1010 | Fuel transfer pump | 1 |
-| **Not** shown | [[3897783]] | 1 411 073 004, 6216 79 1530, 6216 79 1680, | Fuel transfer pump gasket | 1 |
-| **Not** shown | [[3094632]] | 2 916 699 063, 6216 79 1550 | Fuel transfer pump washer | 3 |
-| 5 | 3094633 | 2 416 409 003 | Fuel pump drive hub | 1 |
-| 6 | 3094634 | 2 416 436 028 | Fuel pump flex drive coupling | 1 |
-| 7 | 3094635 | 2 413 300 009 | Fuel pump shaft nut | 1 |
-| **Not** shown | 3094636 | 2 916 699 093 | Fuel pump shaft lock washer | 1 |
-| 8 | [[3094642]] | 1 413 462 095, 6216 79 1590 | Rack access plug | 1 |
-| **Not** shown | [[3094643]] | 2 916 710 618, 6216 79 1610 | Rack access plug seal | 1 |
-| 9 | 3800696 | N/A | Overflow valve kit (valve, 2-washers) | 1 |
-| **Not shown** | [[3963988]] | 6731-74-5910 | Washer (1 included only – need 2 if not purchasing valve kit) | 2 |
+| **Рисунок 4, номер пункта** | **Численная часть номера** | **Часовой номер** | **Описание** | ** Количество** |
+| 1 | [[3912888]] | 1 423 462 041 | Пробка установки угла опережения | 1 |
+| ** Не показана** | [[3094641]] | 2 424 617 063 | Пружина стопорного штифта | 1 |
+| ** Не показана** | [[3912889]] | 2 916 710 613 | Уплотнительная шайба | 1 |
+| ** Не показана** | [[3094640]] | 2 423 124 063 | Стопорный штифт | 1 |
+| 2 | 3094629 | 1 230 203 001 6216 79 1520 | Уплотнение насоса для передачи топлива | 1 |
+| 3 | [[3094631]] | 2 915 011 007 | 3.3.2 Питьевой насос | 3 |
+| 4 | 3800695 | 6216 04 1010 | Топливоподкачивающий насос | 1 |
+| ** Не показана** | [[3897783]] | 1 411 073 004, 6216 79 1530, 6216 79 1680, | Прокладка насоса для транспортировки топлива | 1 |
+| ** Не показана** | [[3094632]] | 2 916 699 063, 6216 79 1550 | Стиральная машина насоса для передачи топлива | 3 |
+| 5 | 3094633 | 2 416 409 003 | Концентратор привода топливного насоса | 1 |
+| 6 | 3094634 | 2 416 436 028 | 5.2.2.2 Соединение гибких приводов топливного насоса | 1 |
+| 7 | 3094635 | 2 413 300 009 | Орех топливного насоса | 1 |
+| ** Не показана** | 3094636 | 2 916 699 093 | Стиральная машина для замков топливных насосов | 1 |
+| 8 | [[3094642]] | 1 413 462 095, 6216 79 1590 | Плагин доступа к взлому | 1 |
+| ** Не показана** | [[3094643]] | 2 916 710 618, 6216 79 1610 | Затвор для доступа к взлому | 1 |
+| 9 | 3800696 | Не применяется | Набор клапанов перелива (клапан, 2-мойки) | 1 |
+| ** Не показан** | [[3963988]] | 6731-74-5910 | Стиральная машина (1 включена только - нужно 2, если не покупаете клапанный комплект) | 2 |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -211,3 +222,131 @@ Table 4 lists service parts for the generator-drive P8500 base mount fuel pump, 
 | [[3912889]] | SEALING WASHER | Уплотнительная шайба |
 | [[3963988]] | SEALING WASHER | Уплотнительная шайба |
 | [[4068689]] | O RING SEAL | Уплотнительное кольцо |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fuel Pump Service Parts
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic clarifies the available service parts for the QST30 Bosch® fuel pump.
+>
+> Figure 1, Bosch® Fuel Injection Pump Dataplate
+>
+> Dataplate is mounted on outboard side of injection pump housing and provides the following information:
+>
+> 1. Injection pump serial number
+> 2. Bosch® part number
+> 3. Bosch® pump identification code
+> 4. Cummins® part number (first seven digits of line).
+>
+> **New Fuel Pump Service Kits**
+>
+> Table 1, New Fuel Pump Kits, introduces the new fuel pump kits for the P7100, P8500, P8500 light-load advance, and RP39 fuel pumps. If an entire fuel pump is rewired for service, order the appropriate kit listed in Table 1, New Fuel Pump Kits, Spline Gears, spline gear nuts, and oil feed hole o-rings are now supplied so it is **not** necessary to reuse these components from pump.
+>
+> | **Table 1, New Fuel Pump Kits and Contents** |  |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|---|
+> | **Kit Part Number** | **Part Description** | **Obselete** | **Pump Description** | **Pump Part Number** | **Obselete** | **Spline Gear** | **Nut** | **Oil Supply O-Ring** |
+> | 4025258 | Fuel Pump kit | Yes | P8500 flange (left) | 3094435 | Yes | 3093561 | 3094892 | [[4068689]] |
+> | 4025259 | Fuel pump kit | Yes | P8500 flange (right) | 3094436 | Yes | 3093561 | 3094892 | [[4068689]] |
+> | 4025260RX | Fuel pump kit | No | RP39 flange (left) | 2881832 | No | [[3093559]] | [[3094343]] | [[4068689]] |
+> | 4025261RX | Fuel pump kit | No | RP39 flange (right) | 2881833 | No | [[3093559]] | [[3094343]] | [[4068689]] |
+> | 4025262 | Fuel pump kit | Yes | P8500 light-load advance (left) | 3093638 | No | 3093561 | 3094892 | [[4068689]] |
+> | 4025263 | Fuel pump kit | Yes | P8500 light-load advance (right) | 3093637 | No | 3093561 | 3094892 | [[4068689]] |
+> | 4025264RX | Fuel pump kit | No | P7100 flange (left) | 3093634 | No | 3093561 | 3094892 | [[4068689]] |
+> | 4025265RX | Fuel pump kit | No | P7100 flange (right) | 3093633 | No | 3093561 | 3094892 | [[4068689]] |
+>
+> **Note · Примечание**
+> New pump kits are **not** available for the base mount type of fuel pump. Part numbers as stated with “obsolete” are no longer available for service purchase and may be purchased from a third party unless superseded with another part number or Recon® suffix part number.
+>
+> **Service Parts Available by Fuel Pump Part Number**
+>
+> Tables 2, 3, and 4 list the part numbers and quantities available for service on each fuel pump. The service parts are interchangeable for both the left-bank and right-bank applications.
+>
+> Figure 2, Industrial Fuel Pump (RP39).
+>
+> Table 2 lists parts for the RP39 flange mount fuel pump, Part Numbers 2881832 (left bank) and 2881833 (right bank).
+>
+> | **Table 2, Industrial Fuel Pump Service Parts; Reference Figure 2** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Figure 2, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
+> | 1 | [[3092738]] | 2 914 552 155, 6216 79 1640 | EHAB mounting screw | 3 |
+> | 1 | 3092739 | 2 912 742 209, 6216 79 1650 | EHAB mounting screw | 2 |
+> | 2 | 3092734 | 2 417 413 082 | Overflow valve | 1 |
+> | 3 | 3092737 | 2 417 205 029, 6216 79 1630 | EHAB shutoff device (24-VDC) | 1 |
+> | **Not** shown | [[3092200]] | 2 410 206 009, 6216 74 6350 | O-ring seal | 2 |
+> | 4 | [[3092740]] | 2 911 272 753, 6216 79 1660 | Oil fill plug | 1 |
+> | **Not** shown | [[3092741]] | 2 911 272 753, 6216 79 1660 | Oil fill plug seal | 1 |
+> | 5 | [[3912888]] | 1 423 452 041 | Timing plug | 1 |
+> | **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
+> | **Not** shown | [[3094640]] | 4 423 124 063 | Lock pin | 1 |
+> | **Not** shown | [[3094641]] | 2 424 617 063 | Lock pin spring | 1 |
+> | 6 | [[3092736]] | 1 410 210 054 6216 79 1580 6216 79 1620 | Bearing end plate pilot bore o-ring | 1 |
+> | 7 | [[3093559]] | 6216 71 3271 | Spline adapter | 1 |
+> | 8 | [[3094343]] | 6216 71 3380 | Regular hexagon nut | 1 |
+> | 9 | 3092731 | 0 440 008 113, 6216 79 1510 | Fuel transfer pump | 1 |
+> | 10 | 3092733 | 2 915 012 007, 6216 79 1540 | Fuel transfer pump mounting nut | 3 |
+> | **Not** shown | 3094629 | 1 230 203 001, 6216 79 1520 | Fuel transfer pump seal | 1 |
+> | **Not** shown | 3094630 | 1 411 073 004, 6216 79 1530 | Fuel transfer pump gasket | 1 |
+> | **Not** shown | [[3094632]] | 2 916 699 083, 6216 79 1550 | Fuel transfer pump mounting washer | 3 |
+> | 11 | [[4068689]] | 6216 74 6430 | Oil supply o-ring seal | 1 |
+> | 12 | 3064642 | 1 413 462 095, 6216 79 1590 | Rack access plug | 1 |
+> | **Not** shown | [[3094643]] | 2 916 710 618, 6216 79 1610 | Rack access plug seal | 1 |
+>
+> Figure 3, Generator-Drive Flange Mount Fuel Pump.
+>
+> Table 3 lists service parts for the following generator-drive flange mount fuel pumps:
+>
+> - P8500 light-load advance, flange mount, Part Numbers 3093279 (left bank) and [[3093728]] (right bank)
+> - P7100 flange mount, Part Numbers 3093281 (left bank) and 3093280 (right bank)
+>
+> | **Table 3, Generator Fuel Pump Service Parts; Reference Figure 3** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Figure 3, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
+> | 1 | [[3912888]] | 1 423 462 041 | Timing plug | 1 |
+> | **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
+> | **Not** shown | [[3094640]] | 2 243 124 063 | Lock pin | 1 |
+> | **Not** shown | [[3094641]] | 2 424 617 053 | Lock pin spring | 1 |
+> | 2 | [[3094631]] | 2 915 011 007 | Fuel transfer pump mounting nut | 3 |
+> | 3 | 3800695 | 6216 04 1010 | Fuel transfer pump kit (pump & gasket) | 1 |
+> | **Not** shown | 3094629 | 1 230 203 001, 6216 79 1520 | Fuel transfer pump seal | 1 |
+> | **Not** shown | [[3897783]] | 6216 79 1680 | Fuel transfer pump gasket | 1 |
+> | **Not** shown | [[3094632]] | 2 916 699 083, 6216 79 1550 | Fuel transfer pump mounting washer | 3 |
+> | 4 | [[3092736]] | 1 410 210 054 | Bearing end plate pilot bore o-ring | 1 |
+> | 5 | 3093561 | N/A | Spline adapter | 1 |
+> | 6 | 3094892 | N/A | Regular hexagon spline nut | 1 |
+> | 7 | [[4068689]] | 6216 74 6430 | Oil supply o-ring seal | 1 |
+> | 8 | [[3094642]] | 1 413 462 095 | Rack access plug | 1 |
+> | **Not** shown | [[3094643]] | 2 916 710 618 | Rack access plug seal | 1 |
+> | 9 | 3800696 | N/A | Overflow valve kit (valve, 2-washers) | 1 |
+> | **Not shown** | [[3963988]] | 6731-74-5910 | Washer (1 included only – need 2 if not purchasing valve kit) | 2 |
+>
+> Figure 4, Generator-Drive Base Mount Fuel Pump.
+>
+> Table 4 lists service parts for the generator-drive P8500 base mount fuel pump, Part Numbers 3094654 (left bank) and 3094653 (right bank).
+>
+> | **Table 4, Generator Base Mount Fuel Pump Service Parts; Reference Figure 4** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Figure 4, Item Number** | **Cummins Part Number** | **OEM Part Number** | **Description** | **Quantity** |
+> | 1 | [[3912888]] | 1 423 462 041 | Timing plug | 1 |
+> | **Not** shown | [[3094641]] | 2 424 617 063 | Lock pin spring | 1 |
+> | **Not** shown | [[3912889]] | 2 916 710 613 | Sealing washer | 1 |
+> | **Not** shown | [[3094640]] | 2 423 124 063 | Lock pin | 1 |
+> | 2 | 3094629 | 1 230 203 001 6216 79 1520 | Fuel transfer pump seal | 1 |
+> | 3 | [[3094631]] | 2 915 011 007 | Fuel transfer pump nut | 3 |
+> | 4 | 3800695 | 6216 04 1010 | Fuel transfer pump | 1 |
+> | **Not** shown | [[3897783]] | 1 411 073 004, 6216 79 1530, 6216 79 1680, | Fuel transfer pump gasket | 1 |
+> | **Not** shown | [[3094632]] | 2 916 699 063, 6216 79 1550 | Fuel transfer pump washer | 3 |
+> | 5 | 3094633 | 2 416 409 003 | Fuel pump drive hub | 1 |
+> | 6 | 3094634 | 2 416 436 028 | Fuel pump flex drive coupling | 1 |
+> | 7 | 3094635 | 2 413 300 009 | Fuel pump shaft nut | 1 |
+> | **Not** shown | 3094636 | 2 916 699 093 | Fuel pump shaft lock washer | 1 |
+> | 8 | [[3094642]] | 1 413 462 095, 6216 79 1590 | Rack access plug | 1 |
+> | **Not** shown | [[3094643]] | 2 916 710 618, 6216 79 1610 | Rack access plug seal | 1 |
+> | 9 | 3800696 | N/A | Overflow valve kit (valve, 2-washers) | 1 |
+> | **Not shown** | [[3963988]] | 6731-74-5910 | Washer (1 included only – need 2 if not purchasing valve kit) | 2 |
+>
+> ### Document History

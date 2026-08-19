@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1418.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1418.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Gain Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
@@ -33,62 +36,130 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1418.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1418.pdf)
 
-### Fault Code: 1418
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Gain Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 1418
 
-### Overview
+### Цепь потенциометра усиления — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1418 PID(P): S151 SPN: 4184 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected at the gain adjust potentiometer circuit. | None. |
+| Код неисправности: 1418 P(P): S151 SPN: 4184 FMI: 3/3 лампы: Янтарная СРТ: | Высокое напряжение сигнала, обнаруженное на схеме потенциометра с настройкой усиления. | Нет. |
 
 ![[19a00875.png]]
 
-Gain Adjust Potentiometer Circuit
+Цепь потенциометра регулировки усиления
 
-### Circuit Description
+### Описание цепи
 
-The gain adjust potentiometer is a potentiometer used by the ECM to regulate the governor gains. The potentiometer has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the gain adjust potentiometer input to the ECM.
+Потенциометр с корректировкой усиления - это потенциометр, используемый ECM для регулирования губернаторских прибылей. Потенциометр имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на вход потенциометра с настройкой усиления на ECM.
 
-### Component Location
+### Расположение компонента
 
-The gain adjust potentiometer is located on the generator set control panel.
+Потенциометр с регулировкой усиления расположен на панели управления генераторной установкой.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active.
+Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the gain adjust potentiometer signal voltage was out of range high.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала потенциометра с настройкой усиления было вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- The engine control module (ECM) gain adjust potentiometer will go to the default value.
+- Модуль управления двигателем (ECM) настраивает потенциометр на значение по умолчанию.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- A dirty gain adjust potentiometer.
+- Грязный коэффициент усиления корректирует потенциометр.
 
-- Malfunctioning gain adjust potentiometer.
+- Неисправный потенциометр для коррекции усиления.
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Malfunctioning or damaged OEM wiring harness.
+- Неисправность или повреждение OEM-проводов.
 
-Refer to Troubleshooting Fault Code 1418.
+См. Код 1418 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1418
+>
+> ### Gain Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1418 PID(P): S151 SPN: 4184 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected at the gain adjust potentiometer circuit. | None. |
+>
+> Gain Adjust Potentiometer Circuit
+>
+> ### Circuit Description
+>
+> The gain adjust potentiometer is a potentiometer used by the ECM to regulate the governor gains. The potentiometer has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the gain adjust potentiometer input to the ECM.
+>
+> ### Component Location
+>
+> The gain adjust potentiometer is located on the generator set control panel.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the gain adjust potentiometer signal voltage was out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - The engine control module (ECM) gain adjust potentiometer will go to the default value.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - A dirty gain adjust potentiometer.
+>
+> - Malfunctioning gain adjust potentiometer.
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Malfunctioning or damaged OEM wiring harness.
+>
+> Refer to Troubleshooting Fault Code 1418.

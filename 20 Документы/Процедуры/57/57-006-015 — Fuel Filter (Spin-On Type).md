@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-006-015.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-006-015.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter (Spin-On Type)
@@ -33,33 +36,66 @@ tags:
 > **Даты:** изменён 2002-11-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-006-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-006-015.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The fuel filter **must** be replaced every 500 hours or 12 months, whichever comes first.
 
-Clean the area around the fuel filter head and filter.
+### Снятие
 
-Remove the fuel filter with filter wrench, Part Number 3397929.
+Фильтр топлива должен быть заменен каждые 500 часов или 12 месяцев, в зависимости от того, что наступит раньше.
+
+Очистите область вокруг топливного фильтра, крепящей головку и фильтр.
+
+Удалите топливный фильтр с помощью гаечного ключа, номер детали 3397929.
 
 ![[06a00001.png]]
 
-Use a clean, lint-free towel to clean the filter head gasket surface.
+Используйте чистое полотенце без винта для очистки поверхности прокладки головки фильтра.
 
 ![[ff8etea.png]]
 
-### Install
+### Установка
 
-Apply a light film of clean engine oil to the filter gasket surface.
+Нанесите легкую пленку чистого моторного масла на поверхность прокладки фильтра.
 
-Fill the filter(s) with clean fuel.
+Заполните фильтр (фильтры) чистым топливом.
 
 ![[ff8etwb.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of fuel leaks, make sure the fuel filter is installed tightly. However, mechanical overtightening of the filter can distort the threads or damage the filter element seal.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность утечки топлива, убедитесь, что топливный фильтр установлен плотно. Однако механическое затяжение фильтра может исказить резьбу или повредить уплотнение фильтрующего элемента.
 
-Install the filter on the filter head. Turn the filter until the gasket contacts the filter head surface.
+Установите фильтр на головку фильтра. Поверните фильтр до тех пор, пока прокладка не свяжется с поверхностью головки фильтра.
 
-Tighten the filter an additional one-half to three-fourths of a turn after the gasket contacts the filter head surface, or as specified by the filter manufacturer.
+Затягивать фильтр дополнительно на пол-три четверти оборота после контакта прокладки с поверхностью головки фильтра или по указанию изготовителя фильтра.
 
 ![[06a00034.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The fuel filter **must** be replaced every 500 hours or 12 months, whichever comes first.
+>
+> Clean the area around the fuel filter head and filter.
+>
+> Remove the fuel filter with filter wrench, Part Number 3397929.
+>
+> Use a clean, lint-free towel to clean the filter head gasket surface.
+>
+> ### Install
+>
+> Apply a light film of clean engine oil to the filter gasket surface.
+>
+> Fill the filter(s) with clean fuel.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of fuel leaks, make sure the fuel filter is installed tightly. However, mechanical overtightening of the filter can distort the threads or damage the filter element seal.
+>
+> Install the filter on the filter head. Turn the filter until the gasket contacts the filter head surface.
+>
+> Tighten the filter an additional one-half to three-fourths of a turn after the gasket contacts the filter head surface, or as specified by the filter manufacturer.

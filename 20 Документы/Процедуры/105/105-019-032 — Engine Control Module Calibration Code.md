@@ -26,6 +26,8 @@ manuals:
   - "4022094"
   - "4022102"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-032.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-032.pdf"
 tags:
@@ -35,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/105"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module Calibration Code
@@ -48,78 +51,154 @@ tags:
 > **Даты:** изменён 2025-08-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-032.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-032.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Cummins® electronic service tool or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Cummins® электронный инструмент или эквивалент
 
-### General Information
+#### Дополнительные сервисные позиции
 
-> [!note] Note · Примечание
-> Due to the number of various engine control module (ECM) configurations, this procedure has been written to be common. **Not** all illustrations within this procedure will represent the application that is being worked on.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-ECM calibrations can be performed by the recommended Cummins® electronic service tool or equivalent.
+### Общие сведения
 
-Cummins ® electronic service tool uses a Service Calibration Management (SCM) process which uses a database along with additional logic to evaluate if a requested ECM code is approved for installation into the ECM. See Service Bulletin, Engine Control Module (ECM) Calibration Download with Cummins ® Electronic Service Tools, Bulletin 6643906.
+> [!note] Примечание
+> Из-за количества различных конфигураций модуля управления двигателем (ECM) эта процедура была написана, чтобы быть общей. **Не все иллюстрации в рамках этой процедуры будут представлять собой приложение, над которым ведется работа.
 
-After an ECM is replaced or calibrated, the actual engine hours / distance **must** be entered correctly into the ECM.
+Калибровку ECM можно выполнить с помощью рекомендованной электронной сервисной оснастки Cummins® или эквивалентной.
 
-Record the values of ECM Distance Offset, ECM Time Offset, Engine Distance Offset, and Engine Time Offset prior to replacement or calibration of the ECM. These parameters can be found in the Trip Information section of Features and Parameters.
+Инструменты для электронных услуг Cummins® используют процесс управления калибровкой служб (SCM), который использует базу данных вместе с дополнительной логикой для оценки того, одобрен ли запрашиваемый код ECM для установки в ECM. См. Service Bulletin, Engine Control Module (ECM) Calibration Download with Cummins® Electronic Service Tools, Bulletin 6643906.
+
+После замены или калибровки ECM фактические часы работы двигателя / расстояние ** должны быть правильно введены в ECM.
+
+Записывайте значения ECM Distance Offset, ECM Time Offset, Engine Distance Offset и Engine Time Offset перед заменой или калибровкой ECM. Эти параметры можно найти в разделе «Информация о поездке» функций и параметров.
 
 ![[19t00005.png]]
 
-### Initial Check
+### Первичная проверка
 
-If the tool will **not** communicate with the keyswitch in the ON position, cycle the keyswitch and try again.
+Если инструмент будет **не*** взаимодействовать с выключателем зажигания в положении Включения, зациклите замок зажигания и попробуйте снова.
 
-The ECM calibration process occurs with the keyswitch turned ON. **Always** follow the instructions on the service tool screens.
+Процесс калибровки ECM происходит при включенном переключателе зажигания. ** Всегда следуйте инструкциям на экранах инструментов сервиса.
 
 ![[19800470.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-Connect the electronic service tool to the service tool data link, which is located on the engine or in the cab.
+Подключите инструмент электронного сервиса к шине данных CAN, которая расположена на двигателе или в кабине.
 
-After an ECM is replaced or calibrated, the actual engine hours / distance **must** be entered correctly into the ECM.
+После замены или калибровки ECM фактические часы работы двигателя / расстояние ** должны быть правильно введены в ECM.
 
-Input the values of ECM Distance Offset, ECM Time Offset, Engine Distance Offset, and Engine Time Offset prior to replacement or calibration of the ECM. These parameters can be found in the Trip Information section of Features and Parameters.
+Введите значения ECM Distance Offset, ECM Time Offset, Engine Distance Offset и Engine Time Offset перед заменой или калибровкой ECM. Эти параметры можно найти в разделе «Информация о поездке» функций и параметров.
 
-Verify vehicle odometer is equal to the value recorded before ECM removal. Contact OEM service location if values are incorrect.
-
-![[19t00005.png]]
-
-### Inspect
-
-Establish if the suspected feature creating the problem is operating correctly. Reference the relevant “Electronic Controlled Fuel System” (Procedure 101-007) in Section 1 of the appropriate Operation and Maintenance Manual.
-
-To access the “Adjustable Engine Features” section, either select Help -\> Contents from the menu bar, or press F1 with an individual feature within the Features and Parameters section in the electronic service tool.
-
-Review the "Adjustable Engine Features” section to determine if the suspected error is due to an incorrectly set adjustable engine feature.
+Проверить, что одометр транспортного средства равен значению, зарегистрированному до удаления ECM. Свяжитесь с OEM-сервисом, если значения неверны.
 
 ![[19t00005.png]]
 
-Use QuickServe™ Online to inspect the calibraton revision history.
+### Осмотр
 
-1. Log into QuickServe™ Online
-2. Select "My Applications"
-3. Select "ECM Calibraton Revisions"
-4. Enter the calibration code and select "Search"
-5. Review the calibration revision information.
+Установите, правильно ли работает подозреваемая функция, создающая проблему. Ссылка на соответствующую "Электронную систему управляемого топлива" (Процедура 101-007) в разделе 1 соответствующего Руководства по эксплуатации и техническому обслуживанию.
 
-The calibration revision history provides information relating to changes made to a calibration each time a new revision is released. This information can be used to establish if there is a commonality between changes made to the calibration and the symptoms being observed. The calibration revision history can also be downloaded in Excel format by selecting “Spreadsheet” in the record filter box.
+Чтобы получить доступ к разделу «Настраиваемые функции двигателя», выберите «Справка» -> «Содержимое» из панели меню или нажмите F1 с отдельной функцией в разделе «Особенности и параметры» в инструменте электронного обслуживания.
 
-The greater the number of parameters, the slower the rate at which they can be logged. Therefore, **only** log the minimum number of parameters if sample rate is important.
-
-If no issue can be identified using the steps listed above, the following information should be collected to allow the issue to enter the technical escalation chain:
-
-1. Engine specifics engine serial number (ESN), application, rating, engine hours, maintenance history, etc.)
-2. ECM codes (the codes before and after, including revision numbers)
-3. ECM images (before and after calibration downloads)
-4. Data logs (utilize existing, pre-defined parameter groups, or use the relevant wiring diagram to identify if multiple circuits utilize a common supply or ground, or monitor parameters which logically would be linked - i.e. User Fuelling State, Engine Speed, Commanded Fuel Rail Pressure, Measured Fuel Rail Pressure, etc.).
+Просмотрите раздел «Настраиваемые характеристики двигателя», чтобы определить, вызвана ли предполагаемая ошибка неправильно установленной регулируемой функцией двигателя.
 
 ![[19t00005.png]]
+
+Используйте QuickServe Online для проверки истории пересмотра калибратона.
+
+1. Зарегистрируйтесь в QuickServeTM Online
+2. Выберите «Мои приложения»
+3. Выберите «ECM Calibraton Revisions»
+4. Введите калибровочный код и выберите «Поиск»
+5. Просмотрите информацию о калибровке.
+
+История калибровочных изменений содержит информацию, касающуюся изменений, вносимых в калибровку каждый раз, когда выпускается новая версия. Эта информация может быть использована для установления, существует ли общность между изменениями, внесенными в калибровку, и наблюдаемыми симптомами. Историю калибровочного пересмотра можно также загрузить в формате Excel, выбрав «Справочник» в поле фильтрации записи.
+
+Чем больше число параметров, тем медленнее скорость, с которой они могут быть зарегистрированы. Поэтому *** регистрирует минимальное количество параметров, если важна частота выборки.
+
+Если с помощью перечисленных выше шагов не удается выявить проблему, то для ее включения в цепочку технической эскалации необходимо собрать следующую информацию:
+
+1. Серийный номер двигателя (ESN), его применение, рейтинг, часы работы двигателя, история технического обслуживания и т. Д.
+2. коды ECM (коды до и после, включая номера версий);
+3. ECM изображения (до и после калибровки)
+4. Журналы данных (используют существующие, предварительно определенные группы параметров или используют соответствующую схему проводов для определения того, используют ли несколько цепей общий источник питания или землю, или контролируют параметры, которые логически будут связаны - т.е. Состояние топлива пользователя, скорость двигателя, командное давление на топливных рельсах, измеренное давление на топливных рельсах и т. Д.
+
+![[19t00005.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Cummins® electronic service tool or equivalent
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> **Note · Примечание**
+> Due to the number of various engine control module (ECM) configurations, this procedure has been written to be common. **Not** all illustrations within this procedure will represent the application that is being worked on.
+>
+> ECM calibrations can be performed by the recommended Cummins® electronic service tool or equivalent.
+>
+> Cummins ® electronic service tool uses a Service Calibration Management (SCM) process which uses a database along with additional logic to evaluate if a requested ECM code is approved for installation into the ECM. See Service Bulletin, Engine Control Module (ECM) Calibration Download with Cummins ® Electronic Service Tools, Bulletin 6643906.
+>
+> After an ECM is replaced or calibrated, the actual engine hours / distance **must** be entered correctly into the ECM.
+>
+> Record the values of ECM Distance Offset, ECM Time Offset, Engine Distance Offset, and Engine Time Offset prior to replacement or calibration of the ECM. These parameters can be found in the Trip Information section of Features and Parameters.
+>
+> ### Initial Check
+>
+> If the tool will **not** communicate with the keyswitch in the ON position, cycle the keyswitch and try again.
+>
+> The ECM calibration process occurs with the keyswitch turned ON. **Always** follow the instructions on the service tool screens.
+>
+> ### Preparatory Steps
+>
+> Connect the electronic service tool to the service tool data link, which is located on the engine or in the cab.
+>
+> After an ECM is replaced or calibrated, the actual engine hours / distance **must** be entered correctly into the ECM.
+>
+> Input the values of ECM Distance Offset, ECM Time Offset, Engine Distance Offset, and Engine Time Offset prior to replacement or calibration of the ECM. These parameters can be found in the Trip Information section of Features and Parameters.
+>
+> Verify vehicle odometer is equal to the value recorded before ECM removal. Contact OEM service location if values are incorrect.
+>
+> ### Inspect
+>
+> Establish if the suspected feature creating the problem is operating correctly. Reference the relevant “Electronic Controlled Fuel System” (Procedure 101-007) in Section 1 of the appropriate Operation and Maintenance Manual.
+>
+> To access the “Adjustable Engine Features” section, either select Help -\> Contents from the menu bar, or press F1 with an individual feature within the Features and Parameters section in the electronic service tool.
+>
+> Review the "Adjustable Engine Features” section to determine if the suspected error is due to an incorrectly set adjustable engine feature.
+>
+> Use QuickServe™ Online to inspect the calibraton revision history.
+>
+> 1. Log into QuickServe™ Online
+> 2. Select "My Applications"
+> 3. Select "ECM Calibraton Revisions"
+> 4. Enter the calibration code and select "Search"
+> 5. Review the calibration revision information.
+>
+> The calibration revision history provides information relating to changes made to a calibration each time a new revision is released. This information can be used to establish if there is a commonality between changes made to the calibration and the symptoms being observed. The calibration revision history can also be downloaded in Excel format by selecting “Spreadsheet” in the record filter box.
+>
+> The greater the number of parameters, the slower the rate at which they can be logged. Therefore, **only** log the minimum number of parameters if sample rate is important.
+>
+> If no issue can be identified using the steps listed above, the following information should be collected to allow the issue to enter the technical escalation chain:
+>
+> 1. Engine specifics engine serial number (ESN), application, rating, engine hours, maintenance history, etc.)
+> 2. ECM codes (the codes before and after, including revision numbers)
+> 3. ECM images (before and after calibration downloads)
+> 4. Data logs (utilize existing, pre-defined parameter groups, or use the relevant wiring diagram to identify if multiple circuits utilize a common supply or ground, or monitor parameters which logically would be linked - i.e. User Fuelling State, Engine Speed, Commanded Fuel Rail Pressure, Measured Fuel Rail Pressure, etc.).

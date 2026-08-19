@@ -25,6 +25,8 @@ manuals:
   - "3666134"
   - "3810497"
   - "4021330"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-t00-001-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-t00-001-om.pdf"
 tags:
@@ -34,6 +36,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Troubleshooting Procedures and Techniques
@@ -47,16 +50,40 @@ tags:
 > **Даты:** изменён 2014-09-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-t00-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-t00-001-om.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This guide describes some typical operating problems, their causes, and some acceptable corrections to those problems. Unless noted otherwise, the problems listed are those which an operator can diagnose and repair.
 
-> [!danger] WARNING · Опасно
+### Общие сведения
+
+В этом руководстве описаны некоторые типичные операционные проблемы, их причины и некоторые приемлемые исправления этих проблем. Если не указано иное, перечисленные проблемы - это те, которые оператор может диагностировать и исправить.
+
+> [!danger] ОПАСНО
+> Выполнение процедур устранения неполадок, не указанных в этом разделе, может привести к повреждению оборудования, травмам или смерти. Устранение неполадок должно осуществляться обученными, опытными техниками. Проконсультируйтесь с уполномоченным местом ремонта Cummins для диагностики и восстановления после того, что описано, и для симптомов, не перечисленных в этом разделе. Перед началом устранения неполадок обратитесь к Общим инструкциям по безопасности в разделе i настоящего руководства.
+
+Следуйте приведенным ниже предложениям по устранению неполадок:
+
+- Тщательно изучите жалобу, прежде чем действовать
+- Смотрите диаграммы системы двигателя
+- Сначала сделайте самые простые и логичные вещи.
+- Найти и исправить причину жалобы
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This guide describes some typical operating problems, their causes, and some acceptable corrections to those problems. Unless noted otherwise, the problems listed are those which an operator can diagnose and repair.
+>
+> **WARNING · Опасно**
 > Performing troubleshooting procedures NOT outlined in this section can result in equipment damage or personal injury or death. Troubleshooting must be performed by trained, experienced technicians. Consult a Cummins Authorized Repair Location for diagnosis and repair beyond that which is outlined, and for symptoms not listed in this section. Before beginning any troubleshooting, refer to General Safety Instructions in Section i of this manual.
-
-Follow the suggestions below for troubleshooting:
-
-- Study the complaint thoroughly before acting
-- Refer to the engine system diagrams
-- Do the easiest and most logical things first
-- Find and correct the cause of the complaint
+>
+> Follow the suggestions below for troubleshooting:
+>
+> - Study the complaint thoroughly before acting
+> - Refer to the engine system diagrams
+> - Do the easiest and most logical things first
+> - Find and correct the cause of the complaint

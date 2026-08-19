@@ -25,6 +25,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-016-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-016-009.pdf"
 tags:
@@ -34,6 +36,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Marine Gear
@@ -47,15 +50,36 @@ tags:
 > **Даты:** изменён 2002-06-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-016-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-016-009.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
 
-Check the marine gear oil level daily.
+### Контроль при обслуживании
 
-Refer to the OEM's recommendations for the gear oil requirements.
+Судовое применение
 
-> [!note] Note · Примечание
-> Different models of marine gears will have the marine gear oil dipstick and fill cap in different locations. The location shown is typical.
+Ежедневно проверяйте уровень масла в морской фазе.
+
+См. рекомендации OEM по требованиям к мазуту передач.
+
+> [!note] Примечание
+> Различные модели морских шестерен будут иметь измеритель уровня масла в морской шестеренки и крышку для заполнения в разных местах. Показанное месторасположение является типичным.
 
 ![[09600001.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Marine Applications
+>
+> Check the marine gear oil level daily.
+>
+> Refer to the OEM's recommendations for the gear oil requirements.
+>
+> **Note · Примечание**
+> Different models of marine gears will have the marine gear oil dipstick and fill cap in different locations. The location shown is typical.

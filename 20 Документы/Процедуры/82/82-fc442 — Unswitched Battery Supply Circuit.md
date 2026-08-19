@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc442.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc442.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Unswitched Battery Supply Circuit
@@ -32,32 +35,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc442.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc442.pdf)
 
-### Fault Code: 442
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Unswitched Battery Supply Circuit
 
-Printable Version
+### Код неисправности: 442
 
-### Overview
+### Цепь постоянного питания от АКБ
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 442 PID(P): P168 SPN: 168 FMI: 0/16 Lamp: Yellow SRT: | Battery voltage above normal operating level. | None on performance. |
+| Код неисправности: 442 P(P): P168 SPN: 168 ФМИ: 0/16 лампа: Желтая СТО: | Напряжение батареи выше нормального рабочего уровня. | Ни одного на выступление. |
 
 ![[19c00043.png]]
 
-Unswitched Battery Supply Circuit
+Цепь постоянного питания от АКБ
 
-### Circuit Description
+### Описание цепи
 
-The electronic control module (ECM) receives unswitched battery input through the OEM harness. There are two in-line 15-amp fuses in the unswitched battery wire to protect the OEM harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+Электронный модуль управления (ECM) принимает непереключенный вход батареи через OEM-проводку. В непереключенном проводе батареи есть два встроенных 15-амперных предохранителя, чтобы защитить проводку OEM от перегрева. Провода возврата аккумулятора соединены непосредственно с отрицательной (-) позицией аккумулятора.
 
-### Component Location
+### Расположение компонента
 
-The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM troubleshooting and repair manual for battery location.
+ECM подключается к батарее с помощью OEM-проводов. Это прямое соединение обеспечивает постоянный источник питания для ECM. Смотрите руководство по устранению неполадок и ремонту OEM для определения местоположения батареи.
 
-### Shoptalk
+### Практические замечания
 
-Disconnect all aftermarket devices from the battery supply circuit. Make sure the proper-size fuses are being used (15-amp fuses).
+Отключите все устройства послепродажного обслуживания от цепи питания батареи. Убедитесь, что используются предохранители надлежащего размера (запалы 15-ампер).
 
-Refer to Troubleshooting Fault Code t05-442
+Устранение неполадок код t05-442
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 442
+>
+> ### Unswitched Battery Supply Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 442 PID(P): P168 SPN: 168 FMI: 0/16 Lamp: Yellow SRT: | Battery voltage above normal operating level. | None on performance. |
+>
+> Unswitched Battery Supply Circuit
+>
+> ### Circuit Description
+>
+> The electronic control module (ECM) receives unswitched battery input through the OEM harness. There are two in-line 15-amp fuses in the unswitched battery wire to protect the OEM harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+>
+> ### Component Location
+>
+> The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM troubleshooting and repair manual for battery location.
+>
+> ### Shoptalk
+>
+> Disconnect all aftermarket devices from the battery supply circuit. Make sure the proper-size fuses are being used (15-amp fuses).
+>
+> Refer to Troubleshooting Fault Code t05-442

@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-319.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-319.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # BUS PT Module
@@ -33,18 +36,40 @@ tags:
 > **Даты:** изменён 2003-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-319.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-319.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The bus PT module is located in the controls box. Installation can vary. Some generator sets will have the bus PT module mounted behind the PT/CT board.
 
-Remove the wiring from the bus PT module terminal block posts at TB1 and TB2. Remove each of the wires by loosening the corresponding screw on the bus PT module.
+### Снятие
 
-Remove the four capscrews that hold the bus PT module to the controls box.
+Модуль PT шины расположен в блоке управления. Установка может варьироваться. Некоторые генераторные установки будут иметь модуль шины PT, установленный за платой PT / CT.
+
+Удалите проводку из блока блоков модуля PT в TB1 и TB2. Удалите каждый из проводов, ослабив соответствующий винт на PT-модуле шины.
+
+Удалите четыре болта, которые удерживают модуль PT шины, в блок управления.
 
 ![[19802826.png]]
 
-### Install
+### Установка
 
-Install the new bus PT module terminal block posts at TB1 and TB2. Install each of the wires and tighten the corresponding screw on the bus PT module.
+Установите новые сообщения терминала модуля шины PT на TB1 и TB2. Установите каждый из проводов и затяните соответствующий винт на шине ПТ модуля.
 
 ![[19802826.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The bus PT module is located in the controls box. Installation can vary. Some generator sets will have the bus PT module mounted behind the PT/CT board.
+>
+> Remove the wiring from the bus PT module terminal block posts at TB1 and TB2. Remove each of the wires by loosening the corresponding screw on the bus PT module.
+>
+> Remove the four capscrews that hold the bus PT module to the controls box.
+>
+> ### Install
+>
+> Install the new bus PT module terminal block posts at TB1 and TB2. Install each of the wires and tighten the corresponding screw on the bus PT module.

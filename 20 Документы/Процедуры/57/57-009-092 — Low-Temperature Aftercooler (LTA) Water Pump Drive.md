@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021539"
 figures: 18
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-092.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-092.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Low-Temperature Aftercooler (LTA) Water Pump Drive
@@ -33,230 +36,432 @@ tags:
 > **Даты:** изменён 2026-05-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-092.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-092.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Contact cleaner, Part Number 3824510, or equivalent
-- Lubriplate™ 105, Part Number 3163086, or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Dial indicator
-- Hydraulic press capable of 2224 N \[ 5000 lbf \]
+- Контактный очиститель, номер детали 3824510 или эквивалент
+- LubriplateTM 105, Part Number 3163086 или эквивалент
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- Диапазон индикатора
+- Гидравлический пресс, способный к 2224 Н[5000 фунтов \]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[ 120°F \] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Drain the cooling system. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the Low-Temperature Aftercooler (LTA) water pump support bracket. [[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|Refer to Procedure 008-195 in Section 8.]]
-- Remove the LTA water pump. Refer to Procedure 008-109 in Section 8.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Подождите, пока температура охлаждающей жидкости не будет ниже 50°C \[120°F \], прежде чем снимать крышку давления радиатора. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-### Remove
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Accessory Drive Mounted
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите низкотемпературный охладитель (LTA) скобки поддержки водяного насоса.[[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|См. процедуру 008-195 в разделе 8.]]
+- Удалите водяной насос LTA. См. процедуру 008-109 в разделе 8.
 
-Disconnect lubricating oil supply line.
+### Снятие
 
-Remove and discard sealing washers.
+Привод аксессуара установлен
+
+Отключите линию подачи моторного масла.
+
+Удалить и выбросить уплотнительные шайбы.
 
 ![[09n00068.png]]
 
-Remove LTA water pump drive.
+Удалите привод водяного насоса LTA.
 
-Remove and discard sealing o-rings and rectangular strip seal.
+Удалить и отбросить уплотнительные кольца и прямоугольную полосовую печать.
 
 ![[09n00069.png]]
 
-Front Gear Cover Mounted
+Front Gear Cover установлен
 
-Remove LTA water pump drive.
+Удалите привод водяного насоса LTA.
 
-Remove and discard sealing o-ring and lubricating oil passage o-ring.
+Удалить и выбросить уплотнительное кольцо и моторное масло пропускное кольцо.
 
 ![[09n00070.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Accessory Drive Mounted
+Привод аксессуара установлен
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+Очистите детали контактным очистителем, Номер детали 3824510 или эквивалент.
 
-Dry the parts with compressed air.
+Сушить детали сжатым воздухом.
 
 ![[09n00071.png]]
 
-Turn gear of LTA water pump drive.
+Переключите привод водяного насоса LTA.
 
-Rebuild LTA water pump drive if it does **not** turn smoothly.
+Восстановите привод водяного насоса LTA, если он ** не** поворачивается плавно.
 
 ![[09n00072.png]]
 
-Measure end clearance.
+Завершить зачистку.
 
-| LTA Water Pump Drive End Clearance |  |  |
+| LTA Water Pump Drive End Clearance (Водный насос) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.19 | MIN | 0.0075 |
-| 0.59 | MAX | 0.0232 |
+| мм |  | в |
+| 0.19 | Мин | 0.0075 |
+| 0.59 | Макс | 0.0232 |
 
-Replace thrust bearings if clearance is **not** within specifications.
+Заменить подшипники тяги, если зазор ** не** в пределах спецификаций.
 
 ![[09n00073.png]]
 
-Front Gear Cover Mounted
+Front Gear Cover установлен
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+Очистите детали контактным очистителем, Номер детали 3824510 или эквивалент.
 
-Dry the parts with compressed air.
+Сушить детали сжатым воздухом.
 
 ![[09n00074.png]]
 
-Inspect the LTA water pump drive for:
+Осмотрите привод водяного насоса LTA на:
 
-- Damaged or missing gear teeth
-- Cracked housing
-- Damaged capscrew threads
-- Damaged sealing surfaces
+- Поврежденные или отсутствующие зубья
+- Разбитый корпус
+- Поврежденные болты
+- Поврежденные уплотнительные поверхности
 
-Replace the LTA water pump drive if damage is found.
+Замените привод водяного насоса LTA, если обнаружены повреждения.
 
-Check the rotation of the shaft. The shaft **must** turn smoothly and evenly.
+Проверьте вращение вала. Вал должен вращаться плавно и равномерно.
 
-Replace the LTA water pump drive if the shaft is difficult to turn or wobbles in the housing.
+Замените привод водяного насоса LTA, если вал трудно поворачивать или колеблется в корпусе.
 
 ![[09n00075.png]]
 
-### Disassemble
+### Разборка
 
-Accessory Drive Mounted
+Привод аксессуара установлен
 
-Use hydraulic press to remove gear from shaft assembly.
+Используйте гидравлический пресс для удаления шестерни из вала сборки.
 
-Remove thrust bearing.
+Удалить подшипник тяги.
 
 ![[09n00076.png]]
 
-Remove shaft from LTA water pump drive.
+Удалить вал из привода водяного насоса LTA.
 
-Remove thrust bearing.
+Удалить подшипник тяги.
 
 ![[09n00077.png]]
 
-Use hydraulic press to remove bushings from LTA water pump drive.
+Используйте гидравлический пресс для удаления втулок из привода водяного насоса LTA.
 
 ![[09n00084.png]]
 
-### Assemble
+### Сборка
 
-Accessory Drive Mounted
+Привод аксессуара установлен
 
-Use hydraulic press to press bushings into LTA water pump drive.
+Используйте гидравлический пресс для нажатия на втулки в привод водяного насоса LTA.
 
-Verify bushings are flush or no more than 0.2 mm \[ 0.0079 in \] below face.
+Проверять втулки промывкой или не более 0,2 мм \[0,0079 в \] ниже лица.
 
-Lubricate bushings with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазочные втулки с LubriplateTM 105, Part Number 3163086 или эквивалент.
 
 ![[09n00083.png]]
 
-Lubricate bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазочный подшипник с LubriplateTM 105, Part Number 3163086 или эквивалент.
 
-Place thrust bearing onto shaft.
+Поместите тягу на вал.
 
-Install shaft into LTA water pump drive.
+Установите вал в привод водяного насоса LTA.
 
 ![[09n00080.png]]
 
-Lubricate bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазочный подшипник с LubriplateTM 105, Part Number 3163086 или эквивалент.
 
-Place thrust bearing on end of shaft.
+Поместите тягу на конец вала.
 
-Use hydraulic press to press gear onto shaft until the gear contacts the shoulder of the shaft.
+Используйте гидравлический пресс для нажатия на вал до тех пор, пока передача не соприкоснется с плечом вала.
 
 ![[09n00081.png]]
 
-Measure end clearance.
+Завершить зачистку.
 
-| LTA Water Pump Drive End Clearance |  |  |
+| LTA Water Pump Drive End Clearance (Водный насос) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.19 | MIN | 0.0075 |
-| 0.59 | MAX | 0.0232 |
+| мм |  | в |
+| 0.19 | Мин | 0.0075 |
+| 0.59 | Макс | 0.0232 |
 
 ![[09n00073.png]]
 
-### Install
+### Установка
 
-Accessory Drive Mounted
+Привод аксессуара установлен
 
-Install new sealing o-rings and rectangular strip seal.
+Установите новые уплотнительные кольца и прямоугольную полосовую печать.
 
-Lubricate sealing o-rings with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазочные уплотнительные кольца с LubriplateTM 105, Part Number 3163086 или эквивалент.
 
-Install LTA water pump drive.
+Установите привод водяного насоса LTA.
 
-> [!tip] Момент затяжки · Torque Value
-> Two M12 capscrews 80 n•m [60 ft-lb]
+> [!tip] Момент затяжки
+> Два болта M12 80 Н·м [60 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Six M10 capscrews 46 n•m [34 ft-lb]
+> [!tip] Момент затяжки
+> Шесть болтов M10 46 Н·м [34 фут-лб]
 
 ![[09n00069.png]]
 
-Connect lubricating oil supply line. Use new sealing washers.
+Подключите линию подачи моторного масла. Используйте новые уплотнительные шайбы.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [180 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [180 фунт-дюйм]
 
 ![[09n00068.png]]
 
-Front Gear Cover Mounted
+Front Gear Cover установлен
 
-Install new radial o-ring and lubricating oil passage o-ring.
+Установите новое радиальное кольцо и моторное масло, проходящее через кольцо.
 
-Lubricate radial o-ring seal and lubricating oil passage o-ring with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазочный радиальный уплотнитель и проездное кольцо моторного масла с LubriplateTM 105, Part Number 3163086 или эквивалент.
 
-Install LTA water pump drive.
+Установите привод водяного насоса LTA.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[09n00082.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+- Установите водяной насос LTA. См. процедуру 008-109 в разделе 8.
+- Установите опорный кронштейн водяного насоса LTA.[[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|См. процедуру 008-195 в разделе 8.]]
+- Заполните систему охлаждения LTA.[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Операционный двигатель. Проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Contact cleaner, Part Number 3824510, or equivalent
+> - Lubriplate™ 105, Part Number 3163086, or equivalent
+>
+> #### Additional Service Items
+>
+> - Dial indicator
+> - Hydraulic press capable of 2224 N \[ 5000 lbf \]
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[ 120°F \] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-- Install the LTA water pump. Refer to Procedure 008-109 in Section 8.
-- Install the LTA water pump support bracket. [[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|Refer to Procedure 008-195 in Section 8.]]
-- Fill the LTA Cooling system. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate engine. Check for leaks.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Drain the cooling system. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the Low-Temperature Aftercooler (LTA) water pump support bracket. [[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|Refer to Procedure 008-195 in Section 8.]]
+> - Remove the LTA water pump. Refer to Procedure 008-109 in Section 8.
+>
+> ### Remove
+>
+> Accessory Drive Mounted
+>
+> Disconnect lubricating oil supply line.
+>
+> Remove and discard sealing washers.
+>
+> Remove LTA water pump drive.
+>
+> Remove and discard sealing o-rings and rectangular strip seal.
+>
+> Front Gear Cover Mounted
+>
+> Remove LTA water pump drive.
+>
+> Remove and discard sealing o-ring and lubricating oil passage o-ring.
+>
+> ### Clean and Inspect for Reuse
+>
+> Accessory Drive Mounted
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+>
+> Dry the parts with compressed air.
+>
+> Turn gear of LTA water pump drive.
+>
+> Rebuild LTA water pump drive if it does **not** turn smoothly.
+>
+> Measure end clearance.
+>
+> | LTA Water Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.19 | MIN | 0.0075 |
+> | 0.59 | MAX | 0.0232 |
+>
+> Replace thrust bearings if clearance is **not** within specifications.
+>
+> Front Gear Cover Mounted
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+>
+> Dry the parts with compressed air.
+>
+> Inspect the LTA water pump drive for:
+>
+> - Damaged or missing gear teeth
+> - Cracked housing
+> - Damaged capscrew threads
+> - Damaged sealing surfaces
+>
+> Replace the LTA water pump drive if damage is found.
+>
+> Check the rotation of the shaft. The shaft **must** turn smoothly and evenly.
+>
+> Replace the LTA water pump drive if the shaft is difficult to turn or wobbles in the housing.
+>
+> ### Disassemble
+>
+> Accessory Drive Mounted
+>
+> Use hydraulic press to remove gear from shaft assembly.
+>
+> Remove thrust bearing.
+>
+> Remove shaft from LTA water pump drive.
+>
+> Remove thrust bearing.
+>
+> Use hydraulic press to remove bushings from LTA water pump drive.
+>
+> ### Assemble
+>
+> Accessory Drive Mounted
+>
+> Use hydraulic press to press bushings into LTA water pump drive.
+>
+> Verify bushings are flush or no more than 0.2 mm \[ 0.0079 in \] below face.
+>
+> Lubricate bushings with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Lubricate bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Place thrust bearing onto shaft.
+>
+> Install shaft into LTA water pump drive.
+>
+> Lubricate bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Place thrust bearing on end of shaft.
+>
+> Use hydraulic press to press gear onto shaft until the gear contacts the shoulder of the shaft.
+>
+> Measure end clearance.
+>
+> | LTA Water Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.19 | MIN | 0.0075 |
+> | 0.59 | MAX | 0.0232 |
+>
+> ### Install
+>
+> Accessory Drive Mounted
+>
+> Install new sealing o-rings and rectangular strip seal.
+>
+> Lubricate sealing o-rings with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Install LTA water pump drive.
+>
+> **Момент затяжки · Torque Value**
+> Two M12 capscrews 80 n•m [60 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Six M10 capscrews 46 n•m [34 ft-lb]
+>
+> Connect lubricating oil supply line. Use new sealing washers.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [180 in-lb]
+>
+> Front Gear Cover Mounted
+>
+> Install new radial o-ring and lubricating oil passage o-ring.
+>
+> Lubricate radial o-ring seal and lubricating oil passage o-ring with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Install LTA water pump drive.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Install the LTA water pump. Refer to Procedure 008-109 in Section 8.
+> - Install the LTA water pump support bracket. [[57-008-195 — Low-Temperature Aftercooler (LTA) Water Pump Support Bracket|Refer to Procedure 008-195 in Section 8.]]
+> - Fill the LTA Cooling system. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate engine. Check for leaks.

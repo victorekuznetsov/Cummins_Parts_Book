@@ -20,6 +20,8 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150077.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150077.pdf"
 tags:
@@ -29,6 +31,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "год/2018"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -42,48 +45,104 @@ tags:
 > **Даты:** выпущен 2018-10-04 · изменён 2018-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150077.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150077.pdf)
 
-## INSITE™ Electronic Service Tool Version 8.1.0.314 Fails to Create a Work Order/Image
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-At the end of the calibration download process, when INSITE™ electronic service tool reconnects, the new Work Order window pops up to create a new work order.
+## INSITE™ 8.1.0.314 не создаёт наряд-заказ/образ
 
-After a few seconds, INSITE™ electronic service tool may display:
+### Суть проблемы
 
-- “Microsoft Visual C++ Runtime Library \> Runtime Error" and no Work Order is created.
+В конце процесса загрузки калибровки, когда электронный инструмент службы INSITETM снова подключается, появляется новое окно Work Order для создания нового рабочего заказа.
 
-This issue may also be encountered after manually creating Work Orders. INSITE™ electronic service tool may:
+Через несколько секунд инструмент электронного сервиса INSITETM может отображать:
 
-- Display, "Microsoft Visual C++ Runtime Library \> Runtime Error"
-- Display, "Error 5201"
-- Stop at 25% during a Work Order creation.
+- «Microsoft Visual C++ Runtime Library \> Runtime Error» и не создается Заказ на работу.
 
-This issue happens randomly and may be seen after:
+Эта проблема может возникнуть и после ручного создания рабочих заказов. Инструмент электронного обслуживания INSITETM может:
 
-- Multiple successive calibration downloads
-- Multiple Work Orders are created
+- Дисплей, "Microsoft Visual C++ Runtime Library \> Ошибка Runtime"
+- Дисплей «Ошибка 5201»
+- Остановка 25% при создании рабочего заказа.
 
-### Confirmation
+Эта проблема возникает случайным образом и может быть замечена после:
 
-None
+- Несколько последовательных загрузок калибровки
+- Создаются несколько рабочих заказов
 
-### Resolution
+### Подтверждение
 
-1. Repeat the process until a Work Order is created successfully.
+Нет
 
-OR
+### Решение
 
-2. Uninstall INSITE™ electronic service tool version 8.1.0.314, download the INSITE™ electronic service tool version 8.1.0 ISO, and install INSITE™ electronic service tool version 8.0.3 from the downloaded ISO file.
+1. Повторяйте процесс до тех пор, пока не будет создан рабочий заказ.
 
-INSITE 8.1.0 ISO can be downloaded using the link below:
+или
 
-> [!note] Note · Примечание
+2. Удалите инструмент для электронных услуг INSITETM версии 8.1.0.314, загрузите инструмент для электронных услуг INSITETM версии 8.1.0 ISO и установите инструмент для электронных услуг INSITETM версии 8.0.3 из загруженного файла ISO.
+
+INSITE 8.1.0 ISO можно загрузить по ссылке ниже:
+
+> [!note] Примечание
 > [https://www.cummins.com/support/electronic-service-tools-support/insite-support](https://www.cummins.com/support/electronic-service-tools-support/insite-support)
 
-A permanent solution will be provided with the release of INSITE™ electronic service tool version 8.1.1 in the third quarter of 2015.
+Постоянное решение будет обеспечено выпуском в третьем квартале 2015 года инструментария для электронных услуг INSITETM версии 8.1.1.
 
-### Warranty Statement
+### Положение о гарантии
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ Electronic Service Tool Version 8.1.0.314 Fails to Create a Work Order/Image
+>
+> ### Core Issue
+>
+> At the end of the calibration download process, when INSITE™ electronic service tool reconnects, the new Work Order window pops up to create a new work order.
+>
+> After a few seconds, INSITE™ electronic service tool may display:
+>
+> - “Microsoft Visual C++ Runtime Library \> Runtime Error" and no Work Order is created.
+>
+> This issue may also be encountered after manually creating Work Orders. INSITE™ electronic service tool may:
+>
+> - Display, "Microsoft Visual C++ Runtime Library \> Runtime Error"
+> - Display, "Error 5201"
+> - Stop at 25% during a Work Order creation.
+>
+> This issue happens randomly and may be seen after:
+>
+> - Multiple successive calibration downloads
+> - Multiple Work Orders are created
+>
+> ### Confirmation
+>
+> None
+>
+> ### Resolution
+>
+> 1. Repeat the process until a Work Order is created successfully.
+>
+> OR
+>
+> 2. Uninstall INSITE™ electronic service tool version 8.1.0.314, download the INSITE™ electronic service tool version 8.1.0 ISO, and install INSITE™ electronic service tool version 8.0.3 from the downloaded ISO file.
+>
+> INSITE 8.1.0 ISO can be downloaded using the link below:
+>
+> **Note · Примечание**
+> [https://www.cummins.com/support/electronic-service-tools-support/insite-support](https://www.cummins.com/support/electronic-service-tools-support/insite-support)
+>
+> A permanent solution will be provided with the release of INSITE™ electronic service tool version 8.1.1 in the third quarter of 2015.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

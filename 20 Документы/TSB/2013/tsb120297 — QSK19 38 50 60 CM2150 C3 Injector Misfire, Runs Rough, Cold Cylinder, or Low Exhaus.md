@@ -19,6 +19,8 @@ parts:
   - "2867147"
   - "2867148"
   - "2867149"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120297.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120297.pdf"
 tags:
@@ -26,6 +28,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "год/2013"
+  - "перевод/машинный"
   - "тема/injectors-and-fuel-lines"
 ---
 
@@ -39,36 +42,44 @@ tags:
 > **Даты:** выпущен 2013-09-24 · изменён 2013-09-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120297.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120297.pdf)
 
-## QSK19/38/50/60 CM2150 C3 Injector Misfire, Runs Rough, Cold Cylinder, or Low Exhaust Gas Temperature Fault Code Countermeasure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-This document is published as a countermeasure to reduce customer downtime. A project was launched on C3 Modular Common Rail System (MCRS) injectors to identify the cause of the issue. If a C3 MCRS injector (Part Number [[2867147]], [[2867148]], or [[2867149]]) is diagnosed as causing a misfire, rough running, cold cylinder, or low exhaust gas temperature fault code, the flow limiter in the injector may have closed, which stops fueling to that cylinder. Previous generation injectors would reset the flow limiter after the key was turned OFF and the pressure bled down, but the C3 fuel system retains fuel pressure indefinitely, which does not allow the flow limiter to reset.
+## QSK19/38/50/60 CM2150 C3: меры при пропусках вспышек, неровной работе, холодном цилиндре и низкой температуре ОГ
 
-### Confirmation
+### Суть проблемы
 
-Use the engine performance troubleshooting tree to confirm which injector is causing the issue.
+Этот документ публикуется в качестве контрмеры по сокращению простоев клиентов. На форсунка C3 Modular Common Rail System (MCRS) был запущен проект по выявлению причины проблемы. Если форсунка C3 MCRS (Частный номер)[[2867147]],[[2867148]]или[[2867149]]) диагностируется как вызывающий неисправность, грубый ход, холодный цилиндр или низкий код неисправности температуры выхлопных газов, ограничитель потока в топливном форсунке может быть закрыт, что прекращает подпитку этого цилиндра. Форсунка предыдущего поколения сбросил бы ограничитель потока после того, как ключ был выключен, и давление истекло, но топливная система C3 сохраняет давление топлива на неопределенный срок, что не позволяет ограничителю потока сбросить.
 
-Relieve fuel rail pressure to reset the flow limiters in the injectors by following the steps below.
+### Подтверждение
 
-1. Use Procedure 006-051 in the respective service manual to relieve the fuel rail pressure and then tighten the plug.
-2. Use INSITE™ electronic service tool to confirm that the fuel rail pressure is less than 689.48 kPa \[100 psi\], which should allow the flow limiter to reset.
-3. Start the engine to see if the customer complaint has been resolved.
+Используйте дерево устранения неисправностей двигателя, чтобы подтвердить, какой форсунка вызывает проблему.
 
-### Resolution
+Снизить давление в топливной рельсовой магистрали, чтобы сбросить ограничители потока в топливном форсунке, выполнив следующие действия.
 
-Update the engine's ECM calibrations to the new software as listed in the tables below.
+1. Процедура 006-051 в соответствующем руководстве по эксплуатации для снятия давления на топливных рельсах и последующего затягивания вилки.
+2. Используйте электронный сервисный инструмент INSITETM для подтверждения того, что давление в топливной рельсе составляет менее 689,48 кПа[100 psi], что должно позволить сбросу ограничителя потока.
+3. Запустите двигатель, чтобы узнать, была ли удовлетворена жалоба клиента.
 
-A new feature has been added to the ECM calibration software to make the system more robust to fuel rail pressure signal noise. This new feature was included on software phase 25.2.1.04 (Industrial) ECM calibrations and will be included in future software releases. Any calibration with software prior to 25.2.1.04 (Industrial)) does **not** have this feature and is more susceptible to noise in the fuel rail pressure signal. Newer revisions to the ECM codes shown below will include the new feature.
+### Решение
 
-When updating calibrations in an ECM on QSK38/50/60 engines, do **not** mix software revisions between the parent, secondary 1, or secondary 2 modules. All ECMs should use calibrations based on the same software revision.
+Обновите калибровку ECM двигателя до нового программного обеспечения, как указано в таблицах ниже.
 
-Refer to the table below for the old and new software ECM codes that have the new feature.
+В программное обеспечение калибровки ECM была добавлена новая функция, чтобы сделать систему более надежной для подачи шума сигнала давления на рельсах. Эта новая функция была включена в калибровку ECM на этапе 25.2.1.04 (Промышленный) и будет включена в будущие выпуски программного обеспечения. Любая калибровка с помощью программного обеспечения до 25.2.1.04 (Промышленный) имеет эту функцию и более восприимчива к шуму в сигнале давления топливной рельсы. Новые изменения в кодах ECM, показанные ниже, будут включать новую функцию.
 
-| QSK19 CM2150 Industrial |  |
+При обновлении калибровок в ECM на двигателях QSK38/50/60, не смешивайте изменения программного обеспечения между родительским, вторичным 1, или вторичным 2 модулями. Все ECM должны использовать калибровки на основе одной и той же версии программного обеспечения.
+
+См. таблицу ниже для старых и новых программных кодов ECM, которые имеют новую функцию.
+
+| QSK19 M2150 Промышленный |  |
 |---|---|
-| New Software | Old Software |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| Новое программное обеспечение | Старое программное обеспечение |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AQ40088.10 | AQ40088.09 |
 | AQ40089.09 | AQ40089.08 |
 | AQ40090.09 | AQ40090.08 |
@@ -191,11 +202,11 @@ Refer to the table below for the old and new software ECM codes that have the ne
 | AQ40278.01 | AQ40278.00 |
 | AQ40279.01 | AQ40279.00 |
 
-| QSK38 CM2150 Industrial |  |
+| QSK38 M2150 Промышленный |  |
 |---|---|
-| Parent |  |
-| **New Software** | **Old Software** |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| родитель |  |
+| ** Новое программное обеспечение** | ** Старое программное обеспечение** |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AQ60215.11 | AQ60215.10 |
 | AQ60231.05 | AQ60231.04 |
 | AQ60263.04 | AQ60263.03 |
@@ -230,11 +241,11 @@ Refer to the table below for the old and new software ECM codes that have the ne
 | AQ60524.01 | AQ60524.00 |
 | AQ60535.01 | AQ60535.00 |
 
-| QSK38 CM2150 Industrial |  |
+| QSK38 M2150 Промышленный |  |
 |---|---|
-| Secondary 1 |  |
-| **New Software** | **Old Software** |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| Вторичный 1 |  |
+| ** Новое программное обеспечение** | ** Старое программное обеспечение** |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AR60190.06 | AR60190.05 |
 | AR60205.05 | AR60205.04 |
 | AR60227.04 | AR60227.03 |
@@ -258,9 +269,9 @@ Refer to the table below for the old and new software ECM codes that have the ne
 
 | QSK50/60 CM2150 Industrial |  |
 |---|---|
-| Parent |  |
-| **New Software** | **Old Software** |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| родитель |  |
+| ** Новое программное обеспечение** | ** Старое программное обеспечение** |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AQ60218.12 | AQ60218.11 |
 | AQ60217.10 | AQ60217.09 |
 | AQ60220.13 | AQ60220.12 |
@@ -426,9 +437,9 @@ Refer to the table below for the old and new software ECM codes that have the ne
 
 | QSK50/60 CM2150 Industrial |  |
 |---|---|
-| Secondary 1 |  |
-| **New Software** | **Old Software** |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| Вторичный 1 |  |
+| ** Новое программное обеспечение** | ** Старое программное обеспечение** |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AR60195.04 | AR60195.03 |
 | AR60193.05 | AR60193.04 |
 | AR60199.05 | AR60199.04 |
@@ -497,9 +508,9 @@ Refer to the table below for the old and new software ECM codes that have the ne
 
 | QSK50/60 CM2150 Industrial |  |
 |---|---|
-| Secondary 2 |  |
-| **New Software** | **Old Software** |
-| **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+| Вторичный 2 |  |
+| ** Новое программное обеспечение** | ** Старое программное обеспечение** |
+| ** Фаза 25.2.1.4** | ** Фаза 25.2.0.10** |
 | AR60196.04 | AR60196.03 |
 | AR60194.05 | AR60194.04 |
 | AR60200.05 | AR60200.04 |
@@ -568,11 +579,11 @@ Refer to the table below for the old and new software ECM codes that have the ne
 | AR60384.01 | AR60384.00 |
 | AR60406.01 | AR60406.00 |
 
-### Warranty Statement
+### Положение о гарантии
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -581,3 +592,539 @@ The information in this document has no effect on present warranty coverage or r
 | [[2867147]] | INJECTOR | Форсунка |
 | [[2867148]] | INJECTOR | Форсунка |
 | [[2867149]] | Injector | Форсунка |
+
+> [!quote]- Original (English) · английский оригинал
+> ## QSK19/38/50/60 CM2150 C3 Injector Misfire, Runs Rough, Cold Cylinder, or Low Exhaust Gas Temperature Fault Code Countermeasure
+>
+> ### Core Issue
+>
+> This document is published as a countermeasure to reduce customer downtime. A project was launched on C3 Modular Common Rail System (MCRS) injectors to identify the cause of the issue. If a C3 MCRS injector (Part Number [[2867147]], [[2867148]], or [[2867149]]) is diagnosed as causing a misfire, rough running, cold cylinder, or low exhaust gas temperature fault code, the flow limiter in the injector may have closed, which stops fueling to that cylinder. Previous generation injectors would reset the flow limiter after the key was turned OFF and the pressure bled down, but the C3 fuel system retains fuel pressure indefinitely, which does not allow the flow limiter to reset.
+>
+> ### Confirmation
+>
+> Use the engine performance troubleshooting tree to confirm which injector is causing the issue.
+>
+> Relieve fuel rail pressure to reset the flow limiters in the injectors by following the steps below.
+>
+> 1. Use Procedure 006-051 in the respective service manual to relieve the fuel rail pressure and then tighten the plug.
+> 2. Use INSITE™ electronic service tool to confirm that the fuel rail pressure is less than 689.48 kPa \[100 psi\], which should allow the flow limiter to reset.
+> 3. Start the engine to see if the customer complaint has been resolved.
+>
+> ### Resolution
+>
+> Update the engine's ECM calibrations to the new software as listed in the tables below.
+>
+> A new feature has been added to the ECM calibration software to make the system more robust to fuel rail pressure signal noise. This new feature was included on software phase 25.2.1.04 (Industrial) ECM calibrations and will be included in future software releases. Any calibration with software prior to 25.2.1.04 (Industrial)) does **not** have this feature and is more susceptible to noise in the fuel rail pressure signal. Newer revisions to the ECM codes shown below will include the new feature.
+>
+> When updating calibrations in an ECM on QSK38/50/60 engines, do **not** mix software revisions between the parent, secondary 1, or secondary 2 modules. All ECMs should use calibrations based on the same software revision.
+>
+> Refer to the table below for the old and new software ECM codes that have the new feature.
+>
+> | QSK19 CM2150 Industrial |  |
+> |---|---|
+> | New Software | Old Software |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AQ40088.10 | AQ40088.09 |
+> | AQ40089.09 | AQ40089.08 |
+> | AQ40090.09 | AQ40090.08 |
+> | AQ40132.03 | AQ40132.02 |
+> | AQ40126.05 | AQ40126.04 |
+> | AQ40127.05 | AQ40127.04 |
+> | AQ40133.03 | AQ40133.02 |
+> | AQ40134.03 | AQ40134.02 |
+> | AQ40135.03 | AQ40135.02 |
+> | AQ40137.08 | AQ40137.07 |
+> | AQ40138.09 | AQ40138.08 |
+> | AQ40139.05 | AQ40139.04 |
+> | AQ40140.05 | AQ40140.04 |
+> | AQ40142.05 | AQ40142.04 |
+> | AQ40143.05 | AQ40143.04 |
+> | AQ40144.06 | AQ40144.05 |
+> | AQ40145.06 | AQ40145.05 |
+> | AQ40146.07 | AQ40146.06 |
+> | AQ40147.05 | AQ40147.04 |
+> | AQ40148.04 | AQ40148.03 |
+> | AQ40149.05 | AQ40149.04 |
+> | AQ40150.06 | AQ40150.05 |
+> | AQ40152.06 | AQ40152.05 |
+> | AQ40159.07 | AQ40159.06 |
+> | AQ40160.07 | AQ40160.06 |
+> | AQ40153.05 | AQ40153.04 |
+> | AQ40156.05 | AQ40156.04 |
+> | AQ40157.05 | AQ40157.04 |
+> | AQ40169.07 | AQ40169.06 |
+> | AQ40163.06 | AQ40163.05 |
+> | AQ40164.06 | AQ40164.05 |
+> | AQ40165.06 | AQ40165.05 |
+> | AQ40170.04 | AQ40170.03 |
+> | AQ40171.04 | AQ40171.03 |
+> | AQ40166.06 | AQ40166.05 |
+> | AQ40167.06 | AQ40167.05 |
+> | AQ40168.04 | AQ40168.03 |
+> | AQ40172.05 | AQ40172.04 |
+> | AQ40227.04 | AQ40227.03 |
+> | AQ40173.06 | AQ40173.05 |
+> | AQ40174.06 | AQ40174.05 |
+> | AQ40175.06 | AQ40175.05 |
+> | AQ40197.06 | AQ40197.05 |
+> | AQ40198.06 | AQ40198.05 |
+> | AQ40178.06 | AQ40178.05 |
+> | AQ40179.06 | AQ40179.05 |
+> | AQ40180.07 | AQ40180.06 |
+> | AQ40181.06 | AQ40181.05 |
+> | AQ40182.06 | AQ40182.05 |
+> | AQ40183.05 | AQ40183.04 |
+> | AQ40194.05 | AQ40194.04 |
+> | AQ40195.04 | AQ40195.03 |
+> | AQ40196.05 | AQ40196.04 |
+> | AQ40184.04 | AQ40184.03 |
+> | AQ40185.03 | AQ40185.02 |
+> | AQ40186.04 | AQ40186.03 |
+> | AQ40187.06 | AQ40187.05 |
+> | AQ40188.04 | AQ40188.03 |
+> | AQ40189.04 | AQ40189.03 |
+> | AQ40190.03 | AQ40190.02 |
+> | AQ40191.03 | AQ40191.02 |
+> | AQ40192.05 | AQ40192.04 |
+> | AQ40193.05 | AQ40193.04 |
+> | AQ40200.06 | AQ40200.05 |
+> | AQ40202.05 | AQ40202.04 |
+> | AQ40203.05 | AQ40203.04 |
+> | AQ40204.05 | AQ40204.04 |
+> | AQ40205.04 | AQ40205.03 |
+> | AQ40206.04 | AQ40206.03 |
+> | AQ40207.04 | AQ40207.03 |
+> | AQ40218.04 | AQ40218.03 |
+> | AQ40219.04 | AQ40219.03 |
+> | AQ40220.06 | AQ40220.05 |
+> | AQ40208.04 | AQ40208.03 |
+> | AQ40209.04 | AQ40209.03 |
+> | AQ40210.04 | AQ40210.03 |
+> | AQ40211.04 | AQ40211.03 |
+> | AQ40212.04 | AQ40212.03 |
+> | AQ40213.03 | AQ40213.02 |
+> | AQ40214.03 | AQ40214.02 |
+> | AQ40215.04 | AQ40215.03 |
+> | AQ40216.04 | AQ40216.03 |
+> | AQ40217.04 | AQ40217.03 |
+> | AQ40221.03 | AQ40221.02 |
+> | AQ40222.05 | AQ40222.04 |
+> | AQ40223.04 | AQ40223.03 |
+> | AQ40224.05 | AQ40224.04 |
+> | AQ40228.05 | AQ40228.04 |
+> | AQ40225.05 | AQ40225.04 |
+> | AQ40229.05 | AQ40229.04 |
+> | AQ40226.07 | AQ40226.06 |
+> | AQ40230.04 | AQ40230.03 |
+> | AQ40232.05 | AQ40232.04 |
+> | AQ40234.04 | AQ40234.03 |
+> | AQ40235.02 | AQ40235.01 |
+> | AQ40233.04 | AQ40233.03 |
+> | AQ40239.05 | AQ40239.04 |
+> | AQ40241.05 | AQ40241.04 |
+> | AQ40240.04 | AQ40240.03 |
+> | AQ40245.04 | AQ40245.03 |
+> | AQ40248.02 | AQ40248.01 |
+> | AQ40249.02 | AQ40249.01 |
+> | AQ40250.03 | AQ40250.02 |
+> | AQ40251.02 | AQ40251.01 |
+> | AQ40252.02 | AQ40252.01 |
+> | AQ40247.05 | AQ40247.04 |
+> | AQ40253.04 | AQ40253.03 |
+> | AQ40254.04 | AQ40254.03 |
+> | AQ40267.01 | AQ40267.00 |
+> | AQ40269.03 | AQ40269.02 |
+> | AQ40270.03 | AQ40270.02 |
+> | AQ40262.02 | AQ40262.01 |
+> | AQ40263.01 | AQ40263.00 |
+> | AQ40264.01 | AQ40264.00 |
+> | AQ40258.02 | AQ40258.01 |
+> | AQ40259.01 | AQ40259.00 |
+> | AQ40260.01 | AQ40260.00 |
+> | AQ40261.02 | AQ40261.01 |
+> | AQ40277.01 | AQ40277.00 |
+> | AQ40278.01 | AQ40278.00 |
+> | AQ40279.01 | AQ40279.00 |
+>
+> | QSK38 CM2150 Industrial |  |
+> |---|---|
+> | Parent |  |
+> | **New Software** | **Old Software** |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AQ60215.11 | AQ60215.10 |
+> | AQ60231.05 | AQ60231.04 |
+> | AQ60263.04 | AQ60263.03 |
+> | AQ60264.04 | AQ60264.03 |
+> | AQ60265.04 | AQ60265.03 |
+> | AQ60268.04 | AQ60268.03 |
+> | AQ60269.03 | AQ60269.02 |
+> | AQ60282.06 | AQ60282.05 |
+> | AQ60283.03 | AQ60283.02 |
+> | AQ60284.05 | AQ60284.04 |
+> | AQ60505.01 | AQ60505.00 |
+> | AQ60300.06 | AQ60300.05 |
+> | AQ60319.07 | AQ60319.06 |
+> | AQ60339.05 | AQ60339.04 |
+> | AQ60340.06 | AQ60340.05 |
+> | AQ60351.03 | AQ60351.02 |
+> | AQ60408.02 | AQ60408.01 |
+> | AQ60430.02 | AQ60430.01 |
+> | AQ60409.02 | AQ60409.01 |
+> | AQ60393.03 | AQ60393.02 |
+> | AQ60396.03 | AQ60396.02 |
+> | AQ60434.02 | AQ60434.01 |
+> | AQ60472.03 | AQ60472.02 |
+> | AQ60435.02 | AQ60435.01 |
+> | AQ60436.02 | AQ60436.01 |
+> | AQ60437.02 | AQ60437.01 |
+> | AQ60474.01 | AQ60474.00 |
+> | AQ60459.06 | AQ60459.05 |
+> | AQ60478.02 | AQ60478.01 |
+> | AQ60522.01 | AQ60522.00 |
+> | AQ60523.01 | AQ60523.00 |
+> | AQ60524.01 | AQ60524.00 |
+> | AQ60535.01 | AQ60535.00 |
+>
+> | QSK38 CM2150 Industrial |  |
+> |---|---|
+> | Secondary 1 |  |
+> | **New Software** | **Old Software** |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AR60190.06 | AR60190.05 |
+> | AR60205.05 | AR60205.04 |
+> | AR60227.04 | AR60227.03 |
+> | AR60228.04 | AR60228.03 |
+> | AR60229.04 | AR60229.03 |
+> | AR60230.03 | AR60230.02 |
+> | AR60231.03 | AR60231.02 |
+> | AR60250.03 | AR60250.02 |
+> | AR60251.03 | AR60251.02 |
+> | AR60252.03 | AR60252.02 |
+> | AR60334.02 | AR60334.01 |
+> | AR60335.02 | AR60335.01 |
+> | AR60336.02 | AR60336.01 |
+> | AR60327.03 | AR60327.02 |
+> | AR60374.03 | AR60374.02 |
+> | AR60380.01 | AR60380.00 |
+> | AR60389.01 | AR60389.00 |
+> | AR60390.01 | AR60390.00 |
+> | AR60391.01 | AR60391.00 |
+> | AR60403.01 | AR60403.00 |
+>
+> | QSK50/60 CM2150 Industrial |  |
+> |---|---|
+> | Parent |  |
+> | **New Software** | **Old Software** |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AQ60218.12 | AQ60218.11 |
+> | AQ60217.10 | AQ60217.09 |
+> | AQ60220.13 | AQ60220.12 |
+> | AQ60221.11 | AQ60221.10 |
+> | AQ60232.05 | AQ60232.04 |
+> | AQ60236.09 | AQ60236.08 |
+> | AQ60237.11 | AQ60237.10 |
+> | AQ60271.04 | AQ60271.03 |
+> | AQ60272.04 | AQ60272.03 |
+> | AQ60273.04 | AQ60273.03 |
+> | AQ60274.05 | AQ60274.04 |
+> | AQ60275.05 | AQ60275.04 |
+> | AQ60276.05 | AQ60276.04 |
+> | AQ60278.05 | AQ60278.04 |
+> | AQ60279.05 | AQ60279.04 |
+> | AQ60238.11 | AQ60238.10 |
+> | AQ60317.08 | AQ60317.07 |
+> | AQ60287.07 | AQ60287.06 |
+> | AQ60288.07 | AQ60288.06 |
+> | AQ60337.07 | AQ60337.06 |
+> | AQ60302.08 | AQ60302.07 |
+> | AQ60305.10 | AQ60305.09 |
+> | AQ60421.05 | AQ60421.04 |
+> | AQ60289.10 | AQ60289.09 |
+> | AQ60303.11 | AQ60303.10 |
+> | AQ60252.07 | AQ60252.06 |
+> | AQ60253.11 | AQ60253.10 |
+> | AQ60255.04 | AQ60255.03 |
+> | AQ60285.04 | AQ60285.03 |
+> | AQ60254.14 | AQ60254.13 |
+> | AQ60295.06 | AQ60295.05 |
+> | AQ60296.06 | AQ60296.05 |
+> | AQ60292.05 | AQ60292.04 |
+> | AQ60293.05 | AQ60293.04 |
+> | AQ60294.04 | AQ60294.03 |
+> | AQ60297.03 | AQ60297.02 |
+> | AQ60309.06 | AQ60309.05 |
+> | AQ60310.06 | AQ60310.05 |
+> | AQ60301.07 | AQ60301.06 |
+> | AQ60304.08 | AQ60304.07 |
+> | AQ60318.06 | AQ60318.05 |
+> | AQ60314.08 | AQ60314.07 |
+> | AQ60312.07 | AQ60312.06 |
+> | AQ60313.06 | AQ60313.05 |
+> | AQ60315.06 | AQ60315.05 |
+> | AQ60316.08 | AQ60316.07 |
+> | AQ60359.06 | AQ60359.05 |
+> | AQ60360.05 | AQ60360.04 |
+> | AQ60361.05 | AQ60361.04 |
+> | AQ60362.05 | AQ60362.04 |
+> | AQ60320.05 | AQ60320.04 |
+> | AQ60326.08 | AQ60326.07 |
+> | AQ60327.11 | AQ60327.10 |
+> | AQ60328.08 | AQ60328.07 |
+> | AQ60329.09 | AQ60329.08 |
+> | AQ60330.08 | AQ60330.07 |
+> | AQ60451.02 | AQ60451.01 |
+> | AQ60429.05 | AQ60429.04 |
+> | AQ60325.07 | AQ60325.06 |
+> | AQ60401.08 | AQ60401.07 |
+> | AQ60331.05 | AQ60331.04 |
+> | AQ60341.08 | AQ60341.07 |
+> | AQ60342.07 | AQ60342.06 |
+> | AQ60335.08 | AQ60335.07 |
+> | AQ60343.06 | AQ60343.05 |
+> | AQ60344.04 | AQ60344.03 |
+> | AQ60345.04 | AQ60345.03 |
+> | AQ60338.08 | AQ60338.07 |
+> | AQ60363.06 | AQ60363.05 |
+> | AQ60364.05 | AQ60364.04 |
+> | AQ60365.05 | AQ60365.04 |
+> | AQ60366.05 | AQ60366.04 |
+> | AQ60378.06 | AQ60378.05 |
+> | AQ60379.05 | AQ60379.04 |
+> | AQ60380.05 | AQ60380.04 |
+> | AQ60386.06 | AQ60386.05 |
+> | AQ60381.05 | AQ60381.04 |
+> | AQ60352.07 | AQ60352.06 |
+> | AQ60373.06 | AQ60373.05 |
+> | AQ60374.05 | AQ60374.04 |
+> | AQ60375.05 | AQ60375.04 |
+> | AQ60376.05 | AQ60376.04 |
+> | AQ60377.05 | AQ60377.04 |
+> | AQ60367.05 | AQ60367.04 |
+> | AQ60368.05 | AQ60368.04 |
+> | AQ60369.05 | AQ60369.04 |
+> | AQ60370.05 | AQ60370.04 |
+> | AQ60371.05 | AQ60371.04 |
+> | AQ60387.06 | AQ60387.05 |
+> | AQ60388.05 | AQ60388.04 |
+> | AQ60389.05 | AQ60389.04 |
+> | AQ60390.05 | AQ60390.04 |
+> | AQ60395.07 | AQ60395.06 |
+> | AQ60391.07 | AQ60391.06 |
+> | AQ60392.05 | AQ60392.04 |
+> | AQ60402.06 | AQ60402.05 |
+> | AQ60398.08 | AQ60398.07 |
+> | AQ60399.06 | AQ60399.05 |
+> | AQ60404.06 | AQ60404.05 |
+> | AQ60397.05 | AQ60397.04 |
+> | AQ60410.05 | AQ60410.04 |
+> | AQ60412.02 | AQ60412.01 |
+> | AQ60413.03 | AQ60413.02 |
+> | AQ60441.04 | AQ60441.03 |
+> | AQ60416.03 | AQ60416.02 |
+> | AQ60442.03 | AQ60442.02 |
+> | AQ60414.03 | AQ60414.02 |
+> | AQ60415.03 | AQ60415.02 |
+> | AQ60433.03 | AQ60433.02 |
+> | AQ60417.05 | AQ60417.04 |
+> | AQ60431.05 | AQ60431.04 |
+> | AQ60420.02 | AQ60420.01 |
+> | AQ60443.05 | AQ60443.04 |
+> | AQ60440.03 | AQ60440.02 |
+> | AQ60444.04 | AQ60444.03 |
+> | AQ60465.02 | AQ60465.01 |
+> | AQ60466.02 | AQ60466.01 |
+> | AQ60467.02 | AQ60467.01 |
+> | AQ60517.01 | AQ60517.00 |
+> | AQ60463.03 | AQ60463.02 |
+> | AQ60464.03 | AQ60464.02 |
+> | AQ60446.04 | AQ60446.03 |
+> | AQ60445.03 | AQ60445.02 |
+> | AQ60453.03 | AQ60453.02 |
+> | AQ60454.03 | AQ60454.02 |
+> | AQ60455.03 | AQ60455.02 |
+> | AQ60458.03 | AQ60458.02 |
+> | AQ60456.04 | AQ60456.03 |
+> | AQ60475.03 | AQ60475.02 |
+> | AQ60476.03 | AQ60476.02 |
+> | AQ60477.02 | AQ60477.01 |
+> | AQ60469.02 | AQ60469.01 |
+> | AQ60479.01 | AQ60479.00 |
+> | AQ60480.01 | AQ60480.00 |
+> | AQ60481.02 | AQ60481.01 |
+> | AQ60490.04 | AQ60490.03 |
+> | AQ60491.01 | AQ60491.00 |
+> | AQ60492.01 | AQ60492.00 |
+> | AQ60493.02 | AQ60493.01 |
+> | AQ60482.02 | AQ60482.01 |
+> | AQ60489.01 | AQ60489.00 |
+> | AQ60484.01 | AQ60484.00 |
+> | AQ60509.02 | AQ60509.01 |
+> | AQ60510.01 | AQ60510.00 |
+> | AQ60511.01 | AQ60511.00 |
+> | AQ60512.01 | AQ60512.00 |
+> | AQ60506.01 | AQ60506.00 |
+> | AQ60507.01 | AQ60507.00 |
+> | AQ60508.01 | AQ60508.00 |
+> | AQ60501.01 | AQ60501.00 |
+> | AQ60502.01 | AQ60502.00 |
+> | AQ60503.01 | AQ60503.00 |
+> | AQ60499.02 | AQ60499.01 |
+> | AQ60498.02 | AQ60498.01 |
+> | AQ60500.02 | AQ60500.01 |
+> | AQ60504.01 | AQ60504.00 |
+> | AQ60526.01 | AQ60526.00 |
+> | AQ60527.01 | AQ60527.00 |
+> | AQ60528.01 | AQ60528.00 |
+> | AQ60530.01 | AQ60530.00 |
+> | AQ60531.01 | AQ60531.00 |
+> | AQ60534.01 | AQ60534.00 |
+>
+> | QSK50/60 CM2150 Industrial |  |
+> |---|---|
+> | Secondary 1 |  |
+> | **New Software** | **Old Software** |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AR60195.04 | AR60195.03 |
+> | AR60193.05 | AR60193.04 |
+> | AR60199.05 | AR60199.04 |
+> | AR60201.07 | AR60201.06 |
+> | AR60206.05 | AR60206.04 |
+> | AR60210.04 | AR60210.03 |
+> | AR60232.04 | AR60232.03 |
+> | AR60234.04 | AR60234.03 |
+> | AR60236.04 | AR60236.03 |
+> | AR60238.05 | AR60238.04 |
+> | AR60240.05 | AR60240.04 |
+> | AR60242.05 | AR60242.04 |
+> | AR60246.05 | AR60246.04 |
+> | AR60248.05 | AR60248.04 |
+> | AR60212.03 | AR60212.02 |
+> | AR60287.02 | AR60287.01 |
+> | AR60255.03 | AR60255.02 |
+> | AR60257.03 | AR60257.02 |
+> | AR60307.04 | AR60307.03 |
+> | AR60275.04 | AR60275.03 |
+> | AR60279.04 | AR60279.03 |
+> | AR60349.02 | AR60349.01 |
+> | AR60259.03 | AR60259.02 |
+> | AR60277.04 | AR60277.03 |
+> | AR60221.02 | AR60221.01 |
+> | AR60253.02 | AR60253.01 |
+> | AR60219.06 | AR60219.05 |
+> | AR60265.03 | AR60265.02 |
+> | AR60267.03 | AR60267.02 |
+> | AR60269.03 | AR60269.02 |
+> | AR60271.02 | AR60271.01 |
+> | AR60283.02 | AR60283.01 |
+> | AR60285.04 | AR60285.03 |
+> | AR60321.03 | AR60321.02 |
+> | AR60323.03 | AR60323.02 |
+> | AR60325.03 | AR60325.02 |
+> | AR60293.04 | AR60293.03 |
+> | AR60295.04 | AR60295.03 |
+> | AR60297.02 | AR60297.01 |
+> | AR60299.04 | AR60299.03 |
+> | AR60301.02 | AR60301.01 |
+> | AR60358.02 | AR60358.01 |
+> | AR60328.05 | AR60328.04 |
+> | AR60303.04 | AR60303.03 |
+> | AR60309.04 | AR60309.03 |
+> | AR60311.04 | AR60311.03 |
+> | AR60313.02 | AR60313.01 |
+> | AR60315.02 | AR60315.01 |
+> | AR60317.02 | AR60317.01 |
+> | AR60330.02 | AR60330.01 |
+> | AR60337.02 | AR60337.01 |
+> | AR60339.02 | AR60339.01 |
+> | AR60341.03 | AR60341.02 |
+> | AR60343.02 | AR60343.01 |
+> | AR60347.02 | AR60347.01 |
+> | AR60354.02 | AR60354.01 |
+> | AR60364.02 | AR60364.01 |
+> | AR60366.02 | AR60366.01 |
+> | AR60368.02 | AR60368.01 |
+> | AR60360.02 | AR60360.01 |
+> | AR60362.02 | AR60362.01 |
+> | AR60372.02 | AR60372.01 |
+> | AR60392.01 | AR60392.00 |
+> | AR60383.01 | AR60383.00 |
+> | AR60405.01 | AR60405.00 |
+>
+> | QSK50/60 CM2150 Industrial |  |
+> |---|---|
+> | Secondary 2 |  |
+> | **New Software** | **Old Software** |
+> | **Phase 25.2.1.4** | **Phase 25.2.0.10** |
+> | AR60196.04 | AR60196.03 |
+> | AR60194.05 | AR60194.04 |
+> | AR60200.05 | AR60200.04 |
+> | AR60202.07 | AR60202.06 |
+> | AR60207.05 | AR60207.04 |
+> | AR60233.04 | AR60233.03 |
+> | AR60235.04 | AR60235.03 |
+> | AR60237.04 | AR60237.03 |
+> | AR60239.05 | AR60239.04 |
+> | AR60241.05 | AR60241.04 |
+> | AR60243.06 | AR60243.05 |
+> | AR60247.05 | AR60247.04 |
+> | AR60249.05 | AR60249.04 |
+> | AR60213.03 | AR60213.02 |
+> | AR60211.04 | AR60211.03 |
+> | AR60288.02 | AR60288.01 |
+> | AR60256.03 | AR60256.02 |
+> | AR60258.03 | AR60258.02 |
+> | AR60308.04 | AR60308.03 |
+> | AR60276.04 | AR60276.03 |
+> | AR60280.04 | AR60280.03 |
+> | AR60350.02 | AR60350.01 |
+> | AR60260.03 | AR60260.02 |
+> | AR60278.04 | AR60278.03 |
+> | AR60222.02 | AR60222.01 |
+> | AR60254.02 | AR60254.01 |
+> | AR60220.06 | AR60220.05 |
+> | AR60266.03 | AR60266.02 |
+> | AR60268.03 | AR60268.02 |
+> | AR60270.03 | AR60270.02 |
+> | AR60272.02 | AR60272.01 |
+> | AR60284.02 | AR60284.01 |
+> | AR60286.04 | AR60286.03 |
+> | AR60322.03 | AR60322.02 |
+> | AR60324.03 | AR60324.02 |
+> | AR60326.03 | AR60326.02 |
+> | AR60294.04 | AR60294.03 |
+> | AR60296.04 | AR60296.03 |
+> | AR60298.02 | AR60298.01 |
+> | AR60300.04 | AR60300.03 |
+> | AR60302.02 | AR60302.01 |
+> | AR60359.02 | AR60359.01 |
+> | AR60355.02 | AR60355.01 |
+> | AR60329.05 | AR60329.04 |
+> | AR60304.04 | AR60304.03 |
+> | AR60310.04 | AR60310.03 |
+> | AR60312.04 | AR60312.03 |
+> | AR60314.02 | AR60314.01 |
+> | AR60316.02 | AR60316.01 |
+> | AR60318.02 | AR60318.01 |
+> | AR60331.02 | AR60331.01 |
+> | AR60338.02 | AR60338.01 |
+> | AR60340.02 | AR60340.01 |
+> | AR60342.03 | AR60342.02 |
+> | AR60344.02 | AR60344.01 |
+> | AR60348.02 | AR60348.01 |
+> | AR60365.02 | AR60365.01 |
+> | AR60367.02 | AR60367.01 |
+> | AR60369.02 | AR60369.01 |
+> | AR60361.02 | AR60361.01 |
+> | AR60363.02 | AR60363.01 |
+> | AR60373.02 | AR60373.01 |
+> | AR60393.01 | AR60393.00 |
+> | AR60394.01 | AR60394.00 |
+> | AR60395.01 | AR60395.00 |
+> | AR60384.01 | AR60384.00 |
+> | AR60406.01 | AR60406.00 |
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

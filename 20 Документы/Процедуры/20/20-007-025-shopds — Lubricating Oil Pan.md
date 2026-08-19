@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-025-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-025-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pan
@@ -32,36 +35,74 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-025-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-025-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-All Applications Except Rail
 
-> [!danger] WARNING · Опасно
-> The component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+### Снятие
 
-Remove the 28 capscrews.
+Все приложения кроме Rail
 
-Remove the lubricating oil pan.
+> [!danger] ОПАСНО
+> Компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в поднятии компонента.
 
-Remove and discard the gasket.
+Удалите 28 болтов.
+
+Снимите смазочный маслосборник.
+
+Снимите и утилизируйте прокладку.
 
 ![[07400008.png]]
 
-Rail Applications
+Железнодорожное применение
 
-Remove 15 capscrews on the top of the lubricating oil pan.
+Удалите 15 болтов на верхней части моторного масла.
 
-Install two 3/8- 16 guide studs in the capscrew holes.
+Установите два 3/8-16 направляющих шпильки в болты отверстия.
 
 ![[17400050.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
 
-Remove the remaining 23 capscrews.
+Удалите оставшиеся 23 болта.
 
-Remove the lubricating oil pan.
+Снимите смазочный маслосборник.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[17400051.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> All Applications Except Rail
+>
+> **WARNING · Опасно**
+> The component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+>
+> Remove the 28 capscrews.
+>
+> Remove the lubricating oil pan.
+>
+> Remove and discard the gasket.
+>
+> Rail Applications
+>
+> Remove 15 capscrews on the top of the lubricating oil pan.
+>
+> Install two 3/8- 16 guide studs in the capscrew holes.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> Remove the remaining 23 capscrews.
+>
+> Remove the lubricating oil pan.
+>
+> Remove and discard the gasket.

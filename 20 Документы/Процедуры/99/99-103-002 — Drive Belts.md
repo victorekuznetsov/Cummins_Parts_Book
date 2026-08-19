@@ -27,6 +27,8 @@ manuals:
   - "4021330"
   - "4021539"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-103-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-103-002.pdf"
 tags:
@@ -36,6 +38,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Drive Belts
@@ -49,53 +52,106 @@ tags:
 > **Даты:** изменён 2010-01-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-103-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-103-002.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Poly-Vee Belt
 
-> [!warning] CAUTION · Осторожно
-> Make sure that the engine is switched off and any starting mechanisms are isolated before any inspections are made. Daily belt inspections can be carried out through an appropriate aperture. Do not remove any guards.
+### Контроль при обслуживании
 
-Inspect the belts daily. Check the belt for intersecting cracks. Traverse (across the belt width) cracks are acceptable. Longitudinal (direction of belt length) cracks that intersect with transverse cracks are **not** acceptable. Replace the belt if it is frayed or has pieces of material missing. Refer to Section A for belt adjustment and replacement procedures.
+Пояс поливе
 
-Belt damage can be caused by:
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что двигатель выключен и все пусковые механизмы изолированы до проведения любых проверок. Ежедневные осмотры ремней могут проводиться через соответствующую диафрагму. Не убирайте охранников.
 
-- Incorrect tension
-- Incorrect size or length
-- Pulley misalignment
-- Incorrect installation
-- Severe operating environment
-- Oil or grease on the side of belts.
+Проверяйте ремни ежедневно. Проверьте ремень на наличие пересекающихся трещин. Допустимы поперечные (по ширине пояса) трещины. Продольные (направление длины пояса) трещины, пересекающиеся с поперечными трещинами, **не** приемлемы. Замените ремень, если он изнашивается или отсутствуют куски материала. См. раздел А для процедур регулировки и замены ремня.
+
+Повреждение пояса может быть вызвано:
+
+- Неправильное напряжение
+- Неправильный размер или длина
+- Несбалансированность Пулли
+- Неправильная установка
+- Тяжелая рабочая среда
+- Масло или смазка на боковых поясах.
 
 ![[fa9blsa.png]]
 
-Cogged Belt
+Замотанный пояс
 
-Inspect the belts daily. Replace the belts if they are cracked, frayed, or have chunks of material missing. Small cracks are acceptable.
+Проверяйте ремни ежедневно. Замените ремни, если они треснуты, испортились или у них отсутствуют куски материала. Небольшие трещины приемлемы.
 
-Adjust the belts that have a glazed or shiny surface, which indicates belt slippage. Correctly installed and tensioned belts will show even pulley and belt wear. Refer to Section A for belt adjustment and replacement procedures.
+Отрегулируйте ремни, которые имеют застекленную или блестящую поверхность, что указывает на проскальзывание ремня. Правильно установленные и натянутые ремни покажут даже шкив и износ ремней. См. раздел А для процедур регулировки и замены ремня.
 
-Belt damage can be caused by:
+Повреждение пояса может быть вызвано:
 
-- Incorrect tension
-- Incorrect size or length
-- Pulley misalignment
-- Incorrect installation
-- Severe operating environment
-- Oil or grease on the belts
+- Неправильное напряжение
+- Неправильный размер или длина
+- Несбалансированность Пулли
+- Неправильная установка
+- Тяжелая рабочая среда
+- Масло или смазка на поясах
 
 ![[fa8blsb.png]]
 
-Measure the belt tension in the center span of the pulleys.
+Измерьте напряжение пояса в центральном размахе шкивов.
 
-Refer to the Belt Tension Chart in Section V for the correct gauge and tension value for the belt width used.
+См. диаграмму напряжения пояса в разделе V для правильного калибра и значения напряжения для используемой ширины пояса.
 
-An alternate method (deflection method) can be used to check belt tension by applying 110 N \[25 lbf\] force between the pulleys on v-belts. If the deflection is more than one belt thickness per foot of pulley center distance, the belt tension **must** be adjusted.
+Альтернативный метод (метод отклонения) может быть использован для проверки напряжения ремня путем применения силы 110 Н[25 lbf] между шкивами на v-поясах. Если отклонение составляет более одной толщины ремня на фут от центра шкива, то натяжение ремня *** должно быть отрегулировано.
 
-Refer to Section A for adjustment procedures.
+См. раздел А для корректировок.
 
 ![[fa8blda.png]]
 
-For cogged belts, **make sure** that the belt tension gauge is positioned so that the center tensioning leg is placed directly over the high point (hump) of a cog. Other positioning will result in incorrect measurement.
+Для зубчатых ремней ** убедитесь**, что измеритель напряжения ремня расположен так, что центральная натяжная нога расположена непосредственно над высокой точкой (горбом) винтика. Другие позиционирования приводят к неправильному измерению.
 
 ![[fa1csvb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Poly-Vee Belt
+>
+> **CAUTION · Осторожно**
+> Make sure that the engine is switched off and any starting mechanisms are isolated before any inspections are made. Daily belt inspections can be carried out through an appropriate aperture. Do not remove any guards.
+>
+> Inspect the belts daily. Check the belt for intersecting cracks. Traverse (across the belt width) cracks are acceptable. Longitudinal (direction of belt length) cracks that intersect with transverse cracks are **not** acceptable. Replace the belt if it is frayed or has pieces of material missing. Refer to Section A for belt adjustment and replacement procedures.
+>
+> Belt damage can be caused by:
+>
+> - Incorrect tension
+> - Incorrect size or length
+> - Pulley misalignment
+> - Incorrect installation
+> - Severe operating environment
+> - Oil or grease on the side of belts.
+>
+> Cogged Belt
+>
+> Inspect the belts daily. Replace the belts if they are cracked, frayed, or have chunks of material missing. Small cracks are acceptable.
+>
+> Adjust the belts that have a glazed or shiny surface, which indicates belt slippage. Correctly installed and tensioned belts will show even pulley and belt wear. Refer to Section A for belt adjustment and replacement procedures.
+>
+> Belt damage can be caused by:
+>
+> - Incorrect tension
+> - Incorrect size or length
+> - Pulley misalignment
+> - Incorrect installation
+> - Severe operating environment
+> - Oil or grease on the belts
+>
+> Measure the belt tension in the center span of the pulleys.
+>
+> Refer to the Belt Tension Chart in Section V for the correct gauge and tension value for the belt width used.
+>
+> An alternate method (deflection method) can be used to check belt tension by applying 110 N \[25 lbf\] force between the pulleys on v-belts. If the deflection is more than one belt thickness per foot of pulley center distance, the belt tension **must** be adjusted.
+>
+> Refer to Section A for adjustment procedures.
+>
+> For cogged belts, **make sure** that the belt tension gauge is positioned so that the center tensioning leg is placed directly over the high point (hump) of a cog. Other positioning will result in incorrect measurement.

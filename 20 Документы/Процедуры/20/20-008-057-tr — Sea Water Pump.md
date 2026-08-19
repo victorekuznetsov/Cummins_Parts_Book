@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 37
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-057-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -32,228 +35,390 @@ tags:
 > **Даты:** изменён 2006-08-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-057-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Shut off the sea water inlet valve.
+
+### Подготовительные операции
+
+Отключите впускной клапан морской воды.
 
 ![[08400294.png]]
 
-### Remove
+### Снятие
 
 Jabsco®
 
-Remove the four capscrews with lock washers, as well as the cover, from the sea water pump. Use a 10-mm socket.
+Удалите четыре болта с шайбами замка, а также крышку, из морского водяного насоса. Используйте 10-мм розетку.
 
 ![[08400267.png]]
 
-Remove the cover plate o-ring from the sea water pump housing.
+Удалите обшивку с обшивки водяного насоса.
 
 ![[08400268.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not pry against the cam liner to remove the impeller as this can cause damage to the liner. Be sure to note the direction of impeller fins for proper reinstallation.
+> [!warning] ОСТОРОЖНО
+> Не попытайтесь прижать кулачный вкладыш, чтобы удалить импеллер, так как это может привести к повреждению вкладыша. Обязательно обратите внимание на направление плавников крыльца для правильной переустановки.
 
-Grasp the hub of the impeller with pliers and remove it from the impeller bore.
+Захватите хомут рабочего колеса плоскогубцами и удалите его из цилиндра рабочего колеса.
 
 ![[08400269.png]]
 
-> [!note] Note · Примечание
-> Care should be taken **not** to drop or damage the cam liner.
+> [!note] Примечание
+> Следует соблюдать осторожность **не***, чтобы сбросить или повредить кулачный лайнер.
 
-Remove the cam liner from the pump body.
+Удалите кулачный вкладыш из корпуса насоса.
 
 ![[08400270.png]]
 
-Remove the inner wear plate.
+Удалите внутреннюю пластину износа.
 
 ![[08400271.png]]
 
-Remove the mechanical seal-retaining snap ring from the shaft.
+Удалить механическое удерживающее уплотнение кольцо щелчка из вала.
 
 ![[08400272.png]]
 
-Remove the spring and plate, and discard the parts.
+Удалите пружину и пластину и отбросьте части.
 
 ![[08400273.png]]
 
-Remove the four bolts with washers mounting the bearing housing to the impeller housing use a 13-mm wrench.
+Удалите четыре болта с шайбами, устанавливающими оболочку подшипника к корпусу рабочего колеса, используйте 13-мм гаечный ключ.
 
 ![[08400274.png]]
 
-> [!note] Note · Примечание
-> An o-ring will remain on the bearing housing side of the shaft when the two housings are separated. This o-ring should be inspected before reuse.
+> [!note] Примечание
+> Кольцо останется на стороне несущей оболочки вала, когда две оболочки разделены. Это кольцо следует проверить перед повторным использованием.
 
-Separate the impeller housing from the bearing housing. This is performed to remove the mechanical seal from the impeller shaft inside the impeller housing.
+Отделить корпус крыльца от корпуса подшипника. Это выполняется для удаления механического уплотнения из вала рабочего колеса внутри корпуса рабочего колеса.
 
 ![[08400275.png]]
 
-Once the bearing housing has been pulled back, as in the previous step, the carbon sealing ring can easily be removed from its recessed area in the impeller housing.
+После того, как подшипниковый кожух был оттянут назад, как на предыдущем этапе, углеродное уплотнительное кольцо может быть легко удалено из его утопленной области в корпусе рабочего колеса.
 
-> [!note] Note · Примечание
-> Remove and discard the carbon sealing ring.
+> [!note] Примечание
+> Удалите и отбросьте кольцо герметизации углерода.
 
 ![[08400276.png]]
 
-Gilkes
+Гилкес
 
-Remove the four capscrews and nuts from the inlet connection and separate the sea water piping to the inlet connection.
+Удалите четыре болта и гайки из входного соединения и отделите трубопровод морской воды от входного соединения.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[08400503.png]]
 
-Remove the four capscrews from the inlet elbow that connects to the sea water pump and remove the inlet connection and elbow.
+Удалите четыре болта из впускного локтя, который соединяется с насосом морской воды, и удалите впускное соединение и локтевую кабину.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[08400504.png]]
 
-Remove the pipe clamp supporting the water transfer tube.
+Удалите зажим трубы, поддерживающий водопроводную трубу.
 
 ![[08400505.png]]
 
-Loosen the two capscrews securing the flexible coupling and slide it up onto the upper portion of the transfer tube.
+Освободите два болта, обеспечивающих гибкую связь, и переведите его на верхнюю часть передающей трубки.
 
 ![[08400506.png]]
 
-Remove the four capscrews, lower transfer tube, and gasket.
+Удалите четыре болта, нижнюю передаточную трубку и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[08400507.png]]
 
-Remove the two mounting capscrews, sea water pump and o-ring.
+Удалите два крепежных болта, насос морской воды и кольцо.
 
-Discard the o-ring.
+Отбросьте кольцо.
 
 ![[08400508.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
 Jabsco®
 
-Inspect sea water pump housing, impeller shaft, and sealing surfaces for damage or wear. Clean reusable parts.
+Осмотрите корпус морского водяного насоса, вал рабочего колеса и уплотнительные поверхности для повреждения или износа. Чистые многоразовые детали.
 
 ![[08400277.png]]
 
-If the original impeller is to be reused, carefully inspect for damage such as rips. tears, chunks of material missing, or wear on the edges of the blades. Carefully inspect the cam liner for damage.
+Если первоначальный рабочий колесо должно быть повторно использовано, тщательно проверьте на наличие повреждений, таких как разрывы. слезы, куски материала, отсутствующего, или носить на краях лезвий. Тщательно осмотрите кулачный лайнер на предмет повреждений.
 
-Replace parts as necessary.
+Замените детали по мере необходимости.
 
 ![[08400280.png]]
 
-Seasonal Storage
+Сезонное хранение
 
-If the impeller is in good shape and is to be used again, follow these storage tips:
+Если крыло находится в хорошей форме и должно использоваться снова, следуйте этим советам по хранению:
 
-- The impeller **must** be lubricated with glycerin or a non-petroleum-based lubricant such as silicone spray
-- Store the impeller for the winter season in a polyethylene bag, preferably in a dark location
-- Avoid exposure of the impeller to sunlight or any other source of ultraviolet light
-- If the impeller is damaged or is **not** to be installed, do **not** install the new impeller until the vessel is ready to be used (the following season).
+- Импеллер ** должен** смазываться глицерином или смазкой на основе не нефтелея, такой как силиконовый спрей
+- Храните крыльцо на зимний сезон в полиэтиленовом мешке, предпочтительно в темном месте.
+- Избегайте воздействия на крыло солнечного света или любого другого источника ультрафиолетового света
+- Если крыло повреждено или его не нужно устанавливать, то держи крыло не трогать до тех пор, пока судно не будет готово к использованию (следующий сезон).
 
 ![[08400281.png]]
 
-### Install
+### Установка
 
 Jabsco®
 
-> [!note] Note · Примечание
-> Make sure the o-ring slinger is installed on the shaft before installing the bearing housing.
+> [!note] Примечание
+> Убедитесь, что кольцевой шпангоут установлен на валу перед установкой подшипникового кожуха.
 
-Install the sea water pump bearing housing to impeller housing with four bolts and lock washers, use a 13-mm wrench.
+Установите корпус подшипника морской воды на корпус крыльца с четырьмя болтами и шайбами замка, используйте 13-мм гаечный ключ.
 
 ![[08400274.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not touch the carbon face of the mechanical seal, or leaks and damage can occur.
+> [!warning] ОСТОРОЖНО
+> Не прикасайтесь к углеродной поверхности механического уплотнения, или могут возникнуть утечки и повреждения.
 
-Install the new mechanical seal onto the sea water pump shaft. Seat the seal into the housing recess.
+Установите новое механическое уплотнение на вал морского водяного насоса. Установите печать на углубление корпуса.
 
-> [!note] Note · Примечание
-> **Never** reuse a mechanical seal. **Always** install a new seal, spring, and plate.
+> [!note] Примечание
+> ** Никогда не используйте механическую печать повторно. ** Всегда** Установите новую печать, пружину и пластину.
 
 ![[08400276.png]]
 
-Install the spring and plate.
+Установите пружину и пластину.
 
 ![[08400273.png]]
 
-Install the seal-retaining ring onto the shaft.
+Установите удерживающее уплотнение кольцо на вал.
 
 ![[08400272.png]]
 
-Install the inner wear plate and align the dowel pin in the housing.
+Установите внутреннюю износостойкую пластину и выровните штифт-дюваль в корпусе.
 
 ![[08400271.png]]
 
-Install the cam liner into the sea water pump impeller housing, aligning the hole in the liner with the dowel in the housing.
+Установите кулачный вкладыш в корпус водонасосного насоса, выровняв отверстие в вкладыше с дюбелем в корпусе.
 
 ![[08400270.png]]
 
-Roll the impeller into an oil filter wrench with the fins facing the opposite direction of the sea water pump rotation.
+Поверните колесо в гаечный ключ масляного фильтра с плавниками, обращенными в противоположном направлении вращения водяного насоса.
 
 ![[08400278.png]]
 
-Install the impeller onto the cam liner and onto the splined shaft.
+Установите крыльцо на кулачный лайнер и на опухший вал.
 
 ![[08400279.png]]
 
-Coat the o-ring with engine oil. Install the cover plate o-ring into the groove in the housing.
+Охватите кольцо моторным маслом. Установите обшивку на обшивку в канавку в корпусе.
 
 ![[08400268.png]]
 
-Install the sea water pump front cover with four bolts and lock washers use a 10-mm wrench.
+Установите переднюю крышку морского водяного насоса с четырьмя болтами и шайбами для замка, используя 10-мм гаечный ключ.
 
 ![[08400267.png]]
 
-Gilkes
+Гилкес
 
-Install the sea water pump, new o-ring, and mounting capscrews.
+Установите насос морской воды, новое кольцо и крепежные болты.
 
-| Mounting Capscrews | 80 n.m | \[60 ft-lb\] |
+| Установка болтов | 80 Н·м | [60 фунт-фут] |
 |---|---|---|
 
 ![[08400508.png]]
 
-Install the lower transfer tube, new gasket, and four capscrews.
+Установите нижнюю передаточную трубу, новую прокладку и четыре болта.
 
-| Lower Transfer Tubes Capscrews | 45 n.m | \[33 ft-lb\] |
+| Нижние болты Трансферных труб | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400507.png]]
 
-Slide the flexible coupling down onto the lower portion of the transfer tube covering the gap between the upper and lower transfer tubes. Tighten the two coupling capscrews.
+Наклоните гибкую связь вниз на нижнюю часть передающей трубки, покрывающую зазор между верхней и нижней передающей трубками. Затяните два соединительных болта.
 
-| Coupling Capscrews | 45 n.m | \[33 ft-lb\] |
+| Сцепление болтов | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400506.png]]
 
-Install the pipe clamp supporting the water transfer tube.
+Установите зажим трубы, поддерживающий водопроводную трубу.
 
-| Pipe Clamp Supporting | 40 n.m | \[30 ft-lb\] |
+| Трубный зажим в поддержку | 40 Н·м | [30 фунт-фут] |
 |---|---|---|
 
 ![[08400505.png]]
 
-Install the inlet connection and elbow, gasket, and the four capscrews to the sea water pump.
+Установите входное соединение и локоть, прокладку и четыре болта к насосу морской воды.
 
-| Inlet Connection Capscrews | 45 n.m | \[33 ft-lb\] |
+| Впускные болты | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400504.png]]
 
-Install the sea water piping, new gasket, and the four capscrews and nuts to the inlet connection.
+Установите трубопровод морской воды, новую прокладку, а также четыре болта и гайки на входное соединение.
 
-| Sea Water Piping Capscrews | 80 n.m | \[60 ft-lb\] |
+| Морские водопроводные болты | 80 Н·м | [60 фунт-фут] |
 |---|---|---|
 
 ![[08400503.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Open the sea water inlet valve. Check for leaks.
+Откройте впускной клапан морской воды. Проверьте на отсутствие утечек.
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[08400295.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Shut off the sea water inlet valve.
+>
+> ### Remove
+>
+> Jabsco®
+>
+> Remove the four capscrews with lock washers, as well as the cover, from the sea water pump. Use a 10-mm socket.
+>
+> Remove the cover plate o-ring from the sea water pump housing.
+>
+> **CAUTION · Осторожно**
+> Do not pry against the cam liner to remove the impeller as this can cause damage to the liner. Be sure to note the direction of impeller fins for proper reinstallation.
+>
+> Grasp the hub of the impeller with pliers and remove it from the impeller bore.
+>
+> **Note · Примечание**
+> Care should be taken **not** to drop or damage the cam liner.
+>
+> Remove the cam liner from the pump body.
+>
+> Remove the inner wear plate.
+>
+> Remove the mechanical seal-retaining snap ring from the shaft.
+>
+> Remove the spring and plate, and discard the parts.
+>
+> Remove the four bolts with washers mounting the bearing housing to the impeller housing use a 13-mm wrench.
+>
+> **Note · Примечание**
+> An o-ring will remain on the bearing housing side of the shaft when the two housings are separated. This o-ring should be inspected before reuse.
+>
+> Separate the impeller housing from the bearing housing. This is performed to remove the mechanical seal from the impeller shaft inside the impeller housing.
+>
+> Once the bearing housing has been pulled back, as in the previous step, the carbon sealing ring can easily be removed from its recessed area in the impeller housing.
+>
+> **Note · Примечание**
+> Remove and discard the carbon sealing ring.
+>
+> Gilkes
+>
+> Remove the four capscrews and nuts from the inlet connection and separate the sea water piping to the inlet connection.
+>
+> Discard the gasket.
+>
+> Remove the four capscrews from the inlet elbow that connects to the sea water pump and remove the inlet connection and elbow.
+>
+> Discard the gasket.
+>
+> Remove the pipe clamp supporting the water transfer tube.
+>
+> Loosen the two capscrews securing the flexible coupling and slide it up onto the upper portion of the transfer tube.
+>
+> Remove the four capscrews, lower transfer tube, and gasket.
+>
+> Discard the gasket.
+>
+> Remove the two mounting capscrews, sea water pump and o-ring.
+>
+> Discard the o-ring.
+>
+> ### Inspect for Reuse
+>
+> Jabsco®
+>
+> Inspect sea water pump housing, impeller shaft, and sealing surfaces for damage or wear. Clean reusable parts.
+>
+> If the original impeller is to be reused, carefully inspect for damage such as rips. tears, chunks of material missing, or wear on the edges of the blades. Carefully inspect the cam liner for damage.
+>
+> Replace parts as necessary.
+>
+> Seasonal Storage
+>
+> If the impeller is in good shape and is to be used again, follow these storage tips:
+>
+> - The impeller **must** be lubricated with glycerin or a non-petroleum-based lubricant such as silicone spray
+> - Store the impeller for the winter season in a polyethylene bag, preferably in a dark location
+> - Avoid exposure of the impeller to sunlight or any other source of ultraviolet light
+> - If the impeller is damaged or is **not** to be installed, do **not** install the new impeller until the vessel is ready to be used (the following season).
+>
+> ### Install
+>
+> Jabsco®
+>
+> **Note · Примечание**
+> Make sure the o-ring slinger is installed on the shaft before installing the bearing housing.
+>
+> Install the sea water pump bearing housing to impeller housing with four bolts and lock washers, use a 13-mm wrench.
+>
+> **CAUTION · Осторожно**
+> Do not touch the carbon face of the mechanical seal, or leaks and damage can occur.
+>
+> Install the new mechanical seal onto the sea water pump shaft. Seat the seal into the housing recess.
+>
+> **Note · Примечание**
+> **Never** reuse a mechanical seal. **Always** install a new seal, spring, and plate.
+>
+> Install the spring and plate.
+>
+> Install the seal-retaining ring onto the shaft.
+>
+> Install the inner wear plate and align the dowel pin in the housing.
+>
+> Install the cam liner into the sea water pump impeller housing, aligning the hole in the liner with the dowel in the housing.
+>
+> Roll the impeller into an oil filter wrench with the fins facing the opposite direction of the sea water pump rotation.
+>
+> Install the impeller onto the cam liner and onto the splined shaft.
+>
+> Coat the o-ring with engine oil. Install the cover plate o-ring into the groove in the housing.
+>
+> Install the sea water pump front cover with four bolts and lock washers use a 10-mm wrench.
+>
+> Gilkes
+>
+> Install the sea water pump, new o-ring, and mounting capscrews.
+>
+> | Mounting Capscrews | 80 n.m | \[60 ft-lb\] |
+> |---|---|---|
+>
+> Install the lower transfer tube, new gasket, and four capscrews.
+>
+> | Lower Transfer Tubes Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Slide the flexible coupling down onto the lower portion of the transfer tube covering the gap between the upper and lower transfer tubes. Tighten the two coupling capscrews.
+>
+> | Coupling Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Install the pipe clamp supporting the water transfer tube.
+>
+> | Pipe Clamp Supporting | 40 n.m | \[30 ft-lb\] |
+> |---|---|---|
+>
+> Install the inlet connection and elbow, gasket, and the four capscrews to the sea water pump.
+>
+> | Inlet Connection Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Install the sea water piping, new gasket, and the four capscrews and nuts to the inlet connection.
+>
+> | Sea Water Piping Capscrews | 80 n.m | \[60 ft-lb\] |
+> |---|---|---|
+>
+> ### Finishing Steps
+>
+> Open the sea water inlet valve. Check for leaks.
+>
+> Operate the engine and check for leaks.

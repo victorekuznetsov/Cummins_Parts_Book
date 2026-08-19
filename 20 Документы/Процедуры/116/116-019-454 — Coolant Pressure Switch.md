@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021617"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-454.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-454.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Coolant Pressure Switch
@@ -32,34 +35,68 @@ tags:
 > **Даты:** изменён 2007-04-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-454.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-454.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the brass cap and turn the valve 1/4-turn in the **clockwise** direction.
 
-Loosen the coolant pressure switch connector screw.
+### Снятие
 
-Remove the coolant pressure switch connector.
+Снимите латунную крышку и поверните клапан 1/4-поворот в направлении ** часовой стрелки**.
+
+Устранить винт разъема переключателя давления охлаждающей жидкости.
+
+Удалите разъем переключателя давления охлаждающей жидкости.
 
 ![[19601000.png]]
 
-Loosen the coolant pressure switch mounting screws with an allen wrench.
+Устраните винты, устанавливающие давление охлаждающей жидкости, с помощью гаечного ключа Аллена.
 
-Remove the coolant pressure switch.
+Удалите переключатель давления охлаждающей жидкости.
 
 ![[19601001.png]]
 
-### Install
+### Установка
 
-Place the coolant pressure switch on the block.
+Поместите переключатель давления охлаждающей жидкости на блок.
 
-Install the allen head capscrews and tighten.
+Установите болты головы Аллена и затяните.
 
 ![[19601001.png]]
 
-Connect the harness connector to the coolant pressure connector.
+Подключите разъём жгута проводов к разъёму давления охлаждающей жидкости.
 
-Tighten the connector screw.
+Затяните соединительный винт.
 
-Turn the valve 1/4-turn in the **counterclockwise** direction and install the brass cap.
+Поверните клапан 1/4-в направлении ** против часовой стрелки** и установите латунную крышку.
 
 ![[19601000.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the brass cap and turn the valve 1/4-turn in the **clockwise** direction.
+>
+> Loosen the coolant pressure switch connector screw.
+>
+> Remove the coolant pressure switch connector.
+>
+> Loosen the coolant pressure switch mounting screws with an allen wrench.
+>
+> Remove the coolant pressure switch.
+>
+> ### Install
+>
+> Place the coolant pressure switch on the block.
+>
+> Install the allen head capscrews and tighten.
+>
+> Connect the harness connector to the coolant pressure connector.
+>
+> Tighten the connector screw.
+>
+> Turn the valve 1/4-turn in the **counterclockwise** direction and install the brass cap.

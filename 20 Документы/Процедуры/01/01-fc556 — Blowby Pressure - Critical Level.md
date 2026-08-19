@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc556.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc556.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Blowby Pressure - Critical Level
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc556.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc556.pdf)
 
-### Fault Code: 556
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Blowby Pressure - Critical Level
 
-Printable Version
+### Код неисправности: 556
 
-### Overview
+### Давление прорыва газов — критический уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 556 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine blowby - critical level. Voltage signal indicates blowby pressure has exceeded the shutdown threshold for high blowby. | Engine will shut down. |
+| Код неисправности: 556 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Двигатель продувки - критический уровень. Сигнал напряжения указывает, что давление продува превысило порог отключения для высокого продува. | Двигатель отключится. |
 
 ![[19803587.png]]
 
-Blowby Pressure Sensor Circuit
+Схема датчика давления Blowby Pressure Sensor Circuit
 
-### Circuit Description
+### Описание цепи
 
-The blowby pressure sensor is used by the electronic control module (ECM) to monitor the engine crankcase pressure. The ECM monitors the voltage on the signal pin and converts this to a pressure value. The blowby pressure value is used by the ECM for the engine protection system.
+Датчик давления в продувке используется электронным модулем управления (ECM) для мониторинга давления в картере двигателя. ECM контролирует напряжение на контакте сигнала и преобразует его в значение давления. Значение давления продувки используется ECM для системы защиты двигателя.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-Confirm that the crankcase breathers and breather tubes are **not** obstructed.
+Подтвердите, что дыхательные пути и дыхательные трубки ** не** затрудняются.
 
-Refer to Troubleshooting Fault Code t05-556
+См. Код устранения неполадок t05-556
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 556
+>
+> ### Blowby Pressure - Critical Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 556 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine blowby - critical level. Voltage signal indicates blowby pressure has exceeded the shutdown threshold for high blowby. | Engine will shut down. |
+>
+> Blowby Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The blowby pressure sensor is used by the electronic control module (ECM) to monitor the engine crankcase pressure. The ECM monitors the voltage on the signal pin and converts this to a pressure value. The blowby pressure value is used by the ECM for the engine protection system.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Confirm that the crankcase breathers and breather tubes are **not** obstructed.
+>
+> Refer to Troubleshooting Fault Code t05-556

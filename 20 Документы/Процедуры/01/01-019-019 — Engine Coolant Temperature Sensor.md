@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 8
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-019.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Temperature Sensor
@@ -33,74 +36,140 @@ tags:
 > **Даты:** изменён 2002-12-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-019.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect an electronic Service Tool to the data link connector.
 
-Place the Run/Stop Switch in the Run position.
+### Первичная проверка
 
-Controller **not** in the diagnostic mode.
+Подключите электронный инструмент к разъему шины данных CAN.
 
-Start the engine and let it idle.
+Поместите Run/Stop Switch в положение Run.
+
+Контроллер **не** в диагностическом режиме.
+
+Запустите двигатель и запускайте его на холостом ходу.
 
 ![[19800902.png]]
 
-Monitor the coolant temperature with the electronic Service Tool.
+Контролируйте температуру охлаждающей жидкости с помощью электронного инструментария.
 
-Compare the cool temperature value with the water temperature gauge, or connect a temperature probe to the engine near the coolant temperature sensor and compare the reading on the service tool with the temperature probe reading.
+Сравните значение температуры охлаждения с калибром температуры воды или подключите датчик температуры к двигателю рядом с датчиком температуры охлаждающей жидкости и сравните показания на служебной оснастке с показаниями датчика температуры.
 
-If the coolant temperature on the electronic Service Tool is excessively higher than the water temperature, replace the coolant temperature sensor.
+Если температура охлаждающей жидкости на электронном сервисном оборудовании чрезмерно выше температуры воды, замените датчик температуры охлаждающей жидкости.
 
-If the coolant temperature on the electronic Service Tool does **not** increase with the water temperature, replace the coolant temperature sensor.
+Если температура охлаждающей жидкости на электронном сервисном оборудовании ** не** увеличивается с температурой воды, замените датчик температуры охлаждающей жидкости.
 
 ![[19400068.png]]
 
-Remove the coolant temperature sensor. Refer to Procedure [[01-019-019 — Engine Coolant Temperature Sensor|019-019]].
+Удалите датчик температуры охлаждающей жидкости. См. процедуру[[01-019-019 — Engine Coolant Temperature Sensor|019-019]].
 
-Connect the coolant temperature sensor to the engine harness.
+Подключите датчик температуры охлаждающей жидкости к электропроводке двигателя.
 
 ![[19400380.png]]
 
-Connect an electronic Service Tool to the data link.
+Подключите электронный инструмент к шине данных CAN.
 
-Place the Run/Stop switch in the Stop position.
+Поместите выключатель Run/Stop в положение Stop.
 
-Monitor the coolant temperature with the electronic Service Tool.
+Контролируйте температуру охлаждающей жидкости с помощью электронного инструментария.
 
-If the coolant temperature does not decrease to the current ambient air temperature, replace the coolant temperature sensor.
+Если температура охлаждающей жидкости не снижается до текущей температуры окружающего воздуха, замените датчик температуры охлаждающей жидкости.
 
 ![[19800902.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap or the coolant temperature sensor. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Подождите, пока температура охлаждающей жидкости не будет ниже 50°C \[120°F\], прежде чем удалять крышку давления радиатора или датчик температуры охлаждающей жидкости. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Drain the cooling system. Refer to the specific engine platform troubleshooting and repair manual.
+Слейте охлаждающую жидкость. Смотрите руководство по устранению неполадок и ремонту конкретной платформы двигателя.
 
 ![[ra800qa.png]]
 
-Lift up on the locking tab and pull the electrical connectors apart.
+Поднимите на запирающую вкладку и разберите электрические разъемы.
 
-Remove the sensor.
-
-![[19c00247.png]]
-
-### Install
-
-Make sure the new sensor has an o-ring installed.
-
-Lubricate the o-ring with clean engine oil.
-
-Install the new sensor into the engine. Tighten the sensor.
-
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+Удалите датчик.
 
 ![[19c00247.png]]
 
-Push the connectors together until they lock.
+### Установка
 
-Fill the cooling system and operate the engine to check for leaks.
+Убедитесь, что новый датчик имеет установленное кольцо.
+
+Смажьте уплотнительное кольцо чистым моторным маслом.
+
+Установите новый датчик в двигатель. Затяните датчик.
+
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
+
+![[19c00247.png]]
+
+Соедините разъёмы до фиксации.
+
+Заполните систему охлаждения и работайте с двигателем, чтобы проверить наличие утечек.
 
 ![[19c00248.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect an electronic Service Tool to the data link connector.
+>
+> Place the Run/Stop Switch in the Run position.
+>
+> Controller **not** in the diagnostic mode.
+>
+> Start the engine and let it idle.
+>
+> Monitor the coolant temperature with the electronic Service Tool.
+>
+> Compare the cool temperature value with the water temperature gauge, or connect a temperature probe to the engine near the coolant temperature sensor and compare the reading on the service tool with the temperature probe reading.
+>
+> If the coolant temperature on the electronic Service Tool is excessively higher than the water temperature, replace the coolant temperature sensor.
+>
+> If the coolant temperature on the electronic Service Tool does **not** increase with the water temperature, replace the coolant temperature sensor.
+>
+> Remove the coolant temperature sensor. Refer to Procedure [[01-019-019 — Engine Coolant Temperature Sensor|019-019]].
+>
+> Connect the coolant temperature sensor to the engine harness.
+>
+> Connect an electronic Service Tool to the data link.
+>
+> Place the Run/Stop switch in the Stop position.
+>
+> Monitor the coolant temperature with the electronic Service Tool.
+>
+> If the coolant temperature does not decrease to the current ambient air temperature, replace the coolant temperature sensor.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap or the coolant temperature sensor. Heated coolant spray or steam can cause personal injury.
+>
+> Drain the cooling system. Refer to the specific engine platform troubleshooting and repair manual.
+>
+> Lift up on the locking tab and pull the electrical connectors apart.
+>
+> Remove the sensor.
+>
+> ### Install
+>
+> Make sure the new sensor has an o-ring installed.
+>
+> Lubricate the o-ring with clean engine oil.
+>
+> Install the new sensor into the engine. Tighten the sensor.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Push the connectors together until they lock.
+>
+> Fill the cooling system and operate the engine to check for leaks.

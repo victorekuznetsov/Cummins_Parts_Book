@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-030-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-008-030-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Pulley Assembly
@@ -37,10 +40,26 @@ tags:
 > **Даты:** изменён 2006-07-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-030-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-008-030-om-ind.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Every 6000 hours or 2 years inspect the fan idler pulley assembly. Rebuild or replace the idler pulley as necessary.
 
-Refer to a Cummins Authorized Repair Location for rebuild or replacement instructions.
+### Осмотр
+
+Каждые 6000 часов или 2 года осмотрите сборку шкива бездельника. Восстановление или замена шкива холостого хода по мере необходимости.
+
+См. авторизованное место ремонта Cummins для восстановления или замены инструкций.
 
 ![[fa4idha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Every 6000 hours or 2 years inspect the fan idler pulley assembly. Rebuild or replace the idler pulley as necessary.
+>
+> Refer to a Cummins Authorized Repair Location for rebuild or replacement instructions.

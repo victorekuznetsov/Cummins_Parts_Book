@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-029-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Arm Assembly
@@ -33,14 +36,34 @@ tags:
 > **Даты:** изменён 2017-03-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-008-029-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the fan drive idler arm assembly for the following:
 
-- Deterioration
-- Cracks
-- Broken capscrews.
+### Контроль при обслуживании
 
-Replace any damaged parts.
+Осмотрите сборку рычага бездельника вентилятора на предмет:
+
+- ухудшение
+- Трещины
+- Сломанные болты.
+
+Замените поврежденные части.
 
 ![[08600202.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Inspect the fan drive idler arm assembly for the following:
+>
+> - Deterioration
+> - Cracks
+> - Broken capscrews.
+>
+> Replace any damaged parts.

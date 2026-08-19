@@ -14,12 +14,15 @@ families:
 manuals:
   - "3810497"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-026-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-026-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Injector
@@ -33,39 +36,78 @@ tags:
 > **Даты:** изменён 2026-08-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-026-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-026-om.pdf)
 
-### Calibrate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!note] Note · Примечание
-> Calibration is performed per Maintenance Procedures at 6000 Hours.
+### калибровать
 
-This procedure requires special equipment and **must** be done at a Cummins® Authorized Repair Location.
+с форсункой механического управления
+
+> [!note] Примечание
+> Калибровка выполняется в соответствии с процедурами технического обслуживания в течение 6000 часов.
+
+Эта процедура требует специального оборудования и должна быть выполнена в авторизованном месте ремонта Cummins®.
 
 ![[fi801ua.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Calibration is **not** required for the Modular Common Rail Fuel System.
+Калибровка ** не требуется для модульной общей системы железнодорожного топлива.
 
 ![[06400349.png]]
 
-### Replace
+### Замена
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-This procedure requires special equipment. Contact a Cummins® Authorized Repair Location.
+Эта процедура требует специального оборудования. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[nobox.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-This procedure requires special equipment. Contact a Cummins® Authorized Repair Location.
+Эта процедура требует специального оборудования. Обратитесь в авторизованный сервисный центр Cummins®.
 
-Replacement is recommended for electronically actuated injectors at engine half life to rebuild.
+Замена рекомендуется для электронно приводимого в действие форсунки при периоде полураспада двигателя для восстановления.
 
-Half life to rebuild varies by application. Contact a Cummins® Distributor if interval is **not** immediately available.
+Полжизни для восстановления варьируются в зависимости от применения. Свяжитесь с дистрибьютором Cummins®, если интервал ** не** доступен немедленно.
 
-This recommendation applies **only** to Cummins® Dual Fuel Kit equipped engines.
+Данная рекомендация применяется только к двигателям, оснащенным двойным топливным комплектом Cummins®.
 
 ![[06400389.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Calibrate
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> Calibration is performed per Maintenance Procedures at 6000 Hours.
+>
+> This procedure requires special equipment and **must** be done at a Cummins® Authorized Repair Location.
+>
+> with Electronically Actuated Injector
+>
+> Calibration is **not** required for the Modular Common Rail Fuel System.
+>
+> ### Replace
+>
+> with Mechanically Actuated Injector
+>
+> This procedure requires special equipment. Contact a Cummins® Authorized Repair Location.
+>
+> with Electronically Actuated Injector
+>
+> This procedure requires special equipment. Contact a Cummins® Authorized Repair Location.
+>
+> Replacement is recommended for electronically actuated injectors at engine half life to rebuild.
+>
+> Half life to rebuild varies by application. Contact a Cummins® Distributor if interval is **not** immediately available.
+>
+> This recommendation applies **only** to Cummins® Dual Fuel Kit equipped engines.

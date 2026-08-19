@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021442"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fcmfc01.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fcmfc01.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/07"
+  - "перевод/машинный"
 ---
 
 # Multiple Fault Code A
@@ -32,36 +35,78 @@ tags:
 > **Даты:** изменён 2012-12-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fcmfc01.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fcmfc01.pdf)
 
-### Fault Code: A
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Multiple Fault Code A
 
-Printable Version
+### Код неисправности: А.
 
-### Overview
+### Множественный код неисправности A
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: A PID(P): SPN: FMI: Lamp: SRT: | Multiple fault codes are generated due to a common supply or return wire failure in the engine harness. | Fault Codes 122 and 135 are active. |
+| Код неисправности: PID(P): СПН: ФМИ: Лампа: СТО: | Несколько кодов неисправностей генерируются из-за общего отказа провода питания или возврата в ремне электропроводки двигателя. | Коды 122 и 135 ошибок активны. |
 
 ![[19900397.png]]
 
-Electronic Control Module (ECM)
+Электронный модуль управления (ECM)
 
-### Circuit Description
+### Описание цепи
 
-The electronic control module (ECM) supplies all engine pressure sensors on the engine harness with +5 VDC. The ECM has common returns for all the engine pressure and temperature sensors. Reference the wiring diagram, Bulletin 4021331, for the pin assignments of these circuits. A failure on either of these circuits causes multiple fault codes.
+Электронный модуль управления (ECM) поставляет все датчики давления двигателя на ремне электропроводки двигателя с +5 VDC. ECM имеет общую отдачу для всех датчиков давления и температуры двигателя. Ссылка на схему проводов, Bulletin 4021331, для пин-кодов этих схем. Неисправность в любой из этих схем вызывает несколько кодов неисправностей.
 
-### Component Location
+### Расположение компонента
 
-Reference Section E for a detailed component location view. The ECM is located at the top of the engine, mounted to the air intake manifold.
+Справочный раздел E для подробного описания местоположения компонента. ECM расположен в верхней части двигателя, смонтированный на коллектор воздухозаборника.
 
-### Shoptalk
+### Практические замечания
 
-An open circuit in the common supply and return wires, short circuits from battery or ground to the supply, or a defective ECM power supply can cause multiple fault codes.
+Открытая цепь в общих проводах питания и возврата, короткие замыкания от батареи или земли до подачи или дефектный источник питания ECM могут вызвать несколько кодов неисправностей.
 
-A failed pressure sensor can cause multiple fault codes.
+Неисправный датчик давления может вызвать несколько кодов неисправностей.
 
-A failed pressure sensor can cause multiple active fault codes to go inactive once the engine has been started.
+Неисправный датчик давления может привести к тому, что несколько активных кодов неисправностей будут неактивны после запуска двигателя.
 
-Refer to Troubleshooting Fault Code t05-mfc01
+См. Код устранения неполадок t05-mfc01
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: A
+>
+> ### Multiple Fault Code A
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: A PID(P): SPN: FMI: Lamp: SRT: | Multiple fault codes are generated due to a common supply or return wire failure in the engine harness. | Fault Codes 122 and 135 are active. |
+>
+> Electronic Control Module (ECM)
+>
+> ### Circuit Description
+>
+> The electronic control module (ECM) supplies all engine pressure sensors on the engine harness with +5 VDC. The ECM has common returns for all the engine pressure and temperature sensors. Reference the wiring diagram, Bulletin 4021331, for the pin assignments of these circuits. A failure on either of these circuits causes multiple fault codes.
+>
+> ### Component Location
+>
+> Reference Section E for a detailed component location view. The ECM is located at the top of the engine, mounted to the air intake manifold.
+>
+> ### Shoptalk
+>
+> An open circuit in the common supply and return wires, short circuits from battery or ground to the supply, or a defective ECM power supply can cause multiple fault codes.
+>
+> A failed pressure sensor can cause multiple fault codes.
+>
+> A failed pressure sensor can cause multiple active fault codes to go inactive once the engine has been started.
+>
+> Refer to Troubleshooting Fault Code t05-mfc01

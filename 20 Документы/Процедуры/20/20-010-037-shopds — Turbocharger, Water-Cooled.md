@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 11
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-037-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-037-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Turbocharger, Water-Cooled
@@ -32,70 +35,126 @@ tags:
 > **Даты:** изменён 2018-03-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-037-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-037-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-All Applications Except Marine and Rail
 
-Remove the mounting capscrews, nuts, and the turbocharger.
+### Снятие
 
-Remove and discard the gasket.
+Все виды транспорта, кроме морского и железнодорожного
+
+Удалите крепежные болты, гайки и турбокомпрессор.
+
+Снимите и утилизируйте прокладку.
 
 ![[tb400he.png]]
 
-Marine Applications
+Судовое применение
 
-Loosen clamps from turbocharger coolant return line then slide clamps to side.
+Зажимы с хладагентом турбокомпрессора отходят на обратную линию, а затем сливаются в сторону.
 
-Remove P-clip.
+Удалите P-clip.
 
-Remove turbocharger coolant return line from engine.
+Удалите обратную линию турбокомпрессора от двигателя.
 
 ![[10k00074.png]]
 
-For engines with auxilary cooler:
+Для двигателей с вспомогательным охладителем:
 
-Loosen clamps from turbocharger coolant supply line then slide clamps to side.
+Зажимы с хладагентом турбокомпрессора затем сливаются в сторону.
 
-Remove turbocharger coolant supply line from engine.
+Удалите линию подачи охлаждающей жидкости турбокомпрессора из двигателя.
 
 ![[10k00071.png]]
 
-For engines without auxiliary cooler:
+Для двигателей без вспомогательного охладителя:
 
-Loosen clamps from turbocharger coolant supply hose and remove hose.
+Зажимы для снятия с турбокомпрессора охлаждающей жидкости подают шланг и удаляют шланг.
 
 ![[10k00072.png]]
 
-Remove the four nuts and washers from the turbocharger to exhaust manifold flange.
+Удалите четыре гайки и шайбы из турбокомпрессора на фланж коллектора выхлопных газов.
 
-If equipped, remove turbocharger spacer.
+Если оборудовано, удалите турбокомпрессор.
 
-Remove turbocharger and discard gasket(s).
+Удалить турбокомпрессор и выбросить прокладку (ы).
 
 ![[10k00070.png]]
 
-Remove the turbocharger bearing housing coolant supply line.
+Удалите подшипник турбокомпрессора, обшивку линии подачи охлаждающей жидкости.
 
 ![[10400281.png]]
 
-Remove the turbocharger bearing housing coolant return line.
+Удалите турбокомпрессор с обратной линией охлаждающей жидкости.
 
 ![[10400283.png]]
 
-Remove the turbocharger turbine housing coolant return line from the turbocharger and coolant bypass line.
+Удалите обратную линию турбокомпрессора и турбины охладителя из линии обхода турбокомпрессора и охлаждающей жидкости.
 
 ![[10400285.png]]
 
-Remove the six capscrews, washers, and nuts from the turbocharger to exhaust manifold flange.
+Удалите шесть болтов, шайб и гаек из турбокомпрессора на фланж коллектора выхлопных газов.
 
 ![[10400286.png]]
 
-Remove the three capscrews from the support bracket to compressor housing.
+Удалите три болта из опорной кронштейна в корпус компрессора.
 
 ![[10400287.png]]
 
-Install a lifting eye bolt at the turbocharger turbine housing and attach an approved lifting device.
+Установите подъёмный затвор глаза на корпус турбины турбокомпрессора и прикрепите утвержденное подъёмное устройство.
 
-Support the weight of the turbocharger.
+Поддерживайте вес турбокомпрессора.
 
 ![[10400288.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> All Applications Except Marine and Rail
+>
+> Remove the mounting capscrews, nuts, and the turbocharger.
+>
+> Remove and discard the gasket.
+>
+> Marine Applications
+>
+> Loosen clamps from turbocharger coolant return line then slide clamps to side.
+>
+> Remove P-clip.
+>
+> Remove turbocharger coolant return line from engine.
+>
+> For engines with auxilary cooler:
+>
+> Loosen clamps from turbocharger coolant supply line then slide clamps to side.
+>
+> Remove turbocharger coolant supply line from engine.
+>
+> For engines without auxiliary cooler:
+>
+> Loosen clamps from turbocharger coolant supply hose and remove hose.
+>
+> Remove the four nuts and washers from the turbocharger to exhaust manifold flange.
+>
+> If equipped, remove turbocharger spacer.
+>
+> Remove turbocharger and discard gasket(s).
+>
+> Remove the turbocharger bearing housing coolant supply line.
+>
+> Remove the turbocharger bearing housing coolant return line.
+>
+> Remove the turbocharger turbine housing coolant return line from the turbocharger and coolant bypass line.
+>
+> Remove the six capscrews, washers, and nuts from the turbocharger to exhaust manifold flange.
+>
+> Remove the three capscrews from the support bracket to compressor housing.
+>
+> Install a lifting eye bolt at the turbocharger turbine housing and attach an approved lifting device.
+>
+> Support the weight of the turbocharger.

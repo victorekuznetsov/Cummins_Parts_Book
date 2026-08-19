@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc451.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc451.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fuel Rail Pressure Sensor Circuit - Shorted High
@@ -33,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc451.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc451.pdf)
 
-### Fault Code: 451
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fuel Rail Pressure Sensor Circuit - Shorted High
 
-Printable Version
+### Код неисправности: 451
 
-### Overview
+### Цепь датчика давления рампы — замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 451 PID(P): SPN: FMI: Lamp: Warning SRT: | Injector metering rail 1 pressure sensor circuit - shorted high. This was formerly called the fuel rail pressure sensor. | Calibration-dependent engine shutdown occurs, or no action is taken by ECM. |
+| Код неисправности: 451 PID (P): СПН: ФМИ: Лампа: Предупреждение СТО: | форсунка с измерительным рельсом 1 цепи датчика давления - закороченный высоко. Ранее он назывался датчиком давления в топливной рельсе. | Выключение двигателя, зависящее от калибровки, происходит, или ECM не предпринимает никаких действий. |
 
 ![[19803583.png]]
 
-Fuel Rail Pressure Sensor Circuit
+Схема датчика давления в топливной рельсовой магистрали
 
-### Circuit Description
+### Описание цепи
 
-The fuel rail pressure sensor provides the fuel rail pressure signal to the electronic control module (ECM), through the engine harness. The ECM uses the fuel rail pressure signal to monitor the fuel rail pressure going to the injector's metering chamber from the control valve body.
+Датчик давления топливной рельсы обеспечивает сигнал давления топливной рельсы к электронному модулю управления (ECM) через электропроводку двигателя. ECM использует сигнал давления топливного рельса для контроля давления топливного рельса, идущего в камеру учета топливного форсунка от корпуса управляющего клапана.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+См. конкретную схему проводов двигателя для выходного напряжения датчика давления.
 
-Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+Примечание: Некоторые модели двигателей будут использовать разъем типа Metri-Pack на этом датчике давления, а некоторые будут использовать разъем типа DanfossTM. Контактные обозначения разъема Metri-Pack являются альфа-контактными, а контактные обозначения разъема DanfossTM числовыми. Шаги, изображенные в этом коде неисправности, показывают разъем типа Metri-Pack с вызывными альфа-пинами. См. конкретные схемы проводов двигателя, чтобы определить правильные указатели контактов для типа разъема.
 
-Refer to Troubleshooting Fault Code t05-451
+См. Код устранения неполадок t05-451
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 451
+>
+> ### Fuel Rail Pressure Sensor Circuit - Shorted High
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 451 PID(P): SPN: FMI: Lamp: Warning SRT: | Injector metering rail 1 pressure sensor circuit - shorted high. This was formerly called the fuel rail pressure sensor. | Calibration-dependent engine shutdown occurs, or no action is taken by ECM. |
+>
+> Fuel Rail Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The fuel rail pressure sensor provides the fuel rail pressure signal to the electronic control module (ECM), through the engine harness. The ECM uses the fuel rail pressure signal to monitor the fuel rail pressure going to the injector's metering chamber from the control valve body.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+>
+> Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+>
+> Refer to Troubleshooting Fault Code t05-451

@@ -14,12 +14,15 @@ manuals:
   - "4021617"
   - "4021618"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-209-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-209-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # System Description
@@ -33,452 +36,910 @@ tags:
 > **Даты:** изменён 2007-03-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-209-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-209-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- The Marine C Command Elite panel system is used to monitor engine operating characteristics and control local and remote start and stop functions.
-- The Marine C Command Elite panel system incorporates all of the functions of the Marine C Command panel system, including customer interface box logic unit and several additional functions.
-- This system receives engine data information and has the ability to receive SAE J1939 datalink information from the ECM. The Marine C Command Elite panel system is comprised of the following panels:
-- Customer interface box with Diesel Control Unit
-- Remote panel.
 
-Customer Interface Box
+### Общие сведения
 
-The customer interface box is located in the engine room and receives engine data from the ECM through 16-pin, 23-pin, and 31-pin connectors. The engine receives start, stop, and engine stop commands through the customer interface box.
+- Панельная система Marine C Command Elite используется для мониторинга эксплуатационных характеристик двигателя и управления локальными и удаленными функциями запуска и остановки.
+- Панельная система Marine C Command Elite включает в себя все функции панели Marine C Command, включая логический блок клиентского интерфейса и несколько дополнительных функций.
+- Эта система получает информацию о данных двигателя и имеет возможность получать информацию о шине данных SAE J1939 CAN от ECM. Панельная система Marine C Command Elite состоит из следующих панелей:
+- Коробка интерфейса клиента с блоком управления дизельным топливом
+- Дистанционный пульт.
 
-The customer interface box contains the following components in it:
+Интерфейсная коробка заказчика
 
-- Customer interface box logic unit - Provides signal processing for the panel system.
-- Diesel Control Unit - Provides engine control and monitoring.
-- Circuit breakers - Prevents system over current draw.
-- Terminal strips - Provides connection points for wires.
-- Engine stop button - Allows direct engine stop from the customer interface box.
+Коробка интерфейса клиента расположена в машинном отделении и принимает данные о двигателе от ECM через 16-контактные, 23-контактные и 31-контактные разъемы. Двигатель получает команды запуска, остановки и остановки двигателя через окно интерфейса клиента.
 
-Logic Unit
+Коробка интерфейса клиента содержит в себе следующие компоненты:
 
-The customer interface box has a logic unit labeled CLU. The customer interface box logic unit is located inside the customer interface box and controls the functions of the Marine C Command Elite panel system. This unit has the listed lamps. Except where noted, all lamps have associated relays that allow the connection of external components as determined by the OEM.
+- Логический блок клиентского интерфейса - обеспечивает обработку сигналов для системы панели.
+- Дизельный блок управления - обеспечивает управление двигателем и мониторинг.
+- Выключатели - Предотвращает систему по сравнению с текущим ничьим.
+- Терминальные полосы - Обеспечивает точки подключения для проводов.
+- Кнопка остановки двигателя - Позволяет прямому остановке двигателя от окна интерфейса клиента.
 
-- Supply 1 lamp (K1) - Indicates voltage is present for supply 1 circuit. No customer connection.
-- Supply 2 lamp (K2) - Indicates voltage is present for supply 2 circuit. No customer connection.
-- Engine stop lamp (K3) - Indicates that the direct engine stop function has been initiated.
-- Local mode lamp (K4) - Indicates panel system is in local mode.
-- Red lamp (K5) - Indicates engine shutdown or ECM has generated a severe fault code.
-- Amber lamp (K6) - Indicates when ECM has generated a fault code that will **not** shut down the engine.
-- Buzzer lamp (K7) - Indicates an alarm condition is present. Can be used to activate external horn. No customer connection.
-- White lamp (K8) - Indicate maintenance fault code is present.
-- Running lamp (K9) - Indicates engine is running.
-- 85% of rated lamp (K10) - Indicates the engine is running at 85 percent of rate rpm.
+Логический блок
 
-The customer interface box logic unit has a status area that has lamps that are listed below.
+Коробка интерфейса клиента имеет логический блок с пометкой CLU. Логический блок клиентского интерфейса расположен внутри клиентского интерфейса и управляет функциями панели системы Marine C Command Elite. В этом блоке есть перечисленные лампы. За исключением случаев, когда это указано, все лампы имеют соответствующие реле, которые позволяют подключить внешние компоненты, как это определено OEM.
 
-- Crank lamp - **Not** used in the Marine C Command Elite panel system. The Diesel Control Unit controls engine start.
+- 1 лампа питания (K1) - Указывает напряжение, присутствующее для цепи питания 1. Нет связи с клиентами.
+- 2 лампа питания (K2) - Указывает напряжение, присутствующее для цепи питания 2. Нет связи с клиентами.
+- Огни остановки двигателя (K3) - Указывает, что была начата функция прямой остановки двигателя.
+- Локальный режим лампы (K4) - Указывает на то, что панельная система находится в локальном режиме.
+- Красная лампа (K5) - указывает на выключение двигателя или ECM, который генерирует код сбоя.
+- Янтарная лампа (K6) - указывает, когда ECM генерирует код неисправности, который ** не ** выключает двигатель.
+- Баззерная лампа (K7) - сигнализация состояния присутствует. Может использоваться для активации внешнего рога. Нет связи с клиентами.
+- Белая лампа (K8) - Указывает код неисправности в обслуживании.
+- Бегущая лампа (K9) - указывает на то, что двигатель работает.
+- 85% номинальной лампы (K10) - указывает, что двигатель работает на 85 процентах оборотов в минуту.
 
-- Stop lamp - Indicates a stop command is being sent to the ECM.
-- Data save lamp - Indicates a data save command is being sent to the ECM.
+Логический блок клиентского интерфейса имеет статусную область, в которой есть лампы, перечисленные ниже.
 
-The customer interface box logic unit has a diagnostic area with the listed lamps and switches.
+- Лампа с коленчатым механизмом - **Не используется в системе панелей Marine C Command Elite. Дизельный блок управления управляет запуском двигателя.
 
-- Diagnostic ON/OFF switch - Used to place the customer interface box logic unit and the ECM in diagnostic mode. Diagnostic mode can **only** be entered when the engine is stopped.
-- Diagnostic ON lamp (green) - Solid ON indicates the customer interface box logic unit is in diagnostic mode (Diagnostic ON/OFF switch is ON and engine is stopped). Flashing lamp indicates the Diagnostic ON/OFF switch is ON but the engine is **not** stopped, so the customer interface box logic unit can **not** enter diagnostic mode.
-- Increment/Decrement switch - Used to select the next fault code for the unit to flash out. **Only** operational in diagnostic mode.
-- Red lamp - Flashes out ECM fault codes. **Only** operational in diagnostic mode.
-- Amber lamp - Flashes to indicate the start of a new ECM fault code. **Only** operational in diagnostic mode.
+- Стоп-лампа - указывает на то, что команда стоп отправляется в ECM.
+- Лампа сохранения данных - указывает, что команда сохранения данных отправляется в ECM.
 
-The customer interface box logic unit has a set of three DIP switches that are used to set engine designations on multi-engine applications. These are intended to be one-time set at commissioning and are located under a cover on the front of the customer interface box logic unit.
+Логический блок клиентского интерфейса имеет диагностическую область с перечисленными лампами и переключателями.
 
-- The Marine C Command Elite panel system is equipped with the ability to override an engine protection shutdown command from the ECM. If the engine protection override function is desired, the OEM is responsible for the installation of the switch.
-- The engine protection override terminal is located on the X4 terminal strip in the customer interface box.
-- When the engine protection override switch is activated a signal is sent to the ECM, through the 31-pin connector, which allows the ECM to disregard the engine protection shutdown.
-- This relay also overrides Diesel Control Unit shutdowns (if enabled).
+- Диагностический переключатель ON/OFF - используется для размещения блока логики окна клиентского интерфейса и ECM в диагностическом режиме. Диагностический режим может быть введен только при остановке двигателя.
+- Диагностическая лампа ON (зеленая) - Solid ON указывает, что логический блок окна интерфейса клиента находится в диагностическом режиме (диагностический переключатель ON / OFF включен и двигатель остановлен). Фонарь показывает, что Диагностический переключатель ON/OFF включен, но двигатель ** не ** остановлен, поэтому логический блок окна клиентского интерфейса может ** не ** входить в диагностический режим.
+- Переключатель нарастания/декремента - используется для выбора следующего кода неисправности для вспышки устройства. ****************************************************************************************************************************************************************************************************************************************************************
+- Красная лампа - выдает коды неисправностей ECM. ****************************************************************************************************************************************************************************************************************************************************************
+- Янтарная лампа - вспышки, указывающие на начало нового кода неисправности ECM. ****************************************************************************************************************************************************************************************************************************************************************
 
-Diesel Control Unit 410
+Логический блок клиентского интерфейса имеет набор из трех DIP-коммутаторов, которые используются для установки обозначений двигателя на многомоторных приложениях. Они предназначены для одноразового ввода в эксплуатацию и расположены под крышкой на передней панели клиентского интерфейса.
 
-The Diesel Control Unit 410 is an electronic unit that is able to read engine data. The data can be supplied from a SAE J1939 communication data bus, and from switches and sensors. The data is displayed on a liquid crystal display.
+- Панельная система Marine C Command Elite оснащена возможностью отключения команды защиты двигателя от ECM. Если требуется функция переопределения защиты двигателя, OEM отвечает за установку переключателя.
+- Терминал защиты от переопределения двигателя расположен на терминальной полосе X4 в поле интерфейса клиента.
+- Когда переключатель переопределения защиты двигателя активирован, сигнал отправляется в ECM через 31-контактный разъем, что позволяет ECM игнорировать выключение защиты двигателя.
+- Это реле также перекрывает отключения блока управления дизельным топливом (если включено).
 
-The Diesel Control Unit 410 has:
+Дизельный блок 410 управления
 
-- Adjustable set points for warning, alarm, and shutdown
-- An alarm list that displays an overview for all active alarms
-- A diagnostic list that displays active diagnostic messages
-- Ethernet and Modicon Communication Bus channels available for communication to third parties.
+Дизельный блок 410 управления является электронным блоком, который способен считывать данные двигателя. Данные могут подаваться с шины данных связи SAE J1939, а также с коммутаторов и датчиков. Данные отображаются на жидкокристаллическом дисплее.
 
-It is possible to update the Diesel Control Unit firmware using a labtop.
+Дизельный блок 410 управления:
 
-The Diesel Control Unit 410 operates on 24 VDC and can tolerate 24 VDC (connected in error) on all input/output points, regardless of type.
+- Настраиваемые точки установки для предупреждения, тревоги и отключения
+- Список тревоги, который отображает обзор всех активных тревог
+- Диагностический список, отображающий активные диагностические сообщения
+- Каналы Ethernet и Modicon Communication Bus доступны для связи с третьими лицами.
 
-The Diesel Control Unit 410 requires two power supplies. The main purpose for two power supplies is to make sure sufficient supply voltage is present upon cranking the engine. If a secondary supply was **not** available and the primary supply voltage drop was significant, it can possibly cause the reboot of the Diesel Control Unit 410.
+Можно обновить прошивку Diesel Control Unit с помощью ноутбука.
 
-- 320 x 240 pixel color graphic display.
-- Backlight and front panel Light Emitting Diode adjust automatically with the ambient light conditions, using a light sensor in the front panel.
-- Backlight can be set to 10%, half, or full intensity from the menu.
-- Any button or any event (start, stop, alarm, etc) will turn the backlight on.
+Дизельный блок 410 управления работает на 24 VDC и может выдерживать 24 VDC (подключенный по ошибке) на всех точках ввода / вывода, независимо от типа.
 
-| Backlight Intensity |  |
+Дизельный блок 410 управления требует двух источников питания. Основная цель двух источников питания заключается в том, чтобы убедиться, что при включении двигателя присутствует достаточное напряжение питания. Если вторичный источник питания был ** недоступен, а первичное падение напряжения питания было значительным, это может привести к перезагрузке блока 410 управления дизельным топливом.
+
+- 320 x 240 пикселей цветной графический дисплей.
+- Подсветка и передняя панель Светоизлучающий диод автоматически настраиваются с условиями окружающего освещения, используя датчик света в передней панели.
+- Подсветка может быть установлена на 10%, половину или полную интенсивность от меню.
+- Любая кнопка или любое событие (запуск, остановка, сигнализация и т.д.) включит подсветку.
+
+| Интенсивность подсветки |  |
 |---|---|
-| Ambient Light Intensity | Backlight |
-| Completely Dark | 10 percent |
-| Direct Sun | 100 percent |
+| Интенсивность окружающего света | Подсветка |
+| Полностью темный | 10% |
+| Прямое Солнце | 100% |
 
-- Alarms Dual color, red and amber Amber will be lit on warning Red will be lit on alarm If both active, red has priority over amber. Red and amber will **not** be lit simultaneously If acknowledged red and new amber, flash amber
+- Сигналы двойного цвета, красного и янтарного янтаря будут зажигаться на предупреждение Красный будет зажигаться на сигнализации Если оба активны, красный имеет приоритет над янтарем. Красный и янтарный будут **не** одновременно освещаться Если признан красный и новый янтарь, флеш-янтарь
 
-- Start button Green lit, solid steady when engine is running 1 Hz flashing when engine is in prelubrication 2 Hz flashing when engine is cranking
+- Кнопка запуска Зеленый свет, твердая устойчивая, когда двигатель работает с частотой 1 Гц, когда двигатель находится в прелюбрикации, 2 Гц, когда двигатель работает
 
-  - Stop button Red lit, solid steady when engine is stopped 1 Hz flashing when engine is in stopping, if caused by normal stop (stop button, remote stop, etc.) 2 Hz flashing when engine is stopping because of a sensor configured to make the engine shutdown (overspeed, etc).
+  - Кнопка остановки Красный свет, твердое устойчивое при остановке двигателя 1 Гц мигание при остановке двигателя, если вызвано нормальной остановкой (кнопка остановки, удаленная остановка и т. Д.) 2 Гц мигание при остановке двигателя из-за датчика, сконфигурированного для выключения двигателя (перегрузка и т. Д.).
 
-  - Power Light Emitting Diode Green lit, solid when powered Immediately 1 Hz flashing when voltage is below set point, or one of the two supplies is missing.
+  - Светодиодный зеленый свет, твердый при питании Немедленно 1 Гц мигает, когда напряжение ниже заданной точки, или один из двух источников отсутствует.
 
-| Alarms/Light Emitting Diode Functional Summary |  |
+| Alarms/Light Emitting Diode (недоступная ссылка) |  |
 |---|---|
-| Amber | Red |
-| Amber ECM diagnostic fault | Red ECM diagnostic fault |
-| Warning Diesel Control Unit 410 panel fault | Alarm Diesel Control Unit 410 panel fault |
-| Shutdown Diesel Control Unit 410 panel fault |  |
+| Эмбер | красный |
+| Диагностическая ошибка янтарной ECM | Диагностическая ошибка Red ECM |
+| Предупреждение о неисправности панели 410 управления дизельным двигателем | Дизельный блок 410 управления сигнализацией |
+| Отключение диспетчерского блока 410 с неисправностью панели |  |
 
-The Diesel Control Unit 410 has a 24 VDC sleep mode input. This allows the unit to be set into a mode that resembles a unit that is turned off.
+Дизельный блок 410 управления имеет 24 входа в спящий режим VDC. Это позволяет установить устройство в режим, который напоминает блок, который выключен.
 
-- 24 VDC = system on
-- 0 VDC = sleep mode
+- 24 VDC = система
+- 0 VDC = режим сна
 
-Sleep mode is controlled by the power on/off switch on the front of the customer interface box.
+Режим сна управляется переключателем питания на передней панели интерфейса клиента.
 
-- Local mode No external commands work (wire terminal commands or communication commands) **Only** local panel buttons work.
+- Локальный режим Никакие внешние команды не работают (команды проводного терминала или команды связи) ** Работают только локальные кнопки панели.
 
-- Remote mode Local and remote commands work equally.
+- Удаленный режим Локальные и удаленные команды работают одинаково.
 
-- Automatic mode Automatic start wire inputs work. Automatic stop wire inputs work.
+- Автоматический режим работы автоматических пусковых проводных входов. Работают автоматические стопорные проводные входы.
 
-- Manual mode Automatic start wire inputs will **not** work. Automatic stop wire inputs will **not** work.
+- Ручное управление Автоматический запуск проводных входов будет **не** работать. Автоматическая остановка провода ввода ** не работает **.
 
-When changing in between any of the four modes, a dialog will appear with the description as indicated in the table below:
+При изменении между любым из четырех режимов появится диалог с описанием, указанным в таблице ниже:
 
-| Dialog Boxes When Changing Modes |  |
+| Диалоговые коробки при смене режимов |  |
 |---|---|
-| When Changing to: | Dialog Box |
-| Local mode | External commands are disabled |
-| Remote mode | External commands are enabled |
-| Automatic mode | Automatic start/stop is enabled |
-| Manual mode | Automatic start/stop is disabled |
+| Когда меняется: | Диалоговая коробка |
+| Локальный режим | Внешние команды отключены |
+| Удаленный режим | Внешние команды включены |
+| Автоматический режим | Автоматический запуск/остановка включен |
+| Ручной режим | Автоматический старт/стоп отключен |
 
-- Start button Press to start engine Cranking output relay is activated Diesel Control Unit 410 will continue its start attempt until engine has started, finished the start attempt, or the user has aborted the start by pressing the stop button.
+- Нажмите кнопку Пуск для запуска реле вывода Кранка двигателя активируется Дизельный блок 410 управления продолжит попытку запуска до тех пор, пока двигатель не начнет, не закончит попытку запуска, или пользователь прервал запуск, нажав кнопку остановки.
 
-  - Prelubrication Diesel Control Unit has engine prelubrication control capabilities Prelubrication cycle = Prelubrication activation signal - Await completion - Crank If the Diesel Control Unit 410 does **not** receive activation signal within 30 seconds “Start Failed, Prelube Fault” dialog is generated on the display. While prelubrication is in progress “Prelubrication in progress” dialog in generated on the display.
+  - Прелюбрикационный блок управления дизельным двигателем имеет возможности прелюбрикационного управления мощностью двигателя Цикл прелюбрикации = Сигнал активации прелюбрикации - Ожидание завершения - Кранк Если блок 410 управления дизельным топливом не принимает сигнал активации в течение 30 секунд на дисплее генерируется диалог "Пуск сбой, прелюбийный сбой". Пока идет прелюбрикация, диалог «Прелюбрикация в процессе» генерируется на дисплее.
 
-    - Automatic starts = The Diesel Control Unit 410 will initiate as many start attempts; according to the configured number of start attempts in the configuration menu.
+    - Автоматический запуск = Дизельный блок 410 управления инициирует столько попыток запуска; в соответствии с настроенным количеством попыток запуска в меню конфигурации.
 
-  - Stop button Press to stop a running engine or abort a start sequence. Depending on configuration, the button **must** be pushed until the engine is stopped. A stop sequence can be aborted by pressing the start button. While in stopping mode “Stop in progress - press Start to cancel” dialog is generated on the display.
+  - Нажмите кнопку Stop, чтобы остановить работающий двигатель или прервать последовательность запуска. В зависимости от конфигурации, кнопка ** должна быть нажата до остановки двигателя. Последовательность остановки может быть прервана нажатием кнопки запуска. При остановке в режиме «Стоп в движении — нажмите Начать отменять» на дисплее генерируется диалог.
 
-  - Alarm list button When pressed, displays the active alarm list and silences panel buzzer.
+  - Кнопка «Список тревоги» При нажатии отображает активный список тревоги и гудок панели молчания.
 
-  - Up arrow button When pressed, moves selection up a selectable list.
+  - Нажатая кнопка «Вверх» передвигает выбор вверх по выбираемому списку.
 
-  - Down arrow button When pressed, moves selection down a selectable list.
+  - Нажатая кнопка «Стрела вниз» перемещает выбор вниз по выбираемому списку.
 
-  - Menu button When pressed, opens the Diesel Control Unit 410 menu. All functions described in this document are accessible from the menu. The menu also includes Diesel Control Unit 410 configuration and test options.
+  - Нажатая кнопка меню открывает меню «Дизельный блок 410». Все функции, описанные в этом документе, доступны из меню. Меню также включает в себя конфигурацию блока 410 управления дизельным топливом и варианты тестирования.
 
-  - Buzzer and buzzer off Buzzer activates when new alarms or diagnostic messages are received by the Diesel Control Unit 410. Press the Alarm list button to silence the buzzer. If a new alarm is received while in alarm list the buzzer will activate. Pushing the alarm list, button will silence the buzzer.
+  - Buzzer и Buzzer от Buzzer активируются, когда новые сигналы тревоги или диагностические сообщения принимаются блоком 410 управления дизельным топливом. Нажмите кнопку «Список тревоги», чтобы заглушить зуммер. Если новый сигнал тревоги получен в списке тревоги, то гудок активируется. Нажав на список тревоги, кнопка заставит замолчать зуммер.
 
-  - Soft buttons Change functionality depending on the actual screen. Four buttons located along the bottom of the display. Dynamic label is linked to each button.
+  - Мягкие кнопки меняют функциональность в зависимости от фактического экрана. Четыре кнопки расположены вдоль нижней части дисплея. Динамическая метка связана с каждой кнопкой.
 
-| Soft Button Labels in Main View |  |  |  |
+| Мягкие кнопки в главном виде |  |  |  |
 |---|---|---|---|
-| Backlight | Local Start **Only** /All Start | Settings | User Configuration |
+| Подсветка | Локальный старт **Только** | Настройки | Конфигурация пользователя |
 
-- Prelubrication is necessary on engines that need to build up oil pressure prior to cranking.
-- If prelubrication is activated, the Diesel Control Unit will begin a sequence when the start button is pushed. Receives start command (local, remote, or automatic). Prelubrication is activated for a fixed time or until the oil pressure is acceptable. After fixed time has elasped or oil pressure is acceptable, engine will crank. If pressure is timed out, crank to start failure or prelubrication override.
+- Прелюбрикация необходима для двигателей, которые должны наращивать давление масла перед вилкой.
+- Если прелюбрикация активирована, блок управления дизельным топливом начнет последовательность, когда нажата кнопка запуска. Получает команду запуска (локальная, удаленная или автоматическая). Прелюбрикация активируется в течение фиксированного времени или до тех пор, пока давление масла не станет приемлемым. После того, как фиксированное время удалится или давление масла будет приемлемым, двигатель будет работать. Если давление выпадает, кривошипник начинает отказ или прелюбрикацию переопределяет.
 
-Alarm Page
+Страница тревоги
 
-The alarms appear in the order they are received. When a new alarm is received, it is shown at the top of the alarm list.
+Сигналы появляются в том порядке, в котором они получены. Когда поступает новый сигнал тревоги, он отображается в верхней части списка тревоги.
 
-The list shows all alarms from configured switches and analog inputs. These can be from physical switches, 4-20 mA type inputs, and configured set points on the SAE J1939 datalink (ECM Broadcasted) channels.
+В списке показаны все сигналы тревоги от настроенных переключателей и аналоговых входов. Они могут быть от физических переключателей, входов типа 4-20 мА и настроенных заданных точек на каналах шины данных SAE J1939 CAN (ECM Broadcasted).
 
-The symbol and color denotes the severity of the alarm:
+Символ и цвет обозначают тяжесть сигнализации:
 
-- Symbol 1 = Red severity
-- Symbol 2 = Amber severity
-- Symbol 3 = White severity
+- Символ 1 = Красная строгость
+- Символ 2 = Янтарная тяжесть
+- Символ 3 = Серьезность белого
 
-Bold face lettering denotes alarm acknowledgement:
+Смелая надпись на лице означает признание тревоги:
 
-- Bold = Unacknowledged
-- Normal = Acknowledged
+- Смелый = непризнанный
+- Нормальный = признанный
 
-Reverse background and foreground color denotes active status:
+Обратный фон и цвет переднего плана обозначают активный статус:
 
-- Colored background = Active alarm
-- Colored text on gray background = Inactive alarm
+- Цветной фон = Активная тревога
+- Цветной текст на сером фоне = Неактивная тревога
 
-- Located on the alarm page, displays alarms from diesel control unit, shutdown unit and remote input/output unit (shutdown unit and remote input/output are C Command Elite Plus components **only**).
-- Red = shutdown (switch closure on shutdown unit).
-- Amber = alarm (alarm sensor threshold to remote input/output unit exceeded or wire breaks for shutdown unit switch inputs).
-- White = warning (out of range remote input/output malfunctions on remote input/output unit sensor inputs).
+- На странице сигнализации отображаются сигналы тревоги от блока управления дизельным двигателем, блока отключения и удаленного ввода / вывода (блок отключения и удаленный вход / вывод являются компонентами C Command Elite Plus **только **).
+- Red = shutdown (закрытие переключателя на блоке отключения).
+- Amber = сигнал тревоги (порог датчика тревоги для удаленного входа/выхода блока превышен или разрывы проводов для выключения блока переключателей входов).
+- Белый = предупреждение (неисправности удаленного ввода/вывода на входах датчика удаленного ввода/вывода).
 
-- The event log stores in a separate list the last events. An event is defined as: Any new panel alarm that appears in the alarm list Any new engine diagnostic message that appears in the alarm list When alarm or diagnostic messages go to inactive When any user interaction buttons are pressed, except for up and down arrow Any command such as remote start, stop, acknowledge, etc.
+- Журнал событий хранит в отдельном списке последние события. Событие определяется как: Любое новое сигнальное устройство, которое появляется в списке сигнализации Любое новое диагностическое сообщение двигателя, которое появляется в списке сигнализации Когда сигнализация или диагностические сообщения переходят в неактивное Когда нажимаются любые кнопки взаимодействия с пользователем, за исключением стрелки вверх и вниз Любая команда, такая как удаленный запуск, остановка, подтверждение и т. Д.
 
-The event log can contain 500 separate events. When the log is full and a new event is logged the oldest event is removed.
+Журнал событий может содержать 500 отдельных событий. Когда журнал заполнен и регистрируется новое событие, старейшее событие удаляется.
 
-The event will be time stamped.
+Мероприятие будет отсчитано по времени.
 
-The events are listed with the last event at the top of the screen and the older events below it.
+События перечислены с последним событием в верхней части экрана и более старыми событиями под ним.
 
-- There are four different timers with corresponding text for service intervals. All are set to off by default.
-- Intervals are enabled during initial configuration. Enabling the interval starts the timer.
-- When the time until next service is 10 percent of the total interval hours, a dialog appears when entering ready mode, displaying “Next Service Due” in (10 percent of total interval hours).
-- If a service is overdue, a dialog box appears displaying “Service Overdue” (amount of hours overdue).
-- All service interval actions are in the event log.
+- Существует четыре разных таймера с соответствующим текстом для интервалов обслуживания. Все они установлены по умолчанию.
+- Интервалы включаются во время начальной конфигурации. Включение интервала запускает таймер.
+- Когда время до следующего обслуживания составляет 10 процентов от общего интервального времени, диалог появляется при входе в готовый режим, отображая «Следующий сервисный счет» в (10 процентах от общего интервального времени).
+- Если услуга просрочена, появляется диалоговое окно с отображением «Служба просрочена» (количество часов просрочено).
+- Все действия интервала обслуживания находятся в журнале событий.
 
-- COM1 - Modicon Communication Bus Parent (shutdown unit link) Immediately starts communication when shutdown unit is corrected. **Only** used in C Command Elite Plus panel system.
+- COM1 - Modicon Communication Bus Parent (связь блоков отключения) Сразу же запускает связь, когда блок отключения исправлен. *** Используется только в панели C Command Elite Plus.
 
-  - COM2 - Modicon Communication Bus Parent (input/output expansion to remote input/output unit 410) Immediately starts communication when expansion input/output expansion is connected. **Only** used in C Command Elite Plus panel system
+  - COM2 - Modicon Communication Bus Parent (расширение ввода/вывода до удаленного блока 410 ввода/вывода) Немедленно запускает связь, когда расширение ввода/вывода расширения подключено. **Только ** используется в панели C Command Elite Plus
 
-  - COM3 - Modicon Communication Bus Child (configuration and general communication) Communication with third party equipment to communicate with the Diesel Control Unit.
+  - COM3 - Modicon Communication Bus Child (конфигурация и общая связь) Связь с оборудованием третьих лиц для связи с блоком управления дизельным топливом.
 
-  - COM4 - J1939/Controller Area Network (ECM SAE J1939 interface) Connected to the engine ECM.
+  - COM4 - J1939/Controller Area Network (ECM SAE J1939 interface) Подключен к двигателю ECM.
 
-  - COM5 - Controller Area Network open (third party interface) Three wire terminals (high, low, and shield)
+  - COM5 - Controller Area Network open (сторонний интерфейс) Три проводных терминала (высокий, низкий и щит)
 
-  - COM6 - Ethernet Modicon Communication Bus/Transmission Control Protocol (general communication and web server configuration) Primarily for Ethernet Modicon Communication Bus/Transmission Control Protocol, but can be used for limited configuration of diesel control unit.
+  - COM6 - Ethernet Modicon Communication Bus/Transmission Control Protocol (общая связь и конфигурация веб-сервера) В основном для Ethernet Modicon Communication Bus/Transmission Control Protocol, но может использоваться для ограниченной конфигурации блока управления дизельным топливом.
 
-  - COM7 - Console Universal serial bus connector for processor interface.
+  - COM7 - консоль Универсальный последовательный шинный разъем для интерфейса процессора.
 
-The Marine C Command Elite panel system and C Command Elite Plus panel systems have the following inputs supplied from the ECM.
+Панельная система Marine C Command Elite и панельные системы C Command Elite Plus имеют следующие входы, поставляемые из ECM.
 
-- Torque curve select signal
-- Droop select signal
-- SAE J1939 supply signal
-- SAE J1939 return signal
-- External speed command input signal
-- OEM switch signal
-- Intermediate speed control 3/validate switch signal
-- Intermediate speed control 2 switch signal
-- Engine protection override switch signal
-- Diagnostic test mode switch signal
-- Alternate idle/auxiliary governor select signal
-- Intermediate speed control/idle increment signal
-- Intermediate speed control/idle decrement signal
-- Intermediate speed control 1/remote pto signal
-- Fan control switch signal
-- Tachometer output signal
-- Frequency accelerator signal
-- Accelerator pedal or lever idle validation switch off signal
-- Accelerator pedal or lever idle validation switch on signal
-- Maintenance signal
-- Warning signal
-- Engine protection stop signal
-- Fan control signal
-- Multiple unit synchronization switch 2 signal
-- Multiple unit synchronization switch 1 signal
-- Remote accelerator pedal or lever position switch signal
-- Engine oil level remote reservoir signal
-- Remote accelerator pedal or lever signal
-- Auxiliary input/output 3 signal
-- Auxiliary PWM driver signal
-- Multiple unit synchronization pin 3 switch signal
-- Multiple unit synchronization pin 2 switch signal
-- Multiple unit synchronization pin 1 switch signal
+- Кривая крутящего момента выбирает сигнал
+- Выберите сигнал Droop Select
+- SAE J1939 - сигнал подачи
+- Обратный сигнал SAE J1939
+- Внешний сигнал команды скорости
+- сигнал переключения
+- Промежуточный контроль скорости 3/ валидационный сигнал переключателя
+- Промежуточный сигнал 2-го переключателя управления скоростью
+- Сигнал переключения защиты двигателя
+- Сигнал переключения режима диагностики
+- Альтернативный неработающий/вспомогательный управляющий выбирает сигнал
+- Промежуточный сигнал управления скоростью/прироста холостого хода
+- Промежуточный сигнал управления скоростью/уменьшения скорости
+- Промежуточное управление скоростью 1/ удаленный сигнал pto
+- Включатель управления вентилятором
+- Выходной сигнал тахометра
+- Сигнал ускорителя частоты
+- Педаль акселератора или рычаг холостого валидирования выключают сигнал
+- Педаль акселератора или рычаг холостого валидационного переключателя на сигнал
+- Сигнал технического обслуживания
+- Предупреждающий сигнал
+- Защита двигателя от остановки сигнала
+- Сигнал управления вентилятором
+- Многоцелевой коммутатор синхронизации 2 сигнал
+- Многоцелевой коммутатор синхронизации 1 сигнал
+- Дистанционный педаль акселератора или сигнал переключателя положения рычага
+- Уровень масла в двигателе дистанционного резервуара сигнала
+- Дистанционный педаль акселератора или сигнал рычага
+- Вспомогательный вход/выход 3 сигнал
+- Вспомогательный сигнал водителя PWM
+- Многоцелевой контакт синхронизации 3 сигнал переключателя
+- Многоцелевой контакт синхронизации 2 сигнал переключателя
+- Многоцелевой контакт синхронизации 1 сигнал переключателя
 
-- SAE J1939 datalink supply signal
-- SAE J1939 datalink return signal
-- Fault acknowledge signal
-- Idle/rated switch signal
-- Engine protection override switch signal
-- Diagnostic test mode switch signal
-- Diagnostic increment signal
-- Diagnostic decrement signal
-- Alternate frequency signal
-- Coolant temperature meter signal
-- Tachometer output signal
-- Generator speed/load governing bias signal
-- Low oil pressure (LOP) shutdown signal
-- Run/stop switch signal
-- Over speed switch shutdown signal
-- Common warning signal
-- Common shutdown signal
-- Engine oil remote reservoir signal
-- Droop adjust potentiometer signal
-- Frequency adjust signal
-- Oil pressure meter signal
-- Multiple unit synchronization id pin 3 switch signal
-- Multiple unit synchronization id pin 2 switch signal
-- Multiple unit synchronization id pin 1 switch signal
-- Pre-high engine temperature warning signal
-- High engine temperature (HET) shutdown signal
-- Pre-low oil pressure warning signal.
+- SAE J1939: сигнал передачи данных шины
+- SAE J1939: сигнал возврата шины данных
+- Сигнал обнаружения неисправностей
+- 5.2.1.1 Сигнал переключателя с номинальным значением
+- Сигнал переключения защиты двигателя
+- Сигнал переключения режима диагностики
+- Диагностический сигнал приращения
+- Диагностический сигнал декремента
+- Альтернативный частотный сигнал
+- Сигнал измерителя температуры охлаждающей жидкости
+- Выходной сигнал тахометра
+- Скорость генератора / нагрузка, управляющая сигналом смещения
+- Сигнал отключения низкого давления масла (LOP)
+- Сигнал переключения / Stop Switch
+- Сигнал выключения переключателя скорости
+- Общий предупреждающий сигнал
+- Общий сигнал отключения
+- Моторное масло дистанционного резервуара сигнала
+- Сигнал потенциометра с регулировкой петли
+- Сигнал регулирования частоты
+- Сигнал измерителя давления масла
+- Многоцелевой блок синхронизации id contact 3 переключатель сигнала
+- Многоцелевой блок синхронизации id contact 2 переключатель сигнала
+- Многоцелевой блок синхронизации id contact 1 переключатель сигнала
+- Предупредительный сигнал о высокой температуре двигателя
+- Сигнал выключения высокой температуры двигателя (HET)
+- Предупредительный сигнал низкого давления масла.
 
-The diesel control unit 410 has an input/output as a standard. The following inputs and outputs are available on the unit.
+Дизельный блок 410 управления имеет вход/выход в качестве стандарта. На блоке имеются следующие входы и выходы.
 
-| Standard Input/Output Arrangement for Diesel Control Unit 410 |  |  |  |
+| Стандартная схема ввода/вывода для блока 410 управления дизельным топливом |  |  |  |
 |---|---|---|---|
-| Type | Input or Output | Number of Channels | Description |
-| Fixed Functional Inputs | Input | 10 | Fixed Input |
-| Configurable Fixed Functional Inputs | Input | 2 | None |
-| Switch | Input | 8 | User Configurable |
-| 4-20 mA | Input | 4 | User Configurable |
-| PT100 | Input | 4 | User Configurable |
-| Fixed 24 VDC Source 500 mA | Output | 12 | Fixed |
-| Configurable Outputs 24 VDC 500 mA | Output | 4 | User Configurable (multiple relay) |
-| Configurable outputs, relays | Output | 2 | User Configurable (multiple relay) |
-| Pickup (Tachometer) | Input | 1 | User Configurable |
-| SAE J1939 | Input | 1 | Fixed/User configurable |
-| SAE J1939 Open | Output | 1 | None |
-| Ethernet (Modicon Communication Bus/Transmission Control Protocol) | Input/Output | 1 | None |
+| Тип | Ввод или вывод | Количество каналов | Наименование |
+| Фиксированные функциональные входы | Ввод | 10 | Фиксированный вход |
+| Конфигурируемые фиксированные функциональные вводы | Ввод | 2 | Нет |
+| переключатель | Ввод | 8 | Конфигурируемый пользователь |
+| 4-20 мА | Ввод | 4 | Конфигурируемый пользователь |
+| PT100 | Ввод | 4 | Конфигурируемый пользователь |
+| Фиксированный 24 VDC Source 500 мА | выход | 12 | фиксированный |
+| Конфигурируемые выходы 24 VDC 500 мА | выход | 4 | Конфигурируемый пользователь (множественное реле) |
+| Конфигурируемые выходы, реле | выход | 2 | Конфигурируемый пользователь (множественное реле) |
+| Тахометр (Tachometer) | Ввод | 1 | Конфигурируемый пользователь |
+| SAE J1939 | Ввод | 1 | Фиксированный/пользовательский конфигурируемый |
+| SAE J1939 Open | выход | 1 | Нет |
+| Ethernet (протокол управления передачей/автобусами связи) | Ввод/вывод | 1 | Нет |
 
-The tables below are a breakdown of the type of input/output for the Diesel Control Unit 410.
+В таблицах ниже приводится разбивка типа ввода/вывода для блока 410 управления дизельным топливом.
 
-| Fixed Functional Inputs (Active on 24 VDC) |  |  |  |
+| Фиксированные функциональные входы (активные на 24 VDC) |  |  |  |
 |---|---|---|---|
-| Channel Number | Function | Active | Description |
-| 1 | Remote acknowledge | 24 VDC = acknowledge | Remote acknowledge and silence alarm |
-| 2 | Automatic start (power management system) | 24 VDC = start | Initiate automatic start attempts. Works in manual mode **only**. |
-| 3 | Delayed automatic stop (power management system stop) | 24 VDC = stop | Works in automatic mode **only**. If power management system start and stop are active, power management system start is given priority. |
-| 4 | Remote start | 24 VDC = start | None |
-| 5 | Remote stop | 24 VDC = stop | None |
-| 6 | Start disabled | 24 VDC = start disabled | Fail to safe = able to start. Does **not** stop a running engine, prevents a new start. |
-| 7 | Prelubrication complete | 24 VDC = complete | **Must** have 24 VDC to start the engine. |
-| 8 | Gearbox neutral | 24 VDC = in gear | Fail to safe = will start even if wire breaks. Gearbox is disabled with oil pressure alarm. Engine crank is disabled when in gear. |
-| 9 | Manual/Automatic Automatic = power management system control. Manual = power management system control lockout. | 24 VDC = manual Open = automatic | Fail to safe = automatic If manual is selected in the diesel control unit 410 or remote panel or at wire terminal then command is manual. |
-| 10 | Shutdown override | None | None |
+| Номер канала | Функция | Активный | Наименование |
+| 1 | Удаленное признание | 24 VDC = признаётся | Удаленное признание и тишина тревоги |
+| 2 | Автоматический запуск (система управления питанием) | 24 VDC = начало | Инициировать попытки автоматического старта. Работает в ручном режиме **только**. |
+| 3 | Автоматическая остановка (система управления питанием) | 24 VDC = остановка | Работает в автоматическом режиме **только**. Если система управления питанием запускается и останавливается, то приоритет отдается системе управления питанием. |
+| 4 | Удаленный старт | 24 VDC = начало | Нет |
+| 5 | Удаленная остановка | 24 VDC = остановка | Нет |
+| 6 | Отключить | 24 VDC = отключенный старт | Невозможность безопасного = способность начать. Не останавливает работающий двигатель, предотвращает новый запуск. |
+| 7 | Прелюбрикация завершена | 24 VDC = полный | **У нас есть 24 VDC для запуска двигателя. |
+| 8 | Gearbox нейтральный | 24 VDC = на передаче | Неисправность = начнется, даже если проволока разорвется. Gearbox отключен сигнализацией давления масла. Кран двигателя отключен при включении передачи. |
+| 9 | Ручной/автоматический автомат = управление системой управления питанием. Руководство = блокировка управления системой управления питанием. | 24 VDC = ручной Open = автоматический | Недостаток безопасности = автоматическая Если ручная система выбрана в блоке 410 управления дизельным двигателем или удаленной панели или на проводном терминале, то команда является ручной. |
+| 10 | Перекрыть закрытие | Нет | Нет |
 
-| Configurable Fixed Functional Inputs |  |  |
+| Конфигурируемые фиксированные функциональные вводы |  |  |
 |---|---|---|
-| Channel Number | Function | Description |
-| 1 | Configurable | Configurable from a bank of fixed functions. |
-| 2 | Configurable | Configurable from a bank of fixed functions. |
+| Номер канала | Функция | Наименование |
+| 1 | конфигурируемый | Конфигурируемый из банка фиксированных функций. |
+| 2 | конфигурируемый | Конфигурируемый из банка фиксированных функций. |
 
-| Configurable Switch Inputs (24 VDC Inputs, Warning or Alarm) |  |  |
+| Конфигурируемые входные данные коммутатора (24 входа VDC, предупреждение или сигнализация) |  |  |
 |---|---|---|
-| Channel Number | Function | Description |
-| 1 | Open | Normally closed/normally open |
-| 2 | Open | Normally closed/normally open |
-| 3 | Open | Normally closed/normally open |
-| 4 | Open | Normally closed/normally open |
-| 5 | Open | Normally closed/normally open |
-| 6 | Open | Normally closed/normally open |
-| 7 | Open | Normally closed/normally open |
+| Номер канала | Функция | Наименование |
+| 1 | Открыть | Обычно закрыто/обычно открыто |
+| 2 | Открыть | Обычно закрыто/обычно открыто |
+| 3 | Открыть | Обычно закрыто/обычно открыто |
+| 4 | Открыть | Обычно закрыто/обычно открыто |
+| 5 | Открыть | Обычно закрыто/обычно открыто |
+| 6 | Открыть | Обычно закрыто/обычно открыто |
+| 7 | Открыть | Обычно закрыто/обычно открыто |
 
-| 4-20 mA Inputs (Two Wire Terminals per Channel) |  |
+| 4-20 мА входов (два проводных терминала на канал) |  |
 |---|---|
-| Channel Number | Range |
-| 1 | Configurable |
-| 2 | Configurable |
-| 3 | Configurable |
-| 4 | Configurable |
+| Номер канала | диапазон |
+| 1 | конфигурируемый |
+| 2 | конфигурируемый |
+| 3 | конфигурируемый |
+| 4 | конфигурируемый |
 
-| PT100 Inputs (Three Wire Terminals per Channel) |  |
+| PT100 Inputs (три проводных терминала на канал) |  |
 |---|---|
-| Channel Number | Range |
-| 1 | Configurable |
-| 2 | Configurable |
-| 3 | Configurable |
-| 4 | Configurable |
+| Номер канала | диапазон |
+| 1 | конфигурируемый |
+| 2 | конфигурируемый |
+| 3 | конфигурируемый |
+| 4 | конфигурируемый |
 
-| Fixed Functional Outputs (24 VDC Source 500 mA) |  |  |
+| Фиксированные функциональные выходы (24 VDC Source 500 мА) |  |  |
 |---|---|---|
-| Channel Number | Function | Description |
-| 1 | Prelubrication activation | When configured, precedes engine crank. |
-| 2 | Crank (start) | None |
-| 3 | Engine running | None |
-| 4 | Energize to run | None |
-| 5 | Energize to stop | Also used on shutdown stop in applications that are classified. |
-| 6 | Energize to shutdown | Activates for shutdowns **only**. |
-| 7 | Configurable | Any function. |
-| 8 | Configurable | Any function. |
-| 9 | Configurable | Any function. |
-| 10 | Common alarm relay (three terminals) | Inclusive common warning and common diagnostics. 24 VDC = Normal (no alarm) Normally energized. |
-| 11 | Common alarm relay | Normally open. |
-| 12 | Common alarm | Normally closed. |
+| Номер канала | Функция | Наименование |
+| 1 | Прелюбрикационная активация | При настройке предшествует коленчатому двигателю. |
+| 2 | Крэнк (начало) | Нет |
+| 3 | Двигатель работает | Нет |
+| 4 | Зарядитесь энергией, чтобы бежать | Нет |
+| 5 | Зарядитесь энергией, чтобы остановиться | Также используется на остановке отключения в приложениях, которые классифицируются. |
+| 6 | Зарядитесь энергией для отключения | Активируется для отключений **только **. |
+| 7 | конфигурируемый | Любая функция. |
+| 8 | конфигурируемый | Любая функция. |
+| 9 | конфигурируемый | Любая функция. |
+| 10 | Общее реле сигнализации (три терминала) | Включая общее предупреждение и общую диагностику. 24 VDC = Нормальный (без сигнализации) Нормально заряженный. |
+| 11 | Общее реле сигнализации | Обычно открыт. |
+| 12 | Общая тревога | Обычно закрыто. |
 
-| Configurable Function Outputs |  |
+| Конфигурируемые функциональные выходы |  |
 |---|---|
-| Channel Number | Description |
-| 1 | User configurable (multiple relay) |
-| 2 | User configurable (multiple relay) |
-| 3 | User configurable (multiple relay) |
-| 4 | User configurable (multiple relay) |
+| Номер канала | Наименование |
+| 1 | Конфигурируемый пользователь (множественное реле) |
+| 2 | Конфигурируемый пользователь (множественное реле) |
+| 3 | Конфигурируемый пользователь (множественное реле) |
+| 4 | Конфигурируемый пользователь (множественное реле) |
 
-| Configurable Function Outputs - Relay |  |
+| Конфигурируемые функциональные выходы - реле |  |
 |---|---|
-| Channel Number | Description |
-| 1 | User configurable (multiple relay) |
-| 2 | User configurable (multiple relay) |
+| Номер канала | Наименование |
+| 1 | Конфигурируемый пользователь (множественное реле) |
+| 2 | Конфигурируемый пользователь (множественное реле) |
 
-- The Diesel Control Unit 410 will read up to three sources (speed input, pickup, and tachometer) and use one for calculation and display as follows: First priority - SAE J1939 from the ECM Second priority - Physical input in shutdown unit, via communication link Third priority - Physical input on Diesel Control Unit 410 (pickup/tachometer)
+- Дизельный блок 410 управления будет считывать до трех источников (ввод скорости, пикап и тахометр) и использовать один для расчета и отображения следующим образом: Первый приоритет - SAE J1939 от ECM Второй приоритет - Физический вход в блок отключения, через линию связи Третий приоритет - Физический вход на блок 410 управления дизельным топливом (пикап/тахометр)
 
-The following tables have specifications of the functional inputs/outputs, and sensor inputs available for the diesel control unit 410.
+В нижеследующих таблицах приведены спецификации функциональных входов/выходов и входов датчиков, доступных для блока 410 управления дизельным двигателем.
 
-| Functional Inputs |  |
+| Функциональные входы |  |
 |---|---|
-| Input | Description |
-| Fixed functional inputs | Optocoupled switch input. 0 to 2 VDC = 0 7 to 32 VDC = 1 2 to 7 VDC = undefined Over voltage protection: 40 VDC **Not** connected = 0 VDC (used with 47k ohm resistor) |
-| General switch inputs | Optocoupled switch input. 0 to 2 VDC = 0 7 to 32 VDC = 1 2 to 8 VDC = undefined Over voltage protection: 40 VDC **Not** connected = 0 VDC (used with 47k ohm resistor) To be configured for: Warning/alarms/shutdowns Delay for warnings/alarms/shutdowns Normally open or Normally closed On run **only**. |
+| Ввод | Наименование |
+| Фиксированные функциональные входы | Оптосвязанный вход переключателя. 0-2 VDC = 0 7-32 VDC = 1 2-7 VDC = неопределенная защита от напряжения: 40 VDC **Not** подключен = 0 VDC (используется с резистором 47k Ом) |
+| Общие входные данные переключателей | Оптосвязанный вход переключателя. 0-2 VDC = 0 7-32 VDC = 1 2-8 VDC = неопределенная защита от напряжения: 40 VDC **Not** подключен = 0 VDC (используется с резистором 47k Ом) Для: Предупреждение/сигнал тревоги/затворы Задержка предупреждений/сигналов тревоги/затворов Обычно открыта или Обычно закрыта На ходу **только**. |
 
-| Sensor Inputs |  |
+| Ввод сенсора |  |
 |---|---|
-| Sensor | Description |
-| 4 to 20 mA sensor | Analog input 0 to 25 mA, with a guaranteed specification for 4 to 20 mA measurements Accuracy: 0.5 percent over entire range. Over voltage protection 40 VDC **Not** connected = 0 mA Alarm for: Less than 2 mA Greater than 25 mA |
-| PT100 sensor | 3-wire channels Range 0 to 800° C \[0 to 1472°F\] Accuracy: 0.5 percent over entire range. |
-| Pickup/Tachometer/Speed Input | 0 to 10 kHz |
-| SAE J1939 | 60 VDC transceiver Wires: Supply, Return, and Shield |
+| Сенсор | Наименование |
+| 4-20 мА сенсор | Аналоговый вход от 0 до 25 мА с гарантированной спецификацией для измерений 4-20 мА Точность: 0,5% по всему диапазону. Защита от напряжения 40 VDC **Не** подключена = 0 мА Тревога для: Менее 2 мА Больше 25 мА |
+| Датчик PT100 | 3-проводные каналы диапазона от 0 до 800°C \[0 до 1472°F\] Точность: 0,5% по всему диапазону. |
+| Пикап/тахометр/скорость ввода | От 0 до 10 кГц |
+| SAE J1939 | 60 трансиверов VDC: Поставка, возврат и щит |
 
-| Functional Outputs |  |
+| Функциональные выходы |  |
 |---|---|
-| Output | Description |
-| 24 VDC outputs, 500 mA | **Not** active = Open (47k ohm resistor to define voltage level) Active = 24 VDC to 0 VDC Polyswitch over current protection |
+| выход | Наименование |
+| 24 выходных VDC, 500 мА | **Не** Активный = Открытый (47k Ом резистор для определения уровня напряжения) Активный = 24 VDC до 0 VDC Полипереключатель по защите от тока |
 
-- Connected to the Diesel Control Unit 410, and is remote means of controlling the Diesel Control Unit 410.
-- When connected to the Diesel Control Unit, remote panel will update itself with Diesel Control Unit 410 configuration files.
-- Touch screen control.
+- Подключен к блоку 410 управления дизельным топливом и является удаленным средством управления блоком 410 управления дизельным топливом.
+- При подключении к блоку управления дизельным двигателем удаленная панель будет обновляться с помощью файлов конфигурации блока 410 управления дизельным двигателем.
+- Контроль сенсорного экрана.
 
-- Illuminated when supply power is OK.
-- Flashing 1 Hz when power is below fixed set point.
+- Освещен, когда питание нормальное.
+- Переключение на 1 Гц, когда мощность ниже фиксированной заданной точки.
 
-Ambient light sensor located in top right area of panel. Ambient light sensor is for display back light.
+Датчик окружающего света, расположенный в верхней правой части панели. Датчик окружающего света предназначен для отображения обратного света.
 
-- There are four different main screens, depending on the number of diesel control units (engines) that are connected to the engine.
-- The screen is viewable in direct sunlight (8.4-inch diagonal, 640 x 480 pixel transflective screen)
-- The remote panel will display as follows: Type 1 - One diesel control unit is connected to the remote panel. The entire display screen is used. Type 2 - Two diesel control units are connected to the remote panel. The display screen divided into two. Type 4 - Three or four diesel control units are connected to the remote panel. The display screen is divided into four quadrants. Type 6 - Five or six diesel control units are connected to the remote panel. The display screen is divided into six quadrants.
+- Существует четыре различных основных экрана, в зависимости от количества дизельных блоков управления (двигателей), которые подключены к двигателю.
+- Экран можно увидеть при прямом солнечном свете (8,4-дюймовый диагональ, 640 x 480 пикселей трансфлективного экрана)
+- Удалённая панель будет отображаться следующим образом: Тип 1 - Один дизельный блок управления подключен к удаленной панели. Используется весь экран дисплея. Тип 2 - Два блока управления дизельными двигателями подключены к удаленной панели. Экран дисплея разделен на две части. Тип 4 - к пульту дистанционного управления подключены три или четыре блока управления дизельным топливом. Экран дисплея разделен на четыре квадранта. Тип 6 - Пять или шесть блоков управления дизельным двигателем подключены к удаленной панели. Экран дисплея разделен на шесть квадрантов.
 
-- Ethernet Modicon Communication Bus/Transmission control protocol for communication to the Diesel Control Units.
-- The remote panel will give an alarm if communication is lost with Diesel Control Unit 410 or other remote panels. RS232 for communication to optional external vessel inputs.
+- Протокол управления Ethernet Modicon Communication Bus/Transmission для связи с дизельными блоками управления.
+- Удалённая панель выдаст сигнал тревоги, если связь будет потеряна с блоком 410 управления дизельным двигателем или другими удаленными панелями. RS232 для связи с дополнительными внешними входами судна.
 
-- Main page Start up page and will find all Diesel Control Units and list them by engine name.
+- Главная страница Запустите страницу и найдете все блоки управления дизельным топливом и перечислите их по названию двигателя.
 
-  - Engine name Part of configuration of Diesel Control Unit. Each configured Diesel Control Unit will have a unique name. If two or more names are the same in Diesel Control Unit configuration, the remote unit will add a numeric value to the end of the names.
+  - Название двигателя Часть конфигурации дизельного блока управления. Каждый сконфигурированный блок управления дизельным топливом будет иметь уникальное название. Если два или более имен одинаковы в конфигурации блока управления дизельным топливом, удаленный блок добавит числовое значение в конец имен.
 
-  - Ignore engine(s) On each remote panel, it will be possible to ignore one or several Diesel Control Unit panels in the network. A Diesel Control Unit that is ignored at the remote unit will be “invisible” for that remote unit.
+  - Игнорировать двигатель (ы) На каждой удаленной панели можно будет игнорировать одну или несколько панелей блока управления дизельным топливом в сети. Дизельный блок управления, который игнорируется в удаленном блоке, будет «невидимым» для этого удаленного блока.
 
-  - Active station **Only** one remote panel will have control when more than one remote panel is in the network. An active station can execute commands such as: start, stop, and alarm acknowledge.
+  - Активная станция **Только одна удаленная панель будет иметь управление, когда в сети находится более одной удаленной панели. Активная станция может выполнять команды, такие как: Начать, остановить и предупредить.
 
-  - Requesting Control When an inactive remote panel requests to be active, the active station receives a dialog box for handover.
+  - Когда неактивная удаленная панель просит быть активной, активная станция получает диалоговое окно для передачи.
 
-  - Remote priorities In the configuration menu the remote unit is given a priority number as follows:
+  - В меню конфигурации удаленному блоку присваивается номер приоритета следующим образом:
 
-| Remote Panel Priorities |  |  |  |
+| Приоритеты удаленных групп |  |  |  |
 |---|---|---|---|
-| Priority 1 (Primary Parent Remote Panel) | Priority 2 (Secondary Parent Remote Panel) | Priority 3 (Child Remote Panel) \[Factory default setting\] | Priority 4 (Public Remote Panel) |
-| Can always take command from the active panel; no question asked. Note: If the user tries to execute a command, and the panel is **not** the active station, it immediately becomes the active station and executes the command. | Can take command from active panels priority 2 or 3; no question asked. If the current active panel is priority 1, that panel **must** confirm. | Can take command from active panels priority 1, 2, or 3 after confirmation at the active panel. | Disabled |
-| Will handover command to priority 1 panel immediately. Can handover command to priority 2 or 3 panels, depending upon Confirmation Time-out Behavior | Will handover command to priority 1 or 2 panels immediately. Can handover command to priority 3 panels, depending upon Confirmation Time-out Behavior. | Will handover command to priority 1 or 2 panels immediately. Can handover command to priority 3 panels, depending upon Confirmation Time-out Behavior. | Will handover command to priority 1, 2, or 3 panels immediately. |
+| Приоритет 1 (первичная удаленная родительская панель) | Приоритет 2 (вторая удаленная родительская панель) | Приоритет 3 (детская удаленная панель) \[Настройка по умолчанию на заводе\] | Приоритет 4 (Удаленная панель общественности) |
+| Всегда можно получить команду от активной группы; никаких вопросов не задается. Примечание: Если пользователь пытается выполнить команду, а панель ** не** является активной станцией, она сразу же становится активной станцией и выполняет команду. | Может принимать команды от активных панелей приоритет 2 или 3; без вопросов. Если текущий активный диск является приоритетом 1, то этот диск *** должен подтвердить. | Может принимать команды от активных панелей приоритет 1, 2 или 3 после подтверждения на активной панели. | инвалид |
+| Немедленно передаст команду на панель приоритета 1. Может передавать команду на приоритетные 2 или 3 панели в зависимости от времени подтверждения | Передадут команду на приоритетные 1 или 2 панели сразу. Может передавать команду на 3 панели приоритета, в зависимости от времени подтверждения. | Передадут команду на приоритетные 1 или 2 панели сразу. Может передавать команду на 3 панели приоритета, в зависимости от времени подтверждения. | Передадут команду на приоритет 1, 2 или 3 панели сразу. |
 
-- If the present active station suddenly loses communication in the network, the first panel that asks for control will immediately become the active station.
+- Если нынешняя активная станция внезапно теряет связь в сети, то первая панель, которая просит управления, сразу же станет активной станцией.
 
-- The remote panel has a limited configuration requirement
-- The remote panel will find Diesel Control Units available on the Ethernet network and update its configuration files.
+- Удалённая панель имеет ограниченное требование к конфигурации.
+- Дистанционная панель найдет в сети Ethernet доступные блоки управления дизельным топливом и обновит его конфигурационные файлы.
 
-Datalink Connectors
+Шина передачи данных Connectors
 
-Cummins Inc. produces many engines today that are electronically controlled. These engines have special diagnostic requirements because of the ECM in the system. To interface with these ECMs, electronic service tools have been developed, such as INSITE™ electronic service tool. INSITE™ electronic service tool interfaces with the electronic engines by means of a datalink. A datalink provides a physical means for transmitting and sorting electronic signals. A datalink consists of special electronic circuitry and electrical harnesses. Connection points for electronic service tools are also part of the datalink. Datalinks are defined by standards written by the Society of Automotive Engineers (SAE). Cummins Inc. uses two such standards for electronic service tools. One is a combination of SAE J1587/SAE J1708 and the other is SAE J1939. Engines can support one or both of these datalink standards.
+Cummins Inc. Сегодня производится много двигателей, которые управляются электронным способом. Эти двигатели имеют особые диагностические требования из-за ECM в системе. Для взаимодействия с этими ECM были разработаны инструменты электронного обслуживания, такие как инструмент электронного обслуживания INSITETM. INSITETM - это инструментальная система для электронных сервисов, которая взаимодействует с электронными двигателями с помощью шины данных CAN. Шина данных CAN обеспечивает физическое средство для передачи и сортировки электронных сигналов. Шина данных CAN состоит из специальной электронной схемы и электропроводки. Точки подключения для электронных сервисных инструментов также являются частью шины данных CAN. Ссылки на данные определяются стандартами, написанными Обществом автомобильных инженеров (SAE). Cummins Inc. Использует два таких стандарта для электронных средств обслуживания. Один из них представляет собой комбинацию SAE J1587/SAE J1708, а другой - SAE J1939. Двигатели могут поддерживать один или оба из этих стандартов шины данных CAN.
 
-The recommended datalink connector for Cummins® engines is a 9-pin Deutsch™ connector. This connector can supply SAE J1587/SAE J1708 and SAE J1939 communications and battery voltage. The following are pin-outs for the 9-pin connector:
+Рекомендуемый разъем шины данных CAN для двигателей Cummins® представляет собой 9-контактный разъем DeutschTM. Этот разъем может обеспечивать связь SAE J1587/SAE J1708 и SAE J1939 и напряжение батареи. Ниже приведены вырезы для 9-контактного разъема:
 
-| Pin | Signal |
+| Пин | сигнал |
 |---|---|
-| A | Battery Voltage 1 Return |
-| B | Battery Voltage 1 Supply |
-| C | SAE J1939 Datalink Supply |
-| D | SAE J1939 Datalink Return |
-| E | SAE J1939 Datalink Shield |
-| F | **Not** Used |
-| G | **Not** Used |
-| H | **Not** Used |
-| J | **Not** Used |
+| А. | Напряжение батареи 1 Возвращение |
+| B | Напряжение батареи 1 Поставка |
+| C | SAE J1939 CAN Data Bus Поставка данных |
+| D | SAE J1939 Возвращение данных |
+| Е | SAE J1939 CAN шина данных Shield |
+| F | **Не используется* |
+| GGG | **Не используется* |
+| Hе | **Не используется* |
+| Джей | **Не используется* |
 
 ![[19400739.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> - The Marine C Command Elite panel system is used to monitor engine operating characteristics and control local and remote start and stop functions.
+> - The Marine C Command Elite panel system incorporates all of the functions of the Marine C Command panel system, including customer interface box logic unit and several additional functions.
+> - This system receives engine data information and has the ability to receive SAE J1939 datalink information from the ECM. The Marine C Command Elite panel system is comprised of the following panels:
+> - Customer interface box with Diesel Control Unit
+> - Remote panel.
+>
+> Customer Interface Box
+>
+> The customer interface box is located in the engine room and receives engine data from the ECM through 16-pin, 23-pin, and 31-pin connectors. The engine receives start, stop, and engine stop commands through the customer interface box.
+>
+> The customer interface box contains the following components in it:
+>
+> - Customer interface box logic unit - Provides signal processing for the panel system.
+> - Diesel Control Unit - Provides engine control and monitoring.
+> - Circuit breakers - Prevents system over current draw.
+> - Terminal strips - Provides connection points for wires.
+> - Engine stop button - Allows direct engine stop from the customer interface box.
+>
+> Logic Unit
+>
+> The customer interface box has a logic unit labeled CLU. The customer interface box logic unit is located inside the customer interface box and controls the functions of the Marine C Command Elite panel system. This unit has the listed lamps. Except where noted, all lamps have associated relays that allow the connection of external components as determined by the OEM.
+>
+> - Supply 1 lamp (K1) - Indicates voltage is present for supply 1 circuit. No customer connection.
+> - Supply 2 lamp (K2) - Indicates voltage is present for supply 2 circuit. No customer connection.
+> - Engine stop lamp (K3) - Indicates that the direct engine stop function has been initiated.
+> - Local mode lamp (K4) - Indicates panel system is in local mode.
+> - Red lamp (K5) - Indicates engine shutdown or ECM has generated a severe fault code.
+> - Amber lamp (K6) - Indicates when ECM has generated a fault code that will **not** shut down the engine.
+> - Buzzer lamp (K7) - Indicates an alarm condition is present. Can be used to activate external horn. No customer connection.
+> - White lamp (K8) - Indicate maintenance fault code is present.
+> - Running lamp (K9) - Indicates engine is running.
+> - 85% of rated lamp (K10) - Indicates the engine is running at 85 percent of rate rpm.
+>
+> The customer interface box logic unit has a status area that has lamps that are listed below.
+>
+> - Crank lamp - **Not** used in the Marine C Command Elite panel system. The Diesel Control Unit controls engine start.
+>
+> - Stop lamp - Indicates a stop command is being sent to the ECM.
+> - Data save lamp - Indicates a data save command is being sent to the ECM.
+>
+> The customer interface box logic unit has a diagnostic area with the listed lamps and switches.
+>
+> - Diagnostic ON/OFF switch - Used to place the customer interface box logic unit and the ECM in diagnostic mode. Diagnostic mode can **only** be entered when the engine is stopped.
+> - Diagnostic ON lamp (green) - Solid ON indicates the customer interface box logic unit is in diagnostic mode (Diagnostic ON/OFF switch is ON and engine is stopped). Flashing lamp indicates the Diagnostic ON/OFF switch is ON but the engine is **not** stopped, so the customer interface box logic unit can **not** enter diagnostic mode.
+> - Increment/Decrement switch - Used to select the next fault code for the unit to flash out. **Only** operational in diagnostic mode.
+> - Red lamp - Flashes out ECM fault codes. **Only** operational in diagnostic mode.
+> - Amber lamp - Flashes to indicate the start of a new ECM fault code. **Only** operational in diagnostic mode.
+>
+> The customer interface box logic unit has a set of three DIP switches that are used to set engine designations on multi-engine applications. These are intended to be one-time set at commissioning and are located under a cover on the front of the customer interface box logic unit.
+>
+> - The Marine C Command Elite panel system is equipped with the ability to override an engine protection shutdown command from the ECM. If the engine protection override function is desired, the OEM is responsible for the installation of the switch.
+> - The engine protection override terminal is located on the X4 terminal strip in the customer interface box.
+> - When the engine protection override switch is activated a signal is sent to the ECM, through the 31-pin connector, which allows the ECM to disregard the engine protection shutdown.
+> - This relay also overrides Diesel Control Unit shutdowns (if enabled).
+>
+> Diesel Control Unit 410
+>
+> The Diesel Control Unit 410 is an electronic unit that is able to read engine data. The data can be supplied from a SAE J1939 communication data bus, and from switches and sensors. The data is displayed on a liquid crystal display.
+>
+> The Diesel Control Unit 410 has:
+>
+> - Adjustable set points for warning, alarm, and shutdown
+> - An alarm list that displays an overview for all active alarms
+> - A diagnostic list that displays active diagnostic messages
+> - Ethernet and Modicon Communication Bus channels available for communication to third parties.
+>
+> It is possible to update the Diesel Control Unit firmware using a labtop.
+>
+> The Diesel Control Unit 410 operates on 24 VDC and can tolerate 24 VDC (connected in error) on all input/output points, regardless of type.
+>
+> The Diesel Control Unit 410 requires two power supplies. The main purpose for two power supplies is to make sure sufficient supply voltage is present upon cranking the engine. If a secondary supply was **not** available and the primary supply voltage drop was significant, it can possibly cause the reboot of the Diesel Control Unit 410.
+>
+> - 320 x 240 pixel color graphic display.
+> - Backlight and front panel Light Emitting Diode adjust automatically with the ambient light conditions, using a light sensor in the front panel.
+> - Backlight can be set to 10%, half, or full intensity from the menu.
+> - Any button or any event (start, stop, alarm, etc) will turn the backlight on.
+>
+> | Backlight Intensity |  |
+> |---|---|
+> | Ambient Light Intensity | Backlight |
+> | Completely Dark | 10 percent |
+> | Direct Sun | 100 percent |
+>
+> - Alarms Dual color, red and amber Amber will be lit on warning Red will be lit on alarm If both active, red has priority over amber. Red and amber will **not** be lit simultaneously If acknowledged red and new amber, flash amber
+>
+> - Start button Green lit, solid steady when engine is running 1 Hz flashing when engine is in prelubrication 2 Hz flashing when engine is cranking
+>
+>   - Stop button Red lit, solid steady when engine is stopped 1 Hz flashing when engine is in stopping, if caused by normal stop (stop button, remote stop, etc.) 2 Hz flashing when engine is stopping because of a sensor configured to make the engine shutdown (overspeed, etc).
+>
+>   - Power Light Emitting Diode Green lit, solid when powered Immediately 1 Hz flashing when voltage is below set point, or one of the two supplies is missing.
+>
+> | Alarms/Light Emitting Diode Functional Summary |  |
+> |---|---|
+> | Amber | Red |
+> | Amber ECM diagnostic fault | Red ECM diagnostic fault |
+> | Warning Diesel Control Unit 410 panel fault | Alarm Diesel Control Unit 410 panel fault |
+> | Shutdown Diesel Control Unit 410 panel fault |  |
+>
+> The Diesel Control Unit 410 has a 24 VDC sleep mode input. This allows the unit to be set into a mode that resembles a unit that is turned off.
+>
+> - 24 VDC = system on
+> - 0 VDC = sleep mode
+>
+> Sleep mode is controlled by the power on/off switch on the front of the customer interface box.
+>
+> - Local mode No external commands work (wire terminal commands or communication commands) **Only** local panel buttons work.
+>
+> - Remote mode Local and remote commands work equally.
+>
+> - Automatic mode Automatic start wire inputs work. Automatic stop wire inputs work.
+>
+> - Manual mode Automatic start wire inputs will **not** work. Automatic stop wire inputs will **not** work.
+>
+> When changing in between any of the four modes, a dialog will appear with the description as indicated in the table below:
+>
+> | Dialog Boxes When Changing Modes |  |
+> |---|---|
+> | When Changing to: | Dialog Box |
+> | Local mode | External commands are disabled |
+> | Remote mode | External commands are enabled |
+> | Automatic mode | Automatic start/stop is enabled |
+> | Manual mode | Automatic start/stop is disabled |
+>
+> - Start button Press to start engine Cranking output relay is activated Diesel Control Unit 410 will continue its start attempt until engine has started, finished the start attempt, or the user has aborted the start by pressing the stop button.
+>
+>   - Prelubrication Diesel Control Unit has engine prelubrication control capabilities Prelubrication cycle = Prelubrication activation signal - Await completion - Crank If the Diesel Control Unit 410 does **not** receive activation signal within 30 seconds “Start Failed, Prelube Fault” dialog is generated on the display. While prelubrication is in progress “Prelubrication in progress” dialog in generated on the display.
+>
+>     - Automatic starts = The Diesel Control Unit 410 will initiate as many start attempts; according to the configured number of start attempts in the configuration menu.
+>
+>   - Stop button Press to stop a running engine or abort a start sequence. Depending on configuration, the button **must** be pushed until the engine is stopped. A stop sequence can be aborted by pressing the start button. While in stopping mode “Stop in progress - press Start to cancel” dialog is generated on the display.
+>
+>   - Alarm list button When pressed, displays the active alarm list and silences panel buzzer.
+>
+>   - Up arrow button When pressed, moves selection up a selectable list.
+>
+>   - Down arrow button When pressed, moves selection down a selectable list.
+>
+>   - Menu button When pressed, opens the Diesel Control Unit 410 menu. All functions described in this document are accessible from the menu. The menu also includes Diesel Control Unit 410 configuration and test options.
+>
+>   - Buzzer and buzzer off Buzzer activates when new alarms or diagnostic messages are received by the Diesel Control Unit 410. Press the Alarm list button to silence the buzzer. If a new alarm is received while in alarm list the buzzer will activate. Pushing the alarm list, button will silence the buzzer.
+>
+>   - Soft buttons Change functionality depending on the actual screen. Four buttons located along the bottom of the display. Dynamic label is linked to each button.
+>
+> | Soft Button Labels in Main View |  |  |  |
+> |---|---|---|---|
+> | Backlight | Local Start **Only** /All Start | Settings | User Configuration |
+>
+> - Prelubrication is necessary on engines that need to build up oil pressure prior to cranking.
+> - If prelubrication is activated, the Diesel Control Unit will begin a sequence when the start button is pushed. Receives start command (local, remote, or automatic). Prelubrication is activated for a fixed time or until the oil pressure is acceptable. After fixed time has elasped or oil pressure is acceptable, engine will crank. If pressure is timed out, crank to start failure or prelubrication override.
+>
+> Alarm Page
+>
+> The alarms appear in the order they are received. When a new alarm is received, it is shown at the top of the alarm list.
+>
+> The list shows all alarms from configured switches and analog inputs. These can be from physical switches, 4-20 mA type inputs, and configured set points on the SAE J1939 datalink (ECM Broadcasted) channels.
+>
+> The symbol and color denotes the severity of the alarm:
+>
+> - Symbol 1 = Red severity
+> - Symbol 2 = Amber severity
+> - Symbol 3 = White severity
+>
+> Bold face lettering denotes alarm acknowledgement:
+>
+> - Bold = Unacknowledged
+> - Normal = Acknowledged
+>
+> Reverse background and foreground color denotes active status:
+>
+> - Colored background = Active alarm
+> - Colored text on gray background = Inactive alarm
+>
+> - Located on the alarm page, displays alarms from diesel control unit, shutdown unit and remote input/output unit (shutdown unit and remote input/output are C Command Elite Plus components **only**).
+> - Red = shutdown (switch closure on shutdown unit).
+> - Amber = alarm (alarm sensor threshold to remote input/output unit exceeded or wire breaks for shutdown unit switch inputs).
+> - White = warning (out of range remote input/output malfunctions on remote input/output unit sensor inputs).
+>
+> - The event log stores in a separate list the last events. An event is defined as: Any new panel alarm that appears in the alarm list Any new engine diagnostic message that appears in the alarm list When alarm or diagnostic messages go to inactive When any user interaction buttons are pressed, except for up and down arrow Any command such as remote start, stop, acknowledge, etc.
+>
+> The event log can contain 500 separate events. When the log is full and a new event is logged the oldest event is removed.
+>
+> The event will be time stamped.
+>
+> The events are listed with the last event at the top of the screen and the older events below it.
+>
+> - There are four different timers with corresponding text for service intervals. All are set to off by default.
+> - Intervals are enabled during initial configuration. Enabling the interval starts the timer.
+> - When the time until next service is 10 percent of the total interval hours, a dialog appears when entering ready mode, displaying “Next Service Due” in (10 percent of total interval hours).
+> - If a service is overdue, a dialog box appears displaying “Service Overdue” (amount of hours overdue).
+> - All service interval actions are in the event log.
+>
+> - COM1 - Modicon Communication Bus Parent (shutdown unit link) Immediately starts communication when shutdown unit is corrected. **Only** used in C Command Elite Plus panel system.
+>
+>   - COM2 - Modicon Communication Bus Parent (input/output expansion to remote input/output unit 410) Immediately starts communication when expansion input/output expansion is connected. **Only** used in C Command Elite Plus panel system
+>
+>   - COM3 - Modicon Communication Bus Child (configuration and general communication) Communication with third party equipment to communicate with the Diesel Control Unit.
+>
+>   - COM4 - J1939/Controller Area Network (ECM SAE J1939 interface) Connected to the engine ECM.
+>
+>   - COM5 - Controller Area Network open (third party interface) Three wire terminals (high, low, and shield)
+>
+>   - COM6 - Ethernet Modicon Communication Bus/Transmission Control Protocol (general communication and web server configuration) Primarily for Ethernet Modicon Communication Bus/Transmission Control Protocol, but can be used for limited configuration of diesel control unit.
+>
+>   - COM7 - Console Universal serial bus connector for processor interface.
+>
+> The Marine C Command Elite panel system and C Command Elite Plus panel systems have the following inputs supplied from the ECM.
+>
+> - Torque curve select signal
+> - Droop select signal
+> - SAE J1939 supply signal
+> - SAE J1939 return signal
+> - External speed command input signal
+> - OEM switch signal
+> - Intermediate speed control 3/validate switch signal
+> - Intermediate speed control 2 switch signal
+> - Engine protection override switch signal
+> - Diagnostic test mode switch signal
+> - Alternate idle/auxiliary governor select signal
+> - Intermediate speed control/idle increment signal
+> - Intermediate speed control/idle decrement signal
+> - Intermediate speed control 1/remote pto signal
+> - Fan control switch signal
+> - Tachometer output signal
+> - Frequency accelerator signal
+> - Accelerator pedal or lever idle validation switch off signal
+> - Accelerator pedal or lever idle validation switch on signal
+> - Maintenance signal
+> - Warning signal
+> - Engine protection stop signal
+> - Fan control signal
+> - Multiple unit synchronization switch 2 signal
+> - Multiple unit synchronization switch 1 signal
+> - Remote accelerator pedal or lever position switch signal
+> - Engine oil level remote reservoir signal
+> - Remote accelerator pedal or lever signal
+> - Auxiliary input/output 3 signal
+> - Auxiliary PWM driver signal
+> - Multiple unit synchronization pin 3 switch signal
+> - Multiple unit synchronization pin 2 switch signal
+> - Multiple unit synchronization pin 1 switch signal
+>
+> - SAE J1939 datalink supply signal
+> - SAE J1939 datalink return signal
+> - Fault acknowledge signal
+> - Idle/rated switch signal
+> - Engine protection override switch signal
+> - Diagnostic test mode switch signal
+> - Diagnostic increment signal
+> - Diagnostic decrement signal
+> - Alternate frequency signal
+> - Coolant temperature meter signal
+> - Tachometer output signal
+> - Generator speed/load governing bias signal
+> - Low oil pressure (LOP) shutdown signal
+> - Run/stop switch signal
+> - Over speed switch shutdown signal
+> - Common warning signal
+> - Common shutdown signal
+> - Engine oil remote reservoir signal
+> - Droop adjust potentiometer signal
+> - Frequency adjust signal
+> - Oil pressure meter signal
+> - Multiple unit synchronization id pin 3 switch signal
+> - Multiple unit synchronization id pin 2 switch signal
+> - Multiple unit synchronization id pin 1 switch signal
+> - Pre-high engine temperature warning signal
+> - High engine temperature (HET) shutdown signal
+> - Pre-low oil pressure warning signal.
+>
+> The diesel control unit 410 has an input/output as a standard. The following inputs and outputs are available on the unit.
+>
+> | Standard Input/Output Arrangement for Diesel Control Unit 410 |  |  |  |
+> |---|---|---|---|
+> | Type | Input or Output | Number of Channels | Description |
+> | Fixed Functional Inputs | Input | 10 | Fixed Input |
+> | Configurable Fixed Functional Inputs | Input | 2 | None |
+> | Switch | Input | 8 | User Configurable |
+> | 4-20 mA | Input | 4 | User Configurable |
+> | PT100 | Input | 4 | User Configurable |
+> | Fixed 24 VDC Source 500 mA | Output | 12 | Fixed |
+> | Configurable Outputs 24 VDC 500 mA | Output | 4 | User Configurable (multiple relay) |
+> | Configurable outputs, relays | Output | 2 | User Configurable (multiple relay) |
+> | Pickup (Tachometer) | Input | 1 | User Configurable |
+> | SAE J1939 | Input | 1 | Fixed/User configurable |
+> | SAE J1939 Open | Output | 1 | None |
+> | Ethernet (Modicon Communication Bus/Transmission Control Protocol) | Input/Output | 1 | None |
+>
+> The tables below are a breakdown of the type of input/output for the Diesel Control Unit 410.
+>
+> | Fixed Functional Inputs (Active on 24 VDC) |  |  |  |
+> |---|---|---|---|
+> | Channel Number | Function | Active | Description |
+> | 1 | Remote acknowledge | 24 VDC = acknowledge | Remote acknowledge and silence alarm |
+> | 2 | Automatic start (power management system) | 24 VDC = start | Initiate automatic start attempts. Works in manual mode **only**. |
+> | 3 | Delayed automatic stop (power management system stop) | 24 VDC = stop | Works in automatic mode **only**. If power management system start and stop are active, power management system start is given priority. |
+> | 4 | Remote start | 24 VDC = start | None |
+> | 5 | Remote stop | 24 VDC = stop | None |
+> | 6 | Start disabled | 24 VDC = start disabled | Fail to safe = able to start. Does **not** stop a running engine, prevents a new start. |
+> | 7 | Prelubrication complete | 24 VDC = complete | **Must** have 24 VDC to start the engine. |
+> | 8 | Gearbox neutral | 24 VDC = in gear | Fail to safe = will start even if wire breaks. Gearbox is disabled with oil pressure alarm. Engine crank is disabled when in gear. |
+> | 9 | Manual/Automatic Automatic = power management system control. Manual = power management system control lockout. | 24 VDC = manual Open = automatic | Fail to safe = automatic If manual is selected in the diesel control unit 410 or remote panel or at wire terminal then command is manual. |
+> | 10 | Shutdown override | None | None |
+>
+> | Configurable Fixed Functional Inputs |  |  |
+> |---|---|---|
+> | Channel Number | Function | Description |
+> | 1 | Configurable | Configurable from a bank of fixed functions. |
+> | 2 | Configurable | Configurable from a bank of fixed functions. |
+>
+> | Configurable Switch Inputs (24 VDC Inputs, Warning or Alarm) |  |  |
+> |---|---|---|
+> | Channel Number | Function | Description |
+> | 1 | Open | Normally closed/normally open |
+> | 2 | Open | Normally closed/normally open |
+> | 3 | Open | Normally closed/normally open |
+> | 4 | Open | Normally closed/normally open |
+> | 5 | Open | Normally closed/normally open |
+> | 6 | Open | Normally closed/normally open |
+> | 7 | Open | Normally closed/normally open |
+>
+> | 4-20 mA Inputs (Two Wire Terminals per Channel) |  |
+> |---|---|
+> | Channel Number | Range |
+> | 1 | Configurable |
+> | 2 | Configurable |
+> | 3 | Configurable |
+> | 4 | Configurable |
+>
+> | PT100 Inputs (Three Wire Terminals per Channel) |  |
+> |---|---|
+> | Channel Number | Range |
+> | 1 | Configurable |
+> | 2 | Configurable |
+> | 3 | Configurable |
+> | 4 | Configurable |
+>
+> | Fixed Functional Outputs (24 VDC Source 500 mA) |  |  |
+> |---|---|---|
+> | Channel Number | Function | Description |
+> | 1 | Prelubrication activation | When configured, precedes engine crank. |
+> | 2 | Crank (start) | None |
+> | 3 | Engine running | None |
+> | 4 | Energize to run | None |
+> | 5 | Energize to stop | Also used on shutdown stop in applications that are classified. |
+> | 6 | Energize to shutdown | Activates for shutdowns **only**. |
+> | 7 | Configurable | Any function. |
+> | 8 | Configurable | Any function. |
+> | 9 | Configurable | Any function. |
+> | 10 | Common alarm relay (three terminals) | Inclusive common warning and common diagnostics. 24 VDC = Normal (no alarm) Normally energized. |
+> | 11 | Common alarm relay | Normally open. |
+> | 12 | Common alarm | Normally closed. |
+>
+> | Configurable Function Outputs |  |
+> |---|---|
+> | Channel Number | Description |
+> | 1 | User configurable (multiple relay) |
+> | 2 | User configurable (multiple relay) |
+> | 3 | User configurable (multiple relay) |
+> | 4 | User configurable (multiple relay) |
+>
+> | Configurable Function Outputs - Relay |  |
+> |---|---|
+> | Channel Number | Description |
+> | 1 | User configurable (multiple relay) |
+> | 2 | User configurable (multiple relay) |
+>
+> - The Diesel Control Unit 410 will read up to three sources (speed input, pickup, and tachometer) and use one for calculation and display as follows: First priority - SAE J1939 from the ECM Second priority - Physical input in shutdown unit, via communication link Third priority - Physical input on Diesel Control Unit 410 (pickup/tachometer)
+>
+> The following tables have specifications of the functional inputs/outputs, and sensor inputs available for the diesel control unit 410.
+>
+> | Functional Inputs |  |
+> |---|---|
+> | Input | Description |
+> | Fixed functional inputs | Optocoupled switch input. 0 to 2 VDC = 0 7 to 32 VDC = 1 2 to 7 VDC = undefined Over voltage protection: 40 VDC **Not** connected = 0 VDC (used with 47k ohm resistor) |
+> | General switch inputs | Optocoupled switch input. 0 to 2 VDC = 0 7 to 32 VDC = 1 2 to 8 VDC = undefined Over voltage protection: 40 VDC **Not** connected = 0 VDC (used with 47k ohm resistor) To be configured for: Warning/alarms/shutdowns Delay for warnings/alarms/shutdowns Normally open or Normally closed On run **only**. |
+>
+> | Sensor Inputs |  |
+> |---|---|
+> | Sensor | Description |
+> | 4 to 20 mA sensor | Analog input 0 to 25 mA, with a guaranteed specification for 4 to 20 mA measurements Accuracy: 0.5 percent over entire range. Over voltage protection 40 VDC **Not** connected = 0 mA Alarm for: Less than 2 mA Greater than 25 mA |
+> | PT100 sensor | 3-wire channels Range 0 to 800° C \[0 to 1472°F\] Accuracy: 0.5 percent over entire range. |
+> | Pickup/Tachometer/Speed Input | 0 to 10 kHz |
+> | SAE J1939 | 60 VDC transceiver Wires: Supply, Return, and Shield |
+>
+> | Functional Outputs |  |
+> |---|---|
+> | Output | Description |
+> | 24 VDC outputs, 500 mA | **Not** active = Open (47k ohm resistor to define voltage level) Active = 24 VDC to 0 VDC Polyswitch over current protection |
+>
+> - Connected to the Diesel Control Unit 410, and is remote means of controlling the Diesel Control Unit 410.
+> - When connected to the Diesel Control Unit, remote panel will update itself with Diesel Control Unit 410 configuration files.
+> - Touch screen control.
+>
+> - Illuminated when supply power is OK.
+> - Flashing 1 Hz when power is below fixed set point.
+>
+> Ambient light sensor located in top right area of panel. Ambient light sensor is for display back light.
+>
+> - There are four different main screens, depending on the number of diesel control units (engines) that are connected to the engine.
+> - The screen is viewable in direct sunlight (8.4-inch diagonal, 640 x 480 pixel transflective screen)
+> - The remote panel will display as follows: Type 1 - One diesel control unit is connected to the remote panel. The entire display screen is used. Type 2 - Two diesel control units are connected to the remote panel. The display screen divided into two. Type 4 - Three or four diesel control units are connected to the remote panel. The display screen is divided into four quadrants. Type 6 - Five or six diesel control units are connected to the remote panel. The display screen is divided into six quadrants.
+>
+> - Ethernet Modicon Communication Bus/Transmission control protocol for communication to the Diesel Control Units.
+> - The remote panel will give an alarm if communication is lost with Diesel Control Unit 410 or other remote panels. RS232 for communication to optional external vessel inputs.
+>
+> - Main page Start up page and will find all Diesel Control Units and list them by engine name.
+>
+>   - Engine name Part of configuration of Diesel Control Unit. Each configured Diesel Control Unit will have a unique name. If two or more names are the same in Diesel Control Unit configuration, the remote unit will add a numeric value to the end of the names.
+>
+>   - Ignore engine(s) On each remote panel, it will be possible to ignore one or several Diesel Control Unit panels in the network. A Diesel Control Unit that is ignored at the remote unit will be “invisible” for that remote unit.
+>
+>   - Active station **Only** one remote panel will have control when more than one remote panel is in the network. An active station can execute commands such as: start, stop, and alarm acknowledge.
+>
+>   - Requesting Control When an inactive remote panel requests to be active, the active station receives a dialog box for handover.
+>
+>   - Remote priorities In the configuration menu the remote unit is given a priority number as follows:
+>
+> | Remote Panel Priorities |  |  |  |
+> |---|---|---|---|
+> | Priority 1 (Primary Parent Remote Panel) | Priority 2 (Secondary Parent Remote Panel) | Priority 3 (Child Remote Panel) \[Factory default setting\] | Priority 4 (Public Remote Panel) |
+> | Can always take command from the active panel; no question asked. Note: If the user tries to execute a command, and the panel is **not** the active station, it immediately becomes the active station and executes the command. | Can take command from active panels priority 2 or 3; no question asked. If the current active panel is priority 1, that panel **must** confirm. | Can take command from active panels priority 1, 2, or 3 after confirmation at the active panel. | Disabled |
+> | Will handover command to priority 1 panel immediately. Can handover command to priority 2 or 3 panels, depending upon Confirmation Time-out Behavior | Will handover command to priority 1 or 2 panels immediately. Can handover command to priority 3 panels, depending upon Confirmation Time-out Behavior. | Will handover command to priority 1 or 2 panels immediately. Can handover command to priority 3 panels, depending upon Confirmation Time-out Behavior. | Will handover command to priority 1, 2, or 3 panels immediately. |
+>
+> - If the present active station suddenly loses communication in the network, the first panel that asks for control will immediately become the active station.
+>
+> - The remote panel has a limited configuration requirement
+> - The remote panel will find Diesel Control Units available on the Ethernet network and update its configuration files.
+>
+> Datalink Connectors
+>
+> Cummins Inc. produces many engines today that are electronically controlled. These engines have special diagnostic requirements because of the ECM in the system. To interface with these ECMs, electronic service tools have been developed, such as INSITE™ electronic service tool. INSITE™ electronic service tool interfaces with the electronic engines by means of a datalink. A datalink provides a physical means for transmitting and sorting electronic signals. A datalink consists of special electronic circuitry and electrical harnesses. Connection points for electronic service tools are also part of the datalink. Datalinks are defined by standards written by the Society of Automotive Engineers (SAE). Cummins Inc. uses two such standards for electronic service tools. One is a combination of SAE J1587/SAE J1708 and the other is SAE J1939. Engines can support one or both of these datalink standards.
+>
+> The recommended datalink connector for Cummins® engines is a 9-pin Deutsch™ connector. This connector can supply SAE J1587/SAE J1708 and SAE J1939 communications and battery voltage. The following are pin-outs for the 9-pin connector:
+>
+> | Pin | Signal |
+> |---|---|
+> | A | Battery Voltage 1 Return |
+> | B | Battery Voltage 1 Supply |
+> | C | SAE J1939 Datalink Supply |
+> | D | SAE J1939 Datalink Return |
+> | E | SAE J1939 Datalink Shield |
+> | F | **Not** Used |
+> | G | **Not** Used |
+> | H | **Not** Used |
+> | J | **Not** Used |

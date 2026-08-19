@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 10
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-006-026-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-006-026-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Injector
@@ -37,119 +40,226 @@ tags:
 > **Даты:** изменён 2015-01-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-006-026-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-006-026-om-ind.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the injector hold down clamp capscrews.
 
-Remove the injector hold down clamp.
+### Снятие
+
+Удалите форсунка, удерживайте зажимные болты.
+
+Удалите форсунка, удерживайте зажим.
 
 ![[fi4hwha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not allow the STC tappet to fall out of the injector, engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Не позволяйте крану STC выпадать из форсунки, в результате может возникнуть повреждение двигателя.
 
-> [!note] Note · Примечание
-> The rocker housing has been removed from the illustration for clarity.
+> [!note] Примечание
+> Корпус коромысла был удален из иллюстрации для ясности.
 
-For top stop injectors, use injector puller, Part Number 3376497.
+Для топового стоп-топлива используйте топливный съёмник, номер детали 3376497.
 
-Make sure the puller arms are firmly under the top stop screw.
+Убедитесь, что рычаги съёмника находятся под верхним стоп-винтом.
 
-Tighten the clamping ring (1).
+Закрепить зажимное кольцо (1).
 
-Use the slide hammer to remove the injector.
+Используйте молоток для удаления форсунки.
 
 ![[05400287.png]]
 
-For standard injector injectors use puller, Part Number 3376000 or 3376497.
+Для стандартного топливного форсунка используют съёмник, номер детали 3376000 или 3376497.
 
-Place the split collar over the injector.
+Поместите раздвоенный воротник над топливным форсункой.
 
-Slide the locking collar over the split collar.
+Сдвиньте запирающий воротник над расколотым воротником.
 
-Use the slide hammer to remove the injector.
+Используйте молоток для удаления форсунки.
 
 ![[05400288.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Injector plungers and barrels have a precise fit and are damaged easily. Only trained technicians are authorized to remove the plungers. Do not allow the plunger to fall out of the injector.
+> [!warning] ОСТОРОЖНО
+> Топливные плунжеры и бочки имеют точную посадку и легко повреждаются. Только обученные техники имеют право удалять плунжеры. Не позволяйте плунжеру выпадать из топливного форсунка.
 
-> [!note] Note · Примечание
-> Sealing rings are available in different thicknesses to adjust the injector protrusion.
+> [!note] Примечание
+> Уплотнительные кольца доступны в разных толщинах для регулировки протрузии форсунки.
 
-Remove o-rings (1), (2), and (3).
+Удалите кольца (1), (2) и (3).
 
-Remove the sealing ring (4) and record its thickness.
+Удалите уплотнительное кольцо (4) и запишите его толщину.
 
-Clean the exterior of the injector with a lint-free cloth.
+Очистить наружную часть форсунки с помощью безлитражной ткани.
 
-Check the area the makes contact with the injector.
+Проверьте область, в которой контактирует форсунка.
 
-Check the orifice screen (5). It **must** be clean. If there is debris on the screen, remove the retaining clip and the screen for cleaning.
+Проверьте экран отверстия (5). ** должно быть чистым. Если на экране есть обломки, удалите удерживающий клип и экран для очистки.
 
-Clean the screen in solvent and dry with compressed air. Install the screen and retaining clip.
-
-![[fi4orga.png]]
-
-### Install
-
-Identify the o-rings so they can be installed in the correct groove.
-
-- O-ring (1) has a red dot or stripe and is dull gray in appearance.
-- O-ring (2) has no markings.
-- O-ring (3) has a green dot or stripe. The o-ring has a shiny black appearance.
-
-Lubricate the o-rings with vegetable oil and install them in the appropriate location.
-
-Install the proper size seal ring (4).
+Очистите экран в растворителе и высушите сжатым воздухом. Установите экран и сохраните клип.
 
 ![[fi4orga.png]]
 
-Place the standard injector in the bore.
+### Установка
 
-Turn the injector so the screen points toward the hold-down capscrew hole on the intake side of the cylinder head.
+Определите кольца, чтобы они могли быть установлены в правильной канавке.
+
+- О-кольцо (1) имеет красную точку или полосу и имеет тусклый серый вид.
+- У кольца (2) нет маркировки.
+- У кольца О (3) есть зеленая точка или полоса. У кольца блестящий черный вид.
+
+Смазать кольца растительным маслом и установить их в соответствующем месте.
+
+Установите кольцо печати правильного размера (4).
+
+![[fi4orga.png]]
+
+Поместите стандартный форсунка в цилиндрический отсек.
+
+Поверните форсунка, чтобы экран указывал на удерживающее отверстие болтов на впускной стороне головки цилиндра.
 
 ![[fi800ha.png]]
 
-Do **not** allow the STC tappet fall out of the STC (top stop) injector. Damage can result.
+**не допускать выпадения крана STC из форсунки STC (верхняя остановка). Ущерб может быть.
 
-The STC tappet **must** be near the rocker lever assembly.
+Кран STC ** должен ** находиться рядом с клапанным клапаном, расположенным на рычаге крепления.
 
 ![[fi8taha.png]]
 
-Do **not** push the injector on the seat until it is correctly aligned.
+Не толкайте форсунка на сиденье, пока он не будет правильно выровнен.
 
-Place the STC injector in the bore. Turn the injector so the hole in the top stop screw points to the oil supply hole in the rocker lever housing.
+Поместите форсунка STC в цилиндрический отсек. Поверните форсунка так, чтобы отверстие в верхнем стоп-винте указывало на отверстие подачи масла в корпусе рычага качения клапана.
 
-Use the oil jumper tube and the connector screw as tools. Turn the injector until the holes are aligned. Remove the connector screw and the tube.
+Используйте масляную прыгунную трубку и соединительный винт в качестве инструментов. Поверните форсунка, пока отверстия не выровнены. Удалите соединительный винт и трубку.
 
 ![[fi400ha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use a wooden tool to push the injector onto the seat. Failure can result because of splinters falling into the tappet.
+> [!warning] ОСТОРОЖНО
+> Не используйте деревянный инструмент, чтобы нажать на сиденье форсунка. Неудача может возникнуть из-за осколков, падающих в кран.
 
-Apply a quick hard push with a blunt object that touches the top stop screw, to seat the injector.
+Примените быстрый жесткий толчок тупым предметом, который касается верхнего стоп-винта, чтобы усадить форсунка.
 
-A single snapping sound will be heard when the injector is seated properly.
+Один щелчок будет слышен, когда форсунка будет правильно установлен.
 
 ![[fi800hb.png]]
 
-> [!warning] CAUTION · Осторожно
-> The injector hold-down clamp that is used on engines with STC requires capscrew that are 3 mm \[1/8 in\] longer than those on other K19 engines.
+> [!warning] ОСТОРОЖНО
+> Зажим для удерживания форсунки, который используется на двигателях с STC, требует болтов, которые на 3 мм \[1/8 дюйма \] длиннее, чем на других двигателях K19.
 
-Install the hold-down clamp and the self-locking capscrews.
+Установите зажим и самоблокирующиеся болты.
 
-Alternately tighten the capscrews in sequence so the clamp is centered on the injector body.
+Поочередно затягивайте болты последовательно, чтобы зажим был сосредоточен на корпусе форсунки.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [145 in]
+> [!tip] Момент затяжки
+> 16 Н·м [145 в]
 
 ![[fi4hwha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the injector hold down clamp capscrews.
+>
+> Remove the injector hold down clamp.
+>
+> **CAUTION · Осторожно**
+> Do not allow the STC tappet to fall out of the injector, engine damage can result.
+>
+> **Note · Примечание**
+> The rocker housing has been removed from the illustration for clarity.
+>
+> For top stop injectors, use injector puller, Part Number 3376497.
+>
+> Make sure the puller arms are firmly under the top stop screw.
+>
+> Tighten the clamping ring (1).
+>
+> Use the slide hammer to remove the injector.
+>
+> For standard injector injectors use puller, Part Number 3376000 or 3376497.
+>
+> Place the split collar over the injector.
+>
+> Slide the locking collar over the split collar.
+>
+> Use the slide hammer to remove the injector.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Injector plungers and barrels have a precise fit and are damaged easily. Only trained technicians are authorized to remove the plungers. Do not allow the plunger to fall out of the injector.
+>
+> **Note · Примечание**
+> Sealing rings are available in different thicknesses to adjust the injector protrusion.
+>
+> Remove o-rings (1), (2), and (3).
+>
+> Remove the sealing ring (4) and record its thickness.
+>
+> Clean the exterior of the injector with a lint-free cloth.
+>
+> Check the area the makes contact with the injector.
+>
+> Check the orifice screen (5). It **must** be clean. If there is debris on the screen, remove the retaining clip and the screen for cleaning.
+>
+> Clean the screen in solvent and dry with compressed air. Install the screen and retaining clip.
+>
+> ### Install
+>
+> Identify the o-rings so they can be installed in the correct groove.
+>
+> - O-ring (1) has a red dot or stripe and is dull gray in appearance.
+> - O-ring (2) has no markings.
+> - O-ring (3) has a green dot or stripe. The o-ring has a shiny black appearance.
+>
+> Lubricate the o-rings with vegetable oil and install them in the appropriate location.
+>
+> Install the proper size seal ring (4).
+>
+> Place the standard injector in the bore.
+>
+> Turn the injector so the screen points toward the hold-down capscrew hole on the intake side of the cylinder head.
+>
+> Do **not** allow the STC tappet fall out of the STC (top stop) injector. Damage can result.
+>
+> The STC tappet **must** be near the rocker lever assembly.
+>
+> Do **not** push the injector on the seat until it is correctly aligned.
+>
+> Place the STC injector in the bore. Turn the injector so the hole in the top stop screw points to the oil supply hole in the rocker lever housing.
+>
+> Use the oil jumper tube and the connector screw as tools. Turn the injector until the holes are aligned. Remove the connector screw and the tube.
+>
+> **CAUTION · Осторожно**
+> Do not use a wooden tool to push the injector onto the seat. Failure can result because of splinters falling into the tappet.
+>
+> Apply a quick hard push with a blunt object that touches the top stop screw, to seat the injector.
+>
+> A single snapping sound will be heard when the injector is seated properly.
+>
+> **CAUTION · Осторожно**
+> The injector hold-down clamp that is used on engines with STC requires capscrew that are 3 mm \[1/8 in\] longer than those on other K19 engines.
+>
+> Install the hold-down clamp and the self-locking capscrews.
+>
+> Alternately tighten the capscrews in sequence so the clamp is centered on the injector body.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [145 in]

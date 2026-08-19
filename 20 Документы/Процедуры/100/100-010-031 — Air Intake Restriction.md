@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-031.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-031.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Air Intake Restriction
@@ -32,33 +35,66 @@ tags:
 > **Даты:** изменён 2004-05-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-031.pdf)
 
-### Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> For naturally aspirated engines, measure the intake restriction just before the intake manifold.
 
-Install a vacuum gauge or water manometer, Part Number ST-1111-3, in the intake air piping.
+### Измерение
 
-The gauge adapter **must** be installed at a 90-degree angle to the airflow in a straight section of pipe, one pipe diameter before the turbocharger.
+> [!note] Примечание
+> Для двигателей с естественным аспирацией измеряйте ограничение потребления непосредственно перед впускным коллектором.
+
+Установите вакуумный калибр или водный манометр, часть номер ST-1111-3, в воздухозаборнике.
+
+Измерительный датчик адаптер ** должен быть установлен под углом 90 градусов к потоку воздуха в прямом участке трубы, диаметром в одну трубу перед турбокомпрессором.
 
 ![[10d00008.png]]
 
-Operate the engine at full throttle and rated rpm with maximum load.
+Работайте с двигателем на полном дроссельном и номинальном оборотах при максимальной нагрузке.
 
-Record the data on the gauge or manometer.
+Запишите данные на калибр или манометр.
 
-| mm-h2o |  | in-h2o |
+| мм-h2o |  | в h2o |
 |---|---|---|
-| 635 | MAX | 25 |
+| 635 | Макс | 25 |
 
 ![[14000003.png]]
 
-If restriction exceeds specifications, replace or clean the air filter element. Refer to the equipment manufacturer's instructions.
+Если ограничение превышает технические требования, замените или очистите фильтрующий элемент воздухоочистителя. Смотрите инструкции производителя оборудования.
 
 ![[14000004.png]]
 
-Inspect the intake piping for damage. Refer to the equipment manufacturer's repair instructions.
+Проверить впускные трубопроводы на предмет повреждения. Смотрите инструкции по ремонту оборудования производителя.
 
-Remove the test equipment.
+Удалите испытательное оборудование.
 
 ![[ca9tbsa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Measure
+>
+> **Note · Примечание**
+> For naturally aspirated engines, measure the intake restriction just before the intake manifold.
+>
+> Install a vacuum gauge or water manometer, Part Number ST-1111-3, in the intake air piping.
+>
+> The gauge adapter **must** be installed at a 90-degree angle to the airflow in a straight section of pipe, one pipe diameter before the turbocharger.
+>
+> Operate the engine at full throttle and rated rpm with maximum load.
+>
+> Record the data on the gauge or manometer.
+>
+> | mm-h2o |  | in-h2o |
+> |---|---|---|
+> | 635 | MAX | 25 |
+>
+> If restriction exceeds specifications, replace or clean the air filter element. Refer to the equipment manufacturer's instructions.
+>
+> Inspect the intake piping for damage. Refer to the equipment manufacturer's repair instructions.
+>
+> Remove the test equipment.

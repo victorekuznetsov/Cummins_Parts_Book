@@ -12,12 +12,15 @@ families:
   - "QSK19"
 manuals:
   - "4022094"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-t05-1774.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-t05-1774.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # FAULT CODE 1774 - Engine Oil Priming Pump Control Circuit - Voltage Above Normal or Shorted to High Source
@@ -31,83 +34,174 @@ tags:
 > **Даты:** изменён 2010-12-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-t05-1774.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-t05-1774.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-## Warnings and Cautions
 
-> [!warning] CAUTION · Осторожно
+Версия для печати
+
+## Предупреждения и меры предосторожности
+
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения новой ECM, все другие активные коды неисправностей должны быть исследованы до замены ECM.
+
+> [!warning] ОСТОРОЖНО
+> Чтобы не повредить контакты и жгут, при измерениях пользуйтесь следующими измерительными проводами: Номер детали 3822758 - пробный щуп типа вилки DeutschTM/AMPTM/Metri-PackTM, номер детали 3822917 - пробный щуп типа розетки DeutschTM/AMPTM/Metri-PackTM.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
+|---|---|---|
+| ШАГ 1. | Проверьте коды неисправностей |  |
+|  | **STEP 1A.** Проверка активных кодов неисправностей. | Код ошибки 1774 активен? |
+| ШАГ 2. | Проверьте схему насоса и датчики для заправки моторного масла |  |
+|  | **STEP 2A** Проверить датчик давления масла и контакты разъема. | Грязные или поврежденные контакты? |
+|  | **STEP 2B.** Проверить контакты входного разъема переключателя насоса OEM. | Грязные или поврежденные контакты? |
+|  | **STEP 2C.** Проверьте входное напряжение переключателя OEM-насоса. | 4.75-5.25-ВДЦ? |
+| ШАГ 3. | Проверьте насос для заправки моторного масла |  |
+|  | **STEP 3A.** Проверить работу насоса. | Насос работает? |
+| ШАГ 4. | Очистить код ошибки |  |
+|  | **STEP 4A.** Очистить коды неактивных ошибок. | Все коды неисправностей очищены? |
+
+### ШАГ 1. Проверьте коды неисправностей
+
+#### ШАГ 1A. Проверьте наличие активных кодов неисправностей.
+
+| **Условия:** Включите переключатель зажигания на электронном сервисном оборудовании Connect INSITETM. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте коды неисправностей датчика. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Код ошибки 1774 активен? *Да** | 2А |
+| Код ошибки 1774 активен? ** НЕТ** | 3А |  |
+
+### ШАГ 2. Проверьте схему зажигания моторного масла и датчики
+
+#### ШАГ 2A. Проверьте датчик давления масла и контакты разъема.
+
+| **Условия:** Замок зажигания отключите разъем датчика давления масла от разъема жгута проводов двигателя. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Осмотрите контакты разъёма датчика давления в картере и проводов двигателя на предмет: Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема разъема или разбитые штифты Разъем разъема разъема или разъема разъема разъема или на разъеме контакты Разъема оболочки разбитого Провода изоляционного повреждения Поврежденный разъем блокировки вкладки. Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection\|См. процедуру 019-361 в разделе 19.]]. | Грязные или поврежденные контакты? **Ремонт: ** В датчике давления масла или разъёме жгута проводов обнаружено поврежденное соединение. Очистите разъем и булавки. Замените поврежденный участок проводов ремня или поврежденный датчик давления масла. Проверьте все проводов, подключенные последовательно. См. процедуру 019-043 в разделе 19. | 4А |
+| Грязные или поврежденные контакты? ** НЕТ** | 2В |  |
+
+#### ШАГ 2B. Проверьте контакты входного разъёма переключателя OEM насоса.
+
+| **Условия:** Замок зажигания поворота Отключить входной разъем переключателя насоса OEM от разъема жгутов проводов двигателя. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Осмотрите контакты входного разъёма переключателя двигателя и OEM-насоса для следующих целей: Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема разъема или разбитые штифты Разъем разъема разъема или разъема разъема разъема или на разъеме контакты Разъема оболочки разбитого Провода изоляционного повреждения Поврежденный разъем блокировки вкладки. Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection\|См. процедуру 019-361 в разделе 19.]]. | Грязные или поврежденные контакты? **Ремонт:** Поврежденное соединение было обнаружено в контактах входного разъема переключателя насоса OEM или разъеме проводной ремни. Очистите разъем и булавки. | 4А |
+| Грязные или поврежденные контакты? ** НЕТ** | 3А |  |
+
+#### ШАГ 2C. Проверьте входное напряжение переключателя OEM-насоса.
+
+| **Условия:** Выключите замок зажигания. Отсоедините входной разъем переключателя OEM насоса от разъема OEM-проводов. Включите зажигание. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте входное напряжение. Измерить напряжение между входным штифтом переключателя OEM насоса и возвратом переключателя OEM насоса. См. схему или схему проводов для идентификации контакта с разъемом. | 4,75-5,25-ВДЦ? *Да** | 4А |
+| 4,75-5,25-ВДЦ? **NORepair:** См. руководство по обслуживанию OEM. | 4А |  |
+
+### ШАГ 3. Проверьте насос для заправки двигателя.
+
+#### ШАГ 3A. Проверьте насос для заправки моторного масла.
+
+| **Условия:** Включить переключатель зажигания. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверьте, работает ли насос для заправки масла Enigne. | Насос работает? *Да** | 4А |
+| Насос работает? **NORepair:** Устранение неполадок насоса для первичного сгорания моторного масла. | 4А |  |
+
+### ШАГ 4. Очистить код ошибки
+
+#### ШАГ 4A. Сбросьте коды неисправностей.
+
+| **Условия: ** Соединить все компоненты. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. |  |  |
+|---|---|---|
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Сбросьте коды неисправностей. Используйте инструмент электронного сервиса INSITETM для очистки кодов неисправностей. | Все коды неисправностей очищены? *Да** | Ремонт завершён |
+| Все коды неисправностей очищены? **NORepair: ** Устранение неполадок с оставшимися активными кодами неисправностей. | Соответствующие шаги по устранению неполадок. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ## Warnings and Cautions
+>
+> **CAUTION · Осторожно**
 > To reduce the possibility of damaging a new ECM, all other active fault codes must be investigated prior to replacing the ECM.
-
-> [!warning] CAUTION · Осторожно
+>
+> **CAUTION · Осторожно**
 > To reduce the possibility of pin and harness damage, use the following test leads when taking a measurement: Part Number 3822758 - male Deutsch™/AMP™/Metri-Pack™ test lead, Part Number 3822917 - female Deutsch™/AMP™/Metri-Pack™ test lead.
-
-## Troubleshooting Summary
-
-| STEPS | SPECIFICATIONS |  |
-|---|---|---|
-| STEP 1. | Check the fault codes |  |
-|  | **STEP 1A.** Check for active fault codes. | Fault Code 1774 active? |
-| STEP 2. | Check the engine oil priming pump circuit and sensors |  |
-|  | **STEP 2A.** Inspect the oil pressure sensor and connector pins. | Dirty or damaged pins? |
-|  | **STEP 2B.** Inspect the OEM pump switch input connector pins. | Dirty or damaged pins? |
-|  | **STEP 2C.** Check the OEM pump switch input voltage. | 4.75-5.25-VDC? |
-| STEP 3. | Check the engine oil priming pump |  |
-|  | **STEP 3A.** Check engine priming pump operation. | Pump operating? |
-| STEP 4. | Clear the fault code |  |
-|  | **STEP 4A.** Clear the inactive fault codes. | All fault codes cleared? |
-
-### STEP 1. Check the fault codes
-
-#### STEP 1A. Check for active fault codes.
-
-| **Conditions:** Turn keyswitch ON Connect INSITE™ electronic service tool. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for sensor supply fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 1774 active? **YES** | 2A |
-| Fault Code 1774 active? **NO** | 3A |  |
-
-### STEP 2. Check the engine oil priming circuit and sensors
-
-#### STEP 2A. Inspect the oil pressure sensor and connector pins.
-
-| **Conditions:** Turn keyswitch OFF Disconnect the oil pressure sensor connector from the engine harness connector. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the engine harness and crankcase pressure sensor connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19]]. | Dirty or damaged pins? **YESRepair:** A damaged connection has been detected in the oil pressure sensor or harness connector. Clean the connector and pins. Replace the damaged section of harness or damaged oil pressure sensor. Check all harnesses connected in series. Refer to Procedure 019-043 in Section 19. | 4A |
-| Dirty or damaged pins? **NO** | 2B |  |
-
-#### STEP 2B. Inspect the OEM pump switch input connector pins.
-
-| **Conditions:** Turn keyswitch OFF Disconnect the OEM pump switch input connector from the engine harness connector. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the engine harness and OEM pump switch input connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19]]. | Dirty or damaged pins? **YESRepair:** A damaged connection has been detected in the OEM pump switch input connector pins or harness connector. Clean the connector and pins. | 4A |
-| Dirty or damaged pins? **NO** | 3A |  |
-
-#### STEP 2C. Check the OEM pump switch input voltage.
-
-| **Conditions:** Turn keyswitch OFF. Disconnect the OEM pump switch input connector from the OEM harness connector. Turn keyswitch ON. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the input voltage. Measure the voltage between the OEM pump switch input pin and OEM pump switch return. Refer to the circuit diagram or wiring diagram for connector pin identification. | 4.75 to 5.25-VDC? **YES** | 4A |
-| 4.75 to 5.25-VDC? **NORepair:** Refer to the OEM service manual. | 4A |  |
-
-### STEP 3. Check the engine priming pump.
-
-#### STEP 3A. Check the engine oil priming pump.
-
-| **Conditions:** Turn keyswitch ON. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check if the enigne oil priming pump is operating. | Pump operating? **YES** | 4A |
-| Pump operating? **NORepair:** Troubleshoot the engine oil priming pump. | 4A |  |
-
-### STEP 4. Clear the fault code
-
-#### STEP 4A. Clear the fault codes.
-
-| **Conditions:** Connect all components. Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Clear the fault codes. Use INSITE™ electronic service tool to clear the fault codes. | All fault codes cleared? **YES** | Repair complete |
-| All fault codes cleared? **NORepair:** Troubleshoot any remaining active fault codes. | Appropriate troubleshooting steps. |  |
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the fault codes |  |
+> |  | **STEP 1A.** Check for active fault codes. | Fault Code 1774 active? |
+> | STEP 2. | Check the engine oil priming pump circuit and sensors |  |
+> |  | **STEP 2A.** Inspect the oil pressure sensor and connector pins. | Dirty or damaged pins? |
+> |  | **STEP 2B.** Inspect the OEM pump switch input connector pins. | Dirty or damaged pins? |
+> |  | **STEP 2C.** Check the OEM pump switch input voltage. | 4.75-5.25-VDC? |
+> | STEP 3. | Check the engine oil priming pump |  |
+> |  | **STEP 3A.** Check engine priming pump operation. | Pump operating? |
+> | STEP 4. | Clear the fault code |  |
+> |  | **STEP 4A.** Clear the inactive fault codes. | All fault codes cleared? |
+>
+> ### STEP 1. Check the fault codes
+>
+> #### STEP 1A. Check for active fault codes.
+>
+> | **Conditions:** Turn keyswitch ON Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for sensor supply fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 1774 active? **YES** | 2A |
+> | Fault Code 1774 active? **NO** | 3A |  |
+>
+> ### STEP 2. Check the engine oil priming circuit and sensors
+>
+> #### STEP 2A. Inspect the oil pressure sensor and connector pins.
+>
+> | **Conditions:** Turn keyswitch OFF Disconnect the oil pressure sensor connector from the engine harness connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the engine harness and crankcase pressure sensor connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19]]. | Dirty or damaged pins? **YESRepair:** A damaged connection has been detected in the oil pressure sensor or harness connector. Clean the connector and pins. Replace the damaged section of harness or damaged oil pressure sensor. Check all harnesses connected in series. Refer to Procedure 019-043 in Section 19. | 4A |
+> | Dirty or damaged pins? **NO** | 2B |  |
+>
+> #### STEP 2B. Inspect the OEM pump switch input connector pins.
+>
+> | **Conditions:** Turn keyswitch OFF Disconnect the OEM pump switch input connector from the engine harness connector. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the engine harness and OEM pump switch input connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19]]. | Dirty or damaged pins? **YESRepair:** A damaged connection has been detected in the OEM pump switch input connector pins or harness connector. Clean the connector and pins. | 4A |
+> | Dirty or damaged pins? **NO** | 3A |  |
+>
+> #### STEP 2C. Check the OEM pump switch input voltage.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the OEM pump switch input connector from the OEM harness connector. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the input voltage. Measure the voltage between the OEM pump switch input pin and OEM pump switch return. Refer to the circuit diagram or wiring diagram for connector pin identification. | 4.75 to 5.25-VDC? **YES** | 4A |
+> | 4.75 to 5.25-VDC? **NORepair:** Refer to the OEM service manual. | 4A |  |
+>
+> ### STEP 3. Check the engine priming pump.
+>
+> #### STEP 3A. Check the engine oil priming pump.
+>
+> | **Conditions:** Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check if the enigne oil priming pump is operating. | Pump operating? **YES** | 4A |
+> | Pump operating? **NORepair:** Troubleshoot the engine oil priming pump. | 4A |  |
+>
+> ### STEP 4. Clear the fault code
+>
+> #### STEP 4A. Clear the fault codes.
+>
+> | **Conditions:** Connect all components. Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Clear the fault codes. Use INSITE™ electronic service tool to clear the fault codes. | All fault codes cleared? **YES** | Repair complete |
+> | All fault codes cleared? **NORepair:** Troubleshoot any remaining active fault codes. | Appropriate troubleshooting steps. |  |

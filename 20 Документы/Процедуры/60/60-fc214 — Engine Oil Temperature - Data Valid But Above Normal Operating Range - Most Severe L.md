@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc214.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc214.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
@@ -33,60 +36,126 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc214.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc214.pdf)
 
-### Fault Code: 214
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
 
-Printable Version
+### Код неисправности: 214
 
-### Overview
+### Температура моторного масла выше нормы — наивысший уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 214 PID(P): P175 SPN: 175 FMI: 0/0 Lamp: Red SRT: | Engine oil temperature is above the engine protection limit. | Engine will shut down. |
+| Код неисправности: 214 PID(P): P175 SPN: 175 ФМИ: 0/0 лампа: Красная СТО: | Температура масла двигателя выше предела защиты двигателя. | Двигатель отключится. |
 
 ![[19a00857.png]]
 
-Engine Oil Temperature Sensor Circuit
+Схема датчика температуры моторного масла
 
-### Circuit Description
+### Описание цепи
 
-The engine oil temperature sensor is a variable resistor sensor used by the ECM to monitor the engine oil temperature. The engine oil temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the engine oil temperature.
+Датчик температуры моторного масла представляет собой датчик переменного резистора, используемый ECM для мониторинга температуры моторного масла. Датчик температуры моторного масла имеет две схемы: сигнал и обратные цепи. Напряжение сигнала указывает на температуру моторного масла.
 
-### Component Location
+### Расположение компонента
 
-The engine oil temperature sensor is located in the oil pan adapter on the left bank.
+Датчик температуры моторного масла расположен в адаптере масляной поддона на левом берегу.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the engine oil temperature was greater than the engine protection limit.
+Модуль управления двигателем (ECM) обнаружил, что температура масла двигателя была выше предела защиты двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность выключения сразу же, когда диагностика работает и выходит из строя.
 
-- The torque output of the engine will be reduced.
+- Выходной крутящий момент двигателя будет уменьшен.
 
-- The engine will be shut down.
+- Двигатель будет отключен.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+- Для проверки ремонта доведите двигатель до рабочей температуры и запускайте его в нормальных условиях нагрузки в течение 15 минут.
 
-- The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+- Контроллер генераторной установки отключит индикатор выключения сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning lubricating oil cooler.
+- Неисправный охладитель моторного масла.
 
-- A malfunctioning or damaged engine oil temperature sensor.
+- Неисправный или поврежденный датчик температуры моторного масла.
 
-Refer to Troubleshooting Fault Code 214.
+См. Код 214 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 214
+>
+> ### Engine Oil Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 214 PID(P): P175 SPN: 175 FMI: 0/0 Lamp: Red SRT: | Engine oil temperature is above the engine protection limit. | Engine will shut down. |
+>
+> Engine Oil Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine oil temperature sensor is a variable resistor sensor used by the ECM to monitor the engine oil temperature. The engine oil temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the engine oil temperature.
+>
+> ### Component Location
+>
+> The engine oil temperature sensor is located in the oil pan adapter on the left bank.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the engine oil temperature was greater than the engine protection limit.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+>
+> - The torque output of the engine will be reduced.
+>
+> - The engine will be shut down.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+>
+> - The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning lubricating oil cooler.
+>
+> - A malfunctioning or damaged engine oil temperature sensor.
+>
+> Refer to Troubleshooting Fault Code 214.

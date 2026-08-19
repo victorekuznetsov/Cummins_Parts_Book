@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 7
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-003-011-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-003-011-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -37,63 +40,120 @@ tags:
 > **Даты:** изменён 2006-08-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-003-011-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-003-011-om-ind.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the air crossover. Refer to Procedure 010-019.
+
+### Подготовительные операции
+
+- Удалите воздушный кроссовер. См. процедуру 010-019.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their location, before removing.
+Вдохновители для чокнутых можно установить в любом месте цилиндра. Запишите количество вдохов и их местоположение, прежде чем удалять.
 
-Remove the rocker lever cover capscrews.
+Удалите клапанные клапанные затворы на руке.
 
-Remove the rocker lever cover and gasket.
+Удалите крышку рычага клапанного клапана и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[rh4cuha.png]]
 
-Disconnect the solenoid wire from inside the cover on engines equipped with an engine brake.
+Отсоедините соленоидную проволоку изнутри крышки на двигателях, оснащенных тормозом двигателя.
 
 ![[eb4coha.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the rocker lever cover with a solvent that will **not** harm aluminum.
+Очистите крышку рычага качения клапанного клапана растворителем, который ** не** повредит алюминию.
 
-Inspect the rocker lever for cracks.
+Проверьте клапанную качалку на наличие трещин.
 
-If the rocker lever cover is cracked, it **must** be repaired or replaced.
+Если крышка рычага качения клапанного клапана сломана, ее *** необходимо отремонтировать или заменить.
 
 ![[03400138.png]]
 
-### Install
+### Установка
 
-If the engine has an engine brake, connect the solenoid wire to the terminal inside the cover.
+Если двигатель имеет тормоз двигателя, подсоедините соленоидный провод к терминалу внутри крышки.
 
 ![[eb4coha.png]]
 
-> [!warning] CAUTION · Осторожно
-> The use of gasket cement on the gasket will prevent the gasket from sealing properly.
+> [!warning] ОСТОРОЖНО
+> Использование прокладочного цемента на прокладке предотвратит надлежащее уплотнение прокладки.
 
-Install the gasket and rocker lever cover.
+Установите крышку рычага прокладки и клапанного клапана.
 
-Install the washers and capscrews.
+Установите шайбы и болты.
 
-Tighten the short capscrew first, then tighten the remaining capscrews.
+Сначала затяните короткие болты, затем затяните оставшиеся болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[rh4cuha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the air crossover. Refer to Procedure 010-019.
+- Установите воздушный кроссовер. См. процедуру 010-019.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the air crossover. Refer to Procedure 010-019.
+>
+> ### Remove
+>
+> Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their location, before removing.
+>
+> Remove the rocker lever cover capscrews.
+>
+> Remove the rocker lever cover and gasket.
+>
+> Discard the gasket.
+>
+> Disconnect the solenoid wire from inside the cover on engines equipped with an engine brake.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the rocker lever cover with a solvent that will **not** harm aluminum.
+>
+> Inspect the rocker lever for cracks.
+>
+> If the rocker lever cover is cracked, it **must** be repaired or replaced.
+>
+> ### Install
+>
+> If the engine has an engine brake, connect the solenoid wire to the terminal inside the cover.
+>
+> **CAUTION · Осторожно**
+> The use of gasket cement on the gasket will prevent the gasket from sealing properly.
+>
+> Install the gasket and rocker lever cover.
+>
+> Install the washers and capscrews.
+>
+> Tighten the short capscrew first, then tighten the remaining capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the air crossover. Refer to Procedure 010-019.

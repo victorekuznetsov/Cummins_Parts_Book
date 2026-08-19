@@ -9,6 +9,7 @@ engines:
   - "41343322"
 families:
   - "NT/NTA855 · ISM/QSM11"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021631-history.pdf"
 tags:

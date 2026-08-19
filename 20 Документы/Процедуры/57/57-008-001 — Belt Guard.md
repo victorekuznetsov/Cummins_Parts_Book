@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021539"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Belt Guard
@@ -33,78 +36,152 @@ tags:
 > **Даты:** изменён 2023-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-001.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No recommended Cummins® service tools.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Safety solvent.
+- Не рекомендуется использовать инструменты Cummins®.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- Безопасный растворитель.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Loosen the alternator belt guard capscrew assemblies.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-Remove the belt guard and capscrew assemblies.
+### Снятие
+
+Устраните затворы защиты ремня генератора.
+
+Снимите с ремня охрану и болты сборки.
 
 ![[08n00342.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the belt guard and capscrew assembly components.
+Используйте растворитель для очистки защитных элементов ремня и сборочных компонентов болтов.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[08n00139.png]]
 
-Inspect the belt guards for cracks, bent tabs, and other damage.
+Осмотрите охрану пояса на наличие трещин, согнутых вкладок и других повреждений.
 
-Check for missing or damaged fasteners.
+Проверьте наличие отсутствующих или поврежденных креплений.
 
-Replace any damaged or missing parts.
+Заменить поврежденные или отсутствующие части.
 
-Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+Проверить изоляторы на предмет повреждения. Если изоляторы жесткие и хрупкие, их необходимо заменить.
 
 ![[08n00140.png]]
 
-### Install
+### Установка
 
-For installation on new block capscrews **must** be removed from alternator bracket and from cover plate on gear cover.
+Для установки на новые блок-болты *** необходимо снять с кронштейна генератора и с крышки пластины на крышке передач.
 
 ![[08n00340.png]]
 
-Install the capscrew assemblies onto the belt guard. The components **must** be in the order shown.
+Установите болты на стойку ремня. Компоненты ** должны быть в указанном порядке.
 
 ![[08n00341.png]]
 
-Install the alternator belt guard.
+Установите защитный ремень генератора.
 
-Tighten the capscrew assemblies.
+Затягивайте болты сборок.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[08n00342.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте его правильность.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No recommended Cummins® service tools.
+>
+> #### Additional Service Items
+>
+> - Safety solvent.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> Loosen the alternator belt guard capscrew assemblies.
+>
+> Remove the belt guard and capscrew assemblies.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the belt guard and capscrew assembly components.
+>
+> Dry with compressed air.
+>
+> Inspect the belt guards for cracks, bent tabs, and other damage.
+>
+> Check for missing or damaged fasteners.
+>
+> Replace any damaged or missing parts.
+>
+> Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+>
+> ### Install
+>
+> For installation on new block capscrews **must** be removed from alternator bracket and from cover plate on gear cover.
+>
+> Install the capscrew assemblies onto the belt guard. The components **must** be in the order shown.
+>
+> Install the alternator belt guard.
+>
+> Tighten the capscrew assemblies.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for proper operation.

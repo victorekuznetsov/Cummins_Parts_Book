@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc689.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc689.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Engine Speed Sensor Error
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc689.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc689.pdf)
 
-### Fault Code: 689
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Crankshaft Engine Speed Sensor Error
 
-Printable Version
+### Код неисправности: 689
 
-### Overview
+### Ошибка датчика частоты вращения коленвала
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 689 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Primary engine speed sensor error. No engine speed signal detected from the crankshaft engine speed sensor. | No action taken by the ECM. Engine will continue to run on the camshaft engine position sensor. Possible loss of performance. |
+| Код неисправности: 689 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Ошибка датчика начальной скорости двигателя. Сигнал о скорости двигателя не был обнаружен датчиком скорости коленчатого вала. | Никаких действий со стороны ЕКМ не предпринималось. Двигатель будет продолжать работать на датчике положения двигателя распредвала. Возможная потеря производительности. |
 
 ![[19803588.png]]
 
 Crankshaft Engine Speed Sensor Circuit
 
-### Circuit Description
+### Описание цепи
 
-The crankshaft engine speed sensor provides engine speed and position information to the electronic control module (ECM). The sensor **must** be powered up by +5 VDC to operate. The sensor generates the signal by sensing the movement of target teeth machined into a tone wheel that is mounted to the crankshaft.
+Датчик скорости коленчатого вала двигателя предоставляет информацию о скорости двигателя и положении электронному модулю управления (ECM). Датчик ** должен быть включен +5 VDC для работы. Датчик генерирует сигнал, чувствуя движение зубьев-мишеней, обработанных в тональное колесо, которое установлено на коленчатый вал.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include damaged crankshaft engine speed sensor, open or shorted circuit, or power supply voltage failure.
+Возможные причины этого кода неисправности включают поврежденный датчик скорости коленчатого вала двигателя, открытый или короткий замыкание или отказ напряжения питания.
 
-Refer to Troubleshooting Fault Code t05-689
+См. Код устранения неполадок t05-689
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 689
+>
+> ### Crankshaft Engine Speed Sensor Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 689 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Primary engine speed sensor error. No engine speed signal detected from the crankshaft engine speed sensor. | No action taken by the ECM. Engine will continue to run on the camshaft engine position sensor. Possible loss of performance. |
+>
+> Crankshaft Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The crankshaft engine speed sensor provides engine speed and position information to the electronic control module (ECM). The sensor **must** be powered up by +5 VDC to operate. The sensor generates the signal by sensing the movement of target teeth machined into a tone wheel that is mounted to the crankshaft.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include damaged crankshaft engine speed sensor, open or shorted circuit, or power supply voltage failure.
+>
+> Refer to Troubleshooting Fault Code t05-689

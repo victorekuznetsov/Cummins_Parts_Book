@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc129.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc129.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Sensor 2 Circuit - Shorted Low
@@ -33,40 +36,86 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc129.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc129.pdf)
 
-### Fault Code: 129
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Pressure Sensor 2 Circuit - Shorted Low
 
-Printable Version
+### Код неисправности: 129
 
-### Overview
+### Цепь датчика давления коллектора 2 — замыкание на массу
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 129 PID(P): SPN: FMI: Lamp: Warning SRT: | Intake manifold pressure sensor 2 circuit - shorted low. | No action is taken by the ECM. Possible loss of performance. |
+| Код неисправности: 129 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Цепь датчика давления коллектора 2 — замыкание на массу. | Никаких действий со стороны ЕКМ не предпринимается. Возможная потеря производительности. |
 
 ![[19803594.png]]
 
-Intake Manifold Pressure Sensor 2 Circuit
+Схема датчика давления Manifold 2
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold pressure sensor monitors boost pressure and passes information to the electronic control module (ECM). Low voltage will trip Fault Code 129 and can be caused by shorts in the supply, signal, or return wires, an open in the supply or signal wires, low supply voltage from the ECM, or a failed sensor.
+Датчик давления впускного коллектора контролирует давление повышения и передает информацию в электронный модуль управления (ECM). Низкое напряжение будет сбивать Код 129 по умолчанию и может быть вызвано шортами в подаче, сигнале или возвратных проводах, открытым в подаче или сигнальных проводах, низким напряжением питания от ECM или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-Check for high restriction in the intake air manifold due to clogged air filters or a shutdown device in the manifold.
+Проверьте наличие высокого ограничения в впускном коллекторе воздуха из-за засорения воздушных фильтров или выключателя в коллекторе.
 
-Do **not** remove this device. If the engine is operated in a flammable atmosphere, the device is an essential safety feature.
+**Не удаляйте это устройство. Если двигатель работает в легковоспламеняющейся атмосфере, устройство является важной функцией безопасности.
 
-Make sure the turbocharger is working correctly. Check for a positive intake manifold pressure.
+Убедитесь, что турбокомпрессор работает правильно. Проверьте положительное давление коллектора потребления.
 
-Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+См. конкретную схему проводов двигателя для выходного напряжения датчика давления.
 
-Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+Примечание: Некоторые модели двигателей будут использовать разъем типа Metri-Pack на этом датчике давления, а некоторые будут использовать разъем типа DanfossTM. Контактные обозначения разъема Metri-Pack являются альфа-контактными, а контактные обозначения разъема DanfossTM числовыми. Шаги, изображенные в этом коде неисправности, показывают разъем типа Metri-Pack с вызывными альфа-пинами. См. конкретные схемы проводов двигателя, чтобы определить правильные указатели контактов для типа разъема.
 
-Refer to Troubleshooting Fault Code t05-129
+См. Код устранения неполадок t05-129
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 129
+>
+> ### Intake Manifold Pressure Sensor 2 Circuit - Shorted Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 129 PID(P): SPN: FMI: Lamp: Warning SRT: | Intake manifold pressure sensor 2 circuit - shorted low. | No action is taken by the ECM. Possible loss of performance. |
+>
+> Intake Manifold Pressure Sensor 2 Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold pressure sensor monitors boost pressure and passes information to the electronic control module (ECM). Low voltage will trip Fault Code 129 and can be caused by shorts in the supply, signal, or return wires, an open in the supply or signal wires, low supply voltage from the ECM, or a failed sensor.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Check for high restriction in the intake air manifold due to clogged air filters or a shutdown device in the manifold.
+>
+> Do **not** remove this device. If the engine is operated in a flammable atmosphere, the device is an essential safety feature.
+>
+> Make sure the turbocharger is working correctly. Check for a positive intake manifold pressure.
+>
+> Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+>
+> Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+>
+> Refer to Troubleshooting Fault Code t05-129

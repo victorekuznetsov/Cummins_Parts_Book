@@ -26,6 +26,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-058.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-010-058.pdf"
 tags:
@@ -35,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Air Intake Piping
@@ -48,14 +51,34 @@ tags:
 > **Даты:** изменён 2020-04-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-058.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-010-058.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Visually inspect the intake piping daily for wear points and damage to piping, loose clamps, or punctures that can damage the engine.
 
-Replace damaged pipes, and tighten loose clamps, as necessary, to prevent the air system from leaking.
+### Контроль при обслуживании
 
-Check for corrosion under the clamps and hoses of the intake system piping. Corrosion can allow corrosive products and dirt to enter the intake system. Disassemble and clean, as required.
+Визуально проверяйте впускные трубопроводы ежедневно на предмет точек износа и повреждения трубопроводов, свободных зажимов или проколов, которые могут повредить двигатель.
 
-See equipment manufacturer service information.
+Замените поврежденные трубы и, при необходимости, затяните свободные зажимы, чтобы предотвратить утечку воздуха.
+
+Проверить на коррозию под зажимами и шлангами трубопроводов системы впуска. Коррозия может позволить коррозионным продуктам и грязи войти в систему потребления. Разбирать и чистить, по мере необходимости.
+
+См. сервисную документацию изготовителя оборудования.
 
 ![[rp6hosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Visually inspect the intake piping daily for wear points and damage to piping, loose clamps, or punctures that can damage the engine.
+>
+> Replace damaged pipes, and tighten loose clamps, as necessary, to prevent the air system from leaking.
+>
+> Check for corrosion under the clamps and hoses of the intake system piping. Corrosion can allow corrosive products and dirt to enter the intake system. Disassemble and clean, as required.
+>
+> See equipment manufacturer service information.

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-001-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-004-001-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cam Follower Assembly
@@ -32,28 +35,56 @@ tags:
 > **Даты:** изменён 2006-09-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-004-001-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Remove the cam follower cover.
+### Снятие
 
-Remove and discard the gasket.
+с форсункой механического управления
+
+Снимите крышку крана.
+
+Снимите и утилизируйте прокладку.
 
 ![[pr400he.png]]
 
-Remove the cam follower assembly capscrews.
+Удалите болты для сборки кранов.
 
-Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+Удалите крановый сбор, вытащив прямо, пока вал не снимется с кольцевых дюбелей.
 
 ![[04400011.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the cam follower cover. Remove and discard the gasket.
+Снимите крышку крана. Снимите и утилизируйте прокладку.
 
 ![[pr400he.png]]
 
-Remove the two capscrews and washers securing the cam follower assembly. Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+Удалите два болта и шайбы, обеспечивающие сборку крана. Удалите крановый сбор, вытащив прямо, пока вал не снимется с кольцевых дюбелей.
 
 ![[03400083.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Remove the cam follower cover.
+>
+> Remove and discard the gasket.
+>
+> Remove the cam follower assembly capscrews.
+>
+> Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.
+>
+> with Electronically Actuated Injector
+>
+> Remove the cam follower cover. Remove and discard the gasket.
+>
+> Remove the two capscrews and washers securing the cam follower assembly. Remove the cam follower assembly by pulling straight out until the shaft is off the ring dowels.

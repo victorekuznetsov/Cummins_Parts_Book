@@ -21,6 +21,8 @@ manuals:
   - "3666134"
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-012-022.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-012-022.pdf"
 tags:
@@ -29,6 +31,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Air Starting Motor
@@ -42,18 +45,42 @@ tags:
 > **Даты:** изменён 2004-03-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-012-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-012-022.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-An engine air starting motor is shown in the illustration.
 
-The air starting motor system (tanks, line sizes, and valves) is designed and installed by the OEM and the starting motor suppliers. Refer any questions about the air starting systems to the manufacturer.
+### Общие сведения
 
-Do **not** operate the air starting motor with air pressure lower than 480 kPa \[70 psi\].
+На иллюстрации показан двигатель запуска воздуха.
 
-Maintain the air compressor according to the recommendations outlined in the component manufacturer's manual.
+Система запуска воздуха (танки, размеры линий и клапаны) спроектирована и установлена OEM и поставщиками пусковых двигателей. Отправьте любые вопросы о системах запуска воздуха производителю.
 
-For maximum efficiency, the hoses, tubes, and lines **must not** leak.
+**не** управлять двигателем с воздушным давлением ниже 480 кПа[70 psi].
 
-Refer to the OEM and starting motor manufacturer's manuals for specific information regarding the starting motors, valves, and systems.
+Поддерживать воздушный компрессор в соответствии с рекомендациями, изложенными в руководстве производителя компонентов.
+
+Для максимальной эффективности шланги, трубки и линии ** не должны ** протекать.
+
+См. руководства производителя OEM и стартового двигателя для получения конкретной информации о пусковых двигателях, клапанах и системах.
 
 ![[12e00002.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> An engine air starting motor is shown in the illustration.
+>
+> The air starting motor system (tanks, line sizes, and valves) is designed and installed by the OEM and the starting motor suppliers. Refer any questions about the air starting systems to the manufacturer.
+>
+> Do **not** operate the air starting motor with air pressure lower than 480 kPa \[70 psi\].
+>
+> Maintain the air compressor according to the recommendations outlined in the component manufacturer's manual.
+>
+> For maximum efficiency, the hoses, tubes, and lines **must not** leak.
+>
+> Refer to the OEM and starting motor manufacturer's manuals for specific information regarding the starting motors, valves, and systems.

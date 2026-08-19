@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-004-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-004-om.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Cold Weather Starting
@@ -37,19 +40,44 @@ tags:
 > **Даты:** изменён 2016-09-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-004-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-004-om.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Follow the normal starting procedure in this section. If equipped with an intake air heater, the WAIT-TO-START lamp will stay on longer.
 
-See the equipment manufacturer service information for any additional cold weather starting procedures.
+### Общие сведения
 
-Extreme cold conditions can cause oil pressure delays when using 15W-40 viscosity grade engine lubricating oil. For extreme cold conditions, the use of a different engine lubricating oil viscosity is recommended. Reference Procedure 018-003 in Section V in the appropriate Operation and Maintenance Manual.
+Следуйте обычной процедуре в этом разделе. Если он оснащен впускным воздушным нагревателем, лампа WAIT-TO-START будет оставаться на более длительном сроке.
 
-### Using Starting Aids
+См. информацию об услугах производителя оборудования для любых дополнительных процедур запуска в холодную погоду.
 
-> [!danger] WARNING · Опасно
-> Do not use starting fluids with this engine. This engine is equipped with an intake air heater: use of starting fluid can cause an explosion, fire, personal injury, severe damage to the engine, and property damage.
+Экстремальные холодные условия могут вызвать задержки давления масла при использовании моторного масла марки вязкости 15W-40. Для экстремальных холодных условий рекомендуется использовать другую вязкость моторного масла двигателя. Справочная процедура 018-003 в разделе V соответствующего Руководства по эксплуатации и техническому обслуживанию.
 
-Cold weather starting aids are available for this engine. Contact a Cummins® Authorized Repair Location for more information.
+### Использование стартовой помощи
+
+> [!danger] ОПАСНО
+> Не используйте стартовые жидкости с этим двигателем. Этот двигатель оснащен впускным воздушным нагревателем: Использование стартовой жидкости может вызвать взрыв, пожар, травмы, серьезные повреждения двигателя и имущественный ущерб.
+
+Для этого двигателя доступны стартовые средства холодной погоды. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации.
 
 ![[10900055.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Follow the normal starting procedure in this section. If equipped with an intake air heater, the WAIT-TO-START lamp will stay on longer.
+>
+> See the equipment manufacturer service information for any additional cold weather starting procedures.
+>
+> Extreme cold conditions can cause oil pressure delays when using 15W-40 viscosity grade engine lubricating oil. For extreme cold conditions, the use of a different engine lubricating oil viscosity is recommended. Reference Procedure 018-003 in Section V in the appropriate Operation and Maintenance Manual.
+>
+> ### Using Starting Aids
+>
+> **WARNING · Опасно**
+> Do not use starting fluids with this engine. This engine is equipped with an intake air heater: use of starting fluid can cause an explosion, fire, personal injury, severe damage to the engine, and property damage.
+>
+> Cold weather starting aids are available for this engine. Contact a Cummins® Authorized Repair Location for more information.

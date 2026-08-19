@@ -12,12 +12,15 @@ families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-ifctabl.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-ifctabl.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Information fault Codes
@@ -31,401 +34,810 @@ tags:
 > **Даты:** изменён 2002-06-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-ifctabl.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-ifctabl.pdf)
 
-> [!note] Note · Примечание
-> - Information Fault Codes have simple, corrective actions and no fault code troubleshooting tree. - SRT 00-394 applies to all of the Information Fault Codes listed below. - After correcting the condition that caused the fault, let the engine warm up; then let the engine run for 1 minute to inactivate the fault code. Then, use INSITE™ to clear the fault code.
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-CODE:
+
+> [!note] Примечание
+> Коды ошибок информации имеют простые корректирующие действия и не имеют дерева устранения неисправностей кода. SRT 00-394 применяется ко всем кодам ошибок, перечисленным ниже. После исправления состояния, вызвавшего неисправность, пусть двигатель прогреется; затем пусть двигатель работает в течение 1 минуты, чтобы инактивировать код неисправности. Затем используйте INSITETM для очистки кода ошибки.
+
+КОД:
 
 143
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Oil pressure signal indicates oil pressure is below the low-pressure engine protection limit.
+Сигнал давления масла указывает на то, что давление масла ниже предела защиты двигателя низкого давления.
 
-EFFECT:
+Последствие:
 
-Progressive power and speed derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+Прогрессивная мощность и скорость снижаются с увеличением времени после оповещения. Если функция защиты двигателя включена, двигатель отключается через 30 секунд после того, как красная лампа начинает мигать.
 
-ACTION:
+Действие:
 
-Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines, Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 151
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Coolant temperature signal indicates temperature is above 104°C (220°F).
+Сигнал температуры охлаждающей жидкости указывает на температуру выше 104 ° C (220° F).
 
-EFFECT:
+Последствие:
 
-Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+Прогрессивная сила уменьшается с увеличением времени после оповещения. Если функция защиты двигателя включена, двигатель отключается через 30 секунд после того, как красная лампа начинает мигать.
 
-ACTION:
+Действие:
 
-Refer to the High Coolant Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок при высоких температурах охлаждения в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 155
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Intake manifold temperature signal indicates temperature is above 93°C (200°F).
+Сигнал температуры коллектора потребления указывает на температуру выше 93 ° C (200° F).
 
-EFFECT:
+Последствие:
 
-Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+Прогрессивная сила уменьшается с увеличением времени после оповещения. Если функция защиты двигателя включена, двигатель отключается через 30 секунд после того, как красная лампа начинает мигать.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок при высоком уровне потребления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 211
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Additional OEM or vehicle diagnostic codes have been logged. Check other ECMs for diagnostic codes.
+Были зарегистрированы дополнительные OEM-коды или диагностические коды транспортных средств. Проверьте другие ECM для диагностических кодов.
 
-EFFECT:
+Последствие:
 
-None on engine performance.
+Ни одного по производительности двигателя.
 
-ACTION:
+Действие:
 
-Refer to the appropriate OEM manual for assistance in troubleshooting this fault.
+См. соответствующее руководство OEM для помощи в устранении неполадок по этой вине.
 
-CODE:
+КОД:
 
 214
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Oil temperature signal indicates oil temperature is above 123.9°C (255°F).
+Сигнал температуры масла указывает на температуру масла выше 123,9 ° C (255 ° F).
 
-EFFECT:
+Последствие:
 
-Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+Прогрессивная сила уменьшается с увеличением времени после оповещения. Если функция защиты двигателя включена, двигатель отключается через 30 секунд после того, как красная лампа начинает мигать.
 
-ACTION:
+Действие:
 
-Refer to the High Oil Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок при высоких температурах масла в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 219
 
-LAMP:
+Лэмп:
 
-Maintenance
+Техническое обслуживание
 
-REASON:
+Причина:
 
-Low oil level was detected in the Centinel™ makeup oil tank.
+Низкий уровень масла был обнаружен в масляном резервуаре для макияжа CentinelTM.
 
-EFFECT:
+Последствие:
 
-None on performance. Centinel™ system deactivated.
+Ни одного на выступление. Система CentinelTM отключена.
 
-ACTION:
+Действие:
 
-Add engine oil to the Centinel™ makeup oil tank. If fault remains active with a full oil tank, remove and clean the oil level sensor.
+Добавьте моторное масло в масляный бак CentinelTM. Если неисправность остается активной с полным масляным баком, удалите и очистите датчик уровня масла.
 
-CODE:
+КОД:
 
 287
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-The OEM vehicle electronic control unit (VECU) detected a fault with its throttle pedal.
+Электронный блок управления OEM-автомобиля (VECU) обнаружил неисправность с педалью дроссельной заслонки.
 
-EFFECT:
+Последствие:
 
-The engine will only idle.
+Двигатель будет только простаивать.
 
-ACTION:
+Действие:
 
-Refer to the OEM troubleshooting and repair manual. Troubleshoot the accelerator pedal connected to the OEM supplied vehicle electronic control unit (VECU).
+См. руководство изготовителя машины по диагностике и ремонту. Устранение неполадок педалью ускорителя, подключенной к электронному блоку управления транспортным средством (VECU), поставляемому OEM.
 
-CODE:
+КОД:
 
 288
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-The OEM vehicle electronic control unit (VECU) detected a fault with its remote throttle.
+Электронный блок управления OEM-автомобиля (VECU) обнаружил неисправность с помощью дистанционного дросселя.
 
-EFFECT:
+Последствие:
 
-The engine will NOT respond to the remote throttle.
+Двигатель не будет реагировать на удаленный дроссел.
 
-ACTION:
+Действие:
 
-Refer to the OEM Troubleshooting and Repair Manual. Troubleshoot the remote throttle pedal connected to the OEM supplied vehicle electronic control unit (VECU).
+См. руководство изготовителя машины по диагностике и ремонту. Устранение неполадок с помощью педали дистанционного дроссельного заслонка, подключенной к электронному блоку управления транспортным средством (VECU), поставляемому OEM.
 
-CODE:
+КОД:
 
 295
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-An error in the ambient air pressure sensor signal was detected by the ECM.
+Ошибка в сигнале датчика давления окружающего воздуха была обнаружена ECM.
 
-EFFECT:
+Последствие:
 
-Engine is derated to no-air setting.
+Двигатель отнесен к параметрам без воздуха.
 
-ACTION:
+Действие:
 
-Verify ambient air pressure value is from 25.0 in Hg to 30.5 in Hg using INSITE™. Replace ambient air pressure sensor if necessary.
+Проверить значение давления окружающего воздуха от 25,0 в Hg до 30,5 в Hg с помощью INSITETM. При необходимости заменяйте датчик давления воздуха в окружающей среде.
 
-CODE:
+КОД:
 
 299
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-The engine was shut down by a device other than the keyswitch before the proper engine cool down resulting in a filtered load factor above the maximum shutdown threshold.
+Двигатель был выключен устройством, отличным от переключателя зажигания, до того, как надлежащий двигатель остыл, что привело к фильтрованному коэффициенту нагрузки выше максимального порога выключения.
 
-EFFECT:
+Последствие:
 
-No action taken by the ECM.
+Никаких действий со стороны ЕКМ не предпринималось.
 
-ACTION:
+Действие:
 
-CODE:
+КОД:
 
 415
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Oil pressure signal indicates oil pressure below the very low oil pressure engine protection limit.
+Сигнал давления масла указывает на давление масла ниже очень низкого предела защиты двигателя от давления масла.
 
-EFFECT:
+Последствие:
 
-Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+Прогрессивная сила уменьшается с увеличением времени после оповещения. Если функция защиты двигателя включена, двигатель отключается через 30 секунд после того, как красная лампа начинает мигать.
 
-ACTION:
+Действие:
 
-Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 418
 
-LAMP:
+Лэмп:
 
-Maintenance
+Техническое обслуживание
 
-REASON:
+Причина:
 
-Water has been detected in the fuel filter.
+В топливном фильтре обнаружена вода.
 
-EFFECT:
+Последствие:
 
-Possible white smoke, loss of power, or hard starting.
+Возможен белый дым, потеря энергии или жесткий старт.
 
-ACTION:
+Действие:
 
-Drain water from fuel filter. Refer to the Water in Fuel symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00, if fault reoccurs frequently.
+Сливать воду из топливного фильтра. См. процедуру устранения неполадок в симптомах воды в топливе в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00, если неисправность повторяется часто.
 
-CODE:
+КОД:
 
 419
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-An error in the intake manifold pressure sensor signal was detected by the ECM.
+Ошибка в сигнале датчика давления впускного коллектора была обнаружена ECM.
 
-EFFECT:
+Последствие:
 
-Engine is derated to no-air setting.
+Двигатель отнесен к параметрам без воздуха.
 
-ACTION:
+Действие:
 
-Verify intake manifold pressure value is from -2.5 in Hg to 2.5 in Hg using INSITE™. Replace intake manifold pressure/temperature sensor if necessary.
+Проверить значение давления впускного коллектора от -2,5 в рт.ст. до 2,5 в рт.ст. с помощью INSITETM. При необходимости заменить датчик давления/температуры впускного коллектора.
 
-CODE:
+КОД:
 
 435
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-An error in the oil pressure sensor signal was detected by the ECM.
+Ошибка в сигнале датчика давления масла была обнаружена ECM.
 
-EFFECT:
+Последствие:
 
-None on performance. No engine protection for oil pressure.
+Ни одного на выступление. Отсутствие защиты двигателя от давления масла.
 
-ACTION:
+Действие:
 
-Verify oil pressure valve is from -1.5 psi to 4.0 psi when the engine is stopped using INSITE™. Replace oil pressure/temperature sensor if necessary.
+Проверка клапана давления масла составляет от -1,5 psi до 4,0 psi, когда двигатель прекращает работу с помощью INSITETM. При необходимости заменяйте датчик давления/температуры масла.
 
-CODE:
+КОД:
 
 471
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Low crankcase oil level was detected by the ECM.
+Низкий уровень масла в картере был обнаружен ECM.
 
-EFFECT:
+Последствие:
 
-None on performance. Centinel™ system is deactivated.
+Ни одного на выступление. Система CentinelTM деактивирована.
 
-ACTION:
+Действие:
 
-CODE:
+КОД:
 
 595
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Turbocharger overspeed protection fault.
+Неисправность защиты от перегрузки турбокомпрессором.
 
-EFFECT:
+Последствие:
 
-The engine will run derated.
+Двигатель будет работать в сжатом состоянии.
 
-ACTION:
+Действие:
 
-Refer to the High Turbocharger Speed symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+См. процедуру устранения неполадок с симптомами высокой скорости турбокомпрессора в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 611
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Engine shutdown by operator before the proper engine cool down, resulting in filtered load factor above maximum shutdown threshold.
+Отключение двигателя оператором перед охлаждением правильного двигателя, что приводит к коэффициенту фильтрованной нагрузки выше максимального порога отключения.
 
-EFFECT:
+Последствие:
 
-No action taken by the ECM.
+Никаких действий со стороны ЕКМ не предпринималось.
 
-ACTION:
+Действие:
 
-Refer to the Hot Shutdown symptom troubleshooting procedures.
+Смотрите процедуры устранения неполадок с симптомом горячего отключения.
 
-CODE:
+КОД:
 
 775
 
-LAMP:
+Лэмп:
 
-Maintenance
+Техническое обслуживание
 
-REASON:
+Причина:
 
-A slow leak has been detected in the air system.
+Медленная утечка была обнаружена в воздушной системе.
 
-EFFECT:
+Последствие:
 
-None on performance.
+Ни одного на выступление.
 
-ACTION:
+Действие:
 
-Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 776
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-A fast leak has been detected in the air system.
+В воздушной системе обнаружена быстрая утечка.
 
-EFFECT:
+Последствие:
 
-None on performance.
+Ни одного на выступление.
 
-ACTION:
+Действие:
 
-Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
 
-CODE:
+КОД:
 
 951
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-A power imbalance between cylinders was detected by the ECM.
+Дисбаланс мощности между цилиндрами был обнаружен ECM.
 
-EFFECT:
+Последствие:
 
-Engine can possibly have rough idle or misfire.
+Двигатель может иметь грубое бездействие или осечку.
 
-ACTION:
+Действие:
 
-Check fuel quality. Check for air being ingested by the fuel. It is normal to have an inactive Fault Code 951 after a service procedure introduced air into the fuel system, such as a filter change. Perform Cylinder Performance Test to determine if a particular cylinder or cylinders are high or low on power. Refer to Procedure 014-008 Cylinder Performance Test in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+Проверьте качество топлива. Проверьте, не попадает ли воздух в топливо. Нормально иметь неактивный код 951 по умолчанию после процедуры подачи воздуха в топливную систему, например, изменения фильтра. Выполните испытание производительности цилиндра, чтобы определить, является ли конкретный цилиндр или цилиндры с высокой или низкой мощностью. См. процедуру 014-008 Испытание на эффективность цилиндров в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+
+
+> [!quote]- Original (English) · английский оригинал
+> **Note · Примечание**
+> - Information Fault Codes have simple, corrective actions and no fault code troubleshooting tree. - SRT 00-394 applies to all of the Information Fault Codes listed below. - After correcting the condition that caused the fault, let the engine warm up; then let the engine run for 1 minute to inactivate the fault code. Then, use INSITE™ to clear the fault code.
+>
+> CODE:
+>
+> 143
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Oil pressure signal indicates oil pressure is below the low-pressure engine protection limit.
+>
+> EFFECT:
+>
+> Progressive power and speed derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+>
+> ACTION:
+>
+> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines, Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 151
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Coolant temperature signal indicates temperature is above 104°C (220°F).
+>
+> EFFECT:
+>
+> Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+>
+> ACTION:
+>
+> Refer to the High Coolant Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 155
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Intake manifold temperature signal indicates temperature is above 93°C (200°F).
+>
+> EFFECT:
+>
+> Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 211
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Additional OEM or vehicle diagnostic codes have been logged. Check other ECMs for diagnostic codes.
+>
+> EFFECT:
+>
+> None on engine performance.
+>
+> ACTION:
+>
+> Refer to the appropriate OEM manual for assistance in troubleshooting this fault.
+>
+> CODE:
+>
+> 214
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Oil temperature signal indicates oil temperature is above 123.9°C (255°F).
+>
+> EFFECT:
+>
+> Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+>
+> ACTION:
+>
+> Refer to the High Oil Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 219
+>
+> LAMP:
+>
+> Maintenance
+>
+> REASON:
+>
+> Low oil level was detected in the Centinel™ makeup oil tank.
+>
+> EFFECT:
+>
+> None on performance. Centinel™ system deactivated.
+>
+> ACTION:
+>
+> Add engine oil to the Centinel™ makeup oil tank. If fault remains active with a full oil tank, remove and clean the oil level sensor.
+>
+> CODE:
+>
+> 287
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> The OEM vehicle electronic control unit (VECU) detected a fault with its throttle pedal.
+>
+> EFFECT:
+>
+> The engine will only idle.
+>
+> ACTION:
+>
+> Refer to the OEM troubleshooting and repair manual. Troubleshoot the accelerator pedal connected to the OEM supplied vehicle electronic control unit (VECU).
+>
+> CODE:
+>
+> 288
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> The OEM vehicle electronic control unit (VECU) detected a fault with its remote throttle.
+>
+> EFFECT:
+>
+> The engine will NOT respond to the remote throttle.
+>
+> ACTION:
+>
+> Refer to the OEM Troubleshooting and Repair Manual. Troubleshoot the remote throttle pedal connected to the OEM supplied vehicle electronic control unit (VECU).
+>
+> CODE:
+>
+> 295
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> An error in the ambient air pressure sensor signal was detected by the ECM.
+>
+> EFFECT:
+>
+> Engine is derated to no-air setting.
+>
+> ACTION:
+>
+> Verify ambient air pressure value is from 25.0 in Hg to 30.5 in Hg using INSITE™. Replace ambient air pressure sensor if necessary.
+>
+> CODE:
+>
+> 299
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> The engine was shut down by a device other than the keyswitch before the proper engine cool down resulting in a filtered load factor above the maximum shutdown threshold.
+>
+> EFFECT:
+>
+> No action taken by the ECM.
+>
+> ACTION:
+>
+> CODE:
+>
+> 415
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Oil pressure signal indicates oil pressure below the very low oil pressure engine protection limit.
+>
+> EFFECT:
+>
+> Progressive power derate with increasing time after alert. If engine protection shutdown feature is enabled, engine will shut down 30 seconds after the red lamp starts flashing.
+>
+> ACTION:
+>
+> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 418
+>
+> LAMP:
+>
+> Maintenance
+>
+> REASON:
+>
+> Water has been detected in the fuel filter.
+>
+> EFFECT:
+>
+> Possible white smoke, loss of power, or hard starting.
+>
+> ACTION:
+>
+> Drain water from fuel filter. Refer to the Water in Fuel symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00, if fault reoccurs frequently.
+>
+> CODE:
+>
+> 419
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> An error in the intake manifold pressure sensor signal was detected by the ECM.
+>
+> EFFECT:
+>
+> Engine is derated to no-air setting.
+>
+> ACTION:
+>
+> Verify intake manifold pressure value is from -2.5 in Hg to 2.5 in Hg using INSITE™. Replace intake manifold pressure/temperature sensor if necessary.
+>
+> CODE:
+>
+> 435
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> An error in the oil pressure sensor signal was detected by the ECM.
+>
+> EFFECT:
+>
+> None on performance. No engine protection for oil pressure.
+>
+> ACTION:
+>
+> Verify oil pressure valve is from -1.5 psi to 4.0 psi when the engine is stopped using INSITE™. Replace oil pressure/temperature sensor if necessary.
+>
+> CODE:
+>
+> 471
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Low crankcase oil level was detected by the ECM.
+>
+> EFFECT:
+>
+> None on performance. Centinel™ system is deactivated.
+>
+> ACTION:
+>
+> CODE:
+>
+> 595
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Turbocharger overspeed protection fault.
+>
+> EFFECT:
+>
+> The engine will run derated.
+>
+> ACTION:
+>
+> Refer to the High Turbocharger Speed symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 611
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Engine shutdown by operator before the proper engine cool down, resulting in filtered load factor above maximum shutdown threshold.
+>
+> EFFECT:
+>
+> No action taken by the ECM.
+>
+> ACTION:
+>
+> Refer to the Hot Shutdown symptom troubleshooting procedures.
+>
+> CODE:
+>
+> 775
+>
+> LAMP:
+>
+> Maintenance
+>
+> REASON:
+>
+> A slow leak has been detected in the air system.
+>
+> EFFECT:
+>
+> None on performance.
+>
+> ACTION:
+>
+> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 776
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> A fast leak has been detected in the air system.
+>
+> EFFECT:
+>
+> None on performance.
+>
+> ACTION:
+>
+> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+>
+> CODE:
+>
+> 951
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> A power imbalance between cylinders was detected by the ECM.
+>
+> EFFECT:
+>
+> Engine can possibly have rough idle or misfire.
+>
+> ACTION:
+>
+> Check fuel quality. Check for air being ingested by the fuel. It is normal to have an inactive Fault Code 951 after a service procedure introduced air into the fuel system, such as a filter change. Perform Cylinder Performance Test to determine if a particular cylinder or cylinders are high or low on power. Refer to Procedure 014-008 Cylinder Performance Test in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.

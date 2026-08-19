@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-155.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-155.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Oil Pressure/Temperature Sensor
@@ -32,21 +35,46 @@ tags:
 > **Даты:** изменён 2002-06-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-155.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-155.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the oil pressure/temperature sensor from the sensor harness.
 
-Remove the sensor.
+### Снятие
+
+Отсоедините датчик давления/температуры масла от проводов датчика.
+
+Удалите датчик.
 
 ![[19200328.png]]
 
-### Install
+### Установка
 
-Install the oil pressure/temperature sensor.
+Установите датчик давления/температуры масла.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
+
+Подключите датчик к проводах датчика. Слышный щелчок будет слышен, когда разъем запирается на месте.
+
+![[19200328.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the oil pressure/temperature sensor from the sensor harness.
+>
+> Remove the sensor.
+>
+> ### Install
+>
+> Install the oil pressure/temperature sensor.
+>
+> **Момент затяжки · Torque Value**
 > 14 n•m [124 in-lb]
-
-Connect the sensor to the sensor harness. An audible click will be heard when the connector locks in place.
-
-![[19200328.png]]
+>
+> Connect the sensor to the sensor harness. An audible click will be heard when the connector locks in place.

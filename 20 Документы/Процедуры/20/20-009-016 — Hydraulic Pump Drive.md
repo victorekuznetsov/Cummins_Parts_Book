@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 18
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Hydraulic Pump Drive
@@ -32,188 +35,348 @@ tags:
 > **Даты:** изменён 2008-11-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-016.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A hydraulic pump can be mounted on the front or at the rear of the gear cover.
 
-The SAE A two-bolt type flange is required to mount a hydraulic pump at the rear of the gear cover. The SAE B four-bolt type flange is required for a hydraulic pump to be mounted on the front of the gear cover. There is a specific drive required to match the different sizes of spline drives required for the optional hydraulic pumps.
+### Общие сведения
 
-Engines that do **not** have a hydraulic pump drive **must** have parts that block the oil holes in the gear cover and housing for correct engine oil pressure. A four-bolt flange that has a blind plug welded to it **must** be installed on the front of the gear cover. The blind plug will extend into the bushing, blocking the oil drilling. A three-bolt cover that has two o-rings **must** be installed on the rear of the gear housing.
+Гидравлический насос может быть установлен на передней или задней части крышки передач.
 
-A hydraulic pump drive can be installed by removing the blind plug flange and the cover. If **only** the rear drive port is used, a plain four-bolt cover and gasket **must** be installed on the front of the cover. If **only** the front drive port is used, a two-bolt cover and gasket **must** be installed on the rear of the pump drive.
+Фланец типа SAE A с двумя болтами требуется для установки гидравлического насоса в задней части крышки передач. Фланец типа четырех болтов SAE B необходим для установки гидравлического насоса на передней части крышки передач. Существует специальный привод, необходимый для соответствия различным размерам приводов сплина, необходимых для дополнительных гидравлических насосов.
 
-### Preparatory Steps
+Двигатели, которые не имеют привода гидравлического насоса, должны иметь детали, которые блокируют нефтяные отверстия в крышке передач и корпусе для правильного давления масла двигателя. Четырехобменный фланец, на котором приварена слепая пробка ***, должен быть установлен на передней части крышки передач. Слепая пробка будет распространяться в втулку, блокируя бурение нефти. Трехболтовая крышка, имеющая два кольца ***, должна быть установлена на задней части корпуса зубчатой передачи.
 
-> [!note] Note · Примечание
-> Some engines contain a cover plate instead of a hydraulic pump.
+Гидравлический насос может быть установлен путем удаления фланца слепой пробки и крышки. Если используется только порт заднего привода, на передней части крышки должна быть установлена простая четырехболтовая крышка и прокладка **. Если используется только передний приводной порт, на задней части насосного привода должна быть установлена двухболтовая крышка и прокладка **.
 
-- Remove the hydraulic pump. Use the equipment manufacturer's instructions.
+### Подготовительные операции
+
+> [!note] Примечание
+> Некоторые двигатели содержат крышку вместо гидравлического насоса.
+
+- Удалите гидравлический насос. Используйте инструкции производителя оборудования.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the four hydraulic pump drive mounting capscrews.
+Удалите четыре гидравлических насоса, приводящих в действие крепежные болты.
 
-Remove the hydraulic pump drive.
+Удалите гидравлический насос.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[hd400ha.png]]
 
-### Disassemble
+### Разборка
 
-Remove the retaining ring.
+Удалите удерживающее кольцо.
 
 ![[hd4drfb.png]]
 
-Remove the clamping washer.
+Уберите зажимную стиральную машину.
 
-Remove the thrust bearing.
+Удалить подшипник тяги.
 
 ![[hd4drfc.png]]
 
-Remove the shaft and gear assembly from the housing.
+Снять с кожуха вал и шестерню.
 
-Remove the thrust bearing.
+Удалить подшипник тяги.
 
 ![[hd4drfd.png]]
 
-> [!note] Note · Примечание
-> **Only** replace the bushing if it is damaged, or is **not** within specifications.
+> [!note] Примечание
+> *** Заменять втулку только в том случае, если она повреждена, или если она не включена в спецификации.
 
-Support the housing in an arbor press.
+Поддержите гильзу в прессе.
 
-Press the bushing out of the housing with a mandrel and arbor press.
+Нажмите на втулку из корпуса с помощью мангрового и арборного пресса.
 
 ![[09400066.png]]
 
-> [!note] Note · Примечание
-> **Only** remove the gear from the shaft when the gear or the shaft **must** be replaced.
+> [!note] Примечание
+> *** Снимите с вала только тогда, когда необходимо заменить передачу или вал**.
 
-Remove the gear from the shaft with an arbor press.
+Снимите шестерню с вала с помощью пресса беседки.
 
 ![[09400068.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the hydraulic pump drive housing and gear with solvent.
+Очистить корпус привода гидравлического насоса и снаряжение растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
-Remove the cover from the pump.
+Снимите крышку с насоса.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[hd4drfa.png]]
 
-Measure the hydraulic pump drive end clearance.
+Измерьте гидравлический насос привода конце зазора.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 0.13 | MIN | 0.005 |
-| 0.48 | MAX | 0.019 |
+| 0.13 | Мин | 0.005 |
+| 0.48 | Макс | 0.019 |
 
-If the hydraulic pump drive is **not** within specifications, it **must** be reconditioned.
+Если привод гидравлического насоса ** не** в пределах спецификаций, он ** должен быть восстановлен.
 
 ![[hd4dria.png]]
 
-Clean the housing with solvent.
+Очистить кожух растворителем.
 
-Measure the bushing inside diameter.
+Измерьте втулку внутри диаметра.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 50.813 | MIN | 2.0005 |
-| 50.902 | MAX | 2.0050 |
+| 50.813 | Мин | 2.0005 |
+| 50.902 | Макс | 2.0050 |
 
-If the bushing is **not** within specifications, it **must** be replaced.
+Если втулка ** не** в пределах спецификаций, она *** должна быть заменена.
 
 ![[hd4hsta.png]]
 
-### Assemble
+### Сборка
 
-Apply a smooth coating of Loctite® 609, or equivalent, to the inside diameter of the gear.
+Нанесите гладкое покрытие Loctite® 609 или эквивалентное внутреннему диаметру зубчатой передачи.
 
-Support the gear in an arbor press with the part number down.
+Поддерживайте передачу в прессе беседки с номером детали вниз.
 
-Press the shaft through the gear until the shoulder of the shaft touches the gear.
+Нажмите вал через передачу, пока плечо вала не коснется передачи.
 
 ![[09400070.png]]
 
-Place the housing in an arbor press.
+Поместите гильзу в пресс-центр.
 
-Align the oil hole in the bushing with the oil drilling in the shaft.
+Выровнять нефтяную дыру в втулке с бурением нефти в шахте.
 
-Press the bushing into the housing with a mandrel and arbor press.
+Нажмите на втулку в кожух с помощью мангрового и арборного пресса.
 
-Both ends of the bushing **must** be positioned even with or below the surface of the housing.
+Оба конца втулки ** должны быть расположены даже с поверхностью корпуса или ниже нее.
 
 ![[09400067.png]]
 
-Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, or equivalent.
+Смазать канавку поверхности подшипника тяги с помощью LubriplateTM 105 или эквивалента.
 
-Position the grooved surface of the thrust bearing (3) as shown in the illustration.
+Поместите выгнутую поверхность подшипника (3) тяги, как показано на иллюстрации.
 
-Slide the gear and shaft assembly into the housing.
+Сдвиньте шестерню и вал в корпус.
 
-The gear **must** touch the thrust bearing.
+Аппарат ** должен** касаться подшипника тяги.
 
 ![[hd4draa.png]]
 
-Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105 or equivalent.
+Смазать канавку поверхности подшипника тяги с помощью LubriplateTM 105 или эквивалента.
 
-Slide the thrust bearing over the shaft with the grooved side positioned up.
+Сдвиньте подшипник тяги над валом с выгнутой стороной, расположенной вверх.
 
-Slide the clamping washer over the shaft with the beveled edge positioned against the thrust bearing.
+Сдвиньте зажимную шайбу над валом со скошенным краем, расположенным против подшипника тяги.
 
-Install the retaining ring with the beveled edge positioned as shown in the illustration.
+Установите удерживающее кольцо с скошенным краем, расположенным, как показано на иллюстрации.
 
 ![[hd4drab.png]]
 
-Measure the hydraulic pump drive end clearance.
+Измерьте гидравлический насос привода конце зазора.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 0.13 | MIN | 0.005 |
-| 0.48 | MAX | 0.019 |
+| 0.13 | Мин | 0.005 |
+| 0.48 | Макс | 0.019 |
 
-If the hydraulic pump drive is **not** within specifications, it **must** be reconditioned.
+Если привод гидравлического насоса ** не** в пределах спецификаций, он ** должен быть восстановлен.
 
 ![[hd4dria.png]]
 
-Install a new gasket.
+Установите новую прокладку.
 
-Install the cover.
+Установите крышку.
 
-Install the lock washers and capscrews.
+Установите шайбы и болты.
 
 ![[hd4drfa.png]]
 
-### Install
+### Установка
 
-The hydraulic pump drive or cover plate for engines with a two-piece front cover **must** have an o-ring, in addition to the gasket.
+Гидравлический насос привод или крышка пластины для двигателей с двухсекционным передним крышкой ** должны ** иметь кольцо, в дополнение к прокладке.
 
-Lubricate the bushing in the front cover with clean engine oil.
+Смазать втулку в передней крышке чистым моторным маслом.
 
-Install the gasket, hydraulic pump drive, lock washers, and capscrews.
+Установите прокладку, гидравлический насосный привод, шайбы блокировки и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[hd400ha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the hydraulic pump. Refer to the OEM troubleshooting and repair manual.
-- Operate the engine and check for leaks.
+- Установите гидравлический насос. См. руководство изготовителя машины по диагностике и ремонту.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> A hydraulic pump can be mounted on the front or at the rear of the gear cover.
+>
+> The SAE A two-bolt type flange is required to mount a hydraulic pump at the rear of the gear cover. The SAE B four-bolt type flange is required for a hydraulic pump to be mounted on the front of the gear cover. There is a specific drive required to match the different sizes of spline drives required for the optional hydraulic pumps.
+>
+> Engines that do **not** have a hydraulic pump drive **must** have parts that block the oil holes in the gear cover and housing for correct engine oil pressure. A four-bolt flange that has a blind plug welded to it **must** be installed on the front of the gear cover. The blind plug will extend into the bushing, blocking the oil drilling. A three-bolt cover that has two o-rings **must** be installed on the rear of the gear housing.
+>
+> A hydraulic pump drive can be installed by removing the blind plug flange and the cover. If **only** the rear drive port is used, a plain four-bolt cover and gasket **must** be installed on the front of the cover. If **only** the front drive port is used, a two-bolt cover and gasket **must** be installed on the rear of the pump drive.
+>
+> ### Preparatory Steps
+>
+> **Note · Примечание**
+> Some engines contain a cover plate instead of a hydraulic pump.
+>
+> - Remove the hydraulic pump. Use the equipment manufacturer's instructions.
+>
+> ### Remove
+>
+> Remove the four hydraulic pump drive mounting capscrews.
+>
+> Remove the hydraulic pump drive.
+>
+> Remove and discard the gasket.
+>
+> ### Disassemble
+>
+> Remove the retaining ring.
+>
+> Remove the clamping washer.
+>
+> Remove the thrust bearing.
+>
+> Remove the shaft and gear assembly from the housing.
+>
+> Remove the thrust bearing.
+>
+> **Note · Примечание**
+> **Only** replace the bushing if it is damaged, or is **not** within specifications.
+>
+> Support the housing in an arbor press.
+>
+> Press the bushing out of the housing with a mandrel and arbor press.
+>
+> **Note · Примечание**
+> **Only** remove the gear from the shaft when the gear or the shaft **must** be replaced.
+>
+> Remove the gear from the shaft with an arbor press.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the hydraulic pump drive housing and gear with solvent.
+>
+> Dry with compressed air.
+>
+> Remove the cover from the pump.
+>
+> Remove and discard the gasket.
+>
+> Measure the hydraulic pump drive end clearance.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.13 | MIN | 0.005 |
+> | 0.48 | MAX | 0.019 |
+>
+> If the hydraulic pump drive is **not** within specifications, it **must** be reconditioned.
+>
+> Clean the housing with solvent.
+>
+> Measure the bushing inside diameter.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 50.813 | MIN | 2.0005 |
+> | 50.902 | MAX | 2.0050 |
+>
+> If the bushing is **not** within specifications, it **must** be replaced.
+>
+> ### Assemble
+>
+> Apply a smooth coating of Loctite® 609, or equivalent, to the inside diameter of the gear.
+>
+> Support the gear in an arbor press with the part number down.
+>
+> Press the shaft through the gear until the shoulder of the shaft touches the gear.
+>
+> Place the housing in an arbor press.
+>
+> Align the oil hole in the bushing with the oil drilling in the shaft.
+>
+> Press the bushing into the housing with a mandrel and arbor press.
+>
+> Both ends of the bushing **must** be positioned even with or below the surface of the housing.
+>
+> Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, or equivalent.
+>
+> Position the grooved surface of the thrust bearing (3) as shown in the illustration.
+>
+> Slide the gear and shaft assembly into the housing.
+>
+> The gear **must** touch the thrust bearing.
+>
+> Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105 or equivalent.
+>
+> Slide the thrust bearing over the shaft with the grooved side positioned up.
+>
+> Slide the clamping washer over the shaft with the beveled edge positioned against the thrust bearing.
+>
+> Install the retaining ring with the beveled edge positioned as shown in the illustration.
+>
+> Measure the hydraulic pump drive end clearance.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.13 | MIN | 0.005 |
+> | 0.48 | MAX | 0.019 |
+>
+> If the hydraulic pump drive is **not** within specifications, it **must** be reconditioned.
+>
+> Install a new gasket.
+>
+> Install the cover.
+>
+> Install the lock washers and capscrews.
+>
+> ### Install
+>
+> The hydraulic pump drive or cover plate for engines with a two-piece front cover **must** have an o-ring, in addition to the gasket.
+>
+> Lubricate the bushing in the front cover with clean engine oil.
+>
+> Install the gasket, hydraulic pump drive, lock washers, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the hydraulic pump. Refer to the OEM troubleshooting and repair manual.
+> - Operate the engine and check for leaks.

@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-200-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-200-004.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -37,26 +40,56 @@ tags:
 > **Даты:** изменён 2006-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-200-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-200-004.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[10400276.png]]
 
-Intake System
+Система впуска
 
-1. Intake air inlet to turbocharger
-2. Turbocharger air to aftercooler
-3. Aftercooler
-4. Intake manifold
-5. Intake valve ports.
+1. Впуск воздуха в турбокомпрессор
+2. Воздух турбокомпрессора после охлаждения
+3. Охладитель наддувочного воздуха
+4. Впускной коллектор
+5. Входные клапанные порты.
 
 ![[10400277.png]]
 
-KTTA Intake System
+Система приема KTTA
 
-1. Intake air inlet to turbocharger
-2. Turbocharger air to high stage turbocharger
-3. High stage turbocharger
-4. Turbocharger air to aftercooler
-5. Aftercooler
-6. Intake manifold
-7. Intake valve ports.
+1. Впуск воздуха в турбокомпрессор
+2. Турбокомпрессорный воздух для турбокомпрессора высокой ступени
+3. Турбокомпрессор высокой ступени
+4. Воздух турбокомпрессора после охлаждения
+5. Охладитель наддувочного воздуха
+6. Впускной коллектор
+7. Входные клапанные порты.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Intake System
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger air to aftercooler
+> 3. Aftercooler
+> 4. Intake manifold
+> 5. Intake valve ports.
+>
+> KTTA Intake System
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger air to high stage turbocharger
+> 3. High stage turbocharger
+> 4. Turbocharger air to aftercooler
+> 5. Aftercooler
+> 6. Intake manifold
+> 7. Intake valve ports.

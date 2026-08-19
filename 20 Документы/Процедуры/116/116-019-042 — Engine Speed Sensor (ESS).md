@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021617"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-042.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-042.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Engine Speed Sensor (ESS)
@@ -32,31 +35,62 @@ tags:
 > **Даты:** изменён 2007-04-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-042.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the C Command Elite Plus harness engine speed sensor connectors from the engine speed sensor connectors.
+
+### Снятие
+
+Отключите разъемы датчика скорости двигателя C Command Elite Plus от разъемов датчика скорости двигателя.
 
 ![[19600972.png]]
 
-Loosen the engine speed sensor jam nut.
+Освободите датчик скорости двигателя.
 
-Remove the sensor by turning it in a **counterclockwise** direction.
+Удалите датчик, повернув его в направлении ** против часовой стрелки **.
 
 ![[19600973.png]]
 
-### Install
+### Установка
 
-Install the sensor by turning it in a **clockwise** direction until the sensor touches the flywheel.
+Установите датчик, повернув его в направлении ** часовой стрелки **, пока датчик не коснется маховика.
 
-Turn the sensor **counterclockwise** ½ turn.
+Поверните датчик ** против часовой стрелки ** 1⁄2 поворота.
 
-Tighten the jam nut.
+Затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 34-47 Н·м [25-35 футов-lb]
+
+![[19600973.png]]
+
+Подключите разъемы датчика скорости двигателя C Command Elite Plus к разъемам датчика скорости двигателя.
+
+![[19600972.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the C Command Elite Plus harness engine speed sensor connectors from the engine speed sensor connectors.
+>
+> Loosen the engine speed sensor jam nut.
+>
+> Remove the sensor by turning it in a **counterclockwise** direction.
+>
+> ### Install
+>
+> Install the sensor by turning it in a **clockwise** direction until the sensor touches the flywheel.
+>
+> Turn the sensor **counterclockwise** ½ turn.
+>
+> Tighten the jam nut.
+>
+> **Момент затяжки · Torque Value**
 > 34 to 47 n•m [25 to 35 ft-lb]
-
-![[19600973.png]]
-
-Connect the C Command Elite Plus harness engine speed sensor connectors to the engine speed sensor connectors.
-
-![[19600972.png]]
+>
+> Connect the C Command Elite Plus harness engine speed sensor connectors to the engine speed sensor connectors.

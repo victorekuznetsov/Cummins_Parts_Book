@@ -22,6 +22,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-001-051.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-001-051.pdf"
 tags:
@@ -30,6 +32,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Rubber
@@ -43,16 +46,36 @@ tags:
 > **Даты:** изменён 2009-11-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-001-051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-001-051.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the index lines (A) in the vibration damper hub (B) and the inertia member (C). If the lines are more than 1.59 mm \[1/16 in\] out of alignment, replace the vibration damper.
+
+### Осмотр
+
+Проверьте линии индекса (A) в концентраторе демпфера вибрации (B) и инерционном элементе (C). Если линии более 1,59 мм \[1/16 дюйма \] выровнены, замените вибрационный демпфер.
 
 ![[da900sa.png]]
 
-Inspect the rubber member for deterioration. If pieces of rubber are missing or if the elastic member is more than 3.18 mm \[1/8 in\] below the metal surface, replace the damper.
+Проверить резиновый элемент на предмет износа. Если куски резины отсутствуют или если упругий элемент находится более чем на 3,18 мм \[1/8 дюйма \] ниже поверхности металла, замените амортизатор.
 
-Look for forward movement of the damper ring on the hub. Replace the vibration damper if any movement is detected.
+Ищите движение вперед кольца демпфера на хабе. Замените вибрационный демпфер, если обнаружено какое-либо движение.
 
-For vibration damper location, refer to Engine Diagrams in Engine Identification (Section E).
+Для определения местоположения вибродемперсонала обратитесь к диаграммам двигателя в идентификации двигателя (раздел E).
 
 ![[da9risa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Check the index lines (A) in the vibration damper hub (B) and the inertia member (C). If the lines are more than 1.59 mm \[1/16 in\] out of alignment, replace the vibration damper.
+>
+> Inspect the rubber member for deterioration. If pieces of rubber are missing or if the elastic member is more than 3.18 mm \[1/8 in\] below the metal surface, replace the damper.
+>
+> Look for forward movement of the damper ring on the hub. Replace the vibration damper if any movement is detected.
+>
+> For vibration damper location, refer to Engine Diagrams in Engine Identification (Section E).

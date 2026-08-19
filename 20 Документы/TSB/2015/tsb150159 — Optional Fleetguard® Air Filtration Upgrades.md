@@ -18,6 +18,8 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
   - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150159.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150159.pdf"
 tags:
@@ -26,6 +28,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "год/2015"
+  - "перевод/машинный"
   - "тема/intake-air-systems"
 ---
 
@@ -39,65 +42,138 @@ tags:
 > **Даты:** выпущен 2015-11-13 · изменён 2015-11-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150159.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150159.pdf)
 
-## Optional Fleetguard® Air Filtration Upgrades
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Опциональные улучшения воздушной фильтрации Fleetguard®
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- K19 (All Versions)
-- K38 (All Versions)
-- K50 (All Versions)
-- QSK19 (All Versions)
-- QSK23 (All Versions)
-- QSK38 (All Versions)
-- QSK45 (All Versions)
-- QSK50 (All Versions)
-- QSK60 (All Versions)
-- QSK60 G (All Versions)
-- QSK78 (All Versions)
-- QSK95 (All Versions)
-- QST30 (All Versions)
+### Содержание
 
-**Description of Change**
+**Затронутая продукция**
 
-This document informs the field of optional air filtration upgrades. The new air filters use NanoForce® nanofiber filtering media and offer higher cleaning efficiency than filters with cellulose media.
+- K19 (все версии)
+- K38 (все версии)
+- K50 (все версии)
+- QSK19 (все версии)
+- QSK23 (все версии)
+- QSK38 (все версии)
+- QSK45 (все версии)
+- QSK50 (все версии)
+- QSK60 (все версии)
+- QSK60 G (все версии)
+- QSK78 (все версии)
+- QSK95 (все версии)
+- QST30 (все версии)
 
-**Reason for Change**
+**Описание изменения**
 
-The upgraded filtration options offer higher capacity and improved filtration performance.
+Этот документ информирует область о дополнительных обновлениях фильтрации воздуха. Новые воздушные фильтры используют нановолоконные фильтрующие среды NanoForce® и обеспечивают более высокую эффективность очистки, чем фильтры с целлюлозными средами.
 
-**Service Parts Availability**
+**Причина изменения**
 
-Service parts are available. See Table 1 for part numbers.
+Модернизированные варианты фильтрации предлагают более высокую емкость и улучшенную производительность фильтрации.
 
-| **Table 1, Air Filter Part Numbers** |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| ** Таблица 1, фильтр для очистки воздуха Часть номеров** |  |  |  |
 |---|---|---|---|
-| **Type** | **Description** | **Original Fleetguard® Part Number Part Numbers** | **Upgrade NanoForce® Fleetguard® Part Numbers** |
-| Axial Seal | Primary | AF1605 or AF1605M | AF1605NF |
-| Secondary | AF1604 | No change in part number |  |
-| Axial Seal | Primary | AF879 or AF879M | AF879NF |
-| Secondary | AF857 | No change in part number |  |
-| Axial Seal | Primary | AF899 or AF899M | AF899NF |
-| Secondary | AF880 | No change in part number |  |
-| Radial Seal | Primary | AF27696 | AF27993NF + SP1307 service cover\* |
-| Secondary | AF27695 | AF27994 |  |
-| \*See part compatibility section below. |  |  |  |
+| ** Тип** | **Описание** | **Оригинальный Fleetguard® Часть Номер Номер Части ** | **Обновить номера запасных частей NanoForce® Fleetguard®** |
+| Осевая печать | первичный | AF1605 или AF1605M | AF1605NF |
+| вторичный | AF1604 | Не меняет номер детали |  |
+| Осевая печать | первичный | AF879 или AF879M | AF879NF |
+| вторичный | AF857 | Не меняет номер детали |  |
+| Осевая печать | первичный | AF899 или AF899M | AF899NF |
+| вторичный | AF880 | Не меняет номер детали |  |
+| Радиальная печать | первичный | AF27696 | AF27993NF + SP1307 Обслуживание* |
+| вторичный | AF27695 | AF27994 |  |
+| \* См. раздел совместимости ниже. |  |  |  |
 
-**Part Compatibility**
+** Совместимость частей**
 
-The upgraded radial seal air filter, Part Number AF27993NF, requires a new service cover, Fleetguard® Part Number SP1307.
+Модернизированный фильтр для очистки воздуха с радиальным уплотнением, Part Number AF27993NF, требует нового сервисного покрытия Fleetguard® Part Number SP1307.
 
-**Part Identification**
+**Идентификация детали**
 
-The new upgraded air filters can be distinguished using the part number printed on the air filter can.
+Новые модернизированные воздушные фильтры можно отличить, используя номер детали, напечатанный на фильтре воздухоочистителя.
 
-**Part Structure**
+** Часть структуры**
 
-The new upgraded filtration part numbers do **not** obsolete or supersede the existing filtration part numbers. The existing filtration part numbers will remain available.
+Новые обновленные номера фильтрационных деталей не являются устаревшими или заменяют существующие номера фильтрационных деталей. Существующие номера фильтрационных деталей останутся в наличии.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Optional Fleetguard® Air Filtration Upgrades
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - K19 (All Versions)
+> - K38 (All Versions)
+> - K50 (All Versions)
+> - QSK19 (All Versions)
+> - QSK23 (All Versions)
+> - QSK38 (All Versions)
+> - QSK45 (All Versions)
+> - QSK50 (All Versions)
+> - QSK60 (All Versions)
+> - QSK60 G (All Versions)
+> - QSK78 (All Versions)
+> - QSK95 (All Versions)
+> - QST30 (All Versions)
+>
+> **Description of Change**
+>
+> This document informs the field of optional air filtration upgrades. The new air filters use NanoForce® nanofiber filtering media and offer higher cleaning efficiency than filters with cellulose media.
+>
+> **Reason for Change**
+>
+> The upgraded filtration options offer higher capacity and improved filtration performance.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | **Table 1, Air Filter Part Numbers** |  |  |  |
+> |---|---|---|---|
+> | **Type** | **Description** | **Original Fleetguard® Part Number Part Numbers** | **Upgrade NanoForce® Fleetguard® Part Numbers** |
+> | Axial Seal | Primary | AF1605 or AF1605M | AF1605NF |
+> | Secondary | AF1604 | No change in part number |  |
+> | Axial Seal | Primary | AF879 or AF879M | AF879NF |
+> | Secondary | AF857 | No change in part number |  |
+> | Axial Seal | Primary | AF899 or AF899M | AF899NF |
+> | Secondary | AF880 | No change in part number |  |
+> | Radial Seal | Primary | AF27696 | AF27993NF + SP1307 service cover\* |
+> | Secondary | AF27695 | AF27994 |  |
+> | \*See part compatibility section below. |  |  |  |
+>
+> **Part Compatibility**
+>
+> The upgraded radial seal air filter, Part Number AF27993NF, requires a new service cover, Fleetguard® Part Number SP1307.
+>
+> **Part Identification**
+>
+> The new upgraded air filters can be distinguished using the part number printed on the air filter can.
+>
+> **Part Structure**
+>
+> The new upgraded filtration part numbers do **not** obsolete or supersede the existing filtration part numbers. The existing filtration part numbers will remain available.
+>
+> ### Document History

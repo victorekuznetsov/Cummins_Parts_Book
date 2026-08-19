@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-129-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-129-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Aftercooler Heat Shield
@@ -33,27 +36,56 @@ tags:
 > **Даты:** изменён 2005-11-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-129-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-129-om.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the latch on the front and rear turbocharger heat shields supporting the top of the aftercooler heat shield.
+
+### Снятие
+
+Отсоедините защелку на переднем и заднем тепловых экранах турбокомпрессора, поддерживающих верхнюю часть теплозащитного экрана после охлаждения.
 
 ![[10600366.png]]
 
-> [!note] Note · Примечание
-> There are two alignment pins. The two shields **must** be separated from each other before removal.
+> [!note] Примечание
+> Есть два выравнивающих штифта. Два щита должны быть отделены друг от друга перед удалением.
 
-Disconnect the latch connecting the front and rear aftercooler heat shields.
+Отсоедините защелку, соединяющую передний и задний послеохладительные теплозащитные экраны.
 
-Disconnect the latches on the bottom rail.
+Отсоедините защелки на нижней рельсе.
 
 ![[10600367.png]]
 
-### Install
+### Установка
 
-Position the rear aftercooler heat shield on the bottom rail first and latch to the rear turbocharger heat shield.
+Поместите задний теплозащитный экран после охлаждения на нижнюю рельсовую магистраль первой и прикрепите к заднему теплозащитному экрану турбокомпрессора.
 
-Then position front aftercooler heat shield on bottom rail and latch to the front turbocharger heat shield using the alignment pins.
+Затем поместите передний послеохладительный теплозащитный экран на нижнюю рельсовую и защелку на передний тепловой экран турбокомпрессора с использованием штифтов выравнивания.
 
-Latch the bottom of both aftercooler heat shields to the bottom rail.
+Закрепите дно обоих теплозащитных экранов после охлаждения на нижней рельсе.
 
 ![[10600368.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the latch on the front and rear turbocharger heat shields supporting the top of the aftercooler heat shield.
+>
+> **Note · Примечание**
+> There are two alignment pins. The two shields **must** be separated from each other before removal.
+>
+> Disconnect the latch connecting the front and rear aftercooler heat shields.
+>
+> Disconnect the latches on the bottom rail.
+>
+> ### Install
+>
+> Position the rear aftercooler heat shield on the bottom rail first and latch to the rear turbocharger heat shield.
+>
+> Then position front aftercooler heat shield on bottom rail and latch to the front turbocharger heat shield using the alignment pins.
+>
+> Latch the bottom of both aftercooler heat shields to the bottom rail.

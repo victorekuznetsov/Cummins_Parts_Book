@@ -16,6 +16,8 @@ families:
 manuals:
   - "4022094"
   - "4022102"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-t05-1852.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-t05-1852.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # FAULT CODE 1852 - Water in Fuel Indicator - Data Valid But Above Normal Operating Range - Moderately Severe Level
@@ -36,42 +39,92 @@ tags:
 > **Даты:** изменён 2021-06-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-t05-1852.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-t05-1852.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-## Troubleshooting Summary
 
-| STEPS | SPECIFICATIONS |  |
+Версия для печати
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the fault codes. |  |
-|  | **STEP 1A.** Check the fault codes. | Active or inactive counts of Fault Code 1852? |
-| STEP 2. | Check the engine control module (ECM) calibration and clear the fault codes. |  |
-|  | **STEP 2A.** Check if an ECM calibration update is available. | If a calibration update for this fault code is available, does the ECM contain that revision or higher? |
-|  | **STEP 2B.** Disable the fault code. | Fault code inactive? |
+| ШАГ 1. | Проверьте коды неисправностей. |  |
+|  | **СТЭП 1А.** Проверьте коды неисправностей. | Активный или неактивный код ошибки 1852. |
+| ШАГ 2. | Проверьте калибровку модуля управления двигателем (ECM) и очистите коды неисправностей. |  |
+|  | **STEP 2A.** Проверьте наличие обновлений калибровки ECM. | Если доступно обновление калибровки для этого кода неисправности, содержит ли ECM эту правку или выше? |
+|  | **STEP 2B.** Отключить код ошибки. | Код неактивен? |
 
-### STEP 1. Check the fault codes.
+### ШАГ 1. Проверьте коды неисправностей.
 
-#### STEP 1A. Check the fault codes.
+#### ШАГ 1A. Проверьте коды неисправностей.
 
-| **Conditions:** Turn keyswitch ON. Connect the recommended Cummins® electronic service tool, or equivalent. |  |  |
+| **Условия:** Включить переключатель зажигания. Подключите рекомендуемую электронную сервисную оснастку Cummins® или эквивалент. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for Fault Code 1852. Use the electronic service tool to read the fault codes. | Active or inactive counts of Fault Code 1852? **YESRepair:** Drain water from the fuel filter(s). If the fault code persists, check the sensor and harness connector for water intrusion. Clean or replace the connector or sensor, as necessary. | 2A |
-| Active or inactive counts of Fault Code 1852? **NO** | Repair complete. |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Проверить код ошибки 1852. Используйте инструмент электронного сервиса для показаний кодов неисправностей. | Активный или неактивный код ошибки 1852. *** Ремонт: ** Слить воду из топливного фильтра (фильтров). Если код неисправности сохраняется, проверьте датчик и разъём проводов для проникновения воды. Очистите или замените разъем или датчик, если это необходимо. | 2А |
+| Активный или неактивный код ошибки 1852. ** НЕТ** | Ремонт завершён. |  |
 
-### STEP 2. Check the ECM calibration and clear the fault codes.
+### ШАГ 2. Проверьте калибровку ECM и очистите коды ошибок.
 
-#### STEP 2A. Check if an ECM calibration update is available.
+#### ШАГ 2A. Проверьте, доступно ли обновление калибровки ECM.
 
-| **Conditions:** Connect all components. Connect the electronic service tool. |  |  |
+| **Условия: ** Соединить все компоненты. Подключите инструмент электронного сервиса. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Compare the ECM code and revision number in the ECM to the calibration revisions listed in the ECM Calibration Revision History for applicable changes related to this fault code. Use the electronic service tool to find the present ECM code and revision number in the ECM. The ECM code and revision number are found in the Calibration Information section of System ID and Dataplate in Features and Parameters. | If a calibration update for this fault code is available, does the ECM contain that revision or higher? **YES** | 2B |
-| If a calibration update for this fault code is available, does the ECM contain that revision or higher? **NORepair:** If necessary, calibrate the ECM. [[105-019-032 — Engine Control Module Calibration Code\|Refer to Procedure 019-032 in Section 19.]] | 2B |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Сравните код ECM и номер пересмотра в ECM с калибровочными изменениями, перечисленными в истории калибровочных ревизий ECM, для применимых изменений, связанных с этим кодом неисправности. Используйте инструмент электронного сервиса, чтобы найти в ECM код и номер версии. Код и номер исправления ECM находятся в разделе «Информация о калибровке» идентификатора системы и таблички данных в функциях и параметрах. | Если доступно обновление калибровки для этого кода неисправности, содержит ли ECM эту правку или выше? *Да** | 2В |
+| Если доступно обновление калибровки для этого кода неисправности, содержит ли ECM эту правку или выше? **NORepair:** При необходимости откалибровать ECM.[[105-019-032 — Engine Control Module Calibration Code\|См. процедуру 019-032 в разделе 19.]] | 2В |  |
 
-#### STEP 2B. Disable the fault code.
+#### ШАГ 2B. Отключите код неисправности.
 
-| **Conditions:** Connect all components. Connect the electronic service tool. |  |  |
+| **Условия: ** Соединить все компоненты. Подключите инструмент электронного сервиса. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Disable and clear the fault code. Operate the engine within the "Conditions for Clearing the Fault Code" found in the Overview section of this troubleshooting procedure. | Fault code inactive? **YES** | Repair complete. |
-| Fault code inactive? **NORepair:** Return to the troubleshooting steps or contact a Cummins® Authorized Repair Location if all steps have been completed and checked again. | 1A |  |
+| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
+| Отключите и очистите код ошибки. Управляйте двигателем в рамках «Условий для устранения кода неисправности», найденных в разделе Обзор этой процедуры устранения неполадок. | Код неактивен? *Да** | Ремонт завершён. |
+| Код неактивен? **NORepair:** Возврат к шагам устранения неполадок или свяжитесь с авторизованным местом ремонта Cummins®, если все шаги были завершены и проверены снова. | 1А |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the fault codes. |  |
+> |  | **STEP 1A.** Check the fault codes. | Active or inactive counts of Fault Code 1852? |
+> | STEP 2. | Check the engine control module (ECM) calibration and clear the fault codes. |  |
+> |  | **STEP 2A.** Check if an ECM calibration update is available. | If a calibration update for this fault code is available, does the ECM contain that revision or higher? |
+> |  | **STEP 2B.** Disable the fault code. | Fault code inactive? |
+>
+> ### STEP 1. Check the fault codes.
+>
+> #### STEP 1A. Check the fault codes.
+>
+> | **Conditions:** Turn keyswitch ON. Connect the recommended Cummins® electronic service tool, or equivalent. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for Fault Code 1852. Use the electronic service tool to read the fault codes. | Active or inactive counts of Fault Code 1852? **YESRepair:** Drain water from the fuel filter(s). If the fault code persists, check the sensor and harness connector for water intrusion. Clean or replace the connector or sensor, as necessary. | 2A |
+> | Active or inactive counts of Fault Code 1852? **NO** | Repair complete. |  |
+>
+> ### STEP 2. Check the ECM calibration and clear the fault codes.
+>
+> #### STEP 2A. Check if an ECM calibration update is available.
+>
+> | **Conditions:** Connect all components. Connect the electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Compare the ECM code and revision number in the ECM to the calibration revisions listed in the ECM Calibration Revision History for applicable changes related to this fault code. Use the electronic service tool to find the present ECM code and revision number in the ECM. The ECM code and revision number are found in the Calibration Information section of System ID and Dataplate in Features and Parameters. | If a calibration update for this fault code is available, does the ECM contain that revision or higher? **YES** | 2B |
+> | If a calibration update for this fault code is available, does the ECM contain that revision or higher? **NORepair:** If necessary, calibrate the ECM. [[105-019-032 — Engine Control Module Calibration Code\|Refer to Procedure 019-032 in Section 19.]] | 2B |  |
+>
+> #### STEP 2B. Disable the fault code.
+>
+> | **Conditions:** Connect all components. Connect the electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Disable and clear the fault code. Operate the engine within the "Conditions for Clearing the Fault Code" found in the Overview section of this troubleshooting procedure. | Fault code inactive? **YES** | Repair complete. |
+> | Fault code inactive? **NORepair:** Return to the troubleshooting steps or contact a Cummins® Authorized Repair Location if all steps have been completed and checked again. | 1A |  |

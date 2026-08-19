@@ -23,6 +23,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 7
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-210.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-210.pdf"
 tags:
@@ -31,6 +33,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # AMP VP44 Connector Series
@@ -44,60 +47,114 @@ tags:
 > **Даты:** изменён 2003-10-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-210.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-210.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
 
-Refer to the Connector Replacement step in this procedure for replacement instructions.
+### Замена пин
+
+Контакты разъема могут быть ** не** отремонтированы или заменены. Разъем *** должен быть заменен как блок.
+
+См. этап замены разъёма в этой процедуре для инструкций по замене.
 
 ![[19d00680.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-This connector is used to connect the VP44 fuel pump to the ECM.
+Этот разъем используется для подключения топливного насоса VP44 к ECM.
 
-The pins in this connector can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+Штифты в этом разъеме можно ** не** ремонтировать или заменять. Разъем *** должен быть заменен как блок.
 
 ![[19d00878.png]]
 
-Measure 178 mm \[7 in\] back from the face of the connector and remove the wiring harness protective cover.
+Измерьте 178 мм \[7 в\] назад от поверхности разъема и удалите защитную крышку жгута проводов.
 
 ![[19d00879.png]]
 
-Before cutting the wires, measure and tag all of the wires.
+Перед тем, как разрезать провода, измерьте и пометьте все провода.
 
-Use wire crimping tool, Part Number 3822930, to cut the wires.
+Используйте инструмент для обжима проводов, номер детали 3822930, чтобы разрезать провода.
 
-Cut wire A 165 mm \[7 in\] from the face of the connector.
+Отрежьте провод A 165 мм \[7 в\] от лицевой стороны разъема.
 
-Cut wire B 152 mm \[6-½ in\] from the face of the connector.
+Отрезают провод B 152 мм \[6-1⁄2 в\] от лицевой части разъема.
 
-Cut wire C 140 mm \[6 in\] from the face of the connector.
+Отрежьте провод C 140 мм \[6 в\] от лицевой части разъема.
 
-Cut wire D 130 mm \[5-½ in\] from the face of the connector.
+Отрезают провод D 130 мм \[5-1⁄2 в\] от лицевой части разъема.
 
-Cut wire E 117 mm \[4-½ in\] from the face of the connector.
+Отрезают провод Е 117 мм \[4-1⁄2 в\] от лицевой части разъема.
 
-Cut wire F 104 mm \[4 in\] from the face of the connector.
+Отрежьте провод F 104 мм \[4 в\] от лицевой части разъема.
 
-Cut wire G 91 mm \[3-½ in\] from the face of the connector.
+Отрезают провод G 91 мм \[3-1⁄2 в\] от лицевой части разъема.
 
 ![[19d00880.png]]
 
-Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from all electrical wires.
+Используйте инструмент для обжима проводов, чтобы удалить 6 мм изоляции из всех электрических проводов.
 
 ![[19d00881.png]]
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
-Install the pin repair wires and connector onto the bare wires of the harness and use the wire crimping tool to crimp each repair wire onto the harness.
+Установите провода и разъём для ремонта штифта на голые провода жгута проводов и используйте инструмент для обжима проводов, чтобы обрезать каждый ремонтный провод на жгуте проводов.
 
 ![[19d00882.png]]
 
-For added protection, wrap the wires with tape to complete the repair.
+Для дополнительной защиты оберните провода лентой, чтобы завершить ремонт.
 
 ![[19d00883.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Refer to the Connector Replacement step in this procedure for replacement instructions.
+>
+> ### Connector Replacement
+>
+> This connector is used to connect the VP44 fuel pump to the ECM.
+>
+> The pins in this connector can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Measure 178 mm \[7 in\] back from the face of the connector and remove the wiring harness protective cover.
+>
+> Before cutting the wires, measure and tag all of the wires.
+>
+> Use wire crimping tool, Part Number 3822930, to cut the wires.
+>
+> Cut wire A 165 mm \[7 in\] from the face of the connector.
+>
+> Cut wire B 152 mm \[6-½ in\] from the face of the connector.
+>
+> Cut wire C 140 mm \[6 in\] from the face of the connector.
+>
+> Cut wire D 130 mm \[5-½ in\] from the face of the connector.
+>
+> Cut wire E 117 mm \[4-½ in\] from the face of the connector.
+>
+> Cut wire F 104 mm \[4 in\] from the face of the connector.
+>
+> Cut wire G 91 mm \[3-½ in\] from the face of the connector.
+>
+> Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from all electrical wires.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Install the pin repair wires and connector onto the bare wires of the harness and use the wire crimping tool to crimp each repair wire onto the harness.
+>
+> For added protection, wrap the wires with tape to complete the repair.

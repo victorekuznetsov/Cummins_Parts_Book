@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-010-033-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-010-033-om-ind.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Turbocharger
@@ -37,65 +40,130 @@ tags:
 > **Даты:** изменён 2011-09-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-010-033-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-010-033-om-ind.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> If inspections or dimensional checks indicate a problem, contact a Cummins® Authorized Repair Location. Reference the model number on the turbocharger dataplate.
 
-If the engine is equipped with a turbocharger, inspect the turbocharger every 6000 hours or 2 years.
+### Осмотр
 
-Remove the air intake and exhaust piping.
+> [!note] Примечание
+> Если осмотры или проверки размеров указывают на проблему, обратитесь в авторизованное место ремонта Cummins®. Ссылка на номер модели на табличке данных турбокомпрессора.
 
-Check the turbocharger for damaged or cracked compressor or turbine blades.
+Если двигатель оснащен турбокомпрессором, проверяйте турбокомпрессор каждые 6000 часов или 2 года.
 
-Check to make sure the turbocharger shaft spins freely.
+Удалите воздухозаборник и выхлопные трубы.
+
+Проверьте турбокомпрессор на наличие поврежденных или потрескавшихся лопастей компрессора или турбины.
+
+Проверьте, чтобы убедиться, что вал турбокомпрессора вращается свободно.
 
 ![[tb8ipsa.png]]
 
-### Measure
+### Измерение
 
-All Applications
+Все приложения
 
-Measure the axial clearance (end-to-end) with a depth gauge, or a dial indicator, Part Number ST-537.
+Измерить осевой зазор (сквозной) с помощью измерителя глубины, или циферблатного индикатора, Часть номер ST-537.
 
-| Axial Clearance |  |  |  |
+| Осевой зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| HC5A | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| T18A | 0.10 | MIN | 0.004 |
-|  | 0.23 | MAX | 0.009 |
+|  | мм |  | в |
+| HC5A | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| T18A | 0.10 | Мин | 0.004 |
+|  | 0.23 | Макс | 0.009 |
 
-If the turbocharger is **not** within specifications, it **must** be replaced.
+Если турбокомпрессор ** не** в пределах спецификаций, он ** должен быть заменен.
 
 ![[tb800jb.png]]
 
-Measure the radial end play (side-to-side) at the compressor nose using a dial gauge.
+Измерьте радиальный осевой зазор (бок о бок) в носу компрессора с помощью циферблата измерения.
 
-| Compressor Impeller Radial End Play |  |  |  |
+| Компрессор Имперлер Радиальный осевой зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HC5, HC5A (127 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.686 | MAX | 0.027 |
-| Holset® HC5, HC5A (130 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.762 | MAX | 0.03 |
+|  | мм |  | в |
+| Holset® HC5, HC5A (127 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.686 | Макс | 0.027 |
+| Holset® HC5, HC5A (130 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.762 | Макс | 0.03 |
 
-Make sure movement is within the MIN/MAX total indicator reading (TIR) values shown above.
+Убедитесь, что движение находится в пределах значений общего значения индикатора MIN/MAX (TIR), показанных выше.
 
-> [!note] Note · Примечание
-> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See HC5 Turbocharger Shop Manual, Bulletin 3810243, for rebuild instructions.
+> [!note] Примечание
+> Если зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®. См. HC5 Turbocharger Shop Manual, Bulletin 3810243, for rebuild instructions.
 
 ![[10600221.png]]
 
-Measure the radial clearance (side-to-side) with a wire-type feeler gauge.
+Измерьте радиальный зазор (бок о бок) с помощью калибра проволочного типа.
 
-| Compressor Impeller and Turbine Wheel Radial Clearance |  |  |  |
+| Компрессорный импеллер и турбинное колесо радиальный зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| AirResearch™ T18A | 0.08 | MIN | 0.003 |
-|  | 0.18 | MAX | 0.007 |
+|  | мм |  | в |
+| AirResearchTM T18A | 0.08 | Мин | 0.003 |
+|  | 0.18 | Макс | 0.007 |
 
-> [!note] Note · Примечание
-> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See T35/50 VT50/ST50 Turbocharger, Bulletin 3379091, for rebuild instructions.
+> [!note] Примечание
+> Если зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®. См. T35/50 VT50/ST50 Turbocharger, Bulletin 3379091, для инструкций по восстановлению.
 
 ![[tb8ipsc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> **Note · Примечание**
+> If inspections or dimensional checks indicate a problem, contact a Cummins® Authorized Repair Location. Reference the model number on the turbocharger dataplate.
+>
+> If the engine is equipped with a turbocharger, inspect the turbocharger every 6000 hours or 2 years.
+>
+> Remove the air intake and exhaust piping.
+>
+> Check the turbocharger for damaged or cracked compressor or turbine blades.
+>
+> Check to make sure the turbocharger shaft spins freely.
+>
+> ### Measure
+>
+> All Applications
+>
+> Measure the axial clearance (end-to-end) with a depth gauge, or a dial indicator, Part Number ST-537.
+>
+> | Axial Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | HC5A | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | T18A | 0.10 | MIN | 0.004 |
+> |  | 0.23 | MAX | 0.009 |
+>
+> If the turbocharger is **not** within specifications, it **must** be replaced.
+>
+> Measure the radial end play (side-to-side) at the compressor nose using a dial gauge.
+>
+> | Compressor Impeller Radial End Play |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HC5, HC5A (127 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.686 | MAX | 0.027 |
+> | Holset® HC5, HC5A (130 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.762 | MAX | 0.03 |
+>
+> Make sure movement is within the MIN/MAX total indicator reading (TIR) values shown above.
+>
+> **Note · Примечание**
+> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See HC5 Turbocharger Shop Manual, Bulletin 3810243, for rebuild instructions.
+>
+> Measure the radial clearance (side-to-side) with a wire-type feeler gauge.
+>
+> | Compressor Impeller and Turbine Wheel Radial Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | AirResearch™ T18A | 0.08 | MIN | 0.003 |
+> |  | 0.18 | MAX | 0.007 |
+>
+> **Note · Примечание**
+> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See T35/50 VT50/ST50 Turbocharger, Bulletin 3379091, for rebuild instructions.

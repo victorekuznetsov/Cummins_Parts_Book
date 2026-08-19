@@ -16,6 +16,8 @@ families:
 manuals:
   - "3666120"
   - "3810497"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-020.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-018-020.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -36,15 +39,38 @@ tags:
 > **Даты:** изменён 2019-08-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-018-020.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Maximum Exhaust Restriction | 75 mm Hg \[3 in Hg\] |
+
+### Спецификации
+
+| Максимальное ограничение выхлопа | 75 мм рт.ст. \[3 в рт.ст.] |
 |---|---|
 
-#### Exhaust Pipe Size (normally acceptable inside diameter):
+#### Размер выхлопных труб (нормально приемлемый внутренний диаметр):
 
-| For Engines with One Turbocharger | 127 mm \[5 in\] |
+| Двигатели с одним турбокомпрессором | 127 мм \[5 in\] |
 |---|---|
 
-| For Engines with Two Turbochargers | 152 mm \[6 in\] |
+| Двигатели с двумя турбокомпрессорами | 152 мм[6 in] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> | Maximum Exhaust Restriction | 75 mm Hg \[3 in Hg\] |
+> |---|---|
+>
+> #### Exhaust Pipe Size (normally acceptable inside diameter):
+>
+> | For Engines with One Turbocharger | 127 mm \[5 in\] |
+> |---|---|
+>
+> | For Engines with Two Turbochargers | 152 mm \[6 in\] |
+> |---|---|

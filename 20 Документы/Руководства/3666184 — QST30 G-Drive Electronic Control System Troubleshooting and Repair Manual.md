@@ -10,6 +10,7 @@ engines:
   - "37295879"
 families:
   - "QST30"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666184-history.pdf"
 tags:

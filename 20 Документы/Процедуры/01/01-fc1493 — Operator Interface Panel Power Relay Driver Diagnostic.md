@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1493.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1493.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Operator Interface Panel Power Relay Driver Diagnostic
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1493.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1493.pdf)
 
-### Fault Code: 1493
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Operator Interface Panel Power Relay Driver Diagnostic
 
-Printable Version
+### Код неисправности: 1493
 
-### Overview
+### Диагностика драйвера реле питания панели оператора
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1493 PID(P): SPN: FMI: Lamp: Warning SRT: | Operator interface panel power relay driver diagnostic has detected an error. | Operator interface panel will **not** function correctly. No action taken by ECM. No loss of performance. |
+| Код неисправности: 1493 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика драйвера реле питания операторского интерфейса выявила ошибку. | Панель интерфейса оператора будет работать ** не**. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
 
 ![[19802918.png]]
 
-Operator Interface Panel Power Relay Driver Circuit
+Operator Interface Panel Power Relay Driver Circuit (недоступная ссылка)
 
-### Circuit Description
+### Описание цепи
 
-The ECM checks the operator interface panel power relay driver to ensure correct operation. The ECM uses the operator interface panel to inform the operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the voltage (no voltage increase will trip Fault Code 1493) caused by short circuits, open circuits, or failed operator interface panel power relay driver in the ECM.
+ECM проверяет драйвер реле питания панели оператора, чтобы обеспечить правильную работу. ECM использует панель интерфейса оператора, чтобы информировать оператора о работе генераторной установки, производительности, настройке и диагностике. ECM контролирует напряжение (без увеличения напряжения будет срабатывать код 1493 по умолчанию), вызванное короткими замыканиями, открытыми цепями или неисправным драйвером реле питания панели оператора в ECM.
 
-### Component Location
+### Расположение компонента
 
-Refer to section E for location of the operator interface panel.
+См. раздел E для определения местоположения панели интерфейса оператора.
 
-### Shoptalk
+### Практические замечания
 
-Possible failure modes are open circuits, short circuits, short to ground, and loss of supply voltage inside the ECM.
+Возможные режимы отказа - это открытые цепи, короткие замыкания, короткие к земле и потеря напряжения питания внутри ECM.
 
-Refer to Troubleshooting Fault Code t05-1493
+См. Код устранения неполадок t05-1493
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1493
+>
+> ### Operator Interface Panel Power Relay Driver Diagnostic
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1493 PID(P): SPN: FMI: Lamp: Warning SRT: | Operator interface panel power relay driver diagnostic has detected an error. | Operator interface panel will **not** function correctly. No action taken by ECM. No loss of performance. |
+>
+> Operator Interface Panel Power Relay Driver Circuit
+>
+> ### Circuit Description
+>
+> The ECM checks the operator interface panel power relay driver to ensure correct operation. The ECM uses the operator interface panel to inform the operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the voltage (no voltage increase will trip Fault Code 1493) caused by short circuits, open circuits, or failed operator interface panel power relay driver in the ECM.
+>
+> ### Component Location
+>
+> Refer to section E for location of the operator interface panel.
+>
+> ### Shoptalk
+>
+> Possible failure modes are open circuits, short circuits, short to ground, and loss of supply voltage inside the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-1493

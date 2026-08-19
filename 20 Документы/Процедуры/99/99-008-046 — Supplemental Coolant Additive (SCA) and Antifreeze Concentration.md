@@ -25,6 +25,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-046.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-008-046.pdf"
 tags:
@@ -34,6 +36,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Supplemental Coolant Additive (SCA) and Antifreeze Concentration
@@ -47,36 +50,76 @@ tags:
 > **Даты:** изменён 2022-08-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-046.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-008-046.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Supplemental Coolant Additive
 
-> [!warning] CAUTION · Осторожно
-> Failing to maintain the required SCA concentration level can cause engine damage.
+### Контроль при обслуживании
 
-#### Check the SCA concentration level
+Дополнительный охлаждающий аддитив
 
-- At least twice a year
-- At every subsequent oil drain interval if the concentration is above 3 units
-- Whenever coolant is added to the cooling system between filter changes.
+> [!warning] ОСТОРОЖНО
+> Неспособность поддерживать требуемый уровень концентрации SCA может привести к повреждению двигателя.
 
-Use Fleetguard® coolant test kit, Part No. CC2602, to check the SCA concentration level. Instructions are included with the test kit. Use the Coolant Recommendations and Specifications in Maintenance Specifications (Section V) for the correct SCA and antifreeze level.
+#### Проверьте уровень концентрации SCA
+
+- По крайней мере, два раза в год
+- При каждом последующем интервале отвода масла, если концентрация превышает 3 единицы
+- Всякий раз, когда охлаждающая жидкость добавляется в систему охлаждения между изменениями фильтра.
+
+Используйте набор для испытания охлаждающей жидкости Fleetguard®, номер детали. CC2602, для проверки уровня концентрации SCA. Инструкции включены в комплект для испытаний. Используйте рекомендации по охлаждению и спецификации в спецификациях технического обслуживания (раздел V) для правильного уровня SCA и антифриза.
 
 ![[08200002.png]]
 
-Antifreeze
+антифриз
 
-> [!warning] CAUTION · Осторожно
-> Overconcentration of antifreeze or use of high-silicate antifreeze can damage the engine.
+> [!warning] ОСТОРОЖНО
+> Чрезмерная концентрация антифриза или использование высокосиликатного антифриза может повредить двигатель.
 
-Check the antifreeze concentration. Use a mixture of 50-percent water and 50-percent ethylene glycol or propylene glycol-based antifreeze to protect the engine to -32°C \[ -26°F \] year-around.
+Проверьте концентрацию антифриза. Используйте смесь 50-процентной воды и 50-процентного этиленгликоля или антифриза на основе пропиленгликоля для защиты двигателя от -32 ° C \[ -26 ° F \] круглый год.
 
-The Fleetguard® refractometer, Part Number C2800, provides a reliable, easy-to-read, and accurate measurement of freezing point protection and glycol (antifreeze) concentration.
+Рефрактометр Fleetguard®, номер детали C2800, обеспечивает надежное, легко читаемое и точное измерение защиты от замерзания и концентрации гликоля (антифриз).
 
-Antifreeze is essential in every climate.
+Антифриз необходим в любом климате.
 
-Antifreeze broadens the operating temperature range by lowering the coolant freezing point and by raising its boiling point.
+Антифриз расширяет диапазон рабочих температур, понижая точку замерзания охлаждающей жидкости и повышая ее точку кипения.
 
-The corrosion inhibitors also protect the cooling system components from corrosion and prolong component life.
+Ингибиторы коррозии также защищают компоненты системы охлаждения от коррозии и продлевают срок службы компонентов.
 
 ![[ra8todb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Supplemental Coolant Additive
+>
+> **CAUTION · Осторожно**
+> Failing to maintain the required SCA concentration level can cause engine damage.
+>
+> #### Check the SCA concentration level
+>
+> - At least twice a year
+> - At every subsequent oil drain interval if the concentration is above 3 units
+> - Whenever coolant is added to the cooling system between filter changes.
+>
+> Use Fleetguard® coolant test kit, Part No. CC2602, to check the SCA concentration level. Instructions are included with the test kit. Use the Coolant Recommendations and Specifications in Maintenance Specifications (Section V) for the correct SCA and antifreeze level.
+>
+> Antifreeze
+>
+> **CAUTION · Осторожно**
+> Overconcentration of antifreeze or use of high-silicate antifreeze can damage the engine.
+>
+> Check the antifreeze concentration. Use a mixture of 50-percent water and 50-percent ethylene glycol or propylene glycol-based antifreeze to protect the engine to -32°C \[ -26°F \] year-around.
+>
+> The Fleetguard® refractometer, Part Number C2800, provides a reliable, easy-to-read, and accurate measurement of freezing point protection and glycol (antifreeze) concentration.
+>
+> Antifreeze is essential in every climate.
+>
+> Antifreeze broadens the operating temperature range by lowering the coolant freezing point and by raising its boiling point.
+>
+> The corrosion inhibitors also protect the cooling system components from corrosion and prolong component life.

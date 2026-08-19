@@ -14,12 +14,15 @@ families:
 manuals:
   - "4022102"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-365.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-365.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Position Sensor
@@ -33,59 +36,118 @@ tags:
 > **Даты:** изменён 2022-01-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-365.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-365.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No recommended Cummins® service tools.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Не рекомендуется использовать инструменты Cummins®.
 
-### Remove
+#### Дополнительные сервисные позиции
 
-Disconnect the sensor from the engine harness.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-Remove the sensor from the mounting location.
+### Снятие
+
+Отсоедините датчик от жгута проводов двигателя.
+
+Удалите датчик из места установки.
 
 ![[19601221.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the crankshaft position sensor for debris or cracks.
+Проверьте датчик положения коленчатого вала на наличие мусора или трещин.
 
-If there is debris on the sensor, clean the sensor.
+Если на датчике есть мусор, очистите датчик.
 
-If the sensor is chipped, cracked or otherwise damaged, replace the sensor.
+Если датчик сколот, потрескан или иным образом поврежден, замените датчик.
 
 ![[19800369.png]]
 
-### Install
+### Установка
 
-Install a new o-ring onto the sensor.
+Установите новое кольцо на датчик.
 
-Apply clean engine oil to the o-ring.
+Нанесите чистое моторное масло на кольцо.
 
-Install the new sensor into the mounting hole.
+Установите новый датчик в монтажное отверстие.
 
-> [!note] Note · Примечание
-> Do **not** tighten the lock nut.
+> [!note] Примечание
+> Не затягивайте гайку с замком.
 
 ![[19601221.png]]
 
-Use a 1mm feeler gauge to set correct clearance between flywheel and sensor.
+Используйте калибр для прощупывания 1 мм, чтобы установить правильный зазор между маховиком и датчиком.
 
-If the engine is still connected to the OEM equipment preventing access with a feeler gauge the sensor should be fully installed, then loosened one turn.
+Если двигатель все еще подключен к OEM-оборудованию, предотвращающему доступ с помощью датчика измерения щупальца, датчик должен быть полностью установлен, а затем ослаблен на один оборот.
 
-> [!note] Note · Примечание
-> The feeler gauge method is the most accurate method and should be the primary method of checking the air gap.
+> [!note] Примечание
+> Метод измерения щупальца является наиболее точным методом и должен быть основным методом проверки воздушного зазора.
 
-Once correct clearance is achieved, tighten lock nut.
+Как только будет достигнут правильный зазор, затяните гайку.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
-Connect the sensor to the engine harness.
+Подключите датчик к жгуту проводов двигателя.
 
 ![[19y00143.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No recommended Cummins® service tools.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Remove
+>
+> Disconnect the sensor from the engine harness.
+>
+> Remove the sensor from the mounting location.
+>
+> ### Inspect for Reuse
+>
+> Inspect the crankshaft position sensor for debris or cracks.
+>
+> If there is debris on the sensor, clean the sensor.
+>
+> If the sensor is chipped, cracked or otherwise damaged, replace the sensor.
+>
+> ### Install
+>
+> Install a new o-ring onto the sensor.
+>
+> Apply clean engine oil to the o-ring.
+>
+> Install the new sensor into the mounting hole.
+>
+> **Note · Примечание**
+> Do **not** tighten the lock nut.
+>
+> Use a 1mm feeler gauge to set correct clearance between flywheel and sensor.
+>
+> If the engine is still connected to the OEM equipment preventing access with a feeler gauge the sensor should be fully installed, then loosened one turn.
+>
+> **Note · Примечание**
+> The feeler gauge method is the most accurate method and should be the primary method of checking the air gap.
+>
+> Once correct clearance is achieved, tighten lock nut.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Connect the sensor to the engine harness.

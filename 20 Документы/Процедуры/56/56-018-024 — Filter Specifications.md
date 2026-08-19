@@ -19,12 +19,15 @@ parts:
   - "3889311"
   - "4328043"
   - "5417137"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-018-024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Filter Specifications
@@ -38,114 +41,122 @@ tags:
 > **Даты:** изменён 2018-01-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-018-024.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
 
-Fleetguard® products meet all Cummins Inc. Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser **must** insist on products the supplier has tested to meet Cummins Inc. high-quality standards.
+### Спецификации
 
-Cummins Inc. can **not** be responsible for problems caused by non-genuine filters that do **not** meet Cummins Inc. performance or durability requirements.
+Fleetguard® является дочерней компанией Cummins Inc. Фильтры Fleetguard® разрабатываются в рамках совместных испытаний в компании Cummins Inc. и Fleetguard®. Фильтры Fleetguard® являются стандартными для новых двигателей Cummins®. Cummins Inc. рекомендует их использование.
 
-QSK45 and QSK60 engines are now using Fleetguard® LF9024 filters, or LF 9034 filters, Cummins® Part Numbers 3101870 and 4197219. These filters are venturi combo style filters (full flow and bypass components are used in the same filter), and mount to the existing filter head on all QSK45 and QSK60 engines. There are two different part numbers because the LF 9034 is able to resist the additional additive package seen by the filter when Centinel™ is used.
+Продукты Fleetguard® соответствуют всем требованиям Cummins Inc. Стандарты испытаний на источник для обеспечения качественной фильтрации, необходимой для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения потребностей Cummins Inc. Высокие стандарты качества.
 
-When using a lubricating oil filter (full flow **only**) a lubricating oil filter (bypass) **must** also be used.
+Cummins Inc. ** не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности или долговечности.
 
-#### Lubricating Oil Filter (full flow only)
+Двигатели QSK45 и QSK60 теперь используют фильтры Fleetguard® LF9024 или фильтры LF 9034, регистрационные номера Cummins® 3101870 и 4197219. Эти фильтры представляют собой комбинированные фильтры типа venturi (полный поток и компоненты обхода используются в одном фильтре) и крепятся к существующей головке фильтра на всех двигателях QSK45 и QSK60. Существует два разных номера деталей, потому что LF 9034 способен противостоять дополнительной присадке, которую фильтр видит при использовании Centinel.
 
-- Cummins Inc., Part Number [[3889310]]
+При использовании фильтра моторного масла (полный поток **только **) также должен использоваться фильтр моторного масла (обходной) ***.
+
+#### Фильтр моторного масла (только полный поток)
+
+- Cummins Inc., номер детали[[3889310]]
 - Fleetguard®, Part Number LF670.
 
-#### Lubricating Oil Filter (bypass)
+#### Фильтр моторного масла (обходной)
 
-- Cummins Inc., Part Number [[3889311]]
+- Cummins Inc., номер детали[[3889311]]
 - Fleetguard®, Part Number LF777.
 
-#### Lubricating Oil Filter (venturi combination for use with Centinel™.
+#### Фильтр моторного масла (комбинация вентури для использования с CentinelTM).
 
-- Cummins Inc., Part Number 4197219
+- Cummins Inc., номер детали 4197219
 - Fleetguard®, Part Number LF9034.
 
-#### Lubricating Oil Filter (venturi combination for use without Centinel™)
+#### Фильтр моторного масла (комбинация вентури для использования без CentinelTM)
 
-- Cummins Inc., Part Number 3101870
+- Cummins Inc., номер детали 3101870
 - Fleetguard®, Part Number LF9024.
 
-#### Lubricating Oil Filter for Fuel Pump Oil Bypass Circuit (PowerGen engines with electronically actuated injectors)
+#### Смазочный фильтр для схемы обхода топливного насоса (двигатели PowerGen с топливным форсункой с электронным приводом)
 
-- Cummins Inc., Part Number 3908616
+- Cummins Inc., номер детали 3908616
 - Fleetguard®, Part Number LF3345.
 
-#### Fuel Filter (20 micron, no water separation, engines with mechanically actuated injectors)
+#### Топливный фильтр (20 микрон, без разделения воды, двигатели с механически приводимым в действие топливным форсункой)
 
-- Cummins Inc., Part Number 3313306
+- Cummins Inc., номер детали 3313306
 - Fleetguard®, Part Number FF202.
 
-#### Fuel Filter (10 micron, with water separation, engines with mechanically actuated injectors))
+#### Топливный фильтр (10 микрон, с водоразделом, двигатели с механически приводимым в действие топливным форсункой))
 
-- Cummins Inc., Part Number 3089916
+- Cummins Inc., номер детали 3089916
 - Fleetguard®, Part Number FS1006.
 
-#### Fuel Filter (marine applications) (10 micron, water separation with metal drain valve)
+#### Топливный фильтр (морские применения) (10 микрон, отделение воды с металлическим дренажным клапаном)
 
 - Cummins Inc., Part Number 3959569
 - Fleetguard®, Part Number FS1013.
 
-#### Coolant Filter
+#### Фильтр охлаждающей жидкости
 
-- Cummins Inc., Part Number [[3100308]]
+- Cummins Inc., номер детали[[3100308]]
 - Fleetguard®, Part Number WF2075.
 
-#### Air Filter (Marine Applications)
+#### фильтр для очистки воздуха (морские приложения)
 
 - Cummins Inc., Part Number 4916129
 
-#### Stage 1 Fuel Filter - FH234 Series Industrial Pro (StratoPore™ media with water separation, engines with electronically actuated injectors)
+#### 1 Фаза топливного фильтра - FH234 серии Industrial Pro (Среда StratoPoreTM с водоразделом, двигатели с топливным форсункой с электронным приводом)
 
-- Fleetguard®, Part Number FS19763
+- Fleetguard®, номер детали FS19763
 
-#### Stage 1 Fuel Filter - FH239 Series Industrial Pro (NanoNet™ media with water separation, engines with electronically actuated injectors)
+#### 1 Фаза топливного фильтра - FH239 серии Industrial Pro (Средства NanoNetTM с водоразделом, двигатели с топливным форсункой с электронным приводом)
 
-- Cummins Inc., Part Number [[4328043]]
+- Cummins Inc., номер детали[[4328043]]
 - Fleetguard® Part Number FS53014
 
-#### Stage 1 Fuel Filter - FH240 Series Sea Pro (NanoNet™ media with water separation, engines with electronically actuated injectors)
+#### 1 Фаза топливного фильтра - FH240 Series Sea Pro (Среда NanoNetTM с водоразделом, двигатели с топливным форсункой с электронным приводом)
 
 - Cummins Inc., Part Number 4380017
-- Fleetguard®, Part Number FS53022
+- Fleetguard®, номер детали FS53022
 
-#### Stage 2 Fuel Filter (NanoNet™ media, no water separation, engines with electronically actuated injectors)
+#### 2 стадия топливный фильтр (Средства NanoNetTM, отсутствие разделения воды, двигатели с электронным топливным форсункой)
 
-- Cummins Inc., Part Number [[5417137]] (1)
+- Cummins Inc., номер детали[[5417137]](1)
 - Fleetguard®, Part Number FF5782NN (1)
 
-(1) - An equivalent Stage 2 fuel filter can be used, but it **must** meet or exceed the following characteristics:
+(1) - Можно использовать эквивалентный топливный фильтр 2-й стадии, но он должен соответствовать или превышать следующие характеристики:
 
-- Beta Ratio (filtration efficiency) rating of ß4© = 1000
+- Бета-отношение (эффективность фильтрации) β4© = 1000
 
-### Fleetguard® DCA4 Service Filters and Liquid Precharge
+### Фильтры Fleetguard® DCA4 Service и предзарядка жидкостей
 
-Install service filter(s) and/or liquid containing the number of supplemental coolant additive (SCA) units below:
+Установите фильтр(ы) и/или жидкость, содержащую(ие) количество дополнительных установок для охлаждения (SCA) ниже:
 
-| DCA4 Service Filters | DCA (Fleetcool) Service Filters |  |  |
+| Фильтры DCA4 Service | DCA (Fleetcool) - фильтры для обслуживания |  |  |
 |---|---|---|---|
-| **Part Number** | **SCA Units** | **Part Number** | **SCA Units** |
+| ** Часть номера** | ** Подразделения СКА** | ** Часть номера** | ** Подразделения СКА** |
 | WF2070 | 2 | WF2050 | 2 |
 | WF2071 | 4 | WF2051 | 4 |
 | WF2072 | 6 | WF2052 | 6 |
 | WF2073 | 8 | WF2053 | 8 |
-| WF2074 | 12 | **Not** available | 12 |
+| WF2074 | 12 | ** Недоступно* | 12 |
 | WF2075 | 15 | WF2054 | 15 |
 | WF2076 | 23 | WF2055 | 23 |
-| WF2077 | (blank filter without SCAs) | WF2077 | (blank filter without SCAs) |
+| WF2077 | (полосатый фильтр без SCA) | WF2077 | (полосатый фильтр без SCA) |
 
-| DCA4 Liquid | DCA (Fleetcool) Liquid |  |  |  |  |
+| DCA4 Жидкость | DCA (Fleetcool) Жидкость |  |  |  |  |
 |---|---|---|---|---|---|
-| Part Number | Size | SCA Units | Part Number | Size | SCA Units |
-| DCA60L | 0.47 liter \[1 pt\] | 5 | DCA30L | 0.47 liter \[1 pt\] | 5 |
-| DCA65L | 1.89 liter \[2 qt\] | 20 | DCA35L | 1.89 liter \[2 qt\] | 20 |
-| DCA70L | 3.78 liter \[1 gal\] | 40 | DCA40L | 3.78 liter \[1 gal\] | 40 |
-| DCA75L | 18.9 liter \[5 gal\] | 200 | DCA45L | 18.9 liter \[5 gal\] | 200 |
-| DCA80L | 208 liter \[55 gal\] | 2200 | DCA50L | 208 liter \[55 gal\] | 2200 |
+| Номер детали | Размер | Подразделения SCA | Номер детали | Размер | Подразделения SCA |
+| DCA60L | 0,47 литра \[1 пт\] | 5 | DCA30L | 0,47 литра \[1 пт\] | 5 |
+| DCA65L | 1,89 литра \[2 qt\] | 20 | DCA35L | 1,89 литра \[2 qt\] | 20 |
+| DCA70L | 3,78 литра[1 галл] | 40 | DCA40L | 3,78 литра[1 галл] | 40 |
+| DCA75L | 18,9 литра[5 галлов] | 200 | DCA45L | 18,9 литра[5 галлов] | 200 |
+| DCA80L | 208 литров[55 галлов] | 2200 | DCA50L | 208 литров[55 галлов] | 2200 |
 
 ## Детали, упомянутые в документе
 
@@ -156,3 +167,113 @@ Install service filter(s) and/or liquid containing the number of supplemental co
 | [[3889311]] | OIL BYPASS FILTER ELEMENT | Элемент фильтра тонкой очистки масла |
 | [[4328043]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
 | [[5417137]] | FUEL FILTER | Топливный фильтр |
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
+>
+> Fleetguard® products meet all Cummins Inc. Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser **must** insist on products the supplier has tested to meet Cummins Inc. high-quality standards.
+>
+> Cummins Inc. can **not** be responsible for problems caused by non-genuine filters that do **not** meet Cummins Inc. performance or durability requirements.
+>
+> QSK45 and QSK60 engines are now using Fleetguard® LF9024 filters, or LF 9034 filters, Cummins® Part Numbers 3101870 and 4197219. These filters are venturi combo style filters (full flow and bypass components are used in the same filter), and mount to the existing filter head on all QSK45 and QSK60 engines. There are two different part numbers because the LF 9034 is able to resist the additional additive package seen by the filter when Centinel™ is used.
+>
+> When using a lubricating oil filter (full flow **only**) a lubricating oil filter (bypass) **must** also be used.
+>
+> #### Lubricating Oil Filter (full flow only)
+>
+> - Cummins Inc., Part Number [[3889310]]
+> - Fleetguard®, Part Number LF670.
+>
+> #### Lubricating Oil Filter (bypass)
+>
+> - Cummins Inc., Part Number [[3889311]]
+> - Fleetguard®, Part Number LF777.
+>
+> #### Lubricating Oil Filter (venturi combination for use with Centinel™.
+>
+> - Cummins Inc., Part Number 4197219
+> - Fleetguard®, Part Number LF9034.
+>
+> #### Lubricating Oil Filter (venturi combination for use without Centinel™)
+>
+> - Cummins Inc., Part Number 3101870
+> - Fleetguard®, Part Number LF9024.
+>
+> #### Lubricating Oil Filter for Fuel Pump Oil Bypass Circuit (PowerGen engines with electronically actuated injectors)
+>
+> - Cummins Inc., Part Number 3908616
+> - Fleetguard®, Part Number LF3345.
+>
+> #### Fuel Filter (20 micron, no water separation, engines with mechanically actuated injectors)
+>
+> - Cummins Inc., Part Number 3313306
+> - Fleetguard®, Part Number FF202.
+>
+> #### Fuel Filter (10 micron, with water separation, engines with mechanically actuated injectors))
+>
+> - Cummins Inc., Part Number 3089916
+> - Fleetguard®, Part Number FS1006.
+>
+> #### Fuel Filter (marine applications) (10 micron, water separation with metal drain valve)
+>
+> - Cummins Inc., Part Number 3959569
+> - Fleetguard®, Part Number FS1013.
+>
+> #### Coolant Filter
+>
+> - Cummins Inc., Part Number [[3100308]]
+> - Fleetguard®, Part Number WF2075.
+>
+> #### Air Filter (Marine Applications)
+>
+> - Cummins Inc., Part Number 4916129
+>
+> #### Stage 1 Fuel Filter - FH234 Series Industrial Pro (StratoPore™ media with water separation, engines with electronically actuated injectors)
+>
+> - Fleetguard®, Part Number FS19763
+>
+> #### Stage 1 Fuel Filter - FH239 Series Industrial Pro (NanoNet™ media with water separation, engines with electronically actuated injectors)
+>
+> - Cummins Inc., Part Number [[4328043]]
+> - Fleetguard® Part Number FS53014
+>
+> #### Stage 1 Fuel Filter - FH240 Series Sea Pro (NanoNet™ media with water separation, engines with electronically actuated injectors)
+>
+> - Cummins Inc., Part Number 4380017
+> - Fleetguard®, Part Number FS53022
+>
+> #### Stage 2 Fuel Filter (NanoNet™ media, no water separation, engines with electronically actuated injectors)
+>
+> - Cummins Inc., Part Number [[5417137]] (1)
+> - Fleetguard®, Part Number FF5782NN (1)
+>
+> (1) - An equivalent Stage 2 fuel filter can be used, but it **must** meet or exceed the following characteristics:
+>
+> - Beta Ratio (filtration efficiency) rating of ß4© = 1000
+>
+> ### Fleetguard® DCA4 Service Filters and Liquid Precharge
+>
+> Install service filter(s) and/or liquid containing the number of supplemental coolant additive (SCA) units below:
+>
+> | DCA4 Service Filters | DCA (Fleetcool) Service Filters |  |  |
+> |---|---|---|---|
+> | **Part Number** | **SCA Units** | **Part Number** | **SCA Units** |
+> | WF2070 | 2 | WF2050 | 2 |
+> | WF2071 | 4 | WF2051 | 4 |
+> | WF2072 | 6 | WF2052 | 6 |
+> | WF2073 | 8 | WF2053 | 8 |
+> | WF2074 | 12 | **Not** available | 12 |
+> | WF2075 | 15 | WF2054 | 15 |
+> | WF2076 | 23 | WF2055 | 23 |
+> | WF2077 | (blank filter without SCAs) | WF2077 | (blank filter without SCAs) |
+>
+> | DCA4 Liquid | DCA (Fleetcool) Liquid |  |  |  |  |
+> |---|---|---|---|---|---|
+> | Part Number | Size | SCA Units | Part Number | Size | SCA Units |
+> | DCA60L | 0.47 liter \[1 pt\] | 5 | DCA30L | 0.47 liter \[1 pt\] | 5 |
+> | DCA65L | 1.89 liter \[2 qt\] | 20 | DCA35L | 1.89 liter \[2 qt\] | 20 |
+> | DCA70L | 3.78 liter \[1 gal\] | 40 | DCA40L | 3.78 liter \[1 gal\] | 40 |
+> | DCA75L | 18.9 liter \[5 gal\] | 200 | DCA45L | 18.9 liter \[5 gal\] | 200 |
+> | DCA80L | 208 liter \[55 gal\] | 2200 | DCA50L | 208 liter \[55 gal\] | 2200 |

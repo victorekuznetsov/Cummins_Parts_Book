@@ -22,12 +22,15 @@ parts:
   - "3963988"
   - "4975529"
   - "4975645"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100898.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100898.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/fuel-systems-pumps"
 ---
 
@@ -41,86 +44,94 @@ tags:
 > **Даты:** выпущен 2009-12-11 · изменён 2009-12-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100898.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100898.pdf)
 
-## New Fuel Pump Pressure Regulator Valve
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый клапан-регулятор давления топливного насоса
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin introduces a new pressure regulator valve for the existing Bosch™ RP39 Injection fuel pump for the QST30 engine (Industrial applications). This is applicable to both mechanical fuel systems and electronic fuel systems.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The pressure regulator valve, Part Number [[4975645]], replaces the overflow valve, Part Number 3092734. This replacement was made to improve part reliability and proper regulation of the internal fuel pump pressure.
+### Содержание
 
-The noun name of this part has changed from overflow valve to pressure regulator valve, as it more accurately describes the part's function.
+В этом бюллетене технического обслуживания представлен новый клапан регулятора давления для существующего топливного насоса Bosch RP39 Injection для двигателя QST30 (Промышленные применения). Это относится как к механическим топливным системам, так и к электронным топливным системам.
 
-The engine serial number (ESN) first for the new pressure regulator is 37242280 and occurred on 21-Dec-2009.
+Клапан регулятора давления, номер детали[[4975645]], заменяет переливной клапан, номер детали 3092734. Эта замена была сделана для повышения надежности деталей и надлежащего регулирования внутреннего давления топливного насоса.
 
-The new pressure regulator valve, Part Number [[4975645]], obsoletes and supersedes the overflow valve, Part Number 3092637, for RP39 model fuel pumps **ONLY**. This valve can **only** be purchased as a kit, Part Number [[2881831]]. The details are shown in the table below.
+Существительное названия этой части изменилось с переливного клапана на клапан регулятора давления, так как оно более точно описывает функцию детали.
 
-| Valve Kit |  |  |  |
+Серийный номер двигателя (ESN) для нового регулятора давления составляет 37242280 и появился 21 декабря 2009 года.
+
+Новый клапан регулятора давления, номер детали[[4975645]], устарел и заменяет переливной клапан, номер детали 3092637, для топливных насосов модели RP39 ** ТОЛЬКО**. Этот клапан можно ** только ** купить в качестве комплекта, номер детали[[2881831]]. Подробности приводятся в таблице ниже.
+
+| Виниловая пластинка |  |  |  |
 |---|---|---|---|
-| Description | Quantity | Old Part Number | New Part Number |
-| Kit, Pressure Regulator Valve (formerly Kit, Overflow Valve) |  | 3800696 | [[2881831]] |
-| Valve, pressure regulator (formerly valve, overflow) | 1 | 3092734 | [[4975645]] |
-| Washer, Sealing | 2 | [[3963988]] | [[4975529]] |
+| Наименование | Количество | Прежний номер детали | Новый номер детали |
+| Набор, клапан регулятора давления (ранее Kit, Overflow клапан) |  | 3800696 | [[2881831]] |
+| клапан, регулятор давления (ранее клапан, перелив) | 1 | 3092734 | [[4975645]] |
+| Шеф, Шиллинг | 2 | [[3963988]] | [[4975529]] |
 
-> [!note] Note · Примечание
-> Valve Kit, Part Number 3800696, is still available for power generation applications.
+> [!note] Примечание
+> клапан Kit, номер детали3800696, по-прежнему доступна для приложений для производства электроэнергии.
 
-Valve Kit, Part Number 3800697, is now obsolete.
+клапан Kit, номер детали3800697, устарела.
 
-| Old Mechanical RP39 Fuel Pumps |  |  |
+| Старые механические топливные насосы RP39 |  |  |
 |---|---|---|
-| Description | Kit Part Number | Part Number |
-| Left Bank | 4025260 | 3094347 |
-| Right Bank | 4025261 | 3094348 |
+| Наименование | Номер детали | Номер детали |
+| Левый берег | 4025260 | 3094347 |
+| Правый Банк | 4025261 | 3094348 |
 
-| New Mechanical Left Bank Kit |  |  |
+| Новый механический левобережный комплект |  |  |
 |---|---|---|
-| Description | Quantity | Part Number |
-| Kit, Fuel Pump, Left Bank |  | 2881832 |
-| Pump, Fuel Injection | 1 | 3094347 |
-| Valve, Pressure Regulator | 1 | [[4975645]] |
-| Washer, Sealing | 2 | [[4975529]] |
+| Наименование | Количество | Номер детали |
+| Кит, топливный насос, левый берег |  | 2881832 |
+| Насос, впрыск топлива | 1 | 3094347 |
+| клапан, регулятор давления | 1 | [[4975645]] |
+| Шеф, Шиллинг | 2 | [[4975529]] |
 
-| New Mechanical Right Bank Kit |  |  |
+| Новый механический набор Right Bank |  |  |
 |---|---|---|
-| Description | Quantity | Part Number |
-| Kit, Fuel Pump, Right Bank |  | 2881833 |
-| Pump, Fuel Injection | 1 | 3094348 |
-| Valve, Pressure Regulator | 1 | [[4975645]] |
-| Washer, Sealing | 2 | [[4975529]] |
+| Наименование | Количество | Номер детали |
+| Кит, топливный насос, правый берег |  | 2881833 |
+| Насос, впрыск топлива | 1 | 3094348 |
+| клапан, регулятор давления | 1 | [[4975645]] |
+| Шеф, Шиллинг | 2 | [[4975529]] |
 
-> [!note] Note · Примечание
-> Previous service kits, Part Numbers 4025260 and 4025261, for the mechanical pumps that included a spline gear, and mounting hardware, are now obsolete.
+> [!note] Примечание
+> Предыдущие комплекты для обслуживания, номера деталей 4025260 и 4025261, для механических насосов, которые включали в себя шпильную передачу и монтажное оборудование, теперь устарели.
 
-If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
+Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
 
-| Old Electronic RP39 Fuel Pumps |  |  |
+| Электронные топливные насосы RP39 |  |  |
 |---|---|---|
-| Description | Kit Part Number | Part Number |
-| Left Bank | N/A | [[3093636]] |
-| Right Bank | N/A | [[3093635]] |
+| Наименование | Номер детали | Номер детали |
+| Левый берег | Не применяется | [[3093636]] |
+| Правый Банк | Не применяется | [[3093635]] |
 
-| New Electronic Left Bank Kit |  |  |
+| Электронный левобережный комплект |  |  |
 |---|---|---|
-| Description | Quantity | Part Number |
-| Kit, Fuel Pump, Left Bank |  | [[2881834]] |
-| Pump, Fuel Injection | 1 | [[3093636]] |
-| Valve, Pressure Regulator | 1 | [[4975645]] |
-| Washer, Sealing | 2 | [[4975529]] |
+| Наименование | Количество | Номер детали |
+| Кит, топливный насос, левый берег |  | [[2881834]] |
+| Насос, впрыск топлива | 1 | [[3093636]] |
+| клапан, регулятор давления | 1 | [[4975645]] |
+| Шеф, Шиллинг | 2 | [[4975529]] |
 
-| New Electronic Right Bank Kit |  |  |
+| Электронный правый банковский комплект |  |  |
 |---|---|---|
-| Description | Quantity | Part Number |
-| Kit, Fuel Pump, Right Bank |  | [[2881835]] |
-| Pump, Fuel Injection | 1 | [[3093635]] |
-| Valve, Pressure Regulator | 1 | [[4975645]] |
-| Washer, Sealing | 2 | [[4975529]] |
+| Наименование | Количество | Номер детали |
+| Кит, топливный насос, правый берег |  | [[2881835]] |
+| Насос, впрыск топлива | 1 | [[3093635]] |
+| клапан, регулятор давления | 1 | [[4975645]] |
+| Шеф, Шиллинг | 2 | [[4975529]] |
 
-If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
+Если существующий насос ** должен быть заменен или доставлен в авторизованное место ремонта BoschTM для обслуживания, адаптер сплина ** должен быть удален. Заменные топливные насосы для впрыска топлива включают в себя адаптеры для сплин. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене 4021539.[[57-005-012-tr — Fuel Injection Pumps, In-Line|См. процедуру 005-012 в разделе 5.]]
 
 ## Детали, упомянутые в документе
 
@@ -134,3 +145,85 @@ If the existing pump **must** be replaced or taken to an authorized Bosch™ rep
 | [[3963988]] | SEALING WASHER | Уплотнительная шайба |
 | [[4975529]] | SEALING WASHER | Уплотнительная шайба |
 | [[4975645]] | Pressure Regulator Valve | Клапан-регулятор давления |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Fuel Pump Pressure Regulator Valve
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin introduces a new pressure regulator valve for the existing Bosch™ RP39 Injection fuel pump for the QST30 engine (Industrial applications). This is applicable to both mechanical fuel systems and electronic fuel systems.
+>
+> The pressure regulator valve, Part Number [[4975645]], replaces the overflow valve, Part Number 3092734. This replacement was made to improve part reliability and proper regulation of the internal fuel pump pressure.
+>
+> The noun name of this part has changed from overflow valve to pressure regulator valve, as it more accurately describes the part's function.
+>
+> The engine serial number (ESN) first for the new pressure regulator is 37242280 and occurred on 21-Dec-2009.
+>
+> The new pressure regulator valve, Part Number [[4975645]], obsoletes and supersedes the overflow valve, Part Number 3092637, for RP39 model fuel pumps **ONLY**. This valve can **only** be purchased as a kit, Part Number [[2881831]]. The details are shown in the table below.
+>
+> | Valve Kit |  |  |  |
+> |---|---|---|---|
+> | Description | Quantity | Old Part Number | New Part Number |
+> | Kit, Pressure Regulator Valve (formerly Kit, Overflow Valve) |  | 3800696 | [[2881831]] |
+> | Valve, pressure regulator (formerly valve, overflow) | 1 | 3092734 | [[4975645]] |
+> | Washer, Sealing | 2 | [[3963988]] | [[4975529]] |
+>
+> **Note · Примечание**
+> Valve Kit, Part Number 3800696, is still available for power generation applications.
+>
+> Valve Kit, Part Number 3800697, is now obsolete.
+>
+> | Old Mechanical RP39 Fuel Pumps |  |  |
+> |---|---|---|
+> | Description | Kit Part Number | Part Number |
+> | Left Bank | 4025260 | 3094347 |
+> | Right Bank | 4025261 | 3094348 |
+>
+> | New Mechanical Left Bank Kit |  |  |
+> |---|---|---|
+> | Description | Quantity | Part Number |
+> | Kit, Fuel Pump, Left Bank |  | 2881832 |
+> | Pump, Fuel Injection | 1 | 3094347 |
+> | Valve, Pressure Regulator | 1 | [[4975645]] |
+> | Washer, Sealing | 2 | [[4975529]] |
+>
+> | New Mechanical Right Bank Kit |  |  |
+> |---|---|---|
+> | Description | Quantity | Part Number |
+> | Kit, Fuel Pump, Right Bank |  | 2881833 |
+> | Pump, Fuel Injection | 1 | 3094348 |
+> | Valve, Pressure Regulator | 1 | [[4975645]] |
+> | Washer, Sealing | 2 | [[4975529]] |
+>
+> **Note · Примечание**
+> Previous service kits, Part Numbers 4025260 and 4025261, for the mechanical pumps that included a spline gear, and mounting hardware, are now obsolete.
+>
+> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]
+>
+> | Old Electronic RP39 Fuel Pumps |  |  |
+> |---|---|---|
+> | Description | Kit Part Number | Part Number |
+> | Left Bank | N/A | [[3093636]] |
+> | Right Bank | N/A | [[3093635]] |
+>
+> | New Electronic Left Bank Kit |  |  |
+> |---|---|---|
+> | Description | Quantity | Part Number |
+> | Kit, Fuel Pump, Left Bank |  | [[2881834]] |
+> | Pump, Fuel Injection | 1 | [[3093636]] |
+> | Valve, Pressure Regulator | 1 | [[4975645]] |
+> | Washer, Sealing | 2 | [[4975529]] |
+>
+> | New Electronic Right Bank Kit |  |  |
+> |---|---|---|
+> | Description | Quantity | Part Number |
+> | Kit, Fuel Pump, Right Bank |  | [[2881835]] |
+> | Pump, Fuel Injection | 1 | [[3093635]] |
+> | Valve, Pressure Regulator | 1 | [[4975645]] |
+> | Washer, Sealing | 2 | [[4975529]] |
+>
+> If the existing pump **must** be replaced or taken to an authorized Bosch™ repair location for service, the spline adapter **must** be removed. Replacement fuel injection pumps do **not** include spline adapters. Use the following procedure in the QST30 Service Manual, Bulletin 4021539. [[57-005-012-tr — Fuel Injection Pumps, In-Line|Refer to Procedure 005-012 in Section 5.]]

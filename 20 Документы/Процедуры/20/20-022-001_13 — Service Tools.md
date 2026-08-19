@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_13.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-022-001_13.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -32,6 +35,14 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_13.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-022-001_13.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[fa8togc.png]]
 
 ![[3377161.png]]
@@ -42,9 +53,18 @@ tags:
 
 ![[3823574.png]]
 
-| **Tool Number** ST-1138 | **Belt Tensioner Gauge** Used to measure alternator belt tension. |  |
+| ** Номер инструмента** ST-1138 | ** Калибр натяжения на поясе ** Используется для измерения напряжения ремня генератора. |  |
 |---|---|---|
-| **Tool Number** 3377161 | **Digital Multimeter Kit** Used to measure up to 750 AC current (amps) and 1000 DC voltage (VDC), or resistance (ohms). Kit is complete with test leads and alligator clips. |  |
-| **Tool Number** 3164488 | **Digital Multimeter** Used to measure up to 750 AC current (amps) and 1000 DC voltage (VDC), or resistance (ohms). |  |
-| **Tool Number** 3164489 | **Digital Multimeter** Used to measure frequency, capacitance, temperature (with a built-in temperature module), RPM, dwell, duty cycle, and pulse width. |  |
-| **Tool Number** 3164490 | **Clamp On Current Probe** Used to measure AC and DC currents. This unit must be used with digital multimeter, Part Number 3164488 or 3377161. |  |
+| ** Инструментальный номер ** 3377161 | ** Цифровой мультиметрический набор ** Используется для измерения до 750 токов переменного тока (ампер) и 1000 постоянного напряжения (VDC) или сопротивления (омов). Набор комплектуется измерительным щупом и аллигаторными клипами. |  |
+| **Инструментальный номер** 3164488 | ** Цифровой мультиметр** Используется для измерения до 750 токов переменного тока (ампер) и 1000 постоянного напряжения (VDC) или сопротивления (омов). |  |
+| **Инструментальное число** 3164489 | ** Цифровой мультиметр** Используется для измерения частоты, емкости, температуры (со встроенным температурным модулем), RPM, рабочего цикла, ширины импульса. |  |
+| **Инструментальный номер** 3164490 | ** Зажим на текущем щупе** Используется для измерения токов переменного и постоянного тока. Этот блок должен использоваться с цифровым мультиметром, номером 3164488 или 3377161. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** ST-1138 | **Belt Tensioner Gauge** Used to measure alternator belt tension. |  |
+> |---|---|---|
+> | **Tool Number** 3377161 | **Digital Multimeter Kit** Used to measure up to 750 AC current (amps) and 1000 DC voltage (VDC), or resistance (ohms). Kit is complete with test leads and alligator clips. |  |
+> | **Tool Number** 3164488 | **Digital Multimeter** Used to measure up to 750 AC current (amps) and 1000 DC voltage (VDC), or resistance (ohms). |  |
+> | **Tool Number** 3164489 | **Digital Multimeter** Used to measure frequency, capacitance, temperature (with a built-in temperature module), RPM, dwell, duty cycle, and pulse width. |  |
+> | **Tool Number** 3164490 | **Clamp On Current Probe** Used to measure AC and DC currents. This unit must be used with digital multimeter, Part Number 3164488 or 3377161. |  |

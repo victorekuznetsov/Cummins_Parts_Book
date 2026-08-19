@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 8
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-016-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-016-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Flywheel Ring Gear
@@ -32,62 +35,116 @@ tags:
 > **Даты:** изменён 2005-06-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-016-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-016-008.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the transmission.
 
-Refer to equipment manufacturer's instructions.
+### Подготовительные операции
+
+Удалите передачу.
+
+Смотрите инструкции производителя оборудования.
 
 ![[tr900mb.png]]
 
-### Initial Check
+### Первичная проверка
 
-Inspect the ring gear teeth for cracks and chips.
+Проверьте зубы кольцевой передачи на наличие трещин и чипсов.
 
-> [!note] Note · Примечание
-> If the ring gear teeth are damaged, the ring gear **must** be replaced.
+> [!note] Примечание
+> Если зубья кольцевой передачи повреждены, кольцевую передачу *** необходимо заменить.
 
 ![[fw9cshb.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> The component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+> [!danger] ОПАСНО
+> Компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в поднятии компонента.
 
-Remove the flywheel. Refer to Procedure [[100-016-005 — Flywheel|016-005]].
+Удалите маховик. См. процедуру[[100-016-005 — Flywheel|016-005]].
 
 ![[fh900mb.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe eye damage, wear eye protection when you drive the gear from the flywheel. Do not use a steel drift pin.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность серьезного повреждения глаз, используйте защиту глаз при вождении передачи от маховика. Не используйте стальной штифт.
 
-Use the brass drift pin to drive the ring gear from the flywheel.
+Используйте латунный штифт для привода кольцевой передачи от маховика.
 
 ![[fh9gema.png]]
 
-### Install
+### Установка
 
-Heat the new ring gear for 20 minutes in an oven preheated to 127°C \[260°F\].
+Нагрейте новую кольцевую передачу в течение 20 минут в духовке, предварительно нагретой до 127 ° C \[260° F \].
 
 ![[fh9gewa.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить возможность сильных ожогов, надевайте защитные перчатки при установке подогреваемого снаряжения.
 
-> [!note] Note · Примечание
-> The ring gear **must** be installed so the bevel on the teeth is toward the crankshaft side of the flywheel.
+> [!note] Примечание
+> Кольцевое снаряжение **должно** быть установлено таким образом, чтобы скос на зубах был по направлению к коленчатой стороне маховика.
 
-Install the ring gear.
+Установите кольцевую передачу.
 
 ![[fh9gewb.png]]
 
-Use two capscrews and the barring tool, Part Number 3824591, in the front of the crankshaft to hold the crankshaft when the flywheel capscrews are being tightened.
+Используйте два болта и запорный инструмент, Номер детали 3824591, в передней части коленчатого вала, чтобы удерживать коленчатый вал, когда болты маховика затягиваются.
 
 ![[fw9cshb.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 137 n•m [101 ft-lb]
+> [!tip] Момент затяжки
+> 137 Н·м [101 фунт-фут]
 
 ![[fh900oa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the transmission.
+>
+> Refer to equipment manufacturer's instructions.
+>
+> ### Initial Check
+>
+> Inspect the ring gear teeth for cracks and chips.
+>
+> **Note · Примечание**
+> If the ring gear teeth are damaged, the ring gear **must** be replaced.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> The component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+>
+> Remove the flywheel. Refer to Procedure [[100-016-005 — Flywheel|016-005]].
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe eye damage, wear eye protection when you drive the gear from the flywheel. Do not use a steel drift pin.
+>
+> Use the brass drift pin to drive the ring gear from the flywheel.
+>
+> ### Install
+>
+> Heat the new ring gear for 20 minutes in an oven preheated to 127°C \[260°F\].
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated gear.
+>
+> **Note · Примечание**
+> The ring gear **must** be installed so the bevel on the teeth is toward the crankshaft side of the flywheel.
+>
+> Install the ring gear.
+>
+> Use two capscrews and the barring tool, Part Number 3824591, in the front of the crankshaft to hold the crankshaft when the flywheel capscrews are being tightened.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 137 n•m [101 ft-lb]

@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-101-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-101-019.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Step Timing Control (STC)
@@ -37,24 +40,50 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-101-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-101-019.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Some engine models are equipped with step timing control (STC). Step timing control allows the engine to operate in advanced injection timing immediately after start-up and light duty engine load conditions, and to return to normal timing during medium and high engine load conditions.
 
-Benefits include:
+### Общие сведения
 
-- Improved cold weather idling characteristics
-- Reduced cold weather white smoke
-- Improved light load fuel economy.
+Некоторые модели двигателей оснащены системой управления временем шага (STC). Контроль времени шага позволяет двигателю работать в расширенном режиме впрыска сразу после запуска и условий нагрузки двигателя легкой службы, а также вернуться к нормальному времени в условиях средней и высокой нагрузки двигателя.
 
-Do **not** attempt to bypass or otherwise tamper with the STC oil control valve or plumbing. This will result in the loss of both fuel economy and engine durability. Correct valve operation is necessary to maintain acceptable cylinder pressures and temperatures, and to yield optimal fuel economy during high-load operation. Correct operation is also necessary to control white smoke at idle.
+К числу преимуществ относятся:
+
+- Улучшенные характеристики холостого хода
+- Сниженный холодный белый дым
+- Улучшенная экономия топлива при легкой нагрузке.
+
+**Не** пытаться обойти или иным образом подделать клапан управления маслом или сантехнику STC. Это приведет к потере как экономии топлива, так и долговечности двигателя. Правильная работа клапана необходима для поддержания приемлемых давлений и температур цилиндров и обеспечения оптимальной экономии топлива во время работы с высокой нагрузкой. Правильная работа также необходима для контроля белого дыма на холостом ходу.
 
 ![[bp4vaub.png]]
 
-When operating in the advanced mode, a light ticking noise can be noted at the overhead. This sound is normal, and is caused by the actuation of the STC hydraulic tappets during each injection cycle.
+При работе в продвинутом режиме можно отметить легкий тикающий шум на верхних сиденьях. Этот звук является нормальным и вызван приведением в действие гидравлических кранов STC во время каждого цикла инъекции.
 
 ![[ew400ki.png]]
 
-For optimal white smoke control on STC-equipped engines, do not increase engine speed above idle during engine start-up until sufficient oil pressure reaches the STC tappets and shifts all injectors into the advanced timing mode.
+Для оптимального управления белым дымом на двигателях, оснащенных STC, не увеличивайте скорость двигателя выше холостого хода во время запуска двигателя, пока достаточное давление масла не достигнет кранов STC и не переключит весь форсунка в расширенный режим времени.
 
 ![[bp4vauc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Some engine models are equipped with step timing control (STC). Step timing control allows the engine to operate in advanced injection timing immediately after start-up and light duty engine load conditions, and to return to normal timing during medium and high engine load conditions.
+>
+> Benefits include:
+>
+> - Improved cold weather idling characteristics
+> - Reduced cold weather white smoke
+> - Improved light load fuel economy.
+>
+> Do **not** attempt to bypass or otherwise tamper with the STC oil control valve or plumbing. This will result in the loss of both fuel economy and engine durability. Correct valve operation is necessary to maintain acceptable cylinder pressures and temperatures, and to yield optimal fuel economy during high-load operation. Correct operation is also necessary to control white smoke at idle.
+>
+> When operating in the advanced mode, a light ticking noise can be noted at the overhead. This sound is normal, and is caused by the actuation of the STC hydraulic tappets during each injection cycle.
+>
+> For optimal white smoke control on STC-equipped engines, do not increase engine speed above idle during engine start-up until sufficient oil pressure reaches the STC tappets and shifts all injectors into the advanced timing mode.

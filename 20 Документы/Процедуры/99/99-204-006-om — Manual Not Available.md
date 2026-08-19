@@ -13,12 +13,15 @@ families:
   - "QST30"
 manuals:
   - "3666134"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-006-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-006-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -32,8 +35,24 @@ tags:
 > **Даты:** изменён 2020-05-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-006-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-006-om.pdf)
 
-## **General Safety Instructions (99-204-006-om)**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 06-May-2020
+## ** Общие инструкции по безопасности (99-204-006-ом)**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 06-май 2020
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **General Safety Instructions (99-204-006-om)**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 06-May-2020

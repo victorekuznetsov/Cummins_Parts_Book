@@ -37,6 +37,8 @@ manuals:
   - "4021442"
   - "4021592"
   - "4021674"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-t00-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-t00-002.pdf"
 tags:
@@ -47,6 +49,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Troubleshooting Symptoms Overview
@@ -60,23 +63,54 @@ tags:
 > **Даты:** изменён 2016-02-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-t00-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-t00-002.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
+
+### Общие сведения
+
+> [!danger] ОПАСНО
+> Устранение неполадок представляет риск повреждения оборудования, травмы или смерти. Устранение неполадок должно осуществляться обученными, опытными техниками.
+
+В этом разделе используются симптомы устранения неполадок в качестве руководства для определения проблемы и направления конечного пользователя к правильной процедуре ремонта.
+
+Устранение неполадок симптомных деревьев основывается на следующих предположениях.
+
+- Компоненты установлены в соответствии со спецификациями производителя.
+- Самый простой ремонт делается в первую очередь.
+- Все универсальные решения предназначены для наиболее распространенных применений.
+
+См. руководство по обслуживанию производителя оригинального оборудования для его спецификаций.
+
+Чтобы использовать деревья симптомов устранения неполадок, выполните следующие шаги.
+
+1. В разделе ТС - Устранение неполадок Симптомы, найти симптом, который требует диагностики.
+2. Найдите вероятную причину в левой колонке, а затем перейдите к процедуре, указанной в правой колонке, для корректирующего действия.
+3. Продолжайте с помощью дерева симптомов, пока проблема не будет решена.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> **WARNING · Опасно**
 > Troubleshooting presents the risk of equipment damage, personal injury or death. Troubleshooting must be performed by trained, experienced technicians.
-
-This section utilizes Troubleshooting Symptoms as a guide to locate a problem and direct the end user to the correct procedure for making the repair.
-
-Troubleshooting Symptom Trees are based on the following assumptions.
-
-- The components have been installed according to the manufacturer's specifications.
-- The easiest repairs are done first.
-- All generic solutions are designed for the most common applications.
-
-Refer to the Original Equipment Manufacturer's service manual for their specifications.
-
-To utilize troubleshooting symptom trees, complete the following steps.
-
-1. In Section TS - Troubleshooting Symptoms, locate the symptom that requires diagnosis.
-2. Locate the probable cause in the left column then navigate to the procedure referenced in the right column for a corrective action.
-3. Continue through the symptom tree until the issue has been resolved.
+>
+> This section utilizes Troubleshooting Symptoms as a guide to locate a problem and direct the end user to the correct procedure for making the repair.
+>
+> Troubleshooting Symptom Trees are based on the following assumptions.
+>
+> - The components have been installed according to the manufacturer's specifications.
+> - The easiest repairs are done first.
+> - All generic solutions are designed for the most common applications.
+>
+> Refer to the Original Equipment Manufacturer's service manual for their specifications.
+>
+> To utilize troubleshooting symptom trees, complete the following steps.
+>
+> 1. In Section TS - Troubleshooting Symptoms, locate the symptom that requires diagnosis.
+> 2. Locate the probable cause in the left column then navigate to the procedure referenced in the right column for a corrective action.
+> 3. Continue through the symptom tree until the issue has been resolved.

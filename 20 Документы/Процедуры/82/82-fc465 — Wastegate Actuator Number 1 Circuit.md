@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc465.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc465.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Wastegate Actuator Number 1 Circuit
@@ -32,38 +35,82 @@ tags:
 > **Даты:** изменён 2012-07-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc465.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc465.pdf)
 
-### Fault Code: 465
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Wastegate Actuator Number 1 Circuit
 
-Printable Version
+### Код неисправности: 465
 
-### Overview
+### Цепь привода перепускного клапана турбины №1
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 465 PID(P): S032 SPN: 1188 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the wastegate actuator number 1 circuit when no voltage was being supplied by the engine control module (ECM). | Engine will run derated. |
+| Код неисправности: 465 PID(P): S032 SPN: 1188 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное в цепи привода 1 обходного клапана турбины, когда напряжение не подавалось модулем управления двигателем (ECM). | Двигатель будет работать с поломкой. |
 
 ![[19c00361.png]]
 
-Wastegate Actuator number 1 Circuit
+Цепь привода перепускного клапана турбины №1
 
-### Circuit Description
+### Описание цепи
 
-The wastegate actuators are devices used by the ECM to control boost pressure.
+Вентиляционные приводы турбинного обхода - это устройства, используемые ECM для управления давлением наддува.
 
-### Component Location
+### Расположение компонента
 
-The wastegate controller is located on the air inlet horn. Actuator number 1 is the rear-most solenoid on the controller.
+Контроллер обходного клапана турбины расположен на впускном роге воздуха. Привод № 1 является самым задним соленоидом на контроллере.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- A short circuit to voltage source in the harness
+- Короткое замыкание к источнику напряжения в электропроводке
 
-- An open circuit in the harness, connector, or wastegate control valve
+- Открытая схема в проводной упряжке, разъёме или клапане управления обходным клапаном турбины
 
-- Improperly mounted wastegate actuator solenoid.
+- Неправильно установленный турбинный шунтирующий клапан привода соленоид.
 
-Refer to Troubleshooting Fault Code t05-465
+Устранение неполадок код t05-465
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 465
+>
+> ### Wastegate Actuator Number 1 Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 465 PID(P): S032 SPN: 1188 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the wastegate actuator number 1 circuit when no voltage was being supplied by the engine control module (ECM). | Engine will run derated. |
+>
+> Wastegate Actuator number 1 Circuit
+>
+> ### Circuit Description
+>
+> The wastegate actuators are devices used by the ECM to control boost pressure.
+>
+> ### Component Location
+>
+> The wastegate controller is located on the air inlet horn. Actuator number 1 is the rear-most solenoid on the controller.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - A short circuit to voltage source in the harness
+>
+> - An open circuit in the harness, connector, or wastegate control valve
+>
+> - Improperly mounted wastegate actuator solenoid.
+>
+> Refer to Troubleshooting Fault Code t05-465

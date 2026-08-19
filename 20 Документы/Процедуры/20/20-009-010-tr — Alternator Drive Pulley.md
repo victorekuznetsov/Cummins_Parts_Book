@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 7
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-010-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Alternator Drive Pulley
@@ -32,70 +35,134 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-010-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the belt guard (if installed). Refer to Procedure [[20-008-001 — Belt Guard|008-001]].
-- Remove the alternator belt. Refer to Procedure [[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
+
+### Подготовительные операции
+
+- Снять защитный ремень (при его установке). См. процедуру[[20-008-001 — Belt Guard|008-001]].
+- Снимите ремень генератора. См. процедуру[[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the plastic plug at the end of the shaft.
+Удалите пластиковую пробку в конце вала.
 
-Insert the adapter, Part Number 3376089, in the shaft to prevent damage. The adapter is included with the pulley installation tool, Part Number 3376326.
+Вставьте адаптер, номер детали 3376089, в шахту, чтобы предотвратить повреждение. Адаптер включен в комплект с установочным инструментом шкива, Номер детали 3376326.
 
-> [!note] Note · Примечание
-> If the adapter is **not** available, a \[3/4-16 inch\] capscrew with a head ground smaller than the pulley inside diameter can be used.
+> [!note] Примечание
+> Если адаптер ** не доступен, можно использовать болты \[3/4-16 дюйма] с головкой меньше, чем шкив внутри диаметра.
 
 ![[dw4puma.png]]
 
-Put the puller on the pulley.
+Положите съёмник на шкив.
 
-Remove the pulley.
+Уберите шкив.
 
-Remove the adapter.
+Удалите адаптер.
 
 ![[01400114.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the alternator drive pulley. Dry with compressed air.
+Используйте растворитель для очистки шкива привода генератора. Просушите сжатым воздухом.
 
-Inspect the pulley for nicks, cracks, excessive wear in the belt grooves, and other damage.
+Осмотрите шкив на наличие ника, трещин, чрезмерного износа в канавках пояса и других повреждений.
 
 ![[wp2pusa.png]]
 
-### Install
+### Установка
 
-Replace the alternator drive seal if damaged. Refer to Procedure [[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
+Замените уплотнение привода генератора переменного тока, если оно повреждено. См. процедуру[[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer to drive the pulley into position. The thrust washers will be damaged.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток, чтобы привести шкив в положение. Моющие устройства будут повреждены.
 
-Use the pulley installation kit, Part Number 3376326, or equivalent. Install the correct adapter in the pusher.
+Используйте комплект установки шкива, Номер детали 3376326 или эквивалент. Установите правильный адаптер в толкателе.
 
-Install the pulley on the shaft. The pulley **must** touch the step on the shaft.
+Установите шкив на вал. Щелчок ** должен** коснуться ступеньки на валу.
 
-Remove the tool and adapter.
+Удалите инструмент и адаптер.
 
 ![[01400115.png]]
 
-Remove the capscrew from the water pump drive.
+Удалите болты из привода водяного насоса.
 
-Install the plastic plug that protects the threads.
+Установите пластиковую вилку, которая защищает резьбу.
 
 ![[dw4puhb.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the alternator belt. Refer to Procedure [[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
-- Install the belt guard (if installed). Refer to Procedure [[20-008-001 — Belt Guard|008-001]].
+- Установите ремень генератора. См. процедуру[[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
+- Установите защитный ремень (если установлен). См. процедуру[[20-008-001 — Belt Guard|008-001]].
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the belt guard (if installed). Refer to Procedure [[20-008-001 — Belt Guard|008-001]].
+> - Remove the alternator belt. Refer to Procedure [[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
+>
+> ### Remove
+>
+> Remove the plastic plug at the end of the shaft.
+>
+> Insert the adapter, Part Number 3376089, in the shaft to prevent damage. The adapter is included with the pulley installation tool, Part Number 3376326.
+>
+> **Note · Примечание**
+> If the adapter is **not** available, a \[3/4-16 inch\] capscrew with a head ground smaller than the pulley inside diameter can be used.
+>
+> Put the puller on the pulley.
+>
+> Remove the pulley.
+>
+> Remove the adapter.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the alternator drive pulley. Dry with compressed air.
+>
+> Inspect the pulley for nicks, cracks, excessive wear in the belt grooves, and other damage.
+>
+> ### Install
+>
+> Replace the alternator drive seal if damaged. Refer to Procedure [[20-001-001-tr — Charging System Alternator Drive Seal|001-001]].
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer to drive the pulley into position. The thrust washers will be damaged.
+>
+> Use the pulley installation kit, Part Number 3376326, or equivalent. Install the correct adapter in the pusher.
+>
+> Install the pulley on the shaft. The pulley **must** touch the step on the shaft.
+>
+> Remove the tool and adapter.
+>
+> Remove the capscrew from the water pump drive.
+>
+> Install the plastic plug that protects the threads.
+>
+> ### Finishing Steps
+>
+> - Install the alternator belt. Refer to Procedure [[20-013-005-tr — Charging System Alternator Drive Belt|013-005]].
+> - Install the belt guard (if installed). Refer to Procedure [[20-008-001 — Belt Guard|008-001]].

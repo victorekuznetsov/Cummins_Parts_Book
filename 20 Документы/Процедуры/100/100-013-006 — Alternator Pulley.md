@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666003"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-013-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Alternator Pulley
@@ -32,13 +35,32 @@ tags:
 > **Даты:** изменён 2007-07-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-013-006.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the alternator pulley.
 
-Install and tighten the alternator pulley mounting nut.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+Установите шкив генератора.
+
+Установите и затяните крепящийся гайку шкив генератора.
+
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
 ![[13900068.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the alternator pulley.
+>
+> Install and tighten the alternator pulley mounting nut.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]

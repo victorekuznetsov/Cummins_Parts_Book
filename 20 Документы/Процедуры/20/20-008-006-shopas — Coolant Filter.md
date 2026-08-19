@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-006-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-006-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter
@@ -32,21 +35,44 @@ tags:
 > **Даты:** изменён 2022-09-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-006-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-006-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> Do **not** allow oil to get in the filter. It will break down the SCA.
 
-Lubricate the seal on the filter with engine oil.
+### Установка
+
+> [!note] Примечание
+> ** Не допускать попадания масла в фильтр. Это разрушит SCA.
+
+Смазать уплотнение на фильтре моторным маслом.
 
 ![[wf8etwa.png]]
 
-Install the coolant filter. Turn the filter until the seal touches the filter head. Turn an additional ½ to ¾ of a turn after contact.
+Установите фильтр охлаждающей жидкости. Поверните фильтр, пока уплотнение не коснется головки фильтра. Поверните дополнительный 1⁄2 до 3⁄4 поворота после контакта.
 
 ![[wf800ha.png]]
 
-Turn the valve to the ON position.
+Поверните клапан в положение Включено.
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[wf4hdwa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **Note · Примечание**
+> Do **not** allow oil to get in the filter. It will break down the SCA.
+>
+> Lubricate the seal on the filter with engine oil.
+>
+> Install the coolant filter. Turn the filter until the seal touches the filter head. Turn an additional ½ to ¾ of a turn after contact.
+>
+> Turn the valve to the ON position.
+>
+> Operate the engine and check for leaks.

@@ -14,12 +14,15 @@ manuals:
   - "2883407"
   - "4021330"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-039.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-039.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Fan Spacer and Pulley
@@ -33,57 +36,110 @@ tags:
 > **Даты:** изменён 2005-06-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-039.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-039.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Loosen the fan capscrews before removing the drive belt.
+
+### Подготовительные операции
+
+Устраните болты вентилятора перед удалением приводного ремня.
 
 ![[17d00008.png]]
 
-### Remove
+### Снятие
 
-> [!warning] CAUTION · Осторожно
-> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+> [!warning] ОСТОРОЖНО
+> Натяжитель ремня загружен пружиной и должен быть отвлечен от приводного ремня. Разворот в неправильном направлении может привести к повреждению натяжителя ремня.
 
-Lift the tensioner to relieve tension in the drive belt. Remove the belt.
+Поднимите натяжитель, чтобы снять напряжение в приводном ремне. Снимите ремень.
 
 ![[17d00008.png]]
 
-Remove the fan capscrews, fan, and spacer.
+Удалите болты вентилятора, вентилятор и прокладку.
 
-Remove the fan pulley.
+Удалите шкив вентилятора.
 
 ![[13d00003.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the fan pulley for cracks near bolt holes.
+Осмотрите шкив вентилятора на наличие трещин вблизи болтовых отверстий.
 
-Check for cracks, loose rivets, and bent or loose fan blades.
+Проверьте наличие трещин, рыхлых заклепок и согнутых или рыхлых лопастей вентилятора.
 
 ![[08d00079.png]]
 
-### Install
+### Установка
 
-Install the fan pulley.
+Установите шкив вентилятора.
 
-Install the spacer, fan, and fan capscrews.
+Установите прокладку, вентилятор и вентиляторные болты.
 
 ![[13d00003.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!warning] CAUTION · Осторожно
-> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+> [!warning] ОСТОРОЖНО
+> Натяжитель ремня загружен пружиной и должен быть отвлечен от приводного ремня. Разворот в неправильном направлении может привести к повреждению натяжителя ремня.
 
-Install the drive belt.
+Установите приводной ремень.
 
-Lift the tensioner to relieve tension in the drive belt. Tighten the fan capscrews.
+Поднимите натяжитель, чтобы снять напряжение в приводном ремне. Затягивай болты вентилятора.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [212 in-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [212 фунт-дюйм]
 
-Service Tip:
+Совет по обслуживанию:
 
-If difficulty is experienced installing the drive belt or if the belt seems too short, position the belt over the grooved pulleys first; then, while holding the tensioner up, slide the belt over the water pump pulley.
+Если возникает затруднение при установке приводного ремня или если ремень кажется слишком коротким, сначала поместите ремень над канавками; затем, удерживая натяжитель вверх, сдвиньте ремень над шкивом водяного насоса.
 
 ![[17d00008.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Loosen the fan capscrews before removing the drive belt.
+>
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+>
+> Lift the tensioner to relieve tension in the drive belt. Remove the belt.
+>
+> Remove the fan capscrews, fan, and spacer.
+>
+> Remove the fan pulley.
+>
+> ### Inspect for Reuse
+>
+> Inspect the fan pulley for cracks near bolt holes.
+>
+> Check for cracks, loose rivets, and bent or loose fan blades.
+>
+> ### Install
+>
+> Install the fan pulley.
+>
+> Install the spacer, fan, and fan capscrews.
+>
+> ### Finishing Steps
+>
+> **CAUTION · Осторожно**
+> The belt tensioner is spring-loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner.
+>
+> Install the drive belt.
+>
+> Lift the tensioner to relieve tension in the drive belt. Tighten the fan capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [212 in-lb]
+>
+> Service Tip:
+>
+> If difficulty is experienced installing the drive belt or if the belt seems too short, position the belt over the grooved pulleys first; then, while holding the tensioner up, slide the belt over the water pump pulley.

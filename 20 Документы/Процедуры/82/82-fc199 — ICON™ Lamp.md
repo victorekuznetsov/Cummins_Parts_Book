@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc199.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc199.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # ICON™ Lamp
@@ -32,32 +35,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc199.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc199.pdf)
 
-### Fault Code: 199
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### ICON™ Lamp
 
-Printable Version
+### Код неисправности: 199
 
-### Overview
+### Лампа ICON™
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 199 PID(P): S122, 4 SPN: 612 FMI: 4 Lamp: Yellow SRT: | Less than 6 VDC (low voltage) detected at the ICON™ lamp circuit when high voltage was expected by the ECM. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. |
+| Код неисправности: 199 PID(P): S122, 4 SPN: 612 FMI: 4 лампы: Желтая СТО: | Менее 6 VDC (низкое напряжение), обнаруженных на цепи лампы ICONTM, когда высокое напряжение ожидалось ECM. | Система ICONTM будет отключена. *** Включено только обязательное отключение. |
 
 ![[19803214.png]]
 
-ICON™ Lamp Circuit
+Схема светильника ICONTM
 
-### Circuit Description
+### Описание цепи
 
-The ICON™ lamp circuit illuminates the ICON™ lamp to indicate when the ICON™ system is active. In addition, ICON™ active fault codes will be flashed out on this lamp. The lamp circuit requires a specific flash timing (on/off timing). If the on/off voltage is incorrect, ICON™ will be disabled. The lamp circuit **must** be functional to enable ICON™.
+Схема лампы ICONTM освещает лампу ICONTM, чтобы указать, когда система ICONTM активна. Кроме того, на этой лампе будут высвечиваться активные коды неисправностей ICONTM. Схема лампы требует определенного времени вспышки (включения/выключения). Если напряжение включения/выключения некорректно, ICONTM будет отключен. Схема лампы ** должна быть функциональной для включения ICONTM.
 
-### Component Location
+### Расположение компонента
 
-The ICON™ lamp is located in the vehicle cab on the dash panel.
+Лампа ICONTM расположена в кабине автомобиля на приборной панели.
 
-### Shoptalk
+### Практические замечания
 
-This fault indicates a short circuit to ground or an open circuit.
+Этот дефект указывает на короткое замыкание на землю или открытую цепь.
 
-Refer to Troubleshooting Fault Code t05-199
+См. Код устранения неполадок t05-199
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 199
+>
+> ### ICON™ Lamp
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 199 PID(P): S122, 4 SPN: 612 FMI: 4 Lamp: Yellow SRT: | Less than 6 VDC (low voltage) detected at the ICON™ lamp circuit when high voltage was expected by the ECM. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. |
+>
+> ICON™ Lamp Circuit
+>
+> ### Circuit Description
+>
+> The ICON™ lamp circuit illuminates the ICON™ lamp to indicate when the ICON™ system is active. In addition, ICON™ active fault codes will be flashed out on this lamp. The lamp circuit requires a specific flash timing (on/off timing). If the on/off voltage is incorrect, ICON™ will be disabled. The lamp circuit **must** be functional to enable ICON™.
+>
+> ### Component Location
+>
+> The ICON™ lamp is located in the vehicle cab on the dash panel.
+>
+> ### Shoptalk
+>
+> This fault indicates a short circuit to ground or an open circuit.
+>
+> Refer to Troubleshooting Fault Code t05-199

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 8
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-024-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-024-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Air Leaks, Air Intake and Exhaust Systems
@@ -32,81 +35,154 @@ tags:
 > **Даты:** изменён 2009-05-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-024-tr.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> The engine intake air must be filtered to prevent dirt and debris from entering the engine. If intake air piping is damaged or loose, unfiltered air can enter the engine and cause premature wear.
 
-> [!note] Note · Примечание
-> The QSK19 mechanically actuated injection engine is shown in the procedure. While the QSK19 electronically actuated injection engine is different, the basic procedure remains the same.
+### Проверка при повторном использовании
 
-Inspect the system for damaged or loose intake piping.
+> [!warning] ОСТОРОЖНО
+> Воздух, поступающий в двигатель, должен быть отфильтрован, чтобы предотвратить попадание грязи и мусора в двигатель. Если впускной воздухопровод поврежден или свободен, нефильтрованный воздух может войти в двигатель и вызвать преждевременный износ.
 
-Replace damaged pipes and tighten loose clamps.
+> [!note] Примечание
+> В процессе показан двигатель впрыска с механическим приводом QSK19. В то время как QSK19 с электронным приводом двигателя впрыска отличается, основная процедура остается той же.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+Осмотрите систему на поврежденные или рыхлые трубопроводы.
+
+Замените поврежденные трубы и затяните рыхлые зажимы.
+
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[10400005.png]]
 
-> [!note] Note · Примечание
-> Stall speed is **not** full power.
+> [!note] Примечание
+> Скорость остановки ** не ** полная мощность.
 
-Operate the engine at rated rpm and load.
+Работайте с двигателем при номинальной оборотах и нагрузке.
 
-Listen for a high pitch noise from the turbocharger.
+Слушайте шум высокой высоты от турбокомпрессора.
 
 ![[tb800ca.png]]
 
-This type of noise can be caused by an air leak from the following:
+Этот тип шума может быть вызван утечкой воздуха из следующего:
 
-Turbocharger-To-Aftercooler Air Supply Hose.
+Турбокомпрессор-на-охладитель Air Supply Hose.
 
-Inspect the hose for damage. Tighten the hose clamps. [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
+Проверьте шланг на предмет повреждений. Затяните хомуты шлангов.[[20-010-019-tr — Air Crossover|См. процедуру 010-019 в разделе 10.]]
 
 ![[10400006.png]]
 
-This type of noise can be caused by the turbocharger to charge-air-cooler connection.
+Этот тип шума может быть вызван турбокомпрессором для подключения заряда-охладителя воздуха.
 
-Inspect the charge air cooler hoses and clamps. Tighten the clamps.
+Проверьте шланги и зажимы охладителя воздуха. Зажгите зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
-[[20-010-027 — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+[[20-010-027 — Charge-Air Cooler|См. процедуру 010-027 в разделе 10.]]
 
 ![[nobox.png]]
 
-Air Crossover-To-Aftercooler Connection Leak.
+Air Crossover-To-Aftercooler Connection Leak (переход на охладитель).
 
-Replace the air crossover gasket. [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
+Замените прокладку воздушного кроссовера.[[20-010-019-tr — Air Crossover|См. процедуру 010-019 в разделе 10.]]
 
 ![[10400007.png]]
 
-Turbocharger-To-Exhaust Manifold Gasket Leak.
+Утечка с турбокомпрессора на выхлопной коллектор.
 
-Replace the gasket. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+Замените прокладку.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|См. процедуру 010-037 в разделе 10.]]
 
 ![[10400008.png]]
 
-Turbine Housing-To-Bearing Housing Sealing Surface Leak
+Турбинный кожух-к-несущему кожуху Sealing Surface Leak
 
-Tighten capscrews.
+Затягивай болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-If an air leak is still present, replace the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+Если утечка воздуха все еще присутствует, замените турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|См. процедуру 010-037 в разделе 10.]]
 
 ![[10400009.png]]
 
-Compressor Housing Sealing Surface Air Leak
+Компрессорный корпус Sealing Surface Air Leak
 
-Tighten the V-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
-If an air leak is still present, remove and replace the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+Если утечка воздуха все еще присутствует, удалите и замените турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|См. процедуру 010-037 в разделе 10.]]
 
 ![[10400010.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> **CAUTION · Осторожно**
+> The engine intake air must be filtered to prevent dirt and debris from entering the engine. If intake air piping is damaged or loose, unfiltered air can enter the engine and cause premature wear.
+>
+> **Note · Примечание**
+> The QSK19 mechanically actuated injection engine is shown in the procedure. While the QSK19 electronically actuated injection engine is different, the basic procedure remains the same.
+>
+> Inspect the system for damaged or loose intake piping.
+>
+> Replace damaged pipes and tighten loose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> **Note · Примечание**
+> Stall speed is **not** full power.
+>
+> Operate the engine at rated rpm and load.
+>
+> Listen for a high pitch noise from the turbocharger.
+>
+> This type of noise can be caused by an air leak from the following:
+>
+> Turbocharger-To-Aftercooler Air Supply Hose.
+>
+> Inspect the hose for damage. Tighten the hose clamps. [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
+>
+> This type of noise can be caused by the turbocharger to charge-air-cooler connection.
+>
+> Inspect the charge air cooler hoses and clamps. Tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> [[20-010-027 — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+>
+> Air Crossover-To-Aftercooler Connection Leak.
+>
+> Replace the air crossover gasket. [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
+>
+> Turbocharger-To-Exhaust Manifold Gasket Leak.
+>
+> Replace the gasket. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+>
+> Turbine Housing-To-Bearing Housing Sealing Surface Leak
+>
+> Tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> If an air leak is still present, replace the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+>
+> Compressor Housing Sealing Surface Air Leak
+>
+> Tighten the V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> If an air leak is still present, remove and replace the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]] [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]

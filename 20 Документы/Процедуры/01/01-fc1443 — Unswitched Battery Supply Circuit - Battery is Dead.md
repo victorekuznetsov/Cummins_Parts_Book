@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1443.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1443.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Unswitched Battery Supply Circuit - Battery is Dead
@@ -33,32 +36,70 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1443.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1443.pdf)
 
-### Fault Code: 1443
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Unswitched Battery Supply Circuit - Battery is Dead
 
-Printable Version
+### Код неисправности: 1443
 
-### Overview
+### Цепь постоянного питания от АКБ — АКБ разряжена
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1443 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Battery is dead. | Engine will **not** start. |
+| Код неисправности: 1443 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Батарея мертва. | Двигатель не запускается **. |
 
 ![[19803586.png]]
 
-Unswitched Battery Supply Circuit
+Цепь постоянного питания от АКБ
 
-### Circuit Description
+### Описание цепи
 
-The engine control module (ECM) receives unswitched battery input through the engine harness. There is an inline 20-amp fuse in the unswitched positive (+) battery wire of the engine harness to protect the engine harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+Модуль управления двигателем (ECM) получает непереключенный вход батареи через жгут проводов двигателя. Существует встроенный 20-амперный предохранитель в непереключенном положительном (+) проводе батареи жгута проводов двигателя, чтобы защитить жгут проводов двигателя от перегрева. Провода возврата аккумулятора соединены непосредственно с отрицательной (-) позицией аккумулятора.
 
-### Component Location
+### Расположение компонента
 
-The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM service manual for the battery location.
+ECM подключается к батарее с помощью OEM-проводов. Это прямое соединение обеспечивает постоянный источник питания для ECM. См. руководство по обслуживанию OEM для местоположения батареи.
 
-### Shoptalk
+### Практические замечания
 
-This fault is usually caused by loose or corroded battery connections.
+Эта неисправность обычно вызвана рыхлыми или разъединенными соединениями батареи.
 
-Refer to Troubleshooting Fault Code t05-1443.
+См. Код устранения неполадок t05-1443.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1443
+>
+> ### Unswitched Battery Supply Circuit - Battery is Dead
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1443 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Battery is dead. | Engine will **not** start. |
+>
+> Unswitched Battery Supply Circuit
+>
+> ### Circuit Description
+>
+> The engine control module (ECM) receives unswitched battery input through the engine harness. There is an inline 20-amp fuse in the unswitched positive (+) battery wire of the engine harness to protect the engine harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+>
+> ### Component Location
+>
+> The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM service manual for the battery location.
+>
+> ### Shoptalk
+>
+> This fault is usually caused by loose or corroded battery connections.
+>
+> Refer to Troubleshooting Fault Code t05-1443.

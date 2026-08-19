@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc221.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc221.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Ambient Air Pressure Sensor Circuit
@@ -32,32 +35,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc221.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc221.pdf)
 
-### Fault Code: 221
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Ambient Air Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 221
 
-### Overview
+### Цепь датчика атмосферного давления
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 221 PID(P): P108 SPN: 108 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the ambient air pressure sensor circuit. | Derate in power output of engine. |
+| Код неисправности: 221 P(P): P108 SPN: 108 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное в цепи датчика давления окружающего воздуха. | Снижает мощность двигателя. |
 
 ![[19c00652.png]]
 
-Ambient Air Pressure Sensor Circuit
+Цепь датчика атмосферного давления
 
-### Circuit Description
+### Описание цепи
 
-The ambient air pressure sensor monitors atmospheric pressure and passes the information to the electronic control module (ECM) through the engine harness.
+Датчик давления окружающего воздуха контролирует атмосферное давление и передает информацию электронному модулю управления (ECM) через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The ambient air pressure sensor is located below the ECM.
+Датчик давления окружающего воздуха расположен ниже ECM.
 
-### Shoptalk
+### Практические замечания
 
-Monitor the ambient air pressure reading with a service tool to confirm that the pressure reading matches the actual air pressure.
+Мониторинг показания давления окружающего воздуха с помощью служебной инструментальной установки, чтобы подтвердить, что показания давления соответствуют фактическому давлению воздуха.
 
-Refer to Troubleshooting Fault Code t05-221
+См. Код устранения неполадок t05-221
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 221
+>
+> ### Ambient Air Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 221 PID(P): P108 SPN: 108 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the ambient air pressure sensor circuit. | Derate in power output of engine. |
+>
+> Ambient Air Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The ambient air pressure sensor monitors atmospheric pressure and passes the information to the electronic control module (ECM) through the engine harness.
+>
+> ### Component Location
+>
+> The ambient air pressure sensor is located below the ECM.
+>
+> ### Shoptalk
+>
+> Monitor the ambient air pressure reading with a service tool to confirm that the pressure reading matches the actual air pressure.
+>
+> Refer to Troubleshooting Fault Code t05-221

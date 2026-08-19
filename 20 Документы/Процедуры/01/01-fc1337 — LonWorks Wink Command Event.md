@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1337.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1337.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # LonWorks Wink Command Event
@@ -33,24 +36,54 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1337.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1337.pdf)
 
-### Fault Code: 1337
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### LonWorks Wink Command Event
 
-Printable Version
+### Код неисправности: 1337
 
-### Overview
+### Событие команды Wink сети LonWorks
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1337 PCODE(P): SPN: FMI: Lamp: None SRT: | LonWorks wink event has been commanded. | No corrective action taken with this fault code. |
+| Код неисправности: 1337 PCODE(P): СПН: ФМИ: Лампа: Нет, не srt: | Вечеринка LonWorks была объявлена. | Никаких корректирующих действий с этим кодом неисправности. |
 
 ![[19802494.png]]
 
-ECM
+ЭКМ
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1337
+См. Код устранения неисправностей t05-1337
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1337
+>
+> ### LonWorks Wink Command Event
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1337 PCODE(P): SPN: FMI: Lamp: None SRT: | LonWorks wink event has been commanded. | No corrective action taken with this fault code. |
+>
+> ECM
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1337

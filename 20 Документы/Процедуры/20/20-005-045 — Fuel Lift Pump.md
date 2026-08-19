@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 23
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-045.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Fuel Lift Pump
@@ -32,172 +35,306 @@ tags:
 > **Даты:** изменён 2026-02-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-045.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> Shown is the Stage 2 filter head for the QSK38. Although different in appearance, the procedure remains the same.
 
-Remove the pressure sensor and replace it with a Compuchek™ fitting.
+### Первичная проверка
+
+> [!note] Примечание
+> На изображении изображена головка фильтра 2-й стадии для QSK38. Хотя внешне процедура отличается, она остается прежней.
+
+Удалите датчик давления и замените его на компушек.
 
 ![[05600293.png]]
 
-Connect the pressure adapter, Part Number 3164491, or equivalent, and the digital multimeter, Part Number 3164488, 3164489, or equivalent, to the Compuchek™ fitting.
+Подключите адаптер давления, номер 3164491 или эквивалент, и цифровой мультиметр, номер 3164488, 3164489 или эквивалент, к фитингу CompuchekTM.
 
 ![[06600395.png]]
 
-The fuel lift pump will operate for 1000 seconds when the keyswitch is in the ON position. The fuel lift pump will also operate while the engine is cranking, until the fuel rail pressure reaches 200 bar \[2900 psi\].
+Насос для подъёма топлива будет работать в течение 1000 секунд, когда переключатель зажигания находится в положении ON. Насос для подъёма топлива также будет работать, пока двигатель не заглушится, пока давление в топливной рельсе не достигнет 200 бар[2900 psi].
 
-At the end of 1000 seconds of operation, the fuel lift pump **must** produce pressure. If the lift pump does **not**, then the lift pump **must** be replaced.
+По истечении 1000 секунд работы насос подъёмного горючего ** должен** вырабатывать давление. Если насос лифта не работает, то насос лифта должен быть заменен.
 
-| Minimum Fuel Lift Pump Pressure |  |
+| Минимальное давление накачки в топливном лифте |  |
 |---|---|
-| bar | psi |
+| бар | пси |
 | 3 | 43.5 |
 
 ![[05900327.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the battery cables. See equipment manufacturer service information.
-- Close the fuel supply valve.
+- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Закройте клапан подачи топлива.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Off-Engine
+Вне двигателя
 
-> [!note] Note · Примечание
-> Shown in this procedure are the marine application Stage 1 filters. Although different in appearance, the lift pump procedure remains the same.
+> [!note] Примечание
+> В этой процедуре показаны фильтры 1-й стадии морского применения. Хотя по внешнему виду они отличаются, процедура подъемного насоса остается прежней.
 
-Disconnect the electrical connection to the fuel lift pump.
+Отключите электрическое соединение с насосом топливного лифта.
 
 ![[05600294.png]]
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, diesel fuel is flammable. When inspecting to performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke, or allow sparks or flames (such as pilot lights, arcing equipment, or welding equipment) in the work area.
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств, дизельное топливо является легковоспламеняющимся. При проверке для выполнения обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить, или разрешить искры или пламя (например, пилотные огни, дуговая техника или сварочное оборудование) в рабочей зоне.
 
-Disconnect the supply and discharge flexible hoses from the lift pump.
+Отсоедините подачу и разряд гибких шлангов от подъемного насоса.
 
 ![[05600295.png]]
 
-Remove the four capscrews securing the fuel lift pump to the fuel filter mounting bracket.
+Удалите четыре болта, обеспечивающие подъёмный насос топлива, в кронштейн для монтажа топливного фильтра.
 
 ![[05600296.png]]
 
-Remove the vibration isolators from each end of the fuel lift pump.
+Удалите изоляторы вибрации с каждого конца насоса для подъёма топлива.
 
 ![[05400245.png]]
 
-On-Engine
+В двигателе
 
-Disconnect the electrical connection to the fuel lift pump.
+Отключите электрическое соединение с насосом топливного лифта.
 
 ![[05f00005.png]]
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, diesel fuel is flammable. When inspecting to performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke, or allow sparks or flames (such as pilot lights, arcing equipment, or welding equipment) in the work area.
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств, дизельное топливо является легковоспламеняющимся. При проверке для выполнения обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить, или разрешить искры или пламя (например, пилотные огни, дуговая техника или сварочное оборудование) в рабочей зоне.
 
-Remove the banjo capscrews and sealing washers and loosen the tube fittings securing the supply and discharge fuel lines from the lift pump.
+Удалите болты банджо и уплотнительные шайбы и ослабьте фитинги труб, обеспечивающие подачу и разгрузку топливных линий из подъемного насоса.
 
-Remove the fuel lines.
+Удалите топливные линии.
 
 ![[05f00006.png]]
 
-Remove the four capscrews securing the fuel lift pump to the mounting bracket.
+Удалите четыре болта, обеспечивающие подачу топлива насосом к монтажной скобке.
 
 ![[05f00007.png]]
 
-Remove the vibration isolators from each end of the fuel lift pump.
+Удалите изоляторы вибрации с каждого конца насоса для подъёма топлива.
 
 ![[05400245.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the fuel lift pump for any signs of damage.
+Проверьте насос для подъема топлива на наличие каких-либо признаков повреждения.
 
-Replace the fuel lift pump, if damaged.
+Замените насос для подъёма топлива, если он поврежден.
 
 ![[05400246.png]]
 
-Use a digital multimeter to measure the resistance across the pins in the electrical connector. Reference the table for resistance value. If **not** within specification, replace the fuel lift pump.
+Используйте цифровой мультиметр для измерения сопротивления через штифты в электрическом разъеме. Ссылка на таблицу для значения сопротивления. Если ** не** в пределах спецификации, замените насос для подъёма топлива.
 
-| Fuel Lift Pump Resistance |  |
+| Сопротивление насосу подъёмного топлива |  |
 |---|---|
-| Minimum | Maximum |
-| 1 ohm | 3 ohm |
+| Минимум | Максимум |
+| 1 ом | 3 ом |
 
-Use a digital multimeter to check for a short between each pin and the fuel lift pump body. Replace the fuel lift pump, if shorted.
+Используйте цифровой мультиметр, чтобы проверить короткое расстояние между каждым штифтом и корпусом насоса топливного лифта. Замените насос для подъёма топлива, если он закорочен.
 
 ![[05400247.png]]
 
-### Install
+### Установка
 
-Off-Engine
+Вне двигателя
 
-Install vibration isolators to each end of the fuel lift pump.
+Установите изоляторы вибрации на каждый конец насоса для подъёма топлива.
 
 ![[05400245.png]]
 
-Install the fuel lift pump and four capscrews to the fuel filter mounting bracket.
+Установите насос топливного подъемника и четыре болта на кронштейн топливного фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[05600296.png]]
 
-Connect the supply and discharge flexible hoses to the lift pump.
+Подключите подачу и разряд гибких шлангов к подъемному насосу.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[05600295.png]]
 
-Connect the electrical connection to the fuel lift pump.
+Подключите электрическое соединение к насосу топливного лифта.
 
 ![[05600294.png]]
 
-On-Engine
+В двигателе
 
-Install vibration isolators to each end of the fuel lift pump.
+Установите изоляторы вибрации на каждый конец насоса для подъёма топлива.
 
 ![[05400245.png]]
 
-Install the fuel lift pump and four capscrews to the fuel filter mounting bracket.
+Установите насос топливного подъемника и четыре болта на кронштейн топливного фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[05f00007.png]]
 
-Install the banjo capscrews and new sealing washers securing the fuel supply and discharge lines to the lift pump.
+Установите болты банджо и новые уплотнительные шайбы, обеспечивающие подачу топлива и линии разряда к подъемному насосу.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
-Rotate tubes until tube fittings are aligned with 45 degree fittings on check valve. Tighten fittings.
+Вращайте трубки до тех пор, пока трубчатые фитинги не выровнены с фитингами 45 градусов на контрольном клапане. Затягивай фитинги.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[05f00006.png]]
 
-Connect the electrical connection to the fuel lift pump.
+Подключите электрическое соединение к насосу топливного лифта.
 
 ![[05f00005.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the battery cables. See equipment manufacturer service information.
-- Open the fuel supply valve
-- Turn the keyswitch to the ON position.
-- The fuel lift pump will operate for 1000 seconds.
-- Check the fuel lift pump connections for leaks.
+- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Откройте клапан подачи топлива
+- Переведите замок зажигания в положение ON.
+- Топливный насос будет работать в течение 1000 секунд.
+- Проверьте подключение насоса топливного лифта на наличие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **Note · Примечание**
+> Shown is the Stage 2 filter head for the QSK38. Although different in appearance, the procedure remains the same.
+>
+> Remove the pressure sensor and replace it with a Compuchek™ fitting.
+>
+> Connect the pressure adapter, Part Number 3164491, or equivalent, and the digital multimeter, Part Number 3164488, 3164489, or equivalent, to the Compuchek™ fitting.
+>
+> The fuel lift pump will operate for 1000 seconds when the keyswitch is in the ON position. The fuel lift pump will also operate while the engine is cranking, until the fuel rail pressure reaches 200 bar \[2900 psi\].
+>
+> At the end of 1000 seconds of operation, the fuel lift pump **must** produce pressure. If the lift pump does **not**, then the lift pump **must** be replaced.
+>
+> | Minimum Fuel Lift Pump Pressure |  |
+> |---|---|
+> | bar | psi |
+> | 3 | 43.5 |
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the battery cables. See equipment manufacturer service information.
+> - Close the fuel supply valve.
+>
+> ### Remove
+>
+> Off-Engine
+>
+> **Note · Примечание**
+> Shown in this procedure are the marine application Stage 1 filters. Although different in appearance, the lift pump procedure remains the same.
+>
+> Disconnect the electrical connection to the fuel lift pump.
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, diesel fuel is flammable. When inspecting to performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke, or allow sparks or flames (such as pilot lights, arcing equipment, or welding equipment) in the work area.
+>
+> Disconnect the supply and discharge flexible hoses from the lift pump.
+>
+> Remove the four capscrews securing the fuel lift pump to the fuel filter mounting bracket.
+>
+> Remove the vibration isolators from each end of the fuel lift pump.
+>
+> On-Engine
+>
+> Disconnect the electrical connection to the fuel lift pump.
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, diesel fuel is flammable. When inspecting to performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke, or allow sparks or flames (such as pilot lights, arcing equipment, or welding equipment) in the work area.
+>
+> Remove the banjo capscrews and sealing washers and loosen the tube fittings securing the supply and discharge fuel lines from the lift pump.
+>
+> Remove the fuel lines.
+>
+> Remove the four capscrews securing the fuel lift pump to the mounting bracket.
+>
+> Remove the vibration isolators from each end of the fuel lift pump.
+>
+> ### Inspect for Reuse
+>
+> Inspect the fuel lift pump for any signs of damage.
+>
+> Replace the fuel lift pump, if damaged.
+>
+> Use a digital multimeter to measure the resistance across the pins in the electrical connector. Reference the table for resistance value. If **not** within specification, replace the fuel lift pump.
+>
+> | Fuel Lift Pump Resistance |  |
+> |---|---|
+> | Minimum | Maximum |
+> | 1 ohm | 3 ohm |
+>
+> Use a digital multimeter to check for a short between each pin and the fuel lift pump body. Replace the fuel lift pump, if shorted.
+>
+> ### Install
+>
+> Off-Engine
+>
+> Install vibration isolators to each end of the fuel lift pump.
+>
+> Install the fuel lift pump and four capscrews to the fuel filter mounting bracket.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Connect the supply and discharge flexible hoses to the lift pump.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Connect the electrical connection to the fuel lift pump.
+>
+> On-Engine
+>
+> Install vibration isolators to each end of the fuel lift pump.
+>
+> Install the fuel lift pump and four capscrews to the fuel filter mounting bracket.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Install the banjo capscrews and new sealing washers securing the fuel supply and discharge lines to the lift pump.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> Rotate tubes until tube fittings are aligned with 45 degree fittings on check valve. Tighten fittings.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the electrical connection to the fuel lift pump.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the battery cables. See equipment manufacturer service information.
+> - Open the fuel supply valve
+> - Turn the keyswitch to the ON position.
+> - The fuel lift pump will operate for 1000 seconds.
+> - Check the fuel lift pump connections for leaks.

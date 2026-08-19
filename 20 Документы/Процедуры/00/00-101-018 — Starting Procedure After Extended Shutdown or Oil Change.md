@@ -29,6 +29,8 @@ manuals:
   - "4915520"
   - "4915544"
   - "4915548"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-018.pdf"
 tags:
@@ -38,6 +40,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Starting Procedure After Extended Shutdown or Oil Change
@@ -51,6 +54,20 @@ tags:
 > **Даты:** изменён 2025-01-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-018.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Follow the Normal Starting Procedure in this section. The engine will **not** start until the minimum lubricating oil pressure during cranking is detected by the engine control module (ECM). The engine can take more cranking time to start after an extended shut down or lubricating oil change. The engine will **only** run at idle until the minimum specified engine lubricating oil pressure is detected by the ECM.
+
+### Общие сведения
+
+Следуйте обычной процедуре начала в этом разделе. Двигатель будет **не** запускаться до тех пор, пока минимальное давление моторного масла во время проворачивания не будет обнаружено модулем управления двигателем (ECM). Двигатель может занять больше времени, чтобы начать работу после длительного выключения или замены моторного масла. Двигатель будет работать только в режиме холостого хода до тех пор, пока не будет обнаружено минимальное указанное давление моторного масла двигателя ECM.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Follow the Normal Starting Procedure in this section. The engine will **not** start until the minimum lubricating oil pressure during cranking is detected by the engine control module (ECM). The engine can take more cranking time to start after an extended shut down or lubricating oil change. The engine will **only** run at idle until the minimum specified engine lubricating oil pressure is detected by the ECM.

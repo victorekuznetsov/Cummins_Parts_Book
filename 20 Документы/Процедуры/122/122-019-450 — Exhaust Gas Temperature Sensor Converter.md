@@ -15,12 +15,15 @@ manuals:
   - "4021528"
   - "4022102"
 figures: 16
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-450.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-450.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
+  - "перевод/машинный"
 ---
 
 # Exhaust Gas Temperature Sensor Converter
@@ -34,150 +37,276 @@ tags:
 > **Даты:** изменён 2021-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-450.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-450.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Thermocouple
+
+### Общие сведения
+
+Термопара
 
 **QSK50**
 
-This engine has two exhaust gas temperature sensor converters: one on the right bank and one on the left bank.
+Этот двигатель имеет два преобразователя датчиков температуры выхлопных газов: Один на правом берегу, другой на левом берегу.
 
-The exhaust gas temperature converter is mounted at the front of the intake manifolds.
+Преобразователь температуры выхлопных газов устанавливается в передней части впускных коллекторов.
 
 ![[00r01636.png]]
 
-**QSK60**
+** QSK60**
 
-This engine has two exhaust gas temperature sensor converters: one on the right bank and one on the left bank.
+Этот двигатель имеет два преобразователя датчиков температуры выхлопных газов: Один на правом берегу, другой на левом берегу.
 
-The exhaust gas temperature converter is mounted at the front of the intake manifolds.
+Преобразователь температуры выхлопных газов устанавливается в передней части впускных коллекторов.
 
 ![[00r01642.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
-- Disconnect the engine harness cable from the exhaust gas temperature converter box.
+- Отсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Этот материал содержится в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике 4021528.
+- Отсоедините проводку двигателя от кабеля жгута проводов от коробки преобразователя температуры выхлопных газов.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Thermocouple
+Термопара
 
 **QSK50**
 
-Disconnect the exhaust gas temperature sensor converter from the main wiring harness connector.
+Отсоедините преобразователь датчика температуры выхлопных газов от основного разъёма проводов.
 
 ![[00r01637.png]]
 
-Remove the four outer mounting capscrews to remove the exhaust gas temperature converter and mounting bracket.
+Удалите четыре наружных крепежных болта, чтобы удалить преобразователь температуры выхлопных газов и монтажную кронштейн.
 
 ![[00r01638.png]]
 
-Remove the four mounting capscrews and the exhaust gas temperature converter from the mounting bracket.
+Удалите четыре крепежных болта и преобразователь температуры выхлопных газов из крепежной скобки.
 
 ![[00r01639.png]]
 
-**QSK60**
+** QSK60**
 
-Disconnect the exhaust gas temperature sensor converter from the main wiring harness connector.
+Отсоедините преобразователь датчика температуры выхлопных газов от основного разъёма проводов.
 
 ![[00r01643.png]]
 
-Remove the four outer mounting capscrews to remove the exhaust gas temperature converter and mounting bracket.
+Удалите четыре наружных крепежных болта, чтобы удалить преобразователь температуры выхлопных газов и монтажную кронштейн.
 
 ![[00r01644.png]]
 
-Remove the four mounting capscrews and the exhaust gas temperature converter from the mounting bracket.
+Удалите четыре крепежных болта и преобразователь температуры выхлопных газов из крепежной скобки.
 
 ![[00r01645.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Thermocouple
+Термопара
 
-**QSK50 and QSK60**
+QSK50 и QSK60**
 
-Inspect the converter and replace if:
+Проверить преобразователь и заменить, если:
 
-- Shell cracked or broken
-- Seals missing or damaged
-- Terminals contaminated with dirt, debris, or moisture
-- Terminals corroded, bent, broken, pushed back, or expanded.
+- Снаряд треснул или сломался
+- Тюлени отсутствуют или повреждены
+- Терминалы, загрязненные грязью, мусором или влагой
+- Терминалы разъединены, согнуты, сломаны, отодвинуты назад или расширены.
 
 ![[00r01640.png]]
 
-Inspect the mounting hardware.
+Проверьте оборудование для монтажа.
 
-Replace components if:
+Заменить компоненты, если:
 
-- Bent
-- Cracked.
+- Щелкунчик
+- Разбит.
 
 ![[00r01641.png]]
 
-### Install
+### Установка
 
-Thermocouple
+Термопара
 
 **QSK50**
 
-Install the exhaust gas temperature converter to the mounting bracket with four mounting capscrews.
+Установите температурный преобразователь выхлопных газов в монтажную кронштейн с четырьмя монтажными болтами.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[00r01639.png]]
 
-Install the exhaust gas temperature converter and mounting bracket using the four mounting capscrews.
+Установите преобразователь температуры выхлопных газов и монтажную кронштейн с использованием четырех крепежных болтов.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Aluminum 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Алюминий 45 Н·м [33 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Cast Iron 65 n•m [48 ft-lb]
+> [!tip] Момент затяжки
+> Cast Iron 65 Н·м [48 футов-лб]
 
 ![[00r01638.png]]
 
-**QSK60**
+** QSK60**
 
-Install the exhaust gas temperature converter to the mounting bracket with four mounting capscrews.
+Установите температурный преобразователь выхлопных газов в монтажную кронштейн с четырьмя монтажными болтами.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[00r01645.png]]
 
-Install the exhaust gas temperature converter and mounting bracket using the four mounting capscrews.
+Установите преобразователь температуры выхлопных газов и монтажную кронштейн с использованием четырех крепежных болтов.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Aluminum 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Алюминий 45 Н·м [33 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Cast Iron 65 n•m [48 ft-lb]
+> [!tip] Момент затяжки
+> Cast Iron 65 Н·м [48 футов-лб]
 
 ![[00r01644.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the engine harness cable to the exhaust gas temperature converter box.
-- Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
-- Connect recommended Cummins® electronic service tool or equivalent.
-- Operate the engine and check for active fault codes.
+- Подключите проводку двигателя кабеля жгута проводов к коробке преобразователя температуры выхлопных газов.
+- Подсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Эта процедура описана в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике 4021528.
+- Подключение рекомендованного Cummins® электронного сервисного инструментария или эквивалента.
+- Управляйте двигателем и проверяйте активные коды неисправностей.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Thermocouple
+>
+> **QSK50**
+>
+> This engine has two exhaust gas temperature sensor converters: one on the right bank and one on the left bank.
+>
+> The exhaust gas temperature converter is mounted at the front of the intake manifolds.
+>
+> **QSK60**
+>
+> This engine has two exhaust gas temperature sensor converters: one on the right bank and one on the left bank.
+>
+> The exhaust gas temperature converter is mounted at the front of the intake manifolds.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
+> - Disconnect the engine harness cable from the exhaust gas temperature converter box.
+>
+> ### Remove
+>
+> Thermocouple
+>
+> **QSK50**
+>
+> Disconnect the exhaust gas temperature sensor converter from the main wiring harness connector.
+>
+> Remove the four outer mounting capscrews to remove the exhaust gas temperature converter and mounting bracket.
+>
+> Remove the four mounting capscrews and the exhaust gas temperature converter from the mounting bracket.
+>
+> **QSK60**
+>
+> Disconnect the exhaust gas temperature sensor converter from the main wiring harness connector.
+>
+> Remove the four outer mounting capscrews to remove the exhaust gas temperature converter and mounting bracket.
+>
+> Remove the four mounting capscrews and the exhaust gas temperature converter from the mounting bracket.
+>
+> ### Clean and Inspect for Reuse
+>
+> Thermocouple
+>
+> **QSK50 and QSK60**
+>
+> Inspect the converter and replace if:
+>
+> - Shell cracked or broken
+> - Seals missing or damaged
+> - Terminals contaminated with dirt, debris, or moisture
+> - Terminals corroded, bent, broken, pushed back, or expanded.
+>
+> Inspect the mounting hardware.
+>
+> Replace components if:
+>
+> - Bent
+> - Cracked.
+>
+> ### Install
+>
+> Thermocouple
+>
+> **QSK50**
+>
+> Install the exhaust gas temperature converter to the mounting bracket with four mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> Install the exhaust gas temperature converter and mounting bracket using the four mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Aluminum 45 n•m [33 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Cast Iron 65 n•m [48 ft-lb]
+>
+> **QSK60**
+>
+> Install the exhaust gas temperature converter to the mounting bracket with four mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> Install the exhaust gas temperature converter and mounting bracket using the four mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Aluminum 45 n•m [33 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Cast Iron 65 n•m [48 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the engine harness cable to the exhaust gas temperature converter box.
+> - Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin 4021528.
+> - Connect recommended Cummins® electronic service tool or equivalent.
+> - Operate the engine and check for active fault codes.

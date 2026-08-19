@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 16
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Seal
@@ -32,96 +35,168 @@ tags:
 > **Даты:** изменён 2023-07-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use a standard puller, Part Number. ST-647, or equivalent. Remove the accessory drive pulley or timing disk. [[20-009-004 — Accessory Drive Pulley|Refer to Procedure Procedure 009-004 in Section 9.]]
+
+### Подготовительные операции
+
+Используйте стандартный съёмник, номер детали. ST-647, или эквивалент. Удалите дополнительный диск привода шкив или диск времени.[[20-009-004 — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
 
 ![[01400022.png]]
 
-### Remove
+### Снятие
 
-Remove the six button head hex socket capscrews.
+Удалите шесть кнопочных шестиконечных болтов.
 
 ![[01400023.png]]
 
-Use three \[1/4-20 x 1 in\] capscrews to remove the seal from the accessory drive shaft.
+Используйте три болта \[1/4-20 x 1 in\] для удаления уплотнения из вспомогательного приводного вала.
 
-Install the three capscrews in the clinch nuts in the seal case.
+Установите три болта в сухарики в корпусе уплотнения.
 
-Tighten the capscrews alternately and evenly to remove the seal.
+Затягивайте болты поочередно и равномерно, чтобы снять уплотнение.
 
 ![[01400024.png]]
 
-Remove the o-ring from the groove in the gear cover.
+Удалите кольцо с канавки в крышке передач.
 
-> [!note] Note · Примечание
-> The crankshaft pulley and damper have been removed for clarity.
-
-![[01400025.png]]
-
-### Install
-
-Install the o-ring in the groove in the gear cover.
+> [!note] Примечание
+> Краншафтный шкив и демпфер сняты для ясности.
 
 ![[01400025.png]]
 
-To aid in seal installation, use a small nonmetallic bristle brush to apply a thin film of clean SAE 15W-40 oil to the inside diameter of the seal case.
+### Установка
 
-> [!note] Note · Примечание
-> Do **not** allow oil to come in contact with other areas of the seal.
+Установите кольцо в канавку в крышке передач.
+
+![[01400025.png]]
+
+Чтобы помочь в установке уплотнения, используйте небольшую неметаллическую щетку для нанесения тонкой пленки чистого масла SAE 15W-40 на внутренний диаметр корпуса уплотнения.
+
+> [!note] Примечание
+> **не допускать контакта масла с другими участками печати.
 
 ![[09400005.png]]
 
-Install the seal on the accessory drive shaft.
+Установите пломбу на вспомогательном приводном валу.
 
 ![[01400041.png]]
 
-Use the seal installation tool that is supplied with the service seal to push the seal on the accessory drive shaft.
+Используйте инструмент установки уплотнения, который поставляется с сервисным уплотнением, чтобы нажать уплотнение на вспомогательном приводном вале.
 
-Put the installation tool against the seal.
+Положите инструмент установки на уплотнение.
 
 ![[01400042.png]]
 
-Use the pulley installation tool, Part Number 3376326, to push the seal on the accessory drive shaft.
+Используйте инструмент установки шкива, Номер детали 3376326, чтобы нажать уплотнение на вспомогательном приводном вале.
 
-Position the pulley installer on the accessory drive shaft.
+Поместите установщик шкивов на вспомогательном приводном вале.
 
 ![[01400043.png]]
 
-Put the pulley installation housing on the pulley installer.
+Положите обшивку установки шкива на установщик шкива.
 
 ![[01400044.png]]
 
-Align the three clinch nuts on the back of the seal carrier flange with the three counterbores in the gear cover seal mounting surface.
+Выровнять три сухих гайки на задней части фланца герметика с тремя контрборами на поверхности крепления герметика шестерни.
 
 ![[01400045.png]]
 
-Use the tool to push the seal on the shaft until the seal carrier flange contacts the gear cover.
+Используйте инструмент, чтобы нажать уплотнение на вал до тех пор, пока фланец герметика не свяжется с крышкой передачи.
 
 ![[01400046.png]]
 
-Remove the pulley installation tool housing, seal installation tool, and pulley installer.
+Удалите обшивку инструмента установки шкива, инструмент установки уплотнения и установщик шкива.
 
 ![[01400077.png]]
 
-Install the six button head hex socket capscrews. Tighten the capscrews alternately and evenly.
+Установите шесть кнопочных шестиконечных болтов. Затягивайте болты попеременно и равномерно.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [96 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [96 фунт-дюйм]
 
 ![[01400023.png]]
 
-Install the keyway seal.
+Установите печать ключа.
 
-Install the woodruf key into accessory drive shaft.
+Установите ключ Woodruf в дополнительный приводной вал.
 
 ![[09400011.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!note] Note · Примечание
-> Keyway seal **must** be installed prior to installation of keyway and accessory drive pulley.
+> [!note] Примечание
+> Уплотнение ключа *** должно быть установлено до установки ключа и вспомогательного приводного шкива.
 
-Install the accessory drive pulley. Refer to [[20-009-004 — Accessory Drive Pulley|Refer to Procedure Procedure 009-004 in Section 9.]]
+Установите дополнительный приводной шкив. Видишь?[[20-009-004 — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
 
 ![[01400088.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Use a standard puller, Part Number. ST-647, or equivalent. Remove the accessory drive pulley or timing disk. [[20-009-004 — Accessory Drive Pulley|Refer to Procedure Procedure 009-004 in Section 9.]]
+>
+> ### Remove
+>
+> Remove the six button head hex socket capscrews.
+>
+> Use three \[1/4-20 x 1 in\] capscrews to remove the seal from the accessory drive shaft.
+>
+> Install the three capscrews in the clinch nuts in the seal case.
+>
+> Tighten the capscrews alternately and evenly to remove the seal.
+>
+> Remove the o-ring from the groove in the gear cover.
+>
+> **Note · Примечание**
+> The crankshaft pulley and damper have been removed for clarity.
+>
+> ### Install
+>
+> Install the o-ring in the groove in the gear cover.
+>
+> To aid in seal installation, use a small nonmetallic bristle brush to apply a thin film of clean SAE 15W-40 oil to the inside diameter of the seal case.
+>
+> **Note · Примечание**
+> Do **not** allow oil to come in contact with other areas of the seal.
+>
+> Install the seal on the accessory drive shaft.
+>
+> Use the seal installation tool that is supplied with the service seal to push the seal on the accessory drive shaft.
+>
+> Put the installation tool against the seal.
+>
+> Use the pulley installation tool, Part Number 3376326, to push the seal on the accessory drive shaft.
+>
+> Position the pulley installer on the accessory drive shaft.
+>
+> Put the pulley installation housing on the pulley installer.
+>
+> Align the three clinch nuts on the back of the seal carrier flange with the three counterbores in the gear cover seal mounting surface.
+>
+> Use the tool to push the seal on the shaft until the seal carrier flange contacts the gear cover.
+>
+> Remove the pulley installation tool housing, seal installation tool, and pulley installer.
+>
+> Install the six button head hex socket capscrews. Tighten the capscrews alternately and evenly.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [96 in-lb]
+>
+> Install the keyway seal.
+>
+> Install the woodruf key into accessory drive shaft.
+>
+> ### Finishing Steps
+>
+> **Note · Примечание**
+> Keyway seal **must** be installed prior to installation of keyway and accessory drive pulley.
+>
+> Install the accessory drive pulley. Refer to [[20-009-004 — Accessory Drive Pulley|Refer to Procedure Procedure 009-004 in Section 9.]]

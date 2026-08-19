@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 13
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-045.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Radiator Hoses
@@ -32,122 +35,226 @@ tags:
 > **Даты:** изменён 2004-12-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-045.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Allow the engine to cool. Wait until the coolant temperature is below 50° \[120°\] before draining the coolant. Heated coolant spray or stem can cause personal injury.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not used, dispose of in accordance with local envirnomental regulations.
+### Снятие
 
-Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+> [!danger] ОПАСНО
+> Дайте двигателю остыть. Подождите, пока температура охлаждающей жидкости не будет ниже 50° \[120° \], прежде чем сливать охлаждающую жидкость. Нагретый спрей охлаждающей жидкости или ствол может привести к травме.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если не используется, утилизировать в соответствии с местными экологическими нормами.
+
+Слейте охлаждающую жидкость. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
 
 ![[oi800la.png]]
 
-Disconnect the lower radiator hose from the water pump inlet. Disconnect the lower radiator hose from the radiator bottom tank. Remove the lower radiator hose.
+Отсоедините нижний шланг радиатора от входного отверстия водяного насоса. Отсоедините нижний шланг радиатора от нижней емкости радиатора. Удалите нижний шланг радиатора.
 
 ![[08400028.png]]
 
-Conventional Aftercooling
+Обычная послеохлаждение
 
-Remove the upper radiator hoses from the thermostat housing.
+Удалите верхние шланги радиатора из корпуса термостата.
 
 ![[th4hoha.png]]
 
-Remove the upper radiator hoses from the top tank of the radiator.
+Удалите верхние шланги радиатора из верхней емкости радиатора.
 
 ![[08400029.png]]
 
-Low Temperature Aftercooling
+Низкая температура после охлаждения
 
-Remove the Low Temperature Aftercooling hoses from the thermostat housing.
+Удалите шланги с низким температурным охлаждением из корпуса термостата.
 
 ![[08400031.png]]
 
-Remove the Low Temperature Aftercooling radiator hoses from the top tank of the radiator.
+Удалите шланги для низкотемпературного охлаждения из верхней емкости радиатора.
 
 ![[08400030.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-> [!warning] CAUTION · Осторожно
-> Do not bend or deform the hoses during inspection. This can cause the hoses to crack.
+> [!warning] ОСТОРОЖНО
+> Не изгибайте и не деформируйте шланги во время осмотра. Это может привести к тому, что шланги будут трескаться.
 
-Check all hoses for cracks, cuts, or collapsing
+Проверьте все шланги на наличие трещин, порезов или обрушений
 
-> [!note] Note · Примечание
-> The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+> [!note] Примечание
+> Силиконовый шланг охлаждающей жидкости двигателя будет демонстрировать отек из-за эластичности шланга.
 
 ![[rp8hosa.png]]
 
-### Install
+### Установка
 
-Conventional Aftercooling
+Обычная послеохлаждение
 
-Install the upper radiator hoses to the thermostat housing. Tighten the clamps.
+Установите верхние шланги радиатора на корпус термостата. Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
 ![[th4hoha.png]]
 
-Install the upper radiator hoses to the top tank of the radiator. Tighten the clamps.
+Установите верхние шланги радиатора на верхний бак радиатора. Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
 ![[08400029.png]]
 
-Low Temperature Aftercooling
+Низкая температура после охлаждения
 
-Install the upper LTA radiator hoses to the thermostat housing. Tighten the clamps.
+Установите верхние шланги радиатора LTA на корпус термостата. Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
 ![[08400031.png]]
 
-Install the Low Temperature Aftercooling radiator hoses to the top tank of the radiator.
+Установите шланги для низкотемпературного охлаждения к верхнему резервуару радиатора.
 
-Tighten the clamps.
+Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
 ![[08400030.png]]
 
-Install the lower radiator hose to the water pump inlet. Tighten the clamps.
+Установите нижний шланг радиатора на вход водяного насоса. Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
-Install the lower radiator hose to the radiator bottom tank. Tighten the clamps.
+Установите нижний шланг радиатора на нижний резервуар радиатора. Зажгите зажимы.
 
-| Worm Clamp | 5 n.m | \[50 in-lb\] |
+| Червячный зажим | 5 Н·м | [50 фунт-дюйм] |
 |---|---|---|
 
-| T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+| Зажим для болтов | 8 Н·м | [70 фунт-дюйм] |
 |---|---|---|
 
 ![[08400028.png]]
 
-Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+Заправьте систему охлаждения. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
 
-Operate the engine to 70°C \[160°F\] coolant temperature. Check for leaks.
+Управляйте двигателем до температуры охлаждающей жидкости 70°C[160°F]. Проверьте на отсутствие утечек.
 
 ![[ra400va.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Allow the engine to cool. Wait until the coolant temperature is below 50° \[120°\] before draining the coolant. Heated coolant spray or stem can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not used, dispose of in accordance with local envirnomental regulations.
+>
+> Drain the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+>
+> Disconnect the lower radiator hose from the water pump inlet. Disconnect the lower radiator hose from the radiator bottom tank. Remove the lower radiator hose.
+>
+> Conventional Aftercooling
+>
+> Remove the upper radiator hoses from the thermostat housing.
+>
+> Remove the upper radiator hoses from the top tank of the radiator.
+>
+> Low Temperature Aftercooling
+>
+> Remove the Low Temperature Aftercooling hoses from the thermostat housing.
+>
+> Remove the Low Temperature Aftercooling radiator hoses from the top tank of the radiator.
+>
+> ### Inspect for Reuse
+>
+> **CAUTION · Осторожно**
+> Do not bend or deform the hoses during inspection. This can cause the hoses to crack.
+>
+> Check all hoses for cracks, cuts, or collapsing
+>
+> **Note · Примечание**
+> The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+>
+> ### Install
+>
+> Conventional Aftercooling
+>
+> Install the upper radiator hoses to the thermostat housing. Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Install the upper radiator hoses to the top tank of the radiator. Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Low Temperature Aftercooling
+>
+> Install the upper LTA radiator hoses to the thermostat housing. Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Install the Low Temperature Aftercooling radiator hoses to the top tank of the radiator.
+>
+> Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Install the lower radiator hose to the water pump inlet. Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Install the lower radiator hose to the radiator bottom tank. Tighten the clamps.
+>
+> | Worm Clamp | 5 n.m | \[50 in-lb\] |
+> |---|---|---|
+>
+> | T-Bolt Clamp | 8 n.m | \[70 in-lb\] |
+> |---|---|---|
+>
+> Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+>
+> Operate the engine to 70°C \[160°F\] coolant temperature. Check for leaks.

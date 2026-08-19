@@ -21,6 +21,8 @@ manuals:
   - "3810497"
   - "4021330"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-027.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-010-027.pdf"
 tags:
@@ -29,6 +31,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Charge-Air Cooler
@@ -42,8 +45,22 @@ tags:
 > **Даты:** изменён 2009-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-027.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-010-027.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the charge-air cooler (CAC) for dirt and debris blocking the fins. Check for cracks, holes, or other damage. If damage is found, refer to the vehicle, vessel, or equipment manufacturer.
+
+### Контроль при обслуживании
+
+Осмотрите охладитель заряда воздуха (CAC) на грязь и мусор, блокирующие плавники. Проверьте наличие трещин, отверстий или других повреждений. Если повреждение обнаружено, обратитесь к производителю транспортного средства, судна или оборудования.
 
 ![[oi100wj.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Inspect the charge-air cooler (CAC) for dirt and debris blocking the fins. Check for cracks, holes, or other damage. If damage is found, refer to the vehicle, vessel, or equipment manufacturer.

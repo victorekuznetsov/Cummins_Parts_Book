@@ -14,12 +14,15 @@ families:
 manuals:
   - "4022102"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc419.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc419.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
@@ -33,62 +36,128 @@ tags:
 > **Даты:** изменён 2015-06-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc419.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc419.pdf)
 
-### Fault Code: 419
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
 
-Printable Version
+### Код неисправности: 419
 
-### Overview
+### Разбаланс давления во впускных коллекторах рядов — данные нестабильны или неверны
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 419 PID(P): SPN: FMI: Lamp: Amber SRT: | Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect. | Engine shutdown or derate. |
+| Код неисправности: 419 P(P): СПН: ФМИ: Лампа: Янтарная СРТ: | Разбаланс давления во впускных коллекторах рядов — данные нестабильны или неверны. | Отключение двигателя или выключение. |
 
 ![[19601948.png]]
 
-QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 1 Pressure Sensor Circuit
+QSK50 CM2150 Power Generation с усовершенствованным мониторингом двигателя - схема датчика давления в коллекторе 1
 
 ![[19602218.png]]
 
-QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 2 Pressure Sensor Circuits
+QSK50 CM2150 Power Generation с усовершенствованным мониторингом двигателя - схема датчика давления в коллекторе 2
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold 1 and 2 pressure sensors monitor intake manifold air pressure and pass information to the engine control module (ECM) through the engine harness. The ECM calculates a differential pressure between the left and right bank based on this information.
+Датчики давления впускного коллектора 1 и 2 контролируют давление воздуха впускного коллектора и передают информацию в модуль управления двигателем (ECM) через электропроводку двигателя. ECM рассчитывает дифференциальное давление между левым и правым берегом на основе этой информации.
 
-### Component Location
+### Расположение компонента
 
-The intake manifold pressure sensors are located in the air intake manifold toward the front of the engine.
+Датчики давления впускного коллектора расположены в коллекторе воздухозаборника по направлению к передней части двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the ECM keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания ECM находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-If the boost pressure differential between the left and right bank intake manifold pressure sensors exceeded a calibrated value for a calibrated amount of time, the fault will activate.
+Если дифференциал давления наддува между датчиками давления впускного коллектора левого и правого берега превышает калиброванное значение за калиброванное количество времени, то неисправность активируется.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- N/A
+- Не применяется
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- N/A
+- Не применяется
 
-### Shoptalk
+### Практические замечания
 
-There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
+У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. У каждого блока управления свой адрес источника, который отображается при подключении INSITE™. При поиске неисправности по коду определяйте затронутый блок управления и цепь по адресу источника, который показывает INSITE™.
 
-Possible causes of the fault code include:
+Возможные причины кода неисправности включают:
 
-- Restricted air intake filters
+- Фильтры с ограниченным воздухозаборником
 
-- High compressor intake temperatures
+- Высокие температуры впуска компрессора
 
-- An issue with one of the turbochargers
+- Проблема с одним из турбокомпрессоров
 
-- A closed intake air shut off valve.
+- Закрытый впускной воздух отключает клапан.
 
-Refer to Troubleshooting Fault Code t05-419.
+См. Код устранения неполадок t05-419.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 419
+>
+> ### Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 419 PID(P): SPN: FMI: Lamp: Amber SRT: | Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect. | Engine shutdown or derate. |
+>
+> QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 1 Pressure Sensor Circuit
+>
+> QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 2 Pressure Sensor Circuits
+>
+> ### Circuit Description
+>
+> The intake manifold 1 and 2 pressure sensors monitor intake manifold air pressure and pass information to the engine control module (ECM) through the engine harness. The ECM calculates a differential pressure between the left and right bank based on this information.
+>
+> ### Component Location
+>
+> The intake manifold pressure sensors are located in the air intake manifold toward the front of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the ECM keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> If the boost pressure differential between the left and right bank intake manifold pressure sensors exceeded a calibrated value for a calibrated amount of time, the fault will activate.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - N/A
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - N/A
+>
+> ### Shoptalk
+>
+> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
+>
+> Possible causes of the fault code include:
+>
+> - Restricted air intake filters
+>
+> - High compressor intake temperatures
+>
+> - An issue with one of the turbochargers
+>
+> - A closed intake air shut off valve.
+>
+> Refer to Troubleshooting Fault Code t05-419.

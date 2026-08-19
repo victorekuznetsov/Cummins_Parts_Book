@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-051.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-051.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fuse Holder
@@ -33,27 +36,54 @@ tags:
 > **Даты:** изменён 2003-11-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-051.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cut and remove the plastic hold-down wire tie. Cut away and remove the connector from the harness.
+
+### Снятие
+
+Разрежьте и удалите пластиковый галстук с проволочным шнуром. Отрежьте и удалите разъем из проводной упряжки.
 
 ![[19400442.png]]
 
-Remove 6 mm \[1/4 inch\] of insulation from the supply wire.
+Удалите 6 мм \[1/4 дюйма\] изоляции из провода питания.
 
 ![[19400280.png]]
 
-### Install
+### Установка
 
-Install the replacement fuse holder, Part Number 3823758, onto the bare wires.
+Установите заменяющий держатель предохранителя, номер детали 3823758, на голые провода.
 
 ![[ee8cnhj.png]]
 
-> [!warning] CAUTION · Осторожно
-> Only use wire crimping pliers, Part Number 3822930.
+> [!warning] ОСТОРОЖНО
+> Используйте только обжимные плоскогубцы, номер детали 3822930.
 
-Crimp the repair wire onto the bare wire.
+Ограничьте ремонтный провод на голый провод.
 
-Use a heat gun, Part Number 3823860, to heat the shrink tubing. The tube will shrink and make the connections waterproof.
+Используйте тепловую пушку, номер детали 3823860, для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединения водонепроницаемыми.
 
 ![[19400444.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Cut and remove the plastic hold-down wire tie. Cut away and remove the connector from the harness.
+>
+> Remove 6 mm \[1/4 inch\] of insulation from the supply wire.
+>
+> ### Install
+>
+> Install the replacement fuse holder, Part Number 3823758, onto the bare wires.
+>
+> **CAUTION · Осторожно**
+> Only use wire crimping pliers, Part Number 3822930.
+>
+> Crimp the repair wire onto the bare wire.
+>
+> Use a heat gun, Part Number 3823860, to heat the shrink tubing. The tube will shrink and make the connections waterproof.

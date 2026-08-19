@@ -16,6 +16,8 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110148.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110148.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "год/2011"
+  - "перевод/машинный"
   - "тема/rocker-levers"
 ---
 
@@ -36,33 +39,70 @@ tags:
 > **Даты:** выпущен 2011-05-12 · изменён 2011-05-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110148.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110148.pdf)
 
-## K19, K38 and K50 Rocker Housing Gasket Change
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Изменение прокладки корпуса коромысел K19, K38 и K50
 
-### Contents
+### Положение о гарантии
 
-This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This document introduces a new rocker lever housing gasket for use on all current and past K19, K38, and K50 engines. The new gasket, Part No.
+### Содержание
 
-3630839 **replaces** Part No. 3628330.
+Этот документ был первоначально выпущен в период с 1994 по 2001 год. Он был добавлен в QSOL для информационных целей.
 
-The new gasket is edge-molded and based on a modified version of the original edge-molded rocker lever housing gasket. The profile of the gasket was altered, but the material of the gasket remains the same. It is designed to fit **both** current production engines and older engines built with non-STC rocker lever housings. The old gasket, Part No. 3628330 released on 24Oct1994 did not seal the older non-STC engines.
+В этом документе представлен новый прокладка корпуса клапанного клапана для прокладки рук для использования на всех текущих и прошлых двигателях K19, K38 и K50. Новая прокладка, номер детали.
 
-The new gasket went into production in the third quarter of 1996 for all K19, K38, and K50 engines.
+3630839 ** заменяет ** номер детали. 3628330.
 
-> [!note] Note · Примечание
-> All gasket sets packaged after 24Jul1996 will have gasket Part No. 3630839 in them.
+Новая прокладка имеет форму края и основана на модифицированной версии оригинальной прокладки с кромкой клапанного клапана. Профиль прокладки был изменен, но материал прокладки остался прежним. Он предназначен для установки как текущих, так и старых двигателей, построенных с корпусами рукоятки не-STC клапанного клапана. Старая прокладка, номер детали. 3628330, выпущенный 24 октября 1994 года, не герметизировал старые двигатели, не относящиеся к STC.
+
+Новая прокладка поступила в производство в третьем квартале 1996 года для всех двигателей К19, К38 и К50.
+
+> [!note] Примечание
+> Все комплекты прокладок, упакованные после 24 июля 1996 года, будут иметь прокладку Номер детали. 3630839 в них.
 
 ![[03400028.png]]
 
-New Gasket, Part No. 3630839
+Новая корзина, номер детали. 3630839
 
 ![[03400029.png]]
 
-Old Gasket, Part No. 3628330
+Старая корзина, номер детали. 3628330
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## K19, K38 and K50 Rocker Housing Gasket Change
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+>
+> This document introduces a new rocker lever housing gasket for use on all current and past K19, K38, and K50 engines. The new gasket, Part No.
+>
+> 3630839 **replaces** Part No. 3628330.
+>
+> The new gasket is edge-molded and based on a modified version of the original edge-molded rocker lever housing gasket. The profile of the gasket was altered, but the material of the gasket remains the same. It is designed to fit **both** current production engines and older engines built with non-STC rocker lever housings. The old gasket, Part No. 3628330 released on 24Oct1994 did not seal the older non-STC engines.
+>
+> The new gasket went into production in the third quarter of 1996 for all K19, K38, and K50 engines.
+>
+> **Note · Примечание**
+> All gasket sets packaged after 24Jul1996 will have gasket Part No. 3630839 in them.
+>
+> New Gasket, Part No. 3630839
+>
+> Old Gasket, Part No. 3628330
+>
+> ### Document History

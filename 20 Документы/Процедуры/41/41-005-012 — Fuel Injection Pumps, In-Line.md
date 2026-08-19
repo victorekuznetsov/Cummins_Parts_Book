@@ -14,12 +14,15 @@ manuals:
   - "2883407"
   - "3666003"
 figures: 81
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-005-012.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-005-012.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Fuel Injection Pumps, In-Line
@@ -33,662 +36,1170 @@ tags:
 > **Даты:** изменён 2019-08-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-005-012.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-005-012.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-- Clean any debris from the fuel injection pump.
-- Remove the fuel supply lines. [[41-006-024 — Fuel Supply Lines|Refer to Procedure 006-024]].
-- Remove the injector supply lines. [[41-006-051 — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051]].
-- Remove the control linkage. Refer to the OEM service manual.
-- Remove the fuel shutoff solenoid. [[41-005-043 — Fuel Shutoff Valve|Refer to Procedure 005-043]].
-- Remove the air fuel control air line.
-- Remove the governor oil supply line.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, арочное оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+- Очистите любой мусор от насоса для впрыска топлива.
+- Удалите линии подачи топлива.[[41-006-024 — Fuel Supply Lines|См. процедуру 006-024]].
+- Удалите линии подачи топливного форсунка.[[41-006-051 — Injector Supply Lines (High Pressure)|См. процедуру 006-051]].
+- Удалите контрольную связь. См. сервисное руководство изготовителя машины.
+- Удалите выключатель топлива соленоид.[[41-005-043 — Fuel Shutoff Valve|См. процедуру 005-043]].
+- Удалите контроль воздушного топлива линии сжатого воздуха.
+- Удалите губернаторскую линию поставок нефти.
 
 ![[ck800wa.png]]
 
-### Time
+### Время
 
-Marine Applications
+Судовое применение
 
-> [!warning] CAUTION · Осторожно
-> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+> [!warning] ОСТОРОЖНО
+> Не используйте запирающий штифт коленчатого вала, чтобы найти верхняя мёртвая точка двигателя для морских применений. Это может привести к неправильному времени, плохой производительности двигателя и проблемам с дымом двигателя.
 
-To locate actual top dead center, fabricate a timing mark pointer for the front of the engine.
+Чтобы найти фактический верхняя мёртвая точка, изготовьте указатель синхронизации для передней части двигателя.
 
-> [!note] Note · Примечание
-> This can be done by forming a piece of 16 gauge wire that can be tightened under one of the gear cover capscrews. Sharpen the wire at the vibration damper end so that it comes to a point for better accuracy.
+> [!note] Примечание
+> Это можно сделать, сформировав кусок 16 измерительной проволоки, который можно затянуть под одним из болтов крышки передач. Закрепите провод на конце вибрационного демпфера, чтобы он достиг точки для лучшей точности.
 
 ![[er900wr.png]]
 
-Locate top dead center for cylinder Number 1 by barring crankshaft slowly while pressing on the engine timing pin. Barring the engine is recommended from the flywheel on the rear of the engine using barring tool, Part Number 3824591.
+Найдите верхняя мёртвая точка для цилиндра № 1, медленно перекрывая коленчатый вал, нажимая на штифт блокировки коленчатого вала. Запрет двигателя рекомендуется с маховика на задней части двигателя с использованием запорного инструмента, номер детали 3824591.
 
 ![[bc9piua.png]]
 
-To prevent damage to the engine or timing pin, you **must** disengage the timing pin after locating top dead center.
+Чтобы предотвратить повреждение штифта блокировки двигателя или коленчатого вала, вы должны отключить штифт блокировки коленчатого вала после обнаружения верхней мёртвой точки.
 
 ![[bc9piba.png]]
 
-Rotate the crankshaft 90 degrees in the direction opposite normal rotation (**counterclockwise**).
+Поверните коленчатый вал на 90 градусов в направлении, противоположном нормальному вращению (** против часовой стрелки**).
 
 ![[05900818.png]]
 
-Tighten the adjusting screw for the intake valve on number 1 cylinder three complete turns of the screw.
+Затягивайте регулирующий винт для впускного клапана на цилиндре № 1 тремя полными витками винта.
 
-> [!note] Note · Примечание
-> Leave the adjusting screw in this position until top dead center is established.
+> [!note] Примечание
+> Оставьте регулирующий винт в этом положении до тех пор, пока не будет установлен верхняя мёртвая точка.
 
 ![[pr9asue.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use extreme care that the piston does not push against the valve with so much force that it bends the push rod or valve.
+> [!warning] ОСТОРОЖНО
+> Используйте крайнюю осторожность, чтобы поршень не толкался против клапана с такой силой, что он изгибает толкатель или клапан.
 
-Rotate the crankshaft slowly in the direction of the engine rotation until the piston touches the intake valve.
+Вращайте коленчатый вал медленно в направлении вращения двигателя до тех пор, пока поршень не коснется впускного клапана.
 
-Place a mark on the vibration damper at the tip of the pointer.
+На кончике указателя поместите отметку на вибрационном демпфере.
 
 ![[05900817.png]]
 
-> [!warning] CAUTION · Осторожно
-> Make certain that the piston does not push against the valve with so much force that it bends the push rod or valve.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что поршень не толкает клапан с такой силой, что он изгибает толкатель или клапан.
 
-Rotate the crankshaft in the opposite direction until the piston touches the intake valve.
+Вращайте коленчатый вал в противоположном направлении, пока поршень не коснется впускного клапана.
 
-Place a mark on the vibration damper at the tip of the pointer.
+На кончике указателя поместите отметку на вибрационном демпфере.
 
 ![[05900816.png]]
 
-Measure the distance and mark the damper at one-half the distance between the two marks. This mark is the top dead center mark.
+Измерьте расстояние и пометьте демпфер на половине расстояния между двумя метками. Этот знак является верхней мертвой центральной отметкой.
 
 ![[05900809.png]]
 
-> [!warning] CAUTION · Осторожно
-> Failure to loosen the adjusting screw will result in bending the push rod and/or valve stem when the crankshaft is rotated.
+> [!warning] ОСТОРОЖНО
+> Неспособность ослабить регулирующий винт приведет к изгибу толкательного стержня и/или стебля клапана при повороте коленчатого вала.
 
-Loosen the intake valve adjusting screw and reset the valve to the proper clearance. [[41-003-004 — Overhead Set|Refer to Procedure 003-004]].
+Устраните впускной клапан, регулирующий винт, и сбросьте клапан в надлежащий зазор.[[41-003-004 — Overhead Set|См. процедуру 003-004]].
 
 ![[pr9asui.png]]
 
-Rotate the crankshaft in the direction of the engine rotation until the pointer is aligned with the top dead center.
+Поверните коленчатый вал в направлении вращения двигателя, пока указатель не выровняется с верхним мертвым центром.
 
 ![[da9shwa.png]]
 
-Look through the back side of the gear housing for the timing pin hole in the camshaft gear. If the hole is **not** visible, the crankshaft **must**, be rotated one revolution.
+Посмотрите через заднюю сторону корпуса зубчатой коробки на отверстие для запирания коленчатого вала в распределительной коробке. Если отверстие **не** видно, коленчатый вал *** должен быть повернут в одну оборотную сторону.
 
 ![[it900vb.png]]
 
-The engine is at the proper top dead center and the fuel pump can be installed for the correct timing. See the Install procedure.
+Двигатель находится в правильном верхнем мертвом центре, и топливный насос может быть установлен в правильное время. Смотрите процедуру установки.
 
 ![[fp900hc.png]]
 
-Remove the timing mark pointer from the front gear cover.
+Удалите указатель метки времени с передней крышки передач.
 
 ![[er900wr.png]]
 
-Automotive and Industrial
+Автомобильные и промышленные
 
-Use cylinder number 1 intake valve to make certain that the engine is at top dead center on the compression stroke for cylinder number 1. [[41-001-049 — Timing Pin Housing|Refer to Procedure 001-049]].
+Используйте впускной клапан цилиндра № 1, чтобы убедиться, что двигатель находится в верхней мертвой точке на ходе сжатия для цилиндра № 1.[[41-001-049 — Timing Pin Housing|См. процедуру 001-049]].
 
 ![[er900wl.png]]
 
-Fabricate a timing marker for the front of the engine.
+Изготовить маркер времени для передней части двигателя.
 
-> [!note] Note · Примечание
-> This can be done by forming a piece of 16 gauge wire that can be tightened under one of the gear cover capscrews. Sharpen the wire at the vibration damper end so that it comes to a point for better accuracy.
+> [!note] Примечание
+> Это можно сделать, сформировав кусок 16 измерительной проволоки, который можно затянуть под одним из болтов крышки передач. Закрепите провод на конце вибрационного демпфера, чтобы он достиг точки для лучшей точности.
 
 ![[er900wr.png]]
 
-Attach a degree wheel or degree tape to the front of the vibration damper. Line the top dead center mark up with the pointer.
+Прикрепите колесо или ленту степени к передней части вибрационного демпфера. Линия верхней мёртвой точки отметьте указателем.
 
-The degree wheel/tape **must** measure to an accuracy of at least ±1 degree.
+Колесо/лента ** должна** измеряться с точностью не менее ±1 градуса.
 
 ![[er900wp.png]]
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, арочное оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-Install the fuel injection pump. See the Install section.
+Установите насос для впрыска топлива. Смотрите раздел Установка.
 
-If the fuel injection pump is already installed, continued the procedure.
+Если насос для впрыска топлива уже установлен, процедура продолжается.
 
 ![[fp900nb.png]]
 
-Remove the number 1 high-pressure fuel line from the fuel injection pump.
+Удалите топливный поток высокого давления № 1 из топливного насоса.
 
-> [!note] Note · Примечание
-> Lines 2 through 6 **must not** be removed or loosened.
+> [!note] Примечание
+> Линии 2-6 ** не должны быть удалены или ослаблены.
 
 ![[ft900mg.png]]
 
-> [!warning] CAUTION · Осторожно
-> When attaching the fabricated tube, do not bend the number 1 high-pressure fuel line. This can cause the inside of the fuel line to flake and cause injector failure.
+> [!warning] ОСТОРОЖНО
+> При креплении изготовленной трубки не изгибайте топливную линию высокого давления № 1. Это может привести к тому, что внутренняя часть топливной линии отслаивается и вызывает отказ форсунки.
 
-A short length of high-pressure line that is compatible with the fuel lines used on the engine **must** be bent in a “U” shape and installed onto the delivery valve holder of the fuel injection pump.
+Короткая длина линии высокого давления, совместимая с топливными линиями, используемыми на двигателе **, должна быть согнута в форме «U» и установлена на держателе клапана подачи топливного насоса.
 
-The line is used to observe when the fuel is or is **not** flowing through the delivery valve holder assembly.
+Линия используется для наблюдения за тем, когда топливо проходит или не проходит через сборку держателя клапана доставки.
 
-Place a container under the tube to catch the fuel or drain the fuel back into the spill port pump.
+Поместите контейнер под трубку, чтобы поймать топливо или слить топливо обратно в насос порта разлива.
 
 ![[ft900wl.png]]
 
-Remove the overflow valve from the fuel injection pump.
+Удалите переливной клапан из насоса для впрыска топлива.
 
-Install a 14-mm threaded plug and sealing washer into the fuel return port of the fuel injection pump.
+Установите 14-мм резьбовую вилку и уплотнительную стиральную машину в порт возврата топлива насоса впрыска топлива.
 
-> [!note] Note · Примечание
-> The fuel return port is located on the inboard front side of the fuel injection pump for automotive in-line applications and on the outboard front side for most industrial applications
+> [!note] Примечание
+> Порт возврата топлива расположен на бортовой передней стороне насоса для впрыска топлива для автомобильных встроенных применений и на боковой передней стороне для большинства промышленных применений.
 
 ![[ft900wm.png]]
 
-Remove the fuel supply line between the fuel filter head and the fuel injection pump.
+Удалите линию подачи топлива между установочной головкой топливного фильтра и насосом для впрыска топлива.
 
-Attach the high-pressure outlet hose from the spill port pump cart to the fuel injection pump supply port.
+Прикрепите выпускной шланг высокого давления от разливной портовой насосной тележки к порту подачи насоса для впрыска топлива.
 
 ![[ft900mf.png]]
 
-Before continuing, make certain that the fuel injection pump timing pin is disengaged.
+Прежде чем продолжить, убедитесь, что запирающий штифт коленчатого вала насоса для впрыска топлива отключен.
 
 ![[fs9piha.png]]
 
-Rotate the crankshaft **counterclockwise**, as viewed from the front of the engine, to approximately 40 degrees before top dead center.
+Поверните коленчатый вал ** против часовой стрелки **, как видно спереди двигателя, примерно на 40 градусов до верхней мёртвой точки.
 
 ![[er900wo.png]]
 
-### Adjust
+### Регулировка
 
-Governor
+губернатор
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, арочное оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!note] Note · Примечание
-> The governor lever **must** be positioned before pressuring the fuel injection pump.
+> [!note] Примечание
+> Регуляторный рычаг ** должен** располагаться перед давлением на насос впрыска топлива.
 
-The RQV governor throttle lever **must** be in the low-idle lever position.
+Рычаг дроссельной заслонки RQV губернатора ** должен ** находиться в положении рычага с низким уровнем холостого хода.
 
-Automotive engines with a RQV-K governor throttle lever **must** be in the high-idle throttle position.
+Автомобильные двигатели с регуляторным рычагом дроссельной заслонки RQV-K ** должны ** находиться в положении дроссельной заслонки с высоким холостым заслоном.
 
-Industrial engines with a RQV-K governor throttle lever **must** be in the low-idle throttle position.
+Промышленные двигатели с регуляторным рычагом дроссельной заслонки RQV-K ** должны ** находиться в положении с низким уровнем холостого заслонка.
 
 ![[fp900wo.png]]
 
-Both the RQV and RQV-K governor **must** have the shutdown lever in the full-run position.
+И губернатор RQV, и губернатор RQV-K должны иметь рычаг отключения в положении полного хода.
 
 ![[fp900wp.png]]
 
-The RSV governor throttle lever **must** be in the low-idle position and the shutdown lever needs to be wired or locked in the 1/2-travel position.
+Рулевой рычаг RSV ** должен *** находиться в положении с низким уровнем холостого хода, а рычаг выключения должен быть подключен или заблокирован в положении 1/2 движения.
 
 ![[fp900wq.png]]
 
-Turn on the spill timing cart pump.
+Включите насос для разлива.
 
-Check the fuel pressure.
+Проверьте давление топлива.
 
-| Fuel Spill Timing Cart - Fuel Pressure |  |  |
+| Корзина с разливом топлива - давление топлива |  |  |
 |---|---|---|
-| kpa |  | psi |
-| 2068 | MIN | 300 |
-| 2551 | MAX | 370 |
+| каша |  | пси |
+| 2068 | Мин | 300 |
+| 2551 | Макс | 370 |
 
-> [!note] Note · Примечание
-> The shutdown lever **must** be held in the required position before turning the spill cart pump on.
+> [!note] Примечание
+> Рычаг выключения ** должен** удерживаться в необходимом положении перед включением насоса разливной тележки.
 
 ![[ip900oa.png]]
 
-Fuel **must** be flowing out of the tube attached to the fuel injection pump. If the fuel is **not** flowing, check the procedures again carefully.
+Топливо ** должно** вытекать из трубки, прикрепленной к насосу для впрыска топлива. Если топливо не течет, проверьте процедуры снова тщательно.
 
 ![[ip900wh.png]]
 
-Slowly rotate the crankshaft **clockwise**, as viewed from the front of the engine, until fuel flow from cylinder number 1 begins.
+Медленно поверните коленчатый вал ** по часовой стрелке**, как видно спереди двигателя, пока не начнется поток топлива из цилиндра № 1.
 
-The plunger number 1 element is now approaching port closure. Continue to rotate the crankshaft slowly until the flow is reduced to a drip. At the point that the steady stream of flow changes from a solid flow to a drip, stop. This is the static timing position of the fuel injection pump.
+В настоящее время плунжер № 1 приближается к закрытию порта. Продолжайте медленно вращать коленчатый вал, пока поток не сократится до капельницы. В точке, когда постоянный поток потока изменяется от твердого потока к капле, остановитесь. Это статическое положение синхронизации насоса для впрыска топлива.
 
 ![[ip900wf.png]]
 
-If the flow does **not** slow down to a drip:
+Если поток замедляется до капли **not**:
 
-- Check the position of the governor lever.
-- Make certain that the cylinder number 1 is before top dead center on the compression stroke.
-- Turn off the spill port pump.
+- Проверьте положение рычага губернатора.
+- Убедитесь, что цилиндр № 1 находится перед верхней мертвой точкой на ходе сжатия.
+- Выключите насос порта разлива.
 
 ![[fp900wq.png]]
 
-Check the degree wheel on the vibration damper to see what engine degree the timing pointer is indicating. This is spill port static timing. Compare this number to the timing specification for your particular application.
+Проверьте колесо степени на вибрационном демпфере, чтобы увидеть, на какой степени двигателя указывает указатель времени. Это статический момент разлива порта. Сравните это число со спецификацией времени для вашего конкретного приложения.
 
 ![[er900wp.png]]
 
-If the fuel injection pump static timing, as measured by the above method, is **not** within specification, remove the large nut that fastens the fuel injecting pump camshaft to the fuel pump drive gear.
+Если статический момент впрыска топлива, измеренный вышеуказанным методом, находится **не** в пределах спецификации, удалите большой гайку, которая прикрепляет распределительный вал топливного насоса к приводной шестеренки топливного насоса.
 
-If the crankshaft has rotated, turn on the spill port pump and rotate the crankshaft to find port closure.
+Если коленчатый вал вращается, включите разливной насос порта и поверните коленчатый вал, чтобы найти закрытие порта.
 
-Turn off the spill port pump.
+Выключите насос порта разлива.
 
 ![[ip900wj.png]]
 
-Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+Используйте съёмник с топливным насосом, номер детали 3163381, с болтами M8-1,25 x 50, класс 8,8 или эквивалент. Вытащите приводную передачу насоса впрыска топлива из вала.
 
 ![[fs9gemc.png]]
 
-Slowly rotate the crankshaft **counterclockwise** about 40 degrees past the desired static timing specification.
+Медленно поверните коленчатый вал ** против часовой стрелки ** примерно на 40 градусов выше требуемой статичной временной спецификации.
 
-Slowly rotate the crankshaft **clockwise** until the timing pointer indicates the desired static timing.
+Медленно поверните коленчатый вал ** по часовой стрелке** до тех пор, пока указатель времени не укажет желаемое статическое время.
 
 ![[er900wq.png]]
 
-> [!warning] CAUTION · Осторожно
-> To prevent damage to the timing pins, do not exceed the torque value given. This is not the final torque value for the retaining nut.
+> [!warning] ОСТОРОЖНО
+> Чтобы предотвратить повреждение штифтов времени, не превышайте заданное момент затяжки. Это не окончательный крутящий момент для удерживающего гайки.
 
-Install and tighten the retaining nut and washer.
+Установите и подтяните удерживающий орех и стиральную машину.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | n.m | in-lb |
-| Torque Value | 12 | 106 |
+|  | Н·м | в фунтах |
+| Момент затяжки | 12 | 106 |
 
 ![[fp9nuhc.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителя по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+> [!warning] ОСТОРОЖНО
+> Неспособность тщательно очистить и высушить вал и сужения передач может привести к сдвигу времени на отсталую сторону после запуска двигателя и работы под нагрузкой. Это приведет к низкой мощности, дыму, грубому бегу и повреждению двигателя.
 
-Tighten the fuel injection pump drive nut.
+Затягивание насоса впрыска топлива приводной гайки.
 
-Make certain that the static timing has **not** changed after the fuel injection drive nut is tightened to the required specification.
+Убедитесь, что статический тайминг ** не** изменился после того, как гайка с приводом для впрыска топлива была подтянута до требуемой спецификации.
 
-Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and the gear. Dry the surface with compressed air.
+Перед установкой приводной передачи топливного насоса очистите вал насоса и суппорты передач с помощью QD Contact Cleaner, Part Number 3824510, распыляя в щель между валом и передачей. Сушить поверхность сжатым воздухом.
 
 ![[ip9nuhd.png]]
 
-Tighten the fuel injection pump drive gear nut.
+Затянуть гайку привода впрыска топлива.
 
-Torque Values:
+Моменты затяжки:
 
-Torque Value:
+Момент затяжки:
 
-Nippondenso
+Ниппонденс
 
-Torque Value:
+Момент затяжки:
 
-Bosch A Pump
+Bosch A Pump (насосы)
 
-Torque Value:
+Момент затяжки:
 
-Bosch MW Pump
+Bosch MW насос
 
-Torque Value:
+Момент затяжки:
 
 Bosch P3000/P7100
 
-Repeat this procedure as needed until the timing matches the specification.
+Повторите эту процедуру по мере необходимости, пока время не совпадет с спецификацией.
 
 ![[ip900wf.png]]
 
-The fuel injection pump timing pin **must** fit over the injection pump pointer when the engine is at top dead center or on the compression stroke for the cylinder number 1. If it does **not**, the fuel injection pump **must** be adjusted by an authorized fuel injection pump shop or the fuel injection pump was installed incorrectly.
+Запирающий штифт коленчатого вала насоса для впрыска топлива ** должен** помещаться над указателем насоса для впрыска, когда двигатель находится в верхней мертвой точке или на ходе сжатия для цилиндра № 1. Если это не так, то насос для впрыска топлива должен быть отрегулирован авторизованным насосным цехом для впрыска топлива или насос для впрыска топлива был установлен неправильно.
 
 ![[ip9gewb.png]]
 
-Remove the degree wheel and timing mark pointer.
+Удалите указатель градуса и знак времени.
 
 ![[er900wr.png]]
 
-### Remove
+### Снятие
 
-Automotive and Industrial
+Автомобильные и промышленные
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, арочное оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!warning] CAUTION · Осторожно
-> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+> [!warning] ОСТОРОЖНО
+> Не используйте запирающий штифт коленчатого вала, чтобы найти верхняя мёртвая точка двигателя для морских применений. Это может привести к неправильному времени, плохой производительности двигателя и проблемам с дымом двигателя.
 
-Locate top dead center for cylinder Number 1. Push the timing pin into the hole in the camshaft gear while slowly rotating the crankshaft with the barring tool, Part Number 3377371.
+Найдите верхняя мёртвая точка для цилиндра № 1. Нажмите на коленчатый вал, запирающий штифт в отверстие в распределительной шестерне, медленно вращая коленчатый вал с помощью запорного инструмента, Номер детали 3377371.
 
-> [!note] Note · Примечание
-> Make certain that the timing pin is disengaged after locating top dead center.
+> [!note] Примечание
+> Убедитесь, что штифт блокировки коленчатого вала отключен после обнаружения верхней мёртвой точки.
 
 ![[bc9piua.png]]
 
-Remove the front gear cover access cap.
+Снимите крышку доступа передней шестерни.
 
-Remove the nut and washer from the fuel injection pump shaft.
+Удалите гайку и стиральную машину из вала насоса для впрыска топлива.
 
 ![[dp9numa.png]]
 
-Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+Используйте съёмник с топливным насосом, номер детали 3163381, с болтами M8-1,25 x 50, класс 8,8 или эквивалент. Вытащите приводную передачу насоса впрыска топлива из вала.
 
 ![[dp9gemd.png]]
 
-Engines equipped with the P7100, P3000, A, and MW fuel injection pump are equipped with support brackets that **must** be removed.
+Двигатели, оснащенные насосами для впрыска топлива P7100, P3000, A и MW, оснащены опорными кронштейнами, которые *** должны быть удалены.
 
 ![[fp9bkma.png]]
 
-Remove the four fuel injection pump mounting nuts.
+Удалите четыре топливных насоса, устанавливающих гайки.
 
-Remove the fuel injection pump.
+Удалите насос для впрыска топлива.
 
 ![[fp900ma.png]]
 
-Marine Applications
+Судовое применение
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, арочное оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!warning] CAUTION · Осторожно
-> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+> [!warning] ОСТОРОЖНО
+> Не используйте запирающий штифт коленчатого вала, чтобы найти верхняя мёртвая точка двигателя для морских применений. Это может привести к неправильному времени, плохой производительности двигателя и проблемам с дымом двигателя.
 
-Locate top dead center for cylinder number 1. See the Time, Marine Applications section.
+Найдите верхняя мёртвая точка для цилиндра № 1. См. раздел Время, Морские приложения.
 
-Remove the front gear cover access cap.
+Снимите крышку доступа передней шестерни.
 
-Remove the nut and washer from the fuel injection pump shaft.
+Удалите гайку и стиральную машину из вала насоса для впрыска топлива.
 
 ![[bc9piua.png]]
 
-Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+Используйте съёмник с топливным насосом, номер детали 3163381, с болтами M8-1,25 x 50, класс 8,8 или эквивалент. Вытащите приводную передачу насоса впрыска топлива из вала.
 
 ![[dp9gemd.png]]
 
-Engines equipped with P7100, P3000, A, or MW fuel injection pumps are equipped with support brackets that **must** be removed.
+Двигатели, оснащенные насосами для впрыска топлива P7100, P3000, A или MW, оснащены опорными кронштейнами, которые *** должны быть удалены.
 
 ![[fp9bkma.png]]
 
-Remove the four fuel injection pump mounting nuts.
+Удалите четыре топливных насоса, устанавливающих гайки.
 
-Remove the fuel injection pump.
+Удалите насос для впрыска топлива.
 
 ![[fp900ma.png]]
 
-### Install
+### Установка
 
-Automotive and Industrial
+Автомобильные и промышленные
 
-> [!warning] CAUTION · Осторожно
-> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+> [!warning] ОСТОРОЖНО
+> Не используйте запирающий штифт коленчатого вала, чтобы найти верхняя мёртвая точка двигателя для морских применений. Это может привести к неправильному времени, плохой производительности двигателя и проблемам с дымом двигателя.
 
-Make certain that the cylinder Number 1 is at top dead center.
+Убедитесь, что цилиндр № 1 находится в верхней мертвой точке.
 
 ![[bc9piua.png]]
 
-The fuel injection pump also has a timing pin (1), located in the governor housing, to position the fuel injection pump shaft to correspond with top dead center for cylinder Number 1. The timing pin **must** be reversed and stored in the housing (2) after the fuel injection pump is installed.
+Насос для впрыска топлива также имеет запирающий штифт коленчатого вала (1), расположенный в корпусе регулятора, чтобы позиционировать вал насоса для впрыска топлива в соответствии с верхним мертвым центром для цилиндра № 1. Запирающий штифт коленчатого вала *** должен быть обращен вспять и храниться в корпусе (2) после установки насоса для впрыска топлива.
 
 ![[fp900wa.png]]
 
-Remove the fuel injection pump timing pin access plug.
+Удалите запирающую штепсельную заглушку коленчатого вала насоса для впрыска топлива.
 
 ![[fp9pxha.png]]
 
-Remove the timing pin.
+Снимите запирающий штифт коленчатого вала.
 
 ![[fs9piha.png]]
 
-If the timing tooth is **not** aligned with the timing pin hole, rotate the fuel injection pump shaft until the timing tooth aligns.
+Если зуб синхронизации ** не** выровнен с отверстием для штифта запирания коленчатого вала, поверните вал насоса впрыска топлива до выравнивания зуба синхронизации.
 
 ![[fp9pisa.png]]
 
-Reverse the position of the timing pin so that the slot of the timing pin will fit over the timing tooth in the fuel injection pump.
+Обратите положение запирающего штифта коленчатого вала так, чтобы щель запирающего штифта коленчатого вала помещался над зубом синхронизации в насосе для впрыска топлива.
 
 ![[fs9piha.png]]
 
-Install and secure the timing pin with the access plug.
+Установите и защитите штифт блокировки коленчатого вала с помощью вилки доступа.
 
 ![[fp9pxha.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Make certain that the o-ring seals for the fill orifice and pilot are correctly installed and are **not** damaged.
+Убедитесь, что уплотнения для заливного отверстия и пилота правильно установлены и не повреждены.
 
-Lubricate the mounting flange with clean lubricating engine oil.
+Смазать крепежный фланж чистым смазочным моторным маслом.
 
-Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and the gear.
+Перед установкой приводной передачи топливного насоса очистите вал насоса и суппорты передач с помощью QD Contact Cleaner, Part Number 3824510, распыляя в щель между валом и передачей.
 
-Dry the surface with compressed air.
+Сушить поверхность сжатым воздухом.
 
 ![[fp9hssa.png]]
 
-Slide the fuel injection pump shaft through the drive gear, and position the fuel injection pump flange onto the mounting studs.
+Сдвиньте вал топливного насоса через приводную передачу и поместите фланец топливного насоса на крепежные шпильки.
 
 ![[fp900hc.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not pull the injection pump into the gear housing with the mounting nuts. Damage to the gear housing and fuel pump can result.
+> [!warning] ОСТОРОЖНО
+> Не тяните форсуночный насос в зубчатую коробку с крепежными гайками. Повреждение корпуса зубчатой передачи и топливного насоса может привести к этому.
 
-Install the fuel injection pump mounting nuts.
+Установите топливный насос для монтажа гаек.
 
-Install the support bracket, if equipped.
+Установите опорный кронштейн, если он оборудован.
 
-Torque Value:
+Момент затяжки:
 
-Mounting nuts
+Концентрация орехов
 
-Torque Value:
+Момент затяжки:
 
-Support bracket nuts
+Орехи для подлокотников
 
 ![[fp900nb.png]]
 
-> [!note] Note · Примечание
-> To prevent damage to the timing pins, do **not** exceed the torque value given. This is **not** the final torque value for the retaining nut.
+> [!note] Примечание
+> Чтобы предотвратить повреждение штифтов времени, сделайте **не **, чтобы превысить момент затяжки. Это **не** окончательное момент затяжки для удерживающего гайки.
 
-Install and tighten the fuel injection pump retaining nut and washer.
+Установите и затяните насос для впрыска топлива, удерживающий гайку и стиральную машину.
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
 ![[fp9nuhc.png]]
 
-Disengage the engine timing pin.
+Отключите запирающий штифт коленчатого вала.
 
 ![[er9pima.png]]
 
-> [!warning] CAUTION · Осторожно
-> The governor housing must be pre-lubricated before engine operation. Failure to do so will result in premature governor wear.
+> [!warning] ОСТОРОЖНО
+> Корпус губернатора должен быть предварительно смазан перед работой двигателя. Невыполнение этого требования приведет к преждевременному износу губернатора.
 
-Remove the access plug.
+Удалить плагин доступа.
 
-Add the following quantity of clean engine oil:
+Добавить следующее количество чистого моторного масла:
 
-- RSV 450 ml \[0.48 qt\]
-- RQV 750 ml \[0.79 qt\]
-- RQVK 750 ml \[0.79 qt\].
-
-![[fp9pxha.png]]
-
-Install the access plug.
-
-> [!tip] Момент затяжки · Torque Value
-> 28 n•m [21 ft-lb]
+- RSV 450 мл \[0,48 квт\]
+- RQV 750 мл \[0,79 квт\]
+- RQVK 750 мл[0,79 квт].
 
 ![[fp9pxha.png]]
 
-Remove the fuel injection pump timing pin plug.
+Установите плагин доступа.
 
-Reverse the position of the timing pin.
+> [!tip] Момент затяжки
+> 28 Н·м [21 фунт-фут]
 
-Install the timing pin, plug, and sealing washer.
+![[fp9pxha.png]]
 
-Tighten the timing pin plug.
+Удалите затвор коленчатого вала насоса для впрыска топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+Обратить положение запирающего штифта коленчатого вала.
+
+Установите штифт блокировки коленчатого вала, штепсельную вилку и уплотнительную стиральную машину.
+
+Закрепите зажимную заглушку коленчатого вала.
+
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[fs9piha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+> [!warning] ОСТОРОЖНО
+> Неспособность тщательно очистить и высушить вал и сужения передач может привести к сдвигу времени на отсталую сторону после запуска двигателя и работы под нагрузкой. Это приведет к низкой мощности, дыму, грубому бегу и повреждению двигателя.
 
-Tighten the fuel injection pump drive gear nut.
+Затянуть гайку привода впрыска топлива.
 
-Torque Value:
+Момент затяжки:
 
-Nippondenso
+Ниппонденс
 
-Torque Value:
+Момент затяжки:
 
-Bosch® A pump
+Bosch® Насос
 
-Torque Value:
+Момент затяжки:
 
-Bosch® MW pump
+Bosch® MW насос
 
-Torque Value:
+Момент затяжки:
 
 Bosch® P3000/P7100
 
-Install the gear cover access cap hand-tight.
+Установите ручную герметичную крышку крышки передач.
 
 ![[dp9numa.png]]
 
-Marine Applications
+Судовое применение
 
-> [!warning] CAUTION · Осторожно
-> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+> [!warning] ОСТОРОЖНО
+> Не используйте запирающий штифт коленчатого вала, чтобы найти верхняя мёртвая точка двигателя для морских применений. Это может привести к неправильному времени, плохой производительности двигателя и проблемам с дымом двигателя.
 
-Make certain that the cylinder number 1 is at top dead center. See the Time, Marine Application procedure.
+Убедитесь, что цилиндр № 1 находится в верхней мертвой точке. Время, процедура подачи заявки на морскую пехоту.
 
-The fuel injection pump also has a timing pin (1), located in the governor housing, to position the fuel injection pump shaft to correspond with top dead center for cylinder number 1. The timing pin **must** be reversed and stored in the housing (2) after the fuel injection pump is installed.
+Насос для впрыска топлива также имеет запирающий штифт коленчатого вала (1), расположенный в корпусе регулятора, чтобы позиционировать вал насоса для впрыска топлива в соответствии с верхним мертвым центром для цилиндра № 1. Запирающий штифт коленчатого вала *** должен быть обращен вспять и храниться в корпусе (2) после установки насоса для впрыска топлива.
 
 ![[fp900wa.png]]
 
-Remove the fuel injection pump timing pin access plug.
+Удалите запирающую штепсельную заглушку коленчатого вала насоса для впрыска топлива.
 
 ![[fp9pxha.png]]
 
-Remove the timing pin.
+Снимите запирающий штифт коленчатого вала.
 
 ![[fs9piha.png]]
 
-If the timing tooth is **not** aligned with the timing pin hole, rotate the fuel injection pump shaft until the timing tooth aligns.
+Если зуб синхронизации ** не** выровнен с отверстием для штифта запирания коленчатого вала, поверните вал насоса впрыска топлива до выравнивания зуба синхронизации.
 
 ![[fp9pisa.png]]
 
-Reverse the position of the timing pin so that the slot of the timing pin will fit over the timing tooth in the fuel injection pump.
+Обратите положение запирающего штифта коленчатого вала так, чтобы щель запирающего штифта коленчатого вала помещался над зубом синхронизации в насосе для впрыска топлива.
 
 ![[fs9piha.png]]
 
-Install and secure the timing pin with the access plug.
+Установите и защитите штифт блокировки коленчатого вала с помощью вилки доступа.
 
 ![[fp9pxha.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителя по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Make certain that the o-ring seals for the fill orifice and pilot are correctly installed and are **not** damaged.
+Убедитесь, что уплотнения для заливного отверстия и пилота правильно установлены и не повреждены.
 
-Lubricate the mounting flange with clean lubricating engine oil.
+Смазать крепежный фланж чистым смазочным моторным маслом.
 
-Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and gear. Dry the surface with compressed air.
+Перед установкой приводной передачи топливного насоса очистите вал насоса и суппорты передач с помощью QD Contact Cleaner, Part Number 3824510, распыляя в щель между валом и передачей. Сушить поверхность сжатым воздухом.
 
 ![[fp9hssa.png]]
 
-Slide the fuel injection pump shaft through the drive gear, and position the fuel injection pump flange onto the mounting studs.
+Сдвиньте вал топливного насоса через приводную передачу и поместите фланец топливного насоса на крепежные шпильки.
 
 ![[fp900hc.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not pull the injection pump into the gear housing with the mounting nuts. Damage to the gear housing and fuel pump can result.
+> [!warning] ОСТОРОЖНО
+> Не тяните форсуночный насос в зубчатую коробку с крепежными гайками. Повреждение корпуса зубчатой передачи и топливного насоса может привести к этому.
 
-Install the fuel injection pump mounting nuts.
+Установите топливный насос для монтажа гаек.
 
-Install the support bracket, if equipped.
+Установите опорный кронштейн, если он оборудован.
 
-Torque Value:
+Момент затяжки:
 
-Mounting nuts
+Концентрация орехов
 
-Torque Value:
+Момент затяжки:
 
-Support bracket nuts
+Орехи для подлокотников
 
 ![[fp900nb.png]]
 
-> [!warning] CAUTION · Осторожно
-> To prevent damage to the timing pins, do not exceed the torque value given. This is not the final torque value for the retaining nut.
+> [!warning] ОСТОРОЖНО
+> Чтобы предотвратить повреждение штифтов времени, не превышайте заданное момент затяжки. Это не окончательный крутящий момент для удерживающего гайки.
 
-Install and tighten the fuel injection pump retaining nut and washer.
+Установите и затяните насос для впрыска топлива, удерживающий гайку и стиральную машину.
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
 ![[fp9nuhc.png]]
 
-Disengage the engine timing pin.
+Отключите запирающий штифт коленчатого вала.
 
 ![[er9pima.png]]
 
-> [!warning] CAUTION · Осторожно
-> The governor housing must be pre-lubricated before engine operation. Failure to do so will result in premature governor wear.
+> [!warning] ОСТОРОЖНО
+> Корпус губернатора должен быть предварительно смазан перед работой двигателя. Невыполнение этого требования приведет к преждевременному износу губернатора.
 
-Remove the access plug.
+Удалить плагин доступа.
 
-Add the following quantity of clean engine oil.
+Добавьте следующее количество чистого моторного масла.
 
-- RSV 450 ml \[0.48 qt\]
+- RSV 450 мл \[0,48 квт\]
 
 ![[fs921ga.png]]
 
-Install the access plug.
+Установите плагин доступа.
 
-> [!tip] Момент затяжки · Torque Value
-> 28 n•m [21 ft-lb]
+> [!tip] Момент затяжки
+> 28 Н·м [21 фунт-фут]
 
 ![[fp9pxha.png]]
 
-Remove the fuel injection pump timing pin plug.
+Удалите затвор коленчатого вала насоса для впрыска топлива.
 
-Reverse the position of the timing pin.
+Обратить положение запирающего штифта коленчатого вала.
 
-Install the timing pin, plug, and sealing washer.
+Установите штифт блокировки коленчатого вала, штепсельную вилку и уплотнительную стиральную машину.
 
-Tighten the timing pin plug.
+Закрепите зажимную заглушку коленчатого вала.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[fs9piha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+> [!warning] ОСТОРОЖНО
+> Неспособность тщательно очистить и высушить вал и сужения передач может привести к сдвигу времени на отсталую сторону после запуска двигателя и работы под нагрузкой. Это приведет к низкой мощности, дыму, грубому бегу и повреждению двигателя.
 
-Tighten the fuel injection pump drive gear nut.
+Затянуть гайку привода впрыска топлива.
 
-Torque Value:
+Момент затяжки:
 
-Nippondenso
+Ниппонденс
 
-Torque Value:
+Момент затяжки:
 
 Bosch® P3000/P7100
 
-Install the gear cover access cap hand-tight.
+Установите ручную герметичную крышку крышки передач.
 
 ![[dp9numa.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the governor oil supply line.
-- Install the air fuel control air line.
-- Install the fuel shutoff solenoid. [[41-005-043 — Fuel Shutoff Valve|Refer to Procedure 005-043]].
-- Install the control linkage. See the OEM service manual.
-- Install the injector supply lines. [[41-006-051 — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051]].
-- Install the fuel supply lines. [[41-006-024 — Fuel Supply Lines|Refer to Procedure 006-024]].
+- Установите губернаторскую линию поставок нефти.
+- Установите систему управления воздушным топливом на линии сжатого воздуха.
+- Установите выключатель топлива соленоид.[[41-005-043 — Fuel Shutoff Valve|См. процедуру 005-043]].
+- Установите контрольную связь. См. руководство по обслуживанию OEM.
+- Установите линии подачи форсунки.[[41-006-051 — Injector Supply Lines (High Pressure)|См. процедуру 006-051]].
+- Установите линии подачи топлива.[[41-006-024 — Fuel Supply Lines|См. процедуру 006-024]].
 
-The MW-type fuel injection pump **not** equipped with engine-side fuel return option **must** be vented after installation. Loosen the vent screw located near the front on the side nearest the engine. Place the fuel control in the run position. Crank the engine so that air can bleed from the fuel injection pump. Then, tighten the vent screw.
+Насос впрыска топлива типа MW ** не**, оснащенный вариантом возврата топлива на стороне двигателя **, должен быть отработан после установки. Устраните вентиляционный винт, расположенный рядом с передней частью на стороне, ближайшей к двигателю. Поместите управление топливом в положение пробега. Прокрутите двигатель так, чтобы воздух мог кровоточить из насоса для впрыска топлива. Затем затяните вентиляционный винт.
 
-Earlier MW-type fuel injection pumps were **not** equipped with a vent screw. Remove the large plug from the location described above to vent the fuel injection pump.
+Ранее насосы для впрыска топлива типа MW были **не** оснащены вентиляционным винтом. Удалите большую пробку из местоположения, описанного выше, чтобы выпустить насос для впрыска топлива.
 
-A-type fuel injection pumps are self-venting. All P-type pumps were assembled with the engine-side vent option.
+Насосы для впрыска топлива A-типа самопроизвольны. Все насосы P-типа были собраны с возможностью вентиляции на стороне двигателя.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Clean any debris from the fuel injection pump.
+> - Remove the fuel supply lines. [[41-006-024 — Fuel Supply Lines|Refer to Procedure 006-024]].
+> - Remove the injector supply lines. [[41-006-051 — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051]].
+> - Remove the control linkage. Refer to the OEM service manual.
+> - Remove the fuel shutoff solenoid. [[41-005-043 — Fuel Shutoff Valve|Refer to Procedure 005-043]].
+> - Remove the air fuel control air line.
+> - Remove the governor oil supply line.
+>
+> ### Time
+>
+> Marine Applications
+>
+> **CAUTION · Осторожно**
+> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+>
+> To locate actual top dead center, fabricate a timing mark pointer for the front of the engine.
+>
+> **Note · Примечание**
+> This can be done by forming a piece of 16 gauge wire that can be tightened under one of the gear cover capscrews. Sharpen the wire at the vibration damper end so that it comes to a point for better accuracy.
+>
+> Locate top dead center for cylinder Number 1 by barring crankshaft slowly while pressing on the engine timing pin. Barring the engine is recommended from the flywheel on the rear of the engine using barring tool, Part Number 3824591.
+>
+> To prevent damage to the engine or timing pin, you **must** disengage the timing pin after locating top dead center.
+>
+> Rotate the crankshaft 90 degrees in the direction opposite normal rotation (**counterclockwise**).
+>
+> Tighten the adjusting screw for the intake valve on number 1 cylinder three complete turns of the screw.
+>
+> **Note · Примечание**
+> Leave the adjusting screw in this position until top dead center is established.
+>
+> **CAUTION · Осторожно**
+> Use extreme care that the piston does not push against the valve with so much force that it bends the push rod or valve.
+>
+> Rotate the crankshaft slowly in the direction of the engine rotation until the piston touches the intake valve.
+>
+> Place a mark on the vibration damper at the tip of the pointer.
+>
+> **CAUTION · Осторожно**
+> Make certain that the piston does not push against the valve with so much force that it bends the push rod or valve.
+>
+> Rotate the crankshaft in the opposite direction until the piston touches the intake valve.
+>
+> Place a mark on the vibration damper at the tip of the pointer.
+>
+> Measure the distance and mark the damper at one-half the distance between the two marks. This mark is the top dead center mark.
+>
+> **CAUTION · Осторожно**
+> Failure to loosen the adjusting screw will result in bending the push rod and/or valve stem when the crankshaft is rotated.
+>
+> Loosen the intake valve adjusting screw and reset the valve to the proper clearance. [[41-003-004 — Overhead Set|Refer to Procedure 003-004]].
+>
+> Rotate the crankshaft in the direction of the engine rotation until the pointer is aligned with the top dead center.
+>
+> Look through the back side of the gear housing for the timing pin hole in the camshaft gear. If the hole is **not** visible, the crankshaft **must**, be rotated one revolution.
+>
+> The engine is at the proper top dead center and the fuel pump can be installed for the correct timing. See the Install procedure.
+>
+> Remove the timing mark pointer from the front gear cover.
+>
+> Automotive and Industrial
+>
+> Use cylinder number 1 intake valve to make certain that the engine is at top dead center on the compression stroke for cylinder number 1. [[41-001-049 — Timing Pin Housing|Refer to Procedure 001-049]].
+>
+> Fabricate a timing marker for the front of the engine.
+>
+> **Note · Примечание**
+> This can be done by forming a piece of 16 gauge wire that can be tightened under one of the gear cover capscrews. Sharpen the wire at the vibration damper end so that it comes to a point for better accuracy.
+>
+> Attach a degree wheel or degree tape to the front of the vibration damper. Line the top dead center mark up with the pointer.
+>
+> The degree wheel/tape **must** measure to an accuracy of at least ±1 degree.
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> Install the fuel injection pump. See the Install section.
+>
+> If the fuel injection pump is already installed, continued the procedure.
+>
+> Remove the number 1 high-pressure fuel line from the fuel injection pump.
+>
+> **Note · Примечание**
+> Lines 2 through 6 **must not** be removed or loosened.
+>
+> **CAUTION · Осторожно**
+> When attaching the fabricated tube, do not bend the number 1 high-pressure fuel line. This can cause the inside of the fuel line to flake and cause injector failure.
+>
+> A short length of high-pressure line that is compatible with the fuel lines used on the engine **must** be bent in a “U” shape and installed onto the delivery valve holder of the fuel injection pump.
+>
+> The line is used to observe when the fuel is or is **not** flowing through the delivery valve holder assembly.
+>
+> Place a container under the tube to catch the fuel or drain the fuel back into the spill port pump.
+>
+> Remove the overflow valve from the fuel injection pump.
+>
+> Install a 14-mm threaded plug and sealing washer into the fuel return port of the fuel injection pump.
+>
+> **Note · Примечание**
+> The fuel return port is located on the inboard front side of the fuel injection pump for automotive in-line applications and on the outboard front side for most industrial applications
+>
+> Remove the fuel supply line between the fuel filter head and the fuel injection pump.
+>
+> Attach the high-pressure outlet hose from the spill port pump cart to the fuel injection pump supply port.
+>
+> Before continuing, make certain that the fuel injection pump timing pin is disengaged.
+>
+> Rotate the crankshaft **counterclockwise**, as viewed from the front of the engine, to approximately 40 degrees before top dead center.
+>
+> ### Adjust
+>
+> Governor
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **Note · Примечание**
+> The governor lever **must** be positioned before pressuring the fuel injection pump.
+>
+> The RQV governor throttle lever **must** be in the low-idle lever position.
+>
+> Automotive engines with a RQV-K governor throttle lever **must** be in the high-idle throttle position.
+>
+> Industrial engines with a RQV-K governor throttle lever **must** be in the low-idle throttle position.
+>
+> Both the RQV and RQV-K governor **must** have the shutdown lever in the full-run position.
+>
+> The RSV governor throttle lever **must** be in the low-idle position and the shutdown lever needs to be wired or locked in the 1/2-travel position.
+>
+> Turn on the spill timing cart pump.
+>
+> Check the fuel pressure.
+>
+> | Fuel Spill Timing Cart - Fuel Pressure |  |  |
+> |---|---|---|
+> | kpa |  | psi |
+> | 2068 | MIN | 300 |
+> | 2551 | MAX | 370 |
+>
+> **Note · Примечание**
+> The shutdown lever **must** be held in the required position before turning the spill cart pump on.
+>
+> Fuel **must** be flowing out of the tube attached to the fuel injection pump. If the fuel is **not** flowing, check the procedures again carefully.
+>
+> Slowly rotate the crankshaft **clockwise**, as viewed from the front of the engine, until fuel flow from cylinder number 1 begins.
+>
+> The plunger number 1 element is now approaching port closure. Continue to rotate the crankshaft slowly until the flow is reduced to a drip. At the point that the steady stream of flow changes from a solid flow to a drip, stop. This is the static timing position of the fuel injection pump.
+>
+> If the flow does **not** slow down to a drip:
+>
+> - Check the position of the governor lever.
+> - Make certain that the cylinder number 1 is before top dead center on the compression stroke.
+> - Turn off the spill port pump.
+>
+> Check the degree wheel on the vibration damper to see what engine degree the timing pointer is indicating. This is spill port static timing. Compare this number to the timing specification for your particular application.
+>
+> If the fuel injection pump static timing, as measured by the above method, is **not** within specification, remove the large nut that fastens the fuel injecting pump camshaft to the fuel pump drive gear.
+>
+> If the crankshaft has rotated, turn on the spill port pump and rotate the crankshaft to find port closure.
+>
+> Turn off the spill port pump.
+>
+> Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+>
+> Slowly rotate the crankshaft **counterclockwise** about 40 degrees past the desired static timing specification.
+>
+> Slowly rotate the crankshaft **clockwise** until the timing pointer indicates the desired static timing.
+>
+> **CAUTION · Осторожно**
+> To prevent damage to the timing pins, do not exceed the torque value given. This is not the final torque value for the retaining nut.
+>
+> Install and tighten the retaining nut and washer.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | n.m | in-lb |
+> | Torque Value | 12 | 106 |
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+>
+> Tighten the fuel injection pump drive nut.
+>
+> Make certain that the static timing has **not** changed after the fuel injection drive nut is tightened to the required specification.
+>
+> Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and the gear. Dry the surface with compressed air.
+>
+> Tighten the fuel injection pump drive gear nut.
+>
+> Torque Values:
+>
+> Torque Value:
+>
+> Nippondenso
+>
+> Torque Value:
+>
+> Bosch A Pump
+>
+> Torque Value:
+>
+> Bosch MW Pump
+>
+> Torque Value:
+>
+> Bosch P3000/P7100
+>
+> Repeat this procedure as needed until the timing matches the specification.
+>
+> The fuel injection pump timing pin **must** fit over the injection pump pointer when the engine is at top dead center or on the compression stroke for the cylinder number 1. If it does **not**, the fuel injection pump **must** be adjusted by an authorized fuel injection pump shop or the fuel injection pump was installed incorrectly.
+>
+> Remove the degree wheel and timing mark pointer.
+>
+> ### Remove
+>
+> Automotive and Industrial
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **CAUTION · Осторожно**
+> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+>
+> Locate top dead center for cylinder Number 1. Push the timing pin into the hole in the camshaft gear while slowly rotating the crankshaft with the barring tool, Part Number 3377371.
+>
+> **Note · Примечание**
+> Make certain that the timing pin is disengaged after locating top dead center.
+>
+> Remove the front gear cover access cap.
+>
+> Remove the nut and washer from the fuel injection pump shaft.
+>
+> Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+>
+> Engines equipped with the P7100, P3000, A, and MW fuel injection pump are equipped with support brackets that **must** be removed.
+>
+> Remove the four fuel injection pump mounting nuts.
+>
+> Remove the fuel injection pump.
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arching equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **CAUTION · Осторожно**
+> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+>
+> Locate top dead center for cylinder number 1. See the Time, Marine Applications section.
+>
+> Remove the front gear cover access cap.
+>
+> Remove the nut and washer from the fuel injection pump shaft.
+>
+> Use fuel pump gear puller, Part Number 3163381, with M8-1.25 x 50 capscrews, grade 8.8 or equivalent. Pull the fuel injection pump drive gear loose from the shaft.
+>
+> Engines equipped with P7100, P3000, A, or MW fuel injection pumps are equipped with support brackets that **must** be removed.
+>
+> Remove the four fuel injection pump mounting nuts.
+>
+> Remove the fuel injection pump.
+>
+> ### Install
+>
+> Automotive and Industrial
+>
+> **CAUTION · Осторожно**
+> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+>
+> Make certain that the cylinder Number 1 is at top dead center.
+>
+> The fuel injection pump also has a timing pin (1), located in the governor housing, to position the fuel injection pump shaft to correspond with top dead center for cylinder Number 1. The timing pin **must** be reversed and stored in the housing (2) after the fuel injection pump is installed.
+>
+> Remove the fuel injection pump timing pin access plug.
+>
+> Remove the timing pin.
+>
+> If the timing tooth is **not** aligned with the timing pin hole, rotate the fuel injection pump shaft until the timing tooth aligns.
+>
+> Reverse the position of the timing pin so that the slot of the timing pin will fit over the timing tooth in the fuel injection pump.
+>
+> Install and secure the timing pin with the access plug.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Make certain that the o-ring seals for the fill orifice and pilot are correctly installed and are **not** damaged.
+>
+> Lubricate the mounting flange with clean lubricating engine oil.
+>
+> Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and the gear.
+>
+> Dry the surface with compressed air.
+>
+> Slide the fuel injection pump shaft through the drive gear, and position the fuel injection pump flange onto the mounting studs.
+>
+> **CAUTION · Осторожно**
+> Do not pull the injection pump into the gear housing with the mounting nuts. Damage to the gear housing and fuel pump can result.
+>
+> Install the fuel injection pump mounting nuts.
+>
+> Install the support bracket, if equipped.
+>
+> Torque Value:
+>
+> Mounting nuts
+>
+> Torque Value:
+>
+> Support bracket nuts
+>
+> **Note · Примечание**
+> To prevent damage to the timing pins, do **not** exceed the torque value given. This is **not** the final torque value for the retaining nut.
+>
+> Install and tighten the fuel injection pump retaining nut and washer.
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> Disengage the engine timing pin.
+>
+> **CAUTION · Осторожно**
+> The governor housing must be pre-lubricated before engine operation. Failure to do so will result in premature governor wear.
+>
+> Remove the access plug.
+>
+> Add the following quantity of clean engine oil:
+>
+> - RSV 450 ml \[0.48 qt\]
+> - RQV 750 ml \[0.79 qt\]
+> - RQVK 750 ml \[0.79 qt\].
+>
+> Install the access plug.
+>
+> **Момент затяжки · Torque Value**
+> 28 n•m [21 ft-lb]
+>
+> Remove the fuel injection pump timing pin plug.
+>
+> Reverse the position of the timing pin.
+>
+> Install the timing pin, plug, and sealing washer.
+>
+> Tighten the timing pin plug.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> **CAUTION · Осторожно**
+> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+>
+> Tighten the fuel injection pump drive gear nut.
+>
+> Torque Value:
+>
+> Nippondenso
+>
+> Torque Value:
+>
+> Bosch® A pump
+>
+> Torque Value:
+>
+> Bosch® MW pump
+>
+> Torque Value:
+>
+> Bosch® P3000/P7100
+>
+> Install the gear cover access cap hand-tight.
+>
+> Marine Applications
+>
+> **CAUTION · Осторожно**
+> Do not use the timing pin to locate engine top dead center for marine applications. This can result in incorrect timing, poor engine performance, and engine smoke problems.
+>
+> Make certain that the cylinder number 1 is at top dead center. See the Time, Marine Application procedure.
+>
+> The fuel injection pump also has a timing pin (1), located in the governor housing, to position the fuel injection pump shaft to correspond with top dead center for cylinder number 1. The timing pin **must** be reversed and stored in the housing (2) after the fuel injection pump is installed.
+>
+> Remove the fuel injection pump timing pin access plug.
+>
+> Remove the timing pin.
+>
+> If the timing tooth is **not** aligned with the timing pin hole, rotate the fuel injection pump shaft until the timing tooth aligns.
+>
+> Reverse the position of the timing pin so that the slot of the timing pin will fit over the timing tooth in the fuel injection pump.
+>
+> Install and secure the timing pin with the access plug.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Make certain that the o-ring seals for the fill orifice and pilot are correctly installed and are **not** damaged.
+>
+> Lubricate the mounting flange with clean lubricating engine oil.
+>
+> Before installing the fuel pump drive gear, clean the injection pump shaft and gear tapers with QD Contact Cleaner, Part Number 3824510, by spraying into the gap between the shaft and gear. Dry the surface with compressed air.
+>
+> Slide the fuel injection pump shaft through the drive gear, and position the fuel injection pump flange onto the mounting studs.
+>
+> **CAUTION · Осторожно**
+> Do not pull the injection pump into the gear housing with the mounting nuts. Damage to the gear housing and fuel pump can result.
+>
+> Install the fuel injection pump mounting nuts.
+>
+> Install the support bracket, if equipped.
+>
+> Torque Value:
+>
+> Mounting nuts
+>
+> Torque Value:
+>
+> Support bracket nuts
+>
+> **CAUTION · Осторожно**
+> To prevent damage to the timing pins, do not exceed the torque value given. This is not the final torque value for the retaining nut.
+>
+> Install and tighten the fuel injection pump retaining nut and washer.
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> Disengage the engine timing pin.
+>
+> **CAUTION · Осторожно**
+> The governor housing must be pre-lubricated before engine operation. Failure to do so will result in premature governor wear.
+>
+> Remove the access plug.
+>
+> Add the following quantity of clean engine oil.
+>
+> - RSV 450 ml \[0.48 qt\]
+>
+> Install the access plug.
+>
+> **Момент затяжки · Torque Value**
+> 28 n•m [21 ft-lb]
+>
+> Remove the fuel injection pump timing pin plug.
+>
+> Reverse the position of the timing pin.
+>
+> Install the timing pin, plug, and sealing washer.
+>
+> Tighten the timing pin plug.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> **CAUTION · Осторожно**
+> Failure to clean and dry the shaft and gear tapers thoroughly can result in timing shift to the retarded side after the engine is started and running under a load. This will result in low power, smoke, rough running, and engine damage.
+>
+> Tighten the fuel injection pump drive gear nut.
+>
+> Torque Value:
+>
+> Nippondenso
+>
+> Torque Value:
+>
+> Bosch® P3000/P7100
+>
+> Install the gear cover access cap hand-tight.
+>
+> ### Finishing Steps
+>
+> - Install the governor oil supply line.
+> - Install the air fuel control air line.
+> - Install the fuel shutoff solenoid. [[41-005-043 — Fuel Shutoff Valve|Refer to Procedure 005-043]].
+> - Install the control linkage. See the OEM service manual.
+> - Install the injector supply lines. [[41-006-051 — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051]].
+> - Install the fuel supply lines. [[41-006-024 — Fuel Supply Lines|Refer to Procedure 006-024]].
+>
+> The MW-type fuel injection pump **not** equipped with engine-side fuel return option **must** be vented after installation. Loosen the vent screw located near the front on the side nearest the engine. Place the fuel control in the run position. Crank the engine so that air can bleed from the fuel injection pump. Then, tighten the vent screw.
+>
+> Earlier MW-type fuel injection pumps were **not** equipped with a vent screw. Remove the large plug from the location described above to vent the fuel injection pump.
+>
+> A-type fuel injection pumps are self-venting. All P-type pumps were assembled with the engine-side vent option.

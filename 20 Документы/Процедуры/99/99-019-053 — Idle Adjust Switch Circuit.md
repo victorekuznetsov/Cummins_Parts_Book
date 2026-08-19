@@ -20,6 +20,8 @@ manuals:
   - "3666266"
   - "4021442"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-053.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-053.pdf"
 tags:
@@ -28,6 +30,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Idle Adjust Switch Circuit
@@ -41,70 +44,136 @@ tags:
 > **Даты:** изменён 2015-06-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-053.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-053.pdf)
 
-### Resistance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Proper leads and/or a Cummins® approved circuit testing tool must be used when working with electrical connectors to prevent pin expansion and damage to the connector.
 
-> [!note] Note · Примечание
-> The idle/diagnostic increment/decrement switch is the cruise control/PTO/set/resume select switch.
+### Проверка сопротивления
 
-If electronic service tool is available, monitor the idle adjust switch circuit for proper operation. If **not,** follow the troubleshooting procedures in this section.
+> [!warning] ОСТОРОЖНО
+> Правильные провода и/или одобренный Cummins® инструмент для тестирования цепи должны использоваться при работе с электрическими разъемами для предотвращения расширения штифта и повреждения разъема.
 
-Disconnect the original equipment manufacturer (OEM) harness engine interface connector. To determine the location of the connector, see the corresponding engine wiring diagram.
+> [!note] Примечание
+> Диагностический переключатель (Idle/diagnostic increment/decrement switch) - это переключатель выбора круиз-контроля/PTO/set/resume.
 
-Insert the pin of the test lead into the cruise control/PTO set/coast switch signal in the OEM harness connector. Measure the resistance from the cruise control/PTO set/coast switch signal to the engine block.
+Если доступна электронная сервисная оснастка, проверьте схему переключателя настройки холостого хода для правильной работы. Если **не,** следуйте процедурам устранения неполадок в этом разделе.
+
+Отключите разъем интерфейса оригинального производителя оборудования (OEM) проводов жгута проводов двигателя. Чтобы определить местоположение разъема, см. соответствующую схему проводов двигателя.
+
+Вставьте штифт испытательного щупа в сигнал круиз-контроля/PTO-набора/переключателя поперечной связи в разъеме OEM-проводов. Измерьте сопротивление от сигнала круиз-контроля / PTO-набора / поворота на блок двигателя.
 
 ![[19c01166.png]]
 
-Hold the idle adjust switch in the positive (+) increment position.
+Держите выключатель регулирования холостого хода в положительном (+) положении приращения.
 
-If the OEM connected the return wire to chassis ground the multimeter **must** show a closed circuit (10 ohms or less) while holding the switch on and return to an open circuit (100K ohms or more) when the switch is released. The circuit **must** remain an open circuit when the switch is in the decrement negative (-) position.
+Если OEM подключил обратный провод к земле шасси, мультиметр ** должен ** показать замкнутую цепь (10 Ом или менее) при удерживании переключателя и вернуться к открытой цепи (100 К Ом или более), когда переключатель выпущен. Схема ** должна** оставаться открытой, когда переключатель находится в отрицательном (-) положении декремента.
 
-If the OEM connected the return wire to the ECM OEM connector the multimeter **must** show an open circuit (100k ohms or more) while holding the switch on and return to a closed circuit (10 ohms or less) when the switch is released. The circuit **must** remain a closed circuit when the switch is in the decrement negative (-) position.
+Если OEM подключил обратный провод к разъему ECM OEM, мультиметр ** должен ** показать открытую схему (100k Ом или более) при включении переключателя и возврате к замкнутой схеме (10 Ом или менее), когда переключатель выпущен. Схема ** должна** оставаться замкнутой, когда переключатель находится в отрицательном (-) положении декремента.
 
-If the resistance values are **not** correct, make sure the return wire and the cruise control/PTO set/coast switch signal wire are properly installed on the idle adjust switch. If both wires are correctly installed, inspect the return wire and the cruise control/PTO set/coast switch signal wire for open circuits, provided the idle adjust switch has been previously checked for short circuits to ground.
+Если значения сопротивления ** не** верны, убедитесь, что обратный провод и провод сигнала круиз-контроля / PTO-набора / поперечного переключателя правильно установлены на выключателе регулирования холостого хода. Если оба провода правильно установлены, проверьте обратный провод и провод сигнала круиз-контроля / PTO-набора / поперечного переключателя для открытых цепей при условии, что переключатель регулирования холостого хода ранее был проверен на короткое замыкание на землю.
 
 ![[19c01245.png]]
 
-Remove the lead from the cruise control/PTO set/coast switch signal and insert it into the cruise control/PTO resume/accelerator switch signal.
+Удалите свинец из сигнала круиз-контроля / PTO set / Coast switch и вставьте его в сигнал коммутатора круиз-контроля / PTO resume / Acceleerator.
 
-Hold the idle adjust switch in the negative (-) decrement position. The multimeter **must** show a closed circuit (10 ohms or less) when the switch is held in the decrement position and an open circuit (100K ohms or more) when the switch is released. The circuit **must** remain an open circuit when the switch is in the positive (+) increment position.
+Держите выключатель регулирования холостого хода в отрицательном (-) положении декремента. Мультиметр ** должен ** показывать замкнутую цепь (10 Ом или меньше), когда переключатель удерживается в положении декремента, и открытую цепь (100 К Ом или более), когда переключатель высвобождается. Схема ** должна оставаться открытой, когда переключатель находится в положительном (+) положении приращения.
 
-If the resistance values are **not** correct, make sure the cruise control/PTO resume/accelerator switch signal wire is properly installed on the idle adjust switch. If the cruise control/PTO resume/accelerator switch signal wire is properly installed on the idle adjust switch, inspect the cruise control/PTO resume/accelerator switch signal wire for an open circuit, provided the idle adjust switch has been previously checked for short circuits to ground.
+Если значения сопротивления ** не** верны, убедитесь, что на выключателе регулирования холостого хода правильно установлен сигнальный провод круиз-контроля/PTO-резюме/ускорителя. Если провод сигнала коммутатора круиз-контроля/PTO-резюме/ускорителя правильно установлен на выключателе регулирования холостого хода, проверьте провод сигнала коммутатора круиз-контроля/PTO-резюме/ускорителя для открытой цепи при условии, что выключатель регулирования холостого хода ранее был проверен на короткое замыкание на землю.
 
 ![[19c01246.png]]
 
-### Check for Short Circuit to Ground
+### Проверка на замыкание на массу
 
-Disconnect the idle/diagnostic decrement wire (attached to the cruise control/PTO resume/ accelerator switch signal) from the switch.
+Отсоедините провод простаивания/диагностики (прикрепленный к сигналу переключения круиз-контроля/PTO-резюме/ускорителя) от переключателя.
 
-Measure the resistance from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector to the engine block.
+Измерьте сопротивление сигнала переключения круиз-контроля / PTO / ускорителя от разъема проводов OEM к блоку двигателя.
 
 ![[19c01247.png]]
 
-The multimeter **must** show an open circuit (100K ohms or more). If the circuit is **not** open, there is a short circuit to ground in the cruise control/PTO resume/accelerator switch signal circuit, provided the idle adjust switch has been previously checked.
+Мультиметр **должен** показать обрыв цепи (100 кОм и более). Если схема **не** открыта, в схеме коммутатора круиз-контроля/PTO-резюме/ускорителя есть короткое замыкание, при условии, что выключатель регулирования холостого хода был ранее проверен.
 
-Repair or replace the wire connected to the cruise control/PTO resume/accelerator switch signal in the OEM harness according to the vehicle manufacturer's instructions.
+Ремонт или замена провода, подключенного к сигналу коммутатора круиз-контроля/PTO-резюме/ускорителя в электропроводке OEM-прицепа в соответствии с инструкциями производителя транспортного средства.
 
-To check the idle/diagnostic increment wire (attached the to cruise control/PTO set/coast switch signal) for short circuits to ground, follow the same procedure as described above for the idle/diagnostic decrement wire.
+Чтобы проверить провод инкремента холостого/диагностического приращения (прикрепленный к сигналу круиз-контроля/PTO-набора/переключателя прикрытия) для коротких замыканий на землю, следуйте той же процедуре, что описана выше для провода холостого/диагностического убывания.
 
 ![[19c01248.png]]
 
-### Check for Short Circuit from Pin to Pin
+### Проверка на замыкание между контактами
 
-Measure the resistance from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector to all other pins in the connector. The multimeter **must** show an open circuit (100k ohms or more).
+Измерьте сопротивление от сигнала переключения круиз-контроля / PTO-резюме / ускорителя разъёма проводов OEM-проводов со всеми другими штифтами в разъеме. Мультиметр **должен** показать обрыв цепи (100 кОм и более).
 
-If the circuit is **not** open, there is a short circuit between the wire connected to the cruise control/PTO resume/accelerator switch signal and any pin that measured less than 100k ohms.
+Если схема **не** открыта, между проводом, подключенным к сигналу переключения круиз-контроля/PTO-резюме/ускорителю, и любым штифтом, который измеряется менее 100k Ом, есть короткое замыкание.
 
-Repair or replace the wires in the OEM harness according to the vehicle manufacturer's instructions.
+Ремонт или замена проводов в электропроводке OEM в соответствии с инструкциями производителя транспортного средства.
 
-Remove the lead from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector and insert it into the cruise control/PTO set/coast switch signal of the connector. Measure the resistance from the cruise control/PTO set/coast switch signal to all other pins in the connector. The multimeter **must** show an open circuit (100k ohms or more).
+Удалите свинец из сигнала коммутатора круиз-контроля / PTO resume / ускорителя разъёма проводов OEM-проводов и вставьте его в сигнал коммутатора круиз-контроля / PTO set / Coastt разъема. Измерьте сопротивление от сигнала круиз-контроля / PTO-набора / поворота на все другие контакты в разъеме. Мультиметр **должен** показать обрыв цепи (100 кОм и более).
 
-If the circuit is **not** open, there is a short circuit between the wire connected to the cruise control/PTO set/coast switch signal and any pin that measured less than 100k ohms, provided the idle adjust switch has been previously checked.
+Если схема **не** открыта, между проводом, подключенным к сигналу круиз-контроля/PTO-набора/побережного переключателя, и любым штифтом, который измеряется менее 100k Ом, имеется короткое замыкание при условии, что переключатель регулирования холостого хода был ранее проверен.
 
-Repair or replace the wires in the OEM harness according to the vehicle manufacturer's instructions.
+Ремонт или замена проводов в электропроводке OEM в соответствии с инструкциями производителя транспортного средства.
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19c01249.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Resistance Check
+>
+> **CAUTION · Осторожно**
+> Proper leads and/or a Cummins® approved circuit testing tool must be used when working with electrical connectors to prevent pin expansion and damage to the connector.
+>
+> **Note · Примечание**
+> The idle/diagnostic increment/decrement switch is the cruise control/PTO/set/resume select switch.
+>
+> If electronic service tool is available, monitor the idle adjust switch circuit for proper operation. If **not,** follow the troubleshooting procedures in this section.
+>
+> Disconnect the original equipment manufacturer (OEM) harness engine interface connector. To determine the location of the connector, see the corresponding engine wiring diagram.
+>
+> Insert the pin of the test lead into the cruise control/PTO set/coast switch signal in the OEM harness connector. Measure the resistance from the cruise control/PTO set/coast switch signal to the engine block.
+>
+> Hold the idle adjust switch in the positive (+) increment position.
+>
+> If the OEM connected the return wire to chassis ground the multimeter **must** show a closed circuit (10 ohms or less) while holding the switch on and return to an open circuit (100K ohms or more) when the switch is released. The circuit **must** remain an open circuit when the switch is in the decrement negative (-) position.
+>
+> If the OEM connected the return wire to the ECM OEM connector the multimeter **must** show an open circuit (100k ohms or more) while holding the switch on and return to a closed circuit (10 ohms or less) when the switch is released. The circuit **must** remain a closed circuit when the switch is in the decrement negative (-) position.
+>
+> If the resistance values are **not** correct, make sure the return wire and the cruise control/PTO set/coast switch signal wire are properly installed on the idle adjust switch. If both wires are correctly installed, inspect the return wire and the cruise control/PTO set/coast switch signal wire for open circuits, provided the idle adjust switch has been previously checked for short circuits to ground.
+>
+> Remove the lead from the cruise control/PTO set/coast switch signal and insert it into the cruise control/PTO resume/accelerator switch signal.
+>
+> Hold the idle adjust switch in the negative (-) decrement position. The multimeter **must** show a closed circuit (10 ohms or less) when the switch is held in the decrement position and an open circuit (100K ohms or more) when the switch is released. The circuit **must** remain an open circuit when the switch is in the positive (+) increment position.
+>
+> If the resistance values are **not** correct, make sure the cruise control/PTO resume/accelerator switch signal wire is properly installed on the idle adjust switch. If the cruise control/PTO resume/accelerator switch signal wire is properly installed on the idle adjust switch, inspect the cruise control/PTO resume/accelerator switch signal wire for an open circuit, provided the idle adjust switch has been previously checked for short circuits to ground.
+>
+> ### Check for Short Circuit to Ground
+>
+> Disconnect the idle/diagnostic decrement wire (attached to the cruise control/PTO resume/ accelerator switch signal) from the switch.
+>
+> Measure the resistance from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector to the engine block.
+>
+> The multimeter **must** show an open circuit (100K ohms or more). If the circuit is **not** open, there is a short circuit to ground in the cruise control/PTO resume/accelerator switch signal circuit, provided the idle adjust switch has been previously checked.
+>
+> Repair or replace the wire connected to the cruise control/PTO resume/accelerator switch signal in the OEM harness according to the vehicle manufacturer's instructions.
+>
+> To check the idle/diagnostic increment wire (attached the to cruise control/PTO set/coast switch signal) for short circuits to ground, follow the same procedure as described above for the idle/diagnostic decrement wire.
+>
+> ### Check for Short Circuit from Pin to Pin
+>
+> Measure the resistance from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector to all other pins in the connector. The multimeter **must** show an open circuit (100k ohms or more).
+>
+> If the circuit is **not** open, there is a short circuit between the wire connected to the cruise control/PTO resume/accelerator switch signal and any pin that measured less than 100k ohms.
+>
+> Repair or replace the wires in the OEM harness according to the vehicle manufacturer's instructions.
+>
+> Remove the lead from the cruise control/PTO resume/accelerator switch signal of the OEM harness connector and insert it into the cruise control/PTO set/coast switch signal of the connector. Measure the resistance from the cruise control/PTO set/coast switch signal to all other pins in the connector. The multimeter **must** show an open circuit (100k ohms or more).
+>
+> If the circuit is **not** open, there is a short circuit between the wire connected to the cruise control/PTO set/coast switch signal and any pin that measured less than 100k ohms, provided the idle adjust switch has been previously checked.
+>
+> Repair or replace the wires in the OEM harness according to the vehicle manufacturer's instructions.
+>
+> Connect all components after completing the repair.

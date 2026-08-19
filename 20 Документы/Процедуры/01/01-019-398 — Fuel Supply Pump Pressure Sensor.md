@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-398.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-398.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fuel Supply Pump Pressure Sensor
@@ -33,42 +36,80 @@ tags:
 > **Даты:** изменён 2002-10-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-398.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-398.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean the area around the fuel pump pressure sensor.
 
-Disconnect the sensor from the engine harness.
+### Снятие
+
+Очистите область вокруг датчика давления топливного насоса.
+
+Отсоедините датчик от жгута проводов двигателя.
 
 ![[19803738.png]]
 
-Remove the fuel pump pressure sensor.
+Удалите датчик давления топливного насоса.
 
 ![[19803739.png]]
 
-### Install
+### Установка
 
-Install a new o-ring on the sensor. Lubricate the o-ring with clean engine oil.
+Установите новое кольцо на датчик. Смажьте уплотнительное кольцо чистым моторным маслом.
 
-Install a new fuel pump pressure sensor.
+Установите новый датчик давления топливного насоса.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
 ![[19803739.png]]
 
-Use quick-dry electrical contact cleaner (1), Part Number 3824510, to remove all dirt and moisture from the harness connector.
+Используйте быстросушливый электрический контактный очиститель (1), номер детали 3824510, чтобы удалить всю грязь и влагу из разъёма проводов.
 
 ![[19801036.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный износ разъема.
 
-Apply a thin coating of lubricant to the harness connector.
+Нанесите тонкое покрытие смазки на разъём проводов жгута.
 
 ![[19801037.png]]
 
-Push the sensor connector and engine harness together until they lock.
+Скрепляйте разъём датчика и проводку двигателя, пока они не заблокируются.
 
-Operate the engine to check for leaks.
+Управляйте двигателем, чтобы проверить наличие утечек.
 
 ![[19803738.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Clean the area around the fuel pump pressure sensor.
+>
+> Disconnect the sensor from the engine harness.
+>
+> Remove the fuel pump pressure sensor.
+>
+> ### Install
+>
+> Install a new o-ring on the sensor. Lubricate the o-ring with clean engine oil.
+>
+> Install a new fuel pump pressure sensor.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Use quick-dry electrical contact cleaner (1), Part Number 3824510, to remove all dirt and moisture from the harness connector.
+>
+> **CAUTION · Осторожно**
+> Use only Cummins recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
+>
+> Apply a thin coating of lubricant to the harness connector.
+>
+> Push the sensor connector and engine harness together until they lock.
+>
+> Operate the engine to check for leaks.

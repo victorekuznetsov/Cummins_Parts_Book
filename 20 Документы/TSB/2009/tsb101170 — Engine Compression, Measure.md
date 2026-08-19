@@ -12,12 +12,15 @@ engines:
   - "93058669"
 families:
   - "C8.3 · 6C8.3"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101170.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101170.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -31,12 +34,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2002-09-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101170.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101170.pdf)
 
-## Engine Compression, Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Измерение компрессии двигателя
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic releases new procedure, Engine Compression, Procedure Number 014-012, which will be used in the C8.3 Troubleshooting and Repair Manuals, Bulletins 3666003 and 3810261, and also revises the next to the last node in Symptom Tree T057 to include reference to the new procedure.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+В этой теме для обслуживания/частей публикуются новые процедуры, сжатие двигателя, номер процедуры 014-012, которые будут использоваться в руководствах по устранению неполадок и ремонту C8.3, бюллетенях 3666003 и 3810261, а также пересматриваются рядом с последним узлом в Symptom Tree T057, чтобы включить ссылку на новую процедуру.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Engine Compression, Measure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic releases new procedure, Engine Compression, Procedure Number 014-012, which will be used in the C8.3 Troubleshooting and Repair Manuals, Bulletins 3666003 and 3810261, and also revises the next to the last node in Symptom Tree T057 to include reference to the new procedure.

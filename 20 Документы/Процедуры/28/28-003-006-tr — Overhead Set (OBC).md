@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 53
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-006-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-006-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Overhead Set (OBC)
@@ -33,429 +36,437 @@ tags:
 > **Даты:** изменён 2023-09-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-006-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-006-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-The Outer Base Circle Method overhead setting procedure can be used for fixed time (PT®) and Hydraulic Variable Timing/STC injectors, regardless of CPL or build date.
+### Общие сведения
 
-On engines with a hydro-mechanical STC valve, remove the oil supply from the oil control valve. Plug the hose, cap, and fitting. This prevents the engine from going into advance timing.
+с форсункой механического управления
+
+Процедура установки накладных расходов по методу внешнего круга может использоваться для фиксированного времени (PT®) и гидравлического переменного времени/форсунки топлива STC, независимо от даты сборки или CPL.
+
+На двигателях с гидромеханическим клапаном STC удалите подачу масла из клапана управления маслом. Подключите шланг, колпачок и фитинг. Это предотвращает переход двигателя в заранее установленные сроки.
 
 ![[fp6vaua.png]]
 
-Operate the engine at high idle for 5 minutes in normal timing mode. This will allow all the lubricating oil to pump out of the injector tappets so a correct injector adjustment can be made.
+Работайте с двигателем на высоком холостом ходу в течение 5 минут в режиме нормального времени. Это позволит всему смазочному маслу выкачиваться из топливных форсунок, чтобы можно было сделать правильную настройку топливного форсунка.
 
-Shut the engine OFF.
+Закройте двигатель.
 
 ![[ew600va.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-For engines with electronically actuated injectors, periodic valve adjustment is **not** required. It is recommended that the valves be adjusted **only** when an injector is removed.
+Для двигателей с топливным форсункой с электронным приводом периодическая регулировка клапана ** не требуется. Рекомендуется регулировать клапаны ** только** при снятии топливного форсунка.
 
 ![[03400145.png]]
 
-The cylinders are numbered from the front gear cover end of the engine.
+Цилиндры пронумерованы от передней части крышки передних передач двигателя.
 
-To determine the right and left bank on the QSK38 and QSK50 engine, stand at the rear of the engine and face the front.
+Для определения правого и левого берега на двигателе QSK38 и QSK50, встаньте сзади двигателя и обратитесь к передней части.
 
-When referring to system electronics, a standard cylinder numbering system has been adopted. This is **only** used for the electronic system components on engines with electronically actuated injectors.
+Применительно к системной электронике была принята стандартная система нумерации цилиндров. Это *** используется только для компонентов электронной системы на двигателях с электронным топливным форсункой.
 
 ![[03600121.png]]
 
-Each cylinder has two rocker levers. When facing the cylinder head, the rocker lever on the left is the exhaust rocker lever. The rocker lever on the right is the intake rocker lever.
+Каждый цилиндр имеет два рычага коромысла. При обращении к головке цилиндра рычагом качения клапанного клапана слева является рычаг качения клапана выхлопного клапана. Рука клапанного клапана справа - это рука впускного клапана.
 
 ![[03400145.png]]
 
-If the push rods are removed for the service, make sure they are installed in the same locations.
+Если толкатели удалены для обслуживания, убедитесь, что они установлены в тех же местах.
 
 ![[04600032.png]]
 
-QSK38 Firing Order:
+QSK38: Огнестрельное устройство
 
-1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L or 2-11-10-3-6-7-12-1-4-9-8-5.
+1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L или 2-11-10-3-6-7-12-1-4-9-8-5.
 
-RB = Right Bank of cylinders.
+RB - Правый берег цилиндров.
 
-LB = Left Bank of cylinders.
+LB - левый берег цилиндров.
 
 ![[02600054.png]]
 
-QSK50 Firing Order:
+QSK50: Огнестрельное устройство:
 
-1R-1L-3R-3L-2R-2L-5R-4L-8R-8L-6R-6L-7R-7L-4R-5L or 2-1-6-5-4-3-10-7-16-15-12-11-14-13-8-9
+1R-1L-3R-3L-2R-2L-5R-4L-8R-6R-6L-7R-7L-4R-5L или 2-1-6-5-4-3-7-16-15-12-11-14-13-8-9
 
-RB = Right Bank of cylinders.
+RB - Правый берег цилиндров.
 
-LB = Left Bank of cylinders.
+LB - левый берег цилиндров.
 
-The normal rotation direction for QSK38 and QSK50 is **clockwise**, when viewed from the front of the engine.
+Обычное направление вращения для QSK38 и QSK50 составляет ** по часовой стрелке**, если смотреть спереди двигателя.
 
 ![[03600121.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-- Disconnect the battery cables. See equipment manufacturer service information.
-- Steam clean the engine to prevent dirt from entering the engine when the valve covers are removed. Refer to Procedure 000-009 in Section 0.
-- Remove the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- очищать паром двигатель, чтобы предотвратить попадание грязи в двигатель, когда клапанные крышки удаляются. См. процедуру 000-009 в разделе 0.
+- Удалите крышки клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries, to reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Для уменьшения возможности получения травм личного характера всегда проветривайте моторный отсек перед обслуживанием аккумуляторов, для уменьшения возможности дуги, сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) аккумуляторный кабель последним.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-- Disconnect the battery cables. See equipment manufacturer service information.
-- Steam clean the engine to prevent dirt from entering the engine when the valve covers are removed. Refer to Procedure 000-009 in Section 0.
-- Remove the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- очищать паром двигатель, чтобы предотвратить попадание грязи в двигатель, когда клапанные крышки удаляются. См. процедуру 000-009 в разделе 0.
+- Удалите крышки клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[nobox.png]]
 
-### Adjust
+### Регулировка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Valve and injector adjustment marks are in three locations.
+Знаки регулировки клапана и форсунки находятся в трех местах.
 
-Valve and injector adjustment marks are on the vibration damper. The marks **must** be aligned with the pointer.
+Знаки регулировки клапана и форсунки находятся на вибрационном демпфере. Знаки ** должны быть выровнены с указателем.
 
 ![[it6iaga.png]]
 
-> [!warning] CAUTION · Осторожно
-> When using the starter covers on the right bank, the marks on the flywheel that begin with an “A” must be used or the valves and injectors will not be adjusted correctly, causing damage to the push rods.
+> [!warning] ОСТОРОЖНО
+> При использовании стартовых крышек на правом берегу должны использоваться отметки на маховике, начинающиеся с «А», или клапаны и форсунка не будут правильно отрегулированы, что приведет к повреждению толкателей.
 
-For valve and injector adjustment marks on the flywheel, with the engine barring device located on the right bank of the engine:
+Для регулировочных знаков клапана и форсунки на маховике, с устройством заграждения двигателя, расположенным на правом берегу двигателя:
 
-- The starter bore cover **must** be removed to see the marks.
+- Стартовый цилиндр крышки ** должен быть удален, чтобы увидеть следы.
 
 ![[it6iagh.png]]
 
-> [!warning] CAUTION · Осторожно
-> When using the starter covers on the left bank, the marks on the flywheel that begin with a “C” must be used or the valves and injectors will not be adjusted correctly, causing damage to the push rods.
+> [!warning] ОСТОРОЖНО
+> При использовании стартовых крышек на левом берегу должны использоваться отметки на маховике, начинающиеся с «С», или клапаны и форсунка не будут правильно отрегулированы, что приведет к повреждению толкателей.
 
-For valve and injector adjustment marks on the flywheel, with the engine barring device located on the left bank of the engine:
+Для регулировочных знаков клапана и форсунки на маховике, с устройством заграждения двигателя, расположенным на левом берегу двигателя:
 
-- The starter bore cover **must** be removed to see the marks.
+- Стартовый цилиндр крышки ** должен быть удален, чтобы увидеть следы.
 
-This illustration also shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+На этой иллюстрации также показано устройство для блокировки двигателя. Чтобы использовать устройство, удалите зажим и толкните вал устройства к маховику. Запрещающее устройство *** должно** вращаться** против часовой стрелки**, чтобы поворачивать маховик и коленчатый вал в направлении нормального вращения.
 
 ![[it6iagc.png]]
 
-The following is the firing order for all K38 engines.
+Ниже приведен процедура стрельбы для всех двигателей К38.
 
-- 1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L
+- 1R-6L-5R-2L-3R-4L-1L-2R-5L-4R-3L
 
-> [!note] Note · Примечание
-> **Not** all K50 engines have the same firing order. Some engines manufactured after September 1986 have a revised firing order. These engines have decals on the rocker lever covers and the engine dataplate is stamped with “REVISED FIRING ORDER”.
+> [!note] Примечание
+> **Не все двигатели К50 имеют одинаковый процедура стрельбы. Некоторые двигатели, выпущенные после сентября 1986 года, имеют пересмотренный процедура стрельбы. Эти двигатели имеют наклейки на крышках клапанных клапанов, а табличка с данными двигателя проштампована «ПЕРЕВИЖЕННЫЙ ПЕРЕВОДНЫЙ ПЕРЕХОД».
 
-The following is the standard firing order for all K50 engines which were manufactured before September 1986.
+Ниже приведен стандартный процедура стрельбы для всех двигателей К50, которые были изготовлены до сентября 1986 года.
 
-- 1R-1L-3R-3L-7R-7L-5R-5L-8R-8L-6R-6L-2R-2L-4R-4L
+- 1R-1L-3R-3L-7R-7L-5R-8R-8L-6R-2R-2L-4R-4L
 
-The following is the “REVISED FIRING ORDER” used on some engines built after September, 1986.
+Ниже приведен «ПЕРЕВОДНЫЙ ПЕРЕВОДНЫЙ ПЕРЕХОД», используемый на некоторых двигателях, построенных после сентября 1986 года.
 
-- 1R-1L-3R-3L-2R-2L-5R-4L-8R-8L-6R-6L-7R-7L-4R-5L
+- 1R-1L-3R-3L-2R-2L-5R-8R-8L-6R-6R-7R-7L-4R-5L
 
 ![[nobox.png]]
 
-Two full engine rotations are required to adjust the valves and injectors on K38 and K50 engines.
+Для регулирования клапанов и топливного форсунка двигателей K38 и K50 требуется два полных вращения двигателя.
 
-The normal rotation direction for K38 and K50 engines is **clockwise**, when viewed from the front of the engine.
+Нормальное направление вращения для двигателей K38 и K50 - *** по часовой стрелке**, если смотреть спереди двигателя.
 
-The valve set is represented by “VS”. Ignore the “TC” (top center) marks while setting the valves and injectors.
+Набор клапанов представлен «VS». Игнорируйте знаки «TC» (верхний центр) при установке клапанов и форсунки.
 
-Determine the cylinder in position for valve set:
+Определить цилиндр в положении для клапанного набора:
 
-- The crossheads and valves are ready to be adjusted on the cylinder that has all the valves closed
-- Check the two cylinders shown on the “VS” mark.
+- Клапанные мосты и клапаны готовы к регулировке на цилиндре, который имеет все клапаны закрытыми.
+- Проверьте два цилиндра, показанные на знаке «VS».
 
 ![[it600wa.png]]
 
-> [!note] Note · Примечание
-> The KTA50-G3, KTA50-G4, KTTA50-G2, K2000E, K1800E, and K1500E engines contain a unique camshaft that creates a noticeable difference in the height of the valve adjusting screws. When the valves are properly adjusted on these engines, the exhaust valve adjusting screw will have approximately one thread visible above the top of the lock nut. The intake valve adjusting screw will have approximately three threads visible above the top of the adjusting screw.
+> [!note] Примечание
+> Двигатели KTA50-G3, KTA50-G4, KTTA50-G2, K2000E, K1800E и K1500E содержат уникальный распределительный вал, создающий заметную разницу в высоте винтов регулирования клапанов. Когда клапаны должным образом отрегулированы на этих двигателях, винт регулирования выпускного клапана будет иметь примерно одну резьба, видимую над верхней частью гайки замка. Впускной клапан регулирующего винта будет иметь примерно три резьбы, видимые над верхней частью регулирующего винта.
 
-If the rocker lever assemblies have been removed, use this step to determine the cylinder to be set.
+Если клапанные клапанные качалки были удалены, используйте этот шаг для определения цилиндра, который должен быть установлен.
 
-All adjusting screws **must** be loose on all cylinders, and the push rod **must** remain in alignment.
+Все регулирующие винты ** должны быть свободны на всех цилиндрах, а толкатель ** должен ** оставаться в выравнивании.
 
-Perform this step on both cylinders to be checked.
+Выполните этот шаг на обоих цилиндрах, чтобы проверить.
 
-Hold both rocker levers against the crossheads. Turn the adjusting screws until they touch the push rods. Turn the lock nuts until they touch the levers.
+Держите оба рычага качения против клапанных мостиков. Поверните регулирующие винты, пока они не коснутся толкателей. Поверните замковые орехи, пока они не коснутся рычагов.
 
-The cylinder with the adjusting screws that are nearly the same height (intake screw can be up to two threads above the exhaust) is ready for valve adjustment. The second cylinder that is **not** ready for adjustment will have the adjusting screw for the exhaust valve more than five threads above the intake screw.
+Цилиндр с регулирующими винтами, которые имеют почти одинаковую высоту (впускной винт может быть до двух резьб над выхлопом), готов к регулировке клапана. Второй цилиндр, который ** не готов к регулировке, будет иметь регулирующий винт для выпускного клапана более пяти резьб над впускным винтом.
 
-The push rods will be close to the same height above the top of the rocker lever housing on the cylinder ready for valve adjustment.
+Толкательные стержни будут находиться близко к той же высоте над верхней частью корпуса рычага качения клапана на цилиндре, готовом к регулировке клапана.
 
 ![[rh400ub.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use the correct chart for the engine being serviced or the parts can be damaged.
+> [!warning] ОСТОРОЖНО
+> Используйте правильную схему для обслуживаемого двигателя или детали могут быть повреждены.
 
-If the rocker levers have **not** been removed, wiggle the valve rocker levers on the two cylinders in question. The crossheads and valves on the cylinder where both levers feel loose are ready to adjust.
+Если рычаги коромысла были удалены **не**, поверните рычаги коромысла клапана на двух цилиндрах, о которых идет речь. Клапанные мосты и клапаны на цилиндре, где оба рычага чувствуют себя свободными, готовы к регулировке.
 
-After identifying the cylinder with the valves ready to be adjusted, use the following charts for the sequence. The steps and specifications for adjusting the crossheads, valves, and injectors follow the charts.
+После идентификации цилиндра с клапанами, готовыми к регулировке, используйте следующие диаграммы для последовательности. Шаги и спецификации для регулирования клапанных мостов, клапанов и форсунки следуют диаграммам.
 
 ![[rh600sa.png]]
 
-Adjustment can begin on any valve set mark. In the illustration, assume the 1R-6R or 1R-8R marks are aligned and the adjusting screw height for the valves on the cylinder number 1 right-bank are closed and ready to adjust.
+Настройка может начинаться на любом отметке клапана. На иллюстрации предположим, что знаки 1R-6R или 1R-8R выровнены, и высота регулирующего винта для клапанов на правом берегу цилиндра № 1 закрыта и готова к регулировке.
 
-The following charts give the crosshead, valve, and injector adjustment sequence.
+Следующие диаграммы дают последовательность регулировки клапанного моста, клапана и форсунки.
 
 ![[it600wa.png]]
 
-| K38 (Outer Base Circle) Valve and Injector Adjustment Chart |  |  |  |
+| K38 (Outer Base Circle) - карта настройки клапана и форсунки |  |  |  |
 |---|---|---|---|
-|  | Valves Closed | Adjust Valves | Adjust Injectors |
-| Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+|  | Закрытые валы | Регулировать клапаны | 5.2.1 Регулировка форсунки |
+| клапан Set Mark «VS» (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) |
 | 1R-6R VS | 1R | 1R | 2R |
-| 6L-1L VS | 6L | 6L | 5L |
+| 6L-1L VS | 6 л | 6 л | 5 л |
 | 5R-2R VS | 5R | 5R | 4R |
-| 2L-5L VS | 2L | 2L | 3L |
+| 2L-5L VS | 2 л | 2 л | 3L |
 | 3R-4R VS | 3R | 3R | 1R |
-| 4L-3L VS | 4L | 4L | 6L |
+| 4L-3L VS | 4L | 4L | 6 л |
 | 1R-6R VS | 6R | 6R | 5R |
-| 6L-1L VS | 1L | 1L | 2L |
+| 6L-1L VS | 1 л | 1 л | 2 л |
 | 5R-2R VS | 2R | 2R | 3R |
-| 2L-5L VS | 5L | 5L | 4L |
+| 2L-5L VS | 5 л | 5 л | 4L |
 | 3R-4R VS | 4R | 4R | 6R |
-| 4L-3L VS | 3L | 3L | 1L |
+| 4L-3L VS | 3L | 3L | 1 л |
 
-| K50 (Outer Base Circle) Valve and Injector Adjustment Chart |  |  |  |
+| K50 (Outer Base Circle) - карта настройки клапана и форсунки |  |  |  |
 |---|---|---|---|
-|  | Valves Closed | Adjust Valves | Adjust Injectors |
-| Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+|  | Закрытые валы | Регулировать клапаны | 5.2.1 Регулировка форсунки |
+| клапан Set Mark «VS» (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) |
 | 1R-8R VS | 1R | 1R | 6R |
-| 1L-8L VS | 1L | 1L | 6L |
+| 1L-8L VS | 1 л | 1 л | 6 л |
 | 3R-6R VS | 3R | 3R | 2R |
-| 3L-6L VS | 3L | 3L | 2L |
+| 3L-6L VS | 3L | 3L | 2 л |
 | 2R-7R VS | 7R | 7R | 4R |
-| 2L-7L VS | 7L | 7L | 4L |
+| 2L-7L VS | 7 л | 7 л | 4L |
 | 4R-5R VS | 5R | 5R | 1R |
-| 4L-5L VS | 5L | 5L | 1L |
+| 4L-5L VS | 5 л | 5 л | 1 л |
 | 1R-8R VS | 8R | 8R | 3R |
-| 1L-8L VS | 8L | 8L | 3L |
+| 1L-8L VS | 8 л | 8 л | 3L |
 | 3R-6R VS | 6R | 6R | 7R |
-| 3L-6L VS | 6L | 6L | 7L |
+| 3L-6L VS | 6 л | 6 л | 7 л |
 | 2R-7R VS | 2R | 2R | 5R |
-| 2L-7L VS | 2L | 2L | 5L |
+| 2L-7L VS | 2 л | 2 л | 5 л |
 | 4R-5R VS | 4R | 4R | 8R |
-| 4L-5L VS | 4L | 4L | 8L |
+| 4L-5L VS | 4L | 4L | 8 л |
 
-> [!note] Note · Примечание
-> For K50 STC and Hydraulic Variable Timing engines, it is important to know if the engine has the standard firing order or the revised firing order. Do **not** use the standard firing order sequence for uprate engines manufactured after September, 1986, that have the revised firing order. All engines that have the “REVISED FIRING ORDER” have STC or Hydraulic Variable Timing injectors and are identified as revised on the engine dataplate. These engines also have decals on the rocker lever covers.
+> [!note] Примечание
+> Для двигателей K50 STC и Hydraulic Variable Timing важно знать, имеет ли двигатель стандартный процедура стрельбы или пересмотренный процедура стрельбы. **не использовать стандартную последовательность приказов на стрельбу для двигателей повышенной мощности, изготовленных после сентября 1986 года, которые имеют пересмотренный приказ на стрельбу. Все двигатели, имеющие «ПЕРЕВИДЕННЫЙ ПЕРЕВОДНЫЙ ПЕРЕХОД», имеют форсунка STC или гидравлический вариативный виток и идентифицированы как пересмотренные на табличке с данными двигателя. Эти двигатели также имеют наклейки на крышках клапанных клапанов.
 
-| K50 (Outer Base Circle) Revised Firing Order with STC or Hydraulic Variable Timing Valve and Injector Adjustment Chart |  |  |  |
+| K50 (Outer Base Circle) Пересмотренный огневой процедура с STC или гидравлическим переменным временным клапаном и диаграммой настройки форсунки |  |  |  |
 |---|---|---|---|
-|  | Valves Closed | Adjust Valves | Adjust Injectors |
-| Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+|  | Закрытые валы | Регулировать клапаны | 5.2.1 Регулировка форсунки |
+| клапан Set Mark «VS» (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) | На цилиндрическом номере (L - Left-Bank) (R- Right-Bank) |
 | 1R-8R VS | 1R | 1R | 6R |
-| 1L-8L VS | 1L | 1L | 6L |
+| 1L-8L VS | 1 л | 1 л | 6 л |
 | 3R-6R VS | 3R | 3R | 7R |
-| 3L-6L VS | 3L | 3L | 7L |
+| 3L-6L VS | 3L | 3L | 7 л |
 | 2R-7R VS | 2R | 2R | 4R |
-| 2L-7L VS | 2L | 2L | 5L |
+| 2L-7L VS | 2 л | 2 л | 5 л |
 | 4R-5R VS | 5R | 5R | 1R |
-| 4L-5L VS | 4L | 4L | 1L |
+| 4L-5L VS | 4L | 4L | 1 л |
 | 1R-8R VS | 8R | 8R | 3R |
-| 1L-8L VS | 8L | 8L | 3L |
+| 1L-8L VS | 8 л | 8 л | 3L |
 | 3R-6R VS | 6R | 6R | 2R |
-| 3L-6L VS | 6L | 6L | 2L |
+| 3L-6L VS | 6 л | 6 л | 2 л |
 | 2R-7R VS | 7R | 7R | 5R |
-| 2L-7L VS | 7L | 7L | 4L |
+| 2L-7L VS | 7 л | 7 л | 4L |
 | 4R-5R VS | 4R | 4R | 8R |
-| 4L-5L VS | 5L | 5L | 8L |
+| 4L-5L VS | 5 л | 5 л | 8 л |
 
-> [!note] Note · Примечание
-> Some engines have guideless crossheads and do **not** require adjustment.
+> [!note] Примечание
+> Некоторые двигатели имеют мосты с клапанами без направляющего клапана и не требуют регулировки.
 
-> [!note] Note · Примечание
-> Crosshead adjustment **must** always be made before attempting to adjust the valves.
+> [!note] Примечание
+> Регулировка клапанного моста ** должна всегда производиться перед попыткой регулировки клапанов.
 
-Adjust the crossheads on the cylinder that has both valves closed.
+Настройте клапанные мосты на цилиндре, который имеет оба клапана закрыты.
 
-Loosen the crosshead adjusting screw lock nuts on the intake and exhaust valve crossheads.
+Устранить клапанный мост, регулирующий гайки винтового замка на впускных и выпускных клапанных мостах.
 
 ![[rh4chua.png]]
 
-Use the following procedure to adjust both the intake and exhaust crossheads.
+Используйте следующую процедуру для регулировки мостов впускного и выпускного клапанов.
 
-Turn the adjusting screw out at least one turn.
+Поверните регулировочный винт, по крайней мере, на один оборот.
 
-Hold the crosshead down against its guide.
+Держите клапанный мостик вниз против его направляющего.
 
-Turn the adjusting screw in until it touches the top of the valve stem, but does **not** raise the crosshead.
+Включите регулирующий винт, пока он не коснется верхней части стебля клапана, но не поднимает клапанный мост.
 
 ![[rh4chub.png]]
 
-Hold the adjusting screw in this position. The adjusting screw **must not** turn when the lock nut is tightened to its torque value. Tighten the lock nut. The following torque values are given with and without torque wrench adapter (1), Part Number 3163196.
+Держите винт регулировки в этом положении. Регулирующий винт ** не должен** поворачиваться, когда гайка замка затягивается до ее крутящего момента. Затяните замковый орех. Следующие значения крутящего момента приведены с адаптером гаечного ключа крутящего момента и без него (1), Часть Номер 3163196.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Адаптер 35 Н·м [26 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 40 Н·м [30 футов-лб]
 
 ![[rh4chuc.png]]
 
-| Valve Adjustment |  |  |
+| Корректировка клапанов |  |  |
 |---|---|---|
-|  | mm | in |
-| Exhaust | 0.69 | 0.027 |
-| Intake | 0.36 | 0.014 |
+|  | мм | в |
+| выхлоп | 0.69 | 0.027 |
+| принимать | 0.36 | 0.014 |
 
 ![[rh400ud.png]]
 
-Select a feeler gauge for the correct valve lash specification. Use service tool, Part Number 3163171 (intake) or Part Number 3163172 (exhaust). Insert the gauge (2) between the rocker lever and the crosshead.
+Выберите калибр для правильной спецификации ресниц клапана. Используйте сервисное оборудование, Номер детали 3163171 (впуск) или Номер детали 3163172 (выхлоп). Включить калибр (2) между рычагом качения клапанного клапана и клапанным мостиком.
 
 ![[rh400ue.png]]
 
-Two different methods for establishing valve lash clearance are described below. Either method can be used; however, the torque wrench method has proven to be the most consistent.
+Ниже описаны два различных метода установления зазора клапанной ресницы. Любой метод может быть использован; однако метод гаечного ключа крутящего момента оказался наиболее последовательным.
 
-- Torque Wrench Method: Use an inch pound torque wrench, Part Number 3376592, and tighten the adjusting screw.
+- Метод крутящего момента: Используйте крутящий момент в дюйме, номер детали 3376592, и затяните регулирующий винт.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.68 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.68 Н·м [6 фунт-дюйм]
 
-- Feeler Gauge Method: Use a screwdriver and turn the adjusting screw **only** until the lever touches the feeler gauge.
+- Метод измерения щупальца: Используйте отвертку и включите регулирующий винт **только **, пока рычаг не коснется датчика измерения щупальца.
 
 ![[rh6toua.png]]
 
-The adjusting screw **must not** turn when the lock nut is tightened.
+Регулирующий винт ** не должен** поворачиваться, когда гайка замка затянута.
 
-Tighten the lock nut to the value indicated below.
+Закрепите гайку замка до значения, указанного ниже.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> С адаптером 45 Н·м [33 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 60 Н·м [44 фут-лб]
 
-The feeler gauge **must** slide backward and forward with **only** a small amount of drag.
+Измеритель щупальца ** должен ** скользить назад и вперед с ** только ** небольшим количеством сопротивления.
 
-Attempt to insert a feeler gauge that is 0.03 mm \[0.001 in\] thicker. The valve lash is **not** correct when the thicker gauge will fit.
+Попробуйте вставить датчик измерения щупальца, который составляет 0,03 мм \[0,001 в\] толще. Стрелка клапана ** не** правильна, когда более толстый калибр подойдет.
 
-Repeat the adjustment process until the clearance is correct on both the intake and exhaust valves for the cylinder being adjusted.
+Повторите процесс регулировки до тех пор, пока зазор не будет правильным как на впускном, так и на выпускном клапанах для регулировки цилиндра.
 
 ![[rh400uf.png]]
 
-> [!note] Note · Примечание
-> The torque wrench **must** be calibrated, have a resolution of 0.28 N•m \[2.5 in-lb\], and have a range of 17 to 23 N•m \[150 to 204 in-lb\]. Do **not** use a clicker-type torque wrench.
+> [!note] Примечание
+> Зубной ключ ** должен быть откалиброван, иметь разрешение 0,28 Н•м \[2,5 фунт-дюйм\] и иметь диапазон от 17 до 23 Н•м \[150 до 204 фунт-дюйм\]. **не** Используйте крутящий момент типа кликера.
 
-Use a dial type torque wrench to tighten the injector rocker lever adjusting screw. If the screw causes chattering during setting, repair the screw and lever as required.
+Используйте крутящий момент циферблата, чтобы затянуть винт, регулирующий винт топливного клапана. Если винт вызывает болтовню во время установки, отремонтируйте винт и рычаг по мере необходимости.
 
-Hold the torque wrench in a position that allows you to look in a direct line at the dial. This is to make sure the dial will be read accurately.
+Держите гаечный ключ в положении, которое позволяет смотреть в прямую линию на циферблате. Это делается для того, чтобы циферблат был прочитан точно.
 
-Tighten the adjusting screw to make sure the parts are in alignment and to squeeze the oil out of the valve train.
+Затяните регулирующий винт, чтобы убедиться, что детали находятся в выравнивании и выдавить масло из клапанного поезда.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
-Loosen the adjusting screw at least one turn.
+Устранить регулирующий винт хотя бы на один оборот.
 
-Tighten the adjusting screw.
+Закрутите регулировочный винт.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[rh6asua.png]]
 
-Hold the adjusting screw in this position. The adjusting screws **must not** turn when the lock nut is tightened.
+Держите винт регулировки в этом положении. Регулирующие винты ** не должны** поворачиваться, когда гайка замка затянута.
 
-Tighten the lock nut.
+Затяните замковый орех.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> С адаптером 45 Н·м [33 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 60 Н·м [44 фут-лб]
 
 ![[rh4asug.png]]
 
-If the barring device was used, allow the spring to push the shaft and clear the ring gear.
+Если устройство заграждения использовалось, позвольте пружине толкать вал и очищать кольцевую передачу.
 
-Install the clip.
+Установите клип.
 
 ![[09600095.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> The following procedure applies to the QSK38 MCRS engine.
+> [!note] Примечание
+> Следующая процедура применяется к двигателю QSK38 MCRS.
 
-If the rocker lever assemblies have been removed, complete the following list on both cylinders:
+Если клапанные клапанные качалки были удалены, заполните следующий список на обоих цилиндрах:
 
-- Lubricate the adjusting screw threads with clean engine oil prior to making valve and injector adjustments.
-- All adjusting screws **must** be loose on all cylinders, and the pushrods **must** remain in alignment.
-- Hold both rocker levers against the crossheads. Turn the adjusting screws until they touch the pushrods. Turn the locknuts until they touch the levers.
-- The pushrods will be close to the same height above the top of the rocker lever housing on the cylinder that is ready for adjustment.
-- The number of threads visible above the adjusting nut will **not** be the same. There will be more threads visible on the intake adjusting screw than on the exhaust.
+- Смазать регулировочную винтовую резьбу чистым моторным маслом перед внесением регулировок клапана и форсунки.
+- Все регулирующие винты ** должны быть свободны на всех цилиндрах, а толкачи ** должны ** оставаться в выравнивании.
+- Держите оба рычага качения против клапанных мостиков. Поверните регулирующие винты, пока они не коснутся толкателей. Поверните каштаны, пока они не коснутся рычагов.
+- Толчки будут близки к той же высоте над верхней частью корпуса клапанного клапана на цилиндре, который готов к регулировке.
+- Количество резьбы, видимой над корректирующим гайкой, будет ** не** одинаковым. На винте регулирования впуска будет больше резьбы, чем на выхлопе.
 
 ![[03400163.png]]
 
-The QSK38 engine has valve adjustment marks on the vibration damper and on both sides of the flywheel housing.
+Двигатель QSK38 имеет знаки регулировки клапана на виброгаситель и по обе стороны корпуса маховика.
 
-Valve adjustment marks **must** be aligned with the pointer. If **not,** a false adjustment can occur.
+Знаки регулировки клапана ** должны быть выровнены с указателем. Если нет, то может произойти ложная корректировка.
 
-One pair of valves is adjusted at each pulley index mark, before rotating the engine to the next index mark.
+Одна пара клапанов регулируется на каждом указателе шкива, прежде чем вращать двигатель до следующего указателя.
 
-Two crankshaft revolutions are required to adjust all of the valves.
+Для регулировки всех клапанов требуется два оборота коленчатого вала.
 
 ![[it6iagf.png]]
 
-> [!warning] CAUTION · Осторожно
-> When using the starter covers on the right bank, the marks on the flywheel that begin with an A must be used or the valves will not be adjusted correctly, causing damage to the engine.
+> [!warning] ОСТОРОЖНО
+> При использовании стартовых крышек на правом берегу должны использоваться отметки на маховике, начинающиеся с А, или клапаны не будут правильно отрегулированы, что приведет к повреждению двигателя.
 
-When using the valve adjustment marks on the flywheel, the upper starter bore cover **must** be removed to see the marks.
+При использовании регулировочных знаков клапана на маховике верхняя крышка крышки стартера цилиндра ** должна быть удалена, чтобы увидеть маркировку.
 
-The A marks **must** be used if the marks are viewed on the right bank.
+Знаки A ** должны использоваться, если знаки видны на правом берегу.
 
-The C marks **must** be used if the marks are viewed on the left bank.
+Знаки C ** должны использоваться, если знаки видны на левом берегу.
 
 ![[it6iagh.png]]
 
-> [!warning] CAUTION · Осторожно
-> When using the starter covers on the left bank, the marks on the flywheel that begin with a C must be used or the valves will not be adjusted correctly, causing damage to the engine.
+> [!warning] ОСТОРОЖНО
+> При использовании стартовых крышек на левом берегу должны использоваться отметки на маховике, начинающиеся с С, или клапаны не будут правильно отрегулированы, что приведет к повреждению двигателя.
 
-This illustration shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+На этой иллюстрации показано устройство для блокировки двигателя. Чтобы использовать устройство, удалите зажим и толкните вал устройства к маховику. Запрещающее устройство *** должно** вращаться** против часовой стрелки**, чтобы поворачивать маховик и коленчатый вал в направлении нормального вращения.
 
 ![[it6iagc.png]]
 
-VS represents the valve set. Ignore any TC (top center) marks while setting the valves.
+VS представляет собой набор клапанов. Игнорируйте любые знаки TC (верхний центр) при установке клапанов.
 
 ![[it6iagh.png]]
 
-Determine the cylinder in position for valve set:
+Определить цилиндр в положении для клапанного набора:
 
-The valves are ready to be adjusted on the cylinder that has all of the valves closed.
+Клапаны готовы к регулировке на цилиндре, который имеет все клапаны закрыты.
 
-> [!note] Note · Примечание
-> When all of the valves are closed, there is some movement in the rocker levers.
+> [!note] Примечание
+> Когда все клапаны закрыты, в рычагах коромысла происходит некоторое движение.
 
-Check the two cylinders shown on the VS mark.
+Проверьте два цилиндра, показанные на знаке VS.
 
-If the rocker levers have **not** been removed, wiggle the valve rocker levers on the two cylinders in question. Set the valves on the cylinder where both levers feel loose.
+Если рычаги коромысла были удалены **не**, поверните рычаги коромысла клапана на двух цилиндрах, о которых идет речь. Установите клапаны на цилиндр, где оба рычага чувствуют себя свободными.
 
-Adjustment can begin on any valve set mark.
+Настройка может начинаться на любом отметке клапана.
 
-Use the following chart as a worksheet to keep track of where you are in the valve set procedure.
+Используйте следующую диаграмму в качестве рабочего листа, чтобы отслеживать, где вы находитесь в процедуре установки клапана.
 
 ![[03400145.png]]
 
-| QSK38 Outer Base Circle Valve Set |  |  |
+| QSK38 Outer Base Circle клапан Set (недоступная ссылка) |  |  |
 |---|---|---|
-| VS Mark | Valves Closed on Cylinder Number | Adjust Valves on Cylinder Number |
+| VS Mark | Закрытые клапаны на цилиндре | Настройка клапанов на число цилиндров |
 | 1R-6R VS | 1R (2) | 1R (2) |
 | 6L-1L VS | 6L (11) | 6L (11) |
 | 5R-2R VS | 5R (10) | 5R (10) |
@@ -469,128 +480,128 @@ Use the following chart as a worksheet to keep track of where you are in the val
 | 3R-4R VS | 4R (8) | 4R (8) |
 | 4L-3L VS | 3L (5) | 3L (5) |
 
-| Valve Clearances |  |  |  |
+| Валв Зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust Valves (A) | 0.69 | MAX | 0.027 |
-| Intake Valves (B) | 0.36 | MAX | 0.014 |
+|  | мм |  | в |
+| Выхлопные валы (А) | 0.69 | Макс | 0.027 |
+| Взятие вейвов (B) | 0.36 | Макс | 0.014 |
 
-There are two different methods used to set valve lash clearance: Torque Wrench Method and Feeler Gauge Method; both are described below. Either method can be used. However, the torque wrench method has proven to be the most consistent.
+Существует два различных метода, используемых для установки зазора клапана: Метод крутящего момента и метод измерительной шкалы Feeler; оба описаны ниже. Можно использовать любой метод. Однако метод гаечного ключа крутящего момента оказался наиболее последовательным.
 
 ![[03400147.png]]
 
-Make sure the crossheads are firmly in place on the valve stems.
+Убедитесь, что клапанные мостики прочно установлены на стеблях клапана.
 
-Select the proper feeler gauge for the valves being set. Use service tool, Part Number 3163171 (intake) or 3163172 (exhaust).
+Выберите правильный датчик измерения щупальца для устанавливаемых клапанов. Используйте сервисное оборудование, Номер детали 3163171 (впуск) или 3163172 (выхлоп).
 
-Make sure the feeler gauge is under the center of the ball-and-socket, or the socket can rock or tip, resulting in an incorrect adjustment. Hold the swivel foot flat when checking the lash to avoid false readings.
+Убедитесь, что калибр для щупальца находится под центром шарика и розетки, или розетка может раскачиваться или наклоняться, что приводит к неправильной регулировке. Держите поворотную ногу плоской при проверке ресницы, чтобы избежать ложных показаний.
 
-The adjustment screws **must** turn freely, or a false reading or setting can occur.
+Винты регулировки ** должны *** свободно поворачиваться, или может произойти ложное считывание или установка.
 
 ![[03400164.png]]
 
-Valve Adjustment - Torque Wrench Method
+Регулировка клапана - метод крутящего момента
 
-Make sure the parts are aligned, and squeeze the oil out of the valve train by tightening the adjusting screw.
+Убедитесь, что детали выровнены, и выдавите масло из клапанного поезда, затянув регулирующий винт.
 
-Loosen the adjusting screw at least one revolution.
+Устраните регулировочный винт, по крайней мере, одну революцию.
 
-Insert the feeler gauge between the rocker lever socket and the crosshead.
+Вставить датчик измерения щупальца между розеткой рычага клапанного клапана и клапанным мостиком.
 
-Use torque wrench, Part Number 3376592, and tighten the adjusting screw.
+Используйте крутящий момент, номер детали 3376592, и затяните регулирующий винт.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.68 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.68 Н·м [6 фунт-дюйм]
 
-Remove the feeler gauge.
+Удалите калибр для щупальца.
 
 ![[03400165.png]]
 
-The adjusting screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without torque wrench adapter, Part Number 3163196.
+Регулирующий винт ** не должен** поворачиваться, когда затягивается локон. Крутящий момент локатана может быть применен с или без адаптера гаечного ключа крутящего момента, номер детали 3163196.
 
-Tighten the locknut.
+Затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> С адаптером 48 Н·м [35 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 60 Н·м [44 фут-лб]
 
-Attempt to insert a feeler gauge that is 0.03-mm \[0.001-in\] thicker. The valve lash is **not** correct if the thicker feeler gauge will fit.
+Попробуйте вставить датчик измерения щупальца, который составляет 0,03 мм \[0,001-в\] толще. Стрелка клапана ** не** правильна, если более толстый датчик измерения потолка подойдет.
 
-Repeat the adjustment process until the proper lash is obtained.
+Повторите процесс настройки, пока не будет получена правильная ресница.
 
 ![[03600122.png]]
 
-Valve Adjustment - Feeler Gauge Method
+Регулировка клапана - Метод измерения щупальца
 
-Make sure parts are aligned, and squeeze the oil out of the valve and injector train by tightening the adjusting screw.
+Убедитесь, что детали выровнены, и выдавите масло из клапана и форсунки, затянув регулирующий винт.
 
-Loosen the adjusting screw at least one revolution.
+Устраните регулировочный винт, по крайней мере, одну революцию.
 
-Insert the feeler gauge between the rocker lever socket and the crosshead.
+Вставить датчик измерения щупальца между розеткой рычага клапанного клапана и клапанным мостиком.
 
-Tighten the adjusting screw until the rocker lever touches the feeler gauge.
+Затягивайте регулирующий винт до тех пор, пока рычаг качения клапанного клапана не коснется калибра для щупальца.
 
 ![[03400164.png]]
 
-The adjusting screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without a torque wrench adapter, Part Number 3163196.
+Регулирующий винт ** не должен** поворачиваться, когда затягивается локон. Крутящий момент локона может быть применен с или без адаптера гаечного ключа, номер детали 3163196.
 
-Tighten the locknut.
+Затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> С адаптером 48 Н·м [35 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 60 Н·м [44 фут-лб]
 
-Attempt to insert a feeler gauge that is 0.03-mm \[0.001-in\] thicker. The valve lash is **not** correct if the thicker feeler gauge will fit.
+Попробуйте вставить датчик измерения щупальца, который составляет 0,03 мм \[0,001-в\] толще. Стрелка клапана ** не** правильна, если более толстый датчик измерения потолка подойдет.
 
-Repeat the adjustment process until the proper lash is obtained.
+Повторите процесс настройки, пока не будет получена правильная ресница.
 
 ![[03600122.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> The following procedure applies to the QSK50 MCRS engine.
+> [!note] Примечание
+> Следующая процедура применяется к двигателю QSK50 MCRS.
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine damage, use a cylinder head protective cover to prevent tools from falling into the cam follower cavity.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения двигателя, используйте защитную крышку головки цилиндра, чтобы предотвратить попадание инструментов в полость крана.
 
-Install the cylinder head protective cover, Part Number 4918282, into the push tube hole.
+Установите защитную крышку головки цилиндра, номер детали 4918282, в отверстие проточной трубки.
 
 ![[22400276.png]]
 
-This illustration shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+На этой иллюстрации показано устройство для блокировки двигателя. Чтобы использовать устройство, удалите зажим и толкните вал устройства к маховику. Запрещающее устройство *** должно** вращаться** против часовой стрелки**, чтобы поворачивать маховик и коленчатый вал в направлении нормального вращения.
 
 ![[it6iagc.png]]
 
-The 1R8R VS mark represents valve set location for cylinder 1 or 8 on the right bank. This mark will be used to set the valves on engines with electronically actuated injectors. This will allow all valves to be set in two positions.
+Знак 1R8R VS представляет собой расположение клапана для цилиндра 1 или 8 на правом берегу. Эта отметка будет использоваться для установки клапанов на двигатели с электронным топливным форсункой. Это позволит установить все клапаны в двух положениях.
 
-Push the shaft in and rotate the barring device until the 1R8R VS mark on the pulley is aligned with the mark that is cast into the boss for the accessory drive seal on the front gear cover.
+Вставьте вал и поверните запорное устройство до тех пор, пока отметка 1R8R VS на шкиве не будет выровнена с отметкой, которая отливается в босса для дополнительного уплотнения привода на передней крышке передач.
 
 ![[06s00001.png]]
 
-The number of threads visible above the adjusting nut will **not** be the same. There will be more threads visible on the intake adjusting screw than on the exhaust adjusting screw.
+Количество резьбы, видимой над корректирующим гайкой, будет ** не** одинаковым. На винте регулирования впуска будет больше резьбы, чем на винте регулирования выхлопных газов.
 
-If the rocker lever assemblies have been removed, use this step to determine the cylinder to be set.
+Если клапанные клапанные качалки были удалены, используйте этот шаг для определения цилиндра, который должен быть установлен.
 
-All adjusting screws **must** be loose on all cylinders, and the push rods **must** remain in alignment.
+Все регулирующие винты ** должны быть свободны на всех цилиндрах, а толкатели ** должны ** оставаться в выравнивании.
 
-Perform this step on both cylinders to be checked.
+Выполните этот шаг на обоих цилиндрах, чтобы проверить.
 
-Hold both rocker levers against the crossheads. Turn the adjusting screws in until they touch the push rods. Turn the locknuts until they touch the levers.
+Держите оба рычага качения против клапанных мостиков. Включите регулирующие винты, пока они не коснутся толкателей. Поверните каштаны, пока они не коснутся рычагов.
 
-The push rods will be the same height above the top of the rocker lever housing on the valves that should be loose.
+Толкательные стержни будут иметь ту же высоту над верхней частью корпуса рычага качения клапана на клапанах, которые должны быть свободными.
 
 ![[03400163.png]]
 
-If both number 1 cylinder rocker levers on the right bank are loose, proceed to the next step. If the number 1 cylinder rocker levers on the right bank are not loose, rotate the crankshaft 360 degrees and proceed to the next step.
+Если оба рычага цилиндра № 1 на правом берегу свободны, переходите к следующему шагу. Если рычаги цилиндра № 1 на правом берегу не рыхли, поверните коленчатый вал на 360 градусов и переходите к следующему шагу.
 
-If the number 1 cylinder on the right bank is at 1R8R VS and both rocker levers are loose, the valve lash (overhead set) can be checked on the following rocker levers:
+Если цилиндр № 1 на правом берегу находится на 1R8R VS, и оба рычага коромысла свободны, ресница клапана (накладной комплект) может быть проверена на следующих рычагах коромысла:
 
-| Intake | Exhaust |
+| принимать | выхлоп |
 |---|---|
 | 1R (2) | 1R (2) |
 | 4R (8) | 2R (4) |
@@ -603,70 +614,70 @@ If the number 1 cylinder on the right bank is at 1R8R VS and both rocker levers 
 
 ![[03400236.png]]
 
-| Valve Adjustment |  |  |  |
+| Корректировка клапанов |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust Valves (A) | 0.69 | MAX | 0.027 |
-| Intake Valves (B) | 0.36 | MAX | 0.014 |
+|  | мм |  | в |
+| Выхлопные валы (А) | 0.69 | Макс | 0.027 |
+| Взятие вейвов (B) | 0.36 | Макс | 0.014 |
 
 ![[03400147.png]]
 
-Use service tool, Part Number 3163171 (intake) or Part Number 3163172 (exhaust). Select a feeler gauge for the correct valve lash specification. Insert the feeler gauge between the rocker lever socket and the crosshead.
+Используйте сервисное оборудование, Номер детали 3163171 (впуск) или Номер детали 3163172 (выхлоп). Выберите калибр для правильной спецификации ресниц клапана. Вставить датчик измерения щупальца между розеткой рычага клапанного клапана и клапанным мостиком.
 
-Make certain the crossheads are firmly in place on the valve stem tips.
+Убедитесь, что клапанные мостики прочно установлены на кончиках стеблей клапана.
 
-Make certain the feeler gauge is under the center of the ball and socket or the socket can rock or tip, resulting in an incorrect adjustment. To avoid false readings, hold the swivel foot to avoid binding while checking the valve lash.
+Убедитесь, что калибр для щупальца находится под центром шара, и розетка или розетка могут раскачиваться или наклоняться, что приводит к неправильной регулировке. Чтобы избежать ложных показаний, держите поворотную ногу, чтобы избежать связывания при проверке ресницы клапана.
 
 ![[03400164.png]]
 
-Two different methods for establishing valve lash clearance are discribed below:
+Ниже описаны два различных метода установления зазора клапанов:
 
-- Torque Wrench Method - use Part Number 3376592, inch-pound torque wrench to tighten the adjustment screw to 0.68 N•m \[6 in-lb\] torque against the feeler gauge.
-- Feeler Gauge Method - use a flathead screw driver and turn the adjusting screw **only** until the lever touches the feeler gauge.
+- Метод крутящего момента - используйте Часть Номер 3376592, дюймовый крутящий момент гаечный ключ, чтобы затянуть регулировочный винт до 0,68 Н•м \[6 фунт-дюйм\] крутящий момент против датчика измерения щупальца.
+- Метод измерительной датчика фейлера - используйте плоский винтовой драйвер и включите регулирующий винт **только ** до тех пор, пока рычаг не коснется измерительной датчика щупальца.
 
-Either method can be used. The torque wrench method has proven to be the most consistent.
+Можно использовать любой метод. Метод крутящего момента оказался наиболее последовательным.
 
 ![[03400165.png]]
 
-To set the valves using the torque wrench method, complete the following steps:
+Для установки клапанов с использованием метода гаечного ключа крутящего момента выполните следующие шаги:
 
-1. Be certain the parts are in alignment, Tighten the adjustment screw and squeeze the oil out of the valve train.
-2. Loosen the adjustment screw at least one revolution.
-3. Insert the feeler gauge between the rocker lever socket and the crosshead.
-4. Use torque wrench, Part Number 3376592, and tighten the adjustment screw.
-5. Remove the feeler gauge.
+1. Убедитесь, что детали находятся в выравнивании, затяните винт регулировки и выдавите масло из клапанного поезда.
+2. Устраните винт регулировки, по крайней мере, одну революцию.
+3. Вставить датчик измерения щупальца между розеткой рычага клапанного клапана и клапанным мостиком.
+4. Используйте крутящий момент, номер детали 3376592, и затяните регулировочный винт.
+5. Удалите калибр для щупальца.
 
-> [!tip] Момент затяжки · Torque Value
-> 0.68 n•m [6 in-lb]
+> [!tip] Момент затяжки
+> 0.68 Н·м [6 фунт-дюйм]
 
 ![[03400164.png]]
 
-To set the valves using the feeler gauge method, complete the following steps:
+Для установки клапанов с использованием метода измерительной датчика нащупывания выполните следующие шаги:
 
-1. Make sure parts are aligned, and squeeze the oil out of the valve and injector train by tightening the adjusting screw.
-2. Loosen the adjusting screw at least one revolution.
-3. Insert the feeler gauge between the rocker lever socket and the crosshead.
-4. Tighten the adjusting screw until the rocker lever touches the feeler gauge.
+1. Убедитесь, что детали выровнены, и выдавите масло из клапана и форсунки, затянув регулирующий винт.
+2. Устраните регулировочный винт, по крайней мере, одну революцию.
+3. Вставить датчик измерения щупальца между розеткой рычага клапанного клапана и клапанным мостиком.
+4. Затягивайте регулирующий винт до тех пор, пока рычаг качения клапанного клапана не коснется калибра для щупальца.
 
-The adjustment screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without a torque wrench adapter, Part Number 3163196.
+Винт регулировки ** не должен ** поворачиваться, когда затягивается локон. Крутящий момент локона может быть применен с или без адаптера гаечного ключа, номер детали 3163196.
 
-Tighten the locknut.
+Затяните локон.
 
-For the torque method (with adapter), use torque wrench adapter, Part Number ST-669.
+Для способа крутящего момента (с адаптером) используйте адаптер гаечного ключа крутящего момента, часть номер ST-669.
 
-> [!tip] Момент затяжки · Torque Value
-> With Adapter 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> С адаптером 48 Н·м [35 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Without Adapter 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Без адаптера 60 Н·м [44 фут-лб]
 
-Attempt to insert a feeler gauge that is 0.03 mm \[0.001 in\] thicker than the valve lash specification. The lash is **not** correct when the thicker gauge will fit.
+Попробуйте вставить датчик измерения щупальца, который на 0,03 мм \[0,001 дюйма \] толще, чем спецификация ресницы клапана. Стрелка ** не** правильная, когда более толстый калибр подойдет.
 
-Repeat the adjustment process until the proper clearance is obtained.
+Повторите процесс корректировки до получения надлежащего разрешения.
 
-Use the barring tool to rotate the crankshaft 360 degrees. Use the previous steps and specifications to set the valve lash on the following rocker levers:
+Используйте инструмент барринга для вращения коленчатого вала на 360 градусов. Используйте предыдущие шаги и спецификации для установки клапанной ресницы на следующих рычагах качения:
 
-| Intake | Exhaust |
+| принимать | выхлоп |
 |---|---|
 | 2R (4) | 5R (10) |
 | 3R (6) | 6R (12) |
@@ -679,34 +690,608 @@ Use the barring tool to rotate the crankshaft 360 degrees. Use the previous step
 
 > [!missing]- Иллюстрация `03400175.png` не извлечена — смотрите PDF-оригинал документа
 
-Remove the cylinder head protective cover, Part Number 4918282, from the push tube hole.
+Удалите защитную крышку головки цилиндра, номер детали 4918282, из отверстия в проточной трубе.
 
 ![[22400276.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Install the rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Connect the battery cables. See equipment manufacturer service information.
-- Operate the engine and check for proper operation.
+- Установите крышку коромысел.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте его правильность.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> В зависимости от условий топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries, to reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Для уменьшения возможности получения травм личного характера всегда проветривайте моторный отсек перед обслуживанием аккумуляторов, для уменьшения возможности дуги, сначала удалите отрицательный (-) аккумуляторный кабель и прикрепите отрицательный (-) аккумуляторный кабель последним.
 
-- Install the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3]]
-- Install the high pressure injector supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Connect the battery cables. See equipment manufacturer service information.
-- Operate the engine and check for proper operation.
+- Установите крышки клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Установите линии подачи топливного форсунка высокого давления.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте его правильность.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> with Mechanically Actuated Injector
+>
+> The Outer Base Circle Method overhead setting procedure can be used for fixed time (PT®) and Hydraulic Variable Timing/STC injectors, regardless of CPL or build date.
+>
+> On engines with a hydro-mechanical STC valve, remove the oil supply from the oil control valve. Plug the hose, cap, and fitting. This prevents the engine from going into advance timing.
+>
+> Operate the engine at high idle for 5 minutes in normal timing mode. This will allow all the lubricating oil to pump out of the injector tappets so a correct injector adjustment can be made.
+>
+> Shut the engine OFF.
+>
+> with Electronically Actuated Injector
+>
+> For engines with electronically actuated injectors, periodic valve adjustment is **not** required. It is recommended that the valves be adjusted **only** when an injector is removed.
+>
+> The cylinders are numbered from the front gear cover end of the engine.
+>
+> To determine the right and left bank on the QSK38 and QSK50 engine, stand at the rear of the engine and face the front.
+>
+> When referring to system electronics, a standard cylinder numbering system has been adopted. This is **only** used for the electronic system components on engines with electronically actuated injectors.
+>
+> Each cylinder has two rocker levers. When facing the cylinder head, the rocker lever on the left is the exhaust rocker lever. The rocker lever on the right is the intake rocker lever.
+>
+> If the push rods are removed for the service, make sure they are installed in the same locations.
+>
+> QSK38 Firing Order:
+>
+> 1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L or 2-11-10-3-6-7-12-1-4-9-8-5.
+>
+> RB = Right Bank of cylinders.
+>
+> LB = Left Bank of cylinders.
+>
+> QSK50 Firing Order:
+>
+> 1R-1L-3R-3L-2R-2L-5R-4L-8R-8L-6R-6L-7R-7L-4R-5L or 2-1-6-5-4-3-10-7-16-15-12-11-14-13-8-9
+>
+> RB = Right Bank of cylinders.
+>
+> LB = Left Bank of cylinders.
+>
+> The normal rotation direction for QSK38 and QSK50 is **clockwise**, when viewed from the front of the engine.
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> - Disconnect the battery cables. See equipment manufacturer service information.
+> - Steam clean the engine to prevent dirt from entering the engine when the valve covers are removed. Refer to Procedure 000-009 in Section 0.
+> - Remove the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries, to reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> - Disconnect the battery cables. See equipment manufacturer service information.
+> - Steam clean the engine to prevent dirt from entering the engine when the valve covers are removed. Refer to Procedure 000-009 in Section 0.
+> - Remove the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> ### Adjust
+>
+> with Mechanically Actuated Injector
+>
+> Valve and injector adjustment marks are in three locations.
+>
+> Valve and injector adjustment marks are on the vibration damper. The marks **must** be aligned with the pointer.
+>
+> **CAUTION · Осторожно**
+> When using the starter covers on the right bank, the marks on the flywheel that begin with an “A” must be used or the valves and injectors will not be adjusted correctly, causing damage to the push rods.
+>
+> For valve and injector adjustment marks on the flywheel, with the engine barring device located on the right bank of the engine:
+>
+> - The starter bore cover **must** be removed to see the marks.
+>
+> **CAUTION · Осторожно**
+> When using the starter covers on the left bank, the marks on the flywheel that begin with a “C” must be used or the valves and injectors will not be adjusted correctly, causing damage to the push rods.
+>
+> For valve and injector adjustment marks on the flywheel, with the engine barring device located on the left bank of the engine:
+>
+> - The starter bore cover **must** be removed to see the marks.
+>
+> This illustration also shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+>
+> The following is the firing order for all K38 engines.
+>
+> - 1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L
+>
+> **Note · Примечание**
+> **Not** all K50 engines have the same firing order. Some engines manufactured after September 1986 have a revised firing order. These engines have decals on the rocker lever covers and the engine dataplate is stamped with “REVISED FIRING ORDER”.
+>
+> The following is the standard firing order for all K50 engines which were manufactured before September 1986.
+>
+> - 1R-1L-3R-3L-7R-7L-5R-5L-8R-8L-6R-6L-2R-2L-4R-4L
+>
+> The following is the “REVISED FIRING ORDER” used on some engines built after September, 1986.
+>
+> - 1R-1L-3R-3L-2R-2L-5R-4L-8R-8L-6R-6L-7R-7L-4R-5L
+>
+> Two full engine rotations are required to adjust the valves and injectors on K38 and K50 engines.
+>
+> The normal rotation direction for K38 and K50 engines is **clockwise**, when viewed from the front of the engine.
+>
+> The valve set is represented by “VS”. Ignore the “TC” (top center) marks while setting the valves and injectors.
+>
+> Determine the cylinder in position for valve set:
+>
+> - The crossheads and valves are ready to be adjusted on the cylinder that has all the valves closed
+> - Check the two cylinders shown on the “VS” mark.
+>
+> **Note · Примечание**
+> The KTA50-G3, KTA50-G4, KTTA50-G2, K2000E, K1800E, and K1500E engines contain a unique camshaft that creates a noticeable difference in the height of the valve adjusting screws. When the valves are properly adjusted on these engines, the exhaust valve adjusting screw will have approximately one thread visible above the top of the lock nut. The intake valve adjusting screw will have approximately three threads visible above the top of the adjusting screw.
+>
+> If the rocker lever assemblies have been removed, use this step to determine the cylinder to be set.
+>
+> All adjusting screws **must** be loose on all cylinders, and the push rod **must** remain in alignment.
+>
+> Perform this step on both cylinders to be checked.
+>
+> Hold both rocker levers against the crossheads. Turn the adjusting screws until they touch the push rods. Turn the lock nuts until they touch the levers.
+>
+> The cylinder with the adjusting screws that are nearly the same height (intake screw can be up to two threads above the exhaust) is ready for valve adjustment. The second cylinder that is **not** ready for adjustment will have the adjusting screw for the exhaust valve more than five threads above the intake screw.
+>
+> The push rods will be close to the same height above the top of the rocker lever housing on the cylinder ready for valve adjustment.
+>
+> **CAUTION · Осторожно**
+> Use the correct chart for the engine being serviced or the parts can be damaged.
+>
+> If the rocker levers have **not** been removed, wiggle the valve rocker levers on the two cylinders in question. The crossheads and valves on the cylinder where both levers feel loose are ready to adjust.
+>
+> After identifying the cylinder with the valves ready to be adjusted, use the following charts for the sequence. The steps and specifications for adjusting the crossheads, valves, and injectors follow the charts.
+>
+> Adjustment can begin on any valve set mark. In the illustration, assume the 1R-6R or 1R-8R marks are aligned and the adjusting screw height for the valves on the cylinder number 1 right-bank are closed and ready to adjust.
+>
+> The following charts give the crosshead, valve, and injector adjustment sequence.
+>
+> | K38 (Outer Base Circle) Valve and Injector Adjustment Chart |  |  |  |
+> |---|---|---|---|
+> |  | Valves Closed | Adjust Valves | Adjust Injectors |
+> | Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+> | 1R-6R VS | 1R | 1R | 2R |
+> | 6L-1L VS | 6L | 6L | 5L |
+> | 5R-2R VS | 5R | 5R | 4R |
+> | 2L-5L VS | 2L | 2L | 3L |
+> | 3R-4R VS | 3R | 3R | 1R |
+> | 4L-3L VS | 4L | 4L | 6L |
+> | 1R-6R VS | 6R | 6R | 5R |
+> | 6L-1L VS | 1L | 1L | 2L |
+> | 5R-2R VS | 2R | 2R | 3R |
+> | 2L-5L VS | 5L | 5L | 4L |
+> | 3R-4R VS | 4R | 4R | 6R |
+> | 4L-3L VS | 3L | 3L | 1L |
+>
+> | K50 (Outer Base Circle) Valve and Injector Adjustment Chart |  |  |  |
+> |---|---|---|---|
+> |  | Valves Closed | Adjust Valves | Adjust Injectors |
+> | Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+> | 1R-8R VS | 1R | 1R | 6R |
+> | 1L-8L VS | 1L | 1L | 6L |
+> | 3R-6R VS | 3R | 3R | 2R |
+> | 3L-6L VS | 3L | 3L | 2L |
+> | 2R-7R VS | 7R | 7R | 4R |
+> | 2L-7L VS | 7L | 7L | 4L |
+> | 4R-5R VS | 5R | 5R | 1R |
+> | 4L-5L VS | 5L | 5L | 1L |
+> | 1R-8R VS | 8R | 8R | 3R |
+> | 1L-8L VS | 8L | 8L | 3L |
+> | 3R-6R VS | 6R | 6R | 7R |
+> | 3L-6L VS | 6L | 6L | 7L |
+> | 2R-7R VS | 2R | 2R | 5R |
+> | 2L-7L VS | 2L | 2L | 5L |
+> | 4R-5R VS | 4R | 4R | 8R |
+> | 4L-5L VS | 4L | 4L | 8L |
+>
+> **Note · Примечание**
+> For K50 STC and Hydraulic Variable Timing engines, it is important to know if the engine has the standard firing order or the revised firing order. Do **not** use the standard firing order sequence for uprate engines manufactured after September, 1986, that have the revised firing order. All engines that have the “REVISED FIRING ORDER” have STC or Hydraulic Variable Timing injectors and are identified as revised on the engine dataplate. These engines also have decals on the rocker lever covers.
+>
+> | K50 (Outer Base Circle) Revised Firing Order with STC or Hydraulic Variable Timing Valve and Injector Adjustment Chart |  |  |  |
+> |---|---|---|---|
+> |  | Valves Closed | Adjust Valves | Adjust Injectors |
+> | Valve Set Mark “VS” (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) | On Cylinder Number (L - Left-Bank) (R- Right-Bank) |
+> | 1R-8R VS | 1R | 1R | 6R |
+> | 1L-8L VS | 1L | 1L | 6L |
+> | 3R-6R VS | 3R | 3R | 7R |
+> | 3L-6L VS | 3L | 3L | 7L |
+> | 2R-7R VS | 2R | 2R | 4R |
+> | 2L-7L VS | 2L | 2L | 5L |
+> | 4R-5R VS | 5R | 5R | 1R |
+> | 4L-5L VS | 4L | 4L | 1L |
+> | 1R-8R VS | 8R | 8R | 3R |
+> | 1L-8L VS | 8L | 8L | 3L |
+> | 3R-6R VS | 6R | 6R | 2R |
+> | 3L-6L VS | 6L | 6L | 2L |
+> | 2R-7R VS | 7R | 7R | 5R |
+> | 2L-7L VS | 7L | 7L | 4L |
+> | 4R-5R VS | 4R | 4R | 8R |
+> | 4L-5L VS | 5L | 5L | 8L |
+>
+> **Note · Примечание**
+> Some engines have guideless crossheads and do **not** require adjustment.
+>
+> **Note · Примечание**
+> Crosshead adjustment **must** always be made before attempting to adjust the valves.
+>
+> Adjust the crossheads on the cylinder that has both valves closed.
+>
+> Loosen the crosshead adjusting screw lock nuts on the intake and exhaust valve crossheads.
+>
+> Use the following procedure to adjust both the intake and exhaust crossheads.
+>
+> Turn the adjusting screw out at least one turn.
+>
+> Hold the crosshead down against its guide.
+>
+> Turn the adjusting screw in until it touches the top of the valve stem, but does **not** raise the crosshead.
+>
+> Hold the adjusting screw in this position. The adjusting screw **must not** turn when the lock nut is tightened to its torque value. Tighten the lock nut. The following torque values are given with and without torque wrench adapter (1), Part Number 3163196.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 35 n•m [26 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 40 n•m [30 ft-lb]
+>
+> | Valve Adjustment |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Exhaust | 0.69 | 0.027 |
+> | Intake | 0.36 | 0.014 |
+>
+> Select a feeler gauge for the correct valve lash specification. Use service tool, Part Number 3163171 (intake) or Part Number 3163172 (exhaust). Insert the gauge (2) between the rocker lever and the crosshead.
+>
+> Two different methods for establishing valve lash clearance are described below. Either method can be used; however, the torque wrench method has proven to be the most consistent.
+>
+> - Torque Wrench Method: Use an inch pound torque wrench, Part Number 3376592, and tighten the adjusting screw.
+>
+> **Момент затяжки · Torque Value**
+> 0.68 n•m [6 in-lb]
+>
+> - Feeler Gauge Method: Use a screwdriver and turn the adjusting screw **only** until the lever touches the feeler gauge.
+>
+> The adjusting screw **must not** turn when the lock nut is tightened.
+>
+> Tighten the lock nut to the value indicated below.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 45 n•m [33 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 60 n•m [44 ft-lb]
+>
+> The feeler gauge **must** slide backward and forward with **only** a small amount of drag.
+>
+> Attempt to insert a feeler gauge that is 0.03 mm \[0.001 in\] thicker. The valve lash is **not** correct when the thicker gauge will fit.
+>
+> Repeat the adjustment process until the clearance is correct on both the intake and exhaust valves for the cylinder being adjusted.
+>
+> **Note · Примечание**
+> The torque wrench **must** be calibrated, have a resolution of 0.28 N•m \[2.5 in-lb\], and have a range of 17 to 23 N•m \[150 to 204 in-lb\]. Do **not** use a clicker-type torque wrench.
+>
+> Use a dial type torque wrench to tighten the injector rocker lever adjusting screw. If the screw causes chattering during setting, repair the screw and lever as required.
+>
+> Hold the torque wrench in a position that allows you to look in a direct line at the dial. This is to make sure the dial will be read accurately.
+>
+> Tighten the adjusting screw to make sure the parts are in alignment and to squeeze the oil out of the valve train.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Loosen the adjusting screw at least one turn.
+>
+> Tighten the adjusting screw.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> Hold the adjusting screw in this position. The adjusting screws **must not** turn when the lock nut is tightened.
+>
+> Tighten the lock nut.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 45 n•m [33 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 60 n•m [44 ft-lb]
+>
+> If the barring device was used, allow the spring to push the shaft and clear the ring gear.
+>
+> Install the clip.
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> The following procedure applies to the QSK38 MCRS engine.
+>
+> If the rocker lever assemblies have been removed, complete the following list on both cylinders:
+>
+> - Lubricate the adjusting screw threads with clean engine oil prior to making valve and injector adjustments.
+> - All adjusting screws **must** be loose on all cylinders, and the pushrods **must** remain in alignment.
+> - Hold both rocker levers against the crossheads. Turn the adjusting screws until they touch the pushrods. Turn the locknuts until they touch the levers.
+> - The pushrods will be close to the same height above the top of the rocker lever housing on the cylinder that is ready for adjustment.
+> - The number of threads visible above the adjusting nut will **not** be the same. There will be more threads visible on the intake adjusting screw than on the exhaust.
+>
+> The QSK38 engine has valve adjustment marks on the vibration damper and on both sides of the flywheel housing.
+>
+> Valve adjustment marks **must** be aligned with the pointer. If **not,** a false adjustment can occur.
+>
+> One pair of valves is adjusted at each pulley index mark, before rotating the engine to the next index mark.
+>
+> Two crankshaft revolutions are required to adjust all of the valves.
+>
+> **CAUTION · Осторожно**
+> When using the starter covers on the right bank, the marks on the flywheel that begin with an A must be used or the valves will not be adjusted correctly, causing damage to the engine.
+>
+> When using the valve adjustment marks on the flywheel, the upper starter bore cover **must** be removed to see the marks.
+>
+> The A marks **must** be used if the marks are viewed on the right bank.
+>
+> The C marks **must** be used if the marks are viewed on the left bank.
+>
+> **CAUTION · Осторожно**
+> When using the starter covers on the left bank, the marks on the flywheel that begin with a C must be used or the valves will not be adjusted correctly, causing damage to the engine.
+>
+> This illustration shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+>
+> VS represents the valve set. Ignore any TC (top center) marks while setting the valves.
+>
+> Determine the cylinder in position for valve set:
+>
+> The valves are ready to be adjusted on the cylinder that has all of the valves closed.
+>
+> **Note · Примечание**
+> When all of the valves are closed, there is some movement in the rocker levers.
+>
+> Check the two cylinders shown on the VS mark.
+>
+> If the rocker levers have **not** been removed, wiggle the valve rocker levers on the two cylinders in question. Set the valves on the cylinder where both levers feel loose.
+>
+> Adjustment can begin on any valve set mark.
+>
+> Use the following chart as a worksheet to keep track of where you are in the valve set procedure.
+>
+> | QSK38 Outer Base Circle Valve Set |  |  |
+> |---|---|---|
+> | VS Mark | Valves Closed on Cylinder Number | Adjust Valves on Cylinder Number |
+> | 1R-6R VS | 1R (2) | 1R (2) |
+> | 6L-1L VS | 6L (11) | 6L (11) |
+> | 5R-2R VS | 5R (10) | 5R (10) |
+> | 2L-5L VS | 2L (3) | 2L (3) |
+> | 3R-4R VS | 3R (6) | 3R (6) |
+> | 4L-3L VS | 4L (7) | 4L (7) |
+> | 1R-6R VS | 6R (12) | 6R (12) |
+> | 6L-1L VS | 1L (1) | 1L (1) |
+> | 5R-2R VS | 2R (4) | 2R (4) |
+> | 2L-5L VS | 5L (9) | 5L (9) |
+> | 3R-4R VS | 4R (8) | 4R (8) |
+> | 4L-3L VS | 3L (5) | 3L (5) |
+>
+> | Valve Clearances |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust Valves (A) | 0.69 | MAX | 0.027 |
+> | Intake Valves (B) | 0.36 | MAX | 0.014 |
+>
+> There are two different methods used to set valve lash clearance: Torque Wrench Method and Feeler Gauge Method; both are described below. Either method can be used. However, the torque wrench method has proven to be the most consistent.
+>
+> Make sure the crossheads are firmly in place on the valve stems.
+>
+> Select the proper feeler gauge for the valves being set. Use service tool, Part Number 3163171 (intake) or 3163172 (exhaust).
+>
+> Make sure the feeler gauge is under the center of the ball-and-socket, or the socket can rock or tip, resulting in an incorrect adjustment. Hold the swivel foot flat when checking the lash to avoid false readings.
+>
+> The adjustment screws **must** turn freely, or a false reading or setting can occur.
+>
+> Valve Adjustment - Torque Wrench Method
+>
+> Make sure the parts are aligned, and squeeze the oil out of the valve train by tightening the adjusting screw.
+>
+> Loosen the adjusting screw at least one revolution.
+>
+> Insert the feeler gauge between the rocker lever socket and the crosshead.
+>
+> Use torque wrench, Part Number 3376592, and tighten the adjusting screw.
+>
+> **Момент затяжки · Torque Value**
+> 0.68 n•m [6 in-lb]
+>
+> Remove the feeler gauge.
+>
+> The adjusting screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without torque wrench adapter, Part Number 3163196.
+>
+> Tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 48 n•m [35 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 60 n•m [44 ft-lb]
+>
+> Attempt to insert a feeler gauge that is 0.03-mm \[0.001-in\] thicker. The valve lash is **not** correct if the thicker feeler gauge will fit.
+>
+> Repeat the adjustment process until the proper lash is obtained.
+>
+> Valve Adjustment - Feeler Gauge Method
+>
+> Make sure parts are aligned, and squeeze the oil out of the valve and injector train by tightening the adjusting screw.
+>
+> Loosen the adjusting screw at least one revolution.
+>
+> Insert the feeler gauge between the rocker lever socket and the crosshead.
+>
+> Tighten the adjusting screw until the rocker lever touches the feeler gauge.
+>
+> The adjusting screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without a torque wrench adapter, Part Number 3163196.
+>
+> Tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 48 n•m [35 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 60 n•m [44 ft-lb]
+>
+> Attempt to insert a feeler gauge that is 0.03-mm \[0.001-in\] thicker. The valve lash is **not** correct if the thicker feeler gauge will fit.
+>
+> Repeat the adjustment process until the proper lash is obtained.
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> The following procedure applies to the QSK50 MCRS engine.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine damage, use a cylinder head protective cover to prevent tools from falling into the cam follower cavity.
+>
+> Install the cylinder head protective cover, Part Number 4918282, into the push tube hole.
+>
+> This illustration shows the engine barring device. To use the device, remove the clip and push the device shaft toward the flywheel. The barring device **must** be rotated **counterclockwise** to turn the flywheel and crankshaft in the direction of normal rotation.
+>
+> The 1R8R VS mark represents valve set location for cylinder 1 or 8 on the right bank. This mark will be used to set the valves on engines with electronically actuated injectors. This will allow all valves to be set in two positions.
+>
+> Push the shaft in and rotate the barring device until the 1R8R VS mark on the pulley is aligned with the mark that is cast into the boss for the accessory drive seal on the front gear cover.
+>
+> The number of threads visible above the adjusting nut will **not** be the same. There will be more threads visible on the intake adjusting screw than on the exhaust adjusting screw.
+>
+> If the rocker lever assemblies have been removed, use this step to determine the cylinder to be set.
+>
+> All adjusting screws **must** be loose on all cylinders, and the push rods **must** remain in alignment.
+>
+> Perform this step on both cylinders to be checked.
+>
+> Hold both rocker levers against the crossheads. Turn the adjusting screws in until they touch the push rods. Turn the locknuts until they touch the levers.
+>
+> The push rods will be the same height above the top of the rocker lever housing on the valves that should be loose.
+>
+> If both number 1 cylinder rocker levers on the right bank are loose, proceed to the next step. If the number 1 cylinder rocker levers on the right bank are not loose, rotate the crankshaft 360 degrees and proceed to the next step.
+>
+> If the number 1 cylinder on the right bank is at 1R8R VS and both rocker levers are loose, the valve lash (overhead set) can be checked on the following rocker levers:
+>
+> | Intake | Exhaust |
+> |---|---|
+> | 1R (2) | 1R (2) |
+> | 4R (8) | 2R (4) |
+> | 6R (12) | 3R (6) |
+> | 7R (14) | 4R (8) |
+> | 5L (9) | 1L (1) |
+> | 6L (11) | 3L (5) |
+> | 7L (13) | 5L (9) |
+> | 8L (15) | 7L (13) |
+>
+> | Valve Adjustment |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust Valves (A) | 0.69 | MAX | 0.027 |
+> | Intake Valves (B) | 0.36 | MAX | 0.014 |
+>
+> Use service tool, Part Number 3163171 (intake) or Part Number 3163172 (exhaust). Select a feeler gauge for the correct valve lash specification. Insert the feeler gauge between the rocker lever socket and the crosshead.
+>
+> Make certain the crossheads are firmly in place on the valve stem tips.
+>
+> Make certain the feeler gauge is under the center of the ball and socket or the socket can rock or tip, resulting in an incorrect adjustment. To avoid false readings, hold the swivel foot to avoid binding while checking the valve lash.
+>
+> Two different methods for establishing valve lash clearance are discribed below:
+>
+> - Torque Wrench Method - use Part Number 3376592, inch-pound torque wrench to tighten the adjustment screw to 0.68 N•m \[6 in-lb\] torque against the feeler gauge.
+> - Feeler Gauge Method - use a flathead screw driver and turn the adjusting screw **only** until the lever touches the feeler gauge.
+>
+> Either method can be used. The torque wrench method has proven to be the most consistent.
+>
+> To set the valves using the torque wrench method, complete the following steps:
+>
+> 1. Be certain the parts are in alignment, Tighten the adjustment screw and squeeze the oil out of the valve train.
+> 2. Loosen the adjustment screw at least one revolution.
+> 3. Insert the feeler gauge between the rocker lever socket and the crosshead.
+> 4. Use torque wrench, Part Number 3376592, and tighten the adjustment screw.
+> 5. Remove the feeler gauge.
+>
+> **Момент затяжки · Torque Value**
+> 0.68 n•m [6 in-lb]
+>
+> To set the valves using the feeler gauge method, complete the following steps:
+>
+> 1. Make sure parts are aligned, and squeeze the oil out of the valve and injector train by tightening the adjusting screw.
+> 2. Loosen the adjusting screw at least one revolution.
+> 3. Insert the feeler gauge between the rocker lever socket and the crosshead.
+> 4. Tighten the adjusting screw until the rocker lever touches the feeler gauge.
+>
+> The adjustment screw **must not** turn when the locknut is tightened. Locknut torque can be applied with or without a torque wrench adapter, Part Number 3163196.
+>
+> Tighten the locknut.
+>
+> For the torque method (with adapter), use torque wrench adapter, Part Number ST-669.
+>
+> **Момент затяжки · Torque Value**
+> With Adapter 48 n•m [35 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Without Adapter 60 n•m [44 ft-lb]
+>
+> Attempt to insert a feeler gauge that is 0.03 mm \[0.001 in\] thicker than the valve lash specification. The lash is **not** correct when the thicker gauge will fit.
+>
+> Repeat the adjustment process until the proper clearance is obtained.
+>
+> Use the barring tool to rotate the crankshaft 360 degrees. Use the previous steps and specifications to set the valve lash on the following rocker levers:
+>
+> | Intake | Exhaust |
+> |---|---|
+> | 2R (4) | 5R (10) |
+> | 3R (6) | 6R (12) |
+> | 5R (10) | 7R (14) |
+> | 8R (16) | 8R (16) |
+> | 1L (1) | 2L (3) |
+> | 2L (3) | 4L (7) |
+> | 3L (5) | 6L (11) |
+> | 4L (7) | 8L (15) |
+>
+> Remove the cylinder head protective cover, Part Number 4918282, from the push tube hole.
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Connect the battery cables. See equipment manufacturer service information.
+> - Operate the engine and check for proper operation.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries, to reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3]]
+> - Install the high pressure injector supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Connect the battery cables. See equipment manufacturer service information.
+> - Operate the engine and check for proper operation.

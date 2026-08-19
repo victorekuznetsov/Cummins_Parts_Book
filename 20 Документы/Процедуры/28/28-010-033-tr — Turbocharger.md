@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 195
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-033-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-033-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Turbocharger
@@ -33,1927 +36,3472 @@ tags:
 > **Даты:** изменён 2021-08-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-033-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-033-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-All K38 and K50 engines are turbocharged. All turbochargers on K38 and K50 engines are oil cooled and lubricated. The engine can have two or four turbochargers.
+### Общие сведения
 
-If the engine has four turbochargers, the two that are mounted on the exhaust manifold are the high-pressure turbochargers, and the two that are mounted on the support brackets are the low-pressure turbochargers.
+с форсункой механического управления
 
-The correct turbocharger assembly **must** be installed. Many turbochargers appear the same physically, but contain different internal parts. If the wrong turbocharger assembly is installed, the performance of the engine will be less than specification, or the engine will be damaged due to excessive pressure and temperature in the cylinders.
+Все двигатели K38 и K50 имеют турбонаддув. Все турбокомпрессоры на двигателях К38 и К50 имеют масляное охлаждение и смазку. Двигатель может иметь два или четыре турбокомпрессора.
 
-K38 and K50 engines can contain turbochargers that are manufactured by Holset®, Brown Boveri®, or AiResearch®. In some cases turbochargers from two different vendors are on the same engine. One of the dataplates that is attached to the turbocharger identifies the vendor, the turbocharger model, and the Cummins® part number. Cummins Inc. identifies the turbocharger by the part number, **not** the model nomenclature.
+Если двигатель имеет четыре турбокомпрессора, два, которые установлены на выпускном коллекторе, являются турбокомпрессорами высокого давления, а два, которые установлены на опорных скобках, являются турбокомпрессорами низкого давления.
 
-This manual does **not** contain information to rebuild the turbocharger. See the following turbocharger rebuild manuals:
+Правильный сбор турбокомпрессора ** должен быть установлен. Многие турбокомпрессоры выглядят одинаково физически, но содержат разные внутренние части. Если установлен неправильный агрегат турбокомпрессора, производительность двигателя будет меньше спецификации, или двигатель будет поврежден из-за чрезмерного давления и температуры в цилиндрах.
 
-| Manufacturer | Bulletin | Model Number and Description |
+Двигатели K38 и K50 могут содержать турбокомпрессоры, которые производятся Holset®, Brown Boveri® или AiResearch®. В некоторых случаях турбокомпрессоры от двух разных производителей работают на одном двигателе. Одна из табличек, которая прикреплена к турбокомпрессору, идентифицирует поставщика, модель турбокомпрессора и номер детали Cummins®. Cummins Inc. идентифицирует турбокомпрессор по номеру детали, **не** номенклатуре модели.
+
+В этом руководстве ** не** содержится информация для восстановления турбокомпрессора. Смотрите следующие руководства по восстановлению турбокомпрессора:
+
+| Производитель | Вестник | Номер модели и описание |
 |---|---|---|
-| Holset® | 3810243 | HC5A Turbocharger Shop Manual |
-| Holset® | 3810386 | HT100 Series Turbocharger Shop Manual |
-| Brown Boveri® | 3810235 | Brown Boveri® Turbocharger Manual |
-| AiResearch® | 3379091 | T18A, Turbocharger Rebuild Manual |
+| Holset® | 3810243 | HC5A Turbocharger Shop Manual (англ.) (недоступная ссылка). |
+| Holset® | 3810386 | Руководство по магазину турбокомпрессоров серии HT100 |
+| Коричневый Boveri® | 3810235 | Brown Boveri® Turbocharger Manual |
+| AiResearch® | 3379091 | T18A, Руководство по восстановлению турбокомпрессора |
 
-Two oil supply hoses are installed on K38 and K50 engines. The length of the hose for KT38, KTA38, and KTA50 engines is 1295 mm \[51 in\]. The length of the hose for KTTA38 and KTTA5O engines is 1092 mm \[43 in\].
+На двигателях К38 и К50 установлены два шланга подачи масла. Длина шланга для двигателей KT38, KTA38 и KTA50 составляет 1295 мм[51 дюйма]. Длина шланга для двигателей KTTA38 и KTTA5O составляет 1092 мм[43 дюйма].
 
-The turbocharger oil drain assembly for the K38 is shorter on engines with dry type exhaust manifolds than on engines with wet type exhaust manifolds. The turbocharger oil drain assembly for the K50 is the same as that installed on the K38 with a wet type exhaust manifold.
+Сборка для слива масла турбокомпрессора для K38 короче на двигателях с выхлопными коллекторами сухого типа, чем на двигателях с выхлопными коллекторами мокрого типа. Сборка для слива масла турбокомпрессора для K50 такая же, как и на K38 с мокрым выпускным коллектором.
 
-The method for connecting the turbocharger oil drain to the cylinder block was changed. Engines with an engine serial number (ESN) of 33106693 and greater have a flange and an o-ring seal type connection that is secured with a capscrew. Engines with an ESN of 33106692 and lower have a 90 degree fitting with pipe threads.
+Изменился способ подключения турбокомпрессора к блоку цилиндров. Двигатели с серийным номером двигателя (ESN) 33106693 и выше имеют фланж и соединение типа уплотнения с кольцом, которое закреплено болтами. Двигатели с ESN 33106692 и ниже имеют 90-градусную установку с резьбой труб.
 
-A revised turbocharger compressor wheel was released for KTA50-G engines in September, 1985, ESN First 33110070.
+Пересмотренное колесо компрессора турбокомпрессора было выпущено для двигателей KTA50-G в сентябре 1985 года, ESN First 33110070.
 
-Turbochargers with a hose nipple on the compressor discharge and a hose type air crossover were released for use in production on the KTA38 engines in September 1986, ESN First 33111500.
+Турбокомпрессоры с шланговым соском на разряде компрессора и воздушный кроссовер типа шланга были выпущены для использования в производстве на двигателях KTA38 в сентябре 1986 года, ESN First 33111500.
 
-A chamfer was added to the diffuser plate on HC5A turbochargers to allow oil drain back to the sump in February, 1987, ESN First 33111870.
+В пластину диффузора на турбокомпрессорах HC5A был добавлен шарнир, позволяющий сливать масло обратно в отстойник в феврале 1987 года, ESN First 33111870.
 
-A revised profile, turbocharger mounting gasket was released in August, 1987, ESN First 33112713.
+Пересмотренный профиль, турбокомпрессорная прокладка для монтажа была выпущена в августе 1987 года, ESN First 33112713.
 
-A turbocharger oil drain hose that is manufactured of flexible hose is available for engines built previously with a one or two piece steel tube for the oil drain hose. The two piece steel tube that is connected by a hump hose is available for service on engines that have AiResearch® turbochargers **only**.
+Трубка для слива масла турбокомпрессора, изготовленная из гибкого шланга, доступна для двигателей, построенных ранее с одной или двумя стальными трубками для сливного шланга масла. Двухкомпонентная стальная трубка, соединенная шлангом, доступна для обслуживания на двигателях, которые имеют турбокомпрессоры AiResearch® **только **.
 
-The KTTA50 low-pressure turbocharger oil drain hose and drain location was changed in 1988, to provide a better downhill return to the cylinder block. The revised oil drain hose routing also requires a revised turbocharger support, which is modified to provide clearance for the new oil drain hose and a different clamp to retain the oil drain hose.
+В 1988 году был изменен штанги и место слива турбокомпрессора KTTA50 низкого давления, чтобы обеспечить лучшее возвращение к блоку цилиндров. Пересмотренная маршрутизация шланга для слива масла также требует пересмотренной поддержки турбокомпрессора, которая изменяется для обеспечения зазора нового шланга для слива масла и другого зажима для удержания шланга для слива масла.
 
-The revised hose drains the oil to drillings on the top deck at the front of the right bank and the left of the rear bank of the cylinder block. The holes used are partially covered by the turbocharger support. This support requires modification or replacement.
+Пересмотренный шланг сливает нефть на бурение на верхней палубе в передней части правого берега и левой части задней части блока цилиндров. Используемые отверстия частично покрыты опорой турбокомпрессора. Эта поддержка требует модификации или замены.
 
-The mounting capscrew for the flange and o-ring seal type turbocharger drain hose connection was changed from 0.250 inch -20 UNC to 0.375 inch -16 UNC. The cylinder block with the smaller holes requires a spacer, Part Number 3177195, between the connection flange and the cylinder block at the left bank rear location. If the spacer is **not** installed, an oil leak will result because the o-ring seal will **not** be in the bore correctly.
+Установленные болты для соединения фланца и уплотнения типа уплотнения турбокомпрессора были изменены с 0,250 дюйма -20 UNC на 0,375 дюйма -16 UNC. Блок цилиндров с меньшими отверстиями требует прокладки, номер детали 3177195, между соединительным фланцем и блоком цилиндров в задней части левого берега. Если прокладка ** не установлена, то в результате утечки масла уплотнение кольца ** не будет** в цилиндре.
 
-The flange on the turbocharger oil drain hose that fits to the turbocharger is different for Holset® and AiResearch® turbochargers. The oil drain hose flange is different for the Brown Boveri® type turbocharger. If the model of turbocharger is changed, the oil drain hose **must** be changed.
+Фланш на шланге для слива масла турбокомпрессора, который подходит для турбокомпрессора, отличается для турбокомпрессоров Holset® и AiResearch®. Фланц шланга для слива масла отличается для турбокомпрессора типа Brown Boveri®. Если модель турбокомпрессора изменена, то шланг для слива масла *** должен быть изменен.
 
-A K50 turbine housing with a thickened flange between the capscrew holes to reduce flange distortion was released in February 1988, ESN First 33114833. This is for the K50 pulse exhaust manifolds **only**.
+Корпус турбины К50 с утолщенным фланцем между отверстиями болтов для уменьшения искажения фланца был выпущен в феврале 1988 года ESN First 33114833. Это для коллекторов выхлопных газов К50 **только **.
 
-Longer studs, nuts, and spacers were released for the K50 pulse exhaust manifold in May, 1989, ESN First 33115948.
+Более длинные шпильки, орехи и спейсеры были выпущены для импульсного выхлопного коллектора K50 в мае 1989 года, ESN First 33115948.
 
-The K50 turbocharger mounting flange was completely thickened to improve gasket reliability. The spacer is no longer required for K50 pulse exhaust manifold engines produced in February, 1990, ESN First 33117281.
+Фланец для крепления турбокомпрессора K50 был полностью утолщен для повышения надежности прокладки. Спейсер больше не требуется для двигателей с импульсным выпуском выхлопных коллекторов K50, выпущенных в феврале 1990 года, ESN First 33117281.
 
-The K50 pulse exhaust manifold received a boss to allow use of capscrews in place of studs on engines produced from February, 1990, ESN First 33117392.
+Пульсовый выпускной коллектор К50 получил босса, позволявшего использовать болты вместо шпиль на двигателях, произведенных с февраля 1990 года ESN First 33117392.
 
-A steel oil supply fitting replaced the brass fitting to prevent torque loss/loosening on engines produced from February, 1990, ESN First 33117392.
+Снаряжение для подачи стального масла заменило латунную подголовник для предотвращения потери крутящего момента на двигателях, произведенных с февраля 1990 года, ESN First 33117392.
 
-A steel oil supply fitting replaced the brass fitting to prevent torque loss/loosening on engines produced from September 1990, ESN First 33118322.
+Сборка для подачи стального масла заменила латунную подголовник для предотвращения потери крутящего момента на двигателях, произведенных с сентября 1990 года, ESN First 33118322.
 
-The Holset® HT100 low-pressure turbocharger replaced the Brown Boveri® RR151 turbocharger for C1800B and K2000 engines in January 1991, ESN First 33119163.
+Турбокомпрессор Holset HT100 низкого давления заменил турбокомпрессор Brown Boveri RR151 для двигателей C1800B и K2000 в январе 1991 года, ESN First 33119163.
 
-> [!note] Note · Примечание
-> The HT100 turbocharger can **not** be used to replace the Brown Boveri® Model RR153 that is used on the KTTA50-C1800A engines.
+> [!note] Примечание
+> Турбокомпрессор HT100 может использоваться для замены модели Brown Boveri® RR153, которая используется на двигателях KTTA50-C1800A.
 
-The Holset® HX80 water-cooled turbocharger design was revised in 1997, to allow for the use of GAS fittings on all coolant passage openings in the casting. O-ring seal fittings are less prone to leakage, and are easier to remove and install. The diffuser plate was also changed to a “sunk wheel” design.
+В 1997 году была пересмотрена конструкция турбокомпрессора с водяным охлаждением Holset® HX80, что позволило использовать фурнитуру ГАЗ на всех отверстиях для прохода охлаждающей жидкости в литье. Уплотнительные фитинги с Уплотнительное кольцом менее подвержены утечке и их легче удалить и установить. Диффузорная пластина также была изменена на «затонувшее колесо».
 
-### Preparatory Steps
+### Подготовительные операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-- Disconnect the batteries. Refer to the OEM service manual.
-- Turn the air OFF to the air starter, if equipped, and tag the valve closed. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-- Drain the cooling system to a point below the turbochargers. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
+- Отсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
+- Включите воздух в пусковой механизм, если он оборудован, и пометьте клапан закрытым.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
+- Охлаждение системы сливается до точки ниже турбокомпрессоров.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите линии подачи и возврата охлаждающей жидкости. См. процедуру 010-041 в разделе 10.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-- Disconnect the batteries. Refer to the OEM service manual.
-- Turn the air OFF to the air starter, if equipped, and tag the valve closed. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-- Drain the cooling system to a point below the turbochargers. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
-- Remove the oil supply lines. Refer to Procedure 010-046 in Section 10.
-- Remove the oil drain lines. Refer to Procedure 010-045 in Section 10.
+- Отсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
+- Включите воздух в пусковой механизм, если он оборудован, и пометьте клапан закрытым.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
+- Охлаждение системы сливается до точки ниже турбокомпрессоров.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите линии подачи и возврата охлаждающей жидкости. См. процедуру 010-041 в разделе 10.
+- Удалите линии поставок нефти. См. процедуру 010-046 в разделе 10.
+- Удалите линии отвода нефти. См. процедуру 010-045 в разделе 10.
 
 ![[nobox.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> The turbochargers, mounting hardware, and connections are **not** the same for all models of K38 and K50 engines. Because the parts are different, procedures are given for removal of the following turbochargers.
+> [!note] Примечание
+> Турбокомпрессоры, монтажное оборудование и соединения ** не одинаковы для всех моделей двигателей K38 и K50. Поскольку детали разные, применяются процедуры для удаления следующих турбокомпрессоров.
 
-- KT38, KTA38, and KTA50 with Center Mount Aftercooler
-- KTTA38 Low-Pressure
-- KTTA50 Low-Pressure
-- K2000E Low-Pressure
-- KTTA38, KTTA50, K1500E, K1800E and K2000E High-Pressure, and KT38, KTA38, and KTA50 with Outboard Aftercoolers
+- KT38, KTA38 и KTA50 с центральным охладительным устройством
+- KTTA38 Низкое давление
+- KTTA50 Низкое давление
+- K2000E Низкое давление
+- KTTA38, KTTA50, K1500E, K1800E и K2000E Высокое давление, а также KT38, KTA38 и KTA50 с бортовыми охладителями
 
-> [!note] Note · Примечание
-> The oil inlet and drain hose routing and clamps can be different than shown, depending on the age of the engine.
+> [!note] Примечание
+> Маршрутизация и зажимы впускного и дренажного шланга могут отличаться от показанных, в зависимости от возраста двигателя.
 
-KT38, KTA38, and KTA50 with Center Mount Aftercooler
+KT38, KTA38 и KTA50 с центральным охладительным устройством
 
-> [!note] Note · Примечание
-> The illustrations show a KTA38. The KTA50 has a longer connection between the turbocharger and the aftercooler.
+> [!note] Примечание
+> На рисунках изображен KTA38. KTA50 имеет более длительное соединение между турбокомпрессором и афтеркулером.
 
-Older engines can have a spacer for the capscrew (23). Keep the spacer for future assembly.
+Старые двигатели могут иметь прокладку для болтов (23). Держите пробел для будущей сборки.
 
-Detach the oil drain hose from the cylinder block. Remove the o-ring seal (21).
+Отсоедините шланг для слива масла от блока цилиндров. Удалить уплотнение с кольцом (21).
 
-Discard the seal.
+Отбросьте печать.
 
 ![[tb6hohe.png]]
 
-Detach the oil drain hose from the turbocharger. Remove the gasket (17).
+Отсоедините шланг для слива масла от турбокомпрессора. Удалить прокладку (17).
 
-Discard the gasket.
+Прокладку утилизируйте.
 
-Check the hose (18) for damage. Discard the part if it is damaged.
+Проверить шланг (18) на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohd.png]]
 
-Detach the oil inlet hose (16). Removal of the fitting (15) and the o-ring seal (14) is **not** required unless they are damaged.
+Отсоедините впускной шланг масла (16). Удаление фитинга (15) и уплотнения (14) для кольца ** не требуется, если они не повреждены.
 
-Remove any support clamps from the hose.
+Удалите все зажимы поддержки из шланга.
 
-Remove the hose. Check the hose for damage. Discard the part if it is damaged.
+Уберите шланг. Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6ftha.png]]
 
-Newer engines have a hose and clamps between the turbochargers and air transfer housings.
+Более новые двигатели имеют шланг и зажимы между турбокомпрессорами и корпусами переноса воздуха.
 
-The clamps are special high strength parts.
+Зажимы представляют собой специальные высокопрочные детали.
 
-Loosen the hose clamps (2).
+Устранить зажимы шланга (2).
 
 ![[tb6clha.png]]
 
-Older engines have retaining straps.
+Старые двигатели имеют подпорные ремни.
 
-Remove the capscrews and the retaining straps (10).
+Удалите болты и удерживающие ремни (10).
 
-Check the straps for damage. Discard the part if it is damaged.
+Проверьте ремни на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6clhb.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the four capscrews (8) and nuts (9).
+Удалите четыре болта (8) и гайки (9).
 
-Remove the turbocharger and gasket.
+Удалите турбокомпрессор и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[tb600ha.png]]
 
-On newer engines, remove the clamps and the hose.
+На новых двигателях уберите зажимы и шланг.
 
-Discard the hose.
+Выбросьте шланг.
 
-Check the clamps for damage. Discard the part if it is damaged.
+Проверьте зажимы на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohc.png]]
 
-On older engines, remove the tube (5). Remove the o-ring seals (4).
+На старых двигателях удалите трубку (5). Удалите уплотнения с кольцами (4).
 
-Discard the seals.
+Отбросьте печати.
 
-Remove the dust seal (3).
+Удалить пылевые уплотнения (3).
 
-If the dust seal is hard or soaked with oil, discard the part.
+Если пылевое уплотнение твердое или пропитано маслом, отбросьте часть.
 
 ![[tb6tbha.png]]
 
-KTTA38 Low Pressure:
+KTTA38 Низкое давление:
 
-Remove the oil drain hose (30). Remove the gasket (29) and the o-ring seal (33).
+Удалите шланг для слива масла (30). Удалите прокладку (29) и уплотнение (33).
 
-Discard the gasket and seal.
+Отбросьте прокладку и печать.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohi.png]]
 
-Detach the oil inlet hose (16). The removal of the fitting (15) and the o-ring seal (14) is **not** required unless damaged.
+Отсоедините впускной шланг масла (16). Удаление фитинга (15) и уплотнения (14) для кольца ** не требуется, если только оно не повреждено.
 
-Remove any support clamps from the hose. Remove the hose.
+Удалите все зажимы поддержки из шланга. Уберите шланг.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6ftha.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the four capscrews (27) and the nuts (28).
+Удалите четыре болта (27) и гайки (28).
 
-Remove the turbocharger and the gasket.
+Удалите турбокомпрессор и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[tb600hc.png]]
 
-Loosen the hose clamps (24). Remove the clamps and the hose (23) from the high-pressure turbocharger air connection.
+Устранить зажимы шланга (24). Удалите зажимы и шланг (23) от воздушного соединения турбокомпрессора высокого давления.
 
 ![[tb6hohh.png]]
 
-Remove the air connection (21) from the high-pressure turbocharger. Remove the o-ring seals (19).
+Удалите воздушное соединение (21) из турбокомпрессора высокого давления. Удалить уплотнения с кольцами (19).
 
-Discard the seals.
+Отбросьте печати.
 
-Remove the dust seal (22). If the dust seal is hard or soaked in oil, discard the part.
+Удалить пылевые уплотнения (22). Если пылевое уплотнение твердое или пропитано маслом, отбросьте часть.
 
 ![[tb6cohc.png]]
 
-Remove the four capscrews (12) and nuts (18). The heavy washers (13) and capscrews are special heat resistant parts.
+Удалите четыре болта (12) и гайки (18). Тяжелые шайбы (13) и болты являются специальными термостойкими частями.
 
-Remove the exhaust connection (11) and the exhaust outlet pipe (10).
+Удалите соединение (11) выхлопных газов и выпускную трубу (10).
 
 ![[tb6cohb.png]]
 
-Remove the v-band clamp (8) and the exhaust outlet connection (9).
+Удалите зажим v-диапазона (8) и соединение выпускного отверстия выхлопных газов (9).
 
 ![[tb6coha.png]]
 
-Remove the six capscrews (7). The heavy flat washers (5) are special. Remove the support plate (4).
+Удалите шесть болтов (7). Тяжелые плоские шайбы (5) являются особенными. Удалите опорную пластину (4).
 
 ![[tb6bkha.png]]
 
-Remove the socket head capscrew (3). Remove the turbocharger support legs (1).
+Удалите затворы головки сокета (3). Удалите ноги поддержки турбокомпрессора (1).
 
 ![[tb6suha.png]]
 
-KTTA50 Low-Pressure
+KTTA50 Низкое давление
 
-The Brown Boveri®, Model RR151, turbochargers contain metric fasteners for the oil connection plates.
+Коричневый Boveri®, модель RR151, турбокомпрессоры содержат метрические крепежи для масляных соединительных пластин.
 
-Remove the oil drain hose (48).
+Удалите шланг для слива масла (48).
 
-Remove the gasket (47) and o-ring seal (51).
+Удалите прокладку (47) и уплотнение о-кольца (51).
 
-Discard the gasket and seal.
+Отбросьте прокладку и печать.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohk.png]]
 
-Some Brown Boveri® turbochargers do **not** contain the adapter plates for the oil inlet.
+Некоторые турбокомпрессоры Brown Boveri® содержат **не** адаптеры для впуска масла.
 
-Detach the oil inlet hose. The adapter plates (44) and fittings do **not** require removal.
+Отсоедините впускной шланг масла. Пластины (44) адаптера и фитинги ** не требуют удаления.
 
-Remove any support clamps. Remove the hose.
+Удалите любые зажимы поддержки. Уберите шланг.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohj.png]]
 
-Remove the four capscrews (40) and nuts (42). Remove the gasket.
+Удалите четыре болта (40) и гайки (42). Удали прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[tb6cshc.png]]
 
-Remove the two capscrews (35) that hold the exhaust side of the turbocharger to the support bracket.
+Удалите два болта (35), которые удерживают выхлопную сторону турбокомпрессора в опорной кронштейн.
 
 ![[tb6cshb.png]]
 
-Remove the two capscrews (31) and nuts (34) that hold the intake support bracket to the turbocharger support bracket.
+Удалите два болта (31) и гайки (34), которые удерживают впускную опору кронштейна поддержки турбокомпрессора.
 
 ![[tb6csha.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the low-pressure turbocharger (16).
+Удалите турбокомпрессор низкого давления (16).
 
 ![[tb600hd.png]]
 
-Loosen the hose clamps (12). Pull the intake connection pipe (15) from the high-pressure turbocharger. Remove and discard the o-ring seals (13) and the hose (11). Remove the dust seal.
+Устранить зажимы шланга (12). Вытащите трубу (15) впускного соединения из турбокомпрессора высокого давления. Удалите и отбросьте уплотнения (13) и шланг (11). Удалите пылевую печать.
 
-If the dust seal is hard or soaked with oil, discard the part.
+Если пылевое уплотнение твердое или пропитано маслом, отбросьте часть.
 
 ![[tb6cohf.png]]
 
-Remove the exhaust connection (11) and outlet pipe (10).
+Удалите выхлопное соединение (11) и выпускную трубу (10).
 
 ![[tb6cohe.png]]
 
-Remove the v-band clamp (8) and the exhaust outlet connection (9).
+Удалите зажим v-диапазона (8) и соединение выпускного отверстия выхлопных газов (9).
 
 ![[tb6cohd.png]]
 
-Remove the six capscrews (7). Remove the turbocharger support bracket (4).
+Удалите шесть болтов (7). Снимите опорный кронштейн турбокомпрессора (4).
 
 ![[tb6suhb.png]]
 
-Remove the socket head capscrews (3). Remove the turbocharger bracket support legs (1).
+Удалите затворы головки сокета (3). Удалите ноги поддержки турбокомпрессора (1).
 
 ![[tb6suha.png]]
 
-K2000E Low-Pressure:
+K2000E Низкое давление:
 
-Remove the oil drain hose (60). Remove the gasket (59) and o-ring seal (63).
+Удалите шланг для слива масла (60). Удалите прокладку (59) и уплотнение с кольцом (63).
 
-Discard the gasket and seal.
+Отбросьте прокладку и печать.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[rd6hoha.png]]
 
-Detach the oil inlet hose. Removal of the fitting, plate, (56) and gasket (55) is **not** required.
+Отсоедините впускной шланг масла. Удаление фитинга, пластины (56) и прокладки (55) не требуется.
 
-Remove any support clamps from the hose. Remove the hose.
+Удалите все зажимы поддержки из шланга. Уберите шланг.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohj.png]]
 
-Remove the heat shield (blanket) from the interstage air hose.
+Удалите теплозащитный экран (одеяло) из межступенчатого воздушного шланга.
 
 ![[tb6htwa.png]]
 
-Loosen the two T-bolt clamps (45) on the air intake pipe (47) and the compressor inlet.
+Устраните два зажима T-bolt (45) на воздухозаборной трубе (47) и входе компрессора.
 
 ![[ci6claa.png]]
 
-Remove the four capscrews (49) and nuts (52) that hold the air intake pipe (47) to the turbocharger compressor outlet.
+Удалите четыре болта (49) и гайки (52), которые удерживают воздухозаборную трубу (47) на выходе компрессора турбокомпрессора.
 
-Remove the air intake pipe (47).
+Удалите трубу воздухозаборника (47).
 
-Check the pipe for damage. Discard the part if it is damaged.
+Проверьте трубу на предмет повреждения. Откажитесь от части, если она повреждена.
 
 ![[ci6bdaa.png]]
 
-Loosen the v-band clamp (8).
+Устранить зажим v-диапазона (8).
 
 ![[tb6clwa.png]]
 
-Remove the four capscrews (12) and nuts (14) that hold the two exhaust connections (9 and 11).
+Удалите четыре болта (12) и гайки (14), которые удерживают два выхлопных соединения (9 и 11).
 
 ![[tb6csla.png]]
 
-Remove the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+Удалите четыре болта (40) и гайки (42), которые удерживают соединение выхлопных газов с корпусом турбины.
 
-Remove the exhaust connection.
+Удалите выхлопное соединение.
 
 ![[tb6bkhc.png]]
 
-Remove the two capscrews (31) and nuts (25) that hold the bracket (32) to the connection (26).
+Удалите два болта (31) и гайки (25), которые удерживают скобку (32) до соединения (26).
 
 ![[tb6csui.png]]
 
-Remove the two capscrews (43) and the nuts (34) that hold the bracket (32) to the support bracket (4).
+Удалите два болта (43) и гайки (34), которые удерживают скобку (32), в опорную скобку (4).
 
 ![[tb6csuh.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the two capscrews (35) and nuts (38) that hold the turbocharger exhaust outlet connection to the bracket.
+Удалите два болта (35) и гайки (38), которые удерживают выходное отверстие турбокомпрессора к скобке.
 
-Remove the turbocharger.
+Удалите турбокомпрессор.
 
 ![[tb6csug.png]]
 
-KTTA38, KTTA50, K1500E, K1800E and K2000E High-Pressure, and KT38, KTA38, and KTA50 with Outboard Aftercoolers
+KTTA38, KTTA50, K1500E, K1800E и K2000E Высокое давление, а также KT38, KTA38 и KTA50 с бортовыми охладителями
 
-If the engine being serviced is a KT38, KTA38, or KTA50, record the direction of the turbocharger exhaust outlet and mark the exhaust manifolds for location. This will aid the assembly process as the exhaust can be either front out or rear out.
+Если обслуживаемый двигатель представляет собой KT38, KTA38 или KTA50, запишите направление выпуска турбокомпрессора и пометьте выпускные коллекторы для определения местоположения. Это поможет процессу сборки, так как выхлоп может быть либо спереди, либо сзади.
 
 ![[nobox.png]]
 
-Detach the oil drain hose from the cylinder block. Remove the o-ring seal (9).
+Отсоедините шланг для слива масла от блока цилиндров. Удалить уплотнение с кольцом (9).
 
-Discard the o-ring seal.
+Отбросьте уплотнение.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohg.png]]
 
-Detach the oil drain hose from the turbocharger. Remove any support clamps and the hose. Remove the gasket (5).
+Отсоедините шланг для слива масла от турбокомпрессора. Удалите любые опорные зажимы и шланг. Удалить прокладку (5).
 
-Discard the gasket.
+Прокладку утилизируйте.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6hohf.png]]
 
-Removal of the fitting (15) and the o-ring (14) is **not** required.
+Удаление фитинга (15) и кольца (14) не требуется.
 
-Detach the oil inlet hose. Remove any support clamps. Remove the hose.
+Отсоедините впускной шланг масла. Удалите любые зажимы поддержки. Уберите шланг.
 
-Check the hose for damage. Discard the part if it is damaged.
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[tb6ftha.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the four capscrews (3) and the nuts (4). Remove the turbocharger and gasket.
+Удалите четыре болта (3) и гайки (4). Удалите турбокомпрессор и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[tb600hb.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the low-pressure turbocharger air intake and bracket.
+Снимите воздухозаборник турбокомпрессора низкого давления и скобку.
 
 ![[10600431.png]]
 
-Remove the low-pressure turbocharger exhaust adapter and bracket.
+Удалите адаптер выхлопных газов турбокомпрессора низкого давления и скобку.
 
 ![[10600441.png]]
 
-Remove the eight nuts, plain washers, nuts, capscrews and p-clips from the air transfer connections.
+Удалите восемь орехов, простые шайбы, гайки, болты и p-клипы из соединений переноса воздуха.
 
-Remove the air transfer connections and discard the gaskets.
+Удалите соединения для переноса воздуха и отбросьте прокладки.
 
 ![[10600432.png]]
 
-> [!note] Note · Примечание
-> Note the orientation of the capscrews and nuts in the transfer tube prior to removal. The capscrews **must** be installed in the same orientation during installation.
+> [!note] Примечание
+> Обратите внимание на ориентацию болтов и гаек в передающей трубке перед удалением. Затворы ** должны быть установлены в той же ориентации во время установки.
 
-Remove the eight nuts, plain washers, and capscrews, and remove the air transfer piping. Discard the gaskets.
+Удалите восемь орехов, простые шайбы и болты, и удалите трубопроводы для переноса воздуха. Отбросьте прокладки.
 
 ![[10600433.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the low-pressure turbochargers.
+Удалите турбокомпрессоры низкого давления.
 
 ![[10600437.png]]
 
-Loosen and remove the clamps and hoses connecting the turbochargers to the intake manifold.
+Разблокируйте и удалите зажимы и шланги, соединяющие турбокомпрессоры с впускным коллектором.
 
 ![[10600434.png]]
 
-Remove the clamps from the high-pressure turbocharger and air transfer connection.
+Удалите зажимы из турбокомпрессора высокого давления и соединения передачи воздуха.
 
-Remove the air transfer from the high-pressure turbocharger.
+Удалите перенос воздуха с турбокомпрессора высокого давления.
 
 ![[10600435.png]]
 
-Remove the four capscrews, nuts, and washers and remove the exhaust outlet connection from the high-pressure turbocharger.
+Удалите четыре болта, гайки и шайбы и удалите выходное соединение выхлопных газов из турбокомпрессора высокого давления.
 
 ![[10600441.png]]
 
-Remove the exhaust outlet clamp and outlet connection from the turbocharger.
+Удалите зажим выпускного отверстия и выходное соединение с турбокомпрессора.
 
 ![[10600434.png]]
 
-Remove the four mounting capscrews, nuts and washers from each high-pressure turbocharger.
+Удалите четыре крепежных болта, гайки и шайбы с каждого турбокомпрессора высокого давления.
 
 ![[10600438.png]]
 
-Gas Compression
+Сжатие газа
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the mounting capscrews and lock washers.
+Удалите крепежные болты и шайбы.
 
-Remove the turbocharger and gasket.
+Удалите турбокомпрессор и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[10600560.png]]
 
-### Clean
+### Очистка
 
-> [!warning] CAUTION · Осторожно
-> Tape or plug all openings to prevent solvent or steam from entering the oil cavities in the turbocharger.
+> [!warning] ОСТОРОЖНО
+> Заклейте или заглуните все отверстия, чтобы предотвратить попадание растворителя или пара в нефтяные полости в турбокомпрессоре.
 
-This procedure applies to all models of turbocharger on K38 and K50 engines. See General Information at the beginning of this section.
+Данная процедура применяется ко всем моделям турбокомпрессоров на двигателях К38 и К50. См. общую информацию в начале этого раздела.
 
 ![[tb8bdea.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Use solvent or steam. Clean the exterior of the turbocharger.
+Используйте растворитель или пар. Очистите внешний вид турбокомпрессора.
 
 ![[tb8bdeb.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the turbine and compressor wheels for fretting and broken vanes.
+Осмотрите турбинные и компрессорные колеса на фреттинг и сломанные лопасти.
 
 ![[tb8hssb.png]]
 
-Use a dial depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+Используйте датчик глубины циферблата, номер детали ST-537 или индикатор циферблата для измерения осевой движения (сквозной).
 
-| Compressor Impeller Axial End Clearance |  |  |  |
+| Компрессор Impeller Axial End Clearance |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HC5, HC5A, (127 mm wheel) | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HC5, HC5A, (130 mm wheel) | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HX80/HX85 | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HX82/HX83 | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HE800 | 0.035 | MIN | 0.001 |
-|  | 0.115 | MAX | 0.005 |
-| Holset® HT100 | 0.050 | MIN | 0.002 |
-|  | 0.152 | MAX | 0.006 |
+|  | мм |  | в |
+| Holset® HC5, HC5A (127 мм колесо) | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HC5, HC5A, (130 мм колесо) | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HX80/HX85 | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HX82/HX83 | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Холсит HE800 | 0.035 | Мин | 0.001 |
+|  | 0.115 | Макс | 0.005 |
+| Холсат HT100 | 0.050 | Мин | 0.002 |
+|  | 0.152 | Макс | 0.006 |
 
-Make sure the movement is within the MIN/MAX Total Indicator Readings (TIR) values shown above.
+Убедитесь, что движение находится в пределах значений MIN/MAX Total Indicator Readings (TIR), показанных выше.
 
-> [!note] Note · Примечание
-> If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. Reference the HC5A Turbocharger Shop Manual, Bulletin 3810243, or the HT100 Series Turbocharger Shop Manual, Bulletin 3810386, for rebuild instructions.
+> [!note] Примечание
+> Если конечный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®. Ссылка на руководство по магазину турбокомпрессоров HC5A, вестник 3810243 или руководство по магазину турбокомпрессоров серии HT100, вестник 3810386, для инструкций по восстановлению.
 
 ![[tb800jb.png]]
 
-Measure the radial clearance (side-to-side) at the compressor nose, using a dial gauge.
+Измерьте радиальный зазор (бок о бок) на носу компрессора, используя циферблатный калибр.
 
-| Compressor Impeller Radial Clearance |  |  |  |
+| Компрессор Имперлер Радиальный зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HC5, HC5A, (127 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.686 | MAX | 0.027 |
-| Holset® HC5, HC5A, (130 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.762 | MAX | 0.03 |
-| Holset® HX80/HX85 | 0.254 | MIN | 0.01 |
-|  | 0.787 | MAX | 0.031 |
-| Holset® HX82/HX83 | 0.254 | MIN | 0.010 |
-|  | 0.787 | MAX | 0.031 |
-| Holset® HE800 | 0.254 | MIN | 0.010 |
-|  | 0.787 | MAX | 0.031 |
-| Holset® HT100 | 0.254 | MIN | 0.01 |
-|  | 0.813 | MAX | 0.032 |
+|  | мм |  | в |
+| Holset® HC5, HC5A (127 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.686 | Макс | 0.027 |
+| Holset® HC5, HC5A, (130 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.762 | Макс | 0.03 |
+| Holset® HX80/HX85 | 0.254 | Мин | 0.01 |
+|  | 0.787 | Макс | 0.031 |
+| Holset® HX82/HX83 | 0.254 | Мин | 0.010 |
+|  | 0.787 | Макс | 0.031 |
+| Холсит HE800 | 0.254 | Мин | 0.010 |
+|  | 0.787 | Макс | 0.031 |
+| Холсат HT100 | 0.254 | Мин | 0.01 |
+|  | 0.813 | Макс | 0.032 |
 
-Make sure the movement is within the MIN/MAX TIR values shown above.
+Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
-> [!note] Note · Примечание
-> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See HC5A Turbo Shop Manual, Bulletin 3810243, or HT100 Series Turbocharger Shop Manual, Bulletin 3810386, for rebuild instructions.
+> [!note] Примечание
+> Если зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®. См. HC5A Turbo Shop Manual, Bulletin 3810243, или HT100 Series Turbocharger Shop Manual, Bulletin 3810386, для инструкций по восстановлению.
 
 ![[10600221.png]]
 
-> [!note] Note · Примечание
-> Check the model of turbocharger installed on the engine, this is for: BrownBoveri®, Model RR-153 and RR-151.
+> [!note] Примечание
+> Проверьте модель турбокомпрессора, установленного на двигателе, это для: BrownBoveri®, Model RR-153 и RR-151.
 
-To measure axial clearance, use Part Number ST-537, Dial Depth Gauge, or a dial indicator. Measure the axial motion.
+Для измерения осевого зазора используйте номер детали ST-537, калибр глубины циферблата или индикатор циферблата. Измерьте осевое движение.
 
-| BBC (RR-151) and (RR-153) End Clearance |  |  |
+| BBC (RR-151) и (RR-153) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.09 | MIN | 0.004 |
-| 0.13 | MAX | 0.005 |
+| мм |  | в |
+| 0.09 | Мин | 0.004 |
+| 0.13 | Макс | 0.005 |
 
-If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for rebuild instructions. Reference the BrownBoveri® Turbocharger Manual, Bulletin 3810235.
+Если конечный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Используйте следующее руководство для инструкций по восстановлению. Ссылка на Руководство по турбокомпрессорам BrownBoveri®, Бюллетень 3810235.
 
 ![[tb800jb.png]]
 
-> [!note] Note · Примечание
-> The compressor and turbine casings do **not** require removal to measure the radial clearance. The parts shown are removed for clarity.
+> [!note] Примечание
+> Корпуса компрессора и турбины ** не** требуют удаления для измерения радиального зазора. Показанные части удаляются для ясности.
 
-Use a feeler gauge to measure the radial clearance.
+Используйте калибр для измерения радиального зазора.
 
-| BBC (RR-151) and (RR-153) Bearing Radial Clearance |  |  |  |  |
+| BBC (RR-151) и (RR-153) - Радиальный допуск |  |  |  |  |
 |---|---|---|---|---|
-|  | mm |  | in |  |
-| RR-153 |  | 0.55 | MAX | 0.021 |
-| RR-151 |  | 0.75 | MAX | 0.030 |
+|  | мм |  | в |  |
+| RR-153 |  | 0.55 | Макс | 0.021 |
+| RR-151 |  | 0.75 | Макс | 0.030 |
 
-If the radial clearance exceeds the specification, the part **must** be replaced or rebuilt. Use the following manual for rebuild instructions. Reference the BrownBoveri® Turbocharger Manual, Bulletin 3810235.
+Если радиальный зазор превышает спецификацию, деталь *** должна быть заменена или перестроена. Используйте следующее руководство для инструкций по восстановлению. Ссылка на Руководство по турбокомпрессорам BrownBoveri®, Бюллетень 3810235.
 
 ![[tb800ja.png]]
 
-> [!note] Note · Примечание
-> Check the model of turbocharger installed on the engine, this is for: AiResearch™, Model T-18A.
+> [!note] Примечание
+> Проверьте модель турбокомпрессора, установленного на двигателе, это для: AiResearchTM, Модель Т-18А.
 
-Use a dial indicator to measure the end clearance.
+Используйте индикатор циферблата для измерения конечного зазора.
 
-| AiResearch™ T-18A End Clearance |  |  |
+| AiResearchTM T-18A Окончательный допуск |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.10 | MIN | 0.004 |
-| 0.23 | MAX | 0.009 |
+| мм |  | в |
+| 0.10 | Мин | 0.004 |
+| 0.23 | Макс | 0.009 |
 
-If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+Если конечный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Используйте следующее руководство для получения информации о инструкциях по восстановлению. Ссылка на Руководство по магазину компонентов турбокомпрессора, Бюллетень 3379091.
 
 ![[tb800jb.png]]
 
-AiResearch® Method One:
+Метод AiResearch® One:
 
-Check the radial clearance of both the compressor impeller and turbine wheel.
+Проверьте радиальный зазор как крыльца компрессора, так и колеса турбины.
 
-Use your hand to push the compressor impeller or turbine wheel toward the housing.
+Используйте руку, чтобы подтолкнуть колесо компрессора или турбины к корпусу.
 
-Use a feeler gauge that is **not** more than 13 mm \[0.5 in\] wide. Measure the clearance between the impeller and the housing at the minimum clearance point.
+Используйте калибр для считывания, который ** не ** более 13 мм \[0,5 дюйма \] в ширину. Измерить зазор между рабочим колесом и корпусом в минимальной точке зазора.
 
-| AiResearch® T-18A Impeller and Turbine Wheel Radial Clearance |  |  |
+| AiResearch® T-18A Импеллер и Радиальный зазор колеса турбины |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.18 | MAX | 0.007 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.18 | Макс | 0.007 |
 
-If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+Если зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Используйте следующее руководство для получения информации о инструкциях по восстановлению. Ссылка на Руководство по магазину компонентов турбокомпрессора, Бюллетень 3379091.
 
 ![[tb800ja.png]]
 
-AiResearch® Method Two:
+Метод AiResearch® Второй:
 
-To measure the direct bearing radial clearance on the T-18A, place a dial indicator through the oil drain hole as illustrated. Be sure the indicator touches the highest part of the shaft.
+Для измерения прямого радиального зазора подшипника на T-18A поместите индикатор циферблата через отверстие для слива масла, как показано на рисунке. Убедитесь, что индикатор касается самой высокой части вала.
 
-Move the turbine and compressor wheels by hand to the upper and lower limits.
+Переместить турбину и компрессорные колеса вручную в верхние и нижние пределы.
 
 | AiResearch® T-18A Bearing Radial Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.20 | MIN | 0.008 |
-| 0.46 | MAX | 0.018 |
+| мм |  | в |
+| 0.20 | Мин | 0.008 |
+| 0.46 | Макс | 0.018 |
 
-If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+Если зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Используйте следующее руководство для получения информации о инструкциях по восстановлению. Ссылка на Руководство по магазину компонентов турбокомпрессора, Бюллетень 3379091.
 
 ![[tb800jc.png]]
 
-All models:
+Все модели:
 
-After the turbocharger has been checked:
+После того, как турбокомпрессор был проверен:
 
-- Lubricate the bearings with engine oil through the oil inlet fitting
-- Cover all openings to prevent entry of dirt until installed on the engine.
+- Смазать подшипники моторным маслом через масляную впускную установку
+- Покрыть все отверстия, чтобы предотвратить попадание грязи до установки на двигатель.
 
 ![[nobox.png]]
 
-> [!note] Note · Примечание
-> Check the model of the turbocharger installed on the engine. This is for: Honeywell®, all models.
+> [!note] Примечание
+> Проверьте модель турбокомпрессора, установленного на двигателе. Это для: Honeywell®, все модели.
 
-Specifications for checking radial and axial clearance are **not** available.
+Технические характеристики для проверки радиального и осевого зазора ** не доступны.
 
-Inspect for signs of contact between the turbocharger vanes and housing.
+Осмотрите признаки контакта между фургонами турбокомпрессора и корпусом.
 
-Check the bearing system for wear:
+Проверьте систему подшипников для износа:
 
-- Hold both ends of the turbocharger shaft and rotate the shaft while applying pressure down on the compressor side and up on the turbine side. It should rotate freely and there should be **no** contact between the compressor wheel and the compressor housing, or the turbine wheel and the turbine housing.
+- Удерживайте оба конца вала турбокомпрессора и вращайте вал, прикладывая давление вниз на сторону компрессора и вверх на сторону турбины. Он должен свободно вращаться и должен быть **no** контакт между колесом компрессора и корпусом компрессора или колесом турбины и корпусом турбины.
 
-Replace the turbocharger if any malfunctions are identified.
+Замените турбокомпрессор, если выявлены какие-либо неисправности.
 
 ![[10400268.png]]
 
-### Disassemble
+### Разборка
 
-Remove the o-ring and discard.
+Удалите кольцо и выбросьте.
 
 ![[10400244.png]]
 
-If the compressor cover has an inlet baffle it can be removed with a flat tip screwdriver. Pry the retaining ring up and remove the retaining ring.
+Если крышка компрессора имеет впускную перегородку, ее можно снять плоской наконечной отверткой. Попросите удерживающее кольцо поднять и удалить удерживающее кольцо.
 
 ![[10400245.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use caution in handling the turbine blades. The turbine blades can be easily damaged when the turbine housing is removed.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при обращении с лопастями турбины. Лопасти турбины могут быть легко повреждены при удалении корпуса турбины.
 
-Remove the turbine housing by bending the lock plate tabs away from the capscrew heads.
+Удалите корпус турбины, сгибая вкладки блокировки от головок болтов.
 
-Remove the capscrews.
+Удалите болты.
 
 ![[10400016.png]]
 
-Make sure the turbine wheel rotates freely inside the turbine housing. Tap on the turbine housing with a mallet to separate the turbine housing from the bearing housing.
+Убедитесь, что колесо турбины свободно вращается внутри корпуса турбины. Нажмите на корпус турбины с помощью молотка, чтобы отделить корпус турбины от корпуса подшипника.
 
 ![[10400246.png]]
 
-Remove the oil supply fittings and the coolant lines from the center housing assembly.
+Удалите фитинги подачи масла и линии охлаждающей жидкости из центрального корпуса.
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
 ![[10400247.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the compressor cover and turbine housing in parts cleaner to loosen deposits.
+Очистить крышку компрессора и корпус турбины на запчасти чище, чтобы ослабить отложения.
 
 ![[10400248.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Dry the compressor housing with compressed air.
+Высушить корпус компрессора сжатым воздухом.
 
 ![[10400249.png]]
 
-Use a soft bristle brush to remove heavy scale deposits.
+Используйте мягкую щетку для удаления тяжелых отложений.
 
-Wash and dry the parts after brushing.
+Вымыть и высушить детали после чистки.
 
 ![[10400250.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use compressed air to dry or spin the turbine wheel as this can cause damage to the turbocharger bearing system.
+> [!warning] ОСТОРОЖНО
+> Не используйте сжатый воздух для высыхания или вращения колеса турбины, так как это может привести к повреждению системы подшипников турбокомпрессора.
 
-If chemical and brush cleaning is **not** effective, bead blast with plastic abrasive media, Part Number 3822735, or equivalent.
+Если химические и чистящие средства для щетки не эффективны, то бусина взрывается с помощью пластиковых абразивных сред, номер детали 3822735 или эквивалент.
 
-Wash and dry parts after bead blasting.
+Мытье и сухие части после взрыва бусины.
 
-The center housing rotating assembly can be cleaned with electrical contact cleaner, Part Number 3824510, or equivalent.
+Вращающийся центральный корпус может быть очищен электрическим контактным очистителем, Частью № 3824510 или эквивалентом.
 
-Do **not** spray contact cleaner into the oil and coolant ports.
+**не** контактный очиститель для распыления в порты масла и охлаждающей жидкости.
 
 ![[10400251.png]]
 
-Inspect the compressor cover for cracks, dents, and other damage.
+Осмотрите крышку компрессора на наличие трещин, вмятин и других повреждений.
 
-Inspect the inside of the compressor cover for signs of scoring or damage from the compressor wheel. Replace the compressor cover, if damaged.
+Осмотрите внутреннюю часть крышки компрессора на наличие признаков забивания или повреждения от колеса компрессора. Замените крышку компрессора, если она повреждена.
 
 ![[10400252.png]]
 
-Inspect the turbine housing for cracks and damage. Cracks larger than 10 mm \[0.39 in\] can cause an exhaust leak. Replace the turbine housing if damage is found.
+Осмотрите корпус турбины на наличие трещин и повреждений. Трещины размером более 10 мм \[0,39 дюйма \] могут вызвать утечку выхлопных газов. Замените корпус турбины, если обнаружены повреждения.
 
-Follow the criteria shown in the illustration.
+Следуйте критериям, показанным на иллюстрации.
 
 ![[10400253.png]]
 
-Minor cracks in the turbine housing internal wall, where exhaust gas flow enters the turbine wheel, is an acceptable condition. The turbine housing can be reused.
+Незначительные трещины во внутренней стенке корпуса турбины, где поток выхлопных газов поступает в колесо турбины, являются приемлемым условием. Корпус турбины можно использовать повторно.
 
 ![[10400254.png]]
 
-Inspect the turbine housing for signs of contact with the turbine wheel. Damaged turbine housings **must** be replaced.
+Осмотрите корпус турбины на наличие признаков контакта с колесом турбины. Поврежденные корпуса турбины** должны быть заменены.
 
 ![[10400255.png]]
 
-Inspect the center housing rotating assembly for any signs of cracks, damaged threads, or other damage.
+Осмотрите центральный корпус вращающегося узла на наличие любых признаков трещин, поврежденных резьб или других повреждений.
 
-Rotate the turbine wheel by hand to make sure it spins freely.
+Поверните колесо турбины вручную, чтобы убедиться, что оно вращается свободно.
 
-Replace the center housing rotating assembly if it is damaged or does **not** spin freely.
+Замените центральный корпус вращающейся сборки, если он поврежден или не вращается свободно.
 
 ![[10400256.png]]
 
-Inspect the compressor wheel for damage, broken, or bent blades.
+Осмотрите колесо компрессора на предмет повреждений, сломанных или согнутых лопастей.
 
-Do **not** attempt to repair or straighten the blades. Instead, replace the center housing rotating assembly.
+Не пытайтесь исправить или выпрямить лезвия. Вместо этого замените центральный корпус вращающейся сборки.
 
 ![[10400257.png]]
 
-Inspect the turbine wheel for damaged, broken, or bent blades.
+Осмотрите колесо турбины на наличие поврежденных, сломанных или согнутых лопастей.
 
-Do **not** attempt to repair or straighten the blades. Instead, replace the center housing rotating assembly.
+Не пытайтесь исправить или выпрямить лезвия. Вместо этого замените центральный корпус вращающейся сборки.
 
 ![[10400258.png]]
 
-### Measure
+### Измерение
 
-Use a dial depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+Используйте датчик глубины циферблата, номер детали ST-537 или индикатор циферблата для измерения осевой движения (сквозной).
 
-| Compressor Impeller Axial End Clearance |  |  |  |
+| Компрессор Impeller Axial End Clearance |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HC5, HC5A, (127 mm wheel) | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HC5, HC5A, (130 mm wheel) | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HX80/HX85 | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HT100 | 0.050 | MIN | 0.002 |
-|  | 0.152 | MAX | 0.006 |
+|  | мм |  | в |
+| Holset® HC5, HC5A (127 мм колесо) | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HC5, HC5A, (130 мм колесо) | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HX80/HX85 | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Холсат HT100 | 0.050 | Мин | 0.002 |
+|  | 0.152 | Макс | 0.006 |
 
-Make sure the movement is within the MIN/MAX TIR values shown above.
+Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
-Replace the center housing rotating assembly if the axial clearance is **not** within specifications.
+Заменить центральный корпус вращающейся сборки, если осевой зазор ** не** в пределах спецификаций.
 
 ![[10400259.png]]
 
-Measure the radial clearance (side-to-side) at the compressor nose, using a dial gauge.
+Измерьте радиальный зазор (бок о бок) на носу компрессора, используя циферблатный калибр.
 
-| Compressor Impeller Radial Clearance |  |  |  |
+| Компрессор Имперлер Радиальный зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HC5, HC5A, (127 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.686 | MAX | 0.027 |
-| Holset® HC5, HC5A, (130 mm wheel) | 0.228 | MIN | 0.009 |
-|  | 0.762 | MAX | 0.03 |
-| Holset® HX80/HX85 | 0.254 | MIN | 0.01 |
-|  | 0.787 | MAX | 0.031 |
-| Holset® HT100 | 0.254 | MIN | 0.01 |
-|  | 0.813 | MAX | 0.032 |
+|  | мм |  | в |
+| Holset® HC5, HC5A (127 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.686 | Макс | 0.027 |
+| Holset® HC5, HC5A, (130 мм колесо) | 0.228 | Мин | 0.009 |
+|  | 0.762 | Макс | 0.03 |
+| Holset® HX80/HX85 | 0.254 | Мин | 0.01 |
+|  | 0.787 | Макс | 0.031 |
+| Холсат HT100 | 0.254 | Мин | 0.01 |
+|  | 0.813 | Макс | 0.032 |
 
-Make sure the movement is within the MIN/MAX TIR values shown above.
+Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
-Replace the center housing rotating assembly if the radial clearance is **not** within specifications.
+Заменить центральный корпус вращающейся сборкой, если радиальный зазор ** не** в пределах спецификаций.
 
 ![[10400260.png]]
 
-### Assemble
+### Сборка
 
-> [!warning] CAUTION · Осторожно
-> Use caution when handling the turbine blades. The turbine blades can be easily damaged when installing in the turbine housing.
+> [!warning] ОСТОРОЖНО
+> Будьте осторожны при обращении с лопастями турбины. Лопасти турбины могут быть легко повреждены при установке в корпус турбины.
 
-Assemble the center housing rotating assembly on to the turbine housing.
+Собрать центральный корпус вращающейся сборки на корпус турбины.
 
 ![[10400261.png]]
 
-Lubricate the threads of the new capscrews with anti-seize compound, Part Number 3824732, or equivalent.
+Смазать резьбу новых болтов антисептиковым соединением, Номер детали 3824732, или эквивалентом.
 
-Install the capscrews, with new lock plates, to the turbocharger turbine housing.
+Установите болты с новыми блокирующими пластинами в корпус турбины турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 20.3 n•m [180 in-lb]
+> [!tip] Момент затяжки
+> 20.3 Н·м [180 фунт-дюйм]
 
 ![[10400262.png]]
 
-Use a hammer and punch to fold the locking plate onto the flat of the capscrew, to prevent loosening.
+Используйте молоток и удар, чтобы сложить запирающую пластину на плоскость болтов, чтобы предотвратить рыхление.
 
 ![[10400263.png]]
 
-Assemble the inlet baffle into the compressor cover and secure with a retaining ring. Hold one end of the retaining ring in the groove. Press the remainder of the retaining ring into position. Use a flat tip screwdriver to make sure the retaining ring is correctly seated in the compressor cover groove.
+Соберите впускную перегородку в крышку компрессора и закрепите удерживающим кольцом. Держите один конец удерживающего кольца в канавке. Нажмите остаток удерживающего кольца в положение. Используйте плоскую отвертку для наконечника, чтобы убедиться, что удерживающее кольцо правильно расположено в канавке крышки компрессора.
 
 ![[10400264.png]]
 
-> [!note] Note · Примечание
-> The HX83 Turbocharger uses a titanium compressor wheel. The edge of the wheel is very sharp. Handle the compressor wheel with care.
+> [!note] Примечание
+> Турбокомпрессор HX83 использует титановое компрессорное колесо. Край колеса очень острый. Обрабатывайте компрессорное колесо с осторожностью.
 
-Assemble the compressor housing new o-ring on the turbocharger.
+Соберите корпус компрессора с новым кольцом на турбокомпрессоре.
 
 ![[10400265.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not damage the compressor wheel blades during assembly.
+> [!warning] ОСТОРОЖНО
+> Не повреждайте лопасти колес компрессора во время сборки.
 
-Assemble the v-band clamp and compressor cover onto the turbocharger.
+Соберите зажим и крышку компрессора v-диапазона на турбокомпрессор.
 
 ![[10400266.png]]
 
-Place the v-band clamp in position.
+Поместите зажим v-диапазона в положение.
 
-Tighten the v-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
 ![[10400267.png]]
 
-Make sure the compressor wheel and turbine wheel rotate freely.
+Убедитесь, что колесо компрессора и колесо турбины вращаются свободно.
 
 ![[10400268.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> Check to be sure the correct turbocharger assembly is installed. The turbocharger assembly number is on the dataplate that is mounted on the turbocharger. Compare the assembly number with the number in the Control Parts List (CPL) Manual with the corresponding CPL for the engine being serviced. Many turbochargers appear the same physically, but contain different parts. If the wrong turbocharger assembly is installed, the performance of the engine will be less than specification, or damage can result to the engine due to excessive cylinder pressure and temperature.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что установлен правильный сборка турбокомпрессора. Номер сборки турбокомпрессора находится на табличке, которая установлена на турбокомпрессоре. Сравните номер сборки с номером в руководстве по контрольным частям (CPL) с соответствующим CPL для обслуживаемого двигателя. Многие турбокомпрессоры выглядят одинаково физически, но содержат разные части. Если установлен неправильный сборочный турбокомпрессор, производительность двигателя будет меньше, чем спецификация, или повреждение может привести к двигателю из-за чрезмерного давления и температуры цилиндра.
 
-The turbochargers, mounting hardware, and connections are different for various models of K38 and K50 engines. Because of the different parts, installation procedures are given for:
+Турбокомпрессоры, монтажное оборудование и соединения различны для различных моделей двигателей K38 и K50. Из-за различных деталей, процедуры установки приведены для:
 
-- KT38, KTA38, and KTA50 Turbochargers with Center Mount Aftercooler
-- KTTA38 and KTTA50 High-Pressure, and KT38, KTA38, and KTA50 Turbochargers with Outboard Aftercoolers
-- KTTA38 Low-Pressure Turbochargers
-- KTTA50 Low-Pressure Turbochargers
-- K2000E, K1800E and K1500E High-Pressure Turbochargers
-- K2000E Low-Pressure Turbochargers
+- KT38, KTA38 и турбокомпрессоры KTA50 с центральным охладителем
+- KTTA38 и KTTA50 Высокое давление, а также турбокомпрессоры KT38, KTA38 и KTA50 с бортовыми охладителями
+- KTTA38 Турбокомпрессоры низкого давления
+- KTTA50 Турбокомпрессоры низкого давления
+- K2000E, K1800E и K1500E турбокомпрессоры высокого давления
+- K2000E Турбокомпрессоры низкого давления
 
-During turbocharger installation, it is often necessary to adjust the angle of the bearing housing oil drain and the angle of the compressor housing outlet. Instructions for these adjustments are described following the procedure for the KTTA50 Low-Pressure Turbocharger.
+Во время установки турбокомпрессора часто необходимо регулировать угол слива масла подшипниковой оболочки и угол выхода компрессорной оболочки. Инструкции по этим регулировкам описаны в соответствии с процедурой для турбокомпрессора KTTA50 с низким давлением.
 
-Oil inlet and drain hose routing and clamps can be different than shown because of the age of the engine. Be sure the oil hoses have the correct clamps installed to prevent damage from vibration or heat from another part.
+Маршрутизация и зажимы для впуска и слива масла могут отличаться от показанных из-за возраста двигателя. Убедитесь, что масляные шланги имеют правильные зажимы, установленные для предотвращения повреждения от вибрации или тепла из другой части.
 
 ![[nobox.png]]
 
-KT38, KTA38, and KTA50 Turbochargers with Center Mount Aftercooler
+KT38, KTA38 и турбокомпрессоры KTA50 с центральным охладителем
 
-> [!note] Note · Примечание
-> The illustrations show a KTA38. The KTA50 has a longer connection between the aftercooler housing and the turbocharger. The procedure is the same for these models.
+> [!note] Примечание
+> На рисунках изображен KTA38. KTA50 имеет более длительное соединение между корпусом послеохладителя и турбокомпрессором. Процедура для этих моделей такая же.
 
-Newer engines have a hose and clamps to connect the turbocharger to the aftercooler connection. Older engines have a tube with a dust seal and two o-ring seals to connect the turbocharger to the aftercooler connection.
+Более новые двигатели имеют шланг и зажимы для подключения турбокомпрессора к послеохлажденному соединению. Старые двигатели имеют трубку с пылевым уплотнением и два уплотнения с кольцом для подключения турбокомпрессора к послеохлажденному соединению.
 
-The clamps are special to allow a higher torque. Standard T-bolt type clamps can loosen and allow an air leak.
+Зажимы являются специальными, чтобы обеспечить более высокий крутящий момент. Стандартные зажимы типа T-bolt могут ослаблять и пропускать утечку воздуха.
 
-Newer Engines:
+Новые двигатели:
 
-Install the hose (1) and clamps (2) on the aftercooler connection. Do **not** tighten the clamps.
+Установите шланг (1) и зажимы (2) на соединение после охлаждения. Не зажимайте зажимы.
 
-Some of the newer K50 engines have a hose and heavy duty clamps installed over the tube and o-ring as shown in the next picture.
+Некоторые из новых двигателей K50 имеют шланг и тяжелые зажимы, установленные над трубой и кольцом, как показано на следующем снимке.
 
 ![[tb6hohc.png]]
 
-Older Engines:
+Старые двигатели:
 
-Install the dust seal (3) and o-ring seals (4) on the tube (5).
+Установите пылевые уплотнения (3) и уплотнения (4) на трубу (5).
 
-Use vegetable oil. Lubricate the o-ring seals.
+Используйте растительное масло. Смазать уплотнения с кольцами.
 
-Install the tube in the bore of the aftercooler housing. Push the tube into the bore until it touches the step in the bore.
+Установите трубку в цилиндровый отсек корпуса послеохладителя. Подтолкните трубку в цилиндрический отсек, пока он не коснется ступени в цилиндрическом отсеке.
 
 ![[tb6tbha.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the gasket (6) on the exhaust manifold. The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+Установите прокладку (6) на выпускной коллектор. Прокладка ** должна быть установлена так, чтобы поднятая бусина на прокладке была направлена к турбокомпрессору.
 
-Install the turbocharger (7). Push the compressor housing into the hose or on the hose.
+Установите турбокомпрессор (7). Нажмите на корпус компрессора в шланг или на шланг.
 
-The capscrews (8) with nuts (9) are manufactured from heat resistant material. If heat resistant capscrews are **not** installed, the parts will fail, causing an exhaust leak.
+Болты (8) с гайками (9) изготавливаются из термостойкого материала. Если термостойкие болты ** не установлены, детали выходят из строя, вызывая утечку выхлопных газов.
 
-Apply an anti-seize compound on the threads of the capscrew.
+Нанесите противозахватное соединение на резьбу болтов.
 
-Install the four capscrews (8) with the nuts (9).
+Установите четыре болта (8) с гайками (9).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> болты 40 Н·м [30 футов-лб]
 
 ![[tb600ha.png]]
 
-Some of the compressor housing is **not** shown removed for clarity.
+Некоторые корпуса компрессора ** не** показаны удаленными для ясности.
 
-Check the angle of the oil drain and the alignment of the compressor housing to the aftercooler connection. If the angle or alignment is **not** correct, adjust the turbocharger oil drain angle, or adjust the turbocharger compressor housing alignment, described later in this section.
+Проверьте угол отвода масла и выравнивание корпуса компрессора до соединения после охлаждения. Если угол или выравнивание ** не** правильно, отрегулируйте угол слива масла турбокомпрессора или отрегулируйте выравнивание корпуса компрессора турбокомпрессора, описанное ниже в этом разделе.
 
 ![[tb6hsda.png]]
 
-Newer Engines:
+Новые двигатели:
 
-Tighten the clamps (2).
+Зажимы затягиваются (2).
 
-> [!tip] Момент затяжки · Torque Value
-> K38 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> K38 9 Н·м [80 фунт-дюйм]
 
-The K50 requires a special clamp.
+Для K50 требуется специальный зажим.
 
-> [!tip] Момент затяжки · Torque Value
-> K50 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> K50 15 Н·м [133 фунт-дюйм]
 
 ![[tb6clha.png]]
 
-Older Engines:
+Старые двигатели:
 
-Install the parts.
+Установите детали.
 
-- Retaining plates (10)
-- Flat washers (11)
-- Lock washers (12)
-- Capscrews (13).
+- Удерживающие пластины (10)
+- Плоские стиральные машины (11)
+- Стиральные машины (12)
+- болты (13).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> болты 16 Н·м [142 фунт-дюйм]
 
 ![[tb6clhb.png]]
 
-> [!note] Note · Примечание
-> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of the fittings.
+> [!note] Примечание
+> Турбокомпрессоры Holset® имеют фитинг, который имеет прямую резьбу и требует уплотнения на кольце. Турбокомпрессоры AiResearch® имеют фитинг с резьбой труб. Момент затяжки одинаково для обоих типов фитингов.
 
-Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+Установите уплотнение (14) на масляную впускную установку (15). Установите фитинг.
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Fitting 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Масляный вход 35 Н·м [26 футов-lb]
 
-Connect the turbocharger oil inlet hose (16) to the fitting.
+Подсоедините впускной шланг турбокомпрессора (16) к фитингу.
 
-Install the clamps for the oil inlet hose.
+Установите зажимы для впускного шланга масла.
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6ftha.png]]
 
-Install the parts.
+Установите детали.
 
-- Gasket (17)
-- Hose (18)
-- Lock washers (19)
-- Capscrews (20).
+- Гаскет (17)
+- Хосе (18)
+- Стиральные машины (19)
+- болты (20).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> болты 40 Н·м [30 футов-лб]
 
 ![[tb6hohd.png]]
 
-Newer engines have a flange and an o-ring seal type oil drain hose as shown. The newer hose connects to the cylinder block with a capscrew. Older engines have a hose that has a tubing nut and connects to the block with a fitting that has pipe threads.
+Новые двигатели имеют фланж и уплотнительный масляный дренажный шланг типа o-кольца, как показано. Более новый шланг соединяется с блоком цилиндров болтами. Старые двигатели имеют шланг, который имеет трубчатый гайку и соединяется с блоком с фитингом, который имеет резьбу по трубе.
 
-If a flange and an o-ring type connection is installed on an older block, a spacer is required between the hole in the block for the capscrew and the flange. If the spacer is **not** installed, an oil leak will result.
+Если фланец и соединение типа о-кольца установлены на более старом блоке, между отверстием в блоке для болтов и фланга требуется прокладка. Если прокладка ** не установлена, то произойдет утечка масла.
 
-Install the o-ring seal (21) on the hose flange.
+Установите уплотнение (21) на фланце шланга.
 
-Use vegetable oil. Lubricate the seal.
+Используйте растительное масло. Смазать печать.
 
-Install the flange, the lock washer (22), and the capscrew (23).
+Установите фланж, шлюзовую шайбу (22), и болты (23).
 
-> [!tip] Момент затяжки · Torque Value
-> Flange Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Фланцевые болты 40 Н·м [30 футов-лб]
 
-Repeat this procedure to install the other turbocharger and connect the oil hoses.
+Повторите эту процедуру, чтобы установить другой турбокомпрессор и подключить масляные шланги.
 
 ![[tb6hohe.png]]
 
-KTTA38 and KTTA50 High-Pressure, and KT38, KTA38, and KTA50 Turbochargers with Outboard Aftercoolers
+KTTA38 и KTTA50 Высокое давление, а также турбокомпрессоры KT38, KTA38 и KTA50 с бортовыми охладителями
 
-The turbochargers **must** be mounted on the correct engine bank.
+Турбокомпрессоры ** должны быть установлены на правильном банке двигателя.
 
-KTTA38 and KTTA50 High-Pressure:
+KTTA38 и KTTA50 Высокое давление
 
-The turbocharger on the left bank **must** be installed with the compressor housing pointed toward the front of the engine. The turbocharger on the right bank **must** be installed with the turbine housing pointed toward the front of the engine.
+Турбокомпрессор на левом берегу ** должен быть установлен с корпусом компрессора, направленным в сторону передней части двигателя. Турбокомпрессор на правом берегу ** должен быть установлен с корпусом турбины, направленным в сторону передней части двигателя.
 
-KT38, KTA38, and KTA50 with Outboard Aftercoolers:
+KT38, KTA38 и KTA50 с аутборд-охладителями:
 
-The turbine housing on both turbochargers **must** point the same direction, either toward the front of the engine or toward the rear of the engine so that the exhaust piping will fit the application.
+Корпус турбины на обоих турбокомпрессорах ** должен** указывать одно и то же направление, либо в направлении передней части двигателя, либо в направлении задней части двигателя, чтобы выхлопные трубы соответствовали заявке.
 
 ![[nobox.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> The turbochargers for the K50 engine with pulse type exhaust manifolds are to be mounted with four studs and nuts, **not** capscrews and nuts. The torque value is the same. Some K38 engines do **not** require the nuts.
+> [!note] Примечание
+> Турбокомпрессоры для двигателя К50 с выхлопными коллекторами импульсного типа должны быть установлены с четырьмя шпильками и гайками, болтами и гайками **не**. Момент затяжки одинаково. Некоторые двигатели K38 не требуют орехов.
 
-The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+Прокладка ** должна быть установлена так, чтобы поднятая бусина на прокладке была направлена к турбокомпрессору.
 
-Install the gasket (1) on the exhaust manifold.
+Установить прокладку (1) на выпускной коллектор.
 
-Apply an anti-seize compound on the threads of the capscrews or studs (3).
+Нанесите противозахватное соединение на резьбу болтов или шпильков (3).
 
-Install the turbocharger (2), the capscrews or studs (3), and the nuts (4), if required.
+Установите турбокомпрессор (2), болты или шпильки (3) и гайки (4), если это необходимо.
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты 40 Н·м [30 футов-лб]
 
 ![[tb600hb.png]]
 
-> [!note] Note · Примечание
-> Some of the compressor housing is shown removed for clarity.
+> [!note] Примечание
+> Некоторые корпуса компрессора показаны удаленными для ясности.
 
-Check the angle of the oil drain. The alignment of the compressor housing to the air crossovers can **not** be checked until the aftercooler assembly is installed. If the angle is **not** correct, adjust the turbocharger oil drain angle, described later in this section.
+Проверьте угол утечки масла. Выравнивание корпуса компрессора к воздушным кроссоверам может **не** проверяться до установки сборки послеохладителя. Если угол ** не** правильный, отрегулируйте угол слива масла турбокомпрессора, описанный ниже в этом разделе.
 
 ![[tb6hsda.png]]
 
-> [!note] Note · Примечание
-> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of fittings.
+> [!note] Примечание
+> Турбокомпрессоры Holset® имеют фитинг, который имеет прямую резьбу и требует уплотнения на кольце. Турбокомпрессоры AiResearch® имеют фитинг с резьбой труб. Момент затяжки одинаково для обоих типов фитингов.
 
-Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+Установите уплотнение (14) на масляную впускную установку (15). Установите фитинг.
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Fitting 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Масляный вход 35 Н·м [26 футов-lb]
 
-Connect the turbocharger oil inlet hose (16) to the fitting.
+Подсоедините впускной шланг турбокомпрессора (16) к фитингу.
 
-Install the clamps for the oil inlet hose.
+Установите зажимы для впускного шланга масла.
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6ftha.png]]
 
-Install the parts.
+Установите детали.
 
-- Gasket (5)
-- Hose (6)
-- Lock washers (7)
-- Capscrews (8).
+- Гаскет (5)
+- Хозяин (6)
+- Стиральные машины (7)
+- болты (8).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> болты 40 Н·м [30 футов-лб]
 
 ![[tb6hohf.png]]
 
-Install the o-ring seal (9) on the hose flange.
+Установите уплотнение (9) на фланце шланга.
 
-Use vegetable oil. Lubricate the seal.
+Используйте растительное масло. Смазать печать.
 
-Install the flange in the bore of the block. Install the lock washer (10) with the capscrew (11).
+Установите фланец в цилиндрический отсек блока. Установите шлюзовую шайбу (10) с болтами (11).
 
-> [!tip] Момент затяжки · Torque Value
-> Flange Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Фланцевые болты 40 Н·м [30 футов-лб]
 
-Repeat this procedure to install the other turbocharger and connect the oil hoses.
+Повторите эту процедуру, чтобы установить другой турбокомпрессор и подключить масляные шланги.
 
 ![[tb6hohg.png]]
 
-KTTA38 Low-Pressure Turbochargers
+KTTA38 Турбокомпрессоры низкого давления
 
-> [!note] Note · Примечание
-> The engine has two low-pressure turbochargers. The illustrations show the installation of one turbocharger. It is recommended that the two low-pressure turbochargers be installed at the same time.
+> [!note] Примечание
+> Двигатель имеет два турбокомпрессора низкого давления. На иллюстрациях показана установка одного турбокомпрессора. Рекомендуется одновременно устанавливать два турбокомпрессора низкого давления.
 
 ![[nobox.png]]
 
-The engine has six turbocharger supports. Two are mounted on the front of the right bank and two on the rear of the left bank. One is mounted on the front of the left bank and one on the rear of the right bank.
+Двигатель имеет шесть опор турбокомпрессора. Два установлены на передней части правого берега и два на задней части левого берега. Один установлен на передней части левого берега и один на задней части правого берега.
 
-Install the turbocharger supports (1) and the lock washers (2), with the socket head capscrews (3).
+Установите опоры турбокомпрессора (1) и шайбы (2) замка, с болтами головки розетки (3).
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты 270 Н·м [199 фут-лб]
 
 ![[tb6suha.png]]
 
-Do **not** tighten the clamps or fasteners to final torque until the torque value is given. Tighten the parts enough to hold them together, but loose enough to allow the parts to be moved for alignment.
+**не** зажимы или крепежные элементы затягивают до окончательного крутящего момента, пока не будет дано момент затяжки. Затягивайте детали достаточно, чтобы удерживать их вместе, но достаточно рыхлые, чтобы позволить частям перемещаться для выравнивания.
 
-Install the parts.
+Установите детали.
 
-- Bracket (4)
-- Flat washers, heavy (5)
-- Lock washers (6)
-- Capscrews (7).
+- Скобка (4)
+- Плоские стиральные машины, тяжелые (5)
+- Стиральные машины (6)
+- болты (7).
 
-There are six each of the flat washers, lock washers, and capscrews.
+Есть шесть из плоских шайб, шайб и болтов.
 
 ![[tb6bkha.png]]
 
-Install the v-band clamp (8) and the exhaust outlet connection (9).
+Установите зажим v-диапазона (8) и выходное соединение выхлопных газов (9).
 
 ![[tb6coha.png]]
 
-Apply an anti-seize compound to the slip-joints of the exhaust outlet connection (9), exhaust outlet pipe (10), and the turbocharger connection (11).
+Нанести противозахватное соединение на скольжение выпускного соединения (9), выпускной трубы (10) и соединения турбокомпрессора (11).
 
-Install the pipe (10) to the connection (9). Install the connection (11) in the pipe (10).
+Установите трубу (10) на соединение (9). Установите соединение (11) в трубу (10).
 
-Apply an anti-seize compound on the threads of the capscrews (12).
+Нанесите противозахватное соединение на резьбу болтов (12).
 
-Install the four capscrews (12) through the connection and bracket.
+Установите четыре болта (12) через соединение и скобку.
 
-Install the heavy flat washers (13), the lock washers (17), and the nuts (18).
+Установите тяжелые плоские шайбы (13), шайбы (17) и орехи (18).
 
 ![[tb6cohb.png]]
 
-Install the large o-ring seal (19) and the small o-ring seal (20) on the air inlet pipe (21).
+Установите большой уплотнитель (19) и малый уплотнитель (20) на впускной трубе воздуха (21).
 
-Install the dust seal (22) on the air inlet pipe.
+Установите пылевое уплотнение (22) на воздухозаборную трубу.
 
-Use vegetable oil. Lubricate the o-ring seals.
+Используйте растительное масло. Смазать уплотнения с кольцами.
 
-Install the air inlet pipe in the high-pressure turbocharger.
+Установите впускную трубу воздуха в турбокомпрессор высокого давления.
 
 ![[tb6cohc.png]]
 
-Install the hose (23) and the two T-bolt clamps (24) on the air inlet pipe and high-pressure turbocharger.
+Установите шланг (23) и два зажима (24) Т-болта на впускную трубу воздуха и турбокомпрессор высокого давления.
 
 ![[tb6hohh.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger
+Прокладка **должна** быть установлена таким образом, чтобы поднятая бусина на прокладке была направлена к турбокомпрессору
 
-Install the gasket (25).
+Установить прокладку (25).
 
-Install the low-pressure turbocharger (26). Push the compressor housing on the air inlet pipe.
+Установите турбокомпрессор низкого давления (26). Нажмите на корпус компрессора на впускной трубе воздуха.
 
-Apply an anti-seize compound to the threads of the capscrews (27).
+Нанести противозахватное соединение на резьбу болтов (27).
 
-Install the four capscrews (27) and lock nuts (28).
+Установите четыре болта (27) и замкните гайки (28).
 
 ![[tb600hc.png]]
 
-> [!note] Note · Примечание
-> Some of the compressor housing is shown removed for clarity.
+> [!note] Примечание
+> Некоторые корпуса компрессора показаны удаленными для ясности.
 
-Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe. If the angle or alignment is **not** correct, see Turbocharger, Oil Drain Angle, Adjust, or Turbocharger, Compressor Housing Alignment, Adjust, described in this section.
+Проверьте угол утечки масла. Проверьте выравнивание корпуса компрессора к воздухозаборной трубе. Если угол или выравнивание ** не** правильно, см. Turbocharger, Oil Drain Angle, Adjust, или Turbocharger, Compressor casing Alignment, Adjust, описанный в этом разделе.
 
 ![[tb6hsda.png]]
 
-Tighten the six capscrews (7) that hold the bracket to the supports.
+Затяните шесть болтов (7), которые удерживают скобки на опорах.
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket to Supports 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> Bracket to Supports 90 Н·м [66 фунт-фут]
 
 ![[tb6csua.png]]
 
-Tighten the four capscrews (12) and nuts (18) that hold the connection to the bracket.
+Затяните четыре болта (12) и гайки (18), которые удерживают соединение с кронштейном.
 
-> [!tip] Момент затяжки · Torque Value
-> Connection to Bracket 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> Подключение к скобке 90 Н·м [66 футов-лб]
 
 ![[tb6csub.png]]
 
-Tighten the four capscrews (27) and nuts (28) that hold the turbocharger to the connection.
+Затяните четыре болта (27) и гайки (28), которые удерживают турбокомпрессор на соединении.
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Connection 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессор Соединение 40 Н·м [30 футов-лб]
 
 ![[tb6csuc.png]]
 
-Tighten the v-band clamp (8).
+Зажим V-диапазона (8).
 
-> [!tip] Момент затяжки · Torque Value
-> V-band Clamp 7 n•m [62 in-lb]
+> [!tip] Момент затяжки
+> V-диапазон Clamp 7 Н·м [62 фунт-дюйм]
 
-Use a mallet. Tap around the clamp to be sure it is seated.
+Используйте молоток. Нажмите вокруг зажима, чтобы убедиться, что он сидит.
 
-Torque the clamp nut to the same torque value.
+Поворот зажимного гайки до того же значения крутящего момента.
 
-Continue tapping and tightening the clamp until the nut does **not** turn at the specified torque after tapping.
+Продолжайте постукивать и зажимать зажим до тех пор, пока гайка не повернется **не** при указанном крутящем моменте после постукивания.
 
 ![[tb6csud.png]]
 
-Tighten the two T-bolt clamps (24).
+Закрепить два зажима T-bolt (24).
 
-> [!tip] Момент затяжки · Torque Value
-> T-bolt Clamps 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> Зажимы для болтов 9 Н·м [80 фунт-дюйм]
 
 ![[tb6csue.png]]
 
-> [!note] Note · Примечание
-> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of fittings.
+> [!note] Примечание
+> Турбокомпрессоры Holset® имеют фитинг, который имеет прямую резьбу и требует уплотнения на кольце. Турбокомпрессоры AiResearch® имеют фитинг с резьбой труб. Момент затяжки одинаково для обоих типов фитингов.
 
-Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+Установите уплотнение (14) на масляную впускную установку (15). Установите фитинг.
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Fitting 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Масляный вход 35 Н·м [26 футов-lb]
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6ftha.png]]
 
-Install the following parts.
+Установите следующие части.
 
-- Gasket (29)
-- Hose (30)
-- Lock washers (31)
-- Capscrews (32).
+- Гаскет (29)
+- Хосе (30)
+- Стиральные машины (31)
+- болты (32).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> болты 40 Н·м [30 футов-лб]
 
-> [!note] Note · Примечание
-> Some older KTTA38 engines equipped with AiResearch® low-pressure turbochargers have a drain hose that has two pieces connected by a temperature resistant hump hose.
+> [!note] Примечание
+> Некоторые старые двигатели KTTA38, оснащенные турбокомпрессорами низкого давления AiResearch®, имеют дренажный шланг, который имеет две части, соединенные термостойким горбовым шлангом.
 
-Install the o-ring seal (33) on the hose flange.
+Установите уплотнение (33) на фланце шланга.
 
-Use vegetable oil. Lubricate the seal.
+Используйте растительное масло. Смазать печать.
 
-Install the flange, the lock washer (34), and the capscrew (35).
+Установите фланж, шайбу замка (34) и болты (35).
 
-> [!tip] Момент затяжки · Torque Value
-> Flange Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Фланцевые болты 40 Н·м [30 футов-лб]
 
 ![[tb6hohi.png]]
 
-KTTA50 Low-Pressure Turbochargers
+KTTA50 Турбокомпрессоры низкого давления
 
-> [!note] Note · Примечание
-> The engine has two low-pressure turbochargers. The illustrations show the installation of one turbocharger. It is recommended that the two low-pressure turbochargers be installed at the same time.
+> [!note] Примечание
+> Двигатель имеет два турбокомпрессора низкого давления. На иллюстрациях показана установка одного турбокомпрессора. Рекомендуется одновременно устанавливать два турбокомпрессора низкого давления.
 
-The engine has six turbocharger supports. Two are mounted on the front of the right bank, and two are on the rear of the left bank. One is mounted on the front of the left bank, and one on the rear of the right bank.
+Двигатель имеет шесть опор турбокомпрессора. Два установлены на передней части правого берега, а два находятся на задней части левого берега. Один установлен на передней части левого берега, а другой - на задней стороне правого берега.
 
-Install the turbocharger supports (1), the lock washers (2), and the socket head capscrews (3).
+Установите опоры турбокомпрессора (1), шайбы (2) замка и болты головки розетки (3).
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты 270 Н·м [199 фут-лб]
 
 ![[tb6suha.png]]
 
-Do **not** tighten the clamps or fasteners to final torque until the torque value is given. Tighten the parts enough to hold them together, but loose enough to allow the parts to be moved for alignment.
+**не** зажимы или крепежные элементы затягивают до окончательного крутящего момента, пока не будет дано момент затяжки. Затягивайте детали достаточно, чтобы удерживать их вместе, но достаточно рыхлые, чтобы позволить частям перемещаться для выравнивания.
 
-Install the bracket (4), the six lock washers (6), and the six capscrews (7).
+Установите кронштейн (4), шесть шайб (6) и шесть болтов (7).
 
 ![[tb6suhb.png]]
 
-Install the v-band clamp (8) and the exhaust outlet connection (9).
+Установите зажим v-диапазона (8) и выходное соединение выхлопных газов (9).
 
 ![[tb6cohd.png]]
 
-Apply an anti-seize compound to the slip-joints of the exhaust outlet connection (9), the exhaust outlet pipe (10), and the turbocharger connection (11).
+Нанести противозахватное соединение на скольжение выпускного соединения выхлопных газов (9), выпускной трубы выхлопных газов (10) и соединения турбокомпрессора (11).
 
-Install the pipe (10) on the outlet connection (9). Install the connection (11) in the pipe (10).
+Установите трубу (10) на выходное соединение (9). Установите соединение (11) в трубу (10).
 
 ![[tb6cohe.png]]
 
-Install the hose (11) and the two T-bolt clamps (12) on the high-pressure turbocharger.
+Установите шланг (11) и два зажима T-bolt (12) на турбокомпрессор высокого давления.
 
-Install the two o-ring seals (13) and the dust seal (14) on the air inlet pipe (15).
+Установите два уплотнения (13) и пылевое уплотнение (14) на впускной трубе воздуха (15).
 
-Use vegetable oil. Lubricate the o-ring seals.
+Используйте растительное масло. Смазать уплотнения с кольцами.
 
-Install the air inlet pipe in the high-pressure turbocharger.
+Установите впускную трубу воздуха в турбокомпрессор высокого давления.
 
 ![[tb6cohf.png]]
 
-> [!warning] CAUTION · Осторожно
-> KTTA50 engines equipped with LOG type exhaust manifolds must have Brown-Boveri Corporation (BBC®), Model Number 153, turbochargers. KTTA50 engines with PULSE type exhaust manifolds must have BBC®, Model Number RR 151, turbochargers. Be sure the correct turbochargers are installed, or damage to the engine can result.
+> [!warning] ОСТОРОЖНО
+> Двигатели KTTA50, оснащенные выхлопными коллекторами типа LOG, должны иметь Корпорацию Брауна-Бовери (BBC®), Модельный номер 153, турбокомпрессоры. Двигатели KTTA50 с выхлопными коллекторами типа PULSE должны иметь BBC®, Model Number RR 151, турбокомпрессоры. Убедитесь, что установлены правильные турбокомпрессоры, или может возникнуть повреждение двигателя.
 
-> [!warning] CAUTION · Осторожно
-> Newer BBC® RR 153 turbochargers have fastener threads that are U.S. Customary inch. Older BBC® RR 153 turbochargers have fastener threads that are metric millimeter. The fastener threads in all BBC® RR 151 are metric millimeter. Be sure the correct fasteners are installed or the parts can be damaged.
+> [!warning] ОСТОРОЖНО
+> Новые турбокомпрессоры BBC RR 153 имеют резьбу крепежа, которые являются американскими. Обычного дюйма. Более старые турбокомпрессоры BBC RR 153 имеют резьбу крепежа, которая составляет метрический миллиметр. Резьбы крепежа во всех BBC RR 151 имеют метрический миллиметр. Убедитесь, что установлены правильные крепежные элементы или части могут быть повреждены.
 
-> [!note] Note · Примечание
-> The exhaust and intake adapters for the BBC® RR 153 and RR 151 appear the same, but have different dimensions. Be sure to install the correct part.
+> [!note] Примечание
+> Выхлопные и впускные адаптеры для BBC RR 153 и RR 151 выглядят одинаково, но имеют разные габариты. Обязательно установите правильную часть.
 
-Apply an anti-seize compound to the bore of the low-pressure turbocharger (16) for the exhaust outlet connection (17), and the threads of the capscrews (19) and (20).
+Нанесите противозахватное соединение на цилиндрический отверстий турбокомпрессора (16) низкого давления для соединения выпускного отверстия (17) и резьбы болтов (19) и (20).
 
-The connection **must** be installed as shown so that the flange with two holes aligns with the bracket.
+Соединение *** должно быть установлено так, чтобы фланц с двумя отверстиями выравнивался с кронштейном.
 
-The two capscrews (19) are longer than the six capscrews (20).
+Два болта (19) длиннее шести болтов (20).
 
-Install the exhaust outlet connection (17), the lock washers (18), and the capscrews (19) and (20).
+Установите выходное соединение выхлопных газов (17), шайбы (18), болты (19) и (20).
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Outlet Connection Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные трубы 40 Н·м [30 фунт-фут]
 
 ![[tb6cohg.png]]
 
-Install the parts on the air intake connection (26).
+Установите детали на подключение воздухозаборника (26).
 
-- Capscrews (21)
-- Bracket (22)
-- Flat washers, heavy (23)
-- Lock washers (24)
-- Nuts (25).
+- болты (21)
+- Скобка (22)
+- Плоские стиральные машины, тяжелые (23)
+- Стиральные машины (24)
+- Орехи (25).
 
-Install the o-ring seal (27) in the groove on the connection (26).
+Установите уплотнение (27) в канавке на соединение (26).
 
-Use engine oil or lubriplate to secure the seal in the groove.
+Используйте моторное масло или любриплан для защиты уплотнения в канавке.
 
-Install the parts on the low-pressure turbocharger.
+Установите детали на турбокомпрессор низкого давления.
 
-- Connection (26)
-- Flat washers (28)
-- Lock washers (29)
-- Capscrews (30).
+- Подключение (26)
+- Плоские стиральные машины (28)
+- Стиральные машины (29)
+- болты (30).
 
-Tighten **only** the capscrews (30).
+Затягивать только болты (30).
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrews 25 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> болты 25 Н·м [18 футов-лб]
 
 ![[tb6cohh.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Use a hoist and lifting strap. Put the turbocharger (16) in position and push the compressor housing on the air pipe.
+Используйте подъемник и подъемный ремень. Поставьте турбокомпрессор (16) в положение и нажмите на корпус компрессора на воздушной трубе.
 
 ![[tb600hd.png]]
 
-Install the capscrews (31) through the heavy flat washers (32), and the brackets (22) and (4).
+Установите болты (31) через тяжелые плоские шайбы (32), а также скобки (22) и (4).
 
-Install the heavy flat washers (32), lock washers (33), and the nuts (34).
+Установите тяжелые плоские шайбы (32), запирайте шайбы (33) и орехи (34).
 
 ![[tb6csha.png]]
 
-Apply an anti-seize compound to the threads of the capscrews (35).
+Нанесите противозахватное соединение на резьбу болтов (35).
 
-Install the two capscrews (35) through the exhaust outlet connection (17) and the bracket (4).
+Установите два болта (35) через соединение (17) выпускного отверстия и скобку (4).
 
-Install the heavy flat washers (36), the lock washers (37), and the nuts (38).
+Установите тяжелые плоские шайбы (36), шайбы замка (37) и орехи (38).
 
 ![[tb6cshb.png]]
 
-The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+Прокладка ** должна быть установлена так, чтобы поднятая бусина на прокладке была направлена к турбокомпрессору.
 
-Install the gasket (39) between the turbocharger turbine housing and the exhaust connection.
+Установите прокладку (39) между корпусом турбины турбокомпрессора и выхлопным соединением.
 
-Apply an anti-seize compound to the threads of the capscrews (40).
+Нанесите противозахватное соединение на резьбу болтов (40).
 
-Install the four capscrews (40) through the holes in the turbine housing, the gasket, and the connection.
+Установите четыре болта (40) через отверстия в корпусе турбины, прокладку и соединение.
 
-Install the lock washers (41) and the nuts (42).
+Установите шайбы (41) и гайки (42).
 
 ![[tb6cshc.png]]
 
-> [!note] Note · Примечание
-> Some of the compressor housing is shown removed for clarity.
+> [!note] Примечание
+> Некоторые корпуса компрессора показаны удаленными для ясности.
 
-Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe. If the angle or alignment is **not** correct, see Turbocharger, Oil Drain Angle, Adjust, or Turbocharger, Compressor Housing Alignment, Adjust, described in this section.
+Проверьте угол утечки масла. Проверьте выравнивание корпуса компрессора к воздухозаборной трубе. Если угол или выравнивание ** не** правильно, см. Turbocharger, Oil Drain Angle, Adjust, или Turbocharger, Compressor casing Alignment, Adjust, описанный в этом разделе.
 
 ![[tb6hsda.png]]
 
-Tighten the six capscrews (7) that hold the bracket to the supports.
+Затяните шесть болтов (7), которые удерживают скобки на опорах.
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket to Supports 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> Bracket to Supports 90 Н·м [66 фунт-фут]
 
 ![[tb6csuf.png]]
 
-Tighten the two capscrews (35) and nuts (36) that hold the turbocharger exhaust outlet connection to the bracket.
+Затяните два болта (35) и гайки (36), которые удерживают выходное отверстие турбокомпрессора к скобке.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Outlet Connection to Bracket 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопная розетка Подключение к скобке 90 Н·м [66 футов-лб]
 
 ![[tb6csug.png]]
 
-> [!note] Note · Примечание
-> Be sure the bracket (32) is flat against the flange on the air inlet connection.
+> [!note] Примечание
+> Убедитесь, что скобка (32) плоская против фланца на впускном соединении воздуха.
 
-Tighten the two capscrews (43) and the nuts (34) that hold the air intake connection (32) to the bracket (4).
+Затяните два болта (43) и гайки (34), которые удерживают соединение (32) воздухозаборника с кронштейном (4).
 
-> [!tip] Момент затяжки · Torque Value
-> Air Intake Connection to Bracket 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Подключение к кронштейну 40 Н·м [30 футов-lb]
 
 ![[tb6csuh.png]]
 
-Tighten the two capscrews (31) and the nuts (25) that hold the bracket (32) to the connection (26).
+Затяните два болта (31) и гайки (25), которые удерживают скобку (32) к соединению (26).
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Брекет болтов 40 Н·м [30 футов-лб]
 
 ![[tb6csui.png]]
 
-Tighten the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+Затянуть четыре болта (40) и гайки (42), удерживающие выхлопное соединение с корпусом турбины.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection Capscrews 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные болты 90 Н·м [66 фунт-фут]
 
 ![[tb6csuj.png]]
 
-Tighten the v-band clamp (8).
+Зажим V-диапазона (8).
 
-> [!tip] Момент затяжки · Torque Value
-> V-band Clamp 7 n•m [62 in-lb]
+> [!tip] Момент затяжки
+> V-диапазон Clamp 7 Н·м [62 фунт-дюйм]
 
-Use a mallet. Tap around the clamp to be sure it is seated.
+Используйте молоток. Нажмите вокруг зажима, чтобы убедиться, что он сидит.
 
-Tighten the clamp nut to the same torque value.
+Закрепите гайку зажима до того же значения крутящего момента.
 
-Continue tapping and tightening the clamp until the nut does **not** turn at the specified torque after tapping.
+Продолжайте постукивать и зажимать зажим до тех пор, пока гайка не повернется **не** при указанном крутящем моменте после постукивания.
 
 ![[tb6csuk.png]]
 
-Tighten the two T-bolt clamps (45) on the air inlet pipe.
+Закрепите два зажима T-bolt (45) на впускной трубе воздуха.
 
-> [!tip] Момент затяжки · Torque Value
-> T-bolt Clamps 7 n•m [62 in-lb]
+> [!tip] Момент затяжки
+> Зажимы для болтов 7 Н·м [62 фунт-дюйм]
 
 ![[ci6claa.png]]
 
-> [!warning] CAUTION · Осторожно
-> Be sure the correct capscrews are installed. If the wrong capscrews are installed, failure of the part can result.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что установлены правильные болты. Если установлены неправильные болты, может возникнуть неисправность детали.
 
-> [!note] Note · Примечание
-> Newer BBC® RR153 turbochargers have a fitting that is threaded directly into the bearing housing. Older BBC® RR 153 turbochargers require an adapter plate, Part Number 3176567, and a gasket, Part Number 3176568, attached to the bearing housing with two capscrews.
+> [!note] Примечание
+> Новые турбокомпрессоры BBC RR153 имеют фитинг, который нанизан непосредственно на подшипниковый кожух. Более старые турбокомпрессоры BBC RR 153 требуют адаптерную пластину, номер 3176567 и прокладку, номер 3176568, прикрепленную к корпусу подшипника двумя болтами.
 
-> [!note] Note · Примечание
-> All BBC® RR 151 turbochargers have an adapter plate and gasket. The adapter plate and gasket are different than on the older BBC® RR 153 turbochargers.
+> [!note] Примечание
+> Все турбокомпрессоры BBC RR 151 имеют адаптерную пластину и прокладку. Пластины адаптера и прокладки отличаются от старых турбокомпрессоров BBC RR 153.
 
-Install the parts for the turbocharger oil inlet.
+Установите детали для впуска масла турбокомпрессора.
 
-- Gasket (55)
-- Plate (56)
-- Lock washers (57)
-- Capscrews (58).
+- Гаскет (55)
+- Пластина (56)
+- Стиральные машины (57)
+- болты (58).
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Capscrew 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Запускные болты 40 Н·м [30 футов-лб]
 
-If the fitting is **not** installed in the plate, install the oil inlet fitting.
+Если фитинг ** не** установлен в пластине, установите масляную фитингу.
 
-> [!tip] Момент затяжки · Torque Value
-> Fitting Torque 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Фиттинговый крутящий момент 35 Н·м [26 фунт-фут]
 
-Connect the turbocharger oil inlet hose.
+Подключите впускной шланг турбокомпрессора.
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6hohj.png]]
 
-Install the parts for the turbocharger oil drain.
+Установите детали для слива масла турбокомпрессора.
 
-- Gasket (47)
-- Hose (48)
-- Lock washers (49)
-- Capscrews (50).
+- Гаскет (47)
+- Хосе (48)
+- Стиральные машины (49)
+- болты (50).
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Drain Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Масляные болты 40 Н·м [30 футов-лб]
 
-Install the o-ring seal (51) on the hose flange.
+Установите уплотнение (51) на фланце шланга.
 
-Use vegetable oil. Lubricate the seal.
+Используйте растительное масло. Смазать печать.
 
-Install the flange, the lock washer (52), and the capscrews (53) in the proper holes in the cylinder block.
+Установите фланец, шлюзовую шайбу (52) и болты (53) в соответствующие отверстия в блоке цилиндров.
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Drain Flange Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Масляный дренажный фланж болты 40 Н·м [30 футов-лб]
 
 ![[tb6hohk.png]]
 
-K2000E and K1800E High-Pressure Turbochargers
+K2000E и K1800E Высоконапорные турбокомпрессоры
 
-The K2000E uses Holset® HC5A High-Pressure Turbochargers (2), the HT100 Low-Pressure Turbochargers (1) installation is described later in this section.
+В K2000E используются турбокомпрессоры высокого давления Holset® HC5A (2), установка турбокомпрессоров низкого давления HT100 (1) описана ниже в этом разделе.
 
 ![[tb6etwa.png]]
 
-The K1800E engine is single stage turbocharged and does **not** use the turbocharger interstage connections or assembly procedures as does the K2000E.
+Двигатель K1800E имеет одноступенчатый турбонаддув и не использует межступенчатые соединения или процедуры сборки турбокомпрессора, как K2000E.
 
-The K1800E engine uses Holset® HX85 turbochargers (1).
+Двигатель K1800E использует турбокомпрессоры Holset® HX85 (1).
 
 ![[tb6etwb.png]]
 
-> [!note] Note · Примечание
-> The high-pressure turbochargers (2) are mounted to the exhaust manifold using four capscrews (3) and nuts (4). These capscrews and nuts are manufactured from high strength stainless steel that has high temperature capability. Do **not** substitute with lower quality parts.
+> [!note] Примечание
+> Турбокомпрессоры (2) высокого давления крепятся к выпускному коллектору с использованием четырех болтов (3) и гаек (4). Эти болты и гайки изготавливаются из высокопрочной нержавеющей стали, которая имеет высокую температурную способность. **Не заменяйте более качественные детали.
 
 ![[tb6cswa.png]]
 
-The gasket **must** be installed with the raised bead (2) toward the turbocharger.
+Прокладка ** должна быть установлена с поднятой бусиной (2) по направлению к турбокомпрессору.
 
-Install the gasket (1) on the exhaust manifold.
+Установить прокладку (1) на выпускной коллектор.
 
 ![[tb6gkwa.png]]
 
-Coat the threads of the capscrews with anti-seize compound.
+Покрыть резьбу болтов антисептиковым соединением.
 
-Install the turbocharger (2), capscrews (3) and nuts (4).
+Установите турбокомпрессор (2), болты (3) и гайки (4).
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Mounting Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты 40 Н·м [30 футов-лб]
 
 ![[tb6cswa.png]]
 
-> [!note] Note · Примечание
-> Some of the compressor housing has been removed for clarity.
+> [!note] Примечание
+> Часть корпуса компрессора была удалена для ясности.
 
-Check the angle of the oil drain and the alignment of the compressor housing to the air crossovers (this can **not** be checked until the aftercooler assemblies are installed).
+Проверьте угол отвода масла и выравнивание корпуса компрессора к воздушным кроссоверам (это можно **не** проверять до установки сборок послеохладителя).
 
-If the angle is **not** correct, the bearing housing **must** be rotated in relation to the turbine housing. Adjust the turbocharger oil drain angle.
+Если угол ** не** правильный, то оболочка подшипника *** должна быть повернута относительно корпуса турбины. Отрегулируйте угол слива масла турбокомпрессора.
 
 ![[tb6coua.png]]
 
-If the alignment is correct or after the adjustment, lock the bearing housing to the turbine casing lockplate tabs.
+Если выравнивание правильное или после регулировки, заприте корпус подшипника к вкладкам шлюзового покрытия турбинного корпуса.
 
 ![[tb6hsua.png]]
 
-Connect the turbocharger oil inlet hose (16) to the fitting (15).
+Подсоедините впускной шланг турбокомпрессора (16) к фитингу (15).
 
-Install the clamps for the oil inlet hose.
+Установите зажимы для впускного шланга масла.
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6ftha.png]]
 
-Install the gasket (5), hose (6), lock washers (7) and two capscrews (8) to the turbocharger oil drain.
+Установите прокладку (5), шланг (6), шайбы (7) и два болта (8) на слив масла турбокомпрессора.
 
 ![[tb6hohf.png]]
 
-Install the o-ring seal (9) on the hose flange. Use engine oil to lubricate the seal. Install the flange in the bore of the block. Install the lock washer (10) and the capscrew (11).
+Установите уплотнение (9) на фланце шланга. Используйте моторное масло для смазки уплотнения. Установите фланец в цилиндрический отсек блока. Установите шлюзовую шайбу (10) и болты (11).
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Запускные болты 40 Н·м [30 футов-лб]
 
-Repeat the procedure to install the other turbocharger and connect the oil supply and the drain hose.
+Повторите процедуру установки другого турбокомпрессора и подключите подачу масла и дренажный шланг.
 
 ![[tb6hohg.png]]
 
-K2000E Low-Pressure Turbochargers
+K2000E Турбокомпрессоры низкого давления
 
-The K2000E engine contains two low-pressure turbochargers. This illustration shows the installation of **only** one turbocharger. The recommendation is to install both low-pressure turbochargers at the same time.
+Двигатель K2000E содержит два турбокомпрессора низкого давления. На этой иллюстрации показана установка только одного турбокомпрессора ***. Рекомендация заключается в установке обоих турбокомпрессоров низкого давления одновременно.
 
-The K2000E engine contains six turbocharger supports. Two of each of the supports are mounted on the front of the right bank and rear of the left bank. One of each of the supports is mounted on the front of the left bank and rear of the right bank.
+Двигатель K2000E содержит шесть опор турбокомпрессора. Две из каждой опоры установлены на передней части правого берега и задней части левого берега. Одна из опор установлена на передней части левого берега и задней части правого берега.
 
-Install the turbocharger supports (1), and the lock washers (2), and the socket head capscrews (3).
+Установите опоры турбокомпрессора (1), а также шайбы (2) замка и болты головки розетки (3).
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты 270 Н·м [199 фут-лб]
 
-> [!note] Note · Примечание
-> From this point on, do **not** tighten the clamps or fasteners to their final torque unless the torque value is given. Tighten **only** enough to allow the parts to move for alignment.
+> [!note] Примечание
+> С этого момента, не затягивайте зажимы или крепежи до их окончательного крутящего момента, если момент затяжки не указано. Уплотните ** только ** достаточно, чтобы позволить частям двигаться для выравнивания.
 
 ![[tb6suha.png]]
 
-Install the bracket (4), six lock washers (6), and six capscrews (7).
+Установите кронштейн (4), шесть шайб (6) и шесть болтов (7).
 
 ![[tb6suhb.png]]
 
-Install the v-band clamp (8) and exhaust outlet connection (9).
+Установите зажим v-диапазона (8) и выходное соединение выхлопных газов (9).
 
 ![[tb6clhc.png]]
 
-Apply anti-seize compound to the threads of the capscrews (12). Install the gasket (10), capscrews (12), lock washers (13), and nuts (14).
+Нанесите противозахватное соединение на резьбу болтов (12). Установите прокладку (10), болты (12), шайбы замка (13) и гайки (14).
 
 ![[tb6cohi.png]]
 
-Use anti-seize compound to coat the slip joints of the exhaust pipe (11) and the turbocharger connection (16).
+Используйте противозахватное соединение для покрытия скольжения соединений выхлопной трубы (11) и соединения турбокомпрессора (16).
 
-Install the turbocharger connection (16) on the exhaust pipe (11).
+Установите соединение турбокомпрессора (16) на выхлопную трубу (11).
 
-After all interstage connections are in place, there **must** be a minimum of 3.18 mm \[0.125 inch\] expansion space between connections (11 and 16).
+После того, как все межэтапные соединения установлены, должно быть как минимум 3,18 мм \[0,125 дюйма \] пространство расширения между соединениями (11 и 16).
 
-The gap can be adjusted by moving the low-pressure turbocharger or low-pressure turbocharger mounting bracket.
+Зазор можно регулировать, перемещая турбокомпрессор низкого давления или турбокомпрессор низкого давления, устанавливающий скобки.
 
 ![[tb6cola.png]]
 
-Use anti-seize compound to coat the bore on the low-pressure turbocharger (22) for the exhaust outlet connection (17), and the threads of the capscrews (19 and 20).
+Используйте противозахватное соединение для покрытия цилиндра, который прокачивается на турбокомпрессоре (22) низкого давления для соединения выпускного отверстия (17) и резьбы болтов (19 и 20).
 
-The bracket (21) **must** be oriented to provide proper turbocharger alignment.
+Скобка (21)** должна быть ориентирована для обеспечения правильного выравнивания турбокомпрессора.
 
-> [!note] Note · Примечание
-> The two capscrews (19) are longer than the six capscrews (20).
+> [!note] Примечание
+> Два болта (19) длиннее шести болтов (20).
 
-Install the exhaust outlet connection (17), lock washers (18), and capscrews (19 and 20).
+Установите выхлопное соединение (17), шайбы (18) и болты (19 и 20).
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Outlet Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные болты 40 Н·м [30 футов-лб]
 
 ![[tb6crba.png]]
 
-Install the two capscrews (31), bracket (32), heavy flat washer (23), lock washers (24), and nuts (25) on the air intake connection.
+Установите два болта (31), скобка (32), тяжелую плоскую стиральную машину (23), шайбы блокировки (24) и гайки (25) на подключение воздухозаборника.
 
-Install the o-ring seal (27) in the groove on the connection (26). Use engine oil or Lubriplate® to hold the seal in the groove.
+Установите уплотнение (27) в канавке на соединение (26). Используйте моторное масло или Lubriplate® для удержания уплотнения в канавке.
 
-Install the connection (26), four flat washers (28), lock washers (29), and capscrews (30), on the low-pressure turbocharger. Tighten **only** the four capscrews (30).
+Установите соединение (26), четыре плоские шайбы (28), шайбы блокировки (29) и болты (30), на турбокомпрессор низкого давления. Затягивать только четыре болта (30).
 
-> [!tip] Момент затяжки · Torque Value
-> Air Intake Connection Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Воздушный впуск болты 40 Н·м [30 футов-lb]
 
 ![[tb6cshd.png]]
 
-Use a hoist and lifting strap to position the turbocharger and to align the capscrew holes in the brackets.
+Используйте подъемник и подъемный ремень для размещения турбокомпрессора и выравнивания болтовых отверстий в скобках.
 
 ![[tb6bkhb.png]]
 
-Install the capscrews (43) through the heavy flat washer (44) and both brackets (32 and 4). Install the heavy flat washers (44), lock washers (33) and the nuts (34).
+Установите болты (43) через тяжелую плоскую стиральную машину (44) и обе скобки (32 и 4). Установите тяжелые плоские шайбы (44), запирайте шайбы (33) и орехи (34).
 
 ![[tb6bkwa.png]]
 
-Use anti-seize compound to coat the threads of the capscrews (35).
+Используйте анти-захват соединения для покрытия резьбы болтов (35).
 
-Install the two capscrews (35) through the exhaust outlet connection (17) and the bracket (4). Install the heavy flat washers (36), lock washers (37), and nuts (38).
+Установите два болта (35) через соединение (17) выпускного отверстия и скобку (4). Установите тяжелые плоские шайбы (36), запирайте шайбы (37) и орехи (38).
 
 ![[tb6bkwb.png]]
 
-The raised bead on the gasket (39) **must** be toward the turbocharger.
+Поднятая бусина на прокладке (39) ** должна быть** по направлению к турбокомпрессору.
 
-Install the gasket (39) between the turbocharger turbine housing and the exhaust connections (16).
+Установите прокладку (39) между корпусом турбины турбокомпрессора и выхлопными соединениями (16).
 
-Use anti-seize compound to coat the threads of the capscrews (40).
+Используйте анти-захват соединения для покрытия резьбы болтов (40).
 
-Install the four capscrews (40) through the holes in the turbine housing, gasket, and connection.
+Установите четыре болта (40) через отверстия в корпусе турбины, прокладке и соединении.
 
-Install the lock washers (41) and nuts (42).
+Установите шайбы (41) и гайки (42).
 
 ![[tb6cshc.png]]
 
-Slide one T-bolt clamp (45) and hose (46) over the end of the intake pipe (47). Slide the hose on far enough to install the pipe. Install the second clamp (45) over the compressor outlet.
+Сдвиньте один зажим T-bolt (45) и шланг (46) поверх конца впускной трубы (47). Сдвиньте шланг на достаточно далеко, чтобы установить трубу. Установите второй зажим (45) над выходом компрессора.
 
-Position the intake pipe (47) between the turbochargers and insert the gasket (48). Secure the flanges with four bolts (49), flat washers (50), lock washers (51), and nuts (52).
+Поместите впускную трубу (47) между турбокомпрессорами и вставьте прокладку (48). Закрепите фланцы четырьмя болтами (49), плоскими шайбами (50), шайбами блокировки (51) и орехами (52).
 
 ![[tb6clga.png]]
 
-> [!note] Note · Примечание
-> Some of the compressor housing has been removed for clarity.
+> [!note] Примечание
+> Часть корпуса компрессора была удалена для ясности.
 
-Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe.
+Проверьте угол утечки масла. Проверьте выравнивание корпуса компрессора к воздухозаборной трубе.
 
-If the angle or alignment is **not** correct, the bearing housing **must** be rotated in relation to the turbine housing. See Turbocharger, Compressor Housing Alignment, Adjust and Turbocharger, Oil Drain Angle Alignment, Adjust, described in this section.
+Если угол или выравнивание ** не** правильно, оболочка подшипника *** должна быть повернута относительно корпуса турбины. См. Turbocharger, Compressor casing Alignment, Adjust and Turbocharger, Oil Drain Angle Alignment, Adjust, описанные в этом разделе.
 
 ![[tb6coua.png]]
 
-Prior to any of the capscrews being tightened, check to be sure there is a minimum of 3.18 mm \[0.125 in\] expansion space at the slip joints on both exhaust interstage connections.
+Перед тем, как затянуть болты, убедитесь, что на скольжении обоих межэтапных соединений имеется как минимум 3,18 мм \[0,125 в\] пространства расширения.
 
 ![[tb6csna.png]]
 
-Tighten the six capscrews (7) that hold the bracket to the supports.
+Затяните шесть болтов (7), которые удерживают скобки на опорах.
 
-> [!tip] Момент затяжки · Torque Value
-> Support Bracket Capscrews 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> Поддержка болтов для кронштейнов 95 Н·м [70 футов-лб]
 
 ![[tb6csuf.png]]
 
-Tighten the two capscrews (35) and nuts (38) that hold the turbocharger exhaust outlet connection to the bracket.
+Затяните два болта (35) и гайки (38), которые удерживают выходное отверстие турбокомпрессора к скобке.
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket Capscrews 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> Брекет-болты 95 Н·м [70 фунт-фут]
 
 ![[tb6csug.png]]
 
-The bracket (32) **must** be flat against the flange on the air inlet connection.
+Кронштейн (32)** должен быть плоским относительно фланца на впускном воздушном соединении.
 
-Tighten the two capscrews (43) and nuts (34) that hold the bracket (32) to the support bracket (4).
+Затяните два болта (43) и гайки (34), которые удерживают скобу (32) к опорной скобке (4).
 
-> [!tip] Момент затяжки · Torque Value
-> Air Inlet Connection Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Впускной воздушный болт 40 Н·м [30 футов-lb]
 
 ![[tb6csuh.png]]
 
-Tighten the two capscrews (31) and nuts (25) that hold the bracket (32) to the connection (26).
+Затяните два болта (31) и гайки (25), которые удерживают скобу (32) к соединению (26).
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket Connection Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Брекет-соединение болтов 40 Н·м [30 фунт-фут]
 
 ![[tb6csui.png]]
 
-Tighten the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+Затянуть четыре болта (40) и гайки (42), удерживающие выхлопное соединение с корпусом турбины.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection Capscrews 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные болты 95 Н·м [70 фунт-фут]
 
-Tighten the three capscrews (19) that hold the bracket (21) to the exhaust outlet connection (17).
+Затянуть три болта (19), которые удерживают скобку (21) к выходному соединению (17).
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Outlet Connection Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные трубы 40 Н·м [30 фунт-фут]
 
 ![[tb6bkhc.png]]
 
-Tighten the four capscrews (12) and nuts (14) that hold the two exhaust connections (9 and 11).
+Затяните четыре болта (12) и гайки (14), которые удерживают два выхлопных соединения (9 и 11).
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Outlet Connections 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные трубы 95 Н·м [70 фунт-фут]
 
 ![[tb6csla.png]]
 
-Tighten the v-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> V-Band 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> V-Band 9 Н·м [80 фунт-дюйм]
 
-Use a mallet. Tap all around the clamp to make sure it is seated.
+Используйте молоток. Нажмите вокруг зажима, чтобы убедиться, что он сидит.
 
-Tighten the clamp nut to the same torque value.
+Закрепите гайку зажима до того же значения крутящего момента.
 
-Continue tapping and tightening the clamp until the nut will **not** turn at the specified torque after tapping.
+Продолжайте постукивать и зажимать зажим до тех пор, пока гайка не **не** не повернется на указанный крутящий момент после постукивания.
 
 ![[tb6clwa.png]]
 
-Tighten the four capscrews (49) and nuts (52) that hold the air intake pipe (47) to the turbocharger compressor outlet.
+Затяните четыре болта (49) и гайки (52), которые удерживают воздухозаборную трубу (47) на выходе компрессора турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> Intake Pipe Capscrews 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Впускные болты 40 Н·м [30 футов-лб]
 
 ![[ci6bdaa.png]]
 
-> [!warning] CAUTION · Осторожно
-> The hoses and T-bolt clamps of the air intake system are of heavy duty design to withstand temperatures and pressures to which they are exposed. Only specified parts are to be used. The clamps can be removed and tightened again a maximum of three times. The torque retention on the nut will be beyond reuse after this. At this time, a second nut MUST be added to double lock the nut or a new clamp MUST be used.
+> [!warning] ОСТОРОЖНО
+> Рубцы и зажимы Т-болтов системы воздухозаборника имеют тяжелую конструкцию, чтобы выдерживать температуры и давления, которым они подвергаются. Использовать следует только определенные части. Зажимы могут быть удалены и снова затянуты максимум три раза. Удержание крутящего момента на гайке будет после этого не подлежит повторному использованию. В это время необходимо добавить второй орех, чтобы дважды запереть орех или использовать новый зажим.
 
-Center the hose (46) over the high-pressure turbocharger compressor inlet and the pipe (47). Secure the two T-bolt clamps (45).
+Центр шланга (46) над входом турбокомпрессора высокого давления и трубой (47). Обеспечить зажимы T-bolt (45).
 
-> [!note] Note · Примечание
-> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+> [!note] Примечание
+> **не*** ставьте зажимы над шланговыми бусинами. Зажимы ** должны быть расположены между шланговыми бусинами и концом шланга. Часть шланга ** должна ** выходить за пределы зажима.
 
-Tighten the two T-bolt clamps (45) on the air intake pipe (47) and the turbocharger compressor inlet.
+Закрепите два зажима T-bolt (45) на воздухозаборной трубе (47) и впускной трубе компрессора турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> Intake Pipe Clamps 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> Зажимы для труб 8 Н·м [71 фунт-дюйм]
 
-These clamps need to be tightened again after the engine has operated a few hours.
+Эти зажимы необходимо снова затянуть после того, как двигатель проработал несколько часов.
 
 ![[ci6claa.png]]
 
-Wrap the interstage air hose with a heat shield (blanket). The blanket is secured by placing the eyelets that are located on each end of the blanket over the hose clamp T-bolts. Use flat washers and nuts on the T-bolts to retain the heat shield.
+Заверните межступенчатый воздушный шланг тепловым экраном (одеялом). Одеяло закрепляется путем размещения ресниц, которые расположены на каждом конце одеяла над зажимом шланга T-болтов. Используйте плоские шайбы и гайки на Т-болтах, чтобы сохранить теплозащитный экран.
 
 ![[tb6htwa.png]]
 
-Install the gasket (55), plate (56), lock washers (57), and capscrews (58) for the low-pressure turbocharger oil inlet.
+Установите прокладку (55), пластину (56), шайбы (57) и болты (58) для входа турбокомпрессора низкого давления.
 
-> [!tip] Момент затяжки · Torque Value
-> Low-Pressure Turbocharger Oil Inlet 25 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> Низкопрессорный турбокомпрессорный нефтяной впуск 25 Н·м [18 футов-лб]
 
-Install the oil inlet fitting.
+Установите масляную впускную установку.
 
-> [!tip] Момент затяжки · Torque Value
-> Oil Inlet Fitting 35 n•m [26 ft-lb]
+> [!tip] Момент затяжки
+> Масляный вход 35 Н·м [26 футов-lb]
 
-Connect the turbocharger oil inlet hose.
+Подключите впускной шланг турбокомпрессора.
 
-The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+Другой конец впускного шланга масла ** должен быть подключен к фитингу в блоке цилиндра.[[28-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
 
 ![[tb6hohj.png]]
 
-Install the gasket (59), the hose (60), the lock washers (61), and the capscrews (62) for the low-pressure turbocharger oil drain.
+Установите прокладку (59), шланг (60), шайбы (61) и болты (62) для слива масла турбокомпрессора низкого давления.
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Oil Drain 25 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессор Oil Drain 25 Н·м [18 футов-лб]
 
-Install the seal (63) on the hose flange. Use engine oil to lubricate the seal. Install the flange, lock washer (64) and the capscrews (65) in the proper holes in the cylinder block.
+Установите уплотнение (63) на фланце шланга. Используйте моторное масло для смазки уплотнения. Установите фланец, шлюзовую шайбу (64) и болты (65) в соответствующие отверстия в блоке цилиндров.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Flange 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> Hose Flange 40 Н·м [30 футов-лб]
 
-> [!note] Note · Примечание
-> The turbocharger oil drain line **must** run downhill from the turbocharger to the cylinder block.
+> [!note] Примечание
+> Линия слива масла турбокомпрессора ** должна ** пролегать вниз по склону от турбокомпрессора до блока цилиндров.
 
 ![[rd6hoha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> The word “OUT”, or raised bead on the gasket **must** be positioned toward the turbocharger.
+> [!note] Примечание
+> Слово «OUT» или поднятая бусина на прокладке *** должны быть расположены к турбокомпрессору.
 
-Lift the high-pressure turbochargers, using approved lifting straps, and place them onto the middle mounting pads with the air outlets facing outboard.
+Поднимите турбокомпрессоры высокого давления, используя утвержденные подъемные ремни, и поместите их на средние монтажные площадки с выходами воздуха, обращенными к борту.
 
-Install the capscrews, washers, and nuts, and tighten.
+Установите болты, шайбы и орехи и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> Turbocharger Mounting Capscrews and Nuts 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Турбокомпрессорные болты и гайки 45 Н·м [33 фут-лб]
 
 ![[10600439.png]]
 
-Install the exhaust outlet and clamp.
+Установите выпуск выхлопных газов и зажим.
 
 ![[10600434.png]]
 
-Apply anti-seize compound, Part Number 3824397, or equivalent to both ends of the exhaust interstage piping flanges.
+Нанесите противозахватное соединение, номер детали 3824397, или эквивалентное обоим концам фланцевых трубопроводов между ступенями выхлопных газов.
 
-Install both halves of the exhaust interstage using new gaskets.
+Установите обе половины выхлопной трубы с использованием новых прокладок.
 
-Apply anti-seize compound, Part Number 3824397, or equivalent to the mounting capscrews.
+Нанесите противозахватное соединение, номер детали 3824397, или эквивалентное крепежным болтам.
 
-Tighten the exhaust outlet connection clamp.
+Закрепить зажим соединения выпускного отверстия.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 8 Н·м [71 фунт-дюйм]
 
-Install the capscrews, washers and nuts finger tight to allow for alignment.
+Установите болты, шайбы и орехи пальцами, чтобы обеспечить выравнивание.
 
 ![[10600433.png]]
 
-Install the hose and clamps (with tightening screws facing downward) to the inlet side of the turbocharger.
+Установите шланг и зажимы (с затягивающими винтами, обращенными вниз) на входную сторону турбокомпрессора.
 
-Tighten the hose clamp closest to the turbocharger inlet.
+Закрепите зажим шланга, ближайший к входу турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 8 Н·м [71 фунт-дюйм]
 
-Install the intake air piping into the hose and loosely tighten the clamp to allow for alignment.
+Установите впускной воздушный трубопровод в шланг и слегка затяните зажим, чтобы обеспечить выравнивание.
 
 ![[10600435.png]]
 
-> [!danger] WARNING · Опасно
-> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Lift the low-pressure turbochargers, using approved lifting straps, onto the mounting pads and align them with the interstage air transfer connections.
+Поднимите турбокомпрессоры низкого давления, используя утвержденные подъемные ремни, на монтажные площадки и выровните их с межступенчатыми соединениями переноса воздуха.
 
 ![[10600437.png]]
 
-Install new steel gaskets between the outer low-pressure turbocharger and the outer low turbocharger exhaust connection. Check that the raised beads on the gaskets are facing the outer turbocharger.
+Установите новые стальные прокладки между внешним турбокомпрессором низкого давления и внешним выхлопным соединением с низким турбокомпрессором. Проверьте, что поднятые бусины на прокладках обращены к внешнему турбокомпрессору.
 
-Install the capscrews, washers and nuts in the same orientation noted prior to removal and hand tighten.
+Установите болты, шайбы и гайки в той же ориентации, которая была отмечена до удаления и затягивания рук.
 
-Check the alignment and tighten the capscrews.
+Проверьте выравнивание и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection Capscrews and Nuts 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные болты и гайки 95 Н·м [70 фунт-фут]
 
 ![[10600433.png]]
 
-Install a new paper gasket between the air intake connection and the turbocharger and install the capscrews, washers and nuts. Hand tighten **only** to allow for alignment.
+Установите новую бумажную прокладку между воздухозаборником и турбокомпрессором и установите болты, шайбы и гайки. Руки затягиваются только для того, чтобы обеспечить выравнивание.
 
-Add the p-clip to the top right capscrew. Do **not** tighten this bolt until the oil supply line is installed.
+Добавьте p-клип к верхним правым болтам. Не затягивайте этот болт до тех пор, пока не будет установлена линия подачи нефти.
 
-Once alignment is checked, tighten the capscrews.
+После проверки выравнивания затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Air Intake Connection Capscrews and Nuts 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> Воздушный впуск болтов и орехов 48 Н·м [35 футов-lb]
 
-Check that all air transfer connections are aligned and tighten the interstage hose clamps.
+Убедитесь, что все соединения переноса воздуха выровнены и затягивают межступенчатые шланговые зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> Interstage Hose Clamp 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> Interstage Hose Clamp 8 Н·м [71 фунт-дюйм]
 
 ![[10600432.png]]
 
-Install the air intake and bracket onto the low-pressure turbocharger and trolly assembly.
+Установите воздухозаборник и кронштейн на турбокомпрессор низкого давления и троллейбусную сборку.
 
-Apply anti-seize compound, Part Number 3824394, or equivalent, to the mounting capscrews and install.
+Нанесите противозахватное соединение, номер детали 3824394, или эквивалент, на крепежные болты и установите.
 
-Tighten all capscrews with the exception of the two capscrews **not** connected to the mounting bracket.
+Затягивать все болты, за исключением двух болтов, не соединенных с монтажной скобкой.
 
-> [!tip] Момент затяжки · Torque Value
-> Air Intake Capscrews 48 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> Воздушные болты 48 Н·м [35 футов-lb]
 
 ![[10600431.png]]
 
-Apply anti-seize compound, Part Number 3824394, or equivalent, to the rear turbocharger outlet flange and install the exhaust adapter and bracket onto the low-pressure turbocharger and trolly assembly.
+Нанесите противозахватное соединение, номер детали 3824394, или эквивалент, на задний выпускной фланец турбокомпрессора и установите адаптер выхлопных газов и кронштейн на турбокомпрессор и троллейбусную сборку низкого давления.
 
-Apply anti-seize compound, Part Number 3824394, or equivalent, to the eight mounting capscrews and install.
+Нанесите противозахватное соединение, номер детали 3824394, или эквивалент, на восемь крепежных болтов и установите.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Adapter Capscrews 48 n•m [36 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопные адаптеры болты 48 Н·м [36 футов-lb]
 
 ![[10600441.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Turn the air ON to the air starter, if equipped. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-- Connect the batteries. Refer to the OEM service manual.
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Включите воздух в воздухопускательный аппарат, если он оборудован.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
+- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Install the oil drain lines. Refer to Procedure 010-045 in Section 10.
-- Install the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
-- Turn the air ON to the air starter, if equipped. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-- Connect the batteries. Refer to the OEM service manual.
+- Установите линии отвода нефти. См. процедуру 010-045 в разделе 10.
+- Установите линии подачи и возврата охлаждающей жидкости. См. процедуру 010-041 в разделе 10.
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]].
+- Включите воздух в воздухопускательный аппарат, если он оборудован.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
+- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> with Mechanically Actuated Injector
+>
+> All K38 and K50 engines are turbocharged. All turbochargers on K38 and K50 engines are oil cooled and lubricated. The engine can have two or four turbochargers.
+>
+> If the engine has four turbochargers, the two that are mounted on the exhaust manifold are the high-pressure turbochargers, and the two that are mounted on the support brackets are the low-pressure turbochargers.
+>
+> The correct turbocharger assembly **must** be installed. Many turbochargers appear the same physically, but contain different internal parts. If the wrong turbocharger assembly is installed, the performance of the engine will be less than specification, or the engine will be damaged due to excessive pressure and temperature in the cylinders.
+>
+> K38 and K50 engines can contain turbochargers that are manufactured by Holset®, Brown Boveri®, or AiResearch®. In some cases turbochargers from two different vendors are on the same engine. One of the dataplates that is attached to the turbocharger identifies the vendor, the turbocharger model, and the Cummins® part number. Cummins Inc. identifies the turbocharger by the part number, **not** the model nomenclature.
+>
+> This manual does **not** contain information to rebuild the turbocharger. See the following turbocharger rebuild manuals:
+>
+> | Manufacturer | Bulletin | Model Number and Description |
+> |---|---|---|
+> | Holset® | 3810243 | HC5A Turbocharger Shop Manual |
+> | Holset® | 3810386 | HT100 Series Turbocharger Shop Manual |
+> | Brown Boveri® | 3810235 | Brown Boveri® Turbocharger Manual |
+> | AiResearch® | 3379091 | T18A, Turbocharger Rebuild Manual |
+>
+> Two oil supply hoses are installed on K38 and K50 engines. The length of the hose for KT38, KTA38, and KTA50 engines is 1295 mm \[51 in\]. The length of the hose for KTTA38 and KTTA5O engines is 1092 mm \[43 in\].
+>
+> The turbocharger oil drain assembly for the K38 is shorter on engines with dry type exhaust manifolds than on engines with wet type exhaust manifolds. The turbocharger oil drain assembly for the K50 is the same as that installed on the K38 with a wet type exhaust manifold.
+>
+> The method for connecting the turbocharger oil drain to the cylinder block was changed. Engines with an engine serial number (ESN) of 33106693 and greater have a flange and an o-ring seal type connection that is secured with a capscrew. Engines with an ESN of 33106692 and lower have a 90 degree fitting with pipe threads.
+>
+> A revised turbocharger compressor wheel was released for KTA50-G engines in September, 1985, ESN First 33110070.
+>
+> Turbochargers with a hose nipple on the compressor discharge and a hose type air crossover were released for use in production on the KTA38 engines in September 1986, ESN First 33111500.
+>
+> A chamfer was added to the diffuser plate on HC5A turbochargers to allow oil drain back to the sump in February, 1987, ESN First 33111870.
+>
+> A revised profile, turbocharger mounting gasket was released in August, 1987, ESN First 33112713.
+>
+> A turbocharger oil drain hose that is manufactured of flexible hose is available for engines built previously with a one or two piece steel tube for the oil drain hose. The two piece steel tube that is connected by a hump hose is available for service on engines that have AiResearch® turbochargers **only**.
+>
+> The KTTA50 low-pressure turbocharger oil drain hose and drain location was changed in 1988, to provide a better downhill return to the cylinder block. The revised oil drain hose routing also requires a revised turbocharger support, which is modified to provide clearance for the new oil drain hose and a different clamp to retain the oil drain hose.
+>
+> The revised hose drains the oil to drillings on the top deck at the front of the right bank and the left of the rear bank of the cylinder block. The holes used are partially covered by the turbocharger support. This support requires modification or replacement.
+>
+> The mounting capscrew for the flange and o-ring seal type turbocharger drain hose connection was changed from 0.250 inch -20 UNC to 0.375 inch -16 UNC. The cylinder block with the smaller holes requires a spacer, Part Number 3177195, between the connection flange and the cylinder block at the left bank rear location. If the spacer is **not** installed, an oil leak will result because the o-ring seal will **not** be in the bore correctly.
+>
+> The flange on the turbocharger oil drain hose that fits to the turbocharger is different for Holset® and AiResearch® turbochargers. The oil drain hose flange is different for the Brown Boveri® type turbocharger. If the model of turbocharger is changed, the oil drain hose **must** be changed.
+>
+> A K50 turbine housing with a thickened flange between the capscrew holes to reduce flange distortion was released in February 1988, ESN First 33114833. This is for the K50 pulse exhaust manifolds **only**.
+>
+> Longer studs, nuts, and spacers were released for the K50 pulse exhaust manifold in May, 1989, ESN First 33115948.
+>
+> The K50 turbocharger mounting flange was completely thickened to improve gasket reliability. The spacer is no longer required for K50 pulse exhaust manifold engines produced in February, 1990, ESN First 33117281.
+>
+> The K50 pulse exhaust manifold received a boss to allow use of capscrews in place of studs on engines produced from February, 1990, ESN First 33117392.
+>
+> A steel oil supply fitting replaced the brass fitting to prevent torque loss/loosening on engines produced from February, 1990, ESN First 33117392.
+>
+> A steel oil supply fitting replaced the brass fitting to prevent torque loss/loosening on engines produced from September 1990, ESN First 33118322.
+>
+> The Holset® HT100 low-pressure turbocharger replaced the Brown Boveri® RR151 turbocharger for C1800B and K2000 engines in January 1991, ESN First 33119163.
+>
+> **Note · Примечание**
+> The HT100 turbocharger can **not** be used to replace the Brown Boveri® Model RR153 that is used on the KTTA50-C1800A engines.
+>
+> The Holset® HX80 water-cooled turbocharger design was revised in 1997, to allow for the use of GAS fittings on all coolant passage openings in the casting. O-ring seal fittings are less prone to leakage, and are easier to remove and install. The diffuser plate was also changed to a “sunk wheel” design.
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> - Disconnect the batteries. Refer to the OEM service manual.
+> - Turn the air OFF to the air starter, if equipped, and tag the valve closed. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+> - Drain the cooling system to a point below the turbochargers. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> - Disconnect the batteries. Refer to the OEM service manual.
+> - Turn the air OFF to the air starter, if equipped, and tag the valve closed. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+> - Drain the cooling system to a point below the turbochargers. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
+> - Remove the oil supply lines. Refer to Procedure 010-046 in Section 10.
+> - Remove the oil drain lines. Refer to Procedure 010-045 in Section 10.
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> The turbochargers, mounting hardware, and connections are **not** the same for all models of K38 and K50 engines. Because the parts are different, procedures are given for removal of the following turbochargers.
+>
+> - KT38, KTA38, and KTA50 with Center Mount Aftercooler
+> - KTTA38 Low-Pressure
+> - KTTA50 Low-Pressure
+> - K2000E Low-Pressure
+> - KTTA38, KTTA50, K1500E, K1800E and K2000E High-Pressure, and KT38, KTA38, and KTA50 with Outboard Aftercoolers
+>
+> **Note · Примечание**
+> The oil inlet and drain hose routing and clamps can be different than shown, depending on the age of the engine.
+>
+> KT38, KTA38, and KTA50 with Center Mount Aftercooler
+>
+> **Note · Примечание**
+> The illustrations show a KTA38. The KTA50 has a longer connection between the turbocharger and the aftercooler.
+>
+> Older engines can have a spacer for the capscrew (23). Keep the spacer for future assembly.
+>
+> Detach the oil drain hose from the cylinder block. Remove the o-ring seal (21).
+>
+> Discard the seal.
+>
+> Detach the oil drain hose from the turbocharger. Remove the gasket (17).
+>
+> Discard the gasket.
+>
+> Check the hose (18) for damage. Discard the part if it is damaged.
+>
+> Detach the oil inlet hose (16). Removal of the fitting (15) and the o-ring seal (14) is **not** required unless they are damaged.
+>
+> Remove any support clamps from the hose.
+>
+> Remove the hose. Check the hose for damage. Discard the part if it is damaged.
+>
+> Newer engines have a hose and clamps between the turbochargers and air transfer housings.
+>
+> The clamps are special high strength parts.
+>
+> Loosen the hose clamps (2).
+>
+> Older engines have retaining straps.
+>
+> Remove the capscrews and the retaining straps (10).
+>
+> Check the straps for damage. Discard the part if it is damaged.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the four capscrews (8) and nuts (9).
+>
+> Remove the turbocharger and gasket.
+>
+> Discard the gasket.
+>
+> On newer engines, remove the clamps and the hose.
+>
+> Discard the hose.
+>
+> Check the clamps for damage. Discard the part if it is damaged.
+>
+> On older engines, remove the tube (5). Remove the o-ring seals (4).
+>
+> Discard the seals.
+>
+> Remove the dust seal (3).
+>
+> If the dust seal is hard or soaked with oil, discard the part.
+>
+> KTTA38 Low Pressure:
+>
+> Remove the oil drain hose (30). Remove the gasket (29) and the o-ring seal (33).
+>
+> Discard the gasket and seal.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Detach the oil inlet hose (16). The removal of the fitting (15) and the o-ring seal (14) is **not** required unless damaged.
+>
+> Remove any support clamps from the hose. Remove the hose.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the four capscrews (27) and the nuts (28).
+>
+> Remove the turbocharger and the gasket.
+>
+> Discard the gasket.
+>
+> Loosen the hose clamps (24). Remove the clamps and the hose (23) from the high-pressure turbocharger air connection.
+>
+> Remove the air connection (21) from the high-pressure turbocharger. Remove the o-ring seals (19).
+>
+> Discard the seals.
+>
+> Remove the dust seal (22). If the dust seal is hard or soaked in oil, discard the part.
+>
+> Remove the four capscrews (12) and nuts (18). The heavy washers (13) and capscrews are special heat resistant parts.
+>
+> Remove the exhaust connection (11) and the exhaust outlet pipe (10).
+>
+> Remove the v-band clamp (8) and the exhaust outlet connection (9).
+>
+> Remove the six capscrews (7). The heavy flat washers (5) are special. Remove the support plate (4).
+>
+> Remove the socket head capscrew (3). Remove the turbocharger support legs (1).
+>
+> KTTA50 Low-Pressure
+>
+> The Brown Boveri®, Model RR151, turbochargers contain metric fasteners for the oil connection plates.
+>
+> Remove the oil drain hose (48).
+>
+> Remove the gasket (47) and o-ring seal (51).
+>
+> Discard the gasket and seal.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Some Brown Boveri® turbochargers do **not** contain the adapter plates for the oil inlet.
+>
+> Detach the oil inlet hose. The adapter plates (44) and fittings do **not** require removal.
+>
+> Remove any support clamps. Remove the hose.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Remove the four capscrews (40) and nuts (42). Remove the gasket.
+>
+> Discard the gasket.
+>
+> Remove the two capscrews (35) that hold the exhaust side of the turbocharger to the support bracket.
+>
+> Remove the two capscrews (31) and nuts (34) that hold the intake support bracket to the turbocharger support bracket.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the low-pressure turbocharger (16).
+>
+> Loosen the hose clamps (12). Pull the intake connection pipe (15) from the high-pressure turbocharger. Remove and discard the o-ring seals (13) and the hose (11). Remove the dust seal.
+>
+> If the dust seal is hard or soaked with oil, discard the part.
+>
+> Remove the exhaust connection (11) and outlet pipe (10).
+>
+> Remove the v-band clamp (8) and the exhaust outlet connection (9).
+>
+> Remove the six capscrews (7). Remove the turbocharger support bracket (4).
+>
+> Remove the socket head capscrews (3). Remove the turbocharger bracket support legs (1).
+>
+> K2000E Low-Pressure:
+>
+> Remove the oil drain hose (60). Remove the gasket (59) and o-ring seal (63).
+>
+> Discard the gasket and seal.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Detach the oil inlet hose. Removal of the fitting, plate, (56) and gasket (55) is **not** required.
+>
+> Remove any support clamps from the hose. Remove the hose.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Remove the heat shield (blanket) from the interstage air hose.
+>
+> Loosen the two T-bolt clamps (45) on the air intake pipe (47) and the compressor inlet.
+>
+> Remove the four capscrews (49) and nuts (52) that hold the air intake pipe (47) to the turbocharger compressor outlet.
+>
+> Remove the air intake pipe (47).
+>
+> Check the pipe for damage. Discard the part if it is damaged.
+>
+> Loosen the v-band clamp (8).
+>
+> Remove the four capscrews (12) and nuts (14) that hold the two exhaust connections (9 and 11).
+>
+> Remove the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+>
+> Remove the exhaust connection.
+>
+> Remove the two capscrews (31) and nuts (25) that hold the bracket (32) to the connection (26).
+>
+> Remove the two capscrews (43) and the nuts (34) that hold the bracket (32) to the support bracket (4).
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the two capscrews (35) and nuts (38) that hold the turbocharger exhaust outlet connection to the bracket.
+>
+> Remove the turbocharger.
+>
+> KTTA38, KTTA50, K1500E, K1800E and K2000E High-Pressure, and KT38, KTA38, and KTA50 with Outboard Aftercoolers
+>
+> If the engine being serviced is a KT38, KTA38, or KTA50, record the direction of the turbocharger exhaust outlet and mark the exhaust manifolds for location. This will aid the assembly process as the exhaust can be either front out or rear out.
+>
+> Detach the oil drain hose from the cylinder block. Remove the o-ring seal (9).
+>
+> Discard the o-ring seal.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Detach the oil drain hose from the turbocharger. Remove any support clamps and the hose. Remove the gasket (5).
+>
+> Discard the gasket.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Removal of the fitting (15) and the o-ring (14) is **not** required.
+>
+> Detach the oil inlet hose. Remove any support clamps. Remove the hose.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the four capscrews (3) and the nuts (4). Remove the turbocharger and gasket.
+>
+> Discard the gasket.
+>
+> with Electronically Actuated Injector
+>
+> Remove the low-pressure turbocharger air intake and bracket.
+>
+> Remove the low-pressure turbocharger exhaust adapter and bracket.
+>
+> Remove the eight nuts, plain washers, nuts, capscrews and p-clips from the air transfer connections.
+>
+> Remove the air transfer connections and discard the gaskets.
+>
+> **Note · Примечание**
+> Note the orientation of the capscrews and nuts in the transfer tube prior to removal. The capscrews **must** be installed in the same orientation during installation.
+>
+> Remove the eight nuts, plain washers, and capscrews, and remove the air transfer piping. Discard the gaskets.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the low-pressure turbochargers.
+>
+> Loosen and remove the clamps and hoses connecting the turbochargers to the intake manifold.
+>
+> Remove the clamps from the high-pressure turbocharger and air transfer connection.
+>
+> Remove the air transfer from the high-pressure turbocharger.
+>
+> Remove the four capscrews, nuts, and washers and remove the exhaust outlet connection from the high-pressure turbocharger.
+>
+> Remove the exhaust outlet clamp and outlet connection from the turbocharger.
+>
+> Remove the four mounting capscrews, nuts and washers from each high-pressure turbocharger.
+>
+> Gas Compression
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the mounting capscrews and lock washers.
+>
+> Remove the turbocharger and gasket.
+>
+> Discard the gasket.
+>
+> ### Clean
+>
+> **CAUTION · Осторожно**
+> Tape or plug all openings to prevent solvent or steam from entering the oil cavities in the turbocharger.
+>
+> This procedure applies to all models of turbocharger on K38 and K50 engines. See General Information at the beginning of this section.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> Use solvent or steam. Clean the exterior of the turbocharger.
+>
+> ### Inspect for Reuse
+>
+> Inspect the turbine and compressor wheels for fretting and broken vanes.
+>
+> Use a dial depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+>
+> | Compressor Impeller Axial End Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HC5, HC5A, (127 mm wheel) | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HC5, HC5A, (130 mm wheel) | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HX80/HX85 | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HX82/HX83 | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HE800 | 0.035 | MIN | 0.001 |
+> |  | 0.115 | MAX | 0.005 |
+> | Holset® HT100 | 0.050 | MIN | 0.002 |
+> |  | 0.152 | MAX | 0.006 |
+>
+> Make sure the movement is within the MIN/MAX Total Indicator Readings (TIR) values shown above.
+>
+> **Note · Примечание**
+> If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. Reference the HC5A Turbocharger Shop Manual, Bulletin 3810243, or the HT100 Series Turbocharger Shop Manual, Bulletin 3810386, for rebuild instructions.
+>
+> Measure the radial clearance (side-to-side) at the compressor nose, using a dial gauge.
+>
+> | Compressor Impeller Radial Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HC5, HC5A, (127 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.686 | MAX | 0.027 |
+> | Holset® HC5, HC5A, (130 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.762 | MAX | 0.03 |
+> | Holset® HX80/HX85 | 0.254 | MIN | 0.01 |
+> |  | 0.787 | MAX | 0.031 |
+> | Holset® HX82/HX83 | 0.254 | MIN | 0.010 |
+> |  | 0.787 | MAX | 0.031 |
+> | Holset® HE800 | 0.254 | MIN | 0.010 |
+> |  | 0.787 | MAX | 0.031 |
+> | Holset® HT100 | 0.254 | MIN | 0.01 |
+> |  | 0.813 | MAX | 0.032 |
+>
+> Make sure the movement is within the MIN/MAX TIR values shown above.
+>
+> **Note · Примечание**
+> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location. See HC5A Turbo Shop Manual, Bulletin 3810243, or HT100 Series Turbocharger Shop Manual, Bulletin 3810386, for rebuild instructions.
+>
+> **Note · Примечание**
+> Check the model of turbocharger installed on the engine, this is for: BrownBoveri®, Model RR-153 and RR-151.
+>
+> To measure axial clearance, use Part Number ST-537, Dial Depth Gauge, or a dial indicator. Measure the axial motion.
+>
+> | BBC (RR-151) and (RR-153) End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.09 | MIN | 0.004 |
+> | 0.13 | MAX | 0.005 |
+>
+> If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for rebuild instructions. Reference the BrownBoveri® Turbocharger Manual, Bulletin 3810235.
+>
+> **Note · Примечание**
+> The compressor and turbine casings do **not** require removal to measure the radial clearance. The parts shown are removed for clarity.
+>
+> Use a feeler gauge to measure the radial clearance.
+>
+> | BBC (RR-151) and (RR-153) Bearing Radial Clearance |  |  |  |  |
+> |---|---|---|---|---|
+> |  | mm |  | in |  |
+> | RR-153 |  | 0.55 | MAX | 0.021 |
+> | RR-151 |  | 0.75 | MAX | 0.030 |
+>
+> If the radial clearance exceeds the specification, the part **must** be replaced or rebuilt. Use the following manual for rebuild instructions. Reference the BrownBoveri® Turbocharger Manual, Bulletin 3810235.
+>
+> **Note · Примечание**
+> Check the model of turbocharger installed on the engine, this is for: AiResearch™, Model T-18A.
+>
+> Use a dial indicator to measure the end clearance.
+>
+> | AiResearch™ T-18A End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.10 | MIN | 0.004 |
+> | 0.23 | MAX | 0.009 |
+>
+> If the end clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+>
+> AiResearch® Method One:
+>
+> Check the radial clearance of both the compressor impeller and turbine wheel.
+>
+> Use your hand to push the compressor impeller or turbine wheel toward the housing.
+>
+> Use a feeler gauge that is **not** more than 13 mm \[0.5 in\] wide. Measure the clearance between the impeller and the housing at the minimum clearance point.
+>
+> | AiResearch® T-18A Impeller and Turbine Wheel Radial Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.18 | MAX | 0.007 |
+>
+> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+>
+> AiResearch® Method Two:
+>
+> To measure the direct bearing radial clearance on the T-18A, place a dial indicator through the oil drain hole as illustrated. Be sure the indicator touches the highest part of the shaft.
+>
+> Move the turbine and compressor wheels by hand to the upper and lower limits.
+>
+> | AiResearch® T-18A Bearing Radial Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.20 | MIN | 0.008 |
+> | 0.46 | MAX | 0.018 |
+>
+> If the clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Use the following manual for information concerning rebuild instructions. Reference the Turbocharger Component Shop Manual, Bulletin 3379091.
+>
+> All models:
+>
+> After the turbocharger has been checked:
+>
+> - Lubricate the bearings with engine oil through the oil inlet fitting
+> - Cover all openings to prevent entry of dirt until installed on the engine.
+>
+> **Note · Примечание**
+> Check the model of the turbocharger installed on the engine. This is for: Honeywell®, all models.
+>
+> Specifications for checking radial and axial clearance are **not** available.
+>
+> Inspect for signs of contact between the turbocharger vanes and housing.
+>
+> Check the bearing system for wear:
+>
+> - Hold both ends of the turbocharger shaft and rotate the shaft while applying pressure down on the compressor side and up on the turbine side. It should rotate freely and there should be **no** contact between the compressor wheel and the compressor housing, or the turbine wheel and the turbine housing.
+>
+> Replace the turbocharger if any malfunctions are identified.
+>
+> ### Disassemble
+>
+> Remove the o-ring and discard.
+>
+> If the compressor cover has an inlet baffle it can be removed with a flat tip screwdriver. Pry the retaining ring up and remove the retaining ring.
+>
+> **CAUTION · Осторожно**
+> Use caution in handling the turbine blades. The turbine blades can be easily damaged when the turbine housing is removed.
+>
+> Remove the turbine housing by bending the lock plate tabs away from the capscrew heads.
+>
+> Remove the capscrews.
+>
+> Make sure the turbine wheel rotates freely inside the turbine housing. Tap on the turbine housing with a mallet to separate the turbine housing from the bearing housing.
+>
+> Remove the oil supply fittings and the coolant lines from the center housing assembly.
+>
+> Discard the o-rings.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the compressor cover and turbine housing in parts cleaner to loosen deposits.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Dry the compressor housing with compressed air.
+>
+> Use a soft bristle brush to remove heavy scale deposits.
+>
+> Wash and dry the parts after brushing.
+>
+> **CAUTION · Осторожно**
+> Do not use compressed air to dry or spin the turbine wheel as this can cause damage to the turbocharger bearing system.
+>
+> If chemical and brush cleaning is **not** effective, bead blast with plastic abrasive media, Part Number 3822735, or equivalent.
+>
+> Wash and dry parts after bead blasting.
+>
+> The center housing rotating assembly can be cleaned with electrical contact cleaner, Part Number 3824510, or equivalent.
+>
+> Do **not** spray contact cleaner into the oil and coolant ports.
+>
+> Inspect the compressor cover for cracks, dents, and other damage.
+>
+> Inspect the inside of the compressor cover for signs of scoring or damage from the compressor wheel. Replace the compressor cover, if damaged.
+>
+> Inspect the turbine housing for cracks and damage. Cracks larger than 10 mm \[0.39 in\] can cause an exhaust leak. Replace the turbine housing if damage is found.
+>
+> Follow the criteria shown in the illustration.
+>
+> Minor cracks in the turbine housing internal wall, where exhaust gas flow enters the turbine wheel, is an acceptable condition. The turbine housing can be reused.
+>
+> Inspect the turbine housing for signs of contact with the turbine wheel. Damaged turbine housings **must** be replaced.
+>
+> Inspect the center housing rotating assembly for any signs of cracks, damaged threads, or other damage.
+>
+> Rotate the turbine wheel by hand to make sure it spins freely.
+>
+> Replace the center housing rotating assembly if it is damaged or does **not** spin freely.
+>
+> Inspect the compressor wheel for damage, broken, or bent blades.
+>
+> Do **not** attempt to repair or straighten the blades. Instead, replace the center housing rotating assembly.
+>
+> Inspect the turbine wheel for damaged, broken, or bent blades.
+>
+> Do **not** attempt to repair or straighten the blades. Instead, replace the center housing rotating assembly.
+>
+> ### Measure
+>
+> Use a dial depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+>
+> | Compressor Impeller Axial End Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HC5, HC5A, (127 mm wheel) | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HC5, HC5A, (130 mm wheel) | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HX80/HX85 | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HT100 | 0.050 | MIN | 0.002 |
+> |  | 0.152 | MAX | 0.006 |
+>
+> Make sure the movement is within the MIN/MAX TIR values shown above.
+>
+> Replace the center housing rotating assembly if the axial clearance is **not** within specifications.
+>
+> Measure the radial clearance (side-to-side) at the compressor nose, using a dial gauge.
+>
+> | Compressor Impeller Radial Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HC5, HC5A, (127 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.686 | MAX | 0.027 |
+> | Holset® HC5, HC5A, (130 mm wheel) | 0.228 | MIN | 0.009 |
+> |  | 0.762 | MAX | 0.03 |
+> | Holset® HX80/HX85 | 0.254 | MIN | 0.01 |
+> |  | 0.787 | MAX | 0.031 |
+> | Holset® HT100 | 0.254 | MIN | 0.01 |
+> |  | 0.813 | MAX | 0.032 |
+>
+> Make sure the movement is within the MIN/MAX TIR values shown above.
+>
+> Replace the center housing rotating assembly if the radial clearance is **not** within specifications.
+>
+> ### Assemble
+>
+> **CAUTION · Осторожно**
+> Use caution when handling the turbine blades. The turbine blades can be easily damaged when installing in the turbine housing.
+>
+> Assemble the center housing rotating assembly on to the turbine housing.
+>
+> Lubricate the threads of the new capscrews with anti-seize compound, Part Number 3824732, or equivalent.
+>
+> Install the capscrews, with new lock plates, to the turbocharger turbine housing.
+>
+> **Момент затяжки · Torque Value**
+> 20.3 n•m [180 in-lb]
+>
+> Use a hammer and punch to fold the locking plate onto the flat of the capscrew, to prevent loosening.
+>
+> Assemble the inlet baffle into the compressor cover and secure with a retaining ring. Hold one end of the retaining ring in the groove. Press the remainder of the retaining ring into position. Use a flat tip screwdriver to make sure the retaining ring is correctly seated in the compressor cover groove.
+>
+> **Note · Примечание**
+> The HX83 Turbocharger uses a titanium compressor wheel. The edge of the wheel is very sharp. Handle the compressor wheel with care.
+>
+> Assemble the compressor housing new o-ring on the turbocharger.
+>
+> **CAUTION · Осторожно**
+> Do not damage the compressor wheel blades during assembly.
+>
+> Assemble the v-band clamp and compressor cover onto the turbocharger.
+>
+> Place the v-band clamp in position.
+>
+> Tighten the v-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> Make sure the compressor wheel and turbine wheel rotate freely.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Check to be sure the correct turbocharger assembly is installed. The turbocharger assembly number is on the dataplate that is mounted on the turbocharger. Compare the assembly number with the number in the Control Parts List (CPL) Manual with the corresponding CPL for the engine being serviced. Many turbochargers appear the same physically, but contain different parts. If the wrong turbocharger assembly is installed, the performance of the engine will be less than specification, or damage can result to the engine due to excessive cylinder pressure and temperature.
+>
+> The turbochargers, mounting hardware, and connections are different for various models of K38 and K50 engines. Because of the different parts, installation procedures are given for:
+>
+> - KT38, KTA38, and KTA50 Turbochargers with Center Mount Aftercooler
+> - KTTA38 and KTTA50 High-Pressure, and KT38, KTA38, and KTA50 Turbochargers with Outboard Aftercoolers
+> - KTTA38 Low-Pressure Turbochargers
+> - KTTA50 Low-Pressure Turbochargers
+> - K2000E, K1800E and K1500E High-Pressure Turbochargers
+> - K2000E Low-Pressure Turbochargers
+>
+> During turbocharger installation, it is often necessary to adjust the angle of the bearing housing oil drain and the angle of the compressor housing outlet. Instructions for these adjustments are described following the procedure for the KTTA50 Low-Pressure Turbocharger.
+>
+> Oil inlet and drain hose routing and clamps can be different than shown because of the age of the engine. Be sure the oil hoses have the correct clamps installed to prevent damage from vibration or heat from another part.
+>
+> KT38, KTA38, and KTA50 Turbochargers with Center Mount Aftercooler
+>
+> **Note · Примечание**
+> The illustrations show a KTA38. The KTA50 has a longer connection between the aftercooler housing and the turbocharger. The procedure is the same for these models.
+>
+> Newer engines have a hose and clamps to connect the turbocharger to the aftercooler connection. Older engines have a tube with a dust seal and two o-ring seals to connect the turbocharger to the aftercooler connection.
+>
+> The clamps are special to allow a higher torque. Standard T-bolt type clamps can loosen and allow an air leak.
+>
+> Newer Engines:
+>
+> Install the hose (1) and clamps (2) on the aftercooler connection. Do **not** tighten the clamps.
+>
+> Some of the newer K50 engines have a hose and heavy duty clamps installed over the tube and o-ring as shown in the next picture.
+>
+> Older Engines:
+>
+> Install the dust seal (3) and o-ring seals (4) on the tube (5).
+>
+> Use vegetable oil. Lubricate the o-ring seals.
+>
+> Install the tube in the bore of the aftercooler housing. Push the tube into the bore until it touches the step in the bore.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the gasket (6) on the exhaust manifold. The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+>
+> Install the turbocharger (7). Push the compressor housing into the hose or on the hose.
+>
+> The capscrews (8) with nuts (9) are manufactured from heat resistant material. If heat resistant capscrews are **not** installed, the parts will fail, causing an exhaust leak.
+>
+> Apply an anti-seize compound on the threads of the capscrew.
+>
+> Install the four capscrews (8) with the nuts (9).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 40 n•m [30 ft-lb]
+>
+> Some of the compressor housing is **not** shown removed for clarity.
+>
+> Check the angle of the oil drain and the alignment of the compressor housing to the aftercooler connection. If the angle or alignment is **not** correct, adjust the turbocharger oil drain angle, or adjust the turbocharger compressor housing alignment, described later in this section.
+>
+> Newer Engines:
+>
+> Tighten the clamps (2).
+>
+> **Момент затяжки · Torque Value**
+> K38 9 n•m [80 in-lb]
+>
+> The K50 requires a special clamp.
+>
+> **Момент затяжки · Torque Value**
+> K50 15 n•m [133 in-lb]
+>
+> Older Engines:
+>
+> Install the parts.
+>
+> - Retaining plates (10)
+> - Flat washers (11)
+> - Lock washers (12)
+> - Capscrews (13).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 16 n•m [142 in-lb]
+>
+> **Note · Примечание**
+> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of the fittings.
+>
+> Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Fitting 35 n•m [26 ft-lb]
+>
+> Connect the turbocharger oil inlet hose (16) to the fitting.
+>
+> Install the clamps for the oil inlet hose.
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the parts.
+>
+> - Gasket (17)
+> - Hose (18)
+> - Lock washers (19)
+> - Capscrews (20).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 40 n•m [30 ft-lb]
+>
+> Newer engines have a flange and an o-ring seal type oil drain hose as shown. The newer hose connects to the cylinder block with a capscrew. Older engines have a hose that has a tubing nut and connects to the block with a fitting that has pipe threads.
+>
+> If a flange and an o-ring type connection is installed on an older block, a spacer is required between the hole in the block for the capscrew and the flange. If the spacer is **not** installed, an oil leak will result.
+>
+> Install the o-ring seal (21) on the hose flange.
+>
+> Use vegetable oil. Lubricate the seal.
+>
+> Install the flange, the lock washer (22), and the capscrew (23).
+>
+> **Момент затяжки · Torque Value**
+> Flange Capscrews 40 n•m [30 ft-lb]
+>
+> Repeat this procedure to install the other turbocharger and connect the oil hoses.
+>
+> KTTA38 and KTTA50 High-Pressure, and KT38, KTA38, and KTA50 Turbochargers with Outboard Aftercoolers
+>
+> The turbochargers **must** be mounted on the correct engine bank.
+>
+> KTTA38 and KTTA50 High-Pressure:
+>
+> The turbocharger on the left bank **must** be installed with the compressor housing pointed toward the front of the engine. The turbocharger on the right bank **must** be installed with the turbine housing pointed toward the front of the engine.
+>
+> KT38, KTA38, and KTA50 with Outboard Aftercoolers:
+>
+> The turbine housing on both turbochargers **must** point the same direction, either toward the front of the engine or toward the rear of the engine so that the exhaust piping will fit the application.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> The turbochargers for the K50 engine with pulse type exhaust manifolds are to be mounted with four studs and nuts, **not** capscrews and nuts. The torque value is the same. Some K38 engines do **not** require the nuts.
+>
+> The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+>
+> Install the gasket (1) on the exhaust manifold.
+>
+> Apply an anti-seize compound on the threads of the capscrews or studs (3).
+>
+> Install the turbocharger (2), the capscrews or studs (3), and the nuts (4), if required.
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Capscrews 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> Some of the compressor housing is shown removed for clarity.
+>
+> Check the angle of the oil drain. The alignment of the compressor housing to the air crossovers can **not** be checked until the aftercooler assembly is installed. If the angle is **not** correct, adjust the turbocharger oil drain angle, described later in this section.
+>
+> **Note · Примечание**
+> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of fittings.
+>
+> Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Fitting 35 n•m [26 ft-lb]
+>
+> Connect the turbocharger oil inlet hose (16) to the fitting.
+>
+> Install the clamps for the oil inlet hose.
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the parts.
+>
+> - Gasket (5)
+> - Hose (6)
+> - Lock washers (7)
+> - Capscrews (8).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 40 n•m [30 ft-lb]
+>
+> Install the o-ring seal (9) on the hose flange.
+>
+> Use vegetable oil. Lubricate the seal.
+>
+> Install the flange in the bore of the block. Install the lock washer (10) with the capscrew (11).
+>
+> **Момент затяжки · Torque Value**
+> Flange Capscrews 40 n•m [30 ft-lb]
+>
+> Repeat this procedure to install the other turbocharger and connect the oil hoses.
+>
+> KTTA38 Low-Pressure Turbochargers
+>
+> **Note · Примечание**
+> The engine has two low-pressure turbochargers. The illustrations show the installation of one turbocharger. It is recommended that the two low-pressure turbochargers be installed at the same time.
+>
+> The engine has six turbocharger supports. Two are mounted on the front of the right bank and two on the rear of the left bank. One is mounted on the front of the left bank and one on the rear of the right bank.
+>
+> Install the turbocharger supports (1) and the lock washers (2), with the socket head capscrews (3).
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+>
+> Do **not** tighten the clamps or fasteners to final torque until the torque value is given. Tighten the parts enough to hold them together, but loose enough to allow the parts to be moved for alignment.
+>
+> Install the parts.
+>
+> - Bracket (4)
+> - Flat washers, heavy (5)
+> - Lock washers (6)
+> - Capscrews (7).
+>
+> There are six each of the flat washers, lock washers, and capscrews.
+>
+> Install the v-band clamp (8) and the exhaust outlet connection (9).
+>
+> Apply an anti-seize compound to the slip-joints of the exhaust outlet connection (9), exhaust outlet pipe (10), and the turbocharger connection (11).
+>
+> Install the pipe (10) to the connection (9). Install the connection (11) in the pipe (10).
+>
+> Apply an anti-seize compound on the threads of the capscrews (12).
+>
+> Install the four capscrews (12) through the connection and bracket.
+>
+> Install the heavy flat washers (13), the lock washers (17), and the nuts (18).
+>
+> Install the large o-ring seal (19) and the small o-ring seal (20) on the air inlet pipe (21).
+>
+> Install the dust seal (22) on the air inlet pipe.
+>
+> Use vegetable oil. Lubricate the o-ring seals.
+>
+> Install the air inlet pipe in the high-pressure turbocharger.
+>
+> Install the hose (23) and the two T-bolt clamps (24) on the air inlet pipe and high-pressure turbocharger.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger
+>
+> Install the gasket (25).
+>
+> Install the low-pressure turbocharger (26). Push the compressor housing on the air inlet pipe.
+>
+> Apply an anti-seize compound to the threads of the capscrews (27).
+>
+> Install the four capscrews (27) and lock nuts (28).
+>
+> **Note · Примечание**
+> Some of the compressor housing is shown removed for clarity.
+>
+> Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe. If the angle or alignment is **not** correct, see Turbocharger, Oil Drain Angle, Adjust, or Turbocharger, Compressor Housing Alignment, Adjust, described in this section.
+>
+> Tighten the six capscrews (7) that hold the bracket to the supports.
+>
+> **Момент затяжки · Torque Value**
+> Bracket to Supports 90 n•m [66 ft-lb]
+>
+> Tighten the four capscrews (12) and nuts (18) that hold the connection to the bracket.
+>
+> **Момент затяжки · Torque Value**
+> Connection to Bracket 90 n•m [66 ft-lb]
+>
+> Tighten the four capscrews (27) and nuts (28) that hold the turbocharger to the connection.
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Connection 40 n•m [30 ft-lb]
+>
+> Tighten the v-band clamp (8).
+>
+> **Момент затяжки · Torque Value**
+> V-band Clamp 7 n•m [62 in-lb]
+>
+> Use a mallet. Tap around the clamp to be sure it is seated.
+>
+> Torque the clamp nut to the same torque value.
+>
+> Continue tapping and tightening the clamp until the nut does **not** turn at the specified torque after tapping.
+>
+> Tighten the two T-bolt clamps (24).
+>
+> **Момент затяжки · Torque Value**
+> T-bolt Clamps 9 n•m [80 in-lb]
+>
+> **Note · Примечание**
+> Holset® turbochargers have a fitting that has straight threads and requires an o-ring seal. AiResearch® turbochargers have a fitting with pipe threads. The torque value is the same for both types of fittings.
+>
+> Install the o-ring seal (14) on the oil inlet fitting (15). Install the fitting.
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Fitting 35 n•m [26 ft-lb]
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the following parts.
+>
+> - Gasket (29)
+> - Hose (30)
+> - Lock washers (31)
+> - Capscrews (32).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> Some older KTTA38 engines equipped with AiResearch® low-pressure turbochargers have a drain hose that has two pieces connected by a temperature resistant hump hose.
+>
+> Install the o-ring seal (33) on the hose flange.
+>
+> Use vegetable oil. Lubricate the seal.
+>
+> Install the flange, the lock washer (34), and the capscrew (35).
+>
+> **Момент затяжки · Torque Value**
+> Flange Capscrews 40 n•m [30 ft-lb]
+>
+> KTTA50 Low-Pressure Turbochargers
+>
+> **Note · Примечание**
+> The engine has two low-pressure turbochargers. The illustrations show the installation of one turbocharger. It is recommended that the two low-pressure turbochargers be installed at the same time.
+>
+> The engine has six turbocharger supports. Two are mounted on the front of the right bank, and two are on the rear of the left bank. One is mounted on the front of the left bank, and one on the rear of the right bank.
+>
+> Install the turbocharger supports (1), the lock washers (2), and the socket head capscrews (3).
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+>
+> Do **not** tighten the clamps or fasteners to final torque until the torque value is given. Tighten the parts enough to hold them together, but loose enough to allow the parts to be moved for alignment.
+>
+> Install the bracket (4), the six lock washers (6), and the six capscrews (7).
+>
+> Install the v-band clamp (8) and the exhaust outlet connection (9).
+>
+> Apply an anti-seize compound to the slip-joints of the exhaust outlet connection (9), the exhaust outlet pipe (10), and the turbocharger connection (11).
+>
+> Install the pipe (10) on the outlet connection (9). Install the connection (11) in the pipe (10).
+>
+> Install the hose (11) and the two T-bolt clamps (12) on the high-pressure turbocharger.
+>
+> Install the two o-ring seals (13) and the dust seal (14) on the air inlet pipe (15).
+>
+> Use vegetable oil. Lubricate the o-ring seals.
+>
+> Install the air inlet pipe in the high-pressure turbocharger.
+>
+> **CAUTION · Осторожно**
+> KTTA50 engines equipped with LOG type exhaust manifolds must have Brown-Boveri Corporation (BBC®), Model Number 153, turbochargers. KTTA50 engines with PULSE type exhaust manifolds must have BBC®, Model Number RR 151, turbochargers. Be sure the correct turbochargers are installed, or damage to the engine can result.
+>
+> **CAUTION · Осторожно**
+> Newer BBC® RR 153 turbochargers have fastener threads that are U.S. Customary inch. Older BBC® RR 153 turbochargers have fastener threads that are metric millimeter. The fastener threads in all BBC® RR 151 are metric millimeter. Be sure the correct fasteners are installed or the parts can be damaged.
+>
+> **Note · Примечание**
+> The exhaust and intake adapters for the BBC® RR 153 and RR 151 appear the same, but have different dimensions. Be sure to install the correct part.
+>
+> Apply an anti-seize compound to the bore of the low-pressure turbocharger (16) for the exhaust outlet connection (17), and the threads of the capscrews (19) and (20).
+>
+> The connection **must** be installed as shown so that the flange with two holes aligns with the bracket.
+>
+> The two capscrews (19) are longer than the six capscrews (20).
+>
+> Install the exhaust outlet connection (17), the lock washers (18), and the capscrews (19) and (20).
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Outlet Connection Capscrews 40 n•m [30 ft-lb]
+>
+> Install the parts on the air intake connection (26).
+>
+> - Capscrews (21)
+> - Bracket (22)
+> - Flat washers, heavy (23)
+> - Lock washers (24)
+> - Nuts (25).
+>
+> Install the o-ring seal (27) in the groove on the connection (26).
+>
+> Use engine oil or lubriplate to secure the seal in the groove.
+>
+> Install the parts on the low-pressure turbocharger.
+>
+> - Connection (26)
+> - Flat washers (28)
+> - Lock washers (29)
+> - Capscrews (30).
+>
+> Tighten **only** the capscrews (30).
+>
+> **Момент затяжки · Torque Value**
+> Capscrews 25 n•m [18 ft-lb]
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Use a hoist and lifting strap. Put the turbocharger (16) in position and push the compressor housing on the air pipe.
+>
+> Install the capscrews (31) through the heavy flat washers (32), and the brackets (22) and (4).
+>
+> Install the heavy flat washers (32), lock washers (33), and the nuts (34).
+>
+> Apply an anti-seize compound to the threads of the capscrews (35).
+>
+> Install the two capscrews (35) through the exhaust outlet connection (17) and the bracket (4).
+>
+> Install the heavy flat washers (36), the lock washers (37), and the nuts (38).
+>
+> The gasket **must** be installed so that the raised bead on the gasket is toward the turbocharger.
+>
+> Install the gasket (39) between the turbocharger turbine housing and the exhaust connection.
+>
+> Apply an anti-seize compound to the threads of the capscrews (40).
+>
+> Install the four capscrews (40) through the holes in the turbine housing, the gasket, and the connection.
+>
+> Install the lock washers (41) and the nuts (42).
+>
+> **Note · Примечание**
+> Some of the compressor housing is shown removed for clarity.
+>
+> Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe. If the angle or alignment is **not** correct, see Turbocharger, Oil Drain Angle, Adjust, or Turbocharger, Compressor Housing Alignment, Adjust, described in this section.
+>
+> Tighten the six capscrews (7) that hold the bracket to the supports.
+>
+> **Момент затяжки · Torque Value**
+> Bracket to Supports 90 n•m [66 ft-lb]
+>
+> Tighten the two capscrews (35) and nuts (36) that hold the turbocharger exhaust outlet connection to the bracket.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Outlet Connection to Bracket 90 n•m [66 ft-lb]
+>
+> **Note · Примечание**
+> Be sure the bracket (32) is flat against the flange on the air inlet connection.
+>
+> Tighten the two capscrews (43) and the nuts (34) that hold the air intake connection (32) to the bracket (4).
+>
+> **Момент затяжки · Torque Value**
+> Air Intake Connection to Bracket 40 n•m [30 ft-lb]
+>
+> Tighten the two capscrews (31) and the nuts (25) that hold the bracket (32) to the connection (26).
+>
+> **Момент затяжки · Torque Value**
+> Bracket Capscrews 40 n•m [30 ft-lb]
+>
+> Tighten the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection Capscrews 90 n•m [66 ft-lb]
+>
+> Tighten the v-band clamp (8).
+>
+> **Момент затяжки · Torque Value**
+> V-band Clamp 7 n•m [62 in-lb]
+>
+> Use a mallet. Tap around the clamp to be sure it is seated.
+>
+> Tighten the clamp nut to the same torque value.
+>
+> Continue tapping and tightening the clamp until the nut does **not** turn at the specified torque after tapping.
+>
+> Tighten the two T-bolt clamps (45) on the air inlet pipe.
+>
+> **Момент затяжки · Torque Value**
+> T-bolt Clamps 7 n•m [62 in-lb]
+>
+> **CAUTION · Осторожно**
+> Be sure the correct capscrews are installed. If the wrong capscrews are installed, failure of the part can result.
+>
+> **Note · Примечание**
+> Newer BBC® RR153 turbochargers have a fitting that is threaded directly into the bearing housing. Older BBC® RR 153 turbochargers require an adapter plate, Part Number 3176567, and a gasket, Part Number 3176568, attached to the bearing housing with two capscrews.
+>
+> **Note · Примечание**
+> All BBC® RR 151 turbochargers have an adapter plate and gasket. The adapter plate and gasket are different than on the older BBC® RR 153 turbochargers.
+>
+> Install the parts for the turbocharger oil inlet.
+>
+> - Gasket (55)
+> - Plate (56)
+> - Lock washers (57)
+> - Capscrews (58).
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Capscrew 40 n•m [30 ft-lb]
+>
+> If the fitting is **not** installed in the plate, install the oil inlet fitting.
+>
+> **Момент затяжки · Torque Value**
+> Fitting Torque 35 n•m [26 ft-lb]
+>
+> Connect the turbocharger oil inlet hose.
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the parts for the turbocharger oil drain.
+>
+> - Gasket (47)
+> - Hose (48)
+> - Lock washers (49)
+> - Capscrews (50).
+>
+> **Момент затяжки · Torque Value**
+> Oil Drain Capscrews 40 n•m [30 ft-lb]
+>
+> Install the o-ring seal (51) on the hose flange.
+>
+> Use vegetable oil. Lubricate the seal.
+>
+> Install the flange, the lock washer (52), and the capscrews (53) in the proper holes in the cylinder block.
+>
+> **Момент затяжки · Torque Value**
+> Oil Drain Flange Capscrews 40 n•m [30 ft-lb]
+>
+> K2000E and K1800E High-Pressure Turbochargers
+>
+> The K2000E uses Holset® HC5A High-Pressure Turbochargers (2), the HT100 Low-Pressure Turbochargers (1) installation is described later in this section.
+>
+> The K1800E engine is single stage turbocharged and does **not** use the turbocharger interstage connections or assembly procedures as does the K2000E.
+>
+> The K1800E engine uses Holset® HX85 turbochargers (1).
+>
+> **Note · Примечание**
+> The high-pressure turbochargers (2) are mounted to the exhaust manifold using four capscrews (3) and nuts (4). These capscrews and nuts are manufactured from high strength stainless steel that has high temperature capability. Do **not** substitute with lower quality parts.
+>
+> The gasket **must** be installed with the raised bead (2) toward the turbocharger.
+>
+> Install the gasket (1) on the exhaust manifold.
+>
+> Coat the threads of the capscrews with anti-seize compound.
+>
+> Install the turbocharger (2), capscrews (3) and nuts (4).
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Mounting Capscrews 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> Some of the compressor housing has been removed for clarity.
+>
+> Check the angle of the oil drain and the alignment of the compressor housing to the air crossovers (this can **not** be checked until the aftercooler assemblies are installed).
+>
+> If the angle is **not** correct, the bearing housing **must** be rotated in relation to the turbine housing. Adjust the turbocharger oil drain angle.
+>
+> If the alignment is correct or after the adjustment, lock the bearing housing to the turbine casing lockplate tabs.
+>
+> Connect the turbocharger oil inlet hose (16) to the fitting (15).
+>
+> Install the clamps for the oil inlet hose.
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the gasket (5), hose (6), lock washers (7) and two capscrews (8) to the turbocharger oil drain.
+>
+> Install the o-ring seal (9) on the hose flange. Use engine oil to lubricate the seal. Install the flange in the bore of the block. Install the lock washer (10) and the capscrew (11).
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Capscrews 40 n•m [30 ft-lb]
+>
+> Repeat the procedure to install the other turbocharger and connect the oil supply and the drain hose.
+>
+> K2000E Low-Pressure Turbochargers
+>
+> The K2000E engine contains two low-pressure turbochargers. This illustration shows the installation of **only** one turbocharger. The recommendation is to install both low-pressure turbochargers at the same time.
+>
+> The K2000E engine contains six turbocharger supports. Two of each of the supports are mounted on the front of the right bank and rear of the left bank. One of each of the supports is mounted on the front of the left bank and rear of the right bank.
+>
+> Install the turbocharger supports (1), and the lock washers (2), and the socket head capscrews (3).
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Support Capscrews 270 n•m [199 ft-lb]
+>
+> **Note · Примечание**
+> From this point on, do **not** tighten the clamps or fasteners to their final torque unless the torque value is given. Tighten **only** enough to allow the parts to move for alignment.
+>
+> Install the bracket (4), six lock washers (6), and six capscrews (7).
+>
+> Install the v-band clamp (8) and exhaust outlet connection (9).
+>
+> Apply anti-seize compound to the threads of the capscrews (12). Install the gasket (10), capscrews (12), lock washers (13), and nuts (14).
+>
+> Use anti-seize compound to coat the slip joints of the exhaust pipe (11) and the turbocharger connection (16).
+>
+> Install the turbocharger connection (16) on the exhaust pipe (11).
+>
+> After all interstage connections are in place, there **must** be a minimum of 3.18 mm \[0.125 inch\] expansion space between connections (11 and 16).
+>
+> The gap can be adjusted by moving the low-pressure turbocharger or low-pressure turbocharger mounting bracket.
+>
+> Use anti-seize compound to coat the bore on the low-pressure turbocharger (22) for the exhaust outlet connection (17), and the threads of the capscrews (19 and 20).
+>
+> The bracket (21) **must** be oriented to provide proper turbocharger alignment.
+>
+> **Note · Примечание**
+> The two capscrews (19) are longer than the six capscrews (20).
+>
+> Install the exhaust outlet connection (17), lock washers (18), and capscrews (19 and 20).
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Outlet Capscrews 40 n•m [30 ft-lb]
+>
+> Install the two capscrews (31), bracket (32), heavy flat washer (23), lock washers (24), and nuts (25) on the air intake connection.
+>
+> Install the o-ring seal (27) in the groove on the connection (26). Use engine oil or Lubriplate® to hold the seal in the groove.
+>
+> Install the connection (26), four flat washers (28), lock washers (29), and capscrews (30), on the low-pressure turbocharger. Tighten **only** the four capscrews (30).
+>
+> **Момент затяжки · Torque Value**
+> Air Intake Connection Capscrews 40 n•m [30 ft-lb]
+>
+> Use a hoist and lifting strap to position the turbocharger and to align the capscrew holes in the brackets.
+>
+> Install the capscrews (43) through the heavy flat washer (44) and both brackets (32 and 4). Install the heavy flat washers (44), lock washers (33) and the nuts (34).
+>
+> Use anti-seize compound to coat the threads of the capscrews (35).
+>
+> Install the two capscrews (35) through the exhaust outlet connection (17) and the bracket (4). Install the heavy flat washers (36), lock washers (37), and nuts (38).
+>
+> The raised bead on the gasket (39) **must** be toward the turbocharger.
+>
+> Install the gasket (39) between the turbocharger turbine housing and the exhaust connections (16).
+>
+> Use anti-seize compound to coat the threads of the capscrews (40).
+>
+> Install the four capscrews (40) through the holes in the turbine housing, gasket, and connection.
+>
+> Install the lock washers (41) and nuts (42).
+>
+> Slide one T-bolt clamp (45) and hose (46) over the end of the intake pipe (47). Slide the hose on far enough to install the pipe. Install the second clamp (45) over the compressor outlet.
+>
+> Position the intake pipe (47) between the turbochargers and insert the gasket (48). Secure the flanges with four bolts (49), flat washers (50), lock washers (51), and nuts (52).
+>
+> **Note · Примечание**
+> Some of the compressor housing has been removed for clarity.
+>
+> Check the angle of the oil drain. Check the alignment of the compressor housing to the air inlet pipe.
+>
+> If the angle or alignment is **not** correct, the bearing housing **must** be rotated in relation to the turbine housing. See Turbocharger, Compressor Housing Alignment, Adjust and Turbocharger, Oil Drain Angle Alignment, Adjust, described in this section.
+>
+> Prior to any of the capscrews being tightened, check to be sure there is a minimum of 3.18 mm \[0.125 in\] expansion space at the slip joints on both exhaust interstage connections.
+>
+> Tighten the six capscrews (7) that hold the bracket to the supports.
+>
+> **Момент затяжки · Torque Value**
+> Support Bracket Capscrews 95 n•m [70 ft-lb]
+>
+> Tighten the two capscrews (35) and nuts (38) that hold the turbocharger exhaust outlet connection to the bracket.
+>
+> **Момент затяжки · Torque Value**
+> Bracket Capscrews 95 n•m [70 ft-lb]
+>
+> The bracket (32) **must** be flat against the flange on the air inlet connection.
+>
+> Tighten the two capscrews (43) and nuts (34) that hold the bracket (32) to the support bracket (4).
+>
+> **Момент затяжки · Torque Value**
+> Air Inlet Connection Capscrews 40 n•m [30 ft-lb]
+>
+> Tighten the two capscrews (31) and nuts (25) that hold the bracket (32) to the connection (26).
+>
+> **Момент затяжки · Torque Value**
+> Bracket Connection Capscrews 40 n•m [30 ft-lb]
+>
+> Tighten the four capscrews (40) and nuts (42) that hold the exhaust connection to the turbine housing.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection Capscrews 95 n•m [70 ft-lb]
+>
+> Tighten the three capscrews (19) that hold the bracket (21) to the exhaust outlet connection (17).
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Outlet Connection Capscrews 40 n•m [30 ft-lb]
+>
+> Tighten the four capscrews (12) and nuts (14) that hold the two exhaust connections (9 and 11).
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Outlet Connections 95 n•m [70 ft-lb]
+>
+> Tighten the v-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> V-Band 9 n•m [80 in-lb]
+>
+> Use a mallet. Tap all around the clamp to make sure it is seated.
+>
+> Tighten the clamp nut to the same torque value.
+>
+> Continue tapping and tightening the clamp until the nut will **not** turn at the specified torque after tapping.
+>
+> Tighten the four capscrews (49) and nuts (52) that hold the air intake pipe (47) to the turbocharger compressor outlet.
+>
+> **Момент затяжки · Torque Value**
+> Intake Pipe Capscrews 40 n•m [30 ft-lb]
+>
+> **CAUTION · Осторожно**
+> The hoses and T-bolt clamps of the air intake system are of heavy duty design to withstand temperatures and pressures to which they are exposed. Only specified parts are to be used. The clamps can be removed and tightened again a maximum of three times. The torque retention on the nut will be beyond reuse after this. At this time, a second nut MUST be added to double lock the nut or a new clamp MUST be used.
+>
+> Center the hose (46) over the high-pressure turbocharger compressor inlet and the pipe (47). Secure the two T-bolt clamps (45).
+>
+> **Note · Примечание**
+> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+>
+> Tighten the two T-bolt clamps (45) on the air intake pipe (47) and the turbocharger compressor inlet.
+>
+> **Момент затяжки · Torque Value**
+> Intake Pipe Clamps 8 n•m [71 in-lb]
+>
+> These clamps need to be tightened again after the engine has operated a few hours.
+>
+> Wrap the interstage air hose with a heat shield (blanket). The blanket is secured by placing the eyelets that are located on each end of the blanket over the hose clamp T-bolts. Use flat washers and nuts on the T-bolts to retain the heat shield.
+>
+> Install the gasket (55), plate (56), lock washers (57), and capscrews (58) for the low-pressure turbocharger oil inlet.
+>
+> **Момент затяжки · Torque Value**
+> Low-Pressure Turbocharger Oil Inlet 25 n•m [18 ft-lb]
+>
+> Install the oil inlet fitting.
+>
+> **Момент затяжки · Torque Value**
+> Oil Inlet Fitting 35 n•m [26 ft-lb]
+>
+> Connect the turbocharger oil inlet hose.
+>
+> The other end of the oil inlet hose **must** be connected to a fitting in the cylinder block. [[28-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> Install the gasket (59), the hose (60), the lock washers (61), and the capscrews (62) for the low-pressure turbocharger oil drain.
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Oil Drain 25 n•m [18 ft-lb]
+>
+> Install the seal (63) on the hose flange. Use engine oil to lubricate the seal. Install the flange, lock washer (64) and the capscrews (65) in the proper holes in the cylinder block.
+>
+> **Момент затяжки · Torque Value**
+> Hose Flange 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> The turbocharger oil drain line **must** run downhill from the turbocharger to the cylinder block.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> The word “OUT”, or raised bead on the gasket **must** be positioned toward the turbocharger.
+>
+> Lift the high-pressure turbochargers, using approved lifting straps, and place them onto the middle mounting pads with the air outlets facing outboard.
+>
+> Install the capscrews, washers, and nuts, and tighten.
+>
+> **Момент затяжки · Torque Value**
+> Turbocharger Mounting Capscrews and Nuts 45 n•m [33 ft-lb]
+>
+> Install the exhaust outlet and clamp.
+>
+> Apply anti-seize compound, Part Number 3824397, or equivalent to both ends of the exhaust interstage piping flanges.
+>
+> Install both halves of the exhaust interstage using new gaskets.
+>
+> Apply anti-seize compound, Part Number 3824397, or equivalent to the mounting capscrews.
+>
+> Tighten the exhaust outlet connection clamp.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 8 n•m [71 in-lb]
+>
+> Install the capscrews, washers and nuts finger tight to allow for alignment.
+>
+> Install the hose and clamps (with tightening screws facing downward) to the inlet side of the turbocharger.
+>
+> Tighten the hose clamp closest to the turbocharger inlet.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 8 n•m [71 in-lb]
+>
+> Install the intake air piping into the hose and loosely tighten the clamp to allow for alignment.
+>
+> **WARNING · Опасно**
+> The component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Lift the low-pressure turbochargers, using approved lifting straps, onto the mounting pads and align them with the interstage air transfer connections.
+>
+> Install new steel gaskets between the outer low-pressure turbocharger and the outer low turbocharger exhaust connection. Check that the raised beads on the gaskets are facing the outer turbocharger.
+>
+> Install the capscrews, washers and nuts in the same orientation noted prior to removal and hand tighten.
+>
+> Check the alignment and tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection Capscrews and Nuts 95 n•m [70 ft-lb]
+>
+> Install a new paper gasket between the air intake connection and the turbocharger and install the capscrews, washers and nuts. Hand tighten **only** to allow for alignment.
+>
+> Add the p-clip to the top right capscrew. Do **not** tighten this bolt until the oil supply line is installed.
+>
+> Once alignment is checked, tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Air Intake Connection Capscrews and Nuts 48 n•m [35 ft-lb]
+>
+> Check that all air transfer connections are aligned and tighten the interstage hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Interstage Hose Clamp 8 n•m [71 in-lb]
+>
+> Install the air intake and bracket onto the low-pressure turbocharger and trolly assembly.
+>
+> Apply anti-seize compound, Part Number 3824394, or equivalent, to the mounting capscrews and install.
+>
+> Tighten all capscrews with the exception of the two capscrews **not** connected to the mounting bracket.
+>
+> **Момент затяжки · Torque Value**
+> Air Intake Capscrews 48 n•m [35 ft-lb]
+>
+> Apply anti-seize compound, Part Number 3824394, or equivalent, to the rear turbocharger outlet flange and install the exhaust adapter and bracket onto the low-pressure turbocharger and trolly assembly.
+>
+> Apply anti-seize compound, Part Number 3824394, or equivalent, to the eight mounting capscrews and install.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Adapter Capscrews 48 n•m [36 ft-lb]
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Turn the air ON to the air starter, if equipped. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+> - Connect the batteries. Refer to the OEM service manual.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the oil drain lines. Refer to Procedure 010-045 in Section 10.
+> - Install the coolant supply and return lines. Refer to Procedure 010-041 in Section 10.
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
+> - Turn the air ON to the air starter, if equipped. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+> - Connect the batteries. Refer to the OEM service manual.

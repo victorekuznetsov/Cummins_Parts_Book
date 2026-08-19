@@ -14,6 +14,8 @@ engines:
 families:
   - "NT/NTA855 · ISM/QSM11"
   - "QSK19"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110068.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110068.pdf"
 tags:
@@ -21,6 +23,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QSK19"
   - "год/2011"
+  - "перевод/машинный"
   - "тема/electronic-engine-controls"
 ---
 
@@ -34,46 +37,100 @@ tags:
 > **Даты:** выпущен 2011-03-09 · изменён 2011-03-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110068.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110068.pdf)
 
-## New Oil and Boost Pressure Sensors
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые датчики давления масла и наддува
 
-### Contents
+### Положение о гарантии
 
-This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This document introduces the internal improvements of the oil and boost pressure sensors, designed to improve the prevention of water intrusion and increase the internal robustness of the sensor.
+### Содержание
 
-The new oil and boost pressure sensors can be identified by the 1-1/4 hex, 6–point and brass housing. The current pressure sensors use a 1-1/4 hex, round corner and carbon steel housing. The date code identifying these new parts will be J97 (October, 1997).
+Этот документ был первоначально выпущен в период с 1994 по 2001 год. Он был добавлен в QSOL для информационных целей.
 
-The changes went into production engines beginning:
+В этом документе представлены внутренние усовершенствования датчиков масла и давления, предназначенные для улучшения предотвращения проникновения воды и повышения внутренней прочности датчика.
 
-| Sensor | Engine | Engine Serial Number | Build Date |
+Новые датчики давления масла и повышения давления могут быть идентифицированы по 1-1/4, 6-точечной и латунной оболочкам. Датчики давления тока используют корпус из 1-1/4 гекса, круглого угла и углеродистой стали. Код даты, идентифицирующий эти новые части, будет J97 (октябрь 1997 года).
+
+Изменения коснулись начала производства двигателей:
+
+| Сенсор | Двигатель | Серийный номер двигателя | Дата постройки |
 |---|---|---|---|
-| Oil Pressure | M11, ISM, QSM11 | 34876832 | September 4, 1997 |
-| Oil Pressure | N14 | 11863064 | September 26, 1997 |
-| Oil Pressure | K6, K19, QSK19 | 37178720 | October 14, 1997 |
-| Boost Pressure | M11, ISM, QSM11 | 34877105 | September 8, 1997 |
-| Boost Pressure | N14 | 11863179 | September 29, 1997 |
-| Boost Pressure | QSK19 | 37178706 | October 13, 1997 |
+| Нефтяное давление | M11, ISM, QSM11 | 34876832 | 4 сентября 1997 года |
+| Нефтяное давление | N14 | 11863064 | 26 сентября 1997 года |
+| Нефтяное давление | K6, K19, QSK19 | 37178720 | 14 октября 1997 года |
+| Повышение давления | M11, ISM, QSM11 | 34877105 | 8 сентября 1997 года |
+| Повышение давления | N14 | 11863179 | 29 сентября 1997 года |
+| Повышение давления | QSK19 | 37178706 | 13 октября 1997 года |
 
-The current part numbers for the sensors will not change. Pressure sensors for production and service that are affected by this change are:
+Номера деталей для датчиков не будут меняться. Датчики давления для производства и обслуживания, которые подвержены этому изменению, являются:
 
-| Part Number | Application |
+| Номер детали | Применение |
 |---|---|
-| 3080405 | 1991 Celect™ Boost Pressure |
-| 3084521 | 1994 Celect™, Celect™ Plus, AEM Boost Pressure |
-| 3085244 | Quantum Boost Pressure (higher accuracy) |
-| 3080406 | Celect™, Celect™ Plus, Quantum Oil Pressure |
-| 3080416 | Centry Fuel Rail Pressure |
-| 3080407 | Celect™ Ambient Air Pressure |
-| 3083787 | M11 CNG Boost Pressure |
-| 3080408 | CNG Boost Pressure |
-| 3085258 | Quantum Fuel/Timing Rail Pressure |
+| 3080405 | 1991 ф Повышение давления CelectTM |
+| 3084521 | 1994 CelectTM, CelectTM Plus, AEM Boost Pressure (США) |
+| 3085244 | Квантовое давление (более высокая точность) |
+| 3080406 | CelectTM, CelectTM Plus, Квантовое давление |
+| 3080416 | Железнодорожное давление Centr Fuel Rail Pressure |
+| 3080407 | Выберите ТМ атмосферное давление воздуха |
+| 3083787 | M11 CNG повышает давление |
+| 3080408 | КПГ повышает давление |
+| 3085258 | Квантовое топливо/максимальное давление на железную дорогу |
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Oil and Boost Pressure Sensors
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+>
+> This document introduces the internal improvements of the oil and boost pressure sensors, designed to improve the prevention of water intrusion and increase the internal robustness of the sensor.
+>
+> The new oil and boost pressure sensors can be identified by the 1-1/4 hex, 6–point and brass housing. The current pressure sensors use a 1-1/4 hex, round corner and carbon steel housing. The date code identifying these new parts will be J97 (October, 1997).
+>
+> The changes went into production engines beginning:
+>
+> | Sensor | Engine | Engine Serial Number | Build Date |
+> |---|---|---|---|
+> | Oil Pressure | M11, ISM, QSM11 | 34876832 | September 4, 1997 |
+> | Oil Pressure | N14 | 11863064 | September 26, 1997 |
+> | Oil Pressure | K6, K19, QSK19 | 37178720 | October 14, 1997 |
+> | Boost Pressure | M11, ISM, QSM11 | 34877105 | September 8, 1997 |
+> | Boost Pressure | N14 | 11863179 | September 29, 1997 |
+> | Boost Pressure | QSK19 | 37178706 | October 13, 1997 |
+>
+> The current part numbers for the sensors will not change. Pressure sensors for production and service that are affected by this change are:
+>
+> | Part Number | Application |
+> |---|---|
+> | 3080405 | 1991 Celect™ Boost Pressure |
+> | 3084521 | 1994 Celect™, Celect™ Plus, AEM Boost Pressure |
+> | 3085244 | Quantum Boost Pressure (higher accuracy) |
+> | 3080406 | Celect™, Celect™ Plus, Quantum Oil Pressure |
+> | 3080416 | Centry Fuel Rail Pressure |
+> | 3080407 | Celect™ Ambient Air Pressure |
+> | 3083787 | M11 CNG Boost Pressure |
+> | 3080408 | CNG Boost Pressure |
+> | 3085258 | Quantum Fuel/Timing Rail Pressure |
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.
-
-### Document History
+>
+> ### Document History

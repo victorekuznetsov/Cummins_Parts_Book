@@ -14,12 +14,15 @@ manuals:
   - "2883407"
   - "3666003"
 figures: 10
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter
@@ -33,72 +36,132 @@ tags:
 > **Даты:** изменён 2017-03-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-006.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-Close the coolant inlet and outlet valves on the coolant filter head by rotating the valves **clockwise**.
+### Снятие
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+Закройте впускной и выпускной клапаны охлаждающей жидкости на головке фильтра охлаждающей жидкости, вращая клапаны ** по часовой стрелке **.
 
 ![[08900359.png]]
 
-> [!danger] WARNING · Опасно
-> A small amount of coolant can leak when servicing the coolant filter with the shutoff valve in the OFF position. To reduce the possibility of personal injury, avoid contact with hot coolant.
+> [!danger] ОПАСНО
+> Небольшое количество охлаждающей жидкости может протекать при обслуживании фильтра охлаждающей жидкости с запорным клапаном в положении OFF. Чтобы уменьшить вероятность получения травмы, избегайте контакта с горячей охлаждающей жидкостью.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Use coolant filter wrench, Part Number 3376807, to remove the coolant filter. Discard the coolant filter.
+Используйте ключ фильтра охлаждающей жидкости, номер детали 3376807, чтобы удалить фильтр охлаждающей жидкости. Откажитесь от фильтра охлаждающей жидкости.
 
 ![[08900360.png]]
 
-Turn the shutoff valve to the OFF position by rotating the knobs in a **clockwise** direction until the valves are fully closed.
+Поверните запорный клапан в положение OFF, вращая ручки в направлении ** часовой стрелки **, пока клапаны полностью не закроются.
 
 ![[08100078.png]]
 
-Remove and discard the coolant filter.
+Удалите и отбросьте фильтр охлаждающей жидкости.
 
 ![[08100079.png]]
 
-### Clean
+### Очистка
 
-Clean the gasket surface.
+Очистите прокладку поверхности.
 
 ![[08900361.png]]
 
-Clean the gasket surface.
+Очистите прокладку поверхности.
 
 ![[08100080.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Do not allow oil to get into the filter. Oil will damage the DCA.
+> [!warning] ОСТОРОЖНО
+> Не позволяйте маслу попасть в фильтр. Нефть повредит ДЦА.
 
-> [!warning] CAUTION · Осторожно
-> Mechanical overtightening can distort the threads or damage the filter head.
+> [!warning] ОСТОРОЖНО
+> Механическое затяжение может исказить резьбу или повредить головку фильтра.
 
-Apply a thin film of lubricating oil to the gasket sealing surface before installing the new coolant filter.
+Нанесите тонкую пленку моторного масла на уплотняющую поверхность прокладки перед установкой нового фильтра охлаждающей жидкости.
 
-Install the coolant filter on the filter head. Tighten the filter until the gasket contacts the filter head surface.
+Установите фильтр охлаждающей жидкости на головку фильтра. Затягивайте фильтр до тех пор, пока прокладка не свяжется с поверхностью головки фильтра.
 
-Tighten the coolant filter an additional ½ to ¾ of a turn, or as specified by the filter manufacturer.
+Затягивать фильтр охлаждающей жидкости дополнительно от 1⁄2 до 3⁄4 оборота или по назначению производителя фильтра.
 
 ![[wf8sewa.png]]
 
-> [!warning] CAUTION · Осторожно
-> The valve must be in the ON position to prevent engine damage.
+> [!warning] ОСТОРОЖНО
+> Клапан должен быть в положении ON, чтобы предотвратить повреждение двигателя.
 
-Open the coolant inlet and outlet valves on the coolant filter head by rotating the valves **counterclockwise**.
+Откройте впускной и выпускной клапаны охлаждающей жидкости на головке фильтра охлаждающей жидкости, вращая клапаны ** против часовой стрелки **.
 
 ![[08900362.png]]
 
-Install the coolant system pressure cap.
+Установите крышку радиатора системы охлаждения.
 
 ![[08900363.png]]
 
-Operate the engine and check for coolant leaks.
+Управляйте двигателем и проверяйте наличие утечек охлаждающей жидкости.
 
-After the air has been purged from the system, check the coolant level.
+После того, как воздух был очищен от системы, проверьте уровень охлаждающей жидкости.
 
 ![[wf2cnda.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Close the coolant inlet and outlet valves on the coolant filter head by rotating the valves **clockwise**.
+>
+> **WARNING · Опасно**
+> A small amount of coolant can leak when servicing the coolant filter with the shutoff valve in the OFF position. To reduce the possibility of personal injury, avoid contact with hot coolant.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Use coolant filter wrench, Part Number 3376807, to remove the coolant filter. Discard the coolant filter.
+>
+> Turn the shutoff valve to the OFF position by rotating the knobs in a **clockwise** direction until the valves are fully closed.
+>
+> Remove and discard the coolant filter.
+>
+> ### Clean
+>
+> Clean the gasket surface.
+>
+> Clean the gasket surface.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not allow oil to get into the filter. Oil will damage the DCA.
+>
+> **CAUTION · Осторожно**
+> Mechanical overtightening can distort the threads or damage the filter head.
+>
+> Apply a thin film of lubricating oil to the gasket sealing surface before installing the new coolant filter.
+>
+> Install the coolant filter on the filter head. Tighten the filter until the gasket contacts the filter head surface.
+>
+> Tighten the coolant filter an additional ½ to ¾ of a turn, or as specified by the filter manufacturer.
+>
+> **CAUTION · Осторожно**
+> The valve must be in the ON position to prevent engine damage.
+>
+> Open the coolant inlet and outlet valves on the coolant filter head by rotating the valves **counterclockwise**.
+>
+> Install the coolant system pressure cap.
+>
+> Operate the engine and check for coolant leaks.
+>
+> After the air has been purged from the system, check the coolant level.

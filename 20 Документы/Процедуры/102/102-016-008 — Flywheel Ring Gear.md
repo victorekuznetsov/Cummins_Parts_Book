@@ -17,6 +17,8 @@ manuals:
   - "4021528"
   - "4021592"
 figures: 7
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-016-008.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Flywheel Ring Gear
@@ -37,118 +40,230 @@ tags:
 > **Даты:** изменён 2022-07-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-016-008.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Templistik®, Part Number 3165163, or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Torch
-- Brass drift
-- Hammer
+- Templistik®, номер детали 3165163 или эквивалент
 
-### Disassemble
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[ 50 lb \]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+- Факел
+- Брасс дрейф
+- молоток
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+### Разборка
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear goggles and protective clothing.
+> [!danger] ОПАСНО
+> Этот компонент или сборка весит более 23 кг [50 фунтов ]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> Adjust the torch to a good heating flame. Do not use a cutting flame (a blue flame) to heat the ring gear. Damage to the flywheel can result.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм или повреждения оборудования, эта процедура должна выполняться только квалифицированными специалистами по обслуживанию.
 
-> [!warning] CAUTION · Осторожно
-> Do not use a steel drift.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травм, надевайте очки и защитную одежду.
 
-Heat the ring gear with a torch
+> [!warning] ОСТОРОЖНО
+> Настройте факел на хорошее нагревательное пламя. Не используйте режущее пламя (синий огонь) для нагревания кольцевой передачи. Повреждение маховика может привести к этому.
 
-Use a brass drift and a hammer to remove the hot ring gear.
+> [!warning] ОСТОРОЖНО
+> Не используйте стальной дрейф.
+
+Нагреть кольцо с помощью факела
+
+Используйте латунный дрейф и молоток, чтобы снять горячее кольцо.
 
 ![[16600008.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм или повреждения оборудования, эта процедура должна выполняться только квалифицированными специалистами по обслуживанию.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear goggles and protective clothing.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травм, надевайте очки и защитную одежду.
 
-> [!warning] CAUTION · Осторожно
-> Do not use a steel drift.
+> [!warning] ОСТОРОЖНО
+> Не используйте стальной дрейф.
 
-If a heating torch is **not** available, the ring gear can be removed with a brass drift and hammer.
+Если нагревательный факел ** не доступен, кольцевое снаряжение можно снять латунным дрейфом и молотком.
 
-If this method is used to remove the ring gear from a flexplate assembly, make sure a wooden block is used to support the ring gear adapter.
+Если этот метод используется для удаления кольцевой передачи из разгибаемого узла, убедитесь, что для поддержки адаптера кольцевой передачи используется деревянный блок.
 
 ![[fw8rgmb.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Check the flywheel outside diameter for damage at the ring gear location.
+Проверьте маховик наружного диаметра на предмет повреждения в месте расположения кольцевой передачи.
 
-If the flywheel is damaged, it **must** be replaced.
+Если маховик поврежден, его необходимо заменить.
 
 ![[fw8bdsa.png]]
 
-### Assemble
+### Сборка
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[ 50 lb \]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот компонент или сборка весит более 23 кг [50 фунтов ]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed the specified time or temperature. Damage to the ring gear and ring gear teeth can result.
+> [!warning] ОСТОРОЖНО
+> Не превышайте заданное время или температуру. Повреждение кольцевой передачи и зубьев кольцевой передачи может привести к повреждению.
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to install the ring gear without heating it. The ring gear will be damaged or broken.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь установить кольцевую передачу без ее нагрева. Кольцевое снаряжение будет повреждено или сломано.
 
-Preheat the oven to an adjusted temperature of 205°C \[ 400°F \].
+Предварительно нагревайте духовку до регулируемой температуры 205 ° C \[400°F \].
 
-Heat the ring gear in the oven for a **minimum** of 40 minutes but **not** more than a maximum of one hour.
+Нагрейте кольцевую передачу в духовке в течение **минимума ** 40 минут, но **не ** более одного часа.
 
-The inner diameter of the ring gear will become larger and simplify the installation of the ring gear on the flywheel.
+Внутренний диаметр кольцевой передачи станет больше и упростит установку кольцевой передачи на маховик.
 
 ![[01600160.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-Use a heating flame to heat the gear if an oven is not available.
+Используйте нагревательное пламя для нагревания шестерни, если печь недоступна.
 
-Use a temperature indicator marker (Templistik®), Part Number 3165163, or equivalent, to check the temperature of the gear.
+Используйте маркер индикатора температуры (Templistik®), номер детали 3165163 или эквивалент, для проверки температуры передачи.
 
-Heat the gear to 232°C \[ 450°F \].
+Нагрейте передачу до 232 ° C \[450°F \].
 
-A more even temperature is obtained by placing the ring gear on a metal plate and then heating the bottom side of the plate with the torch. Do **not** exceed the specified temperature.
+Более четная температура получается путем размещения кольцевой передачи на металлической пластине, а затем нагревания нижней стороны пластины факелом. ** не превышает указанную температуру.
 
 ![[fw2rgwc.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-Remove the ring gear from the oven.
+Удалите кольцевую передачу из духовки.
 
 ![[fw8rghd.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-> [!warning] CAUTION · Осторожно
-> Allow the ring gear to air cool. Do not use water or oil to reduce the cooling time. Damage to the ring gear can result.
+> [!warning] ОСТОРОЖНО
+> Дайте кольцевой передаче остыть. Не используйте воду или масло, чтобы уменьшить время охлаждения. Повреждение кольцевой передачи может привести к этому.
 
-The part number is on the same side as the bevel.
+Номер детали находится на той же стороне, что и скобка.
 
-Position the ring gear so that the bevel is positioned toward the crankshaft edge of the flywheel as shown.
+Поместите кольцевую передачу так, чтобы скос был расположен к краю коленчатого вала маховика, как показано.
 
-Install the ring gear.
+Установите кольцевую передачу.
 
-When installed correctly, the bevel machined at the root of each gear tooth will be toward the starting motor when the flywheel is installed.
+При правильной установке скос, обработанный в корне каждого зубца зубчатой передачи, будет по направлению к пусковому двигателю, когда маховик установлен.
 
 ![[fw8rghc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Templistik®, Part Number 3165163, or equivalent
+>
+> #### Additional Service Items
+>
+> - Torch
+> - Brass drift
+> - Hammer
+>
+> ### Disassemble
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[ 50 lb \]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear goggles and protective clothing.
+>
+> **CAUTION · Осторожно**
+> Adjust the torch to a good heating flame. Do not use a cutting flame (a blue flame) to heat the ring gear. Damage to the flywheel can result.
+>
+> **CAUTION · Осторожно**
+> Do not use a steel drift.
+>
+> Heat the ring gear with a torch
+>
+> Use a brass drift and a hammer to remove the hot ring gear.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear goggles and protective clothing.
+>
+> **CAUTION · Осторожно**
+> Do not use a steel drift.
+>
+> If a heating torch is **not** available, the ring gear can be removed with a brass drift and hammer.
+>
+> If this method is used to remove the ring gear from a flexplate assembly, make sure a wooden block is used to support the ring gear adapter.
+>
+> ### Clean and Inspect for Reuse
+>
+> Check the flywheel outside diameter for damage at the ring gear location.
+>
+> If the flywheel is damaged, it **must** be replaced.
+>
+> ### Assemble
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[ 50 lb \]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+>
+> **CAUTION · Осторожно**
+> Do not exceed the specified time or temperature. Damage to the ring gear and ring gear teeth can result.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to install the ring gear without heating it. The ring gear will be damaged or broken.
+>
+> Preheat the oven to an adjusted temperature of 205°C \[ 400°F \].
+>
+> Heat the ring gear in the oven for a **minimum** of 40 minutes but **not** more than a maximum of one hour.
+>
+> The inner diameter of the ring gear will become larger and simplify the installation of the ring gear on the flywheel.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+>
+> Use a heating flame to heat the gear if an oven is not available.
+>
+> Use a temperature indicator marker (Templistik®), Part Number 3165163, or equivalent, to check the temperature of the gear.
+>
+> Heat the gear to 232°C \[ 450°F \].
+>
+> A more even temperature is obtained by placing the ring gear on a metal plate and then heating the bottom side of the plate with the torch. Do **not** exceed the specified temperature.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+>
+> Remove the ring gear from the oven.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+>
+> **CAUTION · Осторожно**
+> Allow the ring gear to air cool. Do not use water or oil to reduce the cooling time. Damage to the ring gear can result.
+>
+> The part number is on the same side as the bevel.
+>
+> Position the ring gear so that the bevel is positioned toward the crankshaft edge of the flywheel as shown.
+>
+> Install the ring gear.
+>
+> When installed correctly, the bevel machined at the root of each gear tooth will be toward the starting motor when the flywheel is installed.

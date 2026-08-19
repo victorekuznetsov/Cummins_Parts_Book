@@ -22,6 +22,8 @@ families:
   - "QSK19"
   - "QST30"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377902.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377902.pdf"
 tags:
@@ -31,6 +33,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QSK19"
   - "двигатель/QST30"
+  - "перевод/машинный"
 ---
 
 # Depth Gauge Kit
@@ -42,65 +45,128 @@ tags:
 > **Даты:** выпущен 2003-01-21 · изменён 2009-10-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377902.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377902.pdf)
 
-### Description
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Depth Gauge Kit
 
-### Purpose
+### Наименование
 
-This document provides the instructions for using the depth gauge kit, Part Number 3164438, which is used to measure cylinder liner protrusion, injector protrusion, cylinder block counterbore depths, and valve intrusion or protrusion.
+Комплект глубиномера
+
+### Назначение
+
+В этом документе приведены инструкции по использованию комплекта измерительных приборов глубины, Номер детали 3164438, который используется для измерения выступа вкладыша цилиндра, выступа форсунки, глубины противоборства блока цилиндров и вторжения или выступа клапана.
 
 ![[22800532.png]]
 
-| Table 1, Depth Gauge Kit, Part Number 3164438 |  |  |  |
+| Таблица 1, Глубинная измерительная приборная панель, номер детали 3164438 |  |  |  |
 |---|---|---|---|
-| Item Number | Part Number | Description | Quantity |
-| 1 | 3164441 | Digital indicator gauge | 1 |
-| 2 | 3823498 | Gauge mounting adapter | 1 |
-| 3 | 3376880 | Gauge contact point | 1 |
-| 4 | 3823505 | Gauge contact point, 1/2-in | 1 |
-| 5 | 3823507 | Gauge contact point, 1-in | 1 |
-| 6 | ST 547-5 | Gauge contact point, 3/8-in | 1 |
-| 7 | 3823499 | Gauge mounting base | 1 |
-| 8 | 3823506 | Knob | 1 |
-| 9 | 134388 | Socket head capscrew, 10-24 x 5/8 | 1 |
-| **Not** shown | 3823502 | Storage case | 1 |
-| **Table 2, Items Used with Depth Gauge Kit, Part Number 3164438, Purchased Separately** |  |  |  |
-| **Item Number** | **Part Number** | **Description** | **Quantity** |
-| **Not** shown | 3823500 | Contact point extension, 3-in | 1 |
-| **Not** shown | 3823501 | Contact point extension, 4-in | 1 |
-| **Not** shown | 3163329 | Liner installer for QSK45 and QSK60 | 1 |
-| **Not** shown | 3375422 | Liner installer for QSK19 | 1 |
-| **Not** shown | 3822503 | Liner clamp for NT, V28, K19, K38, K50, ISC, C8.3, and ISL | 1 |
-| **Not** shown | 3823615 | Liner installer for NT, N14, V903, V28, and QST30 | 1 |
-| **Not** shown | 3824272 | Liner installer for M11, L10, and ISM | 1 |
-| **Not** shown | 3162461 | Liner installer for ISX and Signature | 1 |
+| Номер позиции | Номер детали | Наименование | Количество |
+| 1 | 3164441 | Цифровой индикаторный калибр | 1 |
+| 2 | 3823498 | измерительный датчик монтажного адаптера | 1 |
+| 3 | 3376880 | точка контакта датчика | 1 |
+| 4 | 3823505 | контактная точка калибра, 1/2-в | 1 |
+| 5 | 3823507 | контактная точка калибра, 1-в | 1 |
+| 6 | ST 547-5 | контактная точка калибра, 3/8-в | 1 |
+| 7 | 3823499 | калибр для монтажа основания | 1 |
+| 8 | 3823506 | Рукоятка | 1 |
+| 9 | 134388 | Головные болты гнезда, 10-24 x 5/8 | 1 |
+| ** Не показана** | 3823502 | Случай хранения | 1 |
+| ** Таблица 2, Калибр глубины, Номер детали 3164438, Приобретенный отдельно** |  |  |  |
+| ** Номер пункта** | ** Часть номера** | **Описание** | ** Количество** |
+| ** Не показана** | 3823500 | Расширение контактной точки, 3-в | 1 |
+| ** Не показана** | 3823501 | Расширение контактной точки, 4-в | 1 |
+| ** Не показана** | 3163329 | Установщик лайнеров для QSK45 и QSK60 | 1 |
+| ** Не показана** | 3375422 | Установщик лайнеров для QSK19 | 1 |
+| ** Не показана** | 3822503 | Линейный зажим для NT, V28, K19, K38, K50, ISC, C8.3 и ISL | 1 |
+| ** Не показана** | 3823615 | Установщик лайнеров для NT, N14, V903, V28 и QST30 | 1 |
+| ** Не показана** | 3824272 | Установщик лайнеров для M11, L10 и ISM | 1 |
+| ** Не показана** | 3162461 | Установщик лайнеров для ISX и подписи | 1 |
 
-Make certain that the cylinder block or cylinder head is clean and free from oil, gasket material, machining burrs, etc.
+Убедитесь, что блок цилиндров или головка цилиндра чисты и свободны от масла, прокладочного материала, обрабатывающих заусениц и т. Д.
 
-Adjust the digital indicator gauge location so that the range of travel is adequate to measure the feature (counterbore depth, liner protrusion, injector protrusion, or valve protrusion/intrusion).
+Настройте цифровое индикаторное измерительное устройство так, чтобы диапазон движения был адекватным для измерения функции (глубина противоборства, выступ лайнера, выступ форсунки или выступ/вторжение клапана).
 
-Use the largest diameter gauge contact point that will fit the feature being measured.
+Используйте самую большую точку контакта калибра диаметра, которая будет соответствовать измеряемой функции.
 
 ![[22800533.png]]
 
-Place the depth gauge assembly on the cylinder block or cylinder head and zero the digital indicator gauge.
+Поместите сборку калибра глубины на блок цилиндра или головку цилиндра и обнулите цифровой индикаторный калибр.
 
 ![[22800534.png]]
 
-> [!note] Note · Примечание
-> Refer to the appropriate troubleshooting and repair manual for locations to perform measurements, unique instructions, and specifications.
+> [!note] Примечание
+> См. соответствующее руководство по устранению неполадок и ремонту для мест проведения измерений, уникальные инструкции и спецификации.
 
-> [!note] Note · Примечание
-> The cylinder liner **must** be clamped into the cylinder block with the appropriate service tool. See Table 2, Items Used with Depth Gauge Kit, Part Number 3164438, Purchased Separately, for correct liner clamp.
+> [!note] Примечание
+> Линейка цилиндров ** должна быть зажата в блок цилиндров с соответствующей служебной оснасткой. См. Таблицу 2, Калибр глубины, Номер детали 3164438, Приобретенный отдельно, для правильного зажима лайнера.
 
 ![[22800535.png]]
 
-The depth gauge assembly can be used to measure valve intrusion or protrusion, injector protrusion, and cylinder block counterbore depth.
+Сборка измерительной шкалы глубины может использоваться для измерения вторжений или выступов клапанов, протрузии форсунки и глубины противоборства блока цилиндров.
 
-Refer to the appropriate troubleshooting and repair manual to perform measurements for the desired check.
+Смотрите соответствующее руководство по устранению неполадок и ремонту для выполнения измерений для желаемой проверки.
 
-> [!note] Note · Примечание
-> Valve protrusion check is illustrated.
+> [!note] Примечание
+> Проверка протрузии клапана проиллюстрирована.
 
 ![[22800536.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Description
+>
+> Depth Gauge Kit
+>
+> ### Purpose
+>
+> This document provides the instructions for using the depth gauge kit, Part Number 3164438, which is used to measure cylinder liner protrusion, injector protrusion, cylinder block counterbore depths, and valve intrusion or protrusion.
+>
+> | Table 1, Depth Gauge Kit, Part Number 3164438 |  |  |  |
+> |---|---|---|---|
+> | Item Number | Part Number | Description | Quantity |
+> | 1 | 3164441 | Digital indicator gauge | 1 |
+> | 2 | 3823498 | Gauge mounting adapter | 1 |
+> | 3 | 3376880 | Gauge contact point | 1 |
+> | 4 | 3823505 | Gauge contact point, 1/2-in | 1 |
+> | 5 | 3823507 | Gauge contact point, 1-in | 1 |
+> | 6 | ST 547-5 | Gauge contact point, 3/8-in | 1 |
+> | 7 | 3823499 | Gauge mounting base | 1 |
+> | 8 | 3823506 | Knob | 1 |
+> | 9 | 134388 | Socket head capscrew, 10-24 x 5/8 | 1 |
+> | **Not** shown | 3823502 | Storage case | 1 |
+> | **Table 2, Items Used with Depth Gauge Kit, Part Number 3164438, Purchased Separately** |  |  |  |
+> | **Item Number** | **Part Number** | **Description** | **Quantity** |
+> | **Not** shown | 3823500 | Contact point extension, 3-in | 1 |
+> | **Not** shown | 3823501 | Contact point extension, 4-in | 1 |
+> | **Not** shown | 3163329 | Liner installer for QSK45 and QSK60 | 1 |
+> | **Not** shown | 3375422 | Liner installer for QSK19 | 1 |
+> | **Not** shown | 3822503 | Liner clamp for NT, V28, K19, K38, K50, ISC, C8.3, and ISL | 1 |
+> | **Not** shown | 3823615 | Liner installer for NT, N14, V903, V28, and QST30 | 1 |
+> | **Not** shown | 3824272 | Liner installer for M11, L10, and ISM | 1 |
+> | **Not** shown | 3162461 | Liner installer for ISX and Signature | 1 |
+>
+> Make certain that the cylinder block or cylinder head is clean and free from oil, gasket material, machining burrs, etc.
+>
+> Adjust the digital indicator gauge location so that the range of travel is adequate to measure the feature (counterbore depth, liner protrusion, injector protrusion, or valve protrusion/intrusion).
+>
+> Use the largest diameter gauge contact point that will fit the feature being measured.
+>
+> Place the depth gauge assembly on the cylinder block or cylinder head and zero the digital indicator gauge.
+>
+> **Note · Примечание**
+> Refer to the appropriate troubleshooting and repair manual for locations to perform measurements, unique instructions, and specifications.
+>
+> **Note · Примечание**
+> The cylinder liner **must** be clamped into the cylinder block with the appropriate service tool. See Table 2, Items Used with Depth Gauge Kit, Part Number 3164438, Purchased Separately, for correct liner clamp.
+>
+> The depth gauge assembly can be used to measure valve intrusion or protrusion, injector protrusion, and cylinder block counterbore depth.
+>
+> Refer to the appropriate troubleshooting and repair manual to perform measurements for the desired check.
+>
+> **Note · Примечание**
+> Valve protrusion check is illustrated.

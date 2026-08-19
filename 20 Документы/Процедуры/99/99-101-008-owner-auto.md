@@ -8,6 +8,7 @@ families:
   - "C8.3 · 6C8.3"
 manuals:
   - "4915544"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-owner-auto.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-008-owner-auto.pdf"
 tags:

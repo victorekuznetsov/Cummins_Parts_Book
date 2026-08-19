@@ -23,6 +23,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 20
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-213.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-213.pdf"
 tags:
@@ -31,6 +33,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # D-Sub Miniature Connector Series
@@ -44,137 +47,242 @@ tags:
 > **Даты:** изменён 2003-10-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-213.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-213.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The D-sub miniature connector is used to attach the appropriate harnesses to the ECM.
 
-Remove the connector.
+### Замена пин
+
+Миниатюрный разъем D-sub используется для прикрепления соответствующих проводных ремней к ECM.
+
+Удалите разъем.
 
 ![[19802661.png]]
 
-Remove the backshell from the connector.
+Удалите оболочку разъема из разъема.
 
-Locate the damaged pin or wire.
+Найдите поврежденный штифт или провод.
 
 ![[19802569.png]]
 
-Remove the strain relief to be able to work with the damaged pin.
+Удалите облегчение деформации, чтобы иметь возможность работать с поврежденным штифтом.
 
 ![[19802570.png]]
 
-Use the D-sub miniature extraction tool, Part Number 3163971, place over the wire to remove a pin from the connector.
+Используйте миниатюрный инструмент извлечения D-sub, Номер детали 3163971, поместите над проводом, чтобы удалить штифт из разъема.
 
-Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+Перед установкой нового ремонтного провода выполните тест, чтобы убедиться, что провод правильного размера.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+См. соответствующий комплект для ремонта проводов в таблице служебных инструментов в передней части Раздела 19 для правильного ремонта провода.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
-Refer to the wiring diagram in Section E for pin locations.
-
-![[19802571.png]]
-
-With a twisting motion, push the pin extraction tool into the connector approximately 25 mm \[1 in\] until it bottoms on the terminal flange. A click will be heard when the extraction tool is in place.
+Расположение контактов см. на электрической схеме в разделе E.
 
 ![[19802571.png]]
 
-Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin is removed.
+С помощью скручивания, толкайте инструмент извлечения штифта в разъем приблизительно 25 мм \[1 в\], пока он не опустится на концевой фланж. Клик будет услышан, когда инструмент извлечения будет на месте.
+
+![[19802571.png]]
+
+Держите инструмент на концевом фланце и вытащите провод и соединительный штифт из разъема. Заметьте и запишите отверстие, из которого вынимается штифт.
 
 ![[19802572.png]]
 
-> [!note] Note · Примечание
-> The repair wire is 127 mm \[5 in\] long.
+> [!note] Примечание
+> Ремонтная проволока имеет длину 127 мм \[5 \].
 
-Use wire crimping tool, Part Number 3822930, to cut 127 mm \[5 in\] off the wire and pin.
+Используйте инструмент для обжима проводов, номер детали 3822930, чтобы отрезать 127 мм \[5 in\] от провода и штифта.
 
-Use the crimping tool to remove 6 mm \[¼ in\] of insulation from the wire.
+Используйте обжимной инструмент для удаления 6 мм \[1⁄4 в\] изоляции от провода.
 
 ![[cel37.png]]
 
-Use the wire crimping tool to crimp the repair wire onto the bare wire.
+Используйте инструмент для обжимания провода, чтобы обрезать ремонтный провод на голый провод.
 
 ![[ee8cohv.png]]
 
-Use heat gun, Part Number 3822860, to heat shrink the tubing around the wire. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860, чтобы нагреть трубку вокруг провода. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[19802573.png]]
 
-Insert the pin into the correct hole of the connector.
+Вставьте штифт в правильное отверстие разъема.
 
-The pin **must** click into place and hold the wire in the connector.
+Штырь **must** нажимает на место и удерживает провод в разъеме.
 
-Pull the wire gently to make sure it is seated in the connector.
+Тяните провод осторожно, чтобы убедиться, что он находится в разъеме.
 
 ![[19802574.png]]
 
-Tighten the strain relief.
+Усильте снятие напряжения.
 
-Complete the assembly of the backshell by placing the two halves together and tightening the screws.
+Завершите сборку соединительной оболочки, поместив две половины вместе и затянув винты.
 
 ![[19802570.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как моторное масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный контактный износ разъема.
 
-Apply a small amount of lubricant to the connector terminals. Do **not** fill the entire connector cavity with lubricant.
+Нанесите небольшое количество смазки на соединительные терминалы. **не** заполнять всю полость разъема смазкой.
 
 ![[19802492.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-The 50-pin D-sub miniature connector is used to attach the appropriate harnesses to the ECM.
+Миниатюрный разъем D-sub 50-контактный используется для подключения соответствующих жгутов электропроводки к ECM.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[19802661.png]]
 
-Remove the backshell from the connector. Remove the stain relief.
+Удалите оболочку разъема из разъема. Удалите пятно с рельефа.
 
 ![[19802569.png]]
 
-To replace the connector use the D-sub miniature extraction tool, Part Number 3163971, place over each wire to remove all pins from the connector.
+Для замены разъема используют миниатюрный инструмент извлечения D-sub, номер детали 3163971, помещают по каждому проводу, чтобы удалить все штифты из разъема.
 
-Before installing the new connector, perform a fit test to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните тест на пригодность, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram in Section E for pin locations.
+Расположение контактов см. на электрической схеме в разделе E.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
-With a twisting motion, push the pin extraction tool into the connector approximately 25 mm \[1 in\] until it bottoms on the terminal flange. A click will be heard when the extraction tool is in place.
+С помощью скручивания, толкайте инструмент извлечения штифта в разъем приблизительно 25 мм \[1 в\], пока он не опустится на концевой фланж. Клик будет услышан, когда инструмент извлечения будет на месте.
 
 ![[19802571.png]]
 
-Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin was removed.
+Держите инструмент на концевом фланце и вытащите провод и соединительный штифт из разъема. Заметьте и запишите отверстие, из которого был удален штифт.
 
 ![[19802572.png]]
 
-Insert the pins into the correct holes of the replacement connector.
+Вставьте штифты в правильные отверстия сменного разъёма.
 
-Each pin **must** click into place and hold the wires in the connector.
+Каждый штифт ** должен ** щелкнуть на место и удерживать провода в разъеме.
 
-Pull each wire gently to make sure it is seated in the connector.
+Тяните каждый провод осторожно, чтобы убедиться, что он находится в разъеме.
 
 ![[19802575.png]]
 
-Place the connector pin block onto the lower half of the backshell. Place all wires within the strain relief and tighten the strain relief.
+Поместите блок контакта разъема на нижнюю половину оболочки разъема. Поместите все провода в пределах рельефа деформации и затяните рельеф деформации.
 
 ![[19802570.png]]
 
-Complete the assembly of the connector by placing the upper half of the backshell onto the lower half and tightening the screws.
+Завершить монтаж разъёма можно, поместив верхнюю половину оболочки разъёма на нижнюю половину и затянув винты.
 
 ![[19802569.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как моторное масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный контактный износ разъема.
 
-Apply a small amount of lubricant to the connector terminals. Do **not** fill the entire connector cavity with lubricant.
+Нанесите небольшое количество смазки на соединительные терминалы. **не** заполнять всю полость разъема смазкой.
 
 ![[19802491.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The D-sub miniature connector is used to attach the appropriate harnesses to the ECM.
+>
+> Remove the connector.
+>
+> Remove the backshell from the connector.
+>
+> Locate the damaged pin or wire.
+>
+> Remove the strain relief to be able to work with the damaged pin.
+>
+> Use the D-sub miniature extraction tool, Part Number 3163971, place over the wire to remove a pin from the connector.
+>
+> Before installing the new repair wire, perform a test fit to make sure the wire is the correct size.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair wire.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> With a twisting motion, push the pin extraction tool into the connector approximately 25 mm \[1 in\] until it bottoms on the terminal flange. A click will be heard when the extraction tool is in place.
+>
+> Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin is removed.
+>
+> **Note · Примечание**
+> The repair wire is 127 mm \[5 in\] long.
+>
+> Use wire crimping tool, Part Number 3822930, to cut 127 mm \[5 in\] off the wire and pin.
+>
+> Use the crimping tool to remove 6 mm \[¼ in\] of insulation from the wire.
+>
+> Use the wire crimping tool to crimp the repair wire onto the bare wire.
+>
+> Use heat gun, Part Number 3822860, to heat shrink the tubing around the wire. The tubing will shrink and make the connection waterproof.
+>
+> Insert the pin into the correct hole of the connector.
+>
+> The pin **must** click into place and hold the wire in the connector.
+>
+> Pull the wire gently to make sure it is seated in the connector.
+>
+> Tighten the strain relief.
+>
+> Complete the assembly of the backshell by placing the two halves together and tightening the screws.
+>
+> **CAUTION · Осторожно**
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+>
+> Apply a small amount of lubricant to the connector terminals. Do **not** fill the entire connector cavity with lubricant.
+>
+> ### Connector Replacement
+>
+> The 50-pin D-sub miniature connector is used to attach the appropriate harnesses to the ECM.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Remove the backshell from the connector. Remove the stain relief.
+>
+> To replace the connector use the D-sub miniature extraction tool, Part Number 3163971, place over each wire to remove all pins from the connector.
+>
+> Before installing the new connector, perform a fit test to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> With a twisting motion, push the pin extraction tool into the connector approximately 25 mm \[1 in\] until it bottoms on the terminal flange. A click will be heard when the extraction tool is in place.
+>
+> Hold the tool on the terminal flange and pull the wire and connecting pin out of the connector. Note and record the hole from which the pin was removed.
+>
+> Insert the pins into the correct holes of the replacement connector.
+>
+> Each pin **must** click into place and hold the wires in the connector.
+>
+> Pull each wire gently to make sure it is seated in the connector.
+>
+> Place the connector pin block onto the lower half of the backshell. Place all wires within the strain relief and tighten the strain relief.
+>
+> Complete the assembly of the connector by placing the upper half of the backshell onto the lower half and tightening the screws.
+>
+> **CAUTION · Осторожно**
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+>
+> Apply a small amount of lubricant to the connector terminals. Do **not** fill the entire connector cavity with lubricant.

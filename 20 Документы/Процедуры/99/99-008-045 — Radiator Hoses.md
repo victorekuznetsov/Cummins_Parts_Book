@@ -24,6 +24,8 @@ manuals:
   - "3666134"
   - "3810497"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-008-045.pdf"
 tags:
@@ -33,6 +35,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Radiator Hoses
@@ -46,13 +49,32 @@ tags:
 > **Даты:** изменён 2011-01-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-008-045.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check all hoses for cracks, cuts, or collapsing.
 
-> [!note] Note · Примечание
-> The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+### Контроль при обслуживании
 
-If damage is found, replace damaged hoses. Contact your local Cummins Authorized Repair Location.
+Проверьте все шланги на наличие трещин, порезов или обрушений.
+
+> [!note] Примечание
+> Силиконовый шланг охлаждающей жидкости двигателя будет демонстрировать отек из-за эластичности шланга.
+
+Если повреждения обнаружены, замените поврежденные шланги. Свяжитесь с вашим местным авторизованным ремонтным центром Cummins.
 
 ![[rp8hosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Check all hoses for cracks, cuts, or collapsing.
+>
+> **Note · Примечание**
+> The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+>
+> If damage is found, replace damaged hoses. Contact your local Cummins Authorized Repair Location.

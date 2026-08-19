@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc2265.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc2265.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Electric Lift Pump for Engine Fuel Supply Circuit - Voltage Above Normal or Shorted to High Source
@@ -33,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc2265.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc2265.pdf)
 
-### Fault Code: 2265
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Electric Lift Pump for Engine Fuel Supply Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 2265
 
-### Overview
+### Цепь электроподкачивающего насоса — напряжение выше нормы или замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2265 PID(P): SPN: 1075 FMI: 3 Lamp: Amber SRT: | Electric Lift Pump for Engine Fuel Supply Circuit - Voltage Above Normal or Shorted to High Source. High voltage or open detected at the fuel lift pump signal circuit. | Engine can be difficult to start. |
+| Код неисправности: 2265 PID(P): СПН: 1075 FMI: 3 лампы: Янтарная СРТ: | Цепь электроподкачивающего насоса — напряжение выше нормы или замыкание на плюс. Высокое напряжение или открытое обнаруженное на цепи сигнала насоса топливного подъема. | Двигатель может быть трудно запустить. |
 
 ![[19a00821.png]]
 
-Electric Lift Pump for Engine Fuel Supply Circuit
+Электрический насос для подъема подъёмника для цепи подачи топлива для двигателя
 
-### Circuit Description
+### Описание цепи
 
-The circuit is a 24 volt high side driver in the ECM that controls the electric lift pump relay for engine fuel supply.
+Схема представляет собой 24-вольтовый боковой драйвер в ECM, который управляет реле электрического подъемного насоса для подачи топлива в двигатель.
 
-### Component Location
+### Расположение компонента
 
-The electric lift pump is located on the right bank rear high position or on the left bank front high position.
+Электрический подъемный насос расположен на правом берегу сзади в высоком положении или на левом берегу спереди в высоком положении.
 
-### Shoptalk
+### Практические замечания
 
-- This fault becomes active if the ECM detects an open circuit at key-on. The cause of this fault code is an open circuit in the electric lift pump for engine fuel supply circuit between the Engine Fuel Supply Signal relay and the ECM connector.
+- Эта ошибка становится активной, если ECM обнаруживает открытую цепь при включении клавиши. Причиной этого кода неисправности является открытая схема в электрическом подъемном насосе для цепи подачи топлива двигателя между реле сигнала подачи топлива двигателя и разъемом ECM.
 
-- If the fault code is intermittent, look for the cause of an intermittent open circuit, such as loose pins or bad connections.
+- Если код неисправности является прерывистым, ищите причину прерывистой открытой цепи, такой как свободные контакты или плохие соединения.
 
-Refer to Troubleshooting Fault Code t05-2265
+См. Код устранения неполадок t05-2265
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2265
+>
+> ### Electric Lift Pump for Engine Fuel Supply Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2265 PID(P): SPN: 1075 FMI: 3 Lamp: Amber SRT: | Electric Lift Pump for Engine Fuel Supply Circuit - Voltage Above Normal or Shorted to High Source. High voltage or open detected at the fuel lift pump signal circuit. | Engine can be difficult to start. |
+>
+> Electric Lift Pump for Engine Fuel Supply Circuit
+>
+> ### Circuit Description
+>
+> The circuit is a 24 volt high side driver in the ECM that controls the electric lift pump relay for engine fuel supply.
+>
+> ### Component Location
+>
+> The electric lift pump is located on the right bank rear high position or on the left bank front high position.
+>
+> ### Shoptalk
+>
+> - This fault becomes active if the ECM detects an open circuit at key-on. The cause of this fault code is an open circuit in the electric lift pump for engine fuel supply circuit between the Engine Fuel Supply Signal relay and the ECM connector.
+>
+> - If the fault code is intermittent, look for the cause of an intermittent open circuit, such as loose pins or bad connections.
+>
+> Refer to Troubleshooting Fault Code t05-2265

@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-076-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-076-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Heat Shield
@@ -32,15 +35,36 @@ tags:
 > **Даты:** изменён 2005-10-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-076-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-076-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
 
-> [!warning] CAUTION · Осторожно
-> Do not remove insulation from inside of turbocharger heat shield. Insulation is permanently affixed to the heat shield.
+### Снятие
 
-Remove the turbocharger heat shield mounting capscrews.
+Судовое применение
 
-Remove the turbocharger heat shield.
+> [!warning] ОСТОРОЖНО
+> Не удаляйте изоляцию изнутри теплозащитного экрана турбокомпрессора. Изоляция постоянно прикрепляется к теплозащитному экрану.
+
+Удалите болты для установки теплового экрана турбокомпрессора.
+
+Удалите тепловой экран турбокомпрессора.
 
 ![[10400065.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Marine Applications
+>
+> **CAUTION · Осторожно**
+> Do not remove insulation from inside of turbocharger heat shield. Insulation is permanently affixed to the heat shield.
+>
+> Remove the turbocharger heat shield mounting capscrews.
+>
+> Remove the turbocharger heat shield.

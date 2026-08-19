@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 5
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-072-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-072-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # OEM Interface Harness
@@ -32,24 +35,46 @@ tags:
 > **Даты:** изменён 2004-05-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-072-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-072-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the 21-pin and 31-pin connectors from the OEM harness.
+
+### Снятие
+
+Отсоедините 21-контактные и 31-контактные разъёмы от электропроводки OEM.
 
 ![[19400399.png]]
 
-Disconnect the 2-pin and 6-pin Deutsch connectors.
+Отключите 2-контактные и 6-контактные разъемы Deutsch.
 
 ![[19801070.png]]
 
-Remove the 21-pin and 31-pin connectors from the harness support brackets.
+Удалите 21-контактные и 31-контактные разъёмы из опорных скобок проводов.
 
 ![[19400400.png]]
 
-Use a 4 mm \[5/32 inch\] hex head wrench to disconnect the engine harness Deutsch connector from the ECM.
+Используйте 4 мм \[5/32 дюйма\] шестигранный головной гаечный ключ для отключения проводов двигателя с помощью разъема Deutsch от ECM.
 
 ![[19400242.png]]
 
-Cut the 6 wire ties from the harness support bracket and remove the OEM interface harness from the engine.
+Отрежьте 6 проводных связей от кронштейна поддержки проводов и удалите OEM-интерфейс проводов из двигателя.
 
 ![[19801079.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the 21-pin and 31-pin connectors from the OEM harness.
+>
+> Disconnect the 2-pin and 6-pin Deutsch connectors.
+>
+> Remove the 21-pin and 31-pin connectors from the harness support brackets.
+>
+> Use a 4 mm \[5/32 inch\] hex head wrench to disconnect the engine harness Deutsch connector from the ECM.
+>
+> Cut the 6 wire ties from the harness support bracket and remove the OEM interface harness from the engine.

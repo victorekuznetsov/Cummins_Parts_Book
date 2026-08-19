@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc2662.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc2662.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # At Least One Unacknowledged Moderately Severe Fault - Condition Exists
@@ -33,52 +36,110 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc2662.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc2662.pdf)
 
-### Fault Code: 2662
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### At Least One Unacknowledged Moderately Severe Fault - Condition Exists
 
-Printable Version
+### Код неисправности: 2662
 
-### Overview
+### Есть неподтверждённая неисправность умеренного уровня — условие возникло
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2662 PID(P): SPN: 629 FMI: 11/31 Lamp: Amber SRT: | One or more unacknowledged moderately severe fault codes has been detected. | None on performance. |
+| Код неисправности: 2662 PID(P): СПН: 629 FMI: 11/31 лампа: Янтарная СРТ: | Обнаружен один или несколько непризнанных кодов с умеренно серьезными ошибками. | Ни одного на выступление. |
 
 ![[19a00867.png]]
 
-Engine Control Module (ECM)
+Модуль управления двигателем (ECM)
 
-### Circuit Description
+### Описание цепи
 
-The Engine Control Module (ECM) is a computer that is responsible for engine control, diagnostics, and user features.The ECM has internal diagnostics that continuously run and check the internal memory.
+Модуль управления двигателем (ECM) - это компьютер, который отвечает за управление двигателем, диагностику и функции пользователя. ECM имеет внутреннюю диагностику, которая постоянно работает и проверяет внутреннюю память.
 
-### Component Location
+### Расположение компонента
 
-The reset button or switch location depends on the original equipment manufacturer (OEM).
+Расположение кнопки сброса или переключателя зависит от производителя оригинального оборудования (OEM).
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected a moderately severe fault.
+Модуль управления двигателем (ECM) обнаружил умеренно серьезную неисправность.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-This is an information-only fault code that will **only** become active if other critical engine protection fault codes are active.Fault code will remain active until reset by the operator. The light is an indicator that will remain lit to inform the operator that there has been a fault code generated. The fault has no effect on engine performance.
+Это код ошибки только для информации, который будет активен только в том случае, если активны другие критические коды неисправностей защиты двигателя. Свет является индикатором, который будет оставаться освещенным, чтобы сообщить оператору, что был сгенерирован код неисправности. Неисправность не влияет на производительность двигателя.
 
-Refer to Troubleshooting Fault Code 2662.
+См. Код 2662 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2662
+>
+> ### At Least One Unacknowledged Moderately Severe Fault - Condition Exists
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2662 PID(P): SPN: 629 FMI: 11/31 Lamp: Amber SRT: | One or more unacknowledged moderately severe fault codes has been detected. | None on performance. |
+>
+> Engine Control Module (ECM)
+>
+> ### Circuit Description
+>
+> The Engine Control Module (ECM) is a computer that is responsible for engine control, diagnostics, and user features.The ECM has internal diagnostics that continuously run and check the internal memory.
+>
+> ### Component Location
+>
+> The reset button or switch location depends on the original equipment manufacturer (OEM).
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected a moderately severe fault.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> This is an information-only fault code that will **only** become active if other critical engine protection fault codes are active.Fault code will remain active until reset by the operator. The light is an indicator that will remain lit to inform the operator that there has been a fault code generated. The fault has no effect on engine performance.
+>
+> Refer to Troubleshooting Fault Code 2662.

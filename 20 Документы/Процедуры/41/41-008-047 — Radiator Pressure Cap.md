@@ -14,12 +14,15 @@ manuals:
   - "3381968"
   - "4021330"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-047.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-047.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Radiator Pressure Cap
@@ -33,23 +36,50 @@ tags:
 > **Даты:** изменён 2009-10-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-047.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-047.pdf)
 
-### Pressure Test
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The system is designed to use a pressure cap to prevent boiling of the coolant.
 
-Different caps are specified for the two recommended systems:
+### Испытание на давление
 
-| System | Cap |
+Система предназначена для использования крышки давления радиатора для предотвращения кипения охлаждающей жидкости.
+
+Для двух рекомендованных систем установлены различные колпачки:
+
+| Система | Капсула |
 |---|---|
-| A - 104°C \[220°F\] | 103 kPa \[15 psi\] |
-| B - 99°C \[210°F\] | 48 kPa \[7 psi\] |
+| A - 104 ° C \[220°F\] | 103 кПа[15 psi] |
+| B - 99°C \[210°F\] | 48 кПа[7 psi] |
 
 ![[ra900ga.png]]
 
-Pressure-test the cooling system pressure cap.
+Испытание давления на крышке радиатора системы охлаждения.
 
-The pressure cap **must** seal within 14 kPa \[2 psi\] of the value stated on the cap, or it **must** be replaced.
+Колпачок давления радиатора ** должен** запечатываться в пределах 14 кПа \[2 psi\] от значения, указанного на колпачке, или его *** следует заменить.
 
-An incorrect or malfunctioning cap can result in the loss of coolant and the engine running hot.
+Неправильная или неисправная крышка может привести к потере охлаждающей жидкости и горячему двигателю.
 
 ![[ra8pcna.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pressure Test
+>
+> The system is designed to use a pressure cap to prevent boiling of the coolant.
+>
+> Different caps are specified for the two recommended systems:
+>
+> | System | Cap |
+> |---|---|
+> | A - 104°C \[220°F\] | 103 kPa \[15 psi\] |
+> | B - 99°C \[210°F\] | 48 kPa \[7 psi\] |
+>
+> Pressure-test the cooling system pressure cap.
+>
+> The pressure cap **must** seal within 14 kPa \[2 psi\] of the value stated on the cap, or it **must** be replaced.
+>
+> An incorrect or malfunctioning cap can result in the loss of coolant and the engine running hot.

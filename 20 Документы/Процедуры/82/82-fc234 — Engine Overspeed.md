@@ -13,12 +13,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc234.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc234.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Engine Overspeed
@@ -32,36 +35,78 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc234.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc234.pdf)
 
-### Fault Code: 234
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Overspeed
 
-Printable Version
+### Код неисправности: 234
 
-### Overview
+### Разнос двигателя (превышение частоты вращения)
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 234 PID(P): P190 SPN: 190 FMI: 0 Lamp: Red SRT: | Engine speed signal indicates engine speed is greater than 2650 rpm. | Fuel shutoff valve is closed until the engine speed drops. The fuel shutoff valve will open when engine speed falls below 2000 rpm. |
+| Код неисправности: 234 PID(P): P190 SPN: 190 FMI: 0 лампочка: Красная СТО: | Сигнал скорости двигателя указывает на то, что скорость двигателя превышает 2650 об/мин. | Запорный клапан топлива закрывается до тех пор, пока скорость двигателя не упадет. Клапан отключения топлива откроется, когда скорость двигателя упадет ниже 2000 об/мин. |
 
 ![[19200127.png]]
 
-Engine Overspeed Circuit
+Двигатель Overspeed Circuit
 
-### Circuit Description
+### Описание цепи
 
-The engine speed/position sensor provides engine speed and position information to the electronic control module (ECM) through the engine harness.
+Датчик скорости/положения двигателя обеспечивает информацию о скорости двигателя и положении электронного модуля управления (ECM) через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The engine speed/position sensor is located above the air compressor.
+Датчик скорости/положения двигателя расположен над воздушным компрессором.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include external fuel sources drawn into the intake air passage, reverse powering (motoring) of the engine, or tampering of the engine speed/position sensors.
+Возможные причины этого кода неисправности включают внешние источники топлива, втягиваемые в воздухозаборник, обратное питание (моторирование) двигателя или подделку датчиков скорости / положения двигателя.
 
-Inspect the intake manifold for sources of flammable vapors. Check the turbocharger seals to verify that there are no oil leaks.
+Проверить впускной коллектор на наличие источников легковоспламеняющихся паров. Проверьте уплотнения турбокомпрессора, чтобы убедиться, что нет утечек масла.
 
-- Inspect the engine speed/position sensors for damage or tampering.
+- Осмотрите датчики скорости двигателя / положения на предмет повреждения или подделки.
 
-Refer to Troubleshooting Fault Code t05-234
+См. Код устранения неполадок t05-234
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 234
+>
+> ### Engine Overspeed
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 234 PID(P): P190 SPN: 190 FMI: 0 Lamp: Red SRT: | Engine speed signal indicates engine speed is greater than 2650 rpm. | Fuel shutoff valve is closed until the engine speed drops. The fuel shutoff valve will open when engine speed falls below 2000 rpm. |
+>
+> Engine Overspeed Circuit
+>
+> ### Circuit Description
+>
+> The engine speed/position sensor provides engine speed and position information to the electronic control module (ECM) through the engine harness.
+>
+> ### Component Location
+>
+> The engine speed/position sensor is located above the air compressor.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include external fuel sources drawn into the intake air passage, reverse powering (motoring) of the engine, or tampering of the engine speed/position sensors.
+>
+> Inspect the intake manifold for sources of flammable vapors. Check the turbocharger seals to verify that there are no oil leaks.
+>
+> - Inspect the engine speed/position sensors for damage or tampering.
+>
+> Refer to Troubleshooting Fault Code t05-234

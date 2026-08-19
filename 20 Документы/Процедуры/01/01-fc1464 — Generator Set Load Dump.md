@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1464.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1464.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Generator Set Load Dump
@@ -33,24 +36,54 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1464.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1464.pdf)
 
-### Fault Code: 1464
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Generator Set Load Dump
 
-Printable Version
+### Код неисправности: 1464
 
-### Overview
+### Сброс нагрузки генераторной установки
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1464 PCODE(P): SPN: FMI: Lamp: None SRT: | The generator announces to the LonWorks network that a 'load dump” has occurred. | No action is taken by the ECM. |
+| Код неисправности: 1464 PCODE(P): СПН: ФМИ: Лампа: Нет, не srt: | Генератор сообщает сети LonWorks, что произошел «свал». | Никаких действий со стороны ЕКМ не предпринимается. |
 
 ![[19802649.png]]
 
-Generator Set ECM Card Cage
+Генератор установил ECM-картонную клетку
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1464
+См. Код устранения неполадок t05-1464
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1464
+>
+> ### Generator Set Load Dump
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1464 PCODE(P): SPN: FMI: Lamp: None SRT: | The generator announces to the LonWorks network that a 'load dump” has occurred. | No action is taken by the ECM. |
+>
+> Generator Set ECM Card Cage
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1464

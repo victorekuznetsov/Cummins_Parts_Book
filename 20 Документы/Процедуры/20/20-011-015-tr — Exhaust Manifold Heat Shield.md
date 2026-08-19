@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 4
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-011-015-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-011-015-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Exhaust Manifold Heat Shield
@@ -32,47 +35,94 @@ tags:
 > **Даты:** изменён 2004-04-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-011-015-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-011-015-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
 
-Remove the seven capscrews. Remove the exhaust manifold heat shield.
+### Снятие
+
+Судовое применение
+
+Снимите семь болтов. Удалите тепловой экран выхлопного коллектора.
 
 ![[11400024.png]]
 
-### Clean
+### Очистка
 
-Marine Applications
+Судовое применение
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline material for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочного материала для очистки следуйте рекомендациям производителя по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Use solvent to clean the exhaust manifold heat shield.
+Используйте растворитель для очистки теплозащитного экрана выхлопного коллектора.
 
 ![[11400025.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Marine Applications
+Судовое применение
 
-Inspect the heat shield for cracks, holes, and wear around the bolt holes. Visually inspect the heat shield for cracks, and worn bolt holes. If any cracks or worn bolt holes are found the heat shield must be replaced.
+Осмотрите тепловой экран на наличие трещин, отверстий и изнашивайте вокруг болтовых отверстий. Визуально осмотрите тепловой экран на наличие трещин и изношенных болтовых отверстий. Если обнаружены трещины или изношенные болтовые отверстия, необходимо заменить тепловой экран.
 
 ![[11400026.png]]
 
-### Install
+### Установка
 
-Marine Applications
+Судовое применение
 
-> [!note] Note · Примечание
-> Do **not** rip, tear, or damage the insulation on exhaust manifolds.
+> [!note] Примечание
+> **не** разорвать, разорвать или повредить изоляцию на выхлопных коллекторах.
 
-Install the exhaust manifold heat shield.
+Установите тепловой экран выхлопного коллектора.
 
-Install the exhaust manifold heat shield mounting capscrews.
+Установите болты для монтажа теплового экрана выхлопного коллектора.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 35 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 35 Н·м [25 фунт-фут]
 
 ![[11400024.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Marine Applications
+>
+> Remove the seven capscrews. Remove the exhaust manifold heat shield.
+>
+> ### Clean
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline material for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Use solvent to clean the exhaust manifold heat shield.
+>
+> ### Inspect for Reuse
+>
+> Marine Applications
+>
+> Inspect the heat shield for cracks, holes, and wear around the bolt holes. Visually inspect the heat shield for cracks, and worn bolt holes. If any cracks or worn bolt holes are found the heat shield must be replaced.
+>
+> ### Install
+>
+> Marine Applications
+>
+> **Note · Примечание**
+> Do **not** rip, tear, or damage the insulation on exhaust manifolds.
+>
+> Install the exhaust manifold heat shield.
+>
+> Install the exhaust manifold heat shield mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 35 n•m [25 ft-lb]

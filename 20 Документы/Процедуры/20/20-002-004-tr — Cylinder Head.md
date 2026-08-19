@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 113
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-004-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-002-004-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cylinder Head
@@ -32,1535 +35,2852 @@ tags:
 > **Даты:** изменён 2015-06-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-004-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-002-004-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-ReCon® has implemented a new stamping code for all K and QSK cylinder heads.
 
-The stamp is a diamond shape located between the short port exhaust valve and long port intake valve on the rocker lever side of the cylinder head. The marking (or lack of a marking) inside the diamond shape indicates the size of the injector seal.
+### Общие сведения
 
-- An empty diamond shape indicates that the ReCon® cylinder head is equipped with a standard size injector seal.
-- One mark inside the diamond shape indicates the cylinder head is equipped with a size 0.010 injector seal.
-- Two marks inside the diamond shape indicate that the cylinder head is equipped with a size 0.020 injector seal.
-- Three marks inside the diamond shape indicate that the cylinder head is equipped with a size 0.030 injector seal.
+ReCon® внедрил новый код штамповки для всех головок цилиндров K и QSK.
 
-K and QSK cylinder heads use a different injector seal. Reference the tables below.
+Марка представляет собой алмазную форму, расположенную между коротким выпускным клапаном порта и длинным впускным клапаном порта на стороне рычага клапанного клапана на головке цилиндра. Маркировка (или отсутствие маркировки) внутри алмазной формы указывает на размер уплотнения топливного форсунка.
 
-| K Cylinder Head Seal Part Numbers |  |
+- Пустая алмазная форма указывает на то, что головка цилиндра ReCon® оснащена уплотнением форсунки стандартного размера.
+- Одна отметка внутри алмазной формы указывает на то, что головка цилиндра оснащена уплотнением форсунки размером 0,010.
+- Две отметки внутри алмазной формы указывают на то, что головка цилиндра оснащена уплотнением топливного форсунка размером 0,020.
+- Три отметки внутри алмазной формы указывают на то, что головка цилиндра оснащена уплотнением форсунки размером 0,030.
+
+Головки цилиндров K и QSK используют другую уплотнение форсунки. Ссылка на таблицы ниже.
+
+| K Цилиндровый номер детали головы |  |
 |---|---|
-| Injector Seal Part Number | Injector Seal Size |
-| 207244 | Standard |
-| 3001658 | 0.010 oversize |
-| 3001659 | 0.020 oversize |
-| 3001660 | 0.030 oversize |
+| форсунка Seal Part Number | форсунка Seal size |
+| 207244 | Стандартный стандарт |
+| 3001658 | 0,010 негабаритный |
+| 3001659 | 0,020 негабаритных размеров |
+| 3001660 | 0,030 негабаритных размеров |
 
-| QSK (with Mechanically Actuated Injectors) Cylinder Head Seal Part Numbers |  |
+| QSK (с механически приводимым в действие топливным форсункой) Цилиндровый номер детали печати головки |  |
 |---|---|
-| Injector Seal Part Number | Injector Seal Size |
-| 3867687 | Standard |
-| 3347933 | 0.010 oversize |
-| 3347934 | 0.020 oversize |
-| 3347935 | 0.030 oversize |
+| форсунка Seal Part Number | форсунка Seal size |
+| 3867687 | Стандартный стандарт |
+| 3347933 | 0,010 негабаритный |
+| 3347934 | 0,020 негабаритных размеров |
+| 3347935 | 0,030 негабаритных размеров |
 
 ![[02400187.png]]
 
-Injector Seal Markings Location
+Форсунка Seal Markings Location
 
-Injector Seal Markings
+форсунка Seal Markings
 
-1. Standard
-2. 0.010 oversize
-3. 0.020 oversize
-4. 0.030 oversize.
+1. Стандартный стандарт
+2. 0,010 негабаритный
+3. 0,020 негабаритных размеров
+4. Размер 0,030.
 
-### Preparatory Steps
+### Подготовительные операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
-- Disconnect the air supply to the air starter.
-- Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Remove the fuel tubes. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
-- Remove the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 1.]]
-- Remove the fuel manifolds. [[20-006-022-tr — Fuel Manifold (Supply)|Refer to Procedure 006-022 in Section 6.]]
-- Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Remove the valve push rods, injector push rod, and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Remove the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Remove the gear cover clamping plate. [[20-001-029-tr — Gear Cover Spacer Plate|Refer to Procedure 001-029 in Section 1.]]
-- Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
-
-![[ck800wa.png]]
-
-Marine Applications
-
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
-
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
-
-> [!warning] CAUTION · Осторожно
-> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
-
-- Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
-- Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the crankcase breathers. [[20-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001 in Section 3.]]
-- Remove the exhaust manifold heat shields. [[20-011-015-tr — Exhaust Manifold Heat Shield|Refer to Procedure 011-015 in Section 11.]]
-- Remove the turbocharger heat shields. [[20-010-076-tr — Turbocharger Heat Shield|Refer to Procedure 010-076 in Section 10.]]
-- Remove the aftercooler heat shields. [[20-010-129 — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]]
-- Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Use the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Series Engines, Bulletin 4021493, for information to disconnect the wiring harness in the areas that restrict access to the cylinder head. Refer to Procedure 019-043 in Section 19.
-- Remove the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
-- Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Remove the push rods and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+- Отключите батареи, чтобы предотвратить случайный запуск двигателя. См. сервисное руководство изготовителя машины.
+- Отключите подачу воздуха к воздухозаборнику.
+- Слейте охлаждающую жидкость.[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите выхлопной коллектор.[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Удалите топливные трубки.[[20-006-024-tr — Fuel Supply Lines|См. процедуру 006-024 в разделе 6.]]
+- Удалите послеохладитель.[[20-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 1.]]
+- Удалите топливные коллекторы.[[20-006-022-tr — Fuel Manifold (Supply)|См. процедуру 006-022 в разделе 6.]]
+- Снимите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Удалите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Удалите толкатели клапанов, толкатели топливных форсунок и клапанные мосты.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Снимите опорный кожух термостата охлаждающей жидкости.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Снимите зажимную пластину шестерни.[[20-001-029-tr — Gear Cover Spacer Plate|См. процедуру 001-029 в разделе 1.]]
+- Снимите кожух рычага качения клапанного клапана.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Удалите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+Судовое применение
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
-- Disconnect the air supply to the air starter.
-- Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the exhaust manifold (dry), if installed. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Remove the exhaust manifold, (wet), if installed. [[20-011-008-tr — Exhaust Manifold, Wet|Refer to Procedure 011-008 in Section 11.]]
-- Remove the high-pressure fuel lines to injectors. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Remove the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
-- Remove the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
-- Remove the coolant thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Remove the valve push rods, injector push rod, and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Remove the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Remove the gear cover clamping plate. [[20-001-029-tr — Gear Cover Spacer Plate|Refer to Procedure 001-029 in Section 1.]]
-- Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе охлаждающей жидкости, чтобы охлаждающая жидкость не пролилась или не слилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если охлаждающая жидкость не используется повторно, она должна быть утилизирована в соответствии с местными экологическими нормами.
+
+- Отключите батареи, чтобы предотвратить случайный запуск двигателя. См. сервисное руководство изготовителя машины.
+- Слейте охлаждающую жидкость.[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите затяжные клапаны.[[20-003-001-tr — Crankcase Breather (External)|См. процедуру 003-001 в разделе 3.]]
+- Удалите тепловые экраны коллектора выхлопных газов.[[20-011-015-tr — Exhaust Manifold Heat Shield|См. процедуру 011-015 в разделе 11.]]
+- Удалите тепловые экраны турбокомпрессора.[[20-010-076-tr — Turbocharger Heat Shield|См. процедуру 010-076 в разделе 10.]]
+- Удалите охладители тепловых экранов.[[20-010-129 — Aftercooler Heat Shield|См. процедуру 010-129 в разделе 10.]]
+- Удалите турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите выхлопной коллектор.[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Используйте руководство по устранению неполадок и ремонту, электронную систему управления, QSK19 CM850, модульные двигатели серии Common Rail System, Bulletin 4021493, для получения информации, чтобы отключить проводную упряжку в областях, которые ограничивают доступ к головке цилиндра. См. процедуру 019-043 в разделе 19.
+- Удалите послеохладитель.[[20-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+- Снимите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Удалите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Удалите толкатели и клапанные мосты.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Снимите кожух рычага качения клапанного клапана.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Удалите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
 
 ![[ck800wa.png]]
 
-### Remove
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Remove the six cylinder head capscrews.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Remove the cylinder head and gasket.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Record the cylinder head gasket part number to determine if the gasket is a standard or oversize thickness.
+- Отключите батареи, чтобы предотвратить случайный запуск двигателя. См. сервисное руководство изготовителя машины.
+- Отключите подачу воздуха к воздухозаборнику.
+- Слейте охлаждающую жидкость.[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите выхлопной коллектор (сухой), если он установлен.[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Удалите выхлопной коллектор (мокрый), если он установлен.[[20-011-008-tr — Exhaust Manifold, Wet|См. процедуру 011-008 в разделе 11.]]
+- Удалите топливные линии высокого давления на форсунка.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Удалите линии слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
+- Удалите коллектор для приема.[[20-010-023-tr — Air Intake Manifold|См. процедуру 010-023 в разделе 10.]]
+- Снимите корпус термостата охлаждающей жидкости.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Снимите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Удалите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Удалите толкатели клапанов, толкатели топливных форсунок и клапанные мосты.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Снимите опорный кожух термостата охлаждающей жидкости.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Снимите зажимную пластину шестерни.[[20-001-029-tr — Gear Cover Spacer Plate|См. процедуру 001-029 в разделе 1.]]
+- Снимите кожух рычага качения клапанного клапана.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Удалите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
 
-Discard the gasket.
+![[ck800wa.png]]
+
+### Снятие
+
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+
+Удалите шесть цилиндрических головных болтов.
+
+Удалите головку цилиндра и прокладку.
+
+Запишите номер прокладки головки цилиндра, чтобы определить, является ли прокладка стандартной или большой толщиной.
+
+Прокладку утилизируйте.
 
 ![[02400005.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the cylinder heads with solvent, Part Number 3924421, or equivalent.
+Очистите головки цилиндров растворителем, номер 3924421 или эквивалентом.
 
-Check for broken springs and other damage.
+Проверьте наличие сломанных пружин и других повреждений.
 
 ![[02400011.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Check for cracks on the combustion surface.
+Проверьте наличие трещин на поверхности горения.
 
-If a crack around the injector bore exceeds the maximum length, the cylinder head **must** be replaced.
+Если трещина вокруг цилиндра форсунки превышает максимальную длину, головку цилиндра *** необходимо заменить.
 
-| Allowable Crack Length |  |  |
+| Разрешенная длина крэка |  |  |
 |---|---|---|
-| mm |  | in |
-| 6 | MAX | 0.25 |
+| мм |  | в |
+| 6 | Макс | 0.25 |
 
-Both ends of a crack between the valves **must** be visible. If one end of a crack extends into the valve seat bore (behind the valve seat), the condition of the cylinder is questionable. Remove the valve and valve seat to make sure the cylinder head is reusable.
+Оба конца трещины между клапанами ** должны быть видны. Если один конец трещины распространяется на цилиндр сиденья клапана (за сиденьем клапана), состояние цилиндра сомнительно. Удалите клапан и сиденье клапана, чтобы убедиться, что головка цилиндра многоразовая.
 
 ![[kn6bdsa.png]]
 
-Measure the valve head depth in the cylinder head with depth gauge, Part Number 3164438, or equivalent.
+Измерить глубину головки клапана в головке цилиндра с помощью измерителя глубины, Номер детали 3164438, или эквивалент.
 
-| Allowable Valve Depth from the Combustion Face |  |  |
+| Разрешенная глубина клапана от лица сгорания |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.00 | MIN | 0.000 |
-| 0.51 | MAX | 0.020 |
+| мм |  | в |
+| 0.00 | Мин | 0.000 |
+| 0.51 | Макс | 0.020 |
 
-If the valve head depth is **not** within specifications, the cylinder head **must** be reconditioned.
+Если глубина головки клапана ** не** в пределах спецификаций, головка цилиндра *** должна быть восстановлена.
 
 ![[kn6vaja.png]]
 
-Check the flatness of the cylinder head with a straightedge and feeler gauge.
+Проверьте плоскость головки цилиндра с помощью указателя и датчика измерения.
 
-The cylinder head **must** be resurfaced or replaced if a feeler gauge larger than 0.08 mm \[0.003 in\] will fit between the straightedge and the cylinder head.
+Головка цилиндра ** должна быть повторно всплывающей или замененной, если между выступом и головкой цилиндра будет располагаться калибр, размер которого превышает 0,08 мм \[0,003 дюйма\].
 
-The cylinder head can be resurfaced **only** on mechanically actuated injectors, if the head thickness measurement is within specifications.
+Головка цилиндра может быть повторно повернута ** только ** на топливном форсунке с механическим приводом, если измерение толщины головки соответствует спецификациям.
 
-| QSK19 Mechanically Actuated Injector Cylinder Head Thickness |  |  |  |
+| QSK19 Механически приводимый в действие форсунка Толщина цилиндра Головы |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Used Cylinder Head Service Limit | 150.11 | MIN | 5.910 |
-| New Cylinder Head | 150.88 | MIN | 5.940 |
-|  | 151.12 | MAX | 5.950 |
+|  | мм |  | в |
+| Ограничение на обслуживание цилиндров | 150.11 | Мин | 5.910 |
+| Новая головка цилиндра | 150.88 | Мин | 5.940 |
+|  | 151.12 | Макс | 5.950 |
 
 ![[02400077.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Check for cracks on the combustion surface.
+Проверьте наличие трещин на поверхности горения.
 
-If a crack around the injector bore exceeds the maximum length, the cylinder head **must** be replaced.
+Если трещина вокруг цилиндра форсунки превышает максимальную длину, головку цилиндра *** необходимо заменить.
 
-| Allowable Crack Length |  |  |
+| Разрешенная длина крэка |  |  |
 |---|---|---|
-| mm |  | in |
-| 6 | MAX | 0.25 |
+| мм |  | в |
+| 6 | Макс | 0.25 |
 
-Both ends of a crack between the valves **must** be visible. If one end of a crack extends into the valve seat bore (behind the valve seat), the condition of the cylinder is questionable. Remove the valve and valve seat to make sure the cylinder head is reusable.
+Оба конца трещины между клапанами ** должны быть видны. Если один конец трещины распространяется на цилиндр сиденья клапана (за сиденьем клапана), состояние цилиндра сомнительно. Удалите клапан и сиденье клапана, чтобы убедиться, что головка цилиндра многоразовая.
 
 ![[kn6bdsa.png]]
 
-Measure the valve head depth in the cylinder head with depth gauge, Part Number 3164438, or equivalent.
+Измерить глубину головки клапана в головке цилиндра с помощью измерителя глубины, Номер детали 3164438, или эквивалент.
 
-| Allowable Valve Depth from the Combustion Face |  |  |
+| Разрешенная глубина клапана от лица сгорания |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.00 | MIN | 0.000 |
-| 0.51 | MAX | 0.020 |
+| мм |  | в |
+| 0.00 | Мин | 0.000 |
+| 0.51 | Макс | 0.020 |
 
-If the valve head depth is **not** within specifications, the cylinder head **must** be reconditioned.
+Если глубина головки клапана ** не** в пределах спецификаций, головка цилиндра *** должна быть восстановлена.
 
 ![[kn6vaja.png]]
 
-Check the flatness of the cylinder head with a straightedge and feeler gauge.
+Проверьте плоскость головки цилиндра с помощью указателя и датчика измерения.
 
-The cylinder head **must** be replaced if a feeler gauge larger than 0.08 mm \[0.003 in\] will fit between the straightedge and the cylinder head.
+Головка цилиндра *** должна быть заменена, если между выступом и головкой цилиндра будет располагаться калибр, размер которого превышает 0,08 мм \[0,003 дюйма\].
 
-The cylinder head can be resurfaced **only** on mechanically actuated injectors, if the head thickness measurement is within specifications.
+Головка цилиндра может быть повторно повернута ** только ** на топливном форсунке с механическим приводом, если измерение толщины головки соответствует спецификациям.
 
-| QSK19 Electronically Actuated Injector Cylinder Head Thickness |  |  |  |
+| QSK19 Электронный форсунка Цилиндр Толщина головы |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| New Cylinder Head | 120.52 | MIN | 4.745 |
-|  | 120.78 | MAX | 4.755 |
+|  | мм |  | в |
+| Новая головка цилиндра | 120.52 | Мин | 4.745 |
+|  | 120.78 | Макс | 4.755 |
 
-> [!note] Note · Примечание
-> Cylinder heads with electronically actuated injectors can **not** be resurfaced, as the injector protrusion can **not** be adjusted.
+> [!note] Примечание
+> Головки цилиндров с топливным форсункой с электронным приводом могут быть **не** повторно вскрыты, так как выступ форсунки может ** не** быть отрегулирован.
 
 ![[02400077.png]]
 
-### Disassemble
+### Разборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+> [!danger] ОПАСНО
+> Клапанные пружины находятся под сжатием. Используйте осторожность при использовании клапанного пружинного компрессора. Личная травма может возникнуть, если инструмент выскользнет из рук.
 
-Use one of the valve spring compressors listed below to remove the valve springs.
+Используйте один из клапанных пружинных компрессоров, перечисленных ниже, чтобы удалить клапанные пружины.
 
-- Valve spring compressor, Part Number 3163606, or equivalent
-- Valve spring compressor stand, Part Number ST-1022, or equivalent
-- Valve spring compressor plate, Part Number 3163177, or equivalent, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, or equivalent, to remove four springs at a time
-- Air operated valve spring compressor, Part Number 3375960.
+- Валентный пружинный компрессор, номер детали 3163606 или эквивалент
+- Пружинный компрессорный стенд, номер детали ST-1022 или эквивалент
+- Пружинная пластина клапанного компрессора, номер 3163177 или эквивалент, может использоваться с клапанным пружинным компрессором, номером 3163606 или эквивалентом, и стендом клапанного пружинного компрессора, номером ST-1022 или эквивалентом, для удаления четырех пружин одновременно.
+- Компрессор пружинного клапана с воздушным приводом, номер детали 3375960.
 
-The intake and exhaust valves are different.
+Впускной и выпускной клапаны бывают разными.
 
-Mark the valves for location prior to removal to aid in assembly.
+Отметьте клапаны для местоположения до удаления, чтобы помочь в сборке.
 
-Remove the listed parts:
+Удалите перечисленные части:
 
-1. Valve collet
-2. Valve spring retainer
-3. Valve spring
-4. Valve spring rotator/or guide
-5. Valve
+1. Сухарь клапана
+2. Тарелка пружины клапана
+3. Пружина клапана
+4. Винтовой рессорный ротатор или направляющий
+5. клапан
 
 ![[kn6hdfa.png]]
 
-If the valve guide is replaced, the valve seat insert for the valve guide **must** be measured for runout. It is likely the seat **must** also be machined or replaced.
+Если клапанный направляющий заменен, то вставка клапанного сиденья для направляющего клапана ** должна быть измерена на предмет наличия пробоины. Также, возможно, что сиденье должно быть обработано или заменено.
 
 ![[02400147.png]]
 
-> [!note] Note · Примечание
-> **Only** replace the valve seat if it is **not** within specifications.
+> [!note] Примечание
+> *** Заменять клапанное сиденье, если оно **не** в пределах спецификаций.
 
-If necessary, a groove can be machined in the valve seat insert (2) to allow the valve seat extractor (1) to be used.
+При необходимости, канавку можно обработать в вставке (2) клапанного сиденья, чтобы можно было использовать экстрактор (1) клапанного сиденья.
 
-Machine a groove into the valve seat insert, as close to the bottom of the bore as possible, with valve seat grooving kit, Part Number 3376405, or equivalent.
+Машина вставляет канавку в вставку сиденья клапана, как можно ближе к нижней части цилиндра, с набором для канавки сиденья клапана, Часть 3376405 или эквивалентом.
 
 ![[02400150.png]]
 
-Remove the valve seat with the appropriate valve seat extractor listed below and slide hammer, Part Number 3376799:
+Снимите клапанное сиденье с помощью соответствующего клапанного сиденья, перечисленного ниже, и скольжения молотка, Номер детали 3376799:
 
-- Exhaust seat extractor, Part Number ST-1323-1
-- Intake seat extractor, Part Number 3376799.
+- Экстрактор вытяжных сидений, часть номер ST-1323-1
+- Экстрактор сидений, номер детали 3376799.
 
-> [!note] Note · Примечание
-> On mechanically actuated injector engines, the intake ports contain anti-swirl plates.
+> [!note] Примечание
+> На двигателях с механическим приводом топливных форсунок впускные порты содержат противокрученные пластины.
 
-Remove and discard the anti-swirl plate, if used.
+Удалите и отбросьте анти-кручечную пластину, если она используется.
 
 ![[02400164.png]]
 
-> [!note] Note · Примечание
-> This step is **only** for the mechanically actuated injector engine.
+> [!note] Примечание
+> Этот шаг ** только ** для двигателя с механическим приводом форсунки.
 
-> [!note] Note · Примечание
-> **Only** remove the crosshead guide if it is bent or is **not** within specifications.
+> [!note] Примечание
+> *** Удалить направляющий клапанный мостик только в том случае, если он согнут или не является **** в соответствии со спецификациями.
 
-Crosshead guides that are straight and are installed to correct height do **not** have to be removed to install stemless crossheads.
+Направления клапанного моста, которые являются прямыми и установлены для правильной высоты, не должны быть удалены для установки бесствольных клапанных мостов.
 
 ![[02400156.png]]
 
-> [!note] Note · Примечание
-> Do **not** remove the cup plugs if a pressure test is to be performed.
+> [!note] Примечание
+> **Не удаляйте заглушки для стакана, если необходимо выполнить испытание на давление.
 
-Use a drill, sheet metal screw, and a slide hammer from the light duty puller kit, Part Number 3375784, or equivalent, to remove the cup plugs.
+Используйте сверло, винт из листового металла и молоток скольжения из комплекта для легкого съёмника, Номер детали 3375784 или эквивалент, чтобы удалить заглушки для чашки.
 
 ![[02400038.png]]
 
-Cup plugs **must** be removed from the head casting for cleaning purposes.
+Чашечные пробки ** должны быть удалены из головки для чистки.
 
-Remove and discard the ten cup plugs.
+Удалите и отбросьте десять бутылок.
 
 ![[kn6epga.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+> [!danger] ОПАСНО
+> Клапанные пружины находятся под сжатием. Используйте осторожность при использовании клапанного пружинного компрессора. Личная травма может возникнуть, если инструмент выскользнет из рук.
 
-Use one of the valve spring compressors listed below to remove the valve springs.
+Используйте один из клапанных пружинных компрессоров, перечисленных ниже, чтобы удалить клапанные пружины.
 
-- Valve spring compressor, Part Number 3163606, or equivalent
-- Valve spring compressor stand, Part Number ST-1022, or equivalent
-- Valve spring compressor plate, Part Number 3163177, or equivalent, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, or equivalent, to remove four springs at time
-- Air operated valve spring compressor, Part Number 3375960.
+- Валентный пружинный компрессор, номер детали 3163606 или эквивалент
+- Пружинный компрессорный стенд, номер детали ST-1022 или эквивалент
+- Клапанный пружинный компрессорный лист, Часть Номер 3163177 или эквивалент, может использоваться с клапанным пружинным компрессором, Часть Номер 3163606 или эквивалентом, и стендом клапанного пружинного компрессора, Часть Номер ST-1022 или эквивалентом, для удаления четырех пружин одновременно.
+- Компрессор пружинного клапана с воздушным приводом, номер детали 3375960.
 
-The intake and exhaust valves are different.
+Впускной и выпускной клапаны бывают разными.
 
-Mark the valves for location prior to removal to aid in assembly.
+Отметьте клапаны для местоположения до удаления, чтобы помочь в сборке.
 
-Remove the listed parts:
+Удалите перечисленные части:
 
-1. Valve collet
-2. Valve spring retainer
-3. Valve spring
-4. Valve spring rotator/or guide
-5. Valve
-6. Valve stem seal (**not** shown) (used **only** on the electronically actuated injector engine).
+1. Сухарь клапана
+2. Тарелка пружины клапана
+3. Пружина клапана
+4. Винтовой рессорный ротатор или направляющий
+5. клапан
+6. Уплотнение стеблевой пластины (**не** показана) (используется только*** на двигателе форсунки с электронным приводом).
 
 ![[kn6hdfa.png]]
 
-If the valve guide is replaced, the valve seat insert for the valve guide **must** be measured for runout. It is likely the seat **must** also be machined or replaced.
+Если клапанный направляющий заменен, то вставка клапанного сиденья для направляющего клапана ** должна быть измерена на предмет наличия пробоины. Также, возможно, что сиденье должно быть обработано или заменено.
 
 ![[02400147.png]]
 
-> [!note] Note · Примечание
-> **Only** replace the valve seat if it is **not** within specifications.
+> [!note] Примечание
+> *** Заменять клапанное сиденье, если оно **не** в пределах спецификаций.
 
-If necessary, a groove can be machined in the valve seat insert (2) to allow the valve seat extractor (1) to be used.
+При необходимости, канавку можно обработать в вставке (2) клапанного сиденья, чтобы можно было использовать экстрактор (1) клапанного сиденья.
 
-Machine a groove into the valve seat insert, as close to the bottom of the bore as possible, with valve seat grooving kit, Part Number 3376405, or equivalent.
+Машина вставляет канавку в вставку сиденья клапана, как можно ближе к нижней части цилиндра, с набором для канавки сиденья клапана, Часть 3376405 или эквивалентом.
 
 ![[02400150.png]]
 
-Remove the valve seat with the appropriate valve seat extractor listed below and slide hammer, Part Number 3376799:
+Снимите клапанное сиденье с помощью соответствующего клапанного сиденья, перечисленного ниже, и скольжения молотка, Номер детали 3376799:
 
-- Exhaust seat extractor, Part Number ST-1323-1
-- Intake seat extractor, Part Number 3376799.
+- Экстрактор вытяжных сидений, часть номер ST-1323-1
+- Экстрактор сидений, номер детали 3376799.
 
 ![[02400164.png]]
 
-> [!note] Note · Примечание
-> This step is **only** for the electronically actuated injector engine.
+> [!note] Примечание
+> Этот шаг ** только ** для двигателя с электронным приводом форсунки.
 
-Remove the dowel pins **only** if they are damaged or **not** installed to the correct height.
+Удалите штифты для дюбеля ** только**, если они повреждены или ** не** установлены на правильную высоту.
 
 ![[02400163.png]]
 
-> [!note] Note · Примечание
-> Do **not** remove the cup plugs if a pressure test is to be performed.
+> [!note] Примечание
+> **Не удаляйте заглушки для стакана, если необходимо выполнить испытание на давление.
 
-Use a drill, sheet metal screw, and a slide hammer from the light duty puller kit, Part Number 3375784, or equivalent, to remove the cup plugs.
+Используйте сверло, винт из листового металла и молоток скольжения из комплекта для легкого съёмника, Номер детали 3375784 или эквивалент, чтобы удалить заглушки для чашки.
 
 ![[02400038.png]]
 
-Cup plugs **must** be removed from the head casting for cleaning purposes.
+Чашечные пробки ** должны быть удалены из головки для чистки.
 
-Remove and discard the ten cup plugs.
+Удалите и отбросьте десять бутылок.
 
 ![[kn6epga.png]]
 
-### Pressure Test
+### Испытание на давление
 
-Preferred Method
+Предпочтительный метод
 
-Use the cylinder head leak test kit, Part Number 3164341, or equivalent, with the pressure regulator valve kit, Part Number 3164231, or equivalent, to pressure test the cylinder head.
+Используйте комплект для испытания на утечку головки цилиндра, Номер детали 3164341 или эквивалент, с комплектом клапана регулятора давления, Номер детали 3164231 или эквивалент, для испытания на давление головки цилиндра.
 
-Assemble the wing nut (8) to the clamp and plug (13).
+Соберите гайку крыла (8) к зажиму и пробке (13).
 
 ![[22a00130.png]]
 
-Install the clamp and plug assembly into the cylinder head to block the coolant passages.
+Установите зажим и подключите сборку к головке цилиндра, чтобы заблокировать проходы охлаждающей жидкости.
 
-Insert the appropriate capscrew through the valve guide side of the cylinder head and thread the capscrew into the clamp.
+Вставьте соответствующие болты через направляющую сторону клапана головки цилиндра и введите болты в зажим.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[22a00131.png]]
 
-Install the o-ring (4) into the o-ring groove of the test adapter (5).
+Установите кольцо (4) в канавку для испытания (5).
 
-Thread the adapter elbow (6) into the adapter (5).
+Нажмите локтем адаптера (6) на адаптер (5).
 
 ![[22a00133.png]]
 
-Place the test adapter assembly into the cylinder head.
+Поместите сборку испытательного адаптера в головку цилиндра.
 
-Install the clamp (7) over the test adapter assembly and secure it with the appropriate capscrew and washer.
+Установите зажим (7) над испытательным адаптером и закрепите его соответствующими болтами и стиральной машиной.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[22a00134.png]]
 
-Connect the pressure regulator valve kit to the pipe nipple.
+Подсоедините к трубному соску аптечку регулятора давления.
 
-Connect the pressure regulator valve kit to shop air and adjust the air pressure.
+Подключите кран регулятора давления для подачи сжатого воздуха и регулируйте давление воздуха.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Pressure Regulator Valve | 345 | 50 |
+|  | каша | пси |
+| Клапан-регулятор давления | 345 | 50 |
 
 ![[22a00135.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Attach an eye bolt to the cylinder head.
+Прикрепите глазной болт к головке цилиндра.
 
-Use a suitable lifting device to lift the cylinder head.
+Используйте подходящее подъемное устройство для подъема головки цилиндра.
 
-Immerse the cylinder head into a tank of water.
+Погрузите головку цилиндра в резервуар с водой.
 
-Check for bubbles. Bubbles indicate an air leak.
+Проверьте пузыри. Пузыри указывают на утечку воздуха.
 
-If the cylinder head leaks, it **must** be repaired or replaced.
+Если головка цилиндра протекает, ее необходимо отремонтировать или заменить.
 
 ![[22a00136.png]]
 
-Optional Method
+Факультативный метод
 
-One method to pressure test the cylinder head is to use the hydrostatic tester, Part Number ST-1012, or equivalent, with the water test adapter plate, Part Number 3375070.
+Один из способов испытания на давление головки цилиндра заключается в использовании гидростатического тестера, номер детали ST-1012 или эквивалент, с пластиной для испытания воды, номер детали 3375070.
 
-The following steps outline this method.
+Следующие шаги описывают этот метод.
 
 ![[kn8toga.png]]
 
-Remove one of the two plugs from the pressure regulator.
+Удалите одну из двух вилок из регулятора давления.
 
-Install the pressure gauge in the regulator.
+Установите датчик измерения давления в регуляторе.
 
-Turn the adjusting knob on the regulator **counterclockwise**, as far as it will turn.
+Поверните регуляторную ручку ** против часовой стрелки**, насколько она повернется.
 
 ![[kn8toaa.png]]
 
-Install the pressure regulator between the air supply and the quick disconnect fitting.
+Установите регулятор давления между подачей воздуха и быстрой установкой отключения.
 
-The arrow on the top of the pressure regulator **must** point in the direction of the air flow (toward the quick disconnect fitting).
+Стрелка на верхней части регулятора давления ** должна** указывать в направлении воздушного потока (к быстрому отключению фитинга).
 
 ![[kn8toab.png]]
 
-With the head positioned as shown in the illustration, assemble the adapter plates.
+С головкой, расположенной, как показано на иллюстрации, соберите пластины адаптера.
 
-The guide pins on the lower plate (5), Part Number 3375070, or equivalent, **must** fit into the water passages.
+Руководящие штифты на нижней пластине (5), Номер детали 3375070, или эквивалент, должны вписываться в водные проходы.
 
-The o-ring on the upper plate (4) creates a seal on the upper water passage.
+Кольцо на верхней пластине (4) создает уплотнение на верхнем водном проходе.
 
-The other end of the plate fits into the injector bore.
+Другой конец пластины помещается в цилиндр форсунки.
 
 ![[kn6toha.png]]
 
-Place the clamping assembly (1) over the head and adapters.
+Поместите зажимную сборку (1) над головой и адаптерами.
 
-The guide pins on the clamp **must** fit into the holes in the adapter plate.
+Руководящие штифты на зажиме ** должны** вписываться в отверстия в пластине адаптера.
 
-Tighten the clamp on the cylinder head.
+Закрепите зажим на головке цилиндра.
 
-Connect the regulated air supply hose to the upper adapter fitting.
+Подключите регулируемый шланг подачи воздуха к верхней адаптеровой установке.
 
 ![[kn6tohb.png]]
 
-Attach the lifting arm (2) to the clamp assembly with the lock pins.
+Прикрепить подъемную руку (2) к зажимному сбору с помощью штифтов замка.
 
-One mounting location on each piece is color-coded red.
+Одно место крепления на каждой части имеет красный цвет.
 
-Match the red locations.
+Сопоставьте красные точки.
 
 ![[kn6tohc.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
 
-Adjust the air pressure.
+Отрегулируйте давление воздуха.
 
-| Air Pressure |  |  |
+| Воздушное давление |  |  |
 |---|---|---|
-| kpa |  | psi |
-| 552 | MAX | 80 |
+| каша |  | пси |
+| 552 | Макс | 80 |
 
-Lower the cylinder head into the tank of water.
+Опустите головку цилиндра в резервуар с водой.
 
-Bubbles will indicate a leak.
+Пузыри будут указывать на утечку.
 
-If the cylinder head leaks, it **must** be repaired or replaced.
+Если головка цилиндра протекает, ее необходимо отремонтировать или заменить.
 
 ![[kn6hdda.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Check the valve guide for chips and cracks.
+Проверьте руководство клапана для чипов и трещин.
 
-Measure the inside diameter of the guide with a ball gauge or a dial bore indicator.
+Измерить внутренний диаметр направляющего с помощью шаровой измерительной ширины или циферблата цилиндра с индикатором ствола.
 
-| Valve Guide Inside Diameter (Installed) |  |  |
+| клапан Guide Inside Diameter (Установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 10.561 | MIN | 0.4158 |
-| 10.589 | MAX | 0.4169 |
+| мм |  | в |
+| 10.561 | Мин | 0.4158 |
+| 10.589 | Макс | 0.4169 |
 
-The valve guide can be reusable if the inside diameter of the first 13 mm \[0.50 in\] from the top or bottom of the valve guide is over specification. However, if an area 13 mm \[0.50 in\] or greater from the top or bottom is out of tolerance, the valve guide **must** be replaced.
+Направляющий клапан может быть многоразовым, если внутренний диаметр первого 13 мм \[0,50 дюйма \] от верхней или нижней части направляющего клапана превышает спецификацию. Однако, если область 13 мм \[0,50 дюйма \] или больше от верхней или нижней части не выдерживает, направляющий клапан ** должен быть заменен.
 
 ![[02400137.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Check the valve guide for chips and cracks.
+Проверьте руководство клапана для чипов и трещин.
 
-Use the drop gauge, Part Number 5298508, to measure the valve guide per the assembly procedure below.
+Используйте калибр для измерения падения, номер детали 5298508, для измерения направляющего клапана в соответствии с процедурой сборки ниже.
 
-If the valve guide is out of tolerance, the valve guide **must** be replaced.
+Если клапанный направляющий не выдерживает испытания, то клапанный направляющий ** должен быть заменен.
 
-Clean the part with solvent, Part Number 3824421, or equivalent.
+Очистить деталь растворителем, номер 3824421, или эквивалентом.
 
-Measure the valve guide bore inside diameter.
+Измерить клапан направляющего цилиндра, который находится внутри диаметра.
 
-| Valve Guide Bore Inside Diameter |  |  |
+| Винт клапан Guide с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 21.438 | MIN | 0.844 |
-| 21.463 | MAX | 0.845 |
+| мм |  | в |
+| 21.438 | Мин | 0.844 |
+| 21.463 | Макс | 0.845 |
 
-If the valve guide bore is **not** within specifications, ream the bore for an oversize valve guide.
+Если цилиндрический цилиндр с клапанным направляющим отверстием ** не** в пределах спецификаций, перенаправить цилиндровый отсек для направляющего клапана негабаритного размера.
 
-The oversize valve guides are oversize on the outside diameter **only**. The bore in the valve guide is **not** oversize.
+Направляющие клапана негабаритного размера имеют размеры на внешнем диаметре **только **. Цилиндр, который находится в направляющем клапане, ** не ** негабаритный.
 
-Valve guides are available in two oversizes:
+Гиды клапан доступны в двух размерах:
 
-- 0.25 mm \[0.010 in\]
-- 0.38 mm \[0.015 in\].
+- 0,25 мм \[0,010 в\]
+- 0,38 мм \[0,015 дюйма \].
 
-Ream the valve guide bore to maintain a press fit within 0.028 to 0.067 mm \[0.001 to 0.003 in\] between the valve guide and the valve guide bore.
+Перемещать клапан направляющего цилиндра для поддержания пресса, подходящего в пределах от 0,028 до 0,067 мм \[0,001 до 0,003 в\] между клапанным направляющим и клапанным направляющим цилиндром.
 
 ![[02400148.png]]
 
-Clean the valve seat insert bore.
+Очистить вставной цилиндр вентиляционного сиденья.
 
-Check the length of any cracks extending into the valve insert bore.
+Проверьте длину любых трещин, протекающих в цилиндр вставки клапана.
 
-The cylinder head **must** be replaced if a crack extends into the bottom of the bore.
+Головка цилиндра ** должна быть заменена, если трещина распространяется на дно цилиндра.
 
-Sometimes it is possible to remove the crack by machining the cylinder head to use an oversize valve seat insert.
+Иногда можно удалить трещину, обрабатывая головку цилиндра, чтобы использовать вставку сиденья клапана негабаритного размера.
 
-Use valve insert counterbore cutter kit, Part Number ST-257, or equivalent, along with appropriate cutter listed below:
+Используйте вставку клапана противоборный катер комплект, часть номер ST-257, или эквивалент, наряду с соответствующим катером, перечисленным ниже:
 
-- ST-1310-1 (0.010 oversize)
-- ST-1310-2 (0.020 oversize)
-- ST-1310-3 (0.030 oversize)
-- ST-1310-4 (0.040 oversize).
+- ST-1310-1 (0,010 негабаритный)
+- ST-1310-2 (0,020)
+- ST-1310-3 (0,030)
+- ST-1310-4 (0,040 негабаритный размер).
 
 ![[02400161.png]]
 
-Measure the inside diameter and the depth of the valve seat insert bore.
+Измерить внутренний диаметр и глубину цилиндра вставки клапанного сиденья.
 
-| Valve Seat Insert Bore Inside Diameter (6) |  |  |  |
+| Вставка цилиндра клапан Seat Insert с внутренним диаметром (6) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust and Intake | 60.37 | MIN | 2.377 |
-|  | 60.40 | MAX | 2.378 |
+|  | мм |  | в |
+| Выхлоп и поглощение | 60.37 | Мин | 2.377 |
+|  | 60.40 | Макс | 2.378 |
 
-| Valve Seat Insert Bore Depth (7) and (8) |  |  |  |
+| Вставка цилиндров клапан Seat в глубину (7) и (8) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust and Intake | 12.50 | MIN | 0.492 |
-|  | 12.62 | MAX | 0.497 |
+|  | мм |  | в |
+| Выхлоп и поглощение | 12.50 | Мин | 0.492 |
+|  | 12.62 | Макс | 0.497 |
 
-If the valve guide seat insert inside diameter is **not** within specifications, use an oversize valve seat.
+Если вставка направляющего сиденья клапана внутри диаметра ** не** в пределах спецификаций, используйте сиденье клапана негабаритного размера.
 
-Oversize valve seat inserts are available in the sizes listed in the table below. Machine the valve seat insert bore in the cylinder head to maintain a press fit within 0.064 to 0.114 mm \[0.002 to 0.005 in\] between the valve seat insert and valve seat insert bore.
+Вставки для сидений с клапанами больших размеров доступны в размерах, перечисленных в таблице ниже. Машина цилиндра вставки клапанного сиденья в головке цилиндра для поддержания пресса в пределах 0,064 - 0,114 мм \[0,002 - 0,005 дюйма] между вставкой клапанного сиденья и вставкой вставки клапанного сиденья цилиндра.
 
-| Outside Diameter Oversize | Depth (Thickness) of Oversize |
+| Снаружи диаметр превышен | Глубина (толщина) сверхразмера |
 |---|---|
-| 0.25 mm \[0.010 in\] | Standard |
-| 0.51 mm \[0.020 in\] | 0.13 mm \[0.005 in\] |
-| 0.76 mm \[0.030 in\] | 0.25 mm \[0.010 in\] |
-| 1.02 mm \[0.040 in\] | 0.38 mm \[0.015 in\] |
+| 0,25 мм \[0,010 в\] | Стандартный стандарт |
+| 0,51 мм \[0,020 in\] | 0,13 мм \[0,005 in\] |
+| 0,76 мм \[0,030 в\] | 0,25 мм \[0,010 в\] |
+| 1,02 мм \[0,040 in\] | 0,38 мм \[0,015 in\] |
 
 ![[02400152.png]]
 
-The intake and exhaust valve face and seating surfaces **must** be cleaned and free of carbon deposits before the inspection is performed.
+Лицевая и выхлопная поверхности впускного и выпускного клапанов ** должны быть очищены и свободны от углеродных отложений до проведения проверки.
 
-Use Scotch-Brite™ 7448 abrasive hand pad, Part Number 3823258, or equivalent, to clean the valve.
+Используйте абразивную подкладку Scotch-BriteTM 7448, номер детали 3823258 или эквивалент, для очистки клапана.
 
-Use the valve head checking tool, Part number 3164984, to measure the head thickness of the valve.
+Используйте инструмент проверки головки клапана, Часть 3164984, для измерения толщины головки клапана.
 
-Place the valve into the valve head thickness gauge.
+Поместите клапан в калибр толщины головки клапана.
 
-Measure the valve height. If the valve is flush or above the gauge surface, the valve can be reused. If the valve is below the gauging surface, the valve can **not** be reused.
+Измерьте высоту клапана. Если клапан промыт или находится над поверхностью измерительной приборной ширины, клапан можно повторно использовать. Если клапан находится ниже поверхности измерения, клапан может ** не ** повторно использоваться.
 
 ![[22600216.png]]
 
-> [!warning] CAUTION · Осторожно
-> This type of a check is not as accurate as the checking tool. It can result in valves that are not within minimum specification being reused. Valves that are not within minimum specification can fail, causing severe progressive damage to the power cylinder.
+> [!warning] ОСТОРОЖНО
+> Этот тип проверки не так точен, как инструмент проверки. Это может привести к повторному использованию клапанов, которые не соответствуют минимальным спецификациям. Клапаны, которые не соответствуют минимальным спецификациям, могут выйти из строя, что приводит к серьезным прогрессирующим повреждениям силового цилиндра.
 
-If a valve checking tool is **not** available, place the valve on a flat surface and check the height of the outside diameter.
+Если инструмент проверки клапана ** недоступен, поместите клапан на плоскую поверхность и проверьте высоту наружного диаметра.
 
-| Valve Head Thickness (at the outside diameter) |  |  |  |
+| Толщина головы клапана (на внешнем диаметре) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-|  | 3.94 | MIN | 0.155 |
-| Intake |  |  |  |
+|  | мм |  | в |
+|  | 3.94 | Мин | 0.155 |
+| принимать |  |  |  |
 
-If the valve is **not** within specification, it **must** be replaced.
+Если клапан ** не** в пределах спецификации, его *** следует заменить.
 
 ![[02400136.png]]
 
-It is **not** necessary to remove any black or brown stains on the valve closest to the port, unless the buildup affects the movement in the guide. Use nothing more than course crocus cloth (1000 grit) to remove the stains.
+**не требуется удалять любые черные или коричневые пятна на клапане, ближайшем к порту, если только наращивание не влияет на движение в направляющей. Используйте не более чем суконную ткань (1000 гратов) для удаления пятен.
 
-The valve stems are chrome plated. If there are scuffs or marks that can be felt with the fingernail, the valve **must** be replaced.
+Стебли клапана хромированные. Если есть потертости или следы, которые можно почувствовать ногтем, клапан ** должен быть заменен.
 
-Check the collet groove area for wear. If the groove area is worn, the valve **must** be replaced.
+Проверьте область канавки кольта для ношения. Если область канавки изношена, клапан ** должен быть заменен.
 
-Measure the valve stem outside diameter.
+Измерить ствол клапана наружного диаметра.
 
-| Valve Stem Outside Diameter |  |  |
+| Вальвация ствол за пределами диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 10.490 | MIN | 0.4130 |
-| 10.510 | MAX | 0.4138 |
+| мм |  | в |
+| 10.490 | Мин | 0.4130 |
+| 10.510 | Макс | 0.4138 |
 
 ![[kn2vata.png]]
 
-Cummins Inc. recommends using new valve springs when the cylinder head is reconditioned.
+Cummins Inc. Рекомендуется использовать новые клапанные пружины при восстановлении головки цилиндра.
 
-A bent or broken spring **must not** be used again.
+Изогнутая или сломанная пружина не должна использоваться снова.
 
-A spring with a notch worn in the first coil **mustnot** be used again. The ends of the springs will wear into the first coil, creating a worn notch in the material.
+При этом пружина с выемкой, надетая в первую катушку, не должна использоваться снова. Концы пружин будут входить в первую катушку, создавая изношенную выемку в материале.
 
-If a worn notch can be seen or felt, the valve spring **must not** be used again.
+Если изношенная выемка видна или ощущается, пружина клапана ** не должна использоваться снова.
 
-Often a spring that has these notches will make a clicking sound. To check for a click, the spring is to be hand compressed until the end of the first coil is completely collapsed. A large notch will cause a clicking sound to be heard.
+Часто пружина, которая имеет эти выемки, издает щелкающий звук. Чтобы проверить на щелчок, пружина должна быть сжата вручную до полного обрушения конца первой катушки. Большая выемка вызовет кликающий звук, который будет услышан.
 
-Check both ends of the spring for the clicking sound.
+Проверьте оба конца пружины на наличие щелкающего звука.
 
-Check the spring free length.
+Проверьте длину пружины.
 
-Approximate Free Length
+Приблизительная свободная длина
 
-87.63 mm \[3.45 in\]
+87,63 мм \[3,45 дюйма \]
 
-Check the spring force at the indicated test height.
+Проверить весеннее усилие на указанной высоте испытания.
 
-Valve Spring Test Height
+Весенний тест клапан
 
-57.23 mm \[2.253 in\]
+57,23 мм \[2,253 в\]
 
-| Valve Spring Force |  |  |  |
+| Весенняя сила клапан |  |  |  |
 |---|---|---|---|
-|  | n |  | lbf |
-|  | 1477 N | MIN | 332 lbf |
-|  | 1637 N | MAX | 368 lbf |
+|  | n |  | хулиган |
+|  | 1477 N N N | Мин | 332 фунта |
+|  | 1637 N N N | Макс | 368 фунтов |
 
-If the valve spring is **not** within specification, the valve spring **must** be replaced.
+Если рессорный клапан ** не*** в пределах спецификации, то рессорный клапан **** должен быть заменен.
 
 ![[07400086.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Check the valve guide for chips and cracks.
+Проверьте руководство клапана для чипов и трещин.
 
-Measure the inside diameter of the guide with a ball gauge or a dial bore indicator.
+Измерить внутренний диаметр направляющего с помощью шаровой измерительной ширины или циферблата цилиндра с индикатором ствола.
 
-| Valve Guide Inside Diameter (Installed) |  |  |
+| клапан Guide Inside Diameter (Установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 12.600 | MIN | 0.496 |
-| 12.667 | MAX | 0.499 |
+| мм |  | в |
+| 12.600 | Мин | 0.496 |
+| 12.667 | Макс | 0.499 |
 
-The valve guide can be reusable if the inside diameter of the first 13 mm \[0.50 in\] from the top or bottom of the valve guide is over specification. However, if an area 13 mm \[0.50 in\] or greater from the top or bottom is out of tolerance, the valve guide **must** be replaced.
+Направляющий клапан может быть многоразовым, если внутренний диаметр первого 13 мм \[0,50 дюйма \] от верхней или нижней части направляющего клапана превышает спецификацию. Однако, если область 13 мм \[0,50 дюйма \] или больше от верхней или нижней части не выдерживает, направляющий клапан ** должен быть заменен.
 
 ![[02400137.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Check the valve guide for chips and cracks.
+Проверьте руководство клапана для чипов и трещин.
 
-Clean the part with solvent, Part Number 3824421, or equivalent.
+Очистить деталь растворителем, номер 3824421, или эквивалентом.
 
-Measure the valve guide bore inside diameter.
+Измерить клапан направляющего цилиндра, который находится внутри диаметра.
 
-| Valve Guide Bore Inside Diameter |  |  |
+| Винт клапан Guide с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 21.425 | MIN | 0.844 |
-| 21.450 | MAX | 0.845 |
+| мм |  | в |
+| 21.425 | Мин | 0.844 |
+| 21.450 | Макс | 0.845 |
 
-If the valve guide bore is **not** within specifications, ream the bore for an oversize valve guide.
+Если цилиндрический цилиндр с клапанным направляющим отверстием ** не** в пределах спецификаций, перенаправить цилиндровый отсек для направляющего клапана негабаритного размера.
 
-The oversize valve guides are oversize on the outside diameter **only**. The bore in the valve guide is **not** oversize.
+Направляющие клапана негабаритного размера имеют размеры на внешнем диаметре **только **. Цилиндр, который находится в направляющем клапане, ** не ** негабаритный.
 
-Valve guides are available in two oversizes:
+Гиды клапан доступны в двух размерах:
 
-- 0.25 mm \[0.010 in\]
-- 0.38 mm \[0.015 in\].
+- 0,25 мм \[0,010 в\]
+- 0,38 мм \[0,015 дюйма \].
 
-Ream the valve guide bore to maintain a press fit within 0.028 to 0.067 mm \[0.001 to 0.003 in\] between the valve guide and the valve guide bore.
+Перемещать клапан направляющего цилиндра для поддержания пресса, подходящего в пределах от 0,028 до 0,067 мм \[0,001 до 0,003 в\] между клапанным направляющим и клапанным направляющим цилиндром.
 
 ![[02400148.png]]
 
-Clean the valve seat insert bore.
+Очистить вставной цилиндр вентиляционного сиденья.
 
-Check the length of any cracks extending into the valve insert bore.
+Проверьте длину любых трещин, протекающих в цилиндр вставки клапана.
 
-The cylinder head **must** be replaced if a crack extends into the bottom of the bore.
+Головка цилиндра ** должна быть заменена, если трещина распространяется на дно цилиндра.
 
-Sometimes it is possible to remove the crack by machining the cylinder head to use an oversize valve seat insert.
+Иногда можно удалить трещину, обрабатывая головку цилиндра, чтобы использовать вставку сиденья клапана негабаритного размера.
 
-Use valve insert counterbore cutter kit, Part Number ST-257, or equivalent, along with appropriate cutter listed below:
+Используйте вставку клапана противоборный катер комплект, часть номер ST-257, или эквивалент, наряду с соответствующим катером, перечисленным ниже:
 
-- ST-1310-1 (0.010 oversize)
-- ST-1310-2 (0.020 oversize)
-- ST-1310-3 (0.030 oversize)
-- ST-1310-4 (0.040 oversize).
+- ST-1310-1 (0,010 негабаритный)
+- ST-1310-2 (0,020)
+- ST-1310-3 (0,030)
+- ST-1310-4 (0,040 негабаритный размер).
 
 ![[02400161.png]]
 
-Measure the inside diameter and the depth of the valve seat insert bore.
+Измерить внутренний диаметр и глубину цилиндра вставки клапанного сиденья.
 
-| Valve Seat Insert Bore Inside Diameter (6) |  |  |  |
+| Вставка цилиндра клапан Seat Insert с внутренним диаметром (6) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust and Intake | 60.37 | MIN | 2.377 |
-|  | 60.40 | MAX | 2.378 |
+|  | мм |  | в |
+| Выхлоп и поглощение | 60.37 | Мин | 2.377 |
+|  | 60.40 | Макс | 2.378 |
 
-| Valve Seat Insert Bore Depth (7) and (8) |  |  |  |
+| Вставка цилиндров клапан Seat в глубину (7) и (8) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust and Intake | 12.50 | MIN | 0.492 |
-|  | 12.62 | MAX | 0.497 |
+|  | мм |  | в |
+| Выхлоп и поглощение | 12.50 | Мин | 0.492 |
+|  | 12.62 | Макс | 0.497 |
 
-If the valve guide seat insert inside diameter is **not** within specifications, use an oversize valve seat.
+Если вставка направляющего сиденья клапана внутри диаметра ** не** в пределах спецификаций, используйте сиденье клапана негабаритного размера.
 
-Oversize valve seat inserts are available in the sizes listed in the table below. Machine the valve seat insert bore in the cylinder head to maintain a press fit within 0.064 to 0.114 mm \[0.002 to 0.005 in\] between the valve seat insert and valve seat insert bore.
+Вставки для сидений с клапанами больших размеров доступны в размерах, перечисленных в таблице ниже. Машина цилиндра вставки клапанного сиденья в головке цилиндра для поддержания пресса в пределах 0,064 - 0,114 мм \[0,002 - 0,005 дюйма] между вставкой клапанного сиденья и вставкой вставки клапанного сиденья цилиндра.
 
-| Outside Diameter Oversize | Depth (Thickness) of Oversize |
+| Снаружи диаметр превышен | Глубина (толщина) сверхразмера |
 |---|---|
-| 0.25 mm \[0.010 in\] | Standard |
-| 0.51 mm \[0.020 in\] | 0.13 mm \[0.005 in\] |
-| 0.76 mm \[0.030 in\] | 0.25 mm \[0.010 in\] |
-| 1.02 mm \[0.040 in\] | 0.38 mm \[0.015 in\] |
+| 0,25 мм \[0,010 в\] | Стандартный стандарт |
+| 0,51 мм \[0,020 in\] | 0,13 мм \[0,005 in\] |
+| 0,76 мм \[0,030 в\] | 0,25 мм \[0,010 в\] |
+| 1,02 мм \[0,040 in\] | 0,38 мм \[0,015 in\] |
 
 ![[02400152.png]]
 
-The intake and exhaust valve face and seating surfaces **must** be cleaned and free of carbon deposits before the inspection is performed.
+Лицевая и выхлопная поверхности впускного и выпускного клапанов ** должны быть очищены и свободны от углеродных отложений до проведения проверки.
 
-Use Scotch-Brite™ 7448 abrasive hand pad, Part Number 3823258, or equivalent, to clean the valve.
+Используйте абразивную подкладку Scotch-BriteTM 7448, номер детали 3823258 или эквивалент, для очистки клапана.
 
-The valve head thickness gauge, Part Number 3164983, is used to check intake and exhaust valve head thickness. The lower gauging surface marked “INTAKE” is for the intake valve. The upper gauging surface marked “EXHAUST” is for the exhaust valve.
+Калибр толщины головки клапана, Номер детали 3164983, используется для проверки толщины головки впускного и выпускного клапанов. Нижняя поверхность для измерения с пометкой "ВНИМАНИЕ" предназначена для впускного клапана. Верхняя поверхность для измерения с пометкой «EXHAUST» предназначена для выпускного клапана.
 
-Place the valve into the valve head thickness gauge.
+Поместите клапан в калибр толщины головки клапана.
 
-Measure the height of the valve.
+Измерьте высоту клапана.
 
-If the valve is flush or above the gauging surface, the valve can be used again.
+Если клапан промыт или находится над поверхностью измерения, клапан можно использовать снова.
 
-If the valve is below the gauging surface, the valve can **not** be used.
+Если клапан находится ниже поверхности измерения, клапан может ** не ** использоваться.
 
 ![[22600216.png]]
 
-> [!warning] CAUTION · Осторожно
-> This type of a check is not as accurate as the checking tool. It can result in valves that are not within minimum specification being reused. Valves that are not within minimum specification can fail, causing severe progressive damage to the power cylinder.
+> [!warning] ОСТОРОЖНО
+> Этот тип проверки не так точен, как инструмент проверки. Это может привести к повторному использованию клапанов, которые не соответствуют минимальным спецификациям. Клапаны, которые не соответствуют минимальным спецификациям, могут выйти из строя, что приводит к серьезным прогрессирующим повреждениям силового цилиндра.
 
-If a valve checking tool is **not** available, place the valve on a flat surface and check the height of the outside diameter.
+Если инструмент проверки клапана ** недоступен, поместите клапан на плоскую поверхность и проверьте высоту наружного диаметра.
 
-| Minimum Valve Head Thickness (at the outside diameter) |  |  |  |
+| Минимальная толщина головы клапана (на внешнем диаметре) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Exhaust | 3.00 | MIN | 0.120 |
-| Intake | 2.16 | MIN | 0.085 |
+|  | мм |  | в |
+| выхлоп | 3.00 | Мин | 0.120 |
+| принимать | 2.16 | Мин | 0.085 |
 
-If the valve is **not** within specification, it **must** be replaced.
+Если клапан ** не** в пределах спецификации, его *** следует заменить.
 
 ![[02400136.png]]
 
-It is **not** necessary to remove any black or brown stains on the valve closest to the port, unless the buildup affects the movement in the guide. Use nothing more than course crocus cloth (1000 grit) to remove the stains.
+**не требуется удалять любые черные или коричневые пятна на клапане, ближайшем к порту, если только наращивание не влияет на движение в направляющей. Используйте не более чем суконную ткань (1000 гратов) для удаления пятен.
 
-The valve stems are chrome plated. If there are scuffs or marks that can be felt with the fingernail, the valve **must** be replaced.
+Стебли клапана хромированные. Если есть потертости или следы, которые можно почувствовать ногтем, клапан ** должен быть заменен.
 
-Check the collet groove area for wear. If the groove area is worn, the valve **must** be replaced.
+Проверьте область канавки кольта для ношения. Если область канавки изношена, клапан ** должен быть заменен.
 
-Measure the valve stem outside diameter.
+Измерить ствол клапана наружного диаметра.
 
-| Valve Stem Outside Diameter |  |  |
+| Вальвация ствол за пределами диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 12.535 | MIN | 0.494 |
-| 12.576 | MAX | 0.495 |
+| мм |  | в |
+| 12.535 | Мин | 0.494 |
+| 12.576 | Макс | 0.495 |
 
 ![[kn2vata.png]]
 
-Valve springs of two different lengths are used on the engine. These are identified with a red strip (old spring) and a white strip (new spring)
+На двигателе используются клапанные пружины двух разных длин. Они отождествляются с красной полосой (старая весна) и белой полосой (новая весна).
 
-Cummins Inc. recommends using white strip (new valve springs) when the cylinder head is reconditioned.
+Cummins Inc. Рекомендуется использовать белую полосу (новые клапанные пружины) при восстановлении головки цилиндра.
 
-A bent or broken spring **must not** be used again.
+Изогнутая или сломанная пружина не должна использоваться снова.
 
-A spring with a notch worn in the first coil **mustnot** be used again. The ends of the springs will wear into the first coil, creating a worn notch in the material.
+При этом пружина с выемкой, надетая в первую катушку, не должна использоваться снова. Концы пружин будут входить в первую катушку, создавая изношенную выемку в материале.
 
-If a worn notch can be seen or felt, the valve spring **must not** be used again.
+Если изношенная выемка видна или ощущается, пружина клапана ** не должна использоваться снова.
 
-Often a spring that has these notches will make a clicking sound. To check for a click, the spring is to be hand compressed until the end of the first coil is completely collapsed. A large notch will cause a clicking sound to be heard.
+Часто пружина, которая имеет эти выемки, издает щелкающий звук. Чтобы проверить на щелчок, пружина должна быть сжата вручную до полного обрушения конца первой катушки. Большая выемка вызовет кликающий звук, который будет услышан.
 
-Check both ends of the spring for the clicking sound.
+Проверьте оба конца пружины на наличие щелкающего звука.
 
-Check the spring free length.
+Проверьте длину пружины.
 
-| Approximate Free Length |  |
+| Приблизительная свободная длина |  |
 |---|---|
-| Red Strip Spring | White Strip Spring |
-| 65 mm \[2.57 in\] | 69 mm \[2.72 in\] |
+| Красная весна | Белая полоса весны |
+| 65 мм \[2.57 in\] | 69 мм \[2,72 дюйма \] |
 
-Check the spring force at the indicated test height.
+Проверить весеннее усилие на указанной высоте испытания.
 
-| Test Height |  |
+| Высота испытания |  |
 |---|---|
-| Red Strip Spring | White Strip Spring |
-| 39 mm \[1.53 in\] | 38 mm \[1.51 in\] |
+| Красная весна | Белая полоса весны |
+| 39 мм \[1.53 in\] | 38 мм \[1.51 in\] |
 
-| Valve Spring Force |  |  |  |
+| Весенняя сила клапан |  |  |  |
 |---|---|---|---|
-|  | n |  | lbf |
-| Red Strip Spring | 1183 | MIN | 266 |
-|  | 1308 | MAX | 294 |
-| White Strip Spring | 1241 | MIN | 279 |
-|  | 1383 | MAX | 311 |
+|  | n |  | хулиган |
+| Красная весна | 1183 | Мин | 266 |
+|  | 1308 | Макс | 294 |
+| Белая полоса весны | 1241 | Мин | 279 |
+|  | 1383 | Макс | 311 |
 
-If the valve spring is **not** within specification, the valve spring **must** be replaced.
+Если рессорный клапан ** не*** в пределах спецификации, то рессорный клапан **** должен быть заменен.
 
 ![[07400086.png]]
 
-### Magnetic Crack Inspect
+### Магнитный крэк-инспект
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine damage, always demagnetize and clean the parts thoroughly after a magnetic particle inspection.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения двигателя, всегда размагничивайте и тщательно очищайте детали после проверки магнитных частиц.
 
-Use the magnetic particle residual method to check the valves for cracks.
+Используйте остаточный метод магнитных частиц для проверки клапанов на наличие трещин.
 
-Check the exhaust valves with the coil shot method.
+Проверьте выпускные клапаны методом выстрела катушки.
 
-Use a 305 mm \[12 in\] minimum diameter coil.
+Используйте катушку диаметром 305 мм[12 дюймов].
 
-| Coil Shot Amperage (Ampere Turns) |  |
+| Сильная амперационная ампература (Ampere Turns) |  |
 |---|---|
-| Minimum | Maximum |
-| 400-VDC or rectified VAC | 800-VDC or rectified VAC |
+| Минимум | Максимум |
+| 400-VDC или исправленный VAC | 800-VDC или исправленный VAC |
 
-An ampere turn is a electrical current of one ampere flowing through the coil multiplied by the number of turns in the coil.
+Амперный виток представляет собой электрический ток одного ампера, протекающий через катушку, умноженный на количество витков в катушке.
 
-Test the valve.
+Проверьте клапан.
 
-A broad fuzzy pattern will appear at the welded joint on the exhaust valves. This is normal. If there is a distinct line in the broad fuzzy pattern, the valve **must** be replaced.
+Широкий нечеткий рисунок появится на сварном соединении на выпускных клапанах. Это нормально. Если в широком нечетком рисунке есть четкая линия, клапан *** должен быть заменен.
 
 ![[kn2vakb.png]]
 
-Use the head shot method to test the intake valve.
+Используйте метод выстрела головой для проверки впускного клапана.
 
-| Head Shot Amperage (Ampere) |  |
+| Ампера (Head Shot Amperage) |  |
 |---|---|
-| Minimum | Maximum |
-| 500-VDC or rectified VAC | 700-VDC or rectified VAC |
+| Минимум | Максимум |
+| 500-VDC или исправленный VAC | 700-VDC или исправленный VAC |
 
 ![[kn2vakd.png]]
 
-The acceptable criteria for intake and exhaust data is listed below:
+Ниже приводятся приемлемые критерии для данных о впуске и выхлопе:
 
-1. Indications less than 38.1 mm \[1.50 in\] in length are acceptable
-2. No indications
-3. **Only** longitudinal indications are acceptable
-4. **Only** longitudinal indications are acceptable
-5. No indications.
+1. Допустимы показания длиной менее 38,1 мм \[1,50 дюйма \]
+2. Никаких указаний
+3. **Допустимы только продольные показания
+4. **Допустимы только продольные показания
+5. Никаких указаний.
 
 ![[kn2vake.png]]
 
-### Grind
+### гринд
 
-Valves
+вентиляторы
 
-> [!warning] CAUTION · Осторожно
-> Valves marked with a "C" in the center of the valve head, must not be ground. Grinding these valves will damage the hardened layer of the valve face and severe engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Клапаны, помеченные буквой "С" в центре головки клапана, не должны быть заземлены. Измельчение этих клапанов повредит закаленный слой поверхности клапана, и может привести к серьезному повреждению двигателя.
 
 ![[02k00010.png]]
 
-Intake and exhaust valves **must** be ground to the same angle.
+Впускной и выпускной клапаны ** должны быть заземлены под одним углом.
 
-Use valve facing machine, Part Number 3376256, or equivalent, to grind the valve to a 30-degree angle, as shown in the illustration.
+Используйте машину, обращенную к клапану, Номер детали 3376256, или эквивалент, для измельчения клапана под углом 30 градусов, как показано на иллюстрации.
 
-Make sure **not** to remove too much material too quickly. **Only** remove the minimum amount of material, making sure the seating area of the valve is free from grooves.
+*** Не удаляйте слишком много материала слишком быстро. *** Удалить минимальное количество материала, убедившись, что зона сидения клапана свободна от канавок.
 
 ![[kn8vaxa.png]]
 
-### Machine
+### Машина
 
-Valve Seat
+Сеть клапан Seat
 
-Cummins Inc. recommends using machines that will cut the valve seat insert. Grinding the valve seat with stones that are too coarse can cause an unacceptable surface finish that can lead to early valve and/or seat wear. If the valve protrusion is too great and a machine to cut the valve seat is **not** available, Cummins Inc. recommends removing the seat, then machining the bore in the cylinder head to a greater depth, if possible.
+Cummins Inc. рекомендует использовать машины, которые будут разрезать вставку клапанного сиденья. Измельчение сиденья клапана слишком грубыми камнями может привести к неприемлемой отделке поверхности, что может привести к раннему износу клапана и / или сиденья. Если протрузия клапана слишком велика и машина для разреза сиденья клапана ** недоступна, Cummins Inc. рекомендует снять сиденье, затем обработать цилиндр, откачанный в головке цилиндра, на большую глубину, если это возможно.
 
-Use a valve guide arbor set, Part Number 3375946, or equivalent, with valve seat grinding machining ST-685-A (110-VAC) or ST-685-C (220-VAC).
+Используйте набор направляющих арборов клапанов, часть 3375946 или эквивалент, с шлифовальной обработкой сидений клапана ST-685-A (110-VAC) или ST-685-C (220-VAC).
 
-Machine the valve seat insert to the angle shown in the illustration.
+Машина вставляет вентильное сиденье под углом, показанным на иллюстрации.
 
-Measure the valve seat insert width.
+Измерить ширину вставки клапанного сиденья.
 
-| Valve Seat Insert Width |  |  |  |
+| клапан Seat Insert Width - вставка |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Intake | 3.05 | MIN | 0.120 |
-|  | 3.55 | MAX | 0.140 |
-| Exhaust | 1.52 | MIN | 0.060 |
-|  | 2.54 | MAX | 0.100 |
+|  | мм |  | в |
+| принимать | 3.05 | Мин | 0.120 |
+|  | 3.55 | Макс | 0.140 |
+| выхлоп | 1.52 | Мин | 0.060 |
+|  | 2.54 | Макс | 0.100 |
 
 ![[02400139.png]]
 
-If the width of the valve seat is **not** within specifications, remove the surface material on the inside diameter and outside diameter of the valve seating area to decrease the width of the valve seat.
+Если ширина сиденья клапана ** не** в пределах спецификаций, удалите поверхностный материал на внутренний диаметр и внешний диаметр зоны сидения клапана, чтобы уменьшить ширину сиденья клапана.
 
-If the valve seat specifications are **not** obtained by machining, the valve seat **must** be replaced.
+Если спецификации клапанного сиденья ** не** получены путем механической обработки, то клапанное сиденье *** должно быть заменено.
 
 ![[02400140.png]]
 
-It is important that the eccentrimeter is **not** positioned too far down the arbor. The meter needle **must not** complete more than between one and one and a half revolutions before touching the valve seat insert. If the meter will **not** touch the insert at a minimum revolution, change the arbor to a smaller diameter. The meter will have to be adjusted for each seat and arbor combination.
+Важно, чтобы эксцентриметр был расположен слишком далеко вниз по беседке. Игла метр ** не должна ** совершать более полутора оборотов перед касанием вставки сиденья клапана. Если счетчик ** не** коснется вставки при минимальном обороте, измените арбор на меньший диаметр. Измеритель должен быть отрегулирован для каждого сиденья и комбинации арбора.
 
-Use an eccentrimeter, Part Number ST-685-4, or equivalent, and the arbor included in the valve seat grinding machine kit, Part Number ST-685-A, or equivalent, or Part Number ST-685-C, or equivalent.
+Используйте эксцентриметр, номер детали ST-685-4 или эквивалент, и арбор, включенный в комплект машины для шлифования клапанных сидений, номер детали ST-685-A или эквивалент, или номер детали ST-685-C или эквивалент.
 
-Measure the valve seat to the valve guide concentricity.
+Измерить сиденье клапана до концентриситета направляющего клапана.
 
-The seat and guide **must** be concentric within 0.05 mm \[0.002 in\].
+Сиденье и направляющее ** должны быть концентрическими в пределах 0,05 мм \[0,002 дюйма \].
 
-If the concentricity is **not** within specification, machine the valve seat.
+Если концентриситет ** не** в пределах спецификации, то машина клапанного сиденья.
 
 ![[02400141.png]]
 
-### Assemble
+### Сборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Install the valve guides in all four locations in the cylinder head.
+Установите направляющие клапана во всех четырех местах в головке цилиндра.
 
-Use valve guide driver (1), Part Number 3163041, and an arbor press to install the valve guide (2) to the specified height
+Используйте привод (1) клапана, часть 3163041 и пресс-конструкцию арбора для установки направляющего (2) клапана на указанную высоту
 
-| Valve Guide Height |  |  |  |
+| клапан Guide High (Высота) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| To spring pocket | 37.97 | MIN | 1.495 |
-|  | 38.48 | MAX | 1.515 |
-| To top of head | 13.97 | MIN | 0.550 |
-|  | 14.47 | MAX | 0.570 |
+|  | мм |  | в |
+| Взять карман | 37.97 | Мин | 1.495 |
+|  | 38.48 | Макс | 1.515 |
+| Вверх головой | 13.97 | Мин | 0.550 |
+|  | 14.47 | Макс | 0.570 |
 
 ![[02g00002.png]]
 
-Inspect the valve guides for chips and cracks.
+Проверьте направляющие клапана на наличие чипов и трещин.
 
-Use the drop gauge, Part Number 5298508, to check the valve guide for proper inside diameter and straightness.
+Используйте калибр для измерения падения, номер детали 5298508, чтобы проверить направляющий клапан на правильный внутренний диаметр и прямоту.
 
-> [!note] Note · Примечание
-> The drop gauge **must** be adjusted to a minimum of 114 mm \[4.5 in\] long.
+> [!note] Примечание
+> Измеритель падения ** должен быть отрегулирован до минимума 114 мм \[4,5 дюйма \] в длину.
 
 ![[22600397.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the valve guide bores with an aerosol solvent (such as brake cleaner or carburetor cleaner) and a 7/16 inch diameter nylon brush.
+Очистить направляющий клапан с помощью аэрозоля растворителя (например, очиститель тормозов или карбюратор) и нейлоновой щетки диаметром 7/16 дюйма.
 
-Use compressed air to dry the valve guide bores.
+Используйте сжатый воздух для высушивания направляющих клапанов.
 
-Orient the cylinder head with the combustion face down, sitting flat on a level surface.
+Ориентируйте головку цилиндра с горением лицом вниз, сидя плоской на ровной поверхности.
 
 ![[22600394.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the drop gauge pin. Use the same type of solvent that is used on the valve guide bores.
+Очистить штифт для измерения падения. Используйте тот же тип растворителя, который используется на клапанных направляющих отверстиях.
 
-> [!note] Note · Примечание
-> Inspect the drop gauge pin for nicks, dings, scratches, and abrasion that can cause a false failure on the drop gauge test. Excessive wear can cause a false pass.
+> [!note] Примечание
+> Осмотрите штифт измерителя падения на наличие никсов, штрихов, царапин и истирания, которые могут вызвать ложный сбой в испытании измерителя падения. Чрезмерный износ может вызвать ложный проход.
 
 ![[22600395.png]]
 
-Holding the drop gauge by the upper end of the handle, place the tip of the gauge pin in the bore and let the gauge drop freely, by gravity alone.
+Держа датчик измерения падения на верхнем конце рукоятки, поместите кончик штифта калибра в цилиндр и дайте измерительному прибору свободно падать, только под действием силы тяжести.
 
-The valve guide passes if the gauge falls until the base of the handle contacts the valve guide.
+Направляющий клапан проходит, если калибр падает до тех пор, пока основание ручки не соприкоснется с направляющим клапана.
 
-If the drop gauge does **not** fall until the base of the handle contacts the valve guide, rotate the tool 90 degrees and test again.
+Если измеритель падения не падает до тех пор, пока основание ручки не соприкоснется с направляющим клапана, поверните инструмент на 90 градусов и снова проверьте.
 
-If the drop gauge test fails at all four positions, the guide **must** be reamed and tested again.
+Если испытание с помощью измерительной шкалы падения не удается на всех четырех позициях, руководство *** должно быть повторно проверено и испытано снова.
 
 ![[22600396.png]]
 
-When a valve guide does **not** pass the drop gauge test, it **must** be reamed to bring the bore to the correct specification. The reamer, Part Number 5298510, is the **only** reamer to be used for this purpose. The reamer is to be used **only** by hand with a hand 'T' bar. It is **not** to be driven by any type of power drill or milling machine.
+Когда направляющий клапан проходит **не** испытание на измерительную шкалу падения, его *** необходимо перенаправить, чтобы привести цилиндр в правильное состояние. Часть 5298510, является единственным, который будет использоваться для этой цели. Ремер должен использоваться только вручную с помощью бруска «T». Это ** не **, чтобы быть приведенным в движение любым типом буровой установки или фрезерной машины.
 
 ![[02k00006.png]]
 
-> [!note] Note · Примечание
-> It is essential that the reamer is continuously rotated while it is being inserted or removed from the valve guide. Damage to the valve guide will occur if the reamer is inserted or removed without rotation.
+> [!note] Примечание
+> Важно, чтобы бритвенный зажим непрерывно вращался, пока он вставляется или удаляется из направляющего клапана. Повреждение направляющего клапана произойдет, если бачок вставлен или удален без вращения.
 
-Position the cylinder head with the combustion face down. Insert the tip of the reamer into the top of the valve guide. While rotating the reamer **clockwise**, allow it to drop by gravity into the valve guide bore. Continue to rotate the reamer by hand, in a **clockwise** direction, until it drops through the valve guide and rests on the surface below.
+Положите головку цилиндра с поверхностью сгорания вниз. Вставьте кончик ближнего света в верхнюю часть направляющего клапана. При вращении ближнего света ** по часовой стрелке**, позвольте ему упасть под действием силы тяжести в цилиндр направляющего клапана. Продолжайте вращать бритву вручную, в направлении ** по часовой стрелке **, пока она не упадет через направляющий клапан и не упокоится на поверхности ниже.
 
 ![[02k00007.png]]
 
-Once the reamer has dropped through the valve guide, rotate it through approximately two complete turns, continueing to rotate the reamer by hand, in a **clockwise** direction.
+Как только ромер упал через направляющий клапан, поверните его примерно через два полных поворота, продолжая вращать ротор вручную, в направлении ** часовой стрелки **.
 
 ![[02k00008.png]]
 
-> [!note] Note · Примечание
-> It is essential that the reamer is continuously rotated while it is being inserted or removed from the valve guide. Damage to the valve guide will occur if the reamer is inserted or removed without rotation.
+> [!note] Примечание
+> Важно, чтобы бритвенный зажим непрерывно вращался, пока он вставляется или удаляется из направляющего клапана. Повреждение направляющего клапана произойдет, если бачок вставлен или удален без вращения.
 
-Withdraw the reamer while continuing to rotate it in a **clockwise** direction.
+Отведите ближний светильник, продолжая вращать его в направлении ** часовой стрелки **.
 
 ![[02k00009.png]]
 
-Make sure the valve guide is thoroughly cleaned. Repeat the drop gauge test as described above. If a valve guide does **not** pass the drop gauge test, repeat the reamer process until a drop gauge pass is achieved.
+Убедитесь, что направляющий клапан тщательно очищен. Повторите испытание измерительной шкалы падения, как описано выше. Если направляющий клапан проходит **не** испытание на измерительную шкалу падения, повторите процесс снятия слива до тех пор, пока не будет достигнут проход измерительной шкалы падения.
 
 ![[22600396.png]]
 
-Identify the correct valve seat insert.
+Определите правильную вставку сиденья клапана.
 
-- The top illustration is the intake port valve seat insert with a wide valve seating area.
-- The bottom illustration is the exhaust port valve seat insert.
+- Верхняя иллюстрация - вставка сиденья впускного клапана с широкой зоной сидения клапана.
+- Нижняя иллюстрация - вставка сиденья клапана выхлопного газа.
 
-Both the intake and exhaust port valve seat inserts **must** be installed with the 30-degree angle positioned as shown.
+Вставки сиденья впускного и выпускного клапанов ** должны быть установлены с углом 30 градусов, как показано.
 
-Exhaust valve seat inserts are color coded blue to identify the 30-degree angle side of the seat insert.
+Вставки сиденья выхлопного клапана имеют синий цвет, чтобы идентифицировать 30-градусную сторону угла сиденья.
 
 ![[02400153.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer or mallet to install the valve seat inserts. The inserts can be cracked leading to a valve seat failure.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток или молоток для установки вставок сиденья клапана. Вставки могут быть взломаны, что приводит к отказу клапанного сиденья.
 
-Install the valve seat insert (4) with a mandrel (9) and an arbor press.
+Установите вставку (4) клапанного сиденья с подрулевой (9) и прессом беседки.
 
 ![[02400155.png]]
 
-Check the injector bore for cracks or other damage.
+Проверьте цилиндр форсунки на наличие трещин или других повреждений.
 
-If cracks or other damage is found, the cylinder head **must** be repaired or replaced.
+Если обнаружены трещины или другие повреждения, головка цилиндра должна быть отремонтирована или заменена.
 
 ![[02400142.png]]
 
-Install a sealing ring on a dummy injector.
+Установите уплотнительное кольцо на фиктивный форсунка.
 
-Do **not** install the injector o-rings at this time.
+В это время не устанавливайте топливные форсуночные кольца.
 
-Apply a thin coating of Prussian blue onto the sealing ring.
+Нанесите тонкое покрытие прусского синего цвета на уплотнительное кольцо.
 
 ![[02400143.png]]
 
-Measure the injector protrusion. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+Измерьте протрузию форсунки.[[20-002-022 — Injector Protrusion|См. процедуру 002-022 в разделе 2.]]
 
 ![[kn2slkd.png]]
 
-Turn the cylinder head over to the original position.
+Поверните головку цилиндра в исходное положение.
 
-Remove the injector hold-down clamp and the injector.
+Удалите зажим удерживания форсунки и форсунка.
 
-Check the contact pattern in the injector bore. A blue band a minimum of 1.52 mm \[0.060 in\] wide and 360 degree full circumference **must** be visible.
+Проверьте контактную структуру в цилиндре форсунки. Синий диапазон шириной не менее 1,52 мм \[0,060 дюйма \] и полной окружностью 360 градусов ** должен быть виден.
 
-If the pattern does **not** meet specification, clean the bore of the injector with a tapered brush and check the seating pattern again.
+Если образец ** не соответствует спецификации, очистите цилиндрический отсек форсунки с помощью конической щетки и снова проверьте рисунок сидения.
 
-The cylinder head **must** be repaired or replaced if the injector seating pattern is **not** within specifications.
+Головка цилиндра ** должна быть отремонтирована или заменена, если образец сидения форсунки ** не** в соответствии со спецификациями.
 
 ![[02400145.png]]
 
-Use cup plug Loctite™ sealant, Part Number 3375068.
+Используйте герметик LoctiteTM, номер детали 3375068.
 
 ![[ck8epwa.png]]
 
-Use the correct expansion plug driver to make sure the expansion plugs are installed to the correct depth in the cylinder head. Drive the plug until the shoulder of the driver contacts the cylinder head.
+Используйте правильный драйвер расширения, чтобы убедиться, что вилки расширения установлены на правильную глубину в головке цилиндра. Включите вилку до тех пор, пока плечо водителя не свяжется с головкой цилиндра.
 
-- Part Number 3376813, expansion plug driver
-- Part Number 3376814, expansion plug driver.
+- Номер детали 3376813, драйвер расширения
+- Номер детали 3376814, драйвер расширения.
 
-A cup plug driver handle, Part Number 3376795, or equivalent, **must** be used with expansion plug driver, Part Number 3376813, or equivalent, and expansion plug driver, Part Number 3376814, or equivalent.
+Ручка драйвера вилки чаши, Часть Номер 3376795 или эквивалент, ** должна использоваться с драйвером вилки расширения, Часть Номер 3376813 или эквивалент, и драйвером вилки расширения, Часть Номер 3376814 или эквивалент.
 
-Install ten new cup plugs.
+Установите десять новых заглушки для чашек.
 
 ![[kn6epga.png]]
 
-Use a hydrostatic tester to check for evidence of leaks around cup plugs.
+Используйте гидростатический тестер, чтобы проверить наличие утечек вокруг заглушки.
 
-Reference the pressure test procedure.
+Ссылка на процедуру испытания на давление.
 
 ![[kn6towa.png]]
 
-When turning the rotator by hand, it can turn roughly, be difficult to turn, or **not** turn at all. This is normal until the rotator is installed. After installation, it will rotate freely.
+При повороте ротора вручную он может поворачиваться грубо, его трудно поворачивать или вообще не поворачивать. Это нормально до тех пор, пока не будет установлен ротатор. После установки он будет свободно вращаться.
 
-The rotator **must** be soaked in clean engine oil for at least 15 minutes prior to installation.
+Вращатель должен быть пропитан чистым моторным маслом не менее чем за 15 минут до установки.
 
-The rotator **must** be installed over the valve guide with the spring pilot flange face-up, as shown in this illustration.
+Ротор *** должен быть установлен над направляющим клапаном с поворотным факелом пружины, как показано на этой иллюстрации.
 
 ![[kn6spka.png]]
 
-> [!danger] WARNING · Опасно
-> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+> [!danger] ОПАСНО
+> Клапанные пружины находятся под сжатием. Используйте осторожность при использовании клапанного пружинного компрессора. Личная травма может возникнуть, если инструмент выскользнет из рук.
 
-Use a valve spring compressor, Part Number ST-448, Part Number 3375960, or equivalent. Valve spring stand, Part Number ST-1022, and compressor plate, Part Number 3375043, can be used to compress all four springs at the same time.
+Используйте клапанный пружинный компрессор, часть номер ST-448, часть номер 3375960 или эквивалент. Пружинная подставка клапана, номер детали ST-1022 и номер компрессора, номер детали 3375043, могут использоваться для сжатия всех четырех пружин одновременно.
 
-Install the parts.
+Установите детали.
 
-1. Valve
-2. Valve rotator
-3. Valve spring
-4. Valve spring retainer
-5. Valve collet
-6. Valve retainer.
+1. клапан
+2. Механизм поворота клапана
+3. Пружина клапана
+4. Тарелка пружины клапана
+5. Сухарь клапана
+6. Защитник клапанов.
 
-Thoroughly lubricate the valve guide inside diameter with 140-weight gear oil before installing the valves.
+Тщательно смазать направляющий клапан внутреннего диаметра 140-массовым маслом перед установкой клапанов.
 
 ![[kn6hdaa.png]]
 
-Use a valve vacuum tester, Part Number 3824277, or equivalent.
+Используйте вакуумный тестер клапана, номер 3824277 или эквивалент.
 
-If the valve to the valve seat contact pattern appears to be correct and the valve still does **not** pass the vacuum test, perform the following check.
+Если клапан на сиденье клапана контактный рисунок представляется правильным и клапан все еще не проходит вакуумного испытания, выполнить следующую проверку.
 
-Apply a thin coating of grease on the outside diameter of the insert and the valve head. Repeat the vacuum test. The grease pattern will show the point of leakage.
+Нанесите тонкое покрытие из смазки на внешний диаметр вставки и головку клапана. Повторите вакуумный тест. Смазочный рисунок покажет точку утечки.
 
-If the leakage is between the insert and the valve, repair the valve seat.
+Если утечка происходит между вставкой и клапаном, отремонтируйте сиденье клапана.
 
-If the leakage is between the insert and the head, the insert **must** be replaced.
+Если утечка происходит между вставкой и головкой, вставку *** следует заменить.
 
 ![[kn6vajb.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Use the valve guide installation tool (6), Part Number 4918258, or equivalent, and an arbor press to install the valve guide (7) to the specified height.
+Используйте инструмент (6), часть 4918258 или эквивалент, и пресс для арбора для установки направляющего (7) клапана на указанную высоту.
 
-| Valve Guide Height (Installed) |  |  |
+| клапан Guide Height (установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 27.737 | MIN | 1.092 |
-| 28.245 | MAX | 1.112 |
+| мм |  | в |
+| 27.737 | Мин | 1.092 |
+| 28.245 | Макс | 1.112 |
 
 ![[02400149.png]]
 
-Identify the correct valve seat insert.
+Определите правильную вставку сиденья клапана.
 
-- The top illustration is the intake port valve seat insert with a wide valve seating area.
-- The bottom illustration is the exhaust port valve seat insert.
+- Верхняя иллюстрация - вставка сиденья впускного клапана с широкой зоной сидения клапана.
+- Нижняя иллюстрация - вставка сиденья клапана выхлопного газа.
 
-Both the intake and exhaust port valve seat inserts **must** be installed with the 30-degree angle positioned as illustrated with the 45-degree angle to the cylinder head port.
+Вставки сиденья впускного и выпускного клапанов *** должны быть установлены с углом 30-градусного положения, как показано на рисунке с углом 45 градусов к головке цилиндра.
 
-Exhaust valve seat inserts are color coded blue to identify the 30-degree angle side of the seat insert.
+Вставки сиденья выхлопного клапана имеют синий цвет, чтобы идентифицировать 30-градусную сторону угла сиденья.
 
 ![[02400153.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer or mallet to install the valve seat inserts. The inserts can be cracked leading to the seat failure.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток или молоток для установки вставок сиденья клапана. Вставки могут быть взломаны, что приводит к отказу сиденья.
 
-Install the valve seat insert (4) with a mandrel (9) and an arbor press.
+Установите вставку (4) клапанного сиденья с подрулевой (9) и прессом беседки.
 
 ![[02400155.png]]
 
-Check the injector bore for cracks or other damage.
+Проверьте цилиндр форсунки на наличие трещин или других повреждений.
 
-If cracks or other damage is found, the cylinder head **must** be repaired or replaced.
+Если обнаружены трещины или другие повреждения, головка цилиндра должна быть отремонтирована или заменена.
 
 ![[02400142.png]]
 
-> [!warning] CAUTION · Осторожно
-> Support the cylinder head to prevent damage to the injector tip that protrudes from the combustion face.
+> [!warning] ОСТОРОЖНО
+> Поддерживайте головку цилиндра, чтобы предотвратить повреждение кончика форсунки, который выступает из поверхности сгорания.
 
-Install a sealing ring on a dummy injector.
+Установите уплотнительное кольцо на фиктивный форсунка.
 
-Do **not** install the injector o-rings.
+**Не** Установите топливные форсунки.
 
-Apply a thin coating of Prussian blue into the sealing ring.
+Нанесите тонкое покрытие прусского синего цвета на уплотнительное кольцо.
 
-Install the injector into the cylinder head. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+Установите форсунка в головку цилиндра.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
 
-> [!note] Note · Примечание
-> There is **not** an injector protrusion check or a protrusion specification for electronically actuated injectors, as protrusion on electronically actuated injectors can **not** be adjusted.
+> [!note] Примечание
+> Существует **не** проверка протрузии форсунки или спецификация протрузии для форсунки с электронным приводом, поскольку протрузия на топливном форсунке с электронным приводом может ** не** регулироваться.
 
 ![[06600273.png]]
 
-Turn the cylinder head over to the original position.
+Поверните головку цилиндра в исходное положение.
 
-Remove the injector hold-down clamp and the injector.
+Удалите зажим удерживания форсунки и форсунка.
 
-Check the contact pattern in the injector bore. A blue band, a minimum of 1.52 mm \[0.060 in\] wide and 360 degrees full circumference **must** be visible. If the pattern does **not** meet specifications, clean the bore of the injector with a tapered brush and check the sealing pattern.
+Проверьте контактную структуру в цилиндре форсунки. Синий диапазон, минимум 1,52 мм \[0.060 в\] в ширину и 360 градусов по полной окружности ** должен быть виден. Если образец ** не соответствует спецификациям, очистите цилиндрический отсек форсунки с помощью конической щетки и проверьте уплотнительный рисунок.
 
-The cylinder head **must** be repaired or replaced if the injector pattern is **not** within specifications.
+Головка цилиндра ** должна быть отремонтирована или заменена, если образец форсунки ** не** в пределах спецификаций.
 
 ![[06400287.png]]
 
-Apply Loctite™ 609 sealant, Part Number 3823718, or equivalent, to the cup plugs.
+Нанесите герметик LoctiteTM 609, номер детали 3823718 или эквивалент на заглушку чашки.
 
 ![[ck8epwa.png]]
 
-Cup plug driver handle, Part Number 3164085 or equivalent, is used with expansion plug drivers, Part Number 33376813, or equivalent, and Part Number 3376814, or equivalent.
+Ручка драйвера вилки чаши, Часть Номер 3164085 или эквивалент, используется с драйверами вилки расширения, Часть Номер 33376813 или эквивалент, и Часть Номер 3376814 или эквивалент.
 
-Use the appropriate expansion plug driver and handle combination to drive the cup plug in until the shoulder of the driver contacts the cylinder head.
+Используйте соответствующий драйвер расширения и комбинацию ручки, чтобы вводить вилку чашки до тех пор, пока плечо водителя не свяжется с головкой цилиндра.
 
 ![[kn6epga.png]]
 
-Install the valve into the valve guide.
+Установите клапан в направляющий клапан.
 
-Measure the depth of the valve with a depth gauge, Part Number 3164438, or equivalent.
+Измерить глубину клапана с помощью калибра глубины, Номер детали 3164438, или эквивалента.
 
-The valve head **must** be even with, or **not** more than 0.51 mm \[0.020 in\] below, the surface of the cylinder head.
+Головка клапана ** должна быть ровная с поверхностью головки цилиндра или **не** более чем на 0,51 мм \[0,020 дюйма\] ниже.
 
-If the valve depth is **not** within specifications, the valve or the valve seat **must** be replaced.
+Если глубина клапана ** не** в пределах спецификаций, клапан или сиденье клапана *** должны быть заменены.
 
 ![[02400146.png]]
 
-Apply a thin, even coating of fine lapping compound, Part Number 3375805, or equivalent, onto the valve face.
+Нанесите тонкое, даже покрытое мелкой прокладкой соединение, часть 3375805, или эквивалент, на поверхность клапана.
 
-Provide pressure in the center of the valve with a power or hand suction lapping tool.
+Обеспечить давление в центре клапана с помощью электропривода или ручного инструмента для отсасывания.
 
-Turn the valve backward and forward.
+Поверните клапан назад и вперед.
 
-Continue lapping until the compound shows a continuous contact pattern on both the valve seat insert and the valve.
+Продолжайте стучать, пока соединение не покажет непрерывный контактный рисунок как на вставке сиденья клапана, так и на клапане.
 
 ![[02400159.png]]
 
-> [!warning] CAUTION · Осторожно
-> Lapping compound is an abrasive material. Failure will result if the cylinder head, the valves, and the valve seats are not cleaned thoroughly.
+> [!warning] ОСТОРОЖНО
+> Отщепляющееся соединение представляет собой абразивный материал. Отказ произойдет, если головка цилиндра, клапаны и сиденья клапана не будут тщательно очищены.
 
-Remove the valve.
+Удалите клапан.
 
-Clean the lapping compound from the valve, valve seat insert, and cylinder head.
+Очистите запруженное соединение от клапана, вставки сиденья клапана и головки цилиндра.
 
 ![[02400160.png]]
 
-When turning the rotator by hand, it can turn roughly, be difficult to turn, or **not** turn at all. This is normal until the rotator is installed; after installation, it will rotate freely.
+При повороте ротора вручную он может поворачиваться грубо, его трудно поворачивать или вообще не поворачивать. Это нормально до тех пор, пока не будет установлен ротатор; после установки он будет вращаться свободно.
 
-The rotator **must** be soaked in clean engine oil for at least 15 minutes prior to installation.
+Вращатель должен быть пропитан чистым моторным маслом не менее чем за 15 минут до установки.
 
-The rotator **must** be installed over the valve guide with the spring pilot flange face up, as shown in the illustration.
+Ротор *** должен быть установлен над направляющим клапаном с подпружиненным лоцманским фланцем вверх, как показано на иллюстрации.
 
 ![[kn6spka.png]]
 
-> [!danger] WARNING · Опасно
-> The valve springs are under compression. Use care when using the valve spring compression tool. Personal injury can result if the tool slips out of the hands.
+> [!danger] ОПАСНО
+> Клапанные пружины находятся под сжатием. Используйте осторожность при использовании инструмента сжатия пружины клапана. Личная травма может возникнуть, если инструмент выскользнет из рук.
 
-Use one of the below listed valve spring compressors to install the valve springs:
+Используйте один из нижеперечисленных клапанных пружинных компрессоров для установки клапанных пружин:
 
-- Valve spring compressor, Part Number 3163606, or equivalent
-- Valve spring compressor stand, Part Number ST-1022, or equivalent
-- Valve spring compressor plate, Part Number 3163177, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, to remove four springs at a time
-- Air operated valve spring compressor, Part Number 3375960.
+- Валентный пружинный компрессор, номер детали 3163606 или эквивалент
+- Пружинный компрессорный стенд, номер детали ST-1022 или эквивалент
+- Клапанная пружинная компрессорная пластина, Номер детали 3163177, может использоваться с клапанным пружинным компрессором, Номер детали 3163606 или эквивалентом, и стендом клапанного пружинного компрессора, Номер детали ST-1022, для удаления четырех пружин одновременно.
+- Компрессор пружинного клапана с воздушным приводом, номер детали 3375960.
 
-Thoroughly lubricate the valve guide inside diameter with 140-weight gear oil.
+Тщательно смазать направляющий клапан внутреннего диаметра 140-массовым маслом передач.
 
-Install the parts:
+Установите детали:
 
-1. Valve
-2. Valve rotator
-3. Valve spring
-4. Valve spring retainer
-5. Valve collet
-6. Valve retainer.
+1. клапан
+2. Механизм поворота клапана
+3. Пружина клапана
+4. Тарелка пружины клапана
+5. Сухарь клапана
+6. Защитник клапанов.
 
-> [!note] Note · Примечание
-> Service tool, Part Number 4918258, or equivalent, is used to install both the valve guide to the proper height and install the valve stem seals as well.
+> [!note] Примечание
+> Оборудование для обслуживания, номер детали 4918258 или эквивалент, используется для установки направляющего клапана на правильную высоту и установки стволов клапана.
 
-Install the valve stem using valve guide installation tool, Part Number 4918258, or equivalent.
+Установите ствол клапана с помощью инструмента установки направляющего клапана, Номер детали 4918258 или эквивалент.
 
 ![[kn6hdaa.png]]
 
-### Vacuum Test
+### Вакуумный тест
 
-The valve vacuum tester, Part Number 3824277 (115-VAC, 50/60 hz) or 3824278 (220-VAC, 50/60 hz), can be used to test all Cummins® engine models.
+Вакуумный тестер клапанов, номер детали 3824277 (115-VAC, 50/60 hz) или 3824278 (220-VAC, 50/60 hz), может использоваться для тестирования всех моделей двигателей Cummins®.
 
-Before using the tester, test the leakage shutoff valve. If the valve is dirty or worn, it will produce a false leakage measurement on the gauge.
+Перед использованием тестера проверьте клапан отключения утечки. Если клапан грязный или изношенный, он будет производить ложное измерение утечки на измерительном приборе.
 
-Check the valve:
+Проверьте клапан:
 
-- Open the shutoff valve
-- Turn on the vacuum pump
-- Place the cup against a smooth surface
-- Close the shutoff valve
-- Turn off the vacuum pump
-- Wait approximately 10 seconds
-- The gauge **must not** drop more than 7 kPa \[2 in Hg\].
+- Откройте запорный клапан
+- Включите вакуумный насос
+- Поместите чашку на гладкую поверхность
+- Закройте запорный клапан
+- Выключите вакуумный насос
+- Подождите около 10 секунд
+- Калибр ** не должен ** падать более чем на 7 кПа \[2 в Hg\].
 
-The valve and the valve seats **must** be clean and dry.
+Клапан и сиденья клапана ** должны быть чистыми и сухими.
 
-Choose the correct cup and the correct seal from the service tool kit for the engine model that is to be tested.
+Выберите правильную чашку и правильное уплотнение из набора инструментов для модели двигателя, которая должна быть протестирована.
 
-1. K19, K38, K5, QSK45,and QSK60
-2. L10
-3. 401cl and 464 cl
-4. NH, V903, and V28
+1. K19, K38, K5, QSK45 и QSK60
+2. L1010
+3. 401cl и 464cl
+4. NH, V903 и V28
 
 ![[02g00001.png]]
 
-Install the seal and the cup to the vacuum line (hose).
+Установите уплотнение и чашку на вакуумную линию (хозяйку).
 
 ![[02400026.png]]
 
-Cover the valve with the cup and the seal. The seal **must** have a tight contact on the cylinder head around the valve.
+Накройте клапан чашкой и уплотнением. Уплотнение ** должно ** иметь плотный контакт на головке цилиндра вокруг клапана.
 
-To check the exhaust valves, the seal **must** completely fill the milled area between the exhaust valves.
+Для проверки выпускных клапанов уплотнение ** должно** полностью заполнять фрезерованную область между выпускными клапанами.
 
 ![[02400027.png]]
 
-Move the toggle switch (3) to the ON position.
+Переместить переключатель переключения (3) в положение Включения.
 
-Turn the vacuum control valve (4) to the OPEN position.
+Включите клапан (4) вакуумного управления в положение OPEN.
 
 ![[02400028.png]]
 
-When the gauge indicates between 34 to 85 kPa \[10 to 25 in-Hg\], turn the vacuum control valve (4) to the CLOSED or OFF position.
+Когда калибр указывает от 34 до 85 кПа \[10 до 25 in-Hg\], поверните клапан (4) вакуумного управления в положение CLOSED или OFF.
 
-Turn the toggle switch (3) to the OFF position.
+Переключатель переключения (3) переключателя переключателя переключателя в положение выключения.
 
 ![[02400029.png]]
 
-> [!warning] CAUTION · Осторожно
-> The cylinder head must be disassembled and cleaned after any grinding or cutting procedures to reduce the possibility of engine damage.
+> [!warning] ОСТОРОЖНО
+> Головка цилиндра должна быть разобрана и очищена после любых процедур шлифования или резки, чтобы уменьшить вероятность повреждения двигателя.
 
-Use a stopwatch. As the vacuum gauge needle moves **counterclockwise**, start timing when the needle on the gauge points to 61 kPa \[18 in Hg\].
+Используйте секундомер. По мере того, как вакуумная измерительная игла движется ** против часовой стрелки **, начните синхронизацию, когда игла на измерительной датчике указывает на 61 кПа \[18 в Hg\].
 
-Stop timing when the needle on the gauge points to 27 kPa \[8 in Hg\].
+Время остановки, когда игла на измерительной датчике указывает на 27 кПа[8 в Hg].
 
-The elapsed time for the gauge to move between the specified readings **must** be 10 seconds or more.
+Время, прошедшее для перемещения калибра между указанными показаниями **, должно составлять 10 секунд и более.
 
-If the elapsed time is less than 10 seconds, perform the following checks:
+Если время меньше 10 секунд, выполните следующие проверки:
 
-- Repeat the test to be certain the equipment is functioning properly.
-- Use a mallet to lightly hit the valve stem to be certain the valve is sealed. Repeat the test.
-- Apply a thin coating of grease on the outside diameter of the insert and the valve head. Repeat the vacuum test. The grease pattern will show the point of leakage.
-- If the leakage is between the valve insert and the head, the insert **must** be replaced.
+- Повторите тест, чтобы убедиться, что оборудование работает должным образом.
+- Используйте молоток, чтобы слегка ударить ствол клапана, чтобы убедиться, что клапан запечатан. Повторите тест.
+- Нанесите тонкое покрытие из смазки на внешний диаметр вставки и головку клапана. Повторите вакуумный тест. Смазочный рисунок покажет точку утечки.
+- Если утечка происходит между вставкой клапана и головкой, вставку *** следует заменить.
 
-If the leakage is between the valve and the valve insert seat, one of the following procedures **must** be performed:
+Если утечка происходит между клапаном и сиденьем вставки клапана, должна быть выполнена одна из следующих процедур:
 
-- Lap valve to insert seat
-- Grind the valves
-- Grind the valve insert seat.
+- Запорный клапан для вставки сиденья
+- Заглушите клапаны
+- Смажьте сиденье вставки клапана.
 
 ![[02400030.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the top of the cylinder block and the cylinder liners.
+Очистите верхнюю часть блока цилиндров и цилиндрические вкладыши.
 
-Clean the threaded holes which attach the cylinder head to the block with electrical contact cleaner, Part Number 3814510, or equivalent.
+Очистите резьбовые отверстия, которые прикрепляют головку цилиндра к блоку с помощью электрического контактного очистителя, номер детали 3814510 или эквивалент.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[cy8cywa.png]]
 
-Measure the liner protrusion. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
+Измерьте выступ лайнера.[[20-001-028-tr — Cylinder Liner|См. процедуру 001-028 в разделе 1.]]
 
 ![[ck1cytj.png]]
 
-The word TOP, stamped on top of the head gasket, **must** be visible after the gasket is installed.
+Слово ТОП, проштампованное поверх прокладки головы, должно быть видно после установки прокладки.
 
-Install the cylinder head gasket.
+Установите прокладку головки цилиндра.
 
 ![[02400002.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the cylinder head. It **must** slide easily over the dowel pins.
+Установите головку цилиндра. Он должен легко скользить по штифтам.
 
-Apply clean engine oil to the threads of the cylinder head capscrews.
+Нанесите чистое моторное масло на резьбу головных болтов цилиндров.
 
-Apply Loctite™ 51606, or equivalent, non-metal, graphite base, anti-seize compound to the top side of the washer.
+Применяют LoctiteTM 51606, или эквивалентное, неметаллическое, графитовое основание, антисептиковое соединение к верхней стороне стиральной машины.
 
-Install the capscrews.
+Установите болты.
 
 ![[02400165.png]]
 
-The markings on the head of the flange head capscrews serve as an aid during installation.
+Маркировка на головке фланцевых головных болтов служит подспорьем при монтаже.
 
-Torque Value:
+Момент затяжки:
 
-Flange Head Capscrews
+Фланцевые болты
 
-After tightening the capscrew, mark the cylinder head adjacent to one of the two single marks on the capscrew head.
+После затягивания болтов пометьте головку цилиндра, прилегающую к одной из двух одиночных отметин на головке болтов.
 
 ![[kn8csgc.png]]
 
-Tighten the capscrews using the following steps in the sequence shown.
+Затягивайте болты, используя следующие шаги в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
 ![[kn400hb.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
-- Install the rocker lever housings, push rods, and crossheads. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Install the high-pressure fuel lines to the injectors. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Install the push rods or tubes. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Adjust the valves. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Install the gear cover clamping plate. [[20-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
-- Install the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Install the fuel tubes. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
-- Install the fuel manifolds. [[20-006-022-tr — Fuel Manifold (Supply)|Refer to Procedure 006-022 in Section 6.]]
-- Install the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
-- Install the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Install the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Connect the batteries. Refer to the OEM service manual.
-- Connect the air starter supply line. Refer to the OEM service manual.
-- Fill the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.
+- Установите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
+- Установите корпуса рычагов клапанного клапана, толкатели и клапанные мосты.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Установите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Установите топливные линии высокого давления на форсунка.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Установите толкатели или трубки.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Отрегулируйте клапаны.[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Установите зажимную пластину шестерни.[[20-001-031-tr — Gear Cover, Front|См. процедуру 001-031 в разделе 1.]]
+- Установите поддержку корпуса термостата охлаждающей жидкости.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Установите топливные трубки.[[20-006-024-tr — Fuel Supply Lines|См. процедуру 006-024 в разделе 6.]]
+- Установите топливные коллекторы.[[20-006-022-tr — Fuel Manifold (Supply)|См. процедуру 006-022 в разделе 6.]]
+- Установите послеохладитель.[[20-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+- Установите выхлопной коллектор.[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Установите турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
+- Подключите линию подачи воздуха. См. сервисное руководство изготовителя машины.
+- Заправьте систему охлаждения.[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем до 70 ° C \[158 ° F \] минимальной температуры охлаждающей жидкости и проверяйте наличие утечек.
 
 ![[ck800wa.png]]
 
-Marine Applications
+Судовое применение
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+
+> [!warning] ОСТОРОЖНО
+> Не используйте прокладочный цемент. Это позволит предотвратить уплотнение прокладки должным образом. Краевидные прокладки не требуют герметика.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при заполнении системы охлаждения, чтобы охлаждающая жидкость не пролилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если хладагент разливается, он должен быть утилизирован в соответствии с местными экологическими нормами.
+
+- Установите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
+- Установите корпус рычага качения клапанного клапана.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Установите толкатели и клапанные мосты.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Установите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Регулируйте клапаны и форсунка.[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Установите сборку послеохладителя.[[20-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+- Установите выхлопной коллектор (сухой).[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Установите выхлопной коллектор (мокрый).[[20-011-008-tr — Exhaust Manifold, Wet|См. процедуру 011-008 в разделе 11.]]
+- Установите турбокомпрессор.[[20-010-037-tr — Turbocharger, Water-Cooled|См. процедуру 010-037 в разделе 10.]]
+- Установите тепловые экраны выхлопного коллектора.[[20-011-015-tr — Exhaust Manifold Heat Shield|См. процедуру 011-015 в разделе 11.]]
+- Установите тепловые экраны турбокомпрессора.[[20-010-076-tr — Turbocharger Heat Shield|См. процедуру 010-076 в разделе 10.]]
+- Установите защитные теплозащитные экраны после охлаждения[[20-010-129 — Aftercooler Heat Shield|См. процедуру 010-129 в разделе 10.]]
+- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
+- Заполните систему охлаждения (системы).[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем до 70 ° C \[158 ° F \] минимальной температуры охлаждающей жидкости и проверяйте наличие утечек.
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите форсунка.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
+- Установите корпуса рычага качения клапанного клапана.[[20-003-013-tr — Rocker Lever Housing|См. процедуру 003-013 в разделе 3.]]
+- Установите зажимную пластину шестерни.[[20-001-031-tr — Gear Cover, Front|См. процедуру 001-031 в разделе 1.]]
+- Установите корпус термостата.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Установите толкатели или трубки.[[20-004-014-tr — Push Rods or Tubes|См. процедуру 004-014 в разделе 4.]]
+- Установите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Регулируйте клапаны и форсунка.[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Установите корпус термостата охлаждающей жидкости.[[20-008-015-tr — Coolant Thermostat Housing Support|См. процедуру 008-015 в разделе 8.]]
+- Установите впускной коллектор.[[20-010-023-tr — Air Intake Manifold|См. процедуру 010-023 в разделе 10.]]
+- Установите линии слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
+- Установите топливные линии высокого давления.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Установите впускной коллектор.[[20-010-023-tr — Air Intake Manifold|См. процедуру 010-023 в разделе 10.]]
+- Установите выхлопной коллектор.[[20-011-007-tr — Exhaust Manifold, Dry|См. процедуру 011-007 в разделе 11.]]
+- Установите турбокомпрессор.[[20-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Подключите батареи или линию подачи воздуха. См. сервисное руководство изготовителя машины.
+- Заправьте систему охлаждения.[[20-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем до 70 ° C \[158 ° F \] минимальной температуры охлаждающей жидкости и проверяйте наличие утечек.
+
+![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> ReCon® has implemented a new stamping code for all K and QSK cylinder heads.
+>
+> The stamp is a diamond shape located between the short port exhaust valve and long port intake valve on the rocker lever side of the cylinder head. The marking (or lack of a marking) inside the diamond shape indicates the size of the injector seal.
+>
+> - An empty diamond shape indicates that the ReCon® cylinder head is equipped with a standard size injector seal.
+> - One mark inside the diamond shape indicates the cylinder head is equipped with a size 0.010 injector seal.
+> - Two marks inside the diamond shape indicate that the cylinder head is equipped with a size 0.020 injector seal.
+> - Three marks inside the diamond shape indicate that the cylinder head is equipped with a size 0.030 injector seal.
+>
+> K and QSK cylinder heads use a different injector seal. Reference the tables below.
+>
+> | K Cylinder Head Seal Part Numbers |  |
+> |---|---|
+> | Injector Seal Part Number | Injector Seal Size |
+> | 207244 | Standard |
+> | 3001658 | 0.010 oversize |
+> | 3001659 | 0.020 oversize |
+> | 3001660 | 0.030 oversize |
+>
+> | QSK (with Mechanically Actuated Injectors) Cylinder Head Seal Part Numbers |  |
+> |---|---|
+> | Injector Seal Part Number | Injector Seal Size |
+> | 3867687 | Standard |
+> | 3347933 | 0.010 oversize |
+> | 3347934 | 0.020 oversize |
+> | 3347935 | 0.030 oversize |
+>
+> Injector Seal Markings Location
+>
+> Injector Seal Markings
+>
+> 1. Standard
+> 2. 0.010 oversize
+> 3. 0.020 oversize
+> 4. 0.030 oversize.
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
 > Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
-
-> [!warning] CAUTION · Осторожно
-> Do not use gasket cement. It will prevent the gasket from sealing properly. Edge-molded gaskets do not require sealant.
-
-> [!warning] CAUTION · Осторожно
-> Use caution when filling the cooling system so that the coolant is not spilled into the bilge area. Do not pump coolant overboard. If the coolant is spilled, it must be disposed of in accordance with local environmental regulations
-
-- Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
-- Install the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Install the push rods and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Install the aftercooler assembly. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
-- Install the exhaust manifold (dry). [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Install the exhaust manifold (wet). [[20-011-008-tr — Exhaust Manifold, Wet|Refer to Procedure 011-008 in Section 11.]]
-- Install the turbocharger. [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
-- Install the exhaust manifold heat shields. [[20-011-015-tr — Exhaust Manifold Heat Shield|Refer to Procedure 011-015 in Section 11.]]
-- Install the turbocharger heat shields. [[20-010-076-tr — Turbocharger Heat Shield|Refer to Procedure 010-076 in Section 10.]]
-- Install the aftercooler heat shields [[20-010-129 — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]]
-- Connect the batteries. Refer to the OEM service manual.
-- Fill the cooling system(s). [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.
-
-![[ck800wa.png]]
-
-with Electronically Actuated Injector
-
-> [!danger] WARNING · Опасно
+>
+> - Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
+> - Disconnect the air supply to the air starter.
+> - Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Remove the fuel tubes. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
+> - Remove the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 1.]]
+> - Remove the fuel manifolds. [[20-006-022-tr — Fuel Manifold (Supply)|Refer to Procedure 006-022 in Section 6.]]
+> - Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Remove the valve push rods, injector push rod, and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Remove the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Remove the gear cover clamping plate. [[20-001-029-tr — Gear Cover Spacer Plate|Refer to Procedure 001-029 in Section 1.]]
+> - Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
-- Install the rocker lever housings. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
-- Install the gear cover clamping plate. [[20-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
-- Install the thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Install the push rods or tubes. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
-- Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Install the coolant thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
-- Install the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
-- Install the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
-- Install the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Install the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
-- Install the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
-- Install the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Connect the batteries or air starter supply line. Refer to the OEM service manual.
-- Fill the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.
-
-![[ck800wa.png]]
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+>
+> - Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
+> - Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the crankcase breathers. [[20-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001 in Section 3.]]
+> - Remove the exhaust manifold heat shields. [[20-011-015-tr — Exhaust Manifold Heat Shield|Refer to Procedure 011-015 in Section 11.]]
+> - Remove the turbocharger heat shields. [[20-010-076-tr — Turbocharger Heat Shield|Refer to Procedure 010-076 in Section 10.]]
+> - Remove the aftercooler heat shields. [[20-010-129 — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]]
+> - Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Use the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Series Engines, Bulletin 4021493, for information to disconnect the wiring harness in the areas that restrict access to the cylinder head. Refer to Procedure 019-043 in Section 19.
+> - Remove the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> - Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Remove the push rods and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Disconnect the batteries to prevent accidental engine starting. Refer to the OEM service manual.
+> - Disconnect the air supply to the air starter.
+> - Drain the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the exhaust manifold (dry), if installed. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Remove the exhaust manifold, (wet), if installed. [[20-011-008-tr — Exhaust Manifold, Wet|Refer to Procedure 011-008 in Section 11.]]
+> - Remove the high-pressure fuel lines to injectors. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Remove the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+> - Remove the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
+> - Remove the coolant thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Remove the valve push rods, injector push rod, and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Remove the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Remove the gear cover clamping plate. [[20-001-029-tr — Gear Cover Spacer Plate|Refer to Procedure 001-029 in Section 1.]]
+> - Remove the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Remove the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> Remove the six cylinder head capscrews.
+>
+> Remove the cylinder head and gasket.
+>
+> Record the cylinder head gasket part number to determine if the gasket is a standard or oversize thickness.
+>
+> Discard the gasket.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the cylinder heads with solvent, Part Number 3924421, or equivalent.
+>
+> Check for broken springs and other damage.
+>
+> ### Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Check for cracks on the combustion surface.
+>
+> If a crack around the injector bore exceeds the maximum length, the cylinder head **must** be replaced.
+>
+> | Allowable Crack Length |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 6 | MAX | 0.25 |
+>
+> Both ends of a crack between the valves **must** be visible. If one end of a crack extends into the valve seat bore (behind the valve seat), the condition of the cylinder is questionable. Remove the valve and valve seat to make sure the cylinder head is reusable.
+>
+> Measure the valve head depth in the cylinder head with depth gauge, Part Number 3164438, or equivalent.
+>
+> | Allowable Valve Depth from the Combustion Face |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.00 | MIN | 0.000 |
+> | 0.51 | MAX | 0.020 |
+>
+> If the valve head depth is **not** within specifications, the cylinder head **must** be reconditioned.
+>
+> Check the flatness of the cylinder head with a straightedge and feeler gauge.
+>
+> The cylinder head **must** be resurfaced or replaced if a feeler gauge larger than 0.08 mm \[0.003 in\] will fit between the straightedge and the cylinder head.
+>
+> The cylinder head can be resurfaced **only** on mechanically actuated injectors, if the head thickness measurement is within specifications.
+>
+> | QSK19 Mechanically Actuated Injector Cylinder Head Thickness |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Used Cylinder Head Service Limit | 150.11 | MIN | 5.910 |
+> | New Cylinder Head | 150.88 | MIN | 5.940 |
+> |  | 151.12 | MAX | 5.950 |
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Check for cracks on the combustion surface.
+>
+> If a crack around the injector bore exceeds the maximum length, the cylinder head **must** be replaced.
+>
+> | Allowable Crack Length |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 6 | MAX | 0.25 |
+>
+> Both ends of a crack between the valves **must** be visible. If one end of a crack extends into the valve seat bore (behind the valve seat), the condition of the cylinder is questionable. Remove the valve and valve seat to make sure the cylinder head is reusable.
+>
+> Measure the valve head depth in the cylinder head with depth gauge, Part Number 3164438, or equivalent.
+>
+> | Allowable Valve Depth from the Combustion Face |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.00 | MIN | 0.000 |
+> | 0.51 | MAX | 0.020 |
+>
+> If the valve head depth is **not** within specifications, the cylinder head **must** be reconditioned.
+>
+> Check the flatness of the cylinder head with a straightedge and feeler gauge.
+>
+> The cylinder head **must** be replaced if a feeler gauge larger than 0.08 mm \[0.003 in\] will fit between the straightedge and the cylinder head.
+>
+> The cylinder head can be resurfaced **only** on mechanically actuated injectors, if the head thickness measurement is within specifications.
+>
+> | QSK19 Electronically Actuated Injector Cylinder Head Thickness |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | New Cylinder Head | 120.52 | MIN | 4.745 |
+> |  | 120.78 | MAX | 4.755 |
+>
+> **Note · Примечание**
+> Cylinder heads with electronically actuated injectors can **not** be resurfaced, as the injector protrusion can **not** be adjusted.
+>
+> ### Disassemble
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+>
+> Use one of the valve spring compressors listed below to remove the valve springs.
+>
+> - Valve spring compressor, Part Number 3163606, or equivalent
+> - Valve spring compressor stand, Part Number ST-1022, or equivalent
+> - Valve spring compressor plate, Part Number 3163177, or equivalent, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, or equivalent, to remove four springs at a time
+> - Air operated valve spring compressor, Part Number 3375960.
+>
+> The intake and exhaust valves are different.
+>
+> Mark the valves for location prior to removal to aid in assembly.
+>
+> Remove the listed parts:
+>
+> 1. Valve collet
+> 2. Valve spring retainer
+> 3. Valve spring
+> 4. Valve spring rotator/or guide
+> 5. Valve
+>
+> If the valve guide is replaced, the valve seat insert for the valve guide **must** be measured for runout. It is likely the seat **must** also be machined or replaced.
+>
+> **Note · Примечание**
+> **Only** replace the valve seat if it is **not** within specifications.
+>
+> If necessary, a groove can be machined in the valve seat insert (2) to allow the valve seat extractor (1) to be used.
+>
+> Machine a groove into the valve seat insert, as close to the bottom of the bore as possible, with valve seat grooving kit, Part Number 3376405, or equivalent.
+>
+> Remove the valve seat with the appropriate valve seat extractor listed below and slide hammer, Part Number 3376799:
+>
+> - Exhaust seat extractor, Part Number ST-1323-1
+> - Intake seat extractor, Part Number 3376799.
+>
+> **Note · Примечание**
+> On mechanically actuated injector engines, the intake ports contain anti-swirl plates.
+>
+> Remove and discard the anti-swirl plate, if used.
+>
+> **Note · Примечание**
+> This step is **only** for the mechanically actuated injector engine.
+>
+> **Note · Примечание**
+> **Only** remove the crosshead guide if it is bent or is **not** within specifications.
+>
+> Crosshead guides that are straight and are installed to correct height do **not** have to be removed to install stemless crossheads.
+>
+> **Note · Примечание**
+> Do **not** remove the cup plugs if a pressure test is to be performed.
+>
+> Use a drill, sheet metal screw, and a slide hammer from the light duty puller kit, Part Number 3375784, or equivalent, to remove the cup plugs.
+>
+> Cup plugs **must** be removed from the head casting for cleaning purposes.
+>
+> Remove and discard the ten cup plugs.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+>
+> Use one of the valve spring compressors listed below to remove the valve springs.
+>
+> - Valve spring compressor, Part Number 3163606, or equivalent
+> - Valve spring compressor stand, Part Number ST-1022, or equivalent
+> - Valve spring compressor plate, Part Number 3163177, or equivalent, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, or equivalent, to remove four springs at time
+> - Air operated valve spring compressor, Part Number 3375960.
+>
+> The intake and exhaust valves are different.
+>
+> Mark the valves for location prior to removal to aid in assembly.
+>
+> Remove the listed parts:
+>
+> 1. Valve collet
+> 2. Valve spring retainer
+> 3. Valve spring
+> 4. Valve spring rotator/or guide
+> 5. Valve
+> 6. Valve stem seal (**not** shown) (used **only** on the electronically actuated injector engine).
+>
+> If the valve guide is replaced, the valve seat insert for the valve guide **must** be measured for runout. It is likely the seat **must** also be machined or replaced.
+>
+> **Note · Примечание**
+> **Only** replace the valve seat if it is **not** within specifications.
+>
+> If necessary, a groove can be machined in the valve seat insert (2) to allow the valve seat extractor (1) to be used.
+>
+> Machine a groove into the valve seat insert, as close to the bottom of the bore as possible, with valve seat grooving kit, Part Number 3376405, or equivalent.
+>
+> Remove the valve seat with the appropriate valve seat extractor listed below and slide hammer, Part Number 3376799:
+>
+> - Exhaust seat extractor, Part Number ST-1323-1
+> - Intake seat extractor, Part Number 3376799.
+>
+> **Note · Примечание**
+> This step is **only** for the electronically actuated injector engine.
+>
+> Remove the dowel pins **only** if they are damaged or **not** installed to the correct height.
+>
+> **Note · Примечание**
+> Do **not** remove the cup plugs if a pressure test is to be performed.
+>
+> Use a drill, sheet metal screw, and a slide hammer from the light duty puller kit, Part Number 3375784, or equivalent, to remove the cup plugs.
+>
+> Cup plugs **must** be removed from the head casting for cleaning purposes.
+>
+> Remove and discard the ten cup plugs.
+>
+> ### Pressure Test
+>
+> Preferred Method
+>
+> Use the cylinder head leak test kit, Part Number 3164341, or equivalent, with the pressure regulator valve kit, Part Number 3164231, or equivalent, to pressure test the cylinder head.
+>
+> Assemble the wing nut (8) to the clamp and plug (13).
+>
+> Install the clamp and plug assembly into the cylinder head to block the coolant passages.
+>
+> Insert the appropriate capscrew through the valve guide side of the cylinder head and thread the capscrew into the clamp.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Install the o-ring (4) into the o-ring groove of the test adapter (5).
+>
+> Thread the adapter elbow (6) into the adapter (5).
+>
+> Place the test adapter assembly into the cylinder head.
+>
+> Install the clamp (7) over the test adapter assembly and secure it with the appropriate capscrew and washer.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Connect the pressure regulator valve kit to the pipe nipple.
+>
+> Connect the pressure regulator valve kit to shop air and adjust the air pressure.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Pressure Regulator Valve | 345 | 50 |
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Attach an eye bolt to the cylinder head.
+>
+> Use a suitable lifting device to lift the cylinder head.
+>
+> Immerse the cylinder head into a tank of water.
+>
+> Check for bubbles. Bubbles indicate an air leak.
+>
+> If the cylinder head leaks, it **must** be repaired or replaced.
+>
+> Optional Method
+>
+> One method to pressure test the cylinder head is to use the hydrostatic tester, Part Number ST-1012, or equivalent, with the water test adapter plate, Part Number 3375070.
+>
+> The following steps outline this method.
+>
+> Remove one of the two plugs from the pressure regulator.
+>
+> Install the pressure gauge in the regulator.
+>
+> Turn the adjusting knob on the regulator **counterclockwise**, as far as it will turn.
+>
+> Install the pressure regulator between the air supply and the quick disconnect fitting.
+>
+> The arrow on the top of the pressure regulator **must** point in the direction of the air flow (toward the quick disconnect fitting).
+>
+> With the head positioned as shown in the illustration, assemble the adapter plates.
+>
+> The guide pins on the lower plate (5), Part Number 3375070, or equivalent, **must** fit into the water passages.
+>
+> The o-ring on the upper plate (4) creates a seal on the upper water passage.
+>
+> The other end of the plate fits into the injector bore.
+>
+> Place the clamping assembly (1) over the head and adapters.
+>
+> The guide pins on the clamp **must** fit into the holes in the adapter plate.
+>
+> Tighten the clamp on the cylinder head.
+>
+> Connect the regulated air supply hose to the upper adapter fitting.
+>
+> Attach the lifting arm (2) to the clamp assembly with the lock pins.
+>
+> One mounting location on each piece is color-coded red.
+>
+> Match the red locations.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> Adjust the air pressure.
+>
+> | Air Pressure |  |  |
+> |---|---|---|
+> | kpa |  | psi |
+> | 552 | MAX | 80 |
+>
+> Lower the cylinder head into the tank of water.
+>
+> Bubbles will indicate a leak.
+>
+> If the cylinder head leaks, it **must** be repaired or replaced.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> Check the valve guide for chips and cracks.
+>
+> Measure the inside diameter of the guide with a ball gauge or a dial bore indicator.
+>
+> | Valve Guide Inside Diameter (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 10.561 | MIN | 0.4158 |
+> | 10.589 | MAX | 0.4169 |
+>
+> The valve guide can be reusable if the inside diameter of the first 13 mm \[0.50 in\] from the top or bottom of the valve guide is over specification. However, if an area 13 mm \[0.50 in\] or greater from the top or bottom is out of tolerance, the valve guide **must** be replaced.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Check the valve guide for chips and cracks.
+>
+> Use the drop gauge, Part Number 5298508, to measure the valve guide per the assembly procedure below.
+>
+> If the valve guide is out of tolerance, the valve guide **must** be replaced.
+>
+> Clean the part with solvent, Part Number 3824421, or equivalent.
+>
+> Measure the valve guide bore inside diameter.
+>
+> | Valve Guide Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 21.438 | MIN | 0.844 |
+> | 21.463 | MAX | 0.845 |
+>
+> If the valve guide bore is **not** within specifications, ream the bore for an oversize valve guide.
+>
+> The oversize valve guides are oversize on the outside diameter **only**. The bore in the valve guide is **not** oversize.
+>
+> Valve guides are available in two oversizes:
+>
+> - 0.25 mm \[0.010 in\]
+> - 0.38 mm \[0.015 in\].
+>
+> Ream the valve guide bore to maintain a press fit within 0.028 to 0.067 mm \[0.001 to 0.003 in\] between the valve guide and the valve guide bore.
+>
+> Clean the valve seat insert bore.
+>
+> Check the length of any cracks extending into the valve insert bore.
+>
+> The cylinder head **must** be replaced if a crack extends into the bottom of the bore.
+>
+> Sometimes it is possible to remove the crack by machining the cylinder head to use an oversize valve seat insert.
+>
+> Use valve insert counterbore cutter kit, Part Number ST-257, or equivalent, along with appropriate cutter listed below:
+>
+> - ST-1310-1 (0.010 oversize)
+> - ST-1310-2 (0.020 oversize)
+> - ST-1310-3 (0.030 oversize)
+> - ST-1310-4 (0.040 oversize).
+>
+> Measure the inside diameter and the depth of the valve seat insert bore.
+>
+> | Valve Seat Insert Bore Inside Diameter (6) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust and Intake | 60.37 | MIN | 2.377 |
+> |  | 60.40 | MAX | 2.378 |
+>
+> | Valve Seat Insert Bore Depth (7) and (8) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust and Intake | 12.50 | MIN | 0.492 |
+> |  | 12.62 | MAX | 0.497 |
+>
+> If the valve guide seat insert inside diameter is **not** within specifications, use an oversize valve seat.
+>
+> Oversize valve seat inserts are available in the sizes listed in the table below. Machine the valve seat insert bore in the cylinder head to maintain a press fit within 0.064 to 0.114 mm \[0.002 to 0.005 in\] between the valve seat insert and valve seat insert bore.
+>
+> | Outside Diameter Oversize | Depth (Thickness) of Oversize |
+> |---|---|
+> | 0.25 mm \[0.010 in\] | Standard |
+> | 0.51 mm \[0.020 in\] | 0.13 mm \[0.005 in\] |
+> | 0.76 mm \[0.030 in\] | 0.25 mm \[0.010 in\] |
+> | 1.02 mm \[0.040 in\] | 0.38 mm \[0.015 in\] |
+>
+> The intake and exhaust valve face and seating surfaces **must** be cleaned and free of carbon deposits before the inspection is performed.
+>
+> Use Scotch-Brite™ 7448 abrasive hand pad, Part Number 3823258, or equivalent, to clean the valve.
+>
+> Use the valve head checking tool, Part number 3164984, to measure the head thickness of the valve.
+>
+> Place the valve into the valve head thickness gauge.
+>
+> Measure the valve height. If the valve is flush or above the gauge surface, the valve can be reused. If the valve is below the gauging surface, the valve can **not** be reused.
+>
+> **CAUTION · Осторожно**
+> This type of a check is not as accurate as the checking tool. It can result in valves that are not within minimum specification being reused. Valves that are not within minimum specification can fail, causing severe progressive damage to the power cylinder.
+>
+> If a valve checking tool is **not** available, place the valve on a flat surface and check the height of the outside diameter.
+>
+> | Valve Head Thickness (at the outside diameter) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> |  | 3.94 | MIN | 0.155 |
+> | Intake |  |  |  |
+>
+> If the valve is **not** within specification, it **must** be replaced.
+>
+> It is **not** necessary to remove any black or brown stains on the valve closest to the port, unless the buildup affects the movement in the guide. Use nothing more than course crocus cloth (1000 grit) to remove the stains.
+>
+> The valve stems are chrome plated. If there are scuffs or marks that can be felt with the fingernail, the valve **must** be replaced.
+>
+> Check the collet groove area for wear. If the groove area is worn, the valve **must** be replaced.
+>
+> Measure the valve stem outside diameter.
+>
+> | Valve Stem Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 10.490 | MIN | 0.4130 |
+> | 10.510 | MAX | 0.4138 |
+>
+> Cummins Inc. recommends using new valve springs when the cylinder head is reconditioned.
+>
+> A bent or broken spring **must not** be used again.
+>
+> A spring with a notch worn in the first coil **mustnot** be used again. The ends of the springs will wear into the first coil, creating a worn notch in the material.
+>
+> If a worn notch can be seen or felt, the valve spring **must not** be used again.
+>
+> Often a spring that has these notches will make a clicking sound. To check for a click, the spring is to be hand compressed until the end of the first coil is completely collapsed. A large notch will cause a clicking sound to be heard.
+>
+> Check both ends of the spring for the clicking sound.
+>
+> Check the spring free length.
+>
+> Approximate Free Length
+>
+> 87.63 mm \[3.45 in\]
+>
+> Check the spring force at the indicated test height.
+>
+> Valve Spring Test Height
+>
+> 57.23 mm \[2.253 in\]
+>
+> | Valve Spring Force |  |  |  |
+> |---|---|---|---|
+> |  | n |  | lbf |
+> |  | 1477 N | MIN | 332 lbf |
+> |  | 1637 N | MAX | 368 lbf |
+>
+> If the valve spring is **not** within specification, the valve spring **must** be replaced.
+>
+> with Electronically Actuated Injector
+>
+> Check the valve guide for chips and cracks.
+>
+> Measure the inside diameter of the guide with a ball gauge or a dial bore indicator.
+>
+> | Valve Guide Inside Diameter (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 12.600 | MIN | 0.496 |
+> | 12.667 | MAX | 0.499 |
+>
+> The valve guide can be reusable if the inside diameter of the first 13 mm \[0.50 in\] from the top or bottom of the valve guide is over specification. However, if an area 13 mm \[0.50 in\] or greater from the top or bottom is out of tolerance, the valve guide **must** be replaced.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Check the valve guide for chips and cracks.
+>
+> Clean the part with solvent, Part Number 3824421, or equivalent.
+>
+> Measure the valve guide bore inside diameter.
+>
+> | Valve Guide Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 21.425 | MIN | 0.844 |
+> | 21.450 | MAX | 0.845 |
+>
+> If the valve guide bore is **not** within specifications, ream the bore for an oversize valve guide.
+>
+> The oversize valve guides are oversize on the outside diameter **only**. The bore in the valve guide is **not** oversize.
+>
+> Valve guides are available in two oversizes:
+>
+> - 0.25 mm \[0.010 in\]
+> - 0.38 mm \[0.015 in\].
+>
+> Ream the valve guide bore to maintain a press fit within 0.028 to 0.067 mm \[0.001 to 0.003 in\] between the valve guide and the valve guide bore.
+>
+> Clean the valve seat insert bore.
+>
+> Check the length of any cracks extending into the valve insert bore.
+>
+> The cylinder head **must** be replaced if a crack extends into the bottom of the bore.
+>
+> Sometimes it is possible to remove the crack by machining the cylinder head to use an oversize valve seat insert.
+>
+> Use valve insert counterbore cutter kit, Part Number ST-257, or equivalent, along with appropriate cutter listed below:
+>
+> - ST-1310-1 (0.010 oversize)
+> - ST-1310-2 (0.020 oversize)
+> - ST-1310-3 (0.030 oversize)
+> - ST-1310-4 (0.040 oversize).
+>
+> Measure the inside diameter and the depth of the valve seat insert bore.
+>
+> | Valve Seat Insert Bore Inside Diameter (6) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust and Intake | 60.37 | MIN | 2.377 |
+> |  | 60.40 | MAX | 2.378 |
+>
+> | Valve Seat Insert Bore Depth (7) and (8) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust and Intake | 12.50 | MIN | 0.492 |
+> |  | 12.62 | MAX | 0.497 |
+>
+> If the valve guide seat insert inside diameter is **not** within specifications, use an oversize valve seat.
+>
+> Oversize valve seat inserts are available in the sizes listed in the table below. Machine the valve seat insert bore in the cylinder head to maintain a press fit within 0.064 to 0.114 mm \[0.002 to 0.005 in\] between the valve seat insert and valve seat insert bore.
+>
+> | Outside Diameter Oversize | Depth (Thickness) of Oversize |
+> |---|---|
+> | 0.25 mm \[0.010 in\] | Standard |
+> | 0.51 mm \[0.020 in\] | 0.13 mm \[0.005 in\] |
+> | 0.76 mm \[0.030 in\] | 0.25 mm \[0.010 in\] |
+> | 1.02 mm \[0.040 in\] | 0.38 mm \[0.015 in\] |
+>
+> The intake and exhaust valve face and seating surfaces **must** be cleaned and free of carbon deposits before the inspection is performed.
+>
+> Use Scotch-Brite™ 7448 abrasive hand pad, Part Number 3823258, or equivalent, to clean the valve.
+>
+> The valve head thickness gauge, Part Number 3164983, is used to check intake and exhaust valve head thickness. The lower gauging surface marked “INTAKE” is for the intake valve. The upper gauging surface marked “EXHAUST” is for the exhaust valve.
+>
+> Place the valve into the valve head thickness gauge.
+>
+> Measure the height of the valve.
+>
+> If the valve is flush or above the gauging surface, the valve can be used again.
+>
+> If the valve is below the gauging surface, the valve can **not** be used.
+>
+> **CAUTION · Осторожно**
+> This type of a check is not as accurate as the checking tool. It can result in valves that are not within minimum specification being reused. Valves that are not within minimum specification can fail, causing severe progressive damage to the power cylinder.
+>
+> If a valve checking tool is **not** available, place the valve on a flat surface and check the height of the outside diameter.
+>
+> | Minimum Valve Head Thickness (at the outside diameter) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Exhaust | 3.00 | MIN | 0.120 |
+> | Intake | 2.16 | MIN | 0.085 |
+>
+> If the valve is **not** within specification, it **must** be replaced.
+>
+> It is **not** necessary to remove any black or brown stains on the valve closest to the port, unless the buildup affects the movement in the guide. Use nothing more than course crocus cloth (1000 grit) to remove the stains.
+>
+> The valve stems are chrome plated. If there are scuffs or marks that can be felt with the fingernail, the valve **must** be replaced.
+>
+> Check the collet groove area for wear. If the groove area is worn, the valve **must** be replaced.
+>
+> Measure the valve stem outside diameter.
+>
+> | Valve Stem Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 12.535 | MIN | 0.494 |
+> | 12.576 | MAX | 0.495 |
+>
+> Valve springs of two different lengths are used on the engine. These are identified with a red strip (old spring) and a white strip (new spring)
+>
+> Cummins Inc. recommends using white strip (new valve springs) when the cylinder head is reconditioned.
+>
+> A bent or broken spring **must not** be used again.
+>
+> A spring with a notch worn in the first coil **mustnot** be used again. The ends of the springs will wear into the first coil, creating a worn notch in the material.
+>
+> If a worn notch can be seen or felt, the valve spring **must not** be used again.
+>
+> Often a spring that has these notches will make a clicking sound. To check for a click, the spring is to be hand compressed until the end of the first coil is completely collapsed. A large notch will cause a clicking sound to be heard.
+>
+> Check both ends of the spring for the clicking sound.
+>
+> Check the spring free length.
+>
+> | Approximate Free Length |  |
+> |---|---|
+> | Red Strip Spring | White Strip Spring |
+> | 65 mm \[2.57 in\] | 69 mm \[2.72 in\] |
+>
+> Check the spring force at the indicated test height.
+>
+> | Test Height |  |
+> |---|---|
+> | Red Strip Spring | White Strip Spring |
+> | 39 mm \[1.53 in\] | 38 mm \[1.51 in\] |
+>
+> | Valve Spring Force |  |  |  |
+> |---|---|---|---|
+> |  | n |  | lbf |
+> | Red Strip Spring | 1183 | MIN | 266 |
+> |  | 1308 | MAX | 294 |
+> | White Strip Spring | 1241 | MIN | 279 |
+> |  | 1383 | MAX | 311 |
+>
+> If the valve spring is **not** within specification, the valve spring **must** be replaced.
+>
+> ### Magnetic Crack Inspect
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine damage, always demagnetize and clean the parts thoroughly after a magnetic particle inspection.
+>
+> Use the magnetic particle residual method to check the valves for cracks.
+>
+> Check the exhaust valves with the coil shot method.
+>
+> Use a 305 mm \[12 in\] minimum diameter coil.
+>
+> | Coil Shot Amperage (Ampere Turns) |  |
+> |---|---|
+> | Minimum | Maximum |
+> | 400-VDC or rectified VAC | 800-VDC or rectified VAC |
+>
+> An ampere turn is a electrical current of one ampere flowing through the coil multiplied by the number of turns in the coil.
+>
+> Test the valve.
+>
+> A broad fuzzy pattern will appear at the welded joint on the exhaust valves. This is normal. If there is a distinct line in the broad fuzzy pattern, the valve **must** be replaced.
+>
+> Use the head shot method to test the intake valve.
+>
+> | Head Shot Amperage (Ampere) |  |
+> |---|---|
+> | Minimum | Maximum |
+> | 500-VDC or rectified VAC | 700-VDC or rectified VAC |
+>
+> The acceptable criteria for intake and exhaust data is listed below:
+>
+> 1. Indications less than 38.1 mm \[1.50 in\] in length are acceptable
+> 2. No indications
+> 3. **Only** longitudinal indications are acceptable
+> 4. **Only** longitudinal indications are acceptable
+> 5. No indications.
+>
+> ### Grind
+>
+> Valves
+>
+> **CAUTION · Осторожно**
+> Valves marked with a "C" in the center of the valve head, must not be ground. Grinding these valves will damage the hardened layer of the valve face and severe engine damage can result.
+>
+> Intake and exhaust valves **must** be ground to the same angle.
+>
+> Use valve facing machine, Part Number 3376256, or equivalent, to grind the valve to a 30-degree angle, as shown in the illustration.
+>
+> Make sure **not** to remove too much material too quickly. **Only** remove the minimum amount of material, making sure the seating area of the valve is free from grooves.
+>
+> ### Machine
+>
+> Valve Seat
+>
+> Cummins Inc. recommends using machines that will cut the valve seat insert. Grinding the valve seat with stones that are too coarse can cause an unacceptable surface finish that can lead to early valve and/or seat wear. If the valve protrusion is too great and a machine to cut the valve seat is **not** available, Cummins Inc. recommends removing the seat, then machining the bore in the cylinder head to a greater depth, if possible.
+>
+> Use a valve guide arbor set, Part Number 3375946, or equivalent, with valve seat grinding machining ST-685-A (110-VAC) or ST-685-C (220-VAC).
+>
+> Machine the valve seat insert to the angle shown in the illustration.
+>
+> Measure the valve seat insert width.
+>
+> | Valve Seat Insert Width |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Intake | 3.05 | MIN | 0.120 |
+> |  | 3.55 | MAX | 0.140 |
+> | Exhaust | 1.52 | MIN | 0.060 |
+> |  | 2.54 | MAX | 0.100 |
+>
+> If the width of the valve seat is **not** within specifications, remove the surface material on the inside diameter and outside diameter of the valve seating area to decrease the width of the valve seat.
+>
+> If the valve seat specifications are **not** obtained by machining, the valve seat **must** be replaced.
+>
+> It is important that the eccentrimeter is **not** positioned too far down the arbor. The meter needle **must not** complete more than between one and one and a half revolutions before touching the valve seat insert. If the meter will **not** touch the insert at a minimum revolution, change the arbor to a smaller diameter. The meter will have to be adjusted for each seat and arbor combination.
+>
+> Use an eccentrimeter, Part Number ST-685-4, or equivalent, and the arbor included in the valve seat grinding machine kit, Part Number ST-685-A, or equivalent, or Part Number ST-685-C, or equivalent.
+>
+> Measure the valve seat to the valve guide concentricity.
+>
+> The seat and guide **must** be concentric within 0.05 mm \[0.002 in\].
+>
+> If the concentricity is **not** within specification, machine the valve seat.
+>
+> ### Assemble
+>
+> with Mechanically Actuated Injector
+>
+> Install the valve guides in all four locations in the cylinder head.
+>
+> Use valve guide driver (1), Part Number 3163041, and an arbor press to install the valve guide (2) to the specified height
+>
+> | Valve Guide Height |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | To spring pocket | 37.97 | MIN | 1.495 |
+> |  | 38.48 | MAX | 1.515 |
+> | To top of head | 13.97 | MIN | 0.550 |
+> |  | 14.47 | MAX | 0.570 |
+>
+> Inspect the valve guides for chips and cracks.
+>
+> Use the drop gauge, Part Number 5298508, to check the valve guide for proper inside diameter and straightness.
+>
+> **Note · Примечание**
+> The drop gauge **must** be adjusted to a minimum of 114 mm \[4.5 in\] long.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the valve guide bores with an aerosol solvent (such as brake cleaner or carburetor cleaner) and a 7/16 inch diameter nylon brush.
+>
+> Use compressed air to dry the valve guide bores.
+>
+> Orient the cylinder head with the combustion face down, sitting flat on a level surface.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the drop gauge pin. Use the same type of solvent that is used on the valve guide bores.
+>
+> **Note · Примечание**
+> Inspect the drop gauge pin for nicks, dings, scratches, and abrasion that can cause a false failure on the drop gauge test. Excessive wear can cause a false pass.
+>
+> Holding the drop gauge by the upper end of the handle, place the tip of the gauge pin in the bore and let the gauge drop freely, by gravity alone.
+>
+> The valve guide passes if the gauge falls until the base of the handle contacts the valve guide.
+>
+> If the drop gauge does **not** fall until the base of the handle contacts the valve guide, rotate the tool 90 degrees and test again.
+>
+> If the drop gauge test fails at all four positions, the guide **must** be reamed and tested again.
+>
+> When a valve guide does **not** pass the drop gauge test, it **must** be reamed to bring the bore to the correct specification. The reamer, Part Number 5298510, is the **only** reamer to be used for this purpose. The reamer is to be used **only** by hand with a hand 'T' bar. It is **not** to be driven by any type of power drill or milling machine.
+>
+> **Note · Примечание**
+> It is essential that the reamer is continuously rotated while it is being inserted or removed from the valve guide. Damage to the valve guide will occur if the reamer is inserted or removed without rotation.
+>
+> Position the cylinder head with the combustion face down. Insert the tip of the reamer into the top of the valve guide. While rotating the reamer **clockwise**, allow it to drop by gravity into the valve guide bore. Continue to rotate the reamer by hand, in a **clockwise** direction, until it drops through the valve guide and rests on the surface below.
+>
+> Once the reamer has dropped through the valve guide, rotate it through approximately two complete turns, continueing to rotate the reamer by hand, in a **clockwise** direction.
+>
+> **Note · Примечание**
+> It is essential that the reamer is continuously rotated while it is being inserted or removed from the valve guide. Damage to the valve guide will occur if the reamer is inserted or removed without rotation.
+>
+> Withdraw the reamer while continuing to rotate it in a **clockwise** direction.
+>
+> Make sure the valve guide is thoroughly cleaned. Repeat the drop gauge test as described above. If a valve guide does **not** pass the drop gauge test, repeat the reamer process until a drop gauge pass is achieved.
+>
+> Identify the correct valve seat insert.
+>
+> - The top illustration is the intake port valve seat insert with a wide valve seating area.
+> - The bottom illustration is the exhaust port valve seat insert.
+>
+> Both the intake and exhaust port valve seat inserts **must** be installed with the 30-degree angle positioned as shown.
+>
+> Exhaust valve seat inserts are color coded blue to identify the 30-degree angle side of the seat insert.
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer or mallet to install the valve seat inserts. The inserts can be cracked leading to a valve seat failure.
+>
+> Install the valve seat insert (4) with a mandrel (9) and an arbor press.
+>
+> Check the injector bore for cracks or other damage.
+>
+> If cracks or other damage is found, the cylinder head **must** be repaired or replaced.
+>
+> Install a sealing ring on a dummy injector.
+>
+> Do **not** install the injector o-rings at this time.
+>
+> Apply a thin coating of Prussian blue onto the sealing ring.
+>
+> Measure the injector protrusion. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+>
+> Turn the cylinder head over to the original position.
+>
+> Remove the injector hold-down clamp and the injector.
+>
+> Check the contact pattern in the injector bore. A blue band a minimum of 1.52 mm \[0.060 in\] wide and 360 degree full circumference **must** be visible.
+>
+> If the pattern does **not** meet specification, clean the bore of the injector with a tapered brush and check the seating pattern again.
+>
+> The cylinder head **must** be repaired or replaced if the injector seating pattern is **not** within specifications.
+>
+> Use cup plug Loctite™ sealant, Part Number 3375068.
+>
+> Use the correct expansion plug driver to make sure the expansion plugs are installed to the correct depth in the cylinder head. Drive the plug until the shoulder of the driver contacts the cylinder head.
+>
+> - Part Number 3376813, expansion plug driver
+> - Part Number 3376814, expansion plug driver.
+>
+> A cup plug driver handle, Part Number 3376795, or equivalent, **must** be used with expansion plug driver, Part Number 3376813, or equivalent, and expansion plug driver, Part Number 3376814, or equivalent.
+>
+> Install ten new cup plugs.
+>
+> Use a hydrostatic tester to check for evidence of leaks around cup plugs.
+>
+> Reference the pressure test procedure.
+>
+> When turning the rotator by hand, it can turn roughly, be difficult to turn, or **not** turn at all. This is normal until the rotator is installed. After installation, it will rotate freely.
+>
+> The rotator **must** be soaked in clean engine oil for at least 15 minutes prior to installation.
+>
+> The rotator **must** be installed over the valve guide with the spring pilot flange face-up, as shown in this illustration.
+>
+> **WARNING · Опасно**
+> The valve springs are under compression. Use care when using the valve spring compressor. Personal injury can result if the tool slips from your hands.
+>
+> Use a valve spring compressor, Part Number ST-448, Part Number 3375960, or equivalent. Valve spring stand, Part Number ST-1022, and compressor plate, Part Number 3375043, can be used to compress all four springs at the same time.
+>
+> Install the parts.
+>
+> 1. Valve
+> 2. Valve rotator
+> 3. Valve spring
+> 4. Valve spring retainer
+> 5. Valve collet
+> 6. Valve retainer.
+>
+> Thoroughly lubricate the valve guide inside diameter with 140-weight gear oil before installing the valves.
+>
+> Use a valve vacuum tester, Part Number 3824277, or equivalent.
+>
+> If the valve to the valve seat contact pattern appears to be correct and the valve still does **not** pass the vacuum test, perform the following check.
+>
+> Apply a thin coating of grease on the outside diameter of the insert and the valve head. Repeat the vacuum test. The grease pattern will show the point of leakage.
+>
+> If the leakage is between the insert and the valve, repair the valve seat.
+>
+> If the leakage is between the insert and the head, the insert **must** be replaced.
+>
+> with Electronically Actuated Injector
+>
+> Use the valve guide installation tool (6), Part Number 4918258, or equivalent, and an arbor press to install the valve guide (7) to the specified height.
+>
+> | Valve Guide Height (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 27.737 | MIN | 1.092 |
+> | 28.245 | MAX | 1.112 |
+>
+> Identify the correct valve seat insert.
+>
+> - The top illustration is the intake port valve seat insert with a wide valve seating area.
+> - The bottom illustration is the exhaust port valve seat insert.
+>
+> Both the intake and exhaust port valve seat inserts **must** be installed with the 30-degree angle positioned as illustrated with the 45-degree angle to the cylinder head port.
+>
+> Exhaust valve seat inserts are color coded blue to identify the 30-degree angle side of the seat insert.
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer or mallet to install the valve seat inserts. The inserts can be cracked leading to the seat failure.
+>
+> Install the valve seat insert (4) with a mandrel (9) and an arbor press.
+>
+> Check the injector bore for cracks or other damage.
+>
+> If cracks or other damage is found, the cylinder head **must** be repaired or replaced.
+>
+> **CAUTION · Осторожно**
+> Support the cylinder head to prevent damage to the injector tip that protrudes from the combustion face.
+>
+> Install a sealing ring on a dummy injector.
+>
+> Do **not** install the injector o-rings.
+>
+> Apply a thin coating of Prussian blue into the sealing ring.
+>
+> Install the injector into the cylinder head. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+>
+> **Note · Примечание**
+> There is **not** an injector protrusion check or a protrusion specification for electronically actuated injectors, as protrusion on electronically actuated injectors can **not** be adjusted.
+>
+> Turn the cylinder head over to the original position.
+>
+> Remove the injector hold-down clamp and the injector.
+>
+> Check the contact pattern in the injector bore. A blue band, a minimum of 1.52 mm \[0.060 in\] wide and 360 degrees full circumference **must** be visible. If the pattern does **not** meet specifications, clean the bore of the injector with a tapered brush and check the sealing pattern.
+>
+> The cylinder head **must** be repaired or replaced if the injector pattern is **not** within specifications.
+>
+> Apply Loctite™ 609 sealant, Part Number 3823718, or equivalent, to the cup plugs.
+>
+> Cup plug driver handle, Part Number 3164085 or equivalent, is used with expansion plug drivers, Part Number 33376813, or equivalent, and Part Number 3376814, or equivalent.
+>
+> Use the appropriate expansion plug driver and handle combination to drive the cup plug in until the shoulder of the driver contacts the cylinder head.
+>
+> Install the valve into the valve guide.
+>
+> Measure the depth of the valve with a depth gauge, Part Number 3164438, or equivalent.
+>
+> The valve head **must** be even with, or **not** more than 0.51 mm \[0.020 in\] below, the surface of the cylinder head.
+>
+> If the valve depth is **not** within specifications, the valve or the valve seat **must** be replaced.
+>
+> Apply a thin, even coating of fine lapping compound, Part Number 3375805, or equivalent, onto the valve face.
+>
+> Provide pressure in the center of the valve with a power or hand suction lapping tool.
+>
+> Turn the valve backward and forward.
+>
+> Continue lapping until the compound shows a continuous contact pattern on both the valve seat insert and the valve.
+>
+> **CAUTION · Осторожно**
+> Lapping compound is an abrasive material. Failure will result if the cylinder head, the valves, and the valve seats are not cleaned thoroughly.
+>
+> Remove the valve.
+>
+> Clean the lapping compound from the valve, valve seat insert, and cylinder head.
+>
+> When turning the rotator by hand, it can turn roughly, be difficult to turn, or **not** turn at all. This is normal until the rotator is installed; after installation, it will rotate freely.
+>
+> The rotator **must** be soaked in clean engine oil for at least 15 minutes prior to installation.
+>
+> The rotator **must** be installed over the valve guide with the spring pilot flange face up, as shown in the illustration.
+>
+> **WARNING · Опасно**
+> The valve springs are under compression. Use care when using the valve spring compression tool. Personal injury can result if the tool slips out of the hands.
+>
+> Use one of the below listed valve spring compressors to install the valve springs:
+>
+> - Valve spring compressor, Part Number 3163606, or equivalent
+> - Valve spring compressor stand, Part Number ST-1022, or equivalent
+> - Valve spring compressor plate, Part Number 3163177, can be used with valve spring compressor, Part Number 3163606, or equivalent, and valve spring compressor stand, Part Number ST-1022, to remove four springs at a time
+> - Air operated valve spring compressor, Part Number 3375960.
+>
+> Thoroughly lubricate the valve guide inside diameter with 140-weight gear oil.
+>
+> Install the parts:
+>
+> 1. Valve
+> 2. Valve rotator
+> 3. Valve spring
+> 4. Valve spring retainer
+> 5. Valve collet
+> 6. Valve retainer.
+>
+> **Note · Примечание**
+> Service tool, Part Number 4918258, or equivalent, is used to install both the valve guide to the proper height and install the valve stem seals as well.
+>
+> Install the valve stem using valve guide installation tool, Part Number 4918258, or equivalent.
+>
+> ### Vacuum Test
+>
+> The valve vacuum tester, Part Number 3824277 (115-VAC, 50/60 hz) or 3824278 (220-VAC, 50/60 hz), can be used to test all Cummins® engine models.
+>
+> Before using the tester, test the leakage shutoff valve. If the valve is dirty or worn, it will produce a false leakage measurement on the gauge.
+>
+> Check the valve:
+>
+> - Open the shutoff valve
+> - Turn on the vacuum pump
+> - Place the cup against a smooth surface
+> - Close the shutoff valve
+> - Turn off the vacuum pump
+> - Wait approximately 10 seconds
+> - The gauge **must not** drop more than 7 kPa \[2 in Hg\].
+>
+> The valve and the valve seats **must** be clean and dry.
+>
+> Choose the correct cup and the correct seal from the service tool kit for the engine model that is to be tested.
+>
+> 1. K19, K38, K5, QSK45,and QSK60
+> 2. L10
+> 3. 401cl and 464 cl
+> 4. NH, V903, and V28
+>
+> Install the seal and the cup to the vacuum line (hose).
+>
+> Cover the valve with the cup and the seal. The seal **must** have a tight contact on the cylinder head around the valve.
+>
+> To check the exhaust valves, the seal **must** completely fill the milled area between the exhaust valves.
+>
+> Move the toggle switch (3) to the ON position.
+>
+> Turn the vacuum control valve (4) to the OPEN position.
+>
+> When the gauge indicates between 34 to 85 kPa \[10 to 25 in-Hg\], turn the vacuum control valve (4) to the CLOSED or OFF position.
+>
+> Turn the toggle switch (3) to the OFF position.
+>
+> **CAUTION · Осторожно**
+> The cylinder head must be disassembled and cleaned after any grinding or cutting procedures to reduce the possibility of engine damage.
+>
+> Use a stopwatch. As the vacuum gauge needle moves **counterclockwise**, start timing when the needle on the gauge points to 61 kPa \[18 in Hg\].
+>
+> Stop timing when the needle on the gauge points to 27 kPa \[8 in Hg\].
+>
+> The elapsed time for the gauge to move between the specified readings **must** be 10 seconds or more.
+>
+> If the elapsed time is less than 10 seconds, perform the following checks:
+>
+> - Repeat the test to be certain the equipment is functioning properly.
+> - Use a mallet to lightly hit the valve stem to be certain the valve is sealed. Repeat the test.
+> - Apply a thin coating of grease on the outside diameter of the insert and the valve head. Repeat the vacuum test. The grease pattern will show the point of leakage.
+> - If the leakage is between the valve insert and the head, the insert **must** be replaced.
+>
+> If the leakage is between the valve and the valve insert seat, one of the following procedures **must** be performed:
+>
+> - Lap valve to insert seat
+> - Grind the valves
+> - Grind the valve insert seat.
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the top of the cylinder block and the cylinder liners.
+>
+> Clean the threaded holes which attach the cylinder head to the block with electrical contact cleaner, Part Number 3814510, or equivalent.
+>
+> Dry with compressed air.
+>
+> Measure the liner protrusion. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
+>
+> The word TOP, stamped on top of the head gasket, **must** be visible after the gasket is installed.
+>
+> Install the cylinder head gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the cylinder head. It **must** slide easily over the dowel pins.
+>
+> Apply clean engine oil to the threads of the cylinder head capscrews.
+>
+> Apply Loctite™ 51606, or equivalent, non-metal, graphite base, anti-seize compound to the top side of the washer.
+>
+> Install the capscrews.
+>
+> The markings on the head of the flange head capscrews serve as an aid during installation.
+>
+> Torque Value:
+>
+> Flange Head Capscrews
+>
+> After tightening the capscrew, mark the cylinder head adjacent to one of the two single marks on the capscrew head.
+>
+> Tighten the capscrews using the following steps in the sequence shown.
+>
+> Torque Value:
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+> - Install the rocker lever housings, push rods, and crossheads. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Install the high-pressure fuel lines to the injectors. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Install the push rods or tubes. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Adjust the valves. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Install the gear cover clamping plate. [[20-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
+> - Install the coolant thermostat housing support. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Install the fuel tubes. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
+> - Install the fuel manifolds. [[20-006-022-tr — Fuel Manifold (Supply)|Refer to Procedure 006-022 in Section 6.]]
+> - Install the aftercooler. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> - Install the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Install the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Connect the batteries. Refer to the OEM service manual.
+> - Connect the air starter supply line. Refer to the OEM service manual.
+> - Fill the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> **CAUTION · Осторожно**
+> Do not use gasket cement. It will prevent the gasket from sealing properly. Edge-molded gaskets do not require sealant.
+>
+> **CAUTION · Осторожно**
+> Use caution when filling the cooling system so that the coolant is not spilled into the bilge area. Do not pump coolant overboard. If the coolant is spilled, it must be disposed of in accordance with local environmental regulations
+>
+> - Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+> - Install the rocker lever housing. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Install the push rods and crossheads. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Install the aftercooler assembly. [[20-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> - Install the exhaust manifold (dry). [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Install the exhaust manifold (wet). [[20-011-008-tr — Exhaust Manifold, Wet|Refer to Procedure 011-008 in Section 11.]]
+> - Install the turbocharger. [[20-010-037-tr — Turbocharger, Water-Cooled|Refer to Procedure 010-037 in Section 10.]]
+> - Install the exhaust manifold heat shields. [[20-011-015-tr — Exhaust Manifold Heat Shield|Refer to Procedure 011-015 in Section 11.]]
+> - Install the turbocharger heat shields. [[20-010-076-tr — Turbocharger Heat Shield|Refer to Procedure 010-076 in Section 10.]]
+> - Install the aftercooler heat shields [[20-010-129 — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]]
+> - Connect the batteries. Refer to the OEM service manual.
+> - Fill the cooling system(s). [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the injectors. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
+> - Install the rocker lever housings. [[20-003-013-tr — Rocker Lever Housing|Refer to Procedure 003-013 in Section 3.]]
+> - Install the gear cover clamping plate. [[20-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
+> - Install the thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Install the push rods or tubes. [[20-004-014-tr — Push Rods or Tubes|Refer to Procedure 004-014 in Section 4.]]
+> - Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Install the coolant thermostat housing. [[20-008-015-tr — Coolant Thermostat Housing Support|Refer to Procedure 008-015 in Section 8.]]
+> - Install the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
+> - Install the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+> - Install the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Install the intake manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]]
+> - Install the exhaust manifold. [[20-011-007-tr — Exhaust Manifold, Dry|Refer to Procedure 011-007 in Section 11.]]
+> - Install the turbocharger. [[20-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Connect the batteries or air starter supply line. Refer to the OEM service manual.
+> - Fill the cooling system. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine to 70°C \[158°F\] minimum coolant temperature and check for leaks.

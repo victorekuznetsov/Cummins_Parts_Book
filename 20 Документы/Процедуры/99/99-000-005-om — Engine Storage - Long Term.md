@@ -16,6 +16,8 @@ families:
 manuals:
   - "3666120"
   - "3666134"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-005-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-005-om.pdf"
 tags:
@@ -23,6 +25,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Engine Storage - Long Term
@@ -36,6 +39,20 @@ tags:
 > **Даты:** изменён 2022-07-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-005-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-005-om.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-If the engine will be out of service longer than 6 months, special precautions **must** be taken. Follow the long term storage procedure in the base engine troubleshooting and repair manual or service manual or contact the nearest Cummins® Authorized Repair Location for additional information.
+
+### Общие сведения
+
+Если двигатель не работает более 6 месяцев, необходимо принять специальные меры предосторожности. Следуйте процедуре долгосрочного хранения в руководстве по устранению неполадок и ремонту базового двигателя или в руководстве по обслуживанию или свяжитесь с ближайшим авторизованным местом ремонта Cummins® для получения дополнительной информации.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> If the engine will be out of service longer than 6 months, special precautions **must** be taken. Follow the long term storage procedure in the base engine troubleshooting and repair manual or service manual or contact the nearest Cummins® Authorized Repair Location for additional information.

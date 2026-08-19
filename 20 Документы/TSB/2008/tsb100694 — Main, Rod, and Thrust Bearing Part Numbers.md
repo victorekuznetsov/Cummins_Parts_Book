@@ -45,12 +45,15 @@ parts:
   - "4089070"
   - "4089071"
   - "4089072"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100694.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100694.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2008"
+  - "перевод/машинный"
   - "тема/cylinder-block"
 ---
 
@@ -64,99 +67,107 @@ tags:
 > **Даты:** выпущен 2008-05-07 · изменён 2008-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100694.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100694.pdf)
 
-## Main, Rod, and Thrust Bearing Part Numbers
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Номера коренных, шатунных и упорных вкладышей
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin supersedes topic 02T1-1; replace 02T1-1 with this topic.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This Technical Service Bulletin changes the connecting rod bearing quantities in Tables 10, 11, and 12, from 24 to 12. The reason for the change is because the connecting rod bearing part numbers (4067877, 4067879, and [[4067878]]) are sold in sets of two.
+### Содержание
 
-This Technical Service Bulletin revises the inspection criteria for the main bearing journals and provides a part number listing for main, connecting rod, and thrust bearings for the QST30 engines. The bearings described are all of the standard and oversize bearings available for the QST30 engine.
+Настоящий Бюллетень технического обслуживания заменяет тему 02Т1-1; заменить 02Т1-1 этой темой.
 
-Oversize bearings are available to allow for the crankshaft to be ground undersize if the outside diameter of the main and/or connecting rod bearing journals or the thrust distance is **not** within specifications. The specifications can be found in the QST30 Service Manual, Bulletin 4021539, Procedure 001-016 (Crankshaft). **Always** grind all of the main or connecting rod journals when one is **not** within specifications.
+В этом бюллетене технического обслуживания изменяется количество подшипников шатуна в таблицах 10, 11 и 12 с 24 до 12. Причина изменения заключается в том, что шатун имеет номера деталей (4067877, 4067879 и т.д.).[[4067878]]) продаются в двух комплектах.
 
-If one crankshaft main or connecting rod journal is undersize, all main or connecting rod journals **must** be undersized the same amount. For this reason, oversize bearings are available **only** in complete kits. It is **not** necessary to use oversize thrust bearings when using oversize main bearings. It is also **not** necessary to use the same size oversize thrust bearings on both thrust faces of the crankshaft. However, the two thrust bearings used on the rear of main bearing number 7 **must** be of the same size.
+В этом бюллетене технической службы пересматриваются критерии проверки для основных журналов подшипников и приводится список номеров деталей для основных, шатунов и подшипников тяги для двигателей QST30. Описанные подшипники являются стандартными и негабаритными подшипниками, доступными для двигателя QST30.
 
-| Table 1, Standard Main Bearing Set, Part Number [[3804713]] |  |  |  |
+Подшипники негабаритного размера доступны для того, чтобы коленчатый вал был меньше по размеру, если внешний диаметр основных и/или соединительных штанговых журналов подшипников или расстояние тяги ** не ** в пределах спецификаций. Спецификации можно найти в руководстве по обслуживанию QST30, бюллетене 4021539, процедуре 001-016 (Crankshaft). ** Всегда** перемалывают все основные или соединительные журналы стержней, когда один из них ** не** в пределах спецификаций.
+
+Если один основной или соединительный журнал коленчатого вала имеет меньший размер, все основные или соединительные журналы стержня ** должны быть меньше одинакового размера. По этой причине подшипники для негабаритных размеров доступны только *** в комплекте. **необязательно использовать подшипники с большой тягой при использовании основных подшипников с большой тягой. Также **не** необходимо использовать подшипники тяги одинакового размера на обеих тяговых гранях коленчатого вала. Однако два подшипника тяги, используемые на задней части главного подшипника № 7**, должны быть одинакового размера.
+
+| Таблица 1, стандартный основной набор подшипников, номер детали[[3804713]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3092877]] | 6 | Standard | Upper main |
-| [[3092878]] | 6 | Standard | Lower main |
-| [[3092879]] | 1 | Standard | Upper main, number 4 |
-| [[3092880]] | 1 | Standard | Lower main, number 4 |
-| [[3092881]] | 3 | Standard | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3092877]] | 6 | Стандартный стандарт | Верхний главный |
+| [[3092878]] | 6 | Стандартный стандарт | Нижний главный |
+| [[3092879]] | 1 | Стандартный стандарт | Верхний основной, номер 4 |
+| [[3092880]] | 1 | Стандартный стандарт | Нижний главный, номер 4 |
+| [[3092881]] | 3 | Стандартный стандарт | ржавчина |
 
-| Table 2, Main Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number [[4089070]] |  |  |  |
+| Таблица 2, Основной подшипниковый набор 0,25 мм \[0,010 в\] Размер, номер детали[[4089070]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093188]] | 6 | 0.25 mm \[0.010 in\] | Upper main |
-| [[3093192]] | 6 | 0.25 mm \[0.010 in\] | Lower main |
-| [[3093196]] | 1 | 0.25 mm \[0.010 in\] | Upper main, number 4 |
-| [[3093200]] | 1 | 0.25 mm \[0.010 in\] | Lower main, number 4 |
-| [[3092881]] | 3 | Standard | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093188]] | 6 | 0,25 мм \[0,010 в\] | Верхний главный |
+| [[3093192]] | 6 | 0,25 мм \[0,010 в\] | Нижний главный |
+| [[3093196]] | 1 | 0,25 мм \[0,010 в\] | Верхний основной, номер 4 |
+| [[3093200]] | 1 | 0,25 мм \[0,010 в\] | Нижний главный, номер 4 |
+| [[3092881]] | 3 | Стандартный стандарт | ржавчина |
 
-| Table 3, Main Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4089071]] |  |  |  |
+| Таблица 3, Основной подшипниковый набор 0,50 мм \[0,020 в\] Размер, номер детали[[4089071]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093187]] | 6 | 0.50 mm \[0.020 in\] | Upper main |
-| [[3093191]] | 6 | 0.50 mm \[0.020 in\] | Lower main |
-| [[3093195]] | 1 | 0.50 mm \[0.020 in\] | Upper main, number 4 |
-| [[3093199]] | 1 | 0.50 mm \[0.020 in\] | Lower main, number 4 |
-| [[3092881]] | 3 | Standard | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093187]] | 6 | 0,50 мм \[0,020 in\] | Верхний главный |
+| [[3093191]] | 6 | 0,50 мм \[0,020 in\] | Нижний главный |
+| [[3093195]] | 1 | 0,50 мм \[0,020 in\] | Верхний основной, номер 4 |
+| [[3093199]] | 1 | 0,50 мм \[0,020 in\] | Нижний главный, номер 4 |
+| [[3092881]] | 3 | Стандартный стандарт | ржавчина |
 
-| Table 4, Main Bearing Set 0.75 mm \[0.030 in\] Oversize, Part Number [[4089072]] |  |  |  |
+| Таблица 4, Основной подшипниковый набор 0,75 мм \[0,030 в\] Размер, номер детали[[4089072]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093186]] | 6 | 0.75 mm \[0.030 in\] | Upper main |
-| [[3093190]] | 6 | 0.75 mm \[0.030 in\] | Lower main |
-| [[3093194]] | 1 | 0.75 mm \[0.030 in\] | Upper main, number 4 |
-| [[3093198]] | 1 | 0.75 mm \[0.030 in\] | Lower main, number 4 |
-| [[3092881]] | 3 | Standard | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093186]] | 6 | 0,75 мм \[0,030 в\] | Верхний главный |
+| [[3093190]] | 6 | 0,75 мм \[0,030 в\] | Нижний главный |
+| [[3093194]] | 1 | 0,75 мм \[0,030 в\] | Верхний основной, номер 4 |
+| [[3093198]] | 1 | 0,75 мм \[0,030 в\] | Нижний главный, номер 4 |
+| [[3092881]] | 3 | Стандартный стандарт | ржавчина |
 
-| Table 5, Standard Thrust Bearing, Part Number [[3092881]] |  |  |  |
+| Таблица 5, Стандартная подшипниковая струя, номер детали[[3092881]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3092881]] | 1 | Standard | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3092881]] | 1 | Стандартный стандарт | ржавчина |
 
-| Table 6, Thrust Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number [[4024913]] |  |  |  |
+| Таблица 6, Набор подшипников к ржавчине 0,25 мм \[0,010 в\] Размер, номер детали[[4024913]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093037]] | 3 | 0.25 mm \[0.010 in\] | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093037]] | 3 | 0,25 мм \[0,010 в\] | ржавчина |
 
-| Table 7, Thrust Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4024912]] |  |  |  |
+| Таблица 7, Набор подшипников к ржавчине 0,50 мм \[0,020 в\] Размер, номер детали[[4024912]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093036]] | 3 | 0.50 mm \[0.020 in\] | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093036]] | 3 | 0,50 мм \[0,020 in\] | ржавчина |
 
-| Table 8, Thrust Bearing Set 0.75 mm \[0.030 in\] Oversize, Part Number [[4024911]] |  |  |  |
+| Таблица 8, Набор подшипников к ржавчине 0,75 мм \[0,030 в\] Размер, номер детали[[4024911]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093035]] | 3 | 0.75 mm \[0.030 in\] | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093035]] | 3 | 0,75 мм \[0,030 в\] | ржавчина |
 
-| Table 9, Thrust Bearing Set 1.00 mm \[0.040 in\] Oversize, Part Number [[4024910]] |  |  |  |
+| Таблица 9, Набор подшипников к ржавчине 1,00 мм \[0,040 в\] Размер, номер детали[[4024910]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[3093034]] | 3 | 1.00 mm \[0.040 in\] | Thrust |
+| Номер детали | Количество | Размер | Наименование |
+| [[3093034]] | 3 | 1,00 мм \[0,040 in\] | ржавчина |
 
-| Table 10, Standard Connecting Rod Bearing Set, Part Number 4025322 |  |  |  |
+| Таблица 10, Стандартный комплект подшипников для соединительных штанги, номер детали 4025322 |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| 4067877 | 12 | Standard | Connecting rod |
+| Номер детали | Количество | Размер | Наименование |
+| 4067877 | 12 | Стандартный стандарт | Шатун |
 
-| Table 11, Connecting Rod Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number 4025324 |  |  |  |
+| Таблица 11, Подшипник подшипника подсоединения 0,25 мм \[0,010 в\] Размер, Часть Номер 4025324 |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| 4067879 | 12 | 0.25 mm \[0.010 in\] | Connecting rod |
+| Номер детали | Количество | Размер | Наименование |
+| 4067879 | 12 | 0,25 мм \[0,010 в\] | Шатун |
 
-| Table 12, Connecting Rod Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4025323]] |  |  |  |
+| Таблица 12, Подключение подшипникового набора 0,50 мм \[0,020 в\] Размер, номер детали[[4025323]] |  |  |  |
 |---|---|---|---|
-| Part Number | Quantity | Size | Description |
-| [[4067878]] | 12 | 0.50 mm \[0.020 in\] | Connecting rod |
+| Номер детали | Количество | Размер | Наименование |
+| [[4067878]] | 12 | 0,50 мм \[0,020 in\] | Шатун |
 
 ## Детали, упомянутые в документе
 
@@ -193,3 +204,98 @@ If one crankshaft main or connecting rod journal is undersize, all main or conne
 | [[4089070]] | Main Bearing Set | Комплект коренных вкладышей |
 | [[4089071]] | Main Bearing Set | Комплект коренных вкладышей |
 | [[4089072]] | Main Bearing Set | Комплект коренных вкладышей |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Main, Rod, and Thrust Bearing Part Numbers
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin supersedes topic 02T1-1; replace 02T1-1 with this topic.
+>
+> This Technical Service Bulletin changes the connecting rod bearing quantities in Tables 10, 11, and 12, from 24 to 12. The reason for the change is because the connecting rod bearing part numbers (4067877, 4067879, and [[4067878]]) are sold in sets of two.
+>
+> This Technical Service Bulletin revises the inspection criteria for the main bearing journals and provides a part number listing for main, connecting rod, and thrust bearings for the QST30 engines. The bearings described are all of the standard and oversize bearings available for the QST30 engine.
+>
+> Oversize bearings are available to allow for the crankshaft to be ground undersize if the outside diameter of the main and/or connecting rod bearing journals or the thrust distance is **not** within specifications. The specifications can be found in the QST30 Service Manual, Bulletin 4021539, Procedure 001-016 (Crankshaft). **Always** grind all of the main or connecting rod journals when one is **not** within specifications.
+>
+> If one crankshaft main or connecting rod journal is undersize, all main or connecting rod journals **must** be undersized the same amount. For this reason, oversize bearings are available **only** in complete kits. It is **not** necessary to use oversize thrust bearings when using oversize main bearings. It is also **not** necessary to use the same size oversize thrust bearings on both thrust faces of the crankshaft. However, the two thrust bearings used on the rear of main bearing number 7 **must** be of the same size.
+>
+> | Table 1, Standard Main Bearing Set, Part Number [[3804713]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3092877]] | 6 | Standard | Upper main |
+> | [[3092878]] | 6 | Standard | Lower main |
+> | [[3092879]] | 1 | Standard | Upper main, number 4 |
+> | [[3092880]] | 1 | Standard | Lower main, number 4 |
+> | [[3092881]] | 3 | Standard | Thrust |
+>
+> | Table 2, Main Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number [[4089070]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093188]] | 6 | 0.25 mm \[0.010 in\] | Upper main |
+> | [[3093192]] | 6 | 0.25 mm \[0.010 in\] | Lower main |
+> | [[3093196]] | 1 | 0.25 mm \[0.010 in\] | Upper main, number 4 |
+> | [[3093200]] | 1 | 0.25 mm \[0.010 in\] | Lower main, number 4 |
+> | [[3092881]] | 3 | Standard | Thrust |
+>
+> | Table 3, Main Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4089071]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093187]] | 6 | 0.50 mm \[0.020 in\] | Upper main |
+> | [[3093191]] | 6 | 0.50 mm \[0.020 in\] | Lower main |
+> | [[3093195]] | 1 | 0.50 mm \[0.020 in\] | Upper main, number 4 |
+> | [[3093199]] | 1 | 0.50 mm \[0.020 in\] | Lower main, number 4 |
+> | [[3092881]] | 3 | Standard | Thrust |
+>
+> | Table 4, Main Bearing Set 0.75 mm \[0.030 in\] Oversize, Part Number [[4089072]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093186]] | 6 | 0.75 mm \[0.030 in\] | Upper main |
+> | [[3093190]] | 6 | 0.75 mm \[0.030 in\] | Lower main |
+> | [[3093194]] | 1 | 0.75 mm \[0.030 in\] | Upper main, number 4 |
+> | [[3093198]] | 1 | 0.75 mm \[0.030 in\] | Lower main, number 4 |
+> | [[3092881]] | 3 | Standard | Thrust |
+>
+> | Table 5, Standard Thrust Bearing, Part Number [[3092881]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3092881]] | 1 | Standard | Thrust |
+>
+> | Table 6, Thrust Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number [[4024913]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093037]] | 3 | 0.25 mm \[0.010 in\] | Thrust |
+>
+> | Table 7, Thrust Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4024912]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093036]] | 3 | 0.50 mm \[0.020 in\] | Thrust |
+>
+> | Table 8, Thrust Bearing Set 0.75 mm \[0.030 in\] Oversize, Part Number [[4024911]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093035]] | 3 | 0.75 mm \[0.030 in\] | Thrust |
+>
+> | Table 9, Thrust Bearing Set 1.00 mm \[0.040 in\] Oversize, Part Number [[4024910]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[3093034]] | 3 | 1.00 mm \[0.040 in\] | Thrust |
+>
+> | Table 10, Standard Connecting Rod Bearing Set, Part Number 4025322 |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | 4067877 | 12 | Standard | Connecting rod |
+>
+> | Table 11, Connecting Rod Bearing Set 0.25 mm \[0.010 in\] Oversize, Part Number 4025324 |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | 4067879 | 12 | 0.25 mm \[0.010 in\] | Connecting rod |
+>
+> | Table 12, Connecting Rod Bearing Set 0.50 mm \[0.020 in\] Oversize, Part Number [[4025323]] |  |  |  |
+> |---|---|---|---|
+> | Part Number | Quantity | Size | Description |
+> | [[4067878]] | 12 | 0.50 mm \[0.020 in\] | Connecting rod |

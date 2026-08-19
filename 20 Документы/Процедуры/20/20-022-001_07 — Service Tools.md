@@ -13,12 +13,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_07.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-022-001_07.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -32,7 +35,15 @@ tags:
 > **Даты:** изменён 2014-10-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_07.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-022-001_07.pdf)
 
-### Lubricating Oil System
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Система смазки
 
 ![[3375049.png]]
 
@@ -46,10 +57,22 @@ tags:
 
 ![[07400102.png]]
 
-| **Tool Number** 3400157 | **Oil Filter Wrench** Used to remove spin-on oil filter. |  |
+| ** Инструментальный номер ** 3400157 | *** Нефтяной фильтр Wrench** Используется для удаления спин-на масляном фильтре. |  |
 |---|---|---|
-| **Tool Number** 5299024 | **Pressure Regulator Removal Tool** Used to remove retaining ring from lubricating oil pump regulator (on engine). |  |
-| **Tool Number** 3375182 | **Valve Spring Tester** Used to measure spring force at a given spring height. |  |
-| **Tool Number** 3376579 | **Filter Cutter** Used to open the spin-on full-flow filter for inspection. |  |
-| **Tool Number** 3376891 | **Fluorescent Tracer** Used to add to oil. Use with black light to find oil leaks. |  |
-| **Tool Number** 3375206 | **Lube Oil Boring Tool** Used to bore replacement bushings in the lube oil pump. |  |
+| **Инструментальный номер** 5299024 | ** Инструмент для удаления регулятора давления** Используется для удаления удерживающего кольца из регулятора насоса моторного масла (на двигателе). |  |
+| **Инструментальный номер ** 3375182 | ** Тестер для измерения силы пружины на заданной весенней высоте. |  |
+| **Инструментальный номер ** 3376579 | ** Фильтр Cutter** Используется для открытия спин-на полнопотоковом фильтре для проверки. |  |
+| ** Инструментальное число** 3376891 | ** Флуоресцентный трекер** Используется для добавления масла. Используйте черный свет, чтобы найти утечки масла. |  |
+| ** Номер инструмента ** 3375206 | ** Инструмент для смазки масла смазки** Используется для замены цилиндров в втулках в масляном насосе смазки. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Lubricating Oil System
+>
+> | **Tool Number** 3400157 | **Oil Filter Wrench** Used to remove spin-on oil filter. |  |
+> |---|---|---|
+> | **Tool Number** 5299024 | **Pressure Regulator Removal Tool** Used to remove retaining ring from lubricating oil pump regulator (on engine). |  |
+> | **Tool Number** 3375182 | **Valve Spring Tester** Used to measure spring force at a given spring height. |  |
+> | **Tool Number** 3376579 | **Filter Cutter** Used to open the spin-on full-flow filter for inspection. |  |
+> | **Tool Number** 3376891 | **Fluorescent Tracer** Used to add to oil. Use with black light to find oil leaks. |  |
+> | **Tool Number** 3375206 | **Lube Oil Boring Tool** Used to bore replacement bushings in the lube oil pump. |  |

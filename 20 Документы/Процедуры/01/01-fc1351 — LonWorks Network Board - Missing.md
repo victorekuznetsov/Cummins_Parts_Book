@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1351.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1351.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # LonWorks Network Board - Missing
@@ -33,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1351.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1351.pdf)
 
-### Fault Code: 1351
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### LonWorks Network Board - Missing
 
-Printable Version
+### Код неисправности: 1351
 
-### Overview
+### Плата сети LonWorks — отсутствует
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1351 PID(P): SPN: FMI: Lamp: Shutdown SRT: | The LonWorks Network board is missing. | The generator set will **not** be able to communicate with other devices on the LonWorks Network. |
+| Код неисправности: 1351 PID (P): СПН: ФМИ: Лампа: Отключение SRT: | Сетевой совет LonWorks отсутствует. | Генераторная установка будет **не** иметь возможность общаться с другими устройствами в сети LonWorks. |
 
 ![[19802792.png]]
 
-Generator Set ECM LonWorks Network Board
+Генератор ECM LonWorks Network Board
 
-### Circuit Description
+### Описание цепи
 
-Once the software has been loaded into the ECM, the software will do a hardware check to make sure that all necessary cards are installed for the application.
+После того, как программное обеспечение было загружено в ECM, программное обеспечение проведет аппаратную проверку, чтобы убедиться, что все необходимые карты установлены для приложения.
 
-This fault code is used by the ECM to tell the operator that the LonWorks Network board (slot 4) is missing.
+Этот код используется ECM, чтобы сообщить оператору, что доска LonWorks Network (слот 4) отсутствует.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the ECM card cage and the LonWorks Network board (slot 4).
+См. раздел E для определения местоположения клетки карты ECM и платы сети LonWorks (слот 4).
 
-### Shoptalk
+### Практические замечания
 
-The possible failure mode is that the LonWorks Network board has lost its independent power supply.
+Возможный режим отказа заключается в том, что доска LonWorks Network потеряла независимое электроснабжение.
 
-Refer to Troubleshooting Fault Code t05-1351
+См. Код устранения неполадок t05-1351
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1351
+>
+> ### LonWorks Network Board - Missing
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1351 PID(P): SPN: FMI: Lamp: Shutdown SRT: | The LonWorks Network board is missing. | The generator set will **not** be able to communicate with other devices on the LonWorks Network. |
+>
+> Generator Set ECM LonWorks Network Board
+>
+> ### Circuit Description
+>
+> Once the software has been loaded into the ECM, the software will do a hardware check to make sure that all necessary cards are installed for the application.
+>
+> This fault code is used by the ECM to tell the operator that the LonWorks Network board (slot 4) is missing.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the ECM card cage and the LonWorks Network board (slot 4).
+>
+> ### Shoptalk
+>
+> The possible failure mode is that the LonWorks Network board has lost its independent power supply.
+>
+> Refer to Troubleshooting Fault Code t05-1351

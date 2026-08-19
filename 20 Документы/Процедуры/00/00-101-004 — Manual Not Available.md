@@ -14,12 +14,15 @@ families:
 manuals:
   - "3666134"
   - "4915520"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-004.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -33,8 +36,24 @@ tags:
 > **Даты:** изменён 2012-08-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-101-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-101-004.pdf)
 
-## **Cold Weather Starting (00-101-004)**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 06-Aug-2012
+## ** Холодная погода (00-101-004)**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 06-Авг-2012
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **Cold Weather Starting (00-101-004)**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 06-Aug-2012

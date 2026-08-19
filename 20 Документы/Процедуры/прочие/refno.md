@@ -29,6 +29,7 @@ manuals:
   - "4915520"
   - "4915544"
   - "4915548"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/refno.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/refno.pdf"
 tags:

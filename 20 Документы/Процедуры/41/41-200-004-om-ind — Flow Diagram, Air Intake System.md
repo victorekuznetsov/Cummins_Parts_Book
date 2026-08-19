@@ -14,12 +14,15 @@ manuals:
   - "2883407"
   - "4021330"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-004-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-004-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -33,25 +36,54 @@ tags:
 > **Даты:** изменён 2012-06-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-004-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-004-om-ind.pdf)
 
-### Engine Views
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
+
+### Двигатель Views
+
+Промышленное применение
 
 ![[10900277.png]]
 
-1. Intake air inlet to turbocharger
-2. Turbocharger air to charge air cooler
-3. Charge air cooler
-4. Intake manifold - integral part of cylinder head
-5. Intake valve.
+1. Впуск воздуха в турбокомпрессор
+2. Турбонаддув воздух для зарядки воздушного охладителя
+3. Зарядка воздушного охладителя
+4. Коллектор впуска - неотъемлемая часть головки цилиндра
+5. Впускной клапан.
 
-Marine Applications
+Судовое применение
 
 ![[10900284.png]]
 
-Sea Water Aftercooled
+Морская вода после охлаждения
 
-1. Intake valve
-2. Intake air inlet to turbocharger
-3. Turbocharger air to aftercooler
-4. Aftercooler to intake manifold.
+1. Впускной клапан
+2. Впуск воздуха в турбокомпрессор
+3. Воздух турбокомпрессора после охлаждения
+4. Послеохладитель к коллектору для приема.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Views
+>
+> Industrial Applications
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger air to charge air cooler
+> 3. Charge air cooler
+> 4. Intake manifold - integral part of cylinder head
+> 5. Intake valve.
+>
+> Marine Applications
+>
+> Sea Water Aftercooled
+>
+> 1. Intake valve
+> 2. Intake air inlet to turbocharger
+> 3. Turbocharger air to aftercooler
+> 4. Aftercooler to intake manifold.

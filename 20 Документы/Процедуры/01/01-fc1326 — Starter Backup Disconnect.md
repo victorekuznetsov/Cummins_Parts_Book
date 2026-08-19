@@ -14,12 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1326.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1326.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Starter Backup Disconnect
@@ -33,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1326.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1326.pdf)
 
-### Fault Code: 1326
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Starter Backup Disconnect
 
-Printable Version
+### Код неисправности: 1326
 
-### Overview
+### Резервный размыкатель стартера
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1326 PID(P): SPN: FMI: Lamp: Warning SRT: | The starter backup disconnect has failed. | No action is taken by the ECM. Possible damage can occur to the starter. |
+| Код неисправности: 1326 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Отключение стартового резервного копирования не удалось. | Никаких действий со стороны ЕКМ не предпринимается. Возможные повреждения могут возникнуть у стартера. |
 
 ![[19802801.png]]
 
-Starter Circuit
+Стартовый круг
 
-### Circuit Description
+### Описание цепи
 
-The generator set starter has two disconnects: The starter main disconnect and a backup. This fault code is used by the ECM to inform the operator that the backup starter disconnect has failed, engine speed is above 950 rpm, and backup start disconnect is still connected. Therefore, if the main starter disconnect fails, damage can possibly occur to the starter.
+Стартер генераторной установки имеет два отключения: Стартерный главный отключается и резервная копия. Этот код неисправности используется ECM для информирования оператора о том, что отключение стартера резервного копирования вышло из строя, скорость двигателя выше 950 об/мин, а отключение старта резервного копирования все еще подключено. Поэтому, если основное стартер отключение не удается, повреждение может произойти для стартера.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the starter backup disconnect
+См. раздел E для определения местоположения отключения стартового резервного копирования
 
-### Shoptalk
+### Практические замечания
 
-Where the main starter disconnect gets commanded by the engine speed sensor, the backup starter disconnect gets commanded by the PMG excitation voltage sent to the voltage regulator. This excitation voltage occurs once the engine has started and the alternator rotor is turning. The backup starter disconnect activates once the PMG voltage is 105 VAC or higher.
+Там, где основным стартерным отключением управляет датчик скорости двигателя, резервным стартерным отключением управляет напряжение возбуждения PMG, отправленное в регулятор напряжения. Это напряжение возбуждения возникает после запуска двигателя и поворота ротора генератора. Резервный стартер отключается, как только напряжение PMG составляет 105 VAC или выше.
 
-The possible failure modes are open circuit, short to ground, and failed voltage regulator.
+Возможные режимы отказа - это открытая схема, короткая к земле и неисправный регулятор напряжения.
 
-Refer to Troubleshooting Fault Code t05-1326
+См. Код устранения неполадок t05-1326
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1326
+>
+> ### Starter Backup Disconnect
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1326 PID(P): SPN: FMI: Lamp: Warning SRT: | The starter backup disconnect has failed. | No action is taken by the ECM. Possible damage can occur to the starter. |
+>
+> Starter Circuit
+>
+> ### Circuit Description
+>
+> The generator set starter has two disconnects: The starter main disconnect and a backup. This fault code is used by the ECM to inform the operator that the backup starter disconnect has failed, engine speed is above 950 rpm, and backup start disconnect is still connected. Therefore, if the main starter disconnect fails, damage can possibly occur to the starter.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the starter backup disconnect
+>
+> ### Shoptalk
+>
+> Where the main starter disconnect gets commanded by the engine speed sensor, the backup starter disconnect gets commanded by the PMG excitation voltage sent to the voltage regulator. This excitation voltage occurs once the engine has started and the alternator rotor is turning. The backup starter disconnect activates once the PMG voltage is 105 VAC or higher.
+>
+> The possible failure modes are open circuit, short to ground, and failed voltage regulator.
+>
+> Refer to Troubleshooting Fault Code t05-1326

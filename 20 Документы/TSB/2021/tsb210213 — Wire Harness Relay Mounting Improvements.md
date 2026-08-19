@@ -17,12 +17,15 @@ parts:
   - "3062329"
   - "3658780"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210213.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210213.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2021"
+  - "перевод/машинный"
   - "тема/electrical-equipment"
 ---
 
@@ -36,46 +39,54 @@ tags:
 > **Даты:** выпущен 2021-10-06 · изменён 2021-10-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210213.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210213.pdf)
 
-## Wire Harness Relay Mounting Improvements
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Улучшения крепления реле жгута проводов
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QST30 CM552
 - QST30 CM850
 
-**Issue Summary**
+** Резюме проблемы**
 
-Wire harness relay, Part Number [[3658780]], can become partially disconnected causing contact malfunction.
+Реле проводной проводов, часть номер[[3658780]], может стать частично отключенным, вызывая неисправность контакта.
 
-Symptom:
+Симптом:
 
-- Low Power or No Power
+- Низкая мощность или нет
 
-Root Cause:
+Первопричина:
 
-- Relay contact malfunction
+- Неисправность ретранслятора контакта
 
-**Resolution**
+**Решение**
 
-- If wiring harness relay has already malfunctioned, replace the wiring harness relay. See corresponding Service Manual. Reference Section 019-211 in Section 19.
-- Wire ties can be added to improve wiring harness relay support and prevent contact malfunction.
-- Add quantity three of part number [[3062329]] as instructed:
+- Если реле жгута проводов уже неисправно, замените реле реле жгута проводов. См. соответствующее Руководство по обслуживанию. Справочная статья 019-211 в разделе 19.
+- Проводные связи могут быть добавлены для улучшения поддержки реле проводов и предотвращения неисправности контакта.
+- Добавить номер три части[[3062329]]как было указано:
 
 ![[13r00152.png]]
 
-Figure 1, Wire Tie Placement on Wiring Harness Relay.
+Рисунок 1 Размещение проводной связи на реле Wiring Harness.
 
 ![[13r00153.png]]
 
-Figure 2, Production Solution on Wiring Harness Relay.
+Рисунок 2, Производственное решение на реле Харнесс проводов.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -83,3 +94,41 @@ Figure 2, Production Solution on Wiring Harness Relay.
 |---|---|---|
 | [[3062329]] | WIRE TIE CLAMP | Хомут-стяжка для проводов |
 | [[3658780]] | RELAY | Реле |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Wire Harness Relay Mounting Improvements
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QST30 CM552
+> - QST30 CM850
+>
+> **Issue Summary**
+>
+> Wire harness relay, Part Number [[3658780]], can become partially disconnected causing contact malfunction.
+>
+> Symptom:
+>
+> - Low Power or No Power
+>
+> Root Cause:
+>
+> - Relay contact malfunction
+>
+> **Resolution**
+>
+> - If wiring harness relay has already malfunctioned, replace the wiring harness relay. See corresponding Service Manual. Reference Section 019-211 in Section 19.
+> - Wire ties can be added to improve wiring harness relay support and prevent contact malfunction.
+> - Add quantity three of part number [[3062329]] as instructed:
+>
+> Figure 1, Wire Tie Placement on Wiring Harness Relay.
+>
+> Figure 2, Production Solution on Wiring Harness Relay.
+>
+> ### Document History

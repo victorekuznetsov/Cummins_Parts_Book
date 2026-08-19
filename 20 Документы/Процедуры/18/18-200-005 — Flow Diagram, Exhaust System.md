@@ -17,6 +17,8 @@ manuals:
   - "3666120"
   - "3810497"
 figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-200-005.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-200-005.pdf"
 tags:
@@ -24,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Exhaust System
@@ -37,22 +40,48 @@ tags:
 > **Даты:** изменён 2006-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-200-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-200-005.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[11400066.png]]
 
-Exhaust System
+Система выпуска
 
-1. Exhaust valve ports
-2. Exhaust manifold
-3. Turbocharger exhaust outlet.
+1. Порты выхлопных клапанов
+2. Выпускной коллектор
+3. Выхлопная труба турбокомпрессора.
 
 ![[11400067.png]]
 
-KTTA Exhaust System
+Выхлопная система KTTA
 
-1. Exhaust valve ports
-2. Exhaust manifold
-3. High stage turbocharger
-4. Low stage turbocharger
-5. Turbocharger exhaust outlet.
+1. Порты выхлопных клапанов
+2. Выпускной коллектор
+3. Турбокомпрессор высокой ступени
+4. турбокомпрессор низкой ступени
+5. Выхлопная труба турбокомпрессора.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Exhaust System
+>
+> 1. Exhaust valve ports
+> 2. Exhaust manifold
+> 3. Turbocharger exhaust outlet.
+>
+> KTTA Exhaust System
+>
+> 1. Exhaust valve ports
+> 2. Exhaust manifold
+> 3. High stage turbocharger
+> 4. Low stage turbocharger
+> 5. Turbocharger exhaust outlet.
