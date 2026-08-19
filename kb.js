@@ -17,7 +17,22 @@ var NAMES  = window.KB_NAMES || {};
 var PHOTOS = {};
 (window.KB_PHOTOS || []).forEach(function (n) { PHOTOS[n] = 1; });
 window.KB_BODY = window.KB_BODY || {};
+window.KB_BODY_RU = window.KB_BODY_RU || {};
 window.KB_MACHINE = window.KB_MACHINE || {};
+
+var LANG = "ru";
+try { LANG = localStorage.getItem("cummins_lang") || "ru"; } catch (e) {}
+function setLang(v) {
+  LANG = v === "en" ? "en" : "ru";
+  try { localStorage.setItem("cummins_lang", LANG); } catch (e) {}
+  var box = document.getElementById("lang-switch");
+  if (box) {
+    Array.prototype.forEach.call(box.querySelectorAll("button"), function (b) {
+      b.classList.toggle("on", b.getAttribute("data-lang") === LANG);
+    });
+  }
+  document.body.classList.toggle("lang-en", LANG === "en");
+}
 
 var CAT_RU = {
   procedures: "Процедура", tsb: "TSB", bulletin: "Сервисный бюллетень",
@@ -67,8 +82,9 @@ function engineLink(esn) {
          (ENGINE_TITLE[esn] ? " · " + esc(ENGINE_TITLE[esn]) : "") + "</a>";
 }
 function docTitle(d, id) {
-  return (d.ru ? esc(d.ru) : "") + (d.ru ? ' <span class="sub">— ' : '<span class="sub">') +
-         esc(d.t || id) + "</span>";
+  var main = LANG === "en" ? (d.t || id) : (d.ru || d.t || id);
+  var sub = LANG === "en" ? (d.ru || "") : (d.ru ? d.t : "");
+  return esc(main) + (sub ? ' <span class="sub">— ' + esc(sub) + "</span>" : "");
 }
 function sortIds(ids) {
   return (ids || []).slice().sort(function (a, b) {
@@ -110,10 +126,14 @@ function loadScript(src, cb) {
 }
 function withBody(id, cb) {
   var d = DOCS[id];
-  if (!d || d.ch < 0) { cb(""); return; }
-  if (window.KB_BODY[d.ch]) { cb(window.KB_BODY[d.ch][id] || ""); return; }
-  loadScript("data/kb/body_" + d.ch + ".js", function () {
-    cb((window.KB_BODY[d.ch] || {})[id] || "");
+  if (!d || d.ch < 0) { cb("", "en"); return; }
+  var ru = LANG === "ru" && d.ru_body;
+  var store = ru ? window.KB_BODY_RU : window.KB_BODY;
+  var file = ru ? "data/kb/body_ru_" + d.ch + ".js" : "data/kb/body_" + d.ch + ".js";
+  if (store[d.ch]) { cb(store[d.ch][id] || "", ru ? "ru" : "en"); return; }
+  loadScript(file, function () {
+    var s2 = ru ? window.KB_BODY_RU : window.KB_BODY;
+    cb((s2[d.ch] || {})[id] || "", ru ? "ru" : "en");
   });
 }
 function withMachine(name, cb) {
@@ -292,8 +312,10 @@ function viewDoc(id) {
                  { t: id }]));
   h.push('<article class="kb-doc">');
   h.push('<header class="doc-head">');
-  h.push("<h1>" + esc(d.ru || d.t) + "</h1>");
-  if (d.ru) h.push('<div class="doc-en">' + esc(d.t) + "</div>");
+  var mainTitle = LANG === "en" ? d.t : (d.ru || d.t);
+  var subTitle = LANG === "en" ? (d.ru || "") : (d.ru ? d.t : "");
+  h.push("<h1>" + esc(mainTitle) + "</h1>");
+  if (subTitle) h.push('<div class="doc-en">' + esc(subTitle) + "</div>");
   h.push('<div class="doc-meta">' + badge(d.c) + '<span class="num">' + esc(id) + "</span>" +
     (d.d ? '<span class="mi">выпущен ' + esc(d.d) + "</span>" : "") +
     (d.mo ? '<span class="mi">изменён ' + esc(d.mo) + "</span>" : "") +
@@ -317,9 +339,20 @@ function viewDoc(id) {
   h.push('<aside class="doc-side" id="doc-side">' + docSide(id, d) + "</aside>");
   render('<div class="doc-layout">' + h.join("") + "</div>");
 
-  withBody(id, function (body) {
+  withBody(id, function (body, lang) {
     var box = document.getElementById("doc-body");
-    if (box) box.innerHTML = body || '<p class="sub">Текст документа не выгружен.</p>';
+    if (!box) return;
+    var head = "";
+    if (lang === "ru") {
+      head = '<div class="mt-note">Черновой перевод: выполнен автоматически, ' +
+        'терминология выверена по словарю Cummins. Спорные места сверяйте с ' +
+        'оригиналом — <a href="#" data-lang-set="en">показать английский текст</a>' +
+        ' или <a href="' + esc(d.u) + '" target="_blank" rel="noopener">открыть в QuickServe ↗</a>.</div>';
+    } else if (d.ru_body) {
+      head = '<div class="mt-note">Оригинал Cummins. ' +
+        '<a href="#" data-lang-set="ru">показать перевод на русский</a>.</div>';
+    }
+    box.innerHTML = head + (body || '<p class="sub">Текст документа не выгружен.</p>');
   });
 }
 
@@ -745,8 +778,12 @@ function viewMachineService(name, code) {
       esc(s.t) + '</h1><div class="doc-meta"><span class="tag t-procedures">Ремонт машины</span>' +
       '<a class="chip" href="#/msec/' + name + "/" + esc(code) +
       '">раздел каталога ' + esc(code) + "</a></div></header>");
-    h.push('<div class="doc-body">' + (s.b || '<p class="sub">Текст не выгружен.</p>') +
-           "</div></article>");
+    var note = LANG === "en"
+      ? '<div class="mt-note">This repair instruction exists only in Russian — ' +
+        "it comes from the machine manufacturer's manual, not from QuickServe.</div>"
+      : "";
+    h.push('<div class="doc-body">' + note +
+           (s.b || '<p class="sub">Текст не выгружен.</p>') + "</div></article>");
     render('<div class="doc-layout">' + h.join("") + "</div>");
   });
 }
@@ -1017,6 +1054,12 @@ document.addEventListener("click", function (e) {
     api.selectEngine(a.getAttribute("data-open-engine"));
     return;
   }
+  if (a.hasAttribute("data-lang-set")) {
+    e.preventDefault();
+    setLang(a.getAttribute("data-lang-set"));
+    route();
+    return;
+  }
   if (a.id === "nav-catalog") {
     e.preventDefault();
     setMode(false);
@@ -1047,6 +1090,8 @@ window.addEventListener("hashchange", route);
 /* ------------------------------------------------------- внешний API */
 window.KB = {
   active: active,
+  lang: function () { return LANG; },
+  setLang: function (v) { setLang(v); route(); },
   search: function (q) {
     lastQuery = q;
     if (q && q.trim().length >= 2) location.hash = "#/search/" + encodeURIComponent(q);
@@ -1098,5 +1143,15 @@ window.KB = {
   route: route
 };
 
+setLang(LANG);
+var langBox = document.getElementById("lang-switch");
+if (langBox) {
+  langBox.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-lang]");
+    if (!b) return;
+    setLang(b.getAttribute("data-lang"));
+    route();
+  });
+}
 route();
 })();

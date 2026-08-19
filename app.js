@@ -179,9 +179,9 @@ function renderTree() {
       if (!o) return;
       var a = el("div", "tree-opt");
       var ruOpt = optionRu(no);
-      a.appendChild(el("span", null, ruOpt || o.name));
-      if (ruOpt) a.appendChild(el("span", "no", o.name));
-      a.appendChild(el("span", "no", no + " · позиций: " + o.parts.length));
+      a.appendChild(el("span", ruOpt ? "n-ru" : "n-en", ruOpt || o.name));
+      if (ruOpt) a.appendChild(el("span", "no n-en", o.name));
+      a.appendChild(el("span", "no n-meta", no + " · позиций: " + o.parts.length));
       a.dataset.no = no;
       a.onclick = function () { openOption(no); };
       list.appendChild(a);
@@ -222,8 +222,8 @@ function openOption(no, focusPart) {
 
   var ruOpt = optionRu(o.no);
   $("opt-name").innerHTML = "";
-  $("opt-name").appendChild(document.createTextNode(ruOpt || o.name));
-  if (ruOpt) $("opt-name").appendChild(el("span", "opt-en", o.name));
+  $("opt-name").appendChild(el("span", ruOpt ? "n-ru" : "n-en", ruOpt || o.name));
+  if (ruOpt) $("opt-name").appendChild(el("span", "opt-en n-en", o.name));
   var meta = "Вариант исполнения " + o.no + " · позиций: " + o.parts.length;
   if (o.systems && o.systems.length) meta += " · система: " + o.systems.join(", ");
   $("opt-meta").textContent = meta;
@@ -313,8 +313,8 @@ function renderParts(o, focusPart) {
     var tdName = el("td", "c-name");
     var ruName = (window.KB && p.no) ? window.KB.ruPart(p.no) : "";
     if (ruName) {
-      tdName.appendChild(el("span", "ru-name", ruName));
-      tdName.appendChild(el("span", "dim", p.name || ""));
+      tdName.appendChild(el("span", "ru-name n-ru", ruName));
+      tdName.appendChild(el("span", "dim n-en", p.name || ""));
     } else {
       tdName.appendChild(document.createTextNode(p.name || ""));
     }
