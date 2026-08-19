@@ -125,9 +125,21 @@ def main():
             return note_route[target]
         return None
 
+    # номера документов в тексте: процедуры, TSB, руководства и артикулы
+    doc_ids = {d["id"] for d in docs.values() if d["cat"] != "manual"}
+    man_ids = {d["id"].replace("-history", "") for d in docs.values()
+               if d["cat"] == "manual"}
+
+    def ref(kind, num):
+        if kind == "manual":
+            if num in man_ids:
+                return f"#/manual/{num}"
+            return f"#/part/{num}" if num in parts else None
+        return f"#/doc/{num}" if num in doc_ids else None
+
     media = media_map()
     manuals_rows = toc
-    rend = Renderer(resolve, image_url)
+    rend = Renderer(resolve, image_url, ref)
 
     # ------------------------------------------------- документы: индекс и тела
     order = sorted(docs.keys())
@@ -357,7 +369,7 @@ def rend_machine(base, machine, names):
     def image(name):
         real = names.get(os.path.splitext(name)[0])
         return (f"assets/machines/{machine}/{real}" if real else None), ""
-    return Renderer(base.resolve, image)
+    return Renderer(base.resolve, image, base.ref)
 
 
 if __name__ == "__main__":

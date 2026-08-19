@@ -31,12 +31,68 @@ CALLOUT_RU = {
 }
 
 
+# ------------------------------------------------- ссылки по номерам в тексте
+TAG = re.compile(r"<[^>]+>")
+REF_PROC = re.compile(r"\b(\d{2,3}-\d{3}-\d{3}(?:-[a-zA-Z]{2})?)\b")
+REF_TSB = re.compile(r"\bTSB[\s\u00a0]?(\d{6})\b", re.I)
+REF_MAN = re.compile(r"\b(\d{7})\b")
+
+
+def linkify_refs(text, ref):
+    """Номера процедур, TSB и руководств в тексте — ссылками.
+
+    ref(kind, номер) возвращает адрес либо None, если такого документа нет.
+    """
+    def proc(m):
+        href = ref("doc", m.group(1))
+        return f'<a class="lnk doc" href="{href}">{m.group(1)}</a>' if href else m.group(0)
+
+    def tsb(m):
+        href = ref("doc", "tsb" + m.group(1))
+        return (f'<a class="lnk tsb" href="{href}">{m.group(0)}</a>') if href else m.group(0)
+
+    def man(m):
+        href = ref("manual", m.group(1))
+        return f'<a class="lnk man" href="{href}">{m.group(1)}</a>' if href else m.group(0)
+
+    text = REF_TSB.sub(tsb, text)
+    text = REF_PROC.sub(proc, text)
+    return REF_MAN.sub(man, text)
+
+
+def linkify_html(src, ref):
+    """Проставляет ссылки только в свободном тексте: внутрь уже готовых
+    ссылок, кода и атрибутов тегов не лезем."""
+    out = []
+    a = code = 0
+    pos = 0
+    for m in TAG.finditer(src):
+        chunk = src[pos:m.start()]
+        out.append(chunk if (a or code) else linkify_refs(chunk, ref))
+        t = m.group(0)
+        low = t[:6].lower()
+        if low.startswith("<a"):
+            a += 1
+        elif low.startswith("</a"):
+            a = max(0, a - 1)
+        elif low.startswith("<code"):
+            code += 1
+        elif low.startswith("</code"):
+            code = max(0, code - 1)
+        out.append(t)
+        pos = m.end()
+    tail = src[pos:]
+    out.append(tail if (a or code) else linkify_refs(tail, ref))
+    return "".join(out)
+
+
 class Renderer:
     """resolve(target) -> (href, css_class, label) либо None для обычного текста."""
 
-    def __init__(self, resolve, image_url):
+    def __init__(self, resolve, image_url, ref=None):
         self.resolve = resolve
         self.image_url = image_url
+        self.ref = ref
 
     # ---------------------------------------------------------- инлайн
     def inline(self, text):
@@ -159,7 +215,8 @@ class Renderer:
                 i += 1
             out.append(f"<p>{self.inline(' '.join(para))}</p>")
 
-        return "".join(out)
+        html_out = "".join(out)
+        return linkify_html(html_out, self.ref) if self.ref else html_out
 
     def _table(self, rows):
         cells = []

@@ -24,6 +24,47 @@ def engine_note_names(cat_state):
     return out
 
 
+# ------------------------------- номера документов в тексте -> wiki-ссылки
+PROT = re.compile(r"\[\[[^\]]*\]\]|`[^`]*`|\]\([^)]*\)|https?://\S+")
+REF_PROC = re.compile(r"\b(\d{2,3}-\d{3}-\d{3}(?:-[a-zA-Z]{2})?)\b")
+REF_TSB = re.compile(r"\bTSB[\s\u00a0]?(\d{6})\b", re.I)
+REF_MAN = re.compile(r"\b(\d{7})\b")
+
+
+def make_linkifier(note_of):
+    """note_of(вид, номер) -> имя заметки либо None."""
+
+    def one(text):
+        def proc(m):
+            n = note_of("doc", m.group(1))
+            return f"[[{n}\\|{m.group(1)}]]" if n else m.group(0)
+
+        def tsb(m):
+            n = note_of("doc", "tsb" + m.group(1))
+            return f"[[{n}\\|{m.group(0)}]]" if n else m.group(0)
+
+        def man(m):
+            n = note_of("manual", m.group(1))
+            return f"[[{n}\\|{m.group(1)}]]" if n else m.group(0)
+
+        text = REF_TSB.sub(tsb, text)
+        text = REF_PROC.sub(proc, text)
+        return REF_MAN.sub(man, text)
+
+    def run(md):
+        """Подставляет ссылки только вне уже готовых ссылок и кода."""
+        out = []
+        pos = 0
+        for m in PROT.finditer(md):
+            out.append(one(md[pos:m.start()]))
+            out.append(m.group(0))
+            pos = m.end()
+        out.append(one(md[pos:]))
+        return "".join(out)
+
+    return run
+
+
 def en_fold(body):
     """Английский оригинал в свёрнутом callout.
 
@@ -88,6 +129,20 @@ def main():
     for key, d in docs.items():
         if d["cat"] == "manual":
             manual_titles[d["id"].replace("-history", "")] = d
+
+    # номер документа в тексте -> имя заметки, на которую ставим ссылку
+    note_by_doc = {}
+    note_by_man = {}
+    for key, d in docs.items():
+        if d["cat"] == "manual":
+            note_by_man[d["id"].replace("-history", "")] = d["note"]
+        else:
+            note_by_doc[d["id"]] = d["note"]
+
+    def note_of(kind, num):
+        return note_by_man.get(num) if kind == "manual" else note_by_doc.get(num)
+
+    linkify = make_linkifier(note_of)
 
     written = 0
     for key, d in sorted(docs.items()):
@@ -226,10 +281,10 @@ def main():
             body = "\n".join(out)
 
         if body_ru:
-            text = ("\n".join(head) + "\n" + body_ru + "\n" + parts_block
-                    + "\n" + en_fold(body))
+            text = ("\n".join(head) + "\n" + linkify(body_ru) + "\n" + parts_block
+                    + "\n" + linkify(en_fold(body)))
         else:
-            text = "\n".join(head) + "\n" + body + "\n" + parts_block
+            text = "\n".join(head) + "\n" + linkify(body) + "\n" + parts_block
         write_note(os.path.join(doc_folder(cat, did, d), note + ".md"), text)
         written += 1
 
