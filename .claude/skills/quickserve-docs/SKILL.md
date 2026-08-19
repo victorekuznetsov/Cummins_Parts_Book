@@ -129,3 +129,19 @@ commit them.
 `add_procedures.py` (manual procedures), `download_docs.py` (render→PDF+HTML),
 `qs_api.py` (raw API calls with the saved session). See memory
 `cummins-parts-catalog` for the parts-catalog side of the project.
+
+## Where this can run (verified 2026-08-19)
+
+Run it on the user's own machine. In the Claude Code cloud sandbox the whole
+workflow is blocked at step 1: the bundled Chromium has no outbound network at
+all (`ERR_CONNECTION_RESET` on any external host, with or without the agent
+proxy), so neither the QSOL login nor the render-to-PDF pass can start.
+Plain HTTP clients (`curl`, `requests`, `urllib`) do reach the network through
+the proxy — that is enough for static assets such as
+`parts.cummins.com/graphics/parts/<nnn>/<esn>/<file>.png`, but not for QSOL
+document pages, which return only the 1.3 KB shell without a browser.
+
+The parts catalog API has the same constraint from the other side:
+`parts.cummins.com/gateway/api/IACDataServices/engine/<ESN>` answers 403 to a
+plain client. `GET /gateway/auth/csrf` does set an `XSRF-TOKEN` cookie, but the
+call still fails with that token alone — a real browser session is required.
