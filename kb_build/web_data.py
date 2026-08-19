@@ -177,7 +177,7 @@ def main():
             "pdf": d.get("pdf_rel", ""),
             "ok": 1 if d.get("present") else 0,
             "ch": chunk_of.get(did, -1),
-            "ru_body": 1 if body_ru else 0,
+            "ru_body": 1 if (body_ru and cat != "manual") else 0,
         }
         stats[cat] += 1
 
