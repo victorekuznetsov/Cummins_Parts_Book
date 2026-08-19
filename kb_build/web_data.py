@@ -326,9 +326,8 @@ def main():
 
     js("data/kb_media.js", "window.KB_MEDIA", media)
 
-    # какие фотографии деталей есть локально (остальные — с CDN Cummins)
-    photo_dir = os.path.join(os.environ.get("KB_VAULT", "/home/user/kb_vault"),
-                             "90 Приложения", "Фото деталей")
+    # какие фотографии деталей лежат локально
+    photo_dir = os.path.join(WEB, "assets", "photos")
     photos = sorted(os.path.splitext(f)[0] for f in os.listdir(photo_dir)) \
         if os.path.isdir(photo_dir) else []
     js("data/kb_photos.js", "window.KB_PHOTOS", photos)
