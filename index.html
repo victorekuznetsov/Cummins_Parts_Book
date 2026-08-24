@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Каталог запасных частей Cummins</title>
+<title>Каталог запасных частей и база знаний Cummins</title>
 <link rel="icon" href="brand/razvitie-mark.svg">
 <link rel="stylesheet" href="styles.css">
 <script>
@@ -29,18 +29,30 @@
       <img class="logo-dark"  src="brand/razvitie-dark.svg"  alt="Развитие" width="82" height="34">
     </span>
     <div class="brand-text">
-      <div class="brand-title">Каталог запасных частей Cummins</div>
+      <div class="brand-title">Каталог запчастей и база знаний Cummins</div>
       <div class="brand-sub">
         <select id="engine-select" title="Выбрать двигатель"></select>
       </div>
     </div>
   </div>
+  <nav class="kb-nav" id="kb-nav">
+    <a id="nav-catalog" class="on" href="#/catalog">Каталог</a>
+    <a href="#/kb">База знаний</a>
+    <a href="#/docs/all">Документы</a>
+    <a href="#/machines">Машины</a>
+    <a href="#/fleet">Парк</a>
+    <a href="#/parts">Детали</a>
+  </nav>
   <div class="search-box">
     <input id="search" type="search" autocomplete="off"
            placeholder="Поиск по номеру детали или наименованию…">
     <button id="search-clear" class="btn-plain" title="Очистить">✕</button>
   </div>
   <div class="topbar-tools">
+    <span id="lang-switch" class="lang-switch" title="Язык документов">
+      <button type="button" data-lang="ru" class="on">RU</button>
+      <button type="button" data-lang="en">EN</button>
+    </span>
     <button id="theme-toggle" class="btn-icon" title="Светлая / тёмная тема" aria-label="Переключить тему">
       <svg class="ico-sun" viewBox="0 0 24 24" width="18" height="18" fill="none"
            stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -63,6 +75,8 @@
 </header>
 
 <div class="passport" id="passport"></div>
+
+<div id="kb-root" class="kb-root"></div>
 
 <main class="layout">
   <aside class="sidebar">
@@ -230,6 +244,19 @@
 <script src="data/37292556.js"></script>
 <script src="data/93058669.js"></script>
 <script src="data/37295879.js"></script>
+<script>window.KB_BODY={};window.KB_BODY_RU={};window.KB_MACHINE={};</script>
+<script src="data/kb_docs.js"></script>
+<script src="data/kb_manuals.js"></script>
+<script src="data/kb_parts.js"></script>
+<script src="data/kb_names.js"></script>
+<script src="data/kb_mparts.js"></script>
+<script src="data/kb_machines.js"></script>
+<script src="data/kb_fleet.js"></script>
+<script src="data/kb_media.js"></script>
+<script src="data/kb_photos.js"></script>
+<script src="data/kb_topics.js"></script>
+<script src="data/kb_search.js"></script>
+<script src="kb.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

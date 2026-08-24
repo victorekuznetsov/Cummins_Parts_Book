@@ -42,7 +42,29 @@ function engineLabel(e) {
   return (e.machine ? e.machine + " · " : "") + e.model + " · ESN " + e.esn;
 }
 function drawingSrc(esn, file) { return "drawings/" + esn + "/" + file; }
+/* Фото деталей: сперва локальная копия по двигателю (parts/<esn>/<file>,
+   собрана по каждому ESN отдельно, все ракурсы) — она есть почти всегда.
+   Если её нет, пробуем общую фототеку базы знаний (assets/photos/…), а
+   в последнюю очередь — публичный CDN Cummins (может не отдавать по
+   чужому Referer). */
 function photoSrc(esn, file) { return "parts/" + esn + "/" + file; }
+function photoCdn(file) {
+  var num = String(file).split("_")[0];
+  if (!num) return "";
+  return "https://parts.cummins.com/graphics/parts/" +
+         num.slice(0, 3) + "/" + num + "/" + String(file).replace(/\.jpg$/i, ".png");
+}
+function photoFallback(img, file) {
+  img.onerror = function () {
+    if (!this.dataset.kb) {
+      this.dataset.kb = "1";
+      if (window.KB && window.KB.photoUrl) { this.src = window.KB.photoUrl(file); return; }
+    }
+    if (this.dataset.cdn) { this.style.display = "none"; return; }
+    this.dataset.cdn = "1";
+    this.src = photoCdn(file);
+  };
+}
 
 /* ---------- корзина (своя для каждого двигателя) ---------- */
 function cartKey() { return "cummins_cart_" + C.esn; }
@@ -156,8 +178,10 @@ function renderTree() {
       var o = byNo[no];
       if (!o) return;
       var a = el("div", "tree-opt");
-      a.appendChild(el("span", null, o.name));
-      a.appendChild(el("span", "no", no + " · позиций: " + o.parts.length));
+      var ruOpt = optionRu(no);
+      a.appendChild(el("span", ruOpt ? "n-ru" : "n-en", ruOpt || o.name));
+      if (ruOpt) a.appendChild(el("span", "no n-en", o.name));
+      a.appendChild(el("span", "no n-meta", no + " · позиций: " + o.parts.length));
       a.dataset.no = no;
       a.onclick = function () { openOption(no); };
       list.appendChild(a);
@@ -186,6 +210,9 @@ function show(view) {
   });
 }
 
+function optionRu(no) {
+  return (window.KB && window.KB.ruOption) ? window.KB.ruOption(no) : "";
+}
 function openOption(no, focusPart) {
   var o = byNo[no];
   if (!o) return;
@@ -193,7 +220,10 @@ function openOption(no, focusPart) {
   show("view-option");
   highlightTree(no);
 
-  $("opt-name").textContent = o.name;
+  var ruOpt = optionRu(o.no);
+  $("opt-name").innerHTML = "";
+  $("opt-name").appendChild(el("span", ruOpt ? "n-ru" : "n-en", ruOpt || o.name));
+  if (ruOpt) $("opt-name").appendChild(el("span", "opt-en n-en", o.name));
   var meta = "Вариант исполнения " + o.no + " · позиций: " + o.parts.length;
   if (o.systems && o.systems.length) meta += " · система: " + o.systems.join(", ");
   $("opt-meta").textContent = meta;
@@ -281,7 +311,13 @@ function renderParts(o, focusPart) {
     tr.appendChild(tdNo);
 
     var tdName = el("td", "c-name");
-    tdName.appendChild(document.createTextNode(p.name || ""));
+    var ruName = (window.KB && p.no) ? window.KB.ruPart(p.no) : "";
+    if (ruName) {
+      tdName.appendChild(el("span", "ru-name n-ru", ruName));
+      tdName.appendChild(el("span", "dim n-en", p.name || ""));
+    } else {
+      tdName.appendChild(document.createTextNode(p.name || ""));
+    }
     if (p.dim) tdName.appendChild(el("span", "dim", p.dim));
     if (p.rem) tdName.appendChild(el("span", "dim", p.rem));
     if (p.alt) tdName.appendChild(el("span", "dim", "взаимозаменяемый: " + p.alt));
@@ -345,17 +381,19 @@ function openPartCard(pn) {
   document.querySelector(".pc-gallery").style.display = views.length ? "" : "none";
   if (views.length) {
     main.style.display = "";
+    photoFallback(main, views[0]);
     main.src = photoSrc(C.esn, views[0]);
     views.forEach(function (v, i) {
       var t = document.createElement("img");
       t.src = photoSrc(C.esn, v); t.alt = "";
       if (!i) t.className = "sel";
+      photoFallback(t, v);
       t.onclick = function () {
+        photoFallback(main, v);
         main.src = photoSrc(C.esn, v);
         Array.prototype.forEach.call(thumbs.children, function (c) { c.className = ""; });
         t.className = "sel";
       };
-      t.onerror = function () { this.style.display = "none"; };
       thumbs.appendChild(t);
     });
   }
@@ -419,6 +457,7 @@ function openPartCard(pn) {
   });
   $("pc-used").classList.toggle("hidden", !used.length);
 
+  if (window.KB && window.KB.decoratePartCard) window.KB.decoratePartCard(pn);
   $("part-card").classList.remove("hidden");
   $("part-overlay").classList.remove("hidden");
 }
@@ -502,9 +541,12 @@ function doSearch(q) {
     if (h.via) no.appendChild(el("span", "chip-sup", "вместо " + h.via));
     d.appendChild(no);
     var nm = el("span", "hit-name");
-    nm.innerHTML = highlight(h.p.name || "", q);
+    var ruHit = (window.KB && h.p.no) ? window.KB.ruPart(h.p.no) : "";
+    nm.innerHTML = (ruHit ? "<b>" + highlight(ruHit, q) + "</b> · " : "") +
+                   highlight(h.p.name || "", q);
     d.appendChild(nm);
-    var where = h.o.name + " · " + h.o.no + " · поз. " + (h.p.pos || "—");
+    var where = (optionRu(h.o.no) || h.o.name) + " · " + h.o.no +
+                " · поз. " + (h.p.pos || "—");
     if (h.eng.esn !== C.esn) where = (h.eng.machine || h.eng.model) + " → " + where;
     d.appendChild(el("span", "hit-where", where));
     d.onclick = function () {
@@ -516,6 +558,7 @@ function doSearch(q) {
   if (hits.length > 400) {
     box.appendChild(el("p", "sub", "Показаны первые 400 совпадений — уточните запрос."));
   }
+  if (window.KB && window.KB.appendDocs) window.KB.appendDocs(q, box);
 }
 
 function highlight(text, q) {
@@ -532,6 +575,7 @@ $("search").addEventListener("input", function () {
   var v = this.value;
   clearTimeout(searchTimer);
   searchTimer = setTimeout(function () {
+    if (window.KB && window.KB.active()) { window.KB.search(v); return; }
     if (v.trim().length < 2) { if (state.option) openOption(state.option.no); else show("view-welcome"); }
     else doSearch(v);
   }, 200);
@@ -1012,6 +1056,33 @@ $("theme-toggle").onclick = function () {
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape") { closeCart(); closePartCard(); closeCheck(); }
 });
+
+/* ---------- внешний интерфейс для базы знаний ---------- */
+window.CATALOG_API = {
+  selectEngine: function (esn) { if (ALL[esn]) selectEngine(esn); },
+  openOption: function (esn, optNo, focusPart) {
+    if (ALL[esn] && esn !== C.esn) selectEngine(esn);
+    openOption(optNo, focusPart || null);
+  },
+  openPart: function (pn) {
+    var hit = null;
+    ENGINES.some(function (e) {
+      var cat = ALL[e.esn];
+      return (cat.options || []).some(function (o) {
+        return (o.parts || []).some(function (p) {
+          if (p.no === pn) { hit = { esn: e.esn, o: o.no }; return true; }
+          return false;
+        });
+      });
+    });
+    if (hit) {
+      if (hit.esn !== C.esn) selectEngine(hit.esn);
+      openOption(hit.o, pn);
+    }
+    openPartCard(pn);
+  },
+  currentEngine: function () { return C ? C.esn : null; }
+};
 
 /* ---------- старт ---------- */
 buildEngineSelect();
