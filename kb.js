@@ -47,8 +47,7 @@ var CAT_MANY = {
   install_inst: "Инструкции по установке", outlines: "Габаритные чертежи",
   manual: "Руководства"
 };
-var PDF_BASE = "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/" +
-               "claude/cummins-parts-knowledge-base-qa0n50/bulletins/";
+var PDF_BASE = "bulletins/";
 var ENGINE_TITLE = {};
 (window.ENGINES || []).forEach(function (e) {
   ENGINE_TITLE[e.esn] = (e.model || "") + (e.cpl ? " CPL " + e.cpl : "");
