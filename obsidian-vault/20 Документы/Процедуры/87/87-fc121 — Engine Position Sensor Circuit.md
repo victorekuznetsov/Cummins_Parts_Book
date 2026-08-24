@@ -1,0 +1,105 @@
+---
+aliases:
+  - "Цепь датчика положения коленчатого вала"
+type: "Процедура"
+doc: "87-fc121"
+title_en: "Engine Position Sensor Circuit"
+title_ru: "Цепь датчика положения коленчатого вала"
+modified: "2010-07-29"
+engines:
+  - "37292556"
+  - "37295879"
+families:
+  - "QST30"
+manuals:
+  - "3666214"
+figures: 1
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc121.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc121.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QST30"
+  - "группа/87"
+  - "перевод/машинный"
+---
+
+# Engine Position Sensor Circuit
+**Цепь датчика положения коленчатого вала**
+
+> [!abstract] Процедура · `87-fc121`
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
+> **Семейство:** QST30
+> **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
+> **Секции:** Section TF - Troubleshooting Fault Codes
+> **Даты:** изменён 2010-07-29
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc121.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Код неисправности: 121
+
+### Цепь датчика положения коленчатого вала
+
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
+|---|---|---|
+| Код неисправности: 121 PID(P): P190 SPN: ФМИ: 10 ламп: Желтая СТО: | Сигнал о положении двигателя не был обнаружен при контакте 9 с жгутом проводов двигателя. | Потеря датчика положения резервного двигателя. Электронный модуль управления (ECM) не выполняет никаких действий. |
+
+![[19a00449.png]]
+
+Цепь датчика положения коленчатого вала
+
+### Описание цепи
+
+Датчик положения двигателя обеспечивает сигнал положения двигателя к ECM через ремень электропроводки двигателя, а также резервный сигнал скорости двигателя. Датчик ** должен** питаться от положительного (+) 5 источника питания VDC для работы. Датчик генерирует сигнал, чувствуя движение целевых отверстий маховика. Сигнал датчика составляет от 4 до 5 VDC между отверстиями маховика и от 0 до 2,3 VDC, когда отверстие выровнено с датчиком. Для проверки схемы датчика положения двигателя следует использовать проводной ветвь.
+
+### Расположение компонента
+
+Датчик скорости двигателя и датчик положения двигателя расположены в корпусе маховика.
+
+### Практические замечания
+
+Датчик скорости двигателя обеспечивает основной сигнал положения двигателя к ECM через проводку двигателя. Датчик положения двигателя обеспечивает сигнал резервного положения двигателя к ECM в случае неисправности датчика скорости двигателя. Сигнал скорости двигателя генерируется, когда датчик скорости двигателя обнаруживает зубы на кольцевой передаче. Сигнал положения двигателя генерируется отверстиями в маховике. ECM определяет положение двигателя, обнаруживая особый паттерн сигнала. Он также определяет скорость двигателя, подсчитывая количество переключателей напряжения за определенный период времени.
+
+См. Код устранения неполадок t05-121
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 121
+>
+> ### Engine Position Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 121 PID(P): P190 SPN: FMI: 10 Lamp: Yellow SRT: | No engine position signal detected at pin 9 of the engine harness. | Loss of backup engine position sensor. No action is taken by the electronic control module (ECM). |
+>
+> Engine Position Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine position sensor provides the engine position signal to the ECM through the engine harness as well as a backup engine speed signal. The sensor **must** be powered by a positive (+) 5 VDC power source to operate. The sensor generates a signal by sensing the movement of the target holes of the flywheel. The sensor signal is 4 to 5 VDC between the holes of the flywheel, and 0 to 2.3 VDC when a hole is aligned with the sensor. A breakout cable should be used to check the engine position sensor circuit.
+>
+> ### Component Location
+>
+> The engine speed sensor and the engine position sensor are located in the flywheel housing.
+>
+> ### Shoptalk
+>
+> The engine speed sensor provides the main engine position signal to the ECM through the engine harness. The engine position sensor provides the backup engine position signal to the ECM in the event of a failed engine speed sensor. The engine speed signal is generated when the engine speed sensor detects teeth on the ring gear. The engine position signal is generated by holes in the flywheel. The ECM determines engine position by detecting a special pattern of the signal. It also determines engine speed by counting the number of voltage switches for a given period of time.
+>
+> Refer to Troubleshooting Fault Code t05-121

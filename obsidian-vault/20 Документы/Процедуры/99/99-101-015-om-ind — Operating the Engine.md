@@ -1,0 +1,86 @@
+---
+aliases:
+  - "Эксплуатация двигателя"
+type: "Процедура"
+doc: "99-101-015-om-ind"
+title_en: "Operating the Engine"
+title_ru: "Эксплуатация двигателя"
+modified: "2023-07-10"
+engines:
+  - "37292556"
+  - "37295879"
+  - "41349633"
+  - "93058669"
+families:
+  - "C8.3 · 6C8.3"
+  - "QSK19"
+  - "QST30"
+manuals:
+  - "2883407"
+  - "3666120"
+  - "3666134"
+  - "4021330"
+figures: 3
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-015-om-ind.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-015-om-ind.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/C8.3"
+  - "двигатель/QSK19"
+  - "двигатель/QST30"
+  - "группа/99"
+  - "перевод/машинный"
+---
+
+# Operating the Engine
+**Эксплуатация двигателя**
+
+> [!abstract] Процедура · `99-101-015-om-ind`
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Семейство:** C8.3 · 6C8.3, QSK19, QST30
+> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]]
+> **Секции:** Section 1 - Operating Instructions
+> **Даты:** изменён 2023-07-10
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-015-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-015-om-ind.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Нормальный
+
+Если они оборудованы, часто контролируйте давление масла и температуру охлаждающей жидкости. См. спецификации системы моторного масла и спецификации системы охлаждения в спецификациях технического обслуживания (раздел V) для рекомендуемых рабочих давлений и температур. Выключите двигатель, если давление или температура не соответствуют спецификациям.
+
+Непрерывная работа с температурой охлаждающей жидкости двигателя выше или ниже температурных характеристик охлаждающей жидкости двигателя, перечисленных в Технических требованиях к техническому обслуживанию (раздел V), может повредить двигатель.
+
+![[eg8gaba.png]]
+
+Если состояние перегрева начинает происходить, уменьшите выходную мощность двигателя, выпуская педаль акселератора или рычаг или переключая передачу на более низкую передачу, или оба, пока температура не вернется к нормальному рабочему диапазону. Если температура двигателя ** не** возвращается к нормальной, выключите двигатель и обратитесь к симптомам устранения неполадок (раздел TS) или обратитесь в авторизованное место ремонта Cummins®.
+
+![[eg8gasm.png]]
+
+### Зимние фронты и затворы
+
+Зимние фронты и ставни могут использоваться на транспортном средстве или оборудовании для уменьшения потока воздуха через радиатор в моторное отделение. Это оборудование может сократить время, необходимое для нагрева двигателя и помочь поддерживать температуру охлаждающей жидкости двигателя. Температурные характеристики охлаждающей жидкости двигателя приведены в спецификации технического обслуживания (раздел V).
+
+![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Normal
+>
+> If equipped, monitor the oil pressure and coolant temperature gauges frequently. Refer to Lubricating Oil System specifications and Cooling System specifications, in Maintenance Specifications (Section V) for recommended operating pressures and temperatures. Shut off the engine if any pressure or temperature does **not** meet the specifications.
+>
+> Continuous operation with engine coolant temperature above or below the engine coolant temperature specifications listed in Maintenance Specifications (Section V) can damage the engine.
+>
+> If an overheating condition starts to occur, reduce the power output of the engine by releasing the accelerator pedal or lever or shifting the transmission to a lower gear, or both, until the temperature returns to the normal operating range. If the engine temperature does **not** return to normal, shut off the engine, and refer to Troubleshooting Symptoms (Section TS), or contact a Cummins® Authorized Repair Location.
+>
+> ### Winterfronts and Shutters
+>
+> Winterfronts and shutters can be used on a vehicle or equipment to reduce air flow through the radiator core into the engine compartment. This equipment can reduce the time required to warm the engine and help maintain the engine coolant temperature. The engine coolant temperature specifications are in the Maintenance Specification (Section V).

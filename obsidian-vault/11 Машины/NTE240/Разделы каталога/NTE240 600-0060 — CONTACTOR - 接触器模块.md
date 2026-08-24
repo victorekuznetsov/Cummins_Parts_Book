@@ -1,0 +1,81 @@
+---
+type: "Раздел каталога"
+machine: "NTE240"
+code: "600-0060"
+title: "CONTACTOR · 接触器模块"
+chapter: "600"
+tags:
+  - "машина/NTE240"
+  - "каталог-машины"
+---
+
+# 600-0060 — CONTACTOR · 接触器模块
+
+> [!abstract] Раздел каталога · машина [[NTE240]] · глава `600`
+
+![[NTE240_600-0060-1.png]]
+
+| № | Артикул | Наименование | 中文 | Кол-во |
+|---|---|---|---|---|
+| 1 | 20038814 | CONTACTOR(SEEPB-650 01-023) | 接触器 ( ) | 1 |
+| 2 | 20038815 | MAGNETFRAME | 磁铁架 | 1 |
+| 3 | 20038816 | CORE | 铁芯 | 1 |
+| 4 | 20038817 | FRAME,SPRINGBRACKE T | 弹簧托架 | 1 |
+| 5 | 20038818 | SCREWW/LOCKWASHER, 3/8IN-16,3/4INLONG | 弹垫 | 2 |
+| 6 | 20038819 | SPRINGWITHPLUG | 弹簧 | 1 |
+| 7 | 20038820 | LOCKWASHER,EXTERNA LTOOTH,NO10 | 弹垫 | 1 |
+| 8 | 20038764 | NUT, HEX | 螺帽六方 | 1 |
+| 9 | 20038822 | CALIBRATINGSCREW,NO 10-32,27/16INLONG | 螺钉 | 1 |
+| 10 | 20038823 | ARMATUREASSEMBLY | 电枢总成 | 1 |
+| 11 | 20038824 | SCREWW/LOCKWASHER, 5/16IN-18,5/8INLONG | 螺钉 | 2 |
+| 12 | 20038825 | SHUNT | 灭弧罩 | 1 |
+| 13 | 20038826 | PIN,5/16INDIA,27/8INLON G,STNSTL | 销子 | 1 |
+| 14 | 20038827 | CLAMP | 夹子 | 2 |
+| 15 | 20038828 | SCREWWITHLOCKWASH ER,NO10-32,1/2INLONG | 螺钉 | 2 |
+| 16 | 20038829 | CONTACTARM | 接触器臂 | 1 |
+| 17 | 20038830 | COTTERPIN,3/32INDIA, 1/2INLONG | 开口销 | 1 |
+| 18 | 20038831 | SEAT,SPRING | 弹簧座 | 1 |
+| 19 | 20038832 | SPRING,11/4INLONG | 弹簧 | 1 |
+| 20 | 20038833 | SCREW,HEXSOCHD,5/1 6IN-18,11/4INLONG | 螺钉 | 4 |
+| 21 | 20038834 | LOCKWASHER | 弹簧垫片 | 8 |
+| 22 | 20038835 | WASHER | 垫片 | 8 |
+| 23 | 20038770 | LOCKWASHER | 弹簧垫片 | 3 |
+| 24 | 20038837 | NUT,HEX,1/4IN-20 | 螺母 | 3 |
+| 25 | 20038838 | BOLT,HEXHD,5/16IN-18, 21/4INLONG | 螺栓 | 2 |
+| 26 | 20038839 | BOLT,HEXHD,5/16IN-18, 21/8INLONG | 螺栓 | 2 |
+| 27 | 20038840 | SCREWW/LOCKWASHE R,3/8IN-16,11/4INLONG | 螺钉 | 1 |
+| 28 | 20038841 | CLAMP | 夹子 | 1 |
+| 29 | 20038842 | INSULATIONFLANGE,23 8INOD,1/32INTHICK | 绝缘法兰 | 2 |
+| 30 | 20038843 | COREFLANGE,2INOD | 铁芯法兰 | 2 |
+| 31 | 20038844 | CORE,2.87INLONG | 铁芯 | 1 |
+| 32 | 20038845 | WASHER,5/16IN,BRASS | 垫片 | 2 |
+| 33 | 20038846 | SPACER,23/16INLONG | 逆电流器 | 1 |
+| 34 | 20038847 | ARCINGHORN | 弧形板 | 1 |
+| 35 | 20038848 | ARCINGHORN | 弧形板 | 1 |
+| 36 | 20038849 | SUPPORT | 支架 | 1 |
+| 37 | 20038850 | INSULATION | 绝缘板 | 1 |
+| 38 | 20038851 | SHIM,0.035INTHICK | 薄垫片 | 2 |
+| 39 | 20038848 | ARCINGHORN | 弧形板 | 1 |
+| 40 | 20038853 | BOLT,HEXHD,1/4IN-20,33/ 4INLONG | 螺栓 | 1 |
+| 41 | 20038854 | BLOWOUTCOILSUPPORT | 线圈支架 | 1 |
+| 42 | 20038855 | LOCKINGPLATE | 锁板 | 1 |
+| 43 | 20038856 | SPRINGWASHER,1.40INI D,1.82INOD | 弹垫 | 1 |
+| 44 | 20038857 | CONTACTTIP | 盖 | 2 |
+| 45 | 20038858 | INSULATIONTUBE,2.840I NLONG | 绝缘管 | 1 |
+| 46 | 20038859 | SCREW,HEXSOCFLHD,N O10-32,1/2INLONG | 螺钉 | 2 |
+| 47 | 20038769 | WASHER | 垫片 | 1 |
+| 48 | 20038861 | ARCCHUTE | 熄弧沟 | 1 |
+| 49 | 20038862 | SUPPORT | 支架 | 2 |
+| 50 | 20038863 | SIDE,ARCCHUTE | 熄弧沟左罩 | 1 |
+| 51 | 20038864 | SIDE,ARCCHUTE | 熄弧沟右罩 | 1 |
+| 52 | 20038865 | POLEPIECE | 磁极片 | 1 |
+| 53 | 20038866 | POLEPIECE | 磁极片 | 1 |
+| 54 | 20038867 | SCREW,SLFILHD,1/4IN- 20,11/4INLONG | 螺钉 | 1 |
+| 55 | 20038868 | WASHER | 垫片 | 2 |
+| 56 | 20038770 | LOCKWASHER | 弹簧垫片 | 6 |
+| 57 | 20038771 | NUT, HEX | 螺帽六方 | 6 |
+| 58 | 20038871 | BOLT,HEXHD,1/4IN-20,3 1/4INLONG | 螺栓 | 5 |
+| 59 | 20038769 | WASHER | 垫片 | 2 |
+| 60 | 20038873 | BUSHING,5/32INLONG | 轴衬 | 4 |
+| 61 | 20038874 | BUSHING,3/8INLONG | 轴衬 | 4 |
+| 62 | 20038875 | COIL,OPERATING | 线圈 | 1 |

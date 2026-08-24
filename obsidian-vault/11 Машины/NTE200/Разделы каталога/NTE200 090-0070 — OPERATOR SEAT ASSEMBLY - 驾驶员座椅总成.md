@@ -1,0 +1,54 @@
+---
+type: "Раздел каталога"
+machine: "NTE200"
+code: "090-0070"
+title: "OPERATOR SEAT ASSEMBLY · 驾驶员座椅总成"
+chapter: "090"
+tags:
+  - "машина/NTE200"
+  - "каталог-машины"
+---
+
+# 090-0070 — OPERATOR SEAT ASSEMBLY · 驾驶员座椅总成
+
+> [!abstract] Раздел каталога · машина [[NTE200]] · глава `090`
+
+![[NTE200_090-0070-1.png]]
+
+| № | Артикул | Наименование | 中文 | Кол-во |
+|---|---|---|---|---|
+|  | 20064646 | SEAT ASSY BACKREST ASSY ,LH, | 座椅总成 靠背总成 |  |
+| 001 | 20068426 | CLOTH COVER,IPS,HEAT BACKREST | •靠背 | 001 |
+| 002 | 20068427 | COVER-CLOTH IPS-AIR LUMBAR | •腰部支撑 | 001 |
+| 003 | 20068428 | CHAMBERS |  | 001 |
+| 004 | 20068429 | HEADREST ASSY,CLOTH PLASTIC SHOULDER | 头枕 安全带支架 | 001 |
+| 005 | 20068430 | BELT COVER LH SEAT BELT ASM, | 点安全带 | 001 |
+| 006 | 20068431 | POINT,LH BLACK SHOULDER BOLTS FOR | 螺栓 | 001 |
+| 007 | 20068432 | BACKREST |  | 001 |
+| 008 | 20068433 | CUSHION GLIDES | 坐垫滑轨 | 001 |
+| 009 | 20068434 | SEAT BELT RETRACTOR SIDECOVER RH, | 安全带插头 右侧护盖 | 001 |
+| 010 | 20068435 | OPPOSITE CONTROLS LOWER BACKREST | 靠背锁止组件 | 001 |
+| 011 | 20068436 | LOCKING, LH,BOLT HANDLE FOR BACKREST | 靠背调节手柄 | 001 |
+| 012 | 20068437 | ADJ |  | 001 |
+| 013 | 20068438 | SIDECOVER LH | 左侧护盖 | 001 |
+| 014 | 20068439 | HEATER SWITCH | 加热开关 | 001 |
+| 015 | 20068440 | IPS-VALVE LH ADJUSTMENT FOR | 左腰部支撑阀 | 001 |
+| 016 | 20068441 | SHOCK ABSORBER, LH ADJUSTMENT FOR | 减震调节手柄 | 001 |
+| 017 | 20068442 | INCLINATION ADJUSTMENT | 角度调节装置 | 001 |
+| 018 | 20068443 | VALVE FOR WEIGHT AND HEIGHT | 重量高度调节阀 | 001 |
+| 019 | 20068444 | FRONT COVER | 前盖 | 001 |
+| 020 | 20068445 | REAR COVER SHOCK ABSORBER, | 后盖 | 001 |
+| 021 | 20068446 | ADJ. | 减震缸 | 001 |
+| 022 | 20068447 | AIR SPRING | 减震气囊 | 001 |
+| 023 | 20068448 | COMPRESSOR 24V | 压缩机 | 001 |
+| 024 | 20068449 | RELAY | 继电器 | 001 |
+| 025 | 20068450 | BELLOWS BELLOW | 波纹护罩 | 001 |
+| 026 | 20068451 | FASTENERS | 护罩固定件 | 001 |
+| 027 | 20068452 | SLIDE SET | 滑道 | 001 |
+| 028 | 20068453 | SLIDE HANDLE | 滑道手柄 | 001 |
+| 029 | 20068454 | CLOTH COVER, HEAT CLOTH COVER FOR | •坐垫 | 001 |
+| 030 | 20068455 | SEAT CUSHION HANDLE SEAT CUSHION | •坐垫调节手 | 001 |
+| 031 | 20068456 | ADJ. | 柄 | 001 |
+| 032 | 20068457 | ARMREST KIT-LH | 左扶手 | 001 |
+| 033 | 20068458 | ARMREST KIT-RH | 右扶手 | 001 |
+| 034 | 20068459 | WIRE CONNECTOR KIT | 线束插头 | 001 |

@@ -1,0 +1,79 @@
+---
+type: "Раздел каталога"
+machine: "TR100A"
+code: "165-0030"
+title: "REAR BRAKE ASSY · 后制动器总成"
+chapter: "165"
+tags:
+  - "машина/TR100A"
+  - "каталог-машины"
+---
+
+# 165-0030 — REAR BRAKE ASSY · 后制动器总成
+
+> [!abstract] Раздел каталога · машина [[TR100A]] · глава `165`
+
+![[TR100A_165-0030-1.png]]
+
+| № | Артикул | Наименование | 中文 | Кол-во |
+|---|---|---|---|---|
+| 001 | 15233275 | SEAL HOUSING |  | 002 |
+| 002 | 15339399 | O O-RING SEAL ASSEMBLY- |  | 002 |
+| 003 | 15344760 | FACE T |  | 002 |
+| 004 | 15272734 | O O-RING |  | 002 |
+| 005 | 09064938 | DRIVER WHEEL |  | 002 |
+| 006 | 00223493 | BOLT |  | 060 |
+| 007 | 09019631 | WASHER-HARDENED |  | 060 |
+| 008 | 15302758 | O O-RING |  | 004 |
+| 009 | 09072627 | BOLT |  | 024 |
+| 010 | 15310256 | WASHER-HARDENED |  | 056 |
+| 011 | 15307380 | BRAKE ASSEMBLY |  | 002 |
+| 012 | 00223437 | BOLT |  | 196 |
+| 013 | 09065332 | WASHER SPRING-HOUSING |  | 216 |
+| 014 | 15247047 | MACHINE |  | 002 |
+| 015 | 09068505 | SCREW |  | 020 |
+| 016 | 02276784 | SCREW-BLEED |  | 008 |
+| 017 | 15258053 | O SEAL O-RING |  | 004 |
+| 018 | 00784094 | PIN DOWEL |  | 004 |
+| 019 | 00784088 | PIN DOWEL |  | 002 |
+| 020 | 09065306 | SPRING |  | 054 |
+| 021 | 09065305 | SPRING SEAL ASSEMBLY- |  | 054 |
+| 022 | 15303608 | PISTO |  | 002 |
+| 023 | 15302125 | PARKING PISTON |  | 002 |
+| 024 | 15258054 | O SEAL O-RING |  | 006 |
+| 025 | 15302126 | DISC HOUSING |  | 002 |
+| 026 | 09183205 | PLUG |  | 004 |
+| 027 | 00274248 | O O-RING DAMPER |  | 004 |
+| 028 | 15302798 | ASSEMBLY |  | 004 |
+| 029 | 15302796 | DISC-FRICTION |  | 026 |
+| 030 | 15302797 | PLATE-SPLINED SERVICE PISTON |  | 024 |
+| 031 | 15231497 | MACHI |  | 002 |
+| 032 | 00936559 | PIN |  | 048 |
+| 033 | 00179814 | BOLT |  | 096 |
+| 034 | 09064810 | PLATE-RETAINER |  | 048 |
+| 035 | 09064750 | PIN-RETAINING |  | 048 |
+| 036 | 09065315 | SPRING |  | 048 |
+| 037 | 00444692 | PLUG |  | 004 |
+| 038 | 15258051 | D SEAL D-RING |  | 002 |
+| 039 | 15258038 | D SEAL D-RING |  | 002 |
+| 040 | 15307381 | ASSEMBLY |  | 002 |
+|  | 1.00-8 |  |  |  |
+| 041 | 15303368 | UNC 2A X |  | 046 |
+| 042 | 15249911 | DUSTCAP GUIDE RING- |  | 008 |
+| 043 | 15303609 | @AB PISTON |  | 002 |
+| 044 | 15303611 | @AB GUIDE RING-ROD +,C SEAL ASSEMBLY- |  | 002 |
+| 045 | 15303610 | ROD |  | 002 |
+| 046 | 15256201 | DISC DRIVER |  | 002 |
+| 047 | 09113457 | DEFG LOCKWIRE |  |  |
+| 048 | 15247046 | HOUSING-SEAL |  | 002 |
+| 049 | 15302759 | O O-RING |  | 004 |
+| 050 | 09419497 | H NUT-NYLON INSERT |  | 056 |
+| 051 | 15247216 | SEAL ASSEMBLY |  | 002 |
+| 052 | 15247433 | O O-RING |  | 004 |
+| 053 | 15231422 | WASHER I |  | 024 |
+|  | 15303631 | M N |  |  |
+|  | 15303607 | O M N |  |  |
+|  | 09371048 | UVW XYZ[\N NOTES: |  |  |
+|  | 15303631 | SEAL KIT. |  |  |
+|  | 15303607 | SEAL KIT-PARK BRAKE. |  |  |
+|  | 15257449 | LOCTITE CLEANER AND RETAINING COMPOUND. |  |  |

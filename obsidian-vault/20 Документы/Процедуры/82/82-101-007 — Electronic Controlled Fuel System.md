@@ -1,0 +1,618 @@
+---
+aliases:
+  - "Топливная система с электронным управлением"
+type: "Процедура"
+doc: "82-101-007"
+title_en: "Electronic Controlled Fuel System"
+title_ru: "Топливная система с электронным управлением"
+modified: "2005-01-27"
+engines:
+  - "41343322"
+families:
+  - "NT/NTA855 · ISM/QSM11"
+manuals:
+  - "3666266"
+figures: 28
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-101-007.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-101-007.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/NT/NTA855"
+  - "группа/82"
+  - "перевод/машинный"
+---
+
+# Electronic Controlled Fuel System
+**Топливная система с электронным управлением**
+
+> [!abstract] Процедура · `82-101-007`
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Семейство:** NT/NTA855 · ISM/QSM11
+> **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
+> **Секции:** Section F - Familiarization
+> **Даты:** изменён 2005-01-27
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-101-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-101-007.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Описание системы управления базой
+
+Система управления двигателем Signature, ISX и ISM представляет собой систему управления топливом с электронным управлением, которая также обеспечивает множество функций оператора и транспортного средства или оборудования.
+
+К базовым функциям системы управления относятся:
+
+- 5.2.1 Контроль за топливом и временем
+- Ограничение диапазона работы двигателя между точками установки с низким и высоким холостым ходом
+- Снижение выбросов выхлопных газов при оптимизации производительности двигателя.
+
+Система также может управлять тормозами двигателя, до двух вентиляторов охлаждения, воздушным компрессором и трансмиссией Top 2.
+
+Система управления использует входные данные от оператора и его датчиков для определения заправки и времени, необходимых для работы при желаемой скорости двигателя.
+
+Электронный модуль управления (ECM) является центром управления системой. Он обрабатывает все входы и отправляет команды в топливную систему, транспортное средство и устройства управления двигателем.
+
+ECM проводит диагностические тесты на большинстве своих схем и активирует код неисправности, если проблема обнаружена в одной из этих схем. Наряду с кодом неисправности, идентифицирующим проблему, в памяти также хранится снимок параметров работы двигателя во время активации неисправности.
+
+Активные коды неисправностей заставят диагностическую лампу активироваться, чтобы сигнализировать водителю.
+
+ECM может взаимодействовать с инструментами обслуживания INSITETM и некоторыми другими контроллерами транспортного средства, такими как трансмиссии, антиблокировочная тормозная система, автоматическое уменьшение проскальзывания, электронные дисплеи приборной панели и т. Д., Через новую шину данных SAE J1939 CAN или более старую шину данных SAE J1708 CAN.
+
+Некоторые транспортные средства и оборудование будут иметь сети J1939, которые связывают многие интеллектуальные контроллеры вместе. Устройства управления транспортным средством могут временно командовать скоростью двигателя или крутящим моментом для выполнения одной из его функций, таких как переключение передач, антиблокировочное торможение и т. Д.
+
+Система управления использует ряд датчиков для предоставления информации о рабочих параметрах двигателя. Эти датчики включают в себя:
+
+- Датчик температуры охлаждающей жидкости
+- Датчик температуры воздуха
+- Датчик давления во впускном коллекторе
+- Датчик давления и температуры масла
+- Датчик положения двигателя коленчатого вала (подпись, ISX, QSX15 **только**)
+- Датчик положения двигателя в шахте
+- Датчик атмосферного давления
+- Датчик давления подачи топлива (подпись, ISX, QSX15 **только**)
+- Датчики давления передней и задней рельсов (подпись, ISX, QSX15 **только**)
+- Датчик ограничения впуска топлива
+- Датчик воды в топливе
+- Датчик давления ресивера.
+
+Следующие входные данные предоставляются устройствами, выбранными OEM:
+
+- Датчик положения педали акселератора
+- Выключатель подтверждения холостого хода
+- Переключатель тормозов двигателя
+- Датчик уровня охлаждения
+- Датчики скорости автомобиля
+- Функциональные переключатели управления (т.е. переключатели круиз-контроля)
+- Переключатель давления кондиционера
+- Удаленный дроссел
+- Удаленное PTO
+- Топ 2 датчика положения передач с автосменным приводом.
+
+> [!note] Примечание
+> Эти входы зависят от приложения. Некоторые приложения ** не ** используют все эти входные данные.
+
+### Программируемые функции
+
+Медленный холостый
+
+> [!danger] ОПАСНО
+> Деактивировать функцию SLOW-IDLE во время стыковочных маневров. В режиме медленного холостого хода инерция пропеллера может привести к остановке двигателя при переходе в вперед или назад, что может привести к столкновению пользователя с доком. Для уменьшения возможности получения телесных повреждений, повреждения судна и/или причала отключите функцию SLOW-IDLE во время стыковочных маневров.
+
+Функция SLOW-IDLE позволяет снизить скорость простоя для работы в «Зонах без пробуждения». При активации функция медленного холостого хода снижает скорость двигателя до 550 об/мин.
+
+![[13200052.png]]
+
+Один переключатель управляет обоими двигателями на двухдвигательных судах.
+
+Для использования функции SLOW-IDLE:
+
+1. Судно должно быть в снаряжении
+2. Дроссель **должен** находиться в положении холостого хода
+3. Поместите выключатель SLOW-IDLE в положение ON (1), уплотнив верхнюю часть выключателя коромысла.
+
+Двигатель(ы) холостого хода уменьшится до 550 об/мин.
+
+![[13200060.png]]
+
+Чтобы отключить функцию медленного холостого хода, поместите выключатель SLOW-IDLE в положение OFF (2), уплотнив нижнюю часть выключателя коромысла.
+
+Двигатель (двигатели) будет настраиваться на установленную скорость холостого хода.
+
+> [!note] Примечание
+> Когда включен переключатель с медленным холостым ходом, увеличение дроссельной заслонки временно отключит функцию с медленным холостым ходом. Когда дросселя перемещается обратно в положение холостого хода, функция медленного холостого хода автоматически включается снова.
+
+![[13200061.png]]
+
+Управление скоростью двигателя
+
+Переключатель 2 управления скоростью двигателя (rpm ±) позволяет регулировать скорость холостого хода с шагом 25 об/мин, нажимая переключатель качения.
+
+Нажатие на верхнюю часть переключателя увеличивает (+) обороты двигателя.
+
+Нажатие на нижнюю часть выключателя уменьшает (-) обороты двигателя.
+
+![[13200069.png]]
+
+Когда RPM ± переключатель (2) используется с двигателем на холостом ходу, переключатель будет работать только *** от 600 до 1000 об/мин.
+
+> [!note] Примечание
+> Переключатель ± RPM (2) будет **не** изменять скорость холостого хода, когда двигатель находится в режиме SLOW-IDLE.
+
+Использование функции медленного холостого хода деактивирует функцию rpm ±.
+
+![[13200069.png]]
+
+Если скорость двигателя между двухмоторными судами двигателя ** не** одинакова, отрегулируйте оба двигателя до минимальной rpm настройки, 600 rpm, путем уплотнения дна (-) переключателя, пока оба двигателя не будут на 600 rpm.
+
+Затем с помощью RPM ± переключателя (1), отрегулировать холостую к желаемой скорости, rpm.
+
+![[19200370.png]]
+
+Коммутатор синхронизации двигателя
+
+> [!danger] ОПАСНО
+> Функция синхронизации двигателя должна быть отключена перед стыковкой или маневрированием на низкой скорости; это позволяет полностью и отдельно управлять каждым двигателем. Для уменьшения возможности получения травм, повреждения судна и/или дока выключите функцию синхронизации двигателя перед стыковкой или маневрированием на низкой скорости.
+
+> [!note] Примечание
+> Функция синхронизации двигателя является опцией, доступной только на двухмоторных судах.
+
+Функция синхронизации двигателя используется для электронного управления скоростью обоих двигателей, используя один рычаг дроссельной заслонки.
+
+![[13200063.png]]
+
+Обычно правый дроссел используется в качестве главного дросселя. Дистрибьютор или дилер может изменить его на дроссельную заслону порта, если это необходимо, путем замены вилки мастера и раба в проводах двигателя. Смотрите инсталляцию.
+
+![[13200062.png]]
+
+Для использования функции синхронизации двигателя:
+
+1. Оба двигателя ** должны *** находиться в одном и том же положении дроссельной заслонки, работая при одной и той же оборотах в минуту.
+2. Поместите переключатель ENG SYNC (1) в положение ON, уплотнив верхнюю часть переключателя.
+
+Оба двигателя будут настраиваться на один и тот же оборот. Мастер дросселя будет управлять обоими двигателями.
+
+![[13200063.png]]
+
+> [!warning] ОСТОРОЖНО
+> Настройте оба дроссельных заслонка в одно и то же положение, прежде чем отключите функцию синхронизации двигателя. Выключение функции синхронизации двигателя без наличия обоих дросселей в одном положении может вызвать внезапный поворот порта или правого борта.
+
+Чтобы отключить функцию синхронизации двигателя:
+
+1. Оба дроссельных аппарата должны быть в одном и том же положении.
+2. Поместите переключатель ENG SYNC (1) в положение OFF, уплотнив дно переключателя.
+
+Скорость двигателей будет медленно набираться до их физических настроек дроссельной заслонки.
+
+![[13200063.png]]
+
+Морской круизный контроль
+
+Функция морского круиз-контроля обеспечивает две регулируемые скорости двигателя. Круиз-контроль может использоваться для запуска двигателя (двигателей) на оптимальном крейсерском обороте или троллинговом обороте.
+
+CRUISE 1 имеет настройку по умолчанию 2100 об/мин.
+
+CRUISE 2 имеет настройку по умолчанию 1200 об/мин.
+
+> [!note] Примечание
+> Функция морского круиз-контроля может использоваться в сочетании с функцией синхронизации двигателя.
+
+![[13200069.png]]
+
+Для активации функции морского круиз-контроля:
+
+1. Поставьте круизный переключатель (1) в нужное положение, КРУЗЬ 1 или КРУЗЬ 2.
+2. Переместите дроссель (дроссель) мимо желаемой крейсерской скорости.
+
+Скорость двигателя (двигателей) будет увеличиваться до круизной установки.
+
+> [!note] Примечание
+> При использовании функции синхронизации двигателя основным дроссельным механизмом является дроссель **только **, который ** должен быть перемещен мимо точки круиза.
+
+![[13200069.png]]
+
+Чтобы отключить морской круиз-контроль, поставьте круизный выключатель (1) в положение выключения (коромысло-переключатель в центральном положении).
+
+Двигатель (двигатели) rpm будет медленно наклоняться к регулировке рычага дроссельной заслонки.
+
+![[13200069.png]]
+
+Для изменения параметров CRUISE 1 или CRUISE 2 по умолчанию:
+
+1. При запуске двигателя выберите нужный вам круизный режим, установив переключатель круиз-контроля (1) на CRUISE 1 или CRUISE 2.
+2. Переместить дросселя в полное положение дросселя во время движения, или на стыке с передачей в нейтральном положении. Двигатель не будет превышать существующую круизную настройку. Например, если CRUISE два находится на заводской установке 1200 об/мин, двигатель будет достигать только 1200 об/мин при полном дроссельном заслоне.
+3. Используя переключатель RPM ± (2), подстраивайтесь к крейсерской оборотной скорости до новой желаемой скорости двигателя.
+
+> [!note] Примечание
+> Круизные скорости могут быть установлены между 600 и 2100 об/мин. Эта новая настройка будет сохранена до тех пор, пока круиз не будет отрегулирован снова.
+
+![[13200069.png]]
+
+Если двухдвигатели работают с разной скоростью:
+
+Настройка круиза на минимальную или максимальную настройку с помощью переключателя RPM ±.
+
+Настройте круиз в нужной настройке, используя переключатель RPM ±.
+
+![[13200052.png]]
+
+Если двигатель **не** достигнет номинальной оборотной силы, убедитесь, что функция морского круиз-контроля находится в положении OFF. Если функция морского круиз-контроля оставлена в положении CRUISE 1 или CRUISE 2, максимальная скорость двигателя будет ограничена заданной точкой положения, в котором находится круизный переключатель.
+
+![[13200052.png]]
+
+### Диагностические коды ошибок
+
+Система управления может показывать и записывать аномалии работы, которые представляются кодами неисправностей. Эти коды облегчат устранение неполадок. Коды неисправностей регистрируются в ECM. Их можно читать с помощью неисправных ламп в кабине, с помощью диагностического выключателя или с помощью INSITETM.
+
+Существует два типа кодов неисправностей:
+
+- Коды неисправностей электронного управления двигателем (с двигателем или системой управления обнаружена неисправность)
+- Информационные коды (событие, которое может предоставить важную информацию, произошло с двигателем или системой управления).
+
+Все коды ошибок, записанные в системе, будут либо активными (код ошибок в настоящее время активен в двигателе), либо неактивными (код ошибок был активен в одно время, но в настоящее время активен не в этом режиме).
+
+Предупреждающая лампа желтого цвета и указывает на необходимость устранения неисправности при первой же имеющейся возможности.
+
+Светильник STOP красный и указывает на необходимость остановить двигатель, как только это можно будет безопасно сделать. Двигатель должен быть отключен до тех пор, пока неисправность не будет исправлена.
+
+Лампа MAINTENANCE будет освещаться, указывая на необходимость в техническом обслуживании. Эта лампа может указывать на воду в топливном фильтре, низкий уровень охлаждающей жидкости, высокую температуру охлаждающей жидкости, высокую температуру воздуха или высокую температуру масла.
+
+> [!note] Примечание
+> Названия и цвета этих ламп могут варьироваться в зависимости от производителя оборудования.
+
+Для проверки активной топливной системы двигателя и кодов неисправностей системы защиты двигателя, переключатель зажигания переключателя в положение выключения, и переместить диагностический переключатель в положение Включения.
+
+Переключатель зажигания транспортного средства в положение Включения.
+
+Если не регистрируются активные коды неисправностей, то включаются как красные, так и желтые лампы, последовательно выходят из строя и остаются выключенными.
+
+Если активные коды неисправностей записаны, оба светильника включаются на мгновение, то начинают мигать коды зафиксированных неисправностей.
+
+Код неисправности будет мигать в следующей последовательности:
+
+Во-первых, будет мигать предупреждающая (желтая) лампа. Затем будет короткая 1- или 2-секундная пауза, после которой в STOP (красный) вспыхнет номер записанного кода неисправности. Между каждым числом будет 1- или 2-секундная пауза. Когда число закончилось, мигая красным, снова появляется желтая лампа. Трехзначный код будет повторяться в той же последовательности.
+
+Чтобы перейти к следующему коду неисправности, переместите переключатель набора / резюме (если он оборудован) на мгновение в положение приращения (+). Оператор может вернуться к предыдущему коду неисправности, на мгновение переместив переключатель набора/резюме (если он оборудован) в положение декремента (-). Если регистрируется только один активный сбой, один и тот же код сбоя непрерывно отображается при подавлении (+) или (-) переключателя.
+
+См. раздел TF для устранения неисправностей кода.
+
+Если ** не** с помощью диагностической системы, выключите диагностический выключатель.
+
+### Код ошибки Snapshot Data
+
+Это дополнительная информация о коде неисправности, которую можно получить с помощью INSITETM. Данные снимка записывают значение или состояние датчиков и переключателей системы управления в момент возникновения неисправности. Эти данные хранятся для первого возникновения неисправности, так как она была в последний раз устранена, и самого последнего возникновения. Эти данные могут быть очень ценными при попытке воссоздать или определить условия работы двигателя в момент неисправности.
+
+### Сквозные разрушители
+
+Судовое применение
+
+Морской двигатель QSM11 оснащен двумя выключателями, расположенными на стороне ECM двигателя.
+
+5-амперный выключатель (1) используется для питания с коммутацией клавиш, а 10-амперный выключатель (2) используется для питания без коммутации ключей. Панель выключателя также содержит 40-контактный OEM-разъем (3).
+
+![[13200057.png]]
+
+### Система защиты двигателя
+
+Освещенные символы индикатора
+
+Символы индикатора (1) предоставляют дополнительную информацию о типе неисправности, обнаруженной ЭКМ. Отдельные символы будут мигать во время состояния неисправности.
+
+> [!note] Примечание
+> Нажатие кнопки (6) отмены сигнализации при включении переключателя зажигания осветит символы для самотестирования.
+
+![[13200088.png]]
+
+Температурная лампа (1) с высоким впускным коллектором включается, когда температура впускного коллектора превышает спецификацию.
+
+![[13200073.png]]
+
+Температурная лампа (2) с высоким содержанием моторного масла включается, когда температура моторного масла выше спецификации.
+
+![[13200074.png]]
+
+Лампа (3) для подачи воды в топливо взаимодействует с дополнительным датчиком подачи воды в топливо в первичном топливном фильтре. Он появляется, когда в топливном фильтре есть вода.
+
+![[13200075.png]]
+
+Температурная лампа (4) с высокой температурой охлаждающей жидкости включается, когда температура охлаждающей жидкости двигателя выше спецификации.
+
+![[13200076.png]]
+
+Лампа (5) низкого уровня охлаждающей жидкости включается, когда уровень охлаждающей жидкости ниже спецификации. См. процедуру 018-018 в Руководстве по устранению неполадок и ремонту, Двигатели серии ISM и QSM11, Бюллетень 3666322, для спецификаций охлаждающей жидкости.
+
+![[13200077.png]]
+
+Лампа (6) низкого напряжения батареи включается, когда напряжение батареи ниже спецификации.
+
+> [!missing]- Иллюстрация `13200078.png` не извлечена — смотрите PDF-оригинал документа
+
+Лампа (7) низкого давления масла двигателя включается, когда давление масла двигателя ниже спецификации. См. процедуру 018-017 в Руководстве по устранению неполадок и ремонту, Двигатели серии ISM и QSM11, Бюллетень 3666322, для спецификаций давления масла.
+
+![[13200079.png]]
+
+Звуковая тревога / Alarm Silence
+
+Слышная сигнализация (8) включается в любое время, когда подсвечиваются предупреждающие или предупреждающие символы.
+
+![[13200066.png]]
+
+Кнопка (6) будильника временно заглушит звуковую сигнализацию.
+
+> [!note] Примечание
+> Сигнал тревоги будет заглушен на 2 минуты. Пока существует условие неисправности, сигнализация будет «обходить» каждые 2 минуты, чтобы напомнить оператору, что неисправность существует.
+
+![[13200066.png]]
+
+Кнопка будильника (6) также используется для проверки предупреждающих и предупреждающих знаков (1) и датчиков.
+
+> [!note] Примечание
+> Как и лампы с подсветкой, для проверки датчиков и ламп с символами нажмите кнопку тишины (6) сигнализации при включении выключателя зажигания. Сигнализация будет включаться в течение 5 секунд, и в течение 25 секунд все символы будут освещаться, а иглы измерительной приборной стрелки будут перемещаться из самого низкого положения в самое высокое положение и обратно в самое низкое положение.
+
+![[13200066.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Base Control System Description
+>
+> The Signature, ISX, and ISM engine control system is an electronically operated fuel control system that also provides many operator and vehicle or equipment features.
+>
+> The base functions of the control system include:
+>
+> - Fueling and timing control
+> - Limiting the engine speed operating range between the low- and high-idle set points
+> - Reducing exhaust emissions while optimizing engine performance.
+>
+> The system can also control the engine brakes, up to two cooling fans, an air compressor, and a Top 2 transmission.
+>
+> The control system uses inputs from the operator and its sensors to determine the fueling and timing required to operate at the desired engine speed.
+>
+> The electronic control module (ECM) is the control center of the system. It processes all of the inputs and sends commands to the fuel system, vehicle, and engine control devices.
+>
+> The ECM performs diagnostic tests on most of its circuits and will activate a fault code if a problem is detected in one of these circuits. Along with the fault code identifying the problem, a snapshot of engine operating parameters at the time of fault activation is also stored in memory.
+>
+> Active fault codes will cause a diagnostic lamp to activate to signal the driver.
+>
+> The ECM can communicate with the INSITE™ service tool and some other vehicle controllers, such as transmissions, antilock braking system, automatic slip reduction, electronic dash displays, etc., through the new SAE J1939 datalink or the older SAE J1708 datalink.
+>
+> Some vehicles and equipment will have J1939 networks on them that link many of the smart controllers together. Vehicle control devices can temporarily command engine speed or torque to perform one of its functions, such as transmission shifting, antilock braking, etc.
+>
+> The control system utilizes a number of sensors to provide information on engine operating parameters. These sensors include:
+>
+> - Coolant temperature sensor
+> - Intake air temperature sensor
+> - Intake manifold pressure sensor
+> - Oil pressure and temperature sensor
+> - Crankshaft engine position sensor (Signature, ISX, QSX15 **only**)
+> - Camshaft engine position sensor
+> - Ambient air pressure sensor
+> - Fuel supply pressure sensor (Signature, ISX, QSX15 **only**)
+> - Front and rear rail pressure sensors (Signature, ISX, QSX15 **only**)
+> - Fuel inlet restriction sensor
+> - Water-in-fuel sensor
+> - Wet tank pressure sensor.
+>
+> The following inputs are provided by OEM-selected devices:
+>
+> - Accelerator pedal position sensor
+> - Idle validation switch
+> - Engine brake selector switches
+> - Coolant level sensor
+> - Vehicle speed sensors
+> - Feature control switches (i.e., cruise control switches)
+> - Air conditioner pressure switch
+> - Remote throttle
+> - Remote PTO
+> - Top 2 autoshift transmission gear position sensor.
+>
+> **Note · Примечание**
+> These inputs are application-dependent. Some applications will **not** use all of these inputs.
+>
+> ### Programmable Features
+>
+> Slow Idle
+>
+> **WARNING · Опасно**
+> Deactivate the SLOW-IDLE feature during docking maneuvers. In slow-idle mode, propeller inertia can cause the engine to stall when shifting into forward or reverse, which can cause the user to collide with the dock. To reduce the possibility of personal injury, damage to the vessel, and/or the dock, turn off the SLOW-IDLE feature during docking maneuvers.
+>
+> The SLOW-IDLE feature allows for lower idle speed for operation in “No Wake Zones.” When activated, the slow-idle feature reduces the engine speed to 550 rpm.
+>
+> A single switch controls both engines on twin engine vessels.
+>
+> To use the SLOW-IDLE feature:
+>
+> 1. The vessel **must** be in gear
+> 2. The throttle **must** be in the idle position
+> 3. Put the SLOW-IDLE switch in the ON position (1) by depressing the top of the rocker switch.
+>
+> The engine(s) idle will decrease to 550 rpm.
+>
+> To turn the slow-idle feature off, put the SLOW-IDLE switch in the OFF position (2) by depressing the bottom of the rocker switch.
+>
+> The engine(s) will adjust to the idle set speed.
+>
+> **Note · Примечание**
+> When the slow-idle switch is on, increasing the throttle will temporarily turn off the slow-idle feature. When the throttle is moved back into the idle position, the slow-idle feature will automatically turn itself ON again.
+>
+> Engine Speed Control
+>
+> The engine speed control (rpm ±) switch (2) allows the idle speed to be adjusted in 25-rpm increments by pressing the rocker switch.
+>
+> Pressing the top of the switch increases (+) engine rpm.
+>
+> Pressing the bottom of the switch decreases (-) engine rpm.
+>
+> When the RPM ± switch (2) is used with the engine at idle, the switch will **only** work from 600 to 1000 rpm.
+>
+> **Note · Примечание**
+> The RPM ± switch (2) will **not** change the idle speed when the engine is in SLOW-IDLE mode.
+>
+> Use of the slow-idle feature will deactivate the rpm ± feature.
+>
+> If the engine speed between the twin-engine vessels engines is **not** the same, adjust both engines to the minimum rpm setting, 600 rpm, by depressing the bottom (-) of the switch until both engines are at 600 rpm.
+>
+> Then using the RPM ± switch (1), adjust the idle to the desired speed, rpm.
+>
+> Engine Synchronization Switch
+>
+> **WARNING · Опасно**
+> The engine synchronization feature must be turned off before docking or low-speed maneuvering; this allows full and separate control of each engine. To reduce the possibility of personal injury, damage to the vessel, and/or the dock, turn off the engine synchronization feature before docking or low-speed maneuvering.
+>
+> **Note · Примечание**
+> The engine synchronization feature is an option available **only** on twin-engine vessels.
+>
+> The engine synchronization feature is used to electronically control the speed of both engines, using one throttle lever.
+>
+> Normally the starboard throttle is used as the master throttle. The distributor or dealer can change it to the port throttle, if desired, by changing the master and slave plugs in the engine wiring. See the installation manual.
+>
+> To use the engine synchronization feature:
+>
+> 1. Both engines **must** be in the same throttle position, running at the same rpm.
+> 2. Put the ENG SYNC switch (1) in the ON position by depressing the top of the rocker-switch.
+>
+> Both engines will adjust to the same rpm. The master throttle will control both engines.
+>
+> **CAUTION · Осторожно**
+> Adjust both throttles to the same position before turning the engine synchronization feature off. Turning the engine synchronization feature off without having both throttles in the same position can cause a sudden port or starboard turn.
+>
+> To turn the engine synchronization feature off:
+>
+> 1. Both throttles **must** be in the same position.
+> 2. Put the ENG SYNC switch (1) in the OFF position by depressing the bottom of the rocker-switch.
+>
+> The engines speed will slowly ramp to their physical throttle settings.
+>
+> Marine Cruise Control
+>
+> The marine cruise control feature provides two adjustable engine speeds. The cruise control can be used to run the engine(s) at the optimal cruise rpm or trolling rpm.
+>
+> CRUISE 1 has a default setting of 2100 rpm.
+>
+> CRUISE 2 has a default setting of 1200 rpm.
+>
+> **Note · Примечание**
+> The marine cruise control feature can be used in conjunction with the engine synchronization feature.
+>
+> To activate the marine cruise control feature:
+>
+> 1. Put the cruise switch (1) in the desired position, CRUISE 1 or CRUISE 2.
+> 2. Move the throttle(s) past the desired cruise speed.
+>
+> The engine(s) speed will increase to the cruise setting.
+>
+> **Note · Примечание**
+> When using the engine synchronization feature, the master throttle is the **only** throttle that **must** be moved past the cruise point.
+>
+> To turn the marine cruise control off, put the cruise switch (1) in the off position (rocker-switch in the center position).
+>
+> The engine(s) rpm will slowly ramp to the throttle lever setting.
+>
+> To change the CRUISE 1 or CRUISE 2 default setting rpm:
+>
+> 1. With the engine running select the cruise setting that you want by setting the cruise control switch (1) to CRUISE 1 or CRUISE 2.
+> 2. Move the throttle to the full throttle position while underway, or at the dock with the gear in neutral. The engine will not exceed the existing cruise setting. For example; if CRUISE two is at the factory setting of 1200 rpm, the engine will only reach 1200 rpm at full throttle.
+> 3. Using the RPM ± switch (2), adjust to the cruise rpm to the new desired engine speed.
+>
+> **Note · Примечание**
+> The cruise speeds can be set between 600 and 2100 rpm. This new setting will be saved until the cruise is adjusted again.
+>
+> If the twin-engines are running at different speeds:
+>
+> Adjust the cruise to the minimum or maximum setting, using the RPM ± switch.
+>
+> Adjust the cruise to the desired setting, using the RPM ± switch.
+>
+> If an engine will **not** reach rated rpm, make sure the marine cruise control feature is in the OFF position. If the marine cruise control feature is left in the CRUISE 1 or CRUISE 2 position, maximum engine speed will be limited to the set point of the position that the cruise switch is in.
+>
+> ### Diagnostic Fault Codes
+>
+> The control system can show and record operation anomalies that present themselves as fault codes. These codes will make troubleshooting easier. The fault codes are recorded in the ECM. They can be read using the fault lamps in the cab, using a diagnostic switch, or with INSITE™.
+>
+> There are two types of fault codes:
+>
+> - Engine electronic control fault codes (fault has been detected with the engine or control system)
+> - Information codes (event that can provide important information has occurred with the engine or control system).
+>
+> All fault codes recorded will either be active (fault code is currently active on the engine) or inactive (fault code was active at one time but is **not** currently active).
+>
+> The WARNING lamp is yellow and indicates the need to repair the fault at the first available opportunity.
+>
+> The STOP lamp is red and indicates the need to stop the engine as soon as it can be safely done. The engine **must** remain shut down until the fault can be repaired.
+>
+> The MAINTENANCE lamp will illuminate, indicating some form of maintenance is required. This lamp could indicate water in the fuel filter, low coolant level, high coolant temperature, high intake air temperature, or high oil temperature.
+>
+> **Note · Примечание**
+> The names and colors of these lamps can vary with equipment manufacturer.
+>
+> To check for active engine electronic fuel system and engine protection system fault codes, turn the keyswitch to the OFF position, and move the diagnostic switch to the ON position.
+>
+> Turn the vehicle keyswitch to the ON position.
+>
+> If no active fault codes are recorded, both red and yellow lamps come on, go out in sequence, and remain off.
+>
+> If active fault codes are recorded, both lamps come on momentarily, then begin to flash the code of the recorded faults.
+>
+> The fault code will flash in the following sequence:
+>
+> First, a WARNING (yellow) lamp will flash. Then, there will be a short 1- or 2-second pause after which the number of the recorded fault code will flash in STOP (red). There will be a 1- or 2-second pause between each number. When the number has finished flashing in red, a yellow lamp appear again. The three-digit code will repeat in the same sequence.
+>
+> To skip to the next fault code, move the set/resume switch (if equipped) momentarily to the increment (+) position. The operator can go back to the previous fault code by momentarily moving the set/resume switch (if equipped) to the decrement (-) position. If **only** one active fault is recorded, the same fault code displays continuously when either (+) or (-) switch is depressed.
+>
+> See Section TF for fault code troubleshooting.
+>
+> When **not** using the diagnostic system, turn off the diagnostic switch.
+>
+> ### Fault Code Snapshot Data
+>
+> This is additional fault code information that can be obtained by using INSITE™. The snapshot data records the value or state of the control system sensors and switches at the time a fault occurred. This data is stored for the first occurrence of the fault, since it was last cleared, and the most recent occurrence. This data can be very valuable when trying to recreate or determine engine operating conditions at the time of a fault.
+>
+> ### Circuit Breakers
+>
+> Marine Applications
+>
+> The QSM11 marine engine is equipped with two circuit breakers, located on the ECM side of the engine.
+>
+> A 5-amp circuit breaker (1) is used for keyswitched power and a 10-amp circuit breaker (2) is used for non-keyswitched power. The circuit breaker panel also houses a 40-pin OEM connector (3).
+>
+> ### Engine Protection System
+>
+> Illuminated Indicator Symbols
+>
+> The indicator symbols (1) provide additional information on the type of fault that the ECM has detected. The individual symbols will flash during a fault condition.
+>
+> **Note · Примечание**
+> Pressing the alarm cancel button (6) when the keyswitch is turned on will illuminate the symbols for a self-test.
+>
+> The high intake manifold temperature lamp (1) comes on when the intake manifold temperature is above specification.
+>
+> The high engine oil temperature lamp (2) comes on when the engine oil temperature is above specification.
+>
+> The water-in-fuel lamp (3) interfaces with the optional water-in-fuel sensor in the primary fuel filter. It comes on when there is water in the fuel filter.
+>
+> The high coolant temperature lamp (4) comes on when the engine coolant temperature is above specification.
+>
+> The low coolant level lamp (5) comes on when the coolant level is below specification. Refer to Procedure 018-018 in the Troubleshooting and Repair Manual, ISM and QSM11 Series Engines, Bulletin 3666322, for coolant specifications.
+>
+> The low battery voltage lamp (6) comes on when the battery voltage is below specification.
+>
+> The low engine oil pressure lamp (7) comes on when the engine oil pressure is below specification. Refer to Procedure 018-017 in the Troubleshooting and Repair Manual, ISM and QSM11 Series Engines, Bulletin 3666322, for oil pressure specifications.
+>
+> Audible Alarm/Alarm Silence
+>
+> The audible alarm (8) comes on anytime the warning or caution symbols are illuminated.
+>
+> The alarm silence button (6) will temporarily silence the audible alarm.
+>
+> **Note · Примечание**
+> The alarm will be silenced for up to 2 minutes. As long as the fault condition exists, the alarm will “chirp” every 2 minutes to remind the operator that a fault exists.
+>
+> The alarm silence button (6) is also used to test the warning and caution symbol lamps (1) and the gauges.
+>
+> **Note · Примечание**
+> Like the illuminated indicator lamps, to test the gauges and symbol lamps, press the alarm silence button (6) while turning on the keyswitch. The alarm will come on for 5 seconds and for 25 seconds all symbols will illuminate and the gauge needles will move from the lowest position to the highest position and back to the lowest position.

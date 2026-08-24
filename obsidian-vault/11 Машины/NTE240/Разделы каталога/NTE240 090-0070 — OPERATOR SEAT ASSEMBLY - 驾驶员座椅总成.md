@@ -1,0 +1,54 @@
+---
+type: "Раздел каталога"
+machine: "NTE240"
+code: "090-0070"
+title: "OPERATOR SEAT ASSEMBLY · 驾驶员座椅总成"
+chapter: "090"
+tags:
+  - "машина/NTE240"
+  - "каталог-машины"
+---
+
+# 090-0070 — OPERATOR SEAT ASSEMBLY · 驾驶员座椅总成
+
+> [!abstract] Раздел каталога · машина [[NTE240]] · глава `090`
+
+![[NTE240_090-0070-1.png]]
+
+| № | Артикул | Наименование | 中文 | Кол-во |
+|---|---|---|---|---|
+|  | 20064646 | SEAT ASSY | 座椅总成 |  |
+| 001 | 20068426 | BACKREST ASSY ,LH, CLOTH CO ,IPS,HEAT | 靠背总成 | 001 |
+| 002 | 20068427 | BACKREST CO -CLOTH | 靠背 | 001 |
+| 003 | 20068428 | IPS-AIR LUMBAR CHAMBERS | 腰部支撑 | 001 |
+| 004 | 20068429 | HEADREST ASSY,CLOTH | 头枕 | 001 |
+| 005 | 20068430 | PLASTIC SHOULDER BELT CO LH | 安全带支架 | 001 |
+| 006 | 20068431 | SEAT BELT ASM, POINT,LH BLACK | 点安全带 | 001 |
+| 007 | 20068432 | SHOULDER BOLTS FOR BACKREST | 螺栓 | 001 |
+| 008 | 20068433 | CUSHION GLIDES | 坐垫滑轨 | 001 |
+| 009 | 20068434 | SEAT BELT RETRACTOR | 安全带插头 | 001 |
+| 010 | 20068435 | SIDECO RH, OPPOSITE CONTROLS | 右侧护盖 | 001 |
+| 011 | 20068436 | LOWER BACKREST LOCKING, LH,BOLT | 靠背锁止组件 | 001 |
+| 012 | 20068437 | HANDLE FOR BACKREST ADJ | 靠背调节手柄 | 001 |
+| 013 | 20068438 | SIDECO LH | 左侧护盖 | 001 |
+| 014 | 20068439 | HEATER SWITCH | 加热开关 | 001 |
+| 015 | 20068440 | IPS-VALVE LH | 左腰部支撑阀 | 001 |
+| 016 | 20068441 | ADJUSTMENT FOR SHOCK ABSORBER, LH ADJUSTMENT VALVE | 减震调节手柄 | 001 |
+| 018 | 20068443 | FOR WEIGHT AND HEIGHT | 重量高度调节阀 | 001 |
+| 019 | 20068444 | FRONT CO | 前盖 | 001 |
+| 020 | 20068445 | REAR CO | 后盖 | 001 |
+| 021 | 20068446 | SHOCK ABSORBER, ADJ | 减震缸 | 001 |
+| 022 | 20068447 | AIR SPRING | 减震气囊 | 001 |
+| 023 | 20068448 | COMPRESSOR 24V | 压缩机 | 001 |
+| 024 | 20068449 | RELAY | 继电器 | 001 |
+| 025 | 20068450 | BELLOWS | 波纹护罩 | 001 |
+| 026 | 20068451 | BELLOW FASTENERS | 护罩固定件 | 001 |
+| 027 | 20068452 | SLIDE SET | 滑道 | 001 |
+| 028 | 20068453 | SLIDE HANDLE | 滑道手柄 | 001 |
+| 029 | 20068454 | SEAT CUSHION WITH CLOTH CO , HEAT | 坐垫 | 001 |
+| 030 | 20068455 | CLOTH CO FOR SEAT CUSHION | 坐垫 | 001 |
+| 031 | 20068456 | HANDLE SEAT CUSHION ADJ | 坐垫调节手柄 | 001 |
+| 032 | 20068457 | ARMREST KIT-LH | 左扶手 | 001 |
+| 033 | 20068458 | ARMREST KIT-RH | 右扶手 | 001 |
+| 034 | 20068459 | WIRE CONNECTOR KIT | 线束插头 | 001 |
+| 017 | 20068442 | ADJUSTMENT FOR INCLINATION PASSENGER SEAT ASSEMBLY | 角度调节装置 乘员座椅总成 | 001 |

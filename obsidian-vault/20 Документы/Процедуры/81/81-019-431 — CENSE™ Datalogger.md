@@ -1,0 +1,91 @@
+---
+aliases:
+  - "Регистратор данных CENSE™"
+type: "Процедура"
+doc: "81-019-431"
+title_en: "CENSE™ Datalogger"
+title_ru: "Регистратор данных CENSE™"
+modified: "2013-01-18"
+engines:
+  - "37292556"
+  - "37295879"
+families:
+  - "QST30"
+manuals:
+  - "3666134"
+figures: 2
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QST30"
+  - "группа/81"
+  - "перевод/машинный"
+---
+
+# CENSE™ Datalogger
+**Регистратор данных CENSE™**
+
+> [!abstract] Процедура · `81-019-431`
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
+> **Семейство:** QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
+> **Даты:** изменён 2013-01-18
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### сброс
+
+с форсункой механического управления
+
+Данные CENSETM** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+
+Для модулей CENSETM CM530** только*** данные*** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+
+1. Сначала извлеките сохраненные данные CENSETM.
+2. Выберите коды ошибок и параметры данных тренда для сброса.
+
+Свяжитесь с авторизованным местом ремонта Cummins для получения подробных инструкций.
+
+![[19800902.png]]
+
+с форсункой электронного управления
+
+Эти двигатели не используют CENSETM. Вместо этого они разработали усовершенствованный мониторинг двигателя, встроенный в ECM. Эти данные не должны быть сброшены, потому что они будут автоматически записываться по самым старым данным, если емкость памяти станет полной. Однако эта память может быть очищена вручную с помощью инструментария электронного обслуживания INSITETM. Журналы ошибок ** должны просматриваться каждые 250 часов, даже если они ** не будут сбрасывать.
+
+> [!note] Примечание
+> Модули CENSETM CM2330 не нуждаются в сбросе.
+
+![[19800902.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Reset
+>
+> with Mechanically Actuated Injector
+>
+> CENSE™ data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+>
+> For CENSE™ CM530 modules **only**, the data **must** be reset every 250 hours in order to maintain maximum memory capacity.
+>
+> 1. First retrieve the CENSE™ data that has been saved.
+> 2. Select the fault codes and trend data options for resetting.
+>
+> Contact a Cummins ® Authorized Repair Location for detailed instructions.
+>
+> with Electronically Actuated Injector
+>
+> These engines do **not** use CENSE™. Instead, they have advanced engine monitoring built into the ECMs. This data does **not** need to be reset because it will automatically write over the oldest data if the memory capacity becomes full. However, this memory can be cleared manually using INSITE™ electronic service tool. Fault logs **must** be viewed every 250 hours even if they are **not** going to be reset.
+>
+> **Note · Примечание**
+> CENSE™ CM2330 modules do **not** need to be reset.

@@ -1,0 +1,66 @@
+---
+aliases:
+  - "Шины данных двигателя"
+type: "TSB"
+doc: "tsb101210"
+title_en: "Engine Datalinks"
+title_ru: "Шины данных двигателя"
+released: "2009-12-17"
+modified: "2002-10-24"
+group: "19 - Electronic Engine Controls"
+engines:
+  - "37292556"
+  - "37295879"
+families:
+  - "QST30"
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101210.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101210.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/QST30"
+  - "год/2009"
+  - "перевод/машинный"
+  - "тема/electronic-engine-controls"
+---
+
+# Engine Datalinks
+**Шины данных двигателя**
+
+> [!abstract] TSB · `tsb101210`
+> **Раздел Cummins:** 19 - Electronic Engine Controls
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
+> **Семейство:** QST30
+> **Даты:** выпущен 2009-12-17 · изменён 2002-10-24
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101210.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101210.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+## Шины данных двигателя
+
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема обслуживания/частей заменяет тему 99T19-6 и тему 99T19-6A; заменить 99T19-6 и 99T19-6A на эту. Эта процедура описывает подключение ссылок на данные двигателя к электронным инструментам обслуживания. Данная процедура предоставляет список содержимого наборов шины данных INLINETM, INLINETM I и INLINETM II. В нем также описаны адаптеры шины данных CAN, разъемы шины данных CAN и подключение к электронному модулю управления (ECM).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Engine Datalinks
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic supersedes topic 99T19-6 and topic 99T19-6A; replace 99T19-6 and 99T19-6A with this one. This procedure describes connecting engine datalinks to electronic service tools. This procedure provides a list of the contents of the INLINE™, INLINE™ I and INLINE™ II datalink kits. It also describes datalink adapters, datalink connectors, and connecting to an Electronic Control Module (ECM).
