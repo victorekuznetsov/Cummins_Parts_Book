@@ -42,16 +42,7 @@ function engineLabel(e) {
   return (e.machine ? e.machine + " · " : "") + e.model + " · ESN " + e.esn;
 }
 function drawingSrc(esn, file) { return "drawings/" + esn + "/" + file; }
-/* Фото деталей берём с публичного CDN Cummins (parts.cummins.com),
-   чтобы не тащить в деплой ~19 000 файлов. Имя файла начинается с номера
-   детали: 3639541_iso.png -> /graphics/parts/363/3639541/3639541_iso.png.
-   Если фото недоступно, onerror в разметке прячет картинку. */
-function photoSrc(esn, file) {
-  var num = String(file).split("_")[0];
-  if (!num) return "";
-  return "https://parts.cummins.com/graphics/parts/" +
-         num.slice(0, 3) + "/" + num + "/" + file;
-}
+function photoSrc(esn, file) { return "parts/" + esn + "/" + file; }
 
 /* ---------- корзина (своя для каждого двигателя) ---------- */
 function cartKey() { return "cummins_cart_" + C.esn; }
