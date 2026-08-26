@@ -1,0 +1,60 @@
+{
+ "componentHash": "165C53AD349950D83AD538AD2B1662DC84F936299D186A2A76DCA9DA6B577948D9A6B816F702CB134D56EB076281131C98E31E3567FAE1B0BC330C327E3689EB",
+ "esnType": "mbom",
+ "optionName": "Flywheel Housing Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fh/508_fh0978200_01"
+  }
+ ],
+ "remarks": "Mr - Flywheel Housing Plumbing|plastic Plug|family: B, C & L|containing One Plastic Plug With Thread Size|3/4-16 Used To Close The Hole In Fh When|customer Fits His Own Speed Sensor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3904181",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 UNF",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/fh/508_fh0978200_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FH9782-01",
+ "optionNumber": "FH9782-01"
+}

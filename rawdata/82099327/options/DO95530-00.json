@@ -1,0 +1,79 @@
+{
+ "componentHash": "F4ABCCCE4C374A44D7500EDD16365F5E7A8B7DC37D1A2CDC6083D2D062CDD2AC21AEAE049FB9C96E860C424D51CAC4566FD62D43C48F1C229143BE06777D0C52",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Bdt|transmission: Generic|commun Support: J1939|oem Name: Lonking|oem Model: Powermatch|oemcomment: Excavator|remote Throttle: N|high Idle: 2290 Rpm|low Idle: 0800 Rpm|isc Enable: 0|isc Validation: Off|switch Speed Input: No|torque Curve Selection: Yes|asg/axg/min/max: Asg|governor Droop: 9     %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Dual Potentiometer|comment: None|powermatch: No|guid: None|applicable Fr Option: Fr95367|selectable Alternate Torque|selectable Alternate Droop",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5370497",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5370498",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DO95530-00",
+ "optionNumber": "DO95530-00"
+}

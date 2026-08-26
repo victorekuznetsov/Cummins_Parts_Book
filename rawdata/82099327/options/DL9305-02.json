@@ -1,0 +1,83 @@
+{
+ "componentHash": "5ABCB818481F0DAE34F7A169F50929A211C6AD11E4A11BB33CF05E3BE7D1ABDF687E7A938B891434774E43806804C61FCBC0A7C0789DC0132BA81D2EC3397362",
+ "esnType": "mbom",
+ "optionName": "Drain Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/dl/508_dl0930500_02"
+  }
+ ],
+ "remarks": "Drain Location|cust Interface:8 Mm Push-On Hose -Single Bead|location From Ffob And C/l Of Crank (mm):|x =  345|y =  373|z = -532|engine Design Phase: Echo|engine Cylinders: 6|engine Family: B Series|8 Mm Push-On Fitting Supplied In Kit|variant Content:|in Place Of P/n 6595396|nci May Use P/n 3963990|tcl May Use P/n 3963990|tcx May Use P/n 3963990|tel May Use P/n 3963990",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3963983",
+      "latestPart": "true",
+      "partDesc": "SEALING WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5318061",
+      "latestPart": "false",
+      "partDesc": "PLAIN HOSE COUPLING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/dl/508_dl0930500_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DL9305-02",
+ "optionNumber": "DL9305-02"
+}

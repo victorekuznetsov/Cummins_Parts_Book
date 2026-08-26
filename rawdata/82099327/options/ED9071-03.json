@@ -1,0 +1,83 @@
+{
+ "componentHash": "6DB3C7A287DA0D7FE55539EA6A6D5838429EF8C19B857ED76D0CC488956CA2A8E985C0E89AFA767ACDE5BA8F5B088FFEA86BC2CC39E96A17E153C0B0F7B1A8B7",
+ "esnType": "mbom",
+ "optionName": "Engine Identification Documentation",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ed/508_ed0907100_03"
+  }
+ ],
+ "remarks": "Engine Identification Documentation|mounting Location:|label Attached On The Rear Lifting Bracket|labels Description:|rubbings Of Engine Serial No,and Model No.|from Block|purpose: To Apply License Plate In China|contains Two Rubbings.|variant Content:|in Place Of P/n 5291163|acp May Use P/n 5589534|in Place Of P/n 5304240|acp May Use P/n 5589535",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5291163",
+      "latestPart": "false",
+      "partDesc": "IDENTIFICATION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5304240",
+      "latestPart": "false",
+      "partDesc": "IDENTIFICATION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ed/508_ed0907100_03",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "ED9071-03",
+ "optionNumber": "ED9071-03"
+}

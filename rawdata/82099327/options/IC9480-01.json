@@ -1,0 +1,106 @@
+{
+ "componentHash": "49C93F5C268AB8CCB0E162F25D44F538A131960086A73B360D54D3B6DEEBE5169F4BCC21D5A3ABC22944C2A582DCB23D4D4A6C6E54A95FD61DD140DF4B075AAF",
+ "esnType": "mbom",
+ "optionName": "Air Intake Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ic/508_ic0948000_01"
+  }
+ ],
+ "remarks": "Mr - Air Intake Connection|design Phase: Current Product|engine Family: B Series|engine Cylinders: 4 & 6|engine Aspiration:|turbocharged, Charge Air Cooled|conn Supplier: Tba|connection Style: Elbow|conn Orientation: Customer Defined|customer Interface Location|from Engine C/l(mm): 279.75|from Crank C/l (mm): Customer Defined|from Ffob (mm): Customer Defined|connection O.d. (mm): 75",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3867646",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4933777",
+      "latestPart": "false",
+      "partDesc": "AIR TRANSFER PIPE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4938989",
+      "latestPart": "true",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ic/508_ic0948000_01",
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "IC9480-01",
+ "optionNumber": "IC9480-01",
+ "buildCode": null
+}

@@ -1,0 +1,133 @@
+{
+ "partNo": "5319352",
+ "partDesc": "alternator",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "EE9660",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EE9505",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator"
+  },
+  {
+   "item": "D403114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403042CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403111CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313033CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313036CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313048CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/531/5319352/5319352.obj"
+  },
+  {
+   "fileName": "/531/5319352/5319352.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/531/5319352/5319352_front.png"
+  },
+  {
+   "fileName": "/531/5319352/5319352_iso.png"
+  },
+  {
+   "fileName": "/531/5319352/5319352_iso2.png"
+  },
+  {
+   "fileName": "/531/5319352/5319352_right.png"
+  },
+  {
+   "fileName": "/531/5319352/5319352_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "23.7 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "7.9 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "17.7 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "20.4 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

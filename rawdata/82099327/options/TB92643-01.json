@@ -1,0 +1,129 @@
+{
+ "componentHash": "232C3D58D1381FD06E6345100F59E54461A861B9097529C73787D03A9F44119819FF6224023BFA10CB8F1FE7B372942FA62C3AC5B24405C60BD6E83660F85A81",
+ "esnType": "mbom",
+ "optionName": "Turbocharger Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/tb/508_tb9264300_01"
+  }
+ ],
+ "remarks": "Turbocharger Arrangement|engine Configuration: 6b|exhaust Outlet Location: Hmro|exh Horizontal Crank C/l (mm) : -177|exh Vertical From Crank C/l (mm) : 528|turbo Exh Loc From Ffob (mm) : -504|aspiration: Charge Air Cooled|turbocharger Type: Waste Gate|compressor Outlet Configuration: Half Marmon|compressor Outlet Angle On Engine (deg): 110|exhaust Outlet Configuration: Half Marmon|exhaust Manifold Studs: None|block Drain Boss: Front|base Turbo Id 17 Number: 5330282|variant Content:|in Place Of P/n 5447591|bho May Use P/n 5664401|drs May Use P/n 5664401|kom May Use P/n 5664401|xce May Use P/n 5664401|zck May Use P/n 5664401",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3944593",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 65",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3945252",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3973422",
+      "latestPart": "false",
+      "partDesc": "EXHAUST MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5447591",
+      "latestPart": "false",
+      "partDesc": "EXHAUST MANIFOLD GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/tb/508_tb9264300_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "TB92643-01",
+ "optionNumber": "TB92643-01"
+}

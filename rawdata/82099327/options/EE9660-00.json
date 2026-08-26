@@ -1,0 +1,60 @@
+{
+ "componentHash": "D8A5C4F4E1BBA59E8C0B1603AC9B303635517821E2FF3600FA2F6C66290608C67BA6488E17B4FD04BCC5825F8D0E0255A4158EDA23E5BD743BFA85C518316631",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ee/508_ee0966000_00"
+  }
+ ],
+ "remarks": "Alternator|alternator Manufacturer/model:|prestoliite  Electric (beijing) Ltd|voltage: 28|amperage: 70|mounting Type:  Lugs, 101mm Apart|alternator Length (mm):  210|alternator Pulley Provided: Yes|engine Family: B Series|unique Characteristics: With Field Current|and No Dcec Logo On Label",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5319352",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/ee/508_ee0966000_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EE9660-00",
+ "optionNumber": "EE9660-00"
+}

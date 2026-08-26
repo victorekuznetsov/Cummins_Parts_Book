@@ -1,0 +1,83 @@
+{
+ "componentHash": "A262937D1BA51D2E6AA6DB428FA5D3DEF95B4AD670E7D9F7B2E008A2BA152221B718A836E18FFF0AB579F272C37A3DC70986CB42C54814E7735E0F0024C2EDAF",
+ "esnType": "mbom",
+ "optionName": "Lifting Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/la/508_la0914500_01"
+  }
+ ],
+ "remarks": "Mr - Lifting Arrangement|engine Family: B Series|max Lifting Load(lbs): 3145|bracket(s) Provided: Front And Rear|accommodates Pad Mount Alternator Bracket: Y|accommodates Spool, Hinge And Customer|supplied Mount Alternator Bracket: Y|this Bracket Is Designed For Engine Mounting|on Tier3 6b Engines.|maximum Allowable Load For A Single Bracket|is 2450 Lbs.|front Bracket Eyelet Coordinates As Viewed|from The Front, Using Ffob & C/l Of Crank:|x = -144.35; Y = 455.73; Z = 78.00|rear Bracket Eyelet Coordinates As Viewed|from The Front, Using Ffob & C/l Of Crank:|x = -123.75; Y = 444.45; Z = 785.58",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4894100",
+      "latestPart": "false",
+      "partDesc": "ENGINE LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4933232",
+      "latestPart": "false",
+      "partDesc": "ENGINE LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/la/508_la0914500_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "LA9145-01",
+ "optionNumber": "LA9145-01",
+ "buildCode": null
+}

@@ -1,0 +1,129 @@
+{
+ "componentHash": "E83FD0C411E39A32E4EF077590B585E160AE4DF62B249C37F28A8BD31FF9284E9DDCE6949D5FB76CF6F55EBCEDBC239E5317756AED07E8D8FD53B2C4C987BE68",
+ "esnType": "mbom",
+ "optionName": "Air Intake Manifold",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/im/508_im0911100_01"
+  }
+ ],
+ "remarks": "Air Intake Manifold|design Phase: Current Product|engine Family: B Series|engine Cylinders: 6|intake Conn Mtg Provision: Yes|intake Connection Type/interface:|half-Marmon Flange|marmon Flange Diameter (mm): 88|intake Connection Mounting Interface:|from Engine C/l (mm): 221.75|from Crank C/l (mm): 427.728|from Ffob (mm): -132|air Heater Provision:  Yes|air Heater Supplier : Cummins|integral Air Heater Voltage:  12/24v|fipg (fixed In Place Gasket) Used In This Opt|air Compressor Air Supply Provision: No|variant Content:|in Place Of P/n 3900633|nci May Use P/n 3925402|in Place Of P/n 3919995|dep May Use P/n 6654891",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900633",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 50",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3918109",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "7",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3919995",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 90",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4981331",
+      "latestPart": "false",
+      "partDesc": "AIR INTAKE MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/im/508_im0911100_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "IM9111-01",
+ "optionNumber": "IM9111-01",
+ "buildCode": null
+}

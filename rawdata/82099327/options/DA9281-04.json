@@ -1,0 +1,129 @@
+{
+ "componentHash": "5B4AD1DA6D454284B508602910AA85D6F421BD5DCDEA249C070FFE883A27A5C843DFF87F52D8D7D5B43BAC771851F9F8662FBF69C6400572399A11ADCC16C7FD",
+ "esnType": "mbom",
+ "optionName": "Vibration Damper",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/da/508_da0928100_04"
+  }
+ ],
+ "remarks": "Vibration Damper|structure Code: 03 Ebm|crank Pulley Type: Cast 8 Groove|crank Pulley Groove Profile: Poly V 8 Rib K|crank Pulley Diameter(mm): 174.75|over Balls: 2.5|engine Speed Sensing: Yes|engine Position Sensing: Yes|ffob(mm) To C/line Of First Crank Pulley|groove: 51.78|crank Bolt Circle(mm): 50|natural Frequency(@ 40 Degrees C): N/a|damper Type: Viscous|damper Diameter(mm): 250|damper Rpm Limitation: Max Rated|pto Provision: Yes|customer Mtg Thread: M10 X 1.5|customer Mtg Bolt Circle(mm): 84|customer Mtg Face From Ffob(mm): 115.65|aux. Drive Pulley Type: None|aux. Drive Pulley Dia.(mm): N/a|over Balls(mm): N/a|ffob(mm) To C/line Of First Aux. Pulley|groove: N/a|tel May Use Part # 5256812 In Place Of Part #|4991131|zck May Use Damper 5256139 Instead Of|4991131 With Pulley 5255204 For|fr94113, Fr94114 And Fr94115 Only|variant Content:|in Place Of P/n 5304432|bzl May Use P/n 4980332|dfm May Use P/n 5304950|nci May Use P/n 5304950",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3978478",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT FLANGE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4991131",
+      "latestPart": "false",
+      "partDesc": "VISCOUS VIBRATION DAMPER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5304950",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.25 X 75.5",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5365943",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/da/508_da0928100_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "DA9281-04",
+ "optionNumber": "DA9281-04",
+ "buildCode": null
+}

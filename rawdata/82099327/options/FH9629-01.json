@@ -1,0 +1,60 @@
+{
+ "componentHash": "4374DEBD78EEAA1AE287EA63D75BA99E04AB45F2EDD86AC3D71AF1FD27E0621C5897919BA12EBDA8C60854978D09111D0FCD5B89F9CB2D086D382C379FA472EB",
+ "esnType": "mbom",
+ "optionName": "Flywheel Housing Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fh/508_fh0962900_01"
+  }
+ ],
+ "remarks": "Flywheel Housing Mounting|1x M10 X 1.5 40 Long Capscrew|for Use Without Engine Balancer|mounting Flange Thickness: 10 Or 14|variant Content:|in Place Of P/n 3903464|nci May Use P/n 3925437",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3903464",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 40",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/fh/508_fh0962900_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FH9629-01",
+ "optionNumber": "FH9629-01",
+ "buildCode": null
+}

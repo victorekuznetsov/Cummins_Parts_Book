@@ -1,0 +1,129 @@
+{
+ "componentHash": "F92EDD337DE98CE0484CAA5F6396EF97748B6018E8E65C014A13F16CB933FD6E38A0B51E8FDCAA20DA95AE30E0C0253601D8B009F4FE6E3B6C8E4F6194381DF1",
+ "esnType": "mbom",
+ "optionName": "Air Transfer Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/it/508_it0903900_05"
+  }
+ ],
+ "remarks": "Air Transfer Connection|connection Supplier: Cummins|connection Type: 90 Degree Elbow|orientation: Rotatable|engine Interface Flange Type: Half Marmon|engine Interface Flange O.d. Dia (mm): 73.85|engine Interface Flange|stopper O.d. Dia (mm):61.92|engine Interface Flange Thickness (mm): 3.5|oem Interface Conn. Dia. (mm): 76.7|oem Interface Conn. Clamping|surface (mm):33.5|turbo Interface To C/l Oem|interface (mm):95.2|oem Interface To C/l Turbo|interface (mm):100|customer Tapping:1/8-27 Nptf S-2, With A Plug|supply Method: Kit|variant Content:|in Place Of P/n 3923041 And 3923060|dfm May Use P/n 3415547|nci May Use P/n 3415547|bfc May Use P/n 3415547|bzl May Use P/n 5331782|tel May Use P/n 3935339|tcl May Use P/n 3935339|tcx May Use P/n 3935339",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008465",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/8 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3415547",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3883284",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5473804",
+      "latestPart": "false",
+      "partDesc": "AIR TRANSFER PIPE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/it/508_it0903900_05",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "IT9039-05",
+ "optionNumber": "IT9039-05"
+}

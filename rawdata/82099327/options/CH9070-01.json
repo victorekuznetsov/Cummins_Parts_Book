@@ -1,0 +1,60 @@
+{
+ "componentHash": "EB902928B0FDDDD1421D5308B2B788715885D6E48294B4385CBF19500EFF3D31AD6B14BA98B8F884D88D871B14E05152242D32A8A1B0E5D91B623169F05E62D4",
+ "esnType": "mbom",
+ "optionName": "Coolant Heater Starting Aid",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ch/508_ch0907000_01"
+  }
+ ],
+ "remarks": "Mr - Coo Heater Starting Aid|when No Heater Is Required.|engine Family: B Series|plug Pipe 3008469 May Be Used In Place Of|4933532|variant Content:|in Place Of 4933532|tcl May Use 3936642|tcx May Use 3936642|tel May Use 3936642",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008469",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ch/508_ch0907000_01",
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "CH9070-01",
+ "optionNumber": "CH9070-01",
+ "buildCode": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "7438692225B2E0803B0D27EA2560957B66D41328EDCEB6E240FE087982C0279CB528C8A54E123E9C87EC4E34DB7CE110D439F6B1B0E138C2B5890F4C1D920517",
+ "esnType": "mbom",
+ "optionName": "Heat Shield",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/sh/508_sh0904700_01"
+  }
+ ],
+ "remarks": "Mr - Heat Shield|design Phase: Epic|engine Family: B Series|cylinders: 6|heat Shield Supplier: Cummins|turbo Position:  Hmro|location: Mounts On Side Of Cylinder Head|with 3 - M8 X 1.25 Capscrews Between|cyls  #2&3, #3&4, #4&5|protects Valve Cover Gasket From|turbocharger Heat.|variant Content:|in Place Of P/n 3926846|dfm May Use P/n 5620229",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3926846",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 20",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4931529",
+      "latestPart": "false",
+      "partDesc": "HEAT SHIELD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/sh/508_sh0904700_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SH9047-01",
+ "optionNumber": "SH9047-01"
+}

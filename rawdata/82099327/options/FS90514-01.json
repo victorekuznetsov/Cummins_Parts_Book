@@ -1,0 +1,83 @@
+{
+ "componentHash": "6AD5404AD7FECFC1DBCFF6A43253663CEDE5B8328738659E0BB46C30F8C7266DF1EF531DE2DC5A5D3D52DFB61D0EB0365BD4C65C04FFF8A4B313DF2CAF36ABE1",
+ "esnType": "mbom",
+ "optionName": "Fuel System Accessories",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fs/508_fs9051400_01"
+  }
+ ],
+ "remarks": "Fuel System Accessories|element Type: Single|element Style: External Thread Composite|priming Provision: Yes|drain Provision: Yes|fuel Heater Voltage: None|water Separator Provision: Yes|water In Fuel Sensor (wif): Yes|water In Fuel Sensor(wif)harness Provided:|yes|location: Off Engine|hose Length: None|fuel Pump Inlet From Pre Filter: None|absolute Filtration:8|comments: Including Second Stage Filters|unique Characteristics:|only Used For Lonking|supply Method: Kit",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5367681",
+      "latestPart": "false",
+      "partDesc": "FUEL FILTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5582942",
+      "latestPart": "false",
+      "partDesc": "WIRING HARNESS",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/fs/508_fs9051400_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FS90514-01",
+ "optionNumber": "FS90514-01"
+}

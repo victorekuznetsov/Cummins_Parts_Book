@@ -1,0 +1,60 @@
+{
+ "componentHash": "145525EA59D0003718F95E3865EE7EDAFA5CED3CA2A74F926780BC3A5AD310310BA906B409971A790CA82BBB3172592D28A23A82CCAC98C6769AFB41A3B7CB91",
+ "esnType": "mbom",
+ "optionName": "Exhaust Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/xs/508_xs0925400_01"
+  }
+ ],
+ "remarks": "Exhaust Outlet Connection|engine Configuration: B Series|connection Configuration: None|connection Od (mm): N/a|turbine Outlet Flange Type: Half Marmon|supported On Exhaust Manifold: No|groove Width (mm): 6.65|clamp Id (mm): 81.8|includes Vee Band Clamp Only|variant Content:|in Place On P/n 3903652|bzl May Use P/n 5331783|dfm May Use P/n 5591669|nci May Use P/n 6498009|unique Characteristic:|single Clamp As Kit In Dfm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3903652",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/xs/508_xs0925400_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "XS9254-01",
+ "optionNumber": "XS9254-01"
+}

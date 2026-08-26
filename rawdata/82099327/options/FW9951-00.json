@@ -1,0 +1,107 @@
+{
+ "componentHash": "18163D579085BBA84B8CD752739644817CA0EE541AF7C381565B0CC7E8F9E42825EE5F7911247D673208E91CFE7FB49106A5C745168A16646494611B379D3052",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fw/508_fw0995100_00"
+  }
+ ],
+ "remarks": "Mr - Flywheel|ring Gear Diametral Pitch: 8/10|ring Gear Tooth Count: 127|ring Gear O.d. (mm): 407.85|supplier: Cummins|type: Flywheel|max Full Load Rated Speed(not To Exceed):4270|flywheel Inertia: 1.00|flywheel Mtg Flange To Ring Gear Leading|edge (mm): 16.13|mounting Web Thickness (mm): 16|pilot Bearing Bore Dia (mm): 71.968|clutch/t.c. Mtg Bolt Circle Count: Double|clutch/t.c. Mtg Hole Count: 4|clutch/t.c. Bolt Circle Dia. (mm): 180|clutch/t.c. Mtg Hole Spacing: Equal|clutch/t.c. Mtg Hole Size: M18 X 2.5|2nd Clutch/t.c. Mtg Hole Count: 2|2nd Clutch/t.c. Bolt Circle Dia. (mm): 165|2nd Clutch/t.c. Mtg Hole Spacing: Unequal|2nd Clutch/t.c. Mtg Hole Size: M16 X 2|cummins Material Standard: 41044|intended Drive Hardware:|lovejoy Hytrel Lf110 Coupling",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3974421",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3905427",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3974420",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/fw/508_fw0995100_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FW9951-00",
+ "optionNumber": "FW9951-00"
+}

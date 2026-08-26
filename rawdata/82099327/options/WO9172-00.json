@@ -1,0 +1,83 @@
+{
+ "componentHash": "E77BB5247FED2CDB9211630AAA93DB40B14CAFB5E38A5166890C4B7A585572C98CEE9C4DB88311527A54CF381B371D25995E5D8A012DC62D9C00D37F3BDE8ED8",
+ "esnType": "mbom",
+ "optionName": "Water Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wo/508_wo0917200_00"
+  }
+ ],
+ "remarks": "Mr - Connection,water Outlet|connection Orientation: Vertical|connection Outlet Diameter: 44.4 Mm|connection Outlet Location From Coord Syst:|(mm):|x: -103|y: +489|z: -30.5|fan Center Capability (mm): <=444|kom May Use Outlet Connection 4995013|in Place Of 5261013",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3901865",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 20",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3943300",
+      "latestPart": "false",
+      "partDesc": "WATER OUTLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/wo/508_wo0917200_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "WO9172-00",
+ "optionNumber": "WO9172-00",
+ "buildCode": null
+}
