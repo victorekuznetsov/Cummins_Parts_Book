@@ -1,0 +1,118 @@
+{
+ "partNo": "4070856",
+ "partDesc": "flywheel",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FW2196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel"
+  },
+  {
+   "item": "D353005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353018CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/407/4070856/4070856.obj"
+  },
+  {
+   "fileName": "/407/4070856/4070856.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/407/4070856/4070856_iso_mkt.png"
+  },
+  {
+   "fileName": "/407/4070856/4070856_top.png"
+  },
+  {
+   "fileName": "/407/4070856/4070856_front.png"
+  },
+  {
+   "fileName": "/407/4070856/4070856_iso.png"
+  },
+  {
+   "fileName": "/407/4070856/4070856_iso2.png"
+  },
+  {
+   "fileName": "/407/4070856/4070856_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "23.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "81.2 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "23.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

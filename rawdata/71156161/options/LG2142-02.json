@@ -1,0 +1,130 @@
+{
+ "componentHash": "08F192E46AF959EBC70DE9415EFA52AC84051E2A1DB8806B74927432A2AF80924DDA0FEB17E8625403963DB750E8C8C4EDF8E2ED2CF4AB72F84AA85E8E070810",
+ "esnType": "mbom",
+ "optionName": "Oil Level Gauge",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/lg/727_lg0214200_02"
+  }
+ ],
+ "remarks": "Oil Level Gauge|dipstick Supplier: Cummins|oil Gauge Tube Type: Solid|dipstick Location: Left Side Center Hhc|dipstick Tube Horiz Position:|365.7 Mm (14.4 In)|reference Point: From Ffob|dipstick Tube Vertical Position:|182.5 Mm (7.2 In)|gauge Tube Pos Horiz From Eng C/l:|326.5 Mm (14.3 In)|oil Pan Material: Stamped Steel|sump Location: Front|high Oil Pan Capacity: 34.065 L (9.0 Gal)|low Oil Pan Capacity: 26.495 L (7.0 Gal)|power Angle (deg): 0.0|tilt Angle (deg): 0|dipstick Guide Tube Horiz Distance: 100.6|dipstick Type: External Locking Style",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "163759",
+      "latestPart": "false",
+      "partDesc": "TUBE CONNECTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4356622",
+      "latestPart": "false",
+      "partDesc": "DIPSTICK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "2874826",
+        "latestPart": "false",
+        "partDesc": "OIL GAUGE TUBE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4356621",
+        "latestPart": "false",
+        "partDesc": "DIPSTICK",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "727",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/727/lg/727_lg0214200_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LG2142-02",
+ "optionNumber": "LG2142-02"
+}

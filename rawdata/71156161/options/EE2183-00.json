@@ -1,0 +1,60 @@
+{
+ "componentHash": "B3A140563228CB610D96D9361B86ED6D52F428442888615BBF0F3502FEB2C5E78732EA19FEDD3410E7052B6D0B7A05307FB6ACB02C656BAB20295E8A35EEA660",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/ee/727_ee0218300_00"
+  }
+ ],
+ "remarks": "Alternator|quantity: One|manufacturer/model/type:|prestolite/ave2739d6-C|volts: 24|amps: 70|alternator Grounding Provision:|frame Ground Only|sealing Provision: No|ground Wire Supplier: Customer|alternator Total Length: 197 Mm|charging System: 1 Wire|battery Terminal: M6|terminal|d Or W Terminal: Delphi Terminal|cummins Branded: No|alternator Mounting Style: 4 Inch Double Lug|alternator Cooling: External Fan|voltage Regulator: Built In|pulley Supplied: On Alternator|alternator Pulley Groove: Poly V 5 Rib \"k\"|alternator Pulley Diameter: 94.98 Mm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5720432",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "727",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/727/ee/727_ee0218300_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EE2183-00",
+ "optionNumber": "EE2183-00"
+}

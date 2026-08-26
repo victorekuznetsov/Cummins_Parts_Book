@@ -1,0 +1,130 @@
+{
+ "componentHash": "405D4A9351B1A339B6BBD6118CEB9B4226F0FD4E993BA81C2C9702FF73EF662901A3D71C3F0E01DF216156F566152A2DC8D4FA58573FC8CF1DB6B7B1C9D1F174",
+ "esnType": "mbom",
+ "optionName": "Fuel Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/ff/727_ff0224900_03"
+  }
+ ],
+ "remarks": "Fuel Filter|water In Fuel Sensor Included: No|fuel Filter Supplier: Cummins|fuel Pump Type: Celect|fuel Filter Location:|left Front On Crn. Rstr. Bracket|element Type: Dual Spin-On|water Separator Provision: Yes|drain Provision: Yes|check Valve: No|filter Inlet Fitting: 90 Degree Elbow|pump Inlet Fitting: Straight|heater Element: No|decal: Fleetguard|fuel Plumbing Routing: Pressure Side|filtration Measurement (microns): 10|filter Model: Fs1000|pump Inlet Diagnostic Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "129859",
+      "latestPart": "false",
+      "partDesc": "MALE UNION ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "212013",
+      "latestPart": "false",
+      "partDesc": "FUEL FILTER HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3329289",
+      "latestPart": "false",
+      "partDesc": "FUEL WATER SEPARATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "255622",
+        "latestPart": "false",
+        "partDesc": "RECTANGULAR RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/727/ff/727_ff0224900_03",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "727",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FF2249-03",
+ "optionNumber": "FF2249-03"
+}

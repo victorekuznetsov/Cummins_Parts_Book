@@ -1,0 +1,83 @@
+{
+ "componentHash": "DD536465EBBBD75E52F90438A0AB324C3C4E1026F02E8EA368C80AFB396626D3EB74DB4A0CDEDBD868294337EFFB02FF781B8F8B7AF079DC7C2089D38618A1D6",
+ "esnType": "mbom",
+ "optionName": "Turbocharger Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/tb/727_tb0232200_02"
+  }
+ ],
+ "remarks": "Turbocharger Arrangement|engine Aspiration: Charged Air Cooled|turbocharger Location: Low Mount|exhaust Outlet Location: Front Out|turbo Outlet Conn Flange Od:|146.05 Mm (5.75 In)|turbocharger Type: Wastegate|wastegate Rod-To-Crank Angle (deg): 113|turbo C/l Vertically From Crank C/l:|353.00 Mm (13.9 In)|turbo C/l Horizontally From Crank C/l:|370.00 Mm (14.57 In)|exhaust Manifold Mtg Included: No|turbocharger Cooling:|water Cooled Bearing Housing|turbo Oil Supply Line Type: O Ring Face Seal|turbo Mtg Flange Bolt Circle Diameter:|129.06 Mm (5.08 In)|intake Manifold Included: In Imi Option|closed Crankcase Ventilation Compatible: No|turbocharger Model: Hx55|ffob To Turbo Compressor Inlet Flange:|630 Or 655 Mm|turbo Comp Outlet Angle From Horz: 45|unique Characteristic: Distance|between Oil Inlet Flange Face And Oil|drain Flange Face Is 132.9 Mm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3335152",
+      "latestPart": "false",
+      "partDesc": "EXHAUST MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4003994",
+      "latestPart": "false",
+      "partDesc": "EXHAUST MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/727/tb/727_tb0232200_02",
+ "optionPlantCode": "727",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "TB2322-02",
+ "optionNumber": "TB2322-02",
+ "buildCode": null
+}

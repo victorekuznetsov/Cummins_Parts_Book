@@ -1,0 +1,32 @@
+{
+ "componentHash": "118DFAEE599B16EFD54BC28E6568EA34795E27720FBA90E0B615A1CB0EC3C233858D37E659C66A804EA384BDA60EDC807A8A4B8F3C12B9D8BDE289225B4D8219",
+ "esnType": "mbom",
+ "optionName": "Engine Control Module Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Engine Control Module Location|ecm Location (mm): 337.7 Vert./558.9 Horz.|vertical Distance Measured From The|crank C/l To The Top Of The Ecm.|horizontal Distance Measured From The|ffob To The Front Of The Ecm.|ecm Input Voltage: 12 Or 24|oem Conn Vert From Crank C/l:|281.6 Mm (11.09 In)|oem Conn Horz From Ffob: 636.7 Mm (25.07 In)|oem Conn Horz From Engine C/l:|270.5 Mm (10.65 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "727",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "PH2019-00",
+ "optionNumber": "PH2019-00",
+ "buildCode": null
+}

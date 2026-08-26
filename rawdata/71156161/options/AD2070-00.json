@@ -1,0 +1,106 @@
+{
+ "componentHash": "21EA3866C950A0B126B7B19F86B648E9FBC823DC09BE7ECBB04572116856C7F47CF5D3325DDFDB27BC20AC1CEE7C71DFAFA10EED73D83E88D394E4B61141D11B",
+ "esnType": "mbom",
+ "optionName": "Accessory Drive Pulley",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/ad/727_ad0207000_00"
+  }
+ ],
+ "remarks": "Accessory Drive Pulley|intended Drive: Refrigerant Compressor|pulley Rotation: Same As Engine Crankshaft|horsepower Drive Limitation (hp): 20|side Load Limitation (lb): 360|pulley Diameter: 191.81 Mm (7.55 In)|pulley Groove: Dual Groove 1/2 In. \"v\"|pulley Groove Location: 90.0 Mm (3.54 In)|secondary Pulley Groove Location:|106.0 Mm (4.17 In)|drive Ratio: Turns At Engine Speed.|use On Fuel Pump Side (left Side) Of Engine.|weight: 1.94kg",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3818229",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M20 X 2.5 X 50",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3818463",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M20",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5560261",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/727/ad/727_ad0207000_00",
+ "optionPlantCode": "727",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "AD2070-00",
+ "optionNumber": "AD2070-00",
+ "buildCode": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "DCA725BFAB703F474601FF598B052921D8B99953860A4B29060788623004037D1BDF9342177B8D490807D53C802E02FE8705ED72CB27C6E4DEC2C47DF49D111F",
+ "esnType": "mbom",
+ "optionName": "Thermostat",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/727/ec/727_ec0270100_01"
+  }
+ ],
+ "remarks": "Thermostat (dependent)|opening Temperature (c): 82 C (179.6 F)|full Open Temperature (c): 94 C (201.2 F)|venting Arrangement: Non-Vented|thermostat Supplier: Cummins|quantity: 1",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4973373",
+      "latestPart": "true",
+      "partDesc": "THERMOSTAT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "727",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/727/ec/727_ec0270100_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EC2701-01",
+ "optionNumber": "EC2701-01"
+}
