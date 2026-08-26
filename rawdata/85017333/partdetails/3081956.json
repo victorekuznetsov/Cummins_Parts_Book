@@ -1,0 +1,826 @@
+{
+ "partNo": "3081956",
+ "partDesc": "male union",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "6543426",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CH4024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3087312",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3330889",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3417079",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3086522",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3086523",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3330369",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3417114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "2886325",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter head"
+  },
+  {
+   "item": "3086672",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3086671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4944009",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter head"
+  },
+  {
+   "item": "4941021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter head"
+  },
+  {
+   "item": "3866982",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3867716",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4010043",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4009801",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4062098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "PS4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "scavenge pump"
+  },
+  {
+   "item": "TP4765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "LF9140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "LF9126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "FS4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel cooler"
+  },
+  {
+   "item": "FS4028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel cooler"
+  },
+  {
+   "item": "D403075MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH5766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "KM2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "FF90011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF90196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF90291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF90030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF90375",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "D990003XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4062099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4002042",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4010044",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4009800",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4002043",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4002041",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3867717",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4002040",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3331219",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "3417080",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3417081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3330370",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3417115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3083586",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control valve"
+  },
+  {
+   "item": "3087298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3083648",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3083649",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3348003",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3348506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3087297",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3083585",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control valve"
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313014MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313050MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313011MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH50002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module mounting"
+  },
+  {
+   "item": "D893002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D990003XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH50026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "control valve"
+  },
+  {
+   "item": "PH4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D893007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "KM5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "PH50016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module mounting"
+  },
+  {
+   "item": "KM2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM1",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "PH4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D403075MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D763002DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH5767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH57027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D893008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D763002DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D763001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/308/3081956/3081956.obj"
+  },
+  {
+   "fileName": "/308/3081956/3081956.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/308/3081956/3081956_front.png"
+  },
+  {
+   "fileName": "/308/3081956/3081956_iso2.png"
+  },
+  {
+   "fileName": "/308/3081956/3081956_iso.png"
+  },
+  {
+   "fileName": "/308/3081956/3081956_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "5.8 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".36 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.85 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.25 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,103 @@
+{
+ "partNo": "4365250",
+ "partDesc": "tube brace",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "TP5726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "4352612",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "upfit kit"
+  },
+  {
+   "item": "D893008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/436/4365250/4365250.obj"
+  },
+  {
+   "fileName": "/436/4365250/4365250.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/436/4365250/4365250_front.png"
+  },
+  {
+   "fileName": "/436/4365250/4365250_iso.png"
+  },
+  {
+   "fileName": "/436/4365250/4365250_iso2.png"
+  },
+  {
+   "fileName": "/436/4365250/4365250_top.png"
+  },
+  {
+   "fileName": "/436/4365250/4365250_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6.8 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".355 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "6.65 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "3.43 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

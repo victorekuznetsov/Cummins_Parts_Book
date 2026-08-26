@@ -1,0 +1,106 @@
+{
+ "componentHash": "DB0D7E499F25DB26B754B1A6A619C7E7288C105A039D43F4930C4529BAACD65D7945275205707C486F894173CE8CAD621204844F6D4C3EE4F59A4CF126D607DA",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/894/ap/894_ap0513900_02"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Cs Iii|special Allowance: Na|cert Agent: Mep|comment: Engines Exported To China|fuel Type: Diesel|manufacturer Of Record: Cummins|centinel Provision: No|dataplate Quantity: 2|dataplate Language: Chinese & English|additional Information:|this Is For Engines Built In India That|are Exported To China. Contains Extra|china Certification Dataplate - To Be|tape Mounted To Engine.|cannot Be Used In Nonroad Mobile|machinery In The Eu",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3056508",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5543871",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5580694",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/894/ap/894_ap0513900_02",
+ "optionPlantCode": "894",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "AP5139-02",
+ "optionNumber": "AP5139-02",
+ "buildCode": null
+}

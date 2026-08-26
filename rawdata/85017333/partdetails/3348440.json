@@ -1,0 +1,344 @@
+{
+ "partNo": "3348440",
+ "partDesc": "electronic fuel control actuator",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3347905",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control actuator"
+  },
+  {
+   "item": "3417114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "2863070",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4306954",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4349163",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4062098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "4010043",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control pressure valve"
+  },
+  {
+   "item": "5660214",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5660208",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4062099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "4010044",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "3417115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic fuel control valve"
+  },
+  {
+   "item": "PH3704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH3702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "FP3800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH50018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D990003XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH3700",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH3703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "KM2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "PH5766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module mounting"
+  },
+  {
+   "item": "PH50026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "control valve"
+  },
+  {
+   "item": "PH57027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "KM4",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM5",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM1",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM2",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "KM3",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel system"
+  },
+  {
+   "item": "D763002DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D990003XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH5767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH5767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH50006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module mounting"
+  },
+  {
+   "item": "PH50015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D173075CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D763001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D763002DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

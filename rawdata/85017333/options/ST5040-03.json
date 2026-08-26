@@ -1,0 +1,60 @@
+{
+ "componentHash": "5CAA659DB9FBF6FA4D447B69CCAFAB50E92373F17CCA8918A0E5A4C5AD883037B75F05BE0BED1A644611AA14BC0FACB9459B0A5A4CC4D2B4D519433F32A6DC95",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/894/st/894_st0504000_03"
+  }
+ ],
+ "remarks": "Starting Motor|engine Family: D89|application: Industrial And Tier 4|powergen|number Of Starters: 2|application: Dry|method Of Engagement: Positive|sae Type Starter Mtg. Flange:|3 Bolts 60 Degrees Apart|manufacturer/model: Nikko Denki Kogyo|starter Type: Electronic|starter Voltage: 24 V|starter Kw Rating: 7.5 Kw|gear Pitch: 6/8|starter Solenoid Location: 52 Degrees|(solenoid Angle From Center Of Starter)|replaces St50006 - Bought Out Finish|engine From Komatsu-Japan",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4396011",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/894/st/894_st0504000_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "894",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "ST5040-03",
+ "optionNumber": "ST5040-03",
+ "buildCode": null
+}

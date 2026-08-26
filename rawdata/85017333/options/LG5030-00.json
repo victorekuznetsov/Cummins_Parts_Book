@@ -1,0 +1,32 @@
+{
+ "componentHash": "E0BC491B9672802B6BAC84EC2DB152B6675FE8315D91BC2430E957A1C6B72D32A22519276F9F78DF0F3E0136E9787EA3DC008A016147E21A96839F984328AD44",
+ "esnType": "mbom",
+ "optionName": "Oil Level Gauge Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Location,oil Level Gauge|engine Family: D89|application: Industrial & Powergen|dipstick Count: 1|dipstick Location: Left Side Of Block|from Engine C/l Mm (in): 315.30 (12.41)|from Crankshaft C/l Mm (in):|24.60 (0.968)|ffob Mm (in): - 458.23 (-18.04)|power Angle: 0|power Tilt: 0|oil Pan Sump Compatibile Locations: Center,|full",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "894",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LG5030-00",
+ "optionNumber": "LG5030-00"
+}

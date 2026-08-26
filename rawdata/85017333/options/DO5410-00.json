@@ -1,0 +1,79 @@
+{
+ "componentHash": "C872EE2F7CC0C6ADFDAD1BA851A579F2AD2E08BFD655A9811BA24E58A749AC489A297518BF28E8476E7FB7C9BDDB75C44DCEFED010C731CDCAE505DB777DF73D",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Hpi|transmission: Hydraulic Pump|commun Support: J1587|oem Name: Sany|oem Model: Sy1250e|oemcomment: Excavator|duty Cycle: N|remote Throttle: N|high Idle: 1850 Rpm|low Idle: 0750 Rpm|isc Enable: On|isc Validation: Na|switch Speed Input: No|torque Curve Selection: Na|asg/axg/min/max: Asg|governor Droop: 10    %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Tsc1|guid: Na|comment:|comment Cont:|software Phase: 5.1.5.3",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4366732",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4366745",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "894",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "DO5410-00",
+ "optionNumber": "DO5410-00",
+ "buildCode": null
+}

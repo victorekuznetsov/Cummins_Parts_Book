@@ -1,0 +1,83 @@
+{
+ "componentHash": "CBE55992BD0616C25F2A1E2C4DC4F113E84120FCBC7B8AC2E16A9348CAB699724203D27EEB163FCA6F82EBA96B9213B4791C8752AD35609FA123E84BF787011C",
+ "esnType": "mbom",
+ "optionName": "Alternator Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/894/eh/894_eh0571700_02"
+  }
+ ],
+ "remarks": "Alternator Drive|engine Family: D89|alternator Manufacturer/model:|delco Remy 55si-250a|prestolite Bld3314 Hc|alternator Drive Ratio: 3:1|alt Pulley Groove Profile: 9-K Rib|alt Pulley Dia (mm):|64.1 (2.5 In) Over 2.5 (0.098 In) Gage|balls|belt Description: Poly V-10 Rib|supply Method: Mounted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2891960",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4358153",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/894/eh/894_eh0571700_02",
+ "optionPlantCode": "894",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EH5717-02",
+ "optionNumber": "EH5717-02",
+ "buildCode": null
+}

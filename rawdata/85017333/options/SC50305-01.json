@@ -1,0 +1,171 @@
+{
+ "componentHash": "C94D62AD08CE447B5525E00DABA859EA98050EE6FEBA0B7BF33228F887398C2265164C5E6C4692C6A4C2A524B9D35D3070D89E2AF53406A026472DC67B3B6BDD",
+ "esnType": "mbom",
+ "optionName": "Calibration Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Calibration Software|cpl: 2858|engine Control System: Hpi|rated Power: 760 Bhp @ 1800 Rpm|torque Peak: 2558 Lb Ft @ 1350 Rpm|governed Power: 760 Bhp @ 1800 Rpm|governed Torque: 0 Lb Ft|certified By: None,mep|application: Nonroad|cal Restr: None|power Rating: Na|not Used|speed Input: Ring Gear Teeth 138|comment:|cert Level: None  ,cs Iii|software Phase: 5.1.5.3|comment Cont:|cert Level2:|certified By2:|calibration Voltage: 24|do Option: Do 5410|special Allowance: In Us Formerly Sold As|tpem Until End Of 2017",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4366712",
+      "latestPart": "false",
+      "partDesc": "ELECTRONIC CONSTANTS DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4997890",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONTROL CODE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5672305",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5672306",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONFIGURATION DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5672307",
+      "latestPart": "false",
+      "partDesc": "PERFORMANCE CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5672308",
+      "latestPart": "false",
+      "partDesc": "SYSTEM CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "894",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SC50305-01",
+ "optionNumber": "SC50305-01"
+}

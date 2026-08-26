@@ -1,0 +1,148 @@
+{
+ "partNo": "4096666",
+ "partDesc": "fuel filter head",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FF50001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF50002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF5090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF50003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "D893008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/409/4096666/4096666.obj"
+  },
+  {
+   "fileName": "/409/4096666/4096666.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/409/4096666/4096666_front.png"
+  },
+  {
+   "fileName": "/409/4096666/4096666_iso.png"
+  },
+  {
+   "fileName": "/409/4096666/4096666_iso2.png"
+  },
+  {
+   "fileName": "/409/4096666/4096666_right.png"
+  },
+  {
+   "fileName": "/409/4096666/4096666_top.png"
+  },
+  {
+   "fileName": "/409/4096666/4096666_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "32 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "5 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "18 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "16 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

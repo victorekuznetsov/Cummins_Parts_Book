@@ -1,0 +1,56 @@
+{
+ "componentHash": "0CEF5F3CC88674139E0CE208CAC5F77ED92F3859375764030BAD4A53AC4240C9526B39C0C05CB5E061A8CBD188C5F4C198A37A5ED14018EFDF2BA5C9B6E51708",
+ "esnType": "mbom",
+ "optionName": "Coolant Level Switch",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Coolant Level Switch|engine Family: D89|supply Method: Kitted|customer Interface: 4-Pin Packard Connector|12065298|wiring Harness Supplier: Customer|thread Size: 1/4-18 Npt|allowable Operating Temperatures:-40 To 125|degrees Celcius|operating Pressure 5 Bar Max.(72 Psi)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4383932",
+      "latestPart": "false",
+      "partDesc": "FLUID LEVEL SWITCH",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "894",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SD5077-00",
+ "optionNumber": "SD5077-00"
+}

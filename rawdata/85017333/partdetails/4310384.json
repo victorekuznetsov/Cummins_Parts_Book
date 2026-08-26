@@ -1,0 +1,133 @@
+{
+ "partNo": "4310384",
+ "partDesc": "cylinder block",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "BB5718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB5714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "D893008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D893007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/431/4310384/4310384.obj"
+  },
+  {
+   "fileName": "/431/4310384/4310384.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/431/4310384/4310384_back.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_bottom.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_front.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_iso.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_iso2.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_left.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_right.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_top.png"
+  },
+  {
+   "fileName": "/431/4310384/4310384_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "160 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "835.06 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "74 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "98 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
