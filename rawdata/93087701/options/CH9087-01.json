@@ -1,0 +1,60 @@
+{
+ "componentHash": "75B608B250A6CE15CC68C5B1AF37B3CC6307D250B1DB2D93E5639440B1FDA95BCFD2D48CC2A176777CDBA62954BCA10DCCCD8F56464CDE29B95C98F07181B9D6",
+ "esnType": "mbom",
+ "optionName": "Coolant Heater Starting Aid Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ch/508_ch0908700_01"
+  }
+ ],
+ "remarks": "Coolant Heater Starting Aid Plumbing|coolant Port Plumbing Provision: Closed|plug Pipe 3008469 May Be Used In Place Of|4933532|tel/tcl May Use 3936642 Pipe Plug In Place|of 4933532",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008469",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/ch/508_ch0908700_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "CH9087-01",
+ "optionNo": "CH9087-01",
+ "path": null
+}

@@ -1,0 +1,129 @@
+{
+ "componentHash": "949445ED5819346AEEC378F7D13FB129AB76B329CD6C33800AA3A19AC98E8C9D6FD0F28EA6A6A97B9D383E1C702EE7AB92FA7CBB2F3E284C4D6ABDEF30CB4FE0",
+ "esnType": "mbom",
+ "optionName": "Lifting Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/la/508_la0906800_01"
+  }
+ ],
+ "remarks": "Lifting Arrangement|bracket(s) Provided: Front And Rear|front Bracket Location: Exhaust Side Cyl Head|c/l Crankshaft To Eye C/l: 505.7mm|c/l Of Engine To Eye C/l: 95 Mm|rear Bracket Location: Cylinder Head|c/l Crankshaft To Eye C/l: 524.7 Mm|c/l Of Engine To Eye C/l: 108.3 Mm|distance Between Centerlines: 873.9 Mm|rear Bracket Orientation: 78 Degrees From|rfob|engine Family: C Series|max Lifting Load (lbs): 2000|bracket Pre-Painted: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3901249",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 25",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903200",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 25",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3906440",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3907861",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/la/508_la0906800_01",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "LA9068-01",
+ "optionNo": "LA9068-01",
+ "path": null
+}

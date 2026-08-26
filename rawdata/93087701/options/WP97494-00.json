@@ -1,0 +1,139 @@
+{
+ "componentHash": "8A740730079B1FE1DD2252E62766DE6388654489C648C2F2D320EF5ADA988467A086978EE1932D1B05B05346A9604EAFBC82C71CE24CCE94CEA72F887F5BC346",
+ "esnType": "mbom",
+ "optionName": "Water Pump",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wp/508_wp9749400_00"
+  }
+ ],
+ "remarks": "Water Pump|pulley Material: Hardened|pulley Type: Cast Iron|pulley Diameter (mm): 110 (4.33 In)|studded Capscrew At Top Of Water Pump|seal Type: Cs2 Elc|variant Content:|in Place Of Stud 3931061(x1) And|cap 3093730 (x2)|tcl/tel/tcx May Use 3093730 (x3)|dfm May Use 3093730 (x3)|bzl May Use 3093730 (x3)|in Place Of 6518940|dfm May Use 5402699|nci May Use 5621945",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093730",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3931061",
+      "latestPart": "false",
+      "partDesc": "STUDDED FLANGE CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25 : M6 X 1 X 15",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3940386",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5402699",
+      "latestPart": "false",
+      "partDesc": "WATER PUMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "2718E237CDB094D500B7CECD34B82ABFA7F0FE04418880FE8413370C6EB066B0424E4FF612302197406D1E5C95049C50DEF8DC1470F05A03E4C0C865D070FFC9",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6311674",
+   "kitDesc": "Water Pump Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/wp/508_wp9749400_00",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "WP97494-00",
+ "optionNo": "WP97494-00",
+ "path": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "59452B2280E4F3C2BBBC7CD913AD31DFF41BAE09237EBF3378869AABF8EC4CD960A3A84771CDE7DFCA13A8DE056A90A26170C7707559BB5A231E6ADC147611B6",
+ "esnType": "mbom",
+ "optionName": "Belt Tensioner",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wp/508_wp0991600_05"
+  }
+ ],
+ "remarks": "Belt Tensioner|engine Cylinders: 6|pulley Groove Profile: Poly V8 Rib K|tensioner Pulley Dia Over 2.5mm Balls: 73.951|pulley Material: Ductile Iron|dust Shield Included: No|variant Content:|in Place Of P/n 5259022|dfm May Use P/n 3976831|nci May Use P/n 3976831|tcl May Use P/n 5621847|tcx May Use P/n 5621847|zck May Use P/n 5568093",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3282433",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 85",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3976831",
+      "latestPart": "true",
+      "partDesc": "BELT TENSIONER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/wp/508_wp0991600_05",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "WP9916-05",
+ "optionNo": "WP9916-05",
+ "path": null
+}

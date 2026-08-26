@@ -1,0 +1,60 @@
+{
+ "componentHash": "4E0B9CC760F1B12286316EBEE7BCE76793EF871C295DD5342AB1C96708967CC03F170ACFAB339881820918EAEE1CCC7D199D52E66541597C75E57ED00B37EF98",
+ "esnType": "mbom",
+ "optionName": "Flywheel Housing Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fh/508_fh0977700_01"
+  }
+ ],
+ "remarks": "Mr - Flywheel Housing Plumbing|plastic Plug|family: B, C & L|containing One Plastic Plug With Thread Size|m18x1.5 Used To Close The Hole In Fh When|customer Fits His Own Speed Sensor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3415478",
+      "latestPart": "false",
+      "partDesc": "ORIFICE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/fh/508_fh0977700_01",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "FH9777-01",
+ "optionNo": "FH9777-01",
+ "path": null
+}

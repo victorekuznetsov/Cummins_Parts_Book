@@ -1,0 +1,60 @@
+{
+ "componentHash": "CA94294201B46F095A9E68DD63CBEF4B75F75E45EC51D16F271A0009DEB67AE080876E0322AFEC13CC67A6A1CF91F7943DA9BE58D3AC82BDB2DCDF61A5995013",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fp/508_fp9128800_01"
+  }
+ ],
+ "remarks": "Mr- Fuel Pump|design Phase: Elite Ii|engine Family: C|engine Cylinders: 6|pump Manufacturer: Weifu|fuel Pump Model:pw2000|applicable Fr Option: Fr92527|engine Application:nonroad|certification Level: N/a|rated Power:160kw/2200rpm|fuel Pump Mtg Pilot Bore Dia(mm):107|fuel Pump Mtg Flange Bolt Holes:4  M10  1.5|fuel Pump Mtg Flange Bolt Circle Dia(mm):130|mounting Location: Gear Housing|fuel Inlet Port Description|fuel Inlet Port Location(mm)|from Engine C/l: 296.2|from Crank C/l: 414.3|from Ffob: -226.6|sutoff Actuation: Electric|compatible Shutoff Level Pn: N/a|throttle Lever Conn Interface:|2  M6 On 25mm Center|restrictions|2000m. Altitude Limit|requires Chief Engineer Approval",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4988760",
+      "latestPart": "false",
+      "partDesc": "FUEL PUMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/fp/508_fp9128800_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "FP91288-01",
+ "optionNo": "FP91288-01",
+ "buildCode": null,
+ "path": null
+}

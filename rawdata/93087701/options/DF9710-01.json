@@ -1,0 +1,83 @@
+{
+ "componentHash": "7930DA473C07CF2B49451B0EA226E391C32F57CB6CF3482A415FBF50D0E5C81D5CA5565CEC1313F3A9EECD7BDD50F110F6340564F0108A3B2DE3C660A553DCA6",
+ "esnType": "mbom",
+ "optionName": "Front Gear Train Accessory Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/df/508_df0971000_01"
+  }
+ ],
+ "remarks": "Front Gear Train Acc Mounting|engine Cylinders: 6|gear Hsg Accy Drive Pilot Bore (mm/in):|114.66/4.51|gear Hsg Accy Drive Mtg Provision:|2 X M12x1.175|gear Hsg Accy Drive Mtg Bcd (mm/in): 146/5.75|drive Supplier: Customer|unique Characteristics:|pto Opening Covered To Allow Customer To|supply Own Drive|varient Content:|in Place Of 3940246|dfm May Use 5254610",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3901249",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 25",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3940245",
+      "latestPart": "false",
+      "partDesc": "HYDRAULIC PUMP GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/df/508_df0971000_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "DF9710-01",
+ "optionNo": "DF9710-01",
+ "buildCode": null,
+ "path": null
+}

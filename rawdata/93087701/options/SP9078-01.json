@@ -1,0 +1,60 @@
+{
+ "componentHash": "209F267BBD65DCF2C4711F626764E0F57878C0C35612CDAF90DB66E2C3407A0E82C4896BF915DD2C1064D353679885FCFEC3ABED40F88AAF0608927A74861646",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/sp/508_sp0907800_01"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|spacer Thickness(mm): 76.2|mounting/bolt Circle: 4 X 60|fan Spacer Pilot Diameter(mm): 25.4|fan Pilot Diameter(mm): 25.4",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3915456",
+      "latestPart": "false",
+      "partDesc": "FAN PILOT SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/sp/508_sp0907800_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "optionNo": "SP9078-01",
+ "optionNumber": "SP9078-01",
+ "buildCode": null,
+ "path": null
+}

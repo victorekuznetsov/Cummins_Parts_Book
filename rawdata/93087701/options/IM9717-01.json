@@ -1,0 +1,106 @@
+{
+ "componentHash": "15D7560F5CB1D8BF46AD679B121F5F61D1FA8113F625E86C1D6DF3514EE3566BEDA1C53F4125AA4DA63475D2D062670F56DE8516E06B300DE8CAA12AFD4F9B33",
+ "esnType": "mbom",
+ "optionName": "Air Intake Manifold",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/im/508_im0971700_01"
+  }
+ ],
+ "remarks": "Air Intake Manifold|air Intake Flange Loc.:  (c/l Of Opening Of|mating Surface)|horizontal From Engine C/l:  147.3mm|vertical From Crank C/l:  497.7mm|horizontal From Ffob:  -429.5mm|mating Flange Bolt Hole Description:  8 Holes|x M8x1.5 - 77.5 X 187mm|cover Plate/intake Flange Thickness (mm): 18",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3354397",
+      "latestPart": "false",
+      "partDesc": "INTAKE MANIFOLD COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3936993",
+      "latestPart": "false",
+      "partDesc": "INTAKE MANIFOLD COVER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3938036",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 30",
+      "qty": "11",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/508/im/508_im0971700_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "508",
+ "optionNumber": "IM9717-01",
+ "optionNo": "IM9717-01",
+ "buildCode": null,
+ "path": null
+}

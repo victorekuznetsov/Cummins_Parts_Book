@@ -1,0 +1,106 @@
+{
+ "componentHash": "81EA9469FAF772EA0EFA28E0839CD4F804201AD8B838E6CFD0804040E392ED0C6D9245A3C53B6F17D9F2753DC5D9334F0F8E1D4F5190CA5D6CBD673D84FF690C",
+ "esnType": "mbom",
+ "optionName": "Oil Level Gauge",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/lg/508_lg0997400_02"
+  }
+ ],
+ "remarks": "Oil Level Gauge|dipstick Suplier: Cummins|dipstick Location: Fuel Pump Side|dipstick Pull Location:|from Crank C/l (mm): 231.0|from Engine C/l (mm): 71|from Ffob (mm): -428.0|dipstick Calibration:|bfob-Full/low 0 Deg. (mm): 65/91|power Angle (deg): 0|engine Tilt (deg): 0|pan High Capacity (qt): 20 Litre|pan Low Capacity (qt): 16 Litre|family: C Series|may Use 5362501 Expansion Plug In Place Of|5362092|may Use 3943808 Expansion Plug In Place Of|5362092|variant Content:|in Place Of 3943808|tcx May Use 3945095 Or 5362092",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3908772",
+      "latestPart": "false",
+      "partDesc": "DIPSTICK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3943808",
+      "latestPart": "true",
+      "partDesc": "EXPANSION PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5269589",
+      "latestPart": "false",
+      "partDesc": "OIL GAUGE TUBE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "508",
+ "artCallOut": "/508/lg/508_lg0997400_02",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "LG9974-02",
+ "optionNo": "LG9974-02",
+ "path": null
+}

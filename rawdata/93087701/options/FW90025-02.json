@@ -1,0 +1,83 @@
+{
+ "componentHash": "E28437ED59B9DD11F01070DDAF58DD027418B2A9AF070243875AF0DFB9C7F9D150352275AF763AA06703BCFC5DA5957EA70BD8B7737FB8B0584809746D19EF57",
+ "esnType": "mbom",
+ "optionName": "Flywheel Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fw/508_fw9002500_02"
+  }
+ ],
+ "remarks": "Flywheel Mounting|bolt Length (mm/in): 41/1.61|flywheel Web Thickness (mm/in): 25/0.98|to Suit Fgt Repto: Yes|to Suit Rgt Repto: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900269",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3977274",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.25 X 41",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/508/fw/508_fw9002500_02",
+ "optionPlantCode": "508",
+ "buildCode": null,
+ "optionNumber": "FW90025-02",
+ "optionNo": "FW90025-02",
+ "path": null
+}

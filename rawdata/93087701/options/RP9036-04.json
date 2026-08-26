@@ -1,0 +1,130 @@
+{
+ "componentHash": "19A7942D9EDA14306A8DB3888F470DB6F588C4356D8D1B4B1F77DFBFD5F90633ABAC5EC5779B4655DB29E374532EA09081B6B25E6C73B7B136DA5A20398304C9",
+ "esnType": "mbom",
+ "optionName": "Engine Coolant Vent",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/rp/508_rp0903600_04"
+  }
+ ],
+ "remarks": "Mr - Engine Coolant Vent|vent Arrangement: Check Valve|vent Connection Location: Front Of Cyl Head|from Crank C/l To Connection C/l: +530.8 Mm|from Engine C/l To Connection C/l: -65.6 Mm|from Ffob To Connection C/l: -78.5 Mm|dcec May Use 4944603 In Stead Of 3629097|gcic May Use 4944603 In Stead Of 3629097",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3974262",
+      "latestPart": "false",
+      "partDesc": "CHECK VALVE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3911901",
+        "latestPart": "false",
+        "partDesc": "CHECK VALVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3911925",
+        "latestPart": "false",
+        "partDesc": "PLAIN HOSE COUPLING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4944603",
+      "latestPart": "false",
+      "partDesc": "PLAIN STREET PIPE ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/rp/508_rp0903600_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "optionNo": "RP9036-04",
+ "optionNumber": "RP9036-04",
+ "buildCode": null,
+ "path": null
+}
