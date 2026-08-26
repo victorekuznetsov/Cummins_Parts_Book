@@ -1,0 +1,56 @@
+{
+ "componentHash": "7A9EA2352BB65F0ADA0AD2EC32AAE1E04AC5F4D52A5DEF604E042F2A7D65847F8DC6FF788F78F9D25BA2AAEAFEADE03A68DD60C158860E97E37DC5B716582F05",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Agency Approval|certified By: None|application: Nonroad|cert Level: None|special Allowance: Na|cert Agent: None|comment: In U.s., Engine Solely For Export|fuel Type: Diesel|cert Level2:|certified By2:|manufacturer Of Record: Cummins|variant Content:|in Place Of P/n 5483897|cqp May Use P/n 5493305|kcl May Use P/n 5580701|php May Use P/n 6537066|additional Information:|for Export, Cannot Be Used In Nonroad|mobile Machinery In The Eu After|january 2019",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4953598",
+      "latestPart": "true",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "AP4010-04",
+ "optionNumber": "AP4010-04"
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "C088DCC50FF4E39DF07F53AA56CB326E3D849430D29350CB314757D79DB635BFF7B1D382AE7BDAF0CE4C773C70A8E19C16716939A7453A3745DA67590BC5CE7D",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/sp/095_sp0810600_01"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|engine Family: K19|total Fan Spacing (mm): 38 (1.50 In)|pilot Bore Diameter (mm): 76 (3.0 In)|fan Pilot Spigot Length (mm): 6.35 (0.250 In)|fan Spacer Diameter (mm): 165 (6.50 In)|mounting Holes: 6|bolt Circle (mm): 140 (5.50 In)|material: Aluminum|fan Hub Bore Provision (mm): 81 (3.18 In)|supply Method: Kitted|fan Spacer Mtg Included: Yes|items Included:|capscrews For Customer Mounting|additional Information:|first Used On Belaz 55mt Rdt",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "216701",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 3 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "219125",
+      "latestPart": "false",
+      "partDesc": "FAN PILOT SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/sp/095_sp0810600_01",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "SP8106-01",
+ "optionNumber": "SP8106-01",
+ "buildCode": null
+}

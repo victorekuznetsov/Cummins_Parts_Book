@@ -1,0 +1,60 @@
+{
+ "componentHash": "AB33ACD7D90C2BB3C12B3EF1E4DAABED40C24F252FCD764953645F031964DC04DCF236783A7A4EF7D048C35C1C0088171B32360A0E1FFDAC1CEA37A0BCB9F586",
+ "esnType": "mbom",
+ "optionName": "Paint",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ss/095_ss0802500_01"
+  }
+ ],
+ "remarks": "Paint|color: Cummins Beige|used On Industrial Engines",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3991084",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ss/095_ss0802500_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SS8025-01",
+ "optionNumber": "SS8025-01"
+}

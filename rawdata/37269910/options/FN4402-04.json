@@ -1,0 +1,56 @@
+{
+ "componentHash": "361A760CDCD084BBD7197D21B4E2D8EA302DEFF11D9C2C3B951F85188C0E3901735966EA1E60726AC96AA060CB303A4215EB389BF403E58FE10EA4F0589FBC39",
+ "esnType": "mbom",
+ "optionName": "Engine Fan",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Engine Fan|engine Family: Vta28, Kt, Kta, Ktta19|fan Diameter (mm):  1118 (44 In)|fan Blade Qty: 8|fan Type:  Sucker|max. Speed Limitations (rpm): 1800|mounting Bolt Circle (mm): 139.7 (5.50 In)|mounting Bolt Qty: 6|mounting Flange Thickness (mm):|13.67 (0.538 In)|fan Pilot Diameter (mm):  76 (3.0 In)|fan Material: Aluminum|fan Rotation: Cw|supply Method:  Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "212682",
+      "latestPart": "false",
+      "partDesc": "ENGINE FAN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FN4402-04",
+ "optionNumber": "FN4402-04"
+}

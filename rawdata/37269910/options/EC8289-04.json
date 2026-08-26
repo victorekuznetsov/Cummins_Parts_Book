@@ -1,0 +1,83 @@
+{
+ "componentHash": "D2F6A34DBDAB7799A96E33137A1349233B65B5895F2349CC172C62169FC8224142DA3B478D858F03344DF93F0B6A4835E3ED002B6AF5E8D0488513BDA6A44475",
+ "esnType": "mbom",
+ "optionName": "Coolant Temperature Switch",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ec/095_ec0828900_04"
+  }
+ ],
+ "remarks": "Coo Temperature Switch|switch Type:|high Coolant Temperature|initiates Engine Shutdown At:|96 +/- 1 Deg. C. (205 +/- 2 Deg. F.)|on Increasing Temperature|fungus And Corrosion Resistant: Yes|wiring Harness Supplier: Customer|supply Method: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3056356",
+      "latestPart": "false",
+      "partDesc": "WIRING HARNESS",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4327021",
+      "latestPart": "false",
+      "partDesc": "TEMPERATURE SWITCH",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ec/095_ec0828900_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EC8289-04",
+ "optionNumber": "EC8289-04"
+}

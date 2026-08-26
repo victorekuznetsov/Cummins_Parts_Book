@@ -1,0 +1,265 @@
+{
+ "partNo": "3088297",
+ "partDesc": "filter bracket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4371619",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bypass filter mounting"
+  },
+  {
+   "item": "3088261",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bypass filter mounting"
+  },
+  {
+   "item": "3166200",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bypass filter mounting"
+  },
+  {
+   "item": "3088398",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bypass filter mounting"
+  },
+  {
+   "item": "OF4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter"
+  },
+  {
+   "item": "OF4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "OF4713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter mounting"
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/308/3088297/3088297.obj"
+  },
+  {
+   "fileName": "/308/3088297/3088297.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/308/3088297/3088297_iso.png"
+  },
+  {
+   "fileName": "/308/3088297/3088297_iso2.png"
+  },
+  {
+   "fileName": "/308/3088297/3088297_right.png"
+  },
+  {
+   "fileName": "/308/3088297/3088297_top.png"
+  },
+  {
+   "fileName": "/308/3088297/3088297_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "8.05 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "3.03 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "7.9 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "4.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

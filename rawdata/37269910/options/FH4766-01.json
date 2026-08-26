@@ -1,0 +1,83 @@
+{
+ "componentHash": "0EB33114EF257CDC8EB09C6AF951516A0BFE49BC172C61E7D98D90CB714E649358637D32F1FA7D64ADCA9D06781705CE9689DB8883D23953CAB457CEEFB57B26",
+ "esnType": "mbom",
+ "optionName": "Signal Generating Device",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/fh/095_fh0476600_01"
+  }
+ ],
+ "remarks": "Signal Generating Device|engine Family: K19|application: Plug|thread Size:|2 X 3/4 - 16 Unf|mounting Location: Flywheel Housing|clutch Type: Wet Or Dry|required When Not Specified:|woodward 2301 Electro-Hydraulic|governors|american Bosch Governors|cummins Efc Governors|tachometers|speed Switches|item(s) Included:|plug And Gasket To Be Used To Plug|magnetic Pick-Up Locations",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "553856",
+      "latestPart": "false",
+      "partDesc": "OIL DRAIN GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201759",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 X  1/2 INCH",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/fh/095_fh0476600_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FH4766-01",
+ "optionNumber": "FH4766-01",
+ "buildCode": null
+}

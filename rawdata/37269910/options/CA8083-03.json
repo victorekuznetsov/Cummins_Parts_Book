@@ -1,0 +1,148 @@
+{
+ "componentHash": "9A6C69DC5E4637D853439BF9DDE4FCA010E6B6592C96F0A8820ABBE2FA0A660003396DB5FA47D6CA23E663C8B91CAF2376C3F060B78EB44C04E5E1EC0192A474",
+ "esnType": "mbom",
+ "optionName": "Air Cleaner Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Air Cleaner Plumbing|hose Type: Elbow Reducer|hose Angle: 90 Degree|quantity: 2|internal Dimension (mm):|178 (7.0 In) To 140 (5.50 In)|material: Silicone/high Temperature|clamps Included: T Bolt|clamp Quantity And Diameter (mm):|1 @ 152 (6.0 In)|1 @ 191 (7.50 In)|1 @ 229 (9.0 In)|supply Method: Kitted|additional Information:|first Used On Belaz",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "125741",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "6 inch",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "125742",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "7 1/2 inch",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3030515",
+      "latestPart": "false",
+      "partDesc": "ELBOW HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3627146",
+      "latestPart": "false",
+      "partDesc": "HUMP HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3641462",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "CA8083-03",
+ "optionNumber": "CA8083-03",
+ "buildCode": null
+}
