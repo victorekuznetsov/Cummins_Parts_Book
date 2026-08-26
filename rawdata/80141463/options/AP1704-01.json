@@ -1,0 +1,60 @@
+{
+ "componentHash": "C0908709B9C91A7E10D12315308E8A05E2C2616905D1A55370458E6637D11BDFC910243BF6208712F5660E60ABD9C51238BF1E19A60DE56AF5DF6E7889E8DDEA",
+ "esnType": "mbom",
+ "optionName": "Declaration Of Incorporation Documentation",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ap/082_ap0170400_01"
+  }
+ ],
+ "remarks": "Documentation,dcn Ipn|a Letter Of Conformity Is Supplied With|the Engine Stating This Product Meets|the Declaration Of Incorporation In|accordance With E.c. Machinery Directive|2006/42/ec. This Engine Meets The|requirements Of The Directives For|machines Which Are To Be Incorporated|into A Final Product. Assembly Instructions|are Also Supplied.|variant Content:|in Place Of P/n 6524054 Used At Jep|dcm May Use P/n 6377838|in Place Of P/n 6524056 Used At Jep|dcm May Use P/n 6377839",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3062329",
+      "latestPart": "false",
+      "partDesc": "WIRE TIE CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ap/082_ap0170400_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "AP1704-01",
+ "optionNumber": "AP1704-01",
+ "buildCode": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "158E953B496615C5E6271379CB5A268C7F29C765CC71A089E882BAC3E26DC73A5AD4FCF645A27CD87CF9F2211D2736B8034DA2D760F1AB37E6F096427085152A",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/lf/082_lf0121000_01"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|one Combo Spin-On Element|mounted To The Lube Cooler|filter Model: Lf 9070|capacity:  3.8 L (one U.s. Gallon)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4331003",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4331004",
+      "latestPart": "false",
+      "partDesc": "INFORMATION DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/lf/082_lf0121000_01",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "LF1210-01",
+ "optionNumber": "LF1210-01",
+ "buildCode": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "0B18E590673055172121665C774B93975782F2D44D6B9ECAE89CCB9C4866A85D76BCD231C31459479BAA7C1E6736B9671F282049D2A8BFAA5AD00944F9ACFF59",
+ "esnType": "mbom",
+ "optionName": "Intake Connection Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ic/082_ic0171000_01"
+  }
+ ],
+ "remarks": "Intake Connection Mounting|engine Aspiration: Charged Air Cooled|grid Heater Mtg Provision: Yes|decorative Cover Mounting Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900634",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 50",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ic/082_ic0171000_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "IC1710-01",
+ "optionNumber": "IC1710-01"
+}

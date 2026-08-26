@@ -1,0 +1,83 @@
+{
+ "componentHash": "9011EBF339F913EE37C9BCA38319E27F860EC6FBE06DA75EDB3607056663B822DFC0A9482583171BDC10ECE649550EFD36B306754DADD488DB157E163BF43421",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/sm/082_sm0177700_00"
+  }
+ ],
+ "remarks": "Starter Motor Mounting|cummins Supplied Mounting|screws: English (in)|clutch Provision: Dry|for Use With Cummins Or Customer|supplied Single Starting Motor On|cast Iron Flywheel Housing With|dual Starter Provision|(includes Starter Bore Plug)|starter Mounting Location: Left Side",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3103423",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 2 1/2 INCH",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3106206",
+      "latestPart": "false",
+      "partDesc": "STARTER FLANGE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/sm/082_sm0177700_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "SM1777-00",
+ "optionNumber": "SM1777-00",
+ "buildCode": null
+}

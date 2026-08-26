@@ -1,0 +1,83 @@
+{
+ "componentHash": "3E8A05C4A172F333CD40F88F1677D418DCDB9A6F8122F2ACE1B81104DC717F8A9C6A41CD0074E66DFA0F07846B6DAC45679282CBB67D316AF2C84988D80DAE5D",
+ "esnType": "mbom",
+ "optionName": "Fan Pilot Spacer",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/sp/082_sp0106600_06"
+  }
+ ],
+ "remarks": "Fan Pilot Spacer|spacer Thickness:  127 Mm (5.0 In)|fan Pilot Dia.:  76.2 Mm (3.0 In)|fan Mtg Bolt Circle Dia.:  139.7 Mm (5.5 In)|n14:  For Use On Fixed Fan Drives Only.|qsx:  All|supplied In Kit.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4952764",
+      "latestPart": "false",
+      "partDesc": "FAN SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4952766",
+      "latestPart": "false",
+      "partDesc": "FAN SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/sp/082_sp0106600_06",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "SP1066-06",
+ "optionNumber": "SP1066-06",
+ "buildCode": null
+}

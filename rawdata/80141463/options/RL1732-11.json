@@ -1,0 +1,2094 @@
+{
+ "componentHash": "D9DD951903C461FF463106F1CBD43E2CC0140856ACE266D913C2EE7BD25AAAAD2BBE68F375551279D9520741D3383367A24A186796F4C1867034A360B367C1EF",
+ "esnType": "mbom",
+ "optionName": "Rocker Lever",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/rl/082_rl0173200_11_1"
+  },
+  {
+   "fileName": "/082/rl/082_rl0173200_11_2"
+  },
+  {
+   "fileName": "/082/rl/082_rl0173200_11_3"
+  },
+  {
+   "fileName": "/082/rl/082_rl0173200_11_4"
+  }
+ ],
+ "remarks": "Rocker Lever|use On Engines Without Brake|application: Industrial|(high Microfinish Cam Roller)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3680732",
+      "latestPart": "false",
+      "partDesc": "EXPANSION PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4059342",
+      "latestPart": "false",
+      "partDesc": "VALVE CROSSHEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4101459",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER TOP LEVEL ASSEMBLY ASSEMBLY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3679427",
+        "latestPart": "false",
+        "partDesc": "RETAINING CLAMP",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3681221",
+        "latestPart": "false",
+        "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M12 X 1.75 X 60",
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4059416",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3679561",
+          "latestPart": "false",
+          "partDesc": "SPACER,THRUST",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "5"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4059283",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3105973",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "6"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4059284",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER SHAFT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "7"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "5484228",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "4319026",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "8"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4386550",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "9"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "5484095",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "10"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679694",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "11"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059282",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "12"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059377",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "13"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "5484094",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "14"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "5484230",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "4319026",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "15"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4386550",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "16"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "5484097",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "17"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679694",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "18"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059282",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "19"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059377",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "20"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "5484092",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "21"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4101460",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER TOP LEVEL ASSEMBLY ASSEMBLY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3679427",
+        "latestPart": "false",
+        "partDesc": "RETAINING CLAMP",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "22"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3681221",
+        "latestPart": "false",
+        "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M12 X 1.75 X 60",
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "23"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4059417",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3679561",
+          "latestPart": "false",
+          "partDesc": "SPACER,THRUST",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "24"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4059288",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3105973",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "25"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4059289",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER SHAFT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "26"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "5484229",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "4319026",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "27"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4386550",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "28"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "5484096",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "29"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679694",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "30"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059282",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "31"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059377",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "32"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "5484093",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "33"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "5484231",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "4319026",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "34"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4386550",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "35"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "5484098",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "36"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679694",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "37"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059282",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "38"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "4059377",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "39"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "5484091",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "40"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4101463",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER TOP LEVEL ASSEMBLY ASSEMBLY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3100775",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER ASSEMBLY",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3679418",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3105972",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "41"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3679417",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER SHAFT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "42"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "4059197",
+          "latestPart": "false",
+          "partDesc": "SPACER,THRUST",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "6",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "43"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4311991",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3103839",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "3",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "44"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679870",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "45"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680057",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "46"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680058",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": "M16 X 1.5 X 32.5",
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "47"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680167",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "48"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          },
+          {
+           "data": {
+            "partNo": "3679504",
+            "latestPart": "false",
+            "partDesc": "SPIRAL PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "49"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4312003",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "50"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4319028",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "51"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "3681221",
+        "latestPart": "false",
+        "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M12 X 1.75 X 60",
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "52"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4101464",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER TOP LEVEL ASSEMBLY ASSEMBLY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3100779",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER ASSEMBLY",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3679418",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3105972",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "53"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3679417",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER SHAFT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "54"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "4059197",
+          "latestPart": "false",
+          "partDesc": "SPACER,THRUST",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "6",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "55"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4311991",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "3",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3103839",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "ASSEMBLY"
+           },
+           "expanded": true,
+           "children": [
+            {
+             "data": {
+              "partNo": "3067941",
+              "latestPart": "false",
+              "partDesc": "BALL PLUG",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "3",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "56"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3679870",
+              "latestPart": "false",
+              "partDesc": "BUSHING",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "57"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680057",
+              "latestPart": "false",
+              "partDesc": "REGULAR HEXAGON JAM NUT",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "58"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680058",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER ADJUSTING SCREW",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": "M16 X 1.5 X 32.5",
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "true",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": true,
+              "callOut": "59"
+             },
+             "expanded": true,
+             "children": []
+            },
+            {
+             "data": {
+              "partNo": "3680167",
+              "latestPart": "false",
+              "partDesc": "ROCKER LEVER",
+              "lvlNo": "5",
+              "remarks": "",
+              "dimensions": null,
+              "qty": "1",
+              "hotSpotId": null,
+              "transDescription": null,
+              "sellable": "false",
+              "reconEquivalent": null,
+              "leaf": false,
+              "artCallOut": null,
+              "startDt": null,
+              "stopDt": null,
+              "hasGraphic": false,
+              "callOut": "60"
+             },
+             "expanded": true,
+             "children": []
+            }
+           ]
+          },
+          {
+           "data": {
+            "partNo": "3679504",
+            "latestPart": "false",
+            "partDesc": "SPIRAL PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "61"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4312003",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER PIN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "62"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4319028",
+            "latestPart": "false",
+            "partDesc": "CAM FOLLOWER ROLLER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "63"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "3681221",
+        "latestPart": "false",
+        "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M12 X 1.75 X 60",
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "64"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "4",
+ "artCallOut": "/082/rl/082_rl0173200_11_1",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "RL1732-11",
+ "optionNumber": "RL1732-11",
+ "buildCode": null
+}

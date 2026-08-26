@@ -1,0 +1,60 @@
+{
+ "componentHash": "B463DFAB44FC1D6444A4198D3FA60AFBDF3A6A0E7327452AC3766C4D94E1AC6571ECC3F23F0250E8C8C425065E753BAFA675BAC1F4E52FA479DC04CDE5EA6918",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/la/082_la0170400_01"
+  }
+ ],
+ "remarks": "Bracket, Lifting|bracket Location, Left Rear|fuel Filter Mounting: Fuel Pump Or Remote|chassis Mounted|for Use When Lifting Bracket Is Not|provided In The Fuel Filter Option",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3682031",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/la/082_la0170400_01",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "LA1704-01",
+ "optionNumber": "LA1704-01",
+ "buildCode": null
+}
