@@ -1,0 +1,106 @@
+{
+ "componentHash": "0A7703BB5D180CF4F3D65B936A4CD0E940A293C93A197E4E2E18B7DF590ED45AF285876AF9A015E9ED9A55ECFC88BF52B15328751EA325818DCFE77E42384075",
+ "esnType": "mbom",
+ "optionName": "Drain Location",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/dl/508_dl0204100_01"
+  }
+ ],
+ "remarks": "Drain Location|drain Fitting: Pointing Right And Towards|back 45 Degrees To The Fuel Pump.|drain Position Vertical From Crank C/l:|247.7mm|drain Position From Ffob: -861.2 Mm|drain Position Horizontally From Engine C/l:|334.1 Mm|oem Attachment: M16 X 1.5-6h, 45 Degree Flare|degree Flare",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2874451",
+      "latestPart": "false",
+      "partDesc": "BANJO CONNECTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3963991",
+      "latestPart": "false",
+      "partDesc": "SEALING WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4940181",
+      "latestPart": "false",
+      "partDesc": "BANJO CONNECTOR SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 1.5 X 28",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/dl/508_dl0204100_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DL2041-01",
+ "optionNumber": "DL2041-01"
+}

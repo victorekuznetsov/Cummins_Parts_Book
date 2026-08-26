@@ -1,0 +1,83 @@
+{
+ "componentHash": "A0D113BE41854F2AF8C534914C727E9CAFB84085A4A62A5E2B00DEBF736AE6FF4A30D933F5E4E7D10C7559D1982EB8A5B83DABB124779E844E27637E999F99B5",
+ "esnType": "mbom",
+ "optionName": "Signal Generating Device",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/eo/508_eo0200900_01"
+  }
+ ],
+ "remarks": "Signal Generating Device|device Type: Magnetic Speed Sensor|location: 0 Degrees|two Sensor Holes Of Flywheel Housing|sensor Mounting Thread: M18 X 1.5|connector Type: Dj3021-4.6-10|pigtail Length (mm): 250|components: 1 Sensor And 1 Threaded Plug",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3678791",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3971994",
+      "latestPart": "false",
+      "partDesc": "SPEED SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/eo/508_eo0200900_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EO2009-01",
+ "optionNumber": "EO2009-01"
+}

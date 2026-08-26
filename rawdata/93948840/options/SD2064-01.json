@@ -1,0 +1,83 @@
+{
+ "componentHash": "AFF9EF2A0A7BD88CE80D00DE3E5D759DE962CADECDDF5C5F5046CC4EBAA95EC7A4277350D96A6AB963B884ECDC8EE5DF0DE9D772B1316C3E5DB48AF6245D32CE",
+ "esnType": "mbom",
+ "optionName": "Oil Pressure Sensor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/sd/508_sd0206400_01"
+  }
+ ],
+ "remarks": "Oil Pressure Sensor|engine Family: D0c|oil Pressure Switch Supplier: Dfm|operating Voltage: 24v|opening Pressure (kpa): 70-90|oil Pressure Switch Location:|horizontally From Engine C/l (mm): 140|vertically From Crank C/l (mm): 173.0|horizontally From Ffob (mm): -709.0|customer Adatation: Na|minimum Pressure (mpa): 0|maximum Pressure (mpa): 1.0|minimum Ohms: 10|maximum Ohms: 184|electrical Connector M4 & M6|engine Interface Thread Size: M14x1.5-6h|for Use With Hmfo Turbocharger Only",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3678912",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4931169",
+      "latestPart": "false",
+      "partDesc": "OIL PRESSURE SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/sd/508_sd0206400_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SD2064-01",
+ "optionNumber": "SD2064-01"
+}

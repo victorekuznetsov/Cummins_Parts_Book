@@ -1,0 +1,147 @@
+{
+ "partNo": "2872807",
+ "partDesc": "injector plunger",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "2872817",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector plunger"
+  },
+  {
+   "item": "2872819",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector nozzle"
+  },
+  {
+   "item": "2872821",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector nozzle"
+  },
+  {
+   "item": "4397487",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector nozzle"
+  },
+  {
+   "item": "4326960",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector nozzle"
+  },
+  {
+   "item": "4326959",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "4397488",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "4984864",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "xpi jv components"
+  },
+  {
+   "item": "2894938",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "2872820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "2872818",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "4984867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "xpi jv system scania hd"
+  },
+  {
+   "item": "PP43836",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43837",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D990006XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D990006XX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

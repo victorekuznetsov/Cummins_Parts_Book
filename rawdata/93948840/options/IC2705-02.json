@@ -1,0 +1,60 @@
+{
+ "componentHash": "524F950564183B3F61054465C82AE8B69D8594A7441C2F080D69136B0D216DD236C0E004A5EE63C7FA54AADCF57E68F8F25F370425C32BD11772D16B1F17EF25",
+ "esnType": "mbom",
+ "optionName": "Intake Connection Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ic/508_ic0270500_02"
+  }
+ ],
+ "remarks": "Int Connection Mounting|spacer Included: No|works With Air Heater Starting Aid: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093807",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 50",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ic/508_ic0270500_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "IC2705-02",
+ "optionNumber": "IC2705-02",
+ "buildCode": null
+}

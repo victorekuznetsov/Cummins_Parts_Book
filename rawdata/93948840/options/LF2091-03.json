@@ -1,0 +1,60 @@
+{
+ "componentHash": "C1F80E73AA189EFC8B4E0EE627BD6CD3B30DC48F3EF783EC937C8647FC9DDA96F6E9C2DB41822369F732DA9E91FE8806CEAE270680AEC2402F59BBB24950E2BD",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/lf/508_lf0209100_03"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|engine Family: Z|engine Cylinders: 6|oil Filter Location: Direct To Filter Head|from Engine C/l (mm): 257|from Crank C/l (mm): 114.48|from Ffob (mm): 366.5|mounted Orientation: Vertical|filter Type: Combo|filter Model: Lf 0908001|filter Length (mm): 300.0|filter Diameter (mm): 118.6|oil Filter Thread Size: M95 X 2.5|unique Characteristics:|change Interval: 40k Km|nameplate Language: Chinese And English",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4367100",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/lf/508_lf0209100_03",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LF2091-03",
+ "optionNumber": "LF2091-03"
+}

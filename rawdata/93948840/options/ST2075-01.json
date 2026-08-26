@@ -1,0 +1,60 @@
+{
+ "componentHash": "C626E451BD067E03EC401F97F6426D958896C0B120F2ACACB02117DF8BFEF4C956AAC5CCE8336B869ADC5FD99FCE7FADB470F5D9B145A6B45B6071E67ABEEA96",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/st/508_st0207500_01"
+  }
+ ],
+ "remarks": "Starting Motor|starter Location: 3rd Quadrant|pinion Diametral Pitch: 6/8|pinion Gear Od (mm): 56.7|pinion Gear Offset (mm): None|pinion Drive Style: Thru-Drive|mounting Flange Type: 3 X 120|frame Size Diameter (mm): 117|pilot Diameter (mm): 92.05|pinion Position-Rest (mm): 46.7|pinion Position-Engaged (mm): 69|starting Motor Length (mm): 356.6|starter Motor Engine Mounted Angle:|(deg)90(+/-90)|sealing Provision: No|drain Tube Provision: Yes|supply Method: Mtd|removal Length (mm): 58|model: Qdj2918|voltage: 24|kilowatt Rating: 9|manufacturer/model/type: Dongfeng Motor|electric Co. Ltd|nameplate Brand: Supplier|engine Family: Qsz|ground Wire Included: No|unique Characteristics:|nameplate Language: Chinese And English",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2874455",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/st/508_st0207500_01",
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "ST2075-01",
+ "optionNumber": "ST2075-01",
+ "buildCode": null
+}

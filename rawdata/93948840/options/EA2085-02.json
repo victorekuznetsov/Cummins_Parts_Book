@@ -1,0 +1,60 @@
+{
+ "componentHash": "A7B6F12D4E1F46C26101768388CE6D4989B90A226ECF9132569BABDDE9B3987C4309B0E1026BF109158047747D186A04E694258625E749DDDB694D05D231E42A",
+ "esnType": "mbom",
+ "optionName": "Electrical Accessories",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ea/508_ea0208500_02"
+  }
+ ],
+ "remarks": "Electrical Accessories|component Supplied: Ground Wire|ground Wire Length: 350 Mm|ground Wire Supplied: On Engine|voltage: 24|ground Return: Negative|installed On The Fuel Pump Side Of The|engine.|capscrew Location:|from Engine C/l (mm): 198|from Crank C/l (mm): 0|from Ffob (mm): -680|engine Family: Isz Series|unique Characteristics:|ground Wire From Vehicle To Engine Block|ground Stud Located In Ph Option",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4932506",
+      "latestPart": "false",
+      "partDesc": "GROUND WIRE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/ea/508_ea0208500_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EA2085-02",
+ "optionNumber": "EA2085-02"
+}

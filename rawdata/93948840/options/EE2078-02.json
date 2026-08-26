@@ -1,0 +1,60 @@
+{
+ "componentHash": "35C9572BFCA71EDF10AC1C022BE1292D9E1CB1C23433BE78BB0DF492FEA2F0DFC1BFF0E7070B663EEBCCE54956FB1CD177CA14F1334D8B2BC4A92A351FF5F139",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ee/508_ee0207800_02"
+  }
+ ],
+ "remarks": "Alternator|quantity: One|manufacturer/model/type: Prestolite|electrical (beijing) Company/avi 142|volts: 28|amps: 80|grounding Method: Negative|insulation Provision: No|sealing Provision: No|built-In Voltage Regulator: Yes|ground Wire Supplier: Customer|alternator Length: 220 Mm (8.67 In)|charging System: 1 Wire|battery Terminal: M5-6g|r Terminal: M5-6g|alternator Pulley Driven By:|crankshaft Pulley|drive Pulley Rotation:|same As Engine Crankshaft|drive Belt: Poly V 10 Rib Pk|drive Ratio: 3.3:1|required Alt. Pulley Dia (mm): 66.72|unique Characteristics:|nameplate Language: Chinese And English",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2874279",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/ee/508_ee0207800_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EE2078-02",
+ "optionNumber": "EE2078-02"
+}

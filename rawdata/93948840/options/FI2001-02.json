@@ -1,0 +1,107 @@
+{
+ "componentHash": "50B12AB7C273453205CD0D4AC29CCF32990152BA0FF7E52EC42668E48B1BEA820A0C67E63F3B545BB5706F0D352AC0BD2B7C929F310A3167D25945F7BBD0D7D3",
+ "esnType": "mbom",
+ "optionName": "Fuel Inlet Fitting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fi/508_fi0200100_02"
+  }
+ ],
+ "remarks": "Fuel Inlet Fitting|design Phase: N/a|engine Family: Isz|fuel Inlet Fitting Supplier: Cummins|engine Cylinders: 6|fuel Inlet Fitting Type: Straight|orientation: Vertical, Pointing Top|oem Attachment Description: Union,male|oem Attachment Location:|c/l Of Engine To Oem Attachment (mm): 255|c/l Of Crank To Oem Attachment (mm): 135.50|ffob To Oem Attachment (mm): -541.75|oem Attachment: M18x1.5, 45 Degree Flare|unique Characteristics: Locate On Fuel|filter Head",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2874467",
+      "latestPart": "false",
+      "partDesc": "MALE UNION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "2874468",
+        "latestPart": "false",
+        "partDesc": "MALE UNION",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3089240",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/fi/508_fi0200100_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FI2001-02",
+ "optionNumber": "FI2001-02"
+}
