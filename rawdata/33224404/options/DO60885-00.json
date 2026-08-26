@@ -1,0 +1,79 @@
+{
+ "componentHash": "143595C6518807A13DCC0CA7E22AC22CAE9B99BF0661A32E62F90D854A877F3EED682C23FEBF8DBE6857CEF76A30E38855322A6AA8B40869155E2760F4AE9C6F",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Aan|transmission: Komatsu Coupling|commun Support: J1939|oem Name: Komatsu|oem Model: Hd 1500-8|oemcomment: Haultruck|remote Throttle: Y|high Idle: 2100 Rpm|low Idle: 0650 Rpm|isc Enable: Off|isc Validation: Off|switch Speed Input: Yes|torque Curve Selection: Yes|asg/axg/min/max: Asg|governor Droop: 13    %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: No|calibration Voltage: 24|throttle Type: Custom|comment: Komnet Only|powermatch: Na|guid: Na|comment Cont:|software Phase: 25.02.30.18|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4389843",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4390290",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "DO60885-00",
+ "optionNumber": "DO60885-00",
+ "buildCode": null
+}

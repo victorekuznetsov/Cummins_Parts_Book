@@ -1,0 +1,129 @@
+{
+ "componentHash": "B04C378E27AD30156F6985FF206E39512B9820FF97D091CA6D005DAD6F27B2B80348BDE954F655773C57F772757A4ED963187CC6BB48E0321FDF0434F94C970B",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/sm/075_sm0677700_01"
+  }
+ ],
+ "remarks": "Starting Motor Mounting|engine Family: D28|starting Motor Count: 2|starter Flange Cover Count: 1|starter Flange Cover Type:|sae #3 (3 Bolt X 120 Degrees)|starter Motor Mounting Location:|rb Quad 2, Lb Quad 3|starter Flange Cover Location: Rb Quad 1|starter Mtg Thread Size: 5/8-11 Unc-2b|starter Flange Cover Thickness (mm):|3.17 (.125 In)|intended Clutch Type Provision: Dry",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "158250",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 1 3/4 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628411",
+      "latestPart": "false",
+      "partDesc": "STARTER FLANGE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S181",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 1 1/4 INCH",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S603",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "9",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/sm/075_sm0677700_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "SM6777-01",
+ "optionNumber": "SM6777-01",
+ "buildCode": null
+}

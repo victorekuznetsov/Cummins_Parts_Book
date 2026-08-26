@@ -1,0 +1,205 @@
+{
+ "partNo": "3644150",
+ "partDesc": "1 cylinder compressor cover",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3644170",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "compressor guard"
+  },
+  {
+   "item": "SG6841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6873",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6876",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6875",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6877",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6900",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6837",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG6874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/364/3644150/3644150.obj"
+  },
+  {
+   "fileName": "/364/3644150/3644150.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/364/3644150/3644150_front.png"
+  },
+  {
+   "fileName": "/364/3644150/3644150_iso.png"
+  },
+  {
+   "fileName": "/364/3644150/3644150_iso2.png"
+  },
+  {
+   "fileName": "/364/3644150/3644150_right.png"
+  },
+  {
+   "fileName": "/364/3644150/3644150_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "55 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "2.2 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "29 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "12 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

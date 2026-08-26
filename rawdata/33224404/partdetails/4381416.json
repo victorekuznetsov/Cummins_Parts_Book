@@ -1,0 +1,205 @@
+{
+ "partNo": "4381416",
+ "partDesc": "hand hole cover",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4376336",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "breather kit"
+  },
+  {
+   "item": "OB67069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67186",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67176",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67130",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/438/4381416/4381416.obj"
+  },
+  {
+   "fileName": "/438/4381416/4381416.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/438/4381416/4381416_iso.png"
+  },
+  {
+   "fileName": "/438/4381416/4381416_right.png"
+  },
+  {
+   "fileName": "/438/4381416/4381416_front.png"
+  },
+  {
+   "fileName": "/438/4381416/4381416_iso2.png"
+  },
+  {
+   "fileName": "/438/4381416/4381416_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "48 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "5.55 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "20.5 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "17.5 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

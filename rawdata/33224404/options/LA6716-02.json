@@ -1,0 +1,152 @@
+{
+ "componentHash": "F6A96996BD102D9504DCEFE57D241F37D85FC6371418BE6B941C53865E3B740D29BDC59559801120A4486861B30D28B5BF381F460F64274E68003AF5D16062A9",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/la/075_la0671600_02"
+  }
+ ],
+ "remarks": "Lifting Bracket|engine Family: D23, D28, D81|no Of Lifting Brackets: 4|no Of Lifting Cables: 0|qsk50:|front Bracket Location: Right Bank|from Engine C/l (mm): -412.97|(-16.26 In)|from Crank C/l (mm): 250.16 (9.85 In)|ffob (mm): -552.32 (-21.75 In)|rear Bracket Location: Right Bank|from Engine C/l (mm): -412.97|(-16.26 In)|from Crank C/l (mm): 250.16 (9.85 In)|ffob (mm): -1548 (60.95 In)|distance Between Centerlines (mm):|995.68 (39.2 In)|front Bracket Location: Left Bank|from Engine C/l (mm): 412.97 (16.26 In)|from Crank C/l (mm): 250.16 (9.85 In)|ffob (mm): -496.7 (-19.56 In)|rear Bracket Location: Left Bank|from Engine C/l (mm): 412.97 (16.26 In)|from Crank C/l (mm): 250.16 (9.85 In)|ffob (mm): -1492.35 (-58.75 In)|distance Between Centerlines (mm):|995.65 (39.2 In)|qsk38:|front Bracket Location: Right Bank|from Engine C/l (mm): -250.16 (-9.85 In)|from Crank C/l (mm): 412.97 (16.26 In)|ffob (mm): -250.16 (-9.85 In)|rear Bracket Location: Right Bank|from Engine C/l (mm): -250.16 (-9.85 In)|from Crank C/l (mm): 412.97 (16.26 In)|ffob (mm): -1299.08 (-51.14 In)|distance Between Centerlines (mm):|995.68 (39.2 In)|front Bracket Location: Left Bank|from Engine C/l (mm): 250.16 (9.85 In)|from Crank C/l (mm): 412.97 (16.26 In)|ffob (mm): -248.08 (-9.77 In)|rear Bracket Location: Left Bank|from Engine C/l (mm): 250.16 (9.85 In)|from Crank C/l (mm): 412.97 (16.26 In)|ffob (mm): -1243.08 (-48.94 In)|distance Between Centerlines (mm):|995.68 (39.2 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "205684",
+      "latestPart": "false",
+      "partDesc": "ENGINE LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "206028",
+      "latestPart": "false",
+      "partDesc": "SOCKET HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 10 X 2 1/4 INCH",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3018920",
+      "latestPart": "false",
+      "partDesc": "WIRE TIE CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3629962",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4998543",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/la/075_la0671600_02",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "LA6716-02",
+ "optionNumber": "LA6716-02",
+ "buildCode": null
+}

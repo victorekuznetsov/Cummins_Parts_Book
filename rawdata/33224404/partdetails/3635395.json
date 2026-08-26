@@ -1,0 +1,805 @@
+{
+ "partNo": "3635395",
+ "partDesc": "water transfer connection gasket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "HX6230",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX6233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB6898",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6941",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6851",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6954",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6836",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6817",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "OP6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "WO6158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67195",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67261",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67262",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67250",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB78010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TH7700",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TB67074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67227",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67198",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67194",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB67136",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6956",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6949",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "TB6985",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "6691684",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR6753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "3647058",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water bypass tube"
+  },
+  {
+   "item": "3647047",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water transfer tube"
+  },
+  {
+   "item": "2881852",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4352356",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4955998",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "4956056",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "4956037",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "4955819",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "5473148",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "5579146",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4352353",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4352357",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4352354",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4955675",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "single head gasket set"
+  },
+  {
+   "item": "4352355",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4352588",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "single head gasket kit"
+  },
+  {
+   "item": "5579320",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4959998",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket set"
+  },
+  {
+   "item": "4956046",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "4956036",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cooling system gasket kit"
+  },
+  {
+   "item": "4309353",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4309352",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4309350",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "4309351",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "5633387",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1F3002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283049MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB67036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "auxiliary cooling system"
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WO6152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WM6069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water manifold"
+  },
+  {
+   "item": "D773004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283049MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/363/3635395/3635395.obj"
+  },
+  {
+   "fileName": "/363/3635395/3635395.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/363/3635395/3635395_top.png"
+  },
+  {
+   "fileName": "/363/3635395/3635395_iso.png"
+  },
+  {
+   "fileName": "/363/3635395/3635395_iso2.png"
+  },
+  {
+   "fileName": "/363/3635395/3635395_front.png"
+  },
+  {
+   "fileName": "/363/3635395/3635395_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "15 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".008 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "15 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".4 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

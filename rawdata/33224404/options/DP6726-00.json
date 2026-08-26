@@ -1,0 +1,692 @@
+{
+ "componentHash": "7EC83AE552C76C24187E4A1F274C2FA37C2B076C307F332E27CCA76F47E92962B6EB5CCD98E8E88445B64BF52C8B591CB83E7C82B9229452D45167E5FE336292",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/dp/075_dp0672600_00"
+  }
+ ],
+ "remarks": "Fuel Pump Drive|engine Family: D28|fuel Control System: Cummins Mcrs|filter Screen Included: Yes|oil Pressure Switch Mtg Provision: Yes|oil Pressure Switch Type: Normally Open|oil Pressure Switch Mtg Locaton:|accessory Drive Support",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "103023",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "7/16 - 14 X 1 INCH",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3015283",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/16 - 18 X  3/4 INCH",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3046852",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE SUPPORT GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3062329",
+      "latestPart": "false",
+      "partDesc": "WIRE TIE CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4924925",
+      "latestPart": "false",
+      "partDesc": "PRESSURE SWITCH",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5376094",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE SUPPORT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4372986",
+        "latestPart": "false",
+        "partDesc": "ACCESSORY DRIVE SUPPORT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "4372987",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE SUPPORT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3089409",
+            "latestPart": "false",
+            "partDesc": "BUSHING",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "6"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3640775",
+            "latestPart": "false",
+            "partDesc": "TAMPER PROOF SEAL",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "3",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "7"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4372988",
+            "latestPart": "false",
+            "partDesc": "ACCESSORY DRIVE SUPPORT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "8"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "4916427",
+          "latestPart": "false",
+          "partDesc": "FILTER SCREEN",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "9"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4924765",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "10"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4953332",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE GEAR",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "11"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "S316",
+          "latestPart": "false",
+          "partDesc": "PLAIN WOODRUFF KEY",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "12"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "5376096",
+        "latestPart": "false",
+        "partDesc": "FILTER SCREEN",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3035027",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "13"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3089019",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "14"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3678921",
+          "latestPart": "false",
+          "partDesc": "THREADED PLUG",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3678912",
+            "latestPart": "false",
+            "partDesc": "O RING SEAL",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "15"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3678922",
+            "latestPart": "false",
+            "partDesc": "THREADED PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "16"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "5376095",
+          "latestPart": "false",
+          "partDesc": "FILTER SCREEN",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "2896723",
+            "latestPart": "false",
+            "partDesc": "FILTER SCREEN",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "17"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "5375675",
+            "latestPart": "false",
+            "partDesc": "PLUG ADAPTER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "18"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5417037",
+      "latestPart": "false",
+      "partDesc": "WIRING HARNESS",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "19"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S162A",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "7/16 - 14 x 2 3/4 inch",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "20"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S610",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "7/16 inch",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "21"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "35F2D4B656F57958A339F1823E4A974006D163C6558FFCE2F2B78C5823520F0FE756D9779CB41500D89221C6056BCB0E8AD4AF5D565EB61A9465C83AF5D11EE5",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "4956061",
+   "kitDesc": "Set,hhp Ovhl Fuel Sys Gsk",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "9F1AE7F861C8FBDDFEAF678F3590177B8D6BC1FDA673DDFEE914005F80E327D46CDC98B1A60440CB15CE4F981A7F62D15CEC511E00F9816A7EE73A3D4645793D",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5473011",
+   "kitDesc": "Pressure Switch Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "25029EA2EC9D1C98AAC6702CF1BB15442913ACFBF49EBFD0CB667DBCACC660441AE82B2895727CCB2F9F9D10714FE1AA799292CC22ACE23A5005AA42425716EE",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5579009",
+   "kitDesc": "Pressure Switch Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/dp/075_dp0672600_00",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "DP6726-00",
+ "optionNumber": "DP6726-00",
+ "buildCode": null
+}

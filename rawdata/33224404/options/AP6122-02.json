@@ -1,0 +1,83 @@
+{
+ "componentHash": "28B5EFAC00E268ADBEF907B4A75E7E19D5E93A14B492153E19BCF5B309D5800D9A8B791BF2875BC8BC53B72BB5437E4F9A0F7CADEE6F9F5E9B0177F9FBF7B984",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ap/075_ap0612200_02"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: None|application: Nonroad|cert Level: None|special Allowance: Na|cert Agent: None|comment: None|fuel Type: Diesel|manufacturer Of Record: Komatsu|engine Family: D23,d28|additional Information:|in The U.s., This Engine Is Solely|for Export. Cannot Be Used In Nonroad|mobile Machinery In The Eu After|january 2019|variant Content:|in Place Of P/n 5539534|kcl May Use P/n 5580634",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3633720",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5539534",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/ap/075_ap0612200_02",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "AP6122-02",
+ "optionNumber": "AP6122-02",
+ "buildCode": null
+}

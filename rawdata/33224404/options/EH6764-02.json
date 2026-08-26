@@ -1,0 +1,83 @@
+{
+ "componentHash": "DC95F6D8FA909DA120DDEC7179E21FD264EBABD607C5AABB3D34DAE55CF8B7DFDBE5C48F0370495F31EC16DE0CF9A74DB8133D1A07EEB501E94BD9A4563DBBDB",
+ "esnType": "mbom",
+ "optionName": "Alternator Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/eh/075_eh0676400_02"
+  }
+ ],
+ "remarks": "Alternator Drive|engine Family: D23, D28|alternator Manufacturer/model:|prestolite Bld 3368 Hc|alt Drive Ratio: 3.56 X Engine Speed|alt Pulley Location Ffob To C/l|of First Pulley Groove(mm):|150.034 (5.907 In)|alt Pulley Groove Profile: 9 Groove|alt Pulley Supplied: Mounted|alt Pulley Diameter(mm):|81.75 (3.22 In) Over 2.92 (.115 In) Rods|belt Description: V Ribbed|belt Supplied: Mounted|alternator Guard Mtg Provision: Na",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3014711",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3644379",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/eh/075_eh0676400_02",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EH6764-02",
+ "optionNumber": "EH6764-02",
+ "buildCode": null
+}

@@ -1,0 +1,223 @@
+{
+ "partNo": "3626580",
+ "partDesc": "crankshaft pulley",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "DA6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/362/3626580/3626580.obj"
+  },
+  {
+   "fileName": "/362/3626580/3626580.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/362/3626580/3626580_front.png"
+  },
+  {
+   "fileName": "/362/3626580/3626580_iso.png"
+  },
+  {
+   "fileName": "/362/3626580/3626580_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "32 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "0 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "37 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "35 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,187 @@
+{
+ "partNo": "3637770",
+ "partDesc": "flexible hose",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "5539156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3647064",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "left bank turbocharger oil drain hose"
+  },
+  {
+   "item": "3648447",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "left bank turbocharger oil drain hose"
+  },
+  {
+   "item": "TP6902",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger oil plumbing"
+  },
+  {
+   "item": "TP6846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger oil plumbing"
+  },
+  {
+   "item": "TP6932",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP6761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger oil plumbing"
+  },
+  {
+   "item": "TP6787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger oil plumbing"
+  },
+  {
+   "item": "XM6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "XM6070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "XM6066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "XM6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/363/3637770/3637770.obj"
+  },
+  {
+   "fileName": "/363/3637770/3637770.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/363/3637770/3637770_iso2.png"
+  },
+  {
+   "fileName": "/363/3637770/3637770_top.png"
+  },
+  {
+   "fileName": "/363/3637770/3637770_iso.png"
+  },
+  {
+   "fileName": "/363/3637770/3637770_front.png"
+  },
+  {
+   "fileName": "/363/3637770/3637770_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "21 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".855 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "19 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "6 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

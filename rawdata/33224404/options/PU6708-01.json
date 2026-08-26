@@ -1,0 +1,176 @@
+{
+ "componentHash": "0D675EC3062A15832336D6974CC77779779137DFAB121957A563C92C393188073381C57EF25AEF766C2D850F9F532A3BEF1AFEA53B4DC7BF817DEA9787470AFD",
+ "esnType": "mbom",
+ "optionName": "Accessory Drive Pulley",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/pu/075_pu0670800_01"
+  }
+ ],
+ "remarks": "Accessory Drive Pulley|pulley Groove Profile:  9 Groove|pulley Diameter (mm):|173.11 (6.82 In) Over 2.92 (.12 In) Rods|pulley Location:|from C/l Of Engine (mm): -363 (-14.29 In)|from C/l Of Crank (mm): -9.5 (-.38 In)|rqrd Drive Pulley Diameter Over Balls (mm):|173.113 (6.8 In) Over 2.92 (.115 In) Rods|required Belt Description: K Section V Ribbed|drive Ratio: 1.68 X Engine Speed",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3045970",
+      "latestPart": "true",
+      "partDesc": "ACCESSORY DRIVE PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3076346",
+        "latestPart": "false",
+        "partDesc": "WEAR SLEEVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3628937",
+        "latestPart": "false",
+        "partDesc": "ACCESSORY DRIVE PULLEY",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3200287",
+      "latestPart": "false",
+      "partDesc": "KEYWAY SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628894",
+      "latestPart": "false",
+      "partDesc": "DUST SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628895",
+      "latestPart": "false",
+      "partDesc": "OIL SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/pu/075_pu0670800_01",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "PU6708-01",
+ "optionNumber": "PU6708-01",
+ "buildCode": null
+}

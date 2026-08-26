@@ -1,0 +1,106 @@
+{
+ "componentHash": "280711FE85C6AAEED3C8042EAB2FDE3478415C8C3A3BA1A11B1A29F194CE2FF966CDE4C252EDC8877AB972D8B7A60FD61E0E461F5FC6C3FF1C5FFA2D2D742A42",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/st/075_st0619900_03"
+  }
+ ],
+ "remarks": "Starting Motor|starter Motor Count: 2|manufacturer: Delco Remy|model: 50 Mt Type 400|power Supply: Electric|mounting Location(s): Rb Quad 2, Lb Quad 3|over Cylinders 7-8|pinion Diametral Pitch: 6/8|pinion Gear Od(mm): 57.1 (2.25 In)|mounting Flange Type:|sae #3 (3 Bolt X 120 Deg)|frame Size Diameter(mm): 146 (5.75 In)|pilot Diameter(mm): 92 (3.62 In)|starting Motor Length(mm): 415.5 (16.36 In)|sealing Provision: Sealed|on Engine Solenoid Angle(deg):|quad 2 Starter: 302.5|quad 3 Starter: 32.5|voltage: 24|nameplate Brand: Cummins",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3018924",
+      "latestPart": "false",
+      "partDesc": "GROUND WIRE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3651890",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3651893",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/st/075_st0619900_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "ST6199-03",
+ "optionNumber": "ST6199-03",
+ "buildCode": null
+}

@@ -1,0 +1,176 @@
+{
+ "componentHash": "CBDD1AF90F29C4992100B9B8AADD5E4E84886D88EA56549F27CDF7E2DC7F8750B6E8F3CEDE3796A244D9400726AF09F2BD04EA8B606CA60CE6784D7B9C643D90",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fw/075_fw0607800_01"
+  }
+ ],
+ "remarks": "Flywheel|engine Family: D28|intended Fly Hsg Sae: 0|ring Gear Diametral Pitch: 6/8|clutch/t.c. Mtg. Bolt Circle: Single|clutch/t.c. Mtg Hole Count: 6|clutch/t.c. Mtg Bolt Circle Dia (mm):|542.6 (21.36 In)|clutch/t.c. Mtg Hole Spacing: Equal|clutch/t.c. Mtg Hole Size: 5/8-11 Unc-2b|speed Limitations Nte: 2100 Rpm|intended Drive Hardware:|457.2 (18 In) Overcenter Clutch",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "131584",
+      "latestPart": "false",
+      "partDesc": "ROLL PIN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205059",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 inch",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3023536",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 X 3 3/4 INCH",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3044484",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "124507",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3044482",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/fw/075_fw0607800_01",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "FW6078-01",
+ "optionNumber": "FW6078-01",
+ "buildCode": null
+}

@@ -1,0 +1,141 @@
+{
+ "partNo": "4381989",
+ "partDesc": "filter head adapter",
+ "supersession": [
+  {
+   "partNo": "4381989",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "077- SUPERSEDED",
+   "partSscDesc": "SUPERSEDED",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "N",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "2"
+  },
+  {
+   "partNo": "5540903",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "070- CURRENT SALABLE",
+   "partSscDesc": "CURRENT SALABLE",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "Y",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "1"
+  }
+ ],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "LF6134",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/438/4381989/4381989.obj"
+  },
+  {
+   "fileName": "/438/4381989/4381989.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/438/4381989/4381989_right.png"
+  },
+  {
+   "fileName": "/438/4381989/4381989_bottom.png"
+  },
+  {
+   "fileName": "/438/4381989/4381989_top.png"
+  },
+  {
+   "fileName": "/438/4381989/4381989_iso2.png"
+  },
+  {
+   "fileName": "/438/4381989/4381989_iso.png"
+  },
+  {
+   "fileName": "/438/4381989/4381989_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "81 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "31 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "31 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "17 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,115 @@
+{
+ "partNo": "4381434",
+ "partDesc": "hand hole cover",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "OB67084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB67176",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/438/4381434/4381434.obj"
+  },
+  {
+   "fileName": "/438/4381434/4381434.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/438/4381434/4381434_front.png"
+  },
+  {
+   "fileName": "/438/4381434/4381434_iso.png"
+  },
+  {
+   "fileName": "/438/4381434/4381434_iso2.png"
+  },
+  {
+   "fileName": "/438/4381434/4381434_right.png"
+  },
+  {
+   "fileName": "/438/4381434/4381434_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "68 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "8 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "68 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "48 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,3754 @@
+{
+ "partNo": "3033629",
+ "partDesc": "roll pin",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "6392062",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6392036",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR12640",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "main generator adapter"
+  },
+  {
+   "item": "5672512",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4936299",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "4924245",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "4928036",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "4917191",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "4953170",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "throttle valve"
+  },
+  {
+   "item": "4948653",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "generator"
+  },
+  {
+   "item": "4948673",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "generator"
+  },
+  {
+   "item": "4947699",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor support"
+  },
+  {
+   "item": "4372732",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "4372276",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "4370704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter head"
+  },
+  {
+   "item": "5485827",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "4363906",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "viscous vibration damper"
+  },
+  {
+   "item": "5564538",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "5450571",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "5374496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "5374492",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "4980403",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "4997593",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "5374480",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "5374484",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "5374486",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "5374490",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3966354",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3954915",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3974337",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lube oil filter head"
+  },
+  {
+   "item": "3959136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3959135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3965786",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lube oil filter head"
+  },
+  {
+   "item": "3955348",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3955347",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "4312865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "viscous vibration damper"
+  },
+  {
+   "item": "4312712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4017450",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "3954916",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "3954917",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "5615811",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3062184",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankshaft mounting adapter"
+  },
+  {
+   "item": "3176496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankshaft mounting adapter"
+  },
+  {
+   "item": "3042833",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crank mounting adapter"
+  },
+  {
+   "item": "3045630",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "throttle position sensor housing"
+  },
+  {
+   "item": "3062183",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankshaft mounting adapter"
+  },
+  {
+   "item": "3649881",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3626865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "adapter crank mounting"
+  },
+  {
+   "item": "3626864",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "adapter crank mounting"
+  },
+  {
+   "item": "3628791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "main generator adapter"
+  },
+  {
+   "item": "3633036",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "3633035",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "3634443",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "transmission adapter"
+  },
+  {
+   "item": "2886967",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "3395745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "generator"
+  },
+  {
+   "item": "3394610",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "generator"
+  },
+  {
+   "item": "2887447",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "2898702",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "2898234",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "3037919",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crank mounting adapter"
+  },
+  {
+   "item": "3037920",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crank mounting adapter"
+  },
+  {
+   "item": "2875496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "2875954",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "alternator support"
+  },
+  {
+   "item": "DA6765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6750",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "FH6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "DA7731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA7731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA7733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6771",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6773",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "EH6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "DA6160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6756",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6144",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6145",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6182",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6183",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6171",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA7730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA7730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6135",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6181",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper arrangement"
+  },
+  {
+   "item": "DA6060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "D863001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA4085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "D773004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D873001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA6048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ebm-damper,vibration"
+  },
+  {
+   "item": "DA6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA7730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6203",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6413",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6192",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6194",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6195",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6154",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ebm-damper,vibration"
+  },
+  {
+   "item": "DA6070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "IS1003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "LF4046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "LF4073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "TV4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle valve"
+  },
+  {
+   "item": "TV4705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "throttle valve"
+  },
+  {
+   "item": "TR5006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB5854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98381",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98387",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98392",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH98208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97664",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97697",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97605",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "FH6113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FF4102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FA85008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FF9620",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter plumbing"
+  },
+  {
+   "item": "FH4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "LF4071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF4104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF4099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF86508",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "IS1002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "DA7731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "EH97515",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH97459",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH9620",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH9484",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH9423",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH9427",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH9422",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH98795",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98655",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98656",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98573",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH98303",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "DA6198",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6191",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6200",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "3633225",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3633226",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3612519",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "throttle position sensor assembly"
+  },
+  {
+   "item": "3613841",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "throttle position sensor"
+  },
+  {
+   "item": "3880712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "3880713",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "BB7883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB7880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB7869",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "CF9163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "D232044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232045GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233047CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233049MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233052GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233053GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283045CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283030CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1F3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1F3002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1F3002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1F3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1C3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1B3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1H3004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1H3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1T3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1T3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1S3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Z3006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232018DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232009GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232007MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Y0007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153091CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153082LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153080CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153098CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153096LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153097CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153094CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153092LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153090CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283016DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283017GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283014DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283013CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283011DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D235027CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D235028GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233038MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283007PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283008CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283004LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233015PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233016PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233013PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233008MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233023GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283033MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313033CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313032CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313023BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D323001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313048CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313040BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313038BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313037BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D323018BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D323016CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283049MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313008BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313021CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313016BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313009CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313034BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283024GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283042GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283005MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH6053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403061BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D533002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283008CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283004LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/303/3033629/3033629.obj"
+  },
+  {
+   "fileName": "/303/3033629/3033629.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/303/3033629/3033629_front.png"
+  },
+  {
+   "fileName": "/303/3033629/3033629_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "97T1-8"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".04 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "1 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
