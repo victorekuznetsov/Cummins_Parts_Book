@@ -1,0 +1,112 @@
+{
+ "partNo": "5717116",
+ "partDesc": "fan support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FA2439",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA2458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA2554",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1W3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/571/5717116/5717116.obj"
+  },
+  {
+   "fileName": "/571/5717116/5717116.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/571/5717116/5717116_front.png"
+  },
+  {
+   "fileName": "/571/5717116/5717116_left.png"
+  },
+  {
+   "fileName": "/571/5717116/5717116_iso2.png"
+  },
+  {
+   "fileName": "/571/5717116/5717116_top.png"
+  },
+  {
+   "fileName": "/571/5717116/5717116_right.png"
+  },
+  {
+   "fileName": "/571/5717116/5717116_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "33 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "10 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "26 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "18 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

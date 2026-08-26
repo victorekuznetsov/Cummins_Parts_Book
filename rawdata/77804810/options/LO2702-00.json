@@ -1,0 +1,60 @@
+{
+ "componentHash": "C4CA46A0B1236492771093670E07C1A05ABB2271BA554651F3CB597F5BC9F66FF2CB3D9BC23ED93EEF603F2A7E57C13C4915E46582BBB4FB5068A4ACA7BEC06B",
+ "esnType": "mbom",
+ "optionName": "Engine Oil",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/lo/740_lo0270200_00"
+  }
+ ],
+ "remarks": "Lubricating Oil|tag Identification: No Oil|tag Location: Front Lifting Bracket",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3967353",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/740/lo/740_lo0270200_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LO2702-00",
+ "optionNumber": "LO2702-00"
+}

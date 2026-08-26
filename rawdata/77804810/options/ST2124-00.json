@@ -1,0 +1,84 @@
+{
+ "componentHash": "D244F31AA696BF440837697991885727AFE79E9BB20BF9B7CAEFF5BC3CD6E83E34472593E5C1FEDA6DB91736749D9A88B1F4147A4EB6575733A83498FA582923",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/st/740_st0212400_00"
+  }
+ ],
+ "remarks": "Starting Motor|pinion Diametral Pitch: 6/8|pinion Gear Od (mm): 61.8|pinion Gear Offset (mm): 2.0|pinion Drive Style: Thru-Drive|mounting Flange Type: 3 X 120|frame Size Diameter (mm): 105|pilot Diameter (mm): 92|pinion Position-Rest (mm): 47.5|pinion Position-Engaged (mm): 66.5|starting Motor Length (mm): 347|starter Motor Engine Mounted Angle:|(deg) -21.5~98.5 Or 218.5~338.5|sealing Provision: No|drain Tube Provision: Yes|supply Method: Mounted On Engine|removal Length (mm): 59.5|model: M108r3044se|voltage: 24|kilowatt Rating: 8.5|manufacturer/model/type: Prestolite|nameplate Brand: Supplier|ground Wire Included: No|water Resistance: Ip56|battery Positive Terminal: M12x1.75|battery Negative Terminal: M10x1.5|relay Terminal: M5x0.8|weight 13kg|length Of Negative Terminal(mm):36.7|comments:only With Cummins Logo And|reflect Bfcec Qr Code",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5718679",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5661392",
+        "latestPart": "false",
+        "partDesc": "RELAY SWITCH",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/st/740_st0212400_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "ST2124-00",
+ "optionNumber": "ST2124-00",
+ "buildCode": null
+}

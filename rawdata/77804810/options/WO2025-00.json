@@ -1,0 +1,83 @@
+{
+ "componentHash": "529C90C8EA08F9BB14F1E32060280BA5DB6F07868FD2C1B3CDCA233CE5D5B83F5F269C82EEEEB6D836A734C012794A3BEAECE7785C4663F2745E0F70058DCC8F",
+ "esnType": "mbom",
+ "optionName": "Water Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/wo/740_wo0202500_00"
+  }
+ ],
+ "remarks": "Water Outlet Connection|connection Orientation: 90 Deg. Horizontal|towards Forward Side Of Engine|connection Outlet Diameter (mm): 63.5|connection Outlet Location:|from C/l Crankshaft (mm): -189.5|from C/l Engine (mm): 629.7|from Ffob (mm): 191.1|hose Connection Surface: Non-Processing|oem Hose Installation Width: 52.8",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900632",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 35",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5465799",
+      "latestPart": "false",
+      "partDesc": "WATER OUTLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/740/wo/740_wo0202500_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "WO2025-00",
+ "optionNumber": "WO2025-00"
+}

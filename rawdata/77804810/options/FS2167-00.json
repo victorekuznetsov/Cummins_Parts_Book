@@ -1,0 +1,126 @@
+{
+ "componentHash": "C0564CB075A65E31D942B5AC4EAB49F5300D118C2445BC4B75B5D57C7E570C943502FD68B4F68AC55EE5A6D6ED499F0DF48EC40D72D2B1271DE12C74174CF834",
+ "esnType": "mbom",
+ "optionName": "Fuel Pressure Regulator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Fuel Pressure Regulator|engine Family: D1w|fuel: Liquefied Natural Gas|voltage: 24|normal Operating Pressure: 8 Bar|fuel Pressure Regulator:|regulated Inlet Max Pressure: 21bar|typecal Outlet Pressure: 8 Bar|inlet Pressure|fuel Inlet Fitting: 21 Bar|fuel Outlet Fitting: 8 Bar|supply Method: Kitted|unique Characteristics:supplier  Parker|wiring Harness Connector: Amp 282104-1|coil Orientation Vertical Upward|installation Torque|connector Installation Torque:35nm|oem Plumbing Installation Torque:35nm|comments:reflect Bfcec Qr Code",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6479717",
+      "latestPart": "false",
+      "partDesc": "FUEL PRESSURE REGULATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "6479721",
+        "latestPart": "false",
+        "partDesc": "MALE UNION",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6479738",
+        "latestPart": "false",
+        "partDesc": "ELECTRICAL COIL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6479739",
+        "latestPart": "false",
+        "partDesc": "MALE UNION",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FS2167-00",
+ "optionNumber": "FS2167-00"
+}

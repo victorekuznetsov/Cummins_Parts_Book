@@ -1,0 +1,60 @@
+{
+ "componentHash": "86A8022E4D75A30DEBB21920263FEFAF3CB578E6D72513A2F925DCD6CC248F2B67991B82B55331548010ACB4D0F86A3DE6BEDE71154F91616ED97D2940D10181",
+ "esnType": "mbom",
+ "optionName": "Water Pump Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/wp/740_wp0283000_00"
+  }
+ ],
+ "remarks": "Water Pump Drive|belt Groove Profile: Poly V 10 Rib K|belt Length (mm): 1231|to Suit Tensioner Pulley Dia (mm): 74|over Balls: Na|to Suit Tentioner Pulley Location:|from C/l Of Crank (mm): -151.95 (horizonal)|from C/l Of Engine (mm): 27 (vertical)|to Suit Alt Pulley Dia (mm): 60.71|over Balls: 2.5|to Suit Water Pump Pulley Diameter (mm): 87.5|over Balls: 2.5|to Suit Water Pump Location:|from C/l Of Crank (mm): -254.93 (horizontal)|from C/l Of Engine (mm): 130.55 (vertical)|to Suit Fan Drive Pulley Dia (mm): 158.94|over Balls: 2.5|to Suit Fan Drive Location|from C/l Of Crank (mm): 0 (horizontal)|from C/l Of Engine (mm): 200 (vertical)|to Suit Crank Pulley Dia (mm): 140.07|over Balls: 2.5|comments:only With Cummins Logo And|reflect Bfcec Bar Code",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5718682",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/wp/740_wp0283000_00",
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "WP2830-00",
+ "optionNumber": "WP2830-00",
+ "buildCode": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "5B6F771E533316BFE1FAB9151D6A35F4815D3E68FD52000A0B5A6313C82DD7D697C2F2D7BCE7636677158D4E50241E476268977776C62F689A05707B579D8E39",
+ "esnType": "mbom",
+ "optionName": "Compressor Air Inlet Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/ci/740_ci0279800_00"
+  }
+ ],
+ "remarks": "Compressor Air Inlet Mounting|contains Screw For Mounting The Compressor|air Inlet Tube And Fuel Manifold",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3093730",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/ci/740_ci0279800_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "CI2798-00",
+ "optionNumber": "CI2798-00",
+ "buildCode": null
+}

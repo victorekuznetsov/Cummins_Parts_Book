@@ -1,0 +1,83 @@
+{
+ "componentHash": "B54F99EB1041A8E2D5900AB7F87BCF94A609FB04FE539ECD17C61A64CED726AD730802D770E933D019080A5BEB1CDC22549DF3D17930373EA35F54798E6C9EE2",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/sm/740_sm0273000_00"
+  }
+ ],
+ "remarks": "Starting Motor Mounting|flywheel Housing Type: Dry|washer Thickness: 3+/-0.5mm|starter Motor Mounting Screws: 3* M16*2|variant Content:|in Place Of Screw 6479619|xce May Use 5560309",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3018007",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4907093",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 2 X 45",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/sm/740_sm0273000_00",
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "SM2730-00",
+ "optionNumber": "SM2730-00",
+ "buildCode": null
+}

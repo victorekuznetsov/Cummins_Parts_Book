@@ -1,0 +1,60 @@
+{
+ "componentHash": "DCCB2790010EA374ACC2BA51DE8E11486B15FB32E679129B33406A24B3FD5D264747E795F327E51100E65BE82D7F88B23C2B05B7B80FCAE7B0FCA71A5E231976",
+ "esnType": "mbom",
+ "optionName": "Pressure Relief Valve",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/gv/740_gv0202600_00"
+  }
+ ],
+ "remarks": "Pressure Relief Valve|cylinders: 6|pressure Relief Valve Location:|rear End Of Valve Cover|from C/l Of Engine (mm): -35.65|from C/l Of Crankshaft (mm): 686|from Ffob (mm): -1050.1|pressure Relief Valve Interface: M38x3|opening Pressure: 5.5+/-0.5kpa|full Opening Pressure:|6.9+/-0.5kpa At 250l/min|less Than 12kpa At 250l/min For Assembly|valve Cover And Valve Seat Material:|pa66+gf30|valve Body And Valve Spool Material:|304 Stainless Steel|with Connection Tube: No|pressure Relief Valve Type: Open|unique Characteristics:|have Oil Collection Structure",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6471803",
+      "latestPart": "false",
+      "partDesc": "PRESSURE RELIEF VALVE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/gv/740_gv0202600_00",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "GV2026-00",
+ "optionNumber": "GV2026-00"
+}

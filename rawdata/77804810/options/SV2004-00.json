@@ -1,0 +1,32 @@
+{
+ "componentHash": "01F7334FDD40AA1E2CBBED3D58792B442112B5D8E01445798B6D1BF4BB2A90BEB762EB1991C07C63B7A1900164A4DC54660319584ED386D05DFB0395E17C96F2",
+ "esnType": "mbom",
+ "optionName": "Engine Operating Voltage",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Engine Operating Voltage|system Voltage: 24",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SV2004-00",
+ "optionNumber": "SV2004-00"
+}

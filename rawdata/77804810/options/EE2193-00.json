@@ -1,0 +1,60 @@
+{
+ "componentHash": "2472FB6652C163643F2F6D3E03C8500A8F0490DE04008D29087DD5A73CF72721C56351337738AB2E913CB03A3AF3CFFCBC778FF623E9874B3D09341A48116030",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/ee/740_ee0219300_00"
+  }
+ ],
+ "remarks": "Alternator|the Number Of Alternator:one|voltage (v): 28.5|amperage (amp): 110|bolts Information Of B+: M8|the Torque Of B+:6+/-0.5nm|alternator Manufacturer:|beijing Peitelai Ltd.|alternator Model: Avih2101a01|incentive Method: Self-Incentive|the Form Of Conductive: Double Wire System,|negative Grounding|bolts Information Of B-(e): M5|the Torque Of B- (e): 3.5+/-0.3nm|alternator Pulley Dia.(mm): 59.72 (effective)|rh Grade (dustproof, Waterproof): Ip56|pulley Groove Type: 8pk|mounting Type: Pad|alternator Pulley Provided: Yes|cummins Branded: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5612877",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/ee/740_ee0219300_00",
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EE2193-00",
+ "optionNumber": "EE2193-00",
+ "buildCode": null
+}

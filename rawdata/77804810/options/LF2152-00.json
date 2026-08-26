@@ -1,0 +1,60 @@
+{
+ "componentHash": "7A7AD8B9373738D34E3CA89A6CEADDB23B0404420488AABCCCBAD84A3729E3771F13D9FEA4A25775934AF716AC7D21A7D237D02F5C6AD33670AC5A0915D890DC",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/lf/740_lf0215200_00"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|filter Type: Full Flow|mounting Location: On Engine Exhaust Side|filter Thread Size: 1.5-12 Uns-2b|mounted Orientation: Vertical|filter Location From Ffob: 224.3|filter Length (mm): 249|filter Diameter (mm): 116.4|removal Distance (mm): 38.6|logo Information:no Plant Logo|reflect Bfcec Bar Code|has Two Types Of Silk Screen Content",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5718681",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER ELEMENT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/740/lf/740_lf0215200_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LF2152-00",
+ "optionNumber": "LF2152-00"
+}

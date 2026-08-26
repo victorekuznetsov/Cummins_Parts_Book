@@ -1,0 +1,200 @@
+{
+ "componentHash": "77866F942FD88B4C25667C89CB3AA8B4A2CF65435A58C0B205902A9D70F474C53ED7CA0EB3CAB206388F4555ECFCF9528C17D11DDE6FE3F3A54E5FCD6A46865F",
+ "esnType": "mbom",
+ "optionName": "Oil Pan",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/op/740_op0222400_03"
+  }
+ ],
+ "remarks": "Oil Pan|cylinders: 6|sump Location: Front|material: Composite|has Oil Fill Port: No|mounting Type: Non-Isolated|pan High Capacity (liter): 50|pan Low Capacity (liter): 35|pan Front Up Angularity (deg): 41|pan Front Down Angularity (deg): 45|pan Side To Side Angularity (deg): 45|drain Size: M18|drain Boss Location: Cold (fuel Pump) Side|position From Engine C/l (mm): 170.8|position From Crank C/l (mm): 400.2|position From Ffob (mm): 217.0|heater Boss Size: M18 X 1.5|heater Boss Location: Both Side|oil Pan Mounting Screws: M8 X 1.25|oil Pan/block Mtg Holes: 22|oil Pan/rear Flywheel Housing Mtg Holes: 2|oil Pan/front Lub Pump Cover Mtg Holes: 4|required Dipstick Calibrations:|bfob-Full/low @ 0 Deg (mm): 35l/50l|bfob-Full/low @ 2.5 Deg (mm): 35l/50l|bfob-Full/low @ 3 Deg (mm): 35l/50l|bfob-Full/low @ 4 Deg (mm): 35l/50l|temperature Tolerance(centigrade): -40~150",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6463316",
+      "latestPart": "true",
+      "partDesc": "OIL PAN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4995185",
+        "latestPart": "false",
+        "partDesc": "D RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "5663193",
+        "latestPart": "false",
+        "partDesc": "OIL PAN SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6416472",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "5525481",
+          "latestPart": "false",
+          "partDesc": "MAGNET",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "3"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "6416471",
+          "latestPart": "false",
+          "partDesc": "THREADED PLUG",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "4"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "6462829",
+        "latestPart": "false",
+        "partDesc": "OIL PAN",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/op/740_op0222400_03",
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "OP2224-03",
+ "optionNumber": "OP2224-03",
+ "buildCode": null
+}

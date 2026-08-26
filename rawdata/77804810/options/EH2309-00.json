@@ -1,0 +1,153 @@
+{
+ "componentHash": "7CB5031EBB77104AAEB542A832FD7483978E515E16AAC89BE1EC2B7F1065A8BFDFCD8DFB614C1CD0995ACE9684C3D3C337F138DA060B4D09505C974A4E4051AC",
+ "esnType": "mbom",
+ "optionName": "Alternator Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/eh/740_eh0230900_00"
+  }
+ ],
+ "remarks": "Alternator Mounting|alternator Quantity: One|alternator Manufacturer: Prestolite|alternator Mtg Supplier:hubei Robot|technology|alt. Pulley Groove Profile: 8pk|alt. Pulley Dia. Over 2.5mm Balls(mm):|60.77+/-0.635|alt. Drive Ratio: 3.36|alt. Horizontal Centerline:342mm|alt. Vertical Centerline:381mm|alt. Pulley Groove Location:187.6mm|ref Comp Pulley Dia. Over 2.5mm|balls(mm):119.51|ref Comp Drive Ratio: 1.69|ref Comp Horizontal Centerline:305mm|ref Comp Vertical Centerline: 180.8mm|ref Comp First Pulley Groove|location: 162.6mm|bracket Attachment Method:pad",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4334501",
+      "latestPart": "false",
+      "partDesc": "STUDDED FLANGE CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 50 : M10 X 1.5 X 20",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5632961",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR SUPPORT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4067993",
+        "latestPart": "false",
+        "partDesc": "RING DOWEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "5612685",
+        "latestPart": "false",
+        "partDesc": "ALTERNATOR SUPPORT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5683208",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/740/eh/740_eh0230900_00",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EH2309-00",
+ "optionNumber": "EH2309-00"
+}

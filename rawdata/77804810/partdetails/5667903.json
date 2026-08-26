@@ -1,0 +1,152 @@
+{
+ "partNo": "5667903",
+ "partDesc": "air compressor",
+ "supersession": [],
+ "reconEquivalent": [
+  {
+   "reconPart": "5667903rx"
+  }
+ ],
+ "whereUsed": [
+  {
+   "item": "CP2196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CP2204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6315607",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CP2272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2A3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1W3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1W3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1L3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2A3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2A3003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/566/5667903/5667903.obj"
+  },
+  {
+   "fileName": "/566/5667903/5667903.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/566/5667903/5667903_right.png"
+  },
+  {
+   "fileName": "/566/5667903/5667903_front.png"
+  },
+  {
+   "fileName": "/566/5667903/5667903_left.png"
+  },
+  {
+   "fileName": "/566/5667903/5667903_iso.png"
+  },
+  {
+   "fileName": "/566/5667903/5667903_iso2.png"
+  },
+  {
+   "fileName": "/566/5667903/5667903_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "34 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "23.5 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "27 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "54 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
