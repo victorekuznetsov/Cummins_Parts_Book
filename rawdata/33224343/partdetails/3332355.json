@@ -1,0 +1,136 @@
+{
+ "partNo": "3332355",
+ "partDesc": "flywheel",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FW6039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel"
+  },
+  {
+   "item": "FW6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel"
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D873001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/333/3332355/3332355.obj"
+  },
+  {
+   "fileName": "/333/3332355/3332355.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/333/3332355/3332355_right.png"
+  },
+  {
+   "fileName": "/333/3332355/3332355_iso.png"
+  },
+  {
+   "fileName": "/333/3332355/3332355_iso2.png"
+  },
+  {
+   "fileName": "/333/3332355/3332355_front.png"
+  },
+  {
+   "fileName": "/333/3332355/3332355_top.png"
+  },
+  {
+   "fileName": "/333/3332355/3332355_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "78 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "120 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "78 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "32.8 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

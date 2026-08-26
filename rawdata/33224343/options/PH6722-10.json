@@ -1,0 +1,60 @@
+{
+ "componentHash": "97C8AE6FDF60B59E2A4708091E0A9A26CB9C85FB3EE372FECA13447C46E59E74C22E561E9C12766B50A9002BB65A58558F4C7DB511CA27160FDDC4D9CAB16836",
+ "esnType": "mbom",
+ "optionName": "Engine Control Module Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ph/075_ph0672200_10"
+  }
+ ],
+ "remarks": "Eng Cnt Module Plumbing|engine Mode:    Qsk60|air Compressor:   None",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3648656",
+      "latestPart": "false",
+      "partDesc": "FUEL HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/ph/075_ph0672200_10",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "PH6722-10",
+ "optionNumber": "PH6722-10",
+ "buildCode": null
+}

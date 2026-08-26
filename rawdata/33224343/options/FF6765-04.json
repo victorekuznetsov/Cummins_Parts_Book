@@ -1,0 +1,60 @@
+{
+ "componentHash": "C77B98003CAB703F03C9659CA65C517A00491795EB790D3CC96382280C02B4A29C41CA1B09D07242D2C1212D10FE6F1007548C870F4726DF878017F01542B924",
+ "esnType": "mbom",
+ "optionName": "Fuel Filter Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ff/075_ff0676500_04"
+  }
+ ],
+ "remarks": "Fuel Filter Plumbing|engine Family: Qsk45, Qsk60|fuel Control System: Hpi|fuel Filter Head Location:|left Bank Oil Pan Adapter Rail|fire Protective Plumbing Sleeve Included: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3639985",
+      "latestPart": "false",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/075/ff/075_ff0676500_04",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FF6765-04",
+ "optionNumber": "FF6765-04"
+}

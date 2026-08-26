@@ -1,0 +1,106 @@
+{
+ "componentHash": "50613AE6E1997B113E743B8FE2967FE052E6523C37C72903F8FD0B10510E7E0BF5F7AE2FC8801FCB0337A9CA4DF03FB3DE4DF473D8B98E8A8C22201535A4B56F",
+ "esnType": "mbom",
+ "optionName": "Radiator Plumbing Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/rp/075_rp0600100_01"
+  }
+ ],
+ "remarks": "Rad Plumbing Connection|engine Family: D58, D59|connection Orientation: Downwards|water Inlet Od (mm): 76.6 (3.0 In)|water Inlet Id (mm): 74.55 (2.94 In)|oem Interface Connection Type:|hose Bead|mounting Location:|lta Water Pump Water Transfer Connection|from Engine C/l (mm): 457.168 (17.99 In)|from Crank C/l (mm): 51.7 (2.04 In)|from (mm): -279.55 (-11.01 In)|suppy Method: Mounted|engine Interface Flange Type: Half Marmon|engine Interface Flange Dia (mm):|94.36 (3.7in)|water Pump Interface C/l To Oem|interface Length (mm): 183.3 (7.21 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3332159",
+      "latestPart": "false",
+      "partDesc": "WATER INLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3332164",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3332391",
+      "latestPart": "false",
+      "partDesc": "WATER PUMP GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/rp/075_rp0600100_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "075",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "RP6001-01",
+ "optionNumber": "RP6001-01"
+}

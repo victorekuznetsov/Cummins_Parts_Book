@@ -1,0 +1,107 @@
+{
+ "componentHash": "1047A30263D9925162A8F43ADA8A0C75E0BC9A18A96BEE8D68409C156DB58E55B29528920645E4E6BB6BBF77B1AC7CA79AE048D791244421A3FE19FF60546E49",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ee/075_ee0606100_05"
+  }
+ ],
+ "remarks": "Alternator|manufacture/model: Niehoff/c653a-1|alternator Quantity:1|voltage:  28 Max. Regulated Output 24 V|amperage: 260|alternator Mounting Type:|lugs (mm): 100.09 (3.94 In.) Apart|support Bracket Interface Type:|spool (mm): 98.42 (3.87 In.)|alternator Length (mm): 351.06 (13.82 In.)|cummins Branded: No|ground Type: Negative|insulated: Yes|ground Strap Required: Na|built In Voltage Regulator: Yes|manufacture/voltage Regulator Model:|niehoff/a2-146|cooling Fan Inculded: Yes|brushless: Yes|wiring Harness Included: No|rotation: Cw|additional Information:|for Use In Installations Which|require A Single|battery Charging Alternator",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4086503",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3639983",
+        "latestPart": "false",
+        "partDesc": "REGULATOR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4372734",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/075/ee/075_ee0606100_05",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EE6061-05",
+ "optionNumber": "EE6061-05"
+}
