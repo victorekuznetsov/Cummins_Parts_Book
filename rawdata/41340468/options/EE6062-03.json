@@ -1,0 +1,83 @@
+{
+ "componentHash": "F653254AE166619A010D3150C10B2285A5CE6176A9910975BC88BBC787CC0DF2E3B5EAD082F2B5A35CB8A7DC81C33B55283F4AC0C72DF1D016B35E70643665EB",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ee/485_ee0606200_03"
+  }
+ ],
+ "remarks": "Alternator|manufacturer/model:|prestolite 8sc3389 Hc|voltage: 24|amperage: 150|alternator Mounting Type:|lugs (mm): 103.12 (4.06 In.) Apart|support Bracket Interface Type:|spool (mm): 101.62 (4.0 In.)|alternator Length (mm): 267.97 (10.55 In.)|cummins Branded: No|corrosion Resistance: Yes|ground Type: Negative|insulated: Yes|ground Straps Required: Na|built-In Voltage Regulator: Yes|cooling Fan Included: Yes|brushless: No|wiring Harness Included: No|rotation: Cw",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3651903",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4372405",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/ee/485_ee0606200_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "485",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "EE6062-03",
+ "optionNumber": "EE6062-03",
+ "buildCode": null
+}

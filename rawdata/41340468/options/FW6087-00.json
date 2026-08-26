@@ -1,0 +1,199 @@
+{
+ "componentHash": "032C398D9E6D467ED8AAFA0D45CE5ACC24AE518EEC2C9045FABA6DF55192B7B2567EEEDEDB9BA17B75B6F5FB8B12D04DB8D7EF0CD3C16C65CD6FFD33DDF6A361",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/fw/485_fw0608700_00"
+  }
+ ],
+ "remarks": "Flywheel|engine Family: D23, D28|item Supplied: Flexplate|intended Fly Hsg Sae: 0|ring Gear Diametral Pitch: 6/8|clutch/t.c. Mtg. Bolt Circle: Single|clutch/t.c. Mtg Hole Count:  12|clutch/t.c. Mtg Bolt Circle Dia (mm):|512 (20.15 In)|clutch/t.c. Mtg Hole Spacing: Equal|clutch/t.c. Mtg Hole Size: Dia (mm):|14.29 (0.5625 In)|speed Limitations Nte: 2100 Rpm|intended Drive Hardware:|allison Dp-8900 Series Transmission|clbt-9600 Series Transmission",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "205059",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 inch",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3023537",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 X 3 1/2 INCH",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3032427",
+      "latestPart": "false",
+      "partDesc": "FLEXPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "118312",
+        "latestPart": "false",
+        "partDesc": "HEAD LOCKING SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 X 1 INCH",
+        "qty": "12",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "179871",
+        "latestPart": "false",
+        "partDesc": "FLEXPLATE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "179872",
+        "latestPart": "false",
+        "partDesc": "CLAMPING RING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "207548",
+        "latestPart": "false",
+        "partDesc": "CRANKSHAFT ADAPTER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/fw/485_fw0608700_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "485",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FW6087-00",
+ "optionNumber": "FW6087-00",
+ "buildCode": null
+}

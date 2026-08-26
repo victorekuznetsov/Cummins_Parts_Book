@@ -1,0 +1,106 @@
+{
+ "componentHash": "24F7E77E787C13C9E4B07C3F62267869D795C814B8F86BBF1DCD85307271C4BDDAD11763C92A26534C6EB0D8D516889EDAC30E86C481AD60F4F58B266830E5F6",
+ "esnType": "mbom",
+ "optionName": "Front Drive Adapter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/af/485_af0600400_00"
+  }
+ ],
+ "remarks": "Front Drive Adapter|engine Family: D23, D28|pto Flange Adaptation|morflex 702 And 802 Series Couplings|pto Mtg Provision: Pto Flange|pto Mtg Thread: 4 X 7/16-20 Unc-2b And|4 X 9/16-18 Unf 2b|pto Mtg Bolt Circle (mm): 4 X 95.25 (3.75 In)|2 X 109.5 (4.312 In) And|2 X 125.4 (4.938 In)|pto Pilot Diameter (mm): 69.9 (2.75 In)|engine Interface Bolt Circle Dia (mm):|6 X 144.8 (5.7 In)|engine Interface Mtg Thread: 1/2-13 Unc-2b|engine Interface Pilot Dia (mm):|170.2 (6.70 In)|structure Strategy Under Common Model",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "111445",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205378",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 1 1/4 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3027099",
+      "latestPart": "false",
+      "partDesc": "POWER TAKE-OFF FLANGE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/af/485_af0600400_00",
+ "optionPlantCode": "485",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "AF6004-00",
+ "optionNumber": "AF6004-00",
+ "buildCode": null
+}

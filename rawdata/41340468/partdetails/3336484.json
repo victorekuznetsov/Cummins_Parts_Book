@@ -1,0 +1,1603 @@
+{
+ "partNo": "3336484",
+ "partDesc": "socket head cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WH7745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "WH7744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "PP20298",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "3426911",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "3426604",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3426604",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3426597",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3426597",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3429388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler outlet connection"
+  },
+  {
+   "item": "3429389",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler inlet connection"
+  },
+  {
+   "item": "3429389",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler inlet connection"
+  },
+  {
+   "item": "3647768",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel transfer pump"
+  },
+  {
+   "item": "3648115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel transfer pump"
+  },
+  {
+   "item": "3429563",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil mounting filter"
+  },
+  {
+   "item": "3339304",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339392",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3339492",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3340586",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankcase assembly breather"
+  },
+  {
+   "item": "3340669",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3340687",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340275",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly gas circuit"
+  },
+  {
+   "item": "3340217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "circuit assembly gas"
+  },
+  {
+   "item": "3340194",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover,hotbox assembly"
+  },
+  {
+   "item": "3340240",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "circuit assembly gas"
+  },
+  {
+   "item": "3340193",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover,hotbox assembly"
+  },
+  {
+   "item": "3340274",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly gas circuit"
+  },
+  {
+   "item": "3340273",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly gas circuit"
+  },
+  {
+   "item": "3341152",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3341161",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "housing,oil cooler subass"
+  },
+  {
+   "item": "3341165",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler assembly housing"
+  },
+  {
+   "item": "3340888",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3340900",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3340900",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3340899",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant assembly plumbing"
+  },
+  {
+   "item": "3340962",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3340726",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340767",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340768",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340526",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3423297",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3423298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3423295",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intake assembly connection"
+  },
+  {
+   "item": "3341460",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3341643",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341638",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341551",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3341512",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341540",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3341413",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3341547",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341262",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "system engine monitoring"
+  },
+  {
+   "item": "3341264",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "system engine monitoring"
+  },
+  {
+   "item": "3341166",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler assembly housing"
+  },
+  {
+   "item": "3424381",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3423844",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "3423231",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air cooler assembly"
+  },
+  {
+   "item": "3423232",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air cooler assembly"
+  },
+  {
+   "item": "3425692",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold manifold"
+  },
+  {
+   "item": "3425709",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3428011",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "3428121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "connection assembly flywheel"
+  },
+  {
+   "item": "3337048",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3335921",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat sub-assembly cover"
+  },
+  {
+   "item": "3337969",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft assembly gear"
+  },
+  {
+   "item": "3337688",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3337688",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3337958",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil assembly plumbing"
+  },
+  {
+   "item": "3337117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "plumbing,flywheel hous as"
+  },
+  {
+   "item": "3337117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "plumbing,flywheel hous as"
+  },
+  {
+   "item": "3337118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "plumbing,flywheel hous as"
+  },
+  {
+   "item": "3337114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "3337114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "3337613",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump assembly cover"
+  },
+  {
+   "item": "3337649",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft assembly gear"
+  },
+  {
+   "item": "3337733",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3337733",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338448",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump assembly cover"
+  },
+  {
+   "item": "3338458",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump assembly cover"
+  },
+  {
+   "item": "3338388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "gas circuit assembly"
+  },
+  {
+   "item": "3338363",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "gas circuit assembly"
+  },
+  {
+   "item": "3338118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3337980",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump assembly cover"
+  },
+  {
+   "item": "3338062",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil assembly plumbing"
+  },
+  {
+   "item": "3338558",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338560",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338573",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338562",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338592",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankcase assembly breather"
+  },
+  {
+   "item": "3338590",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338480",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3338459",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump assembly cover"
+  },
+  {
+   "item": "3338465",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3339499",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3339506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3339019",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3339071",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3338820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3338881",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3338883",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3338882",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3338878",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly gas circuit"
+  },
+  {
+   "item": "3338731",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover,hotbox assy"
+  },
+  {
+   "item": "3338802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3338572",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "circuit assembly  gas"
+  },
+  {
+   "item": "3338704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover,hotbox assy"
+  },
+  {
+   "item": "3339989",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover,hotbox assembly"
+  },
+  {
+   "item": "3339990",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting assembly motor"
+  },
+  {
+   "item": "3340134",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cool assembly plumbing"
+  },
+  {
+   "item": "3340168",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "circuit assembly gas"
+  },
+  {
+   "item": "3339735",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil assembly cooler"
+  },
+  {
+   "item": "3339784",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3339806",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust assembly manifold"
+  },
+  {
+   "item": "3339923",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "camshaft assembly gear"
+  },
+  {
+   "item": "3339632",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "housing,oilcooler subassy"
+  },
+  {
+   "item": "3339783",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3339783",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly arrangement"
+  },
+  {
+   "item": "3339439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "3339465",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "sub-assembly camshaft"
+  },
+  {
+   "item": "4011447",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "4011252",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil assembly pump"
+  },
+  {
+   "item": "4011258",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil assembly pan"
+  },
+  {
+   "item": "4011787",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control engine"
+  },
+  {
+   "item": "4011786",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control engine"
+  },
+  {
+   "item": "4012816",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "a bank wiring harness"
+  },
+  {
+   "item": "4013412",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "4012817",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4012781",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "a bank wiring harness"
+  },
+  {
+   "item": "4012782",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "b bank wiring harness"
+  },
+  {
+   "item": "4008322",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat assembly l8 exchanger"
+  },
+  {
+   "item": "4008333",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankcase assembly breather"
+  },
+  {
+   "item": "4011449",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "4013410",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "v16 harness wiring assembly"
+  },
+  {
+   "item": "4012818",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "v18 wiring assembly harness"
+  },
+  {
+   "item": "4012783",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "v16 wiring assembly harness"
+  },
+  {
+   "item": "4015367",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4013420",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4013411",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "v18 harness wiring assembly"
+  },
+  {
+   "item": "3427047",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3339735",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil assembly cooler"
+  },
+  {
+   "item": "3426904",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3429403",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "3429567",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "3429566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "3429391",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "3429565",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "3339304",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339467",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339394",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3340671",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3341166",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler assembly housing"
+  },
+  {
+   "item": "3340890",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3423659",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3341165",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler assembly housing"
+  },
+  {
+   "item": "3423662",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3425453",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water assembly pump"
+  },
+  {
+   "item": "3425454",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water assembly pump"
+  },
+  {
+   "item": "3425481",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "3428037",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cover plate"
+  },
+  {
+   "item": "3426806",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3335926",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "housing,oil cooler subass"
+  },
+  {
+   "item": "3427044",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "charge air assembly cooler"
+  },
+  {
+   "item": "3339496",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339510",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "3339503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly camshaft"
+  },
+  {
+   "item": "D1L3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR7824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "D673001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH7901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "FH7902",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "FH7909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "FH7904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing plumbing"
+  },
+  {
+   "item": "FS6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FS6059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel transfer pump"
+  },
+  {
+   "item": "FS6044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel transfer pump"
+  },
+  {
+   "item": "FS6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP7811",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump cover"
+  },
+  {
+   "item": "LP7703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil pump plumbing"
+  },
+  {
+   "item": "LP7751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil pump"
+  },
+  {
+   "item": "LP7705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil pump plumbing"
+  },
+  {
+   "item": "HX7032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "PP7712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft gear"
+  },
+  {
+   "item": "PH7716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "OP7026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "TB7724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "ST7058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "WH7744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "WH7745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant vent"
+  },
+  {
+   "item": "WP7705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WH7711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant plumbing"
+  },
+  {
+   "item": "WH7713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine coolant plumbing"
+  },
+  {
+   "item": "TB7731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "TB7715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D673002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB7716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D653001MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D643002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D643001MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D623002MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D623001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D693001MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D673001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D673002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LF7050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "LF7049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "LF7048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "full flow oil filter"
+  },
+  {
+   "item": "PH7730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH7725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "TB7729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "WP7713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP7714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "TB7734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB7705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3337076",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil assembly cooler"
+  },
+  {
+   "item": "D673001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D613001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D673002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC7002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "D693001MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D683001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D653001MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D623001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D623002MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/333/3336484/3336484.obj"
+  },
+  {
+   "fileName": "/333/3336484/3336484.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/333/3336484/3336484_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "5.2 In"
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".047 Lbs"
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "1.8 In"
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.8 In"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

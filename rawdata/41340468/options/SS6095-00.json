@@ -1,0 +1,60 @@
+{
+ "componentHash": "59FAA53A08E6DE4994AEF2279FDA8AAD70623140827303F7488DBBA190DE6BBE810D323A10648A2DAAA0AA9B9D8F41360BD2E6510A92608E7B45FCCBCE54A026",
+ "esnType": "mbom",
+ "optionName": "Paint",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ss/485_ss0609500_00"
+  }
+ ],
+ "remarks": "Paint|engine Family: D23, D28, D36, D58, D59, D77|color: Cummins Red, High Gloss|additional Information:|compliant With En45545-2|dav Only",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3643480",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/ss/485_ss0609500_00",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "485",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SS6095-00",
+ "optionNumber": "SS6095-00"
+}

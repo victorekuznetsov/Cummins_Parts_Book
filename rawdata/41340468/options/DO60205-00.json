@@ -1,0 +1,79 @@
+{
+ "componentHash": "F9949909AB8333727E92A6998C0624625E2E934FC1800FF6825A4617AF2FDF5753ED38787480E248A77E05B75243BC0E0FA45882B7E84CC3287E750A5C682AC3",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Aan|transmission: Cat Th55 / Allison 9826|commun Support: J1939|oem Name: Petrol Sj|oem Model: 2300 Frac|oemcomment: Fracturing Pump|remote Throttle: N|high Idle: 1930 Rpm|low Idle: 0700 Rpm|isc Enable: Off|isc Validation: Na|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 0 %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Custom|comment:|powermatch: Na|guid: Na|comment Cont:|software Phase: 25.02.01.22|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4314190",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4334575",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "485",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DO60205-00",
+ "optionNumber": "DO60205-00"
+}

@@ -1,0 +1,127 @@
+{
+ "partNo": "4951813",
+ "partDesc": "flywheel housing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FH6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/495/4951813/4951813.obj"
+  },
+  {
+   "fileName": "/495/4951813/4951813.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/495/4951813/4951813_back.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_bottom.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_front.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_iso.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_iso2.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_left.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_right.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_top.png"
+  },
+  {
+   "fileName": "/495/4951813/4951813_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "85 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "173 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "78 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "40 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

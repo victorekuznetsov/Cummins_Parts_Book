@@ -1,0 +1,363 @@
+{
+ "partNo": "68608",
+ "partDesc": "pipe plug",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3630503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "outlet connection exhaust"
+  },
+  {
+   "item": "3006909",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil mounting filter"
+  },
+  {
+   "item": "3006910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil mounting filter"
+  },
+  {
+   "item": "3067395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger exhaust elbow"
+  },
+  {
+   "item": "AR6805",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "AR6387",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "BM76292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water crossover"
+  },
+  {
+   "item": "XS8093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust elbow"
+  },
+  {
+   "item": "XS6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "HC50002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB6061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "XS8087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust elbow"
+  },
+  {
+   "item": "LF3729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "LF3712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube hose"
+  },
+  {
+   "item": "LF3708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lube hose"
+  },
+  {
+   "item": "LF3732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "LF3730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "XS8117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust elbow"
+  },
+  {
+   "item": "LF3727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "LF3728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "D4H3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "XS6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "XS6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust outlet connection"
+  },
+  {
+   "item": "LF3731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283017GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283016DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173071MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172035MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171004MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173018MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/686/68608/68608.obj"
+  },
+  {
+   "fileName": "/686/68608/68608.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/686/68608/68608_top.png"
+  },
+  {
+   "fileName": "/686/68608/68608_iso2.png"
+  },
+  {
+   "fileName": "/686/68608/68608_front.png"
+  },
+  {
+   "fileName": "/686/68608/68608_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "1/2 NPT"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4.3 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".08 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4.05 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

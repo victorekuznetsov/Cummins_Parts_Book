@@ -1,0 +1,60 @@
+{
+ "componentHash": "FEAC78A74CAE188932F9A58D7AC96E9F02733A613AE848568801E8A6CA127B7024E2F0A2A28E703AA5012891CFAE407054DF1C3A57A333C2A880DFE6D8299F32",
+ "esnType": "mbom",
+ "optionName": "Front Cover Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/gg/485_gg0690200_00"
+  }
+ ],
+ "remarks": "Front Cover Plumbing|engine Family: D23, D28|plug(s) Included: One|thread: 3/8 - 18 Npt|additional Info:|plug Used To Close Off Gear Cover Oil|supply Tapping",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3628609",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/gg/485_gg0690200_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "485",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "GG6902-00",
+ "optionNumber": "GG6902-00",
+ "buildCode": null
+}

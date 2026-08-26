@@ -1,0 +1,60 @@
+{
+ "componentHash": "5C4FA8E2128F594EA9D06C934EDA106678B744D3CA7CF0B6D76838B42F85404D9E4FB40B79AB318230B01EEB0D9D01180C5A3008AE382C7FCA23E5D6D02D8084",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ap/485_ap0636800_01"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Cs Iii|special Allowance: Na|cert Agent: Mep|comment:|fuel Type: Diesel|cert Level2:|certified By2:|dataplate Language: Chinese And English|manufacturer Of Record:|chongqing Cummins Engine Co|power Range: >560kw|market Restriction: Na",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3633720",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/ap/485_ap0636800_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "485",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "AP6368-01",
+ "optionNumber": "AP6368-01"
+}
