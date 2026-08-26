@@ -1,0 +1,83 @@
+{
+ "componentHash": "5CE0BEFB92BF44C8262A75C2D65410BD5201B37FC7AAF8A1B476BC46FBABD79A3B4B1708E73A912D836AB371ADEE4D54B46597F41B700D7C77371BBB9C6C802C",
+ "esnType": "mbom",
+ "optionName": "Lubricating Oil Pump",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/lp/508_lp0906400_02"
+  }
+ ],
+ "remarks": "Lubrication Oil Pump|structure Code: 02 Ebm|engine Design Phase: Encore|pump Drive: Non-Crank Concentric|body Material: Cast Iron Body|flow Rate @ Pump Speed (gpm @ Rpm)|3.2 @ 750|gear Type: Steel Hcr Gear|piston Cooling Method: Saddle Jet|engine Families: B Series|cylinders - Engine Aspiration:|6 - Charge Air Cooled,|6 - Jacket Water Aftercooled|6 - Low Temp Aftercooled|6 - Naturally Aspirated|cdc May Use Lub Oil Pump 3937404 In Place|of Lub Oil Pump 4939587|dcec May Use Part Number 5346430 In Place Of|4939587|in Place Of P/n 4939587|in Place Of P/n 4939587|tcl May Use P/n 5524756 Or 3937404|tel May Use P/n 5524756 Or 3937404|tcx May Use P/n 5524756 Or 3937404",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900677",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 30",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5346430",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL PUMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/lp/508_lp0906400_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LP9064-02",
+ "optionNumber": "LP9064-02"
+}

@@ -1,0 +1,130 @@
+{
+ "componentHash": "07659FCC68A060C7C616A1E494215A26FDD832850A15C1DAE00F3FD222E76DF63D812F44F32C534D4F7806D2EDE5D246541E4C38529E10EAD698EC8ED376403D",
+ "esnType": "mbom",
+ "optionName": "Compressor Air Inlet Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ci/508_ci0918900_02"
+  }
+ ],
+ "remarks": "Air Compressor Inlet|plumbing Supplier: Customer|engine Family: B Series|air Pick-Up Location: Air Filter|air Inlet Location: Outboard|air Outlet Location: Rear|intake Connection Location: Top|structure Code: 02 Ebm|engine Design Phase: Current Product|compresor Manufacturer/model:|langfang 3974548/4933283|unique Characteristics:|this Option Including A Male Adapter Elbow|was Released For Dongfeng Company.|its Air Inlet Intake Is Vertically Upward.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5269894",
+      "latestPart": "false",
+      "partDesc": "MALE ADAPTER ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4928960",
+        "latestPart": "false",
+        "partDesc": "REGULAR HEXAGON NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4928963",
+        "latestPart": "false",
+        "partDesc": "PLAIN WASHER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4937634",
+        "latestPart": "false",
+        "partDesc": "MALE ADAPTER ELBOW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ci/508_ci0918900_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "CI9189-02",
+ "optionNumber": "CI9189-02",
+ "buildCode": null
+}

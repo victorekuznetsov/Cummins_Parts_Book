@@ -1,0 +1,60 @@
+{
+ "componentHash": "B797C66E525B91FCBA0246E564D4AF4BA2A0F5CB0CD7C1E54E8059E3F58FE3FB51A58DF2AAB982742C00D6546D13BA63BF83AD158EF23370B72F9FA299885AAE",
+ "esnType": "mbom",
+ "optionName": "Cam Follower",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/bp/508_bp0971100_02"
+  }
+ ],
+ "remarks": "Camfollower Cover|engine Family: B Series|cylinders: 6|structure Code: 02 Ebm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3931623",
+      "latestPart": "false",
+      "partDesc": "VALVE TAPPET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/bp/508_bp0971100_02",
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "BP9711-02",
+ "optionNumber": "BP9711-02",
+ "buildCode": null
+}

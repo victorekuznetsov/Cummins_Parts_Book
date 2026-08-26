@@ -1,0 +1,79 @@
+{
+ "componentHash": "19C28447859AA09B0020707B075BFD322622B6D787AFC2134E12F2E4E3BF10188F28F6593355DCA249219594A86FE1E98327B737C1E9631C7EBEE468298D6CB1",
+ "esnType": "mbom",
+ "optionName": "Air Fuel Control Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Air Fuel Control Plumbing|engine Family: B Series|aspiratoin: Turbocharged|fuel Pump Mfg/model: Weifu Aw Pump|boost Control: Yes|boost Line Pick-Up Size: N/a|turbocharger Type: Non-Wastegate|this Option For Use By Dcec For Chinese|customers Only.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3913952",
+      "latestPart": "false",
+      "partDesc": "AIR FUEL CONTROL TUBE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3976036",
+      "latestPart": "false",
+      "partDesc": "MALE ADAPTER ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FE9078-01",
+ "optionNumber": "FE9078-01"
+}

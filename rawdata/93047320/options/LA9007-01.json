@@ -1,0 +1,83 @@
+{
+ "componentHash": "DEC78B0E8E3A59B334119C7457EC8502048CDF4175D986CD4B2BA97AD6E0C6F8470F0481565A1C5327C315F0098A429F180E674BCEF444598B8A42D4D128DE1E",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/la/508_la0900700_01"
+  }
+ ],
+ "remarks": "Lifting Bracket|structure Code: 02 Ebm|engine Family: B Series|capscrew Length: 30mm|allows For Intake Trunking: No|max Lifting Load (lbs.): 2000|bracket Pre-Painted: No|bracket(s) Provided: Front And Rear|neuss Will Use 25mm Mounting Capscrews.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3908118",
+      "latestPart": "false",
+      "partDesc": "LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910495",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 30",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/la/508_la0900700_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LA9007-01",
+ "optionNumber": "LA9007-01"
+}

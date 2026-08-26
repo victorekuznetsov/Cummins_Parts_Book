@@ -1,0 +1,60 @@
+{
+ "componentHash": "A4A2F289C85A6B80C93782EFE1853652AC3F10D82D5B1C0548542C7D244305B729167D3EA8A372A26610F54E2ECEEACE6B2815D845064446B26F34E20994AB7C",
+ "esnType": "mbom",
+ "optionName": "Water Inlet Connection Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wi/508_wi0970100_01"
+  }
+ ],
+ "remarks": "Water Inlet Connection Plumbing|plugs For Use In Water Inlet Connection|to Be Used Without Water Cooled Exhaust|manifold.|plug Pipe 3008468 May Be Used In Place Of|4931643|tel/tcl May Use 3936641 Pipe Plug In Place|of 4931643|kcec May Use 5287195 Pipe Plug In Place|of 4933532",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008468",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 NPT",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/wi/508_wi0970100_01",
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "WI9701-01",
+ "optionNumber": "WI9701-01",
+ "buildCode": null
+}

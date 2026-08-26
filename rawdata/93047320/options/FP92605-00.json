@@ -1,0 +1,60 @@
+{
+ "componentHash": "B27667F80473093A605A8B830BF6A31A6DB6637370D0A6FBDB92977B8428F3224C675536B248984138BB42BF795A83E7A48E7D28BC1E5E39C4FA903F63C6DD75",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fp/508_fp9260500_00"
+  }
+ ],
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3973198",
+      "latestPart": "false",
+      "partDesc": "FUEL PUMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/fp/508_fp9260500_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FP92605-00",
+ "optionNumber": "FP92605-00",
+ "buildCode": null
+}

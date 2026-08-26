@@ -1,0 +1,175 @@
+{
+ "componentHash": "23F50CA32C0D24A7AD7F16A6A342A8406E495583AC388AAEBDE59CB0D13A7908011A55FB48169A4FF32EB38F5FFB49467322E1CF5BFDC731419D8629D3C59802",
+ "esnType": "mbom",
+ "optionName": "Cam Follower Cover Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/cm/508_cm0901600_05"
+  }
+ ],
+ "remarks": "Cam Follower Cover|structure Code: 02 Ebm|engine Family: B Series|cylinders: 6|hose Angle Off Breather (deg): 45|hose Location On Baffle: Top|noise Panel Provision: None|double Baffle: No|baffle Location On Engine: #5 Cylinder|hose And Clamp Provided: Yes|drain Hose Length (mm): 435|fuel Pump Type: Inline|breather Provision: Yes|noise Isolator Provision: No|dcec May Use 4994848 And 3900630|instead Of 3928759 And 3900629|bzl May Use Pn 3357158 Instead Of Pn 3904230|dcec May Use 4928971 In Place Of 3904230|tcl May Use 3928832 In Place Of 3284623|and 5561668 In Place Of 3990730",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900630",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 20",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3918614",
+      "latestPart": "false",
+      "partDesc": "PLAIN HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3990730",
+      "latestPart": "false",
+      "partDesc": "PUSH ROD COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4928971",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4994848",
+      "latestPart": "false",
+      "partDesc": "GROMMET SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5316611",
+      "latestPart": "false",
+      "partDesc": "COVER PLATE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/cm/508_cm0901600_05",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "CM9016-05",
+ "optionNumber": "CM9016-05",
+ "buildCode": null
+}

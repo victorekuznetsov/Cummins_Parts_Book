@@ -1,0 +1,139 @@
+{
+ "componentHash": "700F2BC1553566B4772DE55CC68382C7B52229D6216C1CF5993F3C2C55828068200403D444AC6D6DA28875EA8CC0163D913EDB849263BFF76FB0753EA82CE4F3",
+ "esnType": "mbom",
+ "optionName": "Water Inlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/wi/508_wi0922600_02"
+  }
+ ],
+ "remarks": "Water Inlet Connection|structure Code: 02 Ebm|engine Family: B Series|inlet Connection Od (mm): 58.00|connection Type: Beaded|connection Orientation: 73 Degree Down|ocntains Mtg Pad For Ref Compressor: No|tensioner Mtg Provision: None|engine Design Phase: Current Product|alternator Mtg Provision: None|attachment For Alternator Brace: Yes|compatible W/front-Side Engine Mounts: Yes|unique Characteristics: The Connection Has A|3/4-14 Nptf|hole Towards Rear.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3008469",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3906697",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3973197",
+      "latestPart": "false",
+      "partDesc": "WATER INLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4991495",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 75",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "C8B4C08B9BD1F24C5CAD572B92CB8BDF51AAD9DEA033B99FDE8B23BE71194E684F8C1C56114E77D9B9B793658BA13BAC5B39D10A350B739569966DC2E6CD0999",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5316501",
+   "kitDesc": "Gasket Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/wi/508_wi0922600_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "508",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "WI9226-02",
+ "optionNumber": "WI9226-02"
+}

@@ -1,0 +1,175 @@
+{
+ "componentHash": "789BD0E9BD83BC5255E880B16D806A1D244018A44CE1A6C7DDEC63B7D982DDB0E0454601A4279724912BFFEAA7B4FE22E7351D5BA0983AEB0536DFB6C0BE093D",
+ "esnType": "mbom",
+ "optionName": "Alternator Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/eh/508_eh9751100_01"
+  }
+ ],
+ "remarks": "Alternator Drive|fan Drive Ratio: 1.10:1|fan Center (mm): 203.2|tensioner Position On Bracket: Low|tensioner Mounting Holes: Single Set|tensioner Pulley Type: Standard|water Pump Pulley Diameter (mm): 88.00|alt Pulley Vert From Crank C/l: Tbd|tensioner Mtg Location:|bracket On Cylinder Block|belt Supplier: Cummins|required Belt Length (mm): 1418.4|belt Tensioner Supplier: Cummins|damper Pulley Effective Diameter (mm): 173.76|alternator Pulley Effective Diameter (mm):|60.58|alternator Drive Ratio: 2.9|structure Code: 02 Ebm|engine Design Phase: Current Product|tall Tensioner Bracket: No|engine Family: B Series|alternator Manufacturer/model:|prestoliite 70amp|unique Characteristics: Includes Combined|belt Tensioner/ref. Compressor Belt|tensioner Bracket|belt Tensioner 5333477 May Be Used In Place|of 3937553",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3282081",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 75",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3288757",
+      "latestPart": "true",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900631",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3937553",
+      "latestPart": "true",
+      "partDesc": "BELT TENSIONER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4928957",
+      "latestPart": "false",
+      "partDesc": "FLAT HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 35",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4994009",
+      "latestPart": "false",
+      "partDesc": "BELT TENSIONER BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/eh/508_eh9751100_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EH97511-01",
+ "optionNumber": "EH97511-01"
+}

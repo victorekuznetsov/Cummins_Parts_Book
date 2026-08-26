@@ -1,0 +1,56 @@
+{
+ "componentHash": "8C90D5B0B0C76D16B6D9ACA888B70BCFFD278B1D8A141EB85113514F2D80BC8A3783B003FCA5268EE8F24D5575444C16C540CEB890671D4D7AE986D3797CFEA8",
+ "esnType": "mbom",
+ "optionName": "Throttle Lever",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Throttle Lever|restricted Fuel Pump Model: Weifu Ad/pw Pump,|byc Pb Pump|option Content: Bracket|oem Throttle Control Cable Fixation|location:|from Engine C/l(mm): 326|from Crank C/l(mm): 377|from Ffob(mm):  53|oem Shutoff Lever Control Cable|fixation Location:|from Engine C/l(mm): 326|from Crank C/l(mm): 346|from Ffob(mm): 56",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4932692",
+      "latestPart": "false",
+      "partDesc": "THROTTLE CONTROL BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "TL9129-01",
+ "optionNumber": "TL9129-01",
+ "buildCode": null
+}

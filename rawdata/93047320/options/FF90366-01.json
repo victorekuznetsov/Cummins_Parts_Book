@@ -1,0 +1,153 @@
+{
+ "componentHash": "3507C69C0AE8ECCEBD73DA18B921BDDF8BEE185BC6A986191CC44FC0B84CB5757D01BABBA8C52FB960E8ECE81FBA111FB92529A656DB2BEC343362F1954C1E3C",
+ "esnType": "mbom",
+ "optionName": "Fuel Filter Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ff/508_ff9036600_01"
+  }
+ ],
+ "remarks": "Fuel Filter Plumbing|engine Family: B Series|cylinders: 6|structure Code: 02 Ebm|pump Mfg/model: A Pump|governor Type: Full Control|filter Location: Front Of Cylinder Head|injection Pump Supply Line Material: Steel",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3905860",
+      "latestPart": "false",
+      "partDesc": "BANJO CONNECTOR SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3911446",
+        "latestPart": "false",
+        "partDesc": "BANJO CONNECTOR SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M12 X 1.5 X 24",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3939570",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE WASHER CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "M6 X 1 X 10",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3960541",
+      "latestPart": "false",
+      "partDesc": "FUEL SUPPLY TUBE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3963983",
+      "latestPart": "true",
+      "partDesc": "SEALING WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ff/508_ff9036600_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FF90366-01",
+ "optionNumber": "FF90366-01",
+ "buildCode": null
+}

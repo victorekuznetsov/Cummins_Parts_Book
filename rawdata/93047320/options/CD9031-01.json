@@ -1,0 +1,60 @@
+{
+ "componentHash": "80645F286D8637D11561C92D4EE990925D9F5FF1B5009EDB4A46D0CBB4E98F51D2127267A96AB1225CEDAD41F7A505B9D5E2E99A6A7D05D5111228A2AC334BD8",
+ "esnType": "mbom",
+ "optionName": "Compressor Air Discharge Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/cd/508_cd0903100_01"
+  }
+ ],
+ "remarks": "Cpr Air Discharge Plumbing|engine Family: B Series|structure Code: 02 Ebm|engine Design Phase: Current Product|plumbing Supplier: Customer|discharge Connection Type:|straight|discharge Connection Customer Interface:|m20x1.5|discharge Connection Cpr Interface:|1/2-14 Nptf",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4931171",
+      "latestPart": "false",
+      "partDesc": "MALE CONNECTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/cd/508_cd0903100_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "CD9031-01",
+ "optionNumber": "CD9031-01"
+}

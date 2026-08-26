@@ -1,0 +1,106 @@
+{
+ "componentHash": "19A0AE73B86D49D07EDFEFC042F734BD79271C15293034EC4E8A3B233E529715DE28BE1285516BABE1210C53AB9075B357C734CD0E7F742ECC36CE10101A924D",
+ "esnType": "mbom",
+ "optionName": "Vibration Damper",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/da/508_da0920800_01"
+  }
+ ],
+ "remarks": "Vibration Damper|engine Family: B Series|damper Pulley Effective Diameter (mm): 173.76|damper Diameter (mm): 209.00|damper Rpm Limitation: 2650 And Below|damper Type: Rubber|pulley Type: Cast 8 Groove|addl. Pulley Loc From Ffob (mm): 94.4|front Pto Provision: Yes|tach Pick-Up Provision: No|high Inertia Damper: No|structure Code: 02 Ebm|additional Pulley Provision:|pto 4 Hole 78mm Dia. Bc, 100mm Pto",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3903857",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.25 X 36",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3958258",
+      "latestPart": "true",
+      "partDesc": "TUNED VIBRATION DAMPER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5265057",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT FLANGE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/da/508_da0920800_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DA9208-01",
+ "optionNumber": "DA9208-01"
+}

@@ -1,0 +1,56 @@
+{
+ "componentHash": "D21D10CBEA90F16C13DE4F5103AA4D2912FCD2A4B9912EDE4D73EAF924E694B95A9E266523DADDE8C90A743C7616BFD53570748B3AAFC4323237B1F536489A53",
+ "esnType": "mbom",
+ "optionName": "Thermostat",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Thermostat|degree C Thermostat Opens: 82 Deg C|engine Design Phase: Current Product|# Of Thermostats: 1|thermostat Type: Jiggle-Pin|vented Non-Vented: Vented|requires By-Pass Housing: No|engine Family: B Series|required Housing Bore Dia. (mm): 54.10|structure Code: 02 Ebm|low Gain Thermostat: No|thermostat Seat Type: Hard",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4930315",
+      "latestPart": "false",
+      "partDesc": "THERMOSTAT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EC9052-01",
+ "optionNumber": "EC9052-01"
+}

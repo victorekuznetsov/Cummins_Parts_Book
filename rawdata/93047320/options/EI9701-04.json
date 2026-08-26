@@ -1,0 +1,83 @@
+{
+ "componentHash": "1FD54CA68F9ED8F98051EFCF0C1430D2ECB1100A34E0263B91B3262B8FA8D2C0A6C3FB62C83E9FA53716F31F568104DE73852E370811A6CF6F65C3834CA7FCA4",
+ "esnType": "mbom",
+ "optionName": "Mechanical Tachometer Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ei/508_ei0970100_04"
+  }
+ ],
+ "remarks": "Mechanical Tach Drive Cover|mechanical Tach Drive Provision: No|structure Code: 02 Ebm|oil Fill Location:|fuel Pump Side|exhaust Side|valve Cover|none|engine Family:|c Series|b Series|*bzl May Use P/n 3968355 In Place Of 3903463",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3903463",
+      "latestPart": "false",
+      "partDesc": "ACCESS HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903475",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ei/508_ei0970100_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "EI9701-04",
+ "optionNumber": "EI9701-04",
+ "buildCode": null
+}

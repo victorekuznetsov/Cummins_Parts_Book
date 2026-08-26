@@ -1,0 +1,60 @@
+{
+ "componentHash": "F23A64448010C45AFE5783C48C77720EB6C579516631F81AF1D86901F8F750D9ECCD4351C48254CD4028DCCE4844F21A79F0CFA8FB9DEE4E5663461CF844D051",
+ "esnType": "mbom",
+ "optionName": "Paint",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/ss/508_ss9006500_00"
+  }
+ ],
+ "remarks": "Paint|paint Color: Black|decal/logo Qty-Per Es 18,214: 1-Cummins|l: 27.2 0.5|a: 0.13 0.5|b: -0.69 0.5|gloss Level @ 60 Degrees: 80 Min|structure Code: 02 Ebm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3991084",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/ss/508_ss9006500_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "SS90065-00",
+ "optionNumber": "SS90065-00",
+ "buildCode": null
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "FB854A744BB135ABFFB1AE8F425E16A5298B6B9CFD109EC31CB7B0DB7491DFA9DF4CAE849DABE64B056728C82A8B4130D65A480B5946B2DA006AE854D110A910",
+ "esnType": "mbom",
+ "optionName": "Signal Generating Device",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/eo/508_eo0917600_01"
+  }
+ ],
+ "remarks": "Speed Sensor|structure Code: 02 Ebm|pick-Up Location: Flywheel|connection Type: Male Spade|sensor Type: Magnetic Pick-Up|tach Size: M18 X 1.5 - 6g|body Threaded: M18 X 1.5 - 6g|supply Method: Kit|this Option For Use By Dcec For Chinese|customers Only Until Sufficient Testing|is Compleyed To Move To P Phase Code.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3967252",
+      "latestPart": "false",
+      "partDesc": "ENGINE SPEED SENSOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/eo/508_eo0917600_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EO9176-01",
+ "optionNumber": "EO9176-01"
+}

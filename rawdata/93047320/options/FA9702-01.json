@@ -1,0 +1,60 @@
+{
+ "componentHash": "52BD8D27DD5C8543473B12DCD609C5802311D37B38308C0875F66CA3B87DCECAAD147768448B34CDC751F9D777897AF0EDABA0F5287EA422179AD419A3ECCE0C",
+ "esnType": "mbom",
+ "optionName": "Fan Drive Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/fa/508_fa0970200_01"
+  }
+ ],
+ "remarks": "Fan Drive Mounting|required Bolt Circle (mm): 50|installation Responsibility: Customer|fastener Length (mm): 20|spacer Type: Clamping Plate|engine Family:|b Series",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3900630",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 20",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/508/fa/508_fa0970200_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "508",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FA9702-01",
+ "optionNumber": "FA9702-01",
+ "buildCode": null
+}

@@ -1,0 +1,3421 @@
+{
+ "partNo": "3917777",
+ "partDesc": "tube brace",
+ "supersession": [
+  {
+   "partNo": "3917777",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "077- SUPERSEDED",
+   "partSscDesc": "SUPERSEDED",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "N",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "2"
+  },
+  {
+   "partNo": "3282942",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "070- CURRENT SALABLE",
+   "partSscDesc": "CURRENT SALABLE",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "Y",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "1"
+  }
+ ],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "6654668",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6410232",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3281542",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3354914",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3354918",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3282627",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3282840",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3353762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3281543",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3280980",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3281920",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3282745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3281713",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5529395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5529396",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5295477",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5298289",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5298290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5298308",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5298309",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5314260",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5314261",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4946508",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "4946509",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5481144",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5481145",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909209",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3907810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910101",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909679",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909958",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909959",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910009",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910010",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909213",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3904441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3907320",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3907312",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3897838",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3802453",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,fuel pump conv."
+  },
+  {
+   "item": "3920045",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920231",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920288",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918694",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918695",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918711",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918750",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918697",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3917744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3917745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3917739",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3917738",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918513",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918698",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3918514",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3916416",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3915774",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3915555",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3916757",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3916770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3916771",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3911371",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3911372",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3915029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3914820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3915028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3914040",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3914060",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3913760",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3914039",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3916494",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909221",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909225",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910970",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910519",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910525",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910100",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3910099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3908487",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3908486",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909205",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929190",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929308",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929461",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3928558",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3928721",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929189",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3927889",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3927890",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3927900",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3927744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929309",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926449",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926432",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926673",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926674",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925130",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925342",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926387",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926433",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925960",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3926448",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925143",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925129",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924735",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925324",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925341",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3925144",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924421",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924094",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924420",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3923601",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3923993",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920675",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3921013",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3922607",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3922620",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3922621",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3922056",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3922419",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3924080",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920676",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920435",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920436",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3921280",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920218",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3920046",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "4080761",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "4080762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3960650",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3960651",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3943290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3943291",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942711",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942710",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942695",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3943070",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941604",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941510",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3943071",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942177",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942243",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942494",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942280",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942281",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941603",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3940836",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941078",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941276",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941683",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941684",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942242",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3942176",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941245",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941246",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941405",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941406",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3940522",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3941509",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3940575",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3940575",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3940576",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3932151",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3933503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3931842",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3931843",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3932008",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3932499",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3931355",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3930441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3932392",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3932161",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929188",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3930388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3930389",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3930390",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3931400",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3929460",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "5623887",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT9955",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "D402012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403041MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT9734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9814",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9805",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9792",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9791",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9830",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9241",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "EG9123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine instrument panel"
+  },
+  {
+   "item": "FT9555",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT9724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9381",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9419",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9352",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9347",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9262",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9259",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9260",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9326",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9317",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9258",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9254",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9252",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9101",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9953",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9961",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9960",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9959",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9958",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9934",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9941",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9948",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9946",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9926",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9937",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9836",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9816",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9827",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9826",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9809",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9861",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9864",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9852",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9829",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9896",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9881",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9887",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9886",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9885",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9873",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9875",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9780",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9784",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9988",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9965",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FV9074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel shutoff valve"
+  },
+  {
+   "item": "FT97514",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97511",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97641",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97627",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97631",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97626",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97209",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97478",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97444",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97442",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97443",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT97124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "PP97160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "FT9867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9869",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9870",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9936",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9915",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9920",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9919",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9917",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9923",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9907",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9914",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9911",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9918",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9895",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9900",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9906",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9905",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9891",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9893",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9892",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9898",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9963",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9962",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9970",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9969",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9968",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9967",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9957",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9955",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "PP98698",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP97161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97214",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP90424",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP91374",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP92169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP92174",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP92556",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP92560",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP93144",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP93530",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP80195",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP97404",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97403",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97369",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97368",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97361",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97360",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97358",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97357",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97402",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97401",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97340",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97356",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97355",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97351",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97349",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97348",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97321",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97320",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97319",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97347",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97212",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97278",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97234",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP98268",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP97400",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97371",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP97370",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "XM9020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "exhaust manifold"
+  },
+  {
+   "item": "PP98799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP98536",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "FT97027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT97008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9966",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9972",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9971",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9977",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT9976",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "3903526",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3903491",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3909559",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3906225",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "injector fuel supply tube"
+  },
+  {
+   "item": "3355999",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "bosch fuel pump kit"
+  },
+  {
+   "item": "3280145",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump conversion kit"
+  },
+  {
+   "item": "3356011",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "bosch fuel pump kit"
+  },
+  {
+   "item": "D0Q3003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383032CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3099CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D381024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382043CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D382075GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403088CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403072BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403076GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403068CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403116GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403105BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403091GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383047CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401021PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401015MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401009BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401006GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383072CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383074GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D383055CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413056BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413049BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413052CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413041BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413069MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413062BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413058GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563014MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563015GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412054CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413018FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413019BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413032CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413028BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403092GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403097BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402007GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402011MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401093MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401059BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401052MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D401047CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402032TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402026MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402022PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402013MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402016FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402078GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402056CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402071CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402049DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402051MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403083BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412004GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412002CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411048CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D411012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412043BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412015PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412006BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D412010MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413009MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402086GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402087MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402101CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D402081BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403028MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403025BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403023PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403018FX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403020BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403041MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403033BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403036CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403054BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403055BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403046CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403050DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403053BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403042CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403084BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".2 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".1 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

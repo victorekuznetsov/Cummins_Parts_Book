@@ -1,0 +1,79 @@
+{
+ "componentHash": "3D8BE2C51D7B203B12058A397EE4FFB8A6267095406E2A9EC7C7063C7B312A9D0F47BF083AEBAEC314EC02895401F8363AAF8453CE55A8C4AD116A9B4E5B7D16",
+ "esnType": "mbom",
+ "optionName": "Shipping Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Shipping Skid|skid Disposition: Nonreturnable|skid Material: Wood|engine Cylinders: 6|engine Family: B Series|restricted Engine Application:|marine|gen-Drive|construction|automotive|plastic Bag Required",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4942379",
+      "latestPart": "false",
+      "partDesc": "SHIPPING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": null,
+      "latestPart": "false",
+      "partDesc": null,
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SS9621-02",
+ "optionNumber": "SS9621-02"
+}

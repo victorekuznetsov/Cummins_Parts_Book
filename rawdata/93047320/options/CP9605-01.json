@@ -1,0 +1,60 @@
+{
+ "componentHash": "2984F653C5E5907D8A11F62C0B443E9E0210203641A73A6BA4FF1282506DE395DA9C2117EC8D1DDCB514AE3C95E4F9937FC5733CC7C1D57920197D9D12AC7C9B",
+ "esnType": "mbom",
+ "optionName": "Air Compressor Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/508/cp/508_cp0960500_01"
+  }
+ ],
+ "remarks": "Air Compressor Cover|item Supplied: Cover Plate|cpr Manufacturer/model: Langfang Meilian|engine Family: B Series|structure Code: 02 Ebm|rear Drive Air Compressor Cover Plate|mount Flange: Nonstandard(the Diameter Of|circle Two Mounting Holes Distributed Is|109mm)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4939056",
+      "latestPart": "false",
+      "partDesc": "AIR COMPRESSOR COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "508",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/508/cp/508_cp0960500_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "CP9605-01",
+ "optionNumber": "CP9605-01"
+}

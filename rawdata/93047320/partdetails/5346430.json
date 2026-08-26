@@ -1,0 +1,84 @@
+{
+ "partNo": "5346430",
+ "partDesc": "lubricating oil pump",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [],
+ "objectFile": [
+  {
+   "fileName": "/534/5346430/5346430.obj"
+  },
+  {
+   "fileName": "/534/5346430/5346430.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/534/5346430/5346430_front.png"
+  },
+  {
+   "fileName": "/534/5346430/5346430_iso.png"
+  },
+  {
+   "fileName": "/534/5346430/5346430_iso2.png"
+  },
+  {
+   "fileName": "/534/5346430/5346430_right.png"
+  },
+  {
+   "fileName": "/534/5346430/5346430_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "2.062 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "11 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "15 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
