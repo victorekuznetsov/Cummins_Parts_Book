@@ -1,0 +1,60 @@
+{
+ "componentHash": "9679FDE84E4570DEAE14010BF8BE4D1250CF69963D414300CC6499F1CAA45FBDD45834047025857ECBBD6011FD71B696F2F5DD553C0D8CA7856F402C5DEFC439",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/sm/082_sm0270300_08"
+  }
+ ],
+ "remarks": "Starter Motor Mounting (dependent)|starting Motor Mounting Screws: Metric|clutch Type Provision: Dry",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4907093",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 2 X 45",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/sm/082_sm0270300_08",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SM2703-08",
+ "optionNumber": "SM2703-08"
+}

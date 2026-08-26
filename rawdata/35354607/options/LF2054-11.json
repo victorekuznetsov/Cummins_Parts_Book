@@ -1,0 +1,83 @@
+{
+ "componentHash": "5C9780C5506A50DD75E41F3C47D375095B5F0542EC132FD9A10BA9B6DB9DB44ED64CF40FD26B1E271927733B8EEBFE09399E60BA38EFC65E7BED6D9BA444F04A",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/lf/082_lf0205400_11"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|oil Filter Location: Direct To Filter Head|oil Filter Supplier: Cummins|engine Position: Vertical Standard|oil Filter Type: Combination Full Flow/bypass|decal Provided: Cummins Filtration|filter Model: Lf14001nn|filter Length: 299.5 Mm (11.79 In)|filter Removal Clearance: 48.4 Mm (1.91 In)|oil Filter Thread Size: M95 X 2.5|oil Flow Control Thrm Opening Temp (deg F):|225|heater Housing Compatible: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4367100",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4367101",
+      "latestPart": "false",
+      "partDesc": "INFORMATION DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/082/lf/082_lf0205400_11",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LF2054-11",
+ "optionNumber": "LF2054-11"
+}

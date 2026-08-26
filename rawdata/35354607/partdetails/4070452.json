@@ -1,0 +1,157 @@
+{
+ "partNo": "4070452",
+ "partDesc": "clamping plate",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "DA2120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "DA2110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353017GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353022BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353025MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353026GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/407/4070452/4070452.obj"
+  },
+  {
+   "fileName": "/407/4070452/4070452.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/407/4070452/4070452_front.png"
+  },
+  {
+   "fileName": "/407/4070452/4070452_iso.png"
+  },
+  {
+   "fileName": "/407/4070452/4070452_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "5.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "2.64 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4.3 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

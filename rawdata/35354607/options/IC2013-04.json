@@ -1,0 +1,106 @@
+{
+ "componentHash": "35A840DCB469ABD429C19285C5B53EE53FEC815B2C72DEA8F819E6E01F77323A40FB8F99AC4722AFF8A91BA98ADD554338F82D8B7B2D6DB04FFF16CBEDE24701",
+ "esnType": "mbom",
+ "optionName": "Air Intake Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ic/082_ic0201300_04"
+  }
+ ],
+ "remarks": "Air Intake Connection|intake Manifold Air Connection Type:|90 Degree Elbow|intake Manifold Air Connection O.d.:|101.5 Mm (4 In)|air Inlet Connection Location: Top|air Inlet Connection Supplier: Cummins|orientation: Toward Front Over Engine|engine Aspiration: Charged Air Cooled",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3070100",
+      "latestPart": "false",
+      "partDesc": "CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3883122",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 35",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3893683",
+      "latestPart": "false",
+      "partDesc": "AIR INTAKE CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ic/082_ic0201300_04",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "IC2013-04",
+ "optionNumber": "IC2013-04",
+ "buildCode": null
+}

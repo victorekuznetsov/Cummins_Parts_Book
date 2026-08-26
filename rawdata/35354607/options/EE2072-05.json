@@ -1,0 +1,60 @@
+{
+ "componentHash": "80BA0D03B1878718B1F4E0A6B27C02A14495346A828004FEF54AAD4AFBE50175CB4DD5FE962FE7FDA8E41511F2265106D9F09DA139E30EFB89AF0FFBD3A4C2C6",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ee/082_ee0207200_05"
+  }
+ ],
+ "remarks": "Alternator|quantity: One|manufacturer/model/type: Delco Remy 24 Si-375|volts: 24|amps: 70|alternator Grounding Provision:|frame Ground Only|sealing Provision: No|ground Wire Supplier: Customer|alternator Total Length: 234 Mm (9.21 In)|charging System: 1 Wire|battery Terminal: 5/16|d, R, Or P Terminal:|packard Metripack Terminal|i Or L Terminal: Packard Metripack Terminal|cummins Branded: Yes|alternator Mounting Style: 4 Inch Double Lug|alternator Cooling: Dual Internal Fan|voltage Regulator: Built In",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5282841",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ee/082_ee0207200_05",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "EE2072-05",
+ "optionNumber": "EE2072-05",
+ "buildCode": null
+}

@@ -1,0 +1,895 @@
+{
+ "partNo": "3401202",
+ "partDesc": "ball bearing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3103904",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "3681415",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "3400884",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "4070305",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "4022855",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "3963903",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "4022829",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "5264936",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "5264935",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "4920436",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "5267585",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "4023019",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "4083093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "4004909",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "3286093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "3104416",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "3099428",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler pulley"
+  },
+  {
+   "item": "3102992",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner bracket"
+  },
+  {
+   "item": "CF9150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9369",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9283",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9277",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9356",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "BB1911",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "CF9272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9244",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "EH2358",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH2244",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH5052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH2185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2182",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2200",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2196",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2188",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2264",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA2313",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2250",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "EH2127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "WP9071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump drive"
+  },
+  {
+   "item": "WP9550",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump drive"
+  },
+  {
+   "item": "WP97561",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump drive"
+  },
+  {
+   "item": "EH2968",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EH2167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH1085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2175",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "WP97369",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner"
+  },
+  {
+   "item": "EH2192",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2181",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "WP97609",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump drive"
+  },
+  {
+   "item": "WP97874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump drive"
+  },
+  {
+   "item": "EH2174",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2171",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "EH2242",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "alternator mounting"
+  },
+  {
+   "item": "WP97818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner"
+  },
+  {
+   "item": "D403046CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563020BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563021BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF9272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF9265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF2051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF2040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "CF2018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor mounting"
+  },
+  {
+   "item": "CF2022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor mounting"
+  },
+  {
+   "item": "CF2024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor mounting"
+  },
+  {
+   "item": "D093669CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093677GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103005BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353017GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF2009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor mounting"
+  },
+  {
+   "item": "CF9369",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "D313013CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313033CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313048CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D313001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2J3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF9356",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF9277",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "D353022BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353026GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353025MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF9283",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor"
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CF2010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor mounting"
+  },
+  {
+   "item": "3800964",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner kit"
+  },
+  {
+   "item": "3800963",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "belt tensioner kit"
+  },
+  {
+   "item": "4022852",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "refrigerant compressor drive kit"
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353026GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353022BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353018CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0K3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Q3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353007BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D433003BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563021BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563020BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563003BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/340/3401202/3401202.obj"
+  },
+  {
+   "fileName": "/340/3401202/3401202.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/340/3401202/3401202_iso2.png"
+  },
+  {
+   "fileName": "/340/3401202/3401202_iso.png"
+  },
+  {
+   "fileName": "/340/3401202/3401202_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "01T13-2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "2.75 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".485 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "2.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

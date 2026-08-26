@@ -1,0 +1,176 @@
+{
+ "componentHash": "1E806031FEC4A63C50A6248A741E0BF84D2E2AC16EBFC39B6B34F761DD50F56BA0806ACC8CFFD4EE31581DAC9646AEF68537EC280C0E532570E7BAF801B8BBCF",
+ "esnType": "mbom",
+ "optionName": "Oil Cooler Water Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/wh/082_wh0270300_04"
+  }
+ ],
+ "remarks": "Oil Cooler Water Plumbing|crn Resistor Mtg Location:|right Rear On Water Header Plate|cab Heater Plmb Provision:|3/4 In.nptf Provision On Right Rear|of Water Header Plate|1/2 In.nptf Provision On Right Front|of Water Header Plate|heat Shield Mtg Provision: None|crn Rstr Water Port Type: 1/8 In. Npt|egr Engine: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3818060",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 25",
+      "qty": "18",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4083006",
+      "latestPart": "false",
+      "partDesc": "WATER HEADER COVER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4985550",
+      "latestPart": "false",
+      "partDesc": "WATER HEADER COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3008468",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 NPT",
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3008469",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/4 NPT",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4985551",
+        "latestPart": "false",
+        "partDesc": "WATER HEADER COVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/wh/082_wh0270300_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "WH2703-04",
+ "optionNumber": "WH2703-04",
+ "buildCode": null
+}

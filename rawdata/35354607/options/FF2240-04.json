@@ -1,0 +1,199 @@
+{
+ "componentHash": "0927A52E9B04C774F7895552ACBC7AF113969A03DB2236689A80DD307C09773C18990A226EE1D0992E0A149B6C7BE39FE0FD386F2653083053C94F0CAE45C765",
+ "esnType": "mbom",
+ "optionName": "Fuel Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ff/082_ff0224000_04"
+  }
+ ],
+ "remarks": "Fuel Filter|water In Fuel Sensor Included: No|fuel Filter Supplier: Cummins|fuel Pump Type: Celect|fuel Filter Location: Supplied In Kit|element Type: Dual Spin-On|water Separator Provision: Yes|drain Provision: Yes|check Valve: No|filter Inlet Fitting: 90 Degree Elbow|pump Inlet Fitting: Straight|heater Element: No|decal: Fleetguard|remote Filter Plumbing: 20 Inch Hose Kitted|fuel Plumbing Routing: Pressure Side|filtration Measurement (microns): 10|filter Model: Fs1000|pump Inlet Diagnostic Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "129859",
+      "latestPart": "false",
+      "partDesc": "MALE UNION ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "212013",
+      "latestPart": "false",
+      "partDesc": "FUEL FILTER HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3329289",
+      "latestPart": "false",
+      "partDesc": "FUEL WATER SEPARATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "255622",
+        "latestPart": "false",
+        "partDesc": "RECTANGULAR RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3329290",
+      "latestPart": "false",
+      "partDesc": "INFORMATION DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "AX10020SL",
+      "latestPart": "false",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S112",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 INCH",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ff/082_ff0224000_04",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FF2240-04",
+ "optionNumber": "FF2240-04"
+}

@@ -1,0 +1,391 @@
+{
+ "partNo": "4059821",
+ "partDesc": "clip",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "2864508",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "3411481",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "2864510",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "2864514",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "4083250",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "4059814",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "4059810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "4952750",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4952744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4952746",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "wiring harness"
+  },
+  {
+   "item": "4974441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "PH2855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "WR2725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR1039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR1042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2825",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2802",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2750",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR2735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "D353022BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353026GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093628BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093634CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093627BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093643BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/405/4059821/4059821.obj"
+  },
+  {
+   "fileName": "/405/4059821/4059821.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/405/4059821/4059821_iso2.png"
+  },
+  {
+   "fileName": "/405/4059821/4059821_iso.png"
+  },
+  {
+   "fileName": "/405/4059821/4059821_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "2.45 In"
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".05 Lbs"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "2.15 In"
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".65 In"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

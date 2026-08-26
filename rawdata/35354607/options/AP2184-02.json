@@ -1,0 +1,79 @@
+{
+ "componentHash": "89B42302449F489BE55603079F8FCC43DD22E94790E5FDD6F046B9F49D0A8C171A4D7EB7112FDF85934654727C8CF6FC25AC07FE9F5E00D90FABE3C77DD1A8A7",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Agency Approval|certified By: None|application: Nonroad|cert Level: None|special Allowance: Na|cert Agent: None|comment: Na|fuel Type: Diesel|cert Level2:|certified By2:|this Engine Is For Export Only|em-Exp Engine Not For Use In Eu Non-Road|machinery Unless Placed On The Market|before 1 January 19|variant Content For Dcm Only Use 4393508 In|place Of 5571340",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3882893",
+      "latestPart": "false",
+      "partDesc": "TAPE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4299024",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "AP2184-02",
+ "optionNumber": "AP2184-02",
+ "buildCode": null
+}

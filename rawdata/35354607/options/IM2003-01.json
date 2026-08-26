@@ -1,0 +1,60 @@
+{
+ "componentHash": "04BB91813175E141846CB5BDA5C44B2FF744179FACCFF1E5F51D69D0E1E04F672AEC1B4EA608B8F5836FD8A79110F87588DD4E6CA23EC009AAD8C4C3D14FD9F6",
+ "esnType": "mbom",
+ "optionName": "Air Intake Manifold",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/im/082_im0200300_01"
+  }
+ ],
+ "remarks": "Air Intake Manifold|int Manifold Air Inlet Location: Top|int Boost Sensor Mtg Loc: Rear|intake Manifold Mounting Inc:|in Imm Dependent Option",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3328994",
+      "latestPart": "false",
+      "partDesc": "AIR INTAKE MANIFOLD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/im/082_im0200300_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "IM2003-01",
+ "optionNumber": "IM2003-01"
+}

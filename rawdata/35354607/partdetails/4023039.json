@@ -1,0 +1,154 @@
+{
+ "partNo": "4023039",
+ "partDesc": "fan hub",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FA2273",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2296",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2313",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2248",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA2274",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353025MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353026GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/402/4023039/4023039.obj"
+  },
+  {
+   "fileName": "/402/4023039/4023039.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/402/4023039/4023039_iso2.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_back.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_iso.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_left.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_top.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_right.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_front.png"
+  },
+  {
+   "fileName": "/402/4023039/4023039_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "13.38 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "24 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "13.38 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,175 @@
+{
+ "partNo": "4299030",
+ "partDesc": "water pump",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WP2705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "D353009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353008BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353017GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353018CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353007BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/429/4299030/4299030.obj"
+  },
+  {
+   "fileName": "/429/4299030/4299030.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/429/4299030/4299030_top.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_iso_mkt.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_right.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_front.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_iso.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_bottom.png"
+  },
+  {
+   "fileName": "/429/4299030/4299030_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "35 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "12.262 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "28 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "28 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

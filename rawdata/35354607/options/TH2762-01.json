@@ -1,0 +1,60 @@
+{
+ "componentHash": "FA7F99614AA68E9E38E2DF664BA58FE9A717F48B8F5CA887847BC1664F1E2D308F679BB7D0D5A7481491F85CCF8012728913D082DE3F0B0340925200B5AD0B8C",
+ "esnType": "mbom",
+ "optionName": "Thermostat Housing Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/th/082_th0276200_01"
+  }
+ ],
+ "remarks": "Thm Housing Plumbing|thrm Spt Top Front Wtr Port: 3/8 Nptf Plugged|thrm Spt Bottom Front Wtr Port:|9/16-18 Unf Open|this Option First Released For The Defender.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3013786",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/th/082_th0276200_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "TH2762-01",
+ "optionNumber": "TH2762-01",
+ "buildCode": null
+}

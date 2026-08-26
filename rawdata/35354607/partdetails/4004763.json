@@ -1,0 +1,259 @@
+{
+ "partNo": "4004763",
+ "partDesc": "plain hose",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "BR2729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR2752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR2719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather plumbing"
+  },
+  {
+   "item": "BR4100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BP4072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "D353005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353019BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193100CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353018CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483010GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/400/4004763/4004763.obj"
+  },
+  {
+   "fileName": "/400/4004763/4004763.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/400/4004763/4004763_iso_mkt.png"
+  },
+  {
+   "fileName": "/400/4004763/4004763_front.png"
+  },
+  {
+   "fileName": "/400/4004763/4004763_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "52 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.19 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "1.05 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.05 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

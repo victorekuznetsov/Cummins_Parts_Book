@@ -1,0 +1,60 @@
+{
+ "componentHash": "8C9C0E231D809FBED6C1EAFF0E05BBC67E9F5732AF542CF90DB40BFE4A363F45033C9F932D26C145CAC76EA22ECDC1DB6D5FAEC54646EC78B5342B0416249680",
+ "esnType": "mbom",
+ "optionName": "Nameplate",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/nn/082_nn0271300_01"
+  }
+ ],
+ "remarks": "Nameplate|logo: Qsm11",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4059842",
+      "latestPart": "false",
+      "partDesc": "NAMEPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/nn/082_nn0271300_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "NN2713-01",
+ "optionNumber": "NN2713-01",
+ "buildCode": null
+}

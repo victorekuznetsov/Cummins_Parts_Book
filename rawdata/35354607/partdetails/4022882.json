@@ -1,0 +1,258 @@
+{
+ "partNo": "4022882",
+ "partDesc": "studded hexagon cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "CP1171",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1181",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1180",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "CP1177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "LA2102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting arrangement"
+  },
+  {
+   "item": "IM2711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold mounting"
+  },
+  {
+   "item": "TB2752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold mounting"
+  },
+  {
+   "item": "TB2732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold mounting"
+  },
+  {
+   "item": "LA2093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting arrangement"
+  },
+  {
+   "item": "IM2711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold mounting"
+  },
+  {
+   "item": "IM2701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold mounting"
+  },
+  {
+   "item": "IM2701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold mounting"
+  },
+  {
+   "item": "IM2709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold mounting"
+  },
+  {
+   "item": "D333001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353029BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103004BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353024BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353027BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103006BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103005BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/402/4022882/4022882.obj"
+  },
+  {
+   "fileName": "/402/4022882/4022882.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/402/4022882/4022882_top.png"
+  },
+  {
+   "fileName": "/402/4022882/4022882_front.png"
+  },
+  {
+   "fileName": "/402/4022882/4022882_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "M10 X 1.5 X 58 : M8 X 1.25 X 20"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.3 In"
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".1 Lbs"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": ".9 In"
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".88 In"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
