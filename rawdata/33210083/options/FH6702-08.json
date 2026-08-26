@@ -1,0 +1,107 @@
+{
+ "componentHash": "C526E3E3DD550E7D301237C25435EBE7D954ECBE223914C085181B4A5290FD4EAA872A0577B349701FECE18D0B29DED7686CDBB0D741D258798B681C529A51CD",
+ "esnType": "mbom",
+ "optionName": "Flywheel Housing Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fh/075_fh0670200_08"
+  }
+ ],
+ "remarks": "Flywheel Housing Plumbing|engine Family: D58, D59, D77, D84, D86|industrial Application:|m22 Port Quantity: 7|m22 Ports Plugged: 4|provision For Turbo Oil Supply: Yes|m14 Port Quantity: 2|m14 Ports Plugged: 0|provision For Oil Prs Sensor: Yes|provision For Prelube Prs Sens: Yes|power Gen Applications:|m22 Port Quantity: 7|m22 Ports Plugged: 4|provision For Turbo Oil Supply: Yes|m14 Port Quantity: 2|m14 Ports Plugged: 0|provision For Oil Prs Sensor: Yes|provision For Prelube Prs Sens: No|marine Applications:|m22 Port Quantity: 7|m22 Ports Plugged: 4|provision For Turbo Oil Supply: Yes|m14 Port Quantity: 2|m14 Ports Plugged: 0|provision For Oil Prs Sensor: Yes|provision For Prelube Prs Sens: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3089238",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3089239",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3089240",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/fh/075_fh0670200_08",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "075",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FH6702-08",
+ "optionNumber": "FH6702-08"
+}

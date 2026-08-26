@@ -1,0 +1,106 @@
+{
+ "componentHash": "A0B62C2D2151BE036E9EB98CD77702493FB9718D8FFD3B63B3F4C0A2CB2D14741357E4B6A1430FC7586F8CEF560A6CD972F39D658557480522FFFE06990AA2CE",
+ "esnType": "mbom",
+ "optionName": "Gear Cover Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/gg/075_gg0681900_01"
+  }
+ ],
+ "remarks": "Gear Cover Mounting|engine Family: D58, D59|ref Comp Bracket Mtg Provision: No|alternator Bracket Mtg Provision: Yes|alternator Mounting Type: 4 Bolt Pattern|fan Idler Bracket Mounting Provision: Yes|fan Centers (mm):|700 (27.61 In), 550 (21.65 In)|shock Absorber Provision: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3278480",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 70",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903210",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 x 1.75",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4017427",
+      "latestPart": "false",
+      "partDesc": "STUD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 40 : M12 X 1.75 X 40",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/075/gg/075_gg0681900_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "GG6819-01",
+ "optionNumber": "GG6819-01"
+}

@@ -1,0 +1,2164 @@
+[
+ {
+  "componentHash": "B4591EED5FFDD40A41B2C66BDE4BFA9F872DDBE6556734B404D2D46027EB10EB83C805F8F58AD27238F3B7DC70AACE6E6FA8E632CF1F85FCA066881A98C4B559",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "2881810",
+  "kitDesc": "Intake Valve",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "2881810",
+    "partDesc": "Intake Valve",
+    "systems": []
+   },
+   {
+    "partNo": "3641537",
+    "partDesc": "Valve Collet",
+    "systems": []
+   },
+   {
+    "partNo": "4334007",
+    "partDesc": "Intake Valve",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "69B89235EB7B66406715C379CABDE2EEED54DD9F2D4D33FD759FAB71A86DF86AF699D3E6E96FA897FAD3D6E3ABAF5EB2EABE7CD1A33E9E5EBF143BF8CD6B49DE",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "2881811",
+  "kitDesc": "Exhaust Valve",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "2881811",
+    "partDesc": "Exhaust Valve",
+    "systems": []
+   },
+   {
+    "partNo": "3641537",
+    "partDesc": "Valve Collet",
+    "systems": []
+   },
+   {
+    "partNo": "5542028",
+    "partDesc": "Exhaust Valve",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "B7BB19E4105B9F18C01992A1580599DEDA4FD89FC93AAFDC7B6075C29AB5D668B4B429CA36BE9FF0F987FCEA2CA1D70CFFB7EDDFB90DED16AD5C39CC96FE50C1",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "3631967",
+  "kitDesc": "Hydraulic Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "3631967",
+    "partDesc": "Hydraulic Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3393577",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3393578",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3393580",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3393581",
+    "partDesc": "Plain Washer",
+    "systems": []
+   },
+   {
+    "partNo": "3393582",
+    "partDesc": "Plain Washer",
+    "systems": []
+   },
+   {
+    "partNo": "3393583",
+    "partDesc": "Plain Washer",
+    "systems": []
+   },
+   {
+    "partNo": "3393584",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3631754",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3631755",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3631756",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3631757",
+    "partDesc": "Roll Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3631758",
+    "partDesc": "Compression Spring",
+    "systems": []
+   },
+   {
+    "partNo": "3631759",
+    "partDesc": "Roll Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3631760",
+    "partDesc": "Roll Pin",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "06247EA23D79FC5DB6867F427D65B1CD7ADCAF3330F1E3424F2E7F1D7FB6C503C46EBFA3704A39F9ABB4FA27D0EB3EF9B2535C755FD50002E63867E707F8C417",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "3633026",
+  "kitDesc": "Lubricating Oil Cooler Conversion Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "3633026",
+    "partDesc": "Lubricating Oil Cooler Conversion Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3393586",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3393587",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3633001",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4010887",
+    "partDesc": "Lubricating Oil Filter Element",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "6AF0D336A6926EB540237EDA3E485B4573438A986992D9F89B8B0929FE83B59F14C542F4858A6FC688F7359E2D63DAAE390AEB995B20126421ECAA77349E9BC5",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "3803284",
+  "kitDesc": "Water Pump Repair Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "3803284",
+    "partDesc": "Water Pump Repair Kit",
+    "systems": []
+   },
+   {
+    "partNo": "S16054",
+    "partDesc": "Ball Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "S16069",
+    "partDesc": "Ball Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "70183",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "206457",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3175573",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3634007",
+    "partDesc": "Water Pump Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3643960",
+    "partDesc": "Oil Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "D0334C2CEF65AB4FE8B2400D8ACB53ADF3A37389EA791DF0EE3CD96B67085B2187C36D2A6EA51518D340A3CD99488F3DB02BC823F2839317040AE90488B8977E",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4016428",
+  "kitDesc": "Centrifuge Cover Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4016428",
+    "partDesc": "Centrifuge Cover Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3065497",
+    "partDesc": "Hexagon Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3393586",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3633001",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3633002",
+    "partDesc": "Lubricating Oil Filter Cover",
+    "systems": []
+   },
+   {
+    "partNo": "3633004",
+    "partDesc": "Plain Washer",
+    "systems": []
+   },
+   {
+    "partNo": "4016423",
+    "partDesc": "Centrifuge Cover",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "E99F560F846F4CC5CCDD666019B4B6EE3C9D8FD7D3DED90A864035CF370B6D44767552F158349A2213A1E2397A6C3D2D0A7D6D2CA1852BFEB64D3EAE5370385E",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4024792",
+  "kitDesc": "Main Bearing Set",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4024792",
+    "partDesc": "Main Bearing Set",
+    "systems": []
+   },
+   {
+    "partNo": "3082340",
+    "partDesc": "Main (stud) Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "3082346",
+    "partDesc": "Main (stud) Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4007569",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "1694F2484F452380507986FC6346CCD9D6AC8208A946FA7A0376380007B39B511251308CE96F0FC1435D3EC00C1A27AFD1696477C6FF9994E648DAB185DC188D",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4024793",
+  "kitDesc": "Main Bearing Set",
+  "kitNotes": "0.25 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4024793",
+    "partDesc": "Main Bearing Set",
+    "systems": []
+   },
+   {
+    "partNo": "3082341",
+    "partDesc": "Bearing,main (010)",
+    "systems": []
+   },
+   {
+    "partNo": "3082347",
+    "partDesc": "Bearing,main (010)",
+    "systems": []
+   },
+   {
+    "partNo": "4007569",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "F33D05B9F921280D2E54FAD05DFEC54A8CD443259527DBC67A4AA1868077D28633E24561599873BC4D8D3673FBD027BD9D261F663F8D3F659AE4610D98629331",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4024794",
+  "kitDesc": "Main Bearing Set",
+  "kitNotes": "0.50 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4024794",
+    "partDesc": "Main Bearing Set",
+    "systems": []
+   },
+   {
+    "partNo": "3082342",
+    "partDesc": "Main (020) Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "3082348",
+    "partDesc": "Main (020) Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4007569",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "4B63A47A833115C2E11AF588A5F6FFFBC7AD47BBD005180CC56EBB0D3721875751CF10D8C379D7915738B9A858DADFBC0C36D384947BAF27E9DB857114D642FC",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4024795",
+  "kitDesc": "Main Bearing Set",
+  "kitNotes": "0.75 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4024795",
+    "partDesc": "Main Bearing Set",
+    "systems": []
+   },
+   {
+    "partNo": "3082343",
+    "partDesc": "Main Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "3082349",
+    "partDesc": "Bearing,main (030)",
+    "systems": []
+   },
+   {
+    "partNo": "4007569",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "F096ECB91503CEE49545DAAAF173D5893E74E6596D1534E1D9045CC8C8760E8687D72808F611E233BC0C279E925A9DD946B3A860BE5626A97C42D9ECFF4AE2F3",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4066547",
+  "kitDesc": "Lubricating Pump Idler Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4066547",
+    "partDesc": "Lubricating Pump Idler Kit",
+    "systems": []
+   },
+   {
+    "partNo": "2868820",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4016841",
+    "partDesc": "Stub Shaft Sub-Assembly",
+    "systems": []
+   },
+   {
+    "partNo": "4016945",
+    "partDesc": "Idler Gear Sub-Assembly",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "8212A850595209C13B3C56733525C2F04E99D7072AE7EA5275387975F27B46411482BB11A4B6799A479FD05F66FCAEFCDBEAD0171FF831BCCCE3F4E414C6BEC4",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089143",
+  "kitDesc": "Cylinder Liner Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4089143",
+    "partDesc": "Cylinder Liner Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4024810",
+    "partDesc": "Kit,pdc Prepack",
+    "systems": []
+   },
+   {
+    "partNo": "3014668",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3081489",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4017292",
+    "partDesc": "D Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4085917",
+    "partDesc": "Cylinder Liner",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "EF0C86F3C8BBF8B842FB87E5173D07D668D5130EDDA3CF686F6778743A0DE86FF5E0948CCF7833DADB58F2F5ADE090ADA4100A0865FEEFB4D519D71191633DD3",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089204",
+  "kitDesc": "Seal Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4089204",
+    "partDesc": "Seal Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3164462",
+    "partDesc": "Depth Gauge",
+    "systems": []
+   },
+   {
+    "partNo": "3646766",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "490D1224CF5308390B54192F90890577B004872EDCA11FDA7069637F41C1296778A3D633752F81B216F494062A7F034EBC6E196AE0C0493E9B759963A93BB53B",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089311",
+  "kitDesc": "Seal Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4089311",
+    "partDesc": "Seal Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3164462",
+    "partDesc": "Depth Gauge",
+    "systems": []
+   },
+   {
+    "partNo": "3646766",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4080343",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "9D916745BCEB947609154F29075A242A8CFBA378AA900CEEF29AC9DFAB3540E942B17C5B376B183F5AAF14878922432BA00166DFC274B5774E5A74B45B1D6E11",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089991",
+  "kitDesc": "Cylinder Liner Kit",
+  "kitNotes": "0.75 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4089991",
+    "partDesc": "Cylinder Liner Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4024810",
+    "partDesc": "Kit,pdc Prepack",
+    "systems": []
+   },
+   {
+    "partNo": "3014668",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3081489",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4017292",
+    "partDesc": "D Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3636998",
+    "partDesc": "Cylinder Liner",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "699BFB72F4A8DB8F79A52E3A6B80DCC3319B7E43783ECD1965C49869EC6FD58B679C34C6C0A5B38FA272AA962D3500BDC10731F174722FF5091362EECC88EA3D",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089992",
+  "kitDesc": "Cylinder Liner Kit",
+  "kitNotes": "0.50 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4089992",
+    "partDesc": "Cylinder Liner Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4024810",
+    "partDesc": "Kit,pdc Prepack",
+    "systems": []
+   },
+   {
+    "partNo": "3014668",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3081489",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4017292",
+    "partDesc": "D Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3636999",
+    "partDesc": "Cylinder Liner",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "4806977F37F916617C7A6E237B1EDA962742ACC9A181AA03C491A728F44ACD50949E8B98B9BCDCDC925DA3FC032BC763909AC05D67485399837B4FD8C1343801",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4089993",
+  "kitDesc": "Cylinder Liner Kit",
+  "kitNotes": "0.75 Mm Oversize\n",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "4089993",
+    "partDesc": "Cylinder Liner Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3637000",
+    "partDesc": "Cylinder Liner",
+    "systems": []
+   },
+   {
+    "partNo": "4024810",
+    "partDesc": "Kit,pdc Prepack",
+    "systems": []
+   },
+   {
+    "partNo": "3014668",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3081489",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4017292",
+    "partDesc": "D Ring Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "B96A1DDB1E0F3E2107E843C6F737725ACF4E87A5F10F839A22AA9571008CD56A98AD5DB0581B201B26BBFE3F2798CE7BD514AA3BC21B04EE19728A555C2BDAA5",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4090061",
+  "kitDesc": "Engine Harness Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4090061",
+    "partDesc": "Engine Harness Kit",
+    "systems": []
+   },
+   {
+    "partNo": "114307",
+    "partDesc": "Tube Brace",
+    "systems": []
+   },
+   {
+    "partNo": "3631471",
+    "partDesc": "O Ring Adapter",
+    "systems": []
+   },
+   {
+    "partNo": "3631472",
+    "partDesc": "Seal Retainer",
+    "systems": []
+   },
+   {
+    "partNo": "3631473",
+    "partDesc": "Cover Plate",
+    "systems": []
+   },
+   {
+    "partNo": "3635341",
+    "partDesc": "Air Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3637073",
+    "partDesc": "Electronic Control Module Wiring Harness",
+    "systems": []
+   },
+   {
+    "partNo": "3637074",
+    "partDesc": "Electronic Control Module Wiring Harness",
+    "systems": []
+   },
+   {
+    "partNo": "3639987",
+    "partDesc": "Flexible Hose",
+    "systems": []
+   },
+   {
+    "partNo": "3910901",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "4007901",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4086143",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4086561",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4086562",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4086563",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4086585",
+    "partDesc": "Male Adapter Elbow",
+    "systems": []
+   },
+   {
+    "partNo": "3075658",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089019",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4086581",
+    "partDesc": "Male Adapter Elbow",
+    "systems": []
+   },
+   {
+    "partNo": "4086753",
+    "partDesc": "Retaining Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "4100596",
+    "partDesc": "Crankcase Breather",
+    "systems": []
+   },
+   {
+    "partNo": "4100685",
+    "partDesc": "Hand Hole Cover",
+    "systems": []
+   },
+   {
+    "partNo": "4100718",
+    "partDesc": "Flexible Hose",
+    "systems": []
+   },
+   {
+    "partNo": "4100767",
+    "partDesc": "Breather Tube",
+    "systems": []
+   },
+   {
+    "partNo": "4101325",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "4101402",
+    "partDesc": "Breather Bracket",
+    "systems": []
+   },
+   {
+    "partNo": "4101403",
+    "partDesc": "Breather Bracket",
+    "systems": []
+   },
+   {
+    "partNo": "4101407",
+    "partDesc": "Flexible Hose",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "28273186EC0918F396C903F57DE6CBE4C4769E20AF2F4678B3814E3DD8B0F450ECAF59D5B3023C993DDC0A16000C6AD2D3853D53A331402F43D11D959B16BA9C",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4309253",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4309253",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3089251",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "4001416",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3645958",
+    "partDesc": "Engine Piston",
+    "systems": []
+   },
+   {
+    "partNo": "4309254",
+    "partDesc": "Piston Ring Set",
+    "systems": []
+   },
+   {
+    "partNo": "3647001",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3645611",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3090450",
+    "partDesc": "Oil Piston Ring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "E392D1F08E17D941B6BBD93F537A607CBBB10DBA56832F21EA23684A5DD23B2F2DE555C98AD966D0FB428F57D475F785751E122B27C6DF452E75CBF39F3DDB9C",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4352596",
+  "kitDesc": "Piston Ring Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4352596",
+    "partDesc": "Piston Ring Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3090450",
+    "partDesc": "Oil Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3645611",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "4100481",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "B44C7BE762DCAAB3300C6FB957FAC35BD3D1AAE4C593DE0905E62FD99434D3461EA235135FA513CDFB89DD6444668C976916F9B1F61337BAE9B36EEF196674C1",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4352597",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4352597",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3089251",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3645958",
+    "partDesc": "Engine Piston",
+    "systems": []
+   },
+   {
+    "partNo": "4001416",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "4352596",
+    "partDesc": "Piston Ring Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3090450",
+    "partDesc": "Oil Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3645611",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "4100481",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "DC88D219F7DCEEF4F7CE22FF1B767FAFDF404F42BAE779D221B5A3E049CF2DF1712FB15C3EF886568FEC40BD8160F6B0502C2C8F9FF19BF6FD2ACBBD7155C063",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4376080",
+  "kitDesc": "Water Pump Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4376080",
+    "partDesc": "Water Pump Kit",
+    "systems": []
+   },
+   {
+    "partNo": "68152B",
+    "partDesc": "Clip",
+    "systems": []
+   },
+   {
+    "partNo": "3252438",
+    "partDesc": "Tube Connector",
+    "systems": []
+   },
+   {
+    "partNo": "3642576",
+    "partDesc": "Flexible Hose",
+    "systems": []
+   },
+   {
+    "partNo": "3650016",
+    "partDesc": "Water Drain Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3650017",
+    "partDesc": "Water Drain Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3651195",
+    "partDesc": "Debris Shield",
+    "systems": []
+   },
+   {
+    "partNo": "3651956",
+    "partDesc": "Water Pump",
+    "systems": []
+   },
+   {
+    "partNo": "4372951",
+    "partDesc": "Water Pump Repair Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4372974",
+    "partDesc": "Water Pump Repair Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4373025",
+    "partDesc": "Water Pump Repair Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3682701",
+    "partDesc": "Male Union Elbow",
+    "systems": []
+   },
+   {
+    "partNo": "3089392",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3682727",
+    "partDesc": "Male Union Elbow",
+    "systems": []
+   },
+   {
+    "partNo": "3963982",
+    "partDesc": "Sealing Washer",
+    "systems": []
+   },
+   {
+    "partNo": "4372963",
+    "partDesc": "Banjo Connector Screw",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "C39457DDCBAA96A9CF3A16EB0965F0F11553879ED2639065CB887F1FE8C299452EB711A93E1B46577681BA8D6E141C07F1E4CF0004D5D8C87C31A0F653F8F16D",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4376106",
+  "kitDesc": "Seal Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4376106",
+    "partDesc": "Seal Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3393584",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3393586",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3631755",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4970951",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4970952",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4970956",
+    "partDesc": "Spring Washer",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "A6BA51E355D4DB0EB66D1BDB30E06D7FADD4265689A062F9D296E88B8084465CA196E56581E2568D163281A28BC6BE0D8E99D3BF189F1687ED0F425006FDEE15",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4376121",
+  "kitDesc": "Water Pump Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4376121",
+    "partDesc": "Water Pump Kit",
+    "systems": []
+   },
+   {
+    "partNo": "206457",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3007512",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089261",
+    "partDesc": "Water Pump Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3252438",
+    "partDesc": "Tube Connector",
+    "systems": []
+   },
+   {
+    "partNo": "3650016",
+    "partDesc": "Water Drain Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3650017",
+    "partDesc": "Water Drain Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3651195",
+    "partDesc": "Debris Shield",
+    "systems": []
+   },
+   {
+    "partNo": "4372337",
+    "partDesc": "Water Pump",
+    "systems": []
+   },
+   {
+    "partNo": "S16054",
+    "partDesc": "Ball Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "S16069",
+    "partDesc": "Ball Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "70183",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "206195",
+    "partDesc": "Spline Coupling Sleeve",
+    "systems": []
+   },
+   {
+    "partNo": "206196",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3004259",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3030487",
+    "partDesc": "Bearing Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "3172019",
+    "partDesc": "Water Pump Impeller",
+    "systems": []
+   },
+   {
+    "partNo": "3175573",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3634007",
+    "partDesc": "Water Pump Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3638582",
+    "partDesc": "Draincock",
+    "systems": []
+   },
+   {
+    "partNo": "3643960",
+    "partDesc": "Oil Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3643961",
+    "partDesc": "Water Pump Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "3678921",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678922",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "4372331",
+    "partDesc": "Water Pump Body",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "D8F9164EF2C85165C8839172A6550C94DCEBCC2D30F4431A11DAA00595151C5E3CFE7DD3E130703BFEABAD29FF3025216CAD8118D13490F898BA1424634CC08D",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4955739",
+  "kitDesc": "Lubricating Oil Pump Rebuild Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4955739",
+    "partDesc": "Lubricating Oil Pump Rebuild Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3900631",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3901249",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "4016827",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "4016829",
+    "partDesc": "Ball Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4016842",
+    "partDesc": "Lubricating Oil Pump Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "4016948",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "4065665",
+    "partDesc": "Compression Spring",
+    "systems": []
+   },
+   {
+    "partNo": "4065666",
+    "partDesc": "Compression Spring",
+    "systems": []
+   },
+   {
+    "partNo": "4066547",
+    "partDesc": "Lubricating Pump Idler Kit",
+    "systems": []
+   },
+   {
+    "partNo": "2868820",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4016841",
+    "partDesc": "Stub Shaft Sub-Assembly",
+    "systems": []
+   },
+   {
+    "partNo": "4016945",
+    "partDesc": "Idler Gear Sub-Assembly",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "C4BC3DFD87451135EA832A07F127FBF81C544F9C69CBE78D61739A7CAD089B1524A6464E38323424471F2C102BFDA127A445D3D4E2702A505F6FB755D5E2A8B9",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4955917",
+  "kitDesc": "Piston Cooling Nozzle Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4955917",
+    "partDesc": "Piston Cooling Nozzle Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3640536",
+    "partDesc": "Piston Cooling Nozzle",
+    "systems": []
+   },
+   {
+    "partNo": "3640543",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3641125",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3651209",
+    "partDesc": "Piston Cooling Nozzle",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "75A7A23BDFCF9240F099AD090273E67FCCF022188E6C6FBCC2B6FAB22CA6CA7B9E699D6D5F7B39FFF2E9E81AE9B88D3E79FF815ECC091A3032B9B168507D77BE",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4955978",
+  "kitDesc": "Fuel Manifold",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4955978",
+    "partDesc": "Fuel Manifold",
+    "systems": []
+   },
+   {
+    "partNo": "3638062",
+    "partDesc": "Fuel Manifold",
+    "systems": []
+   },
+   {
+    "partNo": "3638063",
+    "partDesc": "Fuel Manifold",
+    "systems": []
+   },
+   {
+    "partNo": "3638064",
+    "partDesc": "Fuel Transfer Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3638065",
+    "partDesc": "Fuel Transfer Tube",
+    "systems": []
+   },
+   {
+    "partNo": "3638101",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3638102",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3638326",
+    "partDesc": "Dust Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3638327",
+    "partDesc": "Dust Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3639283",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3639630",
+    "partDesc": "Fuel Line Shield",
+    "systems": []
+   },
+   {
+    "partNo": "3639377",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "3639629",
+    "partDesc": "Fuel Line Shield",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "4347746961AB7C00B5F840C7DC540B2773BF9F96ABA740FE25AF1307C6E2A74507A72315854EDFFF56C49E97D354301D916530A06D5F45636E4B5DBEE8DA2F6E",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "4992335",
+  "kitDesc": "Pressure Sensor Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "4992335",
+    "partDesc": "Pressure Sensor Kit",
+    "systems": []
+   },
+   {
+    "partNo": "2894868",
+    "partDesc": "Pressure Sensor",
+    "systems": []
+   },
+   {
+    "partNo": "4010519",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3408510",
+    "partDesc": "Electrical Cable",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "7A8A431F6A11AB389EF849D69F23CACB19F18F602DB64983E6D5A3CB31B6650485E29E01683BD751A6604417EF0BEAFE7C5E1186EA7A2985AF0FED82016D9FAF",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5321612",
+  "kitDesc": "Turbocharger Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5321612",
+    "partDesc": "Turbocharger Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4065615",
+    "partDesc": "Turbocharger Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3089955",
+    "partDesc": "Connection Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3793677",
+    "partDesc": "Aftermarket Turbocharger",
+    "systems": []
+   },
+   {
+    "partNo": "3527619",
+    "partDesc": "Dataplate",
+    "systems": []
+   },
+   {
+    "partNo": "3784397",
+    "partDesc": "Turbocharger",
+    "systems": []
+   },
+   {
+    "partNo": "3502449",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3519163",
+    "partDesc": "Drive Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3519641",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3521442",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3522597",
+    "partDesc": "Roll Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3522904",
+    "partDesc": "Lockplate",
+    "systems": []
+   },
+   {
+    "partNo": "3523412",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3524418",
+    "partDesc": "Shim",
+    "systems": []
+   },
+   {
+    "partNo": "3524419",
+    "partDesc": "Oil Baffle",
+    "systems": []
+   },
+   {
+    "partNo": "3534405",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3536588",
+    "partDesc": "Turbocharger Heat Shield",
+    "systems": []
+   },
+   {
+    "partNo": "3537301",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3537916",
+    "partDesc": "Turbocharger Noise Baffle",
+    "systems": []
+   },
+   {
+    "partNo": "3590377",
+    "partDesc": "Socket Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3590386",
+    "partDesc": "V Band Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "3590435",
+    "partDesc": "Socket Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3590444",
+    "partDesc": "Lock Nut",
+    "systems": []
+   },
+   {
+    "partNo": "3590445",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "3591172",
+    "partDesc": "Turbine Housing",
+    "systems": []
+   },
+   {
+    "partNo": "3595589",
+    "partDesc": "Shaft Wheel Rotor",
+    "systems": []
+   },
+   {
+    "partNo": "3598528",
+    "partDesc": "Turbocharger Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "3771005",
+    "partDesc": "Lock Nut",
+    "systems": []
+   },
+   {
+    "partNo": "3780503",
+    "partDesc": "Hexagon Head Set Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3790115",
+    "partDesc": "Turbocharger Bearing Housing",
+    "systems": []
+   },
+   {
+    "partNo": "3790231",
+    "partDesc": "C Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3794688",
+    "partDesc": "Turbocharger Compressor Impeller",
+    "systems": []
+   },
+   {
+    "partNo": "4036307",
+    "partDesc": "Oil Slinger",
+    "systems": []
+   },
+   {
+    "partNo": "4037264",
+    "partDesc": "Turbocharger Thrust Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "4038175",
+    "partDesc": "Compressor Housing",
+    "systems": []
+   },
+   {
+    "partNo": "4039735",
+    "partDesc": "Thrust Collar",
+    "systems": []
+   },
+   {
+    "partNo": "4041997",
+    "partDesc": "Turbocharger Diffuser",
+    "systems": []
+   },
+   {
+    "partNo": "4032567",
+    "partDesc": "Turbocharger Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3627695",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3679139",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3922794",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "3A7CDD69E31ADEB34D7DC0276C75A8EC687668754D6347700F536A5295ADD7BD1AADE3BE4C5A46F03837CEEDE1478525608012B113871CA02F6464FBB6040692",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5472920",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5472920",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4001416",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3089251",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3645958",
+    "partDesc": "Engine Piston",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "4339F8FB5CFAE383A10DF05B91C010629EBEB04C3A075289404DD1E9105CC414F0DC7228A45989B7D3A5661EBD1AC7A4134AAA0E644847B9BA806A5438186A08",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5473401",
+  "kitDesc": "Cylinder Head Rebuild Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5473401",
+    "partDesc": "Cylinder Head Rebuild Kit",
+    "systems": []
+   },
+   {
+    "partNo": "203933",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "205401",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3007635",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3646766",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3640776",
+    "partDesc": "Tamper Proof Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3641537",
+    "partDesc": "Valve Collet",
+    "systems": []
+   },
+   {
+    "partNo": "5542028",
+    "partDesc": "Exhaust Valve",
+    "systems": []
+   },
+   {
+    "partNo": "3646200",
+    "partDesc": "Valve Stem Guide",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4080326",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "4080333",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "4080343",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4086649",
+    "partDesc": "Rotaror,valve",
+    "systems": []
+   },
+   {
+    "partNo": "4334007",
+    "partDesc": "Intake Valve",
+    "systems": []
+   },
+   {
+    "partNo": "4372314",
+    "partDesc": "Valve Spring Retainer",
+    "systems": []
+   },
+   {
+    "partNo": "4372408",
+    "partDesc": "Valve Spring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "201FB713F6504EFEBAB93DD62D557D493ACE9137030970DA61646F4AA56AF320AA18E40E090ECD9EC3E6611671882C3CDF1E346F4782E2CFC60E1EEC26CA727B",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5473402",
+  "kitDesc": "Cylinder Head Rebuild Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5473402",
+    "partDesc": "Cylinder Head Rebuild Kit",
+    "systems": []
+   },
+   {
+    "partNo": "203933",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "205401",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3007635",
+    "partDesc": "Expansion Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3646766",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3640776",
+    "partDesc": "Tamper Proof Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3641537",
+    "partDesc": "Valve Collet",
+    "systems": []
+   },
+   {
+    "partNo": "5542028",
+    "partDesc": "Exhaust Valve",
+    "systems": []
+   },
+   {
+    "partNo": "3646200",
+    "partDesc": "Valve Stem Guide",
+    "systems": []
+   },
+   {
+    "partNo": "3678786",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4080326",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "4080333",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "4080343",
+    "partDesc": "Valve Stem Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4086649",
+    "partDesc": "Rotaror,valve",
+    "systems": []
+   },
+   {
+    "partNo": "4334007",
+    "partDesc": "Intake Valve",
+    "systems": []
+   },
+   {
+    "partNo": "3641536",
+    "partDesc": "Valve Spring Retainer",
+    "systems": []
+   },
+   {
+    "partNo": "3635455",
+    "partDesc": "Valve Spring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "25029EA2EC9D1C98AAC6702CF1BB15442913ACFBF49EBFD0CB667DBCACC660441AE82B2895727CCB2F9F9D10714FE1AA799292CC22ACE23A5005AA42425716EE",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5579009",
+  "kitDesc": "Pressure Switch Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5579009",
+    "partDesc": "Pressure Switch Kit",
+    "systems": []
+   },
+   {
+    "partNo": "S162A",
+    "partDesc": "Hexagon Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "S610",
+    "partDesc": "Lock Washer",
+    "systems": []
+   },
+   {
+    "partNo": "103023",
+    "partDesc": "Hexagon Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3015283",
+    "partDesc": "Captive Washer Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3046852",
+    "partDesc": "Accessory Drive Support Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "3062329",
+    "partDesc": "Wire Tie Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "4924925",
+    "partDesc": "Pressure Switch",
+    "systems": []
+   },
+   {
+    "partNo": "5376094",
+    "partDesc": "Accessory Drive Support",
+    "systems": []
+   },
+   {
+    "partNo": "4372986",
+    "partDesc": "Accessory Drive Support",
+    "systems": []
+   },
+   {
+    "partNo": "S316",
+    "partDesc": "Plain Woodruff Key",
+    "systems": []
+   },
+   {
+    "partNo": "4372987",
+    "partDesc": "Accessory Drive Support",
+    "systems": []
+   },
+   {
+    "partNo": "3089409",
+    "partDesc": "Bushing",
+    "systems": []
+   },
+   {
+    "partNo": "3640775",
+    "partDesc": "Tamper Proof Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4372988",
+    "partDesc": "Accessory Drive Support",
+    "systems": []
+   },
+   {
+    "partNo": "4916427",
+    "partDesc": "Filter Screen",
+    "systems": []
+   },
+   {
+    "partNo": "4924765",
+    "partDesc": "Accessory Drive Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "4953332",
+    "partDesc": "Accessory Drive Gear",
+    "systems": []
+   },
+   {
+    "partNo": "5376096",
+    "partDesc": "Filter Screen",
+    "systems": []
+   },
+   {
+    "partNo": "3035027",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3089019",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678921",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678922",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "5376095",
+    "partDesc": "Filter Screen",
+    "systems": []
+   },
+   {
+    "partNo": "2896723",
+    "partDesc": "Filter Screen",
+    "systems": []
+   },
+   {
+    "partNo": "5375675",
+    "partDesc": "Plug Adapter",
+    "systems": []
+   },
+   {
+    "partNo": "5417037",
+    "partDesc": "Wiring Harness",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "29B8902284F5774040A1CAEE875DD8BF985456BFBD50378C5853511EF3020AF4D2F8B5A39609A6F6DEB0FEF0B8234921BDA951FDA830E58A3EECD9BE73BCA8EB",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5581413",
+  "kitDesc": "Service Kit",
+  "kitNotes": "0.50 Mm Oversize",
+  "kitType": "OVERSIZE",
+  "parts": [
+   {
+    "partNo": "5581413",
+    "partDesc": "Service Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3082427",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3089259",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "5467064",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "5467068",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "5467072",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "5467076",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "9F4FCC924298C5C6E738D85051FEC5E6EF72B7D6E82CDFD3669FEDA07A20F82CE1ABBBE820B094099E81FE50CAFDCB16EF048FCE03938F461DAF0DCCA9E53A10",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5608741",
+  "kitDesc": "Service Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5608741",
+    "partDesc": "Service Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3678925",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3922794",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "31D8250A7FB2AEA0656CB9F0057395C70A5CDFC5982957A689F815FA83D44B4C9112255EA0FF349A3E1F04B2687E5180F8719028576048AC002B534C62485741",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5633478",
+  "kitDesc": "Accessory Drive Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5633478",
+    "partDesc": "Accessory Drive Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3643861",
+    "partDesc": "Accessory Drive Pulley",
+    "systems": []
+   },
+   {
+    "partNo": "4080395",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "4085923",
+    "partDesc": "Mounting Spacer",
+    "systems": []
+   },
+   {
+    "partNo": "5538007",
+    "partDesc": "Oil Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "074B147F1603749B3D3F53B0788589FAA0C90B6FEE4130D8117987DA3342543E34A887AAEF2B76940F3D935EBF7D61869D5A5EDD7E456626158B33005745F9E6",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5633611",
+  "kitDesc": "Thermostat Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5633611",
+    "partDesc": "Thermostat Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3627961",
+    "partDesc": "Thermostat Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3651379",
+    "partDesc": "Thermostat",
+    "systems": []
+   }
+  ]
+ }
+]

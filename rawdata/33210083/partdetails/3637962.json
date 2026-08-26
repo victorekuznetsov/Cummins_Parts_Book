@@ -1,0 +1,138 @@
+{
+ "partNo": "3637962",
+ "partDesc": "oil pan",
+ "supersession": [
+  {
+   "partNo": "3637962",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "077- SUPERSEDED",
+   "partSscDesc": "SUPERSEDED",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "N",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "2"
+  },
+  {
+   "partNo": "5541966",
+   "reconEquivalent": null,
+   "partDispCd": "3- UNRESTRICTED USE",
+   "partSsc": "081",
+   "partSscDesc": "",
+   "hasGraphic": null,
+   "objectFile": null,
+   "graphics": null,
+   "sellable": "N",
+   "graphic": null,
+   "partDispCdDesc": "UNRESTRICTED USE",
+   "sequence": "1"
+  }
+ ],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "OP6115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/363/3637962/3637962.obj"
+  },
+  {
+   "fileName": "/363/3637962/3637962.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/363/3637962/3637962_bottom.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_front.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_iso.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_iso2.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_right.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_top.png"
+  },
+  {
+   "fileName": "/363/3637962/3637962_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "206 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "130 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "58 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "59 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

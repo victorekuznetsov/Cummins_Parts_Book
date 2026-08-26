@@ -1,0 +1,469 @@
+{
+ "partNo": "3089413",
+ "partDesc": "shaft retainer",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WP6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "3089801",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump shaft"
+  },
+  {
+   "item": "3332037",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump shaft"
+  },
+  {
+   "item": "3089411",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump shaft"
+  },
+  {
+   "item": "3647120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump support"
+  },
+  {
+   "item": "3647120nx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3089802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump shaft"
+  },
+  {
+   "item": "3089803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump support"
+  },
+  {
+   "item": "3089410",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump shaft"
+  },
+  {
+   "item": "4381107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump support"
+  },
+  {
+   "item": "4066277",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump support"
+  },
+  {
+   "item": "4066277nx",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WP6715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump arrangement"
+  },
+  {
+   "item": "WP6018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "3089467",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water pump support"
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D863001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D873001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D773006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WP6701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WP6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/308/3089413/3089413.obj"
+  },
+  {
+   "fileName": "/308/3089413/3089413.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/308/3089413/3089413_right.png"
+  },
+  {
+   "fileName": "/308/3089413/3089413_iso.png"
+  },
+  {
+   "fileName": "/308/3089413/3089413_front.png"
+  },
+  {
+   "fileName": "/308/3089413/3089413_iso_mkt.png"
+  },
+  {
+   "fileName": "/308/3089413/3089413_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "9.2 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".26 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "9.2 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "3.8 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,83 @@
+{
+ "componentHash": "D10110F387B62DFF060A9A2C7BF36694C1F3F9CB6C92B16F914D3CE6A8201E459D37F997123A8D590787736D53E909A67814A3BFA3D6E92534067C737CA9E631",
+ "esnType": "mbom",
+ "optionName": "Fan Drive Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fa/075_fa0674800_01"
+  }
+ ],
+ "remarks": "Fan Drive Plumbing|engine Family: D58, D59|ref Cpr. Bracket: No|fan Hub Type:|variable Viscous Clutch|no. Of Clips:4|front Engine Support Plmb Clipping:|front Gear Cover|solenoid Supply Hose Length (mm):|915 (36.02 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "68152B",
+      "latestPart": "false",
+      "partDesc": "CLIP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4015817",
+      "latestPart": "false",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/fa/075_fa0674800_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FA6748-01",
+ "optionNumber": "FA6748-01",
+ "buildCode": null
+}

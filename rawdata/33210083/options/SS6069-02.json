@@ -1,0 +1,60 @@
+{
+ "componentHash": "ADA7159AFBE33873B0AA551019544D4096D247ED8F332D55AC28BC5C5C4C92C30173DAB3EE544B39618B710175386D854751A07F4F056B2FA13BC0B80B406862",
+ "esnType": "mbom",
+ "optionName": "Paint",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/ss/075_ss0606900_02"
+  }
+ ],
+ "remarks": "Paint|engine Family: D23, D28, D36, D58, D59, D77|paint Color: Cummins Beige, High Gloss",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3643480",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/ss/075_ss0606900_02",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "SS6069-02",
+ "optionNumber": "SS6069-02",
+ "buildCode": null
+}

@@ -1,0 +1,56 @@
+{
+ "componentHash": "A78AA7BDA8552F884DBBFADB2956C8292AE156474BA9828988F10205E8C6B8AA3E991B076FBC27F9524BF8F53C07901D141641B51A390D49AD3AE0CAB949477C",
+ "esnType": "mbom",
+ "optionName": "Remote Oil Drain",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Remote Oil Drain|items Supplied:|oil Drain Valve With 25.4 Mm (1.0 In) Id|hose And Cap With Sash Chain|engine Interface Size: M27 Stor|supply Method: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3094867",
+      "latestPart": "false",
+      "partDesc": "DRAIN VALVE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "RD6005-01",
+ "optionNumber": "RD6005-01"
+}

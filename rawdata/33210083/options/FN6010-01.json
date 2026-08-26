@@ -1,0 +1,60 @@
+{
+ "componentHash": "D2CDF5EE3C7F00E9E45EDC2B95E9414720BB200C9198C4C5182E4A531FB3FF59D4B2143CE770F2722F2EB70EAE2122F6E4D017E84F3412CB8D9C21461B1B5D0D",
+ "esnType": "mbom",
+ "optionName": "Engine Fan",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/fn/075_fn0601000_01"
+  }
+ ],
+ "remarks": "Engine Fan|diameter (mm): 1727|number Of Blades: 11|type Of Fan: Sucker|max Continuous Fan Speed Limitation (rpm):|1011|mounting Bolt Circle (mm): 6 X 139.7 (5.5 In)|mounting Flange Thickness (mm):|30.5 (1.20 In)|material: Aluminum|pilot Diameter (mm): 76.2 (3.0 In)|kitted: Yes|reqd Minimum Fan Spacing (mm): 75 (2.95 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3641311",
+      "latestPart": "false",
+      "partDesc": "ENGINE FAN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/fn/075_fn0601000_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FN6010-01",
+ "optionNumber": "FN6010-01",
+ "buildCode": null
+}

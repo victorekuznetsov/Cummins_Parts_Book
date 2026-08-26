@@ -1,0 +1,79 @@
+{
+ "componentHash": "30E92885118B4A9A882BB81531A4BE46F571DA14D6B353F0562A0185142EF1E2CA4B8F3BB4C8CF7C9809CED9083D541CCA4F9DF850ABF9B7CBE8F74F59AB319A",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Hpi|transmission: Electric Drive|commun Support: J1587,j1939|oem Name: Belaz|oem Model: Belaz75306|oemcomment: Dump Truck|remote Throttle: N|high Idle: 1810 Rpm|low Idle: 0750 Rpm|isc Enable: On|isc Validation: Off|switch Speed Input: Yes|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 0     %|idle Validation: Yes|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Foot Pedal|comment: Shutter Ctl Pin C Starter Lock Pin A|powermatch: Na|guid: Na|comment Cont:|software Phase: 5.9.7.23|flywheel Size: Sae 0|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4327919",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4327920",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "DO60386-00",
+ "optionNumber": "DO60386-00",
+ "buildCode": null
+}
