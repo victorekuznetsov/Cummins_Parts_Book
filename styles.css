@@ -673,3 +673,11 @@ body.lang-en td.c-name .n-ru{font-size:13px; font-weight:400; color:var(--muted)
 
 /* номера документов, найденные в тексте: моноширинный номер-ссылка */
 .lnk.man,.lnk.tsb{font-family:Consolas,"SF Mono",monospace; border-bottom-style:solid}
+
+/* найденная позиция: подсветка держится, пока не выберут другую */
+table.parts tr.hit-row td{
+  background:var(--accent-soft) !important;
+  box-shadow:inset 0 -1px 0 var(--accent-2);
+}
+table.parts tr.hit-row td:first-child{box-shadow:inset 3px 0 0 var(--accent-2)}
+table.parts tr.hit-row .pn{color:var(--accent-2)}

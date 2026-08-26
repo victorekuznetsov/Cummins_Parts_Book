@@ -350,11 +350,13 @@ function renderParts(o, focusPart) {
     tr.appendChild(tdAdd);
 
     tb.appendChild(tr);
-    if (focusPart && p.no === focusPart && i < 400) {
+    /* Позиция, ради которой сюда пришли из поиска или карточки детали:
+       подсвечиваем её и держим подсветку, пока не выберут другую. Номер
+       сверяем нормализованно — «3979697» и «397-9697» это одно и то же. */
+    if (focusPart && normNo(p.no) === normNo(focusPart) && i < 400) {
+      tr.classList.add("hit-row");
       setTimeout(function () {
         tr.scrollIntoView({ block: "center", behavior: "smooth" });
-        tr.style.background = "#fff5cc";
-        setTimeout(function () { tr.style.background = ""; }, 2500);
       }, 150);
     }
   });
