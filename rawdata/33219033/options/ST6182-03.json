@@ -1,0 +1,106 @@
+{
+ "componentHash": "8CFCE4DCD9927B2CEBD2CFDDDF446B9874C88B72335C81966CDD7366500F586928DBD94217FF0052AD7B495F0B2F2C5FDBF8D0225364907329DBFD8841264AE0",
+ "esnType": "mbom",
+ "optionName": "Starting Motor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/st/075_st0618200_03"
+  }
+ ],
+ "remarks": "Starting Motor|starter Supplier: Cummins|starter Count: 2|manufacturer/model: Remy Inc/50mt-400|branded For Cummins: Yes|power Supply: Electric|voltage: 24|method Of Engagement: Positive|solenoid Location: 322 Degrees|gear Pitch: 6/8|kw Rating: 8.95|starting Motor Flange Type:|sae #3 (3 Bolt X 120 Degrees)|starter Motor Mounting Location:|left Bank, Quadrant 3 & 4|prelube Supplier: Cummins|prelube Mtg Location: Right Bank|barring Device Mounting Location:|right Bank, Quadrant 2",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3018924",
+      "latestPart": "false",
+      "partDesc": "GROUND WIRE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3648651",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 2 X 45",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3651892",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "075",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/075/st/075_st0618200_03",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "ST6182-03",
+ "optionNumber": "ST6182-03"
+}

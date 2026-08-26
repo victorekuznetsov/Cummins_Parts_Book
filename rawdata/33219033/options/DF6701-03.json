@@ -1,0 +1,106 @@
+{
+ "componentHash": "14A348AF0F9DC446B05952C8FA7F7CADDC80A9C37DC4F2F829635434FC1F7D21D527A575F3E117BBD489D0FCB9105FF1F0A6BABBD68A02774F522F460DA0B058",
+ "esnType": "mbom",
+ "optionName": "Front Gear Train Accessory Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/075/df/075_df0670100_03"
+  }
+ ],
+ "remarks": "Front Gear Train Accessory Mounting|engine Family: D58, D59, D77, D84|drive Location Front: Yes|drive Location Rear: Yes|rear Drive Flange Type: 101-2 (sae B)|rear Drive Drive (sae/din Std):|sae 22-4 (13 Tooth Spline)|rear Flange Orientation (deg):|2 Bolt Flange - 20 Deg|4 Bolt Flange - 45 Deg|rear Drive Spline Length (mm): 63 (2.5 In)|drive Flange Cover Count: 1|drive Flange Cover Location: Rear",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "206405",
+      "latestPart": "false",
+      "partDesc": "HYDRAULIC PUMP FLANGE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3082132",
+      "latestPart": "false",
+      "partDesc": "COVER PLATE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910495",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M12 X 1.75 X 30",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/075/df/075_df0670100_03",
+ "optionPlantCode": "075",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "DF6701-03",
+ "optionNumber": "DF6701-03",
+ "buildCode": null
+}
