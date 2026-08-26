@@ -1,0 +1,175 @@
+{
+ "partNo": "4098941",
+ "partDesc": "rocker lever",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "RL4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL4729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/409/4098941/4098941.obj"
+  },
+  {
+   "fileName": "/409/4098941/4098941.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/409/4098941/4098941_front.png"
+  },
+  {
+   "fileName": "/409/4098941/4098941_iso.png"
+  },
+  {
+   "fileName": "/409/4098941/4098941_iso2.png"
+  },
+  {
+   "fileName": "/409/4098941/4098941_right.png"
+  },
+  {
+   "fileName": "/409/4098941/4098941_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "19 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "3.5 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "19 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "13 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

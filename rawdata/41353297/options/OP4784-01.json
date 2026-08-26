@@ -1,0 +1,247 @@
+{
+ "componentHash": "0C043F166E358FD5D208485E9742E3532D83D58AE7061FE453D94DC75B1EB28201FC1DB3EC831812ADE61EEDBEFDE9D25496C3F2E1A805D0444570CBB7BDF613",
+ "esnType": "mbom",
+ "optionName": "Oil Pan Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/op/485_op0478400_01"
+  }
+ ],
+ "remarks": "Oil Pan Plumbing|1 5/16-12 Un Plugs Included: 2|1 1/16-12 Un Plugs Included: 2|3/4-16 Unf Plugs Included: 2|9/16-18 Unf Plugs Included: 0|1/2-20 X 3/4\" Plugs Included: 0|this Option Is Required To Close Off Any|unused Oil Ports On The Oil Pan|variant Content:|in Place Of 3046202|kcl May Use  6430344",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3046202",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 UNF",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3040810",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3046201",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3046942",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3046869",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1 1/16 - 12 UN",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3046943",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3201583",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1 5/16 - 12 UN",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3040911",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201585",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/op/485_op0478400_01",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "OP4784-01",
+ "optionNo": "OP4784-01",
+ "path": null
+}

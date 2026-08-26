@@ -1,0 +1,314 @@
+{
+ "componentHash": "957A644F1CC7D6C6FCFD9BC5FA64A1C325EB1B1C4B3D12AEB6364D6E367DD6CA8CF56D808D14EEE04EE29D91E2D56D92C5F45B3344768742A99FDD6AC0CA890E",
+ "esnType": "mbom",
+ "optionName": "Alternator Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/eh/485_eh0400100_01"
+  }
+ ],
+ "remarks": "Alternator Mounting|alternator Manufacturer/model:|delco Remy 33si, 24si, 26si|qianghua Jfz2130-4|alt Support Interface Type (mm):|100 (3.94 In) Spool|alternator Mounting Location:|from Engine C/l (mm): -238 (-9.38 In)|from Crank C/l (mm): 448 (17.66 In)|from Ffob (mm): 114 (4.47 In)|alt Pulley Diameter (mm): 82.95 (3.26 In)|over  2.92 (.115 In) Gauge Rods|alternator Pulley Location Ffob To C/l|first Pulley Groove(mm): 113 (4.45 In)|alt Pulley Groove Profile:|5 Groove K Section|alternator Drive Location: Right Side|alt. Drive Ratio: 2.92 X Engine Speed|rqrd Drive Pulley Diameter (mm):|142.94 (5.62 In) Over 2.921 (.115 In)|belt Description: K Section V Ribbed|belt Tensioner Type: Manual|tensioner Pivot Location:|from Engine C/l (mm): -416.0 (-26.38)|from Crank C/l (mm): 361.8 (14.24 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "70897",
+      "latestPart": "false",
+      "partDesc": "LOCK NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 20 UNF",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "111445",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "158829",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 20 X 6 1/2 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "203310",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "9/16 inch",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201188",
+      "latestPart": "false",
+      "partDesc": "ADJUSTING LINK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "S253",
+        "latestPart": "false",
+        "partDesc": "REGULAR HEXAGON JAM NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 UNF",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "206202",
+        "latestPart": "false",
+        "partDesc": "REGULAR HEXAGON JAM NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 UNF",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201185",
+        "latestPart": "false",
+        "partDesc": "EYE BOLT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 X 3 1/2 INCH",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201186",
+        "latestPart": "false",
+        "partDesc": "EYE BOLT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 X 3 1/2 INCH",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201187",
+        "latestPart": "false",
+        "partDesc": "ADJUSTING LINK",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "9"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "S106",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 1 3/4 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S113",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 1 1/2 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/485/eh/485_eh0400100_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "485",
+ "optionNumber": "EH4001-01",
+ "optionNo": "EH4001-01",
+ "buildCode": null,
+ "path": null
+}

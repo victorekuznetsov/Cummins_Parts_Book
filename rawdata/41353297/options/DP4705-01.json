@@ -1,0 +1,409 @@
+{
+ "componentHash": "55A13D422596CAD3F08AFD58C2167C18503E1B5CFE19E6AEE086862AAEE2738A4A18E3501079BEC55C162622BA992F906D566A131792BB96C5FA5E81AD6BE552",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/dp/485_dp0470500_01"
+  }
+ ],
+ "remarks": "Fuel Pump Drive|fuel Control System: Cummins Mcrs|fuel Pump Manufacturer: Robert Bosch|engine Interface: 34.96 Mm (1.375 In)|groove Pin|groove Pin Dia (mm): 4.39 (.173 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3044413",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 2 INCH",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3410171",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE SUPPORT GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4970799",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE SUPPORT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3066325",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/8 - 24 UNF",
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3034412",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "3"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3066324",
+          "latestPart": "false",
+          "partDesc": "THREADED PLUG",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "4"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "4970798",
+        "latestPart": "false",
+        "partDesc": "ACCESSORY DRIVE SUPPORT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "4916427",
+          "latestPart": "false",
+          "partDesc": "FILTER SCREEN",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "5"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4924267",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE SUPPORT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "3089409",
+            "latestPart": "false",
+            "partDesc": "BUSHING",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "6"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4924268",
+            "latestPart": "false",
+            "partDesc": "ACCESSORY DRIVE SUPPORT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "7"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "4953332",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE GEAR",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "8"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "4970759",
+          "latestPart": "false",
+          "partDesc": "ACCESSORY DRIVE SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "9"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "S3193",
+          "latestPart": "false",
+          "partDesc": "GROOVE PIN",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "10"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "S205",
+      "latestPart": "false",
+      "partDesc": "REGULAR HEXAGON NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 24 UNF",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S604",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/485/dp/485_dp0470500_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "485",
+ "optionNumber": "DP4705-01",
+ "optionNo": "DP4705-01",
+ "buildCode": null,
+ "path": null
+}

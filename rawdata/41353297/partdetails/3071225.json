@@ -1,0 +1,2331 @@
+{
+ "partNo": "3071225",
+ "partDesc": "captive washer cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AC2061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CE4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine cooling system"
+  },
+  {
+   "item": "BR4064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR4108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR1228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "CM4722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cam follower cover"
+  },
+  {
+   "item": "3418302",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine brake plumbing"
+  },
+  {
+   "item": "2881722",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "filter kit"
+  },
+  {
+   "item": "2881826",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "water pump kit"
+  },
+  {
+   "item": "3331698",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger bracket"
+  },
+  {
+   "item": "4025036",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting repair kit"
+  },
+  {
+   "item": "3804874",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,pdc"
+  },
+  {
+   "item": "5633280",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5633549",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4955767",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "filter kit"
+  },
+  {
+   "item": "II1719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "IS4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "IS4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "ignition system"
+  },
+  {
+   "item": "LF4070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "FT12320",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT12301",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT40064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT31007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT31005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "DP4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump drive"
+  },
+  {
+   "item": "EI4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic engine monitor"
+  },
+  {
+   "item": "FA4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive mounting"
+  },
+  {
+   "item": "FA4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive mounting"
+  },
+  {
+   "item": "FA4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive mounting"
+  },
+  {
+   "item": "FD4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD3705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FM4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "PH4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oxygen sensor"
+  },
+  {
+   "item": "PH4786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oxygen sensor"
+  },
+  {
+   "item": "PH4788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger speed sensor mounting"
+  },
+  {
+   "item": "PH4793",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4845",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PH4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "PP1925",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP1926",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil control valve mounting plumbing"
+  },
+  {
+   "item": "PP10071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "viscosity sensor"
+  },
+  {
+   "item": "HX4172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4186",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX4187",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX4189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "II1711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "II1718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "RL1759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "SG4733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG9060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SH4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat shield"
+  },
+  {
+   "item": "SG4052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SG4737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "guard package"
+  },
+  {
+   "item": "SD4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine monitoring system"
+  },
+  {
+   "item": "PP10141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil manifold"
+  },
+  {
+   "item": "PP10106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "viscosity sensor"
+  },
+  {
+   "item": "PP10124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil control valve mounting plumbing"
+  },
+  {
+   "item": "PP10098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil control valve"
+  },
+  {
+   "item": "PP10097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil manifold"
+  },
+  {
+   "item": "PP10085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil control valve"
+  },
+  {
+   "item": "PP10083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP10379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil manifold"
+  },
+  {
+   "item": "PP10175",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector plumbing"
+  },
+  {
+   "item": "PP10125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil control valve"
+  },
+  {
+   "item": "RA6034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RA4062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RA4064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RA4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "RA4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "RA4041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "RA4051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "RL1782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OF4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter"
+  },
+  {
+   "item": "OF4027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil bypass filter"
+  },
+  {
+   "item": "OP3137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP3138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP3135",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "TB4759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TK1021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter cooler plumbing"
+  },
+  {
+   "item": "TK1007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TK1015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TP4769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP4771",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP4782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP4775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP4783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP6901",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "RL1787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1788",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1774",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1778",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "RL1730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever"
+  },
+  {
+   "item": "TP4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4756",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP1745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP1740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TK1018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TP4761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TP4774",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TP4768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "VC4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "WF4045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WH4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WH4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WH4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler water plumbing"
+  },
+  {
+   "item": "WH4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler water plumbing"
+  },
+  {
+   "item": "WH4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler water plumbing"
+  },
+  {
+   "item": "WA1727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA4705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RL1789",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WP4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water pump"
+  },
+  {
+   "item": "WR1042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR1039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4735",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4736",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "wiring accessories"
+  },
+  {
+   "item": "WR4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "wiring accessories"
+  },
+  {
+   "item": "WR4798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4790",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4791",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4792",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4794",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4781",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4787",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "WR4751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "WR4748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "electronic control module wiring harness"
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TB4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "EB3010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine brake"
+  },
+  {
+   "item": "TB4088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "EB3010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine brake"
+  },
+  {
+   "item": "3804875",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "kit,cense upfit"
+  },
+  {
+   "item": "D093677GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093676CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173074CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093631CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093635CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093634CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093638GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093643BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093628BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093627BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093604BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193116MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233052GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093647CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093646CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093645MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093649CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093648MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093669CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093668GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093674CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093672BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093671GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093680MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/307/3071225/3071225.obj"
+  },
+  {
+   "fileName": "/307/3071225/3071225.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/307/3071225/3071225_top.png"
+  },
+  {
+   "fileName": "/307/3071225/3071225_iso.png"
+  },
+  {
+   "fileName": "/307/3071225/3071225_iso2.png"
+  },
+  {
+   "fileName": "/307/3071225/3071225_front.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "3/8 - 16 X  3/4 INCH"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "08T3-2,01T3"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".05 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".2 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

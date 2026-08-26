@@ -1,0 +1,440 @@
+{
+ "partNo": "3331553",
+ "partDesc": "thermostat housing support",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3408226",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing support"
+  },
+  {
+   "item": "3408232",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing support"
+  },
+  {
+   "item": "3331552",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing support"
+  },
+  {
+   "item": "TH4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4710",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing arrangement"
+  },
+  {
+   "item": "TH4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing arrangement"
+  },
+  {
+   "item": "TH4746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "TH4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "4953154",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "4953153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "4964081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "4964080",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing"
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483011GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TH4779",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TH4762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4760",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4757",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing plumbing"
+  },
+  {
+   "item": "TH4036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing arrangement"
+  },
+  {
+   "item": "TH4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "thermostat housing arrangement"
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "14.3 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "22.5 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "9.6 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "5.88 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

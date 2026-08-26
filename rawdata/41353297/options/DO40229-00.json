@@ -1,0 +1,79 @@
+{
+ "componentHash": "F018522F9BF0BFC8EFC77408E72E70875B61ABB2A0BA8BDC03E4EBD5565FC1006B95AE1ECFDD4A43ADE80782A8F923CCBEC80EA76DAFB32193FE39A8CEB5F7DE",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Aar|transmission: Generic|commun Support: J1939|oem Name: Shantui|oem Model: Sd60|oemcomment: Bulldozer|remote Throttle: N|high Idle: 1969 Rpm|low Idle: 750 Rpm|isc Enable: On|isc Validation: Na|switch Speed Input: Yes|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 7 %|idle Validation: No|multiple Unit Synchronization: Na|output Driver Setup: Yes|calibration Voltage: 24|throttle Type: Tsc1|comment:|powermatch: Yes|guid: Na|comment Cont:|software Phase: 25.02.01.22|centinel: Capable",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4986532",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6462793",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "0",
+ "kitGraphic": [],
+ "optionPlantCode": "485",
+ "artCallOut": null,
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "DO40229-00",
+ "optionNo": "DO40229-00",
+ "path": null
+}

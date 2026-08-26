@@ -1,0 +1,214 @@
+{
+ "partNo": "4924721",
+ "partDesc": "fuel pump brace",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FP4436",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4443",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4441",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4491",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4494",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4493",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4444",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4454",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4453",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4495",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4492",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/492/4924721/4924721.obj"
+  },
+  {
+   "fileName": "/492/4924721/4924721.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/492/4924721/4924721_front.png"
+  },
+  {
+   "fileName": "/492/4924721/4924721_iso.png"
+  },
+  {
+   "fileName": "/492/4924721/4924721_iso2.png"
+  },
+  {
+   "fileName": "/492/4924721/4924721_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "3.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.09 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "2.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2.5 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,116 @@
+{
+ "componentHash": "7F363A95AEE543A2408D4DF537CEEB90A0E2B3168139EF588F0C37905FD3BCF899403E77C43CE5C7131205B93BF5F9B3DB2A261A44A7078787E632695F3EA64B",
+ "esnType": "mbom",
+ "optionName": "Accessory Drive Pulley",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ad/485_ad0403500_01"
+  }
+ ],
+ "remarks": "Accessory Drive Pulley|pulley Diameter (mm):|178 (7.0 In) Over 11.2 (.44 In) Balls|pulley Groove Profile:|2 X 13 Mm (.051 In) V Grooves|mounting Provision(s): 2 X 7/16-14 Unc-2b|pulley Mounting Face Location: Left Side|from Engine C/l (mm): 240.28 (9.46 In)|from Crankshaft C/l (mm): 122 (4.8 In)|from Ffob (mm): 166 (6.54 In)|pulley Material: Cast|engine Interface Dia (mm): 34.96 (1.375 In)|groove Pin",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3086127",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3200287",
+      "latestPart": "false",
+      "partDesc": "KEYWAY SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S3193",
+      "latestPart": "false",
+      "partDesc": "GROOVE PIN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "DE96043A28E8A42FFB26D63CD698930114032C03E06C6B9411C82B03A35973FC7D20EF76997954C8196A7F7D6C5EB19C13B8BF66F2535E466481018192B89BB7",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "3804994",
+   "kitDesc": "Accessory Drive Pulley",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "485",
+ "artCallOut": "/485/ad/485_ad0403500_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "AD4035-01",
+ "optionNo": "AD4035-01",
+ "path": null
+}

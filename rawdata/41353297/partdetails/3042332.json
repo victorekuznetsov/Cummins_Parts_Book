@@ -1,0 +1,1207 @@
+{
+ "partNo": "3042332",
+ "partDesc": "plain washer",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AC1704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner mounting"
+  },
+  {
+   "item": "AC1703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner mounting"
+  },
+  {
+   "item": "AC1172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner mounting"
+  },
+  {
+   "item": "6698358",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CN6705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pressure regulator valve"
+  },
+  {
+   "item": "BB67049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB67061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB67047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "AC1706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner mounting"
+  },
+  {
+   "item": "CN6705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "pressure regulator valve"
+  },
+  {
+   "item": "5635757",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5299029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "counterbore cutter kit"
+  },
+  {
+   "item": "5394769",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block lifting fixture"
+  },
+  {
+   "item": "5573410",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4964505",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "4964506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "4368384",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "4358170",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel control valve"
+  },
+  {
+   "item": "4959469",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "4964508",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "4964507",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "FM1048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM6726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM6726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FM1062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4493",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4494",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4495",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4496",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4487",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4489",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4491",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4499",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FP4492",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FA5713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FF4115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF4114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF4213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EM6111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "SR4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SM6765",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM6766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM6767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SR4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SR4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "RB85002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "PP60012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "SG1031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine guard"
+  },
+  {
+   "item": "RB1022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "RB1023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "RB1024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "RB1025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "RB1026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "RB9072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "SM6766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SG1034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine guard"
+  },
+  {
+   "item": "SG1054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine guard"
+  },
+  {
+   "item": "SM2722",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SK4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SI6007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "raw water inlet connection"
+  },
+  {
+   "item": "SI6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "raw water inlet connection"
+  },
+  {
+   "item": "SR4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "KC4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "keel cooler plumbing"
+  },
+  {
+   "item": "LA1037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "LM5703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil accessory manifold"
+  },
+  {
+   "item": "FP4453",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4454",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4441",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4443",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4444",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4436",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FP4466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump"
+  },
+  {
+   "item": "FW6112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FF4167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF4168",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FM1007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "FM1052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel control module"
+  },
+  {
+   "item": "D413065MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX4186",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D423002BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D423003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573009CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX86000",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX6144",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX6145",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX6143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX6142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX4148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "D423001BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251023GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253007CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253012GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283033MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253022GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253019CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233053GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Y3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Y0005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3008CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0C3005CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233052GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363004GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CE4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine cooling system"
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Z3003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/304/3042332/3042332.obj"
+  },
+  {
+   "fileName": "/304/3042332/3042332.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/304/3042332/3042332_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "4.25 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".0275 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4.15 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".06 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,645 @@
+{
+ "partNo": "4924238",
+ "partDesc": "o ring plug",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4924237",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "threaded plug"
+  },
+  {
+   "item": "5406131",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "injector kit"
+  },
+  {
+   "item": "6511869",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP41663",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP40930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP40560",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP40563",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP40208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP41470",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP41485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP8595",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8575",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "FT40077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT7818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT7819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT7813",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "PP8524",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8533",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8605",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8624",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8593",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "FT60822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60908",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60850",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60834",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60854",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60883",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60889",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT60898",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60902",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT60895",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT40079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT40092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT40087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT40091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60853",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "FT60821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT40081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel supply plumbing"
+  },
+  {
+   "item": "PP42088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP43819",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clip"
+  },
+  {
+   "item": "PP43820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clip"
+  },
+  {
+   "item": "PP43464",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "wiring retainer bracket"
+  },
+  {
+   "item": "PP43327",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clip"
+  },
+  {
+   "item": "PP43328",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clip"
+  },
+  {
+   "item": "PP44723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44666",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "wiring retainer bracket"
+  },
+  {
+   "item": "PP44357",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP44358",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP41492",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft cover"
+  },
+  {
+   "item": "PP41466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP40931",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft and gear"
+  },
+  {
+   "item": "PP42089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41925",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP41764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP41773",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP41718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D593013GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593006CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233041MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233046MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233051MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283043CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6513807",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

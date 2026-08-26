@@ -1,0 +1,670 @@
+{
+ "partNo": "179931",
+ "partDesc": "plain hose",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AR9199",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resist bracket"
+  },
+  {
+   "item": "BM36117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor bracket"
+  },
+  {
+   "item": "CP921",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "BM70185",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor bracket"
+  },
+  {
+   "item": "BM95252",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor bracket"
+  },
+  {
+   "item": "BM71022",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor bracket"
+  },
+  {
+   "item": "3268287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor mounting"
+  },
+  {
+   "item": "3047368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor mounting"
+  },
+  {
+   "item": "WF1091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF1220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF1055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion res"
+  },
+  {
+   "item": "WF1220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF2049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF2041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF2075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF2076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF1228",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "WF7037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "corrosion resistor"
+  },
+  {
+   "item": "D603001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092266BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092271BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092306BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092307BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092371BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092370BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343132BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343133BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343136BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343129BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343126BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353007BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353010BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093622BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093621BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093625BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193115MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193116MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093350BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093352BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093351BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093353BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093361BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093363BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093362BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093364BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093365BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093205BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093204BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093293BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093310BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093309BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093311BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093316BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093313BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093317BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093349BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092372BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092373BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092379BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092378BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092382BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092390BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092389BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092392BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092391BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092393BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092395BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092394BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092396BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092244BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092203BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092265BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092270BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093493BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/179/179931/179931.obj"
+  },
+  {
+   "fileName": "/179/179931/179931.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/179/179931/179931_iso.png"
+  },
+  {
+   "fileName": "/179/179931/179931_front.png"
+  },
+  {
+   "fileName": "/179/179931/179931_iso2.png"
+  },
+  {
+   "fileName": "/179/179931/179931_iso_mkt.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "19 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".2906 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "18 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "7 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

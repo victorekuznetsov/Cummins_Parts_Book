@@ -1,0 +1,153 @@
+{
+ "componentHash": "F1637EC2F091CDDA501A0361BDDEAFAD966D2112E9B942045FC6F479EE1912C2219672B1D1D5BCA34640F30998C8636F6C6C4E37AD790D03DD6B74A11DD74807",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/fw/485_fw0414900_02"
+  }
+ ],
+ "remarks": "Flywheel|ring Gear Diametral Pitch: 6/8|ring Gear Tooth Count: 142|ring Gear O.d. (mm): 601.14 (23.667 In)|flywheel Supplier: Cummins|drive Type: Flywheel|intended Fly Hsg Sae: 0|max Full Load Rated Speed Nte: 3500|spacer Thickness Required (mm): None|clutch/t.c. Mtg. Bolt Circle: Single|clutch/t.c. Mtg Hole Count: 6|clutch/t.c. Mtg Bolt Circle Dia (mm):|510 (20.08 In)|clutch/t.c. Mtg Hole Spacing: Equal|clutch/t.c. Mtg Hole Size: 7/16-14 Unc-2b|cummins Matl Standard: Ces41001|ring Gear Supplier: Cummins|pilot Bearing Bore Dia (mm): 75 (2.95 In)|intended Drive Hardware: Torque Converter|for China Domestic Market",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "200861",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "9",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "212113",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 18 X 2 1/4 INCH",
+      "qty": "9",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4914628",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5566",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4914627",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/fw/485_fw0414900_02",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "FW4149-02",
+ "optionNo": "FW4149-02",
+ "path": null
+}

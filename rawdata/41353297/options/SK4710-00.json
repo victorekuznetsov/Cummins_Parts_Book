@@ -1,0 +1,106 @@
+{
+ "componentHash": "27893AF92832062E536564C3D727B190AA4170026C277743039F797ABEDF90AE5831D206BC966347A98B1975BC5170431A01AEFE2F824701A95B7FBC85941D09",
+ "esnType": "mbom",
+ "optionName": "Shipping Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/sk/485_sk0471000_00"
+  }
+ ],
+ "remarks": "Shipping Bracket|engine Model: Qsk19|condition 1:|damper Qty: 1|rear Engine Supports: None|front Support Type: Pad, Trunnion|rear Shipping Brackets: 2|front Shipping Brackets: 0|rear Bracket Mtg Pad:|high Vertical 88.9(3.5 In) X 114.3(4.5 In)|rear Bracket Mtg Holes: 4 X 5/8-11 Unc-2b|damper Guard Mounted: No|condition 2:|damper Qty: 2|rear Engine Supports: None|front Support Type: Trunnion|rear Shipping Brackets: 2|front Shipping Brackets: 0|rear Bracket Mtg Pad:|high Vertical 88.9(3.5 In) X 114.3(4.5 In)|rear Bracket Mtg Holes: 4 X 5/8-11 Unc-2b|damper Guard Mounted: No|condition 3:|damper Qty: 1|rear Engine Supports: None|front Support Type: Trunnion|rear Shipping Brackets: 2|front Shipping Brackets: 0|rear Bracket Mtg Pad:|high Vertical 88.9(3.5 In) X 114.3(4.5 In)|rear Bracket Mtg Holes: 4 X 5/8-11 Unc-2b|damper Guard Mounted: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3202136",
+      "latestPart": "false",
+      "partDesc": "SHIPPING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S103A",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 x 2 inch",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S603",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/sk/485_sk0471000_00",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "SK4710-00",
+ "optionNo": "SK4710-00",
+ "path": null
+}

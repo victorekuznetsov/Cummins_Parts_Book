@@ -1,0 +1,330 @@
+{
+ "partNo": "4098533",
+ "partDesc": "banjo connector screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FD4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD5731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FT40065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT40070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT40067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT40069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FD5726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD5727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5578708",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5578292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4331640",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "priming pump"
+  },
+  {
+   "item": "5654370",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1Z3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FF7077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FF7062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF7065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "FF7073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD3708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D1X3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/409/4098533/4098533.obj"
+  },
+  {
+   "fileName": "/409/4098533/4098533.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/409/4098533/4098533_top.png"
+  },
+  {
+   "fileName": "/409/4098533/4098533_front.png"
+  },
+  {
+   "fileName": "/409/4098533/4098533_iso2.png"
+  },
+  {
+   "fileName": "/409/4098533/4098533_right.png"
+  },
+  {
+   "fileName": "/409/4098533/4098533_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "M12 X 1.5 X 38"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6.05 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".07 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3.9 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".65 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

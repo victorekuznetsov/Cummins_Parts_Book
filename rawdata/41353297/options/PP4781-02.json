@@ -1,0 +1,148 @@
+{
+ "componentHash": "6D657B45F6525C31CE0C388874C2113564544034241D05FEC7B08A8C57F9ABD9E821C773C39E01690D9F2EE83C1942030ED67A0B04FA60D91203D3EF15B7F9D5",
+ "esnType": "mbom",
+ "optionName": "Turbocharger",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/pp/485_pp0478100_02"
+  }
+ ],
+ "remarks": "Turbocharger|aspiration: Charge Air Cooled|cpl: 3666|turbocharger Model: Honeywell With Wastegate|water Cooled Bearing Housing: No|turbo Speed Sensor Included: No|turbocharger Attitudes:|compressor Angle (deg): 8|turbine Angle: 348|fixed Compressor Angles By Exhaust|orientation:|hmfo: 20 Degrees From Horizontal|hmro: Na|exhaust Outlet Orientation: Hmfo|exhaust Outlet Flange Type:|full Marmon|exhaust Outlet Outer Dia (mm):|122.6 (4.83 In)|exhaust Outlet Location:|from Engine C/l (mm): 311.96 (12.3 In)|from Crankshaft C/l (mm): 822.93 (32.4 In)|from Ffob (mm): -433.37 (-17.1 In)|turbo Mtg Flange Type: Rectangular 4 Bolt|intake Air Conn Flange Type: Hose Bead",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "206576",
+      "latestPart": "false",
+      "partDesc": "TURBOCHARGER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3016182",
+      "latestPart": "false",
+      "partDesc": "LOCK NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 24 UNF",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4000521",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 24 X 2 1/4 INCH",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4951982",
+      "latestPart": "false",
+      "partDesc": "TURBOCHARGER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "D43513D345A3B0B241B41F6204BF8F57DC1E288630E7A735FB280A4ABE54400C52294572914691A98A011F5E0BFBEFFDBB9EC3FA898D2CC3F5F4F528E4CFDE3D",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "4955663",
+   "kitDesc": "Turbocharger,non Ctt Hhp",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "649C246F6CDD97AE170652985DB74A77904E8D5D1CB1830FA6D45E4487AF667642ED24FE81259EB8B92839D058399BCC3B2E90FF029478005C9EF45DBA1AB41A",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6525302",
+   "kitDesc": "Turbocharger Gasket Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "artCallOut": "/485/pp/485_pp0478100_02",
+ "optionPlantCode": "485",
+ "buildCode": null,
+ "optionNumber": "PP4781-02",
+ "optionNo": "PP4781-02",
+ "path": null
+}

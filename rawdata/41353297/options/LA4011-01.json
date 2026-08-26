@@ -1,0 +1,106 @@
+{
+ "componentHash": "57D0AA5B568DA7CFBA17FDB4D2C046CB5AECC084AC7DE8246FBEC6AE8B7B646E27834D8E5D982640E8DFC13A0CF358A83D6647E3FDBDA8B11BBAD50564B9F501",
+ "esnType": "mbom",
+ "optionName": "Lifting Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/la/485_la0401100_01"
+  }
+ ],
+ "remarks": "Lifting Arrangement|engine Family: Qsk19|engine Lifting Provision: Lifting Brackets|number Of Lifting Brackets: 2|front Bracket Location: #1 Rocker Housing|rear Bracket Location: #5 Rocker Housing|distance Between Centerlines (mm):|774.7 (30.5 In)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "108330",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "10",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "158391",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 INCH",
+      "qty": "10",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3018092",
+      "latestPart": "false",
+      "partDesc": "ENGINE LIFTING BRACKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "optionPlantCode": "485",
+ "artCallOut": "/485/la/485_la0401100_01",
+ "effectiveDate": null,
+ "optionType": "option",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "buildCode": null,
+ "optionNumber": "LA4011-01",
+ "optionNo": "LA4011-01",
+ "path": null
+}

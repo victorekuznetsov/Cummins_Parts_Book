@@ -1,0 +1,687 @@
+{
+ "componentHash": "E2E4DD3E923B1FD13A9A973EA74F0238CE657A7F30588A7C7350FC6FF8227CDEBBD09919BE0BC2702B64093147486C10097755C7C40B1423C0D3014B5E7CA7DC",
+ "esnType": "mbom",
+ "optionName": "Rocker Lever",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/rl/485_rl0471000_06"
+  }
+ ],
+ "remarks": "Rocker Lever|engine Family: D19|engine Lifting Provision:|#1 And #5 Rocker Housing|customer Bracket Mounting Provision:|#2, #3, #4, #6 Rocker Hsg 5 X 3/8-16 Unc|with Unequal Spacing|water Manifold Port Size: 1 1/16-12 Stor|variant Content:|in Place Of P/n 3630839,|kcl May Use P/n 4959090",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "205128",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 inch",
+      "qty": "48",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205129",
+      "latestPart": "false",
+      "partDesc": "RING DOWEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205357",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 3 3/4 INCH",
+      "qty": "30",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205393",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 2 INCH",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205394",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 4 1/2 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3057139",
+      "latestPart": "false",
+      "partDesc": "PUSH ROD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3086362",
+      "latestPart": "false",
+      "partDesc": "VALVE CROSSHEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4098941",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3176773",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER SHAFT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "203933",
+          "latestPart": "false",
+          "partDesc": "EXPANSION PLUG",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "8"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3176875",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER SHAFT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "9"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "4098942",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "168306",
+          "latestPart": "false",
+          "partDesc": "SLOTTED SET SCREW",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/2 - 20 X 2 INCH",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "10"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "6377069",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "207344",
+            "latestPart": "false",
+            "partDesc": "BUSHING",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "11"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4065627",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "12"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "6377141",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "13"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "S212",
+          "latestPart": "false",
+          "partDesc": "REGULAR HEXAGON NUT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/2 - 20 UNF",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "14"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "4098943",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "168306",
+          "latestPart": "false",
+          "partDesc": "SLOTTED SET SCREW",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/2 - 20 X 2 INCH",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "15"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "6377067",
+          "latestPart": "false",
+          "partDesc": "ROCKER LEVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "207344",
+            "latestPart": "false",
+            "partDesc": "BUSHING",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "16"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "4065627",
+            "latestPart": "false",
+            "partDesc": "DRIVE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "17"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "6377140",
+            "latestPart": "false",
+            "partDesc": "ROCKER LEVER",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "18"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "S212",
+          "latestPart": "false",
+          "partDesc": "REGULAR HEXAGON NUT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/2 - 20 UNF",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "19"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "4924611",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER SPACER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "20"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5373849",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER HOUSING GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "21"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5593393",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER HOUSING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "22"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/rl/485_rl0471000_06",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "RL4710-06",
+ "optionNumber": "RL4710-06",
+ "buildCode": null,
+ "path": null
+}

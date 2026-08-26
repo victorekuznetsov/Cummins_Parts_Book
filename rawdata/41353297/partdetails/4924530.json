@@ -1,0 +1,214 @@
+{
+ "partNo": "4924530",
+ "partDesc": "tube clamp",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "CO7001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil replenishing system"
+  },
+  {
+   "item": "FD4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FD4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FT40069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FD4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain plumbing"
+  },
+  {
+   "item": "FT40065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FD4712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FD4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT40067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FD4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT40070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0M3002CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/492/4924530/4924530.obj"
+  },
+  {
+   "fileName": "/492/4924530/4924530.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/492/4924530/4924530_iso.png"
+  },
+  {
+   "fileName": "/492/4924530/4924530_iso2.png"
+  },
+  {
+   "fileName": "/492/4924530/4924530_front.png"
+  },
+  {
+   "fileName": "/492/4924530/4924530_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "5.9 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".01 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".3 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

@@ -1,0 +1,882 @@
+{
+ "partNo": "3074629",
+ "partDesc": "twelve point cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "CP4076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "2891725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air compressor support"
+  },
+  {
+   "item": "3012212",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starter hole cover"
+  },
+  {
+   "item": "SM4776",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4777",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4778",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4785",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SF4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter flange cover"
+  },
+  {
+   "item": "SM4769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4745",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM4714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "MP5253",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starter hole cover"
+  },
+  {
+   "item": "FH5004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "housing flywheel"
+  },
+  {
+   "item": "FH5030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter hole cover"
+  },
+  {
+   "item": "FH1178",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH1164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH1165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH1166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ST4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "ST5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "ST5706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "FH5023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3014765",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR4021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CP4073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air compressor"
+  },
+  {
+   "item": "AR6248",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153097CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153096LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153095PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093341BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093343BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093397BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093432BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093205BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093204BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093334CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092244BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092318BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153076PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093491BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153094CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153093PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153092LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153091CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153090CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153081PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153082LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153080CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153100PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153098CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH5026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "housing flywheel"
+  },
+  {
+   "item": "FH5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "D153097CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153094CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153092LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153091CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153090CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153082LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153080CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153098CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153096LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/307/3074629/3074629.obj"
+  },
+  {
+   "fileName": "/307/3074629/3074629.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/307/3074629/3074629_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "5/8 - 11 X 1 1/2 INCH"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".19 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "4 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

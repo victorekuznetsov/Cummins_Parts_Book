@@ -1,0 +1,318 @@
+{
+ "partNo": "4916802",
+ "partDesc": "hexagon flange head cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "6375724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5694603",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6427485",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4371597",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "5483487",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "5483482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4963965",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4916790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4916790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4371598",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "5483488",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "5483483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4917120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "4963966",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "6383619",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6427484",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "6383618",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB4767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB4770",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB4758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB4761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BB4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB4729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "BB4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine crankshaft"
+  },
+  {
+   "item": "BB4740",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB4749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BB4746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/491/4916802/4916802.obj"
+  },
+  {
+   "fileName": "/491/4916802/4916802.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/491/4916802/4916802_front.png"
+  },
+  {
+   "fileName": "/491/4916802/4916802_iso.png"
+  },
+  {
+   "fileName": "/491/4916802/4916802_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "5/16 - 24 X 1 1/2 INCH"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "1.8 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".1 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": ".8 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
