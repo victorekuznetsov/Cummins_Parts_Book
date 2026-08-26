@@ -1,0 +1,57 @@
+{
+ "partNo": "4914597",
+ "partDesc": "water tube bracket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "WA1758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

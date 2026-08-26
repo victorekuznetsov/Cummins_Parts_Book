@@ -1,0 +1,60 @@
+{
+ "componentHash": "D84114777DEDE9D1A79100918F2939ECB22B4E147AFDC2BAAAFF68D1701312D8EADA4B930257B88CEE4AA7370E4E631393C152D15ED30AB328BD22EFB5A1B091",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ee/485_ee0130800_01"
+  }
+ ],
+ "remarks": "Alternator|quantity: One|manufacturer/model/type:|qianghua Jfz2602|volts:  24|amps:  60|grounding Method:  Negative|insulation Provision:  No|sealing Provision:  No|built-In Voltage Regulator:  Yes|ground Wire Supplier:  Customer|alternator Length:  216 Mm (8.5 In)|unique Characteristics:  Spool Mount|charging System:  Standard|battery Terminal:  M8",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4061007",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/485/ee/485_ee0130800_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "485",
+ "optionNumber": "EE1308-01",
+ "optionNo": "EE1308-01",
+ "buildCode": null,
+ "path": null
+}

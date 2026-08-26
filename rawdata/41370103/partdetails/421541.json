@@ -1,0 +1,154 @@
+{
+ "partNo": "421541",
+ "partDesc": "oil gauge support gasket",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AR45371",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil gauge mounting bracket"
+  },
+  {
+   "item": "3260633",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "dipstick and fill tube mounting"
+  },
+  {
+   "item": "LG1162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG1155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG1161",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LG1208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "OB1142",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil gauge"
+  },
+  {
+   "item": "D093669CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093679CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092667CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093665CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/421/421541/421541.obj"
+  },
+  {
+   "fileName": "/421/421541/421541.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/421/421541/421541_front.png"
+  },
+  {
+   "fileName": "/421/421541/421541_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "13.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".06 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "3 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": ".3 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

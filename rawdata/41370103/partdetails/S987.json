@@ -1,0 +1,2948 @@
+{
+ "partNo": "S987",
+ "partDesc": "plain female pipe elbow",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AR8611",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR8623",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-524 hose"
+  },
+  {
+   "item": "AR8469",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dcss-1"
+  },
+  {
+   "item": "AR8470",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dlss-1"
+  },
+  {
+   "item": "AR8471",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dfss-1"
+  },
+  {
+   "item": "AR8472",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dfss-2"
+  },
+  {
+   "item": "AR8473",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-1"
+  },
+  {
+   "item": "AR8474",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-2"
+  },
+  {
+   "item": "AR8475",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-5"
+  },
+  {
+   "item": "AR8476",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-8"
+  },
+  {
+   "item": "AR8477",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-9"
+  },
+  {
+   "item": "AR8478",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-12"
+  },
+  {
+   "item": "AR8479",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-13"
+  },
+  {
+   "item": "AR8480",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-18"
+  },
+  {
+   "item": "AR8481",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-20"
+  },
+  {
+   "item": "AR8482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-21"
+  },
+  {
+   "item": "AR8483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-22"
+  },
+  {
+   "item": "AR8484",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-23"
+  },
+  {
+   "item": "AR8485",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-24"
+  },
+  {
+   "item": "AR8492",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-515 hose"
+  },
+  {
+   "item": "AR8506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-591 hose"
+  },
+  {
+   "item": "AR8704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil ss-253"
+  },
+  {
+   "item": "AR8877",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-597 hose"
+  },
+  {
+   "item": "AR9434",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil bs-232"
+  },
+  {
+   "item": "AR9441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter hose"
+  },
+  {
+   "item": "AR9225",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-1"
+  },
+  {
+   "item": "AR9664",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-27"
+  },
+  {
+   "item": "AR9665",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-543 hose"
+  },
+  {
+   "item": "AR5651",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air starting valve"
+  },
+  {
+   "item": "AR6588",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR6910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "5659542",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR685",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "AR432",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR918",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR2764",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose lubricating oil filter"
+  },
+  {
+   "item": "AR3585",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose lubricating oil"
+  },
+  {
+   "item": "AR4341",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM91328",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM49080",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose assembly lubricating"
+  },
+  {
+   "item": "BM51626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM48626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil cooler"
+  },
+  {
+   "item": "BM61452",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter"
+  },
+  {
+   "item": "BM61489",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM58128",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM58997",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM57319",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM68216",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "double lubricating pump"
+  },
+  {
+   "item": "BM68116",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM66907",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM67192",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM69029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM69960",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM68366",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM68545",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM68700",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "BM72081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM71283",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM72302",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR45676",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water crossover front tube"
+  },
+  {
+   "item": "AR50728",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air supply tube"
+  },
+  {
+   "item": "AR51454",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart"
+  },
+  {
+   "item": "AR51350",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR51487",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR51825",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting kit"
+  },
+  {
+   "item": "AR51657",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR51846",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR61526",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil cooler"
+  },
+  {
+   "item": "AR61520",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler and junction"
+  },
+  {
+   "item": "AR94016",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil(s) hose"
+  },
+  {
+   "item": "AR96863",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "intercooler"
+  },
+  {
+   "item": "AR96864",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rear water cross connection"
+  },
+  {
+   "item": "BM56916",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil cooler"
+  },
+  {
+   "item": "BM52059",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR11736",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "AR12248",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR12559",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator connection"
+  },
+  {
+   "item": "AR12660",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR12554",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-604 hose"
+  },
+  {
+   "item": "AR12880",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water crossover tube"
+  },
+  {
+   "item": "AR12775",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR13030",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-9"
+  },
+  {
+   "item": "AR9513",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR9399",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-599 hose"
+  },
+  {
+   "item": "AR9402",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dfss-3"
+  },
+  {
+   "item": "AR9775",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "AR9720",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR9629",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-9"
+  },
+  {
+   "item": "AR9990",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-600 hose"
+  },
+  {
+   "item": "AR10114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-7"
+  },
+  {
+   "item": "AR10498",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "AR10507",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil dlss-1"
+  },
+  {
+   "item": "AR10514",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose, lub oil drss-28"
+  },
+  {
+   "item": "AR10234",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water heater"
+  },
+  {
+   "item": "AR11039",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "AR11076",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear hose"
+  },
+  {
+   "item": "AR8499",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil p-540 hose"
+  },
+  {
+   "item": "BM98980",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "BM98646",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "BM98146",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air supply tube"
+  },
+  {
+   "item": "BM98964",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "BP1213",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BM93573",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter"
+  },
+  {
+   "item": "BM93756",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter hose"
+  },
+  {
+   "item": "BM93411",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM93802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM93824",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM96440",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM97301",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air and strainer valve"
+  },
+  {
+   "item": "BM97031",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM97066",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM97790",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air valve and lubrication"
+  },
+  {
+   "item": "BM74964",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM77644",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM76989",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM78611",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating drive"
+  },
+  {
+   "item": "BM78043",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM77830",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air supply tube"
+  },
+  {
+   "item": "BM79364",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM79539",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "BM91651",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "2879474",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "intercooler piping"
+  },
+  {
+   "item": "3275808",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter mounting"
+  },
+  {
+   "item": "2879476",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "intercooler piping"
+  },
+  {
+   "item": "3010970",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "gear assembly plumbing"
+  },
+  {
+   "item": "3010245",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart mounting"
+  },
+  {
+   "item": "3009545",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3009546",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3006971",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "3006844",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating mounting filter"
+  },
+  {
+   "item": "3006882",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear plumbing"
+  },
+  {
+   "item": "3006822",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "jacket water kit"
+  },
+  {
+   "item": "3006839",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator connection"
+  },
+  {
+   "item": "3006889",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear plumbing"
+  },
+  {
+   "item": "3004179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting intercooler"
+  },
+  {
+   "item": "2879475",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "intercooler piping"
+  },
+  {
+   "item": "3277971",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler assembly"
+  },
+  {
+   "item": "3277970",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler assembly"
+  },
+  {
+   "item": "3278717",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler"
+  },
+  {
+   "item": "3028962",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler and junction lubricating oil"
+  },
+  {
+   "item": "3025716",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "3018306",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "3017626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water return tube"
+  },
+  {
+   "item": "3016348",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter hose"
+  },
+  {
+   "item": "3012045",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3011729",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating mounting filter"
+  },
+  {
+   "item": "3010975",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart assembly"
+  },
+  {
+   "item": "3010984",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3010985",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3070882",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating filter plumbing"
+  },
+  {
+   "item": "3070973",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water header mounting cover"
+  },
+  {
+   "item": "3070885",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hotstart plumbing"
+  },
+  {
+   "item": "3036995",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water crossover plumbing"
+  },
+  {
+   "item": "3036253",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3246353",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hardware kit"
+  },
+  {
+   "item": "3246398",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hardware kit"
+  },
+  {
+   "item": "3246195",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kit spares"
+  },
+  {
+   "item": "3245457",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "3261158",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "3260659",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "water crossover tube"
+  },
+  {
+   "item": "3260363",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart mounting"
+  },
+  {
+   "item": "3260049",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil hose"
+  },
+  {
+   "item": "3260108",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hose and plumbing"
+  },
+  {
+   "item": "3278736",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler assembly"
+  },
+  {
+   "item": "3278749",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler"
+  },
+  {
+   "item": "3881235",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly bracket oil gauge"
+  },
+  {
+   "item": "3881318",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "4085356",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "intercooler piping"
+  },
+  {
+   "item": "3881320",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger drain tube"
+  },
+  {
+   "item": "3800107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler front plumbing"
+  },
+  {
+   "item": "MP2269",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil mounting filter"
+  },
+  {
+   "item": "MP4772",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "LF3055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF3049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF3041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF3043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "FF4174",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel filter"
+  },
+  {
+   "item": "WA1755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1758",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1762",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1742",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "WA1748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler water plumbing"
+  },
+  {
+   "item": "TB1573",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "MP5615",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP5673",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP5674",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting intercooler"
+  },
+  {
+   "item": "MP5576",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "MP5610",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "MP50018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "MP50019",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart"
+  },
+  {
+   "item": "MP4956",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5103",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "MP5308",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5107",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5087",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting kim hotstart"
+  },
+  {
+   "item": "MP5175",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5430",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mtg.,kim hotstart"
+  },
+  {
+   "item": "MP5391",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "MP5237",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heater, water kimhotstart"
+  },
+  {
+   "item": "MP5586",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP5527",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP5532",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP5570",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP5537",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart plumbing"
+  },
+  {
+   "item": "MP3408",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "MP3812",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air intercooler"
+  },
+  {
+   "item": "MP4241",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP4915",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP4883",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP4894",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP4895",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "MP4898",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kim mounting hotstart"
+  },
+  {
+   "item": "LF3051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF7005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7616",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil filter & cooler"
+  },
+  {
+   "item": "LF7617",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil filter & cooler"
+  },
+  {
+   "item": "LF7025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil filter and cooler"
+  },
+  {
+   "item": "LF7020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LF7822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote,mtd.oil filter"
+  },
+  {
+   "item": "LF7823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LG4218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil level gauge"
+  },
+  {
+   "item": "LF3052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF3054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF3707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lube hose"
+  },
+  {
+   "item": "LF3708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lube hose"
+  },
+  {
+   "item": "LF3709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube hose"
+  },
+  {
+   "item": "LF3711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube hose"
+  },
+  {
+   "item": "LF3061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF3044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF3050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF3002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF3712",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube hose"
+  },
+  {
+   "item": "LF3723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lube hose"
+  },
+  {
+   "item": "LF3724",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube hose"
+  },
+  {
+   "item": "LF3705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lube hose"
+  },
+  {
+   "item": "LF3732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "LF3058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF1028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "LF1029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "LF1012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF1075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube filter hose"
+  },
+  {
+   "item": "LF1095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF3042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "filter cooler"
+  },
+  {
+   "item": "IM1061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold"
+  },
+  {
+   "item": "IM1060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold"
+  },
+  {
+   "item": "IM1073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold"
+  },
+  {
+   "item": "IM1863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "IM1219",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "IM1223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "IM1210",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air intake manifold"
+  },
+  {
+   "item": "IM1713",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water tube"
+  },
+  {
+   "item": "IM5028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "intake manifold"
+  },
+  {
+   "item": "FQ7702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel pump calibration"
+  },
+  {
+   "item": "WM1070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "water manifold"
+  },
+  {
+   "item": "TB1184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB1170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB3046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB3047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB3016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB3017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB4817",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "RG3715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex gear hose"
+  },
+  {
+   "item": "RG3707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear oil cooler plumbing"
+  },
+  {
+   "item": "RG5705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex gear hose"
+  },
+  {
+   "item": "OP1412",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP1368",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "LF3729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "LF3730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stratoflex lube oil hose"
+  },
+  {
+   "item": "LF3731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aeroquip lubricating oil hose"
+  },
+  {
+   "item": "LF3733",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube filter plumbing"
+  },
+  {
+   "item": "LF7704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter,remote"
+  },
+  {
+   "item": "LF7612",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote,mtd.oil filter"
+  },
+  {
+   "item": "3801221",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler conversion kit"
+  },
+  {
+   "item": "3801217",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler conversion kit"
+  },
+  {
+   "item": "3277835",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler mounting junction"
+  },
+  {
+   "item": "3278737",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction and cooler mounting"
+  },
+  {
+   "item": "3277836",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler mounting junction"
+  },
+  {
+   "item": "3028961",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler and junction lubricating oil"
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172016CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172045CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172043BX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172050CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171034CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172009CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093659CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093678CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093057CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR8725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR9502",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR6129",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR8368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR3239",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR51629",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR61444",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "junction assembly"
+  },
+  {
+   "item": "AR61415",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler and junction lubricating oil"
+  },
+  {
+   "item": "D074032PX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091355TX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092061FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092076CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092056CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CS3013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "kim hotstart"
+  },
+  {
+   "item": "D074028CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D081001CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D074029CX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BP3047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BM94908",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM94909",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM94910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM97030",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM97950",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM97955",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "BM97670",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "D173020TX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173055TX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173057TX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173056BX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172033TX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201032CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202034BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202033CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211041CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212044BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212046BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212045TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221042MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222033CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222032MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173018MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172035MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172046BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172052BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172050CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172047BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172051BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171004MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171034CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172016CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152021MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093663MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093448RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093401BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093348MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093350BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093349BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093351BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093353BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093352BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093359RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093362BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093361BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093365BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093364BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093363BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093205BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093204BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093293BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093309BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093311BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093310BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093316BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093313BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222034CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222041AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222043MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201031BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093317BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092431BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092389BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092392BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092391BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092390BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092270BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092271BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092306BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092307BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092358RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091355TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091514TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BP1083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP1088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "D173055TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173060BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173057TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173071MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172009CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172033TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LF7006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF7612",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote,mtd.oil filter"
+  },
+  {
+   "item": "LF7820",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LF7821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote,mtd.oil filter"
+  },
+  {
+   "item": "LF7822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote,mtd.oil filter"
+  },
+  {
+   "item": "LF7605",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF7823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LF7816",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LF7803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF7808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF1058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lube oil cooler"
+  },
+  {
+   "item": "LF1070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "LF7009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LF7010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "remote mtd.oil filter"
+  },
+  {
+   "item": "LF7606",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "LF7611",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil filter remote"
+  },
+  {
+   "item": "LF7812",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lub oil cooler"
+  },
+  {
+   "item": "D202033CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092307BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202034BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211041CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212046BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212044BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222033CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222034CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222041AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222040CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222039CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201031BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201032CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D201029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092389BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092392BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092391BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092390BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092270BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092271BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092306BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D202030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "2 In"
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".5 Lbs"
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "1 In"
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1 In"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "kit",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

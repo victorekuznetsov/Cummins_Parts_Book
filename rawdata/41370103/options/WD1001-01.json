@@ -1,0 +1,107 @@
+{
+ "componentHash": "8DA8254B674FA9B3CDA56C6B5B96D44AC05CF467FF5C25CD57C7EEA2FEA00371A9E5CFD895705359791EBC2838EB4F5ED54100BBBB4EECE9A715774556078EB3",
+ "esnType": "mbom",
+ "optionName": "Water Discharge Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/wd/485_wd0100100_01"
+  }
+ ],
+ "remarks": "Water Discharge Plumbing|draincock Included: Yes|draincock Qty: One|draincock Location:|water Jacket On Right Rear Of Engine|tc Oil Cooler Compatible: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3087690",
+      "latestPart": "false",
+      "partDesc": "DRAINCOCK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3037537",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3087691",
+        "latestPart": "false",
+        "partDesc": "DRAINCOCK",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/485/wd/485_wd0100100_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionType": "option",
+ "optionPlantCode": "485",
+ "optionNo": "WD1001-01",
+ "optionNumber": "WD1001-01",
+ "buildCode": null,
+ "path": null
+}

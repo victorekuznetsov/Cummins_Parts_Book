@@ -1,0 +1,83 @@
+{
+ "componentHash": "827BAFFAF69F177E88C4B7E98B9A2C38B9EE080A981EB921DC9092429FE521B43927A9120A97FE4E3181404BE8BD20DCD3ADD911A3DD6941488DC8ED3713DD42",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/485/ap/485_ap0116300_03"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Nonroad|cert Level: Cs I|special Allowance: Na|cert Agent: Mep|comment: None|fuel Type: Diesel|cert Level2:|certified By2:|rated Power Restriction (bhp): None|language: Chinese And English",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3056508",
+      "latestPart": "false",
+      "partDesc": "DRIVE SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5493917",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "graphicCount": "1",
+ "kitGraphic": [],
+ "artCallOut": "/485/ap/485_ap0116300_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "optionPlantCode": "485",
+ "optionNumber": "AP1163-03",
+ "optionNo": "AP1163-03",
+ "buildCode": null,
+ "path": null
+}

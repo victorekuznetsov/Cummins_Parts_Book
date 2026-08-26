@@ -1,0 +1,181 @@
+{
+ "partNo": "3250930",
+ "partDesc": "idler lever",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "AR87385",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "idler fan"
+  },
+  {
+   "item": "3250950",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan hub"
+  },
+  {
+   "item": "4914592",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan hub"
+  },
+  {
+   "item": "FA1347",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan arrangement"
+  },
+  {
+   "item": "FA1210",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan arrangement"
+  },
+  {
+   "item": "FA1601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA1585",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA1170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan idler"
+  },
+  {
+   "item": "D093665CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093669CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093484CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093437CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093436CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093445CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/325/3250930/3250930.obj"
+  },
+  {
+   "fileName": "/325/3250930/3250930.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/325/3250930/3250930_top.png"
+  },
+  {
+   "fileName": "/325/3250930/3250930_front.png"
+  },
+  {
+   "fileName": "/325/3250930/3250930_iso.png"
+  },
+  {
+   "fileName": "/325/3250930/3250930_iso2.png"
+  },
+  {
+   "fileName": "/325/3250930/3250930_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "26 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "4.2 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "25 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "14 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

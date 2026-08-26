@@ -1,0 +1,121 @@
+{
+ "partNo": "3250950",
+ "partDesc": "fan hub",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "FA1601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive"
+  },
+  {
+   "item": "FA1170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan idler"
+  },
+  {
+   "item": "D093665CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093669CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/325/3250950/3250950.obj"
+  },
+  {
+   "fileName": "/325/3250950/3250950.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/325/3250950/3250950_front.png"
+  },
+  {
+   "fileName": "/325/3250950/3250950_iso.png"
+  },
+  {
+   "fileName": "/325/3250950/3250950_iso2.png"
+  },
+  {
+   "fileName": "/325/3250950/3250950_right.png"
+  },
+  {
+   "fileName": "/325/3250950/3250950_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "28 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "9.966 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "34 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "27 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

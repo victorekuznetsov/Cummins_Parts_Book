@@ -1,0 +1,163 @@
+{
+ "partNo": "4914125",
+ "partDesc": "male adapter elbow",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "4914638",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel drain tube"
+  },
+  {
+   "item": "FT10263",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT10273",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT10322",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FT10248",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "FT10255",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fuel plumbing"
+  },
+  {
+   "item": "D093664CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093580DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093665CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093673GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093613DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093517DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092553DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/491/4914125/4914125.obj"
+  },
+  {
+   "fileName": "/491/4914125/4914125.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/491/4914125/4914125_iso.png"
+  },
+  {
+   "fileName": "/491/4914125/4914125_iso2.png"
+  },
+  {
+   "fileName": "/491/4914125/4914125_front.png"
+  },
+  {
+   "fileName": "/491/4914125/4914125_top.png"
+  },
+  {
+   "fileName": "/491/4914125/4914125_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "2.8 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".35 lb    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "2.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "1.75 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}
