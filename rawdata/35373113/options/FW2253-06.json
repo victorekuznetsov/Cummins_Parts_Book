@@ -1,0 +1,130 @@
+{
+ "componentHash": "E4E975E196492217766C47EBBB8A0B7481C9993D314E647929F8A074BC773B42F7A94CB1F6EE6EFEDB15D21972115D057E30929B6BE7F621E7B201CBEB144BBE",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/fw/082_fw0225300_06"
+  }
+ ],
+ "remarks": "Flywheel|intended Housing Sae: 1 Or 2|starter Center Distance: 243.84 Mm (9.60 In)|spacer Thickness: 12.7 Mm (.500 In)|clutch Bearing Pilot Bore Dia:|72.00 Mm (2.83 In)|clutch Size: 15.5 Inch|clutch Plate Type: Dual Plate|clutch Plate Material: Ceramic Disc|rear Gear Drive: No|intended Drive Hardware:|as-1552 Spicer Clutch|clutch With 7 Spring 15 Inch Damper|section And Ceramic Facing.",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3328689",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3065151",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3328688",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4071043",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 1.5 X 35",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/fw/082_fw0225300_06",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FW2253-06",
+ "optionNumber": "FW2253-06"
+}

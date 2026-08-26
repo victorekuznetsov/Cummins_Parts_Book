@@ -1,0 +1,60 @@
+{
+ "componentHash": "E3972A7DAF3F1694B9846215506BCCC52A8F5140B63A08FCDC2921A1B3E1D7DE88C1ADC08913ED85373DCBCF7B5C3548498D180E3F2E8883A1A69A950B406AF2",
+ "esnType": "mbom",
+ "optionName": "Fan Drive Belt",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/fa/082_fa0272600_04"
+  }
+ ],
+ "remarks": "Fan Drive Belt|fan Drive: Serpentine Alternator/fan Drive|required Fan Pulley Dia: 285.75|required Fan Center Distance: 13.00|required Fan Drive Ratio: .800:1|required Pulley Loc From Ffob: 140.0|belt Groove Profile: Poly V 8 Rib \"k\"|required Alternator Pulley Dia: 76.20|alternator Mtg Location: Right Side|belt Back Material: Rubber|rubber Backed Belt Industrial Applications|only|belt Location: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3290148",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/fa/082_fa0272600_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FA2726-04",
+ "optionNumber": "FA2726-04",
+ "buildCode": null
+}

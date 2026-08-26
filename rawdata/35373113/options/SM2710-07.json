@@ -1,0 +1,83 @@
+{
+ "componentHash": "A53FF3D1898D0C9C980384228A054E466662F12CA3451A2801E507C2813A9F85064DC9B1800CA2180D2A2AFDBFCD9B431F566B2224AB0C553B9CFAEE969FF5E2",
+ "esnType": "mbom",
+ "optionName": "Starting Motor Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/sm/082_sm0271000_07"
+  }
+ ],
+ "remarks": "Starter Motor Mounting (dependent)|starting Motor Mounting Screws: Metric|starting Motor Spacer Thickness:|12.7 Mm (.500 In)|clutch Type Provision: Dry",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "9245",
+      "latestPart": "false",
+      "partDesc": "STARTING MOTOR SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2891937",
+      "latestPart": "false",
+      "partDesc": "TWELVE POINT CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 2 X 60",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/sm/082_sm0271000_07",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "SM2710-07",
+ "optionNumber": "SM2710-07",
+ "buildCode": null
+}

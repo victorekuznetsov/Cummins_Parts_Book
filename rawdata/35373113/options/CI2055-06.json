@@ -1,0 +1,152 @@
+{
+ "componentHash": "398821BDB07AE2A21A7CA9491E006EE53844ABADD501D2512D1E68718D131C55AFB035BA2EFE0FC29FFC3FE2AFF8C30D3DEE051022A4B1B7BB83CAF0A9B18456",
+ "esnType": "mbom",
+ "optionName": "Compressor Air Inlet Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ci/082_ci0205500_06"
+  }
+ ],
+ "remarks": "Cpr Air Inlet Arrangement|air Inlet Connection Supplier: Cummins|air Inlet Tube Supplier: Cummins|1/8 Npt Pipe Port Included: No|manufacturer/model: Cummins 18.7 Cfm,|cummins 18.7 Hd|ecm Clearance Provision: Yes|air Compressor Air Inlet Tube Is Routed|away From The Cylinder Head To Allow The|use Of High Or Low Mount Ecm|inlet Air Supply Method: Turbocharged|max System Pressure Turbocharged: 10 Bar",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3036230",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 20",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3819725",
+      "latestPart": "false",
+      "partDesc": "HOSE CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "9/16 - 1 3/8 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3819871",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4952082",
+      "latestPart": "false",
+      "partDesc": "COMPRESSOR AIR INLET TUBE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4970037",
+      "latestPart": "false",
+      "partDesc": "PLAIN HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/082/ci/082_ci0205500_06",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "CI2055-06",
+ "optionNumber": "CI2055-06"
+}

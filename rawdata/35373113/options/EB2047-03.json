@@ -1,0 +1,60 @@
+{
+ "componentHash": "DB9A5C7E387AF1F9D2867EC58CCC94DC05126AB6E5281F90C2CA8DC28C25742B4822C98E2BC079F18B4200CC1C8DE1E881FCAF7170985831A6D497F1006CA77B",
+ "esnType": "mbom",
+ "optionName": "Engine Brake",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/eb/082_eb0204700_03"
+  }
+ ],
+ "remarks": "Engine Brake Control|engine Brake Installed: No|control System: Celect And Is2|brake Supplier: None",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3070175",
+      "latestPart": "false",
+      "partDesc": "VALVE CROSSHEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/eb/082_eb0204700_03",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EB2047-03",
+ "optionNumber": "EB2047-03",
+ "buildCode": null
+}

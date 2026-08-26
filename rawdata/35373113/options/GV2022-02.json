@@ -1,0 +1,139 @@
+{
+ "componentHash": "887EF21D7A3214E931508768B1D961412BE7798ECC973B45BE83B0BB0B9A065527062FC42DB99348E0E23F31413C3E58011084222DF24243E6CBC6C9C0DEF3C0",
+ "esnType": "mbom",
+ "optionName": "Air Compressor Governor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/gv/082_gv0202200_02"
+  }
+ ],
+ "remarks": "Air Compressor Governor|manufacturer: Bendix-Westinghouse|operating Pressure Range: 100 To 120 Psi|governor Location: Rear Governor Pad|air Compressor Provision:|use With Cummins Air Compressors With|metric Governor Mtg Except 37.4 Cfm|mtg Capscrew Thread Size: M8 X 1.25|supplied: Mounted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "181461",
+      "latestPart": "false",
+      "partDesc": "AIR COMPRESSOR GOVERNOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "185848",
+      "latestPart": "false",
+      "partDesc": "AIR COMPRESSOR GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3008465",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/8 NPT",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903096",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 70",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "F014A98F38A3B3698E4C088766A7227033492A93E60446D07641CA3F1765C9F0F0CC18E21F75D83754E6869CD886FF444E72A451368964FC6011DBF4F2CF2266",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5708739",
+   "kitDesc": "Governor Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/gv/082_gv0202200_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "082",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "GV2022-02",
+ "optionNumber": "GV2022-02"
+}

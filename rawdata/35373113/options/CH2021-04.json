@@ -1,0 +1,129 @@
+{
+ "componentHash": "B865028D6E0F54169DC0AAA4241ECBA6522895E549D1F895D4F0B0CA24066A6E1D8ACB8EFF721A18FA1B271FCDE80FA2053F8F1EACB438A1034DF06EF0EEE9A7",
+ "esnType": "mbom",
+ "optionName": "Coolant Heater Starting Aid",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ch/082_ch0202100_04"
+  }
+ ],
+ "remarks": "Coolant Heater Starting Aid|heater Element Supplier: None|no Future Requirement To Install An Engine|coolant Heater, Kim Hotstart Or Other|external Heaters Mounted In Heater Housing|located Right Rear On Water Header Plate.|heating Element Mounting Style:|no Element -- Blanking Plate Installed|heater Hsg Acc Plmb Hole: None|stud Provided: Stud -- Upper R.h. Corner",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3034836",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 30",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3251268",
+      "latestPart": "false",
+      "partDesc": "COVER PLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3883394",
+      "latestPart": "false",
+      "partDesc": "STUDDED HEXAGON CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 30 : M8 X 1.25 X 20",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3893690",
+      "latestPart": "false",
+      "partDesc": "HEATER HOUSING GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/082/ch/082_ch0202100_04",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "CH2021-04",
+ "optionNumber": "CH2021-04"
+}

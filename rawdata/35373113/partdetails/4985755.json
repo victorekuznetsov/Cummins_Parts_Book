@@ -1,0 +1,2181 @@
+{
+ "partNo": "4985755",
+ "partDesc": "installation trim data",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "6701979",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658407",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658406",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658405",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658403",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658402",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658401",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658400",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658399",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658408",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5658404",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4386566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882516",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883014",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882796",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883015",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883012",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882795",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883017",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883016",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882794",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2878156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882793",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2883013",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882612",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2882792",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "2869081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "electronic service calibration"
+  },
+  {
+   "item": "DO2421",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2424",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2431",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2432",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2434",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2551",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2552",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2645",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2646",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2647",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2648",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2649",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2447",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2457",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2460",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2492",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2465",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2466",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2468",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2471",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2472",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2500",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2348",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2686",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2688",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2689",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2691",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2693",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2697",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2698",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2665",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2668",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2669",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2671",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2672",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2673",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2674",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2984",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2519",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2520",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2521",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2522",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2523",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2525",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2526",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2306",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2307",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2308",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2309",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2344",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2340",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2342",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2343",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2347",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2363",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2364",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2365",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2403",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2404",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2405",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2406",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2407",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2440",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2415",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2546",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2548",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2549",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2550",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2878",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2881",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2882",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2887",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2888",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2889",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2890",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2871",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2844",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2845",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2814",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2818",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2825",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2651",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2657",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2658",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2553",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2567",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2568",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2572",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2573",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2610",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2611",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2612",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2613",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2614",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2616",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2617",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2618",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2626",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2627",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2628",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2630",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2631",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2632",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2633",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2635",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2640",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2641",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2642",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2643",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2644",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2650",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2435",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2438",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2439",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2482",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2483",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2443",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2445",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2446",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2769",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2681",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2683",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2684",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2685",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO11064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10993",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10994",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO2987",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2916",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2919",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2927",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2928",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2929",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2946",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2947",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2948",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2907",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2913",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2875",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2876",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO10981",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10982",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10983",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10984",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10985",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10986",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10987",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10988",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10989",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10990",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10991",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10992",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10996",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10997",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10998",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11000",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO2534",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2535",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2536",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2537",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2539",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2542",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2544",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2545",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO11436",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11437",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11438",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11446",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11439",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11440",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11441",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11442",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11443",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11444",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11445",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10797",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10799",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10802",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10872",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10926",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10975",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10976",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10977",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10978",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10979",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO10980",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11258",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11354",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11355",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11369",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO2516",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2826",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2775",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2782",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2791",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO2761",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO11447",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11448",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11449",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11450",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11451",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11452",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11453",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11454",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO14766",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO15624",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO11080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11372",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11388",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11389",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11435",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO11056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20243",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20272",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20273",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20314",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20316",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20487",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20488",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20490",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20491",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20501",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20542",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20543",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20564",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DO20069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20172",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "DO20042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "customer interface software"
+  },
+  {
+   "item": "D353014CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D353020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

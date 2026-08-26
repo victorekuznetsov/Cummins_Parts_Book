@@ -1,0 +1,79 @@
+{
+ "componentHash": "D53F376F0E19D410BB3AF25750431B6B658D30615BB2C9D6EBA9704AED74FD4D7E70E60D481E70DDAAD873371D4F8CCFB894DD8B6225E3ED5885F59DA5A5FC61",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Dei|transmission: Na|commun Support: J1587,j1939|oem Name: Buhler Versatil|oem Model: 2375 Ag Tractor|oemcomment:tractor|remote Throttle: N|high Idle: 2250 Rpm|low Idle: 0750 Rpm|isc Enable: 1|isc Validation: Off|switch Speed Input: No|torque Curve Selection: No|asg/axg/min/max: Asg|governor Droop: 06    %|idle Validation: No|multiple Unit Synchronization: No|output Driver Setup: Yes|calibration Voltage: Na|throttle Type: 14118 Standard|comment: None|powermatch: Yes|guid: Na|engine Brake Enabled: No|cpl: 8471|application: Nonroad|air Heater Enabled: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4985755",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4985774",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "DO2340-00",
+ "optionNumber": "DO2340-00",
+ "buildCode": null
+}
