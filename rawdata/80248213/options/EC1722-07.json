@@ -1,0 +1,60 @@
+{
+ "componentHash": "9D33D038A7C6F839B8A1C2474E189756BCBE54A2E7C782B935B5206F2D2E0052D4A21F647531C97280FB2AC1DB6C746EC8EF5E5FBA33D6682007594FCE62362E",
+ "esnType": "mbom",
+ "optionName": "Thermostat",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/ec/082_ec0172200_07"
+  }
+ ],
+ "remarks": "Thermostat|operating Range: 180 Degrees (open)|.435\" Stroke|number Of Thermostats: 2",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "4336659",
+      "latestPart": "false",
+      "partDesc": "THERMOSTAT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/ec/082_ec0172200_07",
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EC1722-07",
+ "optionNumber": "EC1722-07",
+ "buildCode": null
+}

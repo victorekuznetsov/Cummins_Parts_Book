@@ -1,0 +1,60 @@
+{
+ "componentHash": "45E80706FEDAC90B52811D55084D93F55C356FF4DA8B8BB74DDF4CE06E7A1A8DA9C98EF9DE8C6F9CB248DBA4EC8B1053B2C01E2A55B589B1F9E4C7F7CB8BEB32",
+ "esnType": "mbom",
+ "optionName": "Flywheel Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/fw/082_fw0170100_03"
+  }
+ ],
+ "remarks": "Flywheel Mounting|flywheel/flexplate Mounting Web|thickness: 15.75 Or 16.00 Mm|rear Gear Drive: No|flywheel: Cummins Supplied",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3678740",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M16 X 1.5 X 40",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/082/fw/082_fw0170100_03",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "082",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FW1701-03",
+ "optionNumber": "FW1701-03",
+ "buildCode": null
+}

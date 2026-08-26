@@ -1,0 +1,222 @@
+{
+ "componentHash": "A82B657095463E2B3CC440FF0AFC040CD0B0BE62968B4AC93E2D2E0234EEEB349A25F92C9C6F1CA8F01DE4FE61EB9871CE3A1D93401C8A4F499D409C2F224B08",
+ "esnType": "mbom",
+ "optionName": "Vibration Damper Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/082/da/082_da0123600_03"
+  }
+ ],
+ "remarks": "Vibration Damper Arrangement|intended Drive:  Front Pto Provision For|non Belt-Driven And Belt-Driven Fan|pto Supplier:  N/a|vibration Damper Quantity:  Two|crank Pulley Diameter:  186.23 Mm (7.33 In)|crank Pulley Groove Type:  Poly V 12 Rib \"k\"|crank Pulley Groove Location:|190.95 Mm (7.51 In)|pto Adapter Has 6 Equally Spaced|1/2-13unc-2b Thread Tapped Holes 25 Mm (1 In)|minimum Thread On A 120.65 Mm (4.75 In)|bolt Circle.|1322 Nm (975 Ft Lb) Maximum",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3100242",
+      "latestPart": "false",
+      "partDesc": "MOUNTING SPACER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3068935",
+        "latestPart": "false",
+        "partDesc": "PIN DOWEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3681595",
+        "latestPart": "false",
+        "partDesc": "MOUNTING SPACER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3101076",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT ADAPTER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3101376",
+      "latestPart": "false",
+      "partDesc": "CRANKSHAFT PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3681583",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 1.5 X 95",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3681610",
+      "latestPart": "false",
+      "partDesc": "FRACTURE RESISTANT SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M14 X 1.5 X 115",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4101884",
+      "latestPart": "false",
+      "partDesc": "VISCOUS VIBRATION DAMPER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "082",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/082/da/082_da0123600_03",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "DA1236-03",
+ "optionNumber": "DA1236-03"
+}
