@@ -1,0 +1,153 @@
+{
+ "componentHash": "C8C2E523EEEBA808D46CF8E271209541ACDB0581D1CEF11581B103D7AD0D190DC622C322D0866249EADFB524799C2CA048A29B13D77AF3DAA59D1210C6381651",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/fw/095_fw0410500_02"
+  }
+ ],
+ "remarks": "Flywheel|engine Family: K19|item(s) Supplied: Flywheel|flywheel Size: Sae 1|ring Gear Included: Yes|intended Drive Hardware|twin Disc 4mo-2000 Modulating Type|clutch And Torque Converter|additional Information:|wheel No. 140 Of Sae Standard J927a",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "200861",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "9",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "206354",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 18 X 3 1/4 INCH",
+      "qty": "9",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3027240",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "4851",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "206804",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/fw/095_fw0410500_02",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "FW4105-02",
+ "optionNumber": "FW4105-02",
+ "buildCode": null
+}

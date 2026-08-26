@@ -1,0 +1,492 @@
+{
+ "componentHash": "9D425E7626FE2AA9A371D02C3733A443445FD6365C2BC772232AE5B3CEC34836A01C9BC77E93C87D780E4537E59832569F1DCD7E2B4D567D53D42EE1DD6012CB",
+ "esnType": "mbom",
+ "optionName": "Cylinder Head",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Cylinder Head|engine Family: D19|components Supplied: Cylinder Heads|intake Valves: Nitrided|performance Parts: Standard|cpl: 0293, 0444, 0445, 0447, 1506|duty Cycle: Normal|application:|construction And Power Pump",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3646323",
+      "latestPart": "true",
+      "partDesc": "CYLINDER HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "205091",
+        "latestPart": "false",
+        "partDesc": "VALVE COLLET",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "8",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "205094",
+        "latestPart": "false",
+        "partDesc": "VALVE SPRING RETAINER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3088389",
+        "latestPart": "false",
+        "partDesc": "EXHAUST VALVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3634258",
+        "latestPart": "false",
+        "partDesc": "CYLINDER HEAD",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "3081065",
+          "latestPart": "false",
+          "partDesc": "CYLINDER HEAD",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "67622",
+            "latestPart": "false",
+            "partDesc": "PIPE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": "3/8 NPT",
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "4"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "203933",
+            "latestPart": "false",
+            "partDesc": "EXPANSION PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "5"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "205401",
+            "latestPart": "false",
+            "partDesc": "EXPANSION PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "8",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "6"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "206224",
+            "latestPart": "false",
+            "partDesc": "EXPANSION PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "2",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "7"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3081064",
+            "latestPart": "false",
+            "partDesc": "CYLINDER HEAD",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "false",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": false,
+            "callOut": "8"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "S915A",
+            "latestPart": "false",
+            "partDesc": "PIPE PLUG",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": "1/2 NPT",
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "9"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "3086192",
+          "latestPart": "false",
+          "partDesc": "VALVE INSERT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "2",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "10"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3086193",
+          "latestPart": "false",
+          "partDesc": "VALVE INSERT",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "2",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "11"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3202210",
+          "latestPart": "false",
+          "partDesc": "VALVE STEM GUIDE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "4",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "12"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3635250",
+          "latestPart": "false",
+          "partDesc": "GROOVE PIN",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "2",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "13"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      },
+      {
+       "data": {
+        "partNo": "3640315",
+        "latestPart": "false",
+        "partDesc": "VALVE ROTATOR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "14"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3643725",
+        "latestPart": "true",
+        "partDesc": "VALVE SPRING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "15"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4986317",
+        "latestPart": "false",
+        "partDesc": "INTAKE VALVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "16"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "A50755EAB59AE8FE77CD8D15F3BBA612F68FF875BD2792E97923F527A2FEE52DC533CFA0CDAD59E09AE3DE13571C63A8B98C0951E34C78B8F5CDAAF83815A0C5",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "2881836",
+   "kitDesc": "Intake Valve Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "D7C468F0E3AFA9130F9063447D7635CA4B8D98EFEBF1B1AF88932DF30B6EC954496663EC59464367908B809AB732E711D9533E9975A6E58716CC6760F9443E16",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "3803528",
+   "kitDesc": "Exhaust Valve",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "PP4712-05",
+ "optionNumber": "PP4712-05",
+ "buildCode": null
+}

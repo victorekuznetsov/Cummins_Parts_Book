@@ -1,0 +1,283 @@
+{
+ "partNo": "3032521",
+ "partDesc": "oil pan",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3036146",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "4297156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "OP4095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil pan"
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193067DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193079DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/303/3032521/3032521.obj"
+  },
+  {
+   "fileName": "/303/3032521/3032521.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/303/3032521/3032521_iso2.png"
+  },
+  {
+   "fileName": "/303/3032521/3032521_front.png"
+  },
+  {
+   "fileName": "/303/3032521/3032521_right.png"
+  },
+  {
+   "fileName": "/303/3032521/3032521_iso.png"
+  },
+  {
+   "fileName": "/303/3032521/3032521_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "92T7-3"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "37.6 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "51.5 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "23.6 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "14 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

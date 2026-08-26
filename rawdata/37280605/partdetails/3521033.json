@@ -1,0 +1,9548 @@
+{
+ "partNo": "3521033",
+ "partDesc": "shaft wheel rotor",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3599823",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger82"
+  },
+  {
+   "item": "3767935",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767936",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767937",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767938",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767941",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767934",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767954",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767943",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596323",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597154",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3596959",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596961",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596963",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3545532",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "3575208",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rotor assembly heat exchanger80"
+  },
+  {
+   "item": "3590196",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590178",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594083",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594090",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594085",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594043",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594036",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594038",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594056",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594060",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591932",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592520",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592880",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594141",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594126",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594131",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594149",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594137",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594139",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594143",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594172",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594174",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594151",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594096",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594124",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594054",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594081",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597554",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597830",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3598677",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594216",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly,core hc5a"
+  },
+  {
+   "item": "3594205",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly hc5a"
+  },
+  {
+   "item": "3594206",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger80"
+  },
+  {
+   "item": "3594858",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594871",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595517",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596055",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3596056",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3595843",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594145",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594176",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594195",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594190",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594199",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly,core hc5a"
+  },
+  {
+   "item": "3594200",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger80"
+  },
+  {
+   "item": "3767944",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767945",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767946",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767947",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3769994",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3769995",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3776865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "3598245",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599005",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598829",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3599232",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2834215",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843367",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843362",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843427",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "2843371",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843373",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843377",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843364",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524632",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524549",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "3524441",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524442",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524451",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843423",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843429",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "2843431",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "2834491",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "3528613",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3529870",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525356",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525504",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525354",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525508",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524650",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524658",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524652",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3523850",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524450",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534243",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534562",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534625",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534645",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3530185",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531981",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531983",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3527860",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3527372",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538312",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538610",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538512",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538513",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3545470",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "3545472",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "3536363",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536366",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536927",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537429",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537683",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537685",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538129",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3535766",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594040",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594034",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591213",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590940",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591283",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591931",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3545464",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "4043599",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger851"
+  },
+  {
+   "item": "4044265",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4044147",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3787527",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3791690",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "3792719",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "3795290",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4027076",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4027084",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly hc5a"
+  },
+  {
+   "item": "4027530",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "4027634",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4027351",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger82"
+  },
+  {
+   "item": "4027408",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger80"
+  },
+  {
+   "item": "4027669",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger82 core assembly"
+  },
+  {
+   "item": "4027696",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger82"
+  },
+  {
+   "item": "4027766",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4027851",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger80"
+  },
+  {
+   "item": "4027853",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger80"
+  },
+  {
+   "item": "4027416",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "4027890",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4027987",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4030921",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly core"
+  },
+  {
+   "item": "4032015",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly"
+  },
+  {
+   "item": "4032246",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4027267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4035862",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035865",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035869",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4036395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035917",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035914",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4036863",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core assembly heat exchanger83"
+  },
+  {
+   "item": "4034189",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "4035152",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043241",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037824",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038025",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "shaft & wheel"
+  },
+  {
+   "item": "4037648",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037934",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039052",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039452",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035739",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035859",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4045131",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4045868",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "core turbocharger"
+  },
+  {
+   "item": "4046373",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047063",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040073",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040809",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4041135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043236",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047066",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047293",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047297",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047295",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4048366",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4049890",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043116",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043216",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5638747",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5605368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5609483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5326071",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5326112",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5330566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5330329",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323940",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323955",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323953",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323959",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323960",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323947",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323954",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323951",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323945",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5551564",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5554267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5357010",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5455600",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5496581",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5496578",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5496580",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5551816",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5323946",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323949",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323950",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323944",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323941",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5323981",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323992",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323980",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323976",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323967",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323968",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323973",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323974",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323969",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323970",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger core"
+  },
+  {
+   "item": "5323961",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5324220",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357014",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "5357020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357023",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357024",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5357019",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5549591",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5548551",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5551565",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5551566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4950618",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4950617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4955346",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955330",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955331",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955309",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955293",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955347",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955554",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955512",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955702",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955689",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5324224",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5326115",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5326072",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5326114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5330577",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5330331",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5330207",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4955687",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955674",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955681",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955664",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955648",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955914",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955916",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4956080",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5552152",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5552151",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5555261",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5554531",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5357022",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "5638770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5638769",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5638768",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5636926",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5636925",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4090006",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089809",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089867",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4090064",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089876",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4309249",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4047064",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047068",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047069",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047070",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4048367",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4048368",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4049891",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4049892",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4089402",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4078724",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4078726",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4078725",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4089708",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089296",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089729",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089730",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4043118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4044267",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4044266",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4044148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4044149",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4045132",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046492",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046493",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046494",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046374",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046375",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046799",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4046495",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4047067",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040074",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040075",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040812",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040811",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4041136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040806",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4041137",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4042598",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4042599",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043218",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043238",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043242",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043237",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043243",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043100",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4043119",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037825",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037935",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038030",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037650",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037649",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037726",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038100",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037826",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038943",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038991",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039053",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039249",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039453",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4039454",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040804",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035741",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035740",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035872",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035871",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035805",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035804",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035861",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035860",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035918",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035864",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035866",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035863",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035870",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4036396",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4036397",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035915",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035916",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4035919",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4037725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4033515",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033516",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033521",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033523",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033500",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033503",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033581",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033747",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger aftermarket"
+  },
+  {
+   "item": "4033749",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033754",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4035154",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4033461",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033462",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033490",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033501",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033499",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033468",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033471",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033475",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033472",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033476",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033504",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033511",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033507",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033512",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033514",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033483",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033491",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033489",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033013",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033041",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033214",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033260",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033266",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033303",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033442",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033445",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033456",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033440",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033481",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033479",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033457",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4025354",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4033051",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033012",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4025020",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025024",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025027",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025026",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025014",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025156",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025206",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025022",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025350",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025220",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025219",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025302",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025303",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025301",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025309",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803590",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803589",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803591",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3804531",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803847",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "3803796",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3804491",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804492",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804495",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger heat exchanger82"
+  },
+  {
+   "item": "3804698",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804697",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804699",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804743",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804745",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3804830",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3804811",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4024887",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4024812",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3803103",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803013",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803119",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3803251",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803256",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803479",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803474",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801722",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801842",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801844",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801884",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801885",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801847",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803015",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801689",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801695",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801697",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801696",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3786569",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "3786617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "3786539",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "3787529",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3787528",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3795291",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3795292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3800396",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3800907",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3800908",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2834216",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2834217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2839479",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843397",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843399",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843390",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524633",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524457",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524460",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524458",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524459",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2882101",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882093",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882094",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882126",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882104",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2843398",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843391",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843392",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843395",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2843396",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2881796",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882022",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2881986",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882090",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882091",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "2882092",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "2882021",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882100",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2834223",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2834224",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3528614",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525218",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525357",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525219",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525505",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525506",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525507",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525355",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525509",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525510",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3525511",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524651",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524659",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3524653",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3523851",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3535767",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534303",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534244",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534563",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534646",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3534626",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3530186",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3529871",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3530006",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3530298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531939",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531984",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531940",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3531982",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3533954",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3533953",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3527373",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3527374",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3527861",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538313",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538611",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538502",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538420",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538755",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536364",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536367",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536931",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536930",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537570",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537430",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537431",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537808",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537688",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537687",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537684",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3537686",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3535761",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3535762",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3535768",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3536022",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594027",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594039",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594040",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594030",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591214",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591215",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590944",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591285",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591287",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591284",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591286",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591533",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591534",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591933",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591935",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591936",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591943",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590180",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590943",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3590941",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538178",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538130",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3538314",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594089",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594091",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594092",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594084",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594085",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594086",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594087",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594041",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594042",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594044",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594045",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594035",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594037",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594057",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594046",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594047",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594061",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591934",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591944",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591942",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3591945",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592523",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592524",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592521",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592522",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3592882",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3593020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3593021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594127",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594132",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594119",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594150",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594146",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594152",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594140",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594142",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594110",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594097",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594100",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594125",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594133",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594134",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594055",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594088",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594082",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598246",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598678",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594196",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594180",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594860",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594873",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594859",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594872",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595518",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595520",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595521",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595519",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594154",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594144",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594191",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594192",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594173",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594178",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594175",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594177",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594194",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594193",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3769998",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3769996",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3769997",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3773274",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3773275",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598247",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599006",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598679",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3598680",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599234",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599235",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767935",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767941",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3767934",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595844",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3595845",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596325",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596324",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596664",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597137",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597155",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596960",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596962",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3596964",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597555",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3597556",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP60028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "TU4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP43507",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6217",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6233",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6232",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6201",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6200",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6199",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6212",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6158",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6169",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6167",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6154",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6156",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6155",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6143",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4101",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4108",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4109",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4075",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1970",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1497",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1498",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1496",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1495",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP438",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP441",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP334",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP474",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP442",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP475",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP439",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP60287",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP77002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP60301",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45597",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45586",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45605",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45607",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45606",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45604",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45603",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45964",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45965",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46485",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45632",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45631",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45629",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP44450",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil connection"
+  },
+  {
+   "item": "PP44744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44696",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44693",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP45532",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP44289",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44244",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP44312",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44302",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44288",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44295",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "injector"
+  },
+  {
+   "item": "PP44291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler plumbing"
+  },
+  {
+   "item": "PP44286",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44694",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44505",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "PP44544",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil connection"
+  },
+  {
+   "item": "PP44451",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43589",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43875",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler plumbing"
+  },
+  {
+   "item": "PP43855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP43835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43849",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP43804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43764",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP43930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP43998",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP43930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP43903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP46625",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46627",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46626",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46755",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46624",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46579",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46623",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP60042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP60042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP60028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP46848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP60065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP60291",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP60274",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP60285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP10569",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP10627",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP40932",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP41438",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP41756",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP40933",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43456",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP43588",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP43507",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43763",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler plumbing"
+  },
+  {
+   "item": "PP43660",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP7988",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP8140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8685",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8614",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6837",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6822",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6808",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6893",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6884",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP45482",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45481",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45600",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45599",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45598",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45596",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP44185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP6126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6859",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6859",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6966",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6956",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6945",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6922",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6924",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6925",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6938",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6909",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6220",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6221",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6218",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6810",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6798",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6786",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6797",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6856",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6851",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6199",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6197",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6208",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6175",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6174",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6170",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43904",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44186",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44192",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8586",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8588",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8338",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP10150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4726",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4150",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4863",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP5752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5759",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5783",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5771",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5768",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP5772",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4746",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4743",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4738",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4741",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6188",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6130",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1455",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1430",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4132",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2634",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2625",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2548",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2635",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2636",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2915",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2910",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2816",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2962",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2256",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4749",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4752",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4753",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4796",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4146",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP334",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D813003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP2323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2316",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2313",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2312",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2356",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2327",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2326",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2511",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2499",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2421",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2404",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1970",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2166",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2257",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1456",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1457",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "2839490",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2839209",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599866",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594134",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "2839210",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3428332",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly turbocharger"
+  },
+  {
+   "item": "3428197",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger assembly"
+  },
+  {
+   "item": "3428367",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly turbocharger"
+  },
+  {
+   "item": "3426292",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "assembly turbocharger"
+  },
+  {
+   "item": "2882101",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882094",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882126",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2881796",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882022",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2881986",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882091",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "2882092",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "2882093",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882090",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882021",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882104",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "3594028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594029",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594030",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594089",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594086",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594087",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594088",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594041",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594042",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594132",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594119",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594133",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594097",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594098",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594120",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594121",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3594118",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3803589",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803590",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803103",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803013",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3803119",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801842",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801884",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801885",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3803015",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801689",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801695",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801697",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3801847",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4090064",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4309249",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089296",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089876",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089708",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089730",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4089809",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4038102",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4038101",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040743",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4033515",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033471",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033156",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033456",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4033461",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4025014",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025024",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025026",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025206",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025219",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025220",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025027",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4025309",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5638754",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5357028",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5357027",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5452045",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5454744",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4368017",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4955347",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955309",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955293",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955346",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955512",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955689",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5328424",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5352233",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4955681",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955664",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955648",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955914",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4955916",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4956080",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321614",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321619",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321617",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321694",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321621",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5321711",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "4368018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4352314",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5554533",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5554532",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5555262",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5352234",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5352114",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5351887",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "5352232",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192058DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192060DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192047GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193078RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193048GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193052CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232018DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232009GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232007MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193087RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233013PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233008MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103021GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193109CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193078RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193052CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193087RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233042GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233038MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232045GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233013PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283042GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D363003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233049MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233047CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233040CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "5328424",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801885",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3803015",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "3801697",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4033050",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "aftermarket turbocharger"
+  },
+  {
+   "item": "4044690",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4041207",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4040744",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "4309249",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "2882094",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "hx80 turbocharger"
+  },
+  {
+   "item": "2882091",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger80 turbocharger"
+  },
+  {
+   "item": "3599866",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "3599867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4748",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4747",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6189",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6188",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6130",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6165",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6162",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6160",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6159",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1455",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1458",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1457",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D773002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP4106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2634",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2635",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2625",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2636",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2257",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4824",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4823",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP4821",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "D863001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D873001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP379",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP334",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D403089BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593003MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573007GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D573001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593009MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813003GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D843001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D813002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP2323",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2511",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2226",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2206",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2184",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP2256",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP1456",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP45586",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45600",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP44879",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil connection"
+  },
+  {
+   "item": "PP44694",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44744",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44192",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP44179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44185",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44265",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP44450",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44302",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44288",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44693",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP44451",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP44505",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "PP43660",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP43835",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler"
+  },
+  {
+   "item": "PP43998",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP43903",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP43930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP46754",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP46623",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP60199",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP40932",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP40933",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43333",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP43588",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP43589",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP7995",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP7829",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP7860",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP8163",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8140",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8137",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8138",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP8338",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP45463",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45461",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45462",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP45601",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PP44186",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "camshaft"
+  },
+  {
+   "item": "PP6123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP7852",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP7804",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP7767",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "PP6223",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6211",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6202",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6225",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6157",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP43930",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "aftercooler core"
+  },
+  {
+   "item": "PP43855",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "cylinder head"
+  },
+  {
+   "item": "PP44193",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "connecting rod and piston"
+  },
+  {
+   "item": "PP4152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4153",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP4127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "PP6100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "performance parts"
+  },
+  {
+   "item": "D673002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D403089BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D673001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D613001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D613002MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D663001GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D593012MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3599867",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger"
+  },
+  {
+   "item": "5322005",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger kit"
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233047CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193109CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193087RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233032LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233049MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232044MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232045GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "27.5 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.702 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "14.2 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "13.6 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

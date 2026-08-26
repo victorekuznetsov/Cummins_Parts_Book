@@ -1,0 +1,79 @@
+{
+ "componentHash": "87823FDD63B7D9DBA3FADD5696AB32F513081A23990694DF862D31DC08747C7C5EDB48CE43371717B9F789D7B37DF65BCEA583C8607E5AE0242C322D891B1A29",
+ "esnType": "mbom",
+ "optionName": "Remote Oil Drain",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Remote Oil Drain|engine Family: K19|oil Drain Fitting Included:|90 Degree Elbow With Cap|oil Pan Drain Hole Size: 1 1/16-12un-2b|oil Drain Fitting Supplied:  Mounted|oil Drain Fitting Mtg Location:|center Drain Hole Of Oil Pan",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3047340",
+      "latestPart": "false",
+      "partDesc": "MALE UNION ELBOW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3047341",
+      "latestPart": "false",
+      "partDesc": "TUBE CAP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "PS4014-01",
+ "optionNumber": "PS4014-01"
+}

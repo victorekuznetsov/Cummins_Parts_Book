@@ -1,0 +1,6696 @@
+{
+ "partNo": "S127C",
+ "partDesc": "hexagon head cap screw",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "BM72298",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter cooler"
+  },
+  {
+   "item": "BM74018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM74361",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM75697",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "AR95780",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator and shroud"
+  },
+  {
+   "item": "BM22949",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter support"
+  },
+  {
+   "item": "BM17070",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "BM26558",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter support"
+  },
+  {
+   "item": "BM23857",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter support"
+  },
+  {
+   "item": "BM38988",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starter air"
+  },
+  {
+   "item": "AR61858",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting rear engine"
+  },
+  {
+   "item": "AR61994",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "gear box bracket"
+  },
+  {
+   "item": "AR95462",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine & radiator brkts"
+  },
+  {
+   "item": "AR95140",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator and shroud"
+  },
+  {
+   "item": "AR95234",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing bracket"
+  },
+  {
+   "item": "AR94853",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator and shroud"
+  },
+  {
+   "item": "AR96226",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator and shroud"
+  },
+  {
+   "item": "AR45557",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "front power t o bracket"
+  },
+  {
+   "item": "AR45634",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lifting generator set bracket"
+  },
+  {
+   "item": "AR50147",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starter support"
+  },
+  {
+   "item": "AR50693",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR51517",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "AR11914",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing support"
+  },
+  {
+   "item": "AR12296",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "AR12286",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket support"
+  },
+  {
+   "item": "AR12557",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "t c cooler support"
+  },
+  {
+   "item": "AR9329",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "AR9439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR10148",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR10807",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "governor control unit"
+  },
+  {
+   "item": "AR10768",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "block cylinder hardware kit"
+  },
+  {
+   "item": "AR11002",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR7414",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "terminal block"
+  },
+  {
+   "item": "AR7772",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear bracket"
+  },
+  {
+   "item": "AR8314",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "AR8348",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket support"
+  },
+  {
+   "item": "AR8648",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "AR8750",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket support"
+  },
+  {
+   "item": "AR8690",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "AR2739",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket support"
+  },
+  {
+   "item": "AR4020",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR4021",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR4023",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR4024",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR4028",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AR4810",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "terminal block"
+  },
+  {
+   "item": "AR5625",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "AR6248",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "AC6117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner"
+  },
+  {
+   "item": "AC6179",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AR512",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket support"
+  },
+  {
+   "item": "AR780",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bracket fan"
+  },
+  {
+   "item": "AR738",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "CE85002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine cooling system"
+  },
+  {
+   "item": "CE85002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine cooling system"
+  },
+  {
+   "item": "BM95573",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM96093",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM97797",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear bracket"
+  },
+  {
+   "item": "BM98394",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "terminal block"
+  },
+  {
+   "item": "BM78406",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM79302",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM90034",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM87830",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan bracket"
+  },
+  {
+   "item": "BM92985",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "terminal block"
+  },
+  {
+   "item": "BM93421",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "BM94446",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "BM70111",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "3024655",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air brackets"
+  },
+  {
+   "item": "3019811",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting generator"
+  },
+  {
+   "item": "3024645",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner"
+  },
+  {
+   "item": "3015179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "exhaust collector"
+  },
+  {
+   "item": "3016349",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting generator"
+  },
+  {
+   "item": "3016940",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting bracket"
+  },
+  {
+   "item": "3017227",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear mounting parts"
+  },
+  {
+   "item": "3017228",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear mounting parts"
+  },
+  {
+   "item": "3019142",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting clutch"
+  },
+  {
+   "item": "3018923",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starter bracket  mounting"
+  },
+  {
+   "item": "3011418",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "pdc,kit"
+  },
+  {
+   "item": "3011035",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "starting mounting motor"
+  },
+  {
+   "item": "3011537",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing mounting support"
+  },
+  {
+   "item": "3011536",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing mounting support"
+  },
+  {
+   "item": "3013435",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "front support mounting"
+  },
+  {
+   "item": "3014697",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air mounting starter"
+  },
+  {
+   "item": "3014698",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air mounting starter"
+  },
+  {
+   "item": "3014765",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3014765",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3007095",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "front engine mounting support"
+  },
+  {
+   "item": "3007117",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing mounting bracket"
+  },
+  {
+   "item": "3007767",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear plate"
+  },
+  {
+   "item": "3009031",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel mounting housing"
+  },
+  {
+   "item": "3003809",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "bracket, shpping mtg."
+  },
+  {
+   "item": "3004403",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear mounting p bracket"
+  },
+  {
+   "item": "3004404",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear mounting s bracket"
+  },
+  {
+   "item": "3004405",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear bracket"
+  },
+  {
+   "item": "3005094",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "3005217",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel mounting housing"
+  },
+  {
+   "item": "3005672",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting generator"
+  },
+  {
+   "item": "3006119",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque cooler mounting"
+  },
+  {
+   "item": "2867277",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support mounting"
+  },
+  {
+   "item": "3628770",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "3628791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "main generator adapter"
+  },
+  {
+   "item": "3627089",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flexplate mounting"
+  },
+  {
+   "item": "3628032",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "lifting assembly"
+  },
+  {
+   "item": "3352074",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil filter mounting bracket"
+  },
+  {
+   "item": "3261611",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "3261611",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "3265378",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "3261088",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator mounting"
+  },
+  {
+   "item": "3248099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "support radiator"
+  },
+  {
+   "item": "3248109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "3248110",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "support radiator"
+  },
+  {
+   "item": "3248067",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "3248075",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "3248327",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator mounting"
+  },
+  {
+   "item": "3260295",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator mounting"
+  },
+  {
+   "item": "3246406",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing  bracket"
+  },
+  {
+   "item": "3246908",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing bracket"
+  },
+  {
+   "item": "3247069",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "3241239",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rock shield"
+  },
+  {
+   "item": "3241239",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rock shield"
+  },
+  {
+   "item": "3177625",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator mounting"
+  },
+  {
+   "item": "3052337",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "3056802",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "expansion tank"
+  },
+  {
+   "item": "3033533",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fan brace"
+  },
+  {
+   "item": "3035109",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3037856",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting generator"
+  },
+  {
+   "item": "3024654",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "air brackets"
+  },
+  {
+   "item": "4966595",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support mounting"
+  },
+  {
+   "item": "4966594",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "front engine support mounting"
+  },
+  {
+   "item": "5277812",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rock shield support"
+  },
+  {
+   "item": "5278319",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel kit"
+  },
+  {
+   "item": "4055745",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "hydraulic system mounting"
+  },
+  {
+   "item": "3882138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "support radiator mounting"
+  },
+  {
+   "item": "3881668",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing mounting"
+  },
+  {
+   "item": "DA1327",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "DA1308",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "vibration damper"
+  },
+  {
+   "item": "EM1247",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM1330",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1330",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1345",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1346",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1350",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1406",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1407",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM1421",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EM4139",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4154",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM3059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "FH4149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH5057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "GG6914",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "GG6915",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "MG6152",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "MG6156",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LA4020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting arrangement"
+  },
+  {
+   "item": "LA4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "LA4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "LA4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting arrangement"
+  },
+  {
+   "item": "LA4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "LA4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "KC4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "keel cooler plumbing"
+  },
+  {
+   "item": "LA4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting arrangement"
+  },
+  {
+   "item": "MP4721",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "reverse mounting gear"
+  },
+  {
+   "item": "MP4722",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "reverse mounting gear"
+  },
+  {
+   "item": "MP4869",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP4910",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP4979",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "flywheel mounting housing"
+  },
+  {
+   "item": "MP5026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear plate"
+  },
+  {
+   "item": "MP5026",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear plate"
+  },
+  {
+   "item": "MP3554",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3555",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3720",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3968",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel mounting filter"
+  },
+  {
+   "item": "MP3897",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler, torque conv mtg"
+  },
+  {
+   "item": "MP3898",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler, torque conv mtg"
+  },
+  {
+   "item": "MP4136",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil gauge mounting bracket"
+  },
+  {
+   "item": "MP4135",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil gauge mounting bracket"
+  },
+  {
+   "item": "MP4065",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting motor starting"
+  },
+  {
+   "item": "MP4354",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear plate"
+  },
+  {
+   "item": "MP4360",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine and gear bracket"
+  },
+  {
+   "item": "MP3350",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel mounting filter"
+  },
+  {
+   "item": "MP3479",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3480",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3482",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3528",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3531",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3486",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3494",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3495",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3498",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3468",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3470",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3472",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3475",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3476",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP3629",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "fuel mounting filter"
+  },
+  {
+   "item": "MP3634",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting clutch"
+  },
+  {
+   "item": "MP967",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "MG6151",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "RB1037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RB2001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB2002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rail"
+  },
+  {
+   "item": "PK6017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "railcar installation package"
+  },
+  {
+   "item": "PK6016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "railcar installation package"
+  },
+  {
+   "item": "MP23397",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator mounting"
+  },
+  {
+   "item": "MP5410",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP5508",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear bracket"
+  },
+  {
+   "item": "MP5450",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP5529",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP5504",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP5643",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP5617",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "marine gear mounting"
+  },
+  {
+   "item": "MP5599",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP21437",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP21438",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "radiator support"
+  },
+  {
+   "item": "MP4566",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine plate"
+  },
+  {
+   "item": "MP4721",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "reverse mounting gear"
+  },
+  {
+   "item": "RE4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support arrangement"
+  },
+  {
+   "item": "RE4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support arrangement"
+  },
+  {
+   "item": "RE1007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE1013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "RE4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RB4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RE4714",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE1020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE1025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "SA4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "power train support"
+  },
+  {
+   "item": "SK4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4717",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SM2002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SM2004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "SK9040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SK4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SM5729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SM4807",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SR4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR1009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SR4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "SS4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SS4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SS4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SS4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SS4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SS4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping bracket"
+  },
+  {
+   "item": "SR4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SR4011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SR4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "SR4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "debris shield"
+  },
+  {
+   "item": "ST4715",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "SA4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "TC5020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter cooler"
+  },
+  {
+   "item": "RG6021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear"
+  },
+  {
+   "item": "RG8012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear"
+  },
+  {
+   "item": "RG8001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8058",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG5002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse and red. gea"
+  },
+  {
+   "item": "SS4030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lifting bracket"
+  },
+  {
+   "item": "ST5702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "ST5703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "ST5704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "ST5705",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "ST5706",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "ST5707",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor mounting"
+  },
+  {
+   "item": "ST5708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "ST5709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter mounting"
+  },
+  {
+   "item": "ST6015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST5001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "ST5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST5004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter"
+  },
+  {
+   "item": "ST5005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter"
+  },
+  {
+   "item": "ST6278",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ST6300",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "ST6064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST6016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST6017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST6018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST8065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "dual delco-remy 24v start"
+  },
+  {
+   "item": "ST8012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starting motor"
+  },
+  {
+   "item": "ST8016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter"
+  },
+  {
+   "item": "ST8041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "starter"
+  },
+  {
+   "item": "SA4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "RB4016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "PK6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "railcar installation package"
+  },
+  {
+   "item": "RG5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse and red. gea"
+  },
+  {
+   "item": "RG5004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse and red gear"
+  },
+  {
+   "item": "RG5001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & red gear"
+  },
+  {
+   "item": "RG4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse gear and mounting"
+  },
+  {
+   "item": "RG6009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RE4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RB4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RE4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RE4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "RB4013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4010",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "SA4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "SA4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "SA4008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "SA4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "SA4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear support"
+  },
+  {
+   "item": "SG4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine guard"
+  },
+  {
+   "item": "RG8049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "reverse & reduction gear"
+  },
+  {
+   "item": "RG8052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG8034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "RG6020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear"
+  },
+  {
+   "item": "HX6103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6104",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6011",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6008",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "MG8256",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8257",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8258",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8259",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8260",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8261",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8262",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8283",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8284",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8285",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8286",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8287",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8288",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8275",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8276",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8277",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8278",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8279",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8280",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "RB4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "RB4033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "RB4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4123",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4124",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "FH5017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "housing flywheel"
+  },
+  {
+   "item": "FH5076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "housing flywheel"
+  },
+  {
+   "item": "FH5028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5066",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH5067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "FH6033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "HX6085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX5103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX5149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "heat exchanger"
+  },
+  {
+   "item": "HX5177",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "HX6007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX1071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "FW6026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flexplate"
+  },
+  {
+   "item": "MG8281",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8282",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8250",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8251",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8252",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8253",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8254",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG8255",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "main generator"
+  },
+  {
+   "item": "MG6148",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "LF1190",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil filter"
+  },
+  {
+   "item": "HX6086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6092",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6097",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "HX6096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "radiator"
+  },
+  {
+   "item": "EM4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM3060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4076",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4077",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4078",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4079",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4088",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4080",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4081",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "FA5034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "FA5033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "fan drive arrangement"
+  },
+  {
+   "item": "EM5003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "EM7809",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear support"
+  },
+  {
+   "item": "EM4114",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4115",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4117",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4102",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4103",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4091",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4126",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4127",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4128",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4122",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "D563036MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563023MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D433004BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D433002BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D433003BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D433001UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483010GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D563005MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EM4082",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4083",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4084",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine support"
+  },
+  {
+   "item": "EM4085",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4113",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM1266",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear engine supports"
+  },
+  {
+   "item": "EM1250",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM1251",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM3045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "shipping brackets"
+  },
+  {
+   "item": "EM3053",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3054",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM1098",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4125",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "subbase"
+  },
+  {
+   "item": "EM4118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4118",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4119",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4120",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4141",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4147",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4131",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4133",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear eng support"
+  },
+  {
+   "item": "EM4176",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4164",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM4204",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "EM5016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "EM5027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "front engine support"
+  },
+  {
+   "item": "EM5002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "generator mounting"
+  },
+  {
+   "item": "EM3056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3043",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM3044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "EM4046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4049",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base rails"
+  },
+  {
+   "item": "EM4013",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "3801385",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "3811921",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder kit block"
+  },
+  {
+   "item": "3811922",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder kit block"
+  },
+  {
+   "item": "3801386",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "3628525",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder kit block"
+  },
+  {
+   "item": "3028468",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "3028467",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "3011409",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder ser. k-6"
+  },
+  {
+   "item": "3009560",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "3003803",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "3006131",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "2879394",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "mounting support radiator"
+  },
+  {
+   "item": "3628791",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "main generator adapter"
+  },
+  {
+   "item": "3246230",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kit spare(heat ex.cooled)"
+  },
+  {
+   "item": "3246210",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "kit spare(rad.cooled)"
+  },
+  {
+   "item": "3060545",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "cylinder kit block"
+  },
+  {
+   "item": "3044520",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "3028439",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6"
+  },
+  {
+   "item": "D343069BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343068BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343070UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343071UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343073UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343072UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343074UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342019BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342046BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342043AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342048PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342064AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342049PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283039GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283045CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283047GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283048GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343113BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343118CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343123GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343122CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343120DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343126BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343124LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343129BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343132BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343136BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343133BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343139BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343097BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343099BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343098BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343100BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343102BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343103BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343105BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343104BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343107AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343106BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343108UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343110CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343109CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343111BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343112BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343115BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343076UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343081BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343082BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343084UX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343086AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343088AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343091BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343090BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343092BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343093BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343095BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343094BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343096BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343055BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343057BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343056BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343058BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343059BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343060BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343066BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343065BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343067BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D263006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D263005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343032BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343034BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343033BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343038BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343047AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343041DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343050PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343054BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343051BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342121CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343006BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343011AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343010AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343008CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343014BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343016CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343020BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343023AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343022AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343024BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343030TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D343029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342005BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342012CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342009AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342007CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342013BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342015CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D342021AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193119CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193109CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233052GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233053GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233054GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283038CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193106CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D103017MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173018MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093348MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092667CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092675CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152053FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093676CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093678CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093680MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D0Y3001CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093681MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093645MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093648MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093659CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153107GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AS1001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "AS5001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air starter"
+  },
+  {
+   "item": "AR45630",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder service block"
+  },
+  {
+   "item": "AR12161",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "block,cylinder k-6 (ser.)"
+  },
+  {
+   "item": "D092347MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091190FX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D074032PX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D074031PX01",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "AC5073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "air cleaner"
+  },
+  {
+   "item": "CL8018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear clutch"
+  },
+  {
+   "item": "CL8020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stub shaft"
+  },
+  {
+   "item": "CL8029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL8038",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL8014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL8015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL8016",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL5009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL6009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "stub shaft"
+  },
+  {
+   "item": "CL6021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rear clutch"
+  },
+  {
+   "item": "CL4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "CL8017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "clutch"
+  },
+  {
+   "item": "BP5001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "D093619PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093620LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093624PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093616CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093617CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093603CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093594PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093595PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093597CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093568CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172017MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D172035MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D171004MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092473DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092474GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092439PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092404DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092375GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092368MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092331CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092333PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092347MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092278PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091367MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091403DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091325CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091327PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091346MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091360GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D091276PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093437CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093369MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153086DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153087CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153088GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153089DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153090CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153077LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153078LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153079CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153080CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153081PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153035CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153045MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153074GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153076PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192058DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192060DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D173018MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093348MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093337PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093338PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093334CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093335CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093280PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092577GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092553DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092554GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D092576DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093501CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093503PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093484CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093445CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093436CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152014CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152021MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152072GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D152085DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153025CX00",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193079DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193087RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193070GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193078RX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193067DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193068GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193069DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233013PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233014PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233017CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233019DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233001CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233005LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233008MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232006LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232007MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232009GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232012PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232018DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232024CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222031CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222029BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222033CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222034CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153098CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153099CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153100PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153101DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153102GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153103DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153104MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153091CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153092LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153093PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153094CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153095PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153096LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153097CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153082LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153083DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D153084GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283042GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283033MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283021DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283023LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283024GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283014DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283016DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283017GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283018CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283019CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283007PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283008CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283009DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283010CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283011DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283012GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D262002GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D263004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283004LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283005MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D232003CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212038CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212035BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212044BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D212045TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221028BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D221030CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D222027BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211037CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211036BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D211041CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193115MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193116MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283006GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233038MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233030DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233033DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233020DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233021GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233022DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233023GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233025CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D233010GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283034MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283036MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283037MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283025DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283029LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283031DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D283020CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3024723",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "FH6033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "flywheel housing"
+  },
+  {
+   "item": "3024724",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "D233026CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "3024725",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cylinder block"
+  },
+  {
+   "item": "BP4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/S00/S000127C/S000127C.obj"
+  },
+  {
+   "fileName": "/S00/S000127C/S000127C.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/S00/S000127C/S000127C_iso.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Characteristics",
+   "attributes": [
+    {
+     "partDimensions": {
+      "name": "Dimensions",
+      "value": "5/8 - 11 x 1 3/4 inch"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "6 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".05 kg    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "7 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "6 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

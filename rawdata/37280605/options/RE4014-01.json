@@ -1,0 +1,56 @@
+{
+ "componentHash": "DDF603A6BAADE5E4334B2E979E0D0CEB1642B28AD79FACEC2AF288A8056BBF15DF05216AE1839A6CC3B837360DD7ED6809F5704CA91A29530FEE1C0EE7DACFCF",
+ "esnType": "mbom",
+ "optionName": "Rear Engine Support",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Rear Engine Support|engine Family: K19|item(s) Included:|capscrews For Customer Mounting|supply Method: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3053193",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 1 3/4 INCH",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "RE4014-01",
+ "optionNumber": "RE4014-01"
+}

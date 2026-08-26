@@ -1,0 +1,60 @@
+{
+ "componentHash": "A15FF234E6D44947BAE41A49EBC9106AD7FD1085308616666BD2AFF57BB6635D067F71460B34047CEA56C6230538F6CFAFC849DA1A7EAA2186F62220CE3F9696",
+ "esnType": "mbom",
+ "optionName": "Electrical Accessories",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ea/095_ea0407100_01"
+  }
+ ],
+ "remarks": "Electrical Accessories|engine Family: K19|component Supplied: Magnetic Pick-Up|control System Supplier: Customer|supply Method: Kitted|item(s) Supplied:|3/4-16 Unf Plug-In Type Shroud Connector|2 Male Repair Wires",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3039524",
+      "latestPart": "false",
+      "partDesc": "MAGNETIC PICKUP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ea/095_ea0407100_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EA4071-01",
+ "optionNumber": "EA4071-01"
+}

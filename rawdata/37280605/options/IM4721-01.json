@@ -1,0 +1,313 @@
+{
+ "componentHash": "CD4819A361B22755579163314F6D7D543BB26F66AB25301EDB15E5AB2F23505027761B626ACDFE589E39457A65DBA30C7EE0380739BC8FA4E20E8750CD860CCB",
+ "esnType": "mbom",
+ "optionName": "Air Intake Manifold Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/im/095_im0472100_01"
+  }
+ ],
+ "remarks": "Air Int Manifold Mounting|engine Family: K19|item(s) Supplied:|mounting For Intake Manifold|intake Manifold Type: Aftercooled|afc: Yes|air Compressor Inlet Plumbing: No|noise Panels: No|variant Content:|in Place Of P/n 3008466,|kcl May Use 3628605",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "103271",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 4 INCH",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "123204",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 2 1/2 INCH",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "127362",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "24",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "137868",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 4 1/2 INCH",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "137872",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 7 INCH",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3008466",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3010596",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 1/4 INCH",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3011693",
+      "latestPart": "false",
+      "partDesc": "COVER PLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "8"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3014304",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "9"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201388",
+      "latestPart": "false",
+      "partDesc": "FLANGE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3637396",
+      "latestPart": "false",
+      "partDesc": "INTAKE MANIFOLD GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S604",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 inch",
+      "qty": "24",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/im/095_im0472100_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "IM4721-01",
+ "optionNumber": "IM4721-01"
+}

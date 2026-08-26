@@ -1,0 +1,338 @@
+{
+ "componentHash": "1BD07D164876DB02BBAF5B2218789516FA8683FF1AD5C30F4D79E8B850D304BEE037E024FB2958D7141554B0CE5305A22164229A8B93A9EC2E0E975E506A75D2",
+ "esnType": "mbom",
+ "optionName": "Hand Hole Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ob/095_ob0483800_08"
+  }
+ ],
+ "remarks": "Hand Hole Cover|engine Family: D19|dipstick Provision Quantity: 1|h H Cover Used With Dipstick(s) Location:|a) Front Or Rear Oil Pan Adapter Boss|fuel Pump Side|b) Oil Pan Adapter Boss Exhaust Side|oil Fill Location: Cam Follower Cover|variant Content:|in Place Of 3046202|kcl May Use  6430344",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "210753",
+      "latestPart": "false",
+      "partDesc": "HOSE CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "9/16 - 1 1/4 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3040838",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 1/4 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3042586",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3046202",
+      "latestPart": "false",
+      "partDesc": "THREADED PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 - 16 UNF",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3040810",
+        "latestPart": "false",
+        "partDesc": "THREADED PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3046201",
+        "latestPart": "false",
+        "partDesc": "O RING SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3069847",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201060",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "7"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201081",
+      "latestPart": "false",
+      "partDesc": "HAND HOLE MOUNTING COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3040838",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE WASHER CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/8 - 16 X 1 1/4 INCH",
+        "qty": "6",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3042586",
+        "latestPart": "false",
+        "partDesc": "HAND HOLE GASKET",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "9"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4057590",
+      "latestPart": "false",
+      "partDesc": "INSTRUCTION TAG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "AS16020NF",
+      "latestPart": "false",
+      "partDesc": "FLEXIBLE HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ob/095_ob0483800_08",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "OB4838-08",
+ "optionNumber": "OB4838-08",
+ "buildCode": null
+}

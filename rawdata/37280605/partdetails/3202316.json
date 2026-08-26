@@ -1,0 +1,241 @@
+{
+ "partNo": "3202316",
+ "partDesc": "tur oil supply tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3048018",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3049501",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "3096216",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger oil drain"
+  },
+  {
+   "item": "3248717",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "4080388",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "brace and harness assembly"
+  },
+  {
+   "item": "TB4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger mounting"
+  },
+  {
+   "item": "TB4737",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger arrangement"
+  },
+  {
+   "item": "TB4751",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "turbocharger plumbing"
+  },
+  {
+   "item": "TB4838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "PH6708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine control module"
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583003CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D583002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/320/3202316/3202316.obj"
+  },
+  {
+   "fileName": "/320/3202316/3202316.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/320/3202316/3202316_front.png"
+  },
+  {
+   "fileName": "/320/3202316/3202316_iso.png"
+  },
+  {
+   "fileName": "/320/3202316/3202316_iso2.png"
+  },
+  {
+   "fileName": "/320/3202316/3202316_right.png"
+  },
+  {
+   "fileName": "/320/3202316/3202316_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "18.5 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "1.74 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "15.5 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "2.88 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

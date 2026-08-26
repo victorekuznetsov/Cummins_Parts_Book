@@ -1,0 +1,129 @@
+{
+ "componentHash": "B1BEED402DF6878C47BC113AE049537D1153DF47DFCC1CB44F517F69494D077E07EADF33B5AF1395DF5A3489E13E1FB3033CDA1C77E1344483C3B9899CC1A979",
+ "esnType": "mbom",
+ "optionName": "Lifting Bracket",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ss/095_ss0400800_05"
+  }
+ ],
+ "remarks": "Lifting Bracket|engine Family: K19|lifting Bosses Located:|between Rocker Housings|rocker Housings Not Machined:|for Mounting Of Lifting Or Support|brackets|fuel Control System: Non Stc",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "205129",
+      "latestPart": "false",
+      "partDesc": "RING DOWEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3008469",
+      "latestPart": "false",
+      "partDesc": "PIPE PLUG",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/4 NPT",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3202193",
+      "latestPart": "true",
+      "partDesc": "ROCKER LEVER HOUSING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "5",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3202197",
+      "latestPart": "true",
+      "partDesc": "ROCKER LEVER HOUSING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ss/095_ss0400800_05",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "SS4008-05",
+ "optionNumber": "SS4008-05"
+}

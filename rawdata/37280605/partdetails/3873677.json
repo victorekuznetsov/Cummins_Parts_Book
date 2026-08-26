@@ -1,0 +1,1225 @@
+{
+ "partNo": "3873677",
+ "partDesc": "crankcase breather",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "BR1214",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "3873542",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "5559430",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever cover"
+  },
+  {
+   "item": "4397126",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever cover"
+  },
+  {
+   "item": "3096465",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "3007114",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "rocker lever cover"
+  },
+  {
+   "item": "3200343",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cam follower cover"
+  },
+  {
+   "item": "BR4110",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4116",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4121",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4093",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4094",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "D093646CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093647CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093676CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093649CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR1328",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1339",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1318",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR4090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR1310",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1274",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1279",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BP5018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BR4095",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4096",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4099",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4100",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4105",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4106",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR9263",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1365",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4059",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4067",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR5732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR5731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "BR1319",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather"
+  },
+  {
+   "item": "D263004CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253022GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253016GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253019CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253012GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253011CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D253015CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251018GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251023GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251020CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D263006GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D263005GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193100CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193109CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193096CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251017CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D251010CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4019",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4021",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "D092675CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D093678CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BP4020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BP4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "base parts"
+  },
+  {
+   "item": "BR4029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather location"
+  },
+  {
+   "item": "BR4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4039",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather location"
+  },
+  {
+   "item": "BR4007",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather"
+  },
+  {
+   "item": "BR4014",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather"
+  },
+  {
+   "item": "BR4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather"
+  },
+  {
+   "item": "BR4017",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4018",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4107",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "BR4042",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather"
+  },
+  {
+   "item": "BR4002",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4003",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather location"
+  },
+  {
+   "item": "BR4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather location"
+  },
+  {
+   "item": "BR4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "breather"
+  },
+  {
+   "item": "BR4046",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4050",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4025",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "BR4028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "crankcase breather arrangement"
+  },
+  {
+   "item": "3099237",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "ccv system retrofit kit"
+  },
+  {
+   "item": "3099238",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "ccv system retrofit kit"
+  },
+  {
+   "item": "D483009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "VC4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4009",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4012",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4028",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4030",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4032",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "VC4034",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover arrangement"
+  },
+  {
+   "item": "OP4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker hsg cov"
+  },
+  {
+   "item": "OP4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "rocker hsg cov"
+  },
+  {
+   "item": "D483010GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D413062BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "VC4716",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "VC4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "valve cover"
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193116MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193100CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192047GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192060DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192058DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193048GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193052CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/387/3873677/3873677.obj"
+  },
+  {
+   "fileName": "/387/3873677/3873677.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/387/3873677/3873677_top.png"
+  },
+  {
+   "fileName": "/387/3873677/3873677_front.png"
+  },
+  {
+   "fileName": "/387/3873677/3873677_iso.png"
+  },
+  {
+   "fileName": "/387/3873677/3873677_iso2.png"
+  },
+  {
+   "fileName": "/387/3873677/3873677_right.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "13 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".2 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "13 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "12 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

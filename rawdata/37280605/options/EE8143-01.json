@@ -1,0 +1,56 @@
+{
+ "componentHash": "1314814D769C9A7B804F0628D80A8D0B01273E052F2405A055CEC6F171940D2260724C25F3AD85C00C29A8EDC112AF34A09AAC8EE514D7FF70D8E6D2CA9C5AB8",
+ "esnType": "mbom",
+ "optionName": "Alternator",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Alternator|alt Manufacturer/model:|prestolite 8sc3009za|voltage: 24|amperage: 175|alternator Mounting Type:|lugs (mm): 103.1 (4.06 In.) Apart|support Bracket Interface:|spool (mm): 100.3 (3.95 In.)|alternator Length (mm): 268 (10.55 In.)|cummins Branded: Yes|ground Type: Negative|insulated: Yes|built In Voltage Regulator: Yes|wiring Harness Included: No|ground Strap Included: No|cooling Fan Included: Yes",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3088320",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EE8143-01",
+ "optionNumber": "EE8143-01"
+}

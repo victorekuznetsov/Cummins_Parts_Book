@@ -1,0 +1,106 @@
+{
+ "componentHash": "52DD40770117F6A939B0377DF9ECFF2D85531FEDDC7262A49757902C957724176C419C79ADD5D5DDF47D1DF706C91A336E645F6A4869040EA3BBFC6F5D52D6FE",
+ "esnType": "mbom",
+ "optionName": "Air Cleaner Plumbing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ca/095_ca0805500_02"
+  }
+ ],
+ "remarks": "Air Cleaner Plumbing|hose Type: Elbow Reducer|hose Angle: 90 Degree|quantity: 1|internal Dimension (mm):|178 (7.0 In) To 140 (5.50 In)|material: Silicone/high Temperature|clamps Included: T Bolt|clamp Quantity And Diameter (mm):|1 @ 152 (6.0 In)|1 @ 191 (7.50 In)|supply Method: Kitted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "125741",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "6 inch",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3030515",
+      "latestPart": "false",
+      "partDesc": "ELBOW HOSE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3175623",
+      "latestPart": "false",
+      "partDesc": "T BOLT CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "7 3/4 inch",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "095",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/095/ca/095_ca0805500_02",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "CA8055-02",
+ "optionNumber": "CA8055-02"
+}

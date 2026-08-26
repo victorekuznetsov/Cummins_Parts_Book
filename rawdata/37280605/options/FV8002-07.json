@@ -1,0 +1,464 @@
+{
+ "componentHash": "A846BFC237AFCD9ECAA0677AD0134E0AAAF6809CA80A95A10B3E5BE5B1E3D06862B15546D3FD7E0CDC3FFBCF97E035B418540B26B48DFB987E84722C858EC887",
+ "esnType": "mbom",
+ "optionName": "Fuel Shutoff Valve",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/fv/095_fv0800200_07"
+  }
+ ],
+ "remarks": "Fuel Shutoff Valve|shutoff Valve Type:|solenoid Operated|valve Voltage: 24 Dc|solenoid Terminals:|single|mounting Location:|fuel Pump",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "67684",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "154087",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "181466",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3035362",
+      "latestPart": "false",
+      "partDesc": "SHUTOFF VALVE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3025458",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/8 NPT",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3053452",
+        "latestPart": "false",
+        "partDesc": "FUEL SHUTOFF VALVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "129768",
+          "latestPart": "false",
+          "partDesc": "VALVE SPRING",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "5"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "129839",
+          "latestPart": "false",
+          "partDesc": "SHUTOFF VALVE COVER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "6"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "129886",
+          "latestPart": "false",
+          "partDesc": "FUEL SHUTOFF VALVE BODY",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "ASSEMBLY"
+         },
+         "expanded": true,
+         "children": [
+          {
+           "data": {
+            "partNo": "129826",
+            "latestPart": "false",
+            "partDesc": "SHUTOFF VALVE BODY",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "7"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "129838",
+            "latestPart": "false",
+            "partDesc": "KNOB",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "8"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3000266",
+            "latestPart": "false",
+            "partDesc": "SHUTOFF VALVE SHAFT",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "9"
+           },
+           "expanded": true,
+           "children": []
+          },
+          {
+           "data": {
+            "partNo": "3279794",
+            "latestPart": "false",
+            "partDesc": "O RING SEAL",
+            "lvlNo": "4",
+            "remarks": "",
+            "dimensions": null,
+            "qty": "1",
+            "hotSpotId": null,
+            "transDescription": null,
+            "sellable": "true",
+            "reconEquivalent": null,
+            "leaf": false,
+            "artCallOut": null,
+            "startDt": null,
+            "stopDt": null,
+            "hasGraphic": true,
+            "callOut": "10"
+           },
+           "expanded": true,
+           "children": []
+          }
+         ]
+        },
+        {
+         "data": {
+          "partNo": "129888",
+          "latestPart": "false",
+          "partDesc": "RECTANGULAR RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "11"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "187556",
+          "latestPart": "false",
+          "partDesc": "CAPTIVE WASHER CAP SCREW",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/4 - 24 X  1/2 INCH",
+          "qty": "4",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "12"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3030970",
+          "latestPart": "false",
+          "partDesc": "VALVE DISC",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "13"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3054609",
+          "latestPart": "false",
+          "partDesc": "SOLENOID",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "14"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "S189C",
+      "latestPart": "false",
+      "partDesc": "SOCKET HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 - 20 x 1 3/4 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "15"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "7A979B253380134EFF43F7D27A7E1FC63D98DF7EA87F6714DAD39C84A66F37F313A36E801A25016F21F912C6D6882F850A0E9072EFB41C09FF4EBC3277A69B92",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "4024809",
+   "kitDesc": "Fuel Solenoid Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/fv/095_fv0800200_07",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FV8002-07",
+ "optionNumber": "FV8002-07"
+}

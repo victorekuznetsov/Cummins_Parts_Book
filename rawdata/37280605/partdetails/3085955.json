@@ -1,0 +1,1441 @@
+{
+ "partNo": "3085955",
+ "partDesc": "oil cooler housing",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "3070924",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cast cooler"
+  },
+  {
+   "item": "3393139",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "2896712",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "2862705",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "2862704",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "3088423",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cast cooler"
+  },
+  {
+   "item": "3073179",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "3348830",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "3201157",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cast cooler"
+  },
+  {
+   "item": "3201155",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cast cooler"
+  },
+  {
+   "item": "3201152",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "3201153",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler,torque conv"
+  },
+  {
+   "item": "3393138",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "3866069",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4081281",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4057537",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "cooler,torque conv"
+  },
+  {
+   "item": "4345202",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "3804958",
+   "itemType": "K",
+   "lvlNbr": null,
+   "itemDesc": "lubricating oil kit"
+  },
+  {
+   "item": "4081284",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333818",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4322690",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333825",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4081283",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333824",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4322686",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333822",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4057660",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "4333820",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4081282",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333819",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4322688",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4333821",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4345213",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4345203",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4322655",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "4345212",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "3866099",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4986273",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4986274",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "4916846",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine cast cooler"
+  },
+  {
+   "item": "5278986",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "TC4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "LC4708",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4711",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4720",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4005",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4006",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4004",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "OC4015",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "marine gear oil cooler"
+  },
+  {
+   "item": "LC4739",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "TC4068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TC4090",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TC4087",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TC4086",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "TC4060",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4029",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4027",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4026",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4024",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4063",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4061",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "LC4718",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4725",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4723",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4721",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4719",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4734",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "TC4023",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4022",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4040",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oiler cooler"
+  },
+  {
+   "item": "TC4037",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4036",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4035",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4033",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4044",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4041",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4048",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4020",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4068",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4071",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4070",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4047",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4045",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4056",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4057",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "TC4055",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4052",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "torque converter oil cooler"
+  },
+  {
+   "item": "TC4062",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil cooler"
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC4731",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4701",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4702",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4704",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4729",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4730",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4727",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4728",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483010GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "LC4732",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4703",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "LC4709",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "engine oil cooler"
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193092DX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193110GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193114GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193079DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193111GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193112GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193115MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193104CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193105CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193101CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193102MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193103GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192060DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192058DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193052CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193098CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193100CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193095MX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193094GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193090CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193070GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193069DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193068GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193067DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483006CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483007CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483009GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483004CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483010GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483002GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D483008GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/308/3085955/3085955.obj"
+  },
+  {
+   "fileName": "/308/3085955/3085955.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/308/3085955/3085955_front.png"
+  },
+  {
+   "fileName": "/308/3085955/3085955_iso.png"
+  },
+  {
+   "fileName": "/308/3085955/3085955_iso2.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    },
+    {
+     "partTopic": {
+      "name": "Service Part Topic",
+      "value": "99T0-4"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "40 in    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": "46.25 lb    "
+     }
+    },
+    {
+     "hazardDescription": {
+      "name": "Hazardous Material",
+      "value": "Non-Hazardous (NOI, ICE/Auto)"
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "10.25 in    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "10.25 in    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "both",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

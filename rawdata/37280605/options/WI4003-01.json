@@ -1,0 +1,106 @@
+{
+ "componentHash": "345BE506374067E061225EDFE591CD0FBDDE0E949F5EF713D93C0100E9287878278036C8A9914E96550A31D328C5A7E05B42F4CC2A742E1A29F3D7C3FFD2FF9A",
+ "esnType": "mbom",
+ "optionName": "Water Inlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/wi/095_wi0400300_01"
+  }
+ ],
+ "remarks": "Water Inlet Connection|engine Family: K19|inlet Connection Type:|3/8 In Thick Steel Plate Companion|flange With 3.5 In Center For|customer Supplied 3 Inch Piping|to Be Welded|supply Method: Mounted",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "205288",
+      "latestPart": "false",
+      "partDesc": "WATER TRANSFER CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3003001",
+      "latestPart": "false",
+      "partDesc": "FLANGE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3010596",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 1 1/4 INCH",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/wi/095_wi0400300_01",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "WI4003-01",
+ "optionNumber": "WI4003-01",
+ "buildCode": null
+}

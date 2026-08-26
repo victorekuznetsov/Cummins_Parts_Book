@@ -1,0 +1,360 @@
+{
+ "componentHash": "4D16F83B686CB2F56119BF1FB5C4F1486571D96503721D53DE6812DA32EF5BC154547ABF46B79EDE19ADD780214E3630CCD3F2E985D8CCCB5D896E70A0F4D2BC",
+ "esnType": "mbom",
+ "optionName": "Flywheel Housing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/fh/095_fh0412600_01"
+  }
+ ],
+ "remarks": "Flywheel Housing|engine Family: K19|flywheel Housing: Sae 1|flywheel Housing Material:|cast Iron|clutch Type: Dry|tach Sensor Mtg Hole Size:|2 X 3/4-16|number Of Starter Positions: 2|starter Mtg Flange Type:|sae #3 (3 X 120 Degrees)",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "60408",
+      "latestPart": "false",
+      "partDesc": "PIN DOWEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "172648",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "205247",
+      "latestPart": "false",
+      "partDesc": "O RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3081794",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL HOUSING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3096260",
+      "latestPart": "false",
+      "partDesc": "RECTANGULAR RING SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3160925",
+      "latestPart": "true",
+      "partDesc": "OIL SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "6"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201078",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL HOUSING COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3010595",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE WASHER CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/8 - 16 X 1 INCH",
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201056",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL HOUSING COVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "4922215",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 - 20 X  1/2 INCH",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "9"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S103A",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 x 2 inch",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S116",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 - 11 X 1 1/2 INCH",
+      "qty": "10",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S603",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "5/8 inch",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S631",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/4 inch",
+      "qty": "8",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "13"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/fh/095_fh0412600_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "FH4126-01",
+ "optionNumber": "FH4126-01",
+ "buildCode": null
+}

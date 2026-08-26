@@ -1,0 +1,153 @@
+{
+ "componentHash": "1A6AFE0730089315C4357C4782F6D40E7234107FC40F4760F777450A4D3DB845549AE09B797CD09E8F91901B0C239059CF215591BDDA3B17FB0BEA81EA285C30",
+ "esnType": "mbom",
+ "optionName": "Accessory Drive Pulley",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ad/095_ad0401400_01"
+  }
+ ],
+ "remarks": "Accessory Drive Pulley|engine Family: Kt19|pulley Diameter (mm): 171.45 (6.75 In)|pulley Groove Profile: Two V-Groove|pulley Mounting Face Location:|fuel Pump Side Of The Engine|pulley Material: Cast Iron|drive Ratio: Na|rotation: Clockwise|mounting Provision: Na|engine Interface (mm):|34.925 (1.375 In) Pilot Diameter|drives: Refrigerant Compressor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3014695",
+      "latestPart": "false",
+      "partDesc": "ACCESSORY DRIVE PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "190397",
+        "latestPart": "false",
+        "partDesc": "WEAR SLEEVE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3011826",
+        "latestPart": "false",
+        "partDesc": "ACCESSORY DRIVE PULLEY",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3200287",
+      "latestPart": "false",
+      "partDesc": "KEYWAY SEAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S316",
+      "latestPart": "false",
+      "partDesc": "PLAIN WOODRUFF KEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ad/095_ad0401400_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "AD4014-01",
+ "optionNumber": "AD4014-01"
+}

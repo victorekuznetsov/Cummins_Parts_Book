@@ -1,0 +1,723 @@
+{
+ "partNo": "3201081",
+ "partDesc": "hand hole mounting cover",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "2879908",
+   "itemType": "P",
+   "lvlNbr": null,
+   "itemDesc": "engine mounting"
+  },
+  {
+   "item": "OB4998",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4840",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4839",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4846",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4848",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4847",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4858",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB40074",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40064",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40065",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40072",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40073",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4872",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4874",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4867",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB40111",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40112",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40149",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "OB40001",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB40069",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4838",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4832",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4833",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4830",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4831",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4829",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4803",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4805",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4801",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4999",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4996",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "FO4031",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "oil fill arrangement"
+  },
+  {
+   "item": "OB4992",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4994",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4991",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4844",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4842",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4843",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4841",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4923",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4880",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4828",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4806",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4869",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4866",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4979",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4981",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4977",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4877",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4877",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole cover"
+  },
+  {
+   "item": "OB4800",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "hand hole covers"
+  },
+  {
+   "item": "OB4051",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": "dipstick and oil fill arr"
+  },
+  {
+   "item": "D192035GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193072TX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192037BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192018PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192027CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192013GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192014MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193053CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193033PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193034PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193036GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193039BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193029CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193031LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193019PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193025PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193028CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193012MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193015GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192051CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192058DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192060DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192063MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192030LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193074BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193075PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193067DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193068GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193070GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193069DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193071PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193061DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193062AX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193064MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193065CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193054GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193055GX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193056DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193057DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193059DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193040BX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193052CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193113CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193117CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193099MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193107CX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193108GX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193088DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193089CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193091DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193097MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193083PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193085CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193086LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193080MX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193081CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193082PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193076LX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193077CX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D193079DX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D192032PX02",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": null,
+ "graphics": null,
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "N"
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "not found",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

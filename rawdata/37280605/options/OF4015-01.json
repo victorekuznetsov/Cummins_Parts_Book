@@ -1,0 +1,106 @@
+{
+ "componentHash": "D96616037241F1A1BAAEB5AA42A4491B78F4F0C2E73E79B19D6E7C1F43A92A9DBE6658BA450DA1FF2288AC12903574787A7B48E6237B9199F9354074883574D7",
+ "esnType": "mbom",
+ "optionName": "Oil Bypass Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/of/095_of0401500_01"
+  }
+ ],
+ "remarks": "Oil Bypass Filter|engine Family: K19|filter Mfg/model: Fleetguard Lf00777|cartridge Type: Replaceable Spin-On|element Quantity: 1|mounting Location:|temporarily Mounted To Top Of|flywheel Housing For Shipping.|plumbing Supplied: No|additional Information:|first Used On Cheboksary Tractor",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3304173",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER HEAD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3889311",
+      "latestPart": "false",
+      "partDesc": "OIL BYPASS FILTER ELEMENT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3889382",
+      "latestPart": "false",
+      "partDesc": "INFORMATION DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/of/095_of0401500_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "095",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "OF4015-01",
+ "optionNumber": "OF4015-01"
+}

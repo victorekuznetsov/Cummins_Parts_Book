@@ -1,0 +1,384 @@
+{
+ "componentHash": "A2AD4FA323A3407061929B634396A7F95F3394A316917DDDFA9ADF45C1FC029D5C095A018D371B43C745F9709616A72702CE560EDD1DCBF932806CCA1DBCF45A",
+ "esnType": "mbom",
+ "optionName": "Crankcase Breather Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/br/095_br0402100_06"
+  }
+ ],
+ "remarks": "Crc Breather Arrangement|rio Coalescer Breather Sensor Included: Na|engine Family: K19|crc Breather Quantity: 3|crc Breather Type: Canister|crc Breather Mounting Location:|valve Cover: #2, #5, #6",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3007114",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "219065",
+        "latestPart": "false",
+        "partDesc": "BREATHER BAFFLE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3000528",
+        "latestPart": "false",
+        "partDesc": "SPRING NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/16 inch",
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010396",
+        "latestPart": "false",
+        "partDesc": "ROCKER LEVER COVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3873542",
+        "latestPart": "false",
+        "partDesc": "CRANKCASE BREATHER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "70704",
+          "latestPart": "false",
+          "partDesc": "PLAIN WASHER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/4 inch",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "4"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3228758",
+          "latestPart": "false",
+          "partDesc": "BREATHER BAFFLE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "5"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3228759",
+          "latestPart": "false",
+          "partDesc": "BREATHER BAFFLE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "2",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "6"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "3873677",
+          "latestPart": "false",
+          "partDesc": "CRANKCASE BREATHER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "7"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "S600",
+          "latestPart": "false",
+          "partDesc": "LOCK WASHER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/4 inch",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "8"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "S631",
+          "latestPart": "false",
+          "partDesc": "PLAIN WASHER",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": "1/4 inch",
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "9"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "3010388",
+      "latestPart": "true",
+      "partDesc": "VALVE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3044413",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 2 INCH",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3065950",
+      "latestPart": "false",
+      "partDesc": "CAPTIVE WASHER CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "3/8 - 16 X 4 1/2 INCH",
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4920076",
+      "latestPart": "false",
+      "partDesc": "ROCKER LEVER COVER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "13"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/br/095_br0402100_06",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "BR4021-06",
+ "optionNumber": "BR4021-06",
+ "buildCode": null
+}

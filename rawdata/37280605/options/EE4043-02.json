@@ -1,0 +1,360 @@
+{
+ "componentHash": "CF74E202ED8B7BE2664840ACAD7AD8A91B405383F861C0235D90634BEAEA46E34379C1BC8003D7416AD20281F95351F838ED0B3F0B28669402052EDA525A3612",
+ "esnType": "mbom",
+ "optionName": "Alternator Mounting",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/ee/095_ee0404300_02"
+  }
+ ],
+ "remarks": "Alternator Mounting|engine Family: K19|alternator Mfg/model:|prestolite 175 Amp|mounting Location:|right Bank|alt Pulley Groove Profile:|9 Groove|alternator Pulley Diameter (mm):|81.15 (3.19 In)|belt Description: V-Ribbed|drive Ratio:|2.92 Times Engine Speed|intended Usage:|belt Driven Fan Drive|adjusting Link Included: Yes|additional Information:|alternator Mounting Bracket Is|part Of Fan Arrangement Option",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "70897",
+      "latestPart": "false",
+      "partDesc": "LOCK NUT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 20 UNF",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "111445",
+      "latestPart": "false",
+      "partDesc": "LOCK WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "158829",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 20 X 6 1/2 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "203310",
+      "latestPart": "false",
+      "partDesc": "PLAIN WASHER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "9/16 inch",
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3014711",
+      "latestPart": "false",
+      "partDesc": "ALTERNATOR PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3201188",
+      "latestPart": "false",
+      "partDesc": "ADJUSTING LINK",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "S253",
+        "latestPart": "false",
+        "partDesc": "REGULAR HEXAGON JAM NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 UNF",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "206202",
+        "latestPart": "false",
+        "partDesc": "REGULAR HEXAGON JAM NUT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 UNF",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201185",
+        "latestPart": "false",
+        "partDesc": "EYE BOLT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 X 3 1/2 INCH",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201186",
+        "latestPart": "false",
+        "partDesc": "EYE BOLT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "1/2 - 20 X 3 1/2 INCH",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "9"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3201187",
+        "latestPart": "false",
+        "partDesc": "ADJUSTING LINK",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "10"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "5413029",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S106",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 1 3/4 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "S113",
+      "latestPart": "false",
+      "partDesc": "HEXAGON HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "1/2 - 13 X 1 1/2 INCH",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "13"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/ee/095_ee0404300_02",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "EE4043-02",
+ "optionNumber": "EE4043-02",
+ "buildCode": null
+}

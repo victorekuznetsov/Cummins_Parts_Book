@@ -1,0 +1,83 @@
+{
+ "componentHash": "5452F8F0AFD0A9EB852BD10D4E28543302DF0416AA9DAFF10E258183D4816BCA5E0E9C8ECEF8BECF3982C416D9D66907FAA792E45AC5B9FCB94906231B4FE18A",
+ "esnType": "mbom",
+ "optionName": "Corrosion Resistor",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/wf/095_wf0400100_04"
+  }
+ ],
+ "remarks": "Corrosion Resistor|engine Family: D19|type Of Element: Replaceable Spin-On|mounting Location: Water Pump|filter Head Qty: 1|filter Element Qty: 1|corrosion Inhibitor Units Included:|in Filter: 23|in Kit: 0|cartridge(s) Length (mm): 137.5 (5.41 In)|coolant System Capacity (liters):|70-131 (18.4 - 34.5 Gal)|intended Usage:|use With Water Pump With Provision|for Pump Mounted Water Filter",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3826824",
+      "latestPart": "false",
+      "partDesc": "DECAL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4058965",
+      "latestPart": "false",
+      "partDesc": "CORROSION RESISTOR",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/wf/095_wf0400100_04",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "WF4001-04",
+ "optionNumber": "WF4001-04",
+ "buildCode": null
+}

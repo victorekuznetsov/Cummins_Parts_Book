@@ -1,0 +1,291 @@
+{
+ "componentHash": "3ADCF33AB5B2DE8929A69BC3E0F5BE3A544D9432241F70B85AA5BD226C684E037CD59B34595574B6EF3A052A7F824405F9DCF0398CBC8CDD3836BBB9CB3D0E68",
+ "esnType": "mbom",
+ "optionName": "Thermostat Housing",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/095/im/095_im0473800_01"
+  }
+ ],
+ "remarks": "Thermostat Housing|engine Family: K19|item(s) Supplied: Thermostat Housing Assembly|thermostats Included: Yes|thermostat Quantity: 2|thermostat (deg C): 82 (180 Deg F)|intake Manifold: Aftercooled",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3065803",
+      "latestPart": "false",
+      "partDesc": "THERMOSTAT HOUSING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "S962E",
+        "latestPart": "false",
+        "partDesc": "DRAINCOCK",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "186780",
+        "latestPart": "false",
+        "partDesc": "THERMOSTAT SEAL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3008469",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/4 NPT",
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010596",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE WASHER CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/8 - 16 X 1 1/4 INCH",
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010597",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE WASHER CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": "3/8 - 16 X 3 3/4 INCH",
+        "qty": "5",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010916",
+        "latestPart": "false",
+        "partDesc": "THERMOSTAT HOUSING SUPPORT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010918",
+        "latestPart": "false",
+        "partDesc": "THERMOSTAT HOUSING GASKET",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3010933",
+        "latestPart": "false",
+        "partDesc": "THERMOSTAT HOUSING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "8"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "3076489",
+        "latestPart": "false",
+        "partDesc": "THERMOSTAT",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "9"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "4931643",
+        "latestPart": "false",
+        "partDesc": "PIPE PLUG",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "4",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "10"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/095/im/095_im0473800_01",
+ "optionPlantCode": "095",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "IM4738-01",
+ "optionNumber": "IM4738-01",
+ "buildCode": null
+}
