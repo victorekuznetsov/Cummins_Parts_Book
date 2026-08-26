@@ -1,0 +1,152 @@
+{
+ "componentHash": "1F72174DBD1605C6B227D7CEAF5AC7A2495F0D9D53747B08A0AA3000A4FF9686F9B52EF02E4A6F46403FB8C24CF22280E7726B77E7D193D42ED8B518C7C109E6",
+ "esnType": "mbom",
+ "optionName": "Exhaust Outlet Connection",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/xs/740_xs9012300_01"
+  }
+ ],
+ "remarks": "Exhaust Outlet Connection|supply Method:assembled|qty Of Kit Clamp: 1|gasket Provision: Yes|connection Orientation:|horizontal And Backward|oem Interface Connection Type:|clamp Connection|oem Interface Connection O.d. (mm):104|restricted Turbocharger:hptm|oem Connection Location:|from Engine C/l (mm): -659.4|from Crank (mm): -367.5|from Ffob (mm): 410.1|v-Band Clamp Groove Width (mm):  7.8",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5270032",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M8 X 1.25 X 25",
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5716616",
+      "latestPart": "false",
+      "partDesc": "TURBOCHARGER GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6307087",
+      "latestPart": "false",
+      "partDesc": "EXHAUST OUTLET CONNECTION",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6313191",
+      "latestPart": "false",
+      "partDesc": "EXHAUST OUTLET CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6315094",
+      "latestPart": "false",
+      "partDesc": "V BAND CLAMP",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "5"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/xs/740_xs9012300_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "XS90123-01",
+ "optionNumber": "XS90123-01"
+}

@@ -1,0 +1,60 @@
+{
+ "componentHash": "A9E30EB989B02062A69DDECCDF240B9C69D6B6D8CE91A391825229DF7819BA1C2E6C2FC20A5D64B0951C4D934A33FFB225E9BF091A21EC31787D4E34831A24D4",
+ "esnType": "mbom",
+ "optionName": "Rear Clutch",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/cl/740_cl0923700_00"
+  }
+ ],
+ "remarks": "Rear Clutch|bearing Type: 6305-2rst7/c4 S2ht6s|clutch Bearing Inner Diameter: 25mm|clutch Bearing Pilot Bore Dia: 62.00mm|unique Characteristics: Double Face Sealed|clutch Bearing Thickness: 17.00 Mm|with Retaining Ring: No",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5612728",
+      "latestPart": "false",
+      "partDesc": "BALL BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/cl/740_cl0923700_00",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "CL9237-00",
+ "optionNumber": "CL9237-00",
+ "buildCode": null
+}

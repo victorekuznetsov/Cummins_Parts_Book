@@ -1,0 +1,115 @@
+{
+ "partNo": "6481975",
+ "partDesc": "compressor air discharge tube",
+ "supersession": [],
+ "reconEquivalent": null,
+ "whereUsed": [
+  {
+   "item": "CD9089",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "CD9129",
+   "itemType": "O",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2E3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2C3001BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  },
+  {
+   "item": "D2C3002BX03",
+   "itemType": "C",
+   "lvlNbr": null,
+   "itemDesc": null
+  }
+ ],
+ "objectFile": [
+  {
+   "fileName": "/648/6481975/6481975.obj"
+  },
+  {
+   "fileName": "/648/6481975/6481975.mtl"
+  }
+ ],
+ "graphics": [
+  {
+   "fileName": "/648/6481975/6481975_right.png"
+  },
+  {
+   "fileName": "/648/6481975/6481975_iso2.png"
+  },
+  {
+   "fileName": "/648/6481975/6481975_iso.png"
+  },
+  {
+   "fileName": "/648/6481975/6481975_front.png"
+  },
+  {
+   "fileName": "/648/6481975/6481975_top.png"
+  }
+ ],
+ "metadata": [
+  {
+   "name": "Part Purchasing Details",
+   "attributes": [
+    {
+     "sellable": {
+      "name": "Sellable",
+      "value": "Y"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shipment Characteristics",
+   "attributes": [
+    {
+     "length": {
+      "name": "Length",
+      "value": "15 cm    "
+     }
+    },
+    {
+     "weight": {
+      "name": "Weight",
+      "value": ".29 kg    "
+     }
+    },
+    {
+     "width": {
+      "name": "Width",
+      "value": "8 cm    "
+     }
+    },
+    {
+     "height": {
+      "name": "Height",
+      "value": "7 cm    "
+     }
+    }
+   ]
+  }
+ ],
+ "type": "part",
+ "sell": "individual",
+ "oversize": null,
+ "storestatus": null,
+ "topLevelAssembly": null,
+ "connectors": null,
+ "complianceDocs": null,
+ "esnType": null,
+ "componentType": null,
+ "componentHash": null
+}

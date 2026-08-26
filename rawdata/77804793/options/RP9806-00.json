@@ -1,0 +1,60 @@
+{
+ "componentHash": "858EB9BDB88BE66CCA2EF7E62480D3D19963215DE6F0BCE67B14392E091F7B4FCAD9AEEE6E5B3FAAF584CF1DBD6F1B3699C2B4D0EB6C431FC9FDE1F03457DE06",
+ "esnType": "mbom",
+ "optionName": "Engine Coolant Vent",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/rp/740_rp0980600_00"
+  }
+ ],
+ "remarks": "Engine Coolant Vent|engine With Vent Tube Connection:|mounting Location: Cylinder Head|coolant Vent Thread Size: M12x1.5|oem Interface Connect Diameter(mm):12|orientation: Horizontal, Towards|the Front Of The Engine|orifice Size (mm):3.18(minimum)|oem Interface Location:|from Enging C/l(mm):95|from Crank C/l(mm):498|from Ffob C/l(mm):47|oem Hose Installation  Length(mm):31.7",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6460226",
+      "latestPart": "true",
+      "partDesc": "ELBOW HOSE COUPLING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/rp/740_rp0980600_00",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "RP9806-00",
+ "optionNumber": "RP9806-00"
+}

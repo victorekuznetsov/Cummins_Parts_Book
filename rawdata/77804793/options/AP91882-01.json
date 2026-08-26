@@ -1,0 +1,60 @@
+{
+ "componentHash": "14DD075B949B5A7048C7CB8ED9D840E1B3E4A0162831D339DC8854DEDA7867A6B6DD5DEB37B09A0B7273A74C486FDB9609E503DCECC58FA28417EE6984214F35",
+ "esnType": "mbom",
+ "optionName": "Agency Approval",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/ap/740_ap9188200_01"
+  }
+ ],
+ "remarks": "Agency Approval|certified By: Mep|application: Automotive|cert Level: Nsvi|special Allowance: Na|cert Agent: Mep|comment: N3 Non Urban|fuel Type: Diesel|cert Level2:|certified By2:|manufacturer Of Record: Bfcec|language: English/chinese",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5575304",
+      "latestPart": "false",
+      "partDesc": "DATAPLATE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/ap/740_ap9188200_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "AP91882-01",
+ "optionNumber": "AP91882-01",
+ "buildCode": null
+}

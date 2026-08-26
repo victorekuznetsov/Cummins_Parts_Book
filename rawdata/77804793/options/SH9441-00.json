@@ -1,0 +1,83 @@
+{
+ "componentHash": "ECD6F5626108969A5F8FF0CDEF3B221E5B5BF104AB6AC43F105DB479A25357CE7908C2E2651866C9F330A598A42E61AAB7326E7BA7AF46AD9948EE1951C147BF",
+ "esnType": "mbom",
+ "optionName": "Heat Shield",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/sh/740_sh0944100_00"
+  }
+ ],
+ "remarks": "Heat Shield|mounting Location:|on Engine Exhaust Side|material:|0.8mm Hot-Dip Aluminum Steel Plate|2mm Aluminosilicate Refractory Fiber|0.4mm Hot-Dip Aluminum Steel Plate|mounted Orientation:tilt Arrangement|mounting Location:|on Engine Exhaust Side|heat Shield Length (mm):700|heat Shield Width(mm):99.7|shell Thickness (mm):3.2",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6382327",
+      "latestPart": "false",
+      "partDesc": "HEAT SHIELD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6382338",
+      "latestPart": "false",
+      "partDesc": "STUDDED FLANGE CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/sh/740_sh0944100_00",
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "hotSpots": [],
+ "gasketGraphic": [],
+ "optionType": "option",
+ "path": null,
+ "optionNo": "SH9441-00",
+ "optionNumber": "SH9441-00",
+ "buildCode": null
+}

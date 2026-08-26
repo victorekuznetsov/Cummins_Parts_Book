@@ -1,0 +1,154 @@
+{
+ "componentHash": "A228A64E4AA0B5E769C1F3ACCA05AEB36760486BA939810455E751ADB1380F417E7AE6276611138EB28842CDEE1986663433F3BE0DEDC29C3C6D7CB371C1F56E",
+ "esnType": "mbom",
+ "optionName": "Full Flow Oil Filter",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/lf/740_lf0945200_01"
+  }
+ ],
+ "remarks": "Full Flow Oil Filter|filter Type: Full Flow|mounting Location: On Engine Exhaust Side|filter Thread Size: S130x4|mounted Orientation: Tilt Arrangement|filter Location From Ffob: -289.7 Mm|filter Length (mm): 231.2|filter Diameter (mm): 138|removal Distance (mm): 33|shell Thickness (mm): 4|service Interval 100,000 Km",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5714364",
+      "latestPart": "false",
+      "partDesc": "LUBRICATING OIL FILTER ELEMENT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5714365",
+        "latestPart": "false",
+        "partDesc": "FILTER SHELL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6310923",
+        "latestPart": "false",
+        "partDesc": "LUBRICATING OIL FILTER CARTRIDGE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "ASSEMBLY"
+       },
+       "expanded": true,
+       "children": [
+        {
+         "data": {
+          "partNo": "5558723",
+          "latestPart": "false",
+          "partDesc": "O RING SEAL",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "false",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": true,
+          "callOut": "2"
+         },
+         "expanded": true,
+         "children": []
+        },
+        {
+         "data": {
+          "partNo": "5714367",
+          "latestPart": "false",
+          "partDesc": "LUBRICATING OIL FILTER CARTRIDGE",
+          "lvlNo": "3",
+          "remarks": "",
+          "dimensions": null,
+          "qty": "1",
+          "hotSpotId": null,
+          "transDescription": null,
+          "sellable": "true",
+          "reconEquivalent": null,
+          "leaf": false,
+          "artCallOut": null,
+          "startDt": null,
+          "stopDt": null,
+          "hasGraphic": false,
+          "callOut": "3"
+         },
+         "expanded": true,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": "/740/lf/740_lf0945200_01",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "LF9452-01",
+ "optionNumber": "LF9452-01"
+}

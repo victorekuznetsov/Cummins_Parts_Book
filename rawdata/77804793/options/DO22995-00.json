@@ -1,0 +1,79 @@
+{
+ "componentHash": "057685EEE321C8F3BCF590AB9DC5B5F038E42EB8B51D144DC967417034284031E673624ADFA7B4DD188D732DC31D1F28CE6590A49AFF31A31D8667797E37A213",
+ "esnType": "mbom",
+ "optionName": "Customer Interface Software",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Customer Interface Software|engine Control System: Bqv|transmission: Generic|commun Support: J1939|oem Name: Generic|oem Model: Generic|oemcomment: Na|engine Family: D2e|engine Brake Provision: Yes|performance Features: Generic|ambient Air Pressure Sensor: No|electronic Fan Clutch Provision: Yes|axle Type: Generic|history:|calibration Voltage: 24|coolant Level Sensor Type: No|application: Automotive|ecm Version: Cm2670|oil Pressure Sensor: Na|intake Manifold Pressure Sensor: Gauge|model Year:|comment: Flat Bed/tractor_Nvecu_500k",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6386218",
+      "latestPart": "false",
+      "partDesc": "INSTALLATION TRIM DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6442666",
+      "latestPart": "false",
+      "partDesc": "APPLICATION CONTROL DATA",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "DO22995-00",
+ "optionNumber": "DO22995-00",
+ "buildCode": null
+}

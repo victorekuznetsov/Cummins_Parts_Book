@@ -1,0 +1,32 @@
+{
+ "componentHash": "8BC482D8F00DDEEC5D74DBD5DDD2987428153AC30B79DAD3921DEF4BA07A62CA9EC06CD20749D3D9FFB0F4A49AC48FF395ACFA24B9741383C367D561D7A2B4E7",
+ "esnType": "mbom",
+ "optionName": "Fuel Pump Calibration",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Fuel Pump Calibration|cylinders: 06|advertised Power: 0316 Bhp @ 1900 Rpm|governed Power: 0316 Bhp @ 1900 Rpm|torque Peak: 996 Ft Lb @ 830 Rpm|fuel Pump Manufacturer/model:cummins/xpi|high Idle: 2300 Rpm|application: Automotive|cpl: 6235|certified By:mep|peak Power:0316 Bhp @ 1900 Rpm",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "optionType": "option",
+ "optionPlantCode": "740",
+ "hotSpots": [],
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "artCallOut": null,
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FP80230-00",
+ "optionNumber": "FP80230-00"
+}

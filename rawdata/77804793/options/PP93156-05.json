@@ -1,0 +1,456 @@
+{
+ "componentHash": "03D0C56F72A751F8022FD8B31620BC3D1C6CD31C3F58E0EDA6DB7256EFE1CC81D273BCD9B98096A4E8F808366B451B9A92059BDF658ADA260EC027FC5740CF7B",
+ "esnType": "mbom",
+ "optionName": "Engine Piston",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/pp/740_pp9315600_05_1"
+  },
+  {
+   "fileName": "/740/pp/740_pp9315600_05_2"
+  }
+ ],
+ "remarks": "Engine Piston|cylinders: 6|cr: 20.5|ch: 74.3|start-Stop Compatible:yes|material: Aluminum Piston|comments: Remelted Piston|variant Content:|in Place Of P/n 6418088|xce May Use P/n 6418086|in Place Of P/n 6420143|xce May Use P/n 6420137",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "5486258",
+      "latestPart": "false",
+      "partDesc": "RETAINING RING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "12",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5661661",
+      "latestPart": "false",
+      "partDesc": "PISTON PIN",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6303190",
+      "latestPart": "false",
+      "partDesc": "ENGINE CONNECTING ROD",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5663670",
+        "latestPart": "false",
+        "partDesc": "FRACTURE RESISTANT SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6303192",
+        "latestPart": "false",
+        "partDesc": "ENGINE CONNECTING ROD",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6303200",
+        "latestPart": "false",
+        "partDesc": "BUSHING",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "6408516",
+      "latestPart": "false",
+      "partDesc": "PISTON COOLING NOZZLE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "6408517",
+        "latestPart": "false",
+        "partDesc": "PISTON COOLING NOZZLE",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "6"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6443742",
+        "latestPart": "false",
+        "partDesc": "BANJO CONNECTOR SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "7"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    },
+    {
+     "data": {
+      "partNo": "6418088",
+      "latestPart": "false",
+      "partDesc": "CONNECTING ROD BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "8"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6420143",
+      "latestPart": "false",
+      "partDesc": "CONNECTING ROD BEARING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "9"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6489091",
+      "latestPart": "false",
+      "partDesc": "COMPRESSION PISTON RING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "10"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6489092",
+      "latestPart": "false",
+      "partDesc": "COMPRESSION PISTON RING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "11"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6489093",
+      "latestPart": "false",
+      "partDesc": "OIL PISTON RING",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "6",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "12"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6489481",
+      "latestPart": "false",
+      "partDesc": "ENGINE PISTON",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "13"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6489482",
+      "latestPart": "false",
+      "partDesc": "ENGINE PISTON",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "3",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "false",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "14"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [
+  {
+   "componentHash": "6B9C5C9C2B3554DA54A16568A9472BEC0E705937F01C221124F2E42F62333A8C6F0952865F2DE6192F80982C2A58EC3C7071A6022D0AB36BFF0FC0636EB4AC77",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "5633450",
+   "kitDesc": "Engine Piston Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "70DB6B397C764EBF1682107E61BD671DC323E4EFAB6C77367914B716980810CD9527210C19F20154CDA7955773ECB4F18E75CD56390E87311EFA28CB9FD09806",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6466686",
+   "kitDesc": "Connecting Rod Bearing Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "E24BA2E204F40735BEF7EF0C778928EA952006C4363EF21E395919D86F03523F4AA893C4477BB1634683C244DD219243FB81C27613136B2B63FE4AC486F33A55",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6513545",
+   "kitDesc": "Piston Ring Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "188AABB9403330669F8194805D5D5DCB887A182466F508FAC2CE0E2D1EB28196BBA69F36C7AAAB223B1B5BF31ED3F212BAB2713B9163873AA912CADA4D49FD41",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6513546",
+   "kitDesc": "Engine Piston Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  },
+  {
+   "componentHash": "7880CD5EBBB9D4FE4E7673F0D4F0033C3BD3BC42816E204184E7E0FDDF71B6B570D0C0A445CD2162A67FD7CDF4E4AA7F25FC48421E6149042E60FF7853AFEF71",
+   "esnType": "mbom",
+   "componentType": "kit",
+   "kitNo": "6513547",
+   "kitDesc": "Engine Piston Kit",
+   "kitNotes": "Standard",
+   "kitType": "STANDARD"
+  }
+ ],
+ "kitGraphic": [],
+ "graphicCount": "2",
+ "artCallOut": "/740/pp/740_pp9315600_05_1",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "PP93156-05",
+ "optionNumber": "PP93156-05",
+ "buildCode": null
+}

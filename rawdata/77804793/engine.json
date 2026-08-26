@@ -1,0 +1,7864 @@
+{
+ "mbom": "mbom",
+ "esn": "77804793",
+ "buildDate": "2023-12-20 00:00:00.0",
+ "cpl": "6235",
+ "engineGraphic": null,
+ "engineGroup": "Midrange",
+ "enginePlantCode": "740",
+ "marketingConfig": "D2E3001BX03",
+ "serviceModel": "A8.5 CM2670 L153B",
+ "optionList": [
+  {
+   "componentHash": "578BFC82B272C5981F15C63D77943786DA3720E5A99F4CB6295DAA3792375968F25BC00155FFC37E3BC52F4D75C1590088A77182E3EBE5ABE15FFBA15B1BDA0C",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Accessory Location",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "AB90144-00",
+   "optionNumber": "AB90144-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "30EB0A63BF5961714EF219BCBF1F94EE6CBDA663F16E9FAAE7E7281FBD66744BCCE3C32734053EBE8BD2979E7BA90EBD439376A45D4907D0BEA60E86AB35647E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Alternative Design",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "AL9231-00",
+   "optionNumber": "AL9231-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "14DD075B949B5A7048C7CB8ED9D840E1B3E4A0162831D339DC8854DEDA7867A6B6DD5DEB37B09A0B7273A74C486FDB9609E503DCECC58FA28417EE6984214F35",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Agency Approval",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5575304",
+     "partDesc": "Dataplate",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    }
+   ],
+   "graphic": "/740/ap/740_ap9188200_01",
+   "path": null,
+   "optionNo": "AP91882-01",
+   "optionNumber": "AP91882-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "697E3B3C5AAAC1F2ADC8582468D0796A561539B1B2705FB8D5685A99FF252980DF2E19966BB85C61652B56C6EB211A3EFB4BB65DFD2D0B2B3CCAE2F8BC9E7F26",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Cylinder Block",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3678921",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678922",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3901846",
+     "partDesc": "Pin Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3920447",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5714783",
+     "partDesc": "Main Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5714784",
+     "partDesc": "Main Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6415756",
+     "partDesc": "Cylinder Block Stiffener",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6420147",
+     "partDesc": "Thrust Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6420150",
+     "partDesc": "Thrust Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6444983",
+     "partDesc": "Engine Crankshaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3904483",
+     "partDesc": "Roll Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626439",
+     "partDesc": "Crankshaft Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5685588",
+     "partDesc": "Spline Coupling Sleeve",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6444984",
+     "partDesc": "Engine Crankshaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6445601",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3610503",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626488",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661815",
+     "partDesc": "Bushing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661816",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304704",
+     "partDesc": "Thrust Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6451638",
+     "partDesc": "Pin Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6451645",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455782",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3902115",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455778",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455775",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455794",
+     "partDesc": "Bushing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455789",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5284979",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455786",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6455791",
+     "partDesc": "Gear Retainer",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6461041",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "4890875",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304693",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304695",
+     "partDesc": "Bushing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304696",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304697",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6304699",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6393733",
+     "partDesc": "Gear Retainer",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6461045",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5284979",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6461046",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6476275",
+     "partDesc": "Cylinder Block",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5667117",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5667118",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6395181",
+     "partDesc": "Cylinder Liner",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6424172",
+     "partDesc": "Fracture Resistant Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6430932",
+     "partDesc": "Main Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678507",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6429626",
+     "partDesc": "Main Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6430934",
+     "partDesc": "Main Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678507",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6430933",
+     "partDesc": "Main Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6476273",
+     "partDesc": "Cylinder Block",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6479633",
+     "partDesc": "Cylinder Block Cover",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6482900",
+     "partDesc": "Pan Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "BB90485-02",
+   "optionNumber": "BB90485-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "81E1A51D36D413C65726D45584BAEDD7272DCDFD0D473032170E98AF058E3201645E1A65EF33DEE2A2E26D371A3AEA09C361644475BA3E95573EF69F634C1A6A",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Crankcase Breather",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5525717",
+     "partDesc": "Spring Hose Clamp",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6374205",
+     "partDesc": "Molded Hose",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "4400212",
+     "partDesc": "Wire Tie Clamp",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5661824",
+     "partDesc": "Wire Tie Clamp",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6469218",
+     "partDesc": "Molded Hose",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "BR90246-01",
+   "optionNumber": "BR90246-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "1A1D52EE9105F5C73B4E7726BFE0EFCE50CE96097AA6019D17526664CFD9BC6BF4B636831A3C17DDF7BE94AFBC3B9AC9A97835AC7DC3F4D22FB5AAFDD8F0BBBF",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Air Cleaner Plumbing Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900589",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6421172",
+     "partDesc": "Air Cleaner Bracket",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    }
+   ],
+   "graphic": "/740/ca/740_ca0925600_00",
+   "path": null,
+   "optionNo": "CA9256-00",
+   "optionNumber": "CA9256-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "C7CA9F09D129B2FE8B5803DA4A82DF3C0BCB74641FE1DB66765FEE59D566915C092D766D19032DCBA774E131144738633FE8AE1284506AEE62A0C0C51874E36E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Compressor Coolant Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3692341",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3692340",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3903990",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "4324706",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6416836",
+     "partDesc": "Compressor Water Outlet Tube",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6316445",
+     "partDesc": "Clip",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6416830",
+     "partDesc": "Clip",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6416837",
+     "partDesc": "Compressor Water Outlet Tube",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6466348",
+     "partDesc": "Compressor Water Inlet Tube",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    }
+   ],
+   "graphic": "/740/cc/740_cc9026200_02",
+   "path": null,
+   "optionNo": "CC90262-02",
+   "optionNumber": "CC90262-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "7306D5FF26E6E12843D418A2ACAA8CA85C180A3E8362FDCFB838888F4D88F6623F3F728EF1D85EDEAE151D8F07F0C1691659AFEA05E95B6A13F031EAFBF97357",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Compressor Air Discharge Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900589",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3900629",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6394120",
+     "partDesc": "Male Union",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3678606",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6481970",
+     "partDesc": "Air Tube Bracket",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6481975",
+     "partDesc": "Compressor Air Discharge Tube",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    }
+   ],
+   "graphic": "/740/cd/740_cd0908900_04",
+   "path": null,
+   "optionNo": "CD9089-04",
+   "optionNumber": "CD9089-04",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "003FC278F0422474905A97C122A98DEDED925EEBF0CDE6099EC6210644DC96E206062EC57BF55F66436A9B9119E6D1A7D36A4BC27C8ACEB05CE6B3418DA82A73",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Refrigerant Compressor",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "CF9790-00",
+   "optionNumber": "CF9790-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "0919D8377D04855DCD1786BFEF7417E21996BB267FFDA9D05C3129FE34C44805CF2C2D3B2C24D4F2A325DAD7B4436843D899D8BDAE385C095CDD94D288012C3D",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Compressor Air Inlet Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3697613",
+     "partDesc": "Spring Hose Clamp",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "4324706",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5472462",
+     "partDesc": "Elbow Hose Coupling",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5688168",
+     "partDesc": "Plain Hose",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6315189",
+     "partDesc": "Compressor Air Inlet Tube",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    }
+   ],
+   "graphic": "/740/ci/740_ci0943500_02",
+   "path": null,
+   "optionNo": "CI9435-02",
+   "optionNumber": "CI9435-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "A9E30EB989B02062A69DDECCDF240B9C69D6B6D8CE91A391825229DF7819BA1C2E6C2FC20A5D64B0951C4D934A33FFB225E9BF091A21EC31787D4E34831A24D4",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Rear Clutch",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5612728",
+     "partDesc": "Ball Bearing",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/cl/740_cl0923700_00",
+   "path": null,
+   "optionNo": "CL9237-00",
+   "optionNumber": "CL9237-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "AE75E579BC3FACF59D86B2BFEF5F578E08B0180F76605CB8E5247F537C5122961FD711BD9DBFFB62C4551B0DAD97F93C5EC07F81350B567090B3359AE2D3C908",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Air Compressor",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3903210",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3925437",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "4994574",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5668200",
+     "partDesc": "Plain Adapter",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "3678925",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5668201",
+     "partDesc": "Plain Adapter",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5715107",
+     "partDesc": "Air Compressor Support",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5716253",
+     "partDesc": "Compressor,mechanical Air",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5661809",
+     "partDesc": "Accessory Drive Gear",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5716254",
+     "partDesc": "Compressor,mechanical Air",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6492685",
+     "partDesc": "Compressor Intake Valve",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6492708",
+     "partDesc": "Actuator Gasket",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6492717",
+     "partDesc": "Compressor Head",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "5716257",
+     "partDesc": "Rectangular Ring Seal",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    },
+    {
+     "partNo": "6426948",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "COMPRESSORS AND PUMPS"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "CP90137-03",
+   "optionNumber": "CP90137-03",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "126E5179D39D8BED06FB5032EF563E1DD984CE325CE3AAEDF8BBF43EC4AE1FE5AC38824C5D95FC467DE186612A7DD2D52567084A6DCAD7AEBB1357CC1634B215",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Vibration Damper",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6415284",
+     "partDesc": "Viscous Vibration Damper",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6426304",
+     "partDesc": "Crankshaft Pulley",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6436017",
+     "partDesc": "Fracture Resistant Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/da/740_da0989800_02",
+   "path": null,
+   "optionNo": "DA9898-02",
+   "optionNumber": "DA9898-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "21ADF6C9A2A76DC0F8A9101BCC98C4C102370F2ABBB3FE1882B6B758D5AA81601FE94D44C1B3FFB8F32B9B4C3AF5F5B4CFE1AF8088C2915264E54E15DE334262",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Drain Location",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "DL9636-00",
+   "optionNumber": "DL9636-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "057685EEE321C8F3BCF590AB9DC5B5F038E42EB8B51D144DC967417034284031E673624ADFA7B4DD188D732DC31D1F28CE6590A49AFF31A31D8667797E37A213",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Customer Interface Software",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6386218",
+     "partDesc": "Installation Trim Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6442666",
+     "partDesc": "Application Control Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "DO22995-00",
+   "optionNumber": "DO22995-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "BD607422A1F0D0826B763814AF30C09A24872CD6AA36AB7628F561E8962AD9D29C6B0FBA7946C1B00421A706BEE5D1C989E1F97BFD8D023160643E0CFD89FB07",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Rear Gear Train Accessory Drive",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "DR9744-00",
+   "optionNumber": "DR9744-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "C9C9E5D55E971B9565023E19CF644347CD1EE4FD5DDCF7235CC4B24C24CA3C84D8320D9265DF7F7B1B3F9DB3F69A1ABBA19CD91484D3B22D03260F4792C58FA3",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Rear Gear Train Accessory Mounting",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "DR9745-00",
+   "optionNumber": "DR9745-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "CF3061AFCECDFB43850D47AC2CE427A5AC3DC3D51EF6FC72E2276739171AC4D8173E62B08F1E5ADC338496B9402D01128932BBBA4E730D2021666CA170C7C548",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Brake",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "EB9097-00",
+   "optionNumber": "EB9097-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "791556F58EF2252C06BBB566EDC08A91588CDB2A8F880D228C288ACC3114A178691D36F6CCD2BD40C605820660AC3C993CC6844C4A8040A5570C39D4F530C703",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Thermostat",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "EC9738-00",
+   "optionNumber": "EC9738-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "834DEB2DA9803E0530E1EAECD52103F23B5229C977307A9B68F96E9665A648AEF640C26C9D66B50FD42471ABF433CDBBC921A3D5514C1F7154CA4EFAF9C58BB4",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Alternator",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6442221",
+     "partDesc": "Alternator",
+     "systems": [
+      "ELECTRICS"
+     ]
+    }
+   ],
+   "graphic": "/740/ee/740_ee0985400_00",
+   "path": null,
+   "optionNo": "EE9854-00",
+   "optionNumber": "EE9854-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "5E02FE156B2FABCDBA39BADA79562E4FAF3D3D54EE4BA62F1CC50AC54428E1BA9330F69F76F8446CFEF2F0C0EF7DD9EABAF9215E5DEE3F00584E6048F1E591D7",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Alternator Mounting",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093802",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3102651",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3896408",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6444455",
+     "partDesc": "Alternator Support",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "4067993",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6444457",
+     "partDesc": "Alternator Support",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/eh/740_eh9851700_01",
+   "path": null,
+   "optionNo": "EH98517-01",
+   "optionNumber": "EH98517-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "EDAF4244ACF68A444323BA915B2CEFC7880656F6EA72F245CB12665B38F105D263A5A0B3B6500DAA1666C4661C1CFD53CF7BE861E00E06DB47C0F0075813EABA",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Alternator Drive",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "2874071",
+     "partDesc": "Idler Pulley",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3910496",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5662763",
+     "partDesc": "Belt Tensioner",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6432474",
+     "partDesc": "V Ribbed Belt",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/eh/740_eh9863600_02",
+   "path": null,
+   "optionNo": "EH98636-02",
+   "optionNumber": "EH98636-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "B568FC9A2DB11D5221E866FAEAA5110A7D759654CA86D7E7AE1B416E8BCA3E857CB615DCD6F2DF5C1AE9CD95A10C56271B0BD5C1B7788155251D27A0F5CA4FF0",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fan Drive",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093940",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5680477",
+     "partDesc": "Fan Pulley",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6313142",
+     "partDesc": "Fan Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3035960",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3064106",
+     "partDesc": "Hexagon Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3923044",
+     "partDesc": "Fan Hub Retainer",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3966844",
+     "partDesc": "Roller Bearing",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5717714",
+     "partDesc": "Fan Hub",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5718846",
+     "partDesc": "Fan Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/fa/740_fa9056200_01",
+   "path": null,
+   "optionNo": "FA90562-01",
+   "optionNumber": "FA90562-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "3950E60CD00DB0CDDC92CAF4B51348A98332BF0A7C26F4209509270DB000E2FD2825BC1D6F45DCE4273BF3C9AB8A45A409725AFC8BA0F0F913A80DC1D1F6424B",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Drain Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3903210",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3963988",
+     "partDesc": "Sealing Washer",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "4325276",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "4893517",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5262073",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5712226",
+     "partDesc": "Fuel Manifold",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3696995",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3696750",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5669276",
+     "partDesc": "Pressure Control Valve",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5712236",
+     "partDesc": "Fuel Manifold",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5715001",
+     "partDesc": "Fuel Drain Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6393020",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6393018",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6393305",
+     "partDesc": "Fuel Drain Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6310382",
+     "partDesc": "Clip",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6393303",
+     "partDesc": "Fuel Drain Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6423802",
+     "partDesc": "Fuel Plumbing Bracket",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6490035",
+     "partDesc": "Fuel Drain Tube",
+     "systems": [
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": "/740/fd/740_fd9011700_01",
+   "path": null,
+   "optionNo": "FD90117-01",
+   "optionNumber": "FD90117-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "6A62D883C735C9570B94F0E635B1C524664C74808A432B0AE72674CCC2683575CF53DA933B424A83B45D7CB9C373C9E58F8B69A8E7AEF7ABB146FCAC3AB2F1BC",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Filter Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6462735",
+     "partDesc": "Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": "/740/ff/740_ff9148100_03",
+   "path": null,
+   "optionNo": "FF91481-03",
+   "optionNumber": "FF91481-03",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "DB3F7D342A68B4D0F8C6B9212A7FE510AA5DC5B57DE425206CD90C457659A3DB553E97B7C44D66497A956C3645AD4B485DBC061D60E6729BFE737CEDF14790FE",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Filter Location",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093939",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6455150",
+     "partDesc": "Fuel Filter",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6380532",
+     "partDesc": "Fuel Filter Element",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6428710",
+     "partDesc": "Filter Head Kit",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6428722",
+     "partDesc": "Filter Housing",
+     "systems": [
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": "/740/ff/740_ff9148200_01",
+   "path": null,
+   "optionNo": "FF91482-01",
+   "optionNumber": "FF91482-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "8A0060970B40D8F17C684B9C2C1953D5EBC1CB268CB51DCCB4BAA5B94C7CB9BBEB00F900DA463B7F0EBE6BE14C6B505BAFE861801C27EFEE7B3A9B4CEB88E62E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Flywheel Housing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5557867",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5666316",
+     "partDesc": "Oil Seal",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5715029",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6430746",
+     "partDesc": "Flywheel Housing",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3900629",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3910248",
+     "partDesc": "O Ring Plug",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3910260",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5537373",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5715028",
+     "partDesc": "Cover Plate",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6430750",
+     "partDesc": "Flywheel Housing",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "FH90479-01",
+   "optionNumber": "FH90479-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "9EE76EFE945B6142BF367ACBB253C9D1EA4AA82B42AB16B4B19C6B24656FE89E491B5F9447383C56D84059EDDCCD5BEE12650306D3C849032642F4DF479FF433",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Inlet Fitting",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "FI9337-00",
+   "optionNumber": "FI9337-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "057FF366AF083B026082B772FF8834DCC9B7EB81BC5078EF0F8B37204245A7B2CBAE0C2C6C6C57BB95C79FD732863250250EE7EC14995DD313DCD7F6FED74FDA",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Pump",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093828",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5684611",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6495196",
+     "partDesc": "Fuel Pump",
+     "systems": [
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "FP80140-01",
+   "optionNumber": "FP80140-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "8BC482D8F00DDEEC5D74DBD5DDD2987428153AC30B79DAD3921DEF4BA07A62CA9EC06CD20749D3D9FFB0F4A49AC48FF395ACFA24B9741383C367D561D7A2B4E7",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Pump Calibration",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "FP80230-00",
+   "optionNumber": "FP80230-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "E5A6B917718482D44CF54863B5D778B0FB5F0BF14E033C917AB6F25A7650D2E2FDEB5B846C150184EFB0ECE13EF4065E73468DF83FBD7AFE54F64E4F9C4CC8B4",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fuel Rating",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "FR98695-00",
+   "optionNumber": "FR98695-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "3FDF1A081293638C636F9D420E6AC3DB9FFAC0671ABBB6838D0CD13DE995979741DFD7E3E6F9060591FB35B2C4AD7063C73E4727D85C9735AAD65C56DB25F846",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Flywheel",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6481750",
+     "partDesc": "Flywheel",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3680913",
+     "partDesc": "Flywheel Ring Gear",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6314331",
+     "partDesc": "Flywheel",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/fw/740_fw9091600_02",
+   "path": null,
+   "optionNo": "FW90916-02",
+   "optionNumber": "FW90916-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "F5489F2D28B67F1CCBBA4E7A2323E988F93EA5D0913CF9EBA368C16321EA3EDACCDA9E43F6FFB7031DC2743AA04E542579C5420FDB6EAF27EE3AF65AC9F6225F",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Flywheel Mounting",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5311446",
+     "partDesc": "Friction Enhancing Shim",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6416305",
+     "partDesc": "Fracture Resistant Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/fw/740_fw9096200_00",
+   "path": null,
+   "optionNo": "FW90962-00",
+   "optionNumber": "FW90962-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "195DB80303375516DC786041F253CBC50209C77A7698CB487D011107137DC2FEC82B94EBA7EE5332F9EF5557DA6F40F5FAD90EB536EC891E2D1DC88C53349F22",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Cabin Heater Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3901249",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "4920417",
+     "partDesc": "Hose Clamp",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6311548",
+     "partDesc": "Elbow Hose Coupling",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3678606",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6318486",
+     "partDesc": "Plain Hose",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6410766",
+     "partDesc": "Water Outlet Tube",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "HC9582-01",
+   "optionNumber": "HC9582-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "111C72EB981BB003226EC8DD850B31363B0E15607245B020BEBBC5F25F0AF7189AEAD44B58A9DBE9BA3BEDE21E79583A3C25D6CE566F3727342DB3292D5B681E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Auxiliary Cooling Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "HE90180-00",
+   "optionNumber": "HE90180-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "B9553506DF234A75BC34DA997E8132511A0300CB02013A2C06FF648252693A81C6DDC612103499EF37A77AFAD3E3ADBB0F556470B6A09B593E3045E430963B5E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Air Intake Connection",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3009329",
+     "partDesc": "Plain Washer",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3682177",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5718014",
+     "partDesc": "Air Intake Connection",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6310272",
+     "partDesc": "Connection Bracket",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6395072",
+     "partDesc": "V Band Clamp",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "IC90546-01",
+   "optionNumber": "IC90546-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "1DC0545A76E71EA8BFD5A1566D2D3C6E33AE39380B7E75C684A71AC6800BC470EE3923400CA40F07305346C87841535A7161E9ACF2CCD8F7F2508205515475C1",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Air Intake Manifold",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3937434",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5400046",
+     "partDesc": "Connection Gasket",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6470295",
+     "partDesc": "Valve,intake Air Throttle",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    }
+   ],
+   "graphic": "/740/im/740_im0989500_02",
+   "path": null,
+   "optionNo": "IM9895-02",
+   "optionNumber": "IM9895-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "CEB8E1B032BF53F2F65CED36D67C3EFC5EBF569CB7F144171DB7E8A1527903F16A3E07563D6B8E5492B41BD75DC5B8F1763D38C4C223942EC231DCD56E010F56",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Air Transfer Connection",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900630",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5581730",
+     "partDesc": "Hump Hose",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6312478",
+     "partDesc": "Air Tube Bracket",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6312481",
+     "partDesc": "Air Transfer Tube",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5547645",
+     "partDesc": "Threaded Insert",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6312482",
+     "partDesc": "Air Transfer Tube",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6395069",
+     "partDesc": "T Bolt Clamp",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    }
+   ],
+   "graphic": "/740/it/740_it0940900_01",
+   "path": null,
+   "optionNo": "IT9409-01",
+   "optionNumber": "IT9409-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "D49642F5F92EEFF365619C07F209A170324677316DFEFB0724720835568E0D54876EA20BF4005DBB5F81547E59E01724E7B64FA3D2C4E5D644ACAAEE614FDB0A",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Lifting Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "LA9788-00",
+   "optionNumber": "LA9788-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "9D6D48E1E4560188665C30772B4DF061E9F210783B861A6F7CCFE1015648E6484E371E0720DF7D1E8EFE3212464453711D81492B5EEFE4F5991C1691A83EAA6B",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Oil Cooler",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3089232",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3902112",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6418984",
+     "partDesc": "Lubricating Oil Filter Head",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3902023",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5714789",
+     "partDesc": "Water Pump",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5664489",
+     "partDesc": "Water Pump Gasket",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6418710",
+     "partDesc": "Lubricating Oil Filter Head",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "2865048",
+     "partDesc": "D Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678611",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678605",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678606",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678921",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3678922",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3696558",
+     "partDesc": "Thermostat",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3913034",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "4067993",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5547645",
+     "partDesc": "Threaded Insert",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5558377",
+     "partDesc": "Grommet Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5668002",
+     "partDesc": "Cooler Core",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5710922",
+     "partDesc": "Lubricating Oil Cooler Cover",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5710923",
+     "partDesc": "Oil Cooler Housing Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6317855",
+     "partDesc": "Pressure Relief Valve",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6418705",
+     "partDesc": "Oil Filter Cooler Housing",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6418735",
+     "partDesc": "Quick Disconnect Connector",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6483941",
+     "partDesc": "Tube Connector",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3035027",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6483940",
+     "partDesc": "Tube Connector",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6483944",
+     "partDesc": "Oil Supply Connection",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "LC9917-03",
+   "optionNumber": "LC9917-03",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "A228A64E4AA0B5E769C1F3ACCA05AEB36760486BA939810455E751ADB1380F417E7AE6276611138EB28842CDEE1986663433F3BE0DEDC29C3C6D7CB371C1F56E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Full Flow Oil Filter",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5714364",
+     "partDesc": "Lubricating Oil Filter Element",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5714365",
+     "partDesc": "Filter Shell",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6310923",
+     "partDesc": "Lubricating Oil Filter Cartridge",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5558723",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5714367",
+     "partDesc": "Lubricating Oil Filter Cartridge",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": "/740/lf/740_lf0945200_01",
+   "path": null,
+   "optionNo": "LF9452-01",
+   "optionNumber": "LF9452-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "E03C226DB60BD1BD5C443DCA84972F5290791C6C0BF3ADAC0BB11AA90BBDF2C5E163325C215FD53E315DF4C5C968932598A54953619E13450FA6F362475E50BD",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Oil Level Gauge",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3062329",
+     "partDesc": "Wire Tie Clamp",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3900589",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3900629",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3901865",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5717884",
+     "partDesc": "Tube Brace",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6418724",
+     "partDesc": "Dipstick",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "108722",
+     "partDesc": "Clip",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3928624",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5726218",
+     "partDesc": "Hose Clamp",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6309412",
+     "partDesc": "Oil Gauge Tube",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6392373",
+     "partDesc": "Dipstick",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3696054",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6392368",
+     "partDesc": "Dipstick",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": "/740/lg/740_lg9152000_00",
+   "path": null,
+   "optionNo": "LG91520-00",
+   "optionNumber": "LG91520-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "47DDEA60F960EB50B440A00F436EAC42ACD11D50F386DA03AC11C6FA49F66498357817581A932C20467D27B87C60DFFB7B3D23802B99358D18868EC4431A7C8D",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Oil",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3967353",
+     "partDesc": "Instruction Tag",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": "/740/lo/740_lo0970100_01",
+   "path": null,
+   "optionNo": "LO9701-01",
+   "optionNumber": "LO9701-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "F940FF97ADC27C2BFDDE014D0DF291CE5E5F0A0100C8C4F5FC7BD86B893C18AEC532A8C74EE7FBAC75288FF40F6922A6C8073A032DD8401792761F12031C8640",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Lubricating Oil Pump",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "4903110",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6429879",
+     "partDesc": "Lubricating Oil Pump Gasket",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6458171",
+     "partDesc": "Oil Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6467527",
+     "partDesc": "Lubricating Oil Pump",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089023",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089019",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089021",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089564",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089565",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3089566",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3692449",
+     "partDesc": "Diamond Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3695737",
+     "partDesc": "Check Ball",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3695738",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3695856",
+     "partDesc": "Sealing Washer",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3695977",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3949326",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5411601",
+     "partDesc": "Round Head Cap Screw",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5669906",
+     "partDesc": "Pressure Regulator Plunger",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5669907",
+     "partDesc": "Spring Retainer",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5669908",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5685484",
+     "partDesc": "Sealing Washer",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5685495",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5714795",
+     "partDesc": "Cover Plate",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6467526",
+     "partDesc": "Lubricating Oil Pump Cover",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6467528",
+     "partDesc": "Lubricating Oil Pump Rotor",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6467529",
+     "partDesc": "Lubricating Oil Pump Rotor",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "LP9828-01",
+   "optionNumber": "LP9828-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "EA6E20E1B0BC875229C30CC16D22B5E623CF60A84E9FD14329A8FD1F9DC2360D6CCB55F8920E15F269593C2B3AA2245A2221C3ED9163945C6FDAE998DED657B3",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Oil Pan",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6381472",
+     "partDesc": "Oil Pan",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5633081",
+     "partDesc": "Diamond Ring Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5633086",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5525481",
+     "partDesc": "Magnet",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5633073",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5714801",
+     "partDesc": "Oil Pan Seal",
+     "systems": [
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6380700",
+     "partDesc": "Oil Pan",
+     "systems": [
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": "/740/op/740_op9045200_00",
+   "path": null,
+   "optionNo": "OP90452-00",
+   "optionNumber": "OP90452-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "90E3F4D248E39B5CC02AF0D79CC208AD9785125919FEF75A03831C43D614BA9556CE61D08CFDA6773518E85A3908612B7F6B603D645B012BD793318842AEFC0D",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Control Module",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "2897332",
+     "partDesc": "Pressure Temperature Sensor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4076420",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "2897333",
+     "partDesc": "Pressure Temperature Sensor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4903482",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3900632",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3901445",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3906216",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3913638",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3957849",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3977357",
+     "partDesc": "Ground Wire",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4954905",
+     "partDesc": "Temperature Sensor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4010519",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5271299",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5491326",
+     "partDesc": "Position Sensor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4954487",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5491435",
+     "partDesc": "Pressure Sensor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "4010519",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5558714",
+     "partDesc": "Dataplate",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5698486",
+     "partDesc": "Electronic Control Module",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "5698487",
+     "partDesc": "Electronic Control Module",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "6380168",
+     "partDesc": "Electronic Control Module Support",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3955219",
+     "partDesc": "Vibration Isolator",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "3955220",
+     "partDesc": "Vibration Isolator",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "6380169",
+     "partDesc": "Electronic Control Module Support",
+     "systems": [
+      "ELECTRICS"
+     ]
+    },
+    {
+     "partNo": "6408447",
+     "partDesc": "Studded Hexagon Cap Screw",
+     "systems": [
+      "ELECTRICS"
+     ]
+    }
+   ],
+   "graphic": "/740/ph/740_ph9908400_00",
+   "path": null,
+   "optionNo": "PH99084-00",
+   "optionNumber": "PH99084-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "4966BA399D81EFB4EFDEEBB2F5875578D0AB960C35F24725008378AA056ECA68FFF766625F3FE4C6A6364D49CDADBE4AF22D07E79B99E12D6608E6DA527E3D57",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Performance Parts",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP46235-00",
+   "optionNumber": "PP46235-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "A0F9228538D208659F118B56811AC0688CBBAD170376FEB3B05010A0FC4BB6F98EBF68C0F8CDF7C721FBCEC5B54DAF92433B3912A4FEBD6B35B8078B861310D6",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Injector",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP92716-00",
+   "optionNumber": "PP92716-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "A889C1269584D62D49B88123CD38CDAF7ACAC7D03D82B140C46342C1862D31E5D70690F7B44C6E4F2B919D35BE394D4E49165439CEB99D12F85D93FCDFAE3CD3",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Camshaft",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900630",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3928873",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3975555",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "4895877",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626570",
+     "partDesc": "Camshaft Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5664317",
+     "partDesc": "Camshaft Cover Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5665083",
+     "partDesc": "Camshaft Cover",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5670047",
+     "partDesc": "Speed Indicator Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5665803",
+     "partDesc": "Speed Indicator Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5670048",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5683470",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5687488",
+     "partDesc": "Friction Enhancing Shim",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6307863",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6385677",
+     "partDesc": "Camshaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5670039",
+     "partDesc": "Straight Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6385675",
+     "partDesc": "Camshaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6488791",
+     "partDesc": "Housing,cms",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6384662",
+     "partDesc": "Housing,cms",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3928873",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5668970",
+     "partDesc": "Camshaft Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3089277",
+     "partDesc": "Pin Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661428",
+     "partDesc": "Camshaft Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5668971",
+     "partDesc": "Camshaft Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3089277",
+     "partDesc": "Pin Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5665207",
+     "partDesc": "Camshaft Bearing Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6384661",
+     "partDesc": "Housing,cms",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6388185",
+     "partDesc": "Rocker Lever Housing Gasket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6488797",
+     "partDesc": "Injector Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP93155-04",
+   "optionNumber": "PP93155-04",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "03D0C56F72A751F8022FD8B31620BC3D1C6CD31C3F58E0EDA6DB7256EFE1CC81D273BCD9B98096A4E8F808366B451B9A92059BDF658ADA260EC027FC5740CF7B",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Piston",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5486258",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661661",
+     "partDesc": "Piston Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6303190",
+     "partDesc": "Engine Connecting Rod",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5663670",
+     "partDesc": "Fracture Resistant Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6303192",
+     "partDesc": "Engine Connecting Rod",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6303200",
+     "partDesc": "Bushing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6408516",
+     "partDesc": "Piston Cooling Nozzle",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6408517",
+     "partDesc": "Piston Cooling Nozzle",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443742",
+     "partDesc": "Banjo Connector Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6418088",
+     "partDesc": "Connecting Rod Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6420143",
+     "partDesc": "Connecting Rod Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6489091",
+     "partDesc": "Compression Piston Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6489092",
+     "partDesc": "Compression Piston Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6489093",
+     "partDesc": "Oil Piston Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6489481",
+     "partDesc": "Engine Piston",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6489482",
+     "partDesc": "Engine Piston",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": "/740/pp/740_pp9315600_05_1",
+   "path": null,
+   "optionNo": "PP93156-05",
+   "optionNumber": "PP93156-05",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "98A2E9EC1C0A493608FD2794540314AA334FFA7531AF4DE128790C63F4EFE671E9F55AFD6C08F610DD7FEB652B06BC1AEAD2E471069DE9500F1BE4C6595BE5D1",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Injector Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900630",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "3900678",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "4943188",
+     "partDesc": "Safety Decal",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5688330",
+     "partDesc": "Accumulator",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5663629",
+     "partDesc": "Pressure Relief Valve",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5663630",
+     "partDesc": "Pressure Sensor",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5718602",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5718604",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5718605",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6415572",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6430137",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "4945989",
+     "partDesc": "Noise Isolator",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5479128",
+     "partDesc": "Isolator Retainer",
+     "systems": [
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5718603",
+     "partDesc": "Injector Fuel Supply Tube",
+     "systems": [
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP93227-02",
+   "optionNumber": "PP93227-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "797CBAAA1B68B14F39BAAA65FFA2D27D0B86CF31790D16351A5A780E616201B7EBD360256E51874E825CC45FBB6C5F59345665104738013595088553EA1B35EE",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Cylinder Head",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900627",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6418972",
+     "partDesc": "Cylinder Head Gasket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6433799",
+     "partDesc": "Fracture Resistant Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443539",
+     "partDesc": "Flanged O Ring Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5283798",
+     "partDesc": "Sleeve",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443540",
+     "partDesc": "Flanged O Ring Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443541",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6445599",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3328789",
+     "partDesc": "Socket Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626989",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661834",
+     "partDesc": "Idler Gear",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5661835",
+     "partDesc": "Bushing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443239",
+     "partDesc": "Thrust Bearing",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6443240",
+     "partDesc": "Idler Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6451638",
+     "partDesc": "Pin Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6468369",
+     "partDesc": "Cylinder Head",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "2874751",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3093826",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3901445",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3925437",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5348816",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5663621",
+     "partDesc": "Injector",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5714335",
+     "partDesc": "Engine Lifting Bracket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5714336",
+     "partDesc": "Engine Lifting Bracket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5714344",
+     "partDesc": "Customer Accessory Bracket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5715039",
+     "partDesc": "Injector Clamp",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5717528",
+     "partDesc": "Intake Manifold Gasket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6464376",
+     "partDesc": "Air Intake Manifold",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3088446",
+     "partDesc": "Threaded Insert",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678923",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678924",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678925",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6464377",
+     "partDesc": "Air Intake Manifold",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6470159",
+     "partDesc": "Cylinder Head",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5293565",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5472408",
+     "partDesc": "Valve Collet",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626478",
+     "partDesc": "Valve Stem Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626987",
+     "partDesc": "Valve Stem Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6309819",
+     "partDesc": "Intake Valve",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6309820",
+     "partDesc": "Exhaust Valve",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6310916",
+     "partDesc": "Valve Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6310940",
+     "partDesc": "Valve Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6311574",
+     "partDesc": "Valve Spring Retainer",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6380221",
+     "partDesc": "Valve Collet",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6459714",
+     "partDesc": "Valve Spring Retainer",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6470158",
+     "partDesc": "Cylinder Head",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "205401",
+     "partDesc": "Expansion Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3007634",
+     "partDesc": "Expansion Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3813247",
+     "partDesc": "Expansion Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "4086292",
+     "partDesc": "Expansion Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5626431",
+     "partDesc": "Valve Insert",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6309821",
+     "partDesc": "Valve Insert",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6470150",
+     "partDesc": "Cylinder Head",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP93514-00",
+   "optionNumber": "PP93514-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "21EF0407C36C4C2387ACCBCA87B397944EFD20F29865A01583D3F8F8468D82A3964E41036A6DCF99ABB682356512486890CF2F3159AB717ED1B8CD9A332DAB9C",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Turbocharger",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "4298975",
+     "partDesc": "Lock Nut",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "4327413",
+     "partDesc": "Stud",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6417501",
+     "partDesc": "Turbocharger",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "2834020",
+     "partDesc": "Dataplate",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "4048789",
+     "partDesc": "Plain Hose",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6417500",
+     "partDesc": "Turbocharger",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "2839879",
+     "partDesc": "Clamping Plate",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "2840781",
+     "partDesc": "Hexagon Head Set Screw",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3519163",
+     "partDesc": "Drive Screw",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3522597",
+     "partDesc": "Roll Pin",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3523275",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3527566",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3528177",
+     "partDesc": "Adjusting Link End",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3528221",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3528933",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3531238",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3532427",
+     "partDesc": "Turbocharger Noise Baffle",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3533163",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3535215",
+     "partDesc": "Hose Clamp",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3537930",
+     "partDesc": "Elbow Hose Coupling",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3592050",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3593862",
+     "partDesc": "Groove Pin",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3596402",
+     "partDesc": "Lock Nut",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3709753",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3758848",
+     "partDesc": "Split Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3774575",
+     "partDesc": "Thrust Collar",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "3793366",
+     "partDesc": "Split Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5329293",
+     "partDesc": "Turbocharger Compressor Impeller",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5354257",
+     "partDesc": "Oil Slinger",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5458659",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5499360",
+     "partDesc": "Oil Baffle",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5547986",
+     "partDesc": "Oil Seal Plate",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "5637168",
+     "partDesc": "Turbocharger Bearing",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6324253",
+     "partDesc": "Compressor Housing",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6374506",
+     "partDesc": "Turbocharger Thrust Bearing",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6379871",
+     "partDesc": "Turbocharger Heat Shield",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6397856",
+     "partDesc": "Turbocharger Bearing Housing",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6416834",
+     "partDesc": "Turbine Housing",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6444638",
+     "partDesc": "Turbocharger Actuator",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6450511",
+     "partDesc": "Shaft Wheel Rotor",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    },
+    {
+     "partNo": "6459826",
+     "partDesc": "Turbocharger Gasket",
+     "systems": [
+      "AIR INTAKE"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "PP93515-01",
+   "optionNumber": "PP93515-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "62008EFB3A99295CF126075D9785E634233281E26BA1F8BACD6C3B43FADFA1C8A4216590B4A48120C6BDAB4D7619ED1639E757AA845405DC3813E7C90ED58734",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Rocker Lever",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6440086",
+     "partDesc": "Valve Crosshead",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465479",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3093921",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5566016",
+     "partDesc": "Plain Washer",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5566017",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627286",
+     "partDesc": "Rocker Lever Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627289",
+     "partDesc": "Pressure Regulator Plunger",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627290",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5664019",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5664146",
+     "partDesc": "Engine Brake Solenoid",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6307197",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615683",
+     "partDesc": "Cam Follower Roller Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615685",
+     "partDesc": "Cam Follower Roller",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627296",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5686325",
+     "partDesc": "Twelve Point Nut",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5715114",
+     "partDesc": "Rocker Lever Adjusting Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6307198",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615683",
+     "partDesc": "Cam Follower Roller Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615685",
+     "partDesc": "Cam Follower Roller",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627299",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5686325",
+     "partDesc": "Twelve Point Nut",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5715114",
+     "partDesc": "Rocker Lever Adjusting Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6386747",
+     "partDesc": "Rocker Lever Support",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3069637",
+     "partDesc": "Ball Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5612692",
+     "partDesc": "Ball Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627301",
+     "partDesc": "Ring Dowel",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6386748",
+     "partDesc": "Rocker Lever Support",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465473",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3695149",
+     "partDesc": "Twelve Point Nut",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3696004",
+     "partDesc": "Check Ball",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3697069",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3697458",
+     "partDesc": "Valve Insert",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5441628",
+     "partDesc": "Spring Guide",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5480993",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5563046",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5563761",
+     "partDesc": "Stop Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5586076",
+     "partDesc": "Brake Actuator Plunger",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615664",
+     "partDesc": "Cam Follower Roller Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615666",
+     "partDesc": "Cam Follower Roller",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627248",
+     "partDesc": "Rocker Lever Adjusting Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627288",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627291",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627294",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5711724",
+     "partDesc": "Oil Control Valve Plunger",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465472",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465478",
+     "partDesc": "Engine Brake Master Piston",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465476",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3695149",
+     "partDesc": "Twelve Point Nut",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3696004",
+     "partDesc": "Check Ball",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3697069",
+     "partDesc": "Retaining Ring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "3697458",
+     "partDesc": "Valve Insert",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5441628",
+     "partDesc": "Spring Guide",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5480993",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5563046",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5563761",
+     "partDesc": "Stop Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5586076",
+     "partDesc": "Brake Actuator Plunger",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615664",
+     "partDesc": "Cam Follower Roller Pin",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5615666",
+     "partDesc": "Cam Follower Roller",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627248",
+     "partDesc": "Rocker Lever Adjusting Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627288",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627291",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5627294",
+     "partDesc": "Compression Spring",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5711724",
+     "partDesc": "Oil Control Valve Plunger",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465475",
+     "partDesc": "Rocker Lever",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6465478",
+     "partDesc": "Engine Brake Master Piston",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6468128",
+     "partDesc": "Rocker Lever Shaft",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": "/740/rl/740_rl0994300_05_1",
+   "path": null,
+   "optionNo": "RL9943-05",
+   "optionNumber": "RL9943-05",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "858EB9BDB88BE66CCA2EF7E62480D3D19963215DE6F0BCE67B14392E091F7B4FCAD9AEEE6E5B3FAAF584CF1DBD6F1B3699C2B4D0EB6C431FC9FDE1F03457DE06",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Coolant Vent",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6460226",
+     "partDesc": "Elbow Hose Coupling",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": "/740/rp/740_rp0980600_00",
+   "path": null,
+   "optionNo": "RP9806-00",
+   "optionNumber": "RP9806-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "62678DC830DE0CDDD3E918FDA4A2CCC7BD419EB6142B7B444A30847A549DCFCE00D2AD49F99E85CC3673AFD6C1FF5C518BCED89CC01819C5EF3CAF33F7DE2D75",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Cooling Fan Shroud",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3682798",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3695822",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3903464",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6374539",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386694",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3934178",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386700",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386704",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3934178",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386708",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386710",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3934178",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386711",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386713",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3934178",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6386714",
+     "partDesc": "Fan Shroud Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6443083",
+     "partDesc": "Shroud,clg Fan",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/rs/740_rs0904400_01",
+   "path": null,
+   "optionNo": "RS9044-01",
+   "optionNumber": "RS9044-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "0CAA46879AD60F7C2880E5075B04F6F5D2BCCB8F9D44765B364F11FEE85650DD3EEA915F1922C1218175C536768BE5F19A5BF894E1A164AEB051C753C15DFE79",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Calibration Software",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6386075",
+     "partDesc": "Engine Control Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6386083",
+     "partDesc": "Electronic Constants Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6386093",
+     "partDesc": "Engine Control Software",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6386116",
+     "partDesc": "Engine Configuration Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6386207",
+     "partDesc": "System Control Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    },
+    {
+     "partNo": "6513949",
+     "partDesc": "Performance Control Data",
+     "systems": [
+      "RATINGS AND CALIBRATIONS"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "SC81695-00",
+   "optionNumber": "SC81695-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "57CE01AA339871FC24DD34385E8980342FA7AF4396EDB911DAEDB1CCA7612E9F94E13F8138519CEDEDF02C8767BD35BD683CDEE7082D296C14FA63E351461A54",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Heat Shield Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5270032",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    },
+    {
+     "partNo": "5682589",
+     "partDesc": "Heat Shield",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    }
+   ],
+   "graphic": "/740/sh/740_sh0941500_00",
+   "path": null,
+   "optionNo": "SH9415-00",
+   "optionNumber": "SH9415-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "ECD6F5626108969A5F8FF0CDEF3B221E5B5BF104AB6AC43F105DB479A25357CE7908C2E2651866C9F330A598A42E61AAB7326E7BA7AF46AD9948EE1951C147BF",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Heat Shield",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6382327",
+     "partDesc": "Heat Shield",
+     "systems": [
+      "EXHAUST"
+     ]
+    },
+    {
+     "partNo": "6382338",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "EXHAUST"
+     ]
+    }
+   ],
+   "graphic": "/740/sh/740_sh0944100_00",
+   "path": null,
+   "optionNo": "SH9441-00",
+   "optionNumber": "SH9441-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "EF6CF0FB55B84BB0975344328EDFBCFD3CDD0100F40BB20EAE49568A1C8E7A12BFE7F523A3C84BA920756600AB8B33AB89578EDE75253BD9A188FDA7B102D281",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Heat Shield Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3694504",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    },
+    {
+     "partNo": "4893517",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    },
+    {
+     "partNo": "5586791",
+     "partDesc": "Threaded Spacer",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    },
+    {
+     "partNo": "6388136",
+     "partDesc": "Heat Shield Bracket",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    },
+    {
+     "partNo": "6393013",
+     "partDesc": "Fuel Line Shield",
+     "systems": [
+      "MISCELLANEOUS"
+     ]
+    }
+   ],
+   "graphic": "/740/sh/740_sh0944200_00",
+   "path": null,
+   "optionNo": "SH9442-00",
+   "optionNumber": "SH9442-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "9C3CEF972472A8D91CD7F2F256EDAF13D5B5672C43958524B4866AFCA34B736D1FA5DAD078C91F780CC02A6885BB1E0602FA935F77378E3138463E686D949E58",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Shipping Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "SK9471-00",
+   "optionNumber": "SK9471-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "BD0514C237E43F9F0E03AA493023C99F85FF2B30D05EC1F4829ABA1E950F18B4713E607AB5E08B4B5C866D7017A8998122F982780A6379EEAC0934B696999B81",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Starting Motor Mounting",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5709366",
+     "partDesc": "Studded Flange Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5709367",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/sm/740_sm0980600_01",
+   "path": null,
+   "optionNo": "SM9806-01",
+   "optionNumber": "SM9806-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "2FEE125BEE2BC6A7B0D88EBDFEE3109366DC9072F1F729EE55CE846628FA03E0B26EE586199B240A0A87994ABEBACE02AB59BC189C6FD1433A5F6AB046B367C3",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Fan Pilot Spacer",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093828",
+     "partDesc": "Hexagon Flange Nut",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3925344",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6455698",
+     "partDesc": "Fan Spacer",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6310205",
+     "partDesc": "Double End Plain Stud",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6455701",
+     "partDesc": "Fan Spacer",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/sp/740_sp0928600_00",
+   "path": null,
+   "optionNo": "SP9286-00",
+   "optionNumber": "SP9286-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "F66166CC1A3CE8B58655DDA2FF3B3E46440BEEF7AC3E6EB2151330D2AC0DB6DB4722C295C1F04A86A75FF38A8148C10E5DAB2FCCB457823A7CDC4E052AA42D29",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Paint",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "SS90076-00",
+   "optionNumber": "SS90076-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "64BDC410E4055FF4F044BBEE863AA7DB10C539E0C66AC2D245EC5524CFA8506FE9EEA458244E1D7F892422BC27A5E9329CF7B90A695B4E6720CA885B8A781389",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Starting Motor",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6473486",
+     "partDesc": "Starting Motor",
+     "systems": [
+      "ELECTRICS"
+     ]
+    }
+   ],
+   "graphic": "/740/st/740_st0985900_01",
+   "path": null,
+   "optionNo": "ST9859-01",
+   "optionNumber": "ST9859-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "10782467864A6C69840F13472BBA246664F12B565607CFA9C9CBD566A77569B22707773BC4CF51B09CFD5E2CD1D1FBCE1B1138245C9AD4360797467B23A4AE3B",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Operating Voltage",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "SV9002-00",
+   "optionNumber": "SV9002-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "9EE508C2DA8392A94C17F0DC9E902372FE1A71D5A2A4C5C5822435DEF6AF3475D1C6C02F2F425806F773DF3D7B73394A02F63C8A440607B398D1E92C278CA148",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Turbocharger Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "TB93440-00",
+   "optionNumber": "TB93440-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "619B24A170F0E0A497C4763AED815A48C5CB6BF0AE5031114077D5671731C3AC11C7A77A1DEFF6C03A55C748F4225F555E408C96321AC1B9237E6E2CA1523A7D",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Exhaust Manifold",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3696821",
+     "partDesc": "Lock Washer",
+     "systems": [
+      "EXHAUST"
+     ]
+    },
+    {
+     "partNo": "6397291",
+     "partDesc": "High Temperature Screw",
+     "systems": [
+      "EXHAUST"
+     ]
+    },
+    {
+     "partNo": "6397294",
+     "partDesc": "Mounting Spacer",
+     "systems": [
+      "EXHAUST"
+     ]
+    },
+    {
+     "partNo": "6462138",
+     "partDesc": "Exhaust Manifold Gasket",
+     "systems": [
+      "EXHAUST"
+     ]
+    },
+    {
+     "partNo": "6483164",
+     "partDesc": "Exhaust Manifold",
+     "systems": [
+      "EXHAUST"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "TB93689-00",
+   "optionNumber": "TB93689-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "A7B95CA5AED58B0DD1382469567B2CB5B240E19629CEACE4BC12D9B88CA4E3D765A467E147B708D4F906F80683529579BBAD5A596F28246221831D4EBA7E8D99",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Thermostat Housing Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3913638",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "TH9761-00",
+   "optionNumber": "TH9761-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "93040293B0C8B555E6FCBF97E03972A42BBD203E1ED1DB45717DA7788BBCC76A1A93F9AB639C44C7DE30862AB217ED7FAFC0806624969144A79BC420CADED852",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Thermostat Housing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3903464",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6431304",
+     "partDesc": "Thermostat Housing",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "2830411",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3696215",
+     "partDesc": "Thermostat",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5713061",
+     "partDesc": "Water Outlet Connection",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6322027",
+     "partDesc": "Thermostat",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6418947",
+     "partDesc": "Thermostat Housing",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5547645",
+     "partDesc": "Threaded Insert",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5666424",
+     "partDesc": "Seal,thermostat Housing",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6418946",
+     "partDesc": "Thermostat Housing",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "TH9771-02",
+   "optionNumber": "TH9771-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "60FAC4CB62577F7519FC3CDEC58363DF8154CE2EF05CADA36D19CCC97E9050AD8FFD8B6A71EF85FD4DD3FF3133B96906A3B3D061EF132BE88DDFDB6E50361906",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Turbocharger Plumbing",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900630",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "4960136",
+     "partDesc": "Flange Gasket",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5264569",
+     "partDesc": "Oil Drain Gasket",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5717694",
+     "partDesc": "Turbocharger Oil Supply Tube",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6376951",
+     "partDesc": "Turbocharger Oil Drain Connection",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5266070",
+     "partDesc": "Spring Hose Clamp",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5664503",
+     "partDesc": "Plain Hose",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "5718612",
+     "partDesc": "Turbocharger Oil Drain Connection",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    },
+    {
+     "partNo": "6376952",
+     "partDesc": "Turbocharger Oil Drain Connection",
+     "systems": [
+      "AIR INTAKE",
+      "COOLING",
+      "LUBRICATION"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "TP98387-04",
+   "optionNumber": "TP98387-04",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "081F8AA3A7B80822BDDF9E0AEE1236BB87982F1253D40B09707A04FA691F98A758A3569E37A85E95D3EC79E88A13C8D81F32868EED32C7F110B9AB100B834652",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Valve Cover Arrangement",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "VC9401-00",
+   "optionNumber": "VC9401-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "7CAA1DF936C8B8478C9A483DA1CAC5338490943BC4C3992A70B5BFFBAC8BB2EDF0F1FFC8C0A92B18093C54F49C290D93479A72156540D6DCA53B009C832DBD37",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Valve Cover",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6423342",
+     "partDesc": "Valve Cover",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "5255310",
+     "partDesc": "Filler Cap",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6408387",
+     "partDesc": "Valve Cover Gasket",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6408388",
+     "partDesc": "Captive Isolator Cap Screw",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6408389",
+     "partDesc": "Screw,sdd Cpt Iso",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    },
+    {
+     "partNo": "6423343",
+     "partDesc": "Valve Cover",
+     "systems": [
+      "BASE ENGINE"
+     ]
+    }
+   ],
+   "graphic": "/740/vc/740_vc9007200_01",
+   "path": null,
+   "optionNo": "VC90072-01",
+   "optionNumber": "VC90072-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "0E43B65E2E1F9D0CB5048AFAFF3DEBF4FD739F15566DF68D3562C08847B996BF7D83662C79EC4A3334C8C165FF0829234AA32C3D57EF92466F23F078672F5F6F",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Water Inlet Connection",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3093730",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6486778",
+     "partDesc": "Water Inlet Connection",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5711270",
+     "partDesc": "Plain Hose Coupling",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6304714",
+     "partDesc": "Diamond Ring Seal",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6311753",
+     "partDesc": "Elbow Hose Coupling",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6419543",
+     "partDesc": "Tube Connector Tee",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3678921",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3678912",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3678922",
+     "partDesc": "Threaded Plug",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6419544",
+     "partDesc": "Tube Connector Tee",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "6486777",
+     "partDesc": "Water Inlet Connection",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WI9996-03",
+   "optionNumber": "WI9996-03",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "C46EAF561CF64261D7E6758FB6F6B9872FE2C84D096A4D667986C6B5C1EB5F422C3C09E9A8DEEFFE4CEEC5A46D231A978D9B55C15DC93E47991DD290724F840C",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Water Manifold",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5717887",
+     "partDesc": "Fluid Manifold",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "70624",
+     "partDesc": "O Ring Seal",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "3692449",
+     "partDesc": "Diamond Ring Seal",
+     "systems": [
+      "COOLING"
+     ]
+    },
+    {
+     "partNo": "5717518",
+     "partDesc": "Fluid Manifold",
+     "systems": [
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": "/740/wm/740_wm9000300_01",
+   "path": null,
+   "optionNo": "WM90003-01",
+   "optionNumber": "WM90003-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "51AE7E762F41B10393C64444803E7177E2A3F49A1ED1D6AEEB230E13F7673CB6C71750AA5A5FF317AF4EC10823E0F24E1DC1EA284C21237D5D52CCB82C257678",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Water Outlet Connection",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WO9302-00",
+   "optionNumber": "WO9302-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "FFD5114B6335D41D53729B26DDD5CB11C8015282B74EE2477FE61DAD2E057E7199E761B22D073FC8C36B6ACF33DC557FC2E139639D05E4333B06D8AB228CC25A",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Water Pump",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WP98363-00",
+   "optionNumber": "WP98363-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "CDED0303D885D1B212DF9B8B4E465AC438831004AD33B45B4709A975C4814496498310D59801CB81FAFA465EED2EB2C8E93243E7E9D8FCC74F34F3349CE3123F",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Water Pump Drive",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "6451318",
+     "partDesc": "V Ribbed Belt",
+     "systems": [
+      "DRIVES AND MOUNTINGS",
+      "COOLING"
+     ]
+    }
+   ],
+   "graphic": "/740/wp/740_wp9837200_01",
+   "path": null,
+   "optionNo": "WP98372-01",
+   "optionNumber": "WP98372-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "14B24CA6D19FA40C58C8881D9976F793418F3C9989FD6BA7E080567845C0F2A37B72AA18CE6EBDEEED650795D77DCFC4AAC19D296B44246CA9E93C26DC871C09",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Belt Tensioner",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3695822",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "3900679",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6383560",
+     "partDesc": "Belt Tensioner Support",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6419474",
+     "partDesc": "Belt Tensioner",
+     "systems": [
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/wp/740_wp9846200_01",
+   "path": null,
+   "optionNo": "WP98462-01",
+   "optionNumber": "WP98462-01",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "E4F582CBB3E9155F28948C20ABCE6DA5D4FDF78F8B1E883DBAFA3F59B5C6541DFF45228E5459450CFC8DD3A3BBAA76491F46C3468F4B6F040802DFA9ECE23306",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Injector Wiring Harness",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3902023",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "5688273",
+     "partDesc": "Clip",
+     "systems": [
+      "ELECTRICS",
+      "FUEL"
+     ]
+    },
+    {
+     "partNo": "6425878",
+     "partDesc": "Injector Wiring Harness",
+     "systems": [
+      "ELECTRICS",
+      "FUEL"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WR91699-02",
+   "optionNumber": "WR91699-02",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "BCC7F58E94626E7EF4C47CCA905BFC6BF75C7C4E4B711342F981753709CAAEAE07AFF806959CF44CE5959BB3D7C8BAC87C3682C2ED259EC8BA1476160B675F6C",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Electronic Control Module Wiring Harness",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "3900631",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "3902460",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "3913638",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5717723",
+     "partDesc": "Junction Box",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5529131",
+     "partDesc": "Lock Nut",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5667973",
+     "partDesc": "Fuse",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5667973",
+     "partDesc": "Fuse",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5714346",
+     "partDesc": "Junction Box",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "5714346",
+     "partDesc": "Junction Box",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "6462419",
+     "partDesc": "Heat Shield Bracket",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "6462657",
+     "partDesc": "Cable Bracket",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    },
+    {
+     "partNo": "6473790",
+     "partDesc": "Electronic Control Module Wiring Harness",
+     "systems": [
+      "ELECTRICS",
+      "CONTROLS"
+     ]
+    }
+   ],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WR91874-05",
+   "optionNumber": "WR91874-05",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "0E67882210A85A7483F0BA3E132D9C7362E4ACBE093B4ACD0C12659FD09AC9989476CA483DFDD9B038A603CD83102277C17D2A72B9DD7EC45AB6B0DFA7ABFC3E",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Engine Control Wiring Harness",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [],
+   "graphic": null,
+   "path": null,
+   "optionNo": "WR92119-00",
+   "optionNumber": "WR92119-00",
+   "buildCode": "ORIGINAL"
+  },
+  {
+   "componentHash": "1F72174DBD1605C6B227D7CEAF5AC7A2495F0D9D53747B08A0AA3000A4FF9686F9B52EF02E4A6F46403FB8C24CF22280E7726B77E7D193D42ED8B518C7C109E6",
+   "esnType": "mbom",
+   "componentType": "option",
+   "optionName": "Exhaust Outlet Connection",
+   "build": "ORIGINAL",
+   "buildDate": "2023-12-20 00:00:00.0",
+   "filmCard": null,
+   "specGroup": null,
+   "optionFlag": "O",
+   "plantCode": "740",
+   "parts": [
+    {
+     "partNo": "5270032",
+     "partDesc": "Hexagon Flange Head Cap Screw",
+     "systems": [
+      "EXHAUST",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "5716616",
+     "partDesc": "Turbocharger Gasket",
+     "systems": [
+      "EXHAUST",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6307087",
+     "partDesc": "Exhaust Outlet Connection",
+     "systems": [
+      "EXHAUST",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6313191",
+     "partDesc": "Exhaust Outlet Connection Gasket",
+     "systems": [
+      "EXHAUST",
+      "DRIVES AND MOUNTINGS"
+     ]
+    },
+    {
+     "partNo": "6315094",
+     "partDesc": "V Band Clamp",
+     "systems": [
+      "EXHAUST",
+      "DRIVES AND MOUNTINGS"
+     ]
+    }
+   ],
+   "graphic": "/740/xs/740_xs9012300_01",
+   "path": null,
+   "optionNo": "XS90123-01",
+   "optionNumber": "XS90123-01",
+   "buildCode": "ORIGINAL"
+  }
+ ],
+ "systemOptions": [
+  {
+   "major": "AIR INTAKE",
+   "optionList": [
+    {
+     "componentHash": "1A1D52EE9105F5C73B4E7726BFE0EFCE50CE96097AA6019D17526664CFD9BC6BF4B636831A3C17DDF7BE94AFBC3B9AC9A97835AC7DC3F4D22FB5AAFDD8F0BBBF",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Air Cleaner Plumbing Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ca/740_ca0925600_00",
+     "path": null,
+     "optionNo": "CA9256-00",
+     "optionNumber": "CA9256-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "B9553506DF234A75BC34DA997E8132511A0300CB02013A2C06FF648252693A81C6DDC612103499EF37A77AFAD3E3ADBB0F556470B6A09B593E3045E430963B5E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Air Intake Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "IC90546-01",
+     "optionNumber": "IC90546-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "1DC0545A76E71EA8BFD5A1566D2D3C6E33AE39380B7E75C684A71AC6800BC470EE3923400CA40F07305346C87841535A7161E9ACF2CCD8F7F2508205515475C1",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Air Intake Manifold",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/im/740_im0989500_02",
+     "path": null,
+     "optionNo": "IM9895-02",
+     "optionNumber": "IM9895-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "CEB8E1B032BF53F2F65CED36D67C3EFC5EBF569CB7F144171DB7E8A1527903F16A3E07563D6B8E5492B41BD75DC5B8F1763D38C4C223942EC231DCD56E010F56",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Air Transfer Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/it/740_it0940900_01",
+     "path": null,
+     "optionNo": "IT9409-01",
+     "optionNumber": "IT9409-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "4966BA399D81EFB4EFDEEBB2F5875578D0AB960C35F24725008378AA056ECA68FFF766625F3FE4C6A6364D49CDADBE4AF22D07E79B99E12D6608E6DA527E3D57",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Performance Parts",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP46235-00",
+     "optionNumber": "PP46235-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "21EF0407C36C4C2387ACCBCA87B397944EFD20F29865A01583D3F8F8468D82A3964E41036A6DCF99ABB682356512486890CF2F3159AB717ED1B8CD9A332DAB9C",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Turbocharger",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP93515-01",
+     "optionNumber": "PP93515-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "60FAC4CB62577F7519FC3CDEC58363DF8154CE2EF05CADA36D19CCC97E9050AD8FFD8B6A71EF85FD4DD3FF3133B96906A3B3D061EF132BE88DDFDB6E50361906",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Turbocharger Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TP98387-04",
+     "optionNumber": "TP98387-04",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Air_Intake.png"
+  },
+  {
+   "major": "BASE ENGINE",
+   "optionList": [
+    {
+     "componentHash": "697E3B3C5AAAC1F2ADC8582468D0796A561539B1B2705FB8D5685A99FF252980DF2E19966BB85C61652B56C6EB211A3EFB4BB65DFD2D0B2B3CCAE2F8BC9E7F26",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Cylinder Block",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "BB90485-02",
+     "optionNumber": "BB90485-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "4966BA399D81EFB4EFDEEBB2F5875578D0AB960C35F24725008378AA056ECA68FFF766625F3FE4C6A6364D49CDADBE4AF22D07E79B99E12D6608E6DA527E3D57",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Performance Parts",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP46235-00",
+     "optionNumber": "PP46235-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "A889C1269584D62D49B88123CD38CDAF7ACAC7D03D82B140C46342C1862D31E5D70690F7B44C6E4F2B919D35BE394D4E49165439CEB99D12F85D93FCDFAE3CD3",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Camshaft",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP93155-04",
+     "optionNumber": "PP93155-04",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "03D0C56F72A751F8022FD8B31620BC3D1C6CD31C3F58E0EDA6DB7256EFE1CC81D273BCD9B98096A4E8F808366B451B9A92059BDF658ADA260EC027FC5740CF7B",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Piston",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/pp/740_pp9315600_05_1",
+     "path": null,
+     "optionNo": "PP93156-05",
+     "optionNumber": "PP93156-05",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "797CBAAA1B68B14F39BAAA65FFA2D27D0B86CF31790D16351A5A780E616201B7EBD360256E51874E825CC45FBB6C5F59345665104738013595088553EA1B35EE",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Cylinder Head",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP93514-00",
+     "optionNumber": "PP93514-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "62008EFB3A99295CF126075D9785E634233281E26BA1F8BACD6C3B43FADFA1C8A4216590B4A48120C6BDAB4D7619ED1639E757AA845405DC3813E7C90ED58734",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Rocker Lever",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/rl/740_rl0994300_05_1",
+     "path": null,
+     "optionNo": "RL9943-05",
+     "optionNumber": "RL9943-05",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "081F8AA3A7B80822BDDF9E0AEE1236BB87982F1253D40B09707A04FA691F98A758A3569E37A85E95D3EC79E88A13C8D81F32868EED32C7F110B9AB100B834652",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Valve Cover Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "VC9401-00",
+     "optionNumber": "VC9401-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "7CAA1DF936C8B8478C9A483DA1CAC5338490943BC4C3992A70B5BFFBAC8BB2EDF0F1FFC8C0A92B18093C54F49C290D93479A72156540D6DCA53B009C832DBD37",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Valve Cover",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/vc/740_vc9007200_01",
+     "path": null,
+     "optionNo": "VC90072-01",
+     "optionNumber": "VC90072-01",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Base_Engine.png"
+  },
+  {
+   "major": "COMPRESSORS AND PUMPS",
+   "optionList": [
+    {
+     "componentHash": "C7CA9F09D129B2FE8B5803DA4A82DF3C0BCB74641FE1DB66765FEE59D566915C092D766D19032DCBA774E131144738633FE8AE1284506AEE62A0C0C51874E36E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Compressor Coolant Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/cc/740_cc9026200_02",
+     "path": null,
+     "optionNo": "CC90262-02",
+     "optionNumber": "CC90262-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "7306D5FF26E6E12843D418A2ACAA8CA85C180A3E8362FDCFB838888F4D88F6623F3F728EF1D85EDEAE151D8F07F0C1691659AFEA05E95B6A13F031EAFBF97357",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Compressor Air Discharge Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/cd/740_cd0908900_04",
+     "path": null,
+     "optionNo": "CD9089-04",
+     "optionNumber": "CD9089-04",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "0919D8377D04855DCD1786BFEF7417E21996BB267FFDA9D05C3129FE34C44805CF2C2D3B2C24D4F2A325DAD7B4436843D899D8BDAE385C095CDD94D288012C3D",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Compressor Air Inlet Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ci/740_ci0943500_02",
+     "path": null,
+     "optionNo": "CI9435-02",
+     "optionNumber": "CI9435-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "AE75E579BC3FACF59D86B2BFEF5F578E08B0180F76605CB8E5247F537C5122961FD711BD9DBFFB62C4551B0DAD97F93C5EC07F81350B567090B3359AE2D3C908",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Air Compressor",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "CP90137-03",
+     "optionNumber": "CP90137-03",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "FFD5114B6335D41D53729B26DDD5CB11C8015282B74EE2477FE61DAD2E057E7199E761B22D073FC8C36B6ACF33DC557FC2E139639D05E4333B06D8AB228CC25A",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Pump",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WP98363-00",
+     "optionNumber": "WP98363-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Compressors_and_Pumps.png"
+  },
+  {
+   "major": "CONTROLS",
+   "optionList": [
+    {
+     "componentHash": "BCC7F58E94626E7EF4C47CCA905BFC6BF75C7C4E4B711342F981753709CAAEAE07AFF806959CF44CE5959BB3D7C8BAC87C3682C2ED259EC8BA1476160B675F6C",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Electronic Control Module Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR91874-05",
+     "optionNumber": "WR91874-05",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "0E67882210A85A7483F0BA3E132D9C7362E4ACBE093B4ACD0C12659FD09AC9989476CA483DFDD9B038A603CD83102277C17D2A72B9DD7EC45AB6B0DFA7ABFC3E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Control Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR92119-00",
+     "optionNumber": "WR92119-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Controls.png"
+  },
+  {
+   "major": "COOLING",
+   "optionList": [
+    {
+     "componentHash": "791556F58EF2252C06BBB566EDC08A91588CDB2A8F880D228C288ACC3114A178691D36F6CCD2BD40C605820660AC3C993CC6844C4A8040A5570C39D4F530C703",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Thermostat",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "EC9738-00",
+     "optionNumber": "EC9738-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "195DB80303375516DC786041F253CBC50209C77A7698CB487D011107137DC2FEC82B94EBA7EE5332F9EF5557DA6F40F5FAD90EB536EC891E2D1DC88C53349F22",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Cabin Heater Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "HC9582-01",
+     "optionNumber": "HC9582-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "111C72EB981BB003226EC8DD850B31363B0E15607245B020BEBBC5F25F0AF7189AEAD44B58A9DBE9BA3BEDE21E79583A3C25D6CE566F3727342DB3292D5B681E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Auxiliary Cooling Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "HE90180-00",
+     "optionNumber": "HE90180-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "858EB9BDB88BE66CCA2EF7E62480D3D19963215DE6F0BCE67B14392E091F7B4FCAD9AEEE6E5B3FAAF584CF1DBD6F1B3699C2B4D0EB6C431FC9FDE1F03457DE06",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Coolant Vent",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/rp/740_rp0980600_00",
+     "path": null,
+     "optionNo": "RP9806-00",
+     "optionNumber": "RP9806-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "A7B95CA5AED58B0DD1382469567B2CB5B240E19629CEACE4BC12D9B88CA4E3D765A467E147B708D4F906F80683529579BBAD5A596F28246221831D4EBA7E8D99",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Thermostat Housing Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TH9761-00",
+     "optionNumber": "TH9761-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "93040293B0C8B555E6FCBF97E03972A42BBD203E1ED1DB45717DA7788BBCC76A1A93F9AB639C44C7DE30862AB217ED7FAFC0806624969144A79BC420CADED852",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Thermostat Housing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TH9771-02",
+     "optionNumber": "TH9771-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "60FAC4CB62577F7519FC3CDEC58363DF8154CE2EF05CADA36D19CCC97E9050AD8FFD8B6A71EF85FD4DD3FF3133B96906A3B3D061EF132BE88DDFDB6E50361906",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Turbocharger Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TP98387-04",
+     "optionNumber": "TP98387-04",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "0E43B65E2E1F9D0CB5048AFAFF3DEBF4FD739F15566DF68D3562C08847B996BF7D83662C79EC4A3334C8C165FF0829234AA32C3D57EF92466F23F078672F5F6F",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Inlet Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WI9996-03",
+     "optionNumber": "WI9996-03",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "C46EAF561CF64261D7E6758FB6F6B9872FE2C84D096A4D667986C6B5C1EB5F422C3C09E9A8DEEFFE4CEEC5A46D231A978D9B55C15DC93E47991DD290724F840C",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Manifold",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/wm/740_wm9000300_01",
+     "path": null,
+     "optionNo": "WM90003-01",
+     "optionNumber": "WM90003-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "51AE7E762F41B10393C64444803E7177E2A3F49A1ED1D6AEEB230E13F7673CB6C71750AA5A5FF317AF4EC10823E0F24E1DC1EA284C21237D5D52CCB82C257678",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Outlet Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WO9302-00",
+     "optionNumber": "WO9302-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "FFD5114B6335D41D53729B26DDD5CB11C8015282B74EE2477FE61DAD2E057E7199E761B22D073FC8C36B6ACF33DC557FC2E139639D05E4333B06D8AB228CC25A",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Pump",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WP98363-00",
+     "optionNumber": "WP98363-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "CDED0303D885D1B212DF9B8B4E465AC438831004AD33B45B4709A975C4814496498310D59801CB81FAFA465EED2EB2C8E93243E7E9D8FCC74F34F3349CE3123F",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Pump Drive",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/wp/740_wp9837200_01",
+     "path": null,
+     "optionNo": "WP98372-01",
+     "optionNumber": "WP98372-01",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Cooling.png"
+  },
+  {
+   "major": "DRIVES AND MOUNTINGS",
+   "optionList": [
+    {
+     "componentHash": "578BFC82B272C5981F15C63D77943786DA3720E5A99F4CB6295DAA3792375968F25BC00155FFC37E3BC52F4D75C1590088A77182E3EBE5ABE15FFBA15B1BDA0C",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Accessory Location",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "AB90144-00",
+     "optionNumber": "AB90144-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "003FC278F0422474905A97C122A98DEDED925EEBF0CDE6099EC6210644DC96E206062EC57BF55F66436A9B9119E6D1A7D36A4BC27C8ACEB05CE6B3418DA82A73",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Refrigerant Compressor",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "CF9790-00",
+     "optionNumber": "CF9790-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "A9E30EB989B02062A69DDECCDF240B9C69D6B6D8CE91A391825229DF7819BA1C2E6C2FC20A5D64B0951C4D934A33FFB225E9BF091A21EC31787D4E34831A24D4",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Rear Clutch",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/cl/740_cl0923700_00",
+     "path": null,
+     "optionNo": "CL9237-00",
+     "optionNumber": "CL9237-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "126E5179D39D8BED06FB5032EF563E1DD984CE325CE3AAEDF8BBF43EC4AE1FE5AC38824C5D95FC467DE186612A7DD2D52567084A6DCAD7AEBB1357CC1634B215",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Vibration Damper",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/da/740_da0989800_02",
+     "path": null,
+     "optionNo": "DA9898-02",
+     "optionNumber": "DA9898-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "BD607422A1F0D0826B763814AF30C09A24872CD6AA36AB7628F561E8962AD9D29C6B0FBA7946C1B00421A706BEE5D1C989E1F97BFD8D023160643E0CFD89FB07",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Rear Gear Train Accessory Drive",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "DR9744-00",
+     "optionNumber": "DR9744-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "C9C9E5D55E971B9565023E19CF644347CD1EE4FD5DDCF7235CC4B24C24CA3C84D8320D9265DF7F7B1B3F9DB3F69A1ABBA19CD91484D3B22D03260F4792C58FA3",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Rear Gear Train Accessory Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "DR9745-00",
+     "optionNumber": "DR9745-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "5E02FE156B2FABCDBA39BADA79562E4FAF3D3D54EE4BA62F1CC50AC54428E1BA9330F69F76F8446CFEF2F0C0EF7DD9EABAF9215E5DEE3F00584E6048F1E591D7",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Alternator Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/eh/740_eh9851700_01",
+     "path": null,
+     "optionNo": "EH98517-01",
+     "optionNumber": "EH98517-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "EDAF4244ACF68A444323BA915B2CEFC7880656F6EA72F245CB12665B38F105D263A5A0B3B6500DAA1666C4661C1CFD53CF7BE861E00E06DB47C0F0075813EABA",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Alternator Drive",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/eh/740_eh9863600_02",
+     "path": null,
+     "optionNo": "EH98636-02",
+     "optionNumber": "EH98636-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "B568FC9A2DB11D5221E866FAEAA5110A7D759654CA86D7E7AE1B416E8BCA3E857CB615DCD6F2DF5C1AE9CD95A10C56271B0BD5C1B7788155251D27A0F5CA4FF0",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fan Drive",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/fa/740_fa9056200_01",
+     "path": null,
+     "optionNo": "FA90562-01",
+     "optionNumber": "FA90562-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "8A0060970B40D8F17C684B9C2C1953D5EBC1CB268CB51DCCB4BAA5B94C7CB9BBEB00F900DA463B7F0EBE6BE14C6B505BAFE861801C27EFEE7B3A9B4CEB88E62E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Flywheel Housing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "FH90479-01",
+     "optionNumber": "FH90479-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "3FDF1A081293638C636F9D420E6AC3DB9FFAC0671ABBB6838D0CD13DE995979741DFD7E3E6F9060591FB35B2C4AD7063C73E4727D85C9735AAD65C56DB25F846",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Flywheel",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/fw/740_fw9091600_02",
+     "path": null,
+     "optionNo": "FW90916-02",
+     "optionNumber": "FW90916-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "F5489F2D28B67F1CCBBA4E7A2323E988F93EA5D0913CF9EBA368C16321EA3EDACCDA9E43F6FFB7031DC2743AA04E542579C5420FDB6EAF27EE3AF65AC9F6225F",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Flywheel Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/fw/740_fw9096200_00",
+     "path": null,
+     "optionNo": "FW90962-00",
+     "optionNumber": "FW90962-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "D49642F5F92EEFF365619C07F209A170324677316DFEFB0724720835568E0D54876EA20BF4005DBB5F81547E59E01724E7B64FA3D2C4E5D644ACAAEE614FDB0A",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Lifting Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "LA9788-00",
+     "optionNumber": "LA9788-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "62678DC830DE0CDDD3E918FDA4A2CCC7BD419EB6142B7B444A30847A549DCFCE00D2AD49F99E85CC3673AFD6C1FF5C518BCED89CC01819C5EF3CAF33F7DE2D75",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Cooling Fan Shroud",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/rs/740_rs0904400_01",
+     "path": null,
+     "optionNo": "RS9044-01",
+     "optionNumber": "RS9044-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "BD0514C237E43F9F0E03AA493023C99F85FF2B30D05EC1F4829ABA1E950F18B4713E607AB5E08B4B5C866D7017A8998122F982780A6379EEAC0934B696999B81",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Starting Motor Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sm/740_sm0980600_01",
+     "path": null,
+     "optionNo": "SM9806-01",
+     "optionNumber": "SM9806-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "2FEE125BEE2BC6A7B0D88EBDFEE3109366DC9072F1F729EE55CE846628FA03E0B26EE586199B240A0A87994ABEBACE02AB59BC189C6FD1433A5F6AB046B367C3",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fan Pilot Spacer",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sp/740_sp0928600_00",
+     "path": null,
+     "optionNo": "SP9286-00",
+     "optionNumber": "SP9286-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "CDED0303D885D1B212DF9B8B4E465AC438831004AD33B45B4709A975C4814496498310D59801CB81FAFA465EED2EB2C8E93243E7E9D8FCC74F34F3349CE3123F",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Water Pump Drive",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/wp/740_wp9837200_01",
+     "path": null,
+     "optionNo": "WP98372-01",
+     "optionNumber": "WP98372-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "14B24CA6D19FA40C58C8881D9976F793418F3C9989FD6BA7E080567845C0F2A37B72AA18CE6EBDEEED650795D77DCFC4AAC19D296B44246CA9E93C26DC871C09",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Belt Tensioner",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/wp/740_wp9846200_01",
+     "path": null,
+     "optionNo": "WP98462-01",
+     "optionNumber": "WP98462-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "1F72174DBD1605C6B227D7CEAF5AC7A2495F0D9D53747B08A0AA3000A4FF9686F9B52EF02E4A6F46403FB8C24CF22280E7726B77E7D193D42ED8B518C7C109E6",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Exhaust Outlet Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/xs/740_xs9012300_01",
+     "path": null,
+     "optionNo": "XS90123-01",
+     "optionNumber": "XS90123-01",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Drives_and_Mountings.png"
+  },
+  {
+   "major": "ELECTRICS",
+   "optionList": [
+    {
+     "componentHash": "834DEB2DA9803E0530E1EAECD52103F23B5229C977307A9B68F96E9665A648AEF640C26C9D66B50FD42471ABF433CDBBC921A3D5514C1F7154CA4EFAF9C58BB4",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Alternator",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ee/740_ee0985400_00",
+     "path": null,
+     "optionNo": "EE9854-00",
+     "optionNumber": "EE9854-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "5E02FE156B2FABCDBA39BADA79562E4FAF3D3D54EE4BA62F1CC50AC54428E1BA9330F69F76F8446CFEF2F0C0EF7DD9EABAF9215E5DEE3F00584E6048F1E591D7",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Alternator Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/eh/740_eh9851700_01",
+     "path": null,
+     "optionNo": "EH98517-01",
+     "optionNumber": "EH98517-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "90E3F4D248E39B5CC02AF0D79CC208AD9785125919FEF75A03831C43D614BA9556CE61D08CFDA6773518E85A3908612B7F6B603D645B012BD793318842AEFC0D",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Control Module",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ph/740_ph9908400_00",
+     "path": null,
+     "optionNo": "PH99084-00",
+     "optionNumber": "PH99084-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "BD0514C237E43F9F0E03AA493023C99F85FF2B30D05EC1F4829ABA1E950F18B4713E607AB5E08B4B5C866D7017A8998122F982780A6379EEAC0934B696999B81",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Starting Motor Mounting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sm/740_sm0980600_01",
+     "path": null,
+     "optionNo": "SM9806-01",
+     "optionNumber": "SM9806-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "64BDC410E4055FF4F044BBEE863AA7DB10C539E0C66AC2D245EC5524CFA8506FE9EEA458244E1D7F892422BC27A5E9329CF7B90A695B4E6720CA885B8A781389",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Starting Motor",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/st/740_st0985900_01",
+     "path": null,
+     "optionNo": "ST9859-01",
+     "optionNumber": "ST9859-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "10782467864A6C69840F13472BBA246664F12B565607CFA9C9CBD566A77569B22707773BC4CF51B09CFD5E2CD1D1FBCE1B1138245C9AD4360797467B23A4AE3B",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Operating Voltage",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "SV9002-00",
+     "optionNumber": "SV9002-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "E4F582CBB3E9155F28948C20ABCE6DA5D4FDF78F8B1E883DBAFA3F59B5C6541DFF45228E5459450CFC8DD3A3BBAA76491F46C3468F4B6F040802DFA9ECE23306",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Injector Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR91699-02",
+     "optionNumber": "WR91699-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "BCC7F58E94626E7EF4C47CCA905BFC6BF75C7C4E4B711342F981753709CAAEAE07AFF806959CF44CE5959BB3D7C8BAC87C3682C2ED259EC8BA1476160B675F6C",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Electronic Control Module Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR91874-05",
+     "optionNumber": "WR91874-05",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "0E67882210A85A7483F0BA3E132D9C7362E4ACBE093B4ACD0C12659FD09AC9989476CA483DFDD9B038A603CD83102277C17D2A72B9DD7EC45AB6B0DFA7ABFC3E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Control Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR92119-00",
+     "optionNumber": "WR92119-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Electrics.png"
+  },
+  {
+   "major": "EXHAUST",
+   "optionList": [
+    {
+     "componentHash": "ECD6F5626108969A5F8FF0CDEF3B221E5B5BF104AB6AC43F105DB479A25357CE7908C2E2651866C9F330A598A42E61AAB7326E7BA7AF46AD9948EE1951C147BF",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Heat Shield",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sh/740_sh0944100_00",
+     "path": null,
+     "optionNo": "SH9441-00",
+     "optionNumber": "SH9441-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "9EE508C2DA8392A94C17F0DC9E902372FE1A71D5A2A4C5C5822435DEF6AF3475D1C6C02F2F425806F773DF3D7B73394A02F63C8A440607B398D1E92C278CA148",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Turbocharger Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TB93440-00",
+     "optionNumber": "TB93440-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "619B24A170F0E0A497C4763AED815A48C5CB6BF0AE5031114077D5671731C3AC11C7A77A1DEFF6C03A55C748F4225F555E408C96321AC1B9237E6E2CA1523A7D",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Exhaust Manifold",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TB93689-00",
+     "optionNumber": "TB93689-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "1F72174DBD1605C6B227D7CEAF5AC7A2495F0D9D53747B08A0AA3000A4FF9686F9B52EF02E4A6F46403FB8C24CF22280E7726B77E7D193D42ED8B518C7C109E6",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Exhaust Outlet Connection",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/xs/740_xs9012300_01",
+     "path": null,
+     "optionNo": "XS90123-01",
+     "optionNumber": "XS90123-01",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Exhaust.png"
+  },
+  {
+   "major": "FUEL",
+   "optionList": [
+    {
+     "componentHash": "21ADF6C9A2A76DC0F8A9101BCC98C4C102370F2ABBB3FE1882B6B758D5AA81601FE94D44C1B3FFB8F32B9B4C3AF5F5B4CFE1AF8088C2915264E54E15DE334262",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Drain Location",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "DL9636-00",
+     "optionNumber": "DL9636-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "3950E60CD00DB0CDDC92CAF4B51348A98332BF0A7C26F4209509270DB000E2FD2825BC1D6F45DCE4273BF3C9AB8A45A409725AFC8BA0F0F913A80DC1D1F6424B",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Drain Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/fd/740_fd9011700_01",
+     "path": null,
+     "optionNo": "FD90117-01",
+     "optionNumber": "FD90117-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "6A62D883C735C9570B94F0E635B1C524664C74808A432B0AE72674CCC2683575CF53DA933B424A83B45D7CB9C373C9E58F8B69A8E7AEF7ABB146FCAC3AB2F1BC",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Filter Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ff/740_ff9148100_03",
+     "path": null,
+     "optionNo": "FF91481-03",
+     "optionNumber": "FF91481-03",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "DB3F7D342A68B4D0F8C6B9212A7FE510AA5DC5B57DE425206CD90C457659A3DB553E97B7C44D66497A956C3645AD4B485DBC061D60E6729BFE737CEDF14790FE",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Filter Location",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ff/740_ff9148200_01",
+     "path": null,
+     "optionNo": "FF91482-01",
+     "optionNumber": "FF91482-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "9EE76EFE945B6142BF367ACBB253C9D1EA4AA82B42AB16B4B19C6B24656FE89E491B5F9447383C56D84059EDDCCD5BEE12650306D3C849032642F4DF479FF433",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Inlet Fitting",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "FI9337-00",
+     "optionNumber": "FI9337-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "057FF366AF083B026082B772FF8834DCC9B7EB81BC5078EF0F8B37204245A7B2CBAE0C2C6C6C57BB95C79FD732863250250EE7EC14995DD313DCD7F6FED74FDA",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Pump",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "FP80140-01",
+     "optionNumber": "FP80140-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "4966BA399D81EFB4EFDEEBB2F5875578D0AB960C35F24725008378AA056ECA68FFF766625F3FE4C6A6364D49CDADBE4AF22D07E79B99E12D6608E6DA527E3D57",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Performance Parts",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP46235-00",
+     "optionNumber": "PP46235-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "A0F9228538D208659F118B56811AC0688CBBAD170376FEB3B05010A0FC4BB6F98EBF68C0F8CDF7C721FBCEC5B54DAF92433B3912A4FEBD6B35B8078B861310D6",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Injector",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP92716-00",
+     "optionNumber": "PP92716-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "98A2E9EC1C0A493608FD2794540314AA334FFA7531AF4DE128790C63F4EFE671E9F55AFD6C08F610DD7FEB652B06BC1AEAD2E471069DE9500F1BE4C6595BE5D1",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Injector Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "PP93227-02",
+     "optionNumber": "PP93227-02",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "E4F582CBB3E9155F28948C20ABCE6DA5D4FDF78F8B1E883DBAFA3F59B5C6541DFF45228E5459450CFC8DD3A3BBAA76491F46C3468F4B6F040802DFA9ECE23306",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Injector Wiring Harness",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "WR91699-02",
+     "optionNumber": "WR91699-02",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Fuel.png"
+  },
+  {
+   "major": "LUBRICATION",
+   "optionList": [
+    {
+     "componentHash": "81E1A51D36D413C65726D45584BAEDD7272DCDFD0D473032170E98AF058E3201645E1A65EF33DEE2A2E26D371A3AEA09C361644475BA3E95573EF69F634C1A6A",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Crankcase Breather",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "BR90246-01",
+     "optionNumber": "BR90246-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "9D6D48E1E4560188665C30772B4DF061E9F210783B861A6F7CCFE1015648E6484E371E0720DF7D1E8EFE3212464453711D81492B5EEFE4F5991C1691A83EAA6B",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Oil Cooler",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "LC9917-03",
+     "optionNumber": "LC9917-03",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "A228A64E4AA0B5E769C1F3ACCA05AEB36760486BA939810455E751ADB1380F417E7AE6276611138EB28842CDEE1986663433F3BE0DEDC29C3C6D7CB371C1F56E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Full Flow Oil Filter",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/lf/740_lf0945200_01",
+     "path": null,
+     "optionNo": "LF9452-01",
+     "optionNumber": "LF9452-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "E03C226DB60BD1BD5C443DCA84972F5290791C6C0BF3ADAC0BB11AA90BBDF2C5E163325C215FD53E315DF4C5C968932598A54953619E13450FA6F362475E50BD",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Oil Level Gauge",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/lg/740_lg9152000_00",
+     "path": null,
+     "optionNo": "LG91520-00",
+     "optionNumber": "LG91520-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "47DDEA60F960EB50B440A00F436EAC42ACD11D50F386DA03AC11C6FA49F66498357817581A932C20467D27B87C60DFFB7B3D23802B99358D18868EC4431A7C8D",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Oil",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/lo/740_lo0970100_01",
+     "path": null,
+     "optionNo": "LO9701-01",
+     "optionNumber": "LO9701-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "F940FF97ADC27C2BFDDE014D0DF291CE5E5F0A0100C8C4F5FC7BD86B893C18AEC532A8C74EE7FBAC75288FF40F6922A6C8073A032DD8401792761F12031C8640",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Lubricating Oil Pump",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "LP9828-01",
+     "optionNumber": "LP9828-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "EA6E20E1B0BC875229C30CC16D22B5E623CF60A84E9FD14329A8FD1F9DC2360D6CCB55F8920E15F269593C2B3AA2245A2221C3ED9163945C6FDAE998DED657B3",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Oil Pan",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/op/740_op9045200_00",
+     "path": null,
+     "optionNo": "OP90452-00",
+     "optionNumber": "OP90452-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "60FAC4CB62577F7519FC3CDEC58363DF8154CE2EF05CADA36D19CCC97E9050AD8FFD8B6A71EF85FD4DD3FF3133B96906A3B3D061EF132BE88DDFDB6E50361906",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Turbocharger Plumbing",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "TP98387-04",
+     "optionNumber": "TP98387-04",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Lubrication.png"
+  },
+  {
+   "major": "MISCELLANEOUS",
+   "optionList": [
+    {
+     "componentHash": "14DD075B949B5A7048C7CB8ED9D840E1B3E4A0162831D339DC8854DEDA7867A6B6DD5DEB37B09A0B7273A74C486FDB9609E503DCECC58FA28417EE6984214F35",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Agency Approval",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/ap/740_ap9188200_01",
+     "path": null,
+     "optionNo": "AP91882-01",
+     "optionNumber": "AP91882-01",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "57CE01AA339871FC24DD34385E8980342FA7AF4396EDB911DAEDB1CCA7612E9F94E13F8138519CEDEDF02C8767BD35BD683CDEE7082D296C14FA63E351461A54",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Heat Shield Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sh/740_sh0941500_00",
+     "path": null,
+     "optionNo": "SH9415-00",
+     "optionNumber": "SH9415-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "EF6CF0FB55B84BB0975344328EDFBCFD3CDD0100F40BB20EAE49568A1C8E7A12BFE7F523A3C84BA920756600AB8B33AB89578EDE75253BD9A188FDA7B102D281",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Heat Shield Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": "/740/sh/740_sh0944200_00",
+     "path": null,
+     "optionNo": "SH9442-00",
+     "optionNumber": "SH9442-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "9C3CEF972472A8D91CD7F2F256EDAF13D5B5672C43958524B4866AFCA34B736D1FA5DAD078C91F780CC02A6885BB1E0602FA935F77378E3138463E686D949E58",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Shipping Arrangement",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "SK9471-00",
+     "optionNumber": "SK9471-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "F66166CC1A3CE8B58655DDA2FF3B3E46440BEEF7AC3E6EB2151330D2AC0DB6DB4722C295C1F04A86A75FF38A8148C10E5DAB2FCCB457823A7CDC4E052AA42D29",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Paint",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "SS90076-00",
+     "optionNumber": "SS90076-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Miscellaneous.png"
+  },
+  {
+   "major": "RATINGS AND CALIBRATIONS",
+   "optionList": [
+    {
+     "componentHash": "30EB0A63BF5961714EF219BCBF1F94EE6CBDA663F16E9FAAE7E7281FBD66744BCCE3C32734053EBE8BD2979E7BA90EBD439376A45D4907D0BEA60E86AB35647E",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Alternative Design",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "AL9231-00",
+     "optionNumber": "AL9231-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "057685EEE321C8F3BCF590AB9DC5B5F038E42EB8B51D144DC967417034284031E673624ADFA7B4DD188D732DC31D1F28CE6590A49AFF31A31D8667797E37A213",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Customer Interface Software",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "DO22995-00",
+     "optionNumber": "DO22995-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "8BC482D8F00DDEEC5D74DBD5DDD2987428153AC30B79DAD3921DEF4BA07A62CA9EC06CD20749D3D9FFB0F4A49AC48FF395ACFA24B9741383C367D561D7A2B4E7",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Pump Calibration",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "FP80230-00",
+     "optionNumber": "FP80230-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "E5A6B917718482D44CF54863B5D778B0FB5F0BF14E033C917AB6F25A7650D2E2FDEB5B846C150184EFB0ECE13EF4065E73468DF83FBD7AFE54F64E4F9C4CC8B4",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Fuel Rating",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "FR98695-00",
+     "optionNumber": "FR98695-00",
+     "buildCode": "ORIGINAL"
+    },
+    {
+     "componentHash": "0CAA46879AD60F7C2880E5075B04F6F5D2BCCB8F9D44765B364F11FEE85650DD3EEA915F1922C1218175C536768BE5F19A5BF894E1A164AEB051C753C15DFE79",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Calibration Software",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "SC81695-00",
+     "optionNumber": "SC81695-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Ratings_and_Calibrations.png"
+  },
+  {
+   "major": "VEHICLE BRAKING",
+   "optionList": [
+    {
+     "componentHash": "CF3061AFCECDFB43850D47AC2CE427A5AC3DC3D51EF6FC72E2276739171AC4D8173E62B08F1E5ADC338496B9402D01128932BBBA4E730D2021666CA170C7C548",
+     "esnType": "mbom",
+     "componentType": "option",
+     "optionName": "Engine Brake",
+     "build": "ORIGINAL",
+     "buildDate": "2023-12-20 00:00:00.0",
+     "filmCard": null,
+     "specGroup": null,
+     "optionFlag": "O",
+     "plantCode": "740",
+     "parts": [],
+     "graphic": null,
+     "path": null,
+     "optionNo": "EB9097-00",
+     "optionNumber": "EB9097-00",
+     "buildCode": "ORIGINAL"
+    }
+   ],
+   "children": null,
+   "graphic": "Vehicle_Braking.png"
+  }
+ ]
+}

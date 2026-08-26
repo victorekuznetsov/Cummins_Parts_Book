@@ -1,0 +1,106 @@
+{
+ "componentHash": "1DC0545A76E71EA8BFD5A1566D2D3C6E33AE39380B7E75C684A71AC6800BC470EE3923400CA40F07305346C87841535A7161E9ACF2CCD8F7F2508205515475C1",
+ "esnType": "mbom",
+ "optionName": "Air Intake Manifold",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/im/740_im0989500_02"
+  }
+ ],
+ "remarks": "Air Intake Manifold|manifold Mounting Hole Pattern:|14 Symmetrical M8 Bolts|engine Cylinders: 6|intergral Intake Connection: No|intergral Air Heater: No|intergral Iat Valve: Yes|mating Flange Bolt Hole Description:|14 X M8 X 1.25|intake Flange Thickness(mm): 12mm|wall Thickness(mm):5|intake Port Position(x\\y\\z):288\\528\\-249|fuel Drain Tube Interface|position(x\\y\\z):163\\384\\-452",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3937434",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 55",
+      "qty": "4",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5400046",
+      "latestPart": "false",
+      "partDesc": "CONNECTION GASKET",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6470295",
+      "latestPart": "false",
+      "partDesc": "VALVE,INTAKE AIR THROTTLE",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/im/740_im0989500_02",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "IM9895-02",
+ "optionNumber": "IM9895-02",
+ "buildCode": null
+}

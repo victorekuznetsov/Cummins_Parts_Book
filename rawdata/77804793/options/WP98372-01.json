@@ -1,0 +1,60 @@
+{
+ "componentHash": "CDED0303D885D1B212DF9B8B4E465AC438831004AD33B45B4709A975C4814496498310D59801CB81FAFA465EED2EB2C8E93243E7E9D8FCC74F34F3349CE3123F",
+ "esnType": "mbom",
+ "optionName": "Water Pump Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/wp/740_wp9837200_01"
+  }
+ ],
+ "remarks": "Water Pump Drive|belt Groove Profile: Poly V 8 Rib K|belt Length (mm):1372|to Suit Tensioner Pulley Dia (mm): 74|over Balls: Na|to Suit Tentioner Pulley Location:|from C/l Of Crank (mm): -255 (horizontal)|from C/l Of Engine (mm): 30 (vertical)|to Suit Water Pump Pulley Diameter|(mm):119.97|to Suit Water Pump Location|from C/l Of Crank (mm): -254 (horizontal)|from C/l Of Engine (mm): 162 (vertical)|to Suit Fan Drive Pulley Dia (mm): 191.3|over Balls: 2.5|to Suit Fan Drive Location|from C/l Of Crank (mm): 0 (horizontal)|from C/l Of Engine (mm): 230(vertical)|to Suit Crank Pulley Dia (mm): 220|(effective)|over Balls: 2.5",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6451318",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/wp/740_wp9837200_01",
+ "optionType": "option",
+ "hotSpots": [],
+ "optionPlantCode": "740",
+ "effectiveDate": null,
+ "gasketGraphic": [],
+ "path": null,
+ "optionNo": "WP98372-01",
+ "optionNumber": "WP98372-01",
+ "buildCode": null
+}

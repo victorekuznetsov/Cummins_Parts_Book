@@ -1,0 +1,107 @@
+{
+ "componentHash": "3FDF1A081293638C636F9D420E6AC3DB9FFAC0671ABBB6838D0CD13DE995979741DFD7E3E6F9060591FB35B2C4AD7063C73E4727D85C9735AAD65C56DB25F846",
+ "esnType": "mbom",
+ "optionName": "Flywheel",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/fw/740_fw9091600_02"
+  }
+ ],
+ "remarks": "Flywheel|intended Flywheel Housing Sae:1|number Of Teeth:113|material: 40001|gear Ring Diametral Pitch: 6/8|gear Ring Modulus: 4.233|max. Rated Engine Speed(rpm):1984|moments Of Inertia: 1.15|flywheel Mtg Flange To Ring Gear|leading Edge(mm): 14.15|transmission Mtg Face To Rfob(mm):58.2|pressure Plate Bolt Provision:no|maximum Torque(nm):na|mathed Clutch Size:430mm|flexplate Provision:no|clutch Plate Type: Na|clutch Bearing Pilot Bore Dia: 61.968|clutch Mounting Pin Provision: No|clutch Mounting Bolts Mtg Pattern:|16* M10*1.5 On Dia450mmcircle, Depth 20-22|comment: Without Retaining Ring Groove",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6481750",
+      "latestPart": "false",
+      "partDesc": "FLYWHEEL",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": false,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "3680913",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL RING GEAR",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6314331",
+        "latestPart": "false",
+        "partDesc": "FLYWHEEL",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/fw/740_fw9091600_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "FW90916-02",
+ "optionNumber": "FW90916-02"
+}

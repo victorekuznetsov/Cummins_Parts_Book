@@ -1,0 +1,129 @@
+{
+ "componentHash": "EDAF4244ACF68A444323BA915B2CEFC7880656F6EA72F245CB12665B38F105D263A5A0B3B6500DAA1666C4661C1CFD53CF7BE861E00E06DB47C0F0075813EABA",
+ "esnType": "mbom",
+ "optionName": "Alternator Drive",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/eh/740_eh9863600_02"
+  }
+ ],
+ "remarks": "Alternator Drive|belt Tensioner|engine Clylinders: 6|pulley Groove Profile: Flat|tensioner Pulley Dia: 74|tensioner Pivot Location (mm):|(165,215.4)|tensioner Free Arm Angle: 241 Deg|angle Of Travel: 60 Deg|torque: 25nm|alternator Drive|belt Groove Profile: 6pk|belt Length (mm): 1514|material: Ebm|belt: Kit|tensioner Damper Number:1",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "2874071",
+      "latestPart": "false",
+      "partDesc": "IDLER PULLEY",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3910496",
+      "latestPart": "false",
+      "partDesc": "SOCKET HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M10 X 1.5 X 55",
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "2"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5662763",
+      "latestPart": "false",
+      "partDesc": "BELT TENSIONER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "3"
+     },
+     "expanded": true,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "6432474",
+      "latestPart": "false",
+      "partDesc": "V RIBBED BELT",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "4"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/eh/740_eh9863600_02",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "EH98636-02",
+ "optionNumber": "EH98636-02"
+}

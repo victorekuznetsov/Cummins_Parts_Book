@@ -1,0 +1,176 @@
+{
+ "componentHash": "7CAA1DF936C8B8478C9A483DA1CAC5338490943BC4C3992A70B5BFFBAC8BB2EDF0F1FFC8C0A92B18093C54F49C290D93479A72156540D6DCA53B009C832DBD37",
+ "esnType": "mbom",
+ "optionName": "Valve Cover",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [
+  {
+   "fileName": "/740/vc/740_vc9007200_01"
+  }
+ ],
+ "remarks": "Valve Cover|compression Brake Compatible:yes|integral Breather:yes|number Of Fill Locations:2|filler Cap Location:front And Rear|valve Cover Style:signle Layer|material:pa66 Gf35|breather Type:open|valve Cover Height:|c/line Of Crank To Top Surface (mm):102|c/line Of Crank To Top Of Bolts (mm):40|noise Suppression Provision:yes|isolated Gasket System:yes|unique Characteristics:|logo With Super Power  Chain Bfc A",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "6423342",
+      "latestPart": "false",
+      "partDesc": "VALVE COVER",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": null,
+      "qty": "1",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "ASSEMBLY"
+     },
+     "expanded": true,
+     "children": [
+      {
+       "data": {
+        "partNo": "5255310",
+        "latestPart": "false",
+        "partDesc": "FILLER CAP",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "2",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "1"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6408387",
+        "latestPart": "false",
+        "partDesc": "VALVE COVER GASKET",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "2"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6408388",
+        "latestPart": "false",
+        "partDesc": "CAPTIVE ISOLATOR CAP SCREW",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "17",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "3"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6408389",
+        "latestPart": "false",
+        "partDesc": "SCREW,SDD CPT ISO",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "true",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": true,
+        "callOut": "4"
+       },
+       "expanded": true,
+       "children": []
+      },
+      {
+       "data": {
+        "partNo": "6423343",
+        "latestPart": "false",
+        "partDesc": "VALVE COVER",
+        "lvlNo": "2",
+        "remarks": "",
+        "dimensions": null,
+        "qty": "1",
+        "hotSpotId": null,
+        "transDescription": null,
+        "sellable": "false",
+        "reconEquivalent": null,
+        "leaf": false,
+        "artCallOut": null,
+        "startDt": null,
+        "stopDt": null,
+        "hasGraphic": false,
+        "callOut": "5"
+       },
+       "expanded": true,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "1",
+ "artCallOut": "/740/vc/740_vc9007200_01",
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "VC90072-01",
+ "optionNumber": "VC90072-01"
+}

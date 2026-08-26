@@ -1,0 +1,56 @@
+{
+ "componentHash": "A7B95CA5AED58B0DD1382469567B2CB5B240E19629CEACE4BC12D9B88CA4E3D765A467E147B708D4F906F80683529579BBAD5A596F28246221831D4EBA7E8D99",
+ "esnType": "mbom",
+ "optionName": "Thermostat Housing Arrangement",
+ "build": null,
+ "buildDate": null,
+ "filmCard": null,
+ "specGroup": null,
+ "optionFlag": "O",
+ "graphics": [],
+ "remarks": "Thermostat Housing Arrangement|bypass Tube Construction: Steel|bypass Tube O.d.(mm):32|no Provision For External Bypass Connection|cabin Heater Backwater Connection|on Bypass Tube Orientation: Pointing Outside|external Diameter Of Cab Heater Coolant|return Pipe(mm): 18|cab Heater Return Port Location:|x(mm): -330.7|y(mm): 268.5|z(mm): 39.5|bypass Coolant Back Location|on The Water Inlet Connection|from Engine C/l (mm): X=-302.6|from Crank (mm): Y=198|from Ffob (mm): Z=-112.1",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3913638",
+      "latestPart": "false",
+      "partDesc": "HEXAGON FLANGE HEAD CAP SCREW",
+      "lvlNo": "1",
+      "remarks": "",
+      "dimensions": "M6 X 1 X 16",
+      "qty": "2",
+      "hotSpotId": null,
+      "transDescription": null,
+      "sellable": "true",
+      "reconEquivalent": null,
+      "leaf": false,
+      "artCallOut": null,
+      "startDt": null,
+      "stopDt": null,
+      "hasGraphic": true,
+      "callOut": "1"
+     },
+     "expanded": true,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "peOptionInfo": [],
+ "kits": [],
+ "kitGraphic": [],
+ "graphicCount": "0",
+ "artCallOut": null,
+ "gasketGraphic": [],
+ "hotSpots": [],
+ "effectiveDate": null,
+ "optionPlantCode": "740",
+ "optionType": "option",
+ "path": null,
+ "buildCode": null,
+ "optionNo": "TH9761-00",
+ "optionNumber": "TH9761-00"
+}

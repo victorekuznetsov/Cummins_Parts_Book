@@ -1,0 +1,739 @@
+[
+ {
+  "componentHash": "7B7572A10240219C37C1B78573B4B6E9D9993ED3DAEA660C8AD6C180083BFEE42D5FBD2CF3D9BCA9CCCE43F92F8678F2B8F1B37925AB0B27E18CFDA3CE7DA02B",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5524044",
+  "kitDesc": "Gasket Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5524044",
+    "partDesc": "Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3955219",
+    "partDesc": "Vibration Isolator",
+    "systems": []
+   },
+   {
+    "partNo": "3955220",
+    "partDesc": "Vibration Isolator",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "6B9C5C9C2B3554DA54A16568A9472BEC0E705937F01C221124F2E42F62333A8C6F0952865F2DE6192F80982C2A58EC3C7071A6022D0AB36BFF0FC0636EB4AC77",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "5633450",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "5633450",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3694312",
+    "partDesc": "Engine Piston",
+    "systems": []
+   },
+   {
+    "partNo": "3694316",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "5486258",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "70DB6B397C764EBF1682107E61BD671DC323E4EFAB6C77367914B716980810CD9527210C19F20154CDA7955773ECB4F18E75CD56390E87311EFA28CB9FD09806",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6466686",
+  "kitDesc": "Connecting Rod Bearing Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6466686",
+    "partDesc": "Connecting Rod Bearing Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6418088",
+    "partDesc": "Connecting Rod Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "6420143",
+    "partDesc": "Connecting Rod Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "F74F0C03CE0A22DD74A4F0DE72731D19EC306D7FDCED947666A82A771ADF51C012D55A090857581AF377EC2CC9396BED687E8121E478014D94D24CBA0F85F390",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6466688",
+  "kitDesc": "Main Bearing Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6466688",
+    "partDesc": "Main Bearing Kit",
+    "systems": []
+   },
+   {
+    "partNo": "5714783",
+    "partDesc": "Main Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "5714784",
+    "partDesc": "Main Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "6420147",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "6420150",
+    "partDesc": "Thrust Bearing",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "F6B54BEBE5961439308AA3082282B0C8AFD0D5BCB03055096B2046AFDCCBF3E835453ADD5B72DF49C64B1A5B69C137E810F84E0377400534F0F722471BF3065A",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6475615",
+  "kitDesc": "Air Compressor Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6475615",
+    "partDesc": "Air Compressor Kit",
+    "systems": []
+   },
+   {
+    "partNo": "4994574",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "5716253",
+    "partDesc": "Compressor,mechanical Air",
+    "systems": []
+   },
+   {
+    "partNo": "5661809",
+    "partDesc": "Accessory Drive Gear",
+    "systems": []
+   },
+   {
+    "partNo": "5716254",
+    "partDesc": "Compressor,mechanical Air",
+    "systems": []
+   },
+   {
+    "partNo": "6518009",
+    "partDesc": "Air Compressor Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6518012",
+    "partDesc": "Air Compressor Valve Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6518017",
+    "partDesc": "Air Compressor Head Kit",
+    "systems": []
+   },
+   {
+    "partNo": "5716257",
+    "partDesc": "Rectangular Ring Seal",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "E776772F83180B6FD79041727B28B86BC5DA0898D6E6AC732E0F2A60DA1FB7F902EB59826A8799D1B28CF32582AE3E2BDBFF55B4859A88FF13ADEE5842FF9E3F",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6476228",
+  "kitDesc": "Intake Valve Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6476228",
+    "partDesc": "Intake Valve Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6309819",
+    "partDesc": "Intake Valve",
+    "systems": []
+   },
+   {
+    "partNo": "6309821",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "6380221",
+    "partDesc": "Valve Collet",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "28FBB1F0277697DF31572F44F63A8FF34D630ED13D0F1418196940502A8D6EA8B2B2EB8548A97B4F2A01C6DF3A0EFD998A387446FD1CC3423D2D6FBEE4614DDC",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6476229",
+  "kitDesc": "Exhaust Valve Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6476229",
+    "partDesc": "Exhaust Valve Kit",
+    "systems": []
+   },
+   {
+    "partNo": "5472408",
+    "partDesc": "Valve Collet",
+    "systems": []
+   },
+   {
+    "partNo": "5626431",
+    "partDesc": "Valve Insert",
+    "systems": []
+   },
+   {
+    "partNo": "6309820",
+    "partDesc": "Exhaust Valve",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "AD3BEC0CFEAC981C990C36EE56D1BB4F166C854A46CADC9224AD8C40C7450C93B1696F01A61E34CB9A2A233508534D002A9CFAF3FFE4BD5D6AB77BD341B854D1",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6499584",
+  "kitDesc": "Cylinder Block Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6499584",
+    "partDesc": "Cylinder Block Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3678921",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3678912",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3678922",
+    "partDesc": "Threaded Plug",
+    "systems": []
+   },
+   {
+    "partNo": "3920447",
+    "partDesc": "Hexagon Flange Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "4895877",
+    "partDesc": "Socket Head Cap Screw",
+    "systems": []
+   },
+   {
+    "partNo": "6408516",
+    "partDesc": "Piston Cooling Nozzle",
+    "systems": []
+   },
+   {
+    "partNo": "6408517",
+    "partDesc": "Piston Cooling Nozzle",
+    "systems": []
+   },
+   {
+    "partNo": "6443742",
+    "partDesc": "Banjo Connector Screw",
+    "systems": []
+   },
+   {
+    "partNo": "6415756",
+    "partDesc": "Cylinder Block Stiffener",
+    "systems": []
+   },
+   {
+    "partNo": "6433799",
+    "partDesc": "Fracture Resistant Screw",
+    "systems": []
+   },
+   {
+    "partNo": "6436017",
+    "partDesc": "Fracture Resistant Screw",
+    "systems": []
+   },
+   {
+    "partNo": "6451645",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "6455789",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "5284979",
+    "partDesc": "Ring Dowel",
+    "systems": []
+   },
+   {
+    "partNo": "6455786",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "6461045",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "5284979",
+    "partDesc": "Ring Dowel",
+    "systems": []
+   },
+   {
+    "partNo": "6461046",
+    "partDesc": "Idler Shaft",
+    "systems": []
+   },
+   {
+    "partNo": "6476275",
+    "partDesc": "Cylinder Block",
+    "systems": []
+   },
+   {
+    "partNo": "5667117",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "5667118",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "6395181",
+    "partDesc": "Cylinder Liner",
+    "systems": []
+   },
+   {
+    "partNo": "6424172",
+    "partDesc": "Fracture Resistant Screw",
+    "systems": []
+   },
+   {
+    "partNo": "6430932",
+    "partDesc": "Main Bearing Cap",
+    "systems": []
+   },
+   {
+    "partNo": "3678507",
+    "partDesc": "Ring Dowel",
+    "systems": []
+   },
+   {
+    "partNo": "6429626",
+    "partDesc": "Main Bearing Cap",
+    "systems": []
+   },
+   {
+    "partNo": "6430934",
+    "partDesc": "Main Bearing Cap",
+    "systems": []
+   },
+   {
+    "partNo": "3678507",
+    "partDesc": "Ring Dowel",
+    "systems": []
+   },
+   {
+    "partNo": "6430933",
+    "partDesc": "Main Bearing Cap",
+    "systems": []
+   },
+   {
+    "partNo": "6476273",
+    "partDesc": "Cylinder Block",
+    "systems": []
+   },
+   {
+    "partNo": "6479633",
+    "partDesc": "Cylinder Block Cover",
+    "systems": []
+   },
+   {
+    "partNo": "6482900",
+    "partDesc": "Pan Head Cap Screw",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "E24BA2E204F40735BEF7EF0C778928EA952006C4363EF21E395919D86F03523F4AA893C4477BB1634683C244DD219243FB81C27613136B2B63FE4AC486F33A55",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6513545",
+  "kitDesc": "Piston Ring Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6513545",
+    "partDesc": "Piston Ring Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6489091",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "6489092",
+    "partDesc": "Compression Piston Ring",
+    "systems": []
+   },
+   {
+    "partNo": "6489093",
+    "partDesc": "Oil Piston Ring",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "188AABB9403330669F8194805D5D5DCB887A182466F508FAC2CE0E2D1EB28196BBA69F36C7AAAB223B1B5BF31ED3F212BAB2713B9163873AA912CADA4D49FD41",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6513546",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6513546",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "5486258",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "5661661",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "6489482",
+    "partDesc": "Engine Piston",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "7880CD5EBBB9D4FE4E7673F0D4F0033C3BD3BC42816E204184E7E0FDDF71B6B570D0C0A445CD2162A67FD7CDF4E4AA7F25FC48421E6149042E60FF7853AFEF71",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6513547",
+  "kitDesc": "Engine Piston Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6513547",
+    "partDesc": "Engine Piston Kit",
+    "systems": []
+   },
+   {
+    "partNo": "5486258",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "5661661",
+    "partDesc": "Piston Pin",
+    "systems": []
+   },
+   {
+    "partNo": "6489481",
+    "partDesc": "Engine Piston",
+    "systems": []
+   }
+  ]
+ },
+ {
+  "componentHash": "05DAC892AE3DC031484B1D7C17185830E21FB93F5D75169C45AFD10E8432358BF7E8C854B1792861FE170C9E433581A0A8E0C9DF717B10B1B51173536F1795D2",
+  "esnType": "mbom",
+  "componentType": "kit",
+  "kitNo": "6567132",
+  "kitDesc": "Turbocharger Kit",
+  "kitNotes": "Standard",
+  "kitType": "STANDARD",
+  "parts": [
+   {
+    "partNo": "6567132",
+    "partDesc": "Turbocharger Kit",
+    "systems": []
+   },
+   {
+    "partNo": "6417501",
+    "partDesc": "Turbocharger",
+    "systems": []
+   },
+   {
+    "partNo": "2834020",
+    "partDesc": "Dataplate",
+    "systems": []
+   },
+   {
+    "partNo": "4048789",
+    "partDesc": "Plain Hose",
+    "systems": []
+   },
+   {
+    "partNo": "6417500",
+    "partDesc": "Turbocharger",
+    "systems": []
+   },
+   {
+    "partNo": "2839879",
+    "partDesc": "Clamping Plate",
+    "systems": []
+   },
+   {
+    "partNo": "2840781",
+    "partDesc": "Hexagon Head Set Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3519163",
+    "partDesc": "Drive Screw",
+    "systems": []
+   },
+   {
+    "partNo": "3522597",
+    "partDesc": "Roll Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3523275",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3527566",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3528177",
+    "partDesc": "Adjusting Link End",
+    "systems": []
+   },
+   {
+    "partNo": "3528221",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3528933",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3531238",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3532427",
+    "partDesc": "Turbocharger Noise Baffle",
+    "systems": []
+   },
+   {
+    "partNo": "3533163",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3535215",
+    "partDesc": "Hose Clamp",
+    "systems": []
+   },
+   {
+    "partNo": "3537930",
+    "partDesc": "Elbow Hose Coupling",
+    "systems": []
+   },
+   {
+    "partNo": "3592050",
+    "partDesc": "Hexagon Flange Nut",
+    "systems": []
+   },
+   {
+    "partNo": "3593862",
+    "partDesc": "Groove Pin",
+    "systems": []
+   },
+   {
+    "partNo": "3596402",
+    "partDesc": "Lock Nut",
+    "systems": []
+   },
+   {
+    "partNo": "3709753",
+    "partDesc": "Retaining Ring",
+    "systems": []
+   },
+   {
+    "partNo": "3758848",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "3774575",
+    "partDesc": "Thrust Collar",
+    "systems": []
+   },
+   {
+    "partNo": "3793366",
+    "partDesc": "Split Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "5329293",
+    "partDesc": "Turbocharger Compressor Impeller",
+    "systems": []
+   },
+   {
+    "partNo": "5354257",
+    "partDesc": "Oil Slinger",
+    "systems": []
+   },
+   {
+    "partNo": "5458659",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "5499360",
+    "partDesc": "Oil Baffle",
+    "systems": []
+   },
+   {
+    "partNo": "5547986",
+    "partDesc": "Oil Seal Plate",
+    "systems": []
+   },
+   {
+    "partNo": "5637168",
+    "partDesc": "Turbocharger Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "6324253",
+    "partDesc": "Compressor Housing",
+    "systems": []
+   },
+   {
+    "partNo": "6374506",
+    "partDesc": "Turbocharger Thrust Bearing",
+    "systems": []
+   },
+   {
+    "partNo": "6379871",
+    "partDesc": "Turbocharger Heat Shield",
+    "systems": []
+   },
+   {
+    "partNo": "6397856",
+    "partDesc": "Turbocharger Bearing Housing",
+    "systems": []
+   },
+   {
+    "partNo": "6416834",
+    "partDesc": "Turbine Housing",
+    "systems": []
+   },
+   {
+    "partNo": "6444638",
+    "partDesc": "Turbocharger Actuator",
+    "systems": []
+   },
+   {
+    "partNo": "6450511",
+    "partDesc": "Shaft Wheel Rotor",
+    "systems": []
+   },
+   {
+    "partNo": "6567131",
+    "partDesc": "Turbocharger Gasket Kit",
+    "systems": []
+   },
+   {
+    "partNo": "3682177",
+    "partDesc": "O Ring Seal",
+    "systems": []
+   },
+   {
+    "partNo": "4960136",
+    "partDesc": "Flange Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "5264569",
+    "partDesc": "Oil Drain Gasket",
+    "systems": []
+   },
+   {
+    "partNo": "6459826",
+    "partDesc": "Turbocharger Gasket",
+    "systems": []
+   }
+  ]
+ }
+]
