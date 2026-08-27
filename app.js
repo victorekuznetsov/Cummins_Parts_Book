@@ -351,12 +351,25 @@ function renderParts(o, focusPart) {
     if (kitsForPart.length) {
       var note = el("div", "in-kit-note n-meta");
       note.appendChild(document.createTextNode("🧰 Можно заказать комплектом: "));
-      kitsForPart.forEach(function (kit, ki) {
-        if (ki) note.appendChild(document.createTextNode(", "));
-        var lk = el("span", "in-kit-link", kit.no + " · " + kitLabel(kit));
-        lk.title = "Открыть состав комплекта";
-        lk.onclick = (function (kn) { return function () { openKitCard(kn); }; })(kit.no);
-        note.appendChild(lk);
+      /* Одна деталь нередко входит в 3–4 комплекта с одинаковым наименованием
+         (гильзы, вкладыши). Группируем по наименованию, чтобы строка не
+         разрасталась на пол-экрана: «4089143, 4089991 · Комплект гильз». */
+      var groups = [], byLabel = {};
+      kitsForPart.forEach(function (kit) {
+        var lb = kitLabel(kit), g = byLabel[lb];
+        if (!g) { g = { label: lb, kits: [] }; byLabel[lb] = g; groups.push(g); }
+        g.kits.push(kit);
+      });
+      groups.forEach(function (g, gi) {
+        if (gi) note.appendChild(document.createTextNode("; "));
+        g.kits.forEach(function (kit, ki) {
+          if (ki) note.appendChild(document.createTextNode(", "));
+          var lk = el("span", "in-kit-link", kit.no);
+          lk.title = "Открыть состав комплекта «" + g.label + "»";
+          lk.onclick = (function (kn) { return function () { openKitCard(kn); }; })(kit.no);
+          note.appendChild(lk);
+        });
+        note.appendChild(document.createTextNode(" · " + g.label));
       });
       tdName.appendChild(note);
     }
