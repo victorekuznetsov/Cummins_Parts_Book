@@ -492,6 +492,11 @@ function viewPart(no) {
   var p = PARTS[no];
   if (!p) { if (MPARTS[no]) { location.hash = "#/mpart/" + no; return; } notFound("Деталь " + no); return; }
   var cat = window.CATALOGS || {};
+  /* каталоги двигателей грузятся по требованию: если загружены не все,
+     дозагружаем и перерисовываем вид с полными данными */
+  if (window.CATALOG_API && window.CATALOG_API.allLoaded && !window.CATALOG_API.allLoaded()) {
+    window.CATALOG_API.loadAll(function () { route(); });
+  }
   var uses = [];       // где применяется: двигатель -> узел -> позиция
   var kits = [];
   Object.keys(cat).forEach(function (esn) {
@@ -792,6 +797,9 @@ function viewMachineService(name, code) {
 /* ============================================================ двигатель */
 function viewEngine(esn) {
   var cat = (window.CATALOGS || {})[esn];
+  if (!cat && window.CATALOG_API && window.CATALOG_API.loadAll) {
+    window.CATALOG_API.loadAll(function () { route(); });
+  }
   var ids = Object.keys(DOCS).filter(function (id) {
     return (DOCS[id].e || []).indexOf(esn) !== -1;
   });

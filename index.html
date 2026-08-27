@@ -144,14 +144,17 @@
           <table class="parts">
             <thead>
               <tr>
-                <th class="c-pos">№</th>
-                <th class="c-no">Номер детали</th>
-                <th class="c-name">Наименование</th>
-                <th class="c-price">Текущая</th>
-                <th class="c-price">Несогласованная</th>
-                <th class="c-qty">Кол-во<br><span class="th-sub">на схеме</span></th>
-                <th class="c-need">Нужно</th>
-                <th class="c-add"></th>
+                <th class="c-pos" rowspan="2">№</th>
+                <th class="c-no" rowspan="2">Номер детали</th>
+                <th class="c-name" rowspan="2">Наименование</th>
+                <th class="c-price th-group" colspan="2">Горная Евразия</th>
+                <th class="c-qty" rowspan="2">Кол-во<br><span class="th-sub">на схеме</span></th>
+                <th class="c-need" rowspan="2">Нужно</th>
+                <th class="c-add" rowspan="2"></th>
+              </tr>
+              <tr>
+                <th class="c-price th-lvl2">текущая</th>
+                <th class="c-price th-lvl2">несогласованная</th>
               </tr>
             </thead>
             <tbody id="parts-body"></tbody>
@@ -258,15 +261,6 @@
 </aside>
 
 <script src="engines.js"></script>
-<script src="data/85201236.js"></script>
-<script src="data/80201235.js"></script>
-<script src="data/33239899.js"></script>
-<script src="data/33239746.js"></script>
-<script src="data/41343322.js"></script>
-<script src="data/41349633.js"></script>
-<script src="data/37292556.js"></script>
-<script src="data/93058669.js"></script>
-<script src="data/37295879.js"></script>
 <script src="data/prices.js?v=1"></script>
 <script>window.KB_BODY={};window.KB_BODY_RU={};window.KB_MACHINE={};</script>
 <script src="data/kb_docs.js"></script>

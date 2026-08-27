@@ -5,13 +5,26 @@
 "use strict";
 
 var ENGINES = window.ENGINES || [];
-var ALL = window.CATALOGS || {};
-if (!ENGINES.length || !Object.keys(ALL).length) {
-  document.body.innerHTML = "<p style='padding:40px'>Не найдены файлы данных каталога</p>";
+window.CATALOGS = window.CATALOGS || {};
+var ALL = window.CATALOGS;      // заполняется по мере загрузки data/<ESN>.js
+if (!ENGINES.length) {
+  document.body.innerHTML = "<p style='padding:40px'>Не найден список двигателей (engines.js)</p>";
   return;
 }
 
 var LS_ENG = "cummins_engine";
+/* Обе цены каталога — из прайс-листов «Горной Евразии»: текущий (действующий)
+   и несогласованный. Название вынесено в константу, чтобы подпись была одна
+   и та же в таблице, карточках и выгрузках. */
+var PRICE_BRAND = "Горная Евразия";
+/* «Горная Евразия: текущая 1 207,80 · несогласованная 981,61» — одна и та же
+   подпись в карточке комплекта, на странице комплектов и в карточке детали. */
+function priceLine(curPrice, price) {
+  var bits = [];
+  if (curPrice != null) bits.push("текущая " + money(curPrice));
+  if (price != null) bits.push("несогласованная " + money(price));
+  return bits.length ? PRICE_BRAND + ": " + bits.join(" · ") : "";
+}
 
 var C = null;          // выбранный двигатель
 var byNo = {};         // номер узла -> узел
@@ -61,7 +74,13 @@ function drawingSrc(esn, file) { return "drawings/" + esn + "/" + file; }
    Если её нет, пробуем общую фототеку базы знаний (assets/photos/…), а
    в последнюю очередь — публичный CDN Cummins (может не отдавать по
    чужому Referer). */
-function photoSrc(esn, file) { return "parts/" + esn + "/" + file; }
+function photoSrc(esn, file) { return photoBase(esn) + "/" + file; }
+/* Папка с фото деталей двигателя: собранные заново каталоги берут их прямо из
+   выгрузки (rawdata/<ESN>/parts, поле photos), у остальных — parts/<ESN>. */
+function photoBase(esn) {
+  var cat = ALL[esn];
+  return (cat && cat.photos) ? cat.photos : "parts/" + esn;
+}
 function photoCdn(file) {
   var num = String(file).split("_")[0];
   if (!num) return "";
@@ -78,6 +97,60 @@ function photoFallback(img, file) {
     this.dataset.cdn = "1";
     this.src = photoCdn(file);
   };
+}
+
+/* ---------- данные двигателей: загрузка по требованию ---------- */
+/* Каталогов три десятка, вместе это десятки мегабайт — грузить их все при
+   открытии страницы нельзя. Данные двигателя подтягиваются, когда его выбрали;
+   поиск, выгрузки «по всем каталогам» и проверка списка догружают остальные. */
+var LOADING = {};               // esn -> [callbacks], пока файл в пути
+function engineKnown(esn) {
+  for (var i = 0; i < ENGINES.length; i++) if (ENGINES[i].esn === esn) return true;
+  return false;
+}
+function loadCatalog(esn, cb) {
+  if (ALL[esn]) { if (cb) cb(true); return; }
+  if (LOADING[esn]) { if (cb) LOADING[esn].push(cb); return; }
+  LOADING[esn] = cb ? [cb] : [];
+  var sc = document.createElement("script");
+  sc.src = "data/" + esn + ".js";
+  function finish() {
+    var ok = !!ALL[esn];
+    if (ok) applyPricesTo(ALL[esn]);
+    var q = LOADING[esn]; LOADING[esn] = null;
+    q.forEach(function (f) { f(ok); });
+  }
+  sc.onload = finish;
+  sc.onerror = finish;
+  document.head.appendChild(sc);
+}
+function allLoaded() {
+  for (var i = 0; i < ENGINES.length; i++) if (!ALL[ENGINES[i].esn]) return false;
+  return true;
+}
+/* Догрузить все каталоги (нужно поиску по всем двигателям, выгрузкам и
+   проверке списка) и только потом продолжить. */
+function loadAllCatalogs(cb) {
+  var missing = ENGINES.filter(function (e) { return !ALL[e.esn]; });
+  if (!missing.length) { cb(); return; }
+  var left = missing.length;
+  busy("Загружаю каталоги двигателей: " + left + "…");
+  missing.forEach(function (e) {
+    loadCatalog(e.esn, function () {
+      if (--left <= 0) { busy(false); cb(); }
+      else busy("Загружаю каталоги двигателей: " + left + "…");
+    });
+  });
+}
+function busy(text) {
+  var b = $("busy");
+  if (!b) {
+    if (text === false) return;
+    b = el("div", "busy-toast"); b.id = "busy";
+    document.body.appendChild(b);
+  }
+  if (text === false) { b.remove(); return; }
+  b.textContent = text;
 }
 
 /* ---------- корзина (своя для каждого двигателя) ---------- */
@@ -104,8 +177,17 @@ function buildEngineSelect() {
   sel.disabled = ENGINES.length < 2;
 }
 
-function selectEngine(esn) {
-  if (!ALL[esn]) esn = ENGINES[0].esn;
+function selectEngine(esn, cb) {
+  if (!engineKnown(esn)) esn = ENGINES[0].esn;
+  if (!ALL[esn]) {
+    busy("Загружаю каталог двигателя " + esn + "…");
+    loadCatalog(esn, function (ok) {
+      busy(false);
+      if (!ok) { alert("Не удалось загрузить данные двигателя " + esn); return; }
+      selectEngine(esn, cb);
+    });
+    return;
+  }
   C = ALL[esn];
   try { localStorage.setItem(LS_ENG, esn); } catch (e) {}
   $("engine-select").value = esn;
@@ -144,6 +226,7 @@ function selectEngine(esn) {
   renderCartCount();
   $("search").value = "";
   show("view-welcome");
+  if (cb) cb();
 }
 
 /* Действующий номер: цепочка отсортирована от старого к новому,
@@ -160,6 +243,8 @@ function renderPassport() {
   var e = engineOf(C.esn);
   var rows = [
     ["Машина", e.machine],
+    ["Владелец", e.owner],
+    ["Участок", e.place],
     ["Серийный номер (ESN)", C.esn],
     ["Модель", C.model],
     ["CPL", C.cpl],
@@ -318,8 +403,9 @@ function renderParts(o, focusPart) {
     var tdNo = el("td", "c-no");
     if (p.img) {
       var im = document.createElement("img");
-      im.className = "pn-photo"; im.src = photoSrc(C.esn, p.img); im.alt = "";
-      im.onerror = function () { this.style.display = "none"; };
+      im.className = "pn-photo"; im.alt = "";
+      photoFallback(im, p.img);            // локально -> база знаний -> CDN Cummins
+      im.src = photoSrc(C.esn, p.img);
       tdNo.appendChild(im);
     }
     var pnSpan = el("span", "pn", p.no || "—");
@@ -542,8 +628,8 @@ function openPartCard(pn) {
       info.appendChild(document.createTextNode(" · "));
       info.appendChild(el("span", "kit-name", kitLabel(kit)));
       if (cnt) info.appendChild(el("span", "kit-cnt", " · " + cnt + " поз."));
-      if (kitCur != null) info.appendChild(el("span", "kit-price", " · текущая " + money(kitCur)));
-      if (kitPrice != null) info.appendChild(el("span", "kit-price", " · несогласованная " + money(kitPrice)));
+      var kpl = priceLine(kitCur, kitPrice);
+      if (kpl) info.appendChild(el("span", "kit-price", " · " + kpl));
       line.appendChild(info);
       line.appendChild(makeKitOrderBtn(kit));
       kitsBody.appendChild(line);
@@ -674,9 +760,8 @@ function openKitCard(no) {
   if (!kit) { openPartCard(no); return; }
   var price = priceOf(kit.no), curPrice = curPriceOf(kit.no);
   $("pc-title").textContent = "Комплект " + kit.no;
-  $("pc-name").textContent = kitLabel(kit) +
-    (curPrice != null ? "  ·  текущая " + money(curPrice) : "") +
-    (price != null ? "  ·  несогласованная " + money(price) : "");
+  var pl = priceLine(curPrice, price);
+  $("pc-name").textContent = kitLabel(kit) + (pl ? "  ·  " + pl : "");
   // блоки, относящиеся только к детали, прячем
   document.querySelector(".pc-gallery").style.display = "none";
   $("pc-sup").classList.add("hidden");
@@ -688,7 +773,8 @@ function openKitCard(no) {
   var comps = kitComponents(kit);
   var head = $("pc-comp-head"); head.innerHTML = "";
   head.appendChild(el("span", "comp-count", comps.length + " составляющих" +
-    (price != null ? " · несогласованная цена комплекта " + money(price) : " · цена уточняется")));
+    (price != null ? " · несогласованная цена комплекта " + money(price) + " (" + PRICE_BRAND + ")"
+                   : " · цена уточняется")));
   head.appendChild(makeKitOrderBtn(kit));
 
   var tb = $("pc-comp-body"); tb.innerHTML = "";
@@ -754,9 +840,8 @@ function showKits() {
     a.onclick = function (ev) { ev.preventDefault(); openKitCard(kit.no); };
     card.appendChild(a);
     var metaTxt = comps.length + " составляющих";
-    if (curPrice != null) metaTxt += " · текущая " + money(curPrice);
-    if (price != null) metaTxt += " · несогласованная " + money(price);
-    if (price == null && curPrice == null) metaTxt += " · цена уточняется";
+    var kpl = priceLine(curPrice, price);
+    metaTxt += kpl ? " · " + kpl : " · цена уточняется";
     card.appendChild(el("div", "kit-card-meta", metaTxt));
     card.appendChild(makeKitOrderBtn(kit));
     box.appendChild(card);
@@ -773,10 +858,12 @@ function showKits() {
 function exportKits() {
   var e = engineOf(C.esn);
   var head = ["Машина", "Модель", "ESN", "Комплект №", "Комплект — наименование",
-              "Текущая цена комплекта", "Несогласованная цена комплекта",
+              "Текущая цена комплекта (" + PRICE_BRAND + ")",
+              "Несогласованная цена комплекта (" + PRICE_BRAND + ")",
               "Составляющая №", "Составляющая — наименование",
               "Составляющая — наименование (рус.)", "Кол-во",
-              "Текущая цена составляющей", "Несогласованная цена составляющей",
+              "Текущая цена составляющей (" + PRICE_BRAND + ")",
+              "Несогласованная цена составляющей (" + PRICE_BRAND + ")",
               "Продаётся отдельно"];
   var rows = [head];
   (C.kits || []).forEach(function (kit) {
@@ -803,6 +890,13 @@ $("dl-kits").onclick = exportKits;
 function doSearch(q) {
   q = (q || "").trim();
   if (q.length < 2) { show("view-welcome"); return; }
+  if (!allLoaded()) {                       // ищем по всем каталогам — догружаем
+    loadAllCatalogs(function () { doSearchIn(q); });
+    return;
+  }
+  doSearchIn(q);
+}
+function doSearchIn(q) {
   var norm = normNo(q);
   var re = new RegExp(escapeRe(q), "i");
   var hits = [];
@@ -1042,7 +1136,7 @@ $("cart-csv").onclick = function () {
   var head = ["Машина", "Двигатель", "ESN", "Серийный номер", "Номер детали",
               "Наименование", "Тип позиции", "Действующий номер", "Группа",
               "Взаимозаменяемый артикул", "Узел", "Номер узла", "Позиция",
-              "Количество", "Цена", "Сумма"];
+              "Количество", "Цена (" + PRICE_BRAND + ", несогласованная)", "Сумма"];
   var lines = [head.join(";")];
   var total = 0;
   keys.forEach(function (k) {
@@ -1132,7 +1226,8 @@ function exportModel() {
   var keys = Object.keys(map).sort(function (a, b) { return map[a].no.localeCompare(map[b].no); });
   var head = ["Машина", "Модель", "ESN", "Номер детали", "Наименование",
               "Наименование (рус.)", "Продаётся отдельно", "Действующий номер",
-              "Текущая цена", "Несогласованная цена", "Вес", "Габариты (Д×Ш×В)",
+              "Текущая цена (" + PRICE_BRAND + ")", "Несогласованная цена (" + PRICE_BRAND + ")",
+              "Вес", "Габариты (Д×Ш×В)",
               "Опасный груз", "Входит в комплекты", "Узлов", "Узлы"];
   var rows = [head];
   keys.forEach(function (k) {
@@ -1151,7 +1246,8 @@ function exportModel() {
 function exportAll() {
   var head = ["Машина", "Модель", "ESN", "CPL", "Номер детали", "Наименование",
               "Наименование (рус.)", "Продаётся отдельно", "Действующий номер",
-              "Текущая цена", "Несогласованная цена", "Вес", "Габариты (Д×Ш×В)",
+              "Текущая цена (" + PRICE_BRAND + ")", "Несогласованная цена (" + PRICE_BRAND + ")",
+              "Вес", "Габариты (Д×Ш×В)",
               "Опасный груз", "Входит в комплекты", "Узлов"];
   var rows = [head];
   ENGINES.forEach(function (eng) {
@@ -1182,7 +1278,7 @@ function exportAll() {
   downloadCsv("nomera_vse_katalogi.csv", rows);
 }
 $("dl-model").onclick = exportModel;
-$("dl-all").onclick = exportAll;
+$("dl-all").onclick = function () { loadAllCatalogs(exportAll); };
 
 /* --- проверка списка номеров по всему каталогу --- */
 var GIDX = null;          // глобальный индекс: прямые номера и заменённые
@@ -1352,7 +1448,7 @@ function closeCheck() {
 $("check-list").onclick = openCheck;
 $("check-close").onclick = closeCheck;
 $("check-overlay").onclick = closeCheck;
-$("check-run").onclick = runCheck;
+$("check-run").onclick = function () { loadAllCatalogs(runCheck); };
 $("check-dl").onclick = downloadCheck;
 $("check-reset").onclick = function () {
   $("check-input").value = ""; checkResults = null;
@@ -1368,7 +1464,7 @@ $("check-file").addEventListener("change", function () {
       var c = l.split(/[;,\t]/)[0]; return c ? c.trim() : "";
     }).filter(Boolean);
     $("check-input").value = lines.join("\n");
-    runCheck();
+    loadAllCatalogs(runCheck);
   };
   reader.readAsText(f, "utf-8");
   this.value = "";
@@ -1395,21 +1491,22 @@ rebuildPrices();
 var BASE_PRICES_CUR = (typeof window !== "undefined" && window.CUMMINS_PRICES_CUR) ? window.CUMMINS_PRICES_CUR : {};
 var PRICES_CUR = {};
 (function () { var k; for (k in BASE_PRICES_CUR) PRICES_CUR[normNo(k)] = BASE_PRICES_CUR[k]; })();
-function applyPrices() {
+function applyPricesTo(cat) {
+  if (!cat) return;
   var has = Object.keys(PRICES).length > 0;
-  ENGINES.forEach(function (e) {
-    var cat = ALL[e.esn]; if (!cat) return;
-    cat.options.forEach(function (o) {
-      o.parts.forEach(function (p) {
-        if (!p.no) return;
-        var v = PRICES[normNo(p.no)];
-        if (v != null) p.price = v;
-        var cv = PRICES_CUR[normNo(p.no)];
-        if (cv != null) p.curPrice = cv;
-      });
+  (cat.options || []).forEach(function (o) {
+    (o.parts || []).forEach(function (p) {
+      if (!p.no) return;
+      var v = PRICES[normNo(p.no)];
+      if (v != null) p.price = v;
+      var cv = PRICES_CUR[normNo(p.no)];
+      if (cv != null) p.curPrice = cv;
     });
-    if (has) cat.hasPrices = true;
   });
+  if (has) cat.hasPrices = true;
+}
+function applyPrices() {
+  ENGINES.forEach(function (e) { applyPricesTo(ALL[e.esn]); });
 }
 function parsePriceFile(text) {
   var lines = String(text || "").split(/\r?\n/), map = {}, n = 0;
@@ -1500,15 +1597,33 @@ document.addEventListener("keydown", function (e) {
 
 /* ---------- внешний интерфейс для базы знаний ---------- */
 window.CATALOG_API = {
-  selectEngine: function (esn) { if (ALL[esn]) selectEngine(esn); },
+  selectEngine: function (esn) { if (engineKnown(esn)) selectEngine(esn); },
   openOption: function (esn, optNo, focusPart) {
-    if (ALL[esn] && esn !== C.esn) selectEngine(esn);
+    if (engineKnown(esn) && esn !== C.esn) {
+      selectEngine(esn, function () { openOption(optNo, focusPart || null); });
+      return;
+    }
     openOption(optNo, focusPart || null);
   },
+  loadAll: function (cb) { loadAllCatalogs(cb || function () {}); },
+  allLoaded: allLoaded,
   openPart: function (pn) {
+    loadAllCatalogs(function () { CATALOG_OPEN_PART(pn); });
+  },
+  openKit: function (esn, kitNo) {
+    loadCatalog(esn, function () {
+      if (esn !== C.esn) selectEngine(esn, function () { openKitCard(kitNo); });
+      else openKitCard(kitNo);
+    });
+  },
+  showKits: function () { showKits(); },
+  currentEngine: function () { return C ? C.esn : null; }
+};
+function CATALOG_OPEN_PART(pn) {
+  (function () {
     var hit = null;
     ENGINES.some(function (e) {
-      var cat = ALL[e.esn];
+      var cat = ALL[e.esn]; if (!cat) return false;
       return (cat.options || []).some(function (o) {
         return (o.parts || []).some(function (p) {
           if (p.no === pn) { hit = { esn: e.esn, o: o.no }; return true; }
@@ -1517,23 +1632,16 @@ window.CATALOG_API = {
       });
     });
     if (hit) {
-      if (hit.esn !== C.esn) selectEngine(hit.esn);
+      if (hit.esn !== C.esn) { selectEngine(hit.esn, function () { openOption(hit.o, pn); openPartCard(pn); }); return; }
       openOption(hit.o, pn);
     }
     openPartCard(pn);
-  },
-  openKit: function (esn, kitNo) {
-    if (ALL[esn] && esn !== C.esn) selectEngine(esn);
-    openKitCard(kitNo);
-  },
-  showKits: function () { showKits(); },
-  currentEngine: function () { return C ? C.esn : null; }
-};
+  })();
+}
 
 /* ---------- старт ---------- */
 buildEngineSelect();
-applyPrices();
 var saved = null;
 try { saved = localStorage.getItem(LS_ENG); } catch (e) {}
-selectEngine(saved && ALL[saved] ? saved : ENGINES[0].esn);
+selectEngine(saved && engineKnown(saved) ? saved : ENGINES[0].esn);
 })();
