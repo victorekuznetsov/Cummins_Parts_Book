@@ -148,10 +148,12 @@ a{color:#0b63b8}
   font-size:13px; color:var(--muted);
 }
 .drawing-hint{margin-top:6px; font-size:11.5px; color:var(--muted); text-align:center}
-.table-pane{flex:1; min-width:0}
+/* таблица позиций прокручивается внутри своей колонки: с двумя столбцами цен
+   и выбором «деталь/комплект» она иначе выталкивала страницу вбок */
+.table-pane{flex:1; min-width:0; overflow-x:auto}
 
 /* --- таблица позиций --- */
-table.parts{width:100%; border-collapse:collapse; background:var(--panel);
+table.parts{width:100%; min-width:620px; border-collapse:collapse; background:var(--panel);
   border:1px solid var(--line); border-radius:8px; overflow:hidden; box-shadow:var(--shadow)}
 table.parts th{
   background:var(--th-bg); text-align:left; font-size:11.5px; letter-spacing:.3px;
@@ -164,10 +166,10 @@ table.parts tr:last-child td{border-bottom:none}
 table.parts tr:hover td{background:var(--hover)}
 .c-pos{width:44px; text-align:center}
 .c-no{width:112px}
-.c-price{width:88px; text-align:right}
+.c-price{width:80px; text-align:right}
 .c-qty{width:64px; text-align:center}
 .c-need{width:72px; text-align:center}
-.c-add{width:104px}
+.c-add{width:148px}
 td.c-pos{text-align:center; font-weight:700; color:var(--accent-2)}
 td.c-asm{font-size:10px; font-weight:600; color:var(--muted); text-transform:uppercase;
   letter-spacing:.3px; line-height:1.1}
@@ -279,7 +281,9 @@ mark{background:#ffe08a; color:#3a2c00; padding:0 1px; border-radius:2px}
 .welcome{max-width:640px; color:var(--muted)}
 .welcome h1{font-size:20px; color:var(--text); margin-top:6px}
 
-@media (max-width:1100px){
+/* чертёж уходит над таблицей раньше, чем таблица начнёт сжиматься:
+   с двумя ценами и выбором «деталь/комплект» строке нужно больше места */
+@media (max-width:1400px){
   .option-body{flex-direction:column}
   .drawing-pane{flex:1 1 auto; max-width:100%; width:100%; position:static}
 }
@@ -681,3 +685,76 @@ table.parts tr.hit-row td{
 }
 table.parts tr.hit-row td:first-child{box-shadow:inset 3px 0 0 var(--accent-2)}
 table.parts tr.hit-row .pn{color:var(--accent-2)}
+
+/* ================= комплекты (kits) ================= */
+
+/* деталь не продаётся отдельно — заказать её можно только комплектом */
+.btn-add.not-sold{
+  background:var(--th-bg); color:var(--muted); border-color:var(--line);
+  cursor:not-allowed; font-weight:600;
+}
+.row-not-sold .c-no .pn{color:var(--muted)}
+
+/* «Заказать комплектом» в карточке детали */
+#pc-kits .kit-intro{font-size:13px; color:var(--muted); margin-bottom:8px}
+.kit-line{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  padding:8px 10px; margin-bottom:6px; flex-wrap:wrap;
+  border:1px solid var(--line); border-radius:8px; background:var(--accent-soft);
+}
+.kit-info{display:flex; align-items:baseline; gap:2px; flex-wrap:wrap}
+.kit-no{font-family:Consolas,"Courier New",monospace; font-weight:700; color:var(--accent-2)}
+.kit-name{color:var(--text)}
+.kit-cnt{color:var(--muted); font-size:12px}
+.kit-price{color:var(--accent-2); font-weight:700; white-space:nowrap}
+.btn-add.kit-add{
+  background:var(--ok); color:var(--accent-ink); border-color:var(--ok);
+  cursor:pointer; flex:0 0 auto;
+}
+.btn-add.kit-add:hover{filter:brightness(1.06); background:var(--ok); color:var(--accent-ink)}
+.btn-add.kit-add.done{background:var(--accent); border-color:var(--accent); color:var(--accent-ink)}
+.kit-link{cursor:pointer}
+.kit-link:hover .kit-name{text-decoration:underline}
+
+/* страница «Все комплекты» */
+.kits-hint{color:var(--muted); font-size:13px; margin:2px 0 14px}
+.kits-list{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px}
+.kit-card{
+  border:1px solid var(--line); border-radius:10px; padding:12px 14px;
+  background:var(--panel); color:var(--text); box-shadow:var(--shadow);
+  display:flex; flex-direction:column; gap:8px;
+}
+.kit-card-title{font-weight:700; color:var(--accent-2); text-decoration:none}
+.kit-card-title:hover{text-decoration:underline}
+.kit-card-meta{color:var(--muted); font-size:12.5px}
+.kit-card .btn-add.kit-add{align-self:flex-start}
+
+/* состав комплекта в карточке */
+.kit-order-head{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:10px; margin-bottom:8px; flex-wrap:wrap;
+}
+.comp-count{color:var(--muted); font-size:13px}
+.comp-table th{
+  background:var(--th-bg); text-align:left; font-size:11px; letter-spacing:.3px;
+  text-transform:uppercase; color:var(--muted); padding:6px 8px;
+}
+.comp-table td.comp-i{color:var(--muted); width:2em}
+.comp-table td.comp-qty{text-align:center; width:4em}
+.comp-table td.comp-price{text-align:right; white-space:nowrap}
+.comp-table td.comp-no{white-space:nowrap}
+.comp-table td.comp-no .pn-photo{vertical-align:middle; margin-right:6px}
+
+/* «Можно заказать комплектом» и выбор «деталь или комплект» в списке деталей */
+.in-kit-note{font-size:12px; color:var(--muted); margin-top:3px}
+.in-kit-link{color:var(--accent-2); cursor:pointer}
+.in-kit-link:hover{text-decoration:underline}
+.order-choice{
+  display:block; max-width:100%; width:100%; margin-bottom:4px;
+  font-size:12px; padding:3px 4px; border:1px solid var(--line);
+  border-radius:6px; background:var(--field); color:var(--text);
+}
+
+/* проверка списка: номер оказался комплектом */
+.check-summary .pill.kit{background:var(--accent-soft); color:var(--accent-2); border-color:var(--accent-2)}
+.status.kit{background:var(--accent-soft); color:var(--accent-2)}

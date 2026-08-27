@@ -16,6 +16,7 @@ var LS_ENG = "cummins_engine";
 var C = null;          // выбранный двигатель
 var byNo = {};         // номер узла -> узел
 var CARDS = {};        // номер детали -> карточка
+var KITS_BY_PART = {}; // номер детали -> [комплекты, в которые она входит]
 var SUP_INDEX = {};    // заменённый номер -> детали, которые его заменяют
 var state = { option: null, sheet: 0, cart: {}, zoom: false };
 
@@ -32,6 +33,19 @@ function money(v) {
   return v.toLocaleString("ru-RU", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 function normNo(s) { return String(s || "").toUpperCase().replace(/[\s-]/g, ""); }
+/* Несогласованная цена по номеру — тот же источник, что и у деталей в таблице.
+   Нужна и для комплектов: их номера в узлах не встречаются, а заказывать их
+   надо с ценой. */
+function priceOf(no) {
+  var v = PRICES[normNo(no)];
+  return (v != null && !isNaN(v)) ? v : null;
+}
+/* Текущая (действующая) цена — второй, справочный прайс. Загруженный
+   пользователем файл на неё не влияет. */
+function curPriceOf(no) {
+  var v = PRICES_CUR[normNo(no)];
+  return (v != null && !isNaN(v)) ? v : null;
+}
 function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
 function engineOf(esn) {
@@ -99,6 +113,18 @@ function selectEngine(esn) {
   byNo = {};
   C.options.forEach(function (o) { byNo[o.no] = o; });
   CARDS = C.cards || {};
+
+  /* Обратный индекс «деталь -> комплекты, в которые она входит». Первый элемент
+     parts у комплекта — сам комплект, его пропускаем. */
+  KITS_BY_PART = {};
+  (C.kits || []).forEach(function (kit) {
+    (kit.parts || []).forEach(function (kp) {
+      if (kp.no && kp.no !== kit.no) {
+        var arr = KITS_BY_PART[kp.no] || (KITS_BY_PART[kp.no] = []);
+        if (arr.indexOf(kit) < 0) arr.push(kit);
+      }
+    });
+  });
 
   /* Индекс замен: любой номер из цепочки (в т.ч. снятый с производства)
      ведёт на деталь, которая есть в каталоге — так находится и «старый» номер. */
@@ -205,7 +231,7 @@ function highlightTree(no) {
 
 /* ---------- показ узла ---------- */
 function show(view) {
-  ["view-welcome", "view-search", "view-option"].forEach(function (v) {
+  ["view-welcome", "view-search", "view-option", "view-kits"].forEach(function (v) {
     $(v).classList.toggle("hidden", v !== view);
   });
 }
@@ -281,6 +307,7 @@ function renderParts(o, focusPart) {
   o.parts.forEach(function (p, i) {
     var tr = el("tr", p.lvl ? "lvl" + Math.min(p.lvl, 2) : "");
     tr.dataset.no = p.no;
+    var kitsForPart = (p.no && KITS_BY_PART[p.no]) ? KITS_BY_PART[p.no] : [];
 
     // «ASSEMBLY» у Cummins — строка узла в сборе, а не номер позиции на чертеже
     var isAsm = /^assembly$/i.test(p.pos || "");
@@ -321,8 +348,21 @@ function renderParts(o, focusPart) {
     if (p.dim) tdName.appendChild(el("span", "dim", p.dim));
     if (p.rem) tdName.appendChild(el("span", "dim", p.rem));
     if (p.alt) tdName.appendChild(el("span", "dim", "взаимозаменяемый: " + p.alt));
+    if (kitsForPart.length) {
+      var note = el("div", "in-kit-note n-meta");
+      note.appendChild(document.createTextNode("🧰 Можно заказать комплектом: "));
+      kitsForPart.forEach(function (kit, ki) {
+        if (ki) note.appendChild(document.createTextNode(", "));
+        var lk = el("span", "in-kit-link", kit.no + " · " + kitLabel(kit));
+        lk.title = "Открыть состав комплекта";
+        lk.onclick = (function (kn) { return function () { openKitCard(kn); }; })(kit.no);
+        note.appendChild(lk);
+      });
+      tdName.appendChild(note);
+    }
     tr.appendChild(tdName);
 
+    tr.appendChild(el("td", "c-price", p.curPrice != null ? money(p.curPrice) : "—"));
     tr.appendChild(el("td", "c-price", p.price != null ? money(p.price) : "—"));
     tr.appendChild(el("td", "c-qty", p.qty || ""));
 
@@ -334,19 +374,57 @@ function renderParts(o, focusPart) {
     tr.appendChild(tdNeed);
 
     var tdAdd = el("td", "c-add");
-    var btn = el("button", "btn-add", "＋ в заказ");
-    btn.onclick = function () {
-      var n = parseInt(inp.value, 10);
-      if (!p.no || !(n > 0)) return;
-      addToCart(p, o, n);
-      btn.textContent = "✓ добавлено";
-      btn.classList.add("done");
-      setTimeout(function () {
-        btn.textContent = "＋ в заказ"; btn.classList.remove("done");
-      }, 1200);
-    };
-    if (!p.no) btn.disabled = true;
-    tdAdd.appendChild(btn);
+    /* Варианты заказа: сама деталь (если продаётся отдельно) и/или комплекты,
+       в которые она входит. Если деталь не продаётся и ни в один комплект не
+       входит — заказать её нельзя, это видно прямо в строке. */
+    var choices = [];
+    if (p.no && isSellable(p.no)) choices.push({ v: "part", label: "Деталь " + p.no });
+    kitsForPart.forEach(function (kit) {
+      var kp = priceOf(kit.no);
+      choices.push({ v: "kit:" + kit.no, kit: kit,
+        label: "Комплект " + kit.no + " · " + kitLabel(kit) + (kp != null ? " · " + money(kp) : "") });
+    });
+    function orderChoice(v, n) {
+      if (v === "part") { if (p.no && isSellable(p.no)) addToCart(p, o, n); return; }
+      var kit = kitByNo(v.slice(4));
+      if (kit) addToCart(kitCartItem(kit), KIT_OPTION, n);
+    }
+    function flash(btn, label) {
+      btn.textContent = "✓ добавлено"; btn.classList.add("done");
+      setTimeout(function () { btn.textContent = label; btn.classList.remove("done"); }, 1200);
+    }
+    if (!p.no) {
+      var bd = el("button", "btn-add", "＋ в заказ"); bd.disabled = true; tdAdd.appendChild(bd);
+    } else if (!choices.length) {
+      var bns = el("button", "btn-add not-sold", "не продаётся");
+      bns.disabled = true; bns.title = "Деталь не продаётся отдельно (Sellable: N)";
+      tr.classList.add("row-not-sold");
+      tdAdd.appendChild(bns);
+    } else if (choices.length === 1) {
+      var single = choices[0];
+      var lbl = single.v === "part" ? "＋ в заказ" : "＋ комплектом";
+      var b1 = el("button", "btn-add" + (single.v === "part" ? "" : " kit-add"), lbl);
+      if (single.v !== "part") {
+        tr.classList.add("row-not-sold");
+        b1.title = "Деталь не продаётся отдельно — заказывается комплектом";
+      }
+      b1.onclick = function () {
+        var n = parseInt(inp.value, 10); if (!(n > 0)) n = 1;
+        orderChoice(single.v, n); flash(b1, lbl);
+      };
+      tdAdd.appendChild(b1);
+    } else {
+      var sel = el("select", "order-choice");
+      sel.title = "Заказать деталь отдельно или комплектом";
+      choices.forEach(function (c) { var op = el("option", null, c.label); op.value = c.v; sel.appendChild(op); });
+      var b2 = el("button", "btn-add", "＋ в заказ");
+      b2.onclick = function () {
+        var n = parseInt(inp.value, 10); if (!(n > 0)) n = 1;
+        orderChoice(sel.value, n); flash(b2, "＋ в заказ");
+      };
+      tdAdd.appendChild(sel);
+      tdAdd.appendChild(b2);
+    }
     tr.appendChild(tdAdd);
 
     tb.appendChild(tr);
@@ -374,6 +452,7 @@ function findPart(pn) {
 function openPartCard(pn) {
   var card = CARDS[pn] || {};
   var part = findPart(pn) || {};
+  $("pc-components").classList.add("hidden");   // блок состава — только у карточки комплекта
   $("pc-title").textContent = "Деталь " + pn;
   $("pc-name").textContent = part.name || "";
 
@@ -430,6 +509,35 @@ function openPartCard(pn) {
     supBox.classList.remove("hidden");
   } else supBox.classList.add("hidden");
 
+  /* Заказать комплектом: деталь входит в комплект(ы). Особенно важно, когда
+     сама она отдельно не продаётся — иначе непонятно, как её вообще купить. */
+  var kitsBox = $("pc-kits"), kitsBody = $("pc-kits-body");
+  kitsBody.innerHTML = "";
+  var kits = KITS_BY_PART[pn] || [];
+  if (kits.length) {
+    kitsBody.appendChild(el("div", "kit-intro", isSellable(pn)
+      ? "Деталь также поставляется в составе комплекта:"
+      : "Деталь не продаётся отдельно — заказывается в составе комплекта:"));
+    kits.forEach(function (kit) {
+      var cnt = kitComponents(kit).length;
+      var kitPrice = priceOf(kit.no), kitCur = curPriceOf(kit.no);
+      var line = el("div", "kit-line");
+      var info = el("div", "kit-info kit-link");
+      info.title = "Открыть состав комплекта";
+      info.onclick = (function (kno) { return function () { openKitCard(kno); }; })(kit.no);
+      info.appendChild(el("span", "kit-no", kit.no));
+      info.appendChild(document.createTextNode(" · "));
+      info.appendChild(el("span", "kit-name", kitLabel(kit)));
+      if (cnt) info.appendChild(el("span", "kit-cnt", " · " + cnt + " поз."));
+      if (kitCur != null) info.appendChild(el("span", "kit-price", " · текущая " + money(kitCur)));
+      if (kitPrice != null) info.appendChild(el("span", "kit-price", " · несогласованная " + money(kitPrice)));
+      line.appendChild(info);
+      line.appendChild(makeKitOrderBtn(kit));
+      kitsBody.appendChild(line);
+    });
+    kitsBox.classList.remove("hidden");
+  } else kitsBox.classList.add("hidden");
+
   // характеристики
   var attrs = card.attrs || {};
   var at = $("pc-attrs"), atb = $("pc-attrs-body");
@@ -478,6 +586,206 @@ function closePartCard() {
 $("pc-close").onclick = closePartCard;
 $("part-overlay").onclick = closePartCard;
 
+/* ---------- комплекты (kits) ---------- */
+/* Псевдоузел для позиций, заказанных комплектом: в корзине и выгрузке заказа
+   у них нет ни узла, ни позиции на чертеже. */
+var KIT_OPTION = { no: "KIT", name: "Комплект" };
+
+function kitByNo(no) {
+  var ks = (C && C.kits) || [];
+  for (var i = 0; i < ks.length; i++) if (ks[i].no === no) return ks[i];
+  return null;
+}
+/* Наименование комплекта: русское из базы знаний, если оно есть. */
+function kitLabel(kit) {
+  var ru = (window.KB && window.KB.ruPart) ? window.KB.ruPart(kit.no) : "";
+  return ru || kit.name || "";
+}
+/* Источник Cummins не даёт отдельного поля количества у составляющих комплекта —
+   деталь, нужная в нескольких экземплярах, просто повторяется в списке parts.
+   Схлопываем повторы в одну строку с количеством. */
+function kitComponents(kit) {
+  var order = [], seen = {};
+  (kit.parts || []).forEach(function (x) {
+    if (!x.no || x.no === kit.no) return;
+    var rec = seen[x.no];
+    if (!rec) { rec = { no: x.no, name: x.name || "", qty: 0 }; seen[x.no] = rec; order.push(rec); }
+    rec.qty++;
+    if (!rec.name && x.name) rec.name = x.name;
+  });
+  return order;
+}
+/* Обратный индекс «деталь -> номера комплектов» для ЛЮБОГО каталога (не только
+   текущего), с кэшом на объекте каталога — нужен в выгрузках и в проверке списка. */
+function kitsForNoIn(cat, no) {
+  if (!cat._kitsByPart) {
+    var idx = {};
+    (cat.kits || []).forEach(function (kit) {
+      (kit.parts || []).forEach(function (kp) {
+        if (kp.no && kp.no !== kit.no) {
+          var arr = idx[kp.no] || (idx[kp.no] = []);
+          if (arr.indexOf(kit.no) < 0) arr.push(kit.no);
+        }
+      });
+    });
+    cat._kitsByPart = idx;
+  }
+  return cat._kitsByPart[no] || [];
+}
+/* Файл фото детали — для миниатюр в составе комплекта. */
+function partImgFile(pn) {
+  var c = CARDS[pn];
+  if (c && c.views && c.views.length) return c.views[0];
+  var pt = findPart(pn);
+  if (pt && pt.img) return pt.img;
+  return null;
+}
+/* Позиция корзины для комплекта: цена берётся из прайса по номеру комплекта. */
+function kitCartItem(kit) {
+  return { no: kit.no, name: kitLabel(kit), price: priceOf(kit.no),
+           group: "", alt: "", pos: "", isKit: true };
+}
+function makeKitOrderBtn(kit) {
+  var btn = el("button", "btn-add kit-add", "＋ заказать комплектом");
+  btn.onclick = function () {
+    addToCart(kitCartItem(kit), KIT_OPTION, 1);
+    btn.textContent = "✓ добавлено"; btn.classList.add("done");
+    setTimeout(function () { btn.textContent = "＋ заказать комплектом"; btn.classList.remove("done"); }, 1200);
+  };
+  return btn;
+}
+
+/* Карточка комплекта: цена комплекта и его состав со ссылками на детали. */
+function openKitCard(no) {
+  var kit = kitByNo(no);
+  if (!kit) { openPartCard(no); return; }
+  var price = priceOf(kit.no), curPrice = curPriceOf(kit.no);
+  $("pc-title").textContent = "Комплект " + kit.no;
+  $("pc-name").textContent = kitLabel(kit) +
+    (curPrice != null ? "  ·  текущая " + money(curPrice) : "") +
+    (price != null ? "  ·  несогласованная " + money(price) : "");
+  // блоки, относящиеся только к детали, прячем
+  document.querySelector(".pc-gallery").style.display = "none";
+  $("pc-sup").classList.add("hidden");
+  $("pc-kits").classList.add("hidden");
+  $("pc-attrs").classList.add("hidden");
+  $("pc-used").classList.add("hidden");
+  var kb = $("pc-kb"); if (kb) kb.remove();
+
+  var comps = kitComponents(kit);
+  var head = $("pc-comp-head"); head.innerHTML = "";
+  head.appendChild(el("span", "comp-count", comps.length + " составляющих" +
+    (price != null ? " · несогласованная цена комплекта " + money(price) : " · цена уточняется")));
+  head.appendChild(makeKitOrderBtn(kit));
+
+  var tb = $("pc-comp-body"); tb.innerHTML = "";
+  var htr = el("tr");
+  ["№", "Номер", "Наименование", "Кол-во", "Текущая", "Несогласованная"].forEach(function (h) {
+    htr.appendChild(el("th", null, h));
+  });
+  tb.appendChild(htr);
+  comps.forEach(function (cp, i) {
+    var tr = el("tr");
+    tr.appendChild(el("td", "comp-i", String(i + 1)));
+    var tdNo = el("td", "comp-no");
+    var cimg = partImgFile(cp.no);
+    if (cimg) {
+      var cim = document.createElement("img");
+      cim.className = "pn-photo"; cim.alt = "";
+      photoFallback(cim, cimg);
+      cim.src = photoSrc(C.esn, cimg);
+      tdNo.appendChild(cim);
+    }
+    if (CARDS[cp.no] || findPart(cp.no)) {
+      var lnk = el("span", "pn pn-link", cp.no);
+      lnk.title = "Открыть карточку детали";
+      lnk.onclick = (function (n) { return function () { openPartCard(n); }; })(cp.no);
+      tdNo.appendChild(lnk);
+    } else tdNo.appendChild(el("span", null, cp.no));
+    tr.appendChild(tdNo);
+    var tdNm = el("td");
+    var ruComp = (window.KB && window.KB.ruPart) ? window.KB.ruPart(cp.no) : "";
+    if (ruComp) {
+      tdNm.appendChild(el("span", "ru-name n-ru", ruComp));
+      tdNm.appendChild(el("span", "dim n-en", cp.name || ""));
+    } else tdNm.appendChild(document.createTextNode(cp.name || ""));
+    tr.appendChild(tdNm);
+    tr.appendChild(el("td", "comp-qty", String(cp.qty)));
+    var cpCur = curPriceOf(cp.no);
+    tr.appendChild(el("td", "comp-price", cpCur != null ? money(cpCur) : "—"));
+    var cpP = priceOf(cp.no);
+    tr.appendChild(el("td", "comp-price", cpP != null ? money(cpP) : "—"));
+    tb.appendChild(tr);
+  });
+  $("pc-components").classList.remove("hidden");
+  $("part-card").classList.remove("hidden");
+  $("part-overlay").classList.remove("hidden");
+}
+
+/* Отдельная страница со всеми комплектами двигателя. */
+function showKits() {
+  closePartCard();
+  if (window.KB && window.KB.active && window.KB.active()) location.hash = "#/catalog";
+  var kits = ((C && C.kits) || []).slice().sort(function (a, b) {
+    return String(kitLabel(a)).localeCompare(String(kitLabel(b)), "ru");
+  });
+  var e = engineOf(C.esn);
+  $("kits-hint").textContent = "Двигатель " + (e.machine ? e.machine + " · " : "") + C.model +
+    " · ESN " + C.esn + " — комплектов: " + kits.length;
+  var box = $("kits-list"); box.innerHTML = "";
+  kits.forEach(function (kit) {
+    var comps = kitComponents(kit), price = priceOf(kit.no), curPrice = curPriceOf(kit.no);
+    var card = el("div", "kit-card");
+    var a = el("a", "kit-card-title", kit.no + " · " + kitLabel(kit));
+    a.href = "#kit-" + kit.no;
+    a.onclick = function (ev) { ev.preventDefault(); openKitCard(kit.no); };
+    card.appendChild(a);
+    var metaTxt = comps.length + " составляющих";
+    if (curPrice != null) metaTxt += " · текущая " + money(curPrice);
+    if (price != null) metaTxt += " · несогласованная " + money(price);
+    if (price == null && curPrice == null) metaTxt += " · цена уточняется";
+    card.appendChild(el("div", "kit-card-meta", metaTxt));
+    card.appendChild(makeKitOrderBtn(kit));
+    box.appendChild(card);
+  });
+  highlightTree(null);
+  show("view-kits");
+  if (window.innerWidth <= 900) {
+    var sb = document.querySelector(".sidebar");
+    if (sb) sb.classList.remove("open");
+  }
+}
+
+/* Выгрузка комплектов: по строке на каждую составляющую (полный состав). */
+function exportKits() {
+  var e = engineOf(C.esn);
+  var head = ["Машина", "Модель", "ESN", "Комплект №", "Комплект — наименование",
+              "Текущая цена комплекта", "Несогласованная цена комплекта",
+              "Составляющая №", "Составляющая — наименование",
+              "Составляющая — наименование (рус.)", "Кол-во",
+              "Текущая цена составляющей", "Несогласованная цена составляющей",
+              "Продаётся отдельно"];
+  var rows = [head];
+  (C.kits || []).forEach(function (kit) {
+    var comps = kitComponents(kit), kp = priceOf(kit.no), kcp = curPriceOf(kit.no);
+    if (!comps.length) {
+      rows.push([e.machine || "", C.model, C.esn, kit.no, kitLabel(kit),
+                 priceCsv(kcp), priceCsv(kp), "", "", "", "", "", "", ""]);
+      return;
+    }
+    comps.forEach(function (cp) {
+      rows.push([e.machine || "", C.model, C.esn, kit.no, kitLabel(kit),
+                 priceCsv(kcp), priceCsv(kp), cp.no, cp.name || "", ruName(cp.no), cp.qty,
+                 priceCsv(curPriceOf(cp.no)), priceCsv(priceOf(cp.no)),
+                 sellableIn(C.cards, cp.no) ? "да" : "нет"]);
+    });
+  });
+  var tag = (e.machine ? e.machine + "_" : "") + C.model.replace(/[^\wА-Яа-я]+/g, "_") + "_" + C.esn;
+  downloadCsv("komplekty_" + tag + ".csv", rows);
+}
+$("show-kits").onclick = showKits;
+$("dl-kits").onclick = exportKits;
+
 /* ---------- поиск (по всем двигателям каталога) ---------- */
 function doSearch(q) {
   q = (q || "").trim();
@@ -524,12 +832,24 @@ function doSearch(q) {
         });
       });
     });
+
+    /* Комплекты: их номера не встречаются ни в одном узле, поэтому без
+       отдельного прохода номер комплекта не находился вовсе. */
+    (cat.kits || []).forEach(function (kit) {
+      var num = normNo(kit.no);
+      var ruKit = (window.KB && window.KB.ruPart) ? window.KB.ruPart(kit.no) : "";
+      var hitNo = num && num.indexOf(norm) !== -1;
+      var hitNm = (kit.name && re.test(kit.name)) || (ruKit && re.test(ruKit));
+      if (!hitNo && !hitNm) return;
+      hits.push({ isKit: true, kit: kit, eng: eng, exact: num === norm });
+    });
   });
 
   hits.sort(function (a, b) {
     if (a.exact !== b.exact) return a.exact ? -1 : 1;
     if (a.eng.esn !== b.eng.esn) return a.eng.esn === C.esn ? -1 : 1;
-    return (a.p.no || "").localeCompare(b.p.no || "");
+    var an = a.isKit ? a.kit.no : a.p.no, bn = b.isKit ? b.kit.no : b.p.no;
+    return (an || "").localeCompare(bn || "");
   });
 
   show("view-search");
@@ -539,6 +859,25 @@ function doSearch(q) {
   box.innerHTML = "";
   hits.slice(0, 400).forEach(function (h) {
     var d = el("div", "search-hit");
+    if (h.isKit) {
+      var kno = el("span", "hit-no", h.kit.no || "—");
+      kno.appendChild(el("span", "chip-sup", "комплект"));
+      d.appendChild(kno);
+      var ruK = (window.KB && window.KB.ruPart) ? window.KB.ruPart(h.kit.no) : "";
+      var knm = el("span", "hit-name");
+      knm.innerHTML = (ruK ? "<b>" + highlight(ruK, q) + "</b> · " : "") +
+                      highlight(h.kit.name || "", q);
+      d.appendChild(knm);
+      var kwhere = "комплект · составляющих: " + kitComponents(h.kit).length;
+      if (h.eng.esn !== C.esn) kwhere = (h.eng.machine || h.eng.model) + " → " + kwhere;
+      d.appendChild(el("span", "hit-where", kwhere));
+      d.onclick = function () {
+        if (h.eng.esn !== C.esn) selectEngine(h.eng.esn);
+        openKitCard(h.kit.no);
+      };
+      box.appendChild(d);
+      return;
+    }
     var no = el("span", "hit-no", h.p.no || "—");
     if (h.via) no.appendChild(el("span", "chip-sup", "вместо " + h.via));
     d.appendChild(no);
@@ -588,11 +927,19 @@ $("search-clear").onclick = function () {
 };
 
 /* ---------- корзина ---------- */
+/* Продаётся ли деталь отдельно (attrs.Sellable === "N" — нет). */
+function sellableIn(cards, pn) {
+  var c = cards && cards[pn];
+  return !(c && c.attrs && c.attrs.Sellable === "N");
+}
+function isSellable(pn) { return sellableIn(CARDS, pn); }
+
 function addToCart(p, o, n) {
   var k = p.no;
+  if (!p.isKit && !isSellable(p.no)) return;   // отдельно не продаётся — в заказ не кладём
   if (!state.cart[k]) {
     state.cart[k] = { no: p.no, name: p.name, price: (p.price != null ? p.price : null),
-                      group: p.group || "", alt: p.alt || "",
+                      group: p.group || "", alt: p.alt || "", isKit: !!p.isKit,
                       option: o.no, optionName: o.name, pos: p.pos || "", qty: 0 };
   }
   state.cart[k].qty += n;
@@ -611,10 +958,15 @@ function renderCart() {
   keys.forEach(function (k) {
     var it = state.cart[k];
     var tr = el("tr");
-    tr.appendChild(el("td", "pn", it.no));
+    var tdPn = el("td", "pn");
+    tdPn.appendChild(document.createTextNode(it.no));
+    if (it.isKit) tdPn.appendChild(el("span", "chip-sup", "комплект"));
+    tr.appendChild(tdPn);
     var nm = el("td");
     nm.appendChild(document.createTextNode(it.name || ""));
-    nm.appendChild(el("span", "dim", it.optionName + " · " + it.option + " · поз. " + it.pos));
+    nm.appendChild(el("span", "dim", it.isKit
+      ? "комплект целиком"
+      : it.optionName + " · " + it.option + " · поз. " + it.pos));
     tr.appendChild(nm);
 
     var tdQ = el("td");
@@ -675,8 +1027,9 @@ $("cart-csv").onclick = function () {
   var e = engineOf(C.esn);
   var serial = $("serial").value || C.esn;
   var head = ["Машина", "Двигатель", "ESN", "Серийный номер", "Номер детали",
-              "Наименование", "Действующий номер", "Группа", "Взаимозаменяемый артикул",
-              "Узел", "Номер узла", "Позиция", "Количество", "Цена", "Сумма"];
+              "Наименование", "Тип позиции", "Действующий номер", "Группа",
+              "Взаимозаменяемый артикул", "Узел", "Номер узла", "Позиция",
+              "Количество", "Цена", "Сумма"];
   var lines = [head.join(";")];
   var total = 0;
   keys.forEach(function (k) {
@@ -684,6 +1037,7 @@ $("cart-csv").onclick = function () {
     var sum = (it.price != null) ? it.price * it.qty : null;
     if (sum != null) total += sum;
     lines.push([e.machine || "", C.model, C.esn, serial, it.no, it.name,
+                it.isKit ? "комплект" : "деталь",
                 currentNo(it.no), it.group, it.alt, it.optionName, it.option,
                 it.pos, it.qty,
                 it.price != null ? String(it.price).replace(".", ",") : "",
@@ -716,6 +1070,10 @@ function csvCell(v) {
   return /[";\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
 }
 function priceCsv(v) { return (v != null && !isNaN(v)) ? String(v).replace(".", ",") : ""; }
+/* русское наименование детали из базы знаний (в выгрузках — отдельным столбцом) */
+function ruName(pn) {
+  return (window.KB && window.KB.ruPart) ? (window.KB.ruPart(pn) || "") : "";
+}
 function downloadCsv(name, rows) {
   var text = rows.map(function (r) { return r.map(csvCell).join(";"); }).join("\r\n");
   var blob = new Blob(["﻿" + text], { type: "text/csv;charset=utf-8;" });
@@ -733,6 +1091,16 @@ function curNoFor(cat, pn) {
   return last && last.no !== pn ? last.no : "";
 }
 
+/* Основные атрибуты детали для выгрузок (вес/габариты/опасный груз) —
+   берутся из карточки детали (cards[pn].attrs), не из позиции на чертеже. */
+function partAttrsFor(cat, pn) {
+  var a = ((cat.cards || {})[pn] || {}).attrs || {};
+  var dims = (a.Length || a.Width || a.Height)
+    ? [a.Length, a.Width, a.Height].filter(Boolean).join(" × ")
+    : (a.Dimensions || "");
+  return { weight: a.Weight || "", dims: dims, hazmat: a["Hazardous Material"] || "" };
+}
+
 /* --- «Все номера этой модели» --- */
 function exportModel() {
   var e = engineOf(C.esn), map = {};
@@ -740,20 +1108,26 @@ function exportModel() {
     o.parts.forEach(function (p) {
       if (!p.no) return;
       var k = normNo(p.no);
-      var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price, units: {} });
+      var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price,
+                                      curPrice: p.curPrice, units: {} });
       if (rec.price == null && p.price != null) rec.price = p.price;
+      if (rec.curPrice == null && p.curPrice != null) rec.curPrice = p.curPrice;
       if (!rec.name && p.name) rec.name = p.name;
       rec.units[o.no] = o.name;
     });
   });
   var keys = Object.keys(map).sort(function (a, b) { return map[a].no.localeCompare(map[b].no); });
   var head = ["Машина", "Модель", "ESN", "Номер детали", "Наименование",
-              "Действующий номер", "Цена", "Узлов", "Узлы"];
+              "Наименование (рус.)", "Продаётся отдельно", "Действующий номер",
+              "Текущая цена", "Несогласованная цена", "Вес", "Габариты (Д×Ш×В)",
+              "Опасный груз", "Входит в комплекты", "Узлов", "Узлы"];
   var rows = [head];
   keys.forEach(function (k) {
-    var r = map[k], us = Object.keys(r.units);
-    rows.push([e.machine || "", C.model, C.esn, r.no, r.name, currentNo(r.no),
-               priceCsv(r.price), us.length,
+    var r = map[k], us = Object.keys(r.units), at = partAttrsFor(C, r.no);
+    rows.push([e.machine || "", C.model, C.esn, r.no, r.name, ruName(r.no),
+               sellableIn(C.cards, r.no) ? "да" : "нет", currentNo(r.no),
+               priceCsv(r.curPrice), priceCsv(r.price),
+               at.weight, at.dims, at.hazmat, kitsForNoIn(C, r.no).join(" | "), us.length,
                us.map(function (u) { return r.units[u] + " (" + u + ")"; }).join(" | ")]);
   });
   var tag = (e.machine ? e.machine + "_" : "") + C.model.replace(/[^\wА-Яа-я]+/g, "_") + "_" + C.esn;
@@ -763,7 +1137,9 @@ function exportModel() {
 /* --- «Все номера всех каталогов» --- */
 function exportAll() {
   var head = ["Машина", "Модель", "ESN", "CPL", "Номер детали", "Наименование",
-              "Действующий номер", "Цена", "Узлов"];
+              "Наименование (рус.)", "Продаётся отдельно", "Действующий номер",
+              "Текущая цена", "Несогласованная цена", "Вес", "Габариты (Д×Ш×В)",
+              "Опасный груз", "Входит в комплекты", "Узлов"];
   var rows = [head];
   ENGINES.forEach(function (eng) {
     var cat = ALL[eng.esn]; if (!cat) return;
@@ -772,17 +1148,22 @@ function exportAll() {
       o.parts.forEach(function (p) {
         if (!p.no) return;
         var k = normNo(p.no);
-        var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price, units: {} });
+        var rec = map[k] || (map[k] = { no: p.no, name: p.name || "", price: p.price,
+                                        curPrice: p.curPrice, units: {} });
         if (rec.price == null && p.price != null) rec.price = p.price;
+        if (rec.curPrice == null && p.curPrice != null) rec.curPrice = p.curPrice;
         if (!rec.name && p.name) rec.name = p.name;
         rec.units[o.no] = 1;
       });
     });
     Object.keys(map).sort(function (a, b) { return map[a].no.localeCompare(map[b].no); })
       .forEach(function (k) {
-        var r = map[k];
+        var r = map[k], at = partAttrsFor(cat, r.no);
         rows.push([eng.machine || "", cat.model, eng.esn, cat.cpl || "", r.no, r.name,
-                   curNoFor(cat, r.no), priceCsv(r.price), Object.keys(r.units).length]);
+                   ruName(r.no), sellableIn(cat.cards, r.no) ? "да" : "нет",
+                   curNoFor(cat, r.no), priceCsv(r.curPrice), priceCsv(r.price),
+                   at.weight, at.dims, at.hazmat,
+                   kitsForNoIn(cat, r.no).join(" | "), Object.keys(r.units).length]);
       });
   });
   downloadCsv("nomera_vse_katalogi.csv", rows);
@@ -795,7 +1176,7 @@ var GIDX = null;          // глобальный индекс: прямые н�
 var checkResults = null;
 function buildGlobalIndex() {
   if (GIDX) return GIDX;
-  var direct = {}, via = {};
+  var direct = {}, via = {}, kit = {};
   ENGINES.forEach(function (e) {
     var cat = ALL[e.esn]; if (!cat) return;
     cat.options.forEach(function (o) {
@@ -822,8 +1203,15 @@ function buildGlobalIndex() {
           model: cat.model, no: pn, cur: curNoFor(cat, pn) });
       });
     });
+    /* Номера комплектов в узлах не встречаются — иначе список поставщика,
+       где есть кит-номера, показывал бы их как «нет в каталоге». */
+    (cat.kits || []).forEach(function (k) {
+      if (!k.no) return;
+      (kit[normNo(k.no)] || (kit[normNo(k.no)] = [])).push({ esn: e.esn, machine: e.machine,
+        model: cat.model, no: k.no, name: k.name || "", cnt: kitComponents(k).length });
+    });
   });
-  GIDX = { direct: direct, via: via };
+  GIDX = { direct: direct, via: via, kit: kit };
   return GIDX;
 }
 function parseNumbers(text) {
@@ -832,14 +1220,20 @@ function parseNumbers(text) {
   toks.forEach(function (t) { var k = normNo(t); if (k && !seen[k]) { seen[k] = 1; out.push(t); } });
   return out;
 }
-function whereList(hits, sup) {
+function whereList(hits, status) {
+  var sup = status === "sup";
   return hits.map(function (h) {
     var label = (h.machine ? h.machine + " · " : "") + h.model;
+    if (status === "kit") {
+      var ruK = (window.KB && window.KB.ruPart) ? window.KB.ruPart(h.no) : "";
+      return label + " → комплект «" + (ruK || h.name || h.no) + "» · составляющих: " + h.cnt;
+    }
     if (sup) return label + " → действующий " + h.no + (h.cur && h.cur !== h.no ? " (" + h.cur + ")" : "");
     var units = Object.keys(h.units).map(function (u) { return h.units[u]; });
     var u = units.length ? " · " + units.slice(0, 4).join(", ") +
             (units.length > 4 ? " и ещё " + (units.length - 4) : "") : "";
-    return label + u;
+    var ks = kitsForNoIn(ALL[h.esn] || {}, h.no);
+    return label + u + (ks.length ? " · комплектом: " + ks.join(", ") : "");
   });
 }
 function findOptionOfPart(esn, pn) {
@@ -854,7 +1248,9 @@ function openHit(r) {
   var h = r.hits[0]; if (!h) return;
   closeCheck();
   if (h.esn !== C.esn) selectEngine(h.esn);
-  if (r.status === "sup") {
+  if (r.status === "kit") {
+    openKitCard(h.no);
+  } else if (r.status === "sup") {
     var loc = findOptionOfPart(h.esn, h.no);
     if (loc) openOption(loc, h.no);
   } else {
@@ -863,15 +1259,16 @@ function openHit(r) {
 }
 function runCheck() {
   var nums = parseNumbers($("check-input").value), idx = buildGlobalIndex();
-  var results = [], cOk = 0, cSup = 0, cNo = 0;
+  var results = [], cOk = 0, cSup = 0, cKit = 0, cNo = 0;
   nums.forEach(function (raw) {
-    var n = normNo(raw), d = idx.direct[n], v = idx.via[n];
+    var n = normNo(raw), d = idx.direct[n], v = idx.via[n], k = idx.kit[n];
     if (d && d.length) { cOk++; results.push({ raw: raw, status: "ok", hits: d }); }
+    else if (k && k.length) { cKit++; results.push({ raw: raw, status: "kit", hits: k }); }
     else if (v && v.length) { cSup++; results.push({ raw: raw, status: "sup", hits: v }); }
     else { cNo++; results.push({ raw: raw, status: "no", hits: [] }); }
   });
   checkResults = results;
-  renderCheck(results, { ok: cOk, sup: cSup, no: cNo, total: nums.length });
+  renderCheck(results, { ok: cOk, sup: cSup, kit: cKit, no: cNo, total: nums.length });
   $("check-dl").disabled = !results.length;
 }
 function renderCheck(results, sum) {
@@ -880,6 +1277,7 @@ function renderCheck(results, sum) {
   pill("tot", "Проверено: " + sum.total);
   pill("ok", "В каталоге: " + sum.ok);
   pill("sup", "Как заменённый: " + sum.sup);
+  pill("kit", "Комплекты: " + sum.kit);
   pill("no", "Нет: " + sum.no);
   var box = $("check-results"); box.innerHTML = "";
   if (!results.length) { box.appendChild(el("p", "sub", "Введите номера и нажмите «Проверить».")); return; }
@@ -891,13 +1289,14 @@ function renderCheck(results, sum) {
     var tr = el("tr", "st-" + r.status);
     tr.appendChild(el("td", "r-no", r.raw));
     var tdS = el("td");
-    var label = r.status === "ok" ? "в каталоге" : r.status === "sup" ? "заменённый" : "нет в каталоге";
+    var label = r.status === "ok" ? "в каталоге" : r.status === "kit" ? "комплект"
+              : r.status === "sup" ? "заменённый" : "нет в каталоге";
     tdS.appendChild(el("span", "status " + r.status, label));
     tr.appendChild(tdS);
     var tdW = el("td", "r-where");
     if (r.status === "no") tdW.textContent = "—";
     else {
-      whereList(r.hits, r.status === "sup").forEach(function (t) {
+      whereList(r.hits, r.status).forEach(function (t) {
         tdW.appendChild(el("div", null, t));
       });
       tr.style.cursor = "pointer";
@@ -911,13 +1310,20 @@ function renderCheck(results, sum) {
 }
 function downloadCheck() {
   if (!checkResults || !checkResults.length) return;
-  var head = ["Номер", "Статус", "Машины и узлы", "Действующий номер"];
+  var head = ["Номер", "Статус", "Машины и узлы", "Действующий номер", "Входит в комплекты"];
   var rows = [head];
   checkResults.forEach(function (r) {
-    var status = r.status === "ok" ? "в каталоге" : r.status === "sup" ? "заменённый" : "нет в каталоге";
-    var where = r.status === "no" ? "" : whereList(r.hits, r.status === "sup").join(" | ");
+    var status = r.status === "ok" ? "в каталоге" : r.status === "kit" ? "комплект"
+               : r.status === "sup" ? "заменённый" : "нет в каталоге";
+    var where = r.status === "no" ? "" : whereList(r.hits, r.status).join(" | ");
     var cur = r.status === "sup" ? (r.hits[0] ? r.hits[0].no : "") : "";
-    rows.push([r.raw, status, where, cur]);
+    var kits = {};
+    if (r.status === "ok" || r.status === "sup") {
+      r.hits.forEach(function (h) {
+        kitsForNoIn(ALL[h.esn] || {}, h.no).forEach(function (kn) { kits[kn] = 1; });
+      });
+    }
+    rows.push([r.raw, status, where, cur, Object.keys(kits).join(" | ")]);
   });
   downloadCsv("proverka_spiska.csv", rows);
 }
@@ -955,10 +1361,27 @@ $("check-file").addEventListener("change", function () {
   this.value = "";
 });
 
-/* --- цены из файла (клиентский прайс, сохраняется в браузере) --- */
+/* --- цены: базовый прайс каталога + прайс, загруженный пользователем --- */
 var LS_PRICES = "cummins_prices";
+/* База — центральный прайс из data/prices.js: несогласованный (CUMMINS_PRICES)
+   и текущий (CUMMINS_PRICES_CUR). Загруженный пользователем файл сохраняется в
+   браузере и накладывается поверх несогласованного; текущий прайс он не меняет —
+   это справочный столбец для сравнения. */
+var BASE_PRICES = (typeof window !== "undefined" && window.CUMMINS_PRICES) ? window.CUMMINS_PRICES : {};
 var PRICES = {};
-try { PRICES = JSON.parse(localStorage.getItem(LS_PRICES)) || {}; } catch (e) { PRICES = {}; }
+function rebuildPrices() {
+  PRICES = {};
+  var k;
+  for (k in BASE_PRICES) PRICES[normNo(k)] = BASE_PRICES[k];
+  try {
+    var ov = JSON.parse(localStorage.getItem(LS_PRICES));
+    if (ov) for (k in ov) PRICES[normNo(k)] = ov[k];
+  } catch (e) {}
+}
+rebuildPrices();
+var BASE_PRICES_CUR = (typeof window !== "undefined" && window.CUMMINS_PRICES_CUR) ? window.CUMMINS_PRICES_CUR : {};
+var PRICES_CUR = {};
+(function () { var k; for (k in BASE_PRICES_CUR) PRICES_CUR[normNo(k)] = BASE_PRICES_CUR[k]; })();
 function applyPrices() {
   var has = Object.keys(PRICES).length > 0;
   ENGINES.forEach(function (e) {
@@ -968,6 +1391,8 @@ function applyPrices() {
         if (!p.no) return;
         var v = PRICES[normNo(p.no)];
         if (v != null) p.price = v;
+        var cv = PRICES_CUR[normNo(p.no)];
+        if (cv != null) p.curPrice = cv;
       });
     });
     if (has) cat.hasPrices = true;
@@ -1031,15 +1456,16 @@ $("price-file").addEventListener("change", function () {
             "(через «;», табуляцию или запятую).");
       return;
     }
-    PRICES = res.map;
-    try { localStorage.setItem(LS_PRICES, JSON.stringify(PRICES)); } catch (e) {}
+    try { localStorage.setItem(LS_PRICES, JSON.stringify(res.map)); } catch (e) {}
+    rebuildPrices();
     applyPrices();
     var inCat = countPricedInCatalog();
     if (state.option) openOption(state.option.no); else renderTree();
     renderCart();
     alert("Загружено строк с ценой: " + res.rows +
           "\nСовпало с номерами каталога: " + inCat +
-          "\n\nЦены сохранены в браузере и применены ко всем двигателям.");
+          "\n\nЦены сохранены в браузере и наложены поверх базового прайса каталога " +
+          "(столбец «Несогласованная») для всех двигателей.");
   };
   reader.readAsText(f, "utf-8");
   this.value = "";
@@ -1083,6 +1509,11 @@ window.CATALOG_API = {
     }
     openPartCard(pn);
   },
+  openKit: function (esn, kitNo) {
+    if (ALL[esn] && esn !== C.esn) selectEngine(esn);
+    openKitCard(kitNo);
+  },
+  showKits: function () { showKits(); },
   currentEngine: function () { return C ? C.esn : null; }
 };
 
