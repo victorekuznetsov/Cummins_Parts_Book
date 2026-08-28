@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-116-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-116-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Control Shutoff Valve Filter Head Mounting Bracket
@@ -31,45 +33,88 @@ tags:
 > **Даты:** изменён 2005-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-116-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-116-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!danger] WARNING · Опасно
-> Air pressure must be released from the system before removing the turbocharger control shutoff valve. The turbocharger control shutoff valve is under pressure and can cause personal injury.
+### Подготовительные операции
 
-Remove or disconnect the following:
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-- Turbocharger control shutoff valve filter head. Refer to Procedure [[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
+> [!danger] ОПАСНО
+> Давление воздуха должно быть выпущено из системы перед удалением клапана отключения управления турбокомпрессором. Запорный клапан управления турбокомпрессором находится под давлением и может привести к травмам.
+
+Удалить или отключить следующее:
+
+- Руль фильтра запорного клапана турбокомпрессора. См. процедуру[[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the turbocharger control shutoff valve filter head mounting bracket.
+Удалите скобки крепления головки турбокомпрессора с отключающим клапаном.
 
 ![[10200122.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Check turbocharger control shutoff valve filter head mounting bracket for signs of damage.
+Проверьте кронштейн для установки головки турбокомпрессора на наличие признаков повреждения.
 
 ![[10200123.png]]
 
-### Install
+### Установка
 
-Install the turbocharger control shutoff valve filter head mounting bracket.
+Установите кронштейн для установки головки турбокомпрессора с отключающим клапаном.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[10200122.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the turbocharger control shutoff valve filter head. Refer to Procedure [[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
+Установите головку фильтра запорного клапана управления турбокомпрессором. См. процедуру[[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
 
-Start and run engine. Check for fault codes and air leaks.
+Запуск и запуск двигателя. Проверьте коды неисправностей и утечки воздуха.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **WARNING · Опасно**
+> Air pressure must be released from the system before removing the turbocharger control shutoff valve. The turbocharger control shutoff valve is under pressure and can cause personal injury.
+>
+> Remove or disconnect the following:
+>
+> - Turbocharger control shutoff valve filter head. Refer to Procedure [[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
+>
+> ### Remove
+>
+> Remove the turbocharger control shutoff valve filter head mounting bracket.
+>
+> ### Inspect for Reuse
+>
+> Check turbocharger control shutoff valve filter head mounting bracket for signs of damage.
+>
+> ### Install
+>
+> Install the turbocharger control shutoff valve filter head mounting bracket.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> ### Finishing Steps
+>
+> Install the turbocharger control shutoff valve filter head. Refer to Procedure [[35-010-115-tr — Turbocharger Control Shutoff Valve Filter Head|010-115]].
+>
+> Start and run engine. Check for fault codes and air leaks.

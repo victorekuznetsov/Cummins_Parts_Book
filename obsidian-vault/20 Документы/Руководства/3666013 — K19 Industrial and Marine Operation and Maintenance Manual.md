@@ -29,10 +29,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-toc | Table of Contents |  |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| om-frwd | Foreword | 22-May-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-titlepage | Titlepage | 10-Oct-2006 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/om-frwd.html) | Foreword | 22-May-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-titlepage.html) | Titlepage | 10-Oct-2006 |
 
 ### Section i - Introduction
 
@@ -139,20 +139,20 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-155-om | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t043-om | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t072-om | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t078-om | Engine Will Not Crank | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-om | Engine Will Not Shut Off | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-006-om | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t105-om | Lubricating Oil Pressure Low | 14-Jul-2006 |
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t057-om | Engine Power Output Low | 19-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t024-om.html) | Coolant Temperature is Below Normal | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t026-om.html) | Coolant Temperature Above Normal | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-155-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t026-155-om.html) | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t043-om.html) | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t061-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t061-011-om.html) | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t072-om.html) | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t077-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t077-om.html) | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t078-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t078-om.html) | Engine Will Not Crank | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t080-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t080-om.html) | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t081-om.html) | Engine Will Not Shut Off | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-006-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t081-006-om.html) | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t105-om.html) | Lubricating Oil Pressure Low | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t057-om.html) | Engine Power Output Low | 19-Jul-2006 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section 1 - Operating Instructions
@@ -259,7 +259,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-backcover | Backcover | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-backcover.html) | Backcover | 14-Jul-2006 |
 
 ### Section 2 - Maintenance Guidelines
 
@@ -276,11 +276,11 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
-| 3381310 | K19 Engines Australia and New Zealand Automotive | 27-Mar-2008 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
-| 3381307 | All Diesel Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381310](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381310/3381310-history.html) | K19 Engines Australia and New Zealand Automotive | 27-Mar-2008 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Diesel Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section ES - Engine Storage
 

@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104184.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104184.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision to Engine Installation Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2010-05-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104184.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104184.pdf)
 
-## Revision to Engine Installation Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр процедуры установки двигателя
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 000-002 (Engine Installation) in the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. Instructions to recheck the crankshaft endfloat have been added.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает Процедуру 000-002 (Установка двигателя) в Руководстве по обслуживанию QSK45 и QSK60, Бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. Добавлены инструкции по перепроверке торцевого поплавка коленчатого вала.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision to Engine Installation Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 000-002 (Engine Installation) in the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. Instructions to recheck the crankshaft endfloat have been added.

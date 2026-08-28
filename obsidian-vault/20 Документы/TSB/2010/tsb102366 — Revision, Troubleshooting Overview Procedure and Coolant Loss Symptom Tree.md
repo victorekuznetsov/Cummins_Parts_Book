@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102366.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102366.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Troubleshooting Overview Procedure and Coolant Loss Symptom Tree
@@ -25,15 +27,38 @@ tags:
 > **Даты:** изменён 2007-07-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102366.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102366.pdf)
 
-## Revision, Troubleshooting Overview Procedure and Coolant Loss Symptom Tree
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, устранение неполадок Обзорная процедура и охлаждение Симптомное дерево
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the Troubleshooting Overview Procedure t00-004 in Section TS and the Coolant Loss symptom tree.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-> [!note] Note · Примечание
+### Содержание
+
+Эта тема «Служба/Части» пересматривает процедуру устранения неполадок t00-004 в разделе TS и дерево симптомов потери охлаждающей жидкости.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Troubleshooting Overview Procedure and Coolant Loss Symptom Tree
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the Troubleshooting Overview Procedure t00-004 in Section TS and the Coolant Loss symptom tree.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Flywheel Ring Gear
@@ -35,49 +37,98 @@ tags:
 > **Даты:** изменён 2002-08-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-008.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe eye damage, wear eye protection when you drive the ring gear from the flywheel. Do not use a steel drift.
 
-> [!warning] CAUTION · Осторожно
-> Do not use a cutting torch to heat the ring gear. The flywheel can be damaged.
+### Снятие
 
-Heat the outside surface of the ring gear with a heating torch.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность серьезного повреждения глаз, используйте защиту глаз при вождении кольцевой передачи от маховика. Не используйте стальной дрейф.
 
-Use a hammer and blunt chisel to remove the gear from the flywheel.
+> [!warning] ОСТОРОЖНО
+> Не используйте режущий факел для нагрева кольцевой передачи. Маховик может быть поврежден.
+
+Нагрейте внешнюю поверхность кольцевой передачи нагревательным факелом.
+
+Используйте молоток и тупую резину, чтобы снять передачу с маховика.
 
 ![[fw2rgma.png]]
 
-### Install
+### Установка
 
-Do **not** attempt to install the ring gear without using heat.
+Не пытайтесь установить кольцевую передачу без использования тепла.
 
-Use an oven to heat the new ring gear for a minimum of one hour. Do **not** heat the ring gear for more than 6 hours.
+Используйте духовку для нагрева новой кольцевой передачи в течение как минимум одного часа. Не нагревайте кольцевую передачу более 6 часов.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | celsius | fahrenheit |
-| Temperature: | 235 | 450 |
+|  | целий | Фаренгейт |
+| Температура: | 235 | 450 |
 
-Do **not** exceed the specified time or temperature.
+не превышает указанное время или температуру.
 
 ![[fw2rgwa.png]]
 
-If an oven is **not** available, use a heating torch to heat the gear. Use a Tempilstik crayon, or equivalent, to check the temperature of the gear.
+Если печь недоступна, используйте нагревательный факел для нагрева передачи. Используйте карандаш Темпильстика или эквивалент, чтобы проверить температуру передачи.
 
-A more even temperature is obtained by placing the ring gear on a metal plate and then heating the bottom side of the plate with the torch. Do **not** exceed the specified temperature.
+Более четная температура получается путем размещения кольцевой передачи на металлической пластине, а затем нагревания нижней стороны пластины факелом. не превышает указанную температуру.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | celsius | fahrenheit |
-| Temperature: | 235 | 450 |
+|  | целий | Фаренгейт |
+| Температура: | 235 | 450 |
 
 ![[fw2rgwc.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-Install the ring gear on the flywheel before it cools. Allow the air to cool the gear. Do **not** use water or oil to reduce the cooling time.
+Установите кольцевую передачу на маховик, прежде чем он остынет. Позвольте воздуху охлаждать передачу. Не используйте воду или масло, чтобы уменьшить время охлаждения.
 
 ![[fw8rghd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe eye damage, wear eye protection when you drive the ring gear from the flywheel. Do not use a steel drift.
+>
+> **CAUTION · Осторожно**
+> Do not use a cutting torch to heat the ring gear. The flywheel can be damaged.
+>
+> Heat the outside surface of the ring gear with a heating torch.
+>
+> Use a hammer and blunt chisel to remove the gear from the flywheel.
+>
+> ### Install
+>
+> Do **not** attempt to install the ring gear without using heat.
+>
+> Use an oven to heat the new ring gear for a minimum of one hour. Do **not** heat the ring gear for more than 6 hours.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | celsius | fahrenheit |
+> | Temperature: | 235 | 450 |
+>
+> Do **not** exceed the specified time or temperature.
+>
+> If an oven is **not** available, use a heating torch to heat the gear. Use a Tempilstik crayon, or equivalent, to check the temperature of the gear.
+>
+> A more even temperature is obtained by placing the ring gear on a metal plate and then heating the bottom side of the plate with the torch. Do **not** exceed the specified temperature.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | celsius | fahrenheit |
+> | Temperature: | 235 | 450 |
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated ring gear.
+>
+> Install the ring gear on the flywheel before it cools. Allow the air to cool the gear. Do **not** use water or oil to reduce the cooling time.

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc649.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc649.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Maintenance Interval Reached
@@ -34,50 +36,106 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc649.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc649.pdf)
 
-### Fault Code: 649
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Maintenance Interval Reached
 
-Printable Version
+### Код неисправности: 649
 
-### Overview
+### Промежуточный интервал достигнут
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 649 PID(P): SPN: FMI: Lamp: Red SRT: | The maintenance interval has been reached. | No action is taken by ECM. |
+| Код неисправности: 649 PID(P): СПН: ФМИ: Лампа: Красная СТО: | Промежуток технического обслуживания был достигнут. | Никаких действий со стороны ЕКМ не предпринимается. |
 
 ![[nobox.png]]
 
-### Circuit Description
+### Описание цепи
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
 
-### Component Location
+### Расположение компонента
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
 
-### Shoptalk
+### Практические замечания
 
-Perform standard oil change maintenance. The fault code can be cleared with the service tool during the maintenance procedure. Manually clearing the fault code can be accomplished through the accelerator pedal on applications with an accelerator pedal, or through the diagnostic switch on installations without an accelerator pedal.
+Выполняйте стандартное техническое обслуживание замены масла. Код неисправности может быть очищен с помощью инструмента обслуживания во время процедуры обслуживания. Ручное очистка кода неисправности может быть выполнена через педаль акселератора на приложениях с педалью акселератора или через диагностический переключатель на установках без педали акселератора.
 
-The following procedure **must** be completed in 20 seconds or less. If the fault code is cleared successfully, the maintenance lamp will respond with a series of flashes. If the procedure is unsuccessful, turn the keyswitch to the OFF position and restart the procedure.
+Следующая процедура должна быть завершена за 20 секунд или меньше. Если код неисправности будет успешно очищен, лампа технического обслуживания будет реагировать серией вспышек. Если процедура не удалась, переключите зажигание в положение выключения и перезапустите процедуру.
 
-With the accelerator pedal:
+С педалью акселератора:
 
-- Turn the keyswitch ON, the diganostic switch ON, and the engine OFF.
+- Включите переключатель зажигания, диготический переключатель и выключатель двигателя.
 
-- Depress the accelerator pedall 100 percent for a minimum of 3 seconds and then release.
+- Ударьте педалью ускорителя на 100 процентов в течение минимум 3 секунд, а затем отпустите.
 
-- Depress the accelerator pedal 100 percent briefly two more times and release.
+- Ударьте педалью ускорителя на 100 процентов ненадолго еще два раза и отпустите.
 
-- Depress the accelerator pedal 100 percent once more for a minimum of 3 seconds and release.
+- Ударьте педалью ускорителя еще раз на 100 процентов в течение минимум 3 секунд и отпустите.
 
-With the diagnostic switch only:
+Только с диагностическим выключателем:
 
-- Turn the keyswitch ON and the engine OFF.
+- Включите переключатель зажигания и выключите двигатель.
 
-- Turn the diagnostic swtich ON for a minimum of 3 seconds and then turn it OFF.
+- Включите диагностический швтич в течение минимум 3 секунд, а затем выключите его.
 
-- Turn the diagnost switch ON briefly two more times and then OFF.
+- Включите диагностическое переключение еще два раза, а затем выключите.
 
-- Turn the diagnostic switch ON once more for a minimum of 3 seconds and then OFF.
+- Включите диагностический выключатель еще раз в течение минимум 3 секунд, а затем выключите.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 649
+>
+> ### Maintenance Interval Reached
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 649 PID(P): SPN: FMI: Lamp: Red SRT: | The maintenance interval has been reached. | No action is taken by ECM. |
+>
+> ### Circuit Description
+>
+> nonapplicable for this fault code
+>
+> ### Component Location
+>
+> nonapplicable for this fault code
+>
+> ### Shoptalk
+>
+> Perform standard oil change maintenance. The fault code can be cleared with the service tool during the maintenance procedure. Manually clearing the fault code can be accomplished through the accelerator pedal on applications with an accelerator pedal, or through the diagnostic switch on installations without an accelerator pedal.
+>
+> The following procedure **must** be completed in 20 seconds or less. If the fault code is cleared successfully, the maintenance lamp will respond with a series of flashes. If the procedure is unsuccessful, turn the keyswitch to the OFF position and restart the procedure.
+>
+> With the accelerator pedal:
+>
+> - Turn the keyswitch ON, the diganostic switch ON, and the engine OFF.
+>
+> - Depress the accelerator pedall 100 percent for a minimum of 3 seconds and then release.
+>
+> - Depress the accelerator pedal 100 percent briefly two more times and release.
+>
+> - Depress the accelerator pedal 100 percent once more for a minimum of 3 seconds and release.
+>
+> With the diagnostic switch only:
+>
+> - Turn the keyswitch ON and the engine OFF.
+>
+> - Turn the diagnostic swtich ON for a minimum of 3 seconds and then turn it OFF.
+>
+> - Turn the diagnost switch ON briefly two more times and then OFF.
+>
+> - Turn the diagnostic switch ON once more for a minimum of 3 seconds and then OFF.

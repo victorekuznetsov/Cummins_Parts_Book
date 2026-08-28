@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-031-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-031-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Gear Cover, Front
@@ -35,105 +37,198 @@ tags:
 > **Даты:** изменён 2005-12-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-031-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-031-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-This illustration shows the location for the six 16 mm capscrews. All of the other front cover capscrews are 12 mm.
+### Установка
+
+с форсункой механического управления
+
+На этой иллюстрации показано расположение шести 16-мм болтов. Все остальные передние болты крышки имеют 12 мм.
 
 ![[01600151.png]]
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Do **not** tighten the capscrews until the master dowel pin is installed.
+Затормозите болты до тех пор, пока не будет установлен главный штифт.
 
-The use of guide bolts will aid the assembly.
+Использование направляющих болтов поможет сборке.
 
-Install the front cover gasket, cover, and capscrews.
+Установите прокладку передней крышки, крышку и болты.
 
 ![[01600082.png]]
 
-Tighten the 28 mounting capscrews in the sequence shown.
+Затягивайте 28 крепежных болтов в показанной последовательности.
 
-| M12 capscrews | 80 n.m | \[59 ft-lb\] |
+| болты М12 | 80 Н·м | [59 фунт-фут] |
 |---|---|---|
 
-| M16 capscrews | 195 n.m | \[144 ft-lb\] |
+| болты М16 | 195 Н·м | [144 фунт-фут] |
 |---|---|---|
 
 ![[01600152.png]]
 
-Install the five capscrews that attach to the bottom of the oil pan adapter.
+Установите пять болтов, которые крепятся к нижней части адаптера масляной панели.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600153.png]]
 
-Install the hydraulic pump drive.
+Установите гидравлический насос.
 
-Use clean engine oil to lubricate the bushing in the front gear cover.
+Используйте чистое моторное масло для смазки втулки в передней крышке передач.
 
-Install the gasket, drive or cover, washers, and capscrews.
+Установите прокладку, привод или крышку, шайбы и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[09600041.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-This illustration shows the location for the six 16 mm capscrews. All of the other front cover capscrews are 12 mm.
+На этой иллюстрации показано расположение шести 16-мм болтов. Все остальные передние болты крышки имеют 12 мм.
 
 ![[01600151.png]]
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Do **not** tighten the capscrews until the master dowel pin is installed.
+Затормозите болты до тех пор, пока не будет установлен главный штифт.
 
-The use of guide bolts will aid the assembly.
+Использование направляющих болтов поможет сборке.
 
-Install the front cover gasket, cover, and capscrews.
+Установите прокладку передней крышки, крышку и болты.
 
 ![[01600082.png]]
 
-> [!note] Note · Примечание
-> The number of capscrews that can be tightened at this time depends on the engine options. If the location is used to mount an accessory, it can **not** be installed at this time.
+> [!note] Примечание
+> Количество болтов, которые можно затянуть в это время, зависит от опций двигателя. Если место используется для установки аксессуара, он может **не** быть установлен в это время.
 
-Tighten the front gear cover mounting capscrews in the sequence shown.
+Затягивать передние зубчатые крышки, устанавливающие болты в показанной последовательности.
 
-| M12 capscrews | 80 n.m | \[59 ft-lb\] |
+| болты М12 | 80 Н·м | [59 фунт-фут] |
 |---|---|---|
 
-| M16 capscrews | 195 n.m | \[144 ft-lb\] |
+| болты М16 | 195 Н·м | [144 фунт-фут] |
 |---|---|---|
 
 ![[01600362.png]]
 
-Install the five capscrews that attach to the bottom of the oil pan adapter.
+Установите пять болтов, которые крепятся к нижней части адаптера масляной панели.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600153.png]]
 
-Install the hydraulic pump drive.
+Установите гидравлический насос.
 
-Use clean engine oil to lubricate the bushing in the front gear cover.
+Используйте чистое моторное масло для смазки втулки в передней крышке передач.
 
-Install the gasket, drive or cover, washers, and capscrews.
+Установите прокладку, привод или крышку, шайбы и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[09600041.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> This illustration shows the location for the six 16 mm capscrews. All of the other front cover capscrews are 12 mm.
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Do **not** tighten the capscrews until the master dowel pin is installed.
+>
+> The use of guide bolts will aid the assembly.
+>
+> Install the front cover gasket, cover, and capscrews.
+>
+> Tighten the 28 mounting capscrews in the sequence shown.
+>
+> | M12 capscrews | 80 n.m | \[59 ft-lb\] |
+> |---|---|---|
+>
+> | M16 capscrews | 195 n.m | \[144 ft-lb\] |
+> |---|---|---|
+>
+> Install the five capscrews that attach to the bottom of the oil pan adapter.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the hydraulic pump drive.
+>
+> Use clean engine oil to lubricate the bushing in the front gear cover.
+>
+> Install the gasket, drive or cover, washers, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> This illustration shows the location for the six 16 mm capscrews. All of the other front cover capscrews are 12 mm.
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Do **not** tighten the capscrews until the master dowel pin is installed.
+>
+> The use of guide bolts will aid the assembly.
+>
+> Install the front cover gasket, cover, and capscrews.
+>
+> **Note · Примечание**
+> The number of capscrews that can be tightened at this time depends on the engine options. If the location is used to mount an accessory, it can **not** be installed at this time.
+>
+> Tighten the front gear cover mounting capscrews in the sequence shown.
+>
+> | M12 capscrews | 80 n.m | \[59 ft-lb\] |
+> |---|---|---|
+>
+> | M16 capscrews | 195 n.m | \[144 ft-lb\] |
+> |---|---|---|
+>
+> Install the five capscrews that attach to the bottom of the oil pan adapter.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the hydraulic pump drive.
+>
+> Use clean engine oil to lubricate the bushing in the front gear cover.
+>
+> Install the gasket, drive or cover, washers, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]

@@ -13,12 +13,14 @@ parts:
   - "3900629"
   - "3902460"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100204.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100204.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # LTA Junction Block Pipe Support Brace.
@@ -29,32 +31,40 @@ tags:
 > **Даты:** изменён 2003-05-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100204.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100204.pdf)
 
-## LTA Junction Block Pipe Support Brace.
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## LTA Junction Block Pipe Support Brace (Блок поддержки трубопроводов)
 
-### Contents
+### Положение о гарантии
 
-The purpose of this topic is to inform the field of the introduction and of an LTA (Low Temperature Aftercooler) pipe support brace, designed to help prevent water leakage from the LTA junction block located on the left bank Number 1 rocker housing on QSK45/60 engines. The junction block bracket has been stiffened to improve its rigidity, and a brace and U-bolt clamp has been incorporated to improve the pipe to junction block joint integrity.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-| Table 1 - Parts |  |  |  |
+### Содержание
+
+Цель этой темы - информировать поле о введении и опорной скобки трубы LTA (Low Temperature Aftercooler), предназначенной для предотвращения утечки воды из блока перехода LTA, расположенного на левом берегу корпуса скалолаза № 1 на двигателях QSK45/60. Скобка блока соединения была застыла для повышения ее жесткости, а также была включена скоба и зажим U-bolt для улучшения целостности соединения блока соединения трубы с переходом.
+
+| Таблица 1 - Части |  |  |  |
 |---|---|---|---|
-| Item | Qty | P/N | Descrition |
-| 1 | 1 | 4100907 | Bracket, Connection |
-| 2 | 1 | 4100806 | Brace, Tube |
-| 3 | 1 | 4007584 | Clamp, U Bolt |
-| 4 | 4 | [[3902460]] | Capscrew |
-| 5 | 2 | [[3900629]] | Capscrew |
-| 6 | 2 | 4007602 | Nut |
+| Пункт | Котти | P/N | описание |
+| 1 | 1 | 4100907 | Брекет, соединение |
+| 2 | 1 | 4100806 | Брейс, трубка. |
+| 3 | 1 | 4007584 | Зажим, У Болт |
+| 4 | 4 | [[3902460]] | болты |
+| 5 | 2 | [[3900629]] | болты |
+| 6 | 2 | 4007602 | Гайка |
 
 ![[08600393.png]]
 
-New LTA junction block support bracket with pipe support brace.
+Новый блок поддержки LTA с соединительным скобом с поддержкой труб.
 
-> [!note] Note · Примечание
-> This is a product improvement and **not** subject to campaign or TRP.
+> [!note] Примечание
+> Это улучшение продукта и не подлежит кампании или TRP.
 
 ## Детали, упомянутые в документе
 
@@ -62,3 +72,29 @@ New LTA junction block support bracket with pipe support brace.
 |---|---|---|
 | [[3900629]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 | [[3902460]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
+
+> [!quote]- Original (English) · английский оригинал
+> ## LTA Junction Block Pipe Support Brace.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> The purpose of this topic is to inform the field of the introduction and of an LTA (Low Temperature Aftercooler) pipe support brace, designed to help prevent water leakage from the LTA junction block located on the left bank Number 1 rocker housing on QSK45/60 engines. The junction block bracket has been stiffened to improve its rigidity, and a brace and U-bolt clamp has been incorporated to improve the pipe to junction block joint integrity.
+>
+> | Table 1 - Parts |  |  |  |
+> |---|---|---|---|
+> | Item | Qty | P/N | Descrition |
+> | 1 | 1 | 4100907 | Bracket, Connection |
+> | 2 | 1 | 4100806 | Brace, Tube |
+> | 3 | 1 | 4007584 | Clamp, U Bolt |
+> | 4 | 4 | [[3902460]] | Capscrew |
+> | 5 | 2 | [[3900629]] | Capscrew |
+> | 6 | 2 | 4007602 | Nut |
+>
+> New LTA junction block support bracket with pipe support brace.
+>
+> **Note · Примечание**
+> This is a product improvement and **not** subject to campaign or TRP.

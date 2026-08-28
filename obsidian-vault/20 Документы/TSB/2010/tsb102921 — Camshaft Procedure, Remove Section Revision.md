@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102921.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102921.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Camshaft Procedure, Remove Section Revision
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2008-06-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102921.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102921.pdf)
 
-## Camshaft Procedure, Remove Section Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура Camshaft, удаление раздела
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds a table, Camshaft Guide Installation Chart, to the Remove Section of the Camshaft procedure to show the correct c-clip positions for the camshaft removal tool.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы / частей добавляет таблицу, диаграмму установки руководства по распредвалу, в раздел удаления процедуры распредвала, чтобы показать правильные позиции скрепки для инструмента удаления распредвала.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Camshaft Procedure, Remove Section Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds a table, Camshaft Guide Installation Chart, to the Remove Section of the Camshaft procedure to show the correct c-clip positions for the camshaft removal tool.

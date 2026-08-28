@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-040-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-040-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan, Cooling
@@ -35,17 +37,38 @@ tags:
 > **Даты:** изменён 2004-01-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-040-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-040-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Replace the original equipment cooling fan with a cooling fan of the identical part number. Cummins Inc. must approve any cooling fan changes.
+
+### Установка
+
+Заменить оригинальный охлаждающий вентилятор оборудования охлаждающим вентилятором с идентичным номером детали. Cummins Inc. Необходимо одобрить любые изменения вентилятора охлаждения.
 
 ![[fn800ga.png]]
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Install the cooling fan, applicable spacer, and capscrews.
+Установите охлаждающий вентилятор, применимый прокладочный шкаф и болты.
 
-Tighten the cooling fan capscrews. Refer to the OEM service manual for correct capscrew torque.
+Затягивайте болты охлаждающих вентиляторов. См. руководство по обслуживанию OEM для правильного крутящего момента болтов.
 
 ![[08600230.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Replace the original equipment cooling fan with a cooling fan of the identical part number. Cummins Inc. must approve any cooling fan changes.
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Install the cooling fan, applicable spacer, and capscrews.
+>
+> Tighten the cooling fan capscrews. Refer to the OEM service manual for correct capscrew torque.

@@ -13,13 +13,15 @@ families:
   - "QSX15"
 manuals:
   - "3666423"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-020-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-020-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -33,38 +35,84 @@ tags:
 > **Даты:** изменён 2007-05-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-020-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-020-om-ind.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial and Generator Drive
 
-#### Maximum Allowable Exhaust Back Pressure Created by Piping and Silencer:
+### Спецификации
 
-#### Industrial:
+Промышленный и генераторный привод
 
-Hg (mercury) 76 mm Hg \[3 in Hg\]H2O (water) 1016 mm H
+#### Максимальное допустимое давление на спину, создаваемое трубами и молниеносным устройством:
 
-2
+#### Промышленный:
 
-O \[40 in H
-
-2
-
-O\]
-
-#### Maximum Allowable Exhaust Back Pressure Created by Piping and Silencer:
-
-#### Power Generation:
-
-Hg (mercury) 51 mm Hg \[2 in Hg\]H2O (water) 682 mm H
+Hg (ртуть) 76 мм Hg \[3 в Hg\]H2O (вода) 1016 мм H
 
 2
 
-O \[27 in H
+О[40] в H
 
 2
 
-O\]
+О'
 
-#### Exhaust Pipe Size (normally acceptable inside diameter):
+#### Максимальное допустимое давление на спину, создаваемое трубами и молниеносным устройством:
 
-Industrial 127 mm \[5 in\]Power Generation 152 mm \[6 in\]
+#### Энергогенерация:
+
+Hg (ртуть) 51 мм Hg \[2 в Hg\]H2O (вода) 682 мм H
+
+2
+
+[27] в H
+
+2
+
+О'
+
+#### Размер выхлопных труб (нормально приемлемый внутренний диаметр):
+
+Промышленные 127 мм \[5 in\] Мощность Поколения 152 мм \[6 in\]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Industrial and Generator Drive
+>
+> #### Maximum Allowable Exhaust Back Pressure Created by Piping and Silencer:
+>
+> #### Industrial:
+>
+> Hg (mercury) 76 mm Hg \[3 in Hg\]H2O (water) 1016 mm H
+>
+> 2
+>
+> O \[40 in H
+>
+> 2
+>
+> O\]
+>
+> #### Maximum Allowable Exhaust Back Pressure Created by Piping and Silencer:
+>
+> #### Power Generation:
+>
+> Hg (mercury) 51 mm Hg \[2 in Hg\]H2O (water) 682 mm H
+>
+> 2
+>
+> O \[27 in H
+>
+> 2
+>
+> O\]
+>
+> #### Exhaust Pipe Size (normally acceptable inside diameter):
+>
+> Industrial 127 mm \[5 in\]Power Generation 152 mm \[6 in\]

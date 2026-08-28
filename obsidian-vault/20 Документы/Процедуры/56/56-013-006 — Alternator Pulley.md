@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Alternator Pulley
@@ -35,16 +37,38 @@ tags:
 > **Даты:** изменён 2003-12-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-006.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+### Проверка при повторном использовании
 
-Clean the alternator drive and accessory drive pulley with steam or solvent.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Check the grooves of the pulley for wear. Check the wear sleeve on the accessory drive pulley. If the pulley **must** be replaced, refer to Procedure [[56-009-004-tr — Accessory Drive Pulley|009-004]].
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
+
+Очистите привод генератора и вспомогательный приводной шкив паром или растворителем.
+
+Проверьте канавки шкива на износ. Проверьте рукав износа на шкиве привода аксессуара. Если шкив **должен** быть заменен, обратитесь к процедуре[[56-009-004-tr — Accessory Drive Pulley|009-004]].
 
 ![[da2pusa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> Clean the alternator drive and accessory drive pulley with steam or solvent.
+>
+> Check the grooves of the pulley for wear. Check the wear sleeve on the accessory drive pulley. If the pulley **must** be replaced, refer to Procedure [[56-009-004-tr — Accessory Drive Pulley|009-004]].

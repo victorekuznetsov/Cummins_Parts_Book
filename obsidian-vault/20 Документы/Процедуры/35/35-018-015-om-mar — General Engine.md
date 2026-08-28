@@ -14,13 +14,15 @@ families:
   - "QSM11"
 manuals:
   - "4021940"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-015-om-mar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-015-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # General Engine
@@ -34,30 +36,68 @@ tags:
 > **Даты:** изменён 2011-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-015-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-015-om-mar.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+
+### Спецификации
+
+| Тип | Четырехцилиндровый, рядный шестицилиндровый, четыре клапана на цилиндр |
 |---|---|
 
-| Horsepower | Refer to engine dataplate |
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-| Engine Speed at Maximum Output | Refer to engine dataplate |
+| Скорость двигателя на максимальной мощности | См. табличку с данными двигателя |
 |---|---|
 
-| Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+| цилиндровый и Stroke | 125 мм \[4.921 в\] х 147 мм \[5.787 в\] |
 |---|---|
 
-| Displacement | 10.8 liters \[659 C.I.D.\] |
+| вытеснение | 10,8 литра[659 C.I.D.] |
 |---|---|
 
-| Firing Order | 1-5-3-6-2-4 |
+| Огнестрельное предписание | 1-5-3-6-2-4 |
 |---|---|
 
-#### Engine Weight (with standard accessories):
+#### Вес двигателя (со стандартными аксессуарами):
 
-| Dry Weight | 1124 kg \[2478 lb\] |
+| сухой вес | 1124 кг[2478 фунтов] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> | Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+> |---|---|
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> | Engine Speed at Maximum Output | Refer to engine dataplate |
+> |---|---|
+>
+> | Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+> |---|---|
+>
+> | Displacement | 10.8 liters \[659 C.I.D.\] |
+> |---|---|
+>
+> | Firing Order | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Engine Weight (with standard accessories):
+>
+> | Dry Weight | 1124 kg \[2478 lb\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|

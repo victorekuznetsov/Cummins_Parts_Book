@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-toc | Table of Contents |  |
-| marpanel-frwd | Foreword | 17-Jan-2007 |
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-titlepage | Titlepage | 02-Mar-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-toc.html) | Table of Contents |  |
+| [marpanel-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/marpanel-frwd.html) | Foreword | 17-Jan-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-titlepage.html) | Titlepage | 02-Mar-2007 |
 
 ### Section i - Introduction
 
@@ -224,7 +224,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-backcover | Backcover | 02-Mar-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-backcover.html) | Backcover | 02-Mar-2007 |
 
 ### Section 15 - Instruments and Controls
 

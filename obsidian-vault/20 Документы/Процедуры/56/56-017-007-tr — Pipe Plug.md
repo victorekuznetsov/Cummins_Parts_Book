@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-017-007-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-017-007-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Pipe Plug
@@ -35,38 +37,74 @@ tags:
 > **Даты:** изменён 2003-08-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-017-007-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-017-007-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the pipe plug.
+
+### Снятие
+
+Удалите трубку.
 
 ![[17900015.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Use spray cleaner, Part Number 3375433, or equivalent to clean the threads of the pipe plugs and threaded bores.
+Используйте очиститель для распыления, номер детали 3375433, или эквивалент очистки резьбы трубных пробок и резьбовых штанги.
 
 ![[17900036.png]]
 
-Inspect the threads of the pipe plug for damage.
+Проверьте резьбу трубы на предмет повреждения.
 
-Replace the pipe plug if damaged.
+Замените трубу, если она повреждена.
 
-Inspect the threaded bore for damage.
+Осмотрите резьбовый цилиндр на предмет повреждений.
 
-Repair the threaded bore if damaged.
+Ремонт резьбового цилиндра, если он поврежден.
 
 ![[17900016.png]]
 
-### Install
+### Установка
 
-Apply a film of pipe plug sealant, Part Number 3375066, or equivalent to the pipe plug threads.
+Нанесите пленку герметика для трубной пробки, номер детали 3375066, или эквивалентную резьбе для трубной пробки.
 
-Install the pipe plug.
+Установите трубную пробку.
 
 ![[ck8ppha.png]]
 
-Tighten the pipe plug.
+Затяните трубку.
 
-Refer to the chart in the graphic for torque values.
+Смотрите график в графике для значений крутящего момента.
 
 ![[ck8ppoa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the pipe plug.
+>
+> ### Clean and Inspect for Reuse
+>
+> Use spray cleaner, Part Number 3375433, or equivalent to clean the threads of the pipe plugs and threaded bores.
+>
+> Inspect the threads of the pipe plug for damage.
+>
+> Replace the pipe plug if damaged.
+>
+> Inspect the threaded bore for damage.
+>
+> Repair the threaded bore if damaged.
+>
+> ### Install
+>
+> Apply a film of pipe plug sealant, Part Number 3375066, or equivalent to the pipe plug threads.
+>
+> Install the pipe plug.
+>
+> Tighten the pipe plug.
+>
+> Refer to the chart in the graphic for torque values.

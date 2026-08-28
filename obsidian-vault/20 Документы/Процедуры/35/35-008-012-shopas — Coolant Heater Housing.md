@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-012-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-012-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Coolant Heater Housing
@@ -31,15 +33,36 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-012-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-012-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use a new gasket to install the heater housing.
 
-Install the four mounting capscrews and tighten.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+Используйте новую прокладку для установки обшивки нагревателя.
 
-Connect the electrical wiring to the heater, if used.
+Установите четыре крепежных болта и затяните.
+
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
+
+Подключите электропроводку к нагревателю, если используется.
 
 ![[ch2bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Use a new gasket to install the heater housing.
+>
+> Install the four mounting capscrews and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Connect the electrical wiring to the heater, if used.

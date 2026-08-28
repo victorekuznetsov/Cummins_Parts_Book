@@ -41,9 +41,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-toc | Table of Contents |  |
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-titlepage | Titlepage | 08-Jan-2007 |
-| marpanel-frwd | Forword | 17-Jan-2007 |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-toc.html) | Table of Contents |  |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-titlepage.html) | Titlepage | 08-Jan-2007 |
+| [marpanel-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/marpanel-frwd.html) | Forword | 17-Jan-2007 |
 
 ### Section i - Introduction
 
@@ -66,8 +66,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381863 | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381863](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381863/3381863-history.html) | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
 
 ### Section 1 - Operating Instructions
 
@@ -87,7 +87,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-backcover | Backcover | 08-Jan-2007 |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-backcover.html) | Backcover | 08-Jan-2007 |
 
 ### Section E - Engine and System Identification
 

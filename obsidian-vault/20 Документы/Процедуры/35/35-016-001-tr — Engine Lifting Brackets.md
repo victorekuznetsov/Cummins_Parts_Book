@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-001-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-001-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Engine Lifting Brackets
@@ -31,48 +33,96 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-001-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-001-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the capscrews and the front lifting bracket.
 
-Remove the capscrews and the rear lifting bracket.
+### Снятие
+
+Удалите болты и переднюю подъемную кронштейн.
+
+Снимите болты и заднюю подъемную кронштейн.
 
 ![[la200mc.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При использовании пароочистителя надевайте защитные очки или щиток для лица, а также защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use steam or solvent to clean the lifting brackets. Dry with compressed air.
+Используйте пар или растворитель для очистки подъемных скобок. Просушите сжатым воздухом.
 
 ![[la200eb.png]]
 
-> [!danger] WARNING · Опасно
-> Do not use a cracked or damaged bracket. Do not weld a cracked bracket. Personal injury can result.
+> [!danger] ОПАСНО
+> Не используйте сломанный или поврежденный скоб. Не сваривайте потрескавшийся скоб. Личная травма может быть результатом.
 
-Inspect the brackets for cracks or damage.
+Проверьте скобки на наличие трещин или повреждений.
 
-Replace the bracket if it is cracked.
+Замените скобку, если она сломана.
 
 ![[la200sb.png]]
 
-### Install
+### Установка
 
-Install the front bracket and capscrews.
+Установите переднюю кронштейн и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Install the rear bracket and capscrews.
+Установите задние скобки и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 81 n•m [60 ft-lb]
+> [!tip] Момент затяжки
+> 81 Н·м [60 фунт-фут]
 
 ![[la200mc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the capscrews and the front lifting bracket.
+>
+> Remove the capscrews and the rear lifting bracket.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use steam or solvent to clean the lifting brackets. Dry with compressed air.
+>
+> **WARNING · Опасно**
+> Do not use a cracked or damaged bracket. Do not weld a cracked bracket. Personal injury can result.
+>
+> Inspect the brackets for cracks or damage.
+>
+> Replace the bracket if it is cracked.
+>
+> ### Install
+>
+> Install the front bracket and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Install the rear bracket and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 81 n•m [60 ft-lb]

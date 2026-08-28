@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-119.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-119.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Engine Fuel Temperature Sensor
@@ -38,52 +40,98 @@ tags:
 > **Даты:** изменён 2002-08-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-119.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-119.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The art shown in the following procedure is based on the QSK19 engine configuration. The fuel temperature sensor on the QSK45, QSK60, and QSK78 engines is on the opposite side of the ECVA.
 
-Clean the area around the sensor.
+### Снятие
 
-Lift up on the locking tab and pull the electrical connectors apart.
+> [!note] Примечание
+> Искусство, показанное в следующей процедуре, основано на конфигурации двигателя QSK19. Датчик температуры топлива на двигателях QSK45, QSK60 и QSK78 находится на противоположной стороне ECVA.
+
+Очистите область вокруг датчика.
+
+Поднимите на запирающую вкладку и разберите электрические разъемы.
 
 ![[19801033.png]]
 
-Remove the sensor using a deep well socket, Part Number 3823843.
+Удалите датчик с помощью глубокого колодца, номер детали 3823843.
 
 ![[19801034.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> The art shown in the following procedure is based on the QSK19 engine configuration. The fuel temperature sensor on the QSK45, QSK60, and QSK78 engines is on the opposite side of the ECVA.
+> [!note] Примечание
+> Искусство, показанное в следующей процедуре, основано на конфигурации двигателя QSK19. Датчик температуры топлива на двигателях QSK45, QSK60 и QSK78 находится на противоположной стороне ECVA.
 
-Check that the new sensor has an o-ring installed.
+Убедитесь, что новый датчик имеет установленное кольцо.
 
-Lubricate the o-ring with clean engine oil.
+Смажьте уплотнительное кольцо чистым моторным маслом.
 
 ![[19801035.png]]
 
-Install the new sensor into the control valve body.
+Установите новый датчик в корпус управляющего клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
 ![[19801034.png]]
 
-Use quick-dry electrical contact cleaner, Part Number 3824510, to remove all dirt and moisture from harness connector.
+Используйте быстросушливый электрический контактный очиститель, номер детали 3824510, чтобы удалить всю грязь и влагу из разъёма проводов.
 
 ![[19801036.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный контактный износ разъема.
 
-Apply a thin coating of lubricant to the harness connector.
+Нанесите тонкое покрытие смазки на разъём проводов жгута.
 
 ![[19801037.png]]
 
-Push the connectors together until they lock.
+Соедините разъёмы до фиксации.
 
-Operate the engine to check for leaks.
+Управляйте двигателем, чтобы проверить наличие утечек.
 
 ![[19801038.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> The art shown in the following procedure is based on the QSK19 engine configuration. The fuel temperature sensor on the QSK45, QSK60, and QSK78 engines is on the opposite side of the ECVA.
+>
+> Clean the area around the sensor.
+>
+> Lift up on the locking tab and pull the electrical connectors apart.
+>
+> Remove the sensor using a deep well socket, Part Number 3823843.
+>
+> ### Install
+>
+> **Note · Примечание**
+> The art shown in the following procedure is based on the QSK19 engine configuration. The fuel temperature sensor on the QSK45, QSK60, and QSK78 engines is on the opposite side of the ECVA.
+>
+> Check that the new sensor has an o-ring installed.
+>
+> Lubricate the o-ring with clean engine oil.
+>
+> Install the new sensor into the control valve body.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Use quick-dry electrical contact cleaner, Part Number 3824510, to remove all dirt and moisture from harness connector.
+>
+> **CAUTION · Осторожно**
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
+>
+> Apply a thin coating of lubricant to the harness connector.
+>
+> Push the connectors together until they lock.
+>
+> Operate the engine to check for leaks.

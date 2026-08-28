@@ -15,13 +15,15 @@ manuals:
   - "3666239"
   - "3666251"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-003-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-003-019.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather Element
@@ -35,59 +37,116 @@ tags:
 > **Даты:** изменён 2016-06-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-003-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-003-019.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Two types of crankcase breather element are available for the crankcase breather assembly. Element 1 is a filter element that utilizes a traditional filtration media design and has a scheduled maintenance requirement.
+
+### Общие сведения
+
+Два типа элемента капканного передышки доступны для сборки капканного передышки. Элемент 1 представляет собой фильтрующий элемент, который использует традиционную структуру фильтрационных сред и имеет плановое техническое обслуживание.
 
 ![[03o00040.png]]
 
-Element 2 is a maintenance-free breather insert that does **not** utilize a filtration media and has no scheduled maintenance requirement. Maintenance-free breather inserts are marked "Maintenance-Free" on the outer facing surface.
+Элемент 2 представляет собой вставку для дыхания без технического обслуживания, которая **не **использует фильтрационные среды и не требует планового технического обслуживания. Вставки для дыхания без технического обслуживания помечены «Бесконтактный» на внешней поверхности.
 
-Factory assembled maintenance-free crankcase breather assemblies are also marked "Maintenance-Free" on the breather housing.
+Собранные на заводе необслуживаемые сборки капканов-дыхальцев также помечены «Бесплатно» на корпусе дышащего устройства.
 
 ![[03o00041.png]]
 
-### Remove
+### Снятие
 
-> [!note] Note · Примечание
-> Maintenance-free crankcase breather assemblies do **not** require scheduled maintenance and should **not** be disassembled unless necessary. If a maintenance-free crankcase breather insert is removed, it should be inspected for reuse and only discarded if it does **not** meet the guidelines.
+> [!note] Примечание
+> Сборки безвоздушных заслонщиков для картеров **не** требуют планового технического обслуживания и должны **не** быть разобраны, если это не требуется. Если вставка для дыхания без обслуживания удалена, ее следует проверить на повторное использование и выбросить только в том случае, если она не соответствует руководящим принципам.
 
-> [!note] Note · Примечание
-> If necessary, discard the crankcase breather element in accordance with local environmental regulations.
+> [!note] Примечание
+> При необходимости откажитесь от элемента капканного воздуходувки в соответствии с местными экологическими нормами.
 
-Loosen the eight cover mounting captive capscrews.
+Освободите восемь крышек, устанавливающих пленные болты.
 
-Remove the element cover.
+Удалите крышку элемента.
 
-Remove and discard the crankcase breather element.
+Удалите и отбросьте элемент каприза.
 
-Wipe out any excess dirt or oil from the inside of the cover.
+Удалите излишки грязи или масла изнутри крышки.
 
 ![[03c00136.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Wipe off any excess dirt or oil from the crankcase breather insert.
+Смывать любую избыток грязи или масла из вставки капельницы.
 
-Clean the crankcase breather insert. Allow to air dry.
+Очистите вставку для дыхания. Дайте воздуху высохнуть.
 
-Inspect the crankcase breather insert housing and outer seal for cuts, cracks, or other damage.
+Осмотрите корпус капельницы и наружное уплотнение для порезов, трещин или других повреждений.
 
-Replace if damage is observed.
+Заменить, если наблюдается повреждение.
 
 ![[03v00030.png]]
 
-### Install
+### Установка
 
-Install the new crankcase breather element in the breather housing.
+Установите новый элемент капельницы в корпусе.
 
-Make sure the element is properly seated in the housing so its seal will **not** be cut, crimped, or otherwise compromised when installing the housing cover.
+Убедитесь, что элемент правильно расположен в корпусе, поэтому его уплотнение **не будет **вырезано, обрезано или иным образом скомпрометировано при установке крышки корпуса.
 
-Install the cover.
+Установите крышку.
 
-Tighten the eight captive mounting capscrews.
+Затяните восемь крепежных болтов в неволе.
 
-> [!tip] Момент затяжки · Torque Value
-> 5.2 n•m [46 in-lb]
+> [!tip] Момент затяжки
+> 5.2 Н·м [46 фунт-дюйм]
 
 ![[03c00146.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Two types of crankcase breather element are available for the crankcase breather assembly. Element 1 is a filter element that utilizes a traditional filtration media design and has a scheduled maintenance requirement.
+>
+> Element 2 is a maintenance-free breather insert that does **not** utilize a filtration media and has no scheduled maintenance requirement. Maintenance-free breather inserts are marked "Maintenance-Free" on the outer facing surface.
+>
+> Factory assembled maintenance-free crankcase breather assemblies are also marked "Maintenance-Free" on the breather housing.
+>
+> ### Remove
+>
+> **Note · Примечание**
+> Maintenance-free crankcase breather assemblies do **not** require scheduled maintenance and should **not** be disassembled unless necessary. If a maintenance-free crankcase breather insert is removed, it should be inspected for reuse and only discarded if it does **not** meet the guidelines.
+>
+> **Note · Примечание**
+> If necessary, discard the crankcase breather element in accordance with local environmental regulations.
+>
+> Loosen the eight cover mounting captive capscrews.
+>
+> Remove the element cover.
+>
+> Remove and discard the crankcase breather element.
+>
+> Wipe out any excess dirt or oil from the inside of the cover.
+>
+> ### Clean and Inspect for Reuse
+>
+> Wipe off any excess dirt or oil from the crankcase breather insert.
+>
+> Clean the crankcase breather insert. Allow to air dry.
+>
+> Inspect the crankcase breather insert housing and outer seal for cuts, cracks, or other damage.
+>
+> Replace if damage is observed.
+>
+> ### Install
+>
+> Install the new crankcase breather element in the breather housing.
+>
+> Make sure the element is properly seated in the housing so its seal will **not** be cut, crimped, or otherwise compromised when installing the housing cover.
+>
+> Install the cover.
+>
+> Tighten the eight captive mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 5.2 n•m [46 in-lb]

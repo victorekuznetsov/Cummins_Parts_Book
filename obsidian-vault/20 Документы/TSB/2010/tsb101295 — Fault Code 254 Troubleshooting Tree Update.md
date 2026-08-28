@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101295.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101295.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Fault Code 254 Troubleshooting Tree Update
@@ -24,12 +26,32 @@ tags:
 > **Даты:** изменён 2003-07-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101295.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101295.pdf)
 
-## Fault Code 254 Troubleshooting Tree Update
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Код ошибки 254 Устранение неполадок Обновление дерева
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic updates Fault Code 254 - Fuel Shutoff Valve Solenoid Supply Circuit in the Troubleshooting and Repair Manual, Signature, ISX and QSX15 Engines, Bulletin 3666259.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+В этом разделе обновлены разделы Fault Code 254 - Fuel Shutoff клапан Solenoid Supply Circuit in the Troubleshooting and Repair Manual, Signature, ISX and QSX15 Engines, Bulletin 3666259.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fault Code 254 Troubleshooting Tree Update
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic updates Fault Code 254 - Fuel Shutoff Valve Solenoid Supply Circuit in the Troubleshooting and Repair Manual, Signature, ISX and QSX15 Engines, Bulletin 3666259.

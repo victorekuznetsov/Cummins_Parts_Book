@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-026-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-026-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # EGR Differential Pressure Sensor Tubes
@@ -31,24 +33,52 @@ tags:
 > **Даты:** изменён 2009-04-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-026-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-026-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM875, CM870 and CM570
 
-Loosen the tube nuts at the EGR connection tube and the sensor adapter.
+### Снятие
 
-Do **not** distort the sensor tubes.
+Автомобильные модели CM875, CM870 и CM570
 
-Remove the EGR differential pressure sensor tubes.
+Освободите трубчатые гайки в соединительной трубке EGR и адаптере датчика.
+
+Не искажайте сенсорные трубки.
+
+Удалите трубки датчика дифференциального давления EGR.
 
 ![[11200072.png]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-Loosen the tube nuts at the venturi connections.
+Освободите трубчатые гайки в соединениях Вентури.
 
-Loosen the hose clamps at the differential pressure sensor adapter.
+Устраните зажимы шланга на адаптере датчика дифференциального давления.
 
-Remove the EGR differential pressure sensor tubes.
+Удалите трубки датчика дифференциального давления EGR.
 
 ![[11200199.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Automotive with CM875, CM870 and CM570
+>
+> Loosen the tube nuts at the EGR connection tube and the sensor adapter.
+>
+> Do **not** distort the sensor tubes.
+>
+> Remove the EGR differential pressure sensor tubes.
+>
+> Automotive with CM876
+>
+> Loosen the tube nuts at the venturi connections.
+>
+> Loosen the hose clamps at the differential pressure sensor adapter.
+>
+> Remove the EGR differential pressure sensor tubes.

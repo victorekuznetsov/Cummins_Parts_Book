@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-toc | Table of Contents |  |
-| shop-frwd | Forward | 22-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-titlepage | Titlepage | 05-Feb-2010 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-toc.html) | Table of Contents |  |
+| [shop-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/shop-frwd.html) | Forward | 22-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-titlepage.html) | Titlepage | 05-Feb-2010 |
 
 ### Section i - Introduction
 
@@ -55,48 +55,48 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t004-tr | Air Compressor Air Pressure Rises Slowly | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t006-tr | Air Compressor Noise is Excessive | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t007-tr | Air Compressor Pumping Excess Lubricating Oil into the Air System | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t008-tr | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t009-tr | Air Compressor Will Not Pump Air | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t010-tr | Air Compressor Will Not Stop Pumping | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t013-tr | Alternator Not Charging or Insufficient Charging | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t014-tr | Alternator Overcharging | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t020-tr | Coolant Loss - External | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t022-tr | Coolant Temperature Above Normal - Gradual Overheat | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t023-tr | Coolant Temperature is Above Normal - Sudden Overheat | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t024-tr | Coolant Temperature is Below Normal | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t026-156-tr | Coolant Temperature Above Normal - Sea Water Cooling | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t047-tr | Engine Noise Excessive | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t048-tr | Engine Noise Excessive - Combustion Knocks | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t049-tr | Engine Noise Excessive - Connecting Rod | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t050-tr | Engine Noise Excessive - Main Bearing | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t051-tr | Engine Noise Excessive - Piston | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t052-tr | Engine Noise Excessive - Turbocharger | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t077-tr | Engine Will Not Crank or Cranks Slowly (Air Starter) | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t078-tr | Engine Will Not Crank or Cranks Slowly (Electric Starter) | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t081-tr | Engine Will Not Shut Off | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t087-tr | Fuel Consumption Excessive | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t091-tr | Fuel in Coolant | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t092-tr | Fuel in the Lubricating Oil | 03-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t096-tr | Intake Manifold Air Temperature Above Specification | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t099-tr | Low Idle Adjust Switch Does Not Work | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t104-tr | Lubricating Oil Pressure High | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t105-tr | Lubricating Oil Pressure Low | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t106-tr | Lubricating Oil Sludge in the Crankcase Excessive | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t107-tr | Lubricating Oil Temperature Above Specification | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t108-tr | Lubricating or Transmission Oil in the Coolant | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t122-tr | Turbocharger Leaks Engine Oil or Fuel | 05-May-2006 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t089-tr | Fuel Temperature Above Normal Operating Range | 30-Jun-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t004-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t004-tr.html) | Air Compressor Air Pressure Rises Slowly | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t006-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t006-tr.html) | Air Compressor Noise is Excessive | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t007-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t007-tr.html) | Air Compressor Pumping Excess Lubricating Oil into the Air System | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t008-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t008-tr.html) | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t009-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t009-tr.html) | Air Compressor Will Not Pump Air | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t010-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t010-tr.html) | Air Compressor Will Not Stop Pumping | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t013-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t013-tr.html) | Alternator Not Charging or Insufficient Charging | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t014-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t014-tr.html) | Alternator Overcharging | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t020-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t020-tr.html) | Coolant Loss - External | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t022-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t022-tr.html) | Coolant Temperature Above Normal - Gradual Overheat | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t023-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t023-tr.html) | Coolant Temperature is Above Normal - Sudden Overheat | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t024-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t024-tr.html) | Coolant Temperature is Below Normal | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t026-156-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t026-156-tr.html) | Coolant Temperature Above Normal - Sea Water Cooling | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t047-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t047-tr.html) | Engine Noise Excessive | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t048-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t048-tr.html) | Engine Noise Excessive - Combustion Knocks | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t049-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t049-tr.html) | Engine Noise Excessive - Connecting Rod | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t050-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t050-tr.html) | Engine Noise Excessive - Main Bearing | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t051-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t051-tr.html) | Engine Noise Excessive - Piston | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t052-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t052-tr.html) | Engine Noise Excessive - Turbocharger | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t077-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t077-tr.html) | Engine Will Not Crank or Cranks Slowly (Air Starter) | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t078-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t078-tr.html) | Engine Will Not Crank or Cranks Slowly (Electric Starter) | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t081-tr.html) | Engine Will Not Shut Off | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t087-tr.html) | Fuel Consumption Excessive | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t091-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t091-tr.html) | Fuel in Coolant | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t092-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t092-tr.html) | Fuel in the Lubricating Oil | 03-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t096-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t096-tr.html) | Intake Manifold Air Temperature Above Specification | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t099-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t099-tr.html) | Low Idle Adjust Switch Does Not Work | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t104-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t104-tr.html) | Lubricating Oil Pressure High | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t105-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t105-tr.html) | Lubricating Oil Pressure Low | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t106-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t106-tr.html) | Lubricating Oil Sludge in the Crankcase Excessive | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t107-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t107-tr.html) | Lubricating Oil Temperature Above Specification | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t108-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t108-tr.html) | Lubricating or Transmission Oil in the Coolant | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t122-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t122-tr.html) | Turbocharger Leaks Engine Oil or Fuel | 05-May-2006 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t089-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t089-tr.html) | Fuel Temperature Above Normal Operating Range | 30-Jun-2006 |
 | [[20-t00-004\|20-t00-004]] | Troubleshooting Overview | 23-Jul-2007 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t021-tr | Coolant Loss - Internal | 27-Jul-2007 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t027-tr | Crankcase Gases (Blowby) Excessive | 05-Dec-2007 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t021-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t021-tr.html) | Coolant Loss - Internal | 27-Jul-2007 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t027-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t027-tr.html) | Crankcase Gases (Blowby) Excessive | 05-Dec-2007 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr | Lubricating Oil Consumption Excessive | 01-Mar-2010 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t108-tr | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t102-tr.html) | Lubricating Oil Consumption Excessive | 01-Mar-2010 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t108-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t108-tr.html) | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
 
 ### Section 0 - Complete Engine - Group 00
 
@@ -754,7 +754,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-backcover | Backcover | 31-Jan-2007 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-backcover.html) | Backcover | 31-Jan-2007 |
 
 ### Section E - Engine Identification
 
@@ -829,8 +829,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t102-tr.html) | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t102-tr.html) | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
 
 ### Section 6 - Injectors - Group 06
 
@@ -855,7 +855,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t107-tr | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
+| [[[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]-t107-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021592/4021592-t107-tr.html) | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
 
 ### Section V - Maintenance Specifications
 

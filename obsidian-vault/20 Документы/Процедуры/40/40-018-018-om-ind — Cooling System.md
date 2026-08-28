@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021389"
   - "4021391"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-018-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-018-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Cooling System
@@ -33,19 +35,46 @@ tags:
 > **Даты:** изменён 2007-04-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-018-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-018-om-ind.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Coolant Capacity (engine only)
 
-B3.9 and B4.5 7.9 liters \[8.3 qt\]B4.5 RGT 8.5 liters \[8.9 qt\]B5.9 9.8 liters \[10.4 qt\]
+### Спецификации
 
-#### Standard Modulating Thermostat - Range
+#### Мощность охлаждающей жидкости (только двигатель)
 
-B3.9, B4.5 and B5.9 82 to 93°C \[180 to 199°F\]B4.5 RGT 88 to 97°C \[190 to 207°F
+B3.9 и B4.5 7.9 литров \[8.3 qt\]B4.5 RGT 8.5 литров \[8.9 qt\]B5.9 9.8 литров \[10.4 qt\]
 
-#### Maximum Allowed Operating Temperature
+#### Стандартный модулирующий термостат - диапазон
 
-B3.9, B4.5 and B5.9 102°C \[215°F\]B4.5 RGT 107°C \[225°F\]
+B3.9, B4.5 и B5.9 от 82 до 93°C \[180 до 199°F\]B4.5 RGT 88 до 97°C \[190 до 207°F]
 
-| Minimum Recommended Operating TemperatureMinimum Recommended Pressure CapMaximum Recommended Pressure Cap | 71°C \[160°F\] 48 kPa \[7 psi\] 103 kPa \[15 psi\] |
+#### Максимально допустимая рабочая температура
+
+B3.9, B4.5 и B5.9 102°C \[215°F\]B4.5 RGT 107°C \[225°F\]
+
+| Минимальная рекомендуемая рабочая температура Минимальное рекомендуемое давление CapMaximum Рекомендуемая крышка радиатора | 71°C \[160°F\] 48 кПа \[7 psi\] 103 кПа \[15 psi\] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Coolant Capacity (engine only)
+>
+> B3.9 and B4.5 7.9 liters \[8.3 qt\]B4.5 RGT 8.5 liters \[8.9 qt\]B5.9 9.8 liters \[10.4 qt\]
+>
+> #### Standard Modulating Thermostat - Range
+>
+> B3.9, B4.5 and B5.9 82 to 93°C \[180 to 199°F\]B4.5 RGT 88 to 97°C \[190 to 207°F
+>
+> #### Maximum Allowed Operating Temperature
+>
+> B3.9, B4.5 and B5.9 102°C \[215°F\]B4.5 RGT 107°C \[225°F\]
+>
+> | Minimum Recommended Operating TemperatureMinimum Recommended Pressure CapMaximum Recommended Pressure Cap | 71°C \[160°F\] 48 kPa \[7 psi\] 103 kPa \[15 psi\] |
+> |---|---|

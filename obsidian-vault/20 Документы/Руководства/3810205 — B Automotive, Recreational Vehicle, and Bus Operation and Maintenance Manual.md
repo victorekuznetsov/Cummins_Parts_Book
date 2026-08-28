@@ -28,10 +28,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-toc | Table of Contents |  |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-titlepage | Titlepage | 07-Jun-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-toc.html) | Table of Contents |  |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-titlepage.html) | Titlepage | 07-Jun-2005 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| om-frwd | Foreword | 22-May-2006 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/om-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -104,31 +104,31 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t018-om | Coolant Contamination | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t019-om | Coolant Loss | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t024-om | Coolant Temperature Below Normal | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t026-om | Coolant Temperature Above Normal | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t047-om | Engine Noise Excessive | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t057-om | Engine Power Output Low | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t062-om | Engine Runs Rough or Misfires | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t066-om | Engine Speed Surges at Low or High Idle | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t072-om | Engine Starts But Will Not Keep Running | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t075-om | Engine Vibration Excessive | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t076-om | Engine Will Not Crank or Cranks Slowly | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t081-om | Engine Will Not Shut Off | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t081-006-om | Exhaust Smoke Excessive Under Load | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t091-5-om | Fuel Knock | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t093-om | Fuel or Lubricating Oil Leaking From Exhaust Manifold | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t103-om | Lubricating Oil Contaminated | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t118-om | Smoke, White - Excessive | 28-Mar-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t013-om | Alternator Not Charging or Insufficient Charging | 11-Apr-2005 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t103-75-om | Lubricating Oil Loss | 06-Feb-2006 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t104-om | Lubricating Oil Pressure High | 06-Feb-2006 |
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t105-om | Lubricating Oil Pressure Low | 06-Feb-2006 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t018-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t018-om.html) | Coolant Contamination | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t019-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t019-om.html) | Coolant Loss | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t024-om.html) | Coolant Temperature Below Normal | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t026-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t026-om.html) | Coolant Temperature Above Normal | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t043-om.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t047-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t047-om.html) | Engine Noise Excessive | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t057-om.html) | Engine Power Output Low | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t061-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t061-011-om.html) | Engine Runs Rough at Idle, Warm Engine | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t062-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t062-om.html) | Engine Runs Rough or Misfires | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t066-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t066-om.html) | Engine Speed Surges at Low or High Idle | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t072-om.html) | Engine Starts But Will Not Keep Running | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t075-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t075-om.html) | Engine Vibration Excessive | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t076-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t076-om.html) | Engine Will Not Crank or Cranks Slowly | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t080-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t080-om.html) | Engine Will Not Reach Rated Speed (RPM) | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t081-om.html) | Engine Will Not Shut Off | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t081-006-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t081-006-om.html) | Exhaust Smoke Excessive Under Load | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t091-5-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t091-5-om.html) | Fuel Knock | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t093-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t093-om.html) | Fuel or Lubricating Oil Leaking From Exhaust Manifold | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t103-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t103-om.html) | Lubricating Oil Contaminated | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t118-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t118-om.html) | Smoke, White - Excessive | 28-Mar-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t013-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t013-om.html) | Alternator Not Charging or Insufficient Charging | 11-Apr-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t103-75-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t103-75-om.html) | Lubricating Oil Loss | 06-Feb-2006 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t104-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t104-om.html) | Lubricating Oil Pressure High | 06-Feb-2006 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-t105-om.html) | Lubricating Oil Pressure Low | 06-Feb-2006 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section V - Maintenance Specifications
@@ -163,13 +163,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-qsb-qsc-qs9-b-c-a | Coverage | 14-May-2003 |
-| auto-frt | California Emission Control System Warranty, On-Highway | 14-Dec-2004 |
-| 3381327 | B5.9 & C8.3 Engines, United States and Canada, Recreational Vehicle | 21-Dec-2004 |
-| auto-bck | Replacement Parts | 22-Dec-2004 |
-| 3381264 | B/B Gas Plus/BLPG Plus/ISB Engines, United States and Canada, Automotive | 07-Aug-2009 |
-| 3381329 | All Engines, United States and Canada, School Bus | 24-Aug-2009 |
-| 3381278 | All Engines Worldwide, All Bus (Except U.S./Canada Diesel Powered School Buses) | 14-Sep-2009 |
+| [ind-qsb-qsc-qs9-b-c-a](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/ind-qsb-qsc-qs9-b-c-a.html) | Coverage | 14-May-2003 |
+| [auto-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/auto-frt.html) | California Emission Control System Warranty, On-Highway | 14-Dec-2004 |
+| [3381327](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381327/3381327-history.html) | B5.9 & C8.3 Engines, United States and Canada, Recreational Vehicle | 21-Dec-2004 |
+| [auto-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/auto-bck.html) | Replacement Parts | 22-Dec-2004 |
+| [3381264](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381264/3381264-history.html) | B/B Gas Plus/BLPG Plus/ISB Engines, United States and Canada, Automotive | 07-Aug-2009 |
+| [3381329](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381329/3381329-history.html) | All Engines, United States and Canada, School Bus | 24-Aug-2009 |
+| [3381278](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381278/3381278-history.html) | All Engines Worldwide, All Bus (Except U.S./Canada Diesel Powered School Buses) | 14-Sep-2009 |
 
 ### Section A - Adjustment, Repair, and Replacement
 
@@ -204,7 +204,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-backcover | Backcover | 19-Dec-2005 |
+| [[[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual\|3810205]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810205/3810205-backcover.html) | Backcover | 19-Dec-2005 |
 
 ### Section D - System Diagrams
 

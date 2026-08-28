@@ -17,7 +17,8 @@ families:
   - "QSX15"
 manuals:
   - "3666415"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-fc359.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-fc359.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Fault Code Path Selection
@@ -38,6 +40,20 @@ tags:
 > **Даты:** изменён 2004-09-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-fc359.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-fc359.pdf)
 
-| Do you have Engine Failed to Start - Automatic Start (Aftermarket or OEM) | [[97-fc359aft — Engine Failed to Start (Automatic Start) - Condition Exists\|Go to 97-fc359aft]] |
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+| У вас есть двигатель не удалось запустить - автоматический запуск (послепродажный или OEM) | [[97-fc359aft — Engine Failed to Start (Automatic Start) - Condition Exists\|97-fc359aft]] |
 |---|---|
-| Do you have Engine Failed to Start - Automatic Start (Integrated) | [[97-fc359int — Engine Failed to Start (Automatic Start) - Condition Exists\|Go to 97-fc359int]] |
+| У вас не удалось запустить двигатель - Автоматический запуск (интегрированный) | [[97-fc359int — Engine Failed to Start (Automatic Start) - Condition Exists\|97-fc359int]] |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | Do you have Engine Failed to Start - Automatic Start (Aftermarket or OEM) | [[97-fc359aft — Engine Failed to Start (Automatic Start) - Condition Exists\|Go to 97-fc359aft]] |
+> |---|---|
+> | Do you have Engine Failed to Start - Automatic Start (Integrated) | [[97-fc359int — Engine Failed to Start (Automatic Start) - Condition Exists\|Go to 97-fc359int]] |

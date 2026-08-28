@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-012-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-012-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Camshaft Gear (Camshaft Installed)
@@ -33,13 +35,32 @@ tags:
 > **Даты:** изменён 2006-04-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-012-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-012-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the camshaft gear capscrews.
 
-Remove the camshaft gear.
+### Снятие
 
-> [!note] Note · Примечание
-> For Front Gear Train Engines, the camshaft gear will be removed with the camshaft.
+Удалите болты распределительного вала.
+
+Снимите валовую передачу.
+
+> [!note] Примечание
+> Для двигателей поездов Front Gear шасси распредвала будет удалено с помощью распределительного вала.
 
 ![[01d00157.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the camshaft gear capscrews.
+>
+> Remove the camshaft gear.
+>
+> **Note · Примечание**
+> For Front Gear Train Engines, the camshaft gear will be removed with the camshaft.

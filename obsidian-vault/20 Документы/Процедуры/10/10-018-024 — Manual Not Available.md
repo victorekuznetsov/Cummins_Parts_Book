@@ -13,13 +13,15 @@ families:
   - "QSX15"
 manuals:
   - "3666251"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -33,8 +35,24 @@ tags:
 > **Даты:** изменён 2004-01-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-024.pdf)
 
-## **Cummins/Fleetguard® Filter Specifications ([[10-018-024 — Manual Not Available\|10-018-024]])**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 13-Jan-2004
+## **Спецификации фильтров Cummins/Fleetguard® ([[10-018-024 — Manual Not Available\|10-018-024]])**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 13 января 2004 года
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **Cummins/Fleetguard® Filter Specifications ([[10-018-024 — Manual Not Available\|10-018-024]])**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 13-Jan-2004

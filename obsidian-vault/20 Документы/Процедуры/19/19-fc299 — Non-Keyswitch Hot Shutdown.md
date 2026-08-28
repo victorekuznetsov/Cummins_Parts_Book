@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc299.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc299.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Non-Keyswitch Hot Shutdown
@@ -34,24 +36,54 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc299.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc299.pdf)
 
-### Fault Code: 299
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Non-Keyswitch Hot Shutdown
 
-Printable Version
+### Код неисправности: 299
 
-### Overview
+### Выключатель незажигания Hot Shutdown
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 299 PID(P): SPN: FMI: Lamp: None SRT: | The engine was shut down by a device other than the keyswitch before proper engine cooldown, resulting in a load factor above the maximum shutdown threshold. Fault Code 299 will be logged if the engine is shut down while hot by the engine protection feature or other OEM devices. | No action is taken by the ECM. |
+| Код неисправности: 299 PID(P): СПН: ФМИ: Лампа: Нет, не srt: | Двигатель был выключен устройством, отличным от переключателя зажигания, перед надлежащим охлаждением двигателя, что привело к коэффициенту нагрузки выше максимального порога выключения. Код 299 неисправности будет зарегистрирован, если двигатель выключен во время нагрева с помощью функции защиты двигателя или других OEM-устройств. | Никаких действий со стороны ЕКМ не предпринимается. |
 
 ![[nobox.png]]
 
-### Circuit Description
+### Описание цепи
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
 
-### Component Location
+### Расположение компонента
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 299
+>
+> ### Non-Keyswitch Hot Shutdown
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 299 PID(P): SPN: FMI: Lamp: None SRT: | The engine was shut down by a device other than the keyswitch before proper engine cooldown, resulting in a load factor above the maximum shutdown threshold. Fault Code 299 will be logged if the engine is shut down while hot by the engine protection feature or other OEM devices. | No action is taken by the ECM. |
+>
+> ### Circuit Description
+>
+> nonapplicable for this fault code
+>
+> ### Component Location
+>
+> nonapplicable for this fault code

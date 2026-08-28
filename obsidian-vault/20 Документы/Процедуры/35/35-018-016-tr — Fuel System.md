@@ -14,13 +14,15 @@ families:
   - "QSM11"
 manuals:
   - "3666322"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-016-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel System
@@ -34,90 +36,188 @@ tags:
 > **Даты:** изменён 2011-04-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-016-tr.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive Applications
 
-For performance and fuel rate values, refer to the engine data sheet or the fuel pump code for the particular model involved.
+### Спецификации
 
-#### Engine Idle Speed:
+Автомобильное применение
 
-| Automotive | 600 to 800 rpm |
+Для значений производительности и расхода топлива обратитесь к спецификации двигателя или коду топливного насоса для конкретной модели.
+
+#### Скорость работы двигателя Idle Speed:
+
+| автомобильный | 600 - 800 об/мин |
 |---|---|
 
-| Transit Bus | 650 to 800 rpm |
+| Транзитный шина | 650 - 800 об/мин |
 |---|---|
 
-#### Fuel Inlet Maximum Restriction:
+#### Максимальное ограничение впуска топлива:
 
-| Clean Fuel Filter | 152 mm Hg \[6 in Hg\] |
+| Чистый топливный фильтр | 152 мм рт.ст.[6 в рт.ст.] |
 |---|---|
 
-| Dirty Fuel Filter | 254 mm Hg \[10 in Hg\] |
+| Грязный топливный фильтр | 254 мм рт.ст.[10 в рт.ст.] |
 |---|---|
 
-| Fuel Drain Line Maximum Restriction | 89 mm Hg \[3.5 in Hg\] |
+| Максимальное ограничение линии подачи топлива | 89 мм рт.ст. \[3,5 в рт.ст.] |
 |---|---|
 
-#### Minimum Fuel Pressure:
+#### Минимальное давление топлива:
 
-| During Cranking | 172 kPa \[25 psi\] |
+| Во время чеканки | 172 кПа[25 psi] |
 |---|---|
 
-| 1200 rpm | 827 kPa \[120 psi\] |
+| 1200 об/мин | 827 кПа[120 psi] |
 |---|---|
 
-| Governed rpm | 1034 to 1241 kPa \[150 to 180 psi\] |
+| Руководимый rpm | 1034 - 1241 кПа[150 - 180 psi] |
 |---|---|
 
-| Fuel Inlet Maximum Temperature | 71°C \[160°F\] |
+| Максимальная температура впуска топлива | 71°C[160°F] |
 |---|---|
 
-| Engine Minimum Cranking Speed | 150 rpm |
+| Минимальная скорость вращения двигателя | 150 об/мин |
 |---|---|
 
-Marine Applications
+Судовое применение
 
-| Maximum Fuel Inlet Temperature | 71°C \[160°F\] |
+| Максимальная температура впуска топлива | 71°C[160°F] |
 |---|---|
 
-#### Fuel Inlet Maximum Restriction:
+#### Максимальное ограничение впуска топлива:
 
-#### Marine Applications
+#### Судовое применение
 
-| Clean Fuel Filter | 152 mm Hg \[6 in Hg\] |
+| Чистый топливный фильтр | 152 мм рт.ст.[6 в рт.ст.] |
 |---|---|
 
-| Dirty Fuel Filter | 203 mm Hg \[8 in Hg\] |
+| Грязный топливный фильтр | 203 мм рт. ст. [8 в рт. ст.] |
 |---|---|
 
-#### Fuel Drain Maximum Restriction:
+#### Максимальное ограничение расхода топлива:
 
-| Without Check Valves | 63mm Hg \[2.5 in Hg\] |
+| Без чековых клапанов | 63 мм Hg \[2.5 в Hg\] |
 |---|---|
 
-| Engine Minimum Cranking Speed | 120 rpm |
+| Минимальная скорость вращения двигателя | 120 об/мин |
 |---|---|
 
-Industrial Applications
+Промышленное применение
 
-| Maximum Fuel Inlet Temperature | 71°C \[160°F\] |
+| Максимальная температура впуска топлива | 71°C[160°F] |
 |---|---|
 
-#### Fuel Inlet Maximum Restriction:
+#### Максимальное ограничение впуска топлива:
 
-#### Industrial and Generator Drive Applications
+#### Приложения для промышленного и генераторного привода
 
-| Clean Fuel Filter | 102 mm Hg \[4 in Hg\] |
+| Чистый топливный фильтр | 102 мм рт.ст. \[4 в рт.ст.] |
 |---|---|
 
-| Dirty Fuel Filter | 203 mm Hg \[8 in Hg\] |
+| Грязный топливный фильтр | 203 мм рт. ст. [8 в рт. ст.] |
 |---|---|
 
-#### Fuel Drain Maximum Restriction:
+#### Максимальное ограничение расхода топлива:
 
-| Without Check Valves | 63mm Hg \[2.5 in Hg\] |
+| Без чековых клапанов | 63 мм Hg \[2.5 в Hg\] |
 |---|---|
 
-| Engine Minimum Cranking Speed | 120 rpm |
+| Минимальная скорость вращения двигателя | 120 об/мин |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Automotive Applications
+>
+> For performance and fuel rate values, refer to the engine data sheet or the fuel pump code for the particular model involved.
+>
+> #### Engine Idle Speed:
+>
+> | Automotive | 600 to 800 rpm |
+> |---|---|
+>
+> | Transit Bus | 650 to 800 rpm |
+> |---|---|
+>
+> #### Fuel Inlet Maximum Restriction:
+>
+> | Clean Fuel Filter | 152 mm Hg \[6 in Hg\] |
+> |---|---|
+>
+> | Dirty Fuel Filter | 254 mm Hg \[10 in Hg\] |
+> |---|---|
+>
+> | Fuel Drain Line Maximum Restriction | 89 mm Hg \[3.5 in Hg\] |
+> |---|---|
+>
+> #### Minimum Fuel Pressure:
+>
+> | During Cranking | 172 kPa \[25 psi\] |
+> |---|---|
+>
+> | 1200 rpm | 827 kPa \[120 psi\] |
+> |---|---|
+>
+> | Governed rpm | 1034 to 1241 kPa \[150 to 180 psi\] |
+> |---|---|
+>
+> | Fuel Inlet Maximum Temperature | 71°C \[160°F\] |
+> |---|---|
+>
+> | Engine Minimum Cranking Speed | 150 rpm |
+> |---|---|
+>
+> Marine Applications
+>
+> | Maximum Fuel Inlet Temperature | 71°C \[160°F\] |
+> |---|---|
+>
+> #### Fuel Inlet Maximum Restriction:
+>
+> #### Marine Applications
+>
+> | Clean Fuel Filter | 152 mm Hg \[6 in Hg\] |
+> |---|---|
+>
+> | Dirty Fuel Filter | 203 mm Hg \[8 in Hg\] |
+> |---|---|
+>
+> #### Fuel Drain Maximum Restriction:
+>
+> | Without Check Valves | 63mm Hg \[2.5 in Hg\] |
+> |---|---|
+>
+> | Engine Minimum Cranking Speed | 120 rpm |
+> |---|---|
+>
+> Industrial Applications
+>
+> | Maximum Fuel Inlet Temperature | 71°C \[160°F\] |
+> |---|---|
+>
+> #### Fuel Inlet Maximum Restriction:
+>
+> #### Industrial and Generator Drive Applications
+>
+> | Clean Fuel Filter | 102 mm Hg \[4 in Hg\] |
+> |---|---|
+>
+> | Dirty Fuel Filter | 203 mm Hg \[8 in Hg\] |
+> |---|---|
+>
+> #### Fuel Drain Maximum Restriction:
+>
+> | Without Check Valves | 63mm Hg \[2.5 in Hg\] |
+> |---|---|
+>
+> | Engine Minimum Cranking Speed | 120 rpm |
+> |---|---|

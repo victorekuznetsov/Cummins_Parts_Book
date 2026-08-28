@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Hand Hole Cover
@@ -31,36 +33,74 @@ tags:
 > **Даты:** изменён 2021-02-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Standard
 
-Remove the hand hole cover capscrews.
+### Снятие
 
-Remove the hand hole cover.
+Стандартный стандарт
 
-Remove and discard the o-ring.
+Удалите затворы крышки ручного отверстия.
+
+Удалите крышку ручного отверстия.
+
+Удалите и отбросьте кольцо.
 
 ![[03600025.png]]
 
-Block Mounted Crankcase Breather
+Заблокированный капкан дышащий
 
-Disconnect the crankcase breather pipe.
+Отсоедините трубку для дыхания.
 
-Remove the hand hole cover capscrews.
+Удалите затворы крышки ручного отверстия.
 
-Remove the hand hole cover.
+Удалите крышку ручного отверстия.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[01600367.png]]
 
-Eliminator™
+Элиминатор
 
-Remove the hand hole cover capscrews.
+Удалите затворы крышки ручного отверстия.
 
-Remove the Eliminator hand hole cover. Note the location where installed.
+Удалите крышку ручного отверстия Eliminator. Обратите внимание на место, где установлена.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[01600363.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Standard
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the hand hole cover.
+>
+> Remove and discard the o-ring.
+>
+> Block Mounted Crankcase Breather
+>
+> Disconnect the crankcase breather pipe.
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the hand hole cover.
+>
+> Remove and discard the o-ring.
+>
+> Eliminator™
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the Eliminator hand hole cover. Note the location where installed.
+>
+> Remove and discard the o-ring.

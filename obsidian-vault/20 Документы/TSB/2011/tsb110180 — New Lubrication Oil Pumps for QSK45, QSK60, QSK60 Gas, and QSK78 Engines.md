@@ -12,12 +12,14 @@ families:
 parts:
   - "3644518"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110180.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110180.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Lubrication Oil Pumps for QSK45, QSK60, QSK60 Gas, and QSK78 Engines
@@ -28,42 +30,83 @@ tags:
 > **Даты:** изменён 2011-07-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110180.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110180.pdf)
 
-## New Lubrication Oil Pumps for QSK45, QSK60, QSK60 Gas, and QSK78 Engines
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые насосы для моторного масла для двигателей QSK45, QSK60, QSK60 и QSK78
 
-### Contents
+### Положение о гарантии
 
-This document announces new lubrication oil pumps for QSK45, QSK60, QSK60 Gas, and QSK78 engines. The idler rotors of these new pumps are manufactured with a revised heat treatment process.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-| **Engine Model** | **Description** | **New Part Number** | **Old Part Number** |
+### Содержание
+
+В этом документе анонсированы новые насосы для моторного масла для двигателей QSK45, QSK60, QSK60 Gas и QSK78. Бесшумные роторы этих новых насосов изготавливаются с пересмотренным процессом термообработки.
+
+| **Модели двигателей** | **Описание** | **Новый номер** | **Старый номер** |
 |---|---|---|---|
-| QSK45 | Lubrication Oil Pump | 3644520 | 3642280 |
-| QSK60 QSK60G | Lubrication Oil Pump | [[3644518]] | 3642281 |
-| QSK78 | Lubrication Oil Pump | 3644516 | 3642282 |
+| QSK45 | Насос для моторного масла | 3644520 | 3642280 |
+| QSK60 QSK60G | Насос для моторного масла | [[3644518]] | 3642281 |
+| QSK78 | Насос для моторного масла | 3644516 | 3642282 |
 
-An additional change being introduced is the deletion of the pump outlet port sleeve (See Fig 1, item 1, Part Number 4916879). This sleeve was previously installed to match the lubrication oil pump outlet port diameter to the oil supply tube diameter. The outlet port in the pump body has been modified to be the same diameter as the oil supply tube, making the sleeve obsolete. The sleeve will remain available for service on the old part number pumps.
+Дополнительное изменение, которое вводится, - это удаление рукава порта выпускного отверстия насоса (см. фиг 1, пункт 1, номер детали 4916879). Этот рукав был ранее установлен для соответствия диаметра выходного отверстия насоса моторного масла диаметру трубки подачи масла. Выходной порт в корпусе насоса был изменен таким же диаметром, что и трубка подачи масла, что делает рукав устаревшим. Рукав останется доступным для обслуживания на старых насосах с номером детали.
 
 ![[07k00001.png]]
 
-Figure 1
+Рисунок 1
 
-1. Lubrication Oil Pump Outlet Port Sleeve.
+1. Смазочный насос для выхлопных газов Port Sleeve.
 
-These new lubrication oil pumps have been introduced into production at Daventry as follows:
+Эти новые насосы моторного масла были введены в производство в Давентри следующим образом:
 
-| **Engine Model** | **Engine Serial Number (ESN)** | **Production Date** |
+| **Модели двигателей** | **Серийный номер двигателя (ESN)** | **Дата производства** |
 |---|---|---|
-| QSK45 | 33187280 | 06-Jun-2011 |
-| QSK60 QSK60G | 33187380 | 13-Jul-2011 |
-| QSK78 | 66301815 | 24-Jun-2011 |
+| QSK45 | 33187280 | 06-июнь 2011 года |
+| QSK60 QSK60G | 33187380 | 13 июля 2011 года |
+| QSK78 | 66301815 | 24 июня 2011 года |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3644518]] | LUBRICATING OIL PUMP | Масляный насос |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Lubrication Oil Pumps for QSK45, QSK60, QSK60 Gas, and QSK78 Engines
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document announces new lubrication oil pumps for QSK45, QSK60, QSK60 Gas, and QSK78 engines. The idler rotors of these new pumps are manufactured with a revised heat treatment process.
+>
+> | **Engine Model** | **Description** | **New Part Number** | **Old Part Number** |
+> |---|---|---|---|
+> | QSK45 | Lubrication Oil Pump | 3644520 | 3642280 |
+> | QSK60 QSK60G | Lubrication Oil Pump | [[3644518]] | 3642281 |
+> | QSK78 | Lubrication Oil Pump | 3644516 | 3642282 |
+>
+> An additional change being introduced is the deletion of the pump outlet port sleeve (See Fig 1, item 1, Part Number 4916879). This sleeve was previously installed to match the lubrication oil pump outlet port diameter to the oil supply tube diameter. The outlet port in the pump body has been modified to be the same diameter as the oil supply tube, making the sleeve obsolete. The sleeve will remain available for service on the old part number pumps.
+>
+> Figure 1
+>
+> 1. Lubrication Oil Pump Outlet Port Sleeve.
+>
+> These new lubrication oil pumps have been introduced into production at Daventry as follows:
+>
+> | **Engine Model** | **Engine Serial Number (ESN)** | **Production Date** |
+> |---|---|---|
+> | QSK45 | 33187280 | 06-Jun-2011 |
+> | QSK60 QSK60G | 33187380 | 13-Jul-2011 |
+> | QSK78 | 66301815 | 24-Jun-2011 |
+>
+> ### Document History

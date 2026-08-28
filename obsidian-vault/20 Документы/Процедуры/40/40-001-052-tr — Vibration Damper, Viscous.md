@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 19
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-052-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-052-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Viscous
@@ -33,183 +35,336 @@ tags:
 > **Даты:** изменён 2017-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-052-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-052-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The vibration damper controls the twisting or torsional vibration of the crankshaft. A vibration damper is engineered for use on a specific engine model.
 
-It is **not** economical to repair a vibration damper in the field. Install a new or rebuilt vibration damper if the inspection indicates that a damper is damaged.
+### Общие сведения
 
-The viscous vibration damper has a limited service life. The damper **must** be replaced if worn or damaged.
+Вибрационный демпфер управляет скручивающейся или торсионной вибрацией коленчатого вала. Вибрационный демпфер спроектирован для использования на конкретной модели двигателя.
+
+не экономично ремонтировать виброзасос в полевых условиях. Установите новый или восстановленный виброзасос, если проверка показывает, что засорение повреждено.
+
+Вязкий виброгаситель имеет ограниченный срок службы. Засоритель должен быть заменен, если он изношен или поврежден.
 
 ![[nobox.png]]
 
-There are two different design vibration dampers used on the B Series engines:
+Существуют два различных конструктивных виброгасителя, используемых на двигателях серии B:
 
-1. Viscous damper (A) for engines rated at speeds above 2500 rpm.
-2. Rubber element damper (B) for engines rated at speeds below 2500 rpm.
+1. Вязкий демпфер (А) для двигателей, рассчитанных на скорости выше 2500 об/мин.
+2. Резиновый элемент амортизатора (B) для двигателей, рассчитанных на скорости ниже 2500 об/мин.
 
-> [!note] Note · Примечание
-> The rubber vibration damper (B) is available either with or without the crankshaft adapter.
+> [!note] Примечание
+> Резиновый вибродемпер (B) доступен либо с адаптером коленчатого вала, либо без него.
 
 ![[da9puga.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
 ![[13900050.png]]
 
-- Remove the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+- Снимите жгут проводов. Видишь?[[40-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-For front gear train engines, remove the four capscrews.
+Для передних передних двигателей поезда удалите четыре болта.
 
-For rear gear train engines, remove the six capscrews.
+Для двигателей задних передач удалите шесть болтов.
 
-Remove the vibration damper.
+Удалите вибрационный демпфер.
 
 ![[da9puma.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Compressed air used for cleaning should not exceed 207 kPa \[30 psi\]. Wear protective clothing, goggles/shield, and gloves to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Сжатый воздух, используемый для очистки, не должен превышать 207 кПа[30 psi]. Носите защитную одежду, очки / щит и перчатки, чтобы уменьшить вероятность получения травмы.
 
-Using soapy water, clean any oil from the vibration damper.
+Используя мыльную воду, очищайте любое масло от вибрационной демпферной заслонки.
 
-Dry the vibration damper with compressed air.
+Высушить вибрационный демпфер сжатым воздухом.
 
 ![[da900ed.png]]
 
-Check the mounting web for cracks.
+Проверьте монтажную сеть на наличие трещин.
 
-Check the housing for dents or raised surfaces.
+Проверьте кожух на наличие вмятины или поднятых поверхностей.
 
-Replace the damper if damage is found.
+Замените демпфер, если повреждение обнаружено.
 
 ![[da900sd.png]]
 
-> [!note] Note · Примечание
-> The viscous damper is filled with a silicone fluid. After many hours of use, the silicone fluid can become thicker and expand.
+> [!note] Примечание
+> Вязкий демпфер заполнен силиконовой жидкостью. После многих часов использования силиконовая жидкость может стать толще и расширяться.
 
-To determine if the damper thickness is correct, remove the paint from the damper in four locations on either side of the damper.
+Чтобы определить, является ли толщина амортизатора правильной, удалите краску из амортизатора в четырех местах по обе стороны от амортизатора.
 
-Measure and record the thickness of the damper in four places. Measure the thickness at 80.65 mm \[3.175 in\] from the outside of the damper.
+Измерить и зафиксировать толщину амортизатора в четырех местах. Измерьте толщину на 80,65 мм \[3,175 дюйма \] снаружи амортизатора.
 
-Replace the damper if its thickness varies by more than 6.35 mm \[0.25 in\].
+Заменить демпфер, если его толщина изменяется более чем на 6,35 мм \[0,25 дюйма \].
 
 ![[da900tc.png]]
 
-Spray the damper with spot check developer, type SKD-S2, or equivalent.
+Распылите демпфер с разработчиком проверки спота, типом SKD-S2 или эквивалентом.
 
 ![[da800se.png]]
 
-### Measure
+### Измерение
 
-Measure the vibration dampers eccentricity.
+Измерьте эксцентриситет вибрационных демпферов.
 
-Install a dial indicator as illustrated.
+Установите индикатор циферблата, как проиллюстрировано.
 
 ![[da900kb.png]]
 
-Rotate the crankshaft with engine barring tool, Part Number 3377371.
+Поверните коленчатый вал с помощью инструмента для заграждения двигателя, номер детали 3377371.
 
-Record the dial indicators movement.
+Запишите движение индикаторов циферблата.
 
-| Vibration Damper Eccentricity per 25.4 mm \[1.0 in\] of Diameter |  |  |
+| Вибрационный эксцентриситет Дампера на 25,4 мм \[1,0 в\] Диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.10 | MAX | 0.004 |
+| мм |  | в |
+| 0.10 | Макс | 0.004 |
 
-> [!note] Note · Примечание
-> If the eccentricity is **not** within specification the vibration damper **must** be replaced.
+> [!note] Примечание
+> Если эксцентриситет находится в пределах спецификации, то вибрационный демпфер должен быть заменен.
 
 ![[da900kc.png]]
 
-Measure the vibration damper wobble.
+Измерьте колебания демпфера вибрации.
 
-Install a dial indicator as illustrated.
+Установите индикатор циферблата, как проиллюстрировано.
 
-Push the crankshaft to the front or rear and zero the dial indicator.
+Нажмите коленчатый вал на переднюю или заднюю часть и обнулите индикатор циферблата.
 
 ![[da900kd.png]]
 
-Rotate the crankshaft with engine barring tool, Part Number 3377371, 360 degrees, maintaining the position of the crankshaft.
+Поверните коленчатый вал с помощью инструмента для заграждения двигателя, Номер детали 3377371, 360 градусов, сохраняя положение коленчатого вала.
 
-Record the dial indicator movement.
+Запишите движение индикатора циферблата.
 
-| Vibration Damper Wobble per 25.4 mm \[1.0 in\] of Radius |  |  |
+| Вибрационное демпферное колебание на 25,4 мм \[1,0 в\] Радиуса |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.18 | MAX | 0.007 |
+| мм |  | в |
+| 0.18 | Макс | 0.007 |
 
 ![[da900ke.png]]
 
-### Install
+### Установка
 
-Front Gear Train
+Поезд Front Gear
 
-> [!note] Note · Примечание
-> The B Series engines have two configurations for the crankshaft pulleys and vibration dampers. Determine which configuration is used and use the appropriate steps in this procedure.
+> [!note] Примечание
+> Двигатели серии B имеют две конфигурации для шкивов коленчатого вала и виброгасителей. Определите, какая конфигурация используется, и используйте соответствующие шаги в этой процедуре.
 
 ![[nobox.png]]
 
-**One Piece Pulley/Vibration Damper**
+**Один кусок пулли/Вибрационный поглотитель**
 
-Install the crankshaft vibration damper.
+Установите вибродемпер вала коленчатого вала.
 
-Install and tighten the crankshaft pulley/vibration damper capscrews.
+Установите и затяните болты коленчатого вала шкив / вибрационный демпфер.
 
-> [!tip] Момент затяжки · Torque Value
-> 125 n•m [92 ft-lb]
+> [!tip] Момент затяжки
+> 125 Н·м [92 фунт-фут]
 
 ![[da9puma.png]]
 
-**Two-Piece Pulley/Vibration Damper**
+**Двухпицевый пулли/Вибрационный дампер**
 
-Install the vibration damper.
+Установите вибрационный демпфер.
 
-Install and tighten the vibration damper capscrews.
+Установите и затяните болты вибрационного демпфера.
 
-> [!tip] Момент затяжки · Torque Value
-> 200 n•m [148 ft-lb]
+> [!tip] Момент затяжки
+> 200 Н·м [148 фунт-фут]
 
-Install the crankshaft pulley.
+Установите коленчатый вал.
 
-Install and tighten the crankshaft pulley capscrews.
+Установите и затяните болты коленчатого вала.
 
-> [!tip] Момент затяжки · Torque Value
-> 77 n•m [57 ft-lb]
+> [!tip] Момент затяжки
+> 77 Н·м [57 фунт-фут]
 
 ![[da9csob.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Lubricate bolts with clean engine oil.
+Смазочные болты с чистым моторным маслом.
 
-Install the vibration damper.
+Установите вибрационный демпфер.
 
-For rear gear train engines, tighten the six vibration damper capscrews in a criss-cross pattern.
+Для двигателей задних зубчатых составов затянуть шесть болтов вибрационного демпфера по схеме крест-накрест.
 
-Torque Value:
+Момент затяжки:
 
 ![[01d00206.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+- Установите приводной ремень. Видишь?[[40-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]].
 
 ![[ck800wa.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries. See equipment manufacturer service information.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The vibration damper controls the twisting or torsional vibration of the crankshaft. A vibration damper is engineered for use on a specific engine model.
+>
+> It is **not** economical to repair a vibration damper in the field. Install a new or rebuilt vibration damper if the inspection indicates that a damper is damaged.
+>
+> The viscous vibration damper has a limited service life. The damper **must** be replaced if worn or damaged.
+>
+> There are two different design vibration dampers used on the B Series engines:
+>
+> 1. Viscous damper (A) for engines rated at speeds above 2500 rpm.
+> 2. Rubber element damper (B) for engines rated at speeds below 2500 rpm.
+>
+> **Note · Примечание**
+> The rubber vibration damper (B) is available either with or without the crankshaft adapter.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> - Remove the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+>
+> ### Remove
+>
+> For front gear train engines, remove the four capscrews.
+>
+> For rear gear train engines, remove the six capscrews.
+>
+> Remove the vibration damper.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Compressed air used for cleaning should not exceed 207 kPa \[30 psi\]. Wear protective clothing, goggles/shield, and gloves to reduce the possibility of personal injury.
+>
+> Using soapy water, clean any oil from the vibration damper.
+>
+> Dry the vibration damper with compressed air.
+>
+> Check the mounting web for cracks.
+>
+> Check the housing for dents or raised surfaces.
+>
+> Replace the damper if damage is found.
+>
+> **Note · Примечание**
+> The viscous damper is filled with a silicone fluid. After many hours of use, the silicone fluid can become thicker and expand.
+>
+> To determine if the damper thickness is correct, remove the paint from the damper in four locations on either side of the damper.
+>
+> Measure and record the thickness of the damper in four places. Measure the thickness at 80.65 mm \[3.175 in\] from the outside of the damper.
+>
+> Replace the damper if its thickness varies by more than 6.35 mm \[0.25 in\].
+>
+> Spray the damper with spot check developer, type SKD-S2, or equivalent.
+>
+> ### Measure
+>
+> Measure the vibration dampers eccentricity.
+>
+> Install a dial indicator as illustrated.
+>
+> Rotate the crankshaft with engine barring tool, Part Number 3377371.
+>
+> Record the dial indicators movement.
+>
+> | Vibration Damper Eccentricity per 25.4 mm \[1.0 in\] of Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.10 | MAX | 0.004 |
+>
+> **Note · Примечание**
+> If the eccentricity is **not** within specification the vibration damper **must** be replaced.
+>
+> Measure the vibration damper wobble.
+>
+> Install a dial indicator as illustrated.
+>
+> Push the crankshaft to the front or rear and zero the dial indicator.
+>
+> Rotate the crankshaft with engine barring tool, Part Number 3377371, 360 degrees, maintaining the position of the crankshaft.
+>
+> Record the dial indicator movement.
+>
+> | Vibration Damper Wobble per 25.4 mm \[1.0 in\] of Radius |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.18 | MAX | 0.007 |
+>
+> ### Install
+>
+> Front Gear Train
+>
+> **Note · Примечание**
+> The B Series engines have two configurations for the crankshaft pulleys and vibration dampers. Determine which configuration is used and use the appropriate steps in this procedure.
+>
+> **One Piece Pulley/Vibration Damper**
+>
+> Install the crankshaft vibration damper.
+>
+> Install and tighten the crankshaft pulley/vibration damper capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 125 n•m [92 ft-lb]
+>
+> **Two-Piece Pulley/Vibration Damper**
+>
+> Install the vibration damper.
+>
+> Install and tighten the vibration damper capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 200 n•m [148 ft-lb]
+>
+> Install the crankshaft pulley.
+>
+> Install and tighten the crankshaft pulley capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 77 n•m [57 ft-lb]
+>
+> Rear Gear Train
+>
+> Lubricate bolts with clean engine oil.
+>
+> Install the vibration damper.
+>
+> For rear gear train engines, tighten the six vibration damper capscrews in a criss-cross pattern.
+>
+> Torque Value:
+>
+> ### Finishing Steps
+>
+> - Install the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.

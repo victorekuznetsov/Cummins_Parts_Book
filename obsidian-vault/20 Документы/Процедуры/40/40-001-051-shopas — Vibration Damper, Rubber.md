@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-051-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-051-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Rubber
@@ -33,56 +35,112 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-051-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-051-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
 
-> [!note] Note · Примечание
-> The B Series engines have two configurations for the crankshaft pulleys and vibration dampers. Determine which configuration is used and use the appropriate steps in this procedure.
+### Установка
+
+Поезд Front Gear
+
+> [!note] Примечание
+> Двигатели серии B имеют две конфигурации для шкивов коленчатого вала и виброгасителей. Определите, какая конфигурация используется, и используйте соответствующие шаги в этой процедуре.
 
 ![[nobox.png]]
 
-One Piece Pulley/Vibration Damper
+Один кусочек Пулли / Вибрационный Дампер
 
-Install the crankshaft vibration damper.
+Установите вибродемпер вала коленчатого вала.
 
-Install and tighten the crankshaft pulley/vibration damper capscrews.
+Установите и затяните болты коленчатого вала шкив / вибрационный демпфер.
 
-> [!tip] Момент затяжки · Torque Value
-> 125 n•m [92 ft-lb]
+> [!tip] Момент затяжки
+> 125 Н·м [92 фунт-фут]
 
 ![[da9puma.png]]
 
-Two-Piece Pulley/Vibration Damper
+Двухпицевый пулли/Вибрационный дампер
 
-Install the vibration damper.
+Установите вибрационный демпфер.
 
-Install and tighten the vibration damper capscrews.
+Установите и затяните болты вибрационного демпфера.
 
-> [!tip] Момент затяжки · Torque Value
-> 200 n•m [148 ft-lb]
+> [!tip] Момент затяжки
+> 200 Н·м [148 фунт-фут]
 
-Install the crankshaft pulley.
+Установите коленчатый вал.
 
-Install and tighten the crankshaft pulley capscrews.
+Установите и затяните болты коленчатого вала.
 
-> [!tip] Момент затяжки · Torque Value
-> 77 n•m [57 ft-lb]
+> [!tip] Момент затяжки
+> 77 Н·м [57 фунт-фут]
 
 ![[da9csob.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Lubricate bolts with clean engine oil.
+Смазочные болты с чистым моторным маслом.
 
-Install the vibration damper.
+Установите вибрационный демпфер.
 
-Tighten the six vibration damper capscrews in a criss-cross pattern.
+Затяните шесть болтов вибрационного демпфера в рисунке крест-накрест.
 
-| **Torque Value:** | Step 1 | 50 n.m \[37 ft-lb\] |
+| **Момент затяжки:** | ШАГ 1. | 50 Н·м[37 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | Rotate 90 degrees |
+|  | ШАГ 2. | Поворот на 90 градусов |
 |---|---|---|
 
 ![[01d00206.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Front Gear Train
+>
+> **Note · Примечание**
+> The B Series engines have two configurations for the crankshaft pulleys and vibration dampers. Determine which configuration is used and use the appropriate steps in this procedure.
+>
+> One Piece Pulley/Vibration Damper
+>
+> Install the crankshaft vibration damper.
+>
+> Install and tighten the crankshaft pulley/vibration damper capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 125 n•m [92 ft-lb]
+>
+> Two-Piece Pulley/Vibration Damper
+>
+> Install the vibration damper.
+>
+> Install and tighten the vibration damper capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 200 n•m [148 ft-lb]
+>
+> Install the crankshaft pulley.
+>
+> Install and tighten the crankshaft pulley capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 77 n•m [57 ft-lb]
+>
+> Rear Gear Train
+>
+> Lubricate bolts with clean engine oil.
+>
+> Install the vibration damper.
+>
+> Tighten the six vibration damper capscrews in a criss-cross pattern.
+>
+> | **Torque Value:** | Step 1 | 50 n.m \[37 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | Rotate 90 degrees |
+> |---|---|---|

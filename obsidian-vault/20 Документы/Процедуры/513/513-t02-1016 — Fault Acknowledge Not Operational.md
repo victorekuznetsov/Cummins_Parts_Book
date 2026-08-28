@@ -11,13 +11,15 @@ families:
   - "QSM11"
 manuals:
   - "5411480"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-t02-1016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-t02-1016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # Fault Acknowledge Not Operational
@@ -30,57 +32,122 @@ tags:
 > **Даты:** изменён 2019-10-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-t02-1016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-t02-1016.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- Pressing the button on the ED-4 display does **not** acknowledge the alarm.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot ED-4 display issues. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- Нажатие кнопки на дисплее ED-4 не подтверждает сигнал тревоги.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-Possible causes are:
+Это дерево симптомов может быть использовано для устранения проблем с дисплеем ED-4. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-- Display software
+### Практические замечания
 
-- ED-4 display (button).
+Возможные причины:
 
-Verify failure 2 independent systems? Faults **must** be acknowledged per engine.
+- Программное обеспечение для отображения
 
-## Troubleshooting Summary
+- Дисплей ED-4 (кнопка).
 
-| STEPS | SPECIFICATIONS |  |
+Проверить отказ 2 независимых систем? Неисправности должны быть признаны на двигатель.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the display software. |  |
-|  | **STEP 1A.** Verify active fault. | Fault acknowledge possible with ED-4 display? |
-|  | **STEP 1B.** Check display software. | Later software revision for the ED-4 display? |
-|  | **STEP 1C.** Validate fault acknowledgement. | Fault acknowledge possible with ED-4 display? |
+| ШАГ 1. | Проверьте программное обеспечение дисплея. |  |
+|  | **ШАГ 1А.** Проверить наличие активной ошибки. | Возможно ли распознать ошибку с помощью дисплея ED-4? |
+|  | **STEP 1B.** Проверить программное обеспечение дисплея. | Последующая правка программного обеспечения для дисплея ED-4? |
+|  | **STEP 1C.** Валидация признания неисправности. | Возможно ли распознать ошибку с помощью дисплея ED-4? |
 
-### STEP 1. Check the display software.
+### ШАГ 1. Проверьте программное обеспечение дисплея.
 
-#### STEP 1A. Check for an inactive alarm message.
+#### ШАГ 1A. Проверьте неактивное сообщение тревоги.
 
-| **Conditions:** Turn system enable switch OFF. Disconnect the engine coolant temperature sensor from the engine harness. Turn system enable switch ON. |  |  |
+| **Условия:** Система поворота позволяет выключать выключатель. Отсоедините датчик температуры охлаждающей жидкости двигателя от электропроводки двигателя. Система включения включает переключатель. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Wait 30 seconds, monitor ED-4 display. Verify coolant temperature sensor fault. With ED-4 displays on independent systems, fault **must** be acknowledged per engine | Fault acknowledge possible with ED-4 display? **YESRepair:** ED-4 display is working properly. | Repair complete. |
-| Fault acknowledge possible with ED-4 display? **NO** | 1B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Подождите 30 секунд, монитор ED-4. Проверьте неисправность датчика температуры охлаждающей жидкости. С дисплеями ED-4 на независимых системах, неисправность **должна быть признана на двигатель | Возможно ли распознать ошибку с помощью дисплея ED-4?**| Ремонт завершён. |
+| Возможно ли распознать ошибку с помощью дисплея ED-4? **НЕТ** | 1В |  |
 
-#### STEP 1B. Check display software.
+#### ШАГ 1B. Проверьте программное обеспечение дисплея.
 
-| **Conditions:** Turn enable switch ON. |  |  |
+| **Условия: **Включите включение. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check Cummins® QuickServe® On-line webpage for the latest software to ED-4 display. Reference Procedure 015-075 in Section 15 of the appropriate service manual. | Later software revision for the ED-4 display? **YESRepair:** Download the latest software to the ED-4 display. Reference Procedure 015-075 in Section 15 of the appropriate service manual. | 1C |
-| Later software revision for the ED-4 display? **NORepair:** Replace the ED-4 display. [[513-015-035 — Display(s) and Instrumentation\|Refer to Procedure 015-035 in Section 15.]] | Repair complete. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте Cummins® QuickServe® Онлайн веб-страницу для новейшего программного обеспечения на дисплее ED-4. Справочная процедура 015-075 в разделе 15 соответствующего руководства по обслуживанию. | Последующая правка программного обеспечения для дисплея ED-4? **YESRepair:** Загрузите новейшее программное обеспечение на дисплей ED-4. Справочная процедура 015-075 в разделе 15 соответствующего руководства по обслуживанию. | 1С |
+| Последующая правка программного обеспечения для дисплея ED-4? **NORepair:** Заменить дисплей ED-4.[[513-015-035 — Display(s) and Instrumentation\|См. процедуру 015-035 в разделе 15.]] | Ремонт завершён. |  |
 
-#### STEP 1C. Validate fault acknowledgement.
+#### ШАГ 1C. Проверить признание вины.
 
-| **Conditions:** Turn system enable switch OFF. Disconnect the engine coolant temperature sensor from the engine harness. Turn system enable switch ON. |  |  |
+| **Условия:** Система поворота позволяет выключать выключатель. Отсоедините датчик температуры охлаждающей жидкости двигателя от электропроводки двигателя. Система включения включает переключатель. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Wait 30 seconds. Monitor ED-4 display. Verify coolant temperature sensor fault. | Fault acknowledge possible with ED-4 display? **YESRepair:** The download of the latest software corrected the issue. | Repair complete. |
-| Fault acknowledge possible with ED-4 display? **NORepair:** Replace the ED-4 display. [[513-015-035 — Display(s) and Instrumentation\|Refer to Procedure 015-035 in Section 15.]] | Repair complete. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Подожди 30 секунд. Мониторинг дисплея ED-4. Проверьте неисправность датчика температуры охлаждающей жидкости. | Возможно ли распознать ошибку с помощью дисплея ED-4?| Ремонт завершён. |
+| Возможно ли распознать ошибку с помощью дисплея ED-4? **NORepair:** Заменить дисплей ED-4.[[513-015-035 — Display(s) and Instrumentation\|См. процедуру 015-035 в разделе 15.]] | Ремонт завершён. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - Pressing the button on the ED-4 display does **not** acknowledge the alarm.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot ED-4 display issues. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> Possible causes are:
+>
+> - Display software
+>
+> - ED-4 display (button).
+>
+> Verify failure 2 independent systems? Faults **must** be acknowledged per engine.
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the display software. |  |
+> |  | **STEP 1A.** Verify active fault. | Fault acknowledge possible with ED-4 display? |
+> |  | **STEP 1B.** Check display software. | Later software revision for the ED-4 display? |
+> |  | **STEP 1C.** Validate fault acknowledgement. | Fault acknowledge possible with ED-4 display? |
+>
+> ### STEP 1. Check the display software.
+>
+> #### STEP 1A. Check for an inactive alarm message.
+>
+> | **Conditions:** Turn system enable switch OFF. Disconnect the engine coolant temperature sensor from the engine harness. Turn system enable switch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Wait 30 seconds, monitor ED-4 display. Verify coolant temperature sensor fault. With ED-4 displays on independent systems, fault **must** be acknowledged per engine | Fault acknowledge possible with ED-4 display? **YESRepair:** ED-4 display is working properly. | Repair complete. |
+> | Fault acknowledge possible with ED-4 display? **NO** | 1B |  |
+>
+> #### STEP 1B. Check display software.
+>
+> | **Conditions:** Turn enable switch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check Cummins® QuickServe® On-line webpage for the latest software to ED-4 display. Reference Procedure 015-075 in Section 15 of the appropriate service manual. | Later software revision for the ED-4 display? **YESRepair:** Download the latest software to the ED-4 display. Reference Procedure 015-075 in Section 15 of the appropriate service manual. | 1C |
+> | Later software revision for the ED-4 display? **NORepair:** Replace the ED-4 display. [[513-015-035 — Display(s) and Instrumentation\|Refer to Procedure 015-035 in Section 15.]] | Repair complete. |  |
+>
+> #### STEP 1C. Validate fault acknowledgement.
+>
+> | **Conditions:** Turn system enable switch OFF. Disconnect the engine coolant temperature sensor from the engine harness. Turn system enable switch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Wait 30 seconds. Monitor ED-4 display. Verify coolant temperature sensor fault. | Fault acknowledge possible with ED-4 display? **YESRepair:** The download of the latest software corrected the issue. | Repair complete. |
+> | Fault acknowledge possible with ED-4 display? **NORepair:** Replace the ED-4 display. [[513-015-035 — Display(s) and Instrumentation\|Refer to Procedure 015-035 in Section 15.]] | Repair complete. |  |

@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-038-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-038-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Idler Gear, Camshaft (Right Bank)
@@ -31,17 +33,40 @@ tags:
 > **Даты:** изменён 2018-08-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-038-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-038-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The left bank idler gear is shown in the illustration and **must** be removed first.
 
-Cummins Inc., recommends measuring the end play before removing the idler gear.
+### Снятие
 
-Remove the four capscrews, the thrust retainer plate, and the thrust bearings on the left-bank camshaft idler gear.
+> [!note] Примечание
+> На иллюстрации показано левобережное снаряжение бездельника и должно быть сначала удалено.
 
-Remove the camshaft idler gear.
+Cummins Inc. рекомендует измерять осевой зазор перед снятием снаряжения бездельника.
 
-Remove the idler shaft.
+Удалите четыре болта, пластину удерживающего устройства тяги и подшипники тяги на левобережном шасси бездельника.
+
+Снимите с кулачкового вала шестерни.
+
+Удалите вал бездельника.
 
 ![[01600083.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> The left bank idler gear is shown in the illustration and **must** be removed first.
+>
+> Cummins Inc., recommends measuring the end play before removing the idler gear.
+>
+> Remove the four capscrews, the thrust retainer plate, and the thrust bearings on the left-bank camshaft idler gear.
+>
+> Remove the camshaft idler gear.
+>
+> Remove the idler shaft.

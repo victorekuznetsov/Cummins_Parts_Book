@@ -8,12 +8,14 @@ engines:
   - "37280605"
 families:
   - "K19"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104141.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104141.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K19"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick and Lubricating Oil Leaks, Procedure Additions
@@ -24,12 +26,32 @@ tags:
 > **Даты:** изменён 2010-03-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104141.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104141.pdf)
 
-## Lubricating Oil Dipstick and Lubricating Oil Leaks, Procedure Additions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Измеритель уровня масла моторного масла и утечки моторного масла, добавления к процедуре
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the lubricating oil section of the K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]], to include procedures for calibrating the oil dipstick and identifying oil leaks.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает раздел «Моторное масло» Руководства по обслуживанию K19, Бюллетень [[4021499 — K19 Service Manual\|4021499]], чтобы включить процедуры калибровки измерителя уровня масла и выявления утечек масла.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Lubricating Oil Dipstick and Lubricating Oil Leaks, Procedure Additions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the lubricating oil section of the K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]], to include procedures for calibrating the oil dipstick and identifying oil leaks.

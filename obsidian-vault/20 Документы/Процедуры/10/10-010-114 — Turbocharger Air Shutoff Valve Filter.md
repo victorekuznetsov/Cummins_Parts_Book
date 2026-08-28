@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666251"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-114.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-114.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Air Shutoff Valve Filter
@@ -30,61 +32,120 @@ tags:
 > **Даты:** изменён 2002-06-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-114.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-114.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Variable Geometry
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Air pressure must be released from the system before removing the turbocharger control shutoff valve. The turbocharger control shutoff valve is under pressure and can cause personal injury.
+Переменная геометрия
+
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+
+> [!danger] ОПАСНО
+> Давление воздуха должно быть выпущено из системы перед удалением клапана отключения управления турбокомпрессором. Запорный клапан управления турбокомпрессором находится под давлением и может привести к травмам.
 
 ![[nobox.png]]
 
-### Remove
+### Снятие
 
-Variable Geometry
+Переменная геометрия
 
-Use filter wrench and remove the air filter from the turbocharger control shutoff valve.
+Используйте фильтр-гаечный ключ и удалите фильтр воздухоочистителя из клапана отключения управления турбокомпрессором.
 
 ![[10c00068.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Variable Geometry
+Переменная геометрия
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the turbocharger control shutoff valve filter head threads with a lint free cloth.
+Очистить крышку крышки турбокомпрессора от запорного клапана с помощью шовной свободной ткани.
 
-Inspect the threads for damage. If damage is found, replace the turbocharger control shutoff valve filter head. Refer to Procedure 010-115.
+Проверьте резьбу на предмет повреждения. Если повреждение обнаружено, замените головку фильтра запорного клапана турбокомпрессора. См. процедуру 010-115.
 
-Inspect the filter head for signs of water entrapment or contamination. If water entrapment or contamination is found, inspect the turbocharger control shutoff valve lines, turbocharger control shutoff valve, and turbocharger control valve. Replace if signs of corrosion are found.
+Проверьте головку фильтра на наличие признаков попадания воды или загрязнения. Если обнаружена захламление или загрязнение воды, проверьте линии запорного клапана управления турбокомпрессором, запорный клапан управления турбокомпрессором и клапан управления турбокомпрессором. Заменить, если обнаружены признаки коррозии.
 
-Use compressed air to clean fittings, lines, and turbocharger control shutoff valve.
+Используйте сжатый воздух для очистки фитингов, линий и клапана отключения управления турбокомпрессором.
 
 ![[10c00127.png]]
 
-### Install
+### Установка
 
-Variable Geometry
+Переменная геометрия
 
-Apply a thin coat of lubricant on the filter gasket.
+Нанесите тонкий слой смазки на прокладку фильтра.
 
-Install and hand tighten a new turbocharger control shutoff valve filter on the turbocharger control shutoff valve body.
+Установите и затяните рукой новый фильтр запорного клапана управления турбокомпрессором на корпусе запорного клапана управления турбокомпрессора.
 
-Use a filter wrench to tighten the filter full turn after gasket contact.
+Используйте ключ фильтра, чтобы затянуть фильтр полный оборот после контакта прокладки.
 
 ![[10c00088.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Variable Geometry
+Переменная геометрия
 
-Start the engine and verify proper operation.
+Запустите двигатель и проверьте его правильное функционирование.
 
-Inspect for air leaks and proper variable geometry turbocharger operation.
+Проверка утечек воздуха и правильной работы турбокомпрессора с изменяемой геометрией.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Variable Geometry
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **WARNING · Опасно**
+> Air pressure must be released from the system before removing the turbocharger control shutoff valve. The turbocharger control shutoff valve is under pressure and can cause personal injury.
+>
+> ### Remove
+>
+> Variable Geometry
+>
+> Use filter wrench and remove the air filter from the turbocharger control shutoff valve.
+>
+> ### Clean and Inspect for Reuse
+>
+> Variable Geometry
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the turbocharger control shutoff valve filter head threads with a lint free cloth.
+>
+> Inspect the threads for damage. If damage is found, replace the turbocharger control shutoff valve filter head. Refer to Procedure 010-115.
+>
+> Inspect the filter head for signs of water entrapment or contamination. If water entrapment or contamination is found, inspect the turbocharger control shutoff valve lines, turbocharger control shutoff valve, and turbocharger control valve. Replace if signs of corrosion are found.
+>
+> Use compressed air to clean fittings, lines, and turbocharger control shutoff valve.
+>
+> ### Install
+>
+> Variable Geometry
+>
+> Apply a thin coat of lubricant on the filter gasket.
+>
+> Install and hand tighten a new turbocharger control shutoff valve filter on the turbocharger control shutoff valve body.
+>
+> Use a filter wrench to tighten the filter full turn after gasket contact.
+>
+> ### Finishing Steps
+>
+> Variable Geometry
+>
+> Start the engine and verify proper operation.
+>
+> Inspect for air leaks and proper variable geometry turbocharger operation.

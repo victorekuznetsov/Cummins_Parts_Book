@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc115fa.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc115fa.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Engine Magnetic Speed/Position Lost Both of Two Signals - Data Erratic, Intermittent, or Incorrect
@@ -34,70 +36,146 @@ tags:
 > **Даты:** изменён 2021-09-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc115fa.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc115fa.pdf)
 
-### Fault Code: 115-fa
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Magnetic Speed/Position Lost Both of Two Signals - Data Erratic, Intermittent, or Incorrect
 
-Printable Version
+### Код неисправности: 115-фа
 
-### Overview
+### Потеряны оба сигнала частоты/положения — данные нестабильны или неверны
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 115-fa PID(P): 190 SPN: FMI: 2 Lamp: Flashing SRT: 00-621 | Both signals failed to be detected at the engine position sensor circuit. | Derate power and engine can run at high idle **only.** |
+| Код неисправности: 115-фа PID(P): 190 SPN: ФМИ: 2 лампы: Флешинг SRT: 00-621 | Оба сигнала не были обнаружены в цепи датчика положения двигателя. | Мощность двигателя и выносливость могут работать только на высоком холостом ходу. |
 
 ![[19802308.png]]
 
-Engine Speed Sensor Circuit
+Цепь датчика частоты вращения двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine speed sensor is dual channel speed sensor used by the ECM to monitor the engine speed. The speed sensor has four circuits: two signal circuits, and two return circuits. As the teeth on the crankshaft flywheel move past the speed sensor, a signal is generated on the speed sensor signal circuits.
+Датчик скорости двигателя - это датчик скорости с двумя каналами, используемый ECM для мониторинга скорости двигателя. Датчик скорости имеет четыре схемы: Две сигнальные цепи и две обратные цепи. Когда зубы на маховике коленчатого вала проходят мимо датчика скорости, на цепях сигналов датчика скорости генерируется сигнал.
 
-### Component Location
+### Расположение компонента
 
-The engine speed sensor is mounted in the flywheel housing on the rear of the engine.
+Датчик скорости двигателя установлен в корпусе маховика на задней части двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected a signal failure with engine speed sensor.
+Модуль управления двигателем (ECM) обнаружил сбой сигнала с датчиком скорости двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу же после запуска и отказа диагностического устройства.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+- Выключите замок зажигания. Позвольте ECM полностью выключить питание и включить переключатель зажигания.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Malfunction or damaged engine speed sensor.
+- Неисправность или повреждение датчика скорости двигателя.
 
-Refer to Troubleshooting Fault Code t05-115
+Устранение неполадок код t05-115
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 115-fa
+>
+> ### Engine Magnetic Speed/Position Lost Both of Two Signals - Data Erratic, Intermittent, or Incorrect
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 115-fa PID(P): 190 SPN: FMI: 2 Lamp: Flashing SRT: 00-621 | Both signals failed to be detected at the engine position sensor circuit. | Derate power and engine can run at high idle **only.** |
+>
+> Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine speed sensor is dual channel speed sensor used by the ECM to monitor the engine speed. The speed sensor has four circuits: two signal circuits, and two return circuits. As the teeth on the crankshaft flywheel move past the speed sensor, a signal is generated on the speed sensor signal circuits.
+>
+> ### Component Location
+>
+> The engine speed sensor is mounted in the flywheel housing on the rear of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected a signal failure with engine speed sensor.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Malfunction or damaged engine speed sensor.
+>
+> Refer to Troubleshooting Fault Code t05-115

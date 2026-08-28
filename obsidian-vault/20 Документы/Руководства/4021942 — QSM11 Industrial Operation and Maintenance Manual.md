@@ -30,10 +30,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-toc | Table of Contents |  |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| om-frwd | Foreword | 22-May-2006 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-titlepage | Titlepage | 13-Feb-2008 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/om-frwd.html) | Foreword | 22-May-2006 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-titlepage.html) | Titlepage | 13-Feb-2008 |
 
 ### Section i - Introduction
 
@@ -110,52 +110,52 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t004-om | Air Compressor Air Pressure Rises Slowly | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t005-om | Air Compressor Cycles Frequently | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t006-om | Air Compressor Noise is Excessive | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t007-om | Air Compressor Pumping Excess Lubricating Oil into the Air System | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t008-om | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t010-om | Air Compressor Will Not Stop Pumping | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t013-om | Alternator Not Charging or Insufficient Charging | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t019-om | Coolant Loss | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t022-om | Coolant Temperature Above Normal - Gradual Overheat | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t023-om | Coolant Temperature Above Normal - Sudden Overheat | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t024-om | Coolant Temperature Below Normal | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t027-om | Crankcase Gases (Blowby) Excessive | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t033-om | Engine Acceleration or Response Poor | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t041-om | Engine Decelerates Slowly | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t047-om | Engine Noise Excessive | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t048-om | Engine Noise Excessive - Combustion Knocks | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t057-om | Engine Power Output Low | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t061-om | Engine Runs Rough at Idle | 28-Feb-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t062-om | Engine Runs Rough or Misfires | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t064-om | Engine Shuts Off Unexpectedly or Dies During Deceleration | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t066-om | Engine Speed Surges at Low or High Idle | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t067-om | Engine Speed Surges Under Load or in Operating Range | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t072-om | Engine Starts But Will Not Keep Running | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t075-om | Engine Vibration Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t078-om | Engine Will Not Crank or Cranks Slowly (Electric Starter) | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t081-om | Engine Will Not Shut Off | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t087-om | Fuel Consumption Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t091-om | Fuel in Coolant | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t092-om | Fuel in the Lubricating Oil | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t096-om | Intake Manifold Air Temperature Above Specification | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t097-om | Intake Manifold Pressure (Boost) is Below Normal | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t102-om | Lubricating Oil Consumption Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t103-om | Lubricating Oil Contaminated | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t104-om | Lubricating Oil Pressure High | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t105-om | Lubricating Oil Pressure Low | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t106-om | Lubricating Oil Sludge in the Crankcase Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t107-om | Lubricating Oil Temperature Above Specification | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t108-om | Lubricating or Transmission Oil in the Coolant | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t112-om | PTO or Cruise Control Does Not Operate | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t116-om | Smoke, Black - Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t118-om | Smoke, White - Excessive | 02-Apr-2008 |
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t122-om | Turbocharger Leaks Engine Oil or Fuel | 04-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t004-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t004-om.html) | Air Compressor Air Pressure Rises Slowly | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t005-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t005-om.html) | Air Compressor Cycles Frequently | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t006-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t006-om.html) | Air Compressor Noise is Excessive | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t007-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t007-om.html) | Air Compressor Pumping Excess Lubricating Oil into the Air System | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t008-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t008-om.html) | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t010-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t010-om.html) | Air Compressor Will Not Stop Pumping | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t013-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t013-om.html) | Alternator Not Charging or Insufficient Charging | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t019-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t019-om.html) | Coolant Loss | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t022-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t022-om.html) | Coolant Temperature Above Normal - Gradual Overheat | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t023-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t023-om.html) | Coolant Temperature Above Normal - Sudden Overheat | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t024-om.html) | Coolant Temperature Below Normal | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t027-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t027-om.html) | Crankcase Gases (Blowby) Excessive | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t033-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t033-om.html) | Engine Acceleration or Response Poor | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t041-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t041-om.html) | Engine Decelerates Slowly | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t043-om.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t047-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t047-om.html) | Engine Noise Excessive | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t048-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t048-om.html) | Engine Noise Excessive - Combustion Knocks | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t057-om.html) | Engine Power Output Low | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t061-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t061-om.html) | Engine Runs Rough at Idle | 28-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t062-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t062-om.html) | Engine Runs Rough or Misfires | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t064-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t064-om.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t066-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t066-om.html) | Engine Speed Surges at Low or High Idle | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t067-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t067-om.html) | Engine Speed Surges Under Load or in Operating Range | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t072-om.html) | Engine Starts But Will Not Keep Running | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t075-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t075-om.html) | Engine Vibration Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t077-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t077-om.html) | Engine Will Not Crank or Cranks Slowly (Air Starter) | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t078-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t078-om.html) | Engine Will Not Crank or Cranks Slowly (Electric Starter) | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t080-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t080-om.html) | Engine Will Not Reach Rated Speed (RPM) | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t081-om.html) | Engine Will Not Shut Off | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t087-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t087-om.html) | Fuel Consumption Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t091-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t091-om.html) | Fuel in Coolant | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t092-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t092-om.html) | Fuel in the Lubricating Oil | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t096-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t096-om.html) | Intake Manifold Air Temperature Above Specification | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t097-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t097-om.html) | Intake Manifold Pressure (Boost) is Below Normal | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t102-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t102-om.html) | Lubricating Oil Consumption Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t103-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t103-om.html) | Lubricating Oil Contaminated | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t104-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t104-om.html) | Lubricating Oil Pressure High | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t105-om.html) | Lubricating Oil Pressure Low | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t106-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t106-om.html) | Lubricating Oil Sludge in the Crankcase Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t107-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t107-om.html) | Lubricating Oil Temperature Above Specification | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t108-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t108-om.html) | Lubricating or Transmission Oil in the Coolant | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t112-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t112-om.html) | PTO or Cruise Control Does Not Operate | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t116-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t116-om.html) | Smoke, Black - Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t118-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t118-om.html) | Smoke, White - Excessive | 02-Apr-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-t122-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-t122-om.html) | Turbocharger Leaks Engine Oil or Fuel | 04-Apr-2008 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section V - Maintenance Specifications
@@ -211,11 +211,11 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-m11-n14 | Component Coverage | 10-Dec-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-m11-n14](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/ind-m11-n14.html) | Component Coverage | 10-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
 
 ### Section S - Service Assistance
 
@@ -241,7 +241,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-backcover | Backcover | 13-Feb-2008 |
+| [[[4021942 — QSM11 Industrial Operation and Maintenance Manual\|4021942]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021942/4021942-backcover.html) | Backcover | 13-Feb-2008 |
 
 ### Section 1 - Operating Instructions
 

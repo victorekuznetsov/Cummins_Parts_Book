@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-026-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-026-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pan Adapter Cover Plate
@@ -35,8 +37,22 @@ tags:
 > **Даты:** изменён 2005-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-026-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-026-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the capscrews (1), cover plates (2), and gaskets (3) from the oil pan adapter (4).
+
+### Снятие
+
+Удалите болты (1), крышки пластин (2) и прокладки (3) из адаптера масляной поддона (4).
 
 ![[07600306.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the capscrews (1), cover plates (2), and gaskets (3) from the oil pan adapter (4).

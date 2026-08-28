@@ -15,13 +15,15 @@ manuals:
 parts:
   - "3164057"
 figures: 78
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/216/216-002-004-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/216-002-004-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSB6.7"
   - "группа/216"
+  - "перевод/машинный"
 ---
 
 # Cylinder Head
@@ -35,944 +37,952 @@ tags:
 > **Даты:** изменён 2018-09-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/216/216-002-004-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/216-002-004-tr.pdf)
 
-### Test
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-If troubleshooting coolant in the fuel, fuel in the coolant, fuel in the oil, or oil in the fuel, pressurize the internal fuel drain line in the cylinder head and check for leaks.
+### Проверка
 
-Remove the fuel drain line at the rear of the cylinder head. Refer to Procedure 006-013 in Section 6.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-If equipped with a quick disconnect fitting at the cylinder head, remove the check valve. Refer to Procedure 006-013 in Section 6.
+Если устранение неисправностей охлаждающей жидкости в топливе, топлива в охлаждающей жидкости, топлива в масле или масла в топливе, надавите на внутреннюю линию слива топлива в головке цилиндра и проверьте наличие утечек.
 
-Connect a regulated air supply hose to the cylinder head fuel drain port with a shutoff valve on the air supply side of the pressure gauge.
+Удалите линию слива топлива в задней части головки цилиндра. См. процедуру 006-013 в разделе 6.
 
-Apply air pressure.
+Если оборудована быстрое отключение фитинга на головке цилиндра, удалите контрольный клапан. См. процедуру 006-013 в разделе 6.
 
-| Air Pressure |  |  |
+Подключите регулируемый шланг подачи воздуха к порту слива топлива головки цилиндра с запорным клапаном на стороне подачи воздуха калибра давления.
+
+Примените давление воздуха.
+
+| Воздушное давление |  |  |
 |---|---|---|
-| kpa |  | psi |
-| 276 | NOM | 30 |
+| каша |  | пси |
+| 276 | НМ | 30 |
 
-Shut off the air supply to the fuel drain port and monitor the pressure gauge reading. The pressure should hold steady. If the pressure drops rapidly, check for leaks around the:
+Отключите подачу воздуха в порт слива топлива и проверьте показания датчика измерения давления. Давление должно быть устойчивым. Если давление быстро падает, проверьте наличие утечек вокруг:
 
-- Test fittings
-- Fuel connectors at the cylinder head.
+- 6.2 Испытательная арматура
+- Топливные разъемы на головке цилиндра.
 
-Remove the rocker lever cover and check for air bubbles around the injectors. Refer to Procedure 003-011 in Section 3.
+Удалите крышку рычага качения клапанного клапана и проверьте наличие пузырьков воздуха вокруг форсунки. См. процедуру 003-011 в разделе 3.
 
-Remove the radiator cap and check for air bubbles in the cooling system.
+Удалите крышку радиатора и проверьте наличие пузырьков воздуха в системе охлаждения.
 
-If the source of the leak can **not** be determined, remove the cylinder head and pressure test the complete cylinder head. Reference the Pressure Test section in this procedure. Replace the cylinder head, if necessary.
+Если источник утечки может быть определен **не**, удалите головку цилиндра и проверьте давление на всю головку цилиндра. Ссылка на раздел Испытания на давление в этой процедуре. Замените головку цилиндра, если это необходимо.
 
 ![[06900134.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from pets and children. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Держитесь подальше от домашних животных и детей. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> If removing the cylinder head with the injectors installed, be careful not to damage the tips of the injectors. Do not set the cylinder head down on the combustion face with the injectors installed. Damage to the injector tips will result.
+> [!warning] ОСТОРОЖНО
+> Если снимается головка цилиндра с установленной форсунки, будьте осторожны, чтобы не повредить кончики форсунки. Не устанавливайте головку цилиндра вниз на поверхность сгорания с установленным топливным форсункой. В результате повреждаются кончики форсунки.
 
-- Disconnect the batteries. See the equipment manufacturer service information.
-- Drain the coolant. Refer to Procedure 008-018 in Section 8.
-- Remove any original equipment manufacturer (OEM) accessories attached to the cylinder head. See the equipment manufacturer service information.
-- Disconnect the air crossover connection. Refer to Procedure 010-019 in Section 10.
-- Disconnect all water and heater hoses attached to the cylinder head. See the equipment manufacturer service information.
-- Disconnect any engine wiring harness connections, as necessary. **Note:** Omit the following steps if the engine is **not** equipped with the component or if it is **not** necessary to remove the component to remove the cylinder head. For some components, it is **only** necessary to remove the component if the cylinder head is being replaced or rebuilt.
-- Remove the fuel filter and fuel filter head. Refer to Procedure 006-017 in Section 6.
-- Remove the fuel filter head bracket. Refer to Procedure 006-018 in Section 6.
-- Remove the fuel block connection. Refer to Procedure 006-021 in Section 6.
-- Remove the air intake manifold. Refer to Procedure 010-023 in Section 10.
-- Remove the drive belt. Refer to Procedure 008-002 in Section 8.
-- Remove the fan hub pulley. Refer to Procedure 008-039 in Section 8.
-- Remove the fan hub assembly. [[216-008-036-tr — Fan Hub, Belt Driven|Refer to Procedure 008-036 in Section 8.]]
-- Loosen the alternator link, mounting bolt, and water inlet connection capscrews. Remove the alternator bracket mounting capscrews, and pivot the alternator away from the engine. Refer to Procedure 013-001 in Section 13.
-- Remove the alternator bracket from the thermostat housing. Refer to Procedure 013-003 in Section 13.
-- Remove the thermostat housing and thermostat from the engine. Refer to Procedure 008-013 in Section 8.
+- Отсоедините аккумуляторные батареи. См. информацию об услугах производителя оборудования.
+- Слейте охлаждающую жидкость. См. процедуру 008-018 в разделе 8.
+- Удалите любые оригинальные аксессуары производителя оборудования (OEM), прикрепленные к головке цилиндра. См. информацию об услугах производителя оборудования.
+- Отключите воздушное соединение. См. процедуру 010-019 в разделе 10.
+- Отсоедините все шланги для воды и нагревателя, прикрепленные к головке цилиндра. См. информацию об услугах производителя оборудования.
+- Отключите любые соединения жгута с проводкой двигателя, если это необходимо. **Примечание:** Опустить следующие шаги, если двигатель **не** оборудован компонентом или если это **не** необходимо для удаления компонента, чтобы удалить головку цилиндра. Для некоторых компонентов необходимо только удалить компонент, если головка цилиндра заменяется или перестраивается.
+- Удалите топливный фильтр и головку крепления топливного фильтра. См. процедуру 006-017 в разделе 6.
+- Снимите топливный фильтр, устанавливающий головную кронштейн. См. процедуру 006-018 в разделе 6.
+- Удалите соединение топливного блока. См. процедуру 006-021 в разделе 6.
+- Удалите коллектор воздухозаборника. См. процедуру 010-023 в разделе 10.
+- Снимите жгут проводов. См. процедуру 008-002 в разделе 8.
+- Удалите шкив фан-хаба. См. процедуру 008-039 в разделе 8.
+- Удалите сборку фан-хаба.[[216-008-036-tr — Fan Hub, Belt Driven|См. процедуру 008-036 в разделе 8.]]
+- Устраните соединение генератора, крепление болта и впускные болты для воды. Удалите кронштейны генератора, устанавливающие болты, и поверните генератор от двигателя. См. процедуру 013-001 в разделе 13.
+- Снимите скобку генератора с корпуса термостата. См. процедуру 013-003 в разделе 13.
+- Удалите корпус термостата и термостат из двигателя. См. процедуру 008-013 в разделе 8.
 
-- Remove the coolant temperature sensor. Refer to Procedure 019-019 in Section 19.
+- Удалите датчик температуры охлаждающей жидкости. См. процедуру 019-019 в разделе 19.
 
-> [!note] Note · Примечание
-> The following components are required to be removed in order to remove the cylinder head.
+> [!note] Примечание
+> Следующие компоненты должны быть удалены для того, чтобы удалить головку цилиндра.
 
-- Remove the turbocharger. Refer to Procedure 010-033 in Section 10.
-- Remove the exhaust manifold. Refer to Procedure 011-007 in Section 11.
-- Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
-- Remove the rocker lever housing. Refer to Procedure 003-013 in Section 3.
-- Remove the rocker levers. Refer to Procedure 003-008 in Section 3.
-- Remove the crossheads. Refer to Procedure 002-001 in Section 2.
-- Remove the push rods. Refer to Procedure 004-014 in Section 4.
-- Remove the fuel drain lines. Refer to Procedure 006-013 in Section 6.
-- Remove the injector supply lines. Refer to Procedure 006-051 in Section 6.
-- Disconnect the fuel rail from the cylinder head. Refer to Procedure 006-060 in Section 6.
-- Remove the fuel connectors. Refer to Procedure 006-052 in Section 6.
+- Удалите турбокомпрессор. См. процедуру 010-033 в разделе 10.
+- Удалите выхлопной коллектор. См. процедуру 011-007 в разделе 11.
+- Снимите крышку коромысел. См. процедуру 003-011 в разделе 3.
+- Снимите кожух рычага качения клапанного клапана. См. процедуру 003-013 в разделе 3.
+- Удалите рычаги коромысла. См. процедуру 003-008 в разделе 3.
+- Удалите клапанные мостики. См. процедуру 002-001 в разделе 2.
+- Удалите толкатели. См. процедуру 004-014 в разделе 4.
+- Удалите линии слива топлива. См. процедуру 006-013 в разделе 6.
+- Удалите линии подачи топливного форсунка. См. процедуру 006-051 в разделе 6.
+- Отсоедините топливный рельс от головки цилиндра. См. процедуру 006-060 в разделе 6.
+- Удалите топливные разъемы. См. процедуру 006-052 в разделе 6.
 
-> [!note] Note · Примечание
-> Do **not** remove the injectors at this time. Remove the cylinder head with the injectors installed so the injector protrusion can be checked.
+> [!note] Примечание
+> В это время не удаляйте форсунка. Удалите головку цилиндра с установленной форсунки, чтобы можно было проверить выступ форсунки.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы уменьшить вероятность серьезных травм, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-> [!warning] CAUTION · Осторожно
-> If removing the cylinder head with the injectors installed, be careful not to damage the tips of the injectors. Do not set the cylinder head down on the combustion face with the injectors installed. Damage to the injector tips will result.
+> [!warning] ОСТОРОЖНО
+> Если снимается головка цилиндра с установленной форсунки, будьте осторожны, чтобы не повредить кончики форсунки. Не устанавливайте головку цилиндра вниз на поверхность сгорания с установленным топливным форсункой. В результате повреждаются кончики форсунки.
 
-Remove the cylinder head capscrews and cylinder head.
+Удалите головные болты цилиндров и головку цилиндра.
 
 ![[02d00112.png]]
 
-Remove the cylinder head gasket from the cylinder block.
+Удалите прокладку головки цилиндра из блока цилиндров.
 
 ![[kn9gkhc.png]]
 
-### Initial Check
+### Первичная проверка
 
-Install the cylinder head in the Cummins® cylinder head holding fixture, Part Number ST-583.
+Установите головку цилиндра в крепление головки цилиндра Cummins®, часть номер ST-583.
 
 ![[02d00079.png]]
 
-Scrape the gasket material and clean the combustion deck surfaces on the cylinder block and cylinder head.
+Скрежет прокладочный материал и очищает поверхности палубы сгорания на блоке цилиндров и головке цилиндров.
 
 ![[02900026.png]]
 
-Use a straightedge and a feeler gauge to inspect the cylinder head combustion surface for flatness.
+Используйте выпрямительную кромку и калибр для ощупывания, чтобы проверить поверхность сгорания головки цилиндра на плоскость.
 
-| Cylinder Head Flatness |  |  |  |  |
+| Плоская голова цилиндра |  |  |  |  |
 |---|---|---|---|---|
-|  | mm |  | in |  |
-| End-to-End |  | 0.305 | MAX | 0.012 |
-| Side-to-Side |  | 0.076 | MAX | 0.003 |
+|  | мм |  | в |  |
+| Конец-конец |  | 0.305 | Макс | 0.012 |
+| Поближе к посторонним |  | 0.076 | Макс | 0.003 |
 
-If out of specification, determine if the cylinder head can be resurfaced, or if the cylinder head **must** be replaced by:
+Если за пределами указанных пределов, то следует определить, можно ли повторно вскрыть головку цилиндра или заменить головку цилиндра на:
 
-- Measuring and recording valve depth
-- Measuring and recording injector protrusion.
+- 3.2.2 Измерение и регистрация глубины клапана
+- Измерение и запись протрузии форсунки.
 
-If valve depth and injector protrusion specifications can be maintained, the cylinder head can be resurfaced. If the specifications can **not** be maintained, the cylinder head **must** be replaced.
+Если глубина клапана и спецификации протрузии форсунки могут поддерживаться, головка цилиндра может быть повторно повернута. Если технические характеристики могут быть сохранены, головка цилиндра должна быть заменена.
 
 ![[02900032.png]]
 
-Install a Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero the gauge.
+Установите сборку калибра глубины Cummins®, номер детали 3164438, на палубу сгорания головки цилиндра и обнулите калибр.
 
-Rotate the depth gauge to measure the injector protrusion at the highest point on the injector.
+Поверните калибр глубины для измерения выступа форсунки в самой высокой точке на топливном форсунке.
 
-Record the injector protrusion for each injector.
+Запись выступа форсунки для каждого форсунки.
 
-| Injector Protrusion |  |  |
+| Выступание форсунки |  |  |
 |---|---|---|
-| mm |  | in |
-| 2.45 | MIN | 0.096 |
-| 3.15 | MAX | 0.124 |
+| мм |  | в |
+| 2.45 | Мин | 0.096 |
+| 3.15 | Макс | 0.124 |
 
-> [!note] Note · Примечание
-> Do **not** use thicker or double stacked injector sealing washers to correct injector protrusion. This will cause misalignment of the high-pressure fuel connector.
+> [!note] Примечание
+> **не** Используйте более толстые или двойные укладные топливные герметизирующие шайбы для коррекции протрузии топливного форсунка. Это приведет к смещению топливного разъема высокого давления.
 
 ![[06900104.png]]
 
-If the injector protrusion is out of specification, check the thickness of the injector sealing washer. Refer to Procedure 006-026 in Section 6.
+Если выступ форсунки выходит за пределы спецификации, проверьте толщину шайбы форсунки. См. процедуру 006-026 в разделе 6.
 
-If the sealing washer is the correct thickness, check to make sure the injector bore is clean and free of debris. Also make sure that sealing washers are **not** 'stacked' in the injector bore.
+Если уплотнительная шайба имеет правильную толщину, проверьте, чтобы убедиться, что цилиндр форсунки чист и свободен от мусора. Также убедитесь, что уплотнительные шайбы **не **«сложены» в цилиндре форсунки.
 
-If the injector protrusion is within specification, remove the injectors. Refer to Procedure 006-026 in Section 6.
+Если протрузия форсунки находится в заданных пределах, удалите форсунка. См. процедуру 006-026 в разделе 6.
 
 ![[06900142.png]]
 
-Install a Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero the gauge.
+Установите сборку калибра глубины Cummins®, номер детали 3164438, на палубу сгорания головки цилиндра и обнулите калибр.
 
-Rotate the depth gauge to measure the valve recession into the cylinder head (B).
+Поверните датчик измерения глубины для измерения спада клапана в головку цилиндра (B).
 
-Record the valve depth for each valve.
+Запишите глубину клапана для каждого клапана.
 
-| Intake Valve Depth (Installed) |  |  |
+| Intake клапан Depth (Установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.584 | MIN | 0.023 |
-| 1.092 | MAX | 0.043 |
+| мм |  | в |
+| 0.584 | Мин | 0.023 |
+| 1.092 | Макс | 0.043 |
 
-| Exhaust Valve Depth (Installed) |  |  |
+| Exhaust клапан Depth (установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.965 | MIN | 0.038 |
-| 1.473 | MAX | 0.058 |
+| мм |  | в |
+| 0.965 | Мин | 0.038 |
+| 1.473 | Макс | 0.058 |
 
-> [!note] Note · Примечание
-> Valve depth can be increased slightly for resurfacing of the cylinder head by lapping the valves.
+> [!note] Примечание
+> Глубина клапана может быть немного увеличена для перекрытия головки цилиндра путем защелкивания клапанов.
 
 ![[kn9vank.png]]
 
-If a leaking valve is suspected or if the cylinder head was recently rebuilt, vacuum test the valves and valve seats. Use Cummins® valve vacuum tester, Part Number 3824277, and Cummins® cup, Part Number ST-1257-6. The vacuum **must not** drop more than 25.4 mm Hg \[1.0 in Hg\] in five seconds.
+Если подозревается протекающий клапан или если головка цилиндра была недавно перестроена, проведите вакуумное испытание клапанов и сидений клапана. Используйте вакуумный тестер клапана Cummins®, Номер детали 3824277 и Чашу Cummins®, Номер детали ST-1257-6. Вакуум **не должен **падать более чем на 25,4 мм рт.ст. \[1,0 в рт.ст.] за пять секунд.
 
-> [!note] Note · Примечание
-> If a vacuum tester is **not** available, with the valve removed, use a lead pencil or Dykem™ to mark across the valve face. Install the valve in the valve guide. Hold the valve against the valve seat, and rotate the valve backward and forward three or four times. Correct contact against the valve seat will break the marks on the valve face.
+> [!note] Примечание
+> Если вакуумный тестер не доступен, с удаленным клапаном используйте свинцовый карандаш или DykemTM, чтобы отметить поперек поверхности клапана. Установите клапан в направляющем клапане. Удерживайте клапан против сиденья клапана и поворачивайте клапан назад и вперед три или четыре раза. Правильный контакт с сиденьем клапана разорвет следы на поверхности клапана.
 
-| Valve to Valve Seat Vacuum |  |  |  |
+| клапан Seat Vacuum - Вакуумное место |  |  |  |
 |---|---|---|---|
-|  | kpa |  | in-hg |
-| Used | 51 | NOM | 15 |
-| New | 69 | NOM | 20 |
+|  | каша |  | в хг |
+| использованный | 51 | НМ | 15 |
+| Новый | 69 | НМ | 20 |
 
-If out of specification, disassemble the cylinder head and inspect for damaged valves and/or valve seats. Repair as necessary by:
+Если они выходят за пределы спецификации, разберите головку цилиндра и проверьте наличие поврежденных клапанов и/или сидений клапана. Ремонт по мере необходимости:
 
-- Cleaning the valve/valve seat and lapping the valves
-- Replacing the damaged valve/valve seat, if available
-- Replacing the cylinder head.
+- Очистка клапана/клапанного сиденья и защелкивание клапанов
+- Замена поврежденного клапана/клапанного сиденья, если таковое имеется
+- Замена головки цилиндра.
 
 ![[02d00081.png]]
 
-Use a straightedge and feeler gauge to measure the overall flatness of the cylinder block.
+Используйте выпрямительную и прощупывающую измерительную шкалу для измерения общей плоскости блока цилиндров.
 
-| Cylinder Block Flatness |  |  |  |  |
+| Цилиндр блокирует плоскость |  |  |  |  |
 |---|---|---|---|---|
-|  | mm |  | in |  |
-| End-To-End |  | 0.075 | MAX | 0.003 |
-| Side-To-Side |  | 0.075 | MAX | 0.002 |
+|  | мм |  | в |  |
+| Конец-конец |  | 0.075 | Макс | 0.003 |
+| Поближе к посторонним |  | 0.075 | Макс | 0.002 |
 
-Inspect the combustion deck for any localized dips or imperfections.
+Осмотрите палубу сгорания на предмет любых локализованных провалов или несовершенств.
 
-If out of specification, determine if the cylinder block can be resurfaced or if the cylinder block **must** be replaced. Refer to Procedure 001-026 in Section 1.
+Если блок цилиндров не соответствует указанным пределам, то следует определить, можно ли повторно вскрыть блок цилиндров или необходимо заменить блок цилиндров. См. процедуру 001-026 в разделе 1.
 
 ![[ck900td.png]]
 
-### Disassemble
+### Разборка
 
-Mark the valves to identify their location.
+Пометьте клапаны, чтобы определить их местоположение.
 
 ![[02900045.png]]
 
-Compress the valve springs using the Cummins® valve spring compressor service tool, Part Number 3164329.
+Сжимайте клапанные пружины с помощью инструмента для обслуживания клапанного компрессора Cummins®, номер детали 3164329.
 
-Position the replacer screw (4) above the injector bore and install the two capscrews (5) in the cylinder head where the hold-down clamp screws were removed.
+Поместите замещающий винт (4) над цилиндром форсунки и установите два болта (5) в головке цилиндра, где были удалены зажимные винты.
 
-Tighten the capscrews (5).
+Затягивать болты (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[22d00133.png]]
 
-> [!note] Note · Примечание
-> The valves are **not** evenly spaced from the injector bore. It is important to align the slots in the valve spring compressor plate with the valve springs.
+> [!note] Примечание
+> Клапаны **не** равномерно расположены от цилиндра форсунки. Важно выровнять щели в клапанной пружинной компрессорной пластине с клапанными пружинами.
 
-Apply anti-seize compound to the replacer screw (4) threads. Always read and follow label precautions.
+Нанесите противозахватное соединение на резьбу замещающего винта (4). Всегда читайте и соблюдайте меры предосторожности.
 
-Position the valve spring compressor plate (1) on the replacer screw (4) and align the slots in the valve spring compressor plate with the valve springs.
+Поместите клапанную пружинную компрессорную пластину (1) на замещающий винт (4) и выровните щели в клапанной пружинной компрессорной пластине с клапанными пружинами.
 
-Install the washer (3) and nut (2) on the replacer screw (4).
+Установите шайбу (3) и гайку (2) на винт заменителя (4).
 
 ![[03900059.png]]
 
-> [!danger] WARNING · Опасно
-> Valve springs are under tension and can act as projectiles if released. To reduce the possibility of eye injury, wear safety glasses with side shields.
+> [!danger] ОПАСНО
+> Пружины клапана находятся под напряжением и могут действовать как снаряды, если их выпустить. Чтобы уменьшить вероятность травмы глаз, надевайте защитные очки с боковыми щитками.
 
-Turn the nut (2) **clockwise** to compress the valve springs.
+Поверните гайку (2)** по часовой стрелке**, чтобы сжать пружины клапана.
 
-Continue turning the nut (2) **clockwise** until the valve collets can be removed using a magnetic tool, such as the end of a magnetic screwdriver.
+Продолжайте поворачивать гайку (2)** по часовой стрелке** до тех пор, пока коллеты клапана не будут удалены с помощью магнитного инструмента, такого как конец магнитной отвертки.
 
-Remove the valve collets and the valve spring compressor service tool.
+Удалите клапанные коллеты и инструмент для обслуживания клапанного пружинного компрессора.
 
 ![[22d00132.png]]
 
-Remove the valve spring retainer and valve springs.
+Удалите клапанный пружинный фиксатор и клапанные пружины.
 
 ![[02900047.png]]
 
-> [!note] Note · Примечание
-> Keep the valves in a labeled rack with the associated valve collets, spring retainers, and springs. This will aid in the assembly of the components as a matched set.
+> [!note] Примечание
+> Храните клапаны в маркированной стойке с соответствующими клапанными коллетами, пружинными фиксаторами и пружинами. Это поможет в сборке компонентов в виде согласованного набора.
 
-Remove the valves.
+Удалите клапаны.
 
 ![[02900048.png]]
 
-> [!note] Note · Примечание
-> Prior to removal of the valve stem seals, note the color of the valve stem seal installed at each valve location. The same color valve stem seal **must** be installed in the same valve location when the cylinder head is assembled.
+> [!note] Примечание
+> Перед удалением стволов клапана обратите внимание на цвет стволового уплотнения клапана, установленного в каждом месте клапана. Та же самая цветная герметика клапана должна быть установлена в том же месте клапана, когда головка цилиндра собрана.
 
-Colors Used:
+Используемые цвета:
 
-- Green (exhaust valves)
-- Yellow (intake and exhaust valves).
+- Зеленый (выхлопные клапаны)
+- Желтый (впускной и выпускной клапаны).
 
 ![[02d00298.png]]
 
-Use Cummins® boot pliers, Part Number 3163293, to remove the valve stem seals.
+Используйте загрузочные плоскогубцы Cummins®, номер детали 3163293, для удаления уплотнений стебля клапана.
 
 ![[02900049.png]]
 
-> [!note] Note · Примечание
-> Prior to the removal of the valve seat inserts, reference the Initial Check and Clean and Inspect for Reuse sections in this procedure. The condition of the valve, the amount of recess, and the sealing of the valve on the seat insert all help determine whether or **not** a seat insert needs to be replaced.
+> [!note] Примечание
+> Перед удалением вставок сиденья клапана обратитесь к разделам начальной проверки и очистки и проверки повторного использования в этой процедуре. Состояние клапана, количество углублений и уплотнение клапана на вставке сиденья - все это помогает определить, нужно ли заменить вставку сиденья или нет.
 
-- If required, remove the valve seat inserts.
-- Inspect the valve-insert-to-cylinder-head contact area. A sufficient groove for the remover **must** exist.
-- If there is sufficient valve insert groove area, proceed to the next step.
-- If the valve insert groove area is **not** sufficient, use the Cummins® Valve Seat Insert Cutting Kit, Part Number 3376405, to create a sufficient groove.
+- При необходимости снимите вставки сиденья клапана.
+- Проверить контактную зону вентиля-вставка-в-цилиндр-голову. Достаточное количество канавки для удаления **должно **существовать.
+- Если имеется достаточное количество вставки клапана в область канавки, переходите к следующему шагу.
+- Если площадь канавки вентиляционной вставки **не** достаточна, используйте набор режущей вставки клапана Cummins® клапан Seat Insert Cutting Kit, Part Number 3376405, чтобы создать достаточную канавку.
 
 ![[22100100.png]]
 
-Use the Cummins® slide hammer remover, Part Number 3376617, with Cummins® valve insert remover, Part Number 3165170, to remove the valve seats.
+Используйте Cummins® слайд-удаление молотка, Часть Номер 3376617, с Cummins® клапана вставки устранитель, Часть Номер 3165170, чтобы удалить клапан сидений.
 
-> [!note] Note · Примечание
-> Make certain the valve insert remover assembly is perpendicular to the cylinder head when installed.
+> [!note] Примечание
+> Убедитесь, что сборка клапанного вставки перпендикулярна головке цилиндра при установке.
 
-Insert the valve insert remover assembly into the valve insert and rotate the T-handle **clockwise** until the remover loosely grips the valve insert.
+Вставьте в клапанную вставку уборщик вставки и поверните T-ручку **по часовой стрелке **до тех пор, пока уборщик не схватит вставку клапана.
 
-Position the valve insert remover assembly into the valve insert groove area. Tighten the T-handle firmly, allowing the remover to expand under the valve insert or into the cut groove.
+Поместите вентильную вставку в сборку-удаление в область канавки вентиля. Затяните Т-ручку крепко, позволяя устранителю расширяться под вставкой клапана или в разрезанную канавку.
 
-Strike the slide hammer remover against the top nut until the valve insert is removed. Turn the T-handle **counterclockwise** to release the valve insert from the remover.
+Ударь молотком скольжения по верхнему гайку, пока вставка клапана не будет удалена. Поверните T-ручку **против часовой стрелки**, чтобы освободить вставку клапана от вынимателя.
 
 ![[kn2isma.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Keep the gasket material, and any other foreign materials, out of the air intake.
+Держите прокладку и любые другие посторонние материалы вне воздухозаборника.
 
-If removed, clean the cylinder head sealing surfaces where the air intake manifold seals.
+Если они удалены, очистите уплотняющие поверхности головки цилиндра, где уплотняет коллектор воздухозаборника.
 
 ![[10d00065.png]]
 
-Use an injector bore brush, Part Number 3822510, or equivalent, to clean the carbon from the injector seat.
+Используйте щетку цилиндра форсунки, номер детали 3822510 или эквивалент, для очистки углерода от сиденья форсунки.
 
 ![[02d00085.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use a bristle brush to clean the inside diameter of the valve guide bore.
+Используйте щетку для очистки внутреннего диаметра цилиндра направляющего клапана.
 
-Blow out with compressed air.
+Выдувайте сжатым воздухом.
 
 ![[kn900ef.png]]
 
-Excessive deposits can be cleaned in an acid tank, but the expansion plugs **must** be removed first. Refer to Procedure 017-002 in Section 17.
+Избыточные отложения можно очистить в кислотном резервуаре, но вилки расширения должны быть сначала удалены. См. процедуру 017-002 в разделе 17.
 
-If required, clean the buildup of deposits in the coolant passages.
+При необходимости очищайте накопление отложений в проходах охлаждающей жидкости.
 
 ![[02900027.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Clean the cylinder head combustion deck with Cummins® abrasive hand pad, Part Number 3823258, or equivalent, and solvent.
+Очистите палубу сгорания головки цилиндра абразивной ручной подушкой Cummins®, номером части 3823258 или эквивалентом, и растворителем.
 
 ![[02900028.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective eye covering while cleaning carbon deposits to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Носите защитное покрытие для глаз при очистке отложений углерода, чтобы уменьшить вероятность травм.
 
-> [!warning] CAUTION · Осторожно
-> Contacting the valve seat with the wire wheel while it is spinning will damage the valve seat. If this occurs, new valve seats must be cut or new valve seat inserts must be installed.
+> [!warning] ОСТОРОЖНО
+> Контактирование сиденья клапана с проводным колесом во время его вращения повредит сиденье клапана. Если это происходит, то необходимо разрезать новые сиденья клапана или установить новые вставки сидений клапана.
 
-Inspect the area within 1/8-inch of the firing ring diameter. Any wear that can be felt with a fingernail within the 1/8-inch area is unacceptable, making the cylinder head **not** reusable. Wear beyond this 1/8-inch area will have no effect on future combustion sealing and the usability of the cylinder head.
+Осмотрите область в пределах 1/8 дюйма диаметра обжигающего кольца. Любой износ, который можно почувствовать ногтем в пределах 1/8-дюймовой области, недопустим, что делает головку цилиндра не пригодной для повторного использования. Ношение за пределами этой 1/8-дюймовой области не повлияет на будущее уплотнение при горении и удобство использования головки цилиндра.
 
-> [!note] Note · Примечание
-> An inferior-quality wire wheel will lose steel bristles during operation, causing additional contamination.
+> [!note] Примечание
+> Некачественное проволочное колесо потеряет стальную щетинку во время работы, что приведет к дополнительному загрязнению.
 
-Clean carbon deposits from the valve pockets with a high-quality steel wire wheel installed in a drill or die grinder.
+Чистые углеродные отложения из клапанных карманов с высококачественным стальным проволочным колесом, установленным в сверле или шлифовальной машине.
 
 ![[02900029.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use a wire brush and solvent to clean the deposits from the valve seat insert bores if it was necessary to remove the valve seat inserts.
+Используйте проволочную щетку и растворитель для очистки отложений от вставок сиденья клапана, если необходимо было удалить вставки сиденья клапана.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[kn2breb.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Wash the cylinder head in a hot, soapy water solution.
+Вымойте головку цилиндра в горячем, мыльном водном растворе.
 
-Rinse the cylinder head with clean water.
+Промойте головку цилиндра чистой водой.
 
-Dry the cylinder head with compressed air.
+Высушить головку цилиндра сжатым воздухом.
 
 ![[02900072.png]]
 
-Cylinder Head Cracks - Reuse Guidelines
+Цилиндровые головные трещины - Руководство по повторному использованию
 
-With the cylinder head cleaned, inspect the cylinder head for signs of cracks, fretting, and discoloration that would prohibit reuse.
+После очистки головки цилиндра проверьте головку цилиндра на наличие признаков трещин, трения и обесцвечивания, которые запрещают повторное использование.
 
-To help identify cracks in the cylinder block, use the Cummins® Crack Detection Kit, Part Number 3375432.
+Чтобы помочь определить трещины в блоке цилиндров, используйте Cummins® Crack Detection Kit, Part Number 3375432.
 
-Pay close attention to areas of the cylinder head that include:
+Обратите пристальное внимание на области головки цилиндра, которые включают:
 
-- Injector bore
-- Combustion face
-- Valve seats
-- Valve guides.
+- цилиндр форсунки
+- лицо горения
+- Вентиляционные сиденья
+- Гиды по клапанам.
 
 ![[02900030.png]]
 
-The reuse guidelines for a cylinder head with a crack extending from the injector bore to the intake valve seat are as follows:
+Рекомендации по повторному использованию головки цилиндра с трещиной, простирающейся от цилиндра форсунки до сиденья впускного клапана, следующие:
 
-- If the crack does **not** extend into the valve seat, the cylinder head is reusable.
+- Если трещина распространяется **не** в сиденье клапана, головка цилиндра многоразовая.
 
 ![[02d00080.png]]
 
-> [!warning] CAUTION · Осторожно
-> Failure to replace the cylinder head for a crack that extends into or through the valve seat bore will result in a valve seat insert falling out. Engine damage will result.
+> [!warning] ОСТОРОЖНО
+> Неспособность заменить головку цилиндра на трещину, которая распространяется в цилиндр цилиндра сиденья клапана или через него, приведет к выпадению вставки сиденья клапана. В результате будет поврежден двигатель.
 
-- If the crack extends into or through the valve seat, the cylinder head **must** be replaced.
+- Если трещина распространяется на сиденье клапана или через него, головка цилиндра должна быть заменена.
 
 ![[02900031.png]]
 
-If still installed, inspect the valve seats for cracks or burnt spots.
+Если все еще установлен, осмотрите сиденья клапана на наличие трещин или сгоревших пятен.
 
-If the valve seat inserts are damaged, the cylinder head **must** be machined or replaced.
+Если вставки клапанного сиденья повреждены, головка цилиндра должна быть обработана или заменена.
 
 ![[02900050.png]]
 
-If the valve seat insert was removed in the Disassemble section, measure the inside diameter of the valve seat insert bore in the cylinder head.
+Если вставка сиденья клапана была удалена в раздел Разборка, измерьте внутренний диаметр цилиндра вставки сиденья клапана, который находился в головке цилиндра.
 
-| Cylinder Head Insert Bore Inside Diameter. |  |  |
+| Цилиндровый цилиндр Head Insert вставлен внутри диаметра. |  |  |
 |---|---|---|
-| mm |  | in |
-| 34.847 | MIN | 1.3719 |
-| 34.863 | MAX | 1.3726 |
+| мм |  | в |
+| 34.847 | Мин | 1.3719 |
+| 34.863 | Макс | 1.3726 |
 
-> [!note] Note · Примечание
-> Before cutting the cylinder head, verify valve seat inserts are available for the engine being serviced. If none are available, the cylinder head **must** be replaced.
+> [!note] Примечание
+> Перед тем, как разрезать головку цилиндра, проверьте вставки сиденья клапана доступны для двигателя, обслуживаемого. Если нет, то головку цилиндра необходимо заменить.
 
-If out of specification, the valve seat insert bore can be oversized 0.254 mm (0.010 in) or 0.508 mm (0.020 in).
+Если за пределами указанных пределов, то цилиндровый цилиндр вставки клапанного сиденья может иметь размеры 0,254 мм (0,010 дюйма) или 0,508 мм (0,020 дюйма).
 
-Use Cummins® valve seat cutter, Part Number ST257, or Cummins® valve seat insert tool kit with Cummins® valve guide arbor, Part Number 3165184, to cut the cylinder head to accept oversize valve seat inserts. Use Cummins® valve seat cutter, Part Number 3165183, for 0.254 mm (0.010 in) or 3165184 for 0.508 mm (0.020 in).
+Используйте Cummins® клапанный режущий сиденье, часть номер ST257, или Cummins® клапанный вставной набор сидений с клапанной направляющей арбора Cummins®, часть номер 3165184, чтобы разрезать головку цилиндра, чтобы принять вставки сидений клапана негабаритного размера. Используйте Cummins® клапанный резец сидений, номер детали 3165183, для 0,254 мм (0,010 дюйма) или 3165184 для 0,508 мм (0,020 дюйма).
 
 ![[kn2brtd.png]]
 
-Valve Guide - Reuse Guidelines
+клапан Guide - Руководство по повторному использованию
 
-Inspect the valve guides for scuffing or scoring.
+Осмотрите направляющие клапана для потасовки или забивания.
 
-Measure the valve guide inside diameter (I.D.)
+Измерить направляющий клапан внутри диаметра (I.D.)
 
-| Valve Guide Bore Diameter |  |  |
+| клапан Guide цилиндровый диаметр |  |  |
 |---|---|---|
-| mm |  | in |
-| 7.027 | MIN | 0.2767 |
-| 7.077 | MAX | 0.2786 |
+| мм |  | в |
+| 7.027 | Мин | 0.2767 |
+| 7.077 | Макс | 0.2786 |
 
-If the valve guide bore is worn larger than the maximum specified, or if inspection reveals damaged valve guides, the cylinder head **must** be replaced.
+Если штанга направляющего цилиндра клапана изношена больше максимально указанного размера или если при осмотре обнаруживаются поврежденные направляющие клапана, головку цилиндра необходимо заменить.
 
 ![[kn900kj.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective eye covering when cleaning the valves with a wire wheel to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Носите защитное покрытие для глаз при чистке клапанов с помощью проволочного колеса, чтобы уменьшить вероятность получения травмы.
 
-Clean the valve heads with a soft wire wheel.
+Очистите головки клапанов мягким проволочным колесом.
 
-> [!note] Note · Примечание
-> Keep the valves in a labeled rack to prevent mixing. This will aid in analysis and assembly.
+> [!note] Примечание
+> Храните клапаны в маркированной стойке, чтобы предотвратить смешивание. Это поможет в анализе и сборке.
 
 ![[kn9vaea.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Polish the valve stems with a Cummins® abrasive pad, Part Number 3823258, and solvent.
+Польский клапан выдерживается абразивной прокладкой Cummins®, номером части 3823258 и растворителем.
 
 ![[kn9vaeb.png]]
 
-Valve - Reuse Guidelines
+клапан - Reuse Guidelines
 
-Inspect the valves for:
+Проверить клапаны на:
 
-- Excessive wear on the heads and stems
-- Excessive wear on the valve stem tip
-- Bends and distortion.
+- Чрезмерный износ на головах и стеблях
+- Чрезмерный износ на кончике стебля клапана
+- Сгибания и искажения.
 
 ![[kn9vasc.png]]
 
-Inspect the valves for damage and the collet grooves for wear.
+Осмотрите клапаны на предмет повреждения и канавки кольты на предмет износа.
 
-Measure the outside diameter of the valve stem.
+Измерить внешний диаметр стебля клапана.
 
-Three measurements **must** be taken of each valve stem at 45 mm \[1.77 in.\], 70 mm \[2.75 in.\], 95 mm \[3.74 in.\] from the surface of the valve head.
+Три измерения должны быть сделаны с каждого стебля клапана на 45 мм \[1,77 дюйма \], 70 мм \[2,75 дюйма \], 95 мм \[3,74 дюйма \] от поверхности головки клапана.
 
-| Valve Stem Outside Diameter |  |  |
+| Вальвация ствол за пределами диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 6.99 | MIN | 0.2752 |
-| 7.01 | MAX | 0.2760 |
+| мм |  | в |
+| 6.99 | Мин | 0.2752 |
+| 7.01 | Макс | 0.2760 |
 
-If the valves are damaged or the stems are worn smaller than the minimum specified, the valves **must** be replaced.
+Если клапаны повреждены или стебли изношены меньше, чем указано минимально, клапаны должны быть заменены.
 
 ![[02800003.png]]
 
-Inspect the valve springs.
+Проверьте клапанные пружины.
 
 ![[kn9spta.png]]
 
-Use Cummins® valve spring tester, Part Number 3375182, to compress the valve spring. A load of 320.8 to 358.8 N \[72 to 80.7 lbf\] is required to compress a spring to a height of 35.33 mm \[1.39 in\].
+Используйте Cummins® клапанный пружинный тестер, номер детали 3375182, для сжатия клапанной пружины. Для сжатия пружины на высоту 35,33 мм требуется нагрузка от 320,8 до 358,8 Н[72 до 80,7 фунт/фут][1,39 дюйма].
 
-> [!note] Note · Примечание
-> If the valve spring is **not** within specification, a new valve spring **must** be used.
+> [!note] Примечание
+> Если рессорный клапан **не** в пределах спецификации, то должна быть использована новая рессорная рессорная система.
 
 ![[kn9sptb.png]]
 
-Inspect the valve spring retainers and valve collets for damage or worn areas.
+Проверить клапанные пружинные фиксеры и клапанные коллеты на предмет повреждения или изношенных областей.
 
-Discard and replace damaged or worn parts.
+Откажитесь от поврежденных или изношенных частей.
 
 ![[kn2gusa.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!warning] CAUTION · Осторожно
-> Do not use caustic or acid solutions to clean the cylinder head capscrews. Component damage can occur.
+> [!warning] ОСТОРОЖНО
+> Не используйте каустические или кислотные растворы для очистки головных болтов цилиндров. Могут возникнуть повреждения компонентов.
 
-Use a petroleum-based solvent to clean the capscrews.
+Используйте растворитель на масляной основе для очистки болтов.
 
-Clean the capscrews thoroughly with a wire brush, soft wire wheel, or nonabrasive bead blast to remove deposits from the shank and threads.
+Тщательно очистите болты с помощью проволочной щетки, мягкого проволочного колеса или нонабразивного взрыва бусины, чтобы удалить отложения из щебня и резьбы.
 
 ![[kn1csea.png]]
 
-Cylinder Head Capscrew - Reuse Guidelines
+Цилиндровые затворы головы - Руководство по повторному использованию
 
-Inspect the cylinder head capscrews for damaged threads, corroded surfaces, or a reduced diameter (due to capscrew stretching).
+Осмотрите головные болты цилиндров на наличие поврежденных резьбовых, корродированных поверхностей или уменьшенного диаметра (из-за растяжения болтов).
 
-Do **not** reuse cylinder head capscrews under the following conditions:
+**не** повторно использовать болты головки цилиндра при следующих условиях:
 
-- Visible corrosion or pitting exceeding 1 sq cm \[0.155 sq in\] in area.
+- Видимая коррозия или ямка, превышающая 1 кв. см \[0,155 кв. в\] в области.
 
-Example:
+Пример:
 
-Acceptable is 9.525 x 9.525 mm \[3/8 x 3/8 in\].
+Допустимым является 9,525 x 9,525 мм \[3/8 x 3/8 in\].
 
-Unacceptable is 12.700 x 12.700 mm \[½ x ½ in\].
+Неприемлемо 12,700 x 12,700 мм \[1⁄2 x 1⁄2 in\].
 
-- Visible corrosion or pitting exceeds 0.12 mm \[0.005 in\] in depth.
-- Visible corrosion or pitting is located within 3.2 mm \[1/8 in\] of the fillet or thread.
-- Stretched beyond "free-length" maximum. See the measurement procedure below:
+- Видимая коррозия или пропитка превышает 0,12 мм \[0,005 дюйма \] в глубину.
+- Видимая коррозия или прокладка находится в пределах 3,2 мм \[1/8 в\] филе или резьбы.
+- Вытянутый за пределы максимума «свободной длины». См. процедуру измерения ниже:
 
 ![[kn1cssa.png]]
 
-Free-Length Measurement
+Свободно-длинное измерение
 
-> [!note] Note · Примечание
-> If the capscrews are **not** damaged, they can be reused throughout the life of the engine, unless the specified free length is exceeded.
+> [!note] Примечание
+> Если болты не повреждены, они могут быть повторно использованы в течение всего срока службы двигателя, если не превышена указанная свободная длина.
 
-To check the capscrew free length using Cummins® capscrew length gauge, Part Number [[3164057]], place the head of the capscrew in the appropriate slot, with the flange against the base of the slot.
+Для проверки длины болтов без использования измерителя длины болтов Cummins®, номер детали[[3164057]], поместите головку болтов в соответствующее отверстие, с фланцем против основания отверстия.
 
-> [!note] Note · Примечание
-> Most new cylinder head gaskets and upper engine gaskets include the Cummins® capscrew length gauge, Part Number [[3164057]].
+> [!note] Примечание
+> Большинство новых прокладок головки цилиндра и прокладок верхних двигателей включают измеритель длины болтов Cummins®, номер детали[[3164057]].
 
 ![[02900009.png]]
 
-If the end of the capscrew touches the foot of the gauge, the capscrew is too long and **must** be discarded.
+Если конец болтов касается подножия измерительной ширины, болты слишком длинные и должны быть выброшены.
 
-| Capscrew Free Length |  |  |
+| болты Свободная длина |  |  |
 |---|---|---|
-| mm |  | in |
-| 152.1 | MAX | 5.99 |
+| мм |  | в |
+| 152.1 | Макс | 5.99 |
 
 ![[02900010.png]]
 
-### Pressure Test
+### Испытание на давление
 
-If troubleshooting an internal coolant leak or coolant loss symptom, a cylinder head test fixture can be fabricated from a flat piece of steel or aluminum to pressure test the cylinder head.
+Если устранение неисправности внутренней утечки охлаждающей жидкости или симптома потери охлаждающей жидкости, испытательный прибор для головки цилиндра может быть изготовлен из плоского куска стали или алюминия для испытания на давление головки цилиндра.
 
-Reference the following table for test fixture dimensions.
+См. следующую таблицу для измерений испытательного крепления.
 
-| 16 mm | Thickness | 0.630 in |
+| 16 мм | Толщина | 0,630 в |
 |---|---|---|
-| 749 mm | Length | 29.5 in |
-| 193 mm | Width | 7.6 in |
+| 749 мм | Длина | 29,5 в |
+| 193 мм | широта | 7.6 в |
 
-> [!note] Note · Примечание
-> Use the old cylinder head gasket as a pattern for drilling the capscrew holes.
+> [!note] Примечание
+> Используйте старую прокладку головки цилиндра в качестве шаблона для сверления отверстий болтов.
 
 ![[kn9gknb.png]]
 
-Install the thermostat, water outlet connection, and mounting capscrews.
+Установите термостат, водоотводное соединение и крепежные болты.
 
-> [!note] Note · Примечание
-> If equipped with remote mounted thermostat, refer to the OEM service manual for the instructions that apply to the engine being serviced.
+> [!note] Примечание
+> Если он оснащен термостатом с дистанционным креплением, обратитесь к руководству по обслуживанию OEM для инструкций, которые применяются к обслуживаемому двигателю.
 
-Tighten the capscrews
+Затянуть болты
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
-Install the engine coolant temperature sensor, located next to the water outlet connection.
+Установите датчик температуры охлаждающей жидкости двигателя, расположенный рядом с водоотводным соединением.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
-> [!note] Note · Примечание
-> The thermostat contains two check balls to vent air past the thermostat when closed. Install a rubber cap and hose clamp over the water outlet connection to prevent air from leaking through the check balls.
+> [!note] Примечание
+> Термостат содержит два контрольных шара, чтобы пропускать воздух мимо термостата при закрытии. Установите резиновую крышку и зажим шланга над соединением с водоотводом, чтобы предотвратить утечку воздуха через контрольные шары.
 
 ![[08d00094.png]]
 
-Install the cylinder head water test fixture.
+Установите испытательный прибор для воды с головкой цилиндра.
 
-- Install a new head gasket.
-- Install the test plate.
-- Install the following:
+- Установите новую прокладку.
+- Установите испытательную пластину.
+- Установите следующее:
 
-- 26 - 180-mm-long grade 12.9 flange head capscrews
-- 26 - M12 x 1.75 hex flange nuts
-- 52 - 12-mm washers.
+- 26 - 180-мм длиной 12,9 фланговые головные болты
+- 26 - M12 x 1,75 хекс фланцевые гайки
+- 52 - 12-мм шайбы.
 
-> [!note] Note · Примечание
-> Place a washer between each capscrew and the head, and between each nut and test plate. This will prevent mutilation on the surface of the cylinder head.
+> [!note] Примечание
+> Поместите шайбу между каждым болтом и головой, а также между каждым гайкой и испытательной пластиной. Это позволит предотвратить увечья на поверхности головки цилиндра.
 
 ![[kn9plaa.png]]
 
-Tighten the nuts in the sequence illustrated.
+Затяните гайки в проиллюстрированной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
 ![[02d00067.png]]
 
-Service Tip: To apply air pressure to the cylinder head, remove one of the pipe plugs located on the exhaust side of the cylinder head. This is the same port used, when the cylinder head is installed to check cylinder block coolant pressures.
+Совет по обслуживанию: Для приведения давления воздуха в головку цилиндра удалите одну из трубных пробок, расположенных на стороне выхлопа головки цилиндра. Это тот же порт, который используется, когда головка цилиндра установлена для проверки давления охлаждающей жидкости блока цилиндров.
 
 ![[14900025.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы уменьшить вероятность серьезных травм, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-> [!note] Note · Примечание
-> Make sure to plug or seal any open coolant ports before pressure testing the cylinder head.
+> [!note] Примечание
+> Убедитесь, что вы подключили или запечатали любые открытые порты охлаждающей жидкости перед испытанием на давление головки цилиндра.
 
-Connect a Cummins® regulated air supply hose, Part Number 3164231, to the cylinder head.
+Подсоедините регулируемый шланг подачи воздуха Cummins®, номер детали 3164231, к головке цилиндра.
 
-Apply air pressure.
+Примените давление воздуха.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Air Pressure: | 276 | 40 |
+|  | каша | пси |
+| Воздушное давление: | 276 | 40 |
 
-Use a nylon lifting strap and a hoist to place the cylinder head in a tank of heated water.
+Используйте нейлоновый подъемный ремешок и подъемник, чтобы поместить головку цилиндра в резервуар с нагретой водой.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | celsius | fahrenheit |
-| Water Temperature: | 60 | 140 |
+|  | целий | Фаренгейт |
+| Температура воды: | 60 | 140 |
 
-> [!note] Note · Примечание
-> The cylinder head **must** be completely submerged in the water.
+> [!note] Примечание
+> Головка цилиндра должна быть полностью погружена в воду.
 
 ![[kn900kd.png]]
 
-Inspect the head. Bubbles indicate an air leak.
+Проверьте голову. Пузыри указывают на утечку воздуха.
 
-If any bubbles exist, verify the air leak is **not** coming from:
+Если существуют какие-либо пузырьки, убедитесь, что утечка воздуха происходит из:
 
-- Any cup plugs or fittings installed in the cylinder head
-- Test fixture or air line fittings
-- Water outlet connection.
+- Любые заглушки или фитинги для стаканов, установленные в головке цилиндра
+- 6.2.1 Испытательная арматура или фитинги для воздушных линий сжатого воздуха
+- Патрубок отвода воды.
 
-If the above checks out OK and bubbles are present, the cylinder head leaks and it **must** be replaced.
+Если вышеприведенное проверяет наличие ОК и пузырьков, головка цилиндра течет и ее необходимо заменить.
 
 ![[kn900ke.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Remove the test fixture.
+Удалите испытательный прибор.
 
-Use compressed air to dry the cylinder head.
+Используйте сжатый воздух для высушивания головки цилиндра.
 
 ![[kn9toma.png]]
 
-### Assemble
+### Сборка
 
-Install the cylinder head in the Cummins® cylinder head holding fixture, Part Number ST-583.
+Установите головку цилиндра в крепление головки цилиндра Cummins®, часть номер ST-583.
 
 ![[02d00079.png]]
 
-When installing the valve seat inserts, note that the exhaust and intake valve seat inserts are **not** the same.
+При установке вставок сиденья клапана обратите внимание, что вставки сиденья выхлопного и впускного клапанов **не** одинаковы.
 
-Valve seat angle:
+Угол поворота сиденья:
 
-- Intake 30-degrees
-- Exhaust 45-degrees.
+- Прием 30-градусных
+- Выхлопные 45 градусов.
 
-If new valve seat inserts are installed, check valve depth and perform a valve leak test. Reference the Initial Check section in this procedure.
+Если установлены новые вставки сиденья клапана, проверьте глубину клапана и выполните испытание на утечку клапана. Ссылка на раздел начальной проверки в этой процедуре.
 
 ![[kn9vank.png]]
 
-If the valve seat inserts were removed in the Disassemble section, new inserts **must** be installed.
+Если вставки сиденья клапана были удалены в раздел "Разборка", то должны быть установлены новые вставки.
 
-The insert chamfer (1) **must** be installed toward the bottom of the counterbore.
+Вставной шлем (1) должен быть установлен к нижней части противоборства.
 
-Use Cummins® valve seat installer, Part Number 3165171, to drive the intake and exhaust valve seat inserts into the counterbore.
+Используйте установщик клапанных сидений Cummins®, номер детали 3165171, для привода впускных и выпускных вставок сидений клапана в противоборную трубу.
 
-Use a dead blow hammer with the seat drivers to install the new valve seat inserts.
+Используйте молоток с мертвым ударом с водителями сидений для установки новых вставок сидений клапана.
 
 ![[02c00129.png]]
 
-If new valve seat inserts were installed and/or the valve leakage was above specification, the valve seat/valve can be lapped.
+Если установлены новые вставки сиденья клапана и/или утечка клапана была выше спецификации, сиденье клапана/клапан может быть пробито.
 
-Lubricate the stems with Society of Automotive Engineers (SAE) 15W-40 engine oil before installing the valves.
+Смазать стебли с помощью моторного масла 15W-40 Общества автомобильных инженеров (SAE) перед установкой клапанов.
 
-Use a Cummins® fine lapping compound, Part Number 3375805, or equivalent to apply a thin and even coating on the valve face.
+Используйте тонкое смыкающее соединение Cummins®, часть 3375805 или эквивалентное нанесение тонкого и даже покрытия на поверхность клапана.
 
-Use a power or a hand suction lapping tool to provide pressure in the center of the valve.
+Используйте электропитание или ручной инструмент для присосания, чтобы обеспечить давление в центре клапана.
 
-Turn the valve backward and forward. Continue lapping until the compound shows a continuous contact pattern on both the valve seat insert and the valve.
+Поверните клапан назад и вперед. Продолжайте стучать, пока соединение не покажет непрерывный контактный рисунок как на вставке сиденья клапана, так и на клапане.
 
 ![[02400070.png]]
 
-> [!warning] CAUTION · Осторожно
-> Lapping compound is an abrasive material. Failure will result if the cylinder head, the valves, and the valve seats are not cleaned thoroughly.
+> [!warning] ОСТОРОЖНО
+> Отщепляющееся соединение представляет собой абразивный материал. Отказ произойдет, если головка цилиндра, клапаны и сиденья клапана не будут тщательно очищены.
 
-Clean the lapping compound from the parts.
+Очистите заплетающееся соединение от частей.
 
 ![[02400068.png]]
 
-If lapping of the valves was required, measure the rim thickness to determine if there is enough rim material left.
+Если требуется защелкивание клапанов, измерьте толщину обода, чтобы определить, достаточно ли материала обода осталось.
 
-| Valve Rim Thickness Limit |  |  |
+| клапан Rim Thickness Limit (Тяжесть) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.79 | MIN | 0.031 |
+| мм |  | в |
+| 0.79 | Мин | 0.031 |
 
-If the valve rim thickness is **not** within the limits, a new valve **must** be used.
+Если толщина обода клапана **не** в пределах, то должен быть использован новый клапан.
 
 ![[02d00006.png]]
 
-> [!warning] CAUTION · Осторожно
-> Lubricate all the valve guide bores and valve stems with SAE 15W-40 engine oil. Failure to lubricate the valve guides and valve stems can result in premature valve guide wear.
+> [!warning] ОСТОРОЖНО
+> Смазать все направляющие клапана и стебли клапана моторным маслом SAE 15W-40. Неспособность смазать направляющие клапана и стебли клапана может привести к преждевременному износу направляющих клапанов.
 
-Lubricate the valve stems with clean SAE 15W-40 engine oil before installing the valves.
+Смазать стебли клапана чистым моторным маслом SAE 15W-40 перед установкой клапанов.
 
-Install the valves.
+Установите клапаны.
 
-> [!note] Note · Примечание
-> If the same valves as previously removed are to be used, make sure to install the valves in the same locations from which the valves were removed.
+> [!note] Примечание
+> Если необходимо использовать те же клапаны, что и ранее удаленные, убедитесь, что они установлены в тех же местах, откуда были удалены клапаны.
 
-If the cylinder head will **not** be used immediately, lubricate the valve stems with Cummins® assembly lubricant, Part Number 3163087, or equivalent.
+Если головка цилиндра будет использоваться **не** немедленно, смазайте стебли клапана смазкой Cummins®, Номер детали 3163087 или эквивалент.
 
 ![[02900052.png]]
 
-> [!warning] CAUTION · Осторожно
-> The same color valve stem seal must be installed in the same location as removed. Incorrect valve stem seals will result in excessive oil consumption and internal engine damage.
+> [!warning] ОСТОРОЖНО
+> Уплотнение из ствола клапана того же цвета должно быть установлено в том же месте, что и удалено. Неправильные уплотнения стеблей клапанов приведут к чрезмерному потреблению масла и внутреннему повреждению двигателя.
 
-Install new valve stem seals of the same color as removed, and in the same locations.
+Установите новые уплотнения клапанных стеблей того же цвета, что и удаленные, и в тех же местах.
 
-There are two colors of valve stem seals used:
+Используются два цвета стволовых уплотнений клапанов:
 
-- Green (exhaust valves)
-- Yellow (intake and exhaust valves).
+- Зеленый (выхлопные клапаны)
+- Желтый (впускной и выпускной клапаны).
 
 ![[02d00298.png]]
 
-Use a Cummins® valve stem installation tool, Part Number 3164055, to install new valve stem seals.
+Используйте инструмент установки клапанного ствола Cummins®, Номер детали 3164055, для установки новых уплотнений клапанного ствола.
 
-The valve stem seals can be installed by hand. The installation tool will aid with installing the valve stem seals, but is **not** mandatory.
+Стволовые уплотнения клапана могут быть установлены вручную. Инструмент установки поможет с установкой уплотнений клапанного стебля, но не является обязательным.
 
-Use hand pressure to keep the valves from falling out during installation.
+Используйте давление рук, чтобы предохранить клапаны от выпадения во время установки.
 
 ![[02d00052.png]]
 
-Install the valve spring retainer and valve springs.
+Установите клапанный пружинный фиксатор и клапанные пружины.
 
 ![[02900047.png]]
 
-Compress the valve springs using the Cummins® valve spring compressor service tool, Part Number 3164329.
+Сжимайте клапанные пружины с помощью инструмента для обслуживания клапанного компрессора Cummins®, номер детали 3164329.
 
-Position the replacer screw (4) above the injector bore and install the two capscrews (5) in the cylinder head where the hold-down clamp screws were removed.
+Поместите замещающий винт (4) над цилиндром форсунки и установите два болта (5) в головке цилиндра, где были удалены зажимные винты.
 
-Tighten the capscrews (5).
+Затягивать болты (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[22d00133.png]]
 
-The valves are **not** evenly spaced from the injector bore. It is important to align the slots in the valve spring compressor plate with the valve springs.
+Клапаны **не** равномерно расположены от цилиндра форсунки. Важно выровнять щели в клапанной пружинной компрессорной пластине с клапанными пружинами.
 
-Apply anti-seize lubricant to the replacer screw (4) threads. **Always** read and follow label precautions.
+Нанесите антизахватную смазку на резьбу замещающего винта (4). Всегда читайте и соблюдайте меры предосторожности.
 
-Position the valve spring compressor plate (1) on the replacer screw (4) and align the slots in the valve spring compressor plate with the valve springs.
+Поместите клапанную пружинную компрессорную пластину (1) на замещающий винт (4) и выровните щели в клапанной пружинной компрессорной пластине с клапанными пружинами.
 
-Install the washer (3) and nut (2) on the replacer screw (4).
+Установите шайбу (3) и гайку (2) на винт заменителя (4).
 
 ![[03900059.png]]
 
-> [!danger] WARNING · Опасно
-> Valve springs are under tension and can act as projectiles if released. To reduce the possibility of eye injury, wear safety glasses with side shields.
+> [!danger] ОПАСНО
+> Пружины клапана находятся под напряжением и могут действовать как снаряды, если их выпустить. Чтобы уменьшить вероятность травмы глаз, надевайте защитные очки с боковыми щитками.
 
-Compress the valve springs until the valve collets can be installed.
+Сжимайте пружины клапана до тех пор, пока не будут установлены коллеты клапана.
 
-Install the valve collets.
+Установите клапанные коллеты.
 
-Service Tip: Use Cummins® assembly lube, Part Number 3163087, or equivalent, on the valve collets to help hold them in place until the valve spring compressor is released.
+Совет по обслуживанию: Используйте смазку сборки Cummins®, номер детали 3163087 или эквивалент, на коллетах клапана, чтобы помочь удерживать их на месте до тех пор, пока не будет выпущен компрессор пружины клапана.
 
-Remove the Cummins® valve spring compressor service tool, Part Number 3164329.
+Удалите инструмент для обслуживания клапанного компрессора Cummins®, номер детали 3164329.
 
 ![[02d00087.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear eye protection. If the collets are not correctly installed, they can fly out when the stems are hit with a hammer.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, используйте защиту глаз. Если коллеты неправильно установлены, они могут вылететь, когда стебли ударяются молотком.
 
-After assembly, hit the valve stems with a plastic hammer to make sure the collets are seated.
+После сборки ударьте стебли клапана пластиковым молотком, чтобы убедиться, что кольты сидят.
 
 ![[02d00088.png]]
 
-### Measure
+### Измерение
 
-> [!warning] CAUTION · Осторожно
-> Improper injector protrusion can cause performance problems and high-pressure fuel leaks due to misalignment of the fuel connector.
+> [!warning] ОСТОРОЖНО
+> Неправильная протрузия форсунки может вызвать проблемы с производительностью и утечки топлива высокого давления из-за смещения топливного разъема.
 
-Install the injectors with sealing washers into the cylinder head. Refer to Procedure 006-026 in Section 6.
+Установите форсунку с уплотняющими шайбами в головку цилиндра. См. процедуру 006-026 в разделе 6.
 
-Measure the injector protrusion.
+Измерьте протрузию форсунки.
 
 ![[02d00089.png]]
 
-Install Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero.
+Установите сборку калибра глубины Cummins®, номер детали 3164438, на палубу сгорания головки цилиндра и ноль.
 
-Rotate the depth gauge so it is measuring the injector protrusion at the highest point on the injector.
+Поверните датчик измерения глубины, чтобы он измерял выступ форсунки в самой высокой точке на топливном форсунке.
 
-Measure the injector protrusion for each injector.
+Измерьте выступ форсунки для каждого форсунки.
 
-| Injector Protrusion |  |  |
+| Выступание форсунки |  |  |
 |---|---|---|
-| mm |  | in |
-| 2.45 | MIN | 0.096 |
-| 3.15 | MAX | 0.124 |
+| мм |  | в |
+| 2.45 | Мин | 0.096 |
+| 3.15 | Макс | 0.124 |
 
 ![[06900104.png]]
 
-If the injector protrusion is out of specification, check the thickness of the injector sealing washer. Refer to Procedure 006-026 in Section 6.
+Если выступ форсунки выходит за пределы спецификации, проверьте толщину шайбы форсунки. См. процедуру 006-026 в разделе 6.
 
-If the sealing washer is the correct thickness, check to make sure the injector bore is clean and free of debris. Also make sure that the sealing washers are **not** 'stacked' in the injector bore.
+Если уплотнительная шайба имеет правильную толщину, проверьте, чтобы убедиться, что цилиндр форсунки чист и свободен от мусора. Также убедитесь, что уплотнительные шайбы **не **«сложены» в цилиндре форсунки.
 
 ![[06d00085.png]]
 
-Install Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero.
+Установите сборку калибра глубины Cummins®, номер детали 3164438, на палубу сгорания головки цилиндра и ноль.
 
-Rotate the depth gauge so it is measuring the valve recession into the cylinder head (B).
+Поверните датчик измерения глубины, чтобы он измерял спад клапана в головку цилиндра (B).
 
-Measure the valve depth for each valve.
+Измерьте глубину клапана для каждого клапана.
 
-| Intake Valve Depth (Installed) |  |  |
+| Intake клапан Depth (Установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.584 | MIN | 0.023 |
-| 1.092 | MAX | 0.043 |
+| мм |  | в |
+| 0.584 | Мин | 0.023 |
+| 1.092 | Макс | 0.043 |
 
-| Exhaust Valve Depth (Installed) |  |  |
+| Exhaust клапан Depth (установлено) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.965 | MIN | 0.038 |
-| 1.473 | MAX | 0.058 |
+| мм |  | в |
+| 0.965 | Мин | 0.038 |
+| 1.473 | Макс | 0.058 |
 
-If the valve depth is **not** within specification, check if debris is preventing the valve from closing completely. If no debris is found, remove the valve and inspect the valve seat and valve face for damage.
+Если глубина клапана **не** в пределах спецификации, проверьте, не препятствует ли обломки клапана полностью закрываться. Если обломки не обнаружены, удалите клапан и проверьте сиденье клапана и поверхность клапана на предмет повреждения.
 
 ![[kn9vank.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Make sure the gasket is correctly aligned with the holes in the cylinder block. Damage to the cylinder block can occur if the gasket is not aligned correctly.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что прокладка правильно выровнена с отверстиями в блоке цилиндра. Повреждение блока цилиндров может произойти, если прокладка не выровнена правильно.
 
-Install the cylinder head gasket. Refer to Procedure 002-021 in Section 2.
+Установите прокладку головки цилиндра. См. процедуру 002-021 в разделе 2.
 
 ![[kn9gkhc.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы уменьшить вероятность серьезных травм, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема этого компонента или сборки.
 
-Carefully put the cylinder head on the cylinder block, and seat it onto the dowels.
+Тщательно положите головку цилиндра на блок цилиндра и усадите ее на дюбели.
 
 ![[02d00112.png]]
 
-Lubricate the threads and under the heads on the cylinder head mounting capscrews with clean engine oil.
+Смазать резьбу и под головками на головках цилиндров крепления болтов с чистым моторным маслом.
 
-Install the capscrews and tighten hand-tight.
+Установите болты и затяните герметично.
 
 ![[02900037.png]]
 
-Use the illustrated sequence to tighten the cylinder head capscrews.
+Используйте проиллюстрированную последовательность для затягивания головных болтов цилиндров.
 
-Tighten the cylinder head capscrews.
+Затянуть болты головки цилиндра.
 
-Torque Value:
+Момент затяжки:
 
 ![[02d00067.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!warning] CAUTION · Осторожно
-> If the cylinder head was installed with the injectors installed, it may be necessary to loosen the injector to correctly install the fuel connectors. Failure to install the fuel connectors will result in excessive injector fuel leakage and poor engine performance.
+> [!warning] ОСТОРОЖНО
+> Если головка цилиндра была установлена с установленным топливным форсункой, может потребоваться ослабить форсунка для правильной установки топливных разъемов. Неустановка топливных разъемов приведет к чрезмерной утечке топлива из форсунки и плохой производительности двигателя.
 
-- Install the fuel connectors. Refer to Procedure 006-052 in Section 6.
-- Install the fuel rail to the cylinder head. Refer to Procedure 006-060 in Section 6.
-- Install the injector supply lines. Refer to Procedure 006-051 in Section 6.
-- Install the fuel drain lines. Refer to Procedure 006-013 in Section 6.
-- Install the push rods. Refer to Procedure 004-014 in Section 4.
-- Install the rocker levers. Refer to Procedure 003-008 in Section 3.
-- Install the crossheads. Refer to Procedure 002-001 in Section 2.
-- Adjust the overhead. Refer to Procedure 003-004 in Section 3.
-- If equipped, install the rocker lever housing. Refer to Procedure 003-013 in Section 3.
-- Install the rocker lever cover gasket and rocker lever cover. Refer to Procedure 003-011 in Section 3.
+- Установите топливные разъемы. См. процедуру 006-052 в разделе 6.
+- Установите топливный рельс на головку цилиндра. См. процедуру 006-060 в разделе 6.
+- Установите линии подачи форсунки. См. процедуру 006-051 в разделе 6.
+- Установите линии слива топлива. См. процедуру 006-013 в разделе 6.
+- Установите толкатели. См. процедуру 004-014 в разделе 4.
+- Установите рычаги коромысла. См. процедуру 003-008 в разделе 3.
+- Установите клапанные мосты. См. процедуру 002-001 в разделе 2.
+- Отрегулируйте накладные расходы. См. процедуру 003-004 в разделе 3.
+- Если оборудовано, установите корпус рычага качения клапанного клапана. См. процедуру 003-013 в разделе 3.
+- Установите крышку прокладки клапанного клапана и крышку рычага клапанного клапана. См. процедуру 003-011 в разделе 3.
 
-- Install the exhaust manifold. Refer to Procedure 011-007 in Section 11.
-- Install the turbocharger. Refer to Procedure 010-033 in Section 10.
+- Установите выхлопной коллектор. См. процедуру 011-007 в разделе 11.
+- Установите турбокомпрессор. См. процедуру 010-033 в разделе 10.
 
-> [!note] Note · Примечание
-> Omit the following steps if the engine is **not** equipped with the component or if it was **not** necessary to remove the component to remove the cylinder head.
+> [!note] Примечание
+> Опустить следующие шаги, если двигатель **не** оборудован компонентом или если это было **не** необходимо, чтобы удалить компонент, чтобы удалить головку цилиндра.
 
-- Install the coolant temperature sensor. Refer to Procedure 019-019 in Section 19.
-- Install the thermostat housing and thermostat from the engine. Refer to Procedure 008-013 in Section 8.
-- Install the alternator bracket to the thermostat housing. Refer to Procedure 013-003 in Section 13.
-- Pivot the alternator toward the engine. Tighten the alternator link, mounting bolt, and water inlet connection capscrews. Refer to Procedure 013-001 in Section 13.
-- Install the fan hub assembly. [[216-008-036-tr — Fan Hub, Belt Driven|Refer to Procedure 008-036 in Section 8.]]
-- Install the fan hub pulley. Refer to Procedure 008-039 in Section 8.
-- Install the drive belt. Refer to Procedure 008-002 in Section 8.
-- Install the air intake manifold. Refer to Procedure 010-023 in Section 10.
-- Install the fuel block connection. Refer to Procedure 006-021 in Section 6.
-- Install the fuel filter head bracket. Refer to Procedure 006-018 in Section 6.
-- Install the fuel filter and fuel filter head. Refer to Procedure 006-017 in Section 6.
+- Установите датчик температуры охлаждающей жидкости. См. процедуру 019-019 в разделе 19.
+- Установите корпус термостата и термостат от двигателя. См. процедуру 008-013 в разделе 8.
+- Установите кронштейн генератора на корпус термостата. См. процедуру 013-003 в разделе 13.
+- Поверните генератор к двигателю. Затянуть линию генератора, крепление болта и впускные болты для воды. См. процедуру 013-001 в разделе 13.
+- Установите сборку фан-хаба.[[216-008-036-tr — Fan Hub, Belt Driven|См. процедуру 008-036 в разделе 8.]]
+- Установите шкив фан-хаба. См. процедуру 008-039 в разделе 8.
+- Установите приводной ремень. См. процедуру 008-002 в разделе 8.
+- Установите коллектор воздухозаборника. См. процедуру 010-023 в разделе 10.
+- Установите соединение топливного блока. См. процедуру 006-021 в разделе 6.
+- Установите топливный фильтр, устанавливающий головную кронштейн. См. процедуру 006-018 в разделе 6.
+- Установите топливный фильтр и головку крепления топливного фильтра. См. процедуру 006-017 в разделе 6.
 
-> [!note] Note · Примечание
-> The following components are required to be installed in order to complete the installation of the cylinder head.
+> [!note] Примечание
+> Для завершения установки головки цилиндра необходимо установить следующие компоненты.
 
-- Connect the air crossover connection. Refer to Procedure 010-019 in Section 10.
-- Connect any necessary engine wiring harness connections.
-- Connect all water and heater hoses attached to the cylinder head. See the equipment manufacturer service information.
-- Install any OEM accessories attached to the cylinder head. See the equipment manufacturer service information.
-- Fill the engine with coolant. Refer to Procedure 008-018 in Section 8.
-- Connect the batteries. See the equipment manufacturer service information.
-- Prime the fuel system. Refer to Procedure 006-015 in Section 6.
-- Operate the engine and check for leaks.
+- Подключите воздушное соединение. См. процедуру 010-019 в разделе 10.
+- Подключите любые необходимые соединения для проводов двигателя.
+- Подключите все шланги для воды и нагревателя, прикрепленные к головке цилиндра. См. информацию об услугах производителя оборудования.
+- Установите любые OEM-принадлежности, прикрепленные к головке цилиндра. См. информацию об услугах производителя оборудования.
+- Заполните двигатель охлаждающей жидкостью. См. процедуру 008-018 в разделе 8.
+- Подсоедините аккумуляторные батареи. См. информацию об услугах производителя оборудования.
+- Заправь топливную систему. См. процедуру 006-015 в разделе 6.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
@@ -981,3 +991,789 @@ Torque Value:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3164057]] | Cap Screw Length Gauge |  |
+
+> [!quote]- Original (English) · английский оригинал
+> ### Test
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> If troubleshooting coolant in the fuel, fuel in the coolant, fuel in the oil, or oil in the fuel, pressurize the internal fuel drain line in the cylinder head and check for leaks.
+>
+> Remove the fuel drain line at the rear of the cylinder head. Refer to Procedure 006-013 in Section 6.
+>
+> If equipped with a quick disconnect fitting at the cylinder head, remove the check valve. Refer to Procedure 006-013 in Section 6.
+>
+> Connect a regulated air supply hose to the cylinder head fuel drain port with a shutoff valve on the air supply side of the pressure gauge.
+>
+> Apply air pressure.
+>
+> | Air Pressure |  |  |
+> |---|---|---|
+> | kpa |  | psi |
+> | 276 | NOM | 30 |
+>
+> Shut off the air supply to the fuel drain port and monitor the pressure gauge reading. The pressure should hold steady. If the pressure drops rapidly, check for leaks around the:
+>
+> - Test fittings
+> - Fuel connectors at the cylinder head.
+>
+> Remove the rocker lever cover and check for air bubbles around the injectors. Refer to Procedure 003-011 in Section 3.
+>
+> Remove the radiator cap and check for air bubbles in the cooling system.
+>
+> If the source of the leak can **not** be determined, remove the cylinder head and pressure test the complete cylinder head. Reference the Pressure Test section in this procedure. Replace the cylinder head, if necessary.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from pets and children. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> If removing the cylinder head with the injectors installed, be careful not to damage the tips of the injectors. Do not set the cylinder head down on the combustion face with the injectors installed. Damage to the injector tips will result.
+>
+> - Disconnect the batteries. See the equipment manufacturer service information.
+> - Drain the coolant. Refer to Procedure 008-018 in Section 8.
+> - Remove any original equipment manufacturer (OEM) accessories attached to the cylinder head. See the equipment manufacturer service information.
+> - Disconnect the air crossover connection. Refer to Procedure 010-019 in Section 10.
+> - Disconnect all water and heater hoses attached to the cylinder head. See the equipment manufacturer service information.
+> - Disconnect any engine wiring harness connections, as necessary. **Note:** Omit the following steps if the engine is **not** equipped with the component or if it is **not** necessary to remove the component to remove the cylinder head. For some components, it is **only** necessary to remove the component if the cylinder head is being replaced or rebuilt.
+> - Remove the fuel filter and fuel filter head. Refer to Procedure 006-017 in Section 6.
+> - Remove the fuel filter head bracket. Refer to Procedure 006-018 in Section 6.
+> - Remove the fuel block connection. Refer to Procedure 006-021 in Section 6.
+> - Remove the air intake manifold. Refer to Procedure 010-023 in Section 10.
+> - Remove the drive belt. Refer to Procedure 008-002 in Section 8.
+> - Remove the fan hub pulley. Refer to Procedure 008-039 in Section 8.
+> - Remove the fan hub assembly. [[216-008-036-tr — Fan Hub, Belt Driven|Refer to Procedure 008-036 in Section 8.]]
+> - Loosen the alternator link, mounting bolt, and water inlet connection capscrews. Remove the alternator bracket mounting capscrews, and pivot the alternator away from the engine. Refer to Procedure 013-001 in Section 13.
+> - Remove the alternator bracket from the thermostat housing. Refer to Procedure 013-003 in Section 13.
+> - Remove the thermostat housing and thermostat from the engine. Refer to Procedure 008-013 in Section 8.
+>
+> - Remove the coolant temperature sensor. Refer to Procedure 019-019 in Section 19.
+>
+> **Note · Примечание**
+> The following components are required to be removed in order to remove the cylinder head.
+>
+> - Remove the turbocharger. Refer to Procedure 010-033 in Section 10.
+> - Remove the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+> - Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+> - Remove the rocker lever housing. Refer to Procedure 003-013 in Section 3.
+> - Remove the rocker levers. Refer to Procedure 003-008 in Section 3.
+> - Remove the crossheads. Refer to Procedure 002-001 in Section 2.
+> - Remove the push rods. Refer to Procedure 004-014 in Section 4.
+> - Remove the fuel drain lines. Refer to Procedure 006-013 in Section 6.
+> - Remove the injector supply lines. Refer to Procedure 006-051 in Section 6.
+> - Disconnect the fuel rail from the cylinder head. Refer to Procedure 006-060 in Section 6.
+> - Remove the fuel connectors. Refer to Procedure 006-052 in Section 6.
+>
+> **Note · Примечание**
+> Do **not** remove the injectors at this time. Remove the cylinder head with the injectors installed so the injector protrusion can be checked.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> If removing the cylinder head with the injectors installed, be careful not to damage the tips of the injectors. Do not set the cylinder head down on the combustion face with the injectors installed. Damage to the injector tips will result.
+>
+> Remove the cylinder head capscrews and cylinder head.
+>
+> Remove the cylinder head gasket from the cylinder block.
+>
+> ### Initial Check
+>
+> Install the cylinder head in the Cummins® cylinder head holding fixture, Part Number ST-583.
+>
+> Scrape the gasket material and clean the combustion deck surfaces on the cylinder block and cylinder head.
+>
+> Use a straightedge and a feeler gauge to inspect the cylinder head combustion surface for flatness.
+>
+> | Cylinder Head Flatness |  |  |  |  |
+> |---|---|---|---|---|
+> |  | mm |  | in |  |
+> | End-to-End |  | 0.305 | MAX | 0.012 |
+> | Side-to-Side |  | 0.076 | MAX | 0.003 |
+>
+> If out of specification, determine if the cylinder head can be resurfaced, or if the cylinder head **must** be replaced by:
+>
+> - Measuring and recording valve depth
+> - Measuring and recording injector protrusion.
+>
+> If valve depth and injector protrusion specifications can be maintained, the cylinder head can be resurfaced. If the specifications can **not** be maintained, the cylinder head **must** be replaced.
+>
+> Install a Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero the gauge.
+>
+> Rotate the depth gauge to measure the injector protrusion at the highest point on the injector.
+>
+> Record the injector protrusion for each injector.
+>
+> | Injector Protrusion |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 2.45 | MIN | 0.096 |
+> | 3.15 | MAX | 0.124 |
+>
+> **Note · Примечание**
+> Do **not** use thicker or double stacked injector sealing washers to correct injector protrusion. This will cause misalignment of the high-pressure fuel connector.
+>
+> If the injector protrusion is out of specification, check the thickness of the injector sealing washer. Refer to Procedure 006-026 in Section 6.
+>
+> If the sealing washer is the correct thickness, check to make sure the injector bore is clean and free of debris. Also make sure that sealing washers are **not** 'stacked' in the injector bore.
+>
+> If the injector protrusion is within specification, remove the injectors. Refer to Procedure 006-026 in Section 6.
+>
+> Install a Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero the gauge.
+>
+> Rotate the depth gauge to measure the valve recession into the cylinder head (B).
+>
+> Record the valve depth for each valve.
+>
+> | Intake Valve Depth (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.584 | MIN | 0.023 |
+> | 1.092 | MAX | 0.043 |
+>
+> | Exhaust Valve Depth (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.965 | MIN | 0.038 |
+> | 1.473 | MAX | 0.058 |
+>
+> **Note · Примечание**
+> Valve depth can be increased slightly for resurfacing of the cylinder head by lapping the valves.
+>
+> If a leaking valve is suspected or if the cylinder head was recently rebuilt, vacuum test the valves and valve seats. Use Cummins® valve vacuum tester, Part Number 3824277, and Cummins® cup, Part Number ST-1257-6. The vacuum **must not** drop more than 25.4 mm Hg \[1.0 in Hg\] in five seconds.
+>
+> **Note · Примечание**
+> If a vacuum tester is **not** available, with the valve removed, use a lead pencil or Dykem™ to mark across the valve face. Install the valve in the valve guide. Hold the valve against the valve seat, and rotate the valve backward and forward three or four times. Correct contact against the valve seat will break the marks on the valve face.
+>
+> | Valve to Valve Seat Vacuum |  |  |  |
+> |---|---|---|---|
+> |  | kpa |  | in-hg |
+> | Used | 51 | NOM | 15 |
+> | New | 69 | NOM | 20 |
+>
+> If out of specification, disassemble the cylinder head and inspect for damaged valves and/or valve seats. Repair as necessary by:
+>
+> - Cleaning the valve/valve seat and lapping the valves
+> - Replacing the damaged valve/valve seat, if available
+> - Replacing the cylinder head.
+>
+> Use a straightedge and feeler gauge to measure the overall flatness of the cylinder block.
+>
+> | Cylinder Block Flatness |  |  |  |  |
+> |---|---|---|---|---|
+> |  | mm |  | in |  |
+> | End-To-End |  | 0.075 | MAX | 0.003 |
+> | Side-To-Side |  | 0.075 | MAX | 0.002 |
+>
+> Inspect the combustion deck for any localized dips or imperfections.
+>
+> If out of specification, determine if the cylinder block can be resurfaced or if the cylinder block **must** be replaced. Refer to Procedure 001-026 in Section 1.
+>
+> ### Disassemble
+>
+> Mark the valves to identify their location.
+>
+> Compress the valve springs using the Cummins® valve spring compressor service tool, Part Number 3164329.
+>
+> Position the replacer screw (4) above the injector bore and install the two capscrews (5) in the cylinder head where the hold-down clamp screws were removed.
+>
+> Tighten the capscrews (5).
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> **Note · Примечание**
+> The valves are **not** evenly spaced from the injector bore. It is important to align the slots in the valve spring compressor plate with the valve springs.
+>
+> Apply anti-seize compound to the replacer screw (4) threads. Always read and follow label precautions.
+>
+> Position the valve spring compressor plate (1) on the replacer screw (4) and align the slots in the valve spring compressor plate with the valve springs.
+>
+> Install the washer (3) and nut (2) on the replacer screw (4).
+>
+> **WARNING · Опасно**
+> Valve springs are under tension and can act as projectiles if released. To reduce the possibility of eye injury, wear safety glasses with side shields.
+>
+> Turn the nut (2) **clockwise** to compress the valve springs.
+>
+> Continue turning the nut (2) **clockwise** until the valve collets can be removed using a magnetic tool, such as the end of a magnetic screwdriver.
+>
+> Remove the valve collets and the valve spring compressor service tool.
+>
+> Remove the valve spring retainer and valve springs.
+>
+> **Note · Примечание**
+> Keep the valves in a labeled rack with the associated valve collets, spring retainers, and springs. This will aid in the assembly of the components as a matched set.
+>
+> Remove the valves.
+>
+> **Note · Примечание**
+> Prior to removal of the valve stem seals, note the color of the valve stem seal installed at each valve location. The same color valve stem seal **must** be installed in the same valve location when the cylinder head is assembled.
+>
+> Colors Used:
+>
+> - Green (exhaust valves)
+> - Yellow (intake and exhaust valves).
+>
+> Use Cummins® boot pliers, Part Number 3163293, to remove the valve stem seals.
+>
+> **Note · Примечание**
+> Prior to the removal of the valve seat inserts, reference the Initial Check and Clean and Inspect for Reuse sections in this procedure. The condition of the valve, the amount of recess, and the sealing of the valve on the seat insert all help determine whether or **not** a seat insert needs to be replaced.
+>
+> - If required, remove the valve seat inserts.
+> - Inspect the valve-insert-to-cylinder-head contact area. A sufficient groove for the remover **must** exist.
+> - If there is sufficient valve insert groove area, proceed to the next step.
+> - If the valve insert groove area is **not** sufficient, use the Cummins® Valve Seat Insert Cutting Kit, Part Number 3376405, to create a sufficient groove.
+>
+> Use the Cummins® slide hammer remover, Part Number 3376617, with Cummins® valve insert remover, Part Number 3165170, to remove the valve seats.
+>
+> **Note · Примечание**
+> Make certain the valve insert remover assembly is perpendicular to the cylinder head when installed.
+>
+> Insert the valve insert remover assembly into the valve insert and rotate the T-handle **clockwise** until the remover loosely grips the valve insert.
+>
+> Position the valve insert remover assembly into the valve insert groove area. Tighten the T-handle firmly, allowing the remover to expand under the valve insert or into the cut groove.
+>
+> Strike the slide hammer remover against the top nut until the valve insert is removed. Turn the T-handle **counterclockwise** to release the valve insert from the remover.
+>
+> ### Clean and Inspect for Reuse
+>
+> Keep the gasket material, and any other foreign materials, out of the air intake.
+>
+> If removed, clean the cylinder head sealing surfaces where the air intake manifold seals.
+>
+> Use an injector bore brush, Part Number 3822510, or equivalent, to clean the carbon from the injector seat.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use a bristle brush to clean the inside diameter of the valve guide bore.
+>
+> Blow out with compressed air.
+>
+> Excessive deposits can be cleaned in an acid tank, but the expansion plugs **must** be removed first. Refer to Procedure 017-002 in Section 17.
+>
+> If required, clean the buildup of deposits in the coolant passages.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> Clean the cylinder head combustion deck with Cummins® abrasive hand pad, Part Number 3823258, or equivalent, and solvent.
+>
+> **WARNING · Опасно**
+> Wear protective eye covering while cleaning carbon deposits to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Contacting the valve seat with the wire wheel while it is spinning will damage the valve seat. If this occurs, new valve seats must be cut or new valve seat inserts must be installed.
+>
+> Inspect the area within 1/8-inch of the firing ring diameter. Any wear that can be felt with a fingernail within the 1/8-inch area is unacceptable, making the cylinder head **not** reusable. Wear beyond this 1/8-inch area will have no effect on future combustion sealing and the usability of the cylinder head.
+>
+> **Note · Примечание**
+> An inferior-quality wire wheel will lose steel bristles during operation, causing additional contamination.
+>
+> Clean carbon deposits from the valve pockets with a high-quality steel wire wheel installed in a drill or die grinder.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use a wire brush and solvent to clean the deposits from the valve seat insert bores if it was necessary to remove the valve seat inserts.
+>
+> Dry with compressed air.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Wash the cylinder head in a hot, soapy water solution.
+>
+> Rinse the cylinder head with clean water.
+>
+> Dry the cylinder head with compressed air.
+>
+> Cylinder Head Cracks - Reuse Guidelines
+>
+> With the cylinder head cleaned, inspect the cylinder head for signs of cracks, fretting, and discoloration that would prohibit reuse.
+>
+> To help identify cracks in the cylinder block, use the Cummins® Crack Detection Kit, Part Number 3375432.
+>
+> Pay close attention to areas of the cylinder head that include:
+>
+> - Injector bore
+> - Combustion face
+> - Valve seats
+> - Valve guides.
+>
+> The reuse guidelines for a cylinder head with a crack extending from the injector bore to the intake valve seat are as follows:
+>
+> - If the crack does **not** extend into the valve seat, the cylinder head is reusable.
+>
+> **CAUTION · Осторожно**
+> Failure to replace the cylinder head for a crack that extends into or through the valve seat bore will result in a valve seat insert falling out. Engine damage will result.
+>
+> - If the crack extends into or through the valve seat, the cylinder head **must** be replaced.
+>
+> If still installed, inspect the valve seats for cracks or burnt spots.
+>
+> If the valve seat inserts are damaged, the cylinder head **must** be machined or replaced.
+>
+> If the valve seat insert was removed in the Disassemble section, measure the inside diameter of the valve seat insert bore in the cylinder head.
+>
+> | Cylinder Head Insert Bore Inside Diameter. |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 34.847 | MIN | 1.3719 |
+> | 34.863 | MAX | 1.3726 |
+>
+> **Note · Примечание**
+> Before cutting the cylinder head, verify valve seat inserts are available for the engine being serviced. If none are available, the cylinder head **must** be replaced.
+>
+> If out of specification, the valve seat insert bore can be oversized 0.254 mm (0.010 in) or 0.508 mm (0.020 in).
+>
+> Use Cummins® valve seat cutter, Part Number ST257, or Cummins® valve seat insert tool kit with Cummins® valve guide arbor, Part Number 3165184, to cut the cylinder head to accept oversize valve seat inserts. Use Cummins® valve seat cutter, Part Number 3165183, for 0.254 mm (0.010 in) or 3165184 for 0.508 mm (0.020 in).
+>
+> Valve Guide - Reuse Guidelines
+>
+> Inspect the valve guides for scuffing or scoring.
+>
+> Measure the valve guide inside diameter (I.D.)
+>
+> | Valve Guide Bore Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 7.027 | MIN | 0.2767 |
+> | 7.077 | MAX | 0.2786 |
+>
+> If the valve guide bore is worn larger than the maximum specified, or if inspection reveals damaged valve guides, the cylinder head **must** be replaced.
+>
+> **WARNING · Опасно**
+> Wear protective eye covering when cleaning the valves with a wire wheel to reduce the possibility of personal injury.
+>
+> Clean the valve heads with a soft wire wheel.
+>
+> **Note · Примечание**
+> Keep the valves in a labeled rack to prevent mixing. This will aid in analysis and assembly.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Polish the valve stems with a Cummins® abrasive pad, Part Number 3823258, and solvent.
+>
+> Valve - Reuse Guidelines
+>
+> Inspect the valves for:
+>
+> - Excessive wear on the heads and stems
+> - Excessive wear on the valve stem tip
+> - Bends and distortion.
+>
+> Inspect the valves for damage and the collet grooves for wear.
+>
+> Measure the outside diameter of the valve stem.
+>
+> Three measurements **must** be taken of each valve stem at 45 mm \[1.77 in.\], 70 mm \[2.75 in.\], 95 mm \[3.74 in.\] from the surface of the valve head.
+>
+> | Valve Stem Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 6.99 | MIN | 0.2752 |
+> | 7.01 | MAX | 0.2760 |
+>
+> If the valves are damaged or the stems are worn smaller than the minimum specified, the valves **must** be replaced.
+>
+> Inspect the valve springs.
+>
+> Use Cummins® valve spring tester, Part Number 3375182, to compress the valve spring. A load of 320.8 to 358.8 N \[72 to 80.7 lbf\] is required to compress a spring to a height of 35.33 mm \[1.39 in\].
+>
+> **Note · Примечание**
+> If the valve spring is **not** within specification, a new valve spring **must** be used.
+>
+> Inspect the valve spring retainers and valve collets for damage or worn areas.
+>
+> Discard and replace damaged or worn parts.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **CAUTION · Осторожно**
+> Do not use caustic or acid solutions to clean the cylinder head capscrews. Component damage can occur.
+>
+> Use a petroleum-based solvent to clean the capscrews.
+>
+> Clean the capscrews thoroughly with a wire brush, soft wire wheel, or nonabrasive bead blast to remove deposits from the shank and threads.
+>
+> Cylinder Head Capscrew - Reuse Guidelines
+>
+> Inspect the cylinder head capscrews for damaged threads, corroded surfaces, or a reduced diameter (due to capscrew stretching).
+>
+> Do **not** reuse cylinder head capscrews under the following conditions:
+>
+> - Visible corrosion or pitting exceeding 1 sq cm \[0.155 sq in\] in area.
+>
+> Example:
+>
+> Acceptable is 9.525 x 9.525 mm \[3/8 x 3/8 in\].
+>
+> Unacceptable is 12.700 x 12.700 mm \[½ x ½ in\].
+>
+> - Visible corrosion or pitting exceeds 0.12 mm \[0.005 in\] in depth.
+> - Visible corrosion or pitting is located within 3.2 mm \[1/8 in\] of the fillet or thread.
+> - Stretched beyond "free-length" maximum. See the measurement procedure below:
+>
+> Free-Length Measurement
+>
+> **Note · Примечание**
+> If the capscrews are **not** damaged, they can be reused throughout the life of the engine, unless the specified free length is exceeded.
+>
+> To check the capscrew free length using Cummins® capscrew length gauge, Part Number [[3164057]], place the head of the capscrew in the appropriate slot, with the flange against the base of the slot.
+>
+> **Note · Примечание**
+> Most new cylinder head gaskets and upper engine gaskets include the Cummins® capscrew length gauge, Part Number [[3164057]].
+>
+> If the end of the capscrew touches the foot of the gauge, the capscrew is too long and **must** be discarded.
+>
+> | Capscrew Free Length |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 152.1 | MAX | 5.99 |
+>
+> ### Pressure Test
+>
+> If troubleshooting an internal coolant leak or coolant loss symptom, a cylinder head test fixture can be fabricated from a flat piece of steel or aluminum to pressure test the cylinder head.
+>
+> Reference the following table for test fixture dimensions.
+>
+> | 16 mm | Thickness | 0.630 in |
+> |---|---|---|
+> | 749 mm | Length | 29.5 in |
+> | 193 mm | Width | 7.6 in |
+>
+> **Note · Примечание**
+> Use the old cylinder head gasket as a pattern for drilling the capscrew holes.
+>
+> Install the thermostat, water outlet connection, and mounting capscrews.
+>
+> **Note · Примечание**
+> If equipped with remote mounted thermostat, refer to the OEM service manual for the instructions that apply to the engine being serviced.
+>
+> Tighten the capscrews
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> Install the engine coolant temperature sensor, located next to the water outlet connection.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> **Note · Примечание**
+> The thermostat contains two check balls to vent air past the thermostat when closed. Install a rubber cap and hose clamp over the water outlet connection to prevent air from leaking through the check balls.
+>
+> Install the cylinder head water test fixture.
+>
+> - Install a new head gasket.
+> - Install the test plate.
+> - Install the following:
+>
+> - 26 - 180-mm-long grade 12.9 flange head capscrews
+> - 26 - M12 x 1.75 hex flange nuts
+> - 52 - 12-mm washers.
+>
+> **Note · Примечание**
+> Place a washer between each capscrew and the head, and between each nut and test plate. This will prevent mutilation on the surface of the cylinder head.
+>
+> Tighten the nuts in the sequence illustrated.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Service Tip: To apply air pressure to the cylinder head, remove one of the pipe plugs located on the exhaust side of the cylinder head. This is the same port used, when the cylinder head is installed to check cylinder block coolant pressures.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> Make sure to plug or seal any open coolant ports before pressure testing the cylinder head.
+>
+> Connect a Cummins® regulated air supply hose, Part Number 3164231, to the cylinder head.
+>
+> Apply air pressure.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Air Pressure: | 276 | 40 |
+>
+> Use a nylon lifting strap and a hoist to place the cylinder head in a tank of heated water.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | celsius | fahrenheit |
+> | Water Temperature: | 60 | 140 |
+>
+> **Note · Примечание**
+> The cylinder head **must** be completely submerged in the water.
+>
+> Inspect the head. Bubbles indicate an air leak.
+>
+> If any bubbles exist, verify the air leak is **not** coming from:
+>
+> - Any cup plugs or fittings installed in the cylinder head
+> - Test fixture or air line fittings
+> - Water outlet connection.
+>
+> If the above checks out OK and bubbles are present, the cylinder head leaks and it **must** be replaced.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Remove the test fixture.
+>
+> Use compressed air to dry the cylinder head.
+>
+> ### Assemble
+>
+> Install the cylinder head in the Cummins® cylinder head holding fixture, Part Number ST-583.
+>
+> When installing the valve seat inserts, note that the exhaust and intake valve seat inserts are **not** the same.
+>
+> Valve seat angle:
+>
+> - Intake 30-degrees
+> - Exhaust 45-degrees.
+>
+> If new valve seat inserts are installed, check valve depth and perform a valve leak test. Reference the Initial Check section in this procedure.
+>
+> If the valve seat inserts were removed in the Disassemble section, new inserts **must** be installed.
+>
+> The insert chamfer (1) **must** be installed toward the bottom of the counterbore.
+>
+> Use Cummins® valve seat installer, Part Number 3165171, to drive the intake and exhaust valve seat inserts into the counterbore.
+>
+> Use a dead blow hammer with the seat drivers to install the new valve seat inserts.
+>
+> If new valve seat inserts were installed and/or the valve leakage was above specification, the valve seat/valve can be lapped.
+>
+> Lubricate the stems with Society of Automotive Engineers (SAE) 15W-40 engine oil before installing the valves.
+>
+> Use a Cummins® fine lapping compound, Part Number 3375805, or equivalent to apply a thin and even coating on the valve face.
+>
+> Use a power or a hand suction lapping tool to provide pressure in the center of the valve.
+>
+> Turn the valve backward and forward. Continue lapping until the compound shows a continuous contact pattern on both the valve seat insert and the valve.
+>
+> **CAUTION · Осторожно**
+> Lapping compound is an abrasive material. Failure will result if the cylinder head, the valves, and the valve seats are not cleaned thoroughly.
+>
+> Clean the lapping compound from the parts.
+>
+> If lapping of the valves was required, measure the rim thickness to determine if there is enough rim material left.
+>
+> | Valve Rim Thickness Limit |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.79 | MIN | 0.031 |
+>
+> If the valve rim thickness is **not** within the limits, a new valve **must** be used.
+>
+> **CAUTION · Осторожно**
+> Lubricate all the valve guide bores and valve stems with SAE 15W-40 engine oil. Failure to lubricate the valve guides and valve stems can result in premature valve guide wear.
+>
+> Lubricate the valve stems with clean SAE 15W-40 engine oil before installing the valves.
+>
+> Install the valves.
+>
+> **Note · Примечание**
+> If the same valves as previously removed are to be used, make sure to install the valves in the same locations from which the valves were removed.
+>
+> If the cylinder head will **not** be used immediately, lubricate the valve stems with Cummins® assembly lubricant, Part Number 3163087, or equivalent.
+>
+> **CAUTION · Осторожно**
+> The same color valve stem seal must be installed in the same location as removed. Incorrect valve stem seals will result in excessive oil consumption and internal engine damage.
+>
+> Install new valve stem seals of the same color as removed, and in the same locations.
+>
+> There are two colors of valve stem seals used:
+>
+> - Green (exhaust valves)
+> - Yellow (intake and exhaust valves).
+>
+> Use a Cummins® valve stem installation tool, Part Number 3164055, to install new valve stem seals.
+>
+> The valve stem seals can be installed by hand. The installation tool will aid with installing the valve stem seals, but is **not** mandatory.
+>
+> Use hand pressure to keep the valves from falling out during installation.
+>
+> Install the valve spring retainer and valve springs.
+>
+> Compress the valve springs using the Cummins® valve spring compressor service tool, Part Number 3164329.
+>
+> Position the replacer screw (4) above the injector bore and install the two capscrews (5) in the cylinder head where the hold-down clamp screws were removed.
+>
+> Tighten the capscrews (5).
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> The valves are **not** evenly spaced from the injector bore. It is important to align the slots in the valve spring compressor plate with the valve springs.
+>
+> Apply anti-seize lubricant to the replacer screw (4) threads. **Always** read and follow label precautions.
+>
+> Position the valve spring compressor plate (1) on the replacer screw (4) and align the slots in the valve spring compressor plate with the valve springs.
+>
+> Install the washer (3) and nut (2) on the replacer screw (4).
+>
+> **WARNING · Опасно**
+> Valve springs are under tension and can act as projectiles if released. To reduce the possibility of eye injury, wear safety glasses with side shields.
+>
+> Compress the valve springs until the valve collets can be installed.
+>
+> Install the valve collets.
+>
+> Service Tip: Use Cummins® assembly lube, Part Number 3163087, or equivalent, on the valve collets to help hold them in place until the valve spring compressor is released.
+>
+> Remove the Cummins® valve spring compressor service tool, Part Number 3164329.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear eye protection. If the collets are not correctly installed, they can fly out when the stems are hit with a hammer.
+>
+> After assembly, hit the valve stems with a plastic hammer to make sure the collets are seated.
+>
+> ### Measure
+>
+> **CAUTION · Осторожно**
+> Improper injector protrusion can cause performance problems and high-pressure fuel leaks due to misalignment of the fuel connector.
+>
+> Install the injectors with sealing washers into the cylinder head. Refer to Procedure 006-026 in Section 6.
+>
+> Measure the injector protrusion.
+>
+> Install Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero.
+>
+> Rotate the depth gauge so it is measuring the injector protrusion at the highest point on the injector.
+>
+> Measure the injector protrusion for each injector.
+>
+> | Injector Protrusion |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 2.45 | MIN | 0.096 |
+> | 3.15 | MAX | 0.124 |
+>
+> If the injector protrusion is out of specification, check the thickness of the injector sealing washer. Refer to Procedure 006-026 in Section 6.
+>
+> If the sealing washer is the correct thickness, check to make sure the injector bore is clean and free of debris. Also make sure that the sealing washers are **not** 'stacked' in the injector bore.
+>
+> Install Cummins® depth gauge assembly, Part Number 3164438, on the cylinder head combustion deck and zero.
+>
+> Rotate the depth gauge so it is measuring the valve recession into the cylinder head (B).
+>
+> Measure the valve depth for each valve.
+>
+> | Intake Valve Depth (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.584 | MIN | 0.023 |
+> | 1.092 | MAX | 0.043 |
+>
+> | Exhaust Valve Depth (Installed) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.965 | MIN | 0.038 |
+> | 1.473 | MAX | 0.058 |
+>
+> If the valve depth is **not** within specification, check if debris is preventing the valve from closing completely. If no debris is found, remove the valve and inspect the valve seat and valve face for damage.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Make sure the gasket is correctly aligned with the holes in the cylinder block. Damage to the cylinder block can occur if the gasket is not aligned correctly.
+>
+> Install the cylinder head gasket. Refer to Procedure 002-021 in Section 2.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To reduce the possibility of serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Carefully put the cylinder head on the cylinder block, and seat it onto the dowels.
+>
+> Lubricate the threads and under the heads on the cylinder head mounting capscrews with clean engine oil.
+>
+> Install the capscrews and tighten hand-tight.
+>
+> Use the illustrated sequence to tighten the cylinder head capscrews.
+>
+> Tighten the cylinder head capscrews.
+>
+> Torque Value:
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **CAUTION · Осторожно**
+> If the cylinder head was installed with the injectors installed, it may be necessary to loosen the injector to correctly install the fuel connectors. Failure to install the fuel connectors will result in excessive injector fuel leakage and poor engine performance.
+>
+> - Install the fuel connectors. Refer to Procedure 006-052 in Section 6.
+> - Install the fuel rail to the cylinder head. Refer to Procedure 006-060 in Section 6.
+> - Install the injector supply lines. Refer to Procedure 006-051 in Section 6.
+> - Install the fuel drain lines. Refer to Procedure 006-013 in Section 6.
+> - Install the push rods. Refer to Procedure 004-014 in Section 4.
+> - Install the rocker levers. Refer to Procedure 003-008 in Section 3.
+> - Install the crossheads. Refer to Procedure 002-001 in Section 2.
+> - Adjust the overhead. Refer to Procedure 003-004 in Section 3.
+> - If equipped, install the rocker lever housing. Refer to Procedure 003-013 in Section 3.
+> - Install the rocker lever cover gasket and rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> - Install the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+> - Install the turbocharger. Refer to Procedure 010-033 in Section 10.
+>
+> **Note · Примечание**
+> Omit the following steps if the engine is **not** equipped with the component or if it was **not** necessary to remove the component to remove the cylinder head.
+>
+> - Install the coolant temperature sensor. Refer to Procedure 019-019 in Section 19.
+> - Install the thermostat housing and thermostat from the engine. Refer to Procedure 008-013 in Section 8.
+> - Install the alternator bracket to the thermostat housing. Refer to Procedure 013-003 in Section 13.
+> - Pivot the alternator toward the engine. Tighten the alternator link, mounting bolt, and water inlet connection capscrews. Refer to Procedure 013-001 in Section 13.
+> - Install the fan hub assembly. [[216-008-036-tr — Fan Hub, Belt Driven|Refer to Procedure 008-036 in Section 8.]]
+> - Install the fan hub pulley. Refer to Procedure 008-039 in Section 8.
+> - Install the drive belt. Refer to Procedure 008-002 in Section 8.
+> - Install the air intake manifold. Refer to Procedure 010-023 in Section 10.
+> - Install the fuel block connection. Refer to Procedure 006-021 in Section 6.
+> - Install the fuel filter head bracket. Refer to Procedure 006-018 in Section 6.
+> - Install the fuel filter and fuel filter head. Refer to Procedure 006-017 in Section 6.
+>
+> **Note · Примечание**
+> The following components are required to be installed in order to complete the installation of the cylinder head.
+>
+> - Connect the air crossover connection. Refer to Procedure 010-019 in Section 10.
+> - Connect any necessary engine wiring harness connections.
+> - Connect all water and heater hoses attached to the cylinder head. See the equipment manufacturer service information.
+> - Install any OEM accessories attached to the cylinder head. See the equipment manufacturer service information.
+> - Fill the engine with coolant. Refer to Procedure 008-018 in Section 8.
+> - Connect the batteries. See the equipment manufacturer service information.
+> - Prime the fuel system. Refer to Procedure 006-015 in Section 6.
+> - Operate the engine and check for leaks.

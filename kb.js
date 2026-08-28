@@ -431,6 +431,18 @@ function docSide(id, d) {
   return h.join("");
 }
 
+/* Адрес документа на QuickServe: часть оглавлений руководств (деревья поиска
+   неисправностей, титулы, предисловия) в выгрузку не попала — на них даём
+   прямую ссылку на источник. */
+function qsDocUrl(id, manualId) {
+  var base = "https://quickserve.cummins.com/qs3/pubsys2/xml/en/";
+  if (/^\d{2,3}-\d{3}-\d{3}/.test(id)) return base + "procedures/" + id.split("-")[0] + "/" + id + ".html";
+  var m = /^(\d{6,8})-/.exec(id);
+  if (m) return base + "manual/" + m[1] + "/" + id + ".html";
+  if (/^\d{6,8}$/.test(id)) return base + "manual/" + id + "/" + id + "-history.html";
+  return base + "manual/" + manualId + "/" + id + ".html";
+}
+
 /* =========================================================== руководство */
 function viewManual(mid) {
   var m = MAN[mid];
@@ -457,7 +469,8 @@ function viewManual(mid) {
       h.push("<tr><td>" + (known ? docLink(id, id) : esc(id)) + "</td><td>" +
         (known && known.ru ? esc(known.ru) + ' <span class="sub">' + esc(it[1]) + "</span>"
                            : esc(it[1])) +
-        (known ? "" : ' <span class="sub">— вне выгрузки</span>') +
+        (known ? "" : ' <a class="lnk" target="_blank" rel="noopener" href="' +
+                      esc(qsDocUrl(id, mid)) + '">нет в выгрузке — открыть в QuickServe ↗</a>') +
         "</td><td>" + esc(it[2] || "") + "</td></tr>");
     });
     h.push("</tbody></table></div>");

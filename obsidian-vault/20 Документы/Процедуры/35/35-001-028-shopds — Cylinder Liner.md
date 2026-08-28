@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-028-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-028-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Cylinder Liner
@@ -35,31 +37,60 @@ tags:
 > **Даты:** изменён 2014-01-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-028-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-028-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The cylinder liners can be removed by using the cylinder liner remover, Part Number 3163745, and cylinder liner remover plate, Part Number 3164979.
+
+### Снятие
+
+Линейки цилиндров могут быть удалены с помощью линейки цилиндров, части 3163745 и пластины линейки цилиндров, части 3164979.
 
 ![[cy2toga.png]]
 
-> [!warning] CAUTION · Осторожно
-> The liner puller must be installed and used as described to avoid damage to the cylinder block. The puller plate must be parallel to the main bearing saddles and must not overlap the liner outside diameter.
+> [!warning] ОСТОРОЖНО
+> Линейный съёмник должен быть установлен и использован, как описано, чтобы избежать повреждения блока цилиндров. Плита съёмника должна быть параллельной основным несущим седлам и не должна перекрывать гильза наружного диаметра.
 
-Insert the liner puller on the top of the cylinder block.
+Вставьте съёмник на верхнюю часть блока цилиндров.
 
 ![[bp2toaa.png]]
 
-The liner puller **must** be centered on the top of the cylinder block.
+Линейный съёмник должен быть центрирован на верхней части блока цилиндров.
 
-Turn the puller jackscrew **clockwise** to loosen the liner from the cylinder block.
+Поверните съёмник дроссельной винты **по часовой стрелке**, чтобы ослабить гильза от блока цилиндров.
 
-Use both hands to remove the liner.
+Используйте обе руки, чтобы удалить шнур.
 
 ![[bp2cyma.png]]
 
-When the liner is removed from the cylinder block, use Dykem®, or equivalent, to place a mark on the camshaft side of the liner to show liner orientation.
+Когда гильза удаляется из блока цилиндров, используйте Dykem® или эквивалент, чтобы разместить отметку на стороне распределительного вала гильзы, чтобы показать ориентацию гильзы.
 
 ![[cy200ga.png]]
 
-Use Dykem®, or equivalent, to mark the cylinder number on each liner.
+Используйте Dykem® или эквивалент для обозначения номера цилиндра на каждом гильзе.
 
 ![[bp2cyga.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The cylinder liners can be removed by using the cylinder liner remover, Part Number 3163745, and cylinder liner remover plate, Part Number 3164979.
+>
+> **CAUTION · Осторожно**
+> The liner puller must be installed and used as described to avoid damage to the cylinder block. The puller plate must be parallel to the main bearing saddles and must not overlap the liner outside diameter.
+>
+> Insert the liner puller on the top of the cylinder block.
+>
+> The liner puller **must** be centered on the top of the cylinder block.
+>
+> Turn the puller jackscrew **clockwise** to loosen the liner from the cylinder block.
+>
+> Use both hands to remove the liner.
+>
+> When the liner is removed from the cylinder block, use Dykem®, or equivalent, to place a mark on the camshaft side of the liner to show liner orientation.
+>
+> Use Dykem®, or equivalent, to mark the cylinder number on each liner.

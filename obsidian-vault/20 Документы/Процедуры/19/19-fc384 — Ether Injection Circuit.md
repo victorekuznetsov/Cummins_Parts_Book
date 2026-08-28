@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc384.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc384.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Ether Injection Circuit
@@ -34,28 +36,62 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc384.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc384.pdf)
 
-### Fault Code: 384
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Ether Injection Circuit
 
-Printable Version
+### Код неисправности: 384
 
-### Overview
+### Схема инъекций эфира
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 384 PID(P): S237 SPN: 626 FMI: 11 Lamp: Yellow SRT: 00-365 | The ether injection solenoid circuit is open or shorted at pin 2 of the engine harness. | Ether injection feature is disabled. |
+| Код неисправности: 384 PID(P): S237 SPN: 626 FMI: 11 лампочка: Желтая СТО: 00-365 | Эфирная форсуночная соленоидная схема открыта или закорочена при контакте 2 с электропроводкой двигателя. | Функция инъекции эфира отключена. |
 
 ![[19400679.png]]
 
-Ether Injection Solenoid Circuit
+Инъекция эфира соленоидная схема
 
-### Circuit Description
+### Описание цепи
 
-The ether injection solenoid is a device used by the ECM to control the ether injection system during cold starts.
+Эфирный форсуночный соленоид представляет собой устройство, используемое ECM для управления системой инъекций эфира во время холодных запусков.
 
-### Component Location
+### Расположение компонента
 
-The ether injection solenoid location is dependent on the OEM. Refer to the OEM manual.
+Расположение соленоида для инъекции эфира зависит от OEM. См. руководство по OEM.
 
-Refer to Troubleshooting Fault Code t05-384
+См. Код устранения неполадок t05-384
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 384
+>
+> ### Ether Injection Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 384 PID(P): S237 SPN: 626 FMI: 11 Lamp: Yellow SRT: 00-365 | The ether injection solenoid circuit is open or shorted at pin 2 of the engine harness. | Ether injection feature is disabled. |
+>
+> Ether Injection Solenoid Circuit
+>
+> ### Circuit Description
+>
+> The ether injection solenoid is a device used by the ECM to control the ether injection system during cold starts.
+>
+> ### Component Location
+>
+> The ether injection solenoid location is dependent on the OEM. Refer to the OEM manual.
+>
+> Refer to Troubleshooting Fault Code t05-384

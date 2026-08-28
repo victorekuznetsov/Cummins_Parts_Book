@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021940"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-200-004-om-mar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-200-004-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -35,14 +37,34 @@ tags:
 > **Даты:** изменён 2011-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-200-004-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-200-004-om-mar.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine Applications
+
+### Диаграмма потока
+
+Судовое применение
 
 ![[10200076.png]]
 
-1. Filtered intake air to turbocharger
-2. Turbocharger air to aftercooler
-3. Intake air through the aftercooler
-4. Aftercooled air through intake manifold
-5. Intake valve ports.
+1. Фильтрированный воздух для впуска турбокомпрессора
+2. Воздух турбокомпрессора после охлаждения
+3. Взятие воздуха через послеохладитель
+4. Послеохлажденный воздух через впускной коллектор
+5. Входные клапанные порты.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Marine Applications
+>
+> 1. Filtered intake air to turbocharger
+> 2. Turbocharger air to aftercooler
+> 3. Intake air through the aftercooler
+> 4. Aftercooled air through intake manifold
+> 5. Intake valve ports.

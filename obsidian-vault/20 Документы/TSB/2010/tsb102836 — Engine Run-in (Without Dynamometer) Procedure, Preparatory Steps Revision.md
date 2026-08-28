@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102836.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102836.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Engine Run-in (Without Dynamometer) Procedure, Preparatory Steps Revision
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2008-05-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102836.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102836.pdf)
 
-## Engine Run-in (Without Dynamometer) Procedure, Preparatory Steps Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура запуска двигателя (без динамометра), подготовительные этапы
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic supersedes 07T14-1. Replace 07T14-1 with this topic. Two notes were taken out of the Preparatory Step that no londer apply to the procedure.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема заменяет 07T14-1. Заменить 07Т14-1 на эту тему. Из подготовительного этапа были взяты две заметки, которые не применяются к процедуре.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Engine Run-in (Without Dynamometer) Procedure, Preparatory Steps Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic supersedes 07T14-1. Replace 07T14-1 with this topic. Two notes were taken out of the Preparatory Step that no londer apply to the procedure.

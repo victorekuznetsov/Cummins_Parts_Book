@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-014-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-014-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Air Compressor
@@ -35,62 +37,120 @@ tags:
 > **Даты:** изменён 2003-12-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-014-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-014-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+### Снятие
 
-Use steam to clean the air compressor.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Dry with compressed air.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+
+Используйте пар для очистки воздушного компрессора.
+
+Просушите сжатым воздухом.
 
 ![[gr8hsha.png]]
 
-Remove the coolant lines from the air compressor.
+Удалите линии охлаждающей жидкости из воздушного компрессора.
 
 ![[cp8coha.png]]
 
-Remove the air inlet and outlet connections from the air compressor.
+Удалите впускное и выходное соединения воздуха из воздушного компрессора.
 
 ![[cp4coma.png]]
 
-Single Cylinder
+Одиночный цилиндр
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Для уменьшения возможности получения травмы используют подъемник или получают помощь в поднятии этого компонента.
 
-Remove the air compressor support bracket and capscrews.
+Снимите воздушный компрессор с опорной кронштейна и болтов.
 
-Remove the air compressor mounting flange capscrews.
+Удалите воздушные компрессорные крепежные болты.
 
-Remove the air compressor.
+Удалите воздушный компрессор.
 
-Remove the splined coupling.
+Удалите вытянутую муфту.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[cp8comc.png]]
 
-Twin Cylinder
+Двойной цилиндр
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Для уменьшения возможности получения травмы используют подъемник или получают помощь в поднятии этого компонента.
 
-Remove the air compressor support mounting capscrews (5).
+Удалите воздушные компрессоры, поддерживающие крепежные болты (5).
 
-Remove the air compressor mounting flange capscrews (6).
+Удалите воздушные компрессорные крепежные фланцевые болты (6).
 
-Remove the air compressor.
+Удалите воздушный компрессор.
 
-Remove the splined coupling (1).
+Удалить сплинированную связь (1).
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[cp400he.png]]
 
-Remove the cover plate/support bracket from the air compressor.
+Снимите крышку с воздушного компрессора.
 
 ![[cp8suha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use steam to clean the air compressor.
+>
+> Dry with compressed air.
+>
+> Remove the coolant lines from the air compressor.
+>
+> Remove the air inlet and outlet connections from the air compressor.
+>
+> Single Cylinder
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury use a hoist or get assistance to lift this component.
+>
+> Remove the air compressor support bracket and capscrews.
+>
+> Remove the air compressor mounting flange capscrews.
+>
+> Remove the air compressor.
+>
+> Remove the splined coupling.
+>
+> Remove and discard the gasket.
+>
+> Twin Cylinder
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury use a hoist or get assistance to lift this component.
+>
+> Remove the air compressor support mounting capscrews (5).
+>
+> Remove the air compressor mounting flange capscrews (6).
+>
+> Remove the air compressor.
+>
+> Remove the splined coupling (1).
+>
+> Remove and discard the gasket.
+>
+> Remove the cover plate/support bracket from the air compressor.

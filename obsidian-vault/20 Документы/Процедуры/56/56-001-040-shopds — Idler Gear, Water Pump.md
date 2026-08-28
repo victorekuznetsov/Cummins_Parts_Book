@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-040-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-040-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Idler Gear, Water Pump
@@ -35,16 +37,38 @@ tags:
 > **Даты:** изменён 2023-08-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-040-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-040-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The bolt-in idler shafts have a flange that requires the shaft, idler gear, and thrust washer to be removed as an assembly.
 
-Mark the position of the idler shaft before removing it.
+### Снятие
 
-Remove the three capscrews, retainer, and thrust washer from the idler gear shaft.
+Валы болтов в холостом ходу имеют фланж, который требует, чтобы вал, шестерня холостого хода и тяговая шайба были удалены в качестве сборки.
 
-Remove the idler gear, thrust washer, and shaft as an assembly from the engine.
+Отметьте положение вала холостого хода перед его удалением.
 
-Remove the idler gear and thrust washer from the shaft.
+Удалите три болта, фиксатор и шайбу с вала шестерни холостого хода.
+
+Удалите шестерню холостого хода, шайбу и вал в качестве сборки из двигателя.
+
+Снимите с вала стойку и шайбу тяги.
 
 ![[01600147.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The bolt-in idler shafts have a flange that requires the shaft, idler gear, and thrust washer to be removed as an assembly.
+>
+> Mark the position of the idler shaft before removing it.
+>
+> Remove the three capscrews, retainer, and thrust washer from the idler gear shaft.
+>
+> Remove the idler gear, thrust washer, and shaft as an assembly from the engine.
+>
+> Remove the idler gear and thrust washer from the shaft.

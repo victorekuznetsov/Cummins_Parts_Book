@@ -30,9 +30,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-toc | Table of Contents |  |
-| [[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-titlepage | Titlepage | 30-Sep-2005 |
-| mrm-frwd | Service Forward | 22-May-2006 |
+| [[[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021555/4021555-toc.html) | Table of Contents |  |
+| [[[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021555/4021555-titlepage.html) | Titlepage | 30-Sep-2005 |
+| [mrm-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021555/mrm-frwd.html) | Service Forward | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -63,7 +63,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-backcover | Backcover | 29-Sep-2005 |
+| [[[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual\|4021555]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021555/4021555-backcover.html) | Backcover | 29-Sep-2005 |
 
 ### Section E - Component Identifications
 

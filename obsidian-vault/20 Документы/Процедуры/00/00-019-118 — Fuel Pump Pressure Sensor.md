@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-118.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-118.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Pressure Sensor
@@ -38,27 +40,56 @@ tags:
 > **Даты:** изменён 2002-08-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-118.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean the area around the fuel pump pressure sensor.
 
-Disconnect the sensor (1) from the engine harness.
+### Снятие
+
+Очистите область вокруг датчика давления топливного насоса.
+
+Отсоедините датчик (1) от электропроводки двигателя.
 
 ![[19400779.png]]
 
-Remove the fuel pump pressure sensor.
+Удалите датчик давления топливного насоса.
 
 ![[19400779.png]]
 
-### Install
+### Установка
 
-Install a new o-ring on the sensor. Use clean engine oil to lubricate the sensor o-ring.
+Установите новое кольцо на датчик. Используйте чистое моторное масло для смазки сенсорного кольца.
 
-Install the new fuel pump pressure sensor.
+Установите новый датчик давления топливного насоса.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
+
+Подключите разъем датчика к датчику давления (1).
+
+![[19400779.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Clean the area around the fuel pump pressure sensor.
+>
+> Disconnect the sensor (1) from the engine harness.
+>
+> Remove the fuel pump pressure sensor.
+>
+> ### Install
+>
+> Install a new o-ring on the sensor. Use clean engine oil to lubricate the sensor o-ring.
+>
+> Install the new fuel pump pressure sensor.
+>
+> **Момент затяжки · Torque Value**
 > 14 n•m [124 in-lb]
-
-Connect the sensor connector to the pressure sensor (1).
-
-![[19400779.png]]
+>
+> Connect the sensor connector to the pressure sensor (1).

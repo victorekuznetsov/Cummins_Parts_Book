@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021942"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-021-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-021-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Belt Tensioner, Automatic (Alternator)
@@ -35,41 +37,80 @@ tags:
 > **Даты:** изменён 2009-03-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-021-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-021-om-ind.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A new automatic tensioning single belt fan and alternator drive is the standard option for the QSM industrial engine. The design uses an eight-rib poly-vee belt with an automatic tensioner and a fixed idler.
 
-The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops when the belt length and geometry are correct. If the tensioner is hitting either of the limits during operation, check the mounting brackets and the belt length. Loose brackets, bracket failure, alternator movement, incorrect belt length, or belt failure can cause the tensioner to hit the limits.
+### Общие сведения
+
+Новый автоматический вентилятор с одним ремнем натяжения и привод генератора переменного тока является стандартным вариантом для промышленного двигателя QSM. В конструкции используется восьмидисковый поливинтовой ремень с автоматическим натяжителем и фиксированным холостым ходом.
+
+Натяжитель ремня предназначен для работы в пределах предела движения руки, обеспечиваемого остановками литья, когда длина ремня и геометрия верны. Если натяжитель нажимает на любой из пределов во время работы, проверьте крепежные скобки и длину ремня. Свободные скобки, отказ скобок, движение генератора переменного тока, неправильная длина ремня или отказ ремня могут привести к тому, что натяжитель достигнет пределов.
 
 ![[13200106.png]]
 
-### Remove
+### Снятие
 
-Use a ¾-inch drive breaker bar to hold back the tensioner and relieve the belt tension.
+Используйте 3⁄4-дюймовый пружинный брусок, чтобы сдержать натяжитель и снять натяжение ремня.
 
-Rotate the tensioner away from the belt until it stops.
+Поверните натяжитель подальше от пояса, пока он не остановится.
 
-Remove the alternator belt while holding the tensioner back.
+Снимите ремень генератора, удерживая натяжитель назад.
 
 ![[09200011.png]]
 
-Remove the belt tensioner from the engine.
+Удалите натяжитель ремня из двигателя.
 
 ![[09200012.png]]
 
-### Install
+### Установка
 
-Tighten the tensioner mounting capscrew.
+Затягивайте крепежные болты натяжителя.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
+
+![[09200012.png]]
+
+Установите ремень генератора на шкивах, удерживая натяжитель назад с 3⁄4-дюймовым приводным выключателем. Используйте уход в рабочем поясе над краем фланцевых шкивов.
+
+Выпустите натяжитель и удалите выключатель.
+
+Натяжитель ремня предназначен для работы в пределах предела движения руки, обеспечиваемого остановками литья, когда длина ремня и геометрия верны.
+
+![[09200011.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> A new automatic tensioning single belt fan and alternator drive is the standard option for the QSM industrial engine. The design uses an eight-rib poly-vee belt with an automatic tensioner and a fixed idler.
+>
+> The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops when the belt length and geometry are correct. If the tensioner is hitting either of the limits during operation, check the mounting brackets and the belt length. Loose brackets, bracket failure, alternator movement, incorrect belt length, or belt failure can cause the tensioner to hit the limits.
+>
+> ### Remove
+>
+> Use a ¾-inch drive breaker bar to hold back the tensioner and relieve the belt tension.
+>
+> Rotate the tensioner away from the belt until it stops.
+>
+> Remove the alternator belt while holding the tensioner back.
+>
+> Remove the belt tensioner from the engine.
+>
+> ### Install
+>
+> Tighten the tensioner mounting capscrew.
+>
+> **Момент затяжки · Torque Value**
 > 47 n•m [35 ft-lb]
-
-![[09200012.png]]
-
-Install the alternator belt over the pulleys while holding the tensioner back with a ¾-inch drive breaker bar. Use care in working belt over the edge of flanged pulleys.
-
-Release the tensioner and remove the breaker bar.
-
-The belt tensioner is designed to operate well within the limit of arm movement, provided by the cast stops, when the belt length and geometry are correct.
-
-![[09200011.png]]
+>
+> Install the alternator belt over the pulleys while holding the tensioner back with a ¾-inch drive breaker bar. Use care in working belt over the edge of flanged pulleys.
+>
+> Release the tensioner and remove the breaker bar.
+>
+> The belt tensioner is designed to operate well within the limit of arm movement, provided by the cast stops, when the belt length and geometry are correct.

@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-002-001-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-002-001-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Crosshead
@@ -33,78 +35,144 @@ tags:
 > **Даты:** изменён 2006-04-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-002-001-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-002-001-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is for engines with 4 valves per cylinder only.
+
+### Общие сведения
+
+Эта процедура предназначена для двигателей с 4 клапанами только на цилиндр.
 
 ![[nobox.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries.
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-- Remove rocker lever cover. Refer to [[40-003-011-tr — Rocker Lever Cover|Procedure 003-011]]
-- Remove rocker lever. Refer to [[40-003-008-tr — Rocker Lever|Procedure 003-008]].
+- Снимите крышку рычага клапанного клапана. Видишь?[[40-003-011-tr — Rocker Lever Cover|Процедура 003-011]]
+- Удалите рычаг клапанного качения. Видишь?[[40-003-008-tr — Rocker Lever|Процедура 003-008]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-> [!note] Note · Примечание
-> Make note of the crosshead location and orientation. If the crossheads are reused, they **must** be installed in their original location and orientation.
+> [!note] Примечание
+> Обратите внимание на расположение и ориентацию клапанного моста. Если клапанные мосты используются повторно, они должны быть установлены в их первоначальном местоположении и ориентации.
 
-Remove the crossheads.
+Удалите клапанные мостики.
 
 ![[02d00028.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the crossheads with solvent. Dry with compressed air.
+Очистите клапанные мостики растворителем. Просушите сжатым воздухом.
 
 ![[02400082.png]]
 
-Inspect the crossheads for cracks and/or excessive wear on rocker lever and valve tip mating surfaces.
+Осмотрите клапанные мосты на наличие трещин и/или чрезмерного износа на поверхности спаривания клапанных клапанов и наконечников клапанов.
 
-Inspect the contact pads for cracks and other damage.
+Проверьте контактные площадки на наличие трещин и других повреждений.
 
-Replace the crossheads if any damage is found.
+Замените клапанные мосты, если обнаружены какие-либо повреждения.
 
 ![[02900021.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> The crosshead has a round and oval hole. If installing new crossheads, it is **not** required to place the holes in a particular position. If crossheads are being reused, make sure to install them in their original location and orientation.
+> [!note] Примечание
+> Клапанный мост имеет круглое и овальное отверстие. Если устанавливаются новые клапанные мосты, то для размещения отверстий в определенном положении **не требуется**. Если клапанные мосты используются повторно, обязательно установите их в исходном месте и ориентации.
 
-Install the crossheads on the valve stems.
+Установите клапанные мостики на стебли клапана.
 
 ![[02d00028.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install rocker lever. Refer to [[40-003-008-tr — Rocker Lever|Procedure 003-008]]
-- Install rocker lever cover and gasket. Refer to [[40-003-011-tr — Rocker Lever Cover|Procedure 003-011]].
+- Установите рычаг качения клапанного клапана. Видишь?[[40-003-008-tr — Rocker Lever|Процедура 003-008]]
+- Установите крышку рычага клапанного клапана и прокладку. Видишь?[[40-003-011-tr — Rocker Lever Cover|Процедура 003-011]].
 
 ![[ck800wa.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries.
+- Подсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-- Run the engine and check for leaks.
+- Запускай двигатель и проверь на наличие утечек.
 
 ![[07d00087.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This procedure is for engines with 4 valves per cylinder only.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> - Remove rocker lever cover. Refer to [[40-003-011-tr — Rocker Lever Cover|Procedure 003-011]]
+> - Remove rocker lever. Refer to [[40-003-008-tr — Rocker Lever|Procedure 003-008]].
+>
+> ### Remove
+>
+> **Note · Примечание**
+> Make note of the crosshead location and orientation. If the crossheads are reused, they **must** be installed in their original location and orientation.
+>
+> Remove the crossheads.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the crossheads with solvent. Dry with compressed air.
+>
+> Inspect the crossheads for cracks and/or excessive wear on rocker lever and valve tip mating surfaces.
+>
+> Inspect the contact pads for cracks and other damage.
+>
+> Replace the crossheads if any damage is found.
+>
+> ### Install
+>
+> **Note · Примечание**
+> The crosshead has a round and oval hole. If installing new crossheads, it is **not** required to place the holes in a particular position. If crossheads are being reused, make sure to install them in their original location and orientation.
+>
+> Install the crossheads on the valve stems.
+>
+> ### Finishing Steps
+>
+> - Install rocker lever. Refer to [[40-003-008-tr — Rocker Lever|Procedure 003-008]]
+> - Install rocker lever cover and gasket. Refer to [[40-003-011-tr — Rocker Lever Cover|Procedure 003-011]].
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries.
+>
+> - Run the engine and check for leaks.

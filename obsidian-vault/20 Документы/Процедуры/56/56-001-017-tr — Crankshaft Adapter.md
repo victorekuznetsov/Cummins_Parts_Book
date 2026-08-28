@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-017-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-017-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Adapter
@@ -31,62 +33,120 @@ tags:
 > **Даты:** изменён 2003-10-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-017-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-017-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
 
-Remove the vibration damper. Refer to Procedure [[56-001-052-tr — Vibration Damper, Viscous|001-052]].
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
+
+Удалите вибрационный демпфер. См. процедуру[[56-001-052-tr — Vibration Damper, Viscous|001-052]].
 
 ![[06400089.png]]
 
-### Remove
+### Снятие
 
-Remove the crankshaft adapter capscrews and the crankshaft adaptor.
+Удалите болты адаптера коленчатого вала и адаптер коленчатого вала.
 
 ![[01600185.png]]
 
-### Install
+### Установка
 
-Install the roll pin into the crankshaft nose. This pin will align the crankshaft adapter to the crankshaft.
+Установите рулонный штифт в нос коленчатого вала. Этот штифт выровнит адаптер коленчатого вала к коленчатому валу.
 
-Measure the crankshaft adapter roll pin protrusion.
+Измерьте выступ коленчатого вала адаптера.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 21.0 | MIN | 0.83 |
-| 23.0 | MAX | 0.91 |
+| 21.0 | Мин | 0.83 |
+| 23.0 | Макс | 0.91 |
 
-Make sure the roll pin is lined up with the hole in the crankshaft adapter.
+Убедитесь, что штифт рулона выровнен с отверстием в адаптере коленчатого вала.
 
-Install the crankshaft adapter.
+Установите адаптер коленчатого вала.
 
 ![[01600185.png]]
 
-Lubricate the crankshaft adapter capscrew threads and flange surfaces with clean engine oil.
+Смазать коленчатый адаптер болтами резьбы и фланцевых поверхностей чистым моторным маслом.
 
 ![[01600186.png]]
 
-Install the crankshaft adapter capscrews.
+Установите болты адаптера коленчатого вала.
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-| **Torque Value:** | Step 1 | 200 n.m \[148 ft-lb\] |
+| **Момент затяжки:** | ШАГ 1. | 200 Н·м[148 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 380 n.m \[280 ft-lb\] |
+|  | ШАГ 2. | 380 н.м.[280 фунт-фут] |
 |---|---|---|
 
-|  | Step 3 | 685 n.m \[505 ft-lb\] |
+|  | ШАГ 3. | 685 Н·м[505 фунт-фут] |
 |---|---|---|
 
 ![[01600187.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Install the vibration damper. Refer to Procedure [[56-001-052-tr — Vibration Damper, Viscous|001-052]].
+Установите вибрационный демпфер. См. процедуру[[56-001-052-tr — Vibration Damper, Viscous|001-052]].
 
 ![[01600136.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Remove the vibration damper. Refer to Procedure [[56-001-052-tr — Vibration Damper, Viscous|001-052]].
+>
+> ### Remove
+>
+> Remove the crankshaft adapter capscrews and the crankshaft adaptor.
+>
+> ### Install
+>
+> Install the roll pin into the crankshaft nose. This pin will align the crankshaft adapter to the crankshaft.
+>
+> Measure the crankshaft adapter roll pin protrusion.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 21.0 | MIN | 0.83 |
+> | 23.0 | MAX | 0.91 |
+>
+> Make sure the roll pin is lined up with the hole in the crankshaft adapter.
+>
+> Install the crankshaft adapter.
+>
+> Lubricate the crankshaft adapter capscrew threads and flange surfaces with clean engine oil.
+>
+> Install the crankshaft adapter capscrews.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> | **Torque Value:** | Step 1 | 200 n.m \[148 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 380 n.m \[280 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 3 | 685 n.m \[505 ft-lb\] |
+> |---|---|---|
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Install the vibration damper. Refer to Procedure [[56-001-052-tr — Vibration Damper, Viscous|001-052]].

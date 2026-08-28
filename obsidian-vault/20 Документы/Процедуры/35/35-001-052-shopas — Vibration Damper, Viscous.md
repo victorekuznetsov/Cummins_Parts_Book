@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-052-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-052-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Viscous
@@ -35,36 +37,72 @@ tags:
 > **Даты:** изменён 2017-04-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-052-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-052-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the vibration damper, crankshaft pulley, and clamping plate. [[35-001-022-tr — Crankshaft Pulley|Refer to Procedure 001-022 in Section 1.]]
+
+### Установка
+
+Установите вибродемпфер, коленчатый вал и зажимную пластину.[[35-001-022-tr — Crankshaft Pulley|См. процедуру 001-022 в разделе 1.]]
 
 ![[da2puma.png]]
 
-### Eccentricity Check
+### Эксцентричность Check
 
-Clean the outside surface of the vibration damper.
+Очистить внешнюю поверхность от вибрационной демпфера.
 
-To measure damper eccentricity (out of round), install the dial indicator gauge, Part Number 3376050, and extension Part Number ST-537-4, on the gear cover as indicated.
+Для измерения эксцентриситета демпфера (вне круга) установите на крышке передач индикаторный калибр, номер детали 3376050 и номер детали ST-537-4, как указано.
 
-Rotate the crankshaft with the accessory driveshaft one complete revolution (360 degrees), and record the total indicator movement.
+Поверните коленчатый вал с помощью дополнительного вала привода на один полный оборот (360 градусов) и запишите общее движение индикатора.
 
-Replace the vibration damper if the eccentricity exceeds 0.28 mm \[0.011 in\].
+Замените вибрационный демпфер, если эксцентриситет превышает 0,28 мм \[0,011 в\].
 
 ![[da200je.png]]
 
-### Wobble Check
+### Проверка Wobble
 
-To measure wobble (face alignment), install the dial indicator as shown.
+Для измерения колебания (выравнивания лица) установите индикатор циферблата, как показано.
 
-Push the crankshaft to the front or rear of the engine and “0” (zero) the indicator.
+Подтолкнуть коленчатый вал к передней или задней части двигателя и «0» (ноль) индикатора.
 
 ![[da200jh.png]]
 
-Rotate the crankshaft with the accessory driveshaft one complete revolution (360 degrees) while maintaining the position of the crankshaft either toward the front or the rear of the engine.
+Поверните коленчатый вал с дополнительным приводным валом один полный оборот (360 градусов), сохраняя при этом положение коленчатого вала либо по направлению к передней или задней части двигателя.
 
-Record the total indicator movement.
+Зафиксируйте общее движение индикатора.
 
-Replace the damper if wobble exceeds 0.28 mm \[0.011 in\].
+Заменить демпфер, если колебание превышает 0,28 мм \[0,011 в\].
 
 ![[da200ja.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the vibration damper, crankshaft pulley, and clamping plate. [[35-001-022-tr — Crankshaft Pulley|Refer to Procedure 001-022 in Section 1.]]
+>
+> ### Eccentricity Check
+>
+> Clean the outside surface of the vibration damper.
+>
+> To measure damper eccentricity (out of round), install the dial indicator gauge, Part Number 3376050, and extension Part Number ST-537-4, on the gear cover as indicated.
+>
+> Rotate the crankshaft with the accessory driveshaft one complete revolution (360 degrees), and record the total indicator movement.
+>
+> Replace the vibration damper if the eccentricity exceeds 0.28 mm \[0.011 in\].
+>
+> ### Wobble Check
+>
+> To measure wobble (face alignment), install the dial indicator as shown.
+>
+> Push the crankshaft to the front or rear of the engine and “0” (zero) the indicator.
+>
+> Rotate the crankshaft with the accessory driveshaft one complete revolution (360 degrees) while maintaining the position of the crankshaft either toward the front or the rear of the engine.
+>
+> Record the total indicator movement.
+>
+> Replace the damper if wobble exceeds 0.28 mm \[0.011 in\].

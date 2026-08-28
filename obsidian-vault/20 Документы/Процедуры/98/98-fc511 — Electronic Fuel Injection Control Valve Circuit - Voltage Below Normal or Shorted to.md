@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc511.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc511.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Electronic Fuel Injection Control Valve Circuit - Voltage Below Normal or Shorted to Low Source
@@ -30,72 +32,150 @@ tags:
 > **Даты:** изменён 2021-09-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc511.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc511.pdf)
 
-### Fault Code: 511
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Electronic Fuel Injection Control Valve Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 511
 
-### Overview
+### Электронный регулятор впрыска топлива - напряжение ниже нормального или короткое до низкого источника
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 511 PID(P): S18 SPN: FMI: 4 Lamp: Flashing SRT: 000-643 | Low current is detected at electronic fuel control valve primary return engine control module (ECM). | Engine may **not** start. Engine may shut down. Possible reduced engine performance. No overspeed protection |
+| Код неисправности: 511 PID(P): S18 SPN: ФМИ: 4 лампы: Флешинг SRT: 000-643 | Низкий ток обнаруживается в электронном клапане управления топливом первичного модуля управления возвратным двигателем (ECM). | Двигатель может **не** завестись. Двигатель может отключиться. Возможно снижение производительности двигателя. Нет скоростной защиты |
 
 ![[19802307.png]]
 
-Electronic Fuel Control Valve Circuit
+Электронный топливный контроллер клапан Circuit
 
-### Circuit Description
+### Описание цепи
 
-The electronic fuel control valve is an actuator used by the ECM to control fuel flow to the fuel injectors. The electronic fuel control valve has two circuits: electronic fuel control valve supply, and electronic fuel control valve primary return.
+Электронный клапан управления топливом представляет собой привод, используемый ECM для управления потоком топлива к форсунке топлива. Электронный клапан управления топливом имеет две схемы: Электронный клапан управления топливом и электронный клапан управления топливом первичный возврат.
 
-### Component Location
+### Расположение компонента
 
-The electronic fuel control valve is bolted to the fuel pump on the left side of the engine.
+Электронный клапан управления топливом прикреплен к топливному насосу на левой стороне двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the electronic fuel control valve supply was out of range low.
+Модуль управления двигателем (ECM) обнаружил, что электронный клапан управления топливом был вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу же после запуска и отказа диагностического устройства.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+- Выключите замок зажигания. Позвольте ECM полностью выключить питание и включить переключатель зажигания.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Damaged or loose connectors.
+- Поврежденные или рыхлые разъемы.
 
-- Malfunctioning or damaged electronic fuel control solenoid.
+- Неисправность или повреждение электронного управления топливом соленоида.
 
-Refer to Troubleshooting Fault Code t05-511
+Устранение неполадок код t05-511
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 511
+>
+> ### Electronic Fuel Injection Control Valve Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 511 PID(P): S18 SPN: FMI: 4 Lamp: Flashing SRT: 000-643 | Low current is detected at electronic fuel control valve primary return engine control module (ECM). | Engine may **not** start. Engine may shut down. Possible reduced engine performance. No overspeed protection |
+>
+> Electronic Fuel Control Valve Circuit
+>
+> ### Circuit Description
+>
+> The electronic fuel control valve is an actuator used by the ECM to control fuel flow to the fuel injectors. The electronic fuel control valve has two circuits: electronic fuel control valve supply, and electronic fuel control valve primary return.
+>
+> ### Component Location
+>
+> The electronic fuel control valve is bolted to the fuel pump on the left side of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the electronic fuel control valve supply was out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Damaged or loose connectors.
+>
+> - Malfunctioning or damaged electronic fuel control solenoid.
+>
+> Refer to Troubleshooting Fault Code t05-511

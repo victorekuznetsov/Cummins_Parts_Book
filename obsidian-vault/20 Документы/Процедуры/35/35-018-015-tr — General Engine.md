@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-015-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-015-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # General Engine
@@ -35,126 +37,256 @@ tags:
 > **Даты:** изменён 2011-04-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-015-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-015-tr.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive Applications
 
-| Horsepower | Refer to engine dataplate |
+### Спецификации
+
+Автомобильное применение
+
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-| Engine Speed @ Maximum Output | Refer to engine dataplate |
+| Скорость двигателя @ Максимальная производительность | См. табличку с данными двигателя |
 |---|---|
 
-| Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+| цилиндровый и Stroke | 125 мм \[4.921 в\] х 147 мм \[5.787 в\] |
 |---|---|
 
-| Displacement | 10.8 liters \[659 C.I.D.\] |
+| вытеснение | 10,8 литра[659 C.I.D.] |
 |---|---|
 
-| Firing Order | 1-5-3-6-2-4 |
+| Огнестрельное предписание | 1-5-3-6-2-4 |
 |---|---|
 
-| Engine Weight (with standard accessories) |  |
+| Вес двигателя (со стандартными аксессуарами) |  |
 |---|---|
 
-#### Dry Weight
+#### сухой вес
 
-| without EGR | 940 kg \[2072 lb\] |
+| Без ЭКГ | 940 кг[2072 фунтов] |
 |---|---|
 
-| with CM875 or Combined CM870 and CM570 | 989 kg \[2180 lb\] |
+| CM875 или комбинированные CM870 и CM570 | 989 кг[2180 фунтов] |
 |---|---|
 
-| with CM876 | 1033 kg \[2277 lb\] |
+| См. также CM876 | 1033 кг[2277 фунтов] |
 |---|---|
 
-#### Wet Weight
+#### Мокрый вес
 
-| without EGR | 1045 kg \[2303 lb\] |
+| Без ЭКГ | 1045 кг[2303 фунта] |
 |---|---|
 
-| with CM875 or Combined CM870 and CM570 | 996 kg \[2195 lb\] |
+| CM875 или комбинированные CM870 и CM570 | 996 кг[2195 фунтов] |
 |---|---|
 
-| with CM876 | 1080 kg \[2382 lb\] |
+| См. также CM876 | 1080 кг[2382 фунта] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
 
 ![[ew800va.png]]
 
-Cylinder Location and Firing Order
+Местоположение цилиндра и процедура стрельбы
 
 ![[kn2vagb.png]]
 
-Intake and Exhaust Valve Locations
+Местоположение Intake and Exhaust клапан
 
-Marine Applications
+Судовое применение
 
-| Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+| Тип | Четырехцилиндровый, рядный шестицилиндровый, четыре клапана на цилиндр |
 |---|---|
 
-| Horsepower | Refer to engine dataplate |
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-| Engine Speed at Maximum Output | Refer to engine dataplate |
+| Скорость двигателя на максимальной мощности | См. табличку с данными двигателя |
 |---|---|
 
-| Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+| цилиндровый и Stroke | 125 мм \[4.921 в\] х 147 мм \[5.787 в\] |
 |---|---|
 
-| Displacement | 10.8 liters \[659 C.I.D.\] |
+| вытеснение | 10,8 литра[659 C.I.D.] |
 |---|---|
 
-| Firing Order | 1-5-3-6-2-4 |
+| Огнестрельное предписание | 1-5-3-6-2-4 |
 |---|---|
 
-#### Engine Weight (with standard accessories):
+#### Вес двигателя (со стандартными аксессуарами):
 
-| Dry Weight | 1124 kg \[2478 lb\] |
+| сухой вес | 1124 кг[2478 фунтов] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
 
-Industrial and Generator Drive
+Промышленный и генераторный привод
 
-| Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+| Тип | Четырехцилиндровый, рядный шестицилиндровый, четыре клапана на цилиндр |
 |---|---|
 
-| Horsepower | Refer to engine dataplate |
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-| Engine Speed at Maximum Output | Refer to engine dataplate |
+| Скорость двигателя на максимальной мощности | См. табличку с данными двигателя |
 |---|---|
 
-| Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+| цилиндровый и Stroke | 125 мм \[4.921 в\] х 147 мм \[5.787 в\] |
 |---|---|
 
-| Displacement | 10.8 liters \[659 C.I.D.\] |
+| вытеснение | 10,8 литра[659 C.I.D.] |
 |---|---|
 
-| Firing Order | 1-5-3-6-2-4 |
+| Огнестрельное предписание | 1-5-3-6-2-4 |
 |---|---|
 
-#### Engine Weight (with standard accessories):
+#### Вес двигателя (со стандартными аксессуарами):
 
-#### Industrial Applications
+#### Промышленное применение
 
-| Dry Weight | 940 kg \[2072 lb\] |
+| сухой вес | 940 кг[2072 фунтов] |
 |---|---|
 
-| Wet Weight | 996 kg \[2196 lb\] |
+| Мокрый вес | 996 кг[2196 фунтов] |
 |---|---|
 
-#### Generator Drive Applications
+#### Приложения Generator Drive
 
-| Dry Weight | 970 kg \[2145 lb\] |
+| сухой вес | 970 кг[2145 фунтов] |
 |---|---|
 
-| Wet Weight | 1007 kg \[2220 lb\] |
+| Мокрый вес | 1007 кг[2220 фунтов] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | Clockwise |
+| Вращение коленчатого вала (видно спереди двигателя) | по часовой стрелке |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Automotive Applications
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> | Engine Speed @ Maximum Output | Refer to engine dataplate |
+> |---|---|
+>
+> | Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+> |---|---|
+>
+> | Displacement | 10.8 liters \[659 C.I.D.\] |
+> |---|---|
+>
+> | Firing Order | 1-5-3-6-2-4 |
+> |---|---|
+>
+> | Engine Weight (with standard accessories) |  |
+> |---|---|
+>
+> #### Dry Weight
+>
+> | without EGR | 940 kg \[2072 lb\] |
+> |---|---|
+>
+> | with CM875 or Combined CM870 and CM570 | 989 kg \[2180 lb\] |
+> |---|---|
+>
+> | with CM876 | 1033 kg \[2277 lb\] |
+> |---|---|
+>
+> #### Wet Weight
+>
+> | without EGR | 1045 kg \[2303 lb\] |
+> |---|---|
+>
+> | with CM875 or Combined CM870 and CM570 | 996 kg \[2195 lb\] |
+> |---|---|
+>
+> | with CM876 | 1080 kg \[2382 lb\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|
+>
+> Cylinder Location and Firing Order
+>
+> Intake and Exhaust Valve Locations
+>
+> Marine Applications
+>
+> | Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+> |---|---|
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> | Engine Speed at Maximum Output | Refer to engine dataplate |
+> |---|---|
+>
+> | Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+> |---|---|
+>
+> | Displacement | 10.8 liters \[659 C.I.D.\] |
+> |---|---|
+>
+> | Firing Order | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Engine Weight (with standard accessories):
+>
+> | Dry Weight | 1124 kg \[2478 lb\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|
+>
+> Industrial and Generator Drive
+>
+> | Type | Four-cycle, In-line six-cylinder, four-valves per cylinder |
+> |---|---|
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> | Engine Speed at Maximum Output | Refer to engine dataplate |
+> |---|---|
+>
+> | Bore and Stroke | 125 mm \[4.921 in\] x 147 mm \[5.787 in\] |
+> |---|---|
+>
+> | Displacement | 10.8 liters \[659 C.I.D.\] |
+> |---|---|
+>
+> | Firing Order | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Engine Weight (with standard accessories):
+>
+> #### Industrial Applications
+>
+> | Dry Weight | 940 kg \[2072 lb\] |
+> |---|---|
+>
+> | Wet Weight | 996 kg \[2196 lb\] |
+> |---|---|
+>
+> #### Generator Drive Applications
+>
+> | Dry Weight | 970 kg \[2145 lb\] |
+> |---|---|
+>
+> | Wet Weight | 1007 kg \[2220 lb\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | Clockwise |
+> |---|---|

@@ -19,7 +19,8 @@ manuals:
   - "3666423"
   - "4021942"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-016-010.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-016-010.pdf"
 tags:
@@ -27,6 +28,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Engine Mounts
@@ -40,10 +42,26 @@ tags:
 > **Даты:** изменён 2005-03-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-016-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-016-010.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the torque on the engine-mounting nuts and bolts. Tighten any that are loose. Refer to the OEM service manual or manufacturer for torque specifications.
 
-Inspect the rubber for deterioration and age hardening. Replace any broken or lost bolts, capscrews, or damaged rubber.
+### Осмотр
+
+Проверьте крутящий момент на крепящихся в двигателе гайках и болтах. Затягивайте все, что недоступно. См. руководство по обслуживанию OEM или производителя для спецификаций крутящего момента.
+
+Проверьте резину на ухудшение и затвердевание возраста. Замените любые сломанные или потерянные болты, болты или поврежденную резину.
 
 ![[em8cosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Check the torque on the engine-mounting nuts and bolts. Tighten any that are loose. Refer to the OEM service manual or manufacturer for torque specifications.
+>
+> Inspect the rubber for deterioration and age hardening. Replace any broken or lost bolts, capscrews, or damaged rubber.

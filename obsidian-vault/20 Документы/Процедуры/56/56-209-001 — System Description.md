@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021555"
 figures: 28
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-209-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-209-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # System Description
@@ -35,490 +37,932 @@ tags:
 > **Даты:** изменён 2006-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-209-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-209-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The QSK60 Marine propulsion and QSK60 Dominion Marine auxiliary engines are each available as classed or non-classed engines. One of the requirements of a classed engine is an independent safety and alarm system in addition to the base engine control system. The safety system has the ability to shut down the engine, while the alarm system displays information- **only** faults onto a display panel. The terms classed and non-classed are often interchanged with full and base, respectively.
 
-There are four different engine monitoring system options. See Tables 1 and 2.
+### Общие сведения
 
-| Table 1: Alarm and Safety System |  |  |  |  |
+Двигатели QSK60 Marine и вспомогательные двигатели QSK60 Dominion Marine доступны как классные, так и неклассированные двигатели. Одним из требований к классифицируемому двигателю является независимая система безопасности и сигнализации в дополнение к базовой системе управления двигателем. Система безопасности имеет возможность отключить двигатель, в то время как система сигнализации отображает информацию - только  неисправности на панели дисплея. Термины, классифицируемые и неклассированные, часто взаимозаменяются с полными и базовыми соответственно.
+
+Существует четыре различных варианта системы мониторинга двигателя. См. таблицы 1 и 2.
+
+| Таблица 1: Система сигнализации и безопасности |  |  |  |  |
 |---|---|---|---|---|
-|  | Propulsion | Auxiliary |  |  |
-| Component | Classed SD6008 | Non-Classed SD6011 | Classed SD6009 | Non-Classed SD6007 |
-| Safety Module | Standard |  | Standard |  |
-| 5 Safety System Switches | Standard |  | Standard |  |
-| Power Module | Standard | Standard | Standard | Standard |
-| Vessel Interface Terminal Strip | Standard | Standard | Standard | Standard |
-| Printed Circuit Board | Standard |  | Standard | Standard |
-| Speed Comparator |  |  | Standard |  |
-| Quantum CM500 Base Engine ECM | Standard | Standard |  |  |
-| Dominion Base Engine ECM |  |  | Standard | Standard |
-| 12 Base Engine Sensors | Standard | Standard | Standard | Standard |
-| Local Analog Display | Optional 1 | Optional 2 | Standard | Standard |
-| 34 Alarm Sensors | Standard |  | Standard |  |
-| Cetrek Display | Optional 1 | Optional 2 |  |  |
-| Remote Analog Panel | Optional 3 | Optional 3 | Optional 3 | Optional 3 |
-| Remote Mount Display(s) | Optional 4 | Optional 4 |  |  |
+|  | Движение | Вспомогательный |  |  |
+| компонент | Классификация SD6008 | Неклассифицированный SD6011 | Классификация SD6009 | Неклассифицированный SD6007 |
+| Модуль безопасности | Стандартный стандарт |  | Стандартный стандарт |  |
+| 5 систем безопасности коммутаторов | Стандартный стандарт |  | Стандартный стандарт |  |
+| Power модуль | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт |
+| Интерфейс судна Терминальная полоса | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт |
+| печатный кольцевой плат | Стандартный стандарт |  | Стандартный стандарт | Стандартный стандарт |
+| Сравнитель скорости |  |  | Стандартный стандарт |  |
+| Квантовый CM500 Base Engine ECM | Стандартный стандарт | Стандартный стандарт |  |  |
+| Базовый двигатель Dominion ECM |  |  | Стандартный стандарт | Стандартный стандарт |
+| 12 базовых датчиков двигателя | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт | Стандартный стандарт |
+| Местный аналоговый дисплей | Факультатив 1 | Факультатив 2 | Стандартный стандарт | Стандартный стандарт |
+| 34 сигнальных датчика | Стандартный стандарт |  | Стандартный стандарт |  |
+| Cetrek Display | Факультатив 1 | Факультатив 2 |  |  |
+| Дистанционная аналоговая панель | Факультатив 3 | Факультатив 3 | Факультатив 3 | Факультатив 3 |
+| Дистанционный дисплей Mount (s) | Факультатив 4 | Факультатив 4 |  |  |
 
-| Footnotes |  |  |  |
+| Сноски |  |  |  |
 |---|---|---|---|
-|  | Option | Description | Comment(s) |
-| 1 | EG6015 | Classed engine room panel | Contains local analog display and is housed in engine room panel. |
-| 2 | EG6003 | Non-classed engine room panel | Contains local analog and is housed in engine room panel with six alarm sensors. |
-| 3 | EG6005 | 1 Remote analog panel |  |
-|  | EG6009 | 2 Remote analog panel |  |
-|  | EG6010 | 3 Remote analog panel |  |
-|  | EG6011 | 4 Remote analog panel |  |
-| 4 | EG6004 | 1 Remote Cetrek display |  |
-|  | EG6006 | 2 Remote Cetrek display |  |
-|  | EG6007 | 3 Remote Cetrek display |  |
-|  | EG6008 | 4 Remote Cetrek display |  |
+|  | Вариант | Наименование | Комментарий(ы) |
+| 1 | EG6015 | Классная панель машинного отделения | Содержит локальный аналоговый дисплей и размещен в панели машинного отделения. |
+| 2 | EG6003 | Неклассная панель машинного отделения | Содержит местный аналог и размещен в моторном отделении с шестью датчиками сигнализации. |
+| 3 | EG6005 | 1 Удаленная аналоговая панель |  |
+|  | EG6009 | 2 Удаленная аналоговая панель |  |
+|  | EG6010 | 3 Удаленная аналоговая панель |  |
+|  | EG6011 | 4 Удаленная аналоговая панель |  |
+| 4 | EG6004 | 1 Дистанционный дисплей Cetrek |  |
+|  | EG6006 | 2 Дистанционный дисплей Cetrek |  |
+|  | EG6007 | 3 Дистанционный дисплей Cetrek |  |
+|  | EG6008 | 4 Дистанционный дисплей Cetrek |  |
 
-| Table 2: Alarm and Safety System |  |  |  |  |
+| Таблица 2: Система сигнализации и безопасности |  |  |  |  |
 |---|---|---|---|---|
-|  | Location By Application |  |  |  |
-| Component | Customer Interface Box | Engine Room Panel | On Engine | Remote |
-| Safety Module | Auxiliary and Propulsion |  |  |  |
-| 5 Safety System Switches |  |  | Auxiliary and Propulsion |  |
-| Power Module | Auxiliary and Propulsion |  |  |  |
-| Vessel Interface Terminal Strip | Auxiliary and Propulsion |  |  |  |
-| Printed Circuit Board | Auxiliary and Propulsion |  |  |  |
-| Speed Comparator | Auxiliary |  |  |  |
-| Quantum CM500 Base Engine ECM |  |  | Propulsion |  |
-| Dominion Base Engine ECM | Auxiliary |  |  |  |
-| 12 Base Engine Sensors |  |  | Auxiliary and Propulsion |  |
-| Local Analog Display | Auxiliary | Propulsion |  |  |
-| 34 Alarm Sensors |  |  | Auxiliary and Propulsion |  |
-| Cetrek Display |  | Propulsion |  |  |
-| Remote Analog Panel |  |  |  | Auxiliary and Propulsion |
-| Remote Mount Cetrek Display(s) |  |  |  | Propulsion |
+|  | Местоположение по заявке |  |  |  |
+| компонент | Интерфейсная коробка заказчика | Пульт машинного отделения | На моторе | удаленный |
+| Модуль безопасности | Вспомогательный и движитель |  |  |  |
+| 5 систем безопасности коммутаторов |  |  | Вспомогательный и движитель |  |
+| Power модуль | Вспомогательный и движитель |  |  |  |
+| Интерфейс судна Терминальная полоса | Вспомогательный и движитель |  |  |  |
+| печатный кольцевой плат | Вспомогательный и движитель |  |  |  |
+| Сравнитель скорости | Вспомогательный |  |  |  |
+| Квантовый CM500 Base Engine ECM |  |  | Движение |  |
+| Базовый двигатель Dominion ECM | Вспомогательный |  |  |  |
+| 12 базовых датчиков двигателя |  |  | Вспомогательный и движитель |  |
+| Местный аналоговый дисплей | Вспомогательный | Движение |  |  |
+| 34 сигнальных датчика |  |  | Вспомогательный и движитель |  |
+| Cetrek Display |  | Движение |  |  |
+| Дистанционная аналоговая панель |  |  |  | Вспомогательный и движитель |
+| Дистанционный дисплей Mount Cetrek (s) |  |  |  | Движение |
 
 ![[15600056.png]]
 
-The alarm and safety system consists of three independent systems:
+Система сигнализации и безопасности состоит из трех независимых систем:
 
-| A. Control | B. Alarm | C. Safety |
+| А. Контроль | Б. Тревога | С. Безопасность |
 |---|---|---|
-| 1. Control Sensors | 6. Alarm Sensors | 10. Safety Sensor |
-| 2. Cetrek Display | 7. Local Analog Display | 11. Safety Module |
-| 3. ECM | 8. Interface Box |  |
-| 4. Fuel System Control Valves | 9. Remote Analog Display |  |
-| 5. Fuel System Shutoff Valve |  |  |
+| 1. Сенсоры управления | 6. Сенсоры тревоги | 10. Сенсор безопасности |
+| 2. Cetrek Display | 7. Местный аналоговый дисплей | 11. Модуль безопасности |
+| 3. ЭКМ | 8. Интерфейс Box |  |
+| 4. Клапаны управления топливной системой | 9. Удаленный аналоговый дисплей |  |
+| 5. Топливная система Shutoff клапан |  |  |
 
-The propulsion and auxiliary options share much of the same basic hardware, although they are packaged differently. One primary reason for this difference is that the auxiliary engines have the Dominion ECM mounted off-engine in the customer interface box, while the propulsion engines have a CM500 ECM mounted on-engine in the same fashion as the industrial configuration.
+Двигатели и вспомогательные опции имеют большую часть одного и того же базового оборудования, хотя они упакованы по-разному. Одной из основных причин этого различия является то, что вспомогательные двигатели имеют Dominion ECM, установленный вне двигателя в коробке интерфейса клиента, в то время как двигательные двигатели имеют CM500 ECM, установленный на двигателе таким же образом, как и промышленная конфигурация.
 
-The local analog display and the remote analog panel have a common display. There are seven analog channels and an hour meter displayed on the screen. Each analog channel features:
+Местный аналоговый дисплей и удаленная аналоговая панель имеют общий дисплей. На экране отображаются семь аналоговых каналов и час-метр. Каждый аналоговый канал имеет:
 
 ![[15600117.png]]
 
-A. Parameter icon, ISO standard when possible
+А. Иконка параметра, стандарт ISO, когда это возможно
 
-B. Digital value for the parameter
+Б. Цифровое значение для параметра
 
-C. Icon, indicating units
+С. Икона с указанием единиц
 
-D. Bar or dial RPM indicator
+Ди. Бар или индикатор RPM
 
-E. System fault icon, indicates sensor or wiring fault
+Е. Иконка системного неисправности, указывает на неисправность датчика или проводов
 
-F. Hour meter
+Ф. Часовой счетчик
 
-G. General system fault icon, indicates internal local analog display or remote analog panel failure.
+Г. Общий значок неисправности системы, указывает на внутренний локальный аналоговый дисплей или удаленный отказ аналоговой панели.
 
 ![[15600057.png]]
 
-1. Coolant temperature
-2. Left bank exhaust stack temperature
-3. RPM
-4. Right bank exhaust stack temperature
-5. Battery voltage
-6. Engine oil pressure
-7. Marine gear oil pressure (optional).
+1. Температура охлаждающей жидкости
+2. Температура выхлопных газов левого берега
+3. РРМ
+4. Температура выхлопных газов в правом берегу
+5. Напряжение аккумулятора
+6. Давление масла в двигателе
+7. Давление масла в морской фазе (необязательно).
 
-The local analog display and remote analog panel performs a self-test at startup.
+Местный аналоговый дисплей и удаленная аналоговая панель выполняют самотестирование при запуске.
 
-- Yellowish-green segments, red default icons and green bars and dials are lit for three to five seconds
-- Bars and dials turn red for three to five seconds
-- Displays real-time values.
+- Желто-зеленые сегменты, красные значки по умолчанию и зеленые полосы и циферблаты зажигаются в течение трех-пяти секунд.
+- Бары и циферблаты становятся красными в течение трех-пяти секунд.
+- Отображает ценности в реальном времени.
 
-After the self-test, the screen displays the current value present on the analog card inputs, unless the configuration serial link is connected and active. In that case, the lamps remain red as long as the serial link is active.
+После самотестирования экран отображает текущее значение, присутствующее на входах аналоговой карты, если последовательное соединение конфигурации не подключено и не активировано. В этом случае лампы остаются красными до тех пор, пока активна последовательная линия.
 
-The configuration serial link is shipped with the local analog display from the factory.
+Серийная линия конфигурации поставляется с локальным аналоговым дисплеем с завода.
 
 ![[15600096.png]]
 
-If the local analog display and the remote analog panel need to be configured when replaced in the field, the following changes can be made by a Cummins technician or end user using a personal computer with HyperTerminal or other telnet software and the configuration serial link:
+Если локальный аналоговый дисплей и удаленная аналоговая панель должны быть настроены при замене в полевых условиях, следующие изменения могут быть сделаны техническим специалистом Cummins или конечным пользователем с помощью персонального компьютера с HyperTerminal или другим программным обеспечением telnet и последовательной линией конфигурирования:
 
-- Gear oil pressure channel enabling or disabling
-- Gear oil pressure threshold setting
-- Gear oil pressure RPM inhibit setting
-- Metric versus Imperial units
-- Hour meter display.
+- Канал давления масла в подошве, позволяющий или отключающий
+- Порог давления масла в груше
+- Нагрузка на масло смолы RPM тормозит настройку
+- Метрические единицы против имперских единиц
+- Часовой счетчик.
 
-> [!note] Note · Примечание
-> HyperTerminal is a standard program found on most personal computers with Microsoft® Windows.
+> [!note] Примечание
+> HyperTerminal - это стандартная программа, которая используется на большинстве персональных компьютеров с Microsoft Windows.
 
-To change software setting a personal computer **must** be connected to the serial port (RS-232) as shown.
+Для изменения настройки программного обеспечения персональный компьютер должен быть подключен к последовательному порту (RS-232), как показано на рисунке.
 
-The following is for the local analog and remote analog panel.
+Ниже приведены для локальной аналоговой и удаленной аналоговой панели.
 
-Customer Interface Box
+Интерфейсная коробка заказчика
 
-The customer interface box provides an interface point from the vessel to the alarm and safety system to the terminal strip. It also displays information to the local analog display (auxiliary **only**) and safety module. The customer interface box is located in the engine room.
+Коробка интерфейса клиента обеспечивает точку интерфейса от судна до системы сигнализации и безопасности до терминальной полосы. Он также отображает информацию на локальный аналоговый дисплей (вспомогательный **только**) и модуль безопасности. Коробка интерфейса клиента расположена в машинном отделении.
 
 ![[15600104.png]]
 
-Engine Room Panel
+Пульт машинного отделения
 
-The engine room panel displays information to the local analog display and the Cetrek display. Located in the engine room (propulsion **only**).
+Панель машинного отделения отображает информацию на локальный аналоговый дисплей и дисплей Cetrek. Расположен в машинном отделении (движение **только**).
 
 ![[15600105.png]]
 
-Displays
+Дисплей
 
-The safety module is used on classed propulsion and auxiliary applications and monitors five safety switches as well as an optional external input. The safety module will shut down the engine when a parameter drops below the set threshold.
+Модуль безопасности используется на классифицированных двигателях и вспомогательных приложениях и контролирует пять переключателей безопасности, а также дополнительный внешний вход. Модуль безопасности отключит двигатель, когда параметр опустится ниже заданного порога.
 
-> [!note] Note · Примечание
-> The shutdown feature is inhibited below 500 rpm.
+> [!note] Примечание
+> Функция отключения ингибируется ниже 500 об/мин.
 
 ![[15600106.png]]
 
-The local analog display is located in the engine room and is used to start and stop the engine, acknowledge alarm faults, toggle the local and remote start function, as well as display certain engine parameters. It is installed in the engine room panel and customer interface box on propulsion and auxiliary applications, respectively.
+Местный аналоговый дисплей расположен в машинном отделении и используется для запуска и остановки двигателя, распознавания аварийных неисправностей, переключения локальной и удаленной функции запуска, а также отображения определенных параметров двигателя. Он установлен в панели машинного отделения и клиентской коробке интерфейса на движителе и вспомогательных приложениях соответственно.
 
-> [!note] Note · Примечание
-> The alarm faults do **not** cause an engine derate or shutdown. A derate or shutdown can **only** be triggered by the base engine ECM or the safety module.
+> [!note] Примечание
+> Неисправности сигнализации **не** вызывают сбой двигателя или выключение. Выключение или выключение может быть вызвано только базовым двигателем ECM или модулем безопасности.
 
-Up to four remote analog panels can be mounted remotely and are used to display engine information as well as to start the engine when the local analog display has granted remote control. The remote analog panel can **not** be used to acknowledge alarm faults, but it can be used to silence alarms by pressing the Silence Horn button.
+До четырех удаленных аналоговых панелей могут быть установлены удаленно и используются для отображения информации о двигателе, а также для запуска двигателя, когда локальный аналоговый дисплей предоставил дистанционное управление. Удалённая аналоговая панель может **не** использоваться для распознавания аварийных сбоев, но может использоваться для подавления тревоги, нажав кнопку Silence Horn.
 
 ![[15600109.png]]
 
-Displays engine information and fault codes and is located in the engine room panel or remotely (propulsion **only**).
+Отображает информацию о двигателе и коды неисправностей и находится в панели машинного отделения или удаленно (движение **только**).
 
 ![[nobox.png]]
 
-Alarm status is **only** monitored by the local analog display unit, as **only** the local analog display has access to the analog signal inputs. The local analog display broadcasts alarm status and parameter values to each remote analog panel. Alarm acknowledgement is possible **only** on local analog display.
+Состояние сигнализации контролируется только локальным аналоговым дисплеем, так как только локальный аналоговый дисплей имеет доступ к входам аналогового сигнала. Местный аналоговый дисплей передает значения сигнализации и параметра на каждую удаленную аналоговую панель. Подтверждение тревоги возможно только на локальном аналоговом дисплее.
 
-There are two possible kinds of alarms: process alarms and system faults.
+Существует два возможных типа тревоги: Сигналы тревоги и системные сбои.
 
-Process alarm: Monitors parameters that exceed a defined limit, such as a pressure or temperature threshold.
+Процесс сигнализации: Контролирует параметры, которые превышают определенный предел, например, порог давления или температуры.
 
-Actions:
+Меры:
 
-- The associated bar graph will flash red upon the sensor value passing the threshold value
-- The buzzer will sound
-- Pressing the silence horn button ceases the horn, but the bar graph will still be flashing red
-- Pressing the Acknowledge button will stop the bar graph from flashing, but will remain orange until the threshold issue has been resolved.
-
-![[nobox.png]]
-
-System Fault: A fault on the monitoring equipment itself, such as a sensor fault, a broken wire or bad contact, or an internal default in the local analog display or the remote analog panel failure.
-
-Actions:
-
-- The associated bar graph will flash red upon the sensor fault issue as well as the sensor fault light (located directly beneath the bar graph)
-- The buzzer will sound
-- Pressing the silence horn button ceases the horn, but the bar graph will still be flashing red
-- Pressing the Acknowledge button will stop the bar graph from flashing, but will remain orange until the sensor fault issue has been resolved.
-
-General System Fault: Indicates internal local analog display or remote analog panel failure.
-
-The icon lights to indicate an internal local analog display or remote analog panel failure.
+- Связанный бар-граф будет мигать красным на значении датчика, проходящем пороговое значение.
+- Звучит жужжание
+- Нажатие кнопки рога тишины прекращает рог, но барный график все равно будет мигать красным.
+- Нажатие кнопки «Признание» остановит мигание на графике, но останется оранжевым до тех пор, пока не будет решена проблема порога.
 
 ![[nobox.png]]
 
-The safety system is a completely independent engine monitoring system. The safety switches monitor various engine parameters and provides a signal to the safety module in the customer interface box. The safety system is designed to shutdown the engine when certain operation parameters exceed the switch setpoint for a specified length of time.
+Системный сбой: Неисправность самого оборудования мониторинга, такая как неисправность датчика, сломанный провод или плохой контакт, или внутренний по умолчанию в локальном аналоговом дисплее или отказ удаленной аналоговой панели.
+
+Меры:
+
+- Связанный бар-граф будет мигать красным на проблему неисправности датчика, а также на свет неисправности датчика (расположенный непосредственно под бар-графом)
+- Звучит жужжание
+- Нажатие кнопки рога тишины прекращает рог, но барный график все равно будет мигать красным.
+- Нажатие кнопки «Признание» остановит мигание на графике, но останется оранжевым до тех пор, пока не будет решена проблема с неисправностью датчика.
+
+Общая системная ошибка: Указывает на внутренний локальный аналоговый дисплей или удаленный отказ аналоговой панели.
+
+Светильники значка указывают на внутренний локальный аналоговый дисплей или на отказ удаленной аналоговой панели.
 
 ![[nobox.png]]
 
-Power Module
+Система безопасности является полностью независимой системой мониторинга двигателя. Переключатели безопасности контролируют различные параметры двигателя и подают сигнал на модуль безопасности в поле интерфейса клиента. Система безопасности предназначена для отключения двигателя, когда определенные параметры работы превышают заданную точку переключения в течение определенного периода времени.
 
-The power module, also known as the power supply monitoring and safety device, is used in both propulsion and auxiliary classed applications and is located inside the customer interface box. The purpose of the power module is to filter the AC power from the two classed-required power supplies and to help protect the customer interface box circuitry to the two 15 Amp blade fuses and the three 2 Amp blade fuses.
+![[nobox.png]]
 
-There is a green indicator lamp for each power supply. The lamp will be lit when 24 VDC is present.
+Power модуль
+
+Модуль питания, также известный как устройство мониторинга и безопасности источника питания, используется как в силовых установках, так и во вспомогательных приложениях и расположен внутри окна интерфейса клиента. Цель модуля питания состоит в том, чтобы отфильтровать мощность переменного тока от двух классовых источников питания и помочь защитить схему коробки интерфейса клиента от двух предохранителей 15 Amp и трех предохранителей 2 Amp.
+
+Для каждого источника питания имеется зеленый индикатор. Лампа будет зажигаться при наличии 24 VDC.
 
 ![[15600107.png]]
 
-Vessel Interface Terminal Strip
+Интерфейс судна Терминальная полоса
 
-The vessel interface terminal strip provides an interface point from the vessel to the alarm and safety system. The vessel interface terminal strip in located inside the customer interface box.
+Терминальная полоса интерфейса судна обеспечивает точку интерфейса от судна до системы сигнализации и безопасности. Терминальная полоса интерфейса судна, расположенная внутри окна интерфейса клиента.
 
 ![[15600104.png]]
 
-Printed Circuit Board
+печатный кольцевой плат
 
-The printed circuit board provides a common connection point for many of the different harness connections associated with the customer interface box. It also provides a location for the relays used to implement the control functions. Thirdly, it provides a location for the electronic circuitry that is required to interface to the electronic control module (ECM) and other modules in the system.
+Печатная плата обеспечивает общую точку подключения для многих различных соединений проводов, связанных с окном интерфейса клиента. Он также обеспечивает местоположение реле, используемых для реализации функций управления. В-третьих, он обеспечивает расположение электронной схемы, которая необходима для интерфейса с электронным модулем управления (ECM) и другими модулями в системе.
 
 ![[15600115.png]]
 
-Speed Comparator
+Сравнитель скорости
 
-The speed comparator monitors engine speed with a 0-1mA input on pins 1 and 2 provided by the Dominion ECM. The speed comparator closes a relay when the engine speed is greater than or equal to 85 percent of rated speed. The relay opens when engine speed is less than 85 percent of rated speed. The speed comparator output signal is used by the OEM control system for verification to engine operating state.
+Сравнитель скорости контролирует скорость двигателя с входом 0-1 мА на контактах 1 и 2, предоставляемых ECM Dominion. Скоростной компаратор закрывает реле, когда скорость двигателя больше или равна 85 процентам номинальной скорости. Реле открывается, когда скорость двигателя составляет менее 85 процентов номинальной скорости. Выходной сигнал компаратора скорости используется системой управления OEM для проверки состояния работы двигателя.
 
-The OEM control system will **not** allow the generator set to accept load if the speed comparator output on pins 6 and 8 is open circuit. When engine speed is greater than or equal to 85 percent of rated speed, the red alarm lamp on the front of the speed comparator will be illuminated. The threshold potentiometer below the alarm lamp is used to adjust the setpoint at initial installation of the generator set. The speed comparator is mounted inside of the customer interface box next to the printed circuit board. Refer to Procedure [[56-209-001 — System Description|209-001]] for setpoint adjustment.
+Система управления OEM не позволит генераторной установке принимать нагрузку, если выход компаратора скорости на контактах 6 и 8 является открытым контуром. Когда скорость двигателя превышает или равна 85 процентам номинальной скорости, будет освещена красная сигнальная лампа на передней части компаратора скорости. Пороговый потенциометр ниже сигнальной лампы используется для регулировки заданной точки при первоначальной установке генераторного набора. Скоростной компаратор устанавливается внутри окна интерфейса клиента рядом с печатной платой. См. процедуру[[56-209-001 — System Description|209-001]]Для корректировки заданий.
 
 ![[15600060.png]]
 
-Remote Analog Panel
+Дистанционная аналоговая панель
 
-The remote analog panel is used to display engine information as well as start the engine when the local analog display has granted remote control. The remote analog panel can **not** be used to acknowledge alarm faults, but can be used to silence alarms by pressing the silence horn button.
+Удалённая аналоговая панель используется для отображения информации о двигателе, а также запуска двигателя, когда локальный аналоговый дисплей предоставил дистанционное управление. Удалённая аналоговая панель может **не** использоваться для распознавания аварийных неисправностей, но может использоваться для подавления тревоги, нажимая кнопку рога тишины.
 
 ![[15600105.png]]
 
-Alarm Sensors
+Сенсоры тревоги
 
-The alarm system is a completely independent engine monitoring system that uses sensors to monitor various engine parameters. As described in the local analog display, six of these sensors are alarmed by the local analog display: coolant temperature, left and right bank exhaust stack temperature, engine oil pressure, marine gear oil pressure (optional), and the rpm. Battery voltage is also alarmed and measured by the local analog display. The remaining sensors are wired to the terminal strip in the customer interface box and **must** be alarmed by the vessel alarm system.
+Система сигнализации является полностью независимой системой мониторинга двигателя, которая использует датчики для мониторинга различных параметров двигателя. Как описано на локальном аналоговом дисплее, шесть из этих датчиков вызывают тревогу у локального аналогового дисплея: Температура охлаждающей жидкости, температура выхлопного стека левого и правого берега, давление масла в двигателе, давление масла в морской передаче (необязательно) и об/мин. Напряжение батареи также встревожено и измеряется локальным аналоговым дисплеем. Остальные датчики подключены к терминальной полосе в окне интерфейса клиента и должны быть встревожены системой сигнализации судна.
 
-> [!note] Note · Примечание
-> **Only** the base engine control system and safety system can derate or shutdown the engine.
+> [!note] Примечание
+> Только система управления базовым двигателем и система безопасности могут привести к выключению двигателя.
 
 ![[15600104.png]]
 
-Master Switch
+Мастер-коммутатор
 
-The master switch is the master battery switch and is located in the customer interface box in the auxiliary application and in engine room panel propulsion applications.
+Мастер-переключатель является главным переключателем батареи и расположен в окне интерфейса клиента во вспомогательном приложении и в приложениях для движителей панели машинного отделения.
 
 ![[15600105.png]]
 
-Terminal Box
+Терминальная коробка
 
-The terminal block allows the alarm system pressure sensors to be tested for proper operation while the engine is running, and also provide a convenient test point to measure fluid pressures.
+Терминальный блок позволяет датчикам давления системы сигнализации тестироваться для правильной работы во время работы двигателя, а также обеспечивает удобную испытательную точку для измерения давления жидкости.
 
 ![[15600110.png]]
 
-The Local and Remote button is **only** present on the local analog display and the status is indicated by a lamp. The Control button toggles the Local and Remote lamps.
+Кнопка «Локальный» и «Удаленный» присутствует только на локальном аналоговом дисплее, а состояние указывается лампой. Кнопка управления переключает локальные и удаленные лампы.
 
 ![[15600108.png]]
 
-On the remote analog panel unit, the Acknowledgement push button is replaced by a dimmer push button. Repeatedly pressing the Dimmer push button will cycle through four brightness levels. When the unit is powered on, brightness is automatically set to level four (brightest).
+На удаленном аналоговом панельном блоке нажимная кнопка «Подтверждение» заменяется на более тусклую кнопку «Нажатие». Неоднократное нажатие кнопки Dimmer будет проходить через четыре уровня яркости. Когда устройство включено, яркость автоматически устанавливается на четвертый уровень (самый яркий).
 
 ![[15600105.png]]
 
-### Setup
+### Настройка
 
-The following equipment is needed:
+Необходимо следующее оборудование:
 
-- A personal computer or laptop with an available 9-pin COM port (serial port) and HyperTerminal or other telnet software
-- Configuration serial link cable (a RS232 or Universal Serial Bus adapter may be needed for some laptops).
-- Local analog display and remoter analog panel.
+- Персональный компьютер или ноутбук с 9-контактным портом COM (серийный порт) и HyperTerminal или другим программным обеспечением telnet
+- Кабель последовательной связи (для некоторых ноутбуков может потребоваться адаптер RS232 или универсальная последовательная шина).
+- Локальный аналоговый дисплей и удаленная аналоговая панель.
 
-Using the configuration serial link cable.
+Использование конфигурационного последовательного кабеля.
 
-1. Connect the 9-pin connector to the personal computer serial connector
-2. Connect the 4-pin terminal block connector to the RS-232 connector (J8) on the back of the local analog display and remote analog panel.
+1. Подключите 9-контактный разъем к последовательному разъему персонального компьютера
+2. Подключите 4-контактный концевой блок-разъем к разъему RS-232 (J8) на задней панели локального аналогового дисплея и удаленной аналоговой панели.
 
-1. Start HyperTerminal (Start/All Programs/Accessories/Communications/HyperTerminal)
-2. In the Connection Description window, type local analog display into the Name: field and click OK
-3. In the Connect To window, change the Connect using: drop down menu to select the appropriate COM port.
-4. Click OK
-5. HyperTerminal will have to be configured the first time it is used. In the COM Properties window, use the following settings:
+1. Старт гипертерминала (Start/All Programs/Accessories/Communications/HyperTerminal)
+2. В окне описания соединения введите локальный аналоговый дисплей в Имя: Поле и щелкните OK
+3. В окне Connect To измените Connect, используя: Выберите меню, чтобы выбрать подходящий порт COM.
+4. Нажмите OK
+5. HyperTerminal должен быть настроен при первом использовании. В окне COM Properties используйте следующие настройки:
 
-- Bits per second: 4800
-- Data bits: 8
-- Parity: None
-- Stop bits: 1
-- Flow control: None
+- Биты в секунду: 4800
+- Бит данных: 8
+- Паритет: Нет
+- Стоп биты: 1
+- Контроль потока: Нет
 
-1. Click OK.
+1. Нажмите OK.
 
-1. Push the Reset button on the back of the local analog display (upper left corner) to put the local analog display in Configuration Mode. All the lights on the front of the panel will turn on
-2. After a couple seconds you will see the following prompt appear in the HyperTerminal screen: Start Serial Link local analog display /remote analog display, followed by an asterisk. The asterisk prompt indicates the local analog display /remote analog panel is ready to be configured.
+1. Нажмите кнопку сброса на задней панели локального аналогового дисплея (вверху слева), чтобы поместить локальный аналоговый дисплей в режим конфигурации. Все огни на передней панели будут включаться
+2. Через несколько секунд вы увидите следующую подсказку на экране HyperTerminal: Запуск Serial Link локального аналогового дисплея / удаленного аналогового дисплея, за которым следует звездочка. Справка звездочки указывает, что локальный аналоговый дисплей / удаленная аналоговая панель готова к настройке.
 
-1. At the \* prompt, type unitc and hit Enter to display metric units or type unitf and hit Enter to display imperial units
-2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
-3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
-4. Disconnect the RS-232 cable
-5. Shut down HyperTerminal. Click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+1. В момент \*, введите Unitc и нажмите Enter, чтобы отображать метрические единицы или тип Unitf и нажмите Enter, чтобы отображать имперские единицы.
+2. Сохранить и нажать Enter. HyperTerminal будет показывать: Подождите, пожалуйста / Общий ОК / Порог ОК / Калибровка / Конец сохранения
+3. Тип конца и нажмите Enter. Это возвращает локальный аналоговый дисплей / удаленную аналоговую панель в обычный режим мониторинга.
+4. Отсоедините кабель RS-232
+5. Выключите HyperTerminal. Нажмите «да», когда вам будет предложено сохранить соединение локального аналогового дисплея. Это позволит сохранить конфигурацию HyperTerminal.
 
-1. At the \* prompt, type rhc and hit Enter to change the hour meter. When prompted, enter in the correct engine hours and hit Enter
-2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
-3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
-4. Disconnect the configuration serial cable
-5. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+1. В \* подсказке введите rhc и нажмите Enter, чтобы изменить часовой метр. Когда подскажете, введите правильные часы работы двигателя и нажмите Enter.
+2. Сохранить и нажать Enter. HyperTerminal будет показывать: Подождите, пожалуйста / Общий ОК / Порог ОК / Калибровка / Конец сохранения
+3. Тип конца и нажмите Enter. Это возвращает локальный аналоговый дисплей / удаленную аналоговую панель в обычный режим мониторинга.
+4. Отключите последовательный кабель конфигурации
+5. Выключите HyperTerminal. Нажмите «да», когда вам предложено отключиться, и нажмите «да», когда вам предложено сохранить локальный аналоговый дисплей соединения. Это позволит сохранить конфигурацию HyperTerminal.
 
-> [!note] Note · Примечание
-> The hour meter **must only** be changed when a new panel is replacing a failed panel in the field. The hour meter **must** reflect the actual hours on the engine.
+> [!note] Примечание
+> Часовой метр **должен быть изменен только тогда, когда новая панель заменяет неисправную панель в поле. Часовой счетчик **должен отражать фактические часы работы двигателя.
 
-To disable gear oil pressure alarm (at the prompt \*):
+Для отключения шестерни аварийного давления масла (в момент подачи сигнала \*):
 
-1. At the \* prompt, type c4d and hit Enter to disable the channel
-2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
-3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode.
-4. Disconnect the configuration serial link
-5. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+1. На \* подсказке введите c4d и нажмите Enter, чтобы отключить канал
+2. Сохранить и нажать Enter. HyperTerminal будет показывать: Подождите, пожалуйста / Общий ОК / Порог ОК / Калибровка / Конец сохранения
+3. Тип конца и нажмите Enter. Это возвращает локальный аналоговый дисплей / удаленную аналоговую панель в обычный режим мониторинга.
+4. Отключите последовательное соединение конфигурации
+5. Выключите HyperTerminal. Нажмите «да», когда вам предложено отключиться, и нажмите «да», когда вам предложено сохранить локальный аналоговый дисплей соединения. Это позволит сохранить конфигурацию HyperTerminal.
 
-To enable the gear oil pressure alarm (at the prompt \*):
+Для включения сигнализации давления масла в зубчатой передаче (в момент \*):
 
-1. At the \* prompt, type c4e and hit Enter to enable the channel
-2. Type wt4 and hit Enter to set the gear oil pressure alarm threshold. When prompted, enter in the threshold (will be prompted in kPa or psi depending on the display units mode) and hit Enter. The threshold is 250 psi and 1723 kPa
-3. Type wtig and hit Enter to set the inhibit RPM setpoint. Below this speed, the gear oil pressure alarm will **not** trigger a low pressure alarm. When prompted, enter in the RPM threshold and hit Enter. The RPM threshold is 1100 RPM
-4. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
-5. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
-6. Disconnect the configurable serial link
-7. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+1. На \* подсказке введите c4e и нажмите Enter, чтобы включить канал
+2. Тип wt4 и нажмите Enter, чтобы установить пороговое давление масла в шестерне. При подсказке введите порог (будет подсказана в kPa или psi в зависимости от режима работы дисплея) и нажмите Enter. Порог составляет 250 psi и 1723 кПа.
+3. Введите wtig и нажмите Enter, чтобы установить точку RPM ингибирования. Ниже этой скорости сигнализация давления масла в зубчатой передаче **не **вызовет сигнализацию низкого давления. При подсказке введите порог RPM и нажмите Enter. Порог RPM составляет 1100 RPM.
+4. Сохранить и нажать Enter. HyperTerminal будет показывать: Подождите, пожалуйста / Общий ОК / Порог ОК / Калибровка / Конец сохранения
+5. Тип конца и нажмите Enter. Это возвращает локальный аналоговый дисплей / удаленную аналоговую панель в обычный режим мониторинга.
+6. Отключите настраиваемую последовательную ссылку
+7. Выключите HyperTerminal. Нажмите «да», когда вам предложено отключиться, и нажмите «да», когда вам предложено сохранить локальный аналоговый дисплей соединения. Это позволит сохранить конфигурацию HyperTerminal.
 
-Exceeded threshold alarms will be latched active until the local reset button located on the back of the safety module has been pressed or by cycling the master switch located on the front of the customer interface box.
+Превышенные пороговые сигнализации будут защелкиваться до тех пор, пока не будет нажата локальная кнопка сброса, расположенная на задней панели модуля безопасности, или путем включения главного переключателя, расположенного на передней панели интерфейса клиента.
 
-Sensor faults can be triggered by a failed switch or faulty wiring and will **not** be latched.
+Неисправности датчика могут быть вызваны неисправным переключателем или неисправной проводкой и будут **не** защелкнуты.
 
-If engine speed detection is unavailable due to a sensor fault, the safety module keeps engine protection shutdowns active except for low oil pressure. If the engine is shut down, either by the safety module or normal shutdown, external inhibit **must** be enabled on the safety module in order to start the engine again.
+Если обнаружение скорости двигателя недоступно из-за неисправности датчика, модуль безопасности поддерживает активные выключения защиты двигателя, за исключением низкого давления масла. Если двигатель выключен модулем безопасности или обычным выключением, на модуле безопасности должно быть включено внешнее торможение, чтобы снова запустить двигатель.
 
-For this reason, it is important that any safety module speed sensor faults be corrected as soon as possible.
+По этой причине важно, чтобы любые ошибки датчика скорости модуля безопасности были исправлены как можно скорее.
 
-After restart, the safety module alarms can be cleared by pressing the rest button and the external inhibit can be disabled, which allows the safety module to perform engine protection (except for low oil pressure).
+После перезапуска сигнализация модуля безопасности может быть очищена нажатием кнопки отдыха, а внешнее торможение может быть отключено, что позволяет модулю безопасности выполнять защиту двигателя (за исключением низкого давления масла).
 
-The speed comparator threshold is set at 85 percent of rated speed (1530 rpm for 60Hz set, or 1275 rpm for 50 Hz set). Follow the steps below to adjust the threshold:
+Порог компаратора скорости установлен на уровне 85 процентов номинальной скорости (1530 об/мин для 60 Гц набора или 1275 об/мин для 50 Гц набора). Выполните следующие действия, чтобы скорректировать порог:
 
-1. Make sure the generator is off the vehicle and engine running
-2. Connect and launch InPower
-3. Navigate to the test folder, then to the speed override folder
-4. Double-click to change engine speed reference override enable to enabled
-5. The engine speed will ramp down to the override command value
-6. Turn the threshold potentiometer **counterclockwise** to turn off the alarm lamp, then turn it slowly **clockwise** until the alarm lamp turns on. This is the 85 percent of rated setpoint
-7. Verify the speed comparator relay is closed by checking for continuity on pins 6 and 8
-8. Double click to change engine speed reference override enable to disabled
-9. The engine speed will ramp up to rated speed
-10. Close the connection to the module, then close InPower.
+1. Убедитесь, что генератор выключен из автомобиля и двигателя.
+2. Подключение и запуск InPower
+3. Перейдите в измерительную папку, а затем в папку с превышением скорости
+4. Двойной щелчок для изменения оверрайда оборотов двигателя позволяет включить
+5. Скорость двигателя будет снижаться до значения команды override
+6. Поверните пороговый потенциометр **против часовой стрелки**, чтобы выключить сигнальную лампу, затем медленно поверните его **по часовой стрелке**, пока не включится сигнальная лампа. Это 85% от установленной точки.
+7. Проверить, закрыт ли реле компаратора скорости, проверив непрерывность контактов 6 и 8.
+8. Двойной клик для изменения оверрайда оборотов двигателя позволяет отключить
+9. Скорость двигателя будет увеличиваться до номинальной скорости
+10. Закройте соединение с модулем, затем закройте InPower.
 
-The alarm system is a completely independent engine monitoring system that uses sensors to monitor various engine parameters. As described in the local analog display section, six of these sensor are alarmed by the local analog display: Coolant temperature, left and right bank exhaust stack temperature, engine oil pressure, marine gear oil pressure (optional), and RPM. Battery voltage is also alarmed and measured by the local analog display. The remaining sensors are wired to the terminal strip in the customer interface box and **must** be alarmed by the vessel alarm system.
+Система сигнализации является полностью независимой системой мониторинга двигателя, которая использует датчики для мониторинга различных параметров двигателя. Как описано в разделе локального аналогового дисплея, шесть из этих датчиков вызывают тревогу у локального аналогового дисплея: Температура охлаждающей жидкости, температура выхлопного стека левого и правого берега, давление масла в двигателе, давление масла в морской передаче (необязательно) и RPM. Напряжение батареи также встревожено и измеряется локальным аналоговым дисплеем. Остальные датчики подключены к терминальной полосе в окне интерфейса клиента и должны быть встревожены системой сигнализации судна.
 
-**Only** the base engine control system and safety system can derate or shutdown the engine.
+Только система управления базовым двигателем и система безопасности могут привести к выключению двигателя.
 
-| Alarm System Sensors |  |
+| Датчики системы сигнализации |  |
 |---|---|
-| Description | Setpoint |
-| Aftercooler Water Inlet Temperature | 71°C \[160°F\] |
-| Lubricating Oil Inlet Temperature | 121°C \[250°F\] |
-| Coolant Outlet Temperature | 100°C \[212°F\] |
-| Intake Manifold Temperature (right bank front, rear bank rear, left bank rear) | 82°C \[180°F\] |
-| Fuel Filter Outlet Pressure | 74 kPa \[10.7 psi\] |
-| Fuel Filter Differential Pressure (service **only**)\* | 28 kPa \[4 psi\] |
-| Lubricating Oil Pressure | 165 to 310 kPa \[24 to 45 psi\] |
-| Lubricating Oil Filter Inlet Pressure | 241 kPa \[35 psi\] differential |
-| Lubricating Oil Filter Outlet Pressure | 241 kPa \[35 psi\] differential |
-| Lubricating Oil Filter Inlet and Outlet Pressure Sensor Check Valve | N/A |
-| Coolant Pressure | 28 to 76 kPa \[4 to 11 psi\] |
-| Sea Water Cooling System Pressure | To Be Determined - none in service |
-| Gear Oil Pressure | OEM defined |
-| Engine Speed | 1980 rpm |
-| Exhaust Stack Temperature | 593°C \[1100°F\] |
-| Exhaust Temperature Cylinder Number 1 (left bank), Number 8 (right bank), Number 5 (left bank), and Number 4 (right bank) | 732°C \[1350°F\] |
-| Coolant Level | Shared with base engine |
-| \* The fuel filter differential pressures sensor is **not** used on the latest design. |  |
+| Наименование | точка |
+| Послеохлаждение температуры входа воды | 71°C[160°F] |
+| Моторное масло впускная температура | 121°C[250°F] |
+| Температура охлаждающей розетки | 100°C[212°F] |
+| Температура впуска коллектора (справа спереди, сзади сзади, сзади с левого берега) | 82°C[180°F] |
+| Давление на выходе фильтра топлива | 74 кПа[10,7 psi] |
+| Дифференциальное давление топливного фильтра (сервис **только**) | 28 кПа[4 psi] |
+| Давление моторного масла | 165 - 310 кПа[24 - 45 psi] |
+| Фильтр моторного масла впускное давление | 241 кПа[35 psi] дифференциал |
+| Моторное масло фильтрует выходное давление | 241 кПа[35 psi] дифференциал |
+| Моторное масло фильтр впускной и выходной датчик давления проверить клапан | Не применяется |
+| Охлаждающее давление | 28-76 кПа[4-11 psi] |
+| Система охлаждения морской воды Давление | Быть определенным - не в служении |
+| Масло смолы давление | Определяется |
+| Скорость двигателя | 1980 rpm |
+| Температура выхлопных труб | 593°C[1100°F] |
+| Цилиндр выхлопной температуры № 1 (левый банк), № 8 (правый банк), № 5 (левый банк) и № 4 (правый банк) | 732°C[1350°F] |
+| Уровень охлаждающей жидкости | Совместно с базовым двигателем |
+| *Датчик дифференциального давления топливного фильтра не используется в последней конструкции. |  |
 
-| Safety System Sensors |  |
+| Датчики системы безопасности |  |
 |---|---|
-| Description | Setpoint |
-| Lubricating Oil Pressure Switch (Low Speed Range) | 131 kPa \[19 psi\] |
-| Lubricating Oil Pressure Switch (High Speed Range) | 276 kPa \[40 psi\] |
-| Coolant Pressure Switch | 14 kPa \[2 psi\] |
-| Coolant Temperature Switch | 220°F \[104°C\] |
-| Engine Speed | 2070 rpm for auxiliary |
-|  | 2280 rpm for propulsion |
+| Наименование | точка |
+| Переключатель давления моторного масла (низкий диапазон скорости) | 131 кПа[19 psi] |
+| Переключатель давления моторного масла (высокоскоростной диапазон) | 276 кПа[40 psi] |
+| Датчик-реле давления охлаждающей жидкости | 14 кПа[2 psi] |
+| Датчик-реле температуры охлаждающей жидкости | 220 °F[104 °C] |
+| Скорость двигателя | 2070 об/мин для вспомогательных |
+|  | 2280 об/мин для движения |
 
-### Test
+### Проверка
 
-> [!warning] CAUTION · Осторожно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!warning] ОСТОРОЖНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
 ![[15600070.png]]
 
-Test Connector, Self Sealing.
+Измерительный коннектор, самозапечатывание.
 
-Test Connector, Self Sealing - To measure actual fluid pressure during engine operation, connect an adapter to the test connector. It is **not** necessary to turn the isolator valve to the OFF position due to the check valve (check valve is spring loaded (1)). This can cause an alarm.
+Test Connector, Self Sealing - для измерения фактического давления жидкости во время работы двигателя подключите адаптер к измерительному разъему. **не** необходимо поворачивать изолирующий клапан в положение выключения из-за чекового клапана (проверочный клапан загружен пружиной (1)). Это может вызвать тревогу.
 
-To test the alarm system sensor, turn the isolator valve to OFF position and connect an adapter to the test connector with a controlled pressure source. Raise the pressure above the setpoint for the sensor, the slowly release the pressure until the alarm sounds.
+Для проверки датчика системы сигнализации поверните клапан изолирующего устройства в положение выключения и подключите адаптер к испытательному разъёму с контролируемым источником давления. Поднимите давление выше заданной точки для датчика, медленно отпустите давление до тех пор, пока не зазвучит сигнализация.
 
-The safety shutdown test is a procedure to demonstrate the shutdown functions of the QSK60 marine safety system.
+Тест на отключение безопасности представляет собой процедуру, демонстрирующую функции отключения системы безопасности QSK60.
 
-This system is independent of both the engine alarm and engine control systems.
+Эта система не зависит как от сигнализации двигателя, так и от систем управления двигателем.
 
-The safety system commands engine shutdown per the emergency stop input of the engine ECM, which drives redundant shutdown functions.
+Система безопасности управляет отключением двигателя на входе аварийной остановки двигателя ECM, который приводит в действие избыточные функции отключения.
 
-Equipment needed to conduct the tests:
+Оборудование, необходимое для проведения испытаний:
 
-- Regulated pressure source providing between 0 and 50 psi, with mating for Danfoss™ pressure manifold
-- Variable temperature liquid bath capable of up to 110°C \[230F°\] for a 6 mm \[0.24 in\] diameter probe
-- Frequency generator to simulate engine speed signal (rpm). Can also set safety module overspeed setpoint switch to 1475 rpm, start engine, and verify shutdown.
+- Регулируемый источник давления, обеспечивающий от 0 до 50 psi, с спариванием для коллектора давления DanfossTM
+- Переменная температура жидкой ванны, способной до 110°C \[230F°\] для щупа диаметром 6 мм \[0,24 дюйма\]
+- Частотный генератор для имитации сигнала скорости двигателя (rpm). Также можно установить модуль безопасности переключения скоростей на 1475 об/мин, запустить двигатель и проверить отключение.
 
-There are six switch inputs to the safety system that can drive a shutdown, as shown on the display panel of the safety module:
+В системе безопасности есть шесть входов переключателя, которые могут приводить в действие выключение, как показано на панели дисплея модуля безопасности:
 
-1. External shutdown command (optional input which will be a switch wired in from the vessel)
-2. Low coolant pressure (switch located on the right front corner of engine, measuring temperature in left side bottom of thermostat housing)
-3. High coolant temperature (switch location on the right front corner of engine, measuring temperature in left side bottom of thermostat housing)
-4. Low lubricating oil pressure, low speed range (lubricating oil pressure measured at oil rifle on top of flywheel, switch is used below 1400 rpm)
-5. Low lubricating oil pressure, high speed range (lubricating oil pressure measured at oil rifle on top of flywheel housing, switch is used above 1400 rpm)
-6. Overspeed (measured by separate speed sensor mounted on farthest left of flywheel housing).
+1. Внешняя команда отключения (необязательный вход, который будет переключателем, подключенным к сосуду)
+2. Низкое давление охлаждающей жидкости (переключатель, расположенный в правом переднем углу двигателя, измеряющий температуру в левом боковом дне корпуса термостата)
+3. Высокая температура охлаждающей жидкости (переключатель расположен на правом переднем углу двигателя, измерение температуры в левом боковом дне корпуса термостата)
+4. Низкое давление моторного масла, низкий диапазон скоростей (давление моторного масла измеряется на масляной винте поверх маховика, переключатель используется ниже 1400 об/мин)
+5. Низкое давление моторного масла, высокая дальность хода (давление моторного масла измеряется на масляной винте поверх корпуса маховика, переключатель используется выше 1400 об/мин)
+6. Overspeed (измеряется отдельным датчиком скорости, установленным на самом дальнем левом флайв-корпусе).
 
 ![[15600064.png]]
 
-1. Shut down the engine
-2. Rotate the rear-most isolation valve (1) 90 degrees **clockwise** to closed position on the manifold block mounted on the right front corner of the engine. Arrow heads will be pointing before and after rather than up and down.
-3. Remove the rear-most pressure fitting cap (2) from the manifold block, and connect a regulator pressure source to the manifold port.
-4. Adjust the regulated pressure source to provide at least 69 kPa \[10 psi\] into the manifold
-5. Start the engine
-6. Lower the regulated pressure to 6.9 kPa \[1 psi\]
-7. The safety system will shutdown the engine at approximately 13.8 kPa \[2 psi\]
-8. Remove the regulated pressure source, and replace the cap (2) on the manifold
-9. Open the isolation valve (1) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing up and down
-10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
-11. Pressure the reset button on the back of the safety module
-12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary application **only** as the Dominion ECM **must** be in stop mode, **not** Emergency stop mode to acknowledge faults.
+1. Выключите двигатель
+2. Поверните задний клапан (1) с максимальным изоляционным сопротивлением (90 градусов по часовой стрелке) в закрытое положение на блоке коллектора, установленном на правом переднем углу двигателя. Головы стрел будут указывать до и после, а не вверх и вниз.
+3. Удалите крышку (2) крепления заднего давления из блока коллектора и соедините источник давления регулятора с портом коллектора.
+4. Настройка источника регулируемого давления для обеспечения по меньшей мере 69 кПа[10 psi] в коллектор
+5. Запуск двигателя
+6. Понижает регулируемое давление до 6,9 кПа[1 psi]
+7. Система безопасности отключит двигатель примерно на 13,8 кПа[2 psi]
+8. Удалите регулируемый источник давления и замените крышку (2) на коллекторе.
+9. Откройте изоляционный клапан (1) шага 2, вращая его на 90 градусов **против часовой стрелки**, так что головки стрелок направлены вверх и вниз.
+10. Попытка запустить двигатель, продемонстрировать его будет **не** без сброса модуля безопасности
+11. Нажимаем кнопку сброса на задней панели модуля безопасности
+12. Признать неисправности на ECM, сначала нажав кнопку остановки локального аналогового дисплея, а затем кнопку распознавания неисправностей на печатной плате. Это для вспомогательного применения **только**, поскольку режим остановки Dominion ECM **должен **находиться в режиме остановки, **не** режим аварийной остановки для распознавания неисправностей.
 
 ![[15600065.png]]
 
-1. Remove the coolant sensing element from the pocket, located on the left underside of the thermostat housing
-2. Remove the P-clip bolt(s) to gain sufficient free length of the armored capillary to reach the heat bath
-3. Insert the sensing element into the heat bath, with the temperature less than 99°C \[210°F\]
-4. With the engine running, raise the temperature of the bath to 107°C \[225°F\]. The safety system will shut down the engine at a temperature of approximately 105°C \[221°F\]
-5. Replace the P-clip bolt(s)
-6. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
-7. Press the reset button on the back of the safety module.
-8. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+1. Удалите чувствительный элемент охлаждающей жидкости из кармана, расположенного на левой нижней стороне корпуса термостата
+2. Удалите болт (болты) P-клипа, чтобы получить достаточную свободную длину бронированного капилляра, чтобы достичь тепловой ванны.
+3. Вставьте чувствительный элемент в тепловую ванну с температурой менее 99 ° C \[210°F\]
+4. При работе двигателя, поднять температуру ванны до 107 ° C \[225 ° F \]. Система безопасности выключит двигатель при температуре около 105 ° C \[221 ° F\]
+5. Заменить болт(ы) P-clip
+6. Попытка запустить двигатель, продемонстрировать его будет **не** без сброса модуля безопасности
+7. Нажмите кнопку сброса на задней панели модуля безопасности.
+8. Признать неисправности на ECM, сначала нажав кнопку остановки локального аналогового дисплея, а затем кнопку распознавания неисправностей на печатной плате. Это для вспомогательных приложений **только**, поскольку ECM Доминиона **должен **быть в режиме остановки, **не **режим аварийной остановки для распознавания неисправностей.
 
 ![[15600066.png]]
 
-1. Shut down the engine if it is in operation
-2. Rotate the upper-most isolation valve (2) 90 degrees clockwise to the closed position on the manifold block mounted on the right rear corner of the engine. Arrow heads will be pointing up and down rather than before and after
-3. Remove the upper-most pressure fitting cap (1) from the manifold block, and connect a regulated pressure source to the manifold port
-4. Adjust the regulated pressure source to provide at least 138 kPa \[20 psi\] into the manifold
-5. Start the engine and run it a idle (to be less than 1400 rpm for low speed range)
-6. Lower the regulated pressure to 69 kPa \[10 psi\]
-7. The safety system will shutdown the engine at approximately 103 kPa \[15 psi\]
-8. Remove the regulated pressure source, and replace the cap on the manifold
-9. Open the isolation valve (2) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing left to right
-10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
-11. Press the reset button on the back of the safety module
-12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+1. Выключите двигатель, если он работает
+2. Поверните верхний клапан (2) с максимальным запором на 90 градусов по часовой стрелке в закрытое положение на блоке коллектора, установленном на правом заднем углу двигателя. Головы стрел будут указывать вверх и вниз, а не до и после.
+3. Удалите верхнюю крышку (1) крепления под давлением из блока коллектора и соедините регулируемый источник давления с портом коллектора
+4. Настройка источника регулируемого давления для обеспечения по меньшей мере 138 кПа[20 psi] в коллектор
+5. Запустите двигатель и запустите его бездействующим (до 1400 об/мин для диапазона низких скоростей)
+6. Понижает регулируемое давление до 69 кПа[10 psi]
+7. Система безопасности отключит двигатель примерно на 103 кПа[15 psi]
+8. Удалите регулируемый источник давления и замените крышку на коллекторе
+9. Откройте изоляционный клапан (2) шага 2, вращая его на 90 градусов **против часовой стрелки**, так что головки стрелок направлены слева направо.
+10. Попытка запустить двигатель, продемонстрировать его будет **не** без сброса модуля безопасности
+11. Нажмите кнопку сброса на задней панели модуля безопасности
+12. Признать неисправности на ECM, сначала нажав кнопку остановки локального аналогового дисплея, а затем кнопку распознавания неисправностей на печатной плате. Это для вспомогательных приложений **только**, поскольку ECM Доминиона **должен **быть в режиме остановки, **не **режим аварийной остановки для распознавания неисправностей.
 
 ![[15600067.png]]
 
-1. Shut down the engine if it is in operation
-2. Rotate the second-upper-most isolation valve (2) 90 degrees **clockwise** to the closed position on the manifold block mounted on the right rear corner of the engine. Arrow heads will be pointing up and down rather than before and after
-3. Remove the second-upper-most pressure fitting cap (1) from the manifold block, and connect a regulated pressure source to the manifold port
-4. Adjust the regulated pressure source to provide at least 241 kPa \[35 psi\] into the manifold
-5. Start the engine and run it at rated (to be above 1400 rpm for high speed range)
-6. Lower the regulated pressure to 172 kPa \[25 psi\]
-7. The safety system will shutdown the engine at approximately 200 kPa \[29 psi\]
-8. Remove the regulated pressure source, and replace the fitting cap (2) on the manifold
-9. Open the isolation valve (2) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing left and right
-10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
-11. Press the reset button on the back of the safety module
-12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button the printed circuit board. This is for auxiliary application **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+1. Выключите двигатель, если он работает
+2. Поверните второй по величине изоляционный клапан (2) на 90 градусов **по часовой стрелке** в закрытое положение на блоке коллектора, установленном на правом заднем углу двигателя. Головы стрел будут указывать вверх и вниз, а не до и после.
+3. Удалите второй верхний крышку (1) крепления под давлением из блока коллектора и соедините регулируемый источник давления с портом коллектора
+4. Настройка источника регулируемого давления для обеспечения по меньшей мере 241 кПа[35 psi] в коллектор
+5. Запустите двигатель и запускайте его с номинальной мощностью (до 1400 об/мин для высокоскоростного диапазона)
+6. Понижает регулируемое давление до 172 кПа[25 psi]
+7. Система безопасности отключит двигатель примерно на 200 кПа[29 psi]
+8. Удалите регулируемый источник давления и замените фитинговый колпачок (2) на коллекторе
+9. Откройте изоляционный клапан (2) шага 2, вращая его на 90 градусов **против часовой стрелки**, так что головки стрелок направлены влево и вправо.
+10. Попытка запустить двигатель, продемонстрировать его будет **не** без сброса модуля безопасности
+11. Нажмите кнопку сброса на задней панели модуля безопасности
+12. Признать неисправности на ECM, сначала нажав кнопку остановки локального аналогового дисплея, а затем кнопку распознавания неисправностей печатной платы. Это для вспомогательного применения **только**, поскольку режим остановки Dominion ECM **должен **быть в режиме остановки, **не** режим аварийной остановки для распознавания неисправностей.
 
 ![[15600068.png]]
 
-> [!note] Note · Примечание
-> Another method is the set the safety module overspeed shutdown setpoint to 1475 rpm and operate the engine. The engine will shut down once the rpms increase to over 1475 rpm.
+> [!note] Примечание
+> Другой способ — установить модуль безопасности перескоростной выключатель на заданную точку 1475 об/мин и управлять двигателем. Двигатель отключится, как только обороты увеличатся до более чем 1475 оборотов в минуту.
 
-1. Connect the frequency generator to the safety system speed input
-2. Disconnect the proper speed sensor from the engine harness and connect the frequency generator in its place
-3. The safety system speed sensor is the left-most of three speed sensors on the top of the flywheel housing.
-4. Set the frequency generator to provide a signal to the safety module of 2100 hertz, or 750 rpm (frequency = rpm x 168/60). This will activate the safety module
-5. If engine was already running in step 1, reset the safety module
-6. Start the engine if **not** already running
-7. Increase the frequency generator output signal to 6160 Hz or 2200 rpm
-8. The safety system will shut down the engine as speed passes through approximately 2070 rpm or about 5800 Hz
-9. Reconnect the speed sensor for the safety system to the engine harness
-10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
-11. Press the reset button on the back of the safety module
-12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+1. Подключите генератор частоты к входу скорости системы безопасности
+2. Отсоедините правильный датчик скорости от электропроводки двигателя и подключите генератор частоты на его месте.
+3. Датчик скорости системы безопасности является левым из трех датчиков скорости на верхней части корпуса маховика.
+4. Установите генератор частоты для подачи сигнала на модуль безопасности 2100 Гц, или 750 об/мин (частота = об/мин х 168/60). Это позволит активировать модуль безопасности.
+5. Если двигатель уже работал на этапе 1, сбросьте модуль безопасности
+6. Запуск двигателя, если **не** уже работает
+7. Увеличить частотный выходной сигнал генератора до 6160 Гц или 2200 об/мин
+8. Система безопасности отключит двигатель, поскольку скорость проходит примерно через 2070 оборотов в минуту или около 5800 Гц.
+9. Подсоедините датчик скорости для системы безопасности к ремню электропроводки двигателя
+10. Попытка запустить двигатель, продемонстрировать его будет **не** без сброса модуля безопасности
+11. Нажмите кнопку сброса на задней панели модуля безопасности
+12. Признать неисправности на ECM, сначала нажав кнопку остановки локального аналогового дисплея, а затем кнопку распознавания неисправностей на печатной плате. Это для вспомогательных приложений **только**, поскольку ECM Доминиона **должен **быть в режиме остановки, **не **режим аварийной остановки для распознавания неисправностей.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The QSK60 Marine propulsion and QSK60 Dominion Marine auxiliary engines are each available as classed or non-classed engines. One of the requirements of a classed engine is an independent safety and alarm system in addition to the base engine control system. The safety system has the ability to shut down the engine, while the alarm system displays information- **only** faults onto a display panel. The terms classed and non-classed are often interchanged with full and base, respectively.
+>
+> There are four different engine monitoring system options. See Tables 1 and 2.
+>
+> | Table 1: Alarm and Safety System |  |  |  |  |
+> |---|---|---|---|---|
+> |  | Propulsion | Auxiliary |  |  |
+> | Component | Classed SD6008 | Non-Classed SD6011 | Classed SD6009 | Non-Classed SD6007 |
+> | Safety Module | Standard |  | Standard |  |
+> | 5 Safety System Switches | Standard |  | Standard |  |
+> | Power Module | Standard | Standard | Standard | Standard |
+> | Vessel Interface Terminal Strip | Standard | Standard | Standard | Standard |
+> | Printed Circuit Board | Standard |  | Standard | Standard |
+> | Speed Comparator |  |  | Standard |  |
+> | Quantum CM500 Base Engine ECM | Standard | Standard |  |  |
+> | Dominion Base Engine ECM |  |  | Standard | Standard |
+> | 12 Base Engine Sensors | Standard | Standard | Standard | Standard |
+> | Local Analog Display | Optional 1 | Optional 2 | Standard | Standard |
+> | 34 Alarm Sensors | Standard |  | Standard |  |
+> | Cetrek Display | Optional 1 | Optional 2 |  |  |
+> | Remote Analog Panel | Optional 3 | Optional 3 | Optional 3 | Optional 3 |
+> | Remote Mount Display(s) | Optional 4 | Optional 4 |  |  |
+>
+> | Footnotes |  |  |  |
+> |---|---|---|---|
+> |  | Option | Description | Comment(s) |
+> | 1 | EG6015 | Classed engine room panel | Contains local analog display and is housed in engine room panel. |
+> | 2 | EG6003 | Non-classed engine room panel | Contains local analog and is housed in engine room panel with six alarm sensors. |
+> | 3 | EG6005 | 1 Remote analog panel |  |
+> |  | EG6009 | 2 Remote analog panel |  |
+> |  | EG6010 | 3 Remote analog panel |  |
+> |  | EG6011 | 4 Remote analog panel |  |
+> | 4 | EG6004 | 1 Remote Cetrek display |  |
+> |  | EG6006 | 2 Remote Cetrek display |  |
+> |  | EG6007 | 3 Remote Cetrek display |  |
+> |  | EG6008 | 4 Remote Cetrek display |  |
+>
+> | Table 2: Alarm and Safety System |  |  |  |  |
+> |---|---|---|---|---|
+> |  | Location By Application |  |  |  |
+> | Component | Customer Interface Box | Engine Room Panel | On Engine | Remote |
+> | Safety Module | Auxiliary and Propulsion |  |  |  |
+> | 5 Safety System Switches |  |  | Auxiliary and Propulsion |  |
+> | Power Module | Auxiliary and Propulsion |  |  |  |
+> | Vessel Interface Terminal Strip | Auxiliary and Propulsion |  |  |  |
+> | Printed Circuit Board | Auxiliary and Propulsion |  |  |  |
+> | Speed Comparator | Auxiliary |  |  |  |
+> | Quantum CM500 Base Engine ECM |  |  | Propulsion |  |
+> | Dominion Base Engine ECM | Auxiliary |  |  |  |
+> | 12 Base Engine Sensors |  |  | Auxiliary and Propulsion |  |
+> | Local Analog Display | Auxiliary | Propulsion |  |  |
+> | 34 Alarm Sensors |  |  | Auxiliary and Propulsion |  |
+> | Cetrek Display |  | Propulsion |  |  |
+> | Remote Analog Panel |  |  |  | Auxiliary and Propulsion |
+> | Remote Mount Cetrek Display(s) |  |  |  | Propulsion |
+>
+> The alarm and safety system consists of three independent systems:
+>
+> | A. Control | B. Alarm | C. Safety |
+> |---|---|---|
+> | 1. Control Sensors | 6. Alarm Sensors | 10. Safety Sensor |
+> | 2. Cetrek Display | 7. Local Analog Display | 11. Safety Module |
+> | 3. ECM | 8. Interface Box |  |
+> | 4. Fuel System Control Valves | 9. Remote Analog Display |  |
+> | 5. Fuel System Shutoff Valve |  |  |
+>
+> The propulsion and auxiliary options share much of the same basic hardware, although they are packaged differently. One primary reason for this difference is that the auxiliary engines have the Dominion ECM mounted off-engine in the customer interface box, while the propulsion engines have a CM500 ECM mounted on-engine in the same fashion as the industrial configuration.
+>
+> The local analog display and the remote analog panel have a common display. There are seven analog channels and an hour meter displayed on the screen. Each analog channel features:
+>
+> A. Parameter icon, ISO standard when possible
+>
+> B. Digital value for the parameter
+>
+> C. Icon, indicating units
+>
+> D. Bar or dial RPM indicator
+>
+> E. System fault icon, indicates sensor or wiring fault
+>
+> F. Hour meter
+>
+> G. General system fault icon, indicates internal local analog display or remote analog panel failure.
+>
+> 1. Coolant temperature
+> 2. Left bank exhaust stack temperature
+> 3. RPM
+> 4. Right bank exhaust stack temperature
+> 5. Battery voltage
+> 6. Engine oil pressure
+> 7. Marine gear oil pressure (optional).
+>
+> The local analog display and remote analog panel performs a self-test at startup.
+>
+> - Yellowish-green segments, red default icons and green bars and dials are lit for three to five seconds
+> - Bars and dials turn red for three to five seconds
+> - Displays real-time values.
+>
+> After the self-test, the screen displays the current value present on the analog card inputs, unless the configuration serial link is connected and active. In that case, the lamps remain red as long as the serial link is active.
+>
+> The configuration serial link is shipped with the local analog display from the factory.
+>
+> If the local analog display and the remote analog panel need to be configured when replaced in the field, the following changes can be made by a Cummins technician or end user using a personal computer with HyperTerminal or other telnet software and the configuration serial link:
+>
+> - Gear oil pressure channel enabling or disabling
+> - Gear oil pressure threshold setting
+> - Gear oil pressure RPM inhibit setting
+> - Metric versus Imperial units
+> - Hour meter display.
+>
+> **Note · Примечание**
+> HyperTerminal is a standard program found on most personal computers with Microsoft® Windows.
+>
+> To change software setting a personal computer **must** be connected to the serial port (RS-232) as shown.
+>
+> The following is for the local analog and remote analog panel.
+>
+> Customer Interface Box
+>
+> The customer interface box provides an interface point from the vessel to the alarm and safety system to the terminal strip. It also displays information to the local analog display (auxiliary **only**) and safety module. The customer interface box is located in the engine room.
+>
+> Engine Room Panel
+>
+> The engine room panel displays information to the local analog display and the Cetrek display. Located in the engine room (propulsion **only**).
+>
+> Displays
+>
+> The safety module is used on classed propulsion and auxiliary applications and monitors five safety switches as well as an optional external input. The safety module will shut down the engine when a parameter drops below the set threshold.
+>
+> **Note · Примечание**
+> The shutdown feature is inhibited below 500 rpm.
+>
+> The local analog display is located in the engine room and is used to start and stop the engine, acknowledge alarm faults, toggle the local and remote start function, as well as display certain engine parameters. It is installed in the engine room panel and customer interface box on propulsion and auxiliary applications, respectively.
+>
+> **Note · Примечание**
+> The alarm faults do **not** cause an engine derate or shutdown. A derate or shutdown can **only** be triggered by the base engine ECM or the safety module.
+>
+> Up to four remote analog panels can be mounted remotely and are used to display engine information as well as to start the engine when the local analog display has granted remote control. The remote analog panel can **not** be used to acknowledge alarm faults, but it can be used to silence alarms by pressing the Silence Horn button.
+>
+> Displays engine information and fault codes and is located in the engine room panel or remotely (propulsion **only**).
+>
+> Alarm status is **only** monitored by the local analog display unit, as **only** the local analog display has access to the analog signal inputs. The local analog display broadcasts alarm status and parameter values to each remote analog panel. Alarm acknowledgement is possible **only** on local analog display.
+>
+> There are two possible kinds of alarms: process alarms and system faults.
+>
+> Process alarm: Monitors parameters that exceed a defined limit, such as a pressure or temperature threshold.
+>
+> Actions:
+>
+> - The associated bar graph will flash red upon the sensor value passing the threshold value
+> - The buzzer will sound
+> - Pressing the silence horn button ceases the horn, but the bar graph will still be flashing red
+> - Pressing the Acknowledge button will stop the bar graph from flashing, but will remain orange until the threshold issue has been resolved.
+>
+> System Fault: A fault on the monitoring equipment itself, such as a sensor fault, a broken wire or bad contact, or an internal default in the local analog display or the remote analog panel failure.
+>
+> Actions:
+>
+> - The associated bar graph will flash red upon the sensor fault issue as well as the sensor fault light (located directly beneath the bar graph)
+> - The buzzer will sound
+> - Pressing the silence horn button ceases the horn, but the bar graph will still be flashing red
+> - Pressing the Acknowledge button will stop the bar graph from flashing, but will remain orange until the sensor fault issue has been resolved.
+>
+> General System Fault: Indicates internal local analog display or remote analog panel failure.
+>
+> The icon lights to indicate an internal local analog display or remote analog panel failure.
+>
+> The safety system is a completely independent engine monitoring system. The safety switches monitor various engine parameters and provides a signal to the safety module in the customer interface box. The safety system is designed to shutdown the engine when certain operation parameters exceed the switch setpoint for a specified length of time.
+>
+> Power Module
+>
+> The power module, also known as the power supply monitoring and safety device, is used in both propulsion and auxiliary classed applications and is located inside the customer interface box. The purpose of the power module is to filter the AC power from the two classed-required power supplies and to help protect the customer interface box circuitry to the two 15 Amp blade fuses and the three 2 Amp blade fuses.
+>
+> There is a green indicator lamp for each power supply. The lamp will be lit when 24 VDC is present.
+>
+> Vessel Interface Terminal Strip
+>
+> The vessel interface terminal strip provides an interface point from the vessel to the alarm and safety system. The vessel interface terminal strip in located inside the customer interface box.
+>
+> Printed Circuit Board
+>
+> The printed circuit board provides a common connection point for many of the different harness connections associated with the customer interface box. It also provides a location for the relays used to implement the control functions. Thirdly, it provides a location for the electronic circuitry that is required to interface to the electronic control module (ECM) and other modules in the system.
+>
+> Speed Comparator
+>
+> The speed comparator monitors engine speed with a 0-1mA input on pins 1 and 2 provided by the Dominion ECM. The speed comparator closes a relay when the engine speed is greater than or equal to 85 percent of rated speed. The relay opens when engine speed is less than 85 percent of rated speed. The speed comparator output signal is used by the OEM control system for verification to engine operating state.
+>
+> The OEM control system will **not** allow the generator set to accept load if the speed comparator output on pins 6 and 8 is open circuit. When engine speed is greater than or equal to 85 percent of rated speed, the red alarm lamp on the front of the speed comparator will be illuminated. The threshold potentiometer below the alarm lamp is used to adjust the setpoint at initial installation of the generator set. The speed comparator is mounted inside of the customer interface box next to the printed circuit board. Refer to Procedure [[56-209-001 — System Description|209-001]] for setpoint adjustment.
+>
+> Remote Analog Panel
+>
+> The remote analog panel is used to display engine information as well as start the engine when the local analog display has granted remote control. The remote analog panel can **not** be used to acknowledge alarm faults, but can be used to silence alarms by pressing the silence horn button.
+>
+> Alarm Sensors
+>
+> The alarm system is a completely independent engine monitoring system that uses sensors to monitor various engine parameters. As described in the local analog display, six of these sensors are alarmed by the local analog display: coolant temperature, left and right bank exhaust stack temperature, engine oil pressure, marine gear oil pressure (optional), and the rpm. Battery voltage is also alarmed and measured by the local analog display. The remaining sensors are wired to the terminal strip in the customer interface box and **must** be alarmed by the vessel alarm system.
+>
+> **Note · Примечание**
+> **Only** the base engine control system and safety system can derate or shutdown the engine.
+>
+> Master Switch
+>
+> The master switch is the master battery switch and is located in the customer interface box in the auxiliary application and in engine room panel propulsion applications.
+>
+> Terminal Box
+>
+> The terminal block allows the alarm system pressure sensors to be tested for proper operation while the engine is running, and also provide a convenient test point to measure fluid pressures.
+>
+> The Local and Remote button is **only** present on the local analog display and the status is indicated by a lamp. The Control button toggles the Local and Remote lamps.
+>
+> On the remote analog panel unit, the Acknowledgement push button is replaced by a dimmer push button. Repeatedly pressing the Dimmer push button will cycle through four brightness levels. When the unit is powered on, brightness is automatically set to level four (brightest).
+>
+> ### Setup
+>
+> The following equipment is needed:
+>
+> - A personal computer or laptop with an available 9-pin COM port (serial port) and HyperTerminal or other telnet software
+> - Configuration serial link cable (a RS232 or Universal Serial Bus adapter may be needed for some laptops).
+> - Local analog display and remoter analog panel.
+>
+> Using the configuration serial link cable.
+>
+> 1. Connect the 9-pin connector to the personal computer serial connector
+> 2. Connect the 4-pin terminal block connector to the RS-232 connector (J8) on the back of the local analog display and remote analog panel.
+>
+> 1. Start HyperTerminal (Start/All Programs/Accessories/Communications/HyperTerminal)
+> 2. In the Connection Description window, type local analog display into the Name: field and click OK
+> 3. In the Connect To window, change the Connect using: drop down menu to select the appropriate COM port.
+> 4. Click OK
+> 5. HyperTerminal will have to be configured the first time it is used. In the COM Properties window, use the following settings:
+>
+> - Bits per second: 4800
+> - Data bits: 8
+> - Parity: None
+> - Stop bits: 1
+> - Flow control: None
+>
+> 1. Click OK.
+>
+> 1. Push the Reset button on the back of the local analog display (upper left corner) to put the local analog display in Configuration Mode. All the lights on the front of the panel will turn on
+> 2. After a couple seconds you will see the following prompt appear in the HyperTerminal screen: Start Serial Link local analog display /remote analog display, followed by an asterisk. The asterisk prompt indicates the local analog display /remote analog panel is ready to be configured.
+>
+> 1. At the \* prompt, type unitc and hit Enter to display metric units or type unitf and hit Enter to display imperial units
+> 2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
+> 3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
+> 4. Disconnect the RS-232 cable
+> 5. Shut down HyperTerminal. Click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+>
+> 1. At the \* prompt, type rhc and hit Enter to change the hour meter. When prompted, enter in the correct engine hours and hit Enter
+> 2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
+> 3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
+> 4. Disconnect the configuration serial cable
+> 5. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+>
+> **Note · Примечание**
+> The hour meter **must only** be changed when a new panel is replacing a failed panel in the field. The hour meter **must** reflect the actual hours on the engine.
+>
+> To disable gear oil pressure alarm (at the prompt \*):
+>
+> 1. At the \* prompt, type c4d and hit Enter to disable the channel
+> 2. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
+> 3. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode.
+> 4. Disconnect the configuration serial link
+> 5. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+>
+> To enable the gear oil pressure alarm (at the prompt \*):
+>
+> 1. At the \* prompt, type c4e and hit Enter to enable the channel
+> 2. Type wt4 and hit Enter to set the gear oil pressure alarm threshold. When prompted, enter in the threshold (will be prompted in kPa or psi depending on the display units mode) and hit Enter. The threshold is 250 psi and 1723 kPa
+> 3. Type wtig and hit Enter to set the inhibit RPM setpoint. Below this speed, the gear oil pressure alarm will **not** trigger a low pressure alarm. When prompted, enter in the RPM threshold and hit Enter. The RPM threshold is 1100 RPM
+> 4. Type save and press Enter. HyperTerminal will display: Wait Please/General OK/Threshold OK/Calibration/End Save Up
+> 5. Type end and press Enter. This puts the local analog display /remote analog panel back in normal monitoring mode
+> 6. Disconnect the configurable serial link
+> 7. Shut down HyperTerminal. Click yes when prompted to disconnect and click yes when prompted to save the connection local analog display. This will save the HyperTerminal configuration.
+>
+> Exceeded threshold alarms will be latched active until the local reset button located on the back of the safety module has been pressed or by cycling the master switch located on the front of the customer interface box.
+>
+> Sensor faults can be triggered by a failed switch or faulty wiring and will **not** be latched.
+>
+> If engine speed detection is unavailable due to a sensor fault, the safety module keeps engine protection shutdowns active except for low oil pressure. If the engine is shut down, either by the safety module or normal shutdown, external inhibit **must** be enabled on the safety module in order to start the engine again.
+>
+> For this reason, it is important that any safety module speed sensor faults be corrected as soon as possible.
+>
+> After restart, the safety module alarms can be cleared by pressing the rest button and the external inhibit can be disabled, which allows the safety module to perform engine protection (except for low oil pressure).
+>
+> The speed comparator threshold is set at 85 percent of rated speed (1530 rpm for 60Hz set, or 1275 rpm for 50 Hz set). Follow the steps below to adjust the threshold:
+>
+> 1. Make sure the generator is off the vehicle and engine running
+> 2. Connect and launch InPower
+> 3. Navigate to the test folder, then to the speed override folder
+> 4. Double-click to change engine speed reference override enable to enabled
+> 5. The engine speed will ramp down to the override command value
+> 6. Turn the threshold potentiometer **counterclockwise** to turn off the alarm lamp, then turn it slowly **clockwise** until the alarm lamp turns on. This is the 85 percent of rated setpoint
+> 7. Verify the speed comparator relay is closed by checking for continuity on pins 6 and 8
+> 8. Double click to change engine speed reference override enable to disabled
+> 9. The engine speed will ramp up to rated speed
+> 10. Close the connection to the module, then close InPower.
+>
+> The alarm system is a completely independent engine monitoring system that uses sensors to monitor various engine parameters. As described in the local analog display section, six of these sensor are alarmed by the local analog display: Coolant temperature, left and right bank exhaust stack temperature, engine oil pressure, marine gear oil pressure (optional), and RPM. Battery voltage is also alarmed and measured by the local analog display. The remaining sensors are wired to the terminal strip in the customer interface box and **must** be alarmed by the vessel alarm system.
+>
+> **Only** the base engine control system and safety system can derate or shutdown the engine.
+>
+> | Alarm System Sensors |  |
+> |---|---|
+> | Description | Setpoint |
+> | Aftercooler Water Inlet Temperature | 71°C \[160°F\] |
+> | Lubricating Oil Inlet Temperature | 121°C \[250°F\] |
+> | Coolant Outlet Temperature | 100°C \[212°F\] |
+> | Intake Manifold Temperature (right bank front, rear bank rear, left bank rear) | 82°C \[180°F\] |
+> | Fuel Filter Outlet Pressure | 74 kPa \[10.7 psi\] |
+> | Fuel Filter Differential Pressure (service **only**)\* | 28 kPa \[4 psi\] |
+> | Lubricating Oil Pressure | 165 to 310 kPa \[24 to 45 psi\] |
+> | Lubricating Oil Filter Inlet Pressure | 241 kPa \[35 psi\] differential |
+> | Lubricating Oil Filter Outlet Pressure | 241 kPa \[35 psi\] differential |
+> | Lubricating Oil Filter Inlet and Outlet Pressure Sensor Check Valve | N/A |
+> | Coolant Pressure | 28 to 76 kPa \[4 to 11 psi\] |
+> | Sea Water Cooling System Pressure | To Be Determined - none in service |
+> | Gear Oil Pressure | OEM defined |
+> | Engine Speed | 1980 rpm |
+> | Exhaust Stack Temperature | 593°C \[1100°F\] |
+> | Exhaust Temperature Cylinder Number 1 (left bank), Number 8 (right bank), Number 5 (left bank), and Number 4 (right bank) | 732°C \[1350°F\] |
+> | Coolant Level | Shared with base engine |
+> | \* The fuel filter differential pressures sensor is **not** used on the latest design. |  |
+>
+> | Safety System Sensors |  |
+> |---|---|
+> | Description | Setpoint |
+> | Lubricating Oil Pressure Switch (Low Speed Range) | 131 kPa \[19 psi\] |
+> | Lubricating Oil Pressure Switch (High Speed Range) | 276 kPa \[40 psi\] |
+> | Coolant Pressure Switch | 14 kPa \[2 psi\] |
+> | Coolant Temperature Switch | 220°F \[104°C\] |
+> | Engine Speed | 2070 rpm for auxiliary |
+> |  | 2280 rpm for propulsion |
+>
+> ### Test
+>
+> **CAUTION · Осторожно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Test Connector, Self Sealing.
+>
+> Test Connector, Self Sealing - To measure actual fluid pressure during engine operation, connect an adapter to the test connector. It is **not** necessary to turn the isolator valve to the OFF position due to the check valve (check valve is spring loaded (1)). This can cause an alarm.
+>
+> To test the alarm system sensor, turn the isolator valve to OFF position and connect an adapter to the test connector with a controlled pressure source. Raise the pressure above the setpoint for the sensor, the slowly release the pressure until the alarm sounds.
+>
+> The safety shutdown test is a procedure to demonstrate the shutdown functions of the QSK60 marine safety system.
+>
+> This system is independent of both the engine alarm and engine control systems.
+>
+> The safety system commands engine shutdown per the emergency stop input of the engine ECM, which drives redundant shutdown functions.
+>
+> Equipment needed to conduct the tests:
+>
+> - Regulated pressure source providing between 0 and 50 psi, with mating for Danfoss™ pressure manifold
+> - Variable temperature liquid bath capable of up to 110°C \[230F°\] for a 6 mm \[0.24 in\] diameter probe
+> - Frequency generator to simulate engine speed signal (rpm). Can also set safety module overspeed setpoint switch to 1475 rpm, start engine, and verify shutdown.
+>
+> There are six switch inputs to the safety system that can drive a shutdown, as shown on the display panel of the safety module:
+>
+> 1. External shutdown command (optional input which will be a switch wired in from the vessel)
+> 2. Low coolant pressure (switch located on the right front corner of engine, measuring temperature in left side bottom of thermostat housing)
+> 3. High coolant temperature (switch location on the right front corner of engine, measuring temperature in left side bottom of thermostat housing)
+> 4. Low lubricating oil pressure, low speed range (lubricating oil pressure measured at oil rifle on top of flywheel, switch is used below 1400 rpm)
+> 5. Low lubricating oil pressure, high speed range (lubricating oil pressure measured at oil rifle on top of flywheel housing, switch is used above 1400 rpm)
+> 6. Overspeed (measured by separate speed sensor mounted on farthest left of flywheel housing).
+>
+> 1. Shut down the engine
+> 2. Rotate the rear-most isolation valve (1) 90 degrees **clockwise** to closed position on the manifold block mounted on the right front corner of the engine. Arrow heads will be pointing before and after rather than up and down.
+> 3. Remove the rear-most pressure fitting cap (2) from the manifold block, and connect a regulator pressure source to the manifold port.
+> 4. Adjust the regulated pressure source to provide at least 69 kPa \[10 psi\] into the manifold
+> 5. Start the engine
+> 6. Lower the regulated pressure to 6.9 kPa \[1 psi\]
+> 7. The safety system will shutdown the engine at approximately 13.8 kPa \[2 psi\]
+> 8. Remove the regulated pressure source, and replace the cap (2) on the manifold
+> 9. Open the isolation valve (1) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing up and down
+> 10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
+> 11. Pressure the reset button on the back of the safety module
+> 12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary application **only** as the Dominion ECM **must** be in stop mode, **not** Emergency stop mode to acknowledge faults.
+>
+> 1. Remove the coolant sensing element from the pocket, located on the left underside of the thermostat housing
+> 2. Remove the P-clip bolt(s) to gain sufficient free length of the armored capillary to reach the heat bath
+> 3. Insert the sensing element into the heat bath, with the temperature less than 99°C \[210°F\]
+> 4. With the engine running, raise the temperature of the bath to 107°C \[225°F\]. The safety system will shut down the engine at a temperature of approximately 105°C \[221°F\]
+> 5. Replace the P-clip bolt(s)
+> 6. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
+> 7. Press the reset button on the back of the safety module.
+> 8. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+>
+> 1. Shut down the engine if it is in operation
+> 2. Rotate the upper-most isolation valve (2) 90 degrees clockwise to the closed position on the manifold block mounted on the right rear corner of the engine. Arrow heads will be pointing up and down rather than before and after
+> 3. Remove the upper-most pressure fitting cap (1) from the manifold block, and connect a regulated pressure source to the manifold port
+> 4. Adjust the regulated pressure source to provide at least 138 kPa \[20 psi\] into the manifold
+> 5. Start the engine and run it a idle (to be less than 1400 rpm for low speed range)
+> 6. Lower the regulated pressure to 69 kPa \[10 psi\]
+> 7. The safety system will shutdown the engine at approximately 103 kPa \[15 psi\]
+> 8. Remove the regulated pressure source, and replace the cap on the manifold
+> 9. Open the isolation valve (2) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing left to right
+> 10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
+> 11. Press the reset button on the back of the safety module
+> 12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+>
+> 1. Shut down the engine if it is in operation
+> 2. Rotate the second-upper-most isolation valve (2) 90 degrees **clockwise** to the closed position on the manifold block mounted on the right rear corner of the engine. Arrow heads will be pointing up and down rather than before and after
+> 3. Remove the second-upper-most pressure fitting cap (1) from the manifold block, and connect a regulated pressure source to the manifold port
+> 4. Adjust the regulated pressure source to provide at least 241 kPa \[35 psi\] into the manifold
+> 5. Start the engine and run it at rated (to be above 1400 rpm for high speed range)
+> 6. Lower the regulated pressure to 172 kPa \[25 psi\]
+> 7. The safety system will shutdown the engine at approximately 200 kPa \[29 psi\]
+> 8. Remove the regulated pressure source, and replace the fitting cap (2) on the manifold
+> 9. Open the isolation valve (2) of step 2 by rotating it 90 degrees **counterclockwise**, so that the arrow heads are pointing left and right
+> 10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
+> 11. Press the reset button on the back of the safety module
+> 12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button the printed circuit board. This is for auxiliary application **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.
+>
+> **Note · Примечание**
+> Another method is the set the safety module overspeed shutdown setpoint to 1475 rpm and operate the engine. The engine will shut down once the rpms increase to over 1475 rpm.
+>
+> 1. Connect the frequency generator to the safety system speed input
+> 2. Disconnect the proper speed sensor from the engine harness and connect the frequency generator in its place
+> 3. The safety system speed sensor is the left-most of three speed sensors on the top of the flywheel housing.
+> 4. Set the frequency generator to provide a signal to the safety module of 2100 hertz, or 750 rpm (frequency = rpm x 168/60). This will activate the safety module
+> 5. If engine was already running in step 1, reset the safety module
+> 6. Start the engine if **not** already running
+> 7. Increase the frequency generator output signal to 6160 Hz or 2200 rpm
+> 8. The safety system will shut down the engine as speed passes through approximately 2070 rpm or about 5800 Hz
+> 9. Reconnect the speed sensor for the safety system to the engine harness
+> 10. Attempt to start the engine, to demonstrate it will **not** start without resetting the safety module
+> 11. Press the reset button on the back of the safety module
+> 12. Acknowledge faults on the ECM by first pressing the local analog display stop button and then the fault acknowledge button on the printed circuit board. This is for auxiliary applications **only** as the Dominion ECM **must** be in stop mode, **not** emergency stop mode to acknowledge faults.

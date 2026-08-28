@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-087-om-rep.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-087-om-rep.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Cooling Fan Belt Tensioner
@@ -33,20 +35,44 @@ tags:
 > **Даты:** изменён 2003-05-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-087-om-rep.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-087-om-rep.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
 
-Use an appropriate grease to lubricate the cooling fan belt tensioner.
+### Контроль при обслуживании
 
-Apply grease to the fitting on the tensioner until grease appears at the overflow valve.
+Промышленное применение
+
+Используйте соответствующую смазку для смазки натяжителя ремня охлаждающего вентилятора.
+
+Применять смазку к фитингу на натяжителе до тех пор, пока смазка не появится на переливном клапане.
 
 ![[08400369.png]]
 
-Power Generation
+Генерация электроэнергии
 
-Use an appropriate grease to lubricate the cooling fan belt tensioner.
+Используйте соответствующую смазку для смазки натяжителя ремня охлаждающего вентилятора.
 
-Apply grease to the fitting on the tensioner until grease appears at the overflow valve.
+Применять смазку к фитингу на натяжителе до тех пор, пока смазка не появится на переливном клапане.
 
 ![[08400368.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Industrial Applications
+>
+> Use an appropriate grease to lubricate the cooling fan belt tensioner.
+>
+> Apply grease to the fitting on the tensioner until grease appears at the overflow valve.
+>
+> Power Generation
+>
+> Use an appropriate grease to lubricate the cooling fan belt tensioner.
+>
+> Apply grease to the fitting on the tensioner until grease appears at the overflow valve.

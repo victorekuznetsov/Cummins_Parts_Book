@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-045-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-045-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Lift Pump
@@ -33,26 +35,54 @@ tags:
 > **Даты:** изменён 2012-04-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-045-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-045-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> To prevent the engine from starting, disconnect the fuel shutdown wiring. Residual fuel in the injection pump can cause the engine to start.
 
-> [!warning] CAUTION · Осторожно
-> Do not crank the starter for more than 30 seconds at a time. Doing so can result in starter damage. Also, high voltage during cranking can damage the shutdown solenoid.
+### Снятие
+
+> [!warning] ОСТОРОЖНО
+> Чтобы предотвратить запуск двигателя, отсоедините проводку отключения топлива. Остаточное топливо в насосе для впрыска может привести к запуску двигателя.
+
+> [!warning] ОСТОРОЖНО
+> Не проворачивайте стартер более 30 секунд за раз. Это может привести к начальному повреждению. Кроме того, высокое напряжение во время проворачивания может повредить выключаемый соленоид.
 
 ![[fv900vb.png]]
 
-Disconnect the fuel shutdown solenoid wire.
+Отключите отключение топлива соленоидным проводом.
 
-Measure the engine cranking speed with a handheld tachometer, Part Number 3377462.
+Измерьте скорость вращения двигателя с помощью ручного тахометра, номер детали 3377462.
 
-The minimum cranking speed is 120 rpm.
+Минимальная скорость проворачивания составляет 120 об/мин.
 
 ![[fv900vc.png]]
 
-Remove the two fuel lift pump mounting capscrews.
+Удалите два болта для установки насоса топливного подъема.
 
-Remove the fuel lift pump.
+Удалите насос для подъёма топлива.
 
 ![[fs900mb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> To prevent the engine from starting, disconnect the fuel shutdown wiring. Residual fuel in the injection pump can cause the engine to start.
+>
+> **CAUTION · Осторожно**
+> Do not crank the starter for more than 30 seconds at a time. Doing so can result in starter damage. Also, high voltage during cranking can damage the shutdown solenoid.
+>
+> Disconnect the fuel shutdown solenoid wire.
+>
+> Measure the engine cranking speed with a handheld tachometer, Part Number 3377462.
+>
+> The minimum cranking speed is 120 rpm.
+>
+> Remove the two fuel lift pump mounting capscrews.
+>
+> Remove the fuel lift pump.

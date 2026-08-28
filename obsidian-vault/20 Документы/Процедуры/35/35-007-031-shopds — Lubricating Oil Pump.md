@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-031-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-031-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pump
@@ -35,13 +37,32 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-031-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-031-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Do not pry on the gear or pump flange. This can result in damage to the pump.
 
-Remove the three mounting capscrews and spacers.
+### Снятие
 
-Use both hands to pull, or insert, two capscrews (M8 X 1.25) into the puller holes to push the pump from the engine.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь нажать на шестерню или фланж насоса. Это может привести к повреждению насоса.
+
+Удалите три крепежных болта и спейсера.
+
+Используйте обе руки, чтобы вытащить или вставить два болта (M8 X 1.25) в отверстия вытяжки, чтобы вытолкнуть насос из двигателя.
 
 ![[lp200mb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> Do not pry on the gear or pump flange. This can result in damage to the pump.
+>
+> Remove the three mounting capscrews and spacers.
+>
+> Use both hands to pull, or insert, two capscrews (M8 X 1.25) into the puller holes to push the pump from the engine.

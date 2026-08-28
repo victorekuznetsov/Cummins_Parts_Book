@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc293.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc293.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # OEM Temperature Sensor Circuit
@@ -38,32 +40,70 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc293.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc293.pdf)
 
-### Fault Code: 293
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### OEM Temperature Sensor Circuit
 
-Printable Version
+### Код неисправности: 293
 
-### Overview
+### Цепь датчика температуры OEM
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 293 PID(P): P223 SPN: 1083 FMI: 3 Lamp: Yellow SRT: | VDC detected at the OEM temperature sensor signal pin 27 of the OEM interface harness indicates the sensor has failed high. | No engine protection for OEM temperature. |
+| Код неисправности: 293 PID(P): P223 SPN: 1083 FMI: 3 лампы: Желтая СТО: | VDC, обнаруженный при контакте 27 датчика температуры OEM с проводкой интерфейса OEM, указывает на то, что датчик вышел из строя. | Отсутствие защиты двигателя от температуры OEM. |
 
 ![[19400674.png]]
 
-OEM Temperature Circuit
+ОЭМ температурный контур
 
-### Circuit Description
+### Описание цепи
 
-The OEM sensor signal is used by the ECM to monitor the OEM temperature. The OEM temperature is used by the ECM for the engine protection system. A sensor that has failed high can be caused by opens in the signal or return wire, voltage shorts in the signal or return wire, or a faulty sensor.
+Сигнал датчика OEM используется ECM для мониторинга температуры OEM. Температура OEM используется ECM для системы защиты двигателя. Датчик, который вышел из строя высоко, может быть вызван открытиями в сигнале или обратном проводе, шортами напряжения в сигнале или обратном проводе или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-The location varies with the OEM. Refer to the OEM manual.
+Месторасположение варьируется в зависимости от OEM. См. руководство по OEM.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of all temperature sensors varies with the ambient temperature.
+Сопротивление всех датчиков температуры изменяется в зависимости от температуры окружающей среды.
 
-Refer to Troubleshooting Fault Code t05-293
+См. Код устранения неполадок t05-293
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 293
+>
+> ### OEM Temperature Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 293 PID(P): P223 SPN: 1083 FMI: 3 Lamp: Yellow SRT: | VDC detected at the OEM temperature sensor signal pin 27 of the OEM interface harness indicates the sensor has failed high. | No engine protection for OEM temperature. |
+>
+> OEM Temperature Circuit
+>
+> ### Circuit Description
+>
+> The OEM sensor signal is used by the ECM to monitor the OEM temperature. The OEM temperature is used by the ECM for the engine protection system. A sensor that has failed high can be caused by opens in the signal or return wire, voltage shorts in the signal or return wire, or a faulty sensor.
+>
+> ### Component Location
+>
+> The location varies with the OEM. Refer to the OEM manual.
+>
+> ### Shoptalk
+>
+> The resistance of all temperature sensors varies with the ambient temperature.
+>
+> Refer to Troubleshooting Fault Code t05-293

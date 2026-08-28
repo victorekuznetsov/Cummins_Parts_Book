@@ -13,12 +13,14 @@ families:
 manuals:
   - "5659763"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-200-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-200-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Fuel System
@@ -32,28 +34,60 @@ tags:
 > **Даты:** изменён 2022-12-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-200-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-200-001.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[05s00079.png]]
 
-Liquefied Natural Gas (LNG) Engine
+Двигатель сжиженного природного газа (СПГ)
 
-1. From natural gas tank
-2. Fuel pressure regulator
-3. Natural gas filter
-4. Fuel line from fuel pressure regulator to fuel metering valve
-5. Fuel metering valve
-6. Fuel line from fuel metering valve to air/fuel mixer
-7. Air/fuel mixer.
+1. Из резервуара природного газа
+2. Регулятор давления топлива
+3. Фильтр природного газа
+4. Топливная линия от регулятора давления топлива до клапана учета топлива
+5. Клапан для измерения расхода топлива
+6. Топливная линия от клапана учета топлива до смесителя воздуха/топлива
+7. Воздушно-топливный смеситель.
 
 ![[05s00080.png]]
 
-Compressed Natural Gas (CNG) Engine
+Двигатель сжатого природного газа (CNG)
 
-1. From natural gas tank
-2. Fuel pressure regulator
-3. Natural gas filter
-4. Fuel line from fuel pressure regulator to fuel metering valve
-5. Fuel metering valve
-6. Fuel line from fuel metering valve to air/fuel mixer
-7. Air/fuel mixer.
+1. Из резервуара природного газа
+2. Регулятор давления топлива
+3. Фильтр природного газа
+4. Топливная линия от регулятора давления топлива до клапана учета топлива
+5. Клапан для измерения расхода топлива
+6. Топливная линия от клапана учета топлива до смесителя воздуха/топлива
+7. Воздушно-топливный смеситель.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Liquefied Natural Gas (LNG) Engine
+>
+> 1. From natural gas tank
+> 2. Fuel pressure regulator
+> 3. Natural gas filter
+> 4. Fuel line from fuel pressure regulator to fuel metering valve
+> 5. Fuel metering valve
+> 6. Fuel line from fuel metering valve to air/fuel mixer
+> 7. Air/fuel mixer.
+>
+> Compressed Natural Gas (CNG) Engine
+>
+> 1. From natural gas tank
+> 2. Fuel pressure regulator
+> 3. Natural gas filter
+> 4. Fuel line from fuel pressure regulator to fuel metering valve
+> 5. Fuel metering valve
+> 6. Fuel line from fuel metering valve to air/fuel mixer
+> 7. Air/fuel mixer.

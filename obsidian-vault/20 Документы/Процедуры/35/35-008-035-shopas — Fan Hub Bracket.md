@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-035-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-035-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fan Hub Bracket
@@ -35,11 +37,28 @@ tags:
 > **Даты:** изменён 2005-10-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-035-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-035-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the fan hub support with three mounting capscrews.
 
-> [!tip] Момент затяжки · Torque Value
-> 75 n•m [55 ft-lb]
+### Установка
+
+Установите поддержку фан-хаба с тремя крепежными болтами.
+
+> [!tip] Момент затяжки
+> 75 Н·м [55 фунт-фут]
 
 ![[fa2bkhc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the fan hub support with three mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 75 n•m [55 ft-lb]

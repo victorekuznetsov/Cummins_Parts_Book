@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc114.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc114.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Electronic Step Timing Control Circuit - Voltage Below Normal or Shorted to Low Source
@@ -30,78 +32,162 @@ tags:
 > **Даты:** изменён 2021-09-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc114.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc114.pdf)
 
-### Fault Code: 114
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Electronic Step Timing Control Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 114
 
-### Overview
+### Электронная схема управления сжатием шага - напряжение ниже нормального или короткое до низкого источника
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 114 PID(P): S20 SPN: FMI: 4 Lamp: On SRT: 00-620 | Low voltage detected at the electronic step timing control circuit. | Possible reduced engine performance. |
+| Код неисправности: 114 PID(P): S20 SPN: ФМИ: 4 лампы: На SRT: 00-620 | Низкое напряжение, обнаруженное в электронной схеме управления временем шага. | Возможно снижение производительности двигателя. |
 
 ![[19802315.png]]
 
-Electronic Step Timing Control (STC) Circuit
+Электронный контроль времени шага (STC)
 
-### Circuit Description
+### Описание цепи
 
-The electronic step timing control actuator controls the step timing control valve on the fuel pump. The electronic step timing control actuator has a single circuit; step timing control driver/ torque output driver. The Engine Control Module (ECM) adjusts the engine timing from advance to normal with the electronic step timing control actuator.
+Электронный привод управления синхронизацией ступени управляет клапаном управления синхронизацией ступени на топливном насосе. Электронный привод управления временем шага имеет одну цепь; драйвер управления временем шага / драйвер вывода крутящего момента. Модуль управления двигателем (ECM) регулирует время работы двигателя от предварительного до нормального с электронным приводом управления временем шага.
 
-### Component Location
+### Расположение компонента
 
-The electronic step timing control valve is mounted on the left side of the engine.
+Электронный клапан управления временем шага установлен на левой стороне двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the electronic step timing control voltage was out of range low.
+Модуль управления двигателем (ECM) обнаружил, что электронное напряжение управления временем шага было вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает лампу янтарного CHECK ENGINE сразу же, когда диагностика проходит и выходит из строя.
 
-- The engine may **not** start.
+- Двигатель может **не** завестись.
 
-- The electronic step timing control valve is in normal timing advance.
+- Электронный клапан управления временем шага находится в нормальном временном продвижении.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-- The electronic step timing control valve is in normal timing advance.
+- Электронный клапан управления временем шага находится в нормальном временном продвижении.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит лампу янтарного CHECK ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Malfunctioning or damaged electronic step timing control actuator.
+- Неисправность или повреждение электронного привода управления временем шага.
 
-- Loose or damaged connectors.
+- Разряженные или поврежденные разъемы.
 
-Refer to Troubleshooting Fault Code t05-114
+Устранение неполадок код t05-114
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 114
+>
+> ### Electronic Step Timing Control Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 114 PID(P): S20 SPN: FMI: 4 Lamp: On SRT: 00-620 | Low voltage detected at the electronic step timing control circuit. | Possible reduced engine performance. |
+>
+> Electronic Step Timing Control (STC) Circuit
+>
+> ### Circuit Description
+>
+> The electronic step timing control actuator controls the step timing control valve on the fuel pump. The electronic step timing control actuator has a single circuit; step timing control driver/ torque output driver. The Engine Control Module (ECM) adjusts the engine timing from advance to normal with the electronic step timing control actuator.
+>
+> ### Component Location
+>
+> The electronic step timing control valve is mounted on the left side of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the electronic step timing control voltage was out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> - The engine may **not** start.
+>
+> - The electronic step timing control valve is in normal timing advance.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> - The electronic step timing control valve is in normal timing advance.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Malfunctioning or damaged electronic step timing control actuator.
+>
+> - Loose or damaged connectors.
+>
+> Refer to Troubleshooting Fault Code t05-114

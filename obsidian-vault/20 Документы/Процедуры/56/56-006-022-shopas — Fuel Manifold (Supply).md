@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-022-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-022-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fuel Manifold (Supply)
@@ -35,36 +37,74 @@ tags:
 > **Даты:** изменён 2008-11-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-022-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-022-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Use Lubriplate™ Number 105 or equivalent, to position and secure edge-molded gaskets to the back of the fuel manifold.
+### Установка
 
-Install the gaskets to align with each cylinder head.
+с форсункой механического управления
 
-Insert two capscrews per gasket through the manifold located in the rubber-lined holes of the gasket.
+Используйте LubriplateTM № 105 или эквивалент, чтобы расположить и закрепить ребро-формованные прокладки к задней части топливного коллектора.
 
-An old style gasket is shown, with old style fuel manifold.
+Установите прокладки, чтобы выровняться с каждой головкой цилиндра.
+
+Вставить два болта на прокладку через коллектор, расположенный в резиновых отверстиях прокладки.
+
+Показано старое прокладку стиля, с старым стилем топливный коллектор.
 
 ![[06600082.png]]
 
-QSK45 Engines
+Двигатели QSK45
 
-Install the left-bank fuel manifold while making sure the fuel transfer block and tubes are aligned.
+Установите левобережный топливный коллектор, убедившись, что блок и трубки переноса топлива выровнены.
 
-Use the sequence illustrated to tighten the 24 capscrews.
+Используйте проиллюстрированную последовательность, чтобы затянуть 24 болта.
 
-Repeat the process for the right-bank manifold.
+Повторите процесс для правого банковского коллектора.
 
 ![[06600140.png]]
 
-QSK60 Engines
+Двигатели QSK60
 
-Install the left-bank fuel manifold while making sure the fuel transfer block and tubes are aligned.
+Установите левобережный топливный коллектор, убедившись, что блок и трубки переноса топлива выровнены.
 
-Use the sequence illustrated to tighten the 32 capscrews.
+Используйте проиллюстрированную последовательность, чтобы затянуть 32 болта.
 
-Repeat the process for the right-bank manifold.
+Повторите процесс для правого банковского коллектора.
 
 ![[06600141.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Use Lubriplate™ Number 105 or equivalent, to position and secure edge-molded gaskets to the back of the fuel manifold.
+>
+> Install the gaskets to align with each cylinder head.
+>
+> Insert two capscrews per gasket through the manifold located in the rubber-lined holes of the gasket.
+>
+> An old style gasket is shown, with old style fuel manifold.
+>
+> QSK45 Engines
+>
+> Install the left-bank fuel manifold while making sure the fuel transfer block and tubes are aligned.
+>
+> Use the sequence illustrated to tighten the 24 capscrews.
+>
+> Repeat the process for the right-bank manifold.
+>
+> QSK60 Engines
+>
+> Install the left-bank fuel manifold while making sure the fuel transfer block and tubes are aligned.
+>
+> Use the sequence illustrated to tighten the 32 capscrews.
+>
+> Repeat the process for the right-bank manifold.

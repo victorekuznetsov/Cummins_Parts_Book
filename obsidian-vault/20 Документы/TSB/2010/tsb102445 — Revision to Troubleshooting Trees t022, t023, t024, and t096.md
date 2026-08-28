@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102445.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102445.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision to Troubleshooting Trees t022, t023, t024, and t096
@@ -25,20 +27,48 @@ tags:
 > **Даты:** изменён 2007-09-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102445.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102445.pdf)
 
-## Revision to Troubleshooting Trees t022, t023, t024, and t096
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр слежения за деревьями t022, t023, t024 и t096
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the following troubleshooting trees for the QSK45 and QSK60 engines:
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t022 - Coolant Temperature Above Normal - Gradual Overheat
-- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t023 - Coolant Temperature Above Normal - Sudden Overheat
-- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t024 - Coolant Temperature Below Normal
-- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t096 - Intake Manifold Air Temperature Above Specification.
+### Содержание
 
-> [!note] Note · Примечание
+Тематика сервиса/частей: Изучите деревья для устранения неполадок двигателей QSK45 и QSK60:
+
+- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-т022 - Температура охлаждения выше нормы - Постепенное перегрев
+- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-т023 - Температура охлаждения выше нормы - Внезапный перегрев
+- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-т024 - температура охлаждающей жидкости ниже нормы
+- [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t096 - температура воздуха в коллекторе над спецификацией.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision to Troubleshooting Trees t022, t023, t024, and t096
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the following troubleshooting trees for the QSK45 and QSK60 engines:
+>
+> - [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t022 - Coolant Temperature Above Normal - Gradual Overheat
+> - [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t023 - Coolant Temperature Above Normal - Sudden Overheat
+> - [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t024 - Coolant Temperature Below Normal
+> - [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]-t096 - Intake Manifold Air Temperature Above Specification.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

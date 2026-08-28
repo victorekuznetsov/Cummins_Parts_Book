@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102053.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102053.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Spin-on Fuel Filter Procedure Update for Electronically Actuated Injectors
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2006-11-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102053.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102053.pdf)
 
-## Spin-on Fuel Filter Procedure Update for Electronically Actuated Injectors
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Обновление процедуры винтокрылого топливного фильтра для форсунки с электронным приводом
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic updates Procedure 006-015, Fuel Filter, Spin-on, for QSK45 and QSK60 industrial and marine series engines with electronically actuated injectors.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Обновление темы: Процедура 006-015, Топливный фильтр, спин-он для двигателей промышленных и морских серий QSK45 и QSK60 с электронным топливным форсункой.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Spin-on Fuel Filter Procedure Update for Electronically Actuated Injectors
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic updates Procedure 006-015, Fuel Filter, Spin-on, for QSK45 and QSK60 industrial and marine series engines with electronically actuated injectors.

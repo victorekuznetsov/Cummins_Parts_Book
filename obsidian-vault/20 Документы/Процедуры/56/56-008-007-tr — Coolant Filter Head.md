@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-007-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-007-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter Head
@@ -35,72 +37,138 @@ tags:
 > **Даты:** изменён 2011-07-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-007-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-007-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-- Drain the cooling system. [[56-008-007-tr — Coolant Filter Head|Refer to Procedure 008-007 in Section 8.]]
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+- Слейте охлаждающую жидкость.[[56-008-007-tr — Coolant Filter Head|См. процедуру 008-007 в разделе 8.]]
 
 ![[ra8homa.png]]
 
-- Remove the coolant filters. [[56-008-006-tr — Coolant Filter|Refer to Procedure 008-006 in Section 8.]]
+- Удалите фильтры охлаждающей жидкости.[[56-008-006-tr — Coolant Filter|См. процедуру 008-006 в разделе 8.]]
 
 ![[08600158.png]]
 
-### Remove
+### Снятие
 
-Remove the two coolant filter head mounting capscrews, and the coolant filter head (4).
+Удалите два крепежных болта для фильтра охлаждающей жидкости и головку фильтра охлаждающей жидкости (4).
 
 ![[08600177.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the coolant filter head and components with solvent and dry with compressed air.
+Очистить головку фильтра охлаждающей жидкости и компоненты растворителем и высушить сжатым воздухом.
 
-Inspect the coolant filter head for cracks and other damages.
+Проверьте головку фильтра охлаждающей жидкости на наличие трещин и других повреждений.
 
-Replace the coolant filter head if cracked or damaged.
+Замените головку фильтра охлаждающей жидкости, если она повреждена или повреждена.
 
-Inspect the coolant shutoff valve shaft for pitting or corrosion.
+Осмотрите вал клапана отключения охлаждающей жидкости на предмет наличия точечной или коррозионной стойки.
 
-Replace the coolant shutoff valve if pitted or corroded.
+Заменить запорный клапан охлаждающей жидкости, если он пробит или разъеден.
 
 ![[08a00067.png]]
 
-### Install
+### Установка
 
-Install the coolant filter head on the thermostat housing with two capscrews.
+Установите головку фильтра охлаждающей жидкости на корпус термостата с двумя болтами.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600177.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-- Install the coolant filters. [[56-008-006-tr — Coolant Filter|Refer to Procedure 008-006 in Section 8.]]
+- Установите фильтры охлаждающей жидкости.[[56-008-006-tr — Coolant Filter|См. процедуру 008-006 в разделе 8.]]
 
 ![[08600158.png]]
 
-- Fill the cooling system. [[56-008-007-tr — Coolant Filter Head|Refer to Procedure 008-007 in Section 8.]]
-- Operate the engine and check for leaks.
+- Заправьте систему охлаждения.[[56-008-007-tr — Coolant Filter Head|См. процедуру 008-007 в разделе 8.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[oi800ve.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. [[56-008-007-tr — Coolant Filter Head|Refer to Procedure 008-007 in Section 8.]]
+>
+> - Remove the coolant filters. [[56-008-006-tr — Coolant Filter|Refer to Procedure 008-006 in Section 8.]]
+>
+> ### Remove
+>
+> Remove the two coolant filter head mounting capscrews, and the coolant filter head (4).
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the coolant filter head and components with solvent and dry with compressed air.
+>
+> Inspect the coolant filter head for cracks and other damages.
+>
+> Replace the coolant filter head if cracked or damaged.
+>
+> Inspect the coolant shutoff valve shaft for pitting or corrosion.
+>
+> Replace the coolant shutoff valve if pitted or corroded.
+>
+> ### Install
+>
+> Install the coolant filter head on the thermostat housing with two capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> - Install the coolant filters. [[56-008-006-tr — Coolant Filter|Refer to Procedure 008-006 in Section 8.]]
+>
+> - Fill the cooling system. [[56-008-007-tr — Coolant Filter Head|Refer to Procedure 008-007 in Section 8.]]
+> - Operate the engine and check for leaks.

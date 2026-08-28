@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-013-020.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-013-020.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Starting Motor
@@ -33,50 +35,102 @@ tags:
 > **Даты:** изменён 2003-06-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-013-020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-013-020.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
 
-Remove the starting motor capscrews, the starter, spacers, and gaskets.
+### Снятие
 
-Discard the gaskets.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого сборочного устройства.
 
-> [!note] Note · Примечание
-> Some engines do **not** use spacers and gaskets.
+Удалите стартовые болты двигателя, стартер, спейсеры и прокладки.
+
+Отбросьте прокладки.
+
+> [!note] Примечание
+> Некоторые двигатели не используют прокладки и прокладки.
 
 ![[st4bdha.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Powerpack
+Пауэрпакет
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Clean the exterior of the starting motor with steam.
+Очистить внешний вид пускового двигателя паром.
 
-Inspect the gear, shaft, and the bushing for wear or damage.
+Осмотрите передачу, вал и втулку на предмет износа или повреждения.
 
-Lubricate the bushing with clean engine oil.
+Смазать втулку чистым моторным маслом.
 
-> [!note] Note · Примечание
-> A pipe plug **must** be removed to lubricate the bushing on some starter motors.
+> [!note] Примечание
+> Трубную пробку необходимо снять для смазки втулки на некоторых стартерных двигателях.
 
 ![[st800wa.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> Some engines do **not** use spacers.
+> [!note] Примечание
+> Некоторые двигатели не используют прокладки.
 
-Install any spacers or gaskets.
+Установите любые прокладки или прокладки.
 
-Install the starting motor and capscrews.
+Установите пусковой двигатель и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 279 n•m [206 ft-lb]
+> [!tip] Момент затяжки
+> 279 Н·м [206 фунт-фут]
 
 ![[st4bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Remove the starting motor capscrews, the starter, spacers, and gaskets.
+>
+> Discard the gaskets.
+>
+> **Note · Примечание**
+> Some engines do **not** use spacers and gaskets.
+>
+> ### Clean and Inspect for Reuse
+>
+> Powerpack
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> Clean the exterior of the starting motor with steam.
+>
+> Inspect the gear, shaft, and the bushing for wear or damage.
+>
+> Lubricate the bushing with clean engine oil.
+>
+> **Note · Примечание**
+> A pipe plug **must** be removed to lubricate the bushing on some starter motors.
+>
+> ### Install
+>
+> **Note · Примечание**
+> Some engines do **not** use spacers.
+>
+> Install any spacers or gaskets.
+>
+> Install the starting motor and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 279 n•m [206 ft-lb]

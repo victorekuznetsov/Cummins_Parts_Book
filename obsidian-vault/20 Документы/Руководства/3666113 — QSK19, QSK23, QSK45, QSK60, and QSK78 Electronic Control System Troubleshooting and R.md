@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-toc | Table of Contents |  |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-titlepage | Titlepage | 07-Jun-2005 |
-| tr-frwd | Foreword | 22-May-2006 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-toc.html) | Table of Contents |  |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-titlepage.html) | Titlepage | 07-Jun-2005 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/tr-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section TF - Troubleshooting Fault Codes
 
@@ -180,38 +180,38 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t016-tr | Communication Error - Electronic Service Tool or Control Device |  |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t016-tr.html) | Communication Error - Electronic Service Tool or Control Device |  |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t102-25-tr | Lubricating Oil Consumption From Oil Make-Up Tank Excessive | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t102-5-tr | Engine Lubricating Oil Consumption From Oil Make-Up Tank Inadequate | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t103-25-tr | Engine Lubricating Oil Level Above Specifications While Using Correct Amount of Make-Up Oil | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t103-5-tr | Lubricating Oil Level Below Specifications While Using Correct Amount of Make-Up Oil | 11-Dec-2003 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t116-tr | Smoke, Black - Excessive | 18-Jun-2009 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t102-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t102-25-tr.html) | Lubricating Oil Consumption From Oil Make-Up Tank Excessive | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t102-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t102-5-tr.html) | Engine Lubricating Oil Consumption From Oil Make-Up Tank Inadequate | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t103-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t103-25-tr.html) | Engine Lubricating Oil Level Above Specifications While Using Correct Amount of Make-Up Oil | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t103-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t103-5-tr.html) | Lubricating Oil Level Below Specifications While Using Correct Amount of Make-Up Oil | 11-Dec-2003 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t116-tr.html) | Smoke, Black - Excessive | 18-Jun-2009 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t033-tr | Engine Acceleration or Response Poor | 03-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t041-tr | Engine Decelerates Slowly | 03-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 03-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 03-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t057-tr | Engine Power Output Low | 03-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t062-tr | Engine Runs Rough or Misfires | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t064-tr | Engine Shuts Off Unexpectedly or Dies During Deceleration | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t066-tr | Engine Speed Surges at Low or High Idle | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t067-tr | Engine Speed Surges Under Load or in Operating Range | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t072-tr | Engine Starts But Will Not Keep Running | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t080-tr | Engine Will Not Reach Rated Speed (RPM) | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t081-tr | Engine Will Not Shut Off | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t087-tr | Fuel Consumption Excessive | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t118-tr | Smoke, White - Excessive | 09-Mar-2010 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t062-tr | Engine Runs Rough or Misfires | 30-Jul-2012 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t066-tr | Engine Speed Surges at Low or High Idle | 10-Apr-2014 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t033-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t033-tr.html) | Engine Acceleration or Response Poor | 03-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t041-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t041-tr.html) | Engine Decelerates Slowly | 03-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 03-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 03-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t057-tr.html) | Engine Power Output Low | 03-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t062-tr.html) | Engine Runs Rough or Misfires | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t064-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t064-tr.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t066-tr.html) | Engine Speed Surges at Low or High Idle | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t067-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t067-tr.html) | Engine Speed Surges Under Load or in Operating Range | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t072-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t072-tr.html) | Engine Starts But Will Not Keep Running | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t080-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t080-tr.html) | Engine Will Not Reach Rated Speed (RPM) | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t081-tr.html) | Engine Will Not Shut Off | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t087-tr.html) | Fuel Consumption Excessive | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t118-tr.html) | Smoke, White - Excessive | 09-Mar-2010 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t062-tr.html) | Engine Runs Rough or Misfires | 30-Jul-2012 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t066-tr.html) | Engine Speed Surges at Low or High Idle | 10-Apr-2014 |
 | [[19-t05-118 — FAULT CODE 118 - Fuel Pump Pressure Sensor Circuit\|19-t05-118]] | Fuel Pump Pressure Sensor Circuit | 19-Sep-2014 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t021-tr | Coolant Loss - Internal | 12-Jul-2022 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t025-tr | Coolant in the Lubricating Oil | 12-Jul-2022 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 29-Aug-2022 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t104-tr | Lubricating Oil Pressure High | 28-Sep-2022 |
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t105-tr | Lubricating Oil Pressure Low | 28-Sep-2022 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t021-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t021-tr.html) | Coolant Loss - Internal | 12-Jul-2022 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t025-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t025-tr.html) | Coolant in the Lubricating Oil | 12-Jul-2022 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 29-Aug-2022 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t104-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t104-tr.html) | Lubricating Oil Pressure High | 28-Sep-2022 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-t105-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-t105-tr.html) | Lubricating Oil Pressure Low | 28-Sep-2022 |
 
 ### Section i - Introduction
 
@@ -356,7 +356,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-backcover | Backcover | 21-Dec-2005 |
+| [[[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666113/3666113-backcover.html) | Backcover | 21-Dec-2005 |
 
 ### Section TT - Troubleshooting Symptoms (New Format)
 

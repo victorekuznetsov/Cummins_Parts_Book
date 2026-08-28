@@ -11,13 +11,15 @@ families:
   - "QSM11"
 manuals:
   - "4332828"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-t02-1130.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-t02-1130.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/300"
+  - "перевод/машинный"
 ---
 
 # Redundant Power Selector Malfunction No Voltage
@@ -30,66 +32,140 @@ tags:
 > **Даты:** изменён 2019-10-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-t02-1130.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-t02-1130.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- No voltage error message.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot signal from the speed pick-up is signal lost. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- Нет сообщения об ошибке напряжения.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-No voltage.
+Это дерево симптомов может быть использовано для устранения неполадок сигнала от скорости пикапа сигнала, потерянного. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-## Troubleshooting Summary
+### Практические замечания
 
-| STEPS | SPECIFICATIONS |  |
+Нет напряжения.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the customer interface box (C.I.B.) wiring. |  |
-|  | **STEP 1A.** Check the control panel display for faults. | Control panel indicates fault(s)? |
-| STEP 2. | Check redundant power selector wiring. |  |
-|  | **STEP 2A.** Check redundant power selector primary power input SUPPLY wire for voltage +18±0.2 VDC. | Less than +18±0.2 VDC? |
-|  | **STEP 2B.** Check redundant power selector secondary power input SUPPLY wire for voltage +18±0.2 VDC. | Less than +18±0.2 VDC? |
-| STEP 3. | Check redundant power selector voltage. |  |
-|  | **STEP 3A.** Check redundant power selector power output SUPPLY. | Output within ± 0.5 VDC? |
+| ШАГ 1. | Проверьте клиентский интерфейс (C.I.B.) проводов. |  |
+|  | **STEP 1A.** Проверьте дисплеи панели управления на наличие неисправностей. | Панель управления указывает на неисправность (неисправности)? |
+| ШАГ 2. | Проверьте избыточную проводку силового селектора. |  |
+|  | **ШАГ 2А.** Проверить избыточный селектор питания первичного входа питания Провода SUPPLY на напряжение +18±0,2 ВДК. | Меньше +18±0,2 VDC? |
+|  | **STEP 2B.** Проверить избыточный селектор мощности вторичного входа мощности Провода SUPPLY на напряжение +18±0,2 ВДК. | Меньше +18±0,2 VDC? |
+| ШАГ 3. | Проверьте избыточное напряжение селектора мощности. |  |
+|  | **ШАГ 3А.** Проверить избыточный выход мощности селектора питания ПОДДЕРЖАНИЕ. | Выход в пределах ± 0,5 VDC? |
 
-### STEP 1. Check the customer interface box (C.I.B.) wiring.
+### ШАГ 1. Проверьте клиентский интерфейс (C.I.B.) проводов.
 
-#### STEP 1A. Check the control panel display for faults.
+#### ШАГ 1A. Проверьте дисплей панели управления на наличие неисправностей.
 
-| **Conditions:** Locate the control panel display. |  |  |
+| **Условия: **Найдите дисплей панели управления. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the control panel display for faults. | Control panel indicates fault(s)? **YESRepair:** Troubleshoot the appropriate fault code. Reference the Marine Auxiliary QSB7-DM CM850 Fault Code Troubleshooting Manual, Bulletin 4325972, Section TF, or the ISM and QSM 11 Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Section TF, X15 CM2350 X125M Fault Code Troubleshooting Manual, Bulletin 5504346. | Go to appropriate fault code troubleshooting tree. |
-| Control panel indicates fault(s)? **NO** | 2A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте дисплей панели управления на наличие неисправностей. | Панель управления указывает на неисправность (неисправности)? **Ремонт: **Устранение неисправностей с помощью соответствующего кода ошибки. См. Руководство по устранению неполадок в коде QSB7-DM CM850, Бюллетень 4325972, Раздел TF, или Руководство по устранению и ремонту неполадок в электронной системе управления ISM и QSM 11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Раздел TF, Руководство по устранению неполадок в коде X15 CM2350 X125M, Бюллетень 5504346. | Перейдите к соответствующему дереву устранения неисправностей кода ошибки. |
+| Панель управления указывает на неисправность (неисправности)? **НЕТ** | 2А |  |
 
-### STEP 2. Check redundant power selector wiring.
+### ШАГ 2. Проверьте избыточную проводку силового селектора.
 
-#### STEP 2A. Check redundant power selector primary power input SUPPLY wire for voltage +18±0.2 VDC.
+#### ШАГ 2A. Проверьте избыточный селектор питания первичного ввода мощности Провода SUPPLY на напряжение +18±0,2 VDC.
 
-| **Conditions:** Open the C.I.B. Test the redundant power selector primary power input SUPPLY wire pin 1. |  |  |
+| **Условия: **Открыть ЦБ. Испытать избыточный селектор питания первичного входа питания SUPPLY провода контакта 1. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the voltage at pin 1 of the redundant power selector. Place one test lead at the primary power SUPPLY wire at pin 1 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +18±0.2 VDC? **YESRepair:** Check the batteries. See equipment manufacturer service information. | 2B |
-| Less than +18±0.2 VDC? **NO** | 2B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте напряжение при контакте 1 избыточного селектора питания. Поместите один испытательный щуп на первичный провод питания SUPPLY при контакте 1 избыточного селектора питания. Поместите другой испытательный щуп на землю панели. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Меньше +18±0,2 VDC? **Ремонт:** Проверить аккумуляторы. См. сервисную документацию изготовителя оборудования. | 2В |
+| Меньше +18±0,2 VDC? **НЕТ** | 2В |  |
 
-#### STEP 2B. Check redundant power selector secondary power input SUPPLY wire for voltage +18±0.2 VDC.
+#### ШАГ 2B. Проверьте избыточный селектор мощности вторичного входа мощности Провода SUPPLY на напряжение +18±0,2 VDC.
 
-| **Conditions:** Open the C.I.B. Test the redundant power selector secondary power input SUPPLY wire. |  |  |
+| **Условия: **Открыть ЦБ. Испытать избыточный селектор питания вторичного входа мощности SUPPLY провода. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the voltage at pin 6 of the redundant power selector. Place one test lead at the secondary power SUPPLY wire at pin 6 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +18±0.2 VDC? **YES** | 3A |
-| Less than +18±0.2 VDC? **NORepair:** Check battery voltage. Replace if necessary. Retest secondary supply voltage. | 3A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте напряжение при контакте 6 избыточного селектора питания. Поместите один испытательный щуп на провод вторичной мощности SUPPLY при контакте 6 с избыточным селектором мощности. Поместите другой испытательный щуп на землю панели. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Меньше +18±0,2 VDC? *Да | 3А |
+| Меньше +18±0,2 VDC? **NORepair:** Проверить напряжение батареи. Заменить, если это необходимо. Повторно проверить напряжение вторичного питания. | 3А |  |
 
-### STEP 3. Check redundant power selector power voltage.
+### ШАГ 3. Проверьте избыточное напряжение силового селектора.
 
-#### STEP 3A. Check redundant power selector power output.
+#### ШАГ 3A. Проверьте избыточную мощность селектора мощности.
 
-| **Conditions:** Open the C.I.B. Test the redundant power selector power output wir pin 17. |  |  |
+| **Условия: **Открыть ЦБ. Испытать избыточный селектор мощности выходной мощности в контакте 17. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the output voltage at pin 17 of the redundant power selector. Place one test lead at the power output wire at pin 17 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Output voltage ±0.5 VDC of the primary and secondary input voltages? **YES** | Repair complete. |
-| Output voltage ±0.5 VDC of the primary and secondary input voltages? **NORepair:** Replace redundant power selector. | 1A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте выходное напряжение при контакте 17 избыточного селектора питания. Поместите один испытательный щуп на выходной провод при контакте 17 избыточного селектора питания. Поместите другой испытательный щуп на землю панели. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Выходное напряжение ±0,5 ВДК первичного и вторичного входных напряжений? *Да | Ремонт завершён. |
+| Выходное напряжение ±0,5 ВДК первичного и вторичного входных напряжений? **NORepair:** Заменить избыточный селектор питания. | 1А |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - No voltage error message.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot signal from the speed pick-up is signal lost. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> No voltage.
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the customer interface box (C.I.B.) wiring. |  |
+> |  | **STEP 1A.** Check the control panel display for faults. | Control panel indicates fault(s)? |
+> | STEP 2. | Check redundant power selector wiring. |  |
+> |  | **STEP 2A.** Check redundant power selector primary power input SUPPLY wire for voltage +18±0.2 VDC. | Less than +18±0.2 VDC? |
+> |  | **STEP 2B.** Check redundant power selector secondary power input SUPPLY wire for voltage +18±0.2 VDC. | Less than +18±0.2 VDC? |
+> | STEP 3. | Check redundant power selector voltage. |  |
+> |  | **STEP 3A.** Check redundant power selector power output SUPPLY. | Output within ± 0.5 VDC? |
+>
+> ### STEP 1. Check the customer interface box (C.I.B.) wiring.
+>
+> #### STEP 1A. Check the control panel display for faults.
+>
+> | **Conditions:** Locate the control panel display. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the control panel display for faults. | Control panel indicates fault(s)? **YESRepair:** Troubleshoot the appropriate fault code. Reference the Marine Auxiliary QSB7-DM CM850 Fault Code Troubleshooting Manual, Bulletin 4325972, Section TF, or the ISM and QSM 11 Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Section TF, X15 CM2350 X125M Fault Code Troubleshooting Manual, Bulletin 5504346. | Go to appropriate fault code troubleshooting tree. |
+> | Control panel indicates fault(s)? **NO** | 2A |  |
+>
+> ### STEP 2. Check redundant power selector wiring.
+>
+> #### STEP 2A. Check redundant power selector primary power input SUPPLY wire for voltage +18±0.2 VDC.
+>
+> | **Conditions:** Open the C.I.B. Test the redundant power selector primary power input SUPPLY wire pin 1. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the voltage at pin 1 of the redundant power selector. Place one test lead at the primary power SUPPLY wire at pin 1 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +18±0.2 VDC? **YESRepair:** Check the batteries. See equipment manufacturer service information. | 2B |
+> | Less than +18±0.2 VDC? **NO** | 2B |  |
+>
+> #### STEP 2B. Check redundant power selector secondary power input SUPPLY wire for voltage +18±0.2 VDC.
+>
+> | **Conditions:** Open the C.I.B. Test the redundant power selector secondary power input SUPPLY wire. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the voltage at pin 6 of the redundant power selector. Place one test lead at the secondary power SUPPLY wire at pin 6 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +18±0.2 VDC? **YES** | 3A |
+> | Less than +18±0.2 VDC? **NORepair:** Check battery voltage. Replace if necessary. Retest secondary supply voltage. | 3A |  |
+>
+> ### STEP 3. Check redundant power selector power voltage.
+>
+> #### STEP 3A. Check redundant power selector power output.
+>
+> | **Conditions:** Open the C.I.B. Test the redundant power selector power output wir pin 17. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the output voltage at pin 17 of the redundant power selector. Place one test lead at the power output wire at pin 17 of the redundant power selector. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Output voltage ±0.5 VDC of the primary and secondary input voltages? **YES** | Repair complete. |
+> | Output voltage ±0.5 VDC of the primary and secondary input voltages? **NORepair:** Replace redundant power selector. | 1A |  |

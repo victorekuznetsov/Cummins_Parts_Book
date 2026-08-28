@@ -267,7 +267,7 @@ tags:
 | QSB5.9 CM2880 B115 | 4332708 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | QSB5.9 CM2880 B139 | 4388870 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | QSB6.7 CM2350 B105 | 4332778 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
-| QSB6.7 CM2150 B109 | [[4326168 — QSB6.7 CM2150 B109 Service Manual\|4326168]] | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
+| QSB6.7 CM2150 B109 | [[4326168 — QSB6.7 CM2150 B109 Service Manual\|4326168]] | [[216-100-006 — Cummins® Product Technology\|См. процедуру 100-006 в разделе E.]] | Cummins® Product Technology |
 | QSB6.7 CM2350 B112 | 4358498 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | QSB6.7 CM2880 B116 | 4363713 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | QSB6.7 CM2250 B128 | 4388601 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
@@ -480,7 +480,7 @@ tags:
 |---|---|---|---|
 | Модельный сервис | Номер бюллетеня | Процедурный номер | Процедура |
 | 6.7N CM2380 D109B | 5676939 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
-| 15N MM2380 M104B | [[5659763 — 15N CM2380 M104B Service Manual\|5659763]] | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
+| 15N MM2380 M104B | [[5659763 — 15N CM2380 M104B Service Manual\|5659763]] | [[1016-100-006 — Cummins® Product Technology\|См. процедуру 100-006 в разделе E.]] | Cummins® Product Technology |
 | 15N MM2380 M105B | 5659768 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | N14 M876 N108B | 5579823 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | QSN14 CM876 N103 | 4358358 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |

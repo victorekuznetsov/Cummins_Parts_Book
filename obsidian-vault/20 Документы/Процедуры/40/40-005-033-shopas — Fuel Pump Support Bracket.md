@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-033-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-033-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Support Bracket
@@ -29,79 +31,152 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-033-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-033-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
 
-Bosch®; and Stanadyne Rotary Pumps
+### Установка
 
-Install the tail support bracket finger-tight before final tightening.
+Поезд Front Gear
 
-> [!note] Note · Примечание
-> Tighten bracket to block before tightening the bracket to the pump.
+Bosch® и станадиновый ротационный насос
+
+Установите хвостовую опору скобки герметичной перед окончательным затягиванием.
+
+> [!note] Примечание
+> Затянуть кронштейн, чтобы заблокировать, прежде чем затянуть кронштейн к насосу.
 
 ![[fs9suhb.png]]
 
-10 mm
+10 мм
 
-Tighten capscrew and bracket to the injection pump (2) first; then the capscrews to the bracket and block (1).
+Затягивайте болты и кронштейны к насосу (2) для впрыска сначала; затем болты к кронштейну и блоку (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[fs9suna.png]]
 
-In-line Fuel Injection Pumps
+Впрыскивание топлива в ряд
 
-Install the tail support bracket finger-tight before final tightening.
+Установите хвостовую опору скобки герметичной перед окончательным затягиванием.
 
-> [!note] Note · Примечание
-> Tighten bracket to block before tightening the bracket to the pump.
+> [!note] Примечание
+> Затянуть кронштейн, чтобы заблокировать, прежде чем затянуть кронштейн к насосу.
 
 ![[05900521.png]]
 
-10 mm
+10 мм
 
-Tighten bracket to the block (1) first; then to the injection pump (2).
+Сначала затянуть кронштейн к блоку (1), затем к насосу для впрыска (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[05900522.png]]
 
-Four-Cylinder
+Четырехцилиндровый
 
-Install the tail support bracket finger-tight before final tightening.
+Установите хвостовую опору скобки герметичной перед окончательным затягиванием.
 
-> [!note] Note · Примечание
-> Tighten bracket to block before tightening the bracket to the pump.
+> [!note] Примечание
+> Затянуть кронштейн, чтобы заблокировать, прежде чем затянуть кронштейн к насосу.
 
-Tighten the capscrews (2) which mount the support bracket assembly to the engine block.
+Затягивайте болты (2), которые крепят опорный скобчатый блок к блоку двигателя.
 
-Tighten the capscrews (1) which mount support bracket assembly to fuel pump.
+Затягивайте болты (1), которые устанавливают опорный кронштейн для топливного насоса.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
-> [!note] Note · Примечание
-> Not all four cylinder engines are equipped with this style bracket. If the engine is equipped with a two piece bracket, install the bolts as depicted.
+> [!note] Примечание
+> Не все четырехцилиндровые двигатели оснащены этим стилем кронштейна. Если двигатель оснащен двухсекционным кронштейном, установите болты, как изображено.
 
 ![[05900799.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Install the tail support bracket finger-tight before final tightening.
+Установите хвостовую опору скобки герметичной перед окончательным затягиванием.
 
-> [!note] Note · Примечание
-> Tighten bracket to block before tightening the bracket to the pump.
+> [!note] Примечание
+> Затянуть кронштейн, чтобы заблокировать, прежде чем затянуть кронштейн к насосу.
 
 ![[fs9suhb.png]]
 
-10 mm
+10 мм
 
-Tighten capscrew and bracket to the injection pump (2) first; then the capscrews to the bracket and block (1).
+Затягивайте болты и кронштейны к насосу (2) для впрыска сначала; затем болты к кронштейну и блоку (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[fs9suna.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Front Gear Train
+>
+> Bosch®; and Stanadyne Rotary Pumps
+>
+> Install the tail support bracket finger-tight before final tightening.
+>
+> **Note · Примечание**
+> Tighten bracket to block before tightening the bracket to the pump.
+>
+> 10 mm
+>
+> Tighten capscrew and bracket to the injection pump (2) first; then the capscrews to the bracket and block (1).
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> In-line Fuel Injection Pumps
+>
+> Install the tail support bracket finger-tight before final tightening.
+>
+> **Note · Примечание**
+> Tighten bracket to block before tightening the bracket to the pump.
+>
+> 10 mm
+>
+> Tighten bracket to the block (1) first; then to the injection pump (2).
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Four-Cylinder
+>
+> Install the tail support bracket finger-tight before final tightening.
+>
+> **Note · Примечание**
+> Tighten bracket to block before tightening the bracket to the pump.
+>
+> Tighten the capscrews (2) which mount the support bracket assembly to the engine block.
+>
+> Tighten the capscrews (1) which mount support bracket assembly to fuel pump.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> **Note · Примечание**
+> Not all four cylinder engines are equipped with this style bracket. If the engine is equipped with a two piece bracket, install the bolts as depicted.
+>
+> Rear Gear Train
+>
+> Install the tail support bracket finger-tight before final tightening.
+>
+> **Note · Примечание**
+> Tighten bracket to block before tightening the bracket to the pump.
+>
+> 10 mm
+>
+> Tighten capscrew and bracket to the injection pump (2) first; then the capscrews to the bracket and block (1).
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]

@@ -12,12 +12,14 @@ families:
 parts:
   - "4066750"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100158.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100158.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Alternator Belt Tensioner And New Belt Material
@@ -28,40 +30,77 @@ tags:
 > **Даты:** изменён 2002-04-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100158.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100158.pdf)
 
-## New Alternator Belt Tensioner And New Belt Material
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый натяжитель пояса и новый материал пояса
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin introduces a new design alternator belt tensioner, and a new alternator belt material for the QSK45 and QSK60 series engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The old alternator belt, Part Number 3171732, is made of reinforced neoprene and is susceptible to cracking on construction applications. The new belt is constructed from a hybrid 'Orion QT' neoprene, alkylated chlorosulphonated polyethylene material. The new belt Part Number is [[4066750]].
+### Содержание
 
-This change went into production at the Daventry Engine Plant on October 1, 2001. Engine serial number first is 33150722.
+В этом бюллетене технического обслуживания представлен новый проектный натяжитель ремня генератора и новый материал ремня генератора для двигателей серии QSK45 и QSK60.
 
-The old design alternator belt tensioner is Part Number 4000980. This design was experiencing bearing and bushing wear, due in part to ingress of dirt. The new belt tensioner, Part Number 4086084, provides three times improvement in life expectancy. The new design has two main new features:
+Старый ремень генератора, номер детали 3171732, изготовлен из усиленного неопрена и подвержен трещинам в строительных приложениях. Новый пояс построен из гибридного неопренового алкилированного хлорсульфонированного полиэтиленового материала «Orion QT». Новый номер детали ремня[[4066750]].
 
-1. A cast shield to protect the bearing from dirt ingress.
-2. A T-profile spring bushing and labyrinth damper seal to prevent dirt ingress to bushing wear areas.
+Это изменение было введено в производство на заводе Daventry 1 октября 2001 года. Серийный номер двигателя - 33150722.
 
-This change went into production at the Daventry Engine Plant on February 25, 2002. Engine serial number first is 33151516.
+Старый натяжитель ремня генератора переменного тока — часть 4000980. Этот дизайн испытывал износ подшипников и втулок, отчасти из-за попадания грязи. Новый натяжитель ремня, номер 4086084, обеспечивает в три раза большую продолжительность жизни. Новый дизайн имеет две основные новые функции:
+
+1. Щит для защиты подшипника от попадания грязи.
+2. Т-профильный пружинный втулки и лабиринтный демпферный уплотнитель для предотвращения попадания грязи в зоны износа втулки.
+
+Это изменение было введено в производство на заводе Давентри 25 февраля 2002 года. Серийный номер двигателя - 33151516.
 
 ![[13600027.png]]
 
-Old Belt Tensioner (4000980)
+Старый натяжитель пояса (4000980)
 
 ![[13600028.png]]
 
-New Belt Tensioner (4086084)
+Новый натяжитель пояса (4086084)
 
-> [!note] Note · Примечание
-> This is a product improvement and is **not** subject to campaign.
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4066750]] | V RIBBED BELT | Поликлиновой ремень |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Alternator Belt Tensioner And New Belt Material
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin introduces a new design alternator belt tensioner, and a new alternator belt material for the QSK45 and QSK60 series engines.
+>
+> The old alternator belt, Part Number 3171732, is made of reinforced neoprene and is susceptible to cracking on construction applications. The new belt is constructed from a hybrid 'Orion QT' neoprene, alkylated chlorosulphonated polyethylene material. The new belt Part Number is [[4066750]].
+>
+> This change went into production at the Daventry Engine Plant on October 1, 2001. Engine serial number first is 33150722.
+>
+> The old design alternator belt tensioner is Part Number 4000980. This design was experiencing bearing and bushing wear, due in part to ingress of dirt. The new belt tensioner, Part Number 4086084, provides three times improvement in life expectancy. The new design has two main new features:
+>
+> 1. A cast shield to protect the bearing from dirt ingress.
+> 2. A T-profile spring bushing and labyrinth damper seal to prevent dirt ingress to bushing wear areas.
+>
+> This change went into production at the Daventry Engine Plant on February 25, 2002. Engine serial number first is 33151516.
+>
+> Old Belt Tensioner (4000980)
+>
+> New Belt Tensioner (4086084)
+>
+> **Note · Примечание**
+> This is a product improvement and is **not** subject to campaign.

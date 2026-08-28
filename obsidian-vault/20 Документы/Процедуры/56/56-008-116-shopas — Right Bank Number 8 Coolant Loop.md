@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-116-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-116-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Right Bank Number 8 Coolant Loop
@@ -31,38 +33,76 @@ tags:
 > **Даты:** изменён 2003-12-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-116-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-116-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use vegetable oil to lubricate the o-ring (4). Do **not** use petroleum-based oil as this will cause swelling of the o-rings.
 
-Install the water tube (3) into the water manifold.
+### Установка
 
-Install the retaining clamp (2) and capscrew (1).
+Используйте растительное масло для смазки кольца (4). Не используйте масло на основе масла, так как это вызовет отек колец.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+Установите водяную трубку (3) в водяной коллектор.
+
+Установите удерживающий зажим (2) и болты (1).
+
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600391.png]]
 
-Install the water transfer tubes assembly (2) into the 4-way water manifold (3) behind the thermostat housing near the number 1 cylinder.
+Установите сборку водопроводных труб (2) в 4-ходовой водяной коллектор (3) позади корпуса термостата рядом с цилиндром № 1.
 
-Tighten the hose clamps (1).
+Зажимы для шлангов (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[08600390.png]]
 
-Install the p-clip (1), capscrew (2), and spacer (3) that mount the water transfer tubes assembly to the 2-stage frame.
+Установите p-клип (1), болты (2) и прокладку (3), которые устанавливают сборку водопроводных труб на 2-ступенчатую раму.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600389.png]]
 
-Install the p-clips (1), capscrews (2), and nuts (3) that mount the water transfer tubes assembly to the 2-stage frame.
+Установите p-затворы (1), болты (2) и гайки (3), которые устанавливают сборку водопроводных труб на 2-ступенчатую раму.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600388.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Use vegetable oil to lubricate the o-ring (4). Do **not** use petroleum-based oil as this will cause swelling of the o-rings.
+>
+> Install the water tube (3) into the water manifold.
+>
+> Install the retaining clamp (2) and capscrew (1).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the water transfer tubes assembly (2) into the 4-way water manifold (3) behind the thermostat housing near the number 1 cylinder.
+>
+> Tighten the hose clamps (1).
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> Install the p-clip (1), capscrew (2), and spacer (3) that mount the water transfer tubes assembly to the 2-stage frame.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the p-clips (1), capscrews (2), and nuts (3) that mount the water transfer tubes assembly to the 2-stage frame.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]

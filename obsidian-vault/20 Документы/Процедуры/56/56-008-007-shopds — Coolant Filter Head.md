@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-007-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-007-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter Head
@@ -35,48 +37,94 @@ tags:
 > **Даты:** изменён 2011-07-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-007-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-007-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the two coolant filter head mounting capscrews, and the coolant filter head (4).
+
+### Снятие
+
+Удалите два крепежных болта для фильтра охлаждающей жидкости и головку фильтра охлаждающей жидкости (4).
 
 ![[08600177.png]]
 
-### Disassemble
+### Разборка
 
-Remove and discard the coolant shutoff valve roll pin (1).
+Удалить и отбросить затвор затвора охлаждающей жидкости (Roll Pin (1)).
 
 ![[wf6hdfa.png]]
 
-Remove the coolant shutoff valve shaft (2) from the housing.
+Удалите выключающую клапанную шахту охлаждающей жидкости (2) из корпуса.
 
-Remove and discard the coolant shutoff valve shaft o-ring (3) from the coolant shutoff valve.
+Удалить и отбросить запорный клапан охлаждающей жидкости (o-ring) (3) из запорного клапана охлаждающей жидкости.
 
-Remove the pipe plug (4) from the housing.
+Удалите трубную пробку (4) из корпуса.
 
 ![[wf6hdfb.png]]
 
-Inspect the inserts for damage. Make sure the inserts are tight.
+Проверьте вставки на предмет повреждения. Убедитесь, что вставки плотные.
 
-If the inserts are damaged or loose, remove the inserts.
+Если вставки повреждены или рыхлые, удалите вставки.
 
 ![[wf6isna.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the coolant filter head and components with solvent and dry with compressed air.
+Очистить головку фильтра охлаждающей жидкости и компоненты растворителем и высушить сжатым воздухом.
 
-Inspect the coolant filter head for cracks and other damages.
+Проверьте головку фильтра охлаждающей жидкости на наличие трещин и других повреждений.
 
-Replace the coolant filter head if cracked or damaged.
+Замените головку фильтра охлаждающей жидкости, если она повреждена или повреждена.
 
-Inspect the coolant shutoff valve shaft for pitting or corrosion.
+Осмотрите вал клапана отключения охлаждающей жидкости на предмет наличия точечной или коррозионной стойки.
 
-Replace the coolant shutoff valve if pitted or corroded.
+Заменить запорный клапан охлаждающей жидкости, если он пробит или разъеден.
 
 ![[08a00067.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the two coolant filter head mounting capscrews, and the coolant filter head (4).
+>
+> ### Disassemble
+>
+> Remove and discard the coolant shutoff valve roll pin (1).
+>
+> Remove the coolant shutoff valve shaft (2) from the housing.
+>
+> Remove and discard the coolant shutoff valve shaft o-ring (3) from the coolant shutoff valve.
+>
+> Remove the pipe plug (4) from the housing.
+>
+> Inspect the inserts for damage. Make sure the inserts are tight.
+>
+> If the inserts are damaged or loose, remove the inserts.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the coolant filter head and components with solvent and dry with compressed air.
+>
+> Inspect the coolant filter head for cracks and other damages.
+>
+> Replace the coolant filter head if cracked or damaged.
+>
+> Inspect the coolant shutoff valve shaft for pitting or corrosion.
+>
+> Replace the coolant shutoff valve if pitted or corroded.

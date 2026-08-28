@@ -29,10 +29,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4960314 — ISX Owners Manual\|4960314]]-toc | Table of Contents |  |
+| [[[4960314 — ISX Owners Manual\|4960314]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/4960314-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| [[4960314 — ISX Owners Manual\|4960314]]-titlepage | Titlepage | 12-Jul-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [[[4960314 — ISX Owners Manual\|4960314]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/4960314-titlepage.html) | Titlepage | 12-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -66,18 +66,18 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| auto-signature600-isx-wrty | Coverage | 14-Mar-2002 |
-| 3381334 | L10/M11/N14/ISM/ISX/Sig Engines, Latin America, Automotive | 09-Dec-2003 |
-| 3605761 | L10/M11/ISM/N14/ISX/SIG Engines, South Africa, Automotive | 15-Oct-2004 |
-| auto-frt | California Emission Control, System Warranty, On-Highway | 14-Dec-2004 |
-| auto-bck | California Emission Control, System Warranty, On-Highway | 22-Dec-2004 |
-| isx-w_egr | California Emission Control System Warranty | 26-Jan-2006 |
-| 3381258 | All Engines, Europe, Automotive | 20-Oct-2006 |
-| 3381080 | L10/ M11/ISM/N14/ISX/SIG, Engines, International, Automotive | 21-Jan-2009 |
-| 3381396 | California Emission, Control System Warranty, Automotive | 01-May-2009 |
-| 3381161 | United States and Canada, Fire Apparatus/Crash Trucks | 25-Aug-2009 |
-| 3381340 | All Electronic Diesel Engines, United States and Canada, Recreational Vehicle | 27-Aug-2009 |
-| 3381139 | L10/ M11/ISM/N14/ISX/Sig, Engines, United States and Canada, Automotive | 11-Nov-2009 |
+| [auto-signature600-isx-wrty](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/auto-signature600-isx-wrty.html) | Coverage | 14-Mar-2002 |
+| [3381334](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381334/3381334-history.html) | L10/M11/N14/ISM/ISX/Sig Engines, Latin America, Automotive | 09-Dec-2003 |
+| [3605761](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3605761/3605761-history.html) | L10/M11/ISM/N14/ISX/SIG Engines, South Africa, Automotive | 15-Oct-2004 |
+| [auto-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/auto-frt.html) | California Emission Control, System Warranty, On-Highway | 14-Dec-2004 |
+| [auto-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/auto-bck.html) | California Emission Control, System Warranty, On-Highway | 22-Dec-2004 |
+| [isx-w_egr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/isx-w_egr.html) | California Emission Control System Warranty | 26-Jan-2006 |
+| [3381258](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381258/3381258-history.html) | All Engines, Europe, Automotive | 20-Oct-2006 |
+| [3381080](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381080/3381080-history.html) | L10/ M11/ISM/N14/ISX/SIG, Engines, International, Automotive | 21-Jan-2009 |
+| [3381396](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381396/3381396-history.html) | California Emission, Control System Warranty, Automotive | 01-May-2009 |
+| [3381161](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381161/3381161-history.html) | United States and Canada, Fire Apparatus/Crash Trucks | 25-Aug-2009 |
+| [3381340](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381340/3381340-history.html) | All Electronic Diesel Engines, United States and Canada, Recreational Vehicle | 27-Aug-2009 |
+| [3381139](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381139/3381139-history.html) | L10/ M11/ISM/N14/ISX/Sig, Engines, United States and Canada, Automotive | 11-Nov-2009 |
 
 ### Section V - Maintenance Specifications
 
@@ -109,7 +109,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4960314 — ISX Owners Manual\|4960314]]-backcover | Backcover | 12-Jul-2006 |
+| [[[4960314 — ISX Owners Manual\|4960314]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960314/4960314-backcover.html) | Backcover | 12-Jul-2006 |
 
 ### Section E - Engine Identification
 

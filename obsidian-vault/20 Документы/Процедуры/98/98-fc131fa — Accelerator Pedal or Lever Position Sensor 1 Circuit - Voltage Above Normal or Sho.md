@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc131fa.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc131fa.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Accelerator Pedal or Lever Position Sensor 1 Circuit - Voltage Above Normal or Shorted to High Source
@@ -30,68 +32,142 @@ tags:
 > **Даты:** изменён 2021-09-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc131fa.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc131fa.pdf)
 
-### Fault Code: 131-fa
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Accelerator Pedal or Lever Position Sensor 1 Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 131-фа
 
-### Overview
+### Педаль ускорителя или датчик положения рычага 1 - напряжение выше нормального или короткое до высокого источника
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 131-fa PID(P): P91 SPN: FMI: 3 Lamp: Flashing SRT: 00-622 | High frequency detected at frequency throttle signal circuit. | Possible reduced engine performance. |
+| Код неисправности: 131-фа PID (P): P91 SPN: ФМИ: 3 лампы: Флешинг SRT: 00-622 | Высокая частота, обнаруженная в цепи частотного сигнала дроссельной заслонки. | Возможно снижение производительности двигателя. |
 
 ![[19802317.png]]
 
-Frequency Throttle Signal Circuit
+Частотная дроссельная сигнальная схема
 
-### Circuit Description
+### Описание цепи
 
-The throttle position sensor is a variable frequency sensor used by the ECM to monitor the throttle command. This sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the position of the throttle position sensor.
+Датчик положения дроссельной заслонки представляет собой датчик переменной частоты, используемый ECM для мониторинга команды дроссельной заслонки. Этот датчик имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает положение датчика положения дроссельной заслонки.
 
-### Component Location
+### Расположение компонента
 
-The variable frequency throttle assembly generator location may vary and is OEM dependent.
+Расположение генератора дроссельной заслонки переменной частоты может варьироваться и зависит от OEM.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the frequency throttle signal was out of range high.
+Модуль управления двигателем (ECM) обнаружил, что сигнал частотного дроссельного заслонка был вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу же после запуска и отказа диагностического устройства.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+- Выключите замок зажигания. Позвольте ECM полностью выключить питание и включить переключатель зажигания.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged variable frequency throttle assembly.
+- Неисправность или повреждение дроссельной заслонки переменной частоты.
 
-Refer to Troubleshooting Fault Code t05-131
+См. Код устранения неполадок t05-131
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 131-fa
+>
+> ### Accelerator Pedal or Lever Position Sensor 1 Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 131-fa PID(P): P91 SPN: FMI: 3 Lamp: Flashing SRT: 00-622 | High frequency detected at frequency throttle signal circuit. | Possible reduced engine performance. |
+>
+> Frequency Throttle Signal Circuit
+>
+> ### Circuit Description
+>
+> The throttle position sensor is a variable frequency sensor used by the ECM to monitor the throttle command. This sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the position of the throttle position sensor.
+>
+> ### Component Location
+>
+> The variable frequency throttle assembly generator location may vary and is OEM dependent.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the frequency throttle signal was out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged variable frequency throttle assembly.
+>
+> Refer to Troubleshooting Fault Code t05-131

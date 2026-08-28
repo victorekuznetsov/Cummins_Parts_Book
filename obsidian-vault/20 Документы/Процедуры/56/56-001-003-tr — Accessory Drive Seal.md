@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Seal
@@ -35,64 +37,126 @@ tags:
 > **Даты:** изменён 2021-04-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-tr.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Seal installation tool, Part Number 5573257
-- Seal installation tool, Part Number 5573258
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Установочный инструмент для уплотнения, номер детали 5573257
+- Установочный инструмент для уплотнения, номер детали 5573258
 
-### General Information
+#### Дополнительные сервисные позиции
 
-This procedure is to remove and install the press fit style accessory drive seal. There is an older seal which uses three capscrews for installation which is **not** discussed in this procedure.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-### Preparatory Steps
+### Общие сведения
 
-- Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+Эта процедура заключается в удалении и установке уплотнения в стиле пресса. Существует старая уплотнение, которое использует три болта для установки, которая не обсуждается в этой процедуре.
 
-### Remove
+### Подготовительные операции
 
-The rotational part of the seal is removed from the shaft and gear housing when removing the pulley. This **must** be removed from the pulley and discarded.
+- Удалите дополнительный приводной шкив.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+
+### Снятие
+
+Вращательная часть уплотнения снимается с вала и зубчатого кожуха при снятии шкива. Это должно быть удалено с шкива и выброшено.
 
 ![[00r01579.png]]
 
-Remove and discard the stationary part of the seal assembly from the gear cover and shaft.
+Удалить и выбросить стационарную часть уплотнительной сборки из шестерни и вала.
 
-Remove the spacer from the end of the shaft.
+Удалите прокладку с конца вала.
 
 ![[00r01580.png]]
 
-### Install
+### Установка
 
-Separate the rotational and stationary part of the seal.
+Отделить вращательную и стационарную часть уплотнения.
 
-Locate the stationary part of the seal on the end of the seal installation tool, Part Number 5573257.
+Расположение стационарной части уплотнения на конце инструмента установки уплотнения, Номер детали 5573257.
 
 ![[00r01581.png]]
 
-Put the spacer on the shaft.
+Положите спейсер на вал.
 
-Slide the tool on to the end of the shaft.
+Наклоните инструмент к концу вала.
 
-Tap the end of the installation tool with a mallet to push the stationary part of the seal into the gear housing.
+Нажмите на конец установочного инструмента с помощью молотка, чтобы протолкнуть стационарную часть уплотнения в корпус зубчатой передачи.
 
-The spacer **must** be installed, or the seal will **not** locate correctly.
+Пространство **должно быть установлено, или уплотнение **не будет правильно расположена.
 
 ![[00r01582.png]]
 
-Place the rotational part of the seal on top of the pulley shaft.
+Поместите вращательную часть уплотнения на вершину шкивного вала.
 
-Use seal installation tool, Part Number 5573258 to install the seal on to the pulley with the aid of a mallet.
+Используйте инструмент установки уплотнения, номер детали 5573258, чтобы установить уплотнение на шкив с помощью молотка.
 
-> [!note] Note · Примечание
-> If you are moving from an older style seal that utilizes three bolts for installation to the new seal a new design pulley **must** also be purchased.
+> [!note] Примечание
+> Если вы переходите от старого уплотнения, которое использует три болта для установки, к новому уплотнению, также должен быть приобретен новый дизайн шкива.
 
 ![[00r01583.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+- Установите дополнительный приводной шкив.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Seal installation tool, Part Number 5573257
+> - Seal installation tool, Part Number 5573258
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> This procedure is to remove and install the press fit style accessory drive seal. There is an older seal which uses three capscrews for installation which is **not** discussed in this procedure.
+>
+> ### Preparatory Steps
+>
+> - Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+>
+> ### Remove
+>
+> The rotational part of the seal is removed from the shaft and gear housing when removing the pulley. This **must** be removed from the pulley and discarded.
+>
+> Remove and discard the stationary part of the seal assembly from the gear cover and shaft.
+>
+> Remove the spacer from the end of the shaft.
+>
+> ### Install
+>
+> Separate the rotational and stationary part of the seal.
+>
+> Locate the stationary part of the seal on the end of the seal installation tool, Part Number 5573257.
+>
+> Put the spacer on the shaft.
+>
+> Slide the tool on to the end of the shaft.
+>
+> Tap the end of the installation tool with a mallet to push the stationary part of the seal into the gear housing.
+>
+> The spacer **must** be installed, or the seal will **not** locate correctly.
+>
+> Place the rotational part of the seal on top of the pulley shaft.
+>
+> Use seal installation tool, Part Number 5573258 to install the seal on to the pulley with the aid of a mallet.
+>
+> **Note · Примечание**
+> If you are moving from an older style seal that utilizes three bolts for installation to the new seal a new design pulley **must** also be purchased.
+>
+> ### Finishing Steps
+>
+> - Install the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]

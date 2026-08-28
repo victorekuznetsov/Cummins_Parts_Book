@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-001-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-001-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Cam Follower Assembly
@@ -35,24 +37,52 @@ tags:
 > **Даты:** изменён 2005-09-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-001-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Mark the location of the cam follower assemblies as they are removed, so they can be installed in the original location.
+### Снятие
 
-Remove the cam follower mounting capscrews.
+с форсункой механического управления
 
-Pull the cam follower assembly straight out until the assembly is off the ring dowels.
+Отметьте местоположение сборок крана, когда они удаляются, чтобы они могли быть установлены в исходном месте.
+
+Удалите болты для крепления крана.
+
+Вытащите кран прямо, пока сборка не будет выключена из кольцевых дюбелей.
 
 ![[kf400ha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Mark the location of the cam follower assemblies as they are removed, so they can be installed in the original location.
+Отметьте местоположение сборок крана, когда они удаляются, чтобы они могли быть установлены в исходном месте.
 
-Remove the two capscrews and washers securing the cam follower assembly.
+Удалите два болта и шайбы, обеспечивающие сборку крана.
 
-Pull the cam follower assembly straight out until the assembly is off the ring dowels.
+Вытащите кран прямо, пока сборка не будет выключена из кольцевых дюбелей.
 
 ![[03400083.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Mark the location of the cam follower assemblies as they are removed, so they can be installed in the original location.
+>
+> Remove the cam follower mounting capscrews.
+>
+> Pull the cam follower assembly straight out until the assembly is off the ring dowels.
+>
+> with Electronically Actuated Injector
+>
+> Mark the location of the cam follower assemblies as they are removed, so they can be installed in the original location.
+>
+> Remove the two capscrews and washers securing the cam follower assembly.
+>
+> Pull the cam follower assembly straight out until the assembly is off the ring dowels.

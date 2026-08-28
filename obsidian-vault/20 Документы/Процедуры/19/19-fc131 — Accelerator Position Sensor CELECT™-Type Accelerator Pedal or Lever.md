@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc131.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc131.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
@@ -34,38 +36,82 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc131.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc131.pdf)
 
-### Fault Code: 131
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
 
-Printable Version
+### Код неисправности: 131
 
-### Overview
+### Датчик положения акселератора: Педаль или рычаг ускорителя CELECTTM-Type
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 131 PID(P): P91 SPN: 091 FMI: 3 Lamp: Red SRT: 00-350 | More than 4.20 VDC detected at the accelerator pedal or lever position signal pin 29 of the OEM interface harness. | Calibration-dependent power and speed derate. |
+| Код неисправности: 131 PID(P): P91 SPN: 091 ФМИ: 3 лампы: Красная СТО: 00-350 | Более 4,20 VDC обнаруживается на педали акселератора или рычага положения сигнала контакта 29 интерфейса OEM проводов ремня. | Калибровочная зависимость мощности и скорости снижается. |
 
 ![[19400817.png]]
 
-Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+Датчик положения акселератора: Педаль или рычаг ускорителя CELECTTM-Type
 
-### Circuit Description
+### Описание цепи
 
-The accelerator pedal or lever provides the operator's accelerator pedal or lever command to the ECM through the OEM harness and the OEM interface harness. The ECM uses this signal to determine the fueling command for the fuel rail actuator valve.
+Педаль или рычаг акселератора обеспечивает команду педали или рычага акселератора оператора к ECM через OEM-проводник и OEM-интерфейс. ECM использует этот сигнал для определения команды заправки клапана привода топливной рельсы.
 
-### Component Location
+### Расположение компонента
 
-The accelerator pedal or lever location or lever varies with each OEM. Refer to the OEM manual.
+Педаль акселератора или расположение рычага или рычага варьируется в зависимости от каждого OEM. См. руководство по OEM.
 
-### Shoptalk
+### Практические замечания
 
-The accelerator pedal or lever position sensor is a potentiometer. The resistance specifications of the accelerator pedal or lever position sensor are the following:
+Педаль акселератора или датчик положения рычага представляет собой потенциометр. Спецификации сопротивления педали акселератора или датчика положения рычага следующие:
 
-- Between supply and return = 2000 to 3000 ohms
+- Между предложением и возвратом = 2000-3000 Ом
 
-- Between supply and signal: Released = 1500 to 3000 ohms. Depressed = 200 to 1500 ohms.
+- Между поставкой и сигналом: Выпущен = 1500-3000 Ом. Депрессия = 200-1500 Ом.
 
-Note: If the accelerator pedal or lever or accelerator pedal or lever position sensor is changed, or after a calibration download, cycle the accelerator pedal or lever (turn keyswitch ON) through its complete travel three times. This procedure calibrates the new accelerator pedal or lever with the ECM.
+Примечание: Если педаль акселератора или рычаг или педаль акселератора или датчик положения рычага изменены, или после калибровочной загрузки, цикл педали акселератора или рычага (переключатель зажигания поворота) через его полное путешествие три раза. Эта процедура калибрует новую педаль акселератора или рычаг с помощью ECM.
 
-Refer to Troubleshooting Fault Code t05-131
+См. Код устранения неполадок t05-131
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 131
+>
+> ### Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 131 PID(P): P91 SPN: 091 FMI: 3 Lamp: Red SRT: 00-350 | More than 4.20 VDC detected at the accelerator pedal or lever position signal pin 29 of the OEM interface harness. | Calibration-dependent power and speed derate. |
+>
+> Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+>
+> ### Circuit Description
+>
+> The accelerator pedal or lever provides the operator's accelerator pedal or lever command to the ECM through the OEM harness and the OEM interface harness. The ECM uses this signal to determine the fueling command for the fuel rail actuator valve.
+>
+> ### Component Location
+>
+> The accelerator pedal or lever location or lever varies with each OEM. Refer to the OEM manual.
+>
+> ### Shoptalk
+>
+> The accelerator pedal or lever position sensor is a potentiometer. The resistance specifications of the accelerator pedal or lever position sensor are the following:
+>
+> - Between supply and return = 2000 to 3000 ohms
+>
+> - Between supply and signal: Released = 1500 to 3000 ohms. Depressed = 200 to 1500 ohms.
+>
+> Note: If the accelerator pedal or lever or accelerator pedal or lever position sensor is changed, or after a calibration download, cycle the accelerator pedal or lever (turn keyswitch ON) through its complete travel three times. This procedure calibrates the new accelerator pedal or lever with the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-131

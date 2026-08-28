@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -35,55 +37,106 @@ tags:
 > **Даты:** изменён 2009-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use a hoist or lifting fixture to support the front of the engine.
 
-Remove the capscrews from the front engine mount.
+### Снятие
+
+Используйте подъемник или подъемный приспособление для поддержки передней части двигателя.
+
+Удалите болты с передней части двигателя.
 
 ![[em2bkma.png]]
 
-Remove the six mounting capscrews and the front engine support.
+Удалите шесть крепежных болтов и переднюю опору двигателя.
 
 ![[em200mc.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use steam or solvent to clean the front engine support. Dry with compressed air.
+Используйте пар или растворитель для очистки передней поддержки двигателя. Просушите сжатым воздухом.
 
 ![[16200002.png]]
 
-Inspect the support for cracks or any other damage.
+Проверьте поддержку трещин или любого другого повреждения.
 
-If the support is cracked or otherwise damaged, it **must** be replaced.
+Если опора сломана или иным образом повреждена, она должна быть заменена.
 
 ![[em2bksa.png]]
 
-### Install
+### Установка
 
-Apply a coating of thread sealant, Part Number 3823494, to the three capscrews at locations 1, 2 and 3.
+Нанесите покрытие герметика для резьбы, номер детали 3823494, на три болта в местах 1, 2 и 3.
 
-Install the front support and mounting capscrews.
+Установите переднюю опору и крепежные болты.
 
-Torque Value:
+Момент затяжки:
 
 ![[em200hb.png]]
 
-Lower the front of the engine.
+Опустите переднюю часть двигателя.
 
-Install the front engine mount capscrews.
+Установите передние болты крепления двигателя.
 
-Tighten the capscrews. Refer to the OEM service manual.
+Затяните болты. См. сервисное руководство изготовителя машины.
 
-Remove the lifting fixture or hoist from the front of the engine.
+Снимите подъемный механизм или подъемник с передней части двигателя.
 
 ![[em2bkhb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Use a hoist or lifting fixture to support the front of the engine.
+>
+> Remove the capscrews from the front engine mount.
+>
+> Remove the six mounting capscrews and the front engine support.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use steam or solvent to clean the front engine support. Dry with compressed air.
+>
+> Inspect the support for cracks or any other damage.
+>
+> If the support is cracked or otherwise damaged, it **must** be replaced.
+>
+> ### Install
+>
+> Apply a coating of thread sealant, Part Number 3823494, to the three capscrews at locations 1, 2 and 3.
+>
+> Install the front support and mounting capscrews.
+>
+> Torque Value:
+>
+> Lower the front of the engine.
+>
+> Install the front engine mount capscrews.
+>
+> Tighten the capscrews. Refer to the OEM service manual.
+>
+> Remove the lifting fixture or hoist from the front of the engine.

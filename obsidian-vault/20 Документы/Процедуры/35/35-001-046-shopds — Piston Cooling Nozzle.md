@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-046-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-046-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Piston Cooling Nozzle
@@ -35,10 +37,26 @@ tags:
 > **Даты:** изменён 2016-02-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-046-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-046-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The crankshaft **must** be rotated to allow access to remove all the nozzles.
 
-Remove the piston cooling nozzles.
+### Снятие
+
+Кранкшафт **должен** повернуть, чтобы обеспечить доступ для удаления всех сопл.
+
+Удалите форсунки для охлаждения поршня.
 
 ![[pn2bdhb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The crankshaft **must** be rotated to allow access to remove all the nozzles.
+>
+> Remove the piston cooling nozzles.

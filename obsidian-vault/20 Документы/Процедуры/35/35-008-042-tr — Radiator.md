@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-042-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-042-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Radiator
@@ -35,36 +37,74 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-042-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-042-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Inspect for plugged radiator fins.
+### Первичная проверка
 
-Use compressed air to blow out the dirt and debris.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-| Measurements |  |  |
+Проверка заглубленных плавников радиатора.
+
+Используйте сжатый воздух, чтобы выдуть грязь и мусор.
+
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Air Pressure: | 552 | 80 |
+|  | каша | пси |
+| Воздушное давление: | 552 | 80 |
 
 ![[ra8etsa.png]]
 
-Inspect for bent or broken fins.
+Осмотрите согнутые или сломанные плавники.
 
-Inspect for radiator core and gasket leaks.
+Проверка на наличие радиаторного сердечника и утечек прокладки.
 
-If the radiator **must** be replaced, refer to the manufacturer's replacement procedures.
+Если радиатор должен быть заменен, обратитесь к процедурам замены изготовителя.
 
 ![[ra8etsb.png]]
 
-> [!danger] WARNING · Опасно
-> If a liquid refrigerant system (air conditioning) is used, wear eye and face protection, and wrap a cloth around the fittings before removing. Liquid refrigerant can cause serious eye and skin injuries.
+> [!danger] ОПАСНО
+> Если используется система жидкого хладагента (кондиционирование воздуха), используйте защиту глаз и лица и оберните ткань вокруг фитингов перед удалением. Жидкий хладагент может вызвать серьезные травмы глаз и кожи.
 
-> [!danger] WARNING · Опасно
-> To protect the environment, liquid refrigerant systems must be properly emptied and filled using equipment that prevents the release of refrigerant gas into the atmosphere. Federal law requires capturing and recycling the refrigerant.
+> [!danger] ОПАСНО
+> Для защиты окружающей среды системы жидких хладагентов должны быть надлежащим образом опорожнены и заполнены с использованием оборудования, которое предотвращает выброс хладагента в атмосферу. Федеральный закон требует улавливания и переработки хладагента.
 
-For environmental protection, federal regulations require that refrigerants **must** be recycled and **not** vented into the atmosphere. Check local regulations for capturing and recycling the refrigerant.
+Для защиты окружающей среды федеральные правила требуют, чтобы хладагенты **должны быть переработаны и **не вентилируемы в атмосферу. Проверьте местные правила для улавливания и переработки хладагента.
 
 ![[cf8ftqa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Inspect for plugged radiator fins.
+>
+> Use compressed air to blow out the dirt and debris.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Air Pressure: | 552 | 80 |
+>
+> Inspect for bent or broken fins.
+>
+> Inspect for radiator core and gasket leaks.
+>
+> If the radiator **must** be replaced, refer to the manufacturer's replacement procedures.
+>
+> **WARNING · Опасно**
+> If a liquid refrigerant system (air conditioning) is used, wear eye and face protection, and wrap a cloth around the fittings before removing. Liquid refrigerant can cause serious eye and skin injuries.
+>
+> **WARNING · Опасно**
+> To protect the environment, liquid refrigerant systems must be properly emptied and filled using equipment that prevents the release of refrigerant gas into the atmosphere. Federal law requires capturing and recycling the refrigerant.
+>
+> For environmental protection, federal regulations require that refrigerants **must** be recycled and **not** vented into the atmosphere. Check local regulations for capturing and recycling the refrigerant.

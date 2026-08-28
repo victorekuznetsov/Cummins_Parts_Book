@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-056.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-056.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Camshaft Thrust Bearing
@@ -33,29 +35,60 @@ tags:
 > **Даты:** изменён 2011-01-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-056.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-056.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the flywheel housing and all related components. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16.]]
-- Remove the camshaft gear. [[89-001-008 — Camshaft|Refer to Procedure 001-008 in Section 1.]]
+
+### Подготовительные операции
+
+- Удалите корпус маховика и все связанные с ним компоненты.[[89-016-006 — Flywheel Housing|См. процедуру 016-006 в разделе 16.]]
+- Снимите валовую передачу.[[89-001-008 — Camshaft|См. процедуру 001-008 в разделе 1.]]
 
 ![[ck800wa.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the thrust bearing for damage. Measure the thickness.
+Осмотрите подшипник тяги на предмет повреждения. Измерьте толщину.
 
-| Camshaft Thrust Bearing Thickness |  |  |
+| Camshaft Thrust несёт густоту |  |  |
 |---|---|---|
-| mm |  | in |
-| 3.20 | MIN | 0.126 |
-| 5.00 | MAX | 0.197 |
+| мм |  | в |
+| 3.20 | Мин | 0.126 |
+| 5.00 | Макс | 0.197 |
 
 ![[01400500.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the camshaft gear. [[89-001-008 — Camshaft|Refer to Procedure 001-008 in Section 1.]]
-- Measure the gear train backlash. [[89-001-055 — Gear Train Backlash, Front|Refer to Procedure 001-055 in Section 1.]]
-- Install the flywheel housing and all related components. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16.]]
+- Установите распределительную передачу.[[89-001-008 — Camshaft|См. процедуру 001-008 в разделе 1.]]
+- Измерьте обратную реакцию зубчатого поезда.[[89-001-055 — Gear Train Backlash, Front|См. процедуру 001-055 в разделе 1.]]
+- Установите корпус маховика и все связанные с ним компоненты.[[89-016-006 — Flywheel Housing|См. процедуру 016-006 в разделе 16.]]
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the flywheel housing and all related components. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16.]]
+> - Remove the camshaft gear. [[89-001-008 — Camshaft|Refer to Procedure 001-008 in Section 1.]]
+>
+> ### Inspect for Reuse
+>
+> Inspect the thrust bearing for damage. Measure the thickness.
+>
+> | Camshaft Thrust Bearing Thickness |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 3.20 | MIN | 0.126 |
+> | 5.00 | MAX | 0.197 |
+>
+> ### Finishing Steps
+>
+> - Install the camshaft gear. [[89-001-008 — Camshaft|Refer to Procedure 001-008 in Section 1.]]
+> - Measure the gear train backlash. [[89-001-055 — Gear Train Backlash, Front|Refer to Procedure 001-055 in Section 1.]]
+> - Install the flywheel housing and all related components. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16.]]

@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-033-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-033-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Gear Housing, Front
@@ -33,16 +35,36 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-033-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-033-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the gear housing capscrews.
 
-Note the location of the gear housing capscrews as they are removed. Some of the capscrews are an internal torx fastener and **must** be installed in the same location as removed to ensure proper clearance.
+### Снятие
+
+Удалите болты корпуса зубчатой передачи.
+
+Обратите внимание на расположение болтов корпуса зубчатой передачи, когда они удаляются. Некоторые болты являются внутренним крепежом тяги и должны быть установлены в том же месте, что и удалены, чтобы обеспечить надлежащий зазор.
 
 ![[gh9csmc.png]]
 
-Use a plastic hammer to loosen the front gear housing.
+Используйте пластиковый молоток, чтобы ослабить кожух передней передачи.
 
-Remove the gear housing.
+Снимите гильзу передач.
 
 ![[gh900mc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the gear housing capscrews.
+>
+> Note the location of the gear housing capscrews as they are removed. Some of the capscrews are an internal torx fastener and **must** be installed in the same location as removed to ensure proper clearance.
+>
+> Use a plastic hammer to loosen the front gear housing.
+>
+> Remove the gear housing.

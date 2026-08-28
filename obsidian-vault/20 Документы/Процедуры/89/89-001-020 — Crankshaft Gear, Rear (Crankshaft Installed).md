@@ -10,13 +10,15 @@ families:
 manuals:
   - "4021375"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-020.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-020.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Gear, Rear (Crankshaft Installed)
@@ -29,140 +31,272 @@ tags:
 > **Даты:** изменён 2021-10-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-020.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Puller jaw, Part Number 3164947
-- Crankshaft gear remover, Part Number 3165049, or equivalent.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Hone stone
-- Lubriplate™ 105, or equivalent.
+- Щепка Пуллера, номер детали 3164947
+- Удаление коленчатого вала, номер детали 3165049, или эквивалент.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+- Отточенный камень
+- LubriplateTM 105, или эквивалент.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-- Remove the transmission, clutch, and all related components. Refer to the equipment manufacturer's instructions.
-- Remove the starter motor. [[89-013-020 — Starting Motor|Refer to Procedure 013-020 in Section 13]].
-- Drain the lubricating oil. [[89-007-037 — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
-- Remove the lubricating oil pan. [[89-007-025 — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
-- Remove the block stiffener plate. [[89-001-089 — Block Stiffener Plate|Refer to Procedure 001-089 in Section 1]].
-- Remove the flywheel. [[89-016-005 — Flywheel|Refer to Procedure 016-005 in Section 16]].
-- Remove the flywheel housing. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16]].
-- Remove the camshaft idler gear. [[89-001-036 — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1]].
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-### Remove
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-Remove the spacer from the rear of the crankshaft.
+- Удалите трансмиссию, сцепление и все связанные компоненты. Смотрите инструкции производителя оборудования.
+- Удалите стартерный двигатель.[[89-013-020 — Starting Motor|См. процедуру 013-020 в разделе 13.]].
+- Слить моторное масло.[[89-007-037 — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]].
+- Снимите смазочный маслосборник.[[89-007-025 — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]].
+- Удалите пластину с закалкой.[[89-001-089 — Block Stiffener Plate|См. процедуру 001-089 в разделе 1.]].
+- Удалите маховик.[[89-016-005 — Flywheel|См. процедуру 016-005 в разделе 16.]].
+- Снимите кожух маховика.[[89-016-006 — Flywheel Housing|См. процедуру 016-006 в разделе 16.]].
+- Снимите с кулачкового вала шестерни.[[89-001-036 — Idler Gear, Camshaft|См. процедуру 001-036 в разделе 1.]].
 
-> [!note] Note · Примечание
-> If spacer can **not** be removed easily, proceed to removing the gear. The spacer should come off when pulling the gear.
+### Снятие
+
+Удалите прокладку с задней части коленчатого вала.
+
+> [!note] Примечание
+> Если прокладка может быть легко удалена, приступайте к удалению снаряжения. Пространство должно отходить при вытягивании шестерни.
 
 ![[01400566.png]]
 
-> [!warning] CAUTION · Осторожно
-> Heat can be used to aid the removal of the gear. Do not use a cutting torch. The high temperature of a torch will damage the teeth of the gear.
+> [!warning] ОСТОРОЖНО
+> Тепло может быть использовано, чтобы помочь удалению снаряжения. Не используйте режущий факел. Высокая температура факела повредит зубы шестерни.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed 475 N•m \[350 ft-lb\] of torque when turning the jackscrew.
+> [!warning] ОСТОРОЖНО
+> Не превышайте 475 Н•м \[350 футов-лб\] крутящего момента при повороте джек-винта.
 
-**Only** remove the gear when the crankshaft or gear is damaged.
+Снимите передачу только тогда, когда коленчатый вал или передача повреждены.
 
-Use puller jaw, Part Number 3164947. and Crankshaft Gear Remover Kit, Part Number 3165049, to remove the gear.
+Используйте челюсть съёмника, номер детали 3164947. Crankshaft Gear Remover Kit, Part Number 3165049, для снятия шестерни.
 
 ![[01s00115.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use a hone stone and polish the crankshaft outside diameter. Remove all of the small scratches, burrs, and small grooves.
+Используйте отточенный камень и полируйте коленчатый вал наружного диаметра. Удалите все мелкие царапины, заусеницы и мелкие канавки.
 
-Use care **not** to damage the crankshaft keyway.
+Используйте осторожно **не**, чтобы повредить ключ коленчатого вала.
 
 ![[01400568.png]]
 
-Clean and inspect the crankshaft for reuse. Measure the outside diameter.
+Очистите и проверьте коленчатый вал для повторного использования. Измерьте внешний диаметр.
 
-| Crankshaft Outside Diameter (Gear Location) |  |  |
+| Crankshaft Outside Diameter (Местоположение) |  |  |
 |---|---|---|
-| mm |  | in |
-| 170.48 | MIN | 6.712 |
-| 170.52 | MAX | 6.713 |
+| мм |  | в |
+| 170.48 | Мин | 6.712 |
+| 170.52 | Макс | 6.713 |
 
 ![[01400569.png]]
 
-Measure the inside diameter of the rear crankshaft gear.
+Измерить внутренний диаметр задней коленчатой передачи.
 
-| Rear Crankshaft Gear Inside Diameter |  |  |
+| Задний коленчатый вал Gear Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 170.335 | MIN | 6.706 |
-| 170.375 | MAX | 6.708 |
+| мм |  | в |
+| 170.335 | Мин | 6.706 |
+| 170.375 | Макс | 6.708 |
 
-If the crankshaft gear is **not** within specifications, the crankshaft gear **must** be replaced.
+Если передача коленчатого вала **не** в пределах спецификаций, то передача коленчатого вала должна быть заменена.
 
 ![[ks8geta.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed the specified time or the temperature. Damage to the gear and gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> Не превышайте заданное время или температуру. Повреждение зубьев и зубьев шестерни будет иметь последствия.
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to install the gear without using heat.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь установить оборудование без использования тепла.
 
-Use an oven and adjust the heat to 235°C \[450°F\]. Heat the gear for a minimum of 1 hour, but **not** more than a maximum of 6 hours. The inside diameter of the gear will become larger and simplify installation.
+Используйте духовку и отрегулируйте тепло до 235 ° C \[450° F \]. Нагрейте снаряжение минимум на 1 час, но **не** более чем на 6 часов. Внутренний диаметр шестерни станет больше и упростит монтаж.
 
 ![[dp8gewa.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-> [!warning] CAUTION · Осторожно
-> Allow the gear to cool slowly. Do not use water or oil to reduce the cooling time. This will cause the gear to crack.
+> [!warning] ОСТОРОЖНО
+> Позвольте снаряжению медленно охлаждаться. Не используйте воду или масло, чтобы уменьшить время охлаждения. Это приведет к тому, что шестерня расколется.
 
-The timing mark on the crankshaft gear **must** be visible from the front of the gear after it is installed on the crankshaft.
+Отметка времени на коленчатом валу должна быть видна спереди зубчатой передачи после ее установки на коленчатом вале.
 
-Install a new key into the crankshaft.
+Установите новый ключ в коленчатый вал.
 
-Lubricate the outside diameter of the crankshaft with Lubriplate™ Number 105, or equivalent. Remove the gear from the oven and install it on the crankshaft.
+Смазать внешний диаметр коленчатого вала с помощью LubriplateTM № 105 или эквивалента. Удалите шестерню из духовки и установите ее на коленчатый вал.
 
 ![[01400570.png]]
 
-Install the crankshaft spacer onto the rear of the crankshaft.
+Установите коленчатый вал на заднюю часть коленчатого вала.
 
-Use two flywheel bolts and washers to pull the spacer onto the crankshaft nose.
+Используйте два болта маховика и шайбы, чтобы потянуть спейсер на нос коленчатого вала.
 
 ![[01400566.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+- Установите корпус маховика.[[89-016-006 — Flywheel Housing|См. процедуру 016-006 в разделе 16.]].
+- Установите маховик.[[89-016-005 — Flywheel|См. процедуру 016-005 в разделе 16.]].
+- Установите блок-тарелку.[[89-001-089 — Block Stiffener Plate|См. процедуру 001-089 в разделе 1.]].
+- Установите смазочный маслосборник.[[89-007-025 — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]].
+- Заполните систему моторного масла.[[89-007-037 — Lubricating Oil System|См. процедуру 007-037]]Раздел 7 Моторное масло.
+- Установите стартерный двигатель.[[89-013-020 — Starting Motor|См. процедуру 013-020 в разделе 13.]].
+- Установите шасси бездельника.[[89-001-036 — Idler Gear, Camshaft|См. процедуру 001-036 в разделе 1.]].
+- Установите трансмиссию, сцепление и все связанные компоненты. См. сервисную документацию изготовителя оборудования.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Puller jaw, Part Number 3164947
+> - Crankshaft gear remover, Part Number 3165049, or equivalent.
+>
+> #### Additional Service Items
+>
+> - Hone stone
+> - Lubriplate™ 105, or equivalent.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
-
-- Install the flywheel housing. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16]].
-- Install the flywheel. [[89-016-005 — Flywheel|Refer to Procedure 016-005 in Section 16]].
-- Install the block stiffener plate. [[89-001-089 — Block Stiffener Plate|Refer to Procedure 001-089 in Section 1]].
-- Install the lubricating oil pan. [[89-007-025 — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
-- Fill the lubricating oil system. [[89-007-037 — Lubricating Oil System|Refer to Procedure 007-037]] in Section 7 for engine oil capacity.
-- Install the starter motor. [[89-013-020 — Starting Motor|Refer to Procedure 013-020 in Section 13]].
-- Install the camshaft idler gear. [[89-001-036 — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1]].
-- Install the transmission, clutch, and all related components. See equipment manufacturer service information.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> - Remove the transmission, clutch, and all related components. Refer to the equipment manufacturer's instructions.
+> - Remove the starter motor. [[89-013-020 — Starting Motor|Refer to Procedure 013-020 in Section 13]].
+> - Drain the lubricating oil. [[89-007-037 — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+> - Remove the lubricating oil pan. [[89-007-025 — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+> - Remove the block stiffener plate. [[89-001-089 — Block Stiffener Plate|Refer to Procedure 001-089 in Section 1]].
+> - Remove the flywheel. [[89-016-005 — Flywheel|Refer to Procedure 016-005 in Section 16]].
+> - Remove the flywheel housing. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16]].
+> - Remove the camshaft idler gear. [[89-001-036 — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1]].
+>
+> ### Remove
+>
+> Remove the spacer from the rear of the crankshaft.
+>
+> **Note · Примечание**
+> If spacer can **not** be removed easily, proceed to removing the gear. The spacer should come off when pulling the gear.
+>
+> **CAUTION · Осторожно**
+> Heat can be used to aid the removal of the gear. Do not use a cutting torch. The high temperature of a torch will damage the teeth of the gear.
+>
+> **CAUTION · Осторожно**
+> Do not exceed 475 N•m \[350 ft-lb\] of torque when turning the jackscrew.
+>
+> **Only** remove the gear when the crankshaft or gear is damaged.
+>
+> Use puller jaw, Part Number 3164947. and Crankshaft Gear Remover Kit, Part Number 3165049, to remove the gear.
+>
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use a hone stone and polish the crankshaft outside diameter. Remove all of the small scratches, burrs, and small grooves.
+>
+> Use care **not** to damage the crankshaft keyway.
+>
+> Clean and inspect the crankshaft for reuse. Measure the outside diameter.
+>
+> | Crankshaft Outside Diameter (Gear Location) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 170.48 | MIN | 6.712 |
+> | 170.52 | MAX | 6.713 |
+>
+> Measure the inside diameter of the rear crankshaft gear.
+>
+> | Rear Crankshaft Gear Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 170.335 | MIN | 6.706 |
+> | 170.375 | MAX | 6.708 |
+>
+> If the crankshaft gear is **not** within specifications, the crankshaft gear **must** be replaced.
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> **CAUTION · Осторожно**
+> Do not exceed the specified time or the temperature. Damage to the gear and gear teeth will result.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to install the gear without using heat.
+>
+> Use an oven and adjust the heat to 235°C \[450°F\]. Heat the gear for a minimum of 1 hour, but **not** more than a maximum of 6 hours. The inside diameter of the gear will become larger and simplify installation.
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> **CAUTION · Осторожно**
+> Allow the gear to cool slowly. Do not use water or oil to reduce the cooling time. This will cause the gear to crack.
+>
+> The timing mark on the crankshaft gear **must** be visible from the front of the gear after it is installed on the crankshaft.
+>
+> Install a new key into the crankshaft.
+>
+> Lubricate the outside diameter of the crankshaft with Lubriplate™ Number 105, or equivalent. Remove the gear from the oven and install it on the crankshaft.
+>
+> Install the crankshaft spacer onto the rear of the crankshaft.
+>
+> Use two flywheel bolts and washers to pull the spacer onto the crankshaft nose.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> - Install the flywheel housing. [[89-016-006 — Flywheel Housing|Refer to Procedure 016-006 in Section 16]].
+> - Install the flywheel. [[89-016-005 — Flywheel|Refer to Procedure 016-005 in Section 16]].
+> - Install the block stiffener plate. [[89-001-089 — Block Stiffener Plate|Refer to Procedure 001-089 in Section 1]].
+> - Install the lubricating oil pan. [[89-007-025 — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+> - Fill the lubricating oil system. [[89-007-037 — Lubricating Oil System|Refer to Procedure 007-037]] in Section 7 for engine oil capacity.
+> - Install the starter motor. [[89-013-020 — Starting Motor|Refer to Procedure 013-020 in Section 13]].
+> - Install the camshaft idler gear. [[89-001-036 — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1]].
+> - Install the transmission, clutch, and all related components. See equipment manufacturer service information.

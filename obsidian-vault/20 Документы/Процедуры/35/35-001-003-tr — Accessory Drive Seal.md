@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-003-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-003-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Seal
@@ -35,47 +37,94 @@ tags:
 > **Даты:** изменён 2016-04-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-003-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-003-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- If equipped with an automatic belt tensioner, remove the alternator drive belt. [[35-013-001-tr — Charging System Alternator|Refer to Procedure 013-001 in Section 13.]]
-- Remove the accessory drive pulley. [[35-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
 
-### Remove
+### Подготовительные операции
 
-Remove the five capscrews, clamping ring, seal, and gasket.
+- Если оборудован автоматическим натяжителем ремня, удалите ремень привода генератора.[[35-013-001-tr — Charging System Alternator|См. процедуру 013-001 в разделе 13.]]
+- Удалите дополнительный приводной шкив.[[35-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+
+### Снятие
+
+Удалите пять болтов, зажимное кольцо, уплотнение и прокладку.
 
 ![[01z00007.png]]
 
-### Clean
+### Очистка
 
-Clean the gasket surface of the gear cover.
+Очистить прокладку поверхности чехла передач.
 
 ![[ad2seea.png]]
 
-### Install
+### Установка
 
-Do **not** use lubricant to install the seal. The oil seal **must** be installed with the lip of the seal and the shaft clean and dry.
+**Не используйте смазку для установки уплотнения. Масляная уплотнение **должна быть установлена с губой уплотнения и валом чистым и сухим.
 
-The yellow dust lip of the seal **must** be facing out.
+Желтая пыльная губа уплотнения должна быть обращена в сторону.
 
-Use the installation sleeve provided with the new seal to install the new seal and gasket.
+Используйте установочный рукав, снабженный новой уплотнением, для установки новой уплотнения и прокладки.
 
 ![[ad2sehh.png]]
 
-Apply a coating of thread sealant, Part Number 3823494, to the mounting capscrews.
+Нанесите на крепежные болты покрытие из герметика для резьбы, номер детали 3823494.
 
-Install the clamping ring and five capscrews.
+Установите зажимное кольцо и пять болтов.
 
-Tighten the capscrews in a star pattern in two steps.
+Затягивайте болты в звездном образце в два шага.
 
-Torque Value:
+Момент затяжки:
 
-> [!note] Note · Примечание
-> There is a dust seal on the outside of the clamping ring.
+> [!note] Примечание
+> На внешней стороне зажимного кольца есть пылевое уплотнение.
 
 ![[01z00007.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the accessory drive pulley. [[35-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
-- If equipped with an automatic belt tensioner, install the alternator drive belt. [[35-013-001-tr — Charging System Alternator|Refer to Procedure 013-001 in Section 13.]]
+- Установите дополнительный приводной шкив.[[35-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+- Если оснащен автоматическим натяжителем ремня, установите ремень привода генератора.[[35-013-001-tr — Charging System Alternator|См. процедуру 013-001 в разделе 13.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - If equipped with an automatic belt tensioner, remove the alternator drive belt. [[35-013-001-tr — Charging System Alternator|Refer to Procedure 013-001 in Section 13.]]
+> - Remove the accessory drive pulley. [[35-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+>
+> ### Remove
+>
+> Remove the five capscrews, clamping ring, seal, and gasket.
+>
+> ### Clean
+>
+> Clean the gasket surface of the gear cover.
+>
+> ### Install
+>
+> Do **not** use lubricant to install the seal. The oil seal **must** be installed with the lip of the seal and the shaft clean and dry.
+>
+> The yellow dust lip of the seal **must** be facing out.
+>
+> Use the installation sleeve provided with the new seal to install the new seal and gasket.
+>
+> Apply a coating of thread sealant, Part Number 3823494, to the mounting capscrews.
+>
+> Install the clamping ring and five capscrews.
+>
+> Tighten the capscrews in a star pattern in two steps.
+>
+> Torque Value:
+>
+> **Note · Примечание**
+> There is a dust seal on the outside of the clamping ring.
+>
+> ### Finishing Steps
+>
+> - Install the accessory drive pulley. [[35-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+> - If equipped with an automatic belt tensioner, install the alternator drive belt. [[35-013-001-tr — Charging System Alternator|Refer to Procedure 013-001 in Section 13.]]

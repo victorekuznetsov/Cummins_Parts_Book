@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 24
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-076-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-076-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Heat Shield
@@ -35,195 +37,350 @@ tags:
 > **Даты:** изменён 2008-11-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-076-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-076-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]]
+
+### Подготовительные операции
+
+- Удалите охладители тепловых экранов.[[56-010-129-tr — Aftercooler Heat Shield|См. процедуру 010-129 (Холодный щит) в разделе 10.]]
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> Left-front and right-rear turbocharger heat shields are similar, as well as right-front and left-rear.
+> [!note] Примечание
+> Левый передний и правый задний тепловые экраны турбокомпрессора похожи, а также правый передний и левый задний.
 
-The following steps are for removing the left-front and right-rear heat shields.
+Следующие шаги предназначены для удаления лево-передних и право-задних тепловых экранов.
 
-Remove the nine capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+Удалите девять болтов, обеспечивающих тепловой экран турбокомпрессора, в тепловой экран выхлопной полости.
 
 ![[10600360.png]]
 
-> [!note] Note · Примечание
-> If removing the heat shield bracket is **not** necessary for repair, **only** remove the capscrews securing the bracket to the heat shield. If the bracket is being removed, note the location of the p-clip mounting for assembly.
+> [!note] Примечание
+> Если снятие кронштейна теплозащитного экрана **не** необходимо для ремонта, **только** удалите болты, крепящие кронштейн к теплозащитному экрану. Если скобка снимается, обратите внимание на место установки p-клипа для сборки.
 
-Remove six capscrews securing the rear heat shield bracket.
+Снимите шесть болтов, закрепляющих заднюю кронштейн теплового экрана.
 
 ![[10600361.png]]
 
-Remove the six capscrews securing the front heat shield bracket.
+Удалите шесть болтов, закрепляющих переднюю кронштейн теплового экрана.
 
-Remove the heat shield.
+Удалите тепловой экран.
 
 ![[10600362.png]]
 
-The following steps are for removing the right-front and left-rear heat shields.
+Следующие шаги предназначены для удаления правого переднего и левого заднего тепловых экранов.
 
-Remove the eight capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+Удалите восемь болтов, обеспечивающих тепловой экран турбокомпрессора, в тепловой экран выхлопной полости.
 
 ![[10600363.png]]
 
-> [!note] Note · Примечание
-> If removing the heat shield bracket is **not** necessary for repair, **only** remove the capscrews securing the bracket to the heat shield. If the bracket is being removed, note the location of the p-clip mounting for assembly.
+> [!note] Примечание
+> Если снятие кронштейна теплозащитного экрана **не** необходимо для ремонта, **только** удалите болты, крепящие кронштейн к теплозащитному экрану. Если скобка снимается, обратите внимание на место установки p-клипа для сборки.
 
-Remove the six capscrews securing the rear heat shield bracket.
+Удалите шесть болтов, закрепляющих заднюю кронштейн теплового экрана.
 
 ![[10600364.png]]
 
-Remove the six capscrews securing the front heat shield bracket.
+Удалите шесть болтов, закрепляющих переднюю кронштейн теплового экрана.
 
-Remove the heat shield.
+Удалите тепловой экран.
 
 ![[10600365.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the flexible heat shielding covering the joint between the turbocharger heat shield and the exhaust outlet heat shield.
+Удалите гибкую теплозащитную защиту, покрывающую соединение между тепловым экраном турбокомпрессора и тепловым экраном выпускного отверстия.
 
 ![[10600643.png]]
 
-Remove the eight capscrews securing the exhaust outlet heat shield to the turbocharger heat shield
+Удалите восемь болтов, обеспечивающих тепловой экран выхлопной трубы, на тепловой экран турбокомпрессора
 
 ![[10600644.png]]
 
-> [!note] Note · Примечание
-> The exhaust outlet heat shields are made of two separate sections.
+> [!note] Примечание
+> Тепловые экраны выпускных отверстий изготовлены из двух отдельных секций.
 
-Remove the exhaust outlet heat shields.
+Удалите тепловые экраны выпускных отверстий.
 
-The opposite bank is similar.
+Противоположный банк похож.
 
-Remove the exhaust outlet heat shields from the opposite bank exhaust outlet.
+Удалите тепловые экраны выпускного отверстия из противоположного выпускного отверстия банка.
 
 ![[10600645.png]]
 
-> [!note] Note · Примечание
-> Left-front and right-rear turbocharger heat shields are similar, as well as, the right-front and left-rear heat shields.
+> [!note] Примечание
+> Левый передний и правый задний тепловые экраны турбокомпрессора похожи, а также правый передний и левый задний тепловые экраны.
 
-The following steps are for removing the left-front and right-rear heat shields.
+Следующие шаги предназначены для удаления лево-передних и право-задних тепловых экранов.
 
-Remove the tube bracket from the top of the turbocharger heat shield.
+Удалите кронштейн трубы с верхней части теплового экрана турбокомпрессора.
 
 ![[10600638.png]]
 
-Remove the capscrews attaching the turbocharger heat shield to the turbocharger heat shield supports.
+Удалите болты, прикрепляющие тепловой экран турбокомпрессора к опорам теплового экрана турбокомпрессора.
 
-Remove the heat shield.
+Удалите тепловой экран.
 
 ![[10600647.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-The following steps are for installing the left-front and right-rear heat shields.
+Следующие шаги предназначены для установки лево-передних и право-задних тепловых экранов.
 
-Install the turbocharger heat shield.
+Установите тепловой экран турбокомпрессора.
 
-Install and hand tighten all 12 heat shield bracket capscrews.
+Установите и затяните все 12 болтов теплового экрана.
 
-Install the nine capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+Установите девять болтов, обеспечивающих тепловой экран турбокомпрессора, на тепловой экран выхлопной полости.
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [204 in-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
 
 ![[10600360.png]]
 
-Tighten the six capscrews securing the rear heat shield bracket.
+Затянуть шесть болтов, закрепляющих заднюю кронштейн теплового экрана.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600361.png]]
 
-Tighten the six capscrews securing the front heat shield bracket.
+Затяните шесть болтов, обеспечивающих переднюю кронштейн теплового экрана.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600362.png]]
 
-The following steps are for installing the right-front and left-rear heat shields.
+Следующие шаги предназначены для установки правого переднего и левого заднего тепловых экранов.
 
-Install the turbocharger heat shield.
+Установите тепловой экран турбокомпрессора.
 
-Install and hand tighten all 12 heat shield bracket capscrews.
+Установите и затяните все 12 болтов теплового экрана.
 
-Install the eight capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+Установите восемь болтов, обеспечивающих тепловой экран турбокомпрессора, на тепловой экран выхлопной полости.
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [204 in-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
 
 ![[10600363.png]]
 
-Tighten the six capscrews securing the rear heat shield bracket.
+Затянуть шесть болтов, закрепляющих заднюю кронштейн теплового экрана.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600364.png]]
 
-Tighten the six capscrews securing the front heat shield bracket.
+Затяните шесть болтов, обеспечивающих переднюю кронштейн теплового экрана.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600365.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the heat shield.
+Установите тепловой экран.
 
-Install the capscrews attaching the turbocharger heat shield to the turbocharger heat shield supports.
+Установите болты, прикрепляющие тепловой экран турбокомпрессора к опорам теплового экрана турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600639.png]]
 
-Install the tube bracket from the top of the turbocharger heat shield.
+Установите кронштейн трубы с верхней части теплового экрана турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 44 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 44 Н·м [32 фунт-фут]
 
 ![[10600638.png]]
 
-> [!note] Note · Примечание
-> The exhaust outlet heat shields are made of two separate sections.
+> [!note] Примечание
+> Тепловые экраны выпускных отверстий изготовлены из двух отдельных секций.
 
-Install the exhaust outlet heat shields over the exhaust outlet.
+Установите тепловые экраны выпускного отверстия над выпускным отверстием.
 
-The opposite bank is similar.
+Противоположный банк похож.
 
-Install the opposite bank exhaust outlet heat shields.
+Установите противоположные выхлопные выхлопные теплозащитные экраны.
 
 ![[10600645.png]]
 
-Install the sixteen capscrews securing the exhaust outlet heat shields to the turbocharger heat shields.
+Установите шестнадцать болтов, обеспечивающих тепловые экраны выпускного отверстия для турбокомпрессора.
 
-Use high temperature anti-sieze, Part Number 3824732, or equivalent, when installing the exhaust outlet heat shield capscrews.
+Используйте высокотемпературный анти-сиэтиз, номер детали 3824732, или эквивалент, при установке отводных тепловых затворов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[10600644.png]]
 
-Install the flexible heat shielding over the joint between the exhaust outlet heat shields and the turbocharger heat shields.
+Установите гибкую теплозащиту над соединением между тепловыми экранами выпускного отверстия и тепловыми экранами турбокомпрессора.
 
 ![[10600643.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]].
+- Установите послеохладительные тепловые экраны.[[56-010-129-tr — Aftercooler Heat Shield|См. процедуру 010-129 (Холодный щит) в разделе 10.]].
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> Left-front and right-rear turbocharger heat shields are similar, as well as right-front and left-rear.
+>
+> The following steps are for removing the left-front and right-rear heat shields.
+>
+> Remove the nine capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+>
+> **Note · Примечание**
+> If removing the heat shield bracket is **not** necessary for repair, **only** remove the capscrews securing the bracket to the heat shield. If the bracket is being removed, note the location of the p-clip mounting for assembly.
+>
+> Remove six capscrews securing the rear heat shield bracket.
+>
+> Remove the six capscrews securing the front heat shield bracket.
+>
+> Remove the heat shield.
+>
+> The following steps are for removing the right-front and left-rear heat shields.
+>
+> Remove the eight capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+>
+> **Note · Примечание**
+> If removing the heat shield bracket is **not** necessary for repair, **only** remove the capscrews securing the bracket to the heat shield. If the bracket is being removed, note the location of the p-clip mounting for assembly.
+>
+> Remove the six capscrews securing the rear heat shield bracket.
+>
+> Remove the six capscrews securing the front heat shield bracket.
+>
+> Remove the heat shield.
+>
+> with Electronically Actuated Injector
+>
+> Remove the flexible heat shielding covering the joint between the turbocharger heat shield and the exhaust outlet heat shield.
+>
+> Remove the eight capscrews securing the exhaust outlet heat shield to the turbocharger heat shield
+>
+> **Note · Примечание**
+> The exhaust outlet heat shields are made of two separate sections.
+>
+> Remove the exhaust outlet heat shields.
+>
+> The opposite bank is similar.
+>
+> Remove the exhaust outlet heat shields from the opposite bank exhaust outlet.
+>
+> **Note · Примечание**
+> Left-front and right-rear turbocharger heat shields are similar, as well as, the right-front and left-rear heat shields.
+>
+> The following steps are for removing the left-front and right-rear heat shields.
+>
+> Remove the tube bracket from the top of the turbocharger heat shield.
+>
+> Remove the capscrews attaching the turbocharger heat shield to the turbocharger heat shield supports.
+>
+> Remove the heat shield.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> The following steps are for installing the left-front and right-rear heat shields.
+>
+> Install the turbocharger heat shield.
+>
+> Install and hand tighten all 12 heat shield bracket capscrews.
+>
+> Install the nine capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [204 in-lb]
+>
+> Tighten the six capscrews securing the rear heat shield bracket.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> Tighten the six capscrews securing the front heat shield bracket.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> The following steps are for installing the right-front and left-rear heat shields.
+>
+> Install the turbocharger heat shield.
+>
+> Install and hand tighten all 12 heat shield bracket capscrews.
+>
+> Install the eight capscrews securing the turbocharger heat shield to the exhaust cavity heat shield.
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [204 in-lb]
+>
+> Tighten the six capscrews securing the rear heat shield bracket.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> Tighten the six capscrews securing the front heat shield bracket.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the heat shield.
+>
+> Install the capscrews attaching the turbocharger heat shield to the turbocharger heat shield supports.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> Install the tube bracket from the top of the turbocharger heat shield.
+>
+> **Момент затяжки · Torque Value**
+> 44 n•m [32 ft-lb]
+>
+> **Note · Примечание**
+> The exhaust outlet heat shields are made of two separate sections.
+>
+> Install the exhaust outlet heat shields over the exhaust outlet.
+>
+> The opposite bank is similar.
+>
+> Install the opposite bank exhaust outlet heat shields.
+>
+> Install the sixteen capscrews securing the exhaust outlet heat shields to the turbocharger heat shields.
+>
+> Use high temperature anti-sieze, Part Number 3824732, or equivalent, when installing the exhaust outlet heat shield capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the flexible heat shielding over the joint between the exhaust outlet heat shields and the turbocharger heat shields.
+>
+> ### Finishing Steps
+>
+> - Install the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]].

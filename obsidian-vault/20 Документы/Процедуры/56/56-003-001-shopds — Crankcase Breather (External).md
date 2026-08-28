@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 27
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-001-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-001-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather (External)
@@ -35,130 +37,214 @@ tags:
 > **Даты:** изменён 2013-05-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-001-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Box Type
 
-Remove the capscrew, nut and P-clip from the outlet hose brace.
+### Снятие
 
-Remove the outlet hoses from the brace.
+Тип коробки
+
+Удалите болты, гайки и P-клип из розеточного шланга.
+
+Снимите с брекета розеточные шланги.
 
 ![[03600045.png]]
 
-Remove the P-clip.
+Удалите P-клип.
 
 ![[03600044.png]]
 
-Loosen the hose clamps, as necessary.
+Уберите зажимы шланга, если это необходимо.
 
 ![[03600031.png]]
 
-Remove the hose (14) from the blowby sensor outlet.
+Удалите шланг (14) из розетки датчика продува.
 
 ![[03600040.png]]
 
-Remove the blowby sensor (15).
+Удалить датчик продува (15).
 
-Remove the reducer hose (16).
+Удалите шланг редуктора (16).
 
 ![[03600038.png]]
 
-Remove the hose (12) from the right-hand rear crankcase breather box outlet.
+Удалите шланг (12) из правой задней розетки капкан-дулоотвод.
 
 ![[03600036.png]]
 
-Remove the hose (10) between the front right-hand crankcase breather box outlet and the hand hole cover in the left bank number six location.
+Удалите шланг (10) между передней розеткой для дышащего клапана и крышкой ручного отверстия на левом берегу номер шесть.
 
 ![[03600034.png]]
 
-Remove the hose (11) between the front center crankcase breather box outlet and the hand hole cover in the left bank number five location.
+Удалите шланг (11) между передней центральной розеткой капкан-духодыхатель и крышкой ручного отверстия в левом берегу номер пять.
 
 ![[03600032.png]]
 
-Remove the hose (7) between the front left-hand crankcase breather box outlet and the hand hole cover in the left bank number five location.
+Удалите шланг (7) между передней левой розеткой капкан-духодыхатель и крышкой ручного отверстия в левом берегу номер пять.
 
 ![[03600030.png]]
 
-Remove the breather outlet hose.
+Удалите шланг для выдоха.
 
 ![[03600029.png]]
 
-Remove the capscrews and breather box from the bracket.
+Удалите болты и коробку для дыхания из скобки.
 
 ![[03600028.png]]
 
-Remove the bracket mounting capscrews.
+Снимите крепежные болты.
 
-Remove the bracket from the cam follower cover.
+Снимите скобку с крышки крана.
 
 ![[03600026.png]]
 
-Purse Type
+Тип кошелька
 
-Loosen the hose clamps as necessary.
+По мере необходимости ослабьте зажимы шланга.
 
 ![[03600031.png]]
 
-Remove the capscrews and hose braces from the outlet tubes and cylinder block.
+Удалите болты и шланги из выпускных трубок и блока цилиндров.
 
 ![[03600070.png]]
 
-Remove the long blowby hose from the bottom of the blowby sensor.
+Удалите длинный шланг от нижней части датчика.
 
-Remove the long outlet tube parallel to the blowby sensor.
+Удалите длинную выпускную трубку параллельно датчику продува.
 
 ![[03600069.png]]
 
-Remove the clamp which secures the blowby “Y” tube to the support brace.
+Удалите зажим, который обеспечивает продувную трубку «Y» на опорную скобу.
 
-Remove the blowby tube mounting capscrews from the dipstick hand hole cover.
+Удалите болты для крепления продувной трубы из крышки ручного отверстия для измерения уровня масла.
 
 ![[03600064.png]]
 
-Remove the “Y” tube from the breather box.
+Удалите трубку «Y» из коробки для передышки.
 
 ![[03600060.png]]
 
-Remove the two hoses connecting the breather box to the oil pan elbow connector.
+Удалите два шланга, соединяющие дыхательную коробку с разъемом локтя масляной подкладки.
 
-Remove the oil pan elbow and plug the orifice with an M42 plug, if necessary.
+Удалите локтевую панель масла и заглуните отверстие с помощью вилки M42, если это необходимо.
 
 ![[03600073.png]]
 
-Remove the capscrews which mount the breather box to the cam follower cover.
+Удалите болты, которые устанавливают коробку для передышки на крышку крана.
 
 ![[03600057.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the P-clips securing the flexible hoses.
+Удалите P-зажимы, обеспечивающие гибкие шланги.
 
 ![[03600127.png]]
 
-Remove the hose clamps securing the flexible hoses to the breather and remove the flexible hose.
+Удалите зажимы шланга, обеспечивающие гибкие шланги, и удалите гибкий шланг.
 
 ![[03600128.png]]
 
-Loosen the hose clamps on the breather tube (with oil fill) and remove the breather tube.
+Освободите зажимы шланга на дыхательной трубке (с масляным наполнением) и удалите дыхательную трубку.
 
 ![[03600129.png]]
 
-Loosen the hose clamps and remove the hoses.
+Освободите шланги и удалите шланги.
 
 ![[03600130.png]]
 
-Loosen the hose clamps and remove the molded hose.
+Освободите зажимы шланга и удалите формованный шланг.
 
 ![[03600131.png]]
 
-Loosen the hose clamps and remove the breather drain tube.
+Освободите зажимы шланга и удалите трубку для слива воздуха.
 
 ![[03600132.png]]
 
-Remove the four capscrews, drain pipe, and gasket. Discard the gasket.
+Удалите четыре болта, дренажную трубу и прокладку. Прокладку утилизируйте.
 
 ![[03600133.png]]
 
-Remove the mounting capscrews and crankcase breather.
+Удалите крепежные болты и заглушку.
 
 ![[03600134.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Box Type
+>
+> Remove the capscrew, nut and P-clip from the outlet hose brace.
+>
+> Remove the outlet hoses from the brace.
+>
+> Remove the P-clip.
+>
+> Loosen the hose clamps, as necessary.
+>
+> Remove the hose (14) from the blowby sensor outlet.
+>
+> Remove the blowby sensor (15).
+>
+> Remove the reducer hose (16).
+>
+> Remove the hose (12) from the right-hand rear crankcase breather box outlet.
+>
+> Remove the hose (10) between the front right-hand crankcase breather box outlet and the hand hole cover in the left bank number six location.
+>
+> Remove the hose (11) between the front center crankcase breather box outlet and the hand hole cover in the left bank number five location.
+>
+> Remove the hose (7) between the front left-hand crankcase breather box outlet and the hand hole cover in the left bank number five location.
+>
+> Remove the breather outlet hose.
+>
+> Remove the capscrews and breather box from the bracket.
+>
+> Remove the bracket mounting capscrews.
+>
+> Remove the bracket from the cam follower cover.
+>
+> Purse Type
+>
+> Loosen the hose clamps as necessary.
+>
+> Remove the capscrews and hose braces from the outlet tubes and cylinder block.
+>
+> Remove the long blowby hose from the bottom of the blowby sensor.
+>
+> Remove the long outlet tube parallel to the blowby sensor.
+>
+> Remove the clamp which secures the blowby “Y” tube to the support brace.
+>
+> Remove the blowby tube mounting capscrews from the dipstick hand hole cover.
+>
+> Remove the “Y” tube from the breather box.
+>
+> Remove the two hoses connecting the breather box to the oil pan elbow connector.
+>
+> Remove the oil pan elbow and plug the orifice with an M42 plug, if necessary.
+>
+> Remove the capscrews which mount the breather box to the cam follower cover.
+>
+> with Electronically Actuated Injector
+>
+> Remove the P-clips securing the flexible hoses.
+>
+> Remove the hose clamps securing the flexible hoses to the breather and remove the flexible hose.
+>
+> Loosen the hose clamps on the breather tube (with oil fill) and remove the breather tube.
+>
+> Loosen the hose clamps and remove the hoses.
+>
+> Loosen the hose clamps and remove the molded hose.
+>
+> Loosen the hose clamps and remove the breather drain tube.
+>
+> Remove the four capscrews, drain pipe, and gasket. Discard the gasket.
+>
+> Remove the mounting capscrews and crankcase breather.

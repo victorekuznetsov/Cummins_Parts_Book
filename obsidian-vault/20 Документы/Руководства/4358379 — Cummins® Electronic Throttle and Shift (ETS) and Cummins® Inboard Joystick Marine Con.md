@@ -41,8 +41,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4358379 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358379]]-t214-om | Thruster(s) Will Not Respond To Inboard Joystick Operation | 29-Aug-2019 |
-| [[4358379 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358379]]-t236-om | Lever Control Station/Inboard Joystick Will Not Take Control After Pressing The Station Transfer Button | 10-Sep-2019 |
+| [[[4358379 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358379]]-t214-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358379/4358379-t214-om.html) | Thruster(s) Will Not Respond To Inboard Joystick Operation | 29-Aug-2019 |
+| [[[4358379 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358379]]-t236-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358379/4358379-t236-om.html) | Lever Control Station/Inboard Joystick Will Not Take Control After Pressing The Station Transfer Button | 10-Sep-2019 |
 
 ### Section 2 - Maintenance Guidelines
 

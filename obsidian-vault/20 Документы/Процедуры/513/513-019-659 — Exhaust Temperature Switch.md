@@ -12,13 +12,15 @@ families:
 manuals:
   - "5411480"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-019-659.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-019-659.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # Exhaust Temperature Switch
@@ -31,82 +33,164 @@ tags:
 > **Даты:** изменён 2019-09-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-019-659.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-019-659.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Electrical test lead, Part Number 3823993
-- Electrical test lead, Part Number 3823994.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Электрический испытательный щуп, номер детали 3823993
+- Электрический испытательный щуп, номер детали 3823994.
 
-### General Information
+#### Дополнительные сервисные позиции
 
-The exhaust temperature switch is used to indicate an over temperature condition of the exhaust and is located on the exhaust plumbing.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-> [!note] Note · Примечание
-> The content of this procedure is for the Cummins®-supplied part. Some applications may use an exhaust temperature sensor instead of a switch. Refer to the engine service manual if a sensor is used.
+### Общие сведения
 
-### Initial Check
+Переключатель температуры выхлопных газов используется для указания на состояние перегрева выхлопных газов и расположен на выхлопной сантехнике.
 
-Use the following procedure for information on using the ED-4 to troubleshoot sensor issues. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15]].
+> [!note] Примечание
+> Содержание этой процедуры предназначено для части, поставляемой Cummins®. Некоторые приложения могут использовать датчик температуры выхлопных газов вместо переключателя. Посмотрите руководство по обслуживанию двигателя, если используется датчик.
 
-### Preparatory Steps
+### Первичная проверка
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+Используйте следующую процедуру для получения информации об использовании ED-4 для устранения неполадок датчика.[[513-015-035 — Display(s) and Instrumentation|См. процедуру 015-035 в разделе 15.]].
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Clean the area around the switch.
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Disconnect the switch connector from the harness.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Очистите область вокруг выключателя.
 
-Remove the switch from the exhaust plumbing.
+### Снятие
+
+Отсоедините разъем переключателя от проводной упряжки.
+
+Удалите выключатель из выхлопной трубы.
 
 ![[19e02085.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Inspect the harness connector and switch for the following:
+Осмотрите разъём и переключатель проводной упряжки на следующее:
 
-- Cracked or broken connector shell, if equipped
-- Missing or damaged connector seals, if equipped
-- Dirt, debris, or moisture, in or on the connector pins
-- Corroded, bent, broken, pushed back, or expanded pins
-- Chipped, cracked, extruded or damaged switch.
+- Разбитая или сломанная соединительная оболочка, если она оборудована
+- Отсутствие или повреждение соединительных уплотнений, если они оборудованы
+- Грязь, мусор или влага, в или на контактах разъема
+- Коррозийные, согнутые, сломанные, отодвинутые назад или расширенные булавки
+- Обрубленный, треснувший, выдавленный или поврежденный выключатель.
 
-Repair or replace parts as necessary.
+Ремонт или замена деталей по мере необходимости.
 
 ![[19e02086.png]]
 
-Measure across the switch terminals and compare with the table shown below.
+Измерьте поперек терминалов коммутатора и сравните с таблицей, показанной ниже.
 
-| Temperature +/- 12°C | Temperature +/- 10°F | State | Resistance Ohms |
+| Температура +/- 12°C | Температура +/- 10°F | государство | Сопротивление Омс |
 |---|---|---|---|
-| Below 99°C | Below 210°F | Open | 10 or Less |
-| Above 121°C | Above 250°F | Closed | 100k or More |
+| ниже 99°C | ниже 210°F | Открыть | 10 или меньше |
+| Выше 121°C | Выше 250°F | Закрыто | 100к или больше |
 
 ![[19e02105.png]]
 
-### Install
+### Установка
 
-Install the switch into the exhaust plumbing.
+Установите выключатель в выхлопную трубу.
 
-Tighten the mounting screws hand-tight.
+Затягивайте крепежные винты ручной герметично.
 
-Connect the harness to the switch.
+Подключите проводку к переключателю.
 
 ![[19e02085.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем. Проверьте на отсутствие утечек.
+- Проведите системный тест для проверки правильности работы.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Electrical test lead, Part Number 3823993
+> - Electrical test lead, Part Number 3823994.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> The exhaust temperature switch is used to indicate an over temperature condition of the exhaust and is located on the exhaust plumbing.
+>
+> **Note · Примечание**
+> The content of this procedure is for the Cummins®-supplied part. Some applications may use an exhaust temperature sensor instead of a switch. Refer to the engine service manual if a sensor is used.
+>
+> ### Initial Check
+>
+> Use the following procedure for information on using the ED-4 to troubleshoot sensor issues. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15]].
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine. Check for leaks.
-- Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Clean the area around the switch.
+>
+> ### Remove
+>
+> Disconnect the switch connector from the harness.
+>
+> Remove the switch from the exhaust plumbing.
+>
+> ### Clean and Inspect for Reuse
+>
+> Inspect the harness connector and switch for the following:
+>
+> - Cracked or broken connector shell, if equipped
+> - Missing or damaged connector seals, if equipped
+> - Dirt, debris, or moisture, in or on the connector pins
+> - Corroded, bent, broken, pushed back, or expanded pins
+> - Chipped, cracked, extruded or damaged switch.
+>
+> Repair or replace parts as necessary.
+>
+> Measure across the switch terminals and compare with the table shown below.
+>
+> | Temperature +/- 12°C | Temperature +/- 10°F | State | Resistance Ohms |
+> |---|---|---|---|
+> | Below 99°C | Below 210°F | Open | 10 or Less |
+> | Above 121°C | Above 250°F | Closed | 100k or More |
+>
+> ### Install
+>
+> Install the switch into the exhaust plumbing.
+>
+> Tighten the mounting screws hand-tight.
+>
+> Connect the harness to the switch.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine. Check for leaks.
+> - Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc497.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc497.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # MultiUnit Synchronous Switch Error
@@ -34,28 +36,62 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc497.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc497.pdf)
 
-### Fault Code: 497
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### MultiUnit Synchronous Switch Error
 
-Printable Version
+### Код неисправности: 497
 
-### Overview
+### MultiUnit Synchronous Switch ошибка
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 497 PID(P): S114 SPN: 1377 FMI: 2 Lamp: Yellow SRT: | Multiunit synchronous on/off switch and multiunit synchronous complimentary on/off switch have different values at the ECM. | Multiunit synchronous feature is disabled. |
+| Код неисправности: 497 PID(P): S114 SPN: 1377 FMI: 2 лампы: Желтая СТО: | Многоединый синхронный переключатель включения/выключения и многоединый синхронный бесплатный переключатель включения/выключения имеют разные значения в ECM. | Многоединая синхронная функция отключена. |
 
 ![[19400687.png]]
 
-MultiUnit Synchronous Switch Circuit
+MultiUnit Synchronous коммутационная схема
 
-### Circuit Description
+### Описание цепи
 
-The multiunit synchronous uses a complimentary switch to provide two opposite signals into the ECM.
+Многоединичная синхронная система использует дополнительный переключатель для подачи двух противоположных сигналов в ECM.
 
-### Component Location
+### Расположение компонента
 
-The multiunit synchronous switch is cab-mounted. Refer to the OEM manual for specific location.
+Многоузловой синхронный переключатель установлен кабиной. См. руководство OEM для конкретного местоположения.
 
-Refer to Troubleshooting Fault Code t05-497
+См. Код устранения неполадок t05-497
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 497
+>
+> ### MultiUnit Synchronous Switch Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 497 PID(P): S114 SPN: 1377 FMI: 2 Lamp: Yellow SRT: | Multiunit synchronous on/off switch and multiunit synchronous complimentary on/off switch have different values at the ECM. | Multiunit synchronous feature is disabled. |
+>
+> MultiUnit Synchronous Switch Circuit
+>
+> ### Circuit Description
+>
+> The multiunit synchronous uses a complimentary switch to provide two opposite signals into the ECM.
+>
+> ### Component Location
+>
+> The multiunit synchronous switch is cab-mounted. Refer to the OEM manual for specific location.
+>
+> Refer to Troubleshooting Fault Code t05-497

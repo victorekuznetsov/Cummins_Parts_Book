@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Control Lever and Spring
@@ -33,8 +35,22 @@ tags:
 > **Даты:** изменён 2003-09-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-018.pdf)
 
-### Adjust
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The amount of fuel injected, and subsequently the speed and power from the engine, is controlled by the fuel control lever. Restricted travel of the lever can cause low power. **Always** check for full travel of the lever when diagnosing a low-power complaint.
+
+### Регулировка
+
+Количество впрыскиваемого топлива, а затем скорость и мощность двигателя контролируются рычагом управления топливом. Ограниченное движение рычага может вызвать низкую мощность. Всегда проверяйте полное движение рычага при диагностике жалобы с низким энергопотреблением.
 
 ![[fp9lvna.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Adjust
+>
+> The amount of fuel injected, and subsequently the speed and power from the engine, is controlled by the fuel control lever. Restricted travel of the lever can cause low power. **Always** check for full travel of the lever when diagnosing a low-power complaint.

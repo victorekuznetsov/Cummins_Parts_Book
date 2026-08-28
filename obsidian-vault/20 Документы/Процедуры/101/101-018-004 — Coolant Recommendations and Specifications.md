@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021940"
 figures: 12
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-018-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-018-004.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Coolant Recommendations and Specifications
@@ -35,160 +37,304 @@ tags:
 > **Даты:** изменён 2008-03-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-018-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-018-004.pdf)
 
-### Fully Formulated Coolant/Antifreeze
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cummins Inc. recommends using either a 50/50 mixture of good-quality water and fully formulated antifreeze, or fully formulated coolant when filling the cooling system. The fully formulated antifreeze or coolant **must** meet TMC RP329 or TMC RP330 specifications.
 
-> [!note] Note · Примечание
-> Use of products meeting TMC RP329 or RP330 is necessary for 50,000-mile and 150,000-mile service intervals.
+### Полностью сформулированный охладитель / антифриз
 
-> [!note] Note · Примечание
-> Low-silicate antifreeze meeting ASTM D4985 is inadequate for these extended service intervals.
+Cummins Inc. Рекомендуется использовать либо смесь 50/50 воды хорошего качества и полностью приготовленный антифриз, либо полностью приготовленную охлаждающую жидкость при заполнении системы охлаждения. Полностью разработанный антифриз или охлаждающая жидкость должны соответствовать спецификациям TMC RP329 или TMC RP330.
+
+> [!note] Примечание
+> Использование продуктов, соответствующих требованиям TMC RP329 или RP330, необходимо в течение 50 000 миль и 150 000 миль.
+
+> [!note] Примечание
+> Низкосиликатные антифризы, встречающиеся с ASTM D4985, не подходят для этих расширенных интервалов обслуживания.
 
 ![[08c00150.png]]
 
-Good-quality water is important for cooling system performance. Excessive levels of calcium and magnesium contribute to scaling problems, and excessive levels of chlorides and sulfates cause cooling system corrosion.
+Качественная вода важна для производительности системы охлаждения. Чрезмерное содержание кальция и магния способствует проблемам масштабирования, а чрезмерное содержание хлоридов и сульфатов вызывает коррозию системы охлаждения.
 
-| Water Quality |  |
+| Качество воды |  |
 |---|---|
-| Calcium Magnesium (Hardness) | Maximum 170 ppm as (CaCO 3 + MgCO 3) |
-| Chloride | 40 ppm as (CI) |
-| Sulfate | 100 ppm as (SO 4) |
+| Магний кальция (Тяжесть) | Максимальная скорость 170 ppm (CaCO 3 + MgCO 3) |
+| Хлорид | 40 ppm (CI) |
+| сульфат | 100 ppm (SO 4) |
 
 ![[nobox.png]]
 
-Cummins Inc. recommends using Fleetguard® COMPLEAT ES. It is available in glycol forms (ethylene and propylene) and complies with TMC RP329 and RP330 standards.
+Cummins Inc. Рекомендуется использовать Fleetguard® COMPLEAT ES. Он доступен в гликольных формах (этилен и пропилен) и соответствует стандартам TMC RP329 и RP330.
 
 ![[08c00127.png]]
 
-Fully formulated antifreeze **must** be mixed with quality water at a 50/50 ratio (40-percent to 60-percent working range). A 50/50 mixture of antifreeze and water gives a -36°C \[-34°F\] freezing point and a 110°C \[228°F\] boiling point, which is adequate for locations in North America. The actual lowest freezing point of ethylene glycol antifreeze is 68 percent. Using higher concentrations of antifreeze will raise the freezing point of the solution and increase the possibility of a silica gel problem.
+Полностью приготовленный антифриз должен быть смешан с качественной водой в соотношении 50/50 (40-60-процентный рабочий диапазон). Смесь антифриза и воды 50/50 дает точку замерзания -36 ° C \[-34 ° F \] и точку кипения 110° C \[228 ° F \], которая является адекватной для мест в Северной Америке. Самая низкая точка замерзания этиленгликоля антифриз составляет 68%. Использование более высоких концентраций антифриза повысит температуру замерзания раствора и увеличит вероятность возникновения проблемы с силикагелем.
 
 ![[oi801wh.png]]
 
-A refractometer **must** be used to measure the freezing point of the coolant **accurately**.
+Рефрактометр **должен **использоваться для точного измерения точки замерзания охлаждающей жидкости.
 
 ![[ra8toda.png]]
 
-Do **not** use a floating ball hydrometer. Using a floating ball hydrometer can give an incorrect reading.
+не использовать плавающий шар гидрометр. Использование гидрометра с плавающим шаром может дать неправильное считывание.
 
 ![[oi804vw.png]]
 
-### Cooling System Sealing Additives
+### Системы охлаждения Sealing Additives
 
-Do **not** use sealing additives in the cooling systems. The use of sealing additives can:
+**не** использовать уплотнительные добавки в системах охлаждения. Использование уплотняющих добавок может:
 
-- Build up in coolant low-flow areas
-- Clog coolant filters
-- Plug radiator and oil cooler.
+- Построить в охлаждающей жидкости низкотекущих областях
+- Фильтры для охлаждения клогона
+- Радиатор и масляный охладитель.
 
 ![[ra800ba.png]]
 
-### Cooling System Soluble Oils
+### Система охлаждения растворимые масла
 
-Do **not** use soluble oils in the cooling system. The use of soluble oils can:
+не использовать растворимые масла в системе охлаждения. Использование растворимых масел может:
 
-- Allow cylinder liner pitting
-- Corrode brass, aluminum, and copper
-- Damage heat transfer surfaces
-- Damage seals and hoses.
+- Разрешить питтинг цилиндров
+- Медь, алюминий и медь
+- Повреждение поверхностей теплопередачи
+- Повреждают уплотнения и шланги.
 
 ![[ra800bb.png]]
 
-### Supplemental Coolant Additive (SCA)
+### Присадка к охлаждающей жидкости (SCA)
 
-> [!warning] CAUTION · Осторожно
-> The Signature, ISX, and QSX15 engines use aluminum parts that are in contact with the coolant. Improper coolant, coolant filter selection, and maintenance will likely result in perforation of one of these parts. Insufficient concentration of the coolant additives will result in liner pitting and engine failure.
+> [!warning] ОСТОРОЖНО
+> Двигатели Signature, ISX и QSX15 используют алюминиевые детали, которые находятся в контакте с охлаждающей жидкостью. Неправильная охладительность, выбор фильтра охлаждающей жидкости и техническое обслуживание, вероятно, приведут к перфорации одной из этих частей. Недостаточная концентрация добавок охлаждающей жидкости приведет к прокладке гильзы и отказу двигателя.
 
-Fully formulated products contain SCAs and are required to protect the cooling system from scale and fouling, solder corrosion, and general corrosion. The coolant filter is required to protect the cooling system from abrasive materials, debris, and precipitated coolant additives.
+Полностью разработанные продукты содержат SCA и необходимы для защиты системы охлаждения от масштаба и загрязнения, коррозии припоя и общей коррозии. Фильтр охлаждающей жидкости необходим для защиты системы охлаждения от абразивных материалов, мусора и осажденных добавок охлаждающей жидкости.
 
 ![[08200020.png]]
 
-### Fleetguard® DCA4 Service Filters and Liquid Precharge
+### Фильтры Fleetguard® DCA4 Service и предзарядка жидкостей
 
-Signature, ISX, and QSX15 Series Coolant Filter Options:
+Подпись, ISX и QSX15 серии фильтра охлаждения:
 
-**WF2125** - This filter is designed for use with Fleetguard®'s extended service cooling system, which extends cooling system service to 1 year, 150,000 miles, or 4000 hours, whichever comes first. This filter is used for cooling systems up to 20 gallons. Refer to Coolant Requirements and Maintenance, Bulletin [[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]]. Fleetguard® ES coolant **must** be used for all fill and top-off, which is critical for extended cooling system maintenance intervals.
+**WF2125** - Этот фильтр предназначен для использования с системой охлаждения Fleetguard®, которая расширяет срок службы системы охлаждения до 1 года, 150 000 миль или 4000 часов, в зависимости от того, что наступит раньше. Этот фильтр используется для охлаждения систем до 20 галлонов. См. Требования к охлаждению и техническому обслуживанию, Бюллетень[[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]]. Охладитель Fleetguard® ES должен использоваться для всех заливок и отливов, что имеет решающее значение для расширенных интервалов обслуживания системы охлаждения.
 
-**WF2126** - This filter is designed for extended service intervals up to 50,000 miles when using TMC RP329 or RP330 coolants and is used for cooling systems up to 20 gallons. Refer to Coolant Requirements and Maintenance, Bulletin [[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]].
+**WF2126** - Этот фильтр предназначен для увеличения интервалов обслуживания до 50 000 миль при использовании охлаждающих жидкостей TMC RP329 или RP330 и используется для систем охлаждения до 20 галлонов. См. Требования к охлаждению и техническому обслуживанию, Бюллетень[[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]].
 
-**WF2127** - This filter has been designed for extended service intervals of 50,000 to 150,000 miles. It has no chemical additives and can be used in the following systems:
+**WF2127** - Этот фильтр был разработан для увеличения интервалов обслуживания от 50 000 до 150 000 миль. Он не содержит химических добавок и может использоваться в следующих системах:
 
-- Cooling systems above 20 gallons in capacity.
-- See maintenance chart below.
+- Системы охлаждения свыше 20 галлонов вместимости.
+- См. график технического обслуживания ниже.
 
-When using WF2127 filter, the following volumes of treatment **must** be added at the designated mileages:
+При использовании фильтра WF2127 необходимо добавить следующие объемы обработки на указанные пробеги:
 
-| Cooling System Capacity | 50,000-Mile Service Interval with RP329/330 Coolant or Treated Water (Fleetcool or DCA4) | 150,000-Mile Service Interval with ES Coolant (ES Liquid) |
+| Мощность системы охлаждения | 50,000-мильный сервисный интервал с RP329/330 охлаждающей или обработанной водой (Fleetcool или DCA4) | 150,000-мильный интервал обслуживания с ES Coolant (ES Liquid) |
 |---|---|---|
-| 0 to 20 gallons | 1 qt (10 units) | 1 qt (15 units) |
-| 20 to 40 gallons | 2 qt (20 units) | 2 qt (30 units) |
-| 40 to 60 gallons | 3 qt (30 units) | 3 qt (45 units) |
-| 60 to 80 gallons | 4 qt (40 units) | 4 qt (60 units) |
-| 80 to 100 gallons | 5 qt (50 units) | 5 qt (75 units) |
+| От 0 до 20 галлонов | 1 кв.км (10 единиц) | 1 квт (15 единиц) |
+| 20 - 40 галлонов | 2 кв.км (20 единиц) | 2 квт (30 единиц) |
+| 40-60 галлонов | 3 квт (30 единиц) | 3 квт (45 единиц) |
+| 60-80 галлонов | 4 квт (40 единиц) | 4 квт (60 единиц) |
+| 80-100 галлонов | 5 квт (50 единиц) | 5 квт (75 единиц) |
 
-> [!note] Note · Примечание
-> Filters **must** meet Cummins SAM 10,769. Fleetguard® filters meet Cummins SAM 10,769. The standard filter for the Signature engine is Fleetguard® WF2126. For systems larger than 100 gallons, use 1 quart per 15 gallons. Consult vehicle manufacturer for total cooling system capacity.
+> [!note] Примечание
+> Фильтры должны соответствовать Cummins SAM 10 769. Фильтры Fleetguard® соответствуют Cummins SAM 10 769. Стандартным фильтром для двигателя Signature является Fleetguard® WF2126. Для систем, превышающих 100 галлонов, используйте 1 кварт на 15 галлонов. Проконсультируйтесь с производителем автомобилей по поводу общей мощности системы охлаждения.
 
-### Testing SCA Concentration Level CC-2602 Test Kit
+### Тестирование SCA Концентрационный уровень CC-2602
 
-Precautions and Instructions for Proper Kit Use
+Меры предосторожности и инструкции для правильного использования набора
 
-Carefully follow the instructions to test the coolant. Take the appropriate action recommended by the kit.
+Внимательно следуйте инструкциям по тестированию охлаждающей жидкости. Примите соответствующие меры, рекомендованные комплектом.
 
-- The coolant sample to be tested **must** be between 10 and 54 °C \[50 and 130°F\]. If the sample is too cold or too hot, you will get incorrect results.
-- To get the best color match results, compare test strip pads to the color chart in daylight or under cool white fluorescent lighting. If unsure about a specific color match when a test does fall between two colors on the color chart, choose the lower numbered (or lettered) block. It is safer to underestimate your results than to overestimate.
-- The test strips do have a limited shelf life and are sensitive to humidity and extreme heat. Proper handling and storage is necessary to protect the life of the strips.
-- Keep the cap tightly sealed on the test strip bottle **except** when removing a strip. Store away from direct sunlight and in an area where the temperature will generally stay below 32°C \[90°F\].
-- Do **not** use the test strips after the expiration date stamped on the bottle.
-- Discard the kit if the top pad on the unused strips have turned light brown.
-- Use one strip at a time and take care **not** to touch any of the pads on the strip. Doing so will contaminate the pads and skew the test results.
-- If the strip container is left uncapped for 24 hours, moisture in the air will render the strips useless, even though no discoloration will be evident.
-- **Only** use the color chart supplied with the kit.
-- Following the correct test times is very important. Use a clock or stopwatch.
-- Do **not** utilize the test kit to maintain minimum SCA concentration levels (i.e., 1.5 units).
-- When performing service that requires draining the cooling system, take special precautions to collect coolant in a clean non-galvanized container, seal coolant to prevent contamination, and save for reuse.
+- Образец охлаждающей жидкости, подлежащий испытанию, должен быть от 10 до 54 °C \[50 до 130°F\]. Если образец слишком холодный или слишком горячий, вы получите неправильные результаты.
+- Чтобы получить лучшие результаты соответствия цвета, сравните прокладки для тест-полосок с цветовой диаграммой при дневном свете или при прохладном белом флуоресцентном освещении. Если вы не уверены в определенном цветовом совпадении, когда тест действительно попадает между двумя цветами на цветовой диаграмме, выберите нижний пронумерованный (или буквенный) блок. Лучше недооценивать свои результаты, чем переоценивать.
+- Измерительные полосы имеют ограниченный срок хранения и чувствительны к влажности и экстремальной жаре. Правильная обработка и хранение необходимы для защиты жизни полос.
+- Держите колпачок плотно запечатанным на бутылке для тест-полоски**, за исключением **при снятии полоски. Храните вдали от прямых солнечных лучей и в области, где температура обычно будет оставаться ниже 32 ° C [90 ° F ].
+- не использовать тест-полоски после истечения срока годности, проштампованного на бутылке.
+- Отбросьте комплект, если верхняя панель на неиспользованных полосах стала светло-коричневой.
+- Используйте одну полосу за раз и позаботьтесь о том, чтобы не касаться ни одной из прокладок на полосе. Это загрязнит прокладки и исказит результаты теста.
+- Если контейнер для полосы оставить незакрытым в течение 24 часов, влага в воздухе сделает полосы бесполезными, даже если обесцвечивание не будет очевидным.
+- **Только **используйте цветовую диаграмму, снабженную комплектом.
+- Правильные сроки проведения измерительн очень важны. Используйте часы или секундомер.
+- не использовать измерительный комплект для поддержания минимальных уровней концентрации SCA (т.е. 1,5 единицы).
+- При выполнении работы, требующей слива системы охлаждения, примите специальные меры предосторожности для сбора охлаждающей жидкости в чистом не оцинкованном контейнере, уплотните охлаждающую жидкость для предотвращения загрязнения и сохраните ее для повторного использования.
 
-Coolant Testing:
+Тестирование на охлаждение:
 
-- Probablizer:
+- Пробаблизер:
 
-  - 3318169S Plug - Installs on the engine for easy coolant sampling
-  - 3318168S Cap - Use with Monitor C bottle to sample coolant
-  - CC2700 Monitor C™ - Use lab analysis of coolant samples for more detailed analysis.
+  - 3318169S Plug - Установки на двигателе для легкой выборки охлаждающей жидкости
+  - 3318168S Cap - Использование с бутылкой Монитор С для отбора проб охлаждающей жидкости
+  - CC2700 Monitor CTM - Используйте лабораторный анализ образцов охлаждающей жидкости для более детального анализа.
 
-CC2602 Coolant Test Kit:
+CC2602 Измерительный комплект для охлаждения:
 
-- Works with any SCA formulation. Call 1-800-22FILTER (800-223-4583) if you have this test kit and the color chart does **not** show the number of units of SCA gallon of coolant.)
+- Работает с любой формулой SCA. Позвоните по телефону 1-800-22FILTER (800-223-4583), если у вас есть этот измерительный комплект, и цветовая диаграмма не показывает количество единиц SCA галлона охлаждающей жидкости.
 
-### Test Intervals
+### Интервалы испытаний
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Подождите, пока температура охлаждающей жидкости не будет ниже 50°C \[120°F\], прежде чем снимать крышку давления радиатора. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Testing is recommended if the operator is **not** sure of his cooling system condition due to leaks, uncontrolled topping off of the system, or major coolant loss.
+Тестирование рекомендуется, если оператор не уверен в состоянии своей системы охлаждения из-за утечек, неконтролируемого отключения системы или значительной потери охлаждающей жидкости.
 
-If the concentration is below 1.2 units per gallon, replace the filter and precharge with liquid.
+Если концентрация ниже 1,2 единицы на галлон, замените фильтр и предоплату жидкостью.
 
 ![[08c00152.png]]
 
-Check the SCA concentration level at least every 6 months, and anytime the coolant condition is unknown or corrosion is apparent within the cooling system.
+Проверяйте уровень концентрации SCA не реже одного раза в 6 месяцев, и в любое время состояние охлаждающей жидкости неизвестно или в системе охлаждения проявляется коррозия.
 
-Use Fleetguard® coolant test kit, CC2602, to check the concentration level. Instructions are included with the test kit.
+Используйте измерительный комплект охлаждающей жидкости Fleetguard® CC2602 для проверки уровня концентрации. Инструкции включены в комплект для испытаний.
 
-Call the following numbers to get answers to any questions you have about cooling system maintenance:
+Позвоните по следующим номерам, чтобы получить ответы на любые вопросы, которые у вас есть о техническом обслуживании системы охлаждения:
 
-| Cummins | Fleetguard® |
+| Камминс | Fleetguard® |
 |---|---|
-| **1-800-DIESELS** | **1-800-22FILTER** |
+| **1-800 ДИЗЕЛЕЙ** | **1-800-22Фильтр** |
 | **1-800-343-7357** | **1-800-223-4583** |
 
 ![[nobox.png]]
 
-### Coolant Replacement Requirements
+### Требования к замене охлаждающей жидкости
 
-Drain and flush the cooling system after 6000 hours or 3 years of service. However, if Fleetguard®'s ES coolant and ES filters are used, check chloride, sulfate, and pH levels according to Coolant Requirements and Maintenance, Bulletin 3666132, to determine whether the coolant **must** be replaced. Refill with either new fully formulated coolant or ES coolant.
+Слив и промывка системы охлаждения после 6000 часов или 3 лет службы. Однако, если используются ES-хладагент и ES-фильтры Fleetguard®, проверьте уровень хлорида, сульфата и pH в соответствии с требованиями к охлаждающим веществам и техническому обслуживанию, в бюллетене 3666132, чтобы определить, следует ли заменить охлаждающую жидкость. Заправляйте либо новым полностью сформулированным охлаждающим веществом, либо охлаждающим веществом ES.
 
-> [!note] Note · Примечание
-> Dispose of used coolant/antifreeze in accordance with federal, state, and local laws and regulations.
+> [!note] Примечание
+> Утилизировать использованную охлаждающую жидкость / антифриз в соответствии с федеральными, государственными и местными законами и правилами.
 
 ![[oi805vh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fully Formulated Coolant/Antifreeze
+>
+> Cummins Inc. recommends using either a 50/50 mixture of good-quality water and fully formulated antifreeze, or fully formulated coolant when filling the cooling system. The fully formulated antifreeze or coolant **must** meet TMC RP329 or TMC RP330 specifications.
+>
+> **Note · Примечание**
+> Use of products meeting TMC RP329 or RP330 is necessary for 50,000-mile and 150,000-mile service intervals.
+>
+> **Note · Примечание**
+> Low-silicate antifreeze meeting ASTM D4985 is inadequate for these extended service intervals.
+>
+> Good-quality water is important for cooling system performance. Excessive levels of calcium and magnesium contribute to scaling problems, and excessive levels of chlorides and sulfates cause cooling system corrosion.
+>
+> | Water Quality |  |
+> |---|---|
+> | Calcium Magnesium (Hardness) | Maximum 170 ppm as (CaCO 3 + MgCO 3) |
+> | Chloride | 40 ppm as (CI) |
+> | Sulfate | 100 ppm as (SO 4) |
+>
+> Cummins Inc. recommends using Fleetguard® COMPLEAT ES. It is available in glycol forms (ethylene and propylene) and complies with TMC RP329 and RP330 standards.
+>
+> Fully formulated antifreeze **must** be mixed with quality water at a 50/50 ratio (40-percent to 60-percent working range). A 50/50 mixture of antifreeze and water gives a -36°C \[-34°F\] freezing point and a 110°C \[228°F\] boiling point, which is adequate for locations in North America. The actual lowest freezing point of ethylene glycol antifreeze is 68 percent. Using higher concentrations of antifreeze will raise the freezing point of the solution and increase the possibility of a silica gel problem.
+>
+> A refractometer **must** be used to measure the freezing point of the coolant **accurately**.
+>
+> Do **not** use a floating ball hydrometer. Using a floating ball hydrometer can give an incorrect reading.
+>
+> ### Cooling System Sealing Additives
+>
+> Do **not** use sealing additives in the cooling systems. The use of sealing additives can:
+>
+> - Build up in coolant low-flow areas
+> - Clog coolant filters
+> - Plug radiator and oil cooler.
+>
+> ### Cooling System Soluble Oils
+>
+> Do **not** use soluble oils in the cooling system. The use of soluble oils can:
+>
+> - Allow cylinder liner pitting
+> - Corrode brass, aluminum, and copper
+> - Damage heat transfer surfaces
+> - Damage seals and hoses.
+>
+> ### Supplemental Coolant Additive (SCA)
+>
+> **CAUTION · Осторожно**
+> The Signature, ISX, and QSX15 engines use aluminum parts that are in contact with the coolant. Improper coolant, coolant filter selection, and maintenance will likely result in perforation of one of these parts. Insufficient concentration of the coolant additives will result in liner pitting and engine failure.
+>
+> Fully formulated products contain SCAs and are required to protect the cooling system from scale and fouling, solder corrosion, and general corrosion. The coolant filter is required to protect the cooling system from abrasive materials, debris, and precipitated coolant additives.
+>
+> ### Fleetguard® DCA4 Service Filters and Liquid Precharge
+>
+> Signature, ISX, and QSX15 Series Coolant Filter Options:
+>
+> **WF2125** - This filter is designed for use with Fleetguard®'s extended service cooling system, which extends cooling system service to 1 year, 150,000 miles, or 4000 hours, whichever comes first. This filter is used for cooling systems up to 20 gallons. Refer to Coolant Requirements and Maintenance, Bulletin [[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]]. Fleetguard® ES coolant **must** be used for all fill and top-off, which is critical for extended cooling system maintenance intervals.
+>
+> **WF2126** - This filter is designed for extended service intervals up to 50,000 miles when using TMC RP329 or RP330 coolants and is used for cooling systems up to 20 gallons. Refer to Coolant Requirements and Maintenance, Bulletin [[3666132 — Cummins® Coolant Requirements and Maintenance|3666132]].
+>
+> **WF2127** - This filter has been designed for extended service intervals of 50,000 to 150,000 miles. It has no chemical additives and can be used in the following systems:
+>
+> - Cooling systems above 20 gallons in capacity.
+> - See maintenance chart below.
+>
+> When using WF2127 filter, the following volumes of treatment **must** be added at the designated mileages:
+>
+> | Cooling System Capacity | 50,000-Mile Service Interval with RP329/330 Coolant or Treated Water (Fleetcool or DCA4) | 150,000-Mile Service Interval with ES Coolant (ES Liquid) |
+> |---|---|---|
+> | 0 to 20 gallons | 1 qt (10 units) | 1 qt (15 units) |
+> | 20 to 40 gallons | 2 qt (20 units) | 2 qt (30 units) |
+> | 40 to 60 gallons | 3 qt (30 units) | 3 qt (45 units) |
+> | 60 to 80 gallons | 4 qt (40 units) | 4 qt (60 units) |
+> | 80 to 100 gallons | 5 qt (50 units) | 5 qt (75 units) |
+>
+> **Note · Примечание**
+> Filters **must** meet Cummins SAM 10,769. Fleetguard® filters meet Cummins SAM 10,769. The standard filter for the Signature engine is Fleetguard® WF2126. For systems larger than 100 gallons, use 1 quart per 15 gallons. Consult vehicle manufacturer for total cooling system capacity.
+>
+> ### Testing SCA Concentration Level CC-2602 Test Kit
+>
+> Precautions and Instructions for Proper Kit Use
+>
+> Carefully follow the instructions to test the coolant. Take the appropriate action recommended by the kit.
+>
+> - The coolant sample to be tested **must** be between 10 and 54 °C \[50 and 130°F\]. If the sample is too cold or too hot, you will get incorrect results.
+> - To get the best color match results, compare test strip pads to the color chart in daylight or under cool white fluorescent lighting. If unsure about a specific color match when a test does fall between two colors on the color chart, choose the lower numbered (or lettered) block. It is safer to underestimate your results than to overestimate.
+> - The test strips do have a limited shelf life and are sensitive to humidity and extreme heat. Proper handling and storage is necessary to protect the life of the strips.
+> - Keep the cap tightly sealed on the test strip bottle **except** when removing a strip. Store away from direct sunlight and in an area where the temperature will generally stay below 32°C \[90°F\].
+> - Do **not** use the test strips after the expiration date stamped on the bottle.
+> - Discard the kit if the top pad on the unused strips have turned light brown.
+> - Use one strip at a time and take care **not** to touch any of the pads on the strip. Doing so will contaminate the pads and skew the test results.
+> - If the strip container is left uncapped for 24 hours, moisture in the air will render the strips useless, even though no discoloration will be evident.
+> - **Only** use the color chart supplied with the kit.
+> - Following the correct test times is very important. Use a clock or stopwatch.
+> - Do **not** utilize the test kit to maintain minimum SCA concentration levels (i.e., 1.5 units).
+> - When performing service that requires draining the cooling system, take special precautions to collect coolant in a clean non-galvanized container, seal coolant to prevent contamination, and save for reuse.
+>
+> Coolant Testing:
+>
+> - Probablizer:
+>
+>   - 3318169S Plug - Installs on the engine for easy coolant sampling
+>   - 3318168S Cap - Use with Monitor C bottle to sample coolant
+>   - CC2700 Monitor C™ - Use lab analysis of coolant samples for more detailed analysis.
+>
+> CC2602 Coolant Test Kit:
+>
+> - Works with any SCA formulation. Call 1-800-22FILTER (800-223-4583) if you have this test kit and the color chart does **not** show the number of units of SCA gallon of coolant.)
+>
+> ### Test Intervals
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Testing is recommended if the operator is **not** sure of his cooling system condition due to leaks, uncontrolled topping off of the system, or major coolant loss.
+>
+> If the concentration is below 1.2 units per gallon, replace the filter and precharge with liquid.
+>
+> Check the SCA concentration level at least every 6 months, and anytime the coolant condition is unknown or corrosion is apparent within the cooling system.
+>
+> Use Fleetguard® coolant test kit, CC2602, to check the concentration level. Instructions are included with the test kit.
+>
+> Call the following numbers to get answers to any questions you have about cooling system maintenance:
+>
+> | Cummins | Fleetguard® |
+> |---|---|
+> | **1-800-DIESELS** | **1-800-22FILTER** |
+> | **1-800-343-7357** | **1-800-223-4583** |
+>
+> ### Coolant Replacement Requirements
+>
+> Drain and flush the cooling system after 6000 hours or 3 years of service. However, if Fleetguard®'s ES coolant and ES filters are used, check chloride, sulfate, and pH levels according to Coolant Requirements and Maintenance, Bulletin 3666132, to determine whether the coolant **must** be replaced. Refill with either new fully formulated coolant or ES coolant.
+>
+> **Note · Примечание**
+> Dispose of used coolant/antifreeze in accordance with federal, state, and local laws and regulations.

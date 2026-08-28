@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-023.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-023.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Seal, Front
@@ -33,173 +35,334 @@ tags:
 > **Даты:** изменён 2021-07-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-001-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-001-023.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Crankshaft Seal Replacer Kit, Cummins® Part Number 5394206, or equivalent
-- Lubriplate ™ 105, Part Number 3163086, or equivalent.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Magnet
-- Crocus cloth
-- Clean, lint-free cloth.
+- Crankshaft Seal Replacer Kit, Cummins® Part Number 5394206 или эквивалент
+- Любриплат ТМ 105, Часть Номер 3163086, или эквивалент.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- Магнит
+- Крокусовая ткань
+- Чистая, без винта ткань.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the fan and fan spacer(s). [[89-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
-- Remove the fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
-- Remove the fan belt tensioner on Generator-Drive applications. [[89-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
-- Remove the vibration damper and fan drive pulley. [[89-001-052 — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1.]]
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to remove the front crankshaft seal.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите вентилятор и вентилятор (ы).[[89-008-040 — Fan, Cooling|См. процедуру 008-040 в разделе 8.]]
+- Удалите пояс вентилятора.[[89-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
+- Удалите натяжитель ремня вентилятора на приложениях Generator-Drive.[[89-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
+- Удалите вибрационный демпфер и шкив вентилятора.[[89-001-052 — Vibration Damper, Viscous|См. процедуру 001-052 в разделе 1.]]
 
-Apply Lubriplate ™ 105, Part Number 3163086, or equivalent, onto the remover screw threads and tip (3).
+### Снятие
 
-Install the three replacer screws (1) into the crankshaft.
+Используйте комплект замены уплотнения коленчатого вала, номер детали 5394206 или эквивалент, чтобы удалить уплотнение передней коленчатой вал.
 
-The crankshaft seal replacer (2) marked “OIL” on the top face is used for the removal of front dust seal and front oil seal as an assembly.
+Нанесите любриплат ТМ 105, Часть Номер 3163086 или эквивалент на резьбу резьбы и наконечник 3.
 
-Install the remover screw (3) into the crankshaft seal replacer (2).
+Установите три замещающих винта (1) в коленчатый вал.
 
-Slide the crankshaft seal replacer assembly (2) into the nose of the crankshaft. Push up to the front gear cover face.
+Заменитель уплотнения коленчатого вала (2) с пометкой «Масло» на верхней поверхности используется для удаления передней пылевой уплотнения и передней масляной уплотнения в качестве сборки.
 
-Drill six self-tapping metal screws (4) into the front oil seal. Make sure the heads of the screws are flush on the face of the tool. Six screws **must** be used in this process to make sure the seal will come out evenly.
+Установите винт 3-го уплотнителя в коленчатом валу в заменитель (2).
 
-Use a wrench to rotate the remover screw (3) clockwise against the crankshaft front boss slowly, which slides the crankshaft seal replacer (2) along with seals outward.
+Сдвиньте уплотнительный блок заменителя коленчатого вала (2) в нос коленчатого вала. Поднимите переднюю крышку передних передач.
 
-The front seal and dust seal can be removed at the same time using the self-tapping metal screws included in the service kit.
+Пробурите шесть саморезов металлических винтов (4) в переднюю масляную уплотнение. Убедитесь, что головки винтов смыты на лицевой стороне инструмента. Шесть винтов должны быть использованы в этом процессе, чтобы убедиться, что уплотнение выйдет равномерно.
 
-Once the front seal and dust seal are removed from the crankshaft, remove and discard the self-tapping metal screws (4) to separate the front seal from the crankshaft seal replacer assembly (2).
+Используйте гаечный ключ для поворота винта 3-го разъема против головки коленчатого вала медленно, который скользит заменителя (2) уплотнения коленчатого вала вместе с уплотнениями наружу.
 
-Remove the three replacer screws (1) from the crankshaft.
+Передняя уплотнение и пылевое уплотнение могут быть удалены одновременно с использованием саморезов металлических винтов, включенных в сервисный комплект.
 
-> [!note] Note · Примечание
-> The front crankshaft seal is covered by a dust seal. Drill through this dust seal and remove it with the oil seal. Discard the old dust seal and oil seal.
+После того, как передняя уплотнение и пылевая уплотнение удалены из коленчатого вала, удалите и отбросьте самозатупляющиеся металлические винты (4), чтобы отделить переднюю уплотнение от сборки заменителя коленчатого вала (2).
+
+Удалите три замещающих винта (1) из коленчатого вала.
+
+> [!note] Примечание
+> Передняя уплотнение коленчатого вала покрыта пылевой уплотнением. Пробурите эту пылевую уплотнение и удалите ее масляной уплотнением. Отбросьте старую пылевую и масляную уплотнения.
 
 ![[01e00401.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Use a magnet to remove any metal chips from the crankshaft and crankshaft seal bore in the front cover.
+Используйте магнит, чтобы удалить любые металлические чипы из коленчатого вала и цилиндра уплотнения коленчатого вала, который находится в передней крышке.
 
-Use a crocus cloth to polish and remove deposits from the crankshaft. Visible scratches on the sealing surface can result in seal leakage.
+Используйте ткань крокуса для полировки и удаления отложений из коленчатого вала. Видимые царапины на уплотнительной поверхности могут привести к утечке уплотнения.
 
-Use a clean, lint-free cloth to clean the crankshaft and remove all traces of oil film.
+Используйте чистую, свободную от винта ткань, чтобы очистить коленчатый вал и удалить все следы масляной пленки.
 
-Check the crankshaft end for nicks, burrs, and grooves.
+Проверьте конец коленчатого вала на наличие никсов, заусениц и канавок.
 
 ![[22400163.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Do not allow oil to come in contact with other areas of the seal to reduce the possibility of damage to sealing surfaces.
+> [!warning] ОСТОРОЖНО
+> Не допускайте попадания масла в другие участки уплотнения, чтобы уменьшить возможность повреждения уплотняющих поверхностей.
 
-Using the plastic installation sleeve, if needed, place the new oil seal with the "OUT" marking facing outwards and sleeve assembly over the crankshaft nose and slide the seal toward the front cover. Make sure the seal is positioned squarely on the crankshaft.
+Используя пластиковый установочный рукав, при необходимости поместите новый масляный уплотнитель с маркировкой «OUT», обращенной наружу, и сборкой рукава над носом коленчатого вала и сдвиньте уплотнение к передней крышке. Убедитесь, что уплотнение расположена прямо на коленчатом валу.
 
-Remove the plastic installation sleeve.
+Удалите пластиковый рукав установки.
 
 ![[22400160.png]]
 
-Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to install the front crankshaft oil seal.
+Используйте комплект замены уплотнения коленчатого вала, номер детали 5394206 или эквивалент, для установки масляного уплотнения передней коленчатой вал.
 
-Apply Lubriplate ™ 105, Part Number 3163086, or equivalent, onto the installer screw threads and tip (3).
+Нанесите Lubriplate TM 105, Part Number 3163086 или эквивалент на наконечник и резьбу инсталлятора (3).
 
-Install the three replacer screws (1) into the crankshaft.
+Установите три замещающих винта (1) в коленчатый вал.
 
-The crankshaft seal replacer (2) marked “OIL” on the top face is used for the installation of the front oil seal.
+Заменитель пломбы коленчатого вала (2) с пометкой «Масло» на верхней поверхности используется для установки передней масляной пломбы.
 
-Slide the crankshaft seal replacer (2) up to the nose of the crankshaft.
+Скользите с заменителя уплотнения коленчатого вала (2) до носа коленчатого вала.
 
-Install the replacer plate (4) with installer screw (3) onto the replacer screws (1).
+Установите пластину (4) замещающего устройства с винтом (3) установщика на винты (1) замещающего устройства.
 
-Install the three regular hexagon jam nuts (5).
+Установите три обычных шестиугольных варенья (5).
 
 ![[01e00402.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use an impact wrench or air tools. Doing so can damage the tool.
+> [!warning] ОСТОРОЖНО
+> Не используйте ударный ключ или воздушные инструменты. Это может повредить инструмент.
 
-Move the crankshaft seal replacer (2) toward the front seal by rotating the installer screw (3) **clockwise** until it is positioned against the front oil seal.
+Переместить заменитель уплотнения коленчатого вала (2) к переднему уплотнению путем поворота винта установщика (3) **по часовой стрелке**, пока он не будет расположен против передней масляной уплотнительной уплотнения.
 
 ![[01e00403.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not overtighten the replacer screw assembly after the crankshaft seal replacer contacts the front cover. Doing so can damage the tool.
+> [!warning] ОСТОРОЖНО
+> Не перегружайте замещающий винт сборки после того, как замещающий коленчатый вал контактирует с передней крышкой. Это может повредить инструмент.
 
-Holding the crankshaft seal replacer (2), rotate the replacer screw (3) **clockwise** until the crankshaft seal replacer is positioned against the front cover.
+Держа замещающий уплотнитель коленчатого вала (2), вращайте винт замещающего устройства (3)** по часовой стрелке** до тех пор, пока замещающий уплотнитель коленчатого вала не будет расположен против передней крышки.
 
-Remove the crankshaft seal replacer from the replacer screw assembly.
+Удалить заменитель уплотнения коленчатого вала из сменного винта сборки.
 
 ![[01e00404.png]]
 
-Measure the front oil seal depth from the front gear cover face.
+Измерьте глубину передней масляной уплотнения с передней поверхности крышки передних передач.
 
-| Front Oil Seal Depth from Front Gear Face |  |  |
+| Глубина передней масляной уплотнения от Front Gear Face |  |  |
 |---|---|---|
-| mm |  | in |
-| 18 | MIN | 0.709 |
-| 19 | MAX | 0.748 |
+| мм |  | в |
+| 18 | Мин | 0.709 |
+| 19 | Макс | 0.748 |
 
-If the front oil seal depth is **not** within specifications, the front oil seal **must** be replaced.
+Если глубина передней масляной уплотнения **не** в пределах спецификаций, передняя масляная уплотнение должна быть заменена.
 
 ![[01e00405.png]]
 
-> [!note] Note · Примечание
-> The dust seal **must** be ordered separate from the front seal.
+> [!note] Примечание
+> Пылевое уплотнение должно быть заказано отдельно от передней уплотнительной уплотнения.
 
-Place the dust seal over the crankshaft nose and slide toward the front cover. Make sure the dust seal is positioned squarely on the crankshaft. The dust seal groove **must** face the operator.
+Поместите пылевое уплотнение над носом коленчатого вала и скользите к передней крышке. Убедитесь, что пылевое уплотнение расположено прямо на коленчатом валу. Пылевой уплотнитель должен быть лицом к оператору.
 
-Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to install the front crankshaft dust seal.
+Используйте комплект замены уплотнения коленчатого вала, номер 5394206 или эквивалент, для установки пылевого уплотнения передней коленчатой вал.
 
-Install the three replacer screws (1) into the crankshaft.
+Установите три замещающих винта (1) в коленчатый вал.
 
-The crankshaft seal installer (2) marked “DUST” on the top face is used for the install of front dust seal.
+Установщик уплотнения коленчатого вала (2) с пометкой «DUST» на верхней поверхности используется для установки передней пылевой уплотнения.
 
-Slide the crankshaft seal installer (2) up to the nose of the crankshaft.
+Скользите с установщика уплотнения коленчатого вала (2) до носа коленчатого вала.
 
-Install the replacer plate (4) with installer screw (3) onto the replacer screws (1).
+Установите пластину (4) замещающего устройства с винтом (3) установщика на винты (1) замещающего устройства.
 
-Install the three regular hexagon jam nuts (5).
+Установите три обычных шестиугольных варенья (5).
 
-Move the crankshaft seal installer (2) toward the dust seal by rotating the installer screw (3) **clockwise** until it is positioned against the front dust seal.
+Переместить установщик уплотнения коленчатого вала (2) к пылевому уплотнению путем поворота винта установщика (3) **по часовой стрелке**, пока он не будет расположен против передней пылевой уплотнения.
 
 ![[01e00406.png]]
 
-Holding the crankshaft seal installer (2), rotate the installer screw (3) **clockwise** until the crankshaft seal replacer is positioned against the front cover.
+Держа установщик уплотнения коленчатого вала (2), вращайте винт установщика (3) **по часовой стрелке **до тех пор, пока заменитель уплотнения коленчатого вала не будет расположен против передней крышки.
 
-Remove the crankshaft seal installer from the replacer screw (1) assembly.
+Удалить установщик уплотнения коленчатого вала из сменного винта (1) сборки.
 
 ![[01e00407.png]]
 
-Measure the front dust seal protrusion from the front gear cover face.
+Измерить переднюю пылевую уплотнение выступа от передней крышки передних передач.
 
-| Front Dust Seal Protrusion from Front Gear Face |  |  |
+| Протрузия передней пылевой уплотнения от Front Gear Face |  |  |
 |---|---|---|
-| mm |  | in |
-| 2.25 | MIN | 0.089 |
-| 1.75 | MAX | 0.069 |
+| мм |  | в |
+| 2.25 | Мин | 0.089 |
+| 1.75 | Макс | 0.069 |
 
-If the front oil seal depth is **not** within specifications, the front oil seal **must** be replaced.
+Если глубина передней масляной уплотнения **не** в пределах спецификаций, передняя масляная уплотнение должна быть заменена.
 
 ![[01e00408.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите вибрационный демпфер и шкив вентилятора.[[89-001-052 — Vibration Damper, Viscous|См. процедуру 001-052 в разделе 1.]]
+- Установите натяжитель ремня вентилятора.[[89-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
+- Установите ремень вентилятора.[[89-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
+- Установите вентилятор (ы) и вентилятор.[[89-008-040 — Fan, Cooling|См. процедуру 008-040 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем. Проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Crankshaft Seal Replacer Kit, Cummins® Part Number 5394206, or equivalent
+> - Lubriplate ™ 105, Part Number 3163086, or equivalent.
+>
+> #### Additional Service Items
+>
+> - Magnet
+> - Crocus cloth
+> - Clean, lint-free cloth.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the vibration damper and fan drive pulley. [[89-001-052 — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1.]]
-- Install the fan belt tensioner. [[89-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
-- Install the fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
-- Install the fan spacer(s) and fan. [[89-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine. Check for leaks.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the fan and fan spacer(s). [[89-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
+> - Remove the fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+> - Remove the fan belt tensioner on Generator-Drive applications. [[89-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
+> - Remove the vibration damper and fan drive pulley. [[89-001-052 — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1.]]
+>
+> ### Remove
+>
+> Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to remove the front crankshaft seal.
+>
+> Apply Lubriplate ™ 105, Part Number 3163086, or equivalent, onto the remover screw threads and tip (3).
+>
+> Install the three replacer screws (1) into the crankshaft.
+>
+> The crankshaft seal replacer (2) marked “OIL” on the top face is used for the removal of front dust seal and front oil seal as an assembly.
+>
+> Install the remover screw (3) into the crankshaft seal replacer (2).
+>
+> Slide the crankshaft seal replacer assembly (2) into the nose of the crankshaft. Push up to the front gear cover face.
+>
+> Drill six self-tapping metal screws (4) into the front oil seal. Make sure the heads of the screws are flush on the face of the tool. Six screws **must** be used in this process to make sure the seal will come out evenly.
+>
+> Use a wrench to rotate the remover screw (3) clockwise against the crankshaft front boss slowly, which slides the crankshaft seal replacer (2) along with seals outward.
+>
+> The front seal and dust seal can be removed at the same time using the self-tapping metal screws included in the service kit.
+>
+> Once the front seal and dust seal are removed from the crankshaft, remove and discard the self-tapping metal screws (4) to separate the front seal from the crankshaft seal replacer assembly (2).
+>
+> Remove the three replacer screws (1) from the crankshaft.
+>
+> **Note · Примечание**
+> The front crankshaft seal is covered by a dust seal. Drill through this dust seal and remove it with the oil seal. Discard the old dust seal and oil seal.
+>
+> ### Clean and Inspect for Reuse
+>
+> Use a magnet to remove any metal chips from the crankshaft and crankshaft seal bore in the front cover.
+>
+> Use a crocus cloth to polish and remove deposits from the crankshaft. Visible scratches on the sealing surface can result in seal leakage.
+>
+> Use a clean, lint-free cloth to clean the crankshaft and remove all traces of oil film.
+>
+> Check the crankshaft end for nicks, burrs, and grooves.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not allow oil to come in contact with other areas of the seal to reduce the possibility of damage to sealing surfaces.
+>
+> Using the plastic installation sleeve, if needed, place the new oil seal with the "OUT" marking facing outwards and sleeve assembly over the crankshaft nose and slide the seal toward the front cover. Make sure the seal is positioned squarely on the crankshaft.
+>
+> Remove the plastic installation sleeve.
+>
+> Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to install the front crankshaft oil seal.
+>
+> Apply Lubriplate ™ 105, Part Number 3163086, or equivalent, onto the installer screw threads and tip (3).
+>
+> Install the three replacer screws (1) into the crankshaft.
+>
+> The crankshaft seal replacer (2) marked “OIL” on the top face is used for the installation of the front oil seal.
+>
+> Slide the crankshaft seal replacer (2) up to the nose of the crankshaft.
+>
+> Install the replacer plate (4) with installer screw (3) onto the replacer screws (1).
+>
+> Install the three regular hexagon jam nuts (5).
+>
+> **CAUTION · Осторожно**
+> Do not use an impact wrench or air tools. Doing so can damage the tool.
+>
+> Move the crankshaft seal replacer (2) toward the front seal by rotating the installer screw (3) **clockwise** until it is positioned against the front oil seal.
+>
+> **CAUTION · Осторожно**
+> Do not overtighten the replacer screw assembly after the crankshaft seal replacer contacts the front cover. Doing so can damage the tool.
+>
+> Holding the crankshaft seal replacer (2), rotate the replacer screw (3) **clockwise** until the crankshaft seal replacer is positioned against the front cover.
+>
+> Remove the crankshaft seal replacer from the replacer screw assembly.
+>
+> Measure the front oil seal depth from the front gear cover face.
+>
+> | Front Oil Seal Depth from Front Gear Face |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 18 | MIN | 0.709 |
+> | 19 | MAX | 0.748 |
+>
+> If the front oil seal depth is **not** within specifications, the front oil seal **must** be replaced.
+>
+> **Note · Примечание**
+> The dust seal **must** be ordered separate from the front seal.
+>
+> Place the dust seal over the crankshaft nose and slide toward the front cover. Make sure the dust seal is positioned squarely on the crankshaft. The dust seal groove **must** face the operator.
+>
+> Use Crankshaft Seal Replacer Kit, Part Number 5394206, or equivalent, to install the front crankshaft dust seal.
+>
+> Install the three replacer screws (1) into the crankshaft.
+>
+> The crankshaft seal installer (2) marked “DUST” on the top face is used for the install of front dust seal.
+>
+> Slide the crankshaft seal installer (2) up to the nose of the crankshaft.
+>
+> Install the replacer plate (4) with installer screw (3) onto the replacer screws (1).
+>
+> Install the three regular hexagon jam nuts (5).
+>
+> Move the crankshaft seal installer (2) toward the dust seal by rotating the installer screw (3) **clockwise** until it is positioned against the front dust seal.
+>
+> Holding the crankshaft seal installer (2), rotate the installer screw (3) **clockwise** until the crankshaft seal replacer is positioned against the front cover.
+>
+> Remove the crankshaft seal installer from the replacer screw (1) assembly.
+>
+> Measure the front dust seal protrusion from the front gear cover face.
+>
+> | Front Dust Seal Protrusion from Front Gear Face |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 2.25 | MIN | 0.089 |
+> | 1.75 | MAX | 0.069 |
+>
+> If the front oil seal depth is **not** within specifications, the front oil seal **must** be replaced.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the vibration damper and fan drive pulley. [[89-001-052 — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1.]]
+> - Install the fan belt tensioner. [[89-008-087-tr — Cooling Fan Belt Tensioner|Refer to Procedure 008-087 in Section 8.]]
+> - Install the fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+> - Install the fan spacer(s) and fan. [[89-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine. Check for leaks.

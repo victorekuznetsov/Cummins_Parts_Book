@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-019-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-019-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # EGR Cooler
@@ -31,64 +33,120 @@ tags:
 > **Даты:** изменён 2016-11-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-019-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-019-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM875, CM870 and CM570
 
-Remove any protective caps or heavy tape.
+### Установка
 
-Loosely install the bottom two mounting capscrews and install the EGR cooler onto them.
+Автомобильные модели CM875, CM870 и CM570
 
-Install the top three capscrews and tighten all five capscrews.
+Удалите любые защитные колпачки или тяжелую ленту.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+Тщательно установите два нижних крепежных болта и установите на них охладитель EGR.
 
-Install a new EGR cooler connection gasket with the adhesive side on the piloted end of the EGR cooler connection, where it connects with the EGR valve.
+Установите три верхних болта и затяните все пять болтов.
+
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
+
+Установите новую прокладку соединения охладителя EGR с клейкой стороной на пилотируемом конце соединения охладителя EGR, где он соединяется с клапаном EGR.
 
 ![[11200040.png]]
 
-Before installing the V-Band clamp, coat the clamping surface with high temperature anti-seize compound.
+Перед установкой V-диапазонного зажима покройте зажимную поверхность высокотемпературным противозахватным соединением.
 
 ![[11d00093.png]]
 
-Install the V-Band clamps between the EGR valve and EGR cooler connection.
+Установите зажимы V-диапазона между клапаном EGR и соединением охладителя EGR.
 
 ![[11200133.png]]
 
-Tighten the V-Band clamp between the EGR cooler connection and the EGR valve.
+Закрепите зажим V-диапазона между соединением охладителя EGR и клапаном EGR.
 
-> [!tip] Момент затяжки · Torque Value
-> 17 n•m [150 in-lb]
+> [!tip] Момент затяжки
+> 17 Н·м [150 фунт-дюйм]
 
 ![[11200134.png]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-Remove any protective caps or heavy tape.
+Удалите любые защитные колпачки или тяжелую ленту.
 
-Loosely install the bottom two mounting capscrews (1) and install the EGR cooler onto them.
+Установите два нижних крепежных болта (1) и установите на них охладитель EGR.
 
-Install the top three capscrews (2) and tighten all five capscrews.
+Установите три верхних болта (2) и затяните все пять болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
-Install new EGR cooler connection gaskets with the adhesive side on the piloted end of each joint.
+Установите новые прокладки для соединения с клеевой стороной на пилотируемом конце каждого соединения.
 
 ![[11z00026.png]]
 
-Before installing the V-Band clamp, coat the clamping surface with high temperature anti-seize compound.
+Перед установкой V-диапазонного зажима покройте зажимную поверхность высокотемпературным противозахватным соединением.
 
 ![[11d00093.png]]
 
-Install the V-Band clamp between the EGR valve and the exhaust manifold.
+Установите зажим V-диапазона между клапаном EGR и выпускным коллектором.
 
 ![[11z00027.png]]
 
-Tighten the V-Band clamps.
+Зажимы V-диапазона затягиваются.
 
-> [!tip] Момент затяжки · Torque Value
-> 17 n•m [150 in-lb]
+> [!tip] Момент затяжки
+> 17 Н·м [150 фунт-дюйм]
 
 ![[11z00028.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Automotive with CM875, CM870 and CM570
+>
+> Remove any protective caps or heavy tape.
+>
+> Loosely install the bottom two mounting capscrews and install the EGR cooler onto them.
+>
+> Install the top three capscrews and tighten all five capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Install a new EGR cooler connection gasket with the adhesive side on the piloted end of the EGR cooler connection, where it connects with the EGR valve.
+>
+> Before installing the V-Band clamp, coat the clamping surface with high temperature anti-seize compound.
+>
+> Install the V-Band clamps between the EGR valve and EGR cooler connection.
+>
+> Tighten the V-Band clamp between the EGR cooler connection and the EGR valve.
+>
+> **Момент затяжки · Torque Value**
+> 17 n•m [150 in-lb]
+>
+> Automotive with CM876
+>
+> Remove any protective caps or heavy tape.
+>
+> Loosely install the bottom two mounting capscrews (1) and install the EGR cooler onto them.
+>
+> Install the top three capscrews (2) and tighten all five capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Install new EGR cooler connection gaskets with the adhesive side on the piloted end of each joint.
+>
+> Before installing the V-Band clamp, coat the clamping surface with high temperature anti-seize compound.
+>
+> Install the V-Band clamp between the EGR valve and the exhaust manifold.
+>
+> Tighten the V-Band clamps.
+>
+> **Момент затяжки · Torque Value**
+> 17 n•m [150 in-lb]

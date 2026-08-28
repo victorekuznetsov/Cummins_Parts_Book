@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-010-062.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-010-062.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Air Cleaner Element, Dual Heavy Duty Dry Type
@@ -33,42 +35,90 @@ tags:
 > **Даты:** изменён 2003-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-010-062.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-010-062.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The illustrations in this section show typical dry-type air cleaner parts. The particular engine parts can vary.
 
-Heavy-duty air cleaners combine centrifugal cleaning with element filtering before air enters the engines.
+### Контроль при обслуживании
 
-Before disassembly, wipe dirt from the cover and the upper portion of the air cleaner.
+> [!note] Примечание
+> На иллюстрациях в этом разделе показаны типичные детали воздухоочистителя сухого типа. Конкретные детали двигателя могут варьироваться.
 
-> [!warning] CAUTION · Осторожно
-> Holes, loose-end seals, dented sealing surfaces, and other forms of damage render the cleaner inoperative and require immediate element replacement.
+Тяжёлые воздухоочистители сочетают центробежную очистку с фильтрацией элементов перед попаданием воздуха в двигатели.
 
-> [!note] Note · Примечание
-> Cummins Inc. does **not** recommend cleaning paper-type air cleaner elements.
+Перед разборкой протереть грязь с крышки и верхней части воздухоочистителя.
 
-To clean the dual types:
+> [!warning] ОСТОРОЖНО
+> Отверстия, рыхлые уплотнения, мягкие уплотнительные поверхности и другие формы повреждений делают очиститель неработоспособным и требуют немедленной замены элементов.
 
-Loosen the wing bolt (1) and remove the band securing the dust pan (2).
+> [!note] Примечание
+> Cummins Inc. **не** рекомендует чистить воздух в бумажном виде.
 
-Loosen the wing nut (3). Remove the dust shield (4) from the dust pan (2). Clean the dust pan and shield.
+Для очистки двойных типов:
 
-> [!warning] CAUTION · Осторожно
-> Pull the cover and the element straight out during removal from the housing to reduce the possibility of damage to the element.
+Устраните болт крыла (1) и удалите полосу, защищающую пылесборник (2).
 
-Remove the wing nut (5) that secures the air cleaner first-stage element (6) in the air cleaner housing. Inspect the rubber sealing washer on the wing nut.
+Освободите крыло (3). Удалите пылевой щит (4) из пылесоса (2). Очистите пылесборник и щит.
 
-Install the new air element.
+> [!warning] ОСТОРОЖНО
+> Вытаскивайте крышку и элемент прямо во время удаления из кожуха, чтобы уменьшить вероятность повреждения элемента.
 
-Be sure the gasket washer is in position under the wing nut before tightening.
+Удалите крыло (5), которое обеспечивает очиститель воздуха на первой стадии (6) в корпусе очистителя воздуха. Осмотрите резиновую уплотнительную шайбу на крыле.
 
-Assemble the dust shield and dust pan. Position them to the air cleaner housing and secure with the band.
+Установите новый элемент воздуха.
 
-On the dual-element type of Cyclopac cleaner:
+Убедитесь, что прокладочная шайба находится в положении под крылом гайки перед затягиванием.
 
-Check the air restriction indicator. If the air restriction is excessive, disassemble the air cleaner, remove the wing nut (7), and replace the safety element (8).
+Соберите пылевой щит и пылесборник. Поместите их в корпус воздухоочистителя и закрепите с помощью полосы.
 
-Assemble the air cleaner as described above.
+На двухэлементном типе Циклопак очиститель:
+
+Проверьте индикатор ограничения воздуха. Если ограничение воздуха чрезмерное, разберите воздухоочиститель, удалите гайку крыла (7) и замените элемент безопасности (8).
+
+Соберите воздухоочиститель, как описано выше.
 
 ![[ac4etgc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **Note · Примечание**
+> The illustrations in this section show typical dry-type air cleaner parts. The particular engine parts can vary.
+>
+> Heavy-duty air cleaners combine centrifugal cleaning with element filtering before air enters the engines.
+>
+> Before disassembly, wipe dirt from the cover and the upper portion of the air cleaner.
+>
+> **CAUTION · Осторожно**
+> Holes, loose-end seals, dented sealing surfaces, and other forms of damage render the cleaner inoperative and require immediate element replacement.
+>
+> **Note · Примечание**
+> Cummins Inc. does **not** recommend cleaning paper-type air cleaner elements.
+>
+> To clean the dual types:
+>
+> Loosen the wing bolt (1) and remove the band securing the dust pan (2).
+>
+> Loosen the wing nut (3). Remove the dust shield (4) from the dust pan (2). Clean the dust pan and shield.
+>
+> **CAUTION · Осторожно**
+> Pull the cover and the element straight out during removal from the housing to reduce the possibility of damage to the element.
+>
+> Remove the wing nut (5) that secures the air cleaner first-stage element (6) in the air cleaner housing. Inspect the rubber sealing washer on the wing nut.
+>
+> Install the new air element.
+>
+> Be sure the gasket washer is in position under the wing nut before tightening.
+>
+> Assemble the dust shield and dust pan. Position them to the air cleaner housing and secure with the band.
+>
+> On the dual-element type of Cyclopac cleaner:
+>
+> Check the air restriction indicator. If the air restriction is excessive, disassemble the air cleaner, remove the wing nut (7), and replace the safety element (8).
+>
+> Assemble the air cleaner as described above.

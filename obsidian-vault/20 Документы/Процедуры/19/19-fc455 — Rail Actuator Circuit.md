@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc455.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc455.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Rail Actuator Circuit
@@ -34,36 +36,78 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc455.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc455.pdf)
 
-### Fault Code: 455
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Rail Actuator Circuit
 
-Printable Version
+### Код неисправности: 455
 
-### Overview
+### Железнодорожный привод
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 455 PID(P): S18 SPN: 633 FMI: 3 Lamp: Red SRT: 00-376 | Rail actuator circuit is open, or supply pin 3 is shorted to battery voltage or ground, or return pin 10 is shorted to battery voltage or ground in the engine harness. | No action by the ECM is taken. Actuator is closed, or partially closed. Engine will **not** run, or runs at one speed. Fault Code 514 can be logged. |
+| Код неисправности: 455 PID(P): S18 SPN: 633 FMI: 3 лампы: Красная СТО: 00-376 | Схема привода рельсового привода открыта, или контакт 3 подачи закорачивается до напряжения батареи или земли, или обратный контакт 10 закорачивается до напряжения батареи или земли в ремне электропроводки двигателя. | Никаких действий со стороны ЕКМ не предпринимается. Привод закрыт или частично закрыт. Двигатель будет **не** работать, или будет работать на одной скорости. Код 514 ошибки может быть зарегистрирован. |
 
 ![[19400039.png]]
 
-Rail Actuator Circuit
+Железнодорожный привод
 
-### Circuit Description
+### Описание цепи
 
-The rail actuator circuit supplies current to the rail actuator. The ECM commands a varying amount of current to the rail actuator to control the amount of rail pressure to the injectors.
+Схема привода рельса подает ток в привод рельса. ECM командует переменным количеством тока к приводу рельса, чтобы контролировать количество давления рельса к топливному форсунке.
 
-### Component Location
+### Расположение компонента
 
-The rail actuator is located on the bottom of the control valve body, toward the front of the engine, behind the ECM.
+Рельсовой привод расположен на дне корпуса управляющего клапана, по направлению к передней части двигателя, позади ECM.
 
-### Shoptalk
+### Практические замечания
 
-- Confirm that the actuator connector is firmly in place.
+- Подтвердите, что разъем привода прочно на месте.
 
-- When there is no power to the actuator, the actuator closes and fuel flow stops. This will cause Fault Code 514, fueling flow mismatch.
+- Когда нет питания на приводе, привод закрывается и поток топлива останавливается. Это приведет к неисправности кода 514, что приведет к несоответствию потока.
 
-- When there is shorted power to the actuator, the actuator opens and fuel flow is uncontrolled. This will cause Fault Code 234, engine overspeed, or Fault Code 514, fueling flow mismatch.
+- Когда к приводу закорочена мощность, привод открывается и поток топлива не контролируется. Это приведет к несоответствию кода 234, скорости двигателя или кода 514, что приведет к несоответствию потока.
 
-Refer to Troubleshooting Fault Code t05-455
+Устранение неполадок код t05-455
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 455
+>
+> ### Rail Actuator Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 455 PID(P): S18 SPN: 633 FMI: 3 Lamp: Red SRT: 00-376 | Rail actuator circuit is open, or supply pin 3 is shorted to battery voltage or ground, or return pin 10 is shorted to battery voltage or ground in the engine harness. | No action by the ECM is taken. Actuator is closed, or partially closed. Engine will **not** run, or runs at one speed. Fault Code 514 can be logged. |
+>
+> Rail Actuator Circuit
+>
+> ### Circuit Description
+>
+> The rail actuator circuit supplies current to the rail actuator. The ECM commands a varying amount of current to the rail actuator to control the amount of rail pressure to the injectors.
+>
+> ### Component Location
+>
+> The rail actuator is located on the bottom of the control valve body, toward the front of the engine, behind the ECM.
+>
+> ### Shoptalk
+>
+> - Confirm that the actuator connector is firmly in place.
+>
+> - When there is no power to the actuator, the actuator closes and fuel flow stops. This will cause Fault Code 514, fueling flow mismatch.
+>
+> - When there is shorted power to the actuator, the actuator opens and fuel flow is uncontrolled. This will cause Fault Code 234, engine overspeed, or Fault Code 514, fueling flow mismatch.
+>
+> Refer to Troubleshooting Fault Code t05-455

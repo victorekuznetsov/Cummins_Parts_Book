@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-010-055.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-010-055.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Wastegate Valve Body
@@ -29,30 +31,62 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-010-055.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-010-055.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the lever pin.
 
-Replace the turbine housing assembly if worn excessively.
+### Проверка при повторном использовании
 
-Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.
+Проверьте рычажный штифт.
+
+Замените корпус турбины, если он изношен чрезмерно.
+
+См. Руководство по ремонту турбокомпрессора, Бюллетень 3580555.
 
 ![[tb9hssa.png]]
 
-Inspect the valve and valve seat for cracks or erosion.
+Осмотрите клапан и сиденье клапана на наличие трещин или эрозии.
 
-Replace the turbine housing assembly if worn excessively.
+Замените корпус турбины, если он изношен чрезмерно.
 
-Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.
+См. Руководство по ремонту турбокомпрессора, Бюллетень 3580555.
 
 ![[tb9vasa.png]]
 
-Actuate the lever by hand to be sure that the shaft rotates freely and is **not** seized.
+Приведите рычаг в действие вручную, чтобы убедиться, что вал вращается свободно и не захвачен.
 
-Check for excessive movement between the shaft and bushing.
+Проверьте чрезмерное движение между валом и втулкой.
 
-Replace the turbine housing if the shaft and bushing are damaged or seized.
+Заменить корпус турбины, если вал и втулка повреждены или изъяты.
 
-Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.
+См. Руководство по ремонту турбокомпрессора, Бюллетень 3580555.
 
 ![[tb9shsb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> Inspect the lever pin.
+>
+> Replace the turbine housing assembly if worn excessively.
+>
+> Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.
+>
+> Inspect the valve and valve seat for cracks or erosion.
+>
+> Replace the turbine housing assembly if worn excessively.
+>
+> Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.
+>
+> Actuate the lever by hand to be sure that the shaft rotates freely and is **not** seized.
+>
+> Check for excessive movement between the shaft and bushing.
+>
+> Replace the turbine housing if the shaft and bushing are damaged or seized.
+>
+> Refer to the Turbocharger Master Repair Manual, Bulletin 3580555.

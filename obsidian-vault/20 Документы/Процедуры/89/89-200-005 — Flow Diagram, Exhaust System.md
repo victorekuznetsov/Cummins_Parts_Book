@@ -14,13 +14,15 @@ manuals:
   - "4021374"
   - "4021375"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-200-005.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-200-005.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Exhaust System
@@ -34,10 +36,26 @@ tags:
 > **Даты:** изменён 2003-03-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-200-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-200-005.pdf)
 
-### Exhaust System
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Система выпуска
 
 ![[11400055.png]]
 
-1. Cylinder head exhaust port
-2. Exhaust manifold
-3. Turbocharger exhaust outlet.
+1. 2.1.1.1 Выхлопной порт цилиндрической головки
+2. Выпускной коллектор
+3. Выхлопная труба турбокомпрессора.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Exhaust System
+>
+> 1. Cylinder head exhaust port
+> 2. Exhaust manifold
+> 3. Turbocharger exhaust outlet.

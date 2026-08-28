@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666070"
 figures: 15
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-019-177.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-019-177.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Alternate Droop Switch Circuit
@@ -34,132 +36,242 @@ tags:
 > **Даты:** изменён 2003-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-019-177.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-019-177.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The portion of the switch circuit in the main engine harness consists of the signal wire connected to pin 28 of the main engine harness connector and the intermediate speed/alternate droop validation wire connected to pin 2.
 
-To check the OEM portion of the alternate droop switch circuit, refer to Procedure 019-071.
+### Общие сведения
 
-The switch is located on the driver interface panel.
+Часть схемы переключателя в основной проводах двигателя состоит из сигнального провода, подключенного к контакту 28 основного разъёма проводов двигателя и промежуточного провода проверки скорости / альтернативного сужения, подключенного к контакту 2.
+
+Для проверки OEM-части схемы переключателя с дроп-ключом обратитесь к процедуре 019-071.
+
+Переключатель расположен на панели интерфейса драйвера.
 
 ![[19801738.png]]
 
-> [!note] Note · Примечание
-> **Not** all CENTRY™ applications use intermediate speed/alternate droop validation. Some applications will use a relay or remotely mounted switch instead of an interface panel switch. Refer to the OEM troubleshooting and repair manual to see how a particular system is wired.
+> [!note] Примечание
+> Не все приложения CENTRYTM используют промежуточную проверку скорости/альтернативное снижение. Некоторые приложения будут использовать реле или удаленно установленный переключатель вместо переключателя панели интерфейса. Посмотрите руководство по устранению неполадок и ремонту OEM, чтобы увидеть, как подключена конкретная система.
 
 ![[nobox.png]]
 
-### Resistance Check
+### Проверка сопротивления
 
-If an electronic service tool is available, then the switch should be monitored for proper operation. If the switch is changing state correctly on the service tool, then the problem does **not** lie in the switch circuit. If an electronic service tool is **not** available, check the switch manually.
+Если имеется электронный сервисный инструмент, то за переключателем следует следить для правильной работы. Если коммутатор правильно меняет состояние на инструменте обслуживания, то проблема не лежит в цепи коммутатора. Если электронный инструмент службы не доступен, проверьте переключатель вручную.
 
-Locate the switch on the driver interface panel and remove it.
+Найдите переключатель на панели интерфейса драйвера и удалите его.
 
-Refer to the OEM troubleshooting and repair manual for the procedure.
+См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
 ![[19801910.png]]
 
-Disconnect the wires connected to the switch (wire Nos. C6-C, C6-D, C6-H).
+Отсоедините провода, подключенные к коммутатору (провод Nos). C6-C, C6-D, C6-H.
 
-> [!note] Note · Примечание
-> The switch is a normally open switch.
+> [!note] Примечание
+> Коммутатор обычно является открытым коммутатором.
 
-Select the resistance function on the multimeter.
+Выберите функцию сопротивления на мультиметре.
 
-Touch the multimeter leads to the terminals on the switch.
+Прикосновение к мультиметру приводит к терминалам на коммутаторе.
 
-Toggle the switch to the OFF (open) position.
+Переключите переключение на положение OFF (open).
 
 ![[19801912.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit within the switch.
+Мультиметр **должен **показывать более 100k ом, что является открытой схемой. Если схема **не **открыта, то внутри переключателя есть короткое замыкание.
 
-Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+Замените выключатель. См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
 ![[19801621.png]]
 
-Toggle the switch to the ON position.
+Переключите переключатель на положение ON.
 
-Measure the resistance. The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is an open circuit within the switch.
+Измерьте сопротивление. Мультиметр **должен **показывать менее 10 Ом, что является замкнутой схемой. Если схема **не **закрыта, то в переключателе есть открытая схема.
 
-Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+Замените выключатель. См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
 ![[19801914.png]]
 
-Check the main engine harness portion of the alternate droop switch circuit.
+Проверьте основную часть проводов двигателя ремня запасного выключателя.
 
-Disconnect ECM connector and the C5 connector.
+Отключите разъем ECM и разъем C5.
 
-Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to pin D of the main engine harness side of the C5 connector.
+Прикосновение к одному из мультиметров приводит к контакту 28 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к контакту D основной стороны проводов двигателя с ремнем разъема C5.
 
 ![[19801739.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is a open circuit in the signal wire.
+Мультиметр **должен **показывать менее 10 Ом, что является замкнутой схемой. Если цепь **не **закрыта, то в сигнальном проводе имеется открытая цепь.
 
-Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+Ремонт основной электропроводки двигателя упряжкой, или, при необходимости, ее замена. См. процедуру 019-228 или[[98-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801619.png]]
 
-Repeat the above resistance check for the alternate droop validation wire.
+Повторите вышеупомянутую проверку сопротивления для альтернативного проволоки проверки сбрасывания.
 
-Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to pin C of the main engine harness side of the C5 connector.
+Прикосновение к одному из мультиметров приводит к контакту 2 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к контакту C основной стороны проводов двигателя с ремнем разъема C5.
 
-Measure the resistance. The multimeter **must** show less than 10 ohms.
+Измерьте сопротивление. Мультиметр **должен **показывать менее 10 Ом.
 
 ![[19801741.png]]
 
-### Check for Short Circuit to Ground
+### Проверка на замыкание на массу
 
-Make sure the ECM connector and the C5 connector are disconnected.
+Убедитесь, что разъем ECM и разъем C5 отключены.
 
-Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to a good, clean surface on the engine block.
+Прикосновение к одному из мультиметров приводит к контакту 28 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к хорошей, чистой поверхности на блоке двигателя.
 
 ![[19801742.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit between the wire connected to pin 28 and chassis ground.
+Мультиметр **должен **показывать более 100k ом, что является открытой схемой. Если схема **не** открыта, то между проводом, подключенным к контакту 28, и землей шасси есть короткое замыкание.
 
-Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+Ремонт основной электропроводки двигателя упряжкой, или, при необходимости, ее замена. См. процедуру 019-228 или[[98-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Repeat the above short to ground check for the alternate droop validation wire.
+Повторите вышеупомянутую короткую проверку на землю для альтернативного проволоки проверки сбрасывания.
 
-Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to a good, clean surface on the engine block.
+Прикосновение к одному из мультиметров приводит к контакту 2 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к хорошей, чистой поверхности на блоке двигателя.
 
-Measure the resistance. The multimeter **must** show more than 100k ohms.
+Измерьте сопротивление. Мультиметр **должен **показывать более 100k ом.
 
 ![[19801744.png]]
 
-### Check for Short Circuit from Pin to Pin
+### Проверка на замыкание между контактами
 
-Make sure the ECM connector and the C5 connector are disconnected.
+Убедитесь, что разъем ECM и разъем C5 отключены.
 
-Check for a short circuit between pin 28 of the main engine harness connector and **all** other pins in the connector.
+Проверьте короткое замыкание между контактом 28 главного разъёма проводов двигателя и **всеми **другими контактами в разъеме.
 
-Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to **all** other pins in the connector, one at a time.
+Прикосновение к одному из мультиметров приводит к контакту 28 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к **всем **другим штифтам в разъеме, по одному за раз.
 
 ![[19801745.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short between the wires connected to pin 28 of the main engine harness and **any** other pin that measured less than 100k ohms.
+Мультиметр **должен **показывать более 100k ом, что является открытой схемой. Если схема **не** открыта, то между проводами, подключенными к контакту 28 основного жгута проводов двигателя, и **любым** другим штифтом, который измеряется менее 100k Ом.
 
-Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+Ремонт основной электропроводки двигателя упряжкой, или, при необходимости, ее замена. См. процедуру 019-228 или[[98-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Repeat the above short pin to pin check for the alternate droop validation wire.
+Повторите вышеупомянутый короткий штифт, чтобы проверить штифт для альтернативного проволоки проверки сбрасывания.
 
-Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to **all** other pins in the connector, one at a time.
+Прикосновение к одному из мультиметров приводит к контакту 2 главного разъёма проводов двигателя. Прикосновение к другому мультиметру приводит к **всем **другим штифтам в разъеме, по одному за раз.
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show more than 100k ohms.
+Мультиметр **должен **показывать более 100k ом.
 
 ![[19801747.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The portion of the switch circuit in the main engine harness consists of the signal wire connected to pin 28 of the main engine harness connector and the intermediate speed/alternate droop validation wire connected to pin 2.
+>
+> To check the OEM portion of the alternate droop switch circuit, refer to Procedure 019-071.
+>
+> The switch is located on the driver interface panel.
+>
+> **Note · Примечание**
+> **Not** all CENTRY™ applications use intermediate speed/alternate droop validation. Some applications will use a relay or remotely mounted switch instead of an interface panel switch. Refer to the OEM troubleshooting and repair manual to see how a particular system is wired.
+>
+> ### Resistance Check
+>
+> If an electronic service tool is available, then the switch should be monitored for proper operation. If the switch is changing state correctly on the service tool, then the problem does **not** lie in the switch circuit. If an electronic service tool is **not** available, check the switch manually.
+>
+> Locate the switch on the driver interface panel and remove it.
+>
+> Refer to the OEM troubleshooting and repair manual for the procedure.
+>
+> Disconnect the wires connected to the switch (wire Nos. C6-C, C6-D, C6-H).
+>
+> **Note · Примечание**
+> The switch is a normally open switch.
+>
+> Select the resistance function on the multimeter.
+>
+> Touch the multimeter leads to the terminals on the switch.
+>
+> Toggle the switch to the OFF (open) position.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit within the switch.
+>
+> Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+>
+> Toggle the switch to the ON position.
+>
+> Measure the resistance. The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is an open circuit within the switch.
+>
+> Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+>
+> Check the main engine harness portion of the alternate droop switch circuit.
+>
+> Disconnect ECM connector and the C5 connector.
+>
+> Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to pin D of the main engine harness side of the C5 connector.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is a open circuit in the signal wire.
+>
+> Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+>
+> Repeat the above resistance check for the alternate droop validation wire.
+>
+> Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to pin C of the main engine harness side of the C5 connector.
+>
+> Measure the resistance. The multimeter **must** show less than 10 ohms.
+>
+> ### Check for Short Circuit to Ground
+>
+> Make sure the ECM connector and the C5 connector are disconnected.
+>
+> Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to a good, clean surface on the engine block.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit between the wire connected to pin 28 and chassis ground.
+>
+> Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+>
+> Repeat the above short to ground check for the alternate droop validation wire.
+>
+> Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to a good, clean surface on the engine block.
+>
+> Measure the resistance. The multimeter **must** show more than 100k ohms.
+>
+> ### Check for Short Circuit from Pin to Pin
+>
+> Make sure the ECM connector and the C5 connector are disconnected.
+>
+> Check for a short circuit between pin 28 of the main engine harness connector and **all** other pins in the connector.
+>
+> Touch one of the multimeter leads to pin 28 of the main engine harness connector. Touch the other multimeter lead to **all** other pins in the connector, one at a time.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short between the wires connected to pin 28 of the main engine harness and **any** other pin that measured less than 100k ohms.
+>
+> Repair the main engine harness, or, if necessary, replace it. Refer to Procedure 019-228 or [[98-019-043 — Engine Wiring Harness|019-043]].
+>
+> Repeat the above short pin to pin check for the alternate droop validation wire.
+>
+> Touch one of the multimeter leads to pin 2 of the main engine harness connector. Touch the other multimeter lead to **all** other pins in the connector, one at a time.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show more than 100k ohms.

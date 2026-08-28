@@ -10,12 +10,14 @@ families:
 manuals:
   - "5659762"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-005-052-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-005-052-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Throttle Body Assembly
@@ -28,119 +30,230 @@ tags:
 > **Даты:** изменён 2023-12-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-005-052-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-005-052-om.pdf)
 
-### Exploded View
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Взрывной вид
 
 ![[05s00032.png]]
 
-Throttle Body Assembly Exploded View
+Throttle Body Assembly взорвалась
 
-1. Throttle body assembly - quantity 1
-2. O-ring - quantity 2
-3. Capscrew - quantity 4
+1. Сборка корпуса дроссельной заслонки - количество 1
+2. О-кольцо - количество 2
+3. болты - количество 4
 
-### Select Service Tools
+### Выбор сервисного инструмента
 
-#### Recommended Cummins® Service Tools
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Cummins® electronic service tool, or equivalent
+- Электронный сервисный инструмент Cummins® или эквивалент
 
-#### Additional Service Items
+#### Дополнительные сервисные позиции
 
-- Plastic or brass bottle brush.
+- Пластиковая или латунная бутылочная щетка.
 
-### Initial Check
+### Первичная проверка
 
-Use the recommended Cummins® electronic service tool, or equivalent, to perform the throttle diagnosis.
+Используйте рекомендованный инструмент для электронного обслуживания Cummins® или эквивалент для выполнения диагностики дроссельной заслонки.
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
-Connect the electronic service tool to the service tool data link, which is located on the engine or in the cab.
+Подключите инструмент электронного сервиса к шине данных CAN, которая расположена на двигателе или в кабине.
 
-Open the throttle diagnosis interface in the electronic service tool.
+Откройте интерфейс диагностики дросселя в электронном инструменте обслуживания.
 
-Depress the accelerator pedal, and check if the readings of the accelerator pedal position and the throttle valve position in the electronic service tool are synchronous. If **not**, repair or replace the throttle body assembly.
+Ударьте педалью ускорителя и проверьте, являются ли показания положения педали акселератора и положения клапана дроссельной заслонки в электронном сервисном инструменте синхронными. Если **не**, отремонтируйте или замените дроссельную установку.
 
 ![[05s00033.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Natural gas is explosive and flammable. Always be sure to maintain adequate ventilation in the work area. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas with shared ventilation to reduce the possibility of severe personal injury or death when working on a natural gas system.
+> [!danger] ОПАСНО
+> Природный газ взрывоопасен и воспламеняется. Всегда следите за поддержанием адекватной вентиляции в рабочем помещении. Храните все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей с общей вентиляцией, чтобы уменьшить вероятность серьезных травм или смерти при работе на системе природного газа.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the air intake connection.
-- Remove the air intake connection adapter.
-- Disconnect the wiring harness connector from the throttle actuator.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите соединение воздухозаборника.
+- Удалите адаптер подключения к воздухозаборнику.
+- Отсоедините разъём жгута проводов от привода дроссельной заслонки.
 
-### Remove
+### Снятие
 
-Remove the engine throttle actuator.
+Удалите привод дроссельной заслонки двигателя.
 
-Discard the two o-rings.
+Отбросьте два кольца.
 
 ![[05s00034.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Quick or forceful movements of the throttle plate by hand can result in damage to the mechanism.
+> [!warning] ОСТОРОЖНО
+> Быстрые или сильные движения дроссельной пластины вручную могут привести к повреждению механизма.
 
-Clean the intake fitting adapter elbow and engine intake throttle actuator using solvent.
+Очистить впускной адаптером локоть и впускным приводом двигателя с помощью растворителя.
 
-Do **not** immerse in solvent.
+**не** Погрузитесь в растворитель.
 
-If the throttle body assembly has frozen, defrost the sensor using warm air that is below 60°C \[ 140°F \].
+Если сборка корпуса дросселя заморожена, разморозьте датчик, используя теплый воздух ниже 60°C[140°F].
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[05s00081.png]]
 
-Clean the inside of the bore and plate with a clean lint-free cloth to remove any remaining contaminants.
+Очистите внутреннюю часть цилиндра и пластину чистой тканью без краски, чтобы удалить любые оставшиеся загрязняющие вещества.
 
 ![[05s00082.png]]
 
-Inspect the engine throttle actuator for a bent throttle plate or damage around the sealing surfaces.
+Осмотрите привод дроссельной заслонки двигателя на наличие согнутой пластины дроссельной заслонки или повреждения вокруг уплотняющих поверхностей.
 
 ![[05s00083.png]]
 
-Inspect the wiring connections for bent or damaged pins.
+Проверьте проводные соединения на наличие изогнутых или поврежденных контактов.
 
 ![[05s00084.png]]
 
-### Install
+### Установка
 
-Lubricate the o-rings with a very light coat of vegetable oil.
+Смазать кольца очень легким покрытием растительного масла.
 
-Install o-rings on the engine throttle actuator.
+Установите o-кольца на привод дроссельной заслонки двигателя.
 
-Install the engine throttle actuator to the air/fuel mixer.
+Установите привод дроссельной заслонки двигателя на смеситель воздуха/топлива.
 
-Tighten the four capscrews.
+Затяните четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
 ![[05s00034.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+> [!danger] ОПАСНО
+> Природный газ взрывоопасен и воспламеняется. Всегда следите за поддержанием адекватной вентиляции в рабочем помещении. Храните все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей с общей вентиляцией, чтобы уменьшить вероятность серьезных травм или смерти при работе на системе природного газа.
+
+- Установите адаптер подключения к воздухозаборнику.
+- Установите подключение воздухозаборника.
+- Подключите разъём жгута проводов к приводу дроссельной заслонки.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Начните и проверьте правильность операции.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Exploded View
+>
+> Throttle Body Assembly Exploded View
+>
+> 1. Throttle body assembly - quantity 1
+> 2. O-ring - quantity 2
+> 3. Capscrew - quantity 4
+>
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Cummins® electronic service tool, or equivalent
+>
+> #### Additional Service Items
+>
+> - Plastic or brass bottle brush.
+>
+> ### Initial Check
+>
+> Use the recommended Cummins® electronic service tool, or equivalent, to perform the throttle diagnosis.
+>
+> Turn the keyswitch to the ON position.
+>
+> Connect the electronic service tool to the service tool data link, which is located on the engine or in the cab.
+>
+> Open the throttle diagnosis interface in the electronic service tool.
+>
+> Depress the accelerator pedal, and check if the readings of the accelerator pedal position and the throttle valve position in the electronic service tool are synchronous. If **not**, repair or replace the throttle body assembly.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
 > Natural gas is explosive and flammable. Always be sure to maintain adequate ventilation in the work area. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas with shared ventilation to reduce the possibility of severe personal injury or death when working on a natural gas system.
-
-- Install the air intake connection adapter.
-- Install the air intake connection.
-- Connect the wiring harness connector with the throttle actuator.
-- Connect the batteries. See equipment manufacturer service information.
-- Start and check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the air intake connection.
+> - Remove the air intake connection adapter.
+> - Disconnect the wiring harness connector from the throttle actuator.
+>
+> ### Remove
+>
+> Remove the engine throttle actuator.
+>
+> Discard the two o-rings.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Quick or forceful movements of the throttle plate by hand can result in damage to the mechanism.
+>
+> Clean the intake fitting adapter elbow and engine intake throttle actuator using solvent.
+>
+> Do **not** immerse in solvent.
+>
+> If the throttle body assembly has frozen, defrost the sensor using warm air that is below 60°C \[ 140°F \].
+>
+> Dry with compressed air.
+>
+> Clean the inside of the bore and plate with a clean lint-free cloth to remove any remaining contaminants.
+>
+> Inspect the engine throttle actuator for a bent throttle plate or damage around the sealing surfaces.
+>
+> Inspect the wiring connections for bent or damaged pins.
+>
+> ### Install
+>
+> Lubricate the o-rings with a very light coat of vegetable oil.
+>
+> Install o-rings on the engine throttle actuator.
+>
+> Install the engine throttle actuator to the air/fuel mixer.
+>
+> Tighten the four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Natural gas is explosive and flammable. Always be sure to maintain adequate ventilation in the work area. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas with shared ventilation to reduce the possibility of severe personal injury or death when working on a natural gas system.
+>
+> - Install the air intake connection adapter.
+> - Install the air intake connection.
+> - Connect the wiring harness connector with the throttle actuator.
+> - Connect the batteries. See equipment manufacturer service information.
+> - Start and check for proper operation.

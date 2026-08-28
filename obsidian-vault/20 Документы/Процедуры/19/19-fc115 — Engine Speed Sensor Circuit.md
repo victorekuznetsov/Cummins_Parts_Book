@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc115.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc115.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Engine Speed Sensor Circuit
@@ -38,34 +40,74 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc115.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc115.pdf)
 
-### Fault Code: 115
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Speed Sensor Circuit
 
-Printable Version
+### Код неисправности: 115
 
-### Overview
+### Цепь датчика частоты вращения двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 115 PID(P): P190 SPN: 190 FMI: 2 Lamp: Red SRT: 00-345 | No engine speed signal detected at pins 27, 28, 37, and 38 of the engine harness. | Engine is shut down and can **not** be run. |
+| Код неисправности: 115 P(P): P190 SPN: 190 FMI: 2 лампы: Красная СТО: 00-345 | Сигнал о скорости двигателя не был обнаружен при контактах 27, 28, 37 и 38 ремня электропроводки двигателя. | Двигатель выключен и может **не** работать. |
 
 ![[19400001.png]]
 
-Engine Speed Sensor Circuit
+Цепь датчика частоты вращения двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine speed sensor is a dual-coil circuit that provides the engine speed signal to the ECM through the engine harness.
+Датчик скорости двигателя представляет собой схему с двумя катушками, которая обеспечивает сигнал скорости двигателя к ECM через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The engine speed sensor is located above the accessory drive.
+Датчик скорости двигателя расположен над вспомогательным приводом.
 
-### Shoptalk
+### Практические замечания
 
-- If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor (engine speed sensor) circuit while the engine is at that particular temperature.
+- Если проблема возникает только при определенной температуре двигателя, обязательно проверьте схему датчика скорости двигателя (датчика скорости двигателя), пока двигатель находится при этой конкретной температуре.
 
-- Check camshaft end play to make sure that the camshaft gear is **not** moving too far away from the end of the engine speed sensor.
+- Проверьте осевой зазор распределительного вала, чтобы убедиться, что передача распределительного вала **не **движется слишком далеко от конца датчика скорости двигателя.
 
-Refer to Troubleshooting Fault Code t05-115
+Устранение неполадок код t05-115
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 115
+>
+> ### Engine Speed Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 115 PID(P): P190 SPN: 190 FMI: 2 Lamp: Red SRT: 00-345 | No engine speed signal detected at pins 27, 28, 37, and 38 of the engine harness. | Engine is shut down and can **not** be run. |
+>
+> Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine speed sensor is a dual-coil circuit that provides the engine speed signal to the ECM through the engine harness.
+>
+> ### Component Location
+>
+> The engine speed sensor is located above the accessory drive.
+>
+> ### Shoptalk
+>
+> - If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor (engine speed sensor) circuit while the engine is at that particular temperature.
+>
+> - Check camshaft end play to make sure that the camshaft gear is **not** moving too far away from the end of the engine speed sensor.
+>
+> Refer to Troubleshooting Fault Code t05-115

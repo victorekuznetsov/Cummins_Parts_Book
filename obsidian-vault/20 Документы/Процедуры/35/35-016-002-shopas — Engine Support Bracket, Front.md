@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -35,22 +37,48 @@ tags:
 > **Даты:** изменён 2009-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Apply a coating of thread sealant, Part Number 3823494, to the three capscrews at locations 1, 2 and 3.
 
-Install the front support and mounting capscrews.
+### Установка
 
-Torque Value:
+Нанесите покрытие герметика для резьбы, номер детали 3823494, на три болта в местах 1, 2 и 3.
+
+Установите переднюю опору и крепежные болты.
+
+Момент затяжки:
 
 ![[em200hb.png]]
 
-Lower the front of the engine.
+Опустите переднюю часть двигателя.
 
-Install the front engine mount capscrews.
+Установите передние болты крепления двигателя.
 
-Tighten the capscrews. Refer to the OEM service manual.
+Затяните болты. См. сервисное руководство изготовителя машины.
 
-Remove the lifting fixture or hoist from the front of the engine.
+Снимите подъемный механизм или подъемник с передней части двигателя.
 
 ![[em2bkhb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Apply a coating of thread sealant, Part Number 3823494, to the three capscrews at locations 1, 2 and 3.
+>
+> Install the front support and mounting capscrews.
+>
+> Torque Value:
+>
+> Lower the front of the engine.
+>
+> Install the front engine mount capscrews.
+>
+> Tighten the capscrews. Refer to the OEM service manual.
+>
+> Remove the lifting fixture or hoist from the front of the engine.

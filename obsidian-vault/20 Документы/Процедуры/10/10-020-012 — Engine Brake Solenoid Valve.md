@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-020-012.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-020-012.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Engine Brake Solenoid Valve
@@ -30,66 +32,130 @@ tags:
 > **Даты:** изменён 2015-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-020-012.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-020-012.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+
+### Подготовительные операции
+
+- Снимите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Disconnect the engine brake wiring harness from the solenoid.
+Отсоедините тормозную проводку двигателя от соленоида.
 
-Use a 3/4 inch socket to remove the solenoid from the manifold.
+Используйте 3/4-дюймовую розетку для удаления соленоида из коллектора.
 
-Discard the three solenoid o-rings.
+Отбросьте три соленоидных кольца.
 
 ![[20c00029.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Check the resistance of each solenoid with the wiring harness disconnected from the solenoid.
+Проверьте сопротивление каждого соленоида с помощью проводной упряжки, отключенной от соленоида.
 
-Measure the resistance across both terminals, or from the terminal to the body of the solenoid for single wire solenoids, as indicated in the illustration.
+Измерить сопротивление через оба терминала, или от терминала к телу соленоида для одиночных проводных соленоидов, как указано на иллюстрации.
 
 | 12-VDC |  |
 |---|---|
-| Cold Engine | 5 to 20 ohms |
-| Hot Engine | 5 to 20 ohms |
+| Холодный двигатель | 5-20 Ом |
+| Горячий двигатель | 5-20 Ом |
 
 | 24-VDC |  |
 |---|---|
-| Cold Engine | 32 to 40 ohms |
-| Hot Engine | 60 to 80 ohms |
+| Холодный двигатель | 32 - 40 Ом |
+| Горячий двигатель | 60-80 Ом |
 
-Replace the solenoid if **not** within specifications.
+Заменить соленоид, если **не** в спецификациях.
 
-Inspect the engine brake wiring harness if the solenoids are within specifications.
+Осмотрите тормозную проводку двигателя, если соленоиды находятся в пределах спецификаций.
 
 ![[20000003.png]]
 
-### Install
+### Установка
 
-Lubricate the seal rings with clean engine oil.
+Смазать кольца уплотнения чистым моторным маслом.
 
-Install the upper (1) and center (2) seal ring on the solenoid.
+Установите верхнее (1) и центральное (2) уплотнительное кольцо на соленоид.
 
-Coat the inside of the manifold with oil and place the lower seal ring (3) in the bottom of the manifold.
+Покрыть внутреннюю часть коллектора маслом и поместить нижнее кольцо уплотнения (3) в нижней части коллектора.
 
-Install the solenoid into the manifold.
+Установите соленоид в коллектор.
 
-Tighten the solenoid.
+Затягивай соленоид.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [15 ft-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [15 фунт-фут]
 
-Connect the engine brake wiring harness to the solenoid.
+Подключите тормозную проводку двигателя к соленоиду.
 
 ![[20c00088.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
-- Operate the engine and check for proper operation and leaks.
+- Установите крышку коромысел. См. процедуру 003-011 в разделе 3.
+- Управляйте двигателем и проверяйте правильность работы и утечки.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> ### Remove
+>
+> Disconnect the engine brake wiring harness from the solenoid.
+>
+> Use a 3/4 inch socket to remove the solenoid from the manifold.
+>
+> Discard the three solenoid o-rings.
+>
+> ### Inspect for Reuse
+>
+> Check the resistance of each solenoid with the wiring harness disconnected from the solenoid.
+>
+> Measure the resistance across both terminals, or from the terminal to the body of the solenoid for single wire solenoids, as indicated in the illustration.
+>
+> | 12-VDC |  |
+> |---|---|
+> | Cold Engine | 5 to 20 ohms |
+> | Hot Engine | 5 to 20 ohms |
+>
+> | 24-VDC |  |
+> |---|---|
+> | Cold Engine | 32 to 40 ohms |
+> | Hot Engine | 60 to 80 ohms |
+>
+> Replace the solenoid if **not** within specifications.
+>
+> Inspect the engine brake wiring harness if the solenoids are within specifications.
+>
+> ### Install
+>
+> Lubricate the seal rings with clean engine oil.
+>
+> Install the upper (1) and center (2) seal ring on the solenoid.
+>
+> Coat the inside of the manifold with oil and place the lower seal ring (3) in the bottom of the manifold.
+>
+> Install the solenoid into the manifold.
+>
+> Tighten the solenoid.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [15 ft-lb]
+>
+> Connect the engine brake wiring harness to the solenoid.
+>
+> ### Finishing Steps
+>
+> - Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+> - Operate the engine and check for proper operation and leaks.

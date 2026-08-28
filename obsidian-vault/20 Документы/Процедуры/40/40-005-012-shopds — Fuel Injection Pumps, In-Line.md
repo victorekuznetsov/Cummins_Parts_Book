@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-012-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-012-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Injection Pumps, In-Line
@@ -33,36 +35,70 @@ tags:
 > **Даты:** изменён 2017-01-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-012-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-012-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the external oil feed line at the inboard side of the fuel injection pump (if applicable) and the main oil rifle.
 
-Disconnect the external oil feed line at the rear of the pump or AFC latchout if applicable.
+### Снятие
+
+Отсоедините внешнюю масляную подачу с бортовой стороны насоса впрыска топлива (если применимо) и основной масляной винты.
+
+Отсоедините внешнюю линию подачи масла в задней части насоса или защелкивателя AFC, если это применимо.
 
 ![[fp9tbml.png]]
 
-Locate top dead center for cylinder Number 1. Push the top dead center pin into the hole in the camshaft gear while slowly barring the engine.
+Найдите верхняя мёртвая точка для цилиндра № 1. Нажмите верхняя мёртвая точкаальный штифт в отверстие в распределительной передаче, медленно перекрывая двигатель.
 
-> [!note] Note · Примечание
-> Be certain to disengage the timing pin after locating top dead center.
+> [!note] Примечание
+> Обязательно отключите запирающий штифт коленчатого вала после обнаружения верхней мёртвой точки.
 
 ![[bc9piua.png]]
 
-Remove the fuel injection pump mounting bracket, if applicable.
+Удалите кронштейн для установки насоса для впрыска топлива, если это применимо.
 
 ![[fp9bkmc.png]]
 
-Remove the nut and washer from the fuel injection pump shaft.
+Удалите гайку и шайбу из вала насоса для впрыска топлива.
 
-> [!note] Note · Примечание
-> If necessary, insert two capscrews 180 degrees apart in the damper mounting locations in the nose of the crankshaft. Use an appropriate pry bar between the two capscrews to prevent the engine from turning when loosening the fuel pump gear mounting nut.
+> [!note] Примечание
+> При необходимости вставить два болта на 180 градусов друг от друга в места крепления демпфера в нос коленчатого вала. Используйте соответствующую прыжковую полосу между двумя болтами, чтобы предотвратить поворот двигателя при ослаблении гайки, устанавливающей топливный насос.
 
 ![[ip9gema.png]]
 
-Use fuel pump gear puller, Part Number 3163381 or Part Number 3824469 with M8-1.25 x 50 capscrews, grade 8.8 or equivalent.
+Используйте съёмник с топливным насосом, номер детали 3163381 или номер детали 3824469 с болтами M8-1,25 x 50, класс 8,8 или эквивалент.
 
-Pull the fuel injection pump drive gear loose from the shaft.
+Вытащите приводную передачу насоса впрыска топлива из вала.
 
-Remove the fuel injection pump drive gear.
+Снимите приводную передачу насоса впрыска топлива.
 
 ![[ip9gemb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the external oil feed line at the inboard side of the fuel injection pump (if applicable) and the main oil rifle.
+>
+> Disconnect the external oil feed line at the rear of the pump or AFC latchout if applicable.
+>
+> Locate top dead center for cylinder Number 1. Push the top dead center pin into the hole in the camshaft gear while slowly barring the engine.
+>
+> **Note · Примечание**
+> Be certain to disengage the timing pin after locating top dead center.
+>
+> Remove the fuel injection pump mounting bracket, if applicable.
+>
+> Remove the nut and washer from the fuel injection pump shaft.
+>
+> **Note · Примечание**
+> If necessary, insert two capscrews 180 degrees apart in the damper mounting locations in the nose of the crankshaft. Use an appropriate pry bar between the two capscrews to prevent the engine from turning when loosening the fuel pump gear mounting nut.
+>
+> Use fuel pump gear puller, Part Number 3163381 or Part Number 3824469 with M8-1.25 x 50 capscrews, grade 8.8 or equivalent.
+>
+> Pull the fuel injection pump drive gear loose from the shaft.
+>
+> Remove the fuel injection pump drive gear.

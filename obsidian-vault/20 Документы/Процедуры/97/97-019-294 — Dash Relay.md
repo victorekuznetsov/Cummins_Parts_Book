@@ -15,7 +15,8 @@ families:
 manuals:
   - "3666415"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-294.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-294.pdf"
 tags:
@@ -23,6 +24,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Dash Relay
@@ -35,36 +37,72 @@ tags:
 > **Даты:** изменён 2003-06-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-294.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-294.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
+
+### Снятие
+
+> [!note] Примечание
+> Реле приборной панели может быть установлено под приборной панелью с винтами или может быть закреплено нейлоновой оберткой стяжки или другим подобным материалом.
+
+Переведите замок зажигания в положение OFF.
+
+Удалите винты с вкладок крепления реле приборной панели или удалите нейлоновые стяжки или любой другой материал, используемый для защиты реле под приборной панелью.
+
+![[19802870.png]]
+
+Тщательно вытащите реле dash из-под панели приборов и отсоедините провода шины данных CAN от реле.
+
+Удалите эстафету.
+
+![[19802818.png]]
+
+### Установка
+
+Переведите замок зажигания в положение OFF.
+
+Подключите провода шины данных CAN к реле Dash.
+
+Показано схема проводов для соединений.
+
+> [!note] Примечание
+> Показанные номера терминалов представляют собой номера терминалов для самого реле, **не** для реле *основы*, в которую реле подключено.
+
+![[19802818.png]]
+
+Установите винты в монтажные вкладки реле приборной панели, защищающие реле приборной панели под приборной панелью (или защитите реле под приборной панелью с использованием нейлоновых стяжек или другого аналогичного материала).
+
+![[19802870.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
 > The dash relay can be mounted underneath the dashboard with screws, or it can be secured with nylon tie wrap or other similar material.
-
-Turn the keyswitch to the OFF position.
-
-Remove the screws from the dash relay mounting tabs, or remove the nylon ties or any other material used to secure the relay under the dashboard.
-
-![[19802870.png]]
-
-Carefully pull the dash relay out from under the dashboard and disconnect the datalink wires from the relay.
-
-Remove the dash relay.
-
-![[19802818.png]]
-
-### Install
-
-Turn the keyswitch to the OFF position.
-
-Connect the datalink wires to the dash relay.
-
-Shown is a wiring diagram for the connections.
-
-> [!note] Note · Примечание
+>
+> Turn the keyswitch to the OFF position.
+>
+> Remove the screws from the dash relay mounting tabs, or remove the nylon ties or any other material used to secure the relay under the dashboard.
+>
+> Carefully pull the dash relay out from under the dashboard and disconnect the datalink wires from the relay.
+>
+> Remove the dash relay.
+>
+> ### Install
+>
+> Turn the keyswitch to the OFF position.
+>
+> Connect the datalink wires to the dash relay.
+>
+> Shown is a wiring diagram for the connections.
+>
+> **Note · Примечание**
 > The terminal numbers shown are terminal numbers for the relay itself, **not** for the relay *base* into which the relay is plugged.
-
-![[19802818.png]]
-
-Install screws into the dash relay mounting tabs securing the dash relay under the dashboard (or secure the relay under the dashboard using nylon ties or other similar material).
-
-![[19802870.png]]
+>
+> Install screws into the dash relay mounting tabs securing the dash relay under the dashboard (or secure the relay under the dashboard using nylon ties or other similar material).

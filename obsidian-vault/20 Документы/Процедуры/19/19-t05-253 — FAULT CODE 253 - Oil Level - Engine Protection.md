@@ -13,7 +13,8 @@ families:
   - "QSK60"
 manuals:
   - "3666113"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-t05-253.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-t05-253.pdf"
 tags:
@@ -21,6 +22,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # FAULT CODE 253 - Oil Level - Engine Protection
@@ -33,54 +35,116 @@ tags:
 > **Даты:** изменён 2012-04-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-t05-253.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-t05-253.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-## Troubleshooting Summary
 
-| STEPS | SPECIFICATIONS |  |
+Версия для печати
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check for multiple fault codes. |  |
-|  | **STEP 1A.** Read the fault codes. | Fault Code 252 inactive? |
-| STEP 2. | Check the oil level. |  |
-|  | **STEP 2A.** Verify the oil level. | Oil level correct? |
-| STEP 3. | Clear the fault codes. |  |
-|  | **STEP 3A.** Disable the fault code. | Fault Code 253 inactive? |
-|  | **STEP 3B.** Clear the inactive fault codes. | All fault codes cleared? |
+| ШАГ 1. | Проверьте несколько кодов ошибок. |  |
+|  | **СТЭП 1А.** Прочитайте коды неисправностей. | Код 252 неактивен? |
+| ШАГ 2. | Проверьте уровень масла. |  |
+|  | **Степ 2А.** Проверить уровень масла. | Уровень масла правильный? |
+| ШАГ 3. | Сбросьте коды неисправностей. |  |
+|  | **STEP 3A.** Отключить код ошибки. | Код 253 неактивен? |
+|  | **STEP 3B.** Очистить коды неактивных ошибок. | Все коды неисправностей очищены? |
 
-### STEP 1. Check for multiple fault codes.
+### ШАГ 1. Проверьте несколько кодов ошибок.
 
-#### STEP 1A. Read the fault codes.
+#### ШАГ 1A. Считайте коды неисправностей.
 
-| **Conditions:** Turn keyswitch ON. |  |  |
+| **Условия:** Включить переключатель зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Read the fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 252 not active? | 2A |
-|  | Multiple fault code trees |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Считайте коды неисправностей. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Код 252 не активен? | 2А |
+|  | Несколько деревьев кода неисправностей |  |
 
-### STEP 2. Check the oil level.
+### ШАГ 2. Проверьте уровень масла.
 
-#### STEP 2A. Verify the oil level.
+#### ШАГ 2A. Проверить уровень масла.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Verify the oil level using the oil dipstick. | Oil level correct? Replace the oil level sensor. [[19-019-056 — Lubricating Oil Level Sensor\|Refer to Procedure 019-056 in Section 19.]] | 3A |
-| Fill the engine lubricating oil to the appropriate level. Reference the Troubleshooting and Repair Manual, QSK19 Series Engines, Bulletin 3666098, the Troubleshooting and Repair Manual, QSK23 Series Engines, Bulletin [[4021375 — QSK23 Troubleshooting and Repair Manual\|4021375]], the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261, or the Troubleshooting and Repair Manual, QSK78 Series Engines, Bulletin 3666727. | 3A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверить уровень масла с помощью измерителя уровня масла. | Уровень масла правильный? Замените датчик уровня масла.[[19-019-056 — Lubricating Oil Level Sensor\|См. процедуру 019-056 в разделе 19.]] | 3А |
+| Заполните моторное масло двигателя до соответствующего уровня. См. Руководство по устранению неполадок и ремонту, Двигатели серии QSK19, Вестник 3666098, Руководство по устранению неполадок и ремонту, Двигатели серии QSK23, Вестник [[4021375 — QSK23 Troubleshooting and Repair Manual\|4021375]], Руководство по устранению неполадок и ремонту, Двигатели серии QSK45 и QSK60, Вестник 3666261 или Руководство по устранению и ремонту неполадок, Двигатели серии QSK78, Вестник 3666727. | 3А |  |
 
-### STEP 3. Clear the fault codes.
+### ШАГ 3. Сбросьте коды неисправностей.
 
-#### STEP 3A. Disable the fault code.
+#### ШАГ 3A. Отключите код неисправности.
 
-| **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+| **Условия: **Соединить все компоненты. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Disable the fault code. Start the engine and let it idle for 1 minute. Verify that Fault Code 253 is inactive. | Fault Code 253 inactive? | 3B |
-| Return to the troubleshooting steps or contact a Cummins® Authorized Repair Location if all steps have been completed and checked again. | 1A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Отключите код неисправности. Запустите двигатель и запускайте его на холостом ходу в течение 1 минуты. Убедитесь, что код 253 неактивен. | Код 253 неактивен? | 3B |
+| Вернитесь к шагам устранения неполадок или свяжитесь с авторизованным местом ремонта Cummins®, если все шаги были завершены и проверены снова. | 1А |  |
 
-#### STEP 3B. Clear the inactive fault codes.
+#### ШАГ 3B. Сбросьте неактивные коды неисправностей.
 
-| **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+| **Условия: **Соединить все компоненты. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Clear the inactive fault codes. Use INSITE™ electronic service tool to clear the inactive fault codes. | All fault codes cleared. | Repair complete |
-| Troubleshoot any remaining active fault codes. | Appropriate troubleshooting charts |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Сбросьте неактивные коды неисправностей. Используйте инструмент электронного сервиса INSITETM для очистки кодов неактивных ошибок. | Все коды неисправностей очищены. | Ремонт завершён |
+| Устранение неполадок с оставшимися активными кодами неисправностей. | Соответствующие диаграммы устранения неполадок |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check for multiple fault codes. |  |
+> |  | **STEP 1A.** Read the fault codes. | Fault Code 252 inactive? |
+> | STEP 2. | Check the oil level. |  |
+> |  | **STEP 2A.** Verify the oil level. | Oil level correct? |
+> | STEP 3. | Clear the fault codes. |  |
+> |  | **STEP 3A.** Disable the fault code. | Fault Code 253 inactive? |
+> |  | **STEP 3B.** Clear the inactive fault codes. | All fault codes cleared? |
+>
+> ### STEP 1. Check for multiple fault codes.
+>
+> #### STEP 1A. Read the fault codes.
+>
+> | **Conditions:** Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Read the fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 252 not active? | 2A |
+> |  | Multiple fault code trees |  |
+>
+> ### STEP 2. Check the oil level.
+>
+> #### STEP 2A. Verify the oil level.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Verify the oil level using the oil dipstick. | Oil level correct? Replace the oil level sensor. [[19-019-056 — Lubricating Oil Level Sensor\|Refer to Procedure 019-056 in Section 19.]] | 3A |
+> | Fill the engine lubricating oil to the appropriate level. Reference the Troubleshooting and Repair Manual, QSK19 Series Engines, Bulletin 3666098, the Troubleshooting and Repair Manual, QSK23 Series Engines, Bulletin [[4021375 — QSK23 Troubleshooting and Repair Manual\|4021375]], the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261, or the Troubleshooting and Repair Manual, QSK78 Series Engines, Bulletin 3666727. | 3A |  |
+>
+> ### STEP 3. Clear the fault codes.
+>
+> #### STEP 3A. Disable the fault code.
+>
+> | **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Disable the fault code. Start the engine and let it idle for 1 minute. Verify that Fault Code 253 is inactive. | Fault Code 253 inactive? | 3B |
+> | Return to the troubleshooting steps or contact a Cummins® Authorized Repair Location if all steps have been completed and checked again. | 1A |  |
+>
+> #### STEP 3B. Clear the inactive fault codes.
+>
+> | **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Clear the inactive fault codes. Use INSITE™ electronic service tool to clear the inactive fault codes. | All fault codes cleared. | Repair complete |
+> | Troubleshoot any remaining active fault codes. | Appropriate troubleshooting charts |  |

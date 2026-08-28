@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-023-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-023-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Seal, Front
@@ -35,12 +37,28 @@ tags:
 > **Даты:** изменён 2016-01-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-023-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-023-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the five front crankshaft seal mounting capscrews.
+
+### Снятие
+
+Снять пять передних болтов крепления коленчатого вала.
 
 ![[01600098.png]]
 
-Remove and discard the front crankshaft seal from the front gear cover with the Front and Rear Crankshaft Seal Installation and Removal Tool Kit, Part Number 3163349.
+Удалить и отбросить переднюю уплотнение коленчатого вала с передней крышки передней передачи с помощью набора инструментов установки и удаления уплотнений передней и задней коленчатых валов, номер детали 3163349.
 
 ![[01600102.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the five front crankshaft seal mounting capscrews.
+>
+> Remove and discard the front crankshaft seal from the front gear cover with the Front and Rear Crankshaft Seal Installation and Removal Tool Kit, Part Number 3163349.

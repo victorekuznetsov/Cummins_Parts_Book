@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102500.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102500.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Addition, Single and Double Nut Configuration Rebuild Instructions, (Fan Hub, Belt Driven) Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-10-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102500.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102500.pdf)
 
-## Addition, Single and Double Nut Configuration Rebuild Instructions, (Fan Hub, Belt Driven) Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Инструкции по восстановлению конфигурации одиночного и двойного гайки (Fan Hub, Belt Driven)
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds single nut (406 mm \[15.98 in\] diameter hub) and double nut (450 mm \[17.72 in\] diameter hub) configuration rebuild instructions to Procedure 008-036 (Fan Hub, Belt Driven).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы / частей добавляет инструкции по восстановлению конфигурации одногайцевого (406 мм \[15,98 дюйма \] диаметром концентратора) и двухгайкового (450 мм \[17,72 дюйма \] диаметром концентратора) к процедуре 008-036 (Fan Hub, Belt Driven).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Addition, Single and Double Nut Configuration Rebuild Instructions, (Fan Hub, Belt Driven) Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds single nut (406 mm \[15.98 in\] diameter hub) and double nut (450 mm \[17.72 in\] diameter hub) configuration rebuild instructions to Procedure 008-036 (Fan Hub, Belt Driven).

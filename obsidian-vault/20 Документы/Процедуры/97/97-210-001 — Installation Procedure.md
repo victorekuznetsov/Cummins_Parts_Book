@@ -18,7 +18,8 @@ families:
 manuals:
   - "3666415"
 figures: 73
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-210-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-210-001.pdf"
 tags:
@@ -26,6 +27,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Installation Procedure
@@ -39,516 +41,894 @@ tags:
 > **Даты:** изменён 2012-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-210-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-210-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Aftermarket
 
-This section has been designed to provide instructions for installing the Aftermarket version of the ICON™ system. Since Cummins Inc. provides engines for many different vehicle and equipment manufacturers, some of the steps will **not** necessarily be performed exactly as shown. A qualified technician should read the instruction, learn the intent of the step, and install the component in a fashion that will comply to the vehicle's configuration. Each deviation from the specific instructions provided in this procedure should be noted. If the ICON™ system fails to work properly, the first troubleshooting step will be to go back and check to see whether the improvised installation procedures were completed correctly.
+### Общие сведения
 
-Refer to the OEM service manual for proper alternator output voltage and amperage specifications.
+Послепродажный рынок
 
-It is recommended to have on hand the charge and start OEM wiring diagram that shows keyswitch connections before installing the ICON™ system. Variations in keyswitch wiring can increase installation time.
+Данный раздел предназначен для предоставления инструкций по установке версии системы ICONTM для вторичного рынка. С Cummins Inc. Предоставляет двигатели для многих различных производителей транспортных средств и оборудования, некоторые из шагов будут выполняться точно так, как показано. Квалифицированный техник должен прочитать инструкцию, узнать цель шага и установить компонент таким образом, чтобы он соответствовал конфигурации транспортного средства. Следует отметить каждое отклонение от конкретных инструкций, предусмотренных в этой процедуре. Если система ICONTM не работает должным образом, первым шагом будет вернуться и проверить, правильно ли были выполнены процедуры установки.
 
-Use the following procedure for additional publications that can provide assistance with the installation of the ICON™ system. [[97-205-001 — Additional Service Literature|Refer to Procedure 205-001 in Section L.]]
+См. руководство по обслуживанию OEM для надлежащих спецификаций выходного напряжения генератора и усилителя.
 
-> [!note] Note · Примечание
-> Eaton Autoshift or Ultra Shift transmissions are currently supported but are incompatible with the keyless engine mode on aftermarked installations. However, **all** manual transmissions support the keyless mode feature.
+Рекомендуется иметь под рукой заряд и запустить схему проводов OEM, которая показывает соединения переключателей зажигания перед установкой системы ICONTM. Изменения в проводах переключателя зажигания могут увеличить время установки.
 
-Before installing the ICON™ system, verify that the transmission housing has a place for a neutral position switch. Neutral position switches are provided in the installation kit. If one of these switches does **not** work in the transmission provided, consult with the transmission supplier for a compatible switch.
+Используйте следующую процедуру для дополнительных публикаций, которые могут оказать помощь в установке системы ICONTM.[[97-205-001 — Additional Service Literature|См. процедуру 205-001 в разделе L.]]
 
-Some electronic dashes, such as Pollack, can interfere with ICON™ system operation. This can be verified by performing the Charging System Test. An extra double-throw relay assembly **must** be installed when installing the ICON™ system in an installation with an electronic dash that causes incorrect ICON™ operation. When the ignition bus is powered down, the electronic dash loads down the J1587 public datalink and will **not** allow communication for a short period of time. The aforementioned relay disconnects the dash public datalink from the engine ECM and the ICON™ idle control module while the ignition bus is unpowered.
+> [!note] Примечание
+> В настоящее время поддерживаются коробки передач Eaton Autoshift или Ultra Shift, но они несовместимы с режимом работы без ключа на послемаркированных установках. Однако **все **ручные коробки передач поддерживают функцию режима без ключа.
+
+Перед установкой системы ICONTM убедитесь, что в корпусе трансмиссии есть место для переключателя нейтрального положения. Нейтральные переключатели положения предусмотрены в комплекте установки. Если один из этих переключателей работает **не** в предоставленной передаче, проконсультируйтесь с поставщиком передачи для совместимого переключателя.
+
+Некоторые электронные тире, такие как Pollack, могут мешать работе системы ICONTM. Это можно проверить, выполнив тест системы зарядки. Дополнительный реле реле двойного броска **должен быть установлен при установке системы ICONTM в установке с электронным приборным тире, что вызывает неправильную работу ICONTM. Когда шина зажигания отключается, электронный прибор заряжает шину данных J1587 общего пользования и **не позволяет осуществлять связь в течение короткого периода времени. Вышеупомянутое реле отключает шину данных CAN с открытым приводом от двигателя ECM и модуля управления холостым режимом ICONTM, в то время как шина зажигания не работает.
 
 ![[13800070.png]]
 
 ![[13800069.png]]
 
-Prior to installing the ICON™ system on trucks older than 3 months or with 16,000 km \[10,000 mi\], the battery charging system **must** be checked. This check serves two purposes:
+Перед установкой системы ICONTM на грузовиках старше 3 месяцев или с пробегом 16 000 км[10 000 миль] необходимо проверить систему зарядки аккумулятора. Эта проверка служит двум целям:
 
-1. Identifies a charging system that is **not** capable of attaining the proper voltages to allow the ICON™ system to shut down the engine, or identifies a defective charging system.
-2. To inform the customer that the charging system is **not** adequate and needs to be repaired or upgraded.
+1. Идентифицирует систему зарядки, которая **не** способна достигать надлежащих напряжений, чтобы позволить системе ICONTM выключить двигатель, или идентифицирует неисправную систему зарядки.
+2. Для того, чтобы сообщить клиенту, что система зарядки не является адекватной и нуждается в ремонте или модернизации.
 
-Verify charging system is operating properly. Refererence the following procedures:
+Проверить, работает ли система зарядки должным образом. Ссылка на следующие процедуры:
 
-- Use the following procedure in Troubleshooting and Repair Manual, N14 Base Engine, Bulletin 3666142. Refer to Procedure 013-001 in Section 13.
-- Use the following procedure in Troubleshooting and Repair Manual, N14 Base Engine, Bulletin 3666142. Refer to Procedure 013-007 in Section 13.
-- Use the following procedure in Troubleshooting and Repair Manual, M11 Series Engines, Bulletin 3666139. Refer to Procedure 013-001 in Section 13.
-- Use the following procedure in Troubleshooting and Repair Manual, M11 Series Engines, Bulletin 3666139. Refer to Procedure 013-007 in Section 13.
-- Use the following procedure in Troubleshooting and Repair Manual, ISM, ISM e Series Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 013-001 in Section 13.
-- Use the following procedure in the QSM11 Series Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 013-007 in Section 13.
-- Use the following procedures in Troubleshooting and Repair Manual, Signature, ISX, or QSX15 Series Engines, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]]. Refer to Procedure 013-001 in Section 13.
-- Use the following procedure in Troubleshooting and Repair Manual, Signature, ISX, or QSX15 Series Engines, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]]. [[10-013-007 — Batteries|Refer to Procedure 013-007 in Section 13.]]
-- Use the following procedure for the recommended battery charging system specifications. [[97-018-025 — ICON™ System|Refer to Procedure 018-025 in Section V.]]
-- The preferred grounding is as follows
-- If there is a grounding strap from the batteries to the frame, remove the strap. However, be sure that there is a grounding strap from the starter to the frame.
-- Balancing the battery pack:
-- Batteries can be discharged or charged unequally causing early failure of one or more batteries. Cummins Inc. recommends that in the main charger system all positive (+) and negative (-) terminal posts be equal distance from the starter.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, базовом двигателе N14, бюллетене 3666142. См. процедуру 013-001 в разделе 13.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, базовом двигателе N14, бюллетене 3666142. См. процедуру 013-007 в разделе 13.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, Двигатели серии M11, Вестник 3666139. См. процедуру 013-001 в разделе 13.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, Двигатели серии M11, Вестник 3666139. См. процедуру 013-007 в разделе 13.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, ISM, двигателях серии ISM e, бюллетене [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 013-001 в разделе 13.
+- Используйте следующую процедуру в двигателях серии QSM11, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 013-007 в разделе 13.
+- Используйте следующие процедуры в руководстве по устранению неполадок и ремонту, подписи, двигателях серии ISX или QSX15, бюллетень [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]]. См. процедуру 013-001 в разделе 13.
+- Используйте следующую процедуру в руководстве по устранению неполадок и ремонту, подписи, двигателях серии ISX или QSX15, бюллетень [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]].[[10-013-007 — Batteries|См. процедуру 013-007 в разделе 13.]]
+- Используйте следующую процедуру для рекомендуемых спецификаций системы зарядки аккумулятора.[[97-018-025 — ICON™ System|См. процедуру 018-025 в разделе V.]]
+- Предпочтительным заземлением является следующее:
+- Если есть заземляющий ремень от батарей до рамы, удалите ремень. Однако убедитесь, что есть заземляющий ремешок от стартера до рамы.
+- Балансировка аккумуляторной батареи:
+- Аккумуляторы могут разряжаться или заряжаться неравномерно, что приводит к раннему выходу из строя одной или нескольких батарей. Cummins Inc. Рекомендуется, чтобы в основной системе зарядного устройства все положительные (+) и отрицательные (-) оконечные позиции были равными расстояниям от стартера.
 
-> [!note] Note · Примечание
-> This type of application is incompatible with keyless engine mode.
+> [!note] Примечание
+> Этот тип применения несовместим с режимом работы без ключа.
 
-Scope - The Smart Steering Wheels usually use multiplexer control boxes that can be powered down when the ICON™ system powers down the vehicle. No fault codes will be displayed due to the ICON™ system interpreting this as the cruise switch being turned off.
+Сфера применения - Умные рулевые колеса обычно используют многократные коробки управления, которые могут быть приведены в действие, когда система ICONTM приводит в действие транспортное средство. Коды неисправностей не будут отображаться из-за системы ICONTM, интерпретирующей это как выключаемый круизный выключатель.
 
-Problem - It appears that the ICON™ system has been disabled.
+Проблема - похоже, что система ICONTM отключена.
 
-Solution - The fix is to wire the keyswitch ignition post to the switched power input of the multiplexer. This will prevent the multiplexer from being powered down.
+Решение - фиксация заключается в подключении поста зажигания переключателя зажигания к переключенному входу мощности мультиплексора. Это позволит предотвратить отключение мультиплексора.
 
-Keyswitches mounted in the column require different keyswitch wire connections. Wiring diagrams can be unclear on which wires are battery, ignition, start, and accessory connections.
+Переключатели ключей, установленные в колонке, требуют различных соединений проводов переключателя зажигания. Диаграммы проводов могут быть неясными, на каких проводах находятся батареи, зажигание, запуск и вспомогательные соединения.
 
-The general installation recommendation in the installation guide is to move all wires from the accessory post and the ignition post of the keyswitch to the ignition bus 1 (wire to pin 30 of ignition bus relay). If necessary, split the wires up between ignition bus 1 and ignition bus 2 wires on the cab harness to balance the current load. Doing this will allow the ICON™ system to control the application of power to all circuits in the cab and to control engine starts. Some customers want the accessory position to control circuits the way it has been traditionally done. In trying to retain this configuration, difficulty can arise from the fact that different OEMs and models route power to these circuits in a way that prevents the ICON™ system from controlling circuit power (fan power for example) properly after an engine shutdown with the key on or off, depending on whether keyless engine mode is in use. Specifically, the difficulty arises because the accessory post is hot when the keyswitch is in the ignition position. This prevents the ICON™ system from turning the fan circuits off after a shutdown.
+Общая рекомендация по установке в руководстве по установке заключается в том, чтобы переместить все провода из вспомогательного поста и пункта зажигания переключателя зажигания в шину 1 зажигания (провод для контакта 30 реле шины зажигания). При необходимости, разделите провода между шиной 1 зажигания и проводами шины 2 зажигания на кабине проводов, чтобы сбалансировать текущую нагрузку. Это позволит системе ICONTM контролировать подачу энергии на все схемы в кабине и управлять пусками двигателя. Некоторые клиенты хотят, чтобы вспомогательное положение управляло цепями так, как это традиционно делалось. Пытаясь сохранить эту конфигурацию, трудности могут возникнуть из-за того, что различные OEM-производители и модели направляют мощность на эти схемы таким образом, что система ICONTM не позволяет системе правильно управлять мощностью цепи (например, мощностью вентилятора) после выключения двигателя с включенным или выключенным ключом, в зависимости от того, используется ли режим без ключа. В частности, сложность возникает из-за того, что вспомогательная поза нагревается, когда переключатель зажигания находится в положении зажигания. Это предотвращает отключение вентиляторных цепей системы ICONTM после отключения.
 
-The accessory post wires **must** be traced out on an OEM diagram to determine which wires can be left connected to the accessory post. This allows the operator to control radios and other traditional circuits connected to the accessory post in the manner to which they have been accustomed. An alternative is to remove wires on a trial-and-error basis. Some installations require a trial-and-error process to determine if all wires can remain connected to the accessory post of the keyswitch. Newer keyswitches are mounted in the column or are the integrated (spade terminal) type. Care should be taken when wiring these installations.
+Сопроводительные провода должны быть прослежены на диаграмме OEM, чтобы определить, какие провода могут быть оставлены подключенными к вспомогательному посту. Это позволяет оператору управлять радиоприемниками и другими традиционными схемами, подключенными к вспомогательному посту, таким образом, к которому они привыкли. Альтернативой является удаление проводов на основе проб и ошибок. Некоторые установки требуют пробного и ошибочного процесса, чтобы определить, могут ли все провода оставаться подключенными к вспомогательному посту переключателя зажигания. Новые клавишные выключатели установлены в колонке или являются интегрированным (спадным терминалом) типом. Следует соблюдать осторожность при монтаже этих установок.
 
-A multimeter can be used to help identify which keyswitch pins have voltage on them when the keyswitch is in the OFF, ACCESSORIES, ON, and START positions.
+Мультиметр может быть использован для определения того, какие штифты переключателя зажигания имеют напряжение на них, когда переключатель зажигания находится в положениях OFF, ACCESSORIES, ON и START.
 
-### Install
+### Установка
 
-Aftermarket
+Послепродажный рынок
 
-> [!note] Note · Примечание
-> All harness connectors and wires are labeled to match the wiring diagram labels for ease of installation. Review the General Information at the front of this section (Section G) before proceeding.
+> [!note] Примечание
+> Все разъёмы и провода жгута проводов помечены, чтобы соответствовать схеме проводов этикетки для удобства установки. Просмотрите общую информацию в передней части этого раздела (раздел G) перед началом.
 
-> [!note] Note · Примечание
-> Before starting the installation, but after verifying the battery and charging system, it is recommended to connect a battery charger to the batteries. Charging the batteries will help reduce the time it takes to perform the checkout test after the installation.
+> [!note] Примечание
+> Перед началом установки, но после проверки аккумулятора и системы зарядки рекомендуется подключить зарядное устройство к аккумуляторам. Зарядка аккумуляторов поможет сократить время, необходимое для выполнения контрольного испытания после установки.
 
 ![[nobox.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель последним.
 
-Turn the keyswitch to the OFF position. Disconnect the vehicle batteries from the electrical system.
+Переведите замок зажигания в положение OFF. Отключите аккумуляторы автомобиля от электрической системы.
 
-> [!note] Note · Примечание
-> On some engine installations, disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset.
+> [!note] Примечание
+> На некоторых установках двигателя отключение соединений аккумулятора автомобиля может потребовать сброса часов ECM в режиме реального времени.
 
-Remove the cab dash panel.
+Снимите панель управления кабиной.
 
 ![[ea8coha.png]]
 
-Find suitable places in the engine compartment to mount the ICON™ components. The ICON™ idle control module, engine start alarm, starter relay, and ICON™ engine harness pass-through connector **must** be positioned on the firewall, close to one another on the intake side of the engine. Make sure the ICON™ engine harness easily reaches all of the connectors. Check all harness lengths. Check for possible interference with other components, and check the fit of each component in its chosen location.
+Найдите подходящие места в моторном отсеке для установки компонентов ICONTM. Модуль управления холостым ходом ICONTM, сигнализация запуска двигателя, реле пускового устройства и проводка двигателя ICONTM через разъём должны быть расположены на брандмауэре, близко друг к другу на стороне впуска двигателя. Убедитесь, что электропроводка ICONTM легко достигает всех разъемов. Проверьте все длины проводов. Проверьте возможные помехи в работе других компонентов и проверьте соответствие каждого компонента выбранному месту.
 
-The ICON™ engine harness **must** be positioned so that it can be connected to the cab harness pass-through connector under the dash. The cab harness connectors **must** be able to reach the parking brake switch, keyswitch, and in-cab datalink connectors. The exact location of components will vary by OEM.
+Упряжка для проводов двигателя ICONTM **должна быть расположена так, чтобы ее можно было подключить к проводах кабины через разъем под приборной панелью. Разъемы кабины электропроводки **должны иметь возможность достигать переключателя стояночного тормоза, переключателя зажигания и разъемов шины данных CAN в кабине. Точное расположение компонентов будет варьироваться в зависимости от OEM.
 
 ![[15800030.png]]
 
-When a suitable position for the ICON™ idle control module, engine start alarm, and pass-through connector is found, check the cab side of the firewall to make sure there will be no interference from anything mounted on or near where the pass-through connector will mount.
+Когда подходящее положение для модуля управления ICONTM холостого хода, сигнализации запуска двигателя и проходного разъема найдено, проверьте кабину боковой стороны брандмауэра, чтобы убедиться, что не будет никаких помех от чего-либо, установленного на или рядом с тем, где будет установлен проходной разъем.
 
 ![[15800031.png]]
 
-After confirming that the position selected is unobstructed, use a 1-1/2-inch hole saw to drill a hole in the firewall. A punch tool can speed the installation.
+После подтверждения того, что выбранное положение не имеет препятствий, используйте 1-1/2-дюймовую пилу для сверления отверстия в брандмауэре. Инструмент для удара может ускорить установку.
 
-If necessary, file any loose material out of the hole.
+При необходимости, подавайте любой свободный материал из отверстия.
 
 ![[15800032.png]]
 
-Install the ICON™ cab harness pass-through connector into the previously drilled hole and install the mounting hardware.
+Установите проводку кабины ICONTM с помощью проходящего разъёма в ранее просверленное отверстие и установите монтажное оборудование.
 
-Secure the connector with the provided flat washer and nut.
+Закрепите разъём с предоставленной плоской шайбой машиной и гайкой.
 
 ![[15800039.png]]
 
-Connect the ICON™ engine harness to the cab harness pass-through connector. Connecting the two harnesses together before connecting the under-the-hood components to the ICON™ engine harness will aid in positioning those components properly on the vehicle's firewall.
+Подключите ремень проводов двигателя ICONTM к кабинному ремню проводов через разъем. Соединение двух проводных ремней вместе перед подключением компонентов под капотом к ремню проводов двигателя ICONTM поможет правильно расположить эти компоненты на брандмауэре автомобиля.
 
 ![[15800040.png]]
 
-Install the ICON™ idle control module on the firewall or other suitable location.
+Установите модуль управления ICONTM на брандмауэр или другое подходящее место.
 
-Do **not** install the ICON™ idle control module on the engine or any other location that will expose it to extreme heat.
+Не устанавливайте модуль управления ICONTM на двигатель или любое другое место, которое подвергнет его воздействию экстремального тепла.
 
 ![[15800033.png]]
 
-Install the engine start alarm in a suitable location on or near the firewall. Orient the alarm so that it is pointing down. This orientation best directs the sound to warn personnel working under the vehicle that the ICON™ system is about to start the engine.
+Установите сигнализацию запуска двигателя в подходящем месте на или рядом с брандмауэром. Направьте сигнализацию так, чтобы она указывала вниз. Эта ориентация лучше всего направляет звук, чтобы предупредить персонал, работающий под автомобилем, что система ICONTM собирается запустить двигатель.
 
-Do **not** install the engine start alarm on the engine or any other location that will expose it to extreme heat.
+Не устанавливайте аварийную сигнализацию двигателя на двигатель или любое другое место, которое подвергнет его экстремальному теплу.
 
 ![[15800034.png]]
 
-Install the starter relay on or near the firewall.
+Установите стартер реле на или рядом с брандмауэром.
 
-Do **not** install the starter relay on the engine or any other location that will expose it to extreme heat.
+Не устанавливайте реле стартера на двигатель или любое другое место, которое подвергнет его экстремальному теплу.
 
 ![[15800035.png]]
 
-Remove the fuse from the fuse holder connected to the ICON™ engine harness.
+Удалите предохранитель из держателя предохранителя, подключенного к ремню проводов двигателя ICONTM.
 
 ![[15800036.png]]
 
-> [!danger] WARNING · Опасно
-> Some hood tilt switches contain Mercury, a chemical known to some state and federal agencies to cause birth defects or other reproductive harm. Do not dispose. Recycle in accordance with state regulations.
+> [!danger] ОПАСНО
+> Некоторые переключатели наклона капота содержат ртуть, химическое вещество, известное некоторым государственным и федеральным агентствам, которое вызывает врожденные дефекты или другой репродуктивный вред. Не утилизируйте. Переработка в соответствии с государственными правилами.
 
-> [!note] Note · Примечание
-> Some non-mercury hood tilt switches can be supplied without a bracket.
+> [!note] Примечание
+> Некоторые нертутные выключатели наклона капота могут поставляться без скобки.
 
-Install the hood tilt switch on the vehicle hood. Typically, this switch can be mounted on the back of the head lamp assembly on the left side of the vehicle. Position the switch so that the “wires” end of the switch points down when the hood is closed and points up when the hood is open. The mounting bracket should be perpendicular to the ground when the hood is closed.
+Установите выключатель наклона капота на капот автомобиля. Как правило, этот переключатель может быть установлен на задней части головной лампы на левой стороне транспортного средства. Поместите переключатель так, чтобы «провода» конца переключателя указывали вниз, когда вытяжка закрыта, и указывали вверх, когда вытяжка открыта. Крепление крепления должно быть перпендикулярно земле, когда капот закрыт.
 
-It can be necessary to bend the bracket so that the mercury switch touches the side of the bracket that mounts to the head lamp assembly. This configuration will eliminate the possibility of intermittent switch contact.
+Может потребоваться сгибание скобки таким образом, чтобы ртутный переключатель касался стороны скобки, которая крепится к головной лампе. Такая конфигурация устранит возможность прерывистого контакта переключателя.
 
 ![[15800037.png]]
 
-Carefully close the vehicle's hood to make sure that none of the ICON™ components interfere with closing the hood.
+Тщательно закройте капот автомобиля, чтобы убедиться, что ни один из компонентов ICONTM не мешает закрыть капот.
 
 ![[15800038.png]]
 
-Open the hood and attach the ICON™ engine harness to each of the components installed in the engine compartment:
+Откройте капот и прикрепите ремень проводов двигателя ICONTM к каждому из компонентов, установленных в моторном отсеке:
 
-- ICON™ idle control module A and B connectors
-- Engine start alarm
-- Starter relay
-- Hood tilt switch.
+- ICONTM модуль управления бездействия разъемы A и B
+- Тревога двигателя
+- Эстафета старта
+- Переключатель наклона каната.
 
-Secure all the loose wiring to the vehicle frame with nylon wire ties.
+Закрепите всю свободную проводку к раме автомобиля нейлоновыми проводными связями.
 
 ![[15800048.png]]
 
-Close and open the hood to make sure no wires catch on anything protruding from the vehicle.
+Закройте и откройте капот, чтобы убедиться, что никакие провода не зацепятся за что-либо, выступающее из автомобиля.
 
 ![[15800038.png]]
 
-> [!note] Note · Примечание
-> Volvo Eaton transmissions can have a 5/8-inch or a M16 metric thread neutral position switch (**not** included in the ICON™ system installation kit).
+> [!note] Примечание
+> Трансмиссии Volvo Eaton могут иметь 5/8-дюймовый или M16-метрический резьбовый нейтральный переключатель положения (**не** включен в комплект установки системы ICONTM).
 
-Eaton and Meritor transmissions are equipped with a port for the installation of a neutral position switch. The Eaton transmission typically uses a 9/16-inch normally open switch, and the Meritor transmission typically uses a 3/4-inch normally closed switch.
+Трансмиссии Eaton и Meritor оснащены портом для установки нейтрального переключателя положения. Передача Eaton обычно использует 9/16-дюймовый обычно открытый переключатель, а передача Meritor обычно использует 3/4-дюймовый обычно закрытый переключатель.
 
-> [!note] Note · Примечание
-> If the vehicle is equipped with another type of transmission, contact the transmission supplier for instructions on the placement of a neutral position switch.
+> [!note] Примечание
+> Если транспортное средство оборудовано другим типом трансмиссии, обратитесь к поставщику трансмиссии за инструкциями по размещению нейтрального переключателя положения.
 
 ![[15800042.png]]
 
-Remove the boot around the gear shift. Remove the neutral position switch plug from the transmission.
+Снимите багажник вокруг переключения передач. Удалите штепсель нейтрального положения из трансмиссии.
 
 ![[15800043.png]]
 
-Install an o-ring on the neutral position switch. Install the neutral position switch into the threaded port.
+Установите кольцо на нейтральный переключатель положения. Установите нейтральный переключатель положения в резьбовый порт.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [15 ft-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [15 фунт-фут]
 
-Connect the ICON™ engine harness connector to the switch.
+Подключите к переключателю разъем для проводов двигателя ICONTM.
 
 ![[15800044.png]]
 
-Locate the keyswitch input circuit for the engine ECM. ISM and ISX/Signature engines use pin 38 in the OEM connector. CELECT™ Plus engines use pin 26 in the actuator harness connector. ISX CM870, ISX CM871, ISM CM870, ISM 876, and ISM CM875 use pin 39 in the ECM OEM harness connector.
+Найдите схему ввода переключателя зажигания для двигателя ECM. Двигатели ISM и ISX/Signature используют контакт 38 в разъеме OEM. Двигатели CELECTTM Plus используют контакт 26 в разъеме электропроводки привода. ISX CM870, ISX CM871, ISM CM870, ISM 876 и ISM CM875 используют контакт 39 в разъёме электропроводки ECM OEM.
 
-Refer to the appropriate wiring diagram for the specific pin number that relates to the engine onto which ICON™ system is being installed.
+См. соответствующую схему проводов для конкретного номера штифта, который относится к двигателю, на который устанавливается система ICONTM.
 
 ![[15800046.png]]
 
-Disconnect the OEM connector that contains the engine ECM keyswitch input circuit. Cut the wire that leads to the engine ECM keyswitch input circuit pin near the connector. Use the appropriate butt splice, splice the engine ECM keyswitch input circuit wire coming from the connector to the ICON™ idle control module keyswitch input wire in the ICON™ engine harness. Heat-shrink the splice. It may be necessary to trim excess harness length. Connect the connector. Electrically isolate the loose engine ECM keyswitch input wire. Use the appropriate butt splice, crimp one end to the wire and heat-shrink the splice.
+Отсоедините OEM-разъем, который содержит схему ввода переключателя зажигания ECM двигателя. Отрежьте провод, который ведет к входному штифту переключателя зажигания двигателя ECM вблизи разъема. Используйте соответствующую сплайс-сплайс, сплайсируйте провод входного зажигания переключателя ECM двигателя, идущий от разъема к проводу входного зажигания переключателя управления ICONTM в проводе провода двигателя ICONTM. Сплайс сжимает температуру. Может потребоваться обрезать лишнюю длину проводов. Подключите разъем. Электрически изолировать входной провод переключателя зажигания ECM свободного двигателя. Используйте соответствующую сплайс приклада, обжимайте один конец провода и нагревайте сплайс.
 
-Secure the loose keyswitch input wire to the vehicle's engine harness with nylon wire ties.
+Закрепите входной провод переключателя зажигания на ремне электропроводки двигателя автомобиля с помощью нейлоновых проводных связей.
 
 ![[15800047.png]]
 
-Use nylon wire ties to secure all of the loose ICON™ engine harness wires. Make sure the wires do **not** rub against sharp or jagged edges. Make sure the wires do **not** rest against any hot surface that can damage the wire insulation.
+Используйте нейлоновые проводные стяжки для защиты всех проводов жгута проводов двигателя ICONTM. Убедитесь, что провода **не **трутся о острые или зубчатые края. Убедитесь, что провода не останавливаются на любой горячей поверхности, которая может повредить изоляцию провода.
 
 ![[15800048.png]]
 
-Remove the fuse from the fuse holder connected to the cab harness.
+Удалите предохранитель из держателя предохранителя, подключенного к кабине электропроводки.
 
 ![[15800036.png]]
 
-Connect the cab thermostat jumper harness to the ICON™ cab harness. Route the cab thermostat jumper harness from the cab harness to the bunk area so that it can be connected to the bunk thermostat. Performing this procedure first aids in determining the mounting position for the bunk thermostat. Depending on the OEM, route the harness under the kick panel, or under the interior lining above the driver window, and then under the interior panels to the location in the cab where the hole will be drilled to mount the thermostat. If necessary, remove cab panels, flooring, or other items, to route the harness.
+Подключите кабину термостата кабины кабины ICONTM. Маршрут кабины термостата прыгун проводов от кабины проводов ремень до зоны бункера, так что он может быть подключен к бунк термостата. Выполнение этой процедуры помогает в определении положения крепления для термостата. В зависимости от OEM, маршрут проводов жгут под ударной панелью, или под внутренней облицовкой над окном водителя, а затем под внутренними панелями к месту в кабине, где отверстие будет просверлено, чтобы установить термостат. При необходимости удалите панели кабины, напольные покрытия или другие предметы, чтобы маршрутизировать проводку.
 
 ![[15800049.png]]
 
-Find a suitable location to install the cab thermostat. This position **must** be readily accessible to the vehicle operator. The thermostat is typically installed approximately 2 feet over the bunk sleeping surface, or midway between the bunk and the ceiling. It should also be placed out of the direct flow of air from the vehicle heating or air conditioning. Be certain to position the thermostat so that it can **not** be easily damaged and will **not** be accidentally covered by clothing or pillows.
+Найдите подходящее место для установки термостата кабины. Эта позиция **должна быть легко доступна для оператора транспортного средства. Термостат обычно устанавливается примерно на 2 фута над спальной поверхностью койки или на полпути между койкой и потолком. Он также должен быть размещен из прямого потока воздуха от отопления или кондиционирования транспортного средства. Обязательно установите термостат так, чтобы он мог **не** быть легко поврежден и **не будет случайно покрыт одеждой или подушками.
 
-It is recommended that a knife be used to trim the interior enough to allow the drilling of a hole ample enough for the thermostat connectors to be pushed through it, in order to connect the ambient air temperature and cab thermostat jumper harnesses.
-
-![[15800050.png]]
-
-Install the cab thermostat.
-
-Connect the cab thermostat jumper harness to the thermostat.
+Рекомендуется использовать нож для обрезки интерьера достаточно, чтобы позволить сверление отверстия достаточно для разъемов термостата, чтобы быть проталкиваемым через него, для того, чтобы соединить температуру окружающего воздуха и проводку термостата кабины.
 
 ![[15800050.png]]
 
-Drill a 3/4-inch hole in the floor of the bunk area, preferably under the sleeper bunk pedestal. Route the temperature sensor harness into the cab. Install a grommet to seal the hole around the wire and prevent abrasion. Seal with silicone to prevent exhaust gas from seeping into the cab.
+Установите термостат кабины.
 
-Connect the temperature sensor harness to the cab thermostat.
+Подключите кабину термостата к прыгуну проводов к термостату.
+
+![[15800050.png]]
+
+Пробурить 3/4-дюймовое отверстие в полу зоны бункера, предпочтительно под пьедесталом спальной бункеры. Прокладывайте проводку датчика температуры в кабину. Установите громмет, чтобы запечатать отверстие вокруг провода и предотвратить истирание. Уплотнение силиконом для предотвращения просачивания выхлопных газов в кабину.
+
+Подключите датчик температуры проводку ремня к термостату кабины.
 
 ![[15800059.png]]
 
-Install the ambient air temperature sensor in an area shaded from the sun, but **not** in an area without airflow. Make sure the sensor is protected and is located outside the engine compartment away from engine heat or the exhaust system. A position under the vehicle's fifth wheel is recommended. Fuel tank temperatures can affect ambient temperature sensed by the sensor. Do **not** mount over fuel tanks.
+Установите датчик температуры окружающего воздуха в области, затененной от солнца, но **не **в области без воздушного потока. Убедитесь, что датчик защищен и находится вне моторного отсека вдали от тепла двигателя или выхлопной системы. Рекомендуется положение под пятым колесом автомобиля. Температура топливного бака может влиять на температуру окружающей среды, определяемую датчиком. Не монтируйтесь над топливными баками.
 
-Connect the temperature sensor harness to the ambient air temperature sensor.
+Подключите датчик температуры проводку ремня к датчику температуры окружающего воздуха.
 
-> [!note] Note · Примечание
-> Do **not** bolt the sensor to secure it.
+> [!note] Примечание
+> Не закручивайте датчик, чтобы защитить его.
 
-Use nylon wire ties to secure the sensor and the wiring harness. The sensor should be secured to an air line or wire conduit.
+Используйте нейлоновые проводные стяжки для защиты датчика и проводной упряжки. Датчик должен быть закреплен на линии сжатого воздуха или проводе.
 
 ![[15800060.png]]
 
-Remove the dash panel to gain access to the vehicle keyswitch, parking brake air line, optional trailer parking brake air line, and starter button if the vehicle is so equipped.
+Удалите панель приборной панели, чтобы получить доступ к переключателю зажигания транспортного средства, линии сжатого воздуха для стояночного тормоза, дополнительной линии сжатого воздуха для стояночного тормоза прицепа и кнопке запуска, если транспортное средство так оснащено.
 
-Route the ICON™ cab harness throughout the dash area so that each connector reaches the appropriate location.
+Маршрутируйте кабину ICONTM по всей области приборной панели так, чтобы каждый разъем достигал соответствующего местоположения.
 
 ![[15800051.png]]
 
-If the vehicle is equipped with a Pollack electronic dash, it may be necessary to install the optional dash relay (**not** provided in the ICON™ installation kit). For applications other than Pollack, please skip the following steps for installing the dash relay and go to “connecting the ICON™ engine harness battery connectors to the vehicle batteries” step.
+Если транспортное средство оснащено электронным прибором Pollack, может потребоваться установка дополнительного реле прибора (**не**, предусмотренного в комплекте установки ICONTM). Для приложений, отличных от Pollack, пропустите следующие шаги для установки реле приборной панели и перейдите к шагу «подключение разъемов аккумуляторной батареи ICONTM для подключения к батареям автомобиля».
 
-Install a 2 Form C relay (double pole/double throw relay) between the electronic dash and the public datalink as follows:
+Установите реле 2 Form C (двойной полюс / двойной реле броска) между электронным приборным тире и публичной шиной данных CAN следующим образом:
 
 ![[15800013.png]]
 
-Find the connector on the dash that connects the J1587 public datalink from the vehicle harness to the dash.
+Найдите разъем на приборной панели, которая соединяет шину данных J1587 с общественной шиной данных CAN от жгута проводов транспортного средства до приборной панели.
 
-Locate the J1587 public datalink positive (+) wire and negative (-) wire on the dash harness connector and label them.
+Найдите шину данных J1587 с положительным (+) проводом и отрицательным (-) проводом на разъеме жгутов проводов и пометьте их.
 
-Cut these wires.
+Перережьте эти провода.
 
-If necessary, splice longer wires to each of the cut wires to allow connection to the relay base.
+При необходимости сплайсируйте более длинные провода к каждому из прорезанных проводов, чтобы обеспечить подключение к реле.
 
 ![[19802944.png]]
 
-| Relay Connections on Dash Harness |  |
+| Relay Connections на Dash Wiring Grund |  |
 |---|---|
-| Connector side | Truck side |
-| Relay pin 3 to (+) J1587 public datalink | Relay pin 5 to (+) J1587 public datalink |
-| Relay pin 4 to (-) J1587 public datalink | Relay pin 6 to (-) J1587 public datalink |
+| Сбоку от подключения | Сбоку от грузовика |
+| Передача контакта 3 (+) в публичную шину данных J1587 CAN | Связь 5 (+) с публичной шиной данных J1587 CAN |
+| Связь 4-(-) с публичной шиной данных J1587 CAN | Связь 6 с (-) публичной шиной данных J1587 CAN |
 
 ![[19802818.png]]
 
-Use a separate wire, connect pin A (relay coil (+) to pin 30 of the ignition bus 1 relay. Splice into the wire labeled ignition bus 1 - wire 21 (L4) that goes to the OEM cab circuits. This wire is the same wire that was connected to all of the ignition and accessory post wires (the wires removed from the keyswitch).
+Используйте отдельный провод, подключите контакт A (релейная катушка (+) для контакта 30 реле шины 1 зажигания). Сплайсируйте в проволоку с маркировкой шины зажигания 1 - проволоку 21 (L4), которая идет в цепи кабины OEM. Этот провод является тем же самым проводом, который был подключен ко всем проводам зажигания и вспомогательным проводам (проводам, удаленным из переключателя зажигания).
 
-> [!note] Note · Примечание
-> Care **must** be taken to distinguish between the “relay pins” and the “relay base pins.” All instructions above are for “relay pins.”
-
-![[19802818.png]]
-
-Install a separate wire from pin B to a cab ground, use a ring terminal or other appropriate connector.
+> [!note] Примечание
+> Следует соблюдать осторожность, чтобы различать "релейные штифты" и "релейные штифты". Все приведенные выше инструкции относятся к "релейным штифтам".
 
 ![[19802818.png]]
 
-Locate the parking brake line connecting the vehicle parking brake push/pull valve to the brake.
+Установите отдельный провод от контакта В до заземления кабины, используйте кольцевой терминал или другой соответствующий разъем.
 
-To verify that this is the correct line, loosen a fitting on the line and deactivate the vehicle parking brake. Air should continuously bleed off from the loosened fitting.
+![[19802818.png]]
 
-After verifying that the correct line has been selected, tighten the fitting.
+Найдите линию стояночного тормоза, соединяющую тормозной клапан стояночного тормоза транспортного средства с тормозом.
+
+Чтобы убедиться, что это правильная линия, ослабьте фитинг на линии и отключите стояночный тормоз автомобиля. Воздух должен непрерывно оттекать от ослабленного фитинга.
+
+После проверки того, что выбрана правильная линия, подтяните фитинг.
 
 ![[15800052.png]]
 
-Activate the brake to remove air pressure from the line. Cut the vehicle parking brake line, and use the fittings supplied to install a tee in the line. Orient the open port on the tee above horizontal. This helps prevent any moisture from becoming trapped in the switch contact area once it is installed. Install the vehicle parking brake switch in the tee to allow the switch to sense the air pressure in the parking brake line.
+Приведение в действие тормоза для снятия давления воздуха с линии. Разрежьте линию стояночного тормоза автомобиля и используйте фитинги, поставляемые для установки тиса в линии. Ориентируйте открытый порт на трость выше горизонтальной. Это помогает предотвратить попадание влаги в зону контакта переключателя после его установки. Установите выключатель стояночного тормоза транспортного средства в тройке, чтобы переключатель мог ощущать давление воздуха на линии стояночного тормоза.
 
-Connect the ICON™ cab harness to the vehicle parking brake switch.
+Подключите жгут кабины ICONTM к выключателю стояночного тормоза автомобиля.
 
 ![[15800053.png]]
 
-Locate the J1587 datalink connector in the vehicle cab.
+Найдите разъем шины данных J1587 CAN в кабине автомобиля.
 
-This connector is typically located on the driver's side of the vehicle under the dash.
+Этот разъем обычно расположен на стороне водителя транспортного средства под приборной панелью.
 
 ![[15800054.png]]
 
-With the 6-pin Deutsch connector, pin A is typically the positive (+) datalink wire, and pin B is typically the negative (-) datalink wire.
+С 6-контактным разъемом Deutsch контакт А обычно является положительным (+) проводом шины данных CAN, а контакт B обычно является отрицательным (-) проводом шины данных CAN.
 
-With the 9-pin Deutsch connector, pin F is typically the positive (+) datalink wire, and pin G is typically the negative (-) datalink wire.
+С 9-контактным разъемом Deutsch контакт F обычно является положительным (+) проводом шины данных CAN, а контакт G обычно является отрицательным (-) проводом шины данных CAN.
 
 ![[19803464.png]]
 
-Cut the positive (+) and negative (-) datalink wires near the connector. Strip the ends of the wires. Place both ends of the positive (+) datalink wires into the appropriate butt splice. Attach the ICON™ cab harness positive (+) white wire to the positive (+) datalink wires. In the same manner, attach the ICON™ cab harness negative (-) black wire to the negative (-) datalink wires. Heat-shrink the butt splices.
+Отрежьте положительные (+) и отрицательные (-) провода шины данных CAN вблизи разъема. Раздевай концы проводов. Поместите оба конца положительных (+) проводов шины данных CAN в соответствующую сплайс. Прикрепите проводку кабины ICONTM к положительным (+) белым проводам с помощью кабины данных CAN (+). Аналогичным образом, прикрепите проводку кабины ICONTM с отрицательной (-) черной проволокой к отрицательной (-) шине передачи данных CAN. Сожми сосочки задницы.
 
-These splices connect the ICON™ datalink wires to the in-cab datalink. This connection is made in such a way that the cab datalink is still connected to the idle control module.
+Эти сплайсы соединяют провода шины данных ICONTM CAN с шиной данных CAN в кабине. Это соединение выполнено таким образом, что шина данных CAN кабины по-прежнему подключена к модулю управления холостым ходом.
 
 ![[15800055.png]]
 
-Mount the ICON™ cab harness ignition bus relay holder(s) near the keyswitch. Make sure the ignition bus 1 and 2 wires will reach wires removed from the keyswitch. Orient the leads pointing down to prevent any moisture from getting into the relays.
+Установите держатель (держатели) реле зажигания кабины ICONTM рядом с выключателем зажигания. Убедитесь, что шины 1 и 2 зажигания будут достигать проводов, удаленных из переключателя зажигания. Ориентируйте провода, указывающие вниз, чтобы предотвратить попадание влаги в реле.
 
-Insert the ignition bus 1 relay (40 amperes) into the ignition bus 1 relay holder. This relay allows the ICON™ system to control the application of cab power. This relay is a normally closed relay.
+Включить реле шины зажигания 1 (40 ампер) в держатель реле шины зажигания 1. Это реле позволяет системе ICONTM контролировать применение мощности кабины. Это обычно закрытое реле.
 
 ![[15800056.png]]
 
-> [!note] Note · Примечание
-> The following procedure shows the four-post style of keyswitch. Your vehicle's configuration can be different. See the charging and starting diagram for the application onto which the ICON™ system is being installed (if different from the procedure shown here).
+> [!note] Примечание
+> Следующая процедура показывает четырехпостовый стиль переключателя зажигания. Конфигурация вашего автомобиля может быть разной. См. схему зарядки и запуска приложения, на которое устанавливается система ICONTM (если она отличается от показанной здесь процедуры).
 
-> [!note] Note · Примечание
-> This procedure is necessary to be certain that the ICON™ system can start and stop the engine, as well as turn the in-cab power on and off, at the appropriate time. Some of the cab circuits can initially be connected to the accessory terminal post of the keyswitch (this is **not** recommended). If accessories are connected in this way, the cab power can **not** be removed when the vehicle is being powered down by the ICON™ system, the reason being that the accessory terminal post is hot when the keyswitch is in the ignition and accessory positions. If the operator desires to have manual control of some devices in the cab while the vehicle is powered down by ICON™ system, it will be necessary to hardwire those devices to the keyswitch unswitched battery terminal post instead of the accessory post.
-
-![[15800057.png]]
-
-> [!note] Note · Примечание
-> A newer style of keyswitch uses solderless quick-disconnect (blade) connections on the keyswitch. For vehicles with this type of keyswitch, see the charging and starting diagrams for that application to confirm the function of each keyswitch wire.
-
-Remove the keyswitch from the dash.
-
-If equipped, remove the starter button from the dash.
+> [!note] Примечание
+> Эта процедура необходима для того, чтобы убедиться, что система ICONTM может запустить и остановить двигатель, а также включить и выключить питание в кабине в соответствующее время. Некоторые из цепей кабины могут быть первоначально подключены к вспомогательному терминалу выключателя зажигания (это **не рекомендуется). Если аксессуары соединены таким образом, мощность кабины может **не быть удалена, когда транспортное средство приводится в действие системой ICONTM, причина в том, что клеммный столб аксессуара горячий, когда переключатель зажигания находится в положении зажигания и аксессуара. Если оператор желает иметь ручное управление некоторыми устройствами в кабине, в то время как транспортное средство приведено в действие системой ICONTM, необходимо будет жестко подключить эти устройства к выключателю зажигания, не выключенному посту терминала батареи, а не вспомогательному посту.
 
 ![[15800057.png]]
 
-Tag and then disconnect all of the existing wires (1) from the keyswitch ignition post.
+> [!note] Примечание
+> Более новый стиль переключателя зажигания использует безпаянные соединения быстрого отключения (лезвия) на переключателе зажигания. Для транспортных средств с этим типом переключателя зажигания см. диаграммы зарядки и запуска для этого приложения, чтобы подтвердить функцию каждого провода переключателя зажигания.
+
+Удалите замок зажигания из приборной панели.
+
+Если он оборудован, удалите кнопку стартера из приборной панели.
+
+![[15800057.png]]
+
+Нажмите и затем отсоедините все существующие провода (1) от поста зажигания переключателя зажигания.
 
 ![[15800062.png]]
 
-If the vehicle is equipped with a starter button, connect a wire (2) to supply power to the button directly from the ignition post on the keyswitch, if such a wire is **not** already present.
+Если транспортное средство оснащено кнопкой стартера, подключите провод (2) для подачи питания к кнопке непосредственно от поста зажигания на выключателе зажигания, если такой провод уже присутствует **не**.
 
 ![[15800063.png]]
 
-If there is only one wire (the wire originally connected to the ignition post of the keyswitch) supplying power to components through the ignition post and accessory post, use the appropriate-size butt splice and attach that wire (1) to the ICON™ cab harness ignition bus 1 wire Number 021 (L4). Heat-shrink the butt splice.
+Если имеется только один провод (провод, первоначально соединенный с зажигательным узлом переключателя зажигания), подавающий питание компонентов через зажигательный стой и вспомогательный стой, используйте сплайс приклада соответствующего размера и прикрепите этот провод (1) к кабине провода ICONTM с жгутом зажигания шины 1 провода 021 (L4). Сжимаем сплайс с задницей.
 
-Make sure to use ignition bus 1 wire, wire Number 021, **not** the ignition bus 1 power wire.
+Обязательно используйте провод шины зажигания 1, провод № 021, **не** провода питания шины зажигания 1.
 
 ![[15800070.png]]
 
-If more than one wire was supplying power to components through the ignition post and the accessory post, a terminal block or other device that allows multiple connections should be used. After making the necessary connections, be sure to seal off and secure the terminal block with electrical tape to prevent accidental contact with the electrical connections. (A terminal block is **not** provided in the ICON™ installation kit.)
+Если более одного провода подавало питание компонентам через пост зажигания и пост аксессуара, следует использовать терминальный блок или другое устройство, которое позволяет несколько соединений. После изготовления необходимых соединений обязательно запечатайте и закрепите оконечный блок электрической лентой, чтобы предотвратить случайный контакт с электрическими соединениями. (Оконечный блок **не** предусмотрен в комплекте установки ICONTM.)
 
 ![[15800064.png]]
 
-Some installations require a second ignition bus relay (**not** provided in the ICON™ installation kit) to allow the ICON™ system to control additional circuits. (If needed, this relay is installed the same as the first ignition bus relay, and connected to the cab harness ignition bus 2 holder position.)
+Некоторые установки требуют второго реле шины зажигания (**не**, предусмотренного в комплекте установки ICONTM), чтобы система ICONTM могла управлять дополнительными цепями. (При необходимости, это реле устанавливается так же, как и первое реле шины зажигания, и подключается к кабине проводов жгута зажигания шины 2 в положении держателя.)
 
-Make sure to use ignition bus 2 wire, wire Number 022 (L5), **not** the ignition bus 2 power wire.
+Обязательно используйте провод шины 2 зажигания, провод № 022 (L5), **не** провода 2 зажигания.
 
-As a rule, if there are multiple wires connected to the ignition post and the accessory post, the wire loads should be evenly distributed between ignition bus 1 and 2 relay circuits. Ignition bus 2 (wire Number 022 (L5)) will be connected to half of the cab circuit load wires removed from the ignition post and the accessory post. Ignition bus 1 (wire Number 021 (L4)) will be connected to the other half. These relays are normally closed relays.
+Как правило, если к зажигательной и вспомогательной стойкам подключено несколько проводов, то нагрузки на провода должны равномерно распределяться между цепями реле зажигания шины 1 и 2. Шина 2 зажигания (провода № 022 (L5)) будет соединена с половиной проводов нагрузки кабины, удаленных из поста зажигания и вспомогательного поста. Шина зажигания 1 (провода № 021 (L4)) будет соединена с другой половиной. Обычно эти реле являются закрытыми.
 
 ![[15800002.png]]
 
-Remove the wire (4) connecting the starter post on the keyswitch to the starter magnetic switch.
+Удалите провод (4), соединяющий стартовый столб на переключателе зажигания, на стартовый магнитный переключатель.
 
-If the vehicle is equipped with a starter button, remove the wire (4) connecting the starter button to the starter magnetic switch.
+Если транспортное средство оснащено кнопкой стартера, удалите провод (4), соединяющий кнопку стартера с магнитным выключателем стартера.
 
 ![[15800065.png]]
 
-Connect the ICON™ cab harness starter terminal wire Number 018 (T3) to the starter post or to the starter button (if equipped).
+Подключите провод кабины ICONTM к стартерному клеммному проводу № 018 (T3) к стартовому столбу или к кнопке стартера (если она оборудована).
 
 ![[15800071.png]]
 
-Use the appropriate-size butt splice, attach the wire (4) from the magnetic switch that was removed from the starter post or the starter button to the ICON™ cab harness magnetic switch power wire Number 017 (L3). This splice connects the magnetic switch to pin 30 on the starter relay. Heat-shrink the butt splice.
+Используйте сплайс приклада соответствующего размера, прикрепите провод (4) от магнитного переключателя, который был удален из стартового столба или кнопки запуска, к проводах ICONTM, чтобы использовать магнитный переключатель питания провода № 017 (L3). Эта сплайс соединяет магнитный переключатель с контактом 30 на стартовом реле. Сжимаем сплайс с задницей.
 
-> [!note] Note · Примечание
-> The starter relay is a normally open relay.
+> [!note] Примечание
+> Стартерная реле обычно открытая реле.
 
 ![[15800066.png]]
 
-Attach the ICON™ cab harness keyswitch ignition pickup wire Number 020 (T5) to the ignition post on the keyswitch.
+Прикрепить проводку кабины ICONTM с помощью переключателя зажигания зажигания к проводу зажигания № 020 (T5) к посту зажигания на переключателе зажигания.
 
 ![[15800067.png]]
 
-Attach the ICON™ cab harness starter power wire Number 019 (T4) to the battery post (unswitched battery) on the keyswitch.
+Прикрепите проводку кабины ICONTM к стартеру электропроводки № 019 (T4) к посту батареи (отключенной батареи) на выключателе зажигания.
 
 ![[15800068.png]]
 
-Attach the ICON™ cab harness ignition bus 1 power wire Number 023 (T6) to the ignition post on the keyswitch (switched battery). If a second relay is installed, attach the cab harness ignition bus 2 power wire Number 024 (T7) to the ignition post on the keyswitch (switched battery). These wires provide power to the ignition bus relays.
+Прикрепить кабину проводов ICONTM с жгутом зажигания шины 1 силового провода № 023 (T6) к посту зажигания на выключателе зажигания (переключенная батарея). Если установлена вторая реле, прикрепите кабину проводов жгута зажигания шины 2 силового провода № 024 (T7) к посту зажигания на выключателе зажигания (переключенной батарее). Эти провода обеспечивают питание реле шины зажигания.
 
-Install the keyswitch and starter button in their original OEM location.
+Установите переключатель зажигания и кнопку запуска в их первоначальном местоположении OEM.
 
 ![[15800069.png]]
 
-Find a visible location on the vehicle dash for the ICON™ lamp. Make sure that the chosen location is one that is **not** subject to be easily kicked or hit. Drill a 11/16-inch hole in the dash.
+Найдите видимое местоположение на приборной панели автомобиля для лампы ICONTM. Убедитесь, что выбранное место является тем, которое не подлежит удару или удару. Пробурите 11/16-дюймовое отверстие в приборной панели.
 
-Remove the lamp cover and nut from the housing.
+Снимите крышку лампы и гайку с кожуха.
 
-With the star washer still on the housing, insert it through the hole in the dash.
+Когда звездная шайба все еще на корпусе, вставьте ее через отверстие в приборной панели.
 
-Install and tighten the nut to hold the housing in position. Install the lamp cover.
+Установите и подтяните гайку, чтобы удерживать кожух в положении. Установите крышку лампы.
 
-Attach the ICON™ cab harness to the lamp.
+Прикрепите к лампе электропроводку ICONTM.
 
-Tape any exposed wires and secure all wiring to the vehicle, use nylon wire ties. Make sure that none of the wiring is binding and that there is no tension on the lamp wires that lead to the lamp connector.
+Заклейте любые открытые провода и закрепите всю проводку на транспортном средстве, используйте нейлоновые проводные связи. Убедитесь, что ни одна из проводов не является связующей и что на проводах лампы, которые ведут к разъему лампы, нет напряжения.
 
 ![[15800058.png]]
 
-Connect the ICON™ engine harness battery connectors to the batteries. Connect the positive (+) ring terminal (red wire) wire Number 013 (T1) to the positive (+) battery connector first. Then connect the negative (-) ring terminal (black wire) wire Number 003 (T2) to the negative (-) battery connector.
+Подключите к батареям разъемы для аккумуляторов ICONTM. Подключите положительный (+) кольцевой терминал (красный провод) к разъему аккумулятора положительного (+) соединения 013 (T1). Затем соедините отрицательный (-) кольцевой терминал (черный провод) провода № 003 (T2) с отрицательным (-) разъемом батареи.
 
-> [!note] Note · Примечание
-> For the ICON™ system to work properly, these connectors **must** be directly attached to the batteries. Do **not** attach them to the engine block ground or the positive (+) starter motor post.
+> [!note] Примечание
+> Для правильной работы системы ICONTM эти разъемы **должны быть непосредственно подключены к батареям. **не прикрепляйте их к заземлению блока двигателя или к положительному (+) стартовому моторному столбу.
 
 ![[15800045.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель последним.
 
-Connect the vehicle battery terminals to the vehicle batteries.
+Подключите клеммы аккумулятора автомобиля к батареям автомобиля.
 
 ![[ea8coha.png]]
 
-Install the fuse into the fuse holder on the ICON™ cab harness.
+Установите предохранитель в держатель предохранителя на ремне проводов ICONTM.
 
-Reassemble all of the panels, flooring, or other components that were removed for this installation.
+Соберите все панели, напольные покрытия или другие компоненты, которые были удалены для этой установки.
 
-Install the fuse into the fuse holder on the ICON™ engine harness.
+Установите предохранитель в держатель предохранителя на ремне электропроводки двигателя ICONTM.
 
 ![[15800036.png]]
 
-Install the provided warning labels to the vehicle. The labels **must** be installed in a prominent location to alert the operator and maintenance personnel around the vehicle of the potential hazards of the ICON™ system. These labels are typically installed on the charge air piping.
+Установите предупредительные надписи на транспортном средстве. Этикетки должны быть установлены в видном месте, чтобы предупредить оператора и обслуживающий персонал о потенциальных опасностях системы ICONTM. Эти метки обычно устанавливаются на трубопроводах с воздушным зарядом.
 
-The operating instructions label should be placed in the vehicle cab on the dash where it can be easily seen by the operator.
+Наклейка с рабочими инструкциями должна быть помещена в кабину транспортного средства на приборной панели, где она может быть легко видна оператором.
 
 ![[15800061.png]]
 
-Use INSITE™ electronic service tool to disable the following engine features:
+Используйте инструмент электронного обслуживания INSITETM для отключения следующих функций двигателя:
 
-- Idle shutdown
-- Idle shutdown override enable
-- Idle shutdown in PTO enable
-- Ambient air temperature idle shutdown override
-- Any automatic antitheft devices.
+- Закрытие холостого хода
+- Переопределение остановки холостого хода позволяет
+- Отключение Idle в PTO включено
+- Температура окружающего воздуха при отключке холостого хода переопределяется
+- Любые автоматические противоугонные устройства.
 
-The ICON™ system is incompatible with the features listed above. All of these features **must** be disabled before activating the ICON™ system.
+Система ICONTM несовместима с вышеперечисленными функциями. Все эти функции должны быть отключены перед активацией системы ICONTM.
 
 ![[19400357.png]]
 
-Perform the charging system test before performing the checkout test in the following steps. See the General Information step at the beginning of this procedure.
+Выполните тест системы зарядки перед выполнением теста проверки на следующих этапах. См. этап общей информации в начале этой процедуры.
 
 ![[nobox.png]]
 
-Once the ICON™ system has been installed, perform the following steps to confirm that the system is working properly. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]], Fault Code Notification, for the fault code flashout procedure.
+После установки системы ICONTM выполните следующие действия, чтобы убедиться, что система работает должным образом. См. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]], Уведомление о коде неисправности, для процедуры всплывания кода неисправности.
 
-- Turn the keyswitch on, engine **not** running. ICON™ lamp should turn on for 3 seconds, pulsing once per second. If **not**, troubleshoot symptoms. Refer to Procedure 019-087 in Section 19.
-- For unswitched battery circuit and ICON™ lamp circuit. Refer to Procedure 019-047 in Section 19.
+- Включите зажигание, двигатель **не** работает. Лампа ICONTM должна включаться в течение 3 секунд, пульсируя один раз в секунду. Если **не**, устраните симптомы. См. процедуру 019-087 в разделе 19.
+- Для непереключенной цепи батареи и цепи лампы ICONTM. См. процедуру 019-047 в разделе 19.
 
 ![[19803448.png]]
 
-- Turn the keyswitch on, engine **not** running. Ignition bus power should come on. If **not**, check for correct wiring of the ignition bus relay or troubleshoot active fault code, if present. See Section TS, Troubleshooting Symptom Tree T095-155.
+- Включите зажигание, двигатель **не** работает. Мощность зажигательного шины должна быть включена. Если **не**, проверьте правильность проводов реле шины зажигания или устраните неисправности с активным кодом неисправности, если таковой имеется. См. раздел TS, Устранение неполадок, Симптомное дерево T095-155.
 
 ![[19803449.png]]
 
-- Turn the keyswitch off, engine **not** running. Ignition bus power should stay off. If **not**, check for correct wiring of the ignition bus relay. See Section TS, Troubleshooting Symptom Tree T095-125.
+- Выключите зажигание, двигатель **не** работает. Мощность шины зажигания должна оставаться отключенной. Если **не**, проверьте правильность проводов реле шины зажигания. См. раздел TS, Устранение неполадок, Симптомное дерево T095-125.
 
 ![[19803450.png]]
 
-- Turn keyswitch on. Start vehicle. Vehicle should start and run normally. If vehicle does **not** crank, check for correct wiring of the starter relay circuit or see Section TS, Troubleshooting Symptom Tree T078. If vehicle does crank but does **not** start, check for correct wiring of the keyswitch input circuit into the ICON™ idle control module, or the keyswitch input circuit into the engine ECM, or see Section TS, Troubleshooting Symptom Tree T078. Troubleshoot active fault code, if present.
+- Включи зажигание. Заводи машину. Автомобиль должен нормально стартовать и работать. Если автомобиль не срабатывает, проверьте правильность проводов стартовой ретрансляционной цепи или посмотрите Раздел TS, Устранение неполадок Симптомное дерево T078. Если транспортное средство не срабатывает, но не запускается, проверьте правильность проводов входной цепи переключателя зажигания в модуль управления холостым зажиганием ICONTM или входной цепи переключателя зажигания в двигатель ECM или см. Раздел TS, Устранение неполадок, Симптомное дерево T078. Устранение неполадок с активным кодом неисправности, если таковой имеется.
 
 ![[19803451.png]]
 
-- Check the mandatory shutdown mode shutdown time. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Start the engine normally. Do **not** activate ICON™. Time the engine shutdown. The shutdown time is as follows:
-- Revision level 11, 13, and 14: default is 5 or 15 minutes, adjustable up to two hours.
-- Revision level 15: default is 10 minutes, adjustable up to two hours.
-- Revision level 16: default is 5 minutes, adjustable up to two hours.
-- Revision level 18: default is 5 minutes with zero vehicle speed and parking brake engaged, 15 minutes with zero vehicle speed and parking brake **not** engaged.
-- Revision level 19: default is 3 minutes with zero vehicle speed and parking brake engaged, 15 minutes with zero vehicle speed and park brake **not** engaged.
+- Проверьте время обязательного отключения режима отключения. См. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]]. Запускайте двигатель нормально. Не активировать ICONTM. Время выключения двигателя. Время отключения выглядит следующим образом:
+- Пересмотр уровней 11, 13 и 14: По умолчанию составляет 5 или 15 минут, регулируются до двух часов.
+- Пересмотренный уровень 15: По умолчанию 10 минут, регулируются до двух часов.
+- Пересмотренный уровень 16: По умолчанию 5 минут, регулируются до двух часов.
+- Пересмотренный уровень 18: По умолчанию 5 минут с нулевой скоростью транспортного средства и включенным стояночным тормозом, 15 минут с нулевой скоростью транспортного средства и стояночным тормозом не включен.
+- Пересмотренный уровень 19: По умолчанию 3 минуты с нулевой скоростью транспортного средства и включенным стояночным тормозом, 15 минут с нулевой скоростью транспортного средства и стояночным тормозом не включен.
 
-If needed, check the cab thermostat trim settings to make sure the short idle enable trim is **not** selected unless a 5-minute idle shutdown time is desired. [[97-018-025 — ICON™ System|Refer to Procedure 018-025 in Section V]]. This helps make sure the batteries are fully charged before performing the rest of the procedure.
+При необходимости проверьте настройки термостата кабины, чтобы убедиться, что короткая бесперебойная настройка включена **не**, если не требуется 5-минутное время отключения холостого хода.[[97-018-025 — ICON™ System|См. процедуру 018-025 в разделе V.]]. Это помогает убедиться, что батареи полностью заряжены, прежде чем выполнять остальную часть процедуры.
 
 ![[19803452.png]]
 
-- Turn keyswitch on.
-- Activate the ICON™ system. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Keep thermostat off. Keep keyswitch on. Engine oil temperature should be above the maximum specification and the battery post voltage above the maximum OEM specification, when the engine is running. If the ICON™ system does **not** activate, see Section TS, Troubleshooting Symptom Tree T095.
+- Включи зажигание.
+- Активировать систему ICONTM. См. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]]. Держите термостат подальше. Продолжайте зажигать. Температура масла двигателя должна быть выше максимальной спецификации, а напряжение заряда батареи выше максимальной спецификации OEM, когда двигатель работает. Если система ICONTM активируется **не**, см. Раздел TS, Устранение неполадок, Симптомное дерево T095.
 
 ![[19803453.png]]
 
-Once activated in engine mode (reference the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]), perform the following:
+После активации в режиме работы двигателя (см. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]]), выполните следующее:
 
-Interlock Check - Before first auto-shutdown, opening an interlock should deactivate the ICON™ system and shut down the engine.
+Проверка блокировки - перед первым автоматическим отключением, открытие блокировки должно отключить систему ICONTM и выключить двигатель.
 
-- Open hood - ICON™ system deactivates, engine shuts down.
+- Открытый капот — система ICONTM отключается, двигатель выключается.
 
 ![[19803454.png]]
 
-- Release parking brake - ICON™ system deactivates, engine shuts down.
+- Выпустить стояночный тормоз — система ICONTM отключается, двигатель выключается.
 
 ![[19803455.png]]
 
-- Place transmission in gear - ICON™ system deactivates, engine shuts down.
+- Поместите трансмиссию в передачу - система ICONTM отключается, двигатель выключается.
 
 ![[19803456.png]]
 
-Time the auto-shutdown of the engine. The time period from the moment the ICON™ system is activated until the engine shuts off for the first time should be 1 minute. If it is longer than 5 minutes, make sure the engine oil temperature is above the maximum specification and battery post voltage is above the maximum OEM specification. The ICON™ lamp should remain on pulsing at a rate of once per second. At this point if the ICON™ lamp turns off, check for active fault codes and troubleshoot accordingly. If the battery voltage is **not** above these levels, the ICON™ system will run the engine for at least 1 hour, or until the battery voltage reaches these levels.
+Время автоматического отключения двигателя. Период времени с момента активации системы ICONTM до момента выключения двигателя в первый раз должен составлять 1 минуту. Если он длится более 5 минут, убедитесь, что температура масла двигателя выше максимальной спецификации, а напряжение заряда батареи выше максимальной спецификации OEM. Лампа ICONTM должна оставаться на пульсации со скоростью один раз в секунду. В этот момент, если лампа ICONTM выключается, проверьте активные коды неисправностей и устраните неполадки соответственно. Если напряжение батареи не превышает этих уровней, система ICONTM будет работать на двигателе в течение не менее 1 часа или до тех пор, пока напряжение батареи не достигнет этих уровней.
 
 ![[19803457.png]]
 
-Wait 10 minutes after the shutdown. This waiting period prevents generating an E3 fault. With the engine shut down from step 2 and the ICON™ system active, turn on the cab thermostat and activate cab comfort mode. No faults should display. If Fault Code E1, E2, or E3 is displayed, troubleshoot Fault Code 469, if present, or see Section TS, Troubleshooting Symptom Tree T015. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]], Cab Comfort Mode Activation and Function. Enable the heat or cool mode. Adjust the set points and heat or cool mode appropriately to force an engine start. For example, this will be above cool set point and range set, or below heat set point and range set. Check that the alarm sounds before the ICON™ system starts the engine. The heat or cool indicator should start to flash and the engine should perform an engine start. Once the engine is started and the set point is reached, the engine speed should ramp down and the engine should shut off. If **not**, check the thermostat signal circuit. [[97-019-309 — Thermostat Signal Circuit|Refer to Procedure 019-309 in Section 19]]. Also, see Section TS, Troubleshooting Symptom Tree T015-1.
+Подождите 10 минут после закрытия. Этот период ожидания предотвращает возникновение неисправности Е3. После выключения двигателя со 2-го шага и активации системы ICONTM включите термостат кабины и активируйте режим комфорта кабины. Никаких недостатков не должно быть. Если отображается код ошибки E1, E2 или E3, устраните код ошибки 469, если он присутствует, или см. Раздел TS, Устранение неполадок, Симптомное дерево T015. См. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]], Активация и функция режима комфорта в кабине. Включите режим тепла или охлаждения. Настройте установленные точки и режим нагрева или охлаждения соответствующим образом, чтобы заставить двигатель запускать. Например, это будет выше точки холодного заданного значения и диапазона или ниже точки и диапазона теплового заданного значения. Убедитесь, что сигнализация звучит до запуска двигателя системой ICONTM. Индикатор тепла или охлаждения должен начать мигать, а двигатель должен выполнить запуск двигателя. После запуска двигателя и достижения заданной точки, скорость двигателя должна снижаться, а двигатель должен выключаться. Если **не**, проверьте схему сигнала термостата.[[97-019-309 — Thermostat Signal Circuit|См. процедуру 019-309 в разделе 19.]]. См. также раздел TS, Устранение неполадок, Симптомное дерево Т015-1.
 
 ![[19803458.png]]
 
-Turn keyswitch off. For applications that will use engine mode keyless operation, activate the ICON™ system in keyless engine mode. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Keep the thermostat off. Turn the keyswitch off prior to the first auto-shutdown. Keep the fan blowers on the maximum setting. Engine oil temperature should be above the maximum specification and battery voltage above the OEM specification, when the engine is running. The ignition bus electrical circuits should **not** turn off when the keyswitch is turned off. If this happens, check for correct wiring of the ignition bus relay at the keyswitch.
+Выключите зажигание. Для приложений, которые будут использовать режим работы без ключа, активируйте систему ICONTM в режиме работы с безключевым двигателем. См. Руководство по эксплуатации и техническому обслуживанию ICONTM, Бюллетень [[3666422 — ICON™ Idle Control System\|3666422]]. Держите термостат отключённым. Выключите зажигание перед первым автозакрытием. Держите вентиляторы на максимальной установке. Температура масла двигателя должна быть выше максимальной спецификации и напряжение батареи выше спецификации OEM, когда двигатель работает. Электрические цепи шины зажигания должны **не** выключаться при выключении выключателя зажигания. Если это произойдет, проверьте правильность проводов реле шины зажигания на выключателе зажигания.
 
 ![[19803447.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Aftermarket
+>
+> This section has been designed to provide instructions for installing the Aftermarket version of the ICON™ system. Since Cummins Inc. provides engines for many different vehicle and equipment manufacturers, some of the steps will **not** necessarily be performed exactly as shown. A qualified technician should read the instruction, learn the intent of the step, and install the component in a fashion that will comply to the vehicle's configuration. Each deviation from the specific instructions provided in this procedure should be noted. If the ICON™ system fails to work properly, the first troubleshooting step will be to go back and check to see whether the improvised installation procedures were completed correctly.
+>
+> Refer to the OEM service manual for proper alternator output voltage and amperage specifications.
+>
+> It is recommended to have on hand the charge and start OEM wiring diagram that shows keyswitch connections before installing the ICON™ system. Variations in keyswitch wiring can increase installation time.
+>
+> Use the following procedure for additional publications that can provide assistance with the installation of the ICON™ system. [[97-205-001 — Additional Service Literature|Refer to Procedure 205-001 in Section L.]]
+>
+> **Note · Примечание**
+> Eaton Autoshift or Ultra Shift transmissions are currently supported but are incompatible with the keyless engine mode on aftermarked installations. However, **all** manual transmissions support the keyless mode feature.
+>
+> Before installing the ICON™ system, verify that the transmission housing has a place for a neutral position switch. Neutral position switches are provided in the installation kit. If one of these switches does **not** work in the transmission provided, consult with the transmission supplier for a compatible switch.
+>
+> Some electronic dashes, such as Pollack, can interfere with ICON™ system operation. This can be verified by performing the Charging System Test. An extra double-throw relay assembly **must** be installed when installing the ICON™ system in an installation with an electronic dash that causes incorrect ICON™ operation. When the ignition bus is powered down, the electronic dash loads down the J1587 public datalink and will **not** allow communication for a short period of time. The aforementioned relay disconnects the dash public datalink from the engine ECM and the ICON™ idle control module while the ignition bus is unpowered.
+>
+> Prior to installing the ICON™ system on trucks older than 3 months or with 16,000 km \[10,000 mi\], the battery charging system **must** be checked. This check serves two purposes:
+>
+> 1. Identifies a charging system that is **not** capable of attaining the proper voltages to allow the ICON™ system to shut down the engine, or identifies a defective charging system.
+> 2. To inform the customer that the charging system is **not** adequate and needs to be repaired or upgraded.
+>
+> Verify charging system is operating properly. Refererence the following procedures:
+>
+> - Use the following procedure in Troubleshooting and Repair Manual, N14 Base Engine, Bulletin 3666142. Refer to Procedure 013-001 in Section 13.
+> - Use the following procedure in Troubleshooting and Repair Manual, N14 Base Engine, Bulletin 3666142. Refer to Procedure 013-007 in Section 13.
+> - Use the following procedure in Troubleshooting and Repair Manual, M11 Series Engines, Bulletin 3666139. Refer to Procedure 013-001 in Section 13.
+> - Use the following procedure in Troubleshooting and Repair Manual, M11 Series Engines, Bulletin 3666139. Refer to Procedure 013-007 in Section 13.
+> - Use the following procedure in Troubleshooting and Repair Manual, ISM, ISM e Series Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 013-001 in Section 13.
+> - Use the following procedure in the QSM11 Series Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 013-007 in Section 13.
+> - Use the following procedures in Troubleshooting and Repair Manual, Signature, ISX, or QSX15 Series Engines, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]]. Refer to Procedure 013-001 in Section 13.
+> - Use the following procedure in Troubleshooting and Repair Manual, Signature, ISX, or QSX15 Series Engines, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]]. [[10-013-007 — Batteries|Refer to Procedure 013-007 in Section 13.]]
+> - Use the following procedure for the recommended battery charging system specifications. [[97-018-025 — ICON™ System|Refer to Procedure 018-025 in Section V.]]
+> - The preferred grounding is as follows
+> - If there is a grounding strap from the batteries to the frame, remove the strap. However, be sure that there is a grounding strap from the starter to the frame.
+> - Balancing the battery pack:
+> - Batteries can be discharged or charged unequally causing early failure of one or more batteries. Cummins Inc. recommends that in the main charger system all positive (+) and negative (-) terminal posts be equal distance from the starter.
+>
+> **Note · Примечание**
+> This type of application is incompatible with keyless engine mode.
+>
+> Scope - The Smart Steering Wheels usually use multiplexer control boxes that can be powered down when the ICON™ system powers down the vehicle. No fault codes will be displayed due to the ICON™ system interpreting this as the cruise switch being turned off.
+>
+> Problem - It appears that the ICON™ system has been disabled.
+>
+> Solution - The fix is to wire the keyswitch ignition post to the switched power input of the multiplexer. This will prevent the multiplexer from being powered down.
+>
+> Keyswitches mounted in the column require different keyswitch wire connections. Wiring diagrams can be unclear on which wires are battery, ignition, start, and accessory connections.
+>
+> The general installation recommendation in the installation guide is to move all wires from the accessory post and the ignition post of the keyswitch to the ignition bus 1 (wire to pin 30 of ignition bus relay). If necessary, split the wires up between ignition bus 1 and ignition bus 2 wires on the cab harness to balance the current load. Doing this will allow the ICON™ system to control the application of power to all circuits in the cab and to control engine starts. Some customers want the accessory position to control circuits the way it has been traditionally done. In trying to retain this configuration, difficulty can arise from the fact that different OEMs and models route power to these circuits in a way that prevents the ICON™ system from controlling circuit power (fan power for example) properly after an engine shutdown with the key on or off, depending on whether keyless engine mode is in use. Specifically, the difficulty arises because the accessory post is hot when the keyswitch is in the ignition position. This prevents the ICON™ system from turning the fan circuits off after a shutdown.
+>
+> The accessory post wires **must** be traced out on an OEM diagram to determine which wires can be left connected to the accessory post. This allows the operator to control radios and other traditional circuits connected to the accessory post in the manner to which they have been accustomed. An alternative is to remove wires on a trial-and-error basis. Some installations require a trial-and-error process to determine if all wires can remain connected to the accessory post of the keyswitch. Newer keyswitches are mounted in the column or are the integrated (spade terminal) type. Care should be taken when wiring these installations.
+>
+> A multimeter can be used to help identify which keyswitch pins have voltage on them when the keyswitch is in the OFF, ACCESSORIES, ON, and START positions.
+>
+> ### Install
+>
+> Aftermarket
+>
+> **Note · Примечание**
+> All harness connectors and wires are labeled to match the wiring diagram labels for ease of installation. Review the General Information at the front of this section (Section G) before proceeding.
+>
+> **Note · Примечание**
+> Before starting the installation, but after verifying the battery and charging system, it is recommended to connect a battery charger to the batteries. Charging the batteries will help reduce the time it takes to perform the checkout test after the installation.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+>
+> Turn the keyswitch to the OFF position. Disconnect the vehicle batteries from the electrical system.
+>
+> **Note · Примечание**
+> On some engine installations, disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset.
+>
+> Remove the cab dash panel.
+>
+> Find suitable places in the engine compartment to mount the ICON™ components. The ICON™ idle control module, engine start alarm, starter relay, and ICON™ engine harness pass-through connector **must** be positioned on the firewall, close to one another on the intake side of the engine. Make sure the ICON™ engine harness easily reaches all of the connectors. Check all harness lengths. Check for possible interference with other components, and check the fit of each component in its chosen location.
+>
+> The ICON™ engine harness **must** be positioned so that it can be connected to the cab harness pass-through connector under the dash. The cab harness connectors **must** be able to reach the parking brake switch, keyswitch, and in-cab datalink connectors. The exact location of components will vary by OEM.
+>
+> When a suitable position for the ICON™ idle control module, engine start alarm, and pass-through connector is found, check the cab side of the firewall to make sure there will be no interference from anything mounted on or near where the pass-through connector will mount.
+>
+> After confirming that the position selected is unobstructed, use a 1-1/2-inch hole saw to drill a hole in the firewall. A punch tool can speed the installation.
+>
+> If necessary, file any loose material out of the hole.
+>
+> Install the ICON™ cab harness pass-through connector into the previously drilled hole and install the mounting hardware.
+>
+> Secure the connector with the provided flat washer and nut.
+>
+> Connect the ICON™ engine harness to the cab harness pass-through connector. Connecting the two harnesses together before connecting the under-the-hood components to the ICON™ engine harness will aid in positioning those components properly on the vehicle's firewall.
+>
+> Install the ICON™ idle control module on the firewall or other suitable location.
+>
+> Do **not** install the ICON™ idle control module on the engine or any other location that will expose it to extreme heat.
+>
+> Install the engine start alarm in a suitable location on or near the firewall. Orient the alarm so that it is pointing down. This orientation best directs the sound to warn personnel working under the vehicle that the ICON™ system is about to start the engine.
+>
+> Do **not** install the engine start alarm on the engine or any other location that will expose it to extreme heat.
+>
+> Install the starter relay on or near the firewall.
+>
+> Do **not** install the starter relay on the engine or any other location that will expose it to extreme heat.
+>
+> Remove the fuse from the fuse holder connected to the ICON™ engine harness.
+>
+> **WARNING · Опасно**
+> Some hood tilt switches contain Mercury, a chemical known to some state and federal agencies to cause birth defects or other reproductive harm. Do not dispose. Recycle in accordance with state regulations.
+>
+> **Note · Примечание**
+> Some non-mercury hood tilt switches can be supplied without a bracket.
+>
+> Install the hood tilt switch on the vehicle hood. Typically, this switch can be mounted on the back of the head lamp assembly on the left side of the vehicle. Position the switch so that the “wires” end of the switch points down when the hood is closed and points up when the hood is open. The mounting bracket should be perpendicular to the ground when the hood is closed.
+>
+> It can be necessary to bend the bracket so that the mercury switch touches the side of the bracket that mounts to the head lamp assembly. This configuration will eliminate the possibility of intermittent switch contact.
+>
+> Carefully close the vehicle's hood to make sure that none of the ICON™ components interfere with closing the hood.
+>
+> Open the hood and attach the ICON™ engine harness to each of the components installed in the engine compartment:
+>
+> - ICON™ idle control module A and B connectors
+> - Engine start alarm
+> - Starter relay
+> - Hood tilt switch.
+>
+> Secure all the loose wiring to the vehicle frame with nylon wire ties.
+>
+> Close and open the hood to make sure no wires catch on anything protruding from the vehicle.
+>
+> **Note · Примечание**
+> Volvo Eaton transmissions can have a 5/8-inch or a M16 metric thread neutral position switch (**not** included in the ICON™ system installation kit).
+>
+> Eaton and Meritor transmissions are equipped with a port for the installation of a neutral position switch. The Eaton transmission typically uses a 9/16-inch normally open switch, and the Meritor transmission typically uses a 3/4-inch normally closed switch.
+>
+> **Note · Примечание**
+> If the vehicle is equipped with another type of transmission, contact the transmission supplier for instructions on the placement of a neutral position switch.
+>
+> Remove the boot around the gear shift. Remove the neutral position switch plug from the transmission.
+>
+> Install an o-ring on the neutral position switch. Install the neutral position switch into the threaded port.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [15 ft-lb]
+>
+> Connect the ICON™ engine harness connector to the switch.
+>
+> Locate the keyswitch input circuit for the engine ECM. ISM and ISX/Signature engines use pin 38 in the OEM connector. CELECT™ Plus engines use pin 26 in the actuator harness connector. ISX CM870, ISX CM871, ISM CM870, ISM 876, and ISM CM875 use pin 39 in the ECM OEM harness connector.
+>
+> Refer to the appropriate wiring diagram for the specific pin number that relates to the engine onto which ICON™ system is being installed.
+>
+> Disconnect the OEM connector that contains the engine ECM keyswitch input circuit. Cut the wire that leads to the engine ECM keyswitch input circuit pin near the connector. Use the appropriate butt splice, splice the engine ECM keyswitch input circuit wire coming from the connector to the ICON™ idle control module keyswitch input wire in the ICON™ engine harness. Heat-shrink the splice. It may be necessary to trim excess harness length. Connect the connector. Electrically isolate the loose engine ECM keyswitch input wire. Use the appropriate butt splice, crimp one end to the wire and heat-shrink the splice.
+>
+> Secure the loose keyswitch input wire to the vehicle's engine harness with nylon wire ties.
+>
+> Use nylon wire ties to secure all of the loose ICON™ engine harness wires. Make sure the wires do **not** rub against sharp or jagged edges. Make sure the wires do **not** rest against any hot surface that can damage the wire insulation.
+>
+> Remove the fuse from the fuse holder connected to the cab harness.
+>
+> Connect the cab thermostat jumper harness to the ICON™ cab harness. Route the cab thermostat jumper harness from the cab harness to the bunk area so that it can be connected to the bunk thermostat. Performing this procedure first aids in determining the mounting position for the bunk thermostat. Depending on the OEM, route the harness under the kick panel, or under the interior lining above the driver window, and then under the interior panels to the location in the cab where the hole will be drilled to mount the thermostat. If necessary, remove cab panels, flooring, or other items, to route the harness.
+>
+> Find a suitable location to install the cab thermostat. This position **must** be readily accessible to the vehicle operator. The thermostat is typically installed approximately 2 feet over the bunk sleeping surface, or midway between the bunk and the ceiling. It should also be placed out of the direct flow of air from the vehicle heating or air conditioning. Be certain to position the thermostat so that it can **not** be easily damaged and will **not** be accidentally covered by clothing or pillows.
+>
+> It is recommended that a knife be used to trim the interior enough to allow the drilling of a hole ample enough for the thermostat connectors to be pushed through it, in order to connect the ambient air temperature and cab thermostat jumper harnesses.
+>
+> Install the cab thermostat.
+>
+> Connect the cab thermostat jumper harness to the thermostat.
+>
+> Drill a 3/4-inch hole in the floor of the bunk area, preferably under the sleeper bunk pedestal. Route the temperature sensor harness into the cab. Install a grommet to seal the hole around the wire and prevent abrasion. Seal with silicone to prevent exhaust gas from seeping into the cab.
+>
+> Connect the temperature sensor harness to the cab thermostat.
+>
+> Install the ambient air temperature sensor in an area shaded from the sun, but **not** in an area without airflow. Make sure the sensor is protected and is located outside the engine compartment away from engine heat or the exhaust system. A position under the vehicle's fifth wheel is recommended. Fuel tank temperatures can affect ambient temperature sensed by the sensor. Do **not** mount over fuel tanks.
+>
+> Connect the temperature sensor harness to the ambient air temperature sensor.
+>
+> **Note · Примечание**
+> Do **not** bolt the sensor to secure it.
+>
+> Use nylon wire ties to secure the sensor and the wiring harness. The sensor should be secured to an air line or wire conduit.
+>
+> Remove the dash panel to gain access to the vehicle keyswitch, parking brake air line, optional trailer parking brake air line, and starter button if the vehicle is so equipped.
+>
+> Route the ICON™ cab harness throughout the dash area so that each connector reaches the appropriate location.
+>
+> If the vehicle is equipped with a Pollack electronic dash, it may be necessary to install the optional dash relay (**not** provided in the ICON™ installation kit). For applications other than Pollack, please skip the following steps for installing the dash relay and go to “connecting the ICON™ engine harness battery connectors to the vehicle batteries” step.
+>
+> Install a 2 Form C relay (double pole/double throw relay) between the electronic dash and the public datalink as follows:
+>
+> Find the connector on the dash that connects the J1587 public datalink from the vehicle harness to the dash.
+>
+> Locate the J1587 public datalink positive (+) wire and negative (-) wire on the dash harness connector and label them.
+>
+> Cut these wires.
+>
+> If necessary, splice longer wires to each of the cut wires to allow connection to the relay base.
+>
+> | Relay Connections on Dash Harness |  |
+> |---|---|
+> | Connector side | Truck side |
+> | Relay pin 3 to (+) J1587 public datalink | Relay pin 5 to (+) J1587 public datalink |
+> | Relay pin 4 to (-) J1587 public datalink | Relay pin 6 to (-) J1587 public datalink |
+>
+> Use a separate wire, connect pin A (relay coil (+) to pin 30 of the ignition bus 1 relay. Splice into the wire labeled ignition bus 1 - wire 21 (L4) that goes to the OEM cab circuits. This wire is the same wire that was connected to all of the ignition and accessory post wires (the wires removed from the keyswitch).
+>
+> **Note · Примечание**
+> Care **must** be taken to distinguish between the “relay pins” and the “relay base pins.” All instructions above are for “relay pins.”
+>
+> Install a separate wire from pin B to a cab ground, use a ring terminal or other appropriate connector.
+>
+> Locate the parking brake line connecting the vehicle parking brake push/pull valve to the brake.
+>
+> To verify that this is the correct line, loosen a fitting on the line and deactivate the vehicle parking brake. Air should continuously bleed off from the loosened fitting.
+>
+> After verifying that the correct line has been selected, tighten the fitting.
+>
+> Activate the brake to remove air pressure from the line. Cut the vehicle parking brake line, and use the fittings supplied to install a tee in the line. Orient the open port on the tee above horizontal. This helps prevent any moisture from becoming trapped in the switch contact area once it is installed. Install the vehicle parking brake switch in the tee to allow the switch to sense the air pressure in the parking brake line.
+>
+> Connect the ICON™ cab harness to the vehicle parking brake switch.
+>
+> Locate the J1587 datalink connector in the vehicle cab.
+>
+> This connector is typically located on the driver's side of the vehicle under the dash.
+>
+> With the 6-pin Deutsch connector, pin A is typically the positive (+) datalink wire, and pin B is typically the negative (-) datalink wire.
+>
+> With the 9-pin Deutsch connector, pin F is typically the positive (+) datalink wire, and pin G is typically the negative (-) datalink wire.
+>
+> Cut the positive (+) and negative (-) datalink wires near the connector. Strip the ends of the wires. Place both ends of the positive (+) datalink wires into the appropriate butt splice. Attach the ICON™ cab harness positive (+) white wire to the positive (+) datalink wires. In the same manner, attach the ICON™ cab harness negative (-) black wire to the negative (-) datalink wires. Heat-shrink the butt splices.
+>
+> These splices connect the ICON™ datalink wires to the in-cab datalink. This connection is made in such a way that the cab datalink is still connected to the idle control module.
+>
+> Mount the ICON™ cab harness ignition bus relay holder(s) near the keyswitch. Make sure the ignition bus 1 and 2 wires will reach wires removed from the keyswitch. Orient the leads pointing down to prevent any moisture from getting into the relays.
+>
+> Insert the ignition bus 1 relay (40 amperes) into the ignition bus 1 relay holder. This relay allows the ICON™ system to control the application of cab power. This relay is a normally closed relay.
+>
+> **Note · Примечание**
+> The following procedure shows the four-post style of keyswitch. Your vehicle's configuration can be different. See the charging and starting diagram for the application onto which the ICON™ system is being installed (if different from the procedure shown here).
+>
+> **Note · Примечание**
+> This procedure is necessary to be certain that the ICON™ system can start and stop the engine, as well as turn the in-cab power on and off, at the appropriate time. Some of the cab circuits can initially be connected to the accessory terminal post of the keyswitch (this is **not** recommended). If accessories are connected in this way, the cab power can **not** be removed when the vehicle is being powered down by the ICON™ system, the reason being that the accessory terminal post is hot when the keyswitch is in the ignition and accessory positions. If the operator desires to have manual control of some devices in the cab while the vehicle is powered down by ICON™ system, it will be necessary to hardwire those devices to the keyswitch unswitched battery terminal post instead of the accessory post.
+>
+> **Note · Примечание**
+> A newer style of keyswitch uses solderless quick-disconnect (blade) connections on the keyswitch. For vehicles with this type of keyswitch, see the charging and starting diagrams for that application to confirm the function of each keyswitch wire.
+>
+> Remove the keyswitch from the dash.
+>
+> If equipped, remove the starter button from the dash.
+>
+> Tag and then disconnect all of the existing wires (1) from the keyswitch ignition post.
+>
+> If the vehicle is equipped with a starter button, connect a wire (2) to supply power to the button directly from the ignition post on the keyswitch, if such a wire is **not** already present.
+>
+> If there is only one wire (the wire originally connected to the ignition post of the keyswitch) supplying power to components through the ignition post and accessory post, use the appropriate-size butt splice and attach that wire (1) to the ICON™ cab harness ignition bus 1 wire Number 021 (L4). Heat-shrink the butt splice.
+>
+> Make sure to use ignition bus 1 wire, wire Number 021, **not** the ignition bus 1 power wire.
+>
+> If more than one wire was supplying power to components through the ignition post and the accessory post, a terminal block or other device that allows multiple connections should be used. After making the necessary connections, be sure to seal off and secure the terminal block with electrical tape to prevent accidental contact with the electrical connections. (A terminal block is **not** provided in the ICON™ installation kit.)
+>
+> Some installations require a second ignition bus relay (**not** provided in the ICON™ installation kit) to allow the ICON™ system to control additional circuits. (If needed, this relay is installed the same as the first ignition bus relay, and connected to the cab harness ignition bus 2 holder position.)
+>
+> Make sure to use ignition bus 2 wire, wire Number 022 (L5), **not** the ignition bus 2 power wire.
+>
+> As a rule, if there are multiple wires connected to the ignition post and the accessory post, the wire loads should be evenly distributed between ignition bus 1 and 2 relay circuits. Ignition bus 2 (wire Number 022 (L5)) will be connected to half of the cab circuit load wires removed from the ignition post and the accessory post. Ignition bus 1 (wire Number 021 (L4)) will be connected to the other half. These relays are normally closed relays.
+>
+> Remove the wire (4) connecting the starter post on the keyswitch to the starter magnetic switch.
+>
+> If the vehicle is equipped with a starter button, remove the wire (4) connecting the starter button to the starter magnetic switch.
+>
+> Connect the ICON™ cab harness starter terminal wire Number 018 (T3) to the starter post or to the starter button (if equipped).
+>
+> Use the appropriate-size butt splice, attach the wire (4) from the magnetic switch that was removed from the starter post or the starter button to the ICON™ cab harness magnetic switch power wire Number 017 (L3). This splice connects the magnetic switch to pin 30 on the starter relay. Heat-shrink the butt splice.
+>
+> **Note · Примечание**
+> The starter relay is a normally open relay.
+>
+> Attach the ICON™ cab harness keyswitch ignition pickup wire Number 020 (T5) to the ignition post on the keyswitch.
+>
+> Attach the ICON™ cab harness starter power wire Number 019 (T4) to the battery post (unswitched battery) on the keyswitch.
+>
+> Attach the ICON™ cab harness ignition bus 1 power wire Number 023 (T6) to the ignition post on the keyswitch (switched battery). If a second relay is installed, attach the cab harness ignition bus 2 power wire Number 024 (T7) to the ignition post on the keyswitch (switched battery). These wires provide power to the ignition bus relays.
+>
+> Install the keyswitch and starter button in their original OEM location.
+>
+> Find a visible location on the vehicle dash for the ICON™ lamp. Make sure that the chosen location is one that is **not** subject to be easily kicked or hit. Drill a 11/16-inch hole in the dash.
+>
+> Remove the lamp cover and nut from the housing.
+>
+> With the star washer still on the housing, insert it through the hole in the dash.
+>
+> Install and tighten the nut to hold the housing in position. Install the lamp cover.
+>
+> Attach the ICON™ cab harness to the lamp.
+>
+> Tape any exposed wires and secure all wiring to the vehicle, use nylon wire ties. Make sure that none of the wiring is binding and that there is no tension on the lamp wires that lead to the lamp connector.
+>
+> Connect the ICON™ engine harness battery connectors to the batteries. Connect the positive (+) ring terminal (red wire) wire Number 013 (T1) to the positive (+) battery connector first. Then connect the negative (-) ring terminal (black wire) wire Number 003 (T2) to the negative (-) battery connector.
+>
+> **Note · Примечание**
+> For the ICON™ system to work properly, these connectors **must** be directly attached to the batteries. Do **not** attach them to the engine block ground or the positive (+) starter motor post.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) cable last.
+>
+> Connect the vehicle battery terminals to the vehicle batteries.
+>
+> Install the fuse into the fuse holder on the ICON™ cab harness.
+>
+> Reassemble all of the panels, flooring, or other components that were removed for this installation.
+>
+> Install the fuse into the fuse holder on the ICON™ engine harness.
+>
+> Install the provided warning labels to the vehicle. The labels **must** be installed in a prominent location to alert the operator and maintenance personnel around the vehicle of the potential hazards of the ICON™ system. These labels are typically installed on the charge air piping.
+>
+> The operating instructions label should be placed in the vehicle cab on the dash where it can be easily seen by the operator.
+>
+> Use INSITE™ electronic service tool to disable the following engine features:
+>
+> - Idle shutdown
+> - Idle shutdown override enable
+> - Idle shutdown in PTO enable
+> - Ambient air temperature idle shutdown override
+> - Any automatic antitheft devices.
+>
+> The ICON™ system is incompatible with the features listed above. All of these features **must** be disabled before activating the ICON™ system.
+>
+> Perform the charging system test before performing the checkout test in the following steps. See the General Information step at the beginning of this procedure.
+>
+> Once the ICON™ system has been installed, perform the following steps to confirm that the system is working properly. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]], Fault Code Notification, for the fault code flashout procedure.
+>
+> - Turn the keyswitch on, engine **not** running. ICON™ lamp should turn on for 3 seconds, pulsing once per second. If **not**, troubleshoot symptoms. Refer to Procedure 019-087 in Section 19.
+> - For unswitched battery circuit and ICON™ lamp circuit. Refer to Procedure 019-047 in Section 19.
+>
+> - Turn the keyswitch on, engine **not** running. Ignition bus power should come on. If **not**, check for correct wiring of the ignition bus relay or troubleshoot active fault code, if present. See Section TS, Troubleshooting Symptom Tree T095-155.
+>
+> - Turn the keyswitch off, engine **not** running. Ignition bus power should stay off. If **not**, check for correct wiring of the ignition bus relay. See Section TS, Troubleshooting Symptom Tree T095-125.
+>
+> - Turn keyswitch on. Start vehicle. Vehicle should start and run normally. If vehicle does **not** crank, check for correct wiring of the starter relay circuit or see Section TS, Troubleshooting Symptom Tree T078. If vehicle does crank but does **not** start, check for correct wiring of the keyswitch input circuit into the ICON™ idle control module, or the keyswitch input circuit into the engine ECM, or see Section TS, Troubleshooting Symptom Tree T078. Troubleshoot active fault code, if present.
+>
+> - Check the mandatory shutdown mode shutdown time. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Start the engine normally. Do **not** activate ICON™. Time the engine shutdown. The shutdown time is as follows:
+> - Revision level 11, 13, and 14: default is 5 or 15 minutes, adjustable up to two hours.
+> - Revision level 15: default is 10 minutes, adjustable up to two hours.
+> - Revision level 16: default is 5 minutes, adjustable up to two hours.
+> - Revision level 18: default is 5 minutes with zero vehicle speed and parking brake engaged, 15 minutes with zero vehicle speed and parking brake **not** engaged.
+> - Revision level 19: default is 3 minutes with zero vehicle speed and parking brake engaged, 15 minutes with zero vehicle speed and park brake **not** engaged.
+>
+> If needed, check the cab thermostat trim settings to make sure the short idle enable trim is **not** selected unless a 5-minute idle shutdown time is desired. [[97-018-025 — ICON™ System|Refer to Procedure 018-025 in Section V]]. This helps make sure the batteries are fully charged before performing the rest of the procedure.
+>
+> - Turn keyswitch on.
+> - Activate the ICON™ system. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Keep thermostat off. Keep keyswitch on. Engine oil temperature should be above the maximum specification and the battery post voltage above the maximum OEM specification, when the engine is running. If the ICON™ system does **not** activate, see Section TS, Troubleshooting Symptom Tree T095.
+>
+> Once activated in engine mode (reference the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]), perform the following:
+>
+> Interlock Check - Before first auto-shutdown, opening an interlock should deactivate the ICON™ system and shut down the engine.
+>
+> - Open hood - ICON™ system deactivates, engine shuts down.
+>
+> - Release parking brake - ICON™ system deactivates, engine shuts down.
+>
+> - Place transmission in gear - ICON™ system deactivates, engine shuts down.
+>
+> Time the auto-shutdown of the engine. The time period from the moment the ICON™ system is activated until the engine shuts off for the first time should be 1 minute. If it is longer than 5 minutes, make sure the engine oil temperature is above the maximum specification and battery post voltage is above the maximum OEM specification. The ICON™ lamp should remain on pulsing at a rate of once per second. At this point if the ICON™ lamp turns off, check for active fault codes and troubleshoot accordingly. If the battery voltage is **not** above these levels, the ICON™ system will run the engine for at least 1 hour, or until the battery voltage reaches these levels.
+>
+> Wait 10 minutes after the shutdown. This waiting period prevents generating an E3 fault. With the engine shut down from step 2 and the ICON™ system active, turn on the cab thermostat and activate cab comfort mode. No faults should display. If Fault Code E1, E2, or E3 is displayed, troubleshoot Fault Code 469, if present, or see Section TS, Troubleshooting Symptom Tree T015. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]], Cab Comfort Mode Activation and Function. Enable the heat or cool mode. Adjust the set points and heat or cool mode appropriately to force an engine start. For example, this will be above cool set point and range set, or below heat set point and range set. Check that the alarm sounds before the ICON™ system starts the engine. The heat or cool indicator should start to flash and the engine should perform an engine start. Once the engine is started and the set point is reached, the engine speed should ramp down and the engine should shut off. If **not**, check the thermostat signal circuit. [[97-019-309 — Thermostat Signal Circuit|Refer to Procedure 019-309 in Section 19]]. Also, see Section TS, Troubleshooting Symptom Tree T015-1.
+>
+> Turn keyswitch off. For applications that will use engine mode keyless operation, activate the ICON™ system in keyless engine mode. Refer to the ICON™ Operation and Maintenance Manual, Bulletin [[3666422 — ICON™ Idle Control System\|3666422]]. Keep the thermostat off. Turn the keyswitch off prior to the first auto-shutdown. Keep the fan blowers on the maximum setting. Engine oil temperature should be above the maximum specification and battery voltage above the OEM specification, when the engine is running. The ignition bus electrical circuits should **not** turn off when the keyswitch is turned off. If this happens, check for correct wiring of the ignition bus relay at the keyswitch.

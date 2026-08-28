@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102076.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102076.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Multiple Steps, Fuel Pump Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2006-12-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102076.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102076.pdf)
 
-## Revision, Multiple Steps, Fuel Pump Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, несколько шагов, процедура топливных насосов
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic updates Procedure 005-016 Fuel Pump for the QSK60 engine with electonically actuated injectors.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема обновления Области 005-016 Топливный насос для двигателя QSK60 с электронно приводимым в действие топливным форсункой.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Multiple Steps, Fuel Pump Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic updates Procedure 005-016 Fuel Pump for the QSK60 engine with electonically actuated injectors.

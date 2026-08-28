@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Alternator Drive Seal
@@ -31,67 +33,124 @@ tags:
 > **Даты:** изменён 2009-11-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-001.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the alternator drive pulley. [[56-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+
+### Подготовительные операции
+
+- Удалите шкив привода генератора.[[56-009-010-tr — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the three hex head capscrews.
+Удалите три гекс-головных болта.
 
 ![[01600041.png]]
 
-Remove the seal assembly from the gear cover and shaft.
+Снять уплотнительный узел с крышки и вала зубчатой передачи.
 
-> [!note] Note · Примечание
-> If a washer is fitted behind the seal (applicable to engines built between January and June 2001), discard this washer, along with the old accessory drive seal.
+> [!note] Примечание
+> Если за уплотнением установлена шайба (применима к двигателям, построенным в период с января по июнь 2001 года), откажитесь от этой шайбы вместе со старым уплотнением привода аксессуара.
 
 ![[01600042.png]]
 
-### Machine
+### Машина
 
-If reusing the old pulley, machine 2.1 mm \[0.08 in\] from the length of the pulley and update the part number accordingly.
+При повторном использовании старого шкива машина 2,1 мм \[0,08 дюйма \] от длины шкива и соответственно обновите номер детали.
 
 ![[01600217.png]]
 
-The illustration displays the pulley assembly:
+На иллюстрации показана сборка шкива:
 
-1. Shaft
-2. Washer
-3. Seal
-4. Machined-off area of pulley (old pulley **only**)
-5. Pulley
+1. Вал
+2. шайба
+3. уплотнение
+4. Обработка зоны шкива (старый шкив **только**)
+5. Пулли
 
 ![[01600224.png]]
 
-### Install
+### Установка
 
-The right-bank drive pulley does **not** require the mounting spacer provided in the drive seal service kit. Discard the spacer for the right-bank repair procedure.
+Правобережный приводной шкив **не** требует монтажного прокладки, предусмотренной в комплекте для обслуживания уплотнения диска. Откажитесь от прокладки для процедуры ремонта правого берега.
 
 ![[01600042.png]]
 
-Install the washer onto the shaft.
+Установите шайбу на вал.
 
 ![[01600221.png]]
 
-> [!note] Note · Примечание
-> Care **must** be taken **not** to allow the wear sleeve to separate from the seal during handling.
+> [!note] Примечание
+> Уход **должен быть сделан **не, чтобы позволить рукаву износа отделиться от уплотнения во время обработки.
 
-Install the alternator drive seal.
+Установите уплотнение привода генератора.
 
-Align the mounting holes, and insert the three capscrews.
+Выровняйте крепежные отверстия и вставьте три болта.
 
-Make sure to tighten the mounting capscrews evenly.
+Убедитесь, что крепление болтов равномерно.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[01600041.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the alternator drive pulley. [[56-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+- Установите шкив привода генератора переменного тока.[[56-009-010-tr — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the alternator drive pulley. [[56-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+>
+> ### Remove
+>
+> Remove the three hex head capscrews.
+>
+> Remove the seal assembly from the gear cover and shaft.
+>
+> **Note · Примечание**
+> If a washer is fitted behind the seal (applicable to engines built between January and June 2001), discard this washer, along with the old accessory drive seal.
+>
+> ### Machine
+>
+> If reusing the old pulley, machine 2.1 mm \[0.08 in\] from the length of the pulley and update the part number accordingly.
+>
+> The illustration displays the pulley assembly:
+>
+> 1. Shaft
+> 2. Washer
+> 3. Seal
+> 4. Machined-off area of pulley (old pulley **only**)
+> 5. Pulley
+>
+> ### Install
+>
+> The right-bank drive pulley does **not** require the mounting spacer provided in the drive seal service kit. Discard the spacer for the right-bank repair procedure.
+>
+> Install the washer onto the shaft.
+>
+> **Note · Примечание**
+> Care **must** be taken **not** to allow the wear sleeve to separate from the seal during handling.
+>
+> Install the alternator drive seal.
+>
+> Align the mounting holes, and insert the three capscrews.
+>
+> Make sure to tighten the mounting capscrews evenly.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> ### Finishing Steps
+>
+> - Install the alternator drive pulley. [[56-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]

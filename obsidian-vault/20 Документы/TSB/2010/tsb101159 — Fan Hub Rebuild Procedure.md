@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101159.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101159.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Fan Hub Rebuild Procedure
@@ -25,15 +27,38 @@ tags:
 > **Даты:** изменён 2002-05-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101159.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101159.pdf)
 
-## Fan Hub Rebuild Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Fan Hub восстанавливает систему
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic introduces the new procedure for rebuilding the fan hub, belt driven, on QSK45 and QSK60 engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-> [!note] Note · Примечание
+### Содержание
+
+В данной теме, посвященной сервису/частям, представлена новая процедура восстановления вентиляторного концентратора, приводимого в движение ремнем, на двигателях QSK45 и QSK60.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fan Hub Rebuild Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic introduces the new procedure for rebuilding the fan hub, belt driven, on QSK45 and QSK60 engines.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

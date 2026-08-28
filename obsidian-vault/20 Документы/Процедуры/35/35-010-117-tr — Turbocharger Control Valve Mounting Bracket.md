@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-117-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-117-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Control Valve Mounting Bracket
@@ -31,75 +33,144 @@ tags:
 > **Даты:** изменён 2005-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-117-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-117-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the turbocharger control valve. Refer to Procedure 019-388 in the Troubleshooting and Repair Manual CM870 Electronic Control System ISM Engines, Bulletin 4021381 or the Troubleshooting and Repair Manual CM875 Electronic Control System ISM Engines, Bulletin 4021477.
+
+### Подготовительные операции
+
+Удалите клапан управления турбокомпрессором. См. процедуру 019-388 в Руководстве по устранению неполадок и ремонту (CM870 Electronic Control System ISM Engines, Bulletin 4021381) или Руководстве по устранению неполадок (CM875 Electronic Control System ISM Engines, Bulletin 4021477).
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Low Mount
+Низкая гора
 
-Remove the three low mount bracket capscrews.
+Удалите три болта с низким креплением.
 
-Remove the low mount bracket.
+Снимите низкое крепление.
 
 ![[10200117.png]]
 
-High Mount
+Высокие горы
 
-Remove the high mount bracket stud from the fuel rail.
+Снимите с топливной рельсы шпильку с высокой крепостью.
 
-Remove the high mount bracket nut from the rocker lever housing stud.
+Удалите высоковольтный кронштейн из корпуса шпильки клапанного клапана.
 
-Remove the high mount bracket.
+Снимите крепежную кронштейн.
 
 ![[10200171.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Check the mounting bracket and replace if damage is found.
+Проверьте крепление скобки и замените, если повреждение обнаружено.
 
 ![[10200118.png]]
 
-### Install
+### Установка
 
-Low Mount
+Низкая гора
 
-Install the low mount bracket.
+Установите низкое крепление кронштейна.
 
-Install the three low mount bracket capscrews.
+Установите три болта с низким креплением.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[10200117.png]]
 
-High Mount
+Высокие горы
 
-Align the high mount bracket with the threaded fuel rail hole, placing it onto the rocker lever housing stud.
+Выровнять крепежную кронштейну с резьбовым топливным рельсовым отверстием, поместив его на шпильку корпуса качалки клапанного клапана.
 
-Thread the stud into the fuel rail threaded hole.
+Заткните шпиль в прорезь топливной рельсы.
 
-Thread the nut onto rocker lever housing stud.
+Надавите гайку на клапанный клапан, нажимая на кожух.
 
-Tighten the fuel rail stud.
+Затяните шпильки топливных рельсов.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Tighten the rocker lever housing stud nut.
+Затяните гайку с креплением качалки клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [15 ft-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [15 фунт-фут]
 
 ![[10200171.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the turbocharger control valve. Refer to Procedure 019-388 in the Troubleshooting and Repair Manual CM870 Electronic Control System ISM Engines, Bulletin 4021381 or the Troubleshooting and Repair Manual CM875 Electronic Control System ISM Engines, Bulletin 4021477.
+Установите клапан управления турбокомпрессором. См. процедуру 019-388 в Руководстве по устранению неполадок и ремонту (CM870 Electronic Control System ISM Engines, Bulletin 4021381) или Руководстве по устранению неполадок (CM875 Electronic Control System ISM Engines, Bulletin 4021477).
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the turbocharger control valve. Refer to Procedure 019-388 in the Troubleshooting and Repair Manual CM870 Electronic Control System ISM Engines, Bulletin 4021381 or the Troubleshooting and Repair Manual CM875 Electronic Control System ISM Engines, Bulletin 4021477.
+>
+> ### Remove
+>
+> Low Mount
+>
+> Remove the three low mount bracket capscrews.
+>
+> Remove the low mount bracket.
+>
+> High Mount
+>
+> Remove the high mount bracket stud from the fuel rail.
+>
+> Remove the high mount bracket nut from the rocker lever housing stud.
+>
+> Remove the high mount bracket.
+>
+> ### Inspect for Reuse
+>
+> Check the mounting bracket and replace if damage is found.
+>
+> ### Install
+>
+> Low Mount
+>
+> Install the low mount bracket.
+>
+> Install the three low mount bracket capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> High Mount
+>
+> Align the high mount bracket with the threaded fuel rail hole, placing it onto the rocker lever housing stud.
+>
+> Thread the stud into the fuel rail threaded hole.
+>
+> Thread the nut onto rocker lever housing stud.
+>
+> Tighten the fuel rail stud.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Tighten the rocker lever housing stud nut.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [15 ft-lb]
+>
+> ### Finishing Steps
+>
+> Install the turbocharger control valve. Refer to Procedure 019-388 in the Troubleshooting and Repair Manual CM870 Electronic Control System ISM Engines, Bulletin 4021381 or the Troubleshooting and Repair Manual CM875 Electronic Control System ISM Engines, Bulletin 4021477.

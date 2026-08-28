@@ -14,13 +14,15 @@ families:
   - "QSK60"
 manuals:
   - "3666410"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc128.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc128.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # Fault Code Path Selection
@@ -34,6 +36,20 @@ tags:
 > **Даты:** изменён 2015-06-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc128.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc128.pdf)
 
-| Does the engine have a CM530 ECM? | Go to 81-fc128-cm530 |
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+| Имеет ли двигатель CM530 ECM? | Посмотреть 81-fc128-cm530 |
 |---|---|
-| Does the engine have a CM2330 ECM? | Go to 81-fc128-cm2330 |
+| Имеет ли двигатель CM2330 ECM? | Посмотреть 81-fc128-cm2330 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | Does the engine have a CM530 ECM? | Go to 81-fc128-cm530 |
+> |---|---|
+> | Does the engine have a CM2330 ECM? | Go to 81-fc128-cm2330 |

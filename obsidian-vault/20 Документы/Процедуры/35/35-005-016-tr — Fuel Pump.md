@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 17
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-016-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump
@@ -35,122 +37,218 @@ tags:
 > **Даты:** изменён 2011-09-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-016-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-Disconnect the battery cables. Disconnect negative (-) cable first.
+### Снятие
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+Отсоедините провода аккумуляторных батарей. Сначала отсоедините отрицательный (-) кабель.
 
 ![[el800ma.png]]
 
-Clean the supply pump and the surrounding area.
+Очистите насос питания и окружающую территорию.
 
-Remove the electric wire to the fuel shutoff solenoid.
+Удалите электрический провод на затвор топлива соленоид.
 
-Remove the fuel plumbing.
+Удалите топливный канал.
 
-Remove the two support bracket capscrews from the cylinder block bracket.
+Удалите два опорных болта из блока цилиндров.
 
-Remove the four fuel pump mounting capscrews and remove the fuel pump.
+Удалите четыре топливных насоса, устанавливающих болты, и удалите топливный насос.
 
 ![[gr8hsha.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean the gasket surfaces of the fuel pump and the air compressor or accessory drive.
+Очистите прокладочные поверхности топливного насоса и воздушного компрессора или вспомогательного привода.
 
 ![[gr8gkea.png]]
 
-Inspect the mounting surfaces for damage.
+Осмотрите монтажные поверхности на предмет повреждений.
 
 ![[08200105.png]]
 
-Inspect the jaw coupling spider and the jaw coupling hub for damage or wear.
+Осмотрите паука, соединяющего челюсть, и концентратор для соединения челюсти на предмет повреждения или износа.
 
 ![[08200106.png]]
 
-### Install
+### Установка
 
-Install the jaw coupling spider, a new mounting gasket, and fuel pump.
+Установите челюсть сцепляющего паука, новую монтажную прокладку и топливный насос.
 
-Install the four mounting capscrews.
+Установите четыре крепежных болта.
 
 ![[gr8hsha.png]]
 
-Install the two fuel pump support brackets to cylinder block bracket capscrews.
+Установите два топливных кронштейна поддержки насоса на цилиндр блок болтов.
 
-Tighten the support bracket to engine mounting capscrews.
+Закрепите опорный кронштейн на болтах крепления двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Tighten the fuel pump mounting capscrews.
+Затянуть болты для установки топливного насоса.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[fp2bkhe.png]]
 
-Connect the fuel plumbing.
+Подключите водопровод.
 
-Connect the electric wire to the shutoff solenoid.
+Подключите электрический провод к выключенному соленоиду.
 
-Connect the battery cables.
+Подсоедините провода аккумуляторных батарей.
 
-Start the engine and check for leaks.
+Запустите двигатель и проверьте наличие утечек.
 
 ![[fv2swka.png]]
 
-### Prime
+### Премьер-министр
 
-To reduce engine cranking time, prime the fuel supply pump.
+Чтобы уменьшить время проворачивания двигателя, заправьте насос подачи топлива.
 
-If the fuel supply pump is dirty, clean the outside of the pump.
+Если насос подачи топлива грязный, очистите его снаружи.
 
 ![[fp8hseb.png]]
 
-Remove the filter cap from the top of the front support.
+Удалите крышку фильтра с верхней части передней поддержки.
 
-Fill the pump with clean fuel oil.
+Заполните насос чистым топливным маслом.
 
 ![[fp8hskm.png]]
 
-Install and tighten the filter cap.
+Установите и затяните крышку фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
 ![[fp8hsae.png]]
 
-If the filter cap opening can **not** be used, remove the fuel supply hose to the gear pump.
+Если отверстие крышки фильтра может **не** использоваться, удалите шланг подачи топлива на передаточный насос.
 
-Fill the pump with clean fuel.
+Заполните насос чистым топливом.
 
 ![[fp8gekb.png]]
 
-Install the fuel supply hose to the gear pump.
+Установите шланг подачи топлива на шестеренки насоса.
 
 ![[fp8hohf.png]]
 
-### Rotation Check
+### Проверка поворота
 
-Remove the fuel supply hose and the fuel inlet fitting from the gear pump.
+Удалите шланг подачи топлива и впускную установку топлива из переключателя.
 
 ![[fp8hohg.png]]
 
-Look into the gear pump and crank the engine. The gear pump gears **must** turn.
+Посмотрите на переключатель и заглушите двигатель. Переключатели переключения передач **должны** поворачиваться.
 
 ![[fp8geca.png]]
 
-If the supply pump gears do **not** turn, remove the fuel pump.
+Если шестерни насоса питания **не** поворачиваются, удалите топливный насос.
 
 ![[gr8hshf.png]]
 
-Crank the engine and check the air compressor or the accessory drive shaft for rotation.
+Прокрутите двигатель и проверьте воздушный компрессор или вспомогательный приводной вал на вращение.
 
-If the shaft turns, the fuel pump is damaged and **must** be replaced or repaired.
+Если вал поворачивается, топливный насос повреждается и должен быть заменен или отремонтирован.
 
-If the shaft does **not** turn, remove the air compressor and check the accessory drive for rotation. If the accessory derivations turns, the air compressor or air compressor coupling is damaged and **must** be replaced.
+Если вал поворачивается **не**, удалите воздушный компрессор и проверьте привод аксессуара на вращение. Если вытекают дополнительные производные, воздушный компрессор или воздушный компрессор повреждены и должны быть заменены.
 
 ![[cp8shka.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Disconnect the battery cables. Disconnect negative (-) cable first.
+>
+> Clean the supply pump and the surrounding area.
+>
+> Remove the electric wire to the fuel shutoff solenoid.
+>
+> Remove the fuel plumbing.
+>
+> Remove the two support bracket capscrews from the cylinder block bracket.
+>
+> Remove the four fuel pump mounting capscrews and remove the fuel pump.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean the gasket surfaces of the fuel pump and the air compressor or accessory drive.
+>
+> Inspect the mounting surfaces for damage.
+>
+> Inspect the jaw coupling spider and the jaw coupling hub for damage or wear.
+>
+> ### Install
+>
+> Install the jaw coupling spider, a new mounting gasket, and fuel pump.
+>
+> Install the four mounting capscrews.
+>
+> Install the two fuel pump support brackets to cylinder block bracket capscrews.
+>
+> Tighten the support bracket to engine mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Tighten the fuel pump mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Connect the fuel plumbing.
+>
+> Connect the electric wire to the shutoff solenoid.
+>
+> Connect the battery cables.
+>
+> Start the engine and check for leaks.
+>
+> ### Prime
+>
+> To reduce engine cranking time, prime the fuel supply pump.
+>
+> If the fuel supply pump is dirty, clean the outside of the pump.
+>
+> Remove the filter cap from the top of the front support.
+>
+> Fill the pump with clean fuel oil.
+>
+> Install and tighten the filter cap.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> If the filter cap opening can **not** be used, remove the fuel supply hose to the gear pump.
+>
+> Fill the pump with clean fuel.
+>
+> Install the fuel supply hose to the gear pump.
+>
+> ### Rotation Check
+>
+> Remove the fuel supply hose and the fuel inlet fitting from the gear pump.
+>
+> Look into the gear pump and crank the engine. The gear pump gears **must** turn.
+>
+> If the supply pump gears do **not** turn, remove the fuel pump.
+>
+> Crank the engine and check the air compressor or the accessory drive shaft for rotation.
+>
+> If the shaft turns, the fuel pump is damaged and **must** be replaced or repaired.
+>
+> If the shaft does **not** turn, remove the air compressor and check the accessory drive for rotation. If the accessory derivations turns, the air compressor or air compressor coupling is damaged and **must** be replaced.

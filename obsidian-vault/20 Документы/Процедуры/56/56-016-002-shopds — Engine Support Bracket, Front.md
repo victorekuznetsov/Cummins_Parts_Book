@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-016-002-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-016-002-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -35,23 +37,48 @@ tags:
 > **Даты:** изменён 2026-03-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-016-002-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-016-002-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Install the engine lifting fixture (1), Part Number 3163264, and lifting straps (2).
+### Снятие
+
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+Установите подъемный механизм двигателя (1), номер детали 3163264 и подъемные ремни (2).
 
 ![[22600034.png]]
 
-Disconnect the lubrication tube from the top of the support bracket.
+Отсоедините смазочную трубку от верхней части опорной скобки.
 
-Remove the capscrews that attach the front engine support to the equipment frame.
+Удалите болты, которые прикрепляют переднюю опору двигателя к раме оборудования.
 
-Lift the engine off the front support bracket.
+Поднимите двигатель с передней опорной кронштейна.
 
 ![[16600004.png]]
 
-Remove the front engine support.
+Удалите переднюю поддержку двигателя.
 
 ![[16600005.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the engine lifting fixture (1), Part Number 3163264, and lifting straps (2).
+>
+> Disconnect the lubrication tube from the top of the support bracket.
+>
+> Remove the capscrews that attach the front engine support to the equipment frame.
+>
+> Lift the engine off the front support bracket.
+>
+> Remove the front engine support.

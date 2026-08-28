@@ -14,13 +14,15 @@ families:
   - "QSM11"
 manuals:
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-020-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-020-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -34,17 +36,42 @@ tags:
 > **Даты:** изменён 2011-04-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-020-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-020-om-ind.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial and Generator Drive
 
-| Exhaust Pipe Size (normally acceptable inside diameter) | 102 mm \[4 in\] |
+### Спецификации
+
+Промышленный и генераторный привод
+
+| Размер выхлопных труб (нормально приемлемый внутренний диаметр) | 102 мм \[4 in\] |
 |---|---|
 
-#### Maximum Exhaust Pipe Restriction
+#### Максимальное ограничение выхлопных труб
 
-| H2O | 1016 mm H 2 0 \[40 in H 2 0\] |
+| H2O | 1016 мм Н 2 0 \[40 в Н 2 0\] |
 |---|---|
 
-| Hg | 75 mm Hg \[3 in Hg\] |
+| Hg | 75 мм рт.ст. \[3 в рт.ст.] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Industrial and Generator Drive
+>
+> | Exhaust Pipe Size (normally acceptable inside diameter) | 102 mm \[4 in\] |
+> |---|---|
+>
+> #### Maximum Exhaust Pipe Restriction
+>
+> | H2O | 1016 mm H 2 0 \[40 in H 2 0\] |
+> |---|---|
+>
+> | Hg | 75 mm Hg \[3 in Hg\] |
+> |---|---|

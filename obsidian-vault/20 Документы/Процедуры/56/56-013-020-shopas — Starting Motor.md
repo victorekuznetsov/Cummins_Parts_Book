@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-020-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-020-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Starting Motor
@@ -35,81 +37,152 @@ tags:
 > **Даты:** изменён 2025-06-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-020-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-020-shopas.pdf)
 
-### Disassemble
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the four end cover capscrews.
 
-Remove the end cover.
+### Разборка
+
+Удалите четыре конца крышки болтов.
+
+Удалите конец обложки.
 
 ![[07600441.png]]
 
-Slide the two pumping gears off the shafts.
+Снимите две перекачки с валов.
 
 ![[07600442.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the gears for cracks, chipped or broken teeth.
+Проверьте шестерни на наличие трещин, сколов или сломанных зубов.
 
-If the gears are damaged, the gears **must** be replaced.
+Если шестерни повреждены, шестерни должны быть заменены.
 
 ![[lp6gesf.png]]
 
-Inspect the gear, shaft, and bushing for wear or damage.
+Осмотрите передачу, вал и втулку на предмет износа или повреждения.
 
-> [!note] Note · Примечание
-> A pipe plug **must** be removed to lubricate the bushing on some starter motors.
+> [!note] Примечание
+> Трубную пробку необходимо снять для смазки втулки на некоторых стартерных двигателях.
 
 ![[st800wa.png]]
 
-### Assemble
+### Сборка
 
-Lubricate the gears with clean engine oil.
+Смазать шестерни чистым моторным маслом.
 
-Slide the gears onto the shafts.
+Направьте шестерни на валы.
 
 ![[07600442.png]]
 
-Install the cover plate.
+Установите пластину крышки.
 
-Install the four cover plate capscrews.
+Установите четыре болта крышки.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
 ![[07600441.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[ 50 lb \] or more. To reduce the possibility of personal injury, use a hoist or get personal assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг [50 фунтов ] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите личную помощь для подъема этого сборочного устройства.
 
-> [!note] Note · Примечание
-> **Not** all engines use spacers.
+> [!note] Примечание
+> Не все двигатели используют прокладки.
 
-> [!note] Note · Примечание
-> The wet type of flywheel housing requires gaskets for the starting motor.
+> [!note] Примечание
+> Влажный тип корпуса маховика требует прокладок для запуска двигателя.
 
-Install any spacer or gaskets.
+Установите любой прокладки или прокладки.
 
-Install the starting motor and capscrews.
+Установите пусковой двигатель и болты.
 
-Torque Value:
+Момент затяжки:
 
-With Cast-Iron Flywheel Housing
+С корпусом Cast-Iron Flywheel
 
 ![[st4bdha.png]]
 
-Integral Prelub™ Starter
+Интегральный прелюб TM Стартер
 
-Install the suction hose (1) to the fittings (3) on the back of the integral prelube starter. Install the other end of the suction hose to the suction hose of the oil pump.
+Установите всасывающий шланг (1) на фитинги (3) на задней части интегрального прелюбационного стартера. Установите другой конец всасывающего шланга к всасывающему шлангу масляного насоса.
 
-Install the supply hose (2) to the fittings (3) on the back of the prelube starter. Install the other end of the supply hose to the oil filter head.
+Установите шланг (2) подачи на фитинги (3) на задней части прелюбационного стартера. Установите другой конец шланга подачи на головку масляного фильтра.
 
 ![[07600440.png]]
 
-Install the electrical connections to the starting motor.
+Установите электрические соединения с пусковым двигателем.
 
 ![[sb8bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Disassemble
+>
+> Remove the four end cover capscrews.
+>
+> Remove the end cover.
+>
+> Slide the two pumping gears off the shafts.
+>
+> ### Inspect for Reuse
+>
+> Inspect the gears for cracks, chipped or broken teeth.
+>
+> If the gears are damaged, the gears **must** be replaced.
+>
+> Inspect the gear, shaft, and bushing for wear or damage.
+>
+> **Note · Примечание**
+> A pipe plug **must** be removed to lubricate the bushing on some starter motors.
+>
+> ### Assemble
+>
+> Lubricate the gears with clean engine oil.
+>
+> Slide the gears onto the shafts.
+>
+> Install the cover plate.
+>
+> Install the four cover plate capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[ 50 lb \] or more. To reduce the possibility of personal injury, use a hoist or get personal assistance to lift this assembly.
+>
+> **Note · Примечание**
+> **Not** all engines use spacers.
+>
+> **Note · Примечание**
+> The wet type of flywheel housing requires gaskets for the starting motor.
+>
+> Install any spacer or gaskets.
+>
+> Install the starting motor and capscrews.
+>
+> Torque Value:
+>
+> With Cast-Iron Flywheel Housing
+>
+> Integral Prelub™ Starter
+>
+> Install the suction hose (1) to the fittings (3) on the back of the integral prelube starter. Install the other end of the suction hose to the suction hose of the oil pump.
+>
+> Install the supply hose (2) to the fittings (3) on the back of the prelube starter. Install the other end of the supply hose to the oil filter head.
+>
+> Install the electrical connections to the starting motor.

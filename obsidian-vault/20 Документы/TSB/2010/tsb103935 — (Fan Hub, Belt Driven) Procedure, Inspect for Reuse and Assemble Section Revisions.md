@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103935.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103935.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # (Fan Hub, Belt Driven) Procedure, Inspect for Reuse and Assemble Section Revisions
@@ -25,14 +27,36 @@ tags:
 > **Даты:** изменён 2009-08-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103935.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103935.pdf)
 
-## (Fan Hub, Belt Driven) Procedure, Inspect for Reuse and Assemble Section Revisions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## (Fan Hub, Belt Driven) Процедура, проверка повторного использования и пересмотр раздела сборки
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the Inspect for Reuse and Assemble sections of Procedure 008-036 (Fan Hub, Belt Driven). The revisions include addition of the fan hub end clearance specification and information reflective to lubrication of the fan hub (if applicable).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This is a product improvement and **not** subject to campaign.
+### Содержание
+
+Эта тема посвящена пересмотру разделов Процедуры 008-036 «Осмотр повторного использования и сборки» (Fan Hub, Belt Driven). Изменения включают добавление спецификации концевого зазора вентилятора и информации, отражающей смазку вентиляторного узла (если применимо).
+
+Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## (Fan Hub, Belt Driven) Procedure, Inspect for Reuse and Assemble Section Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the Inspect for Reuse and Assemble sections of Procedure 008-036 (Fan Hub, Belt Driven). The revisions include addition of the fan hub end clearance specification and information reflective to lubrication of the fan hub (if applicable).
+>
+> This is a product improvement and **not** subject to campaign.

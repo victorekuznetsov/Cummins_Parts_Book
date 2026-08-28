@@ -40,9 +40,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t052-om | Engine Noise Excessive - Turbocharger | 05-Jan-2015 |
-| [[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t185-om | Turbocharger - Compressor Seal Oil Leak | 05-Jan-2015 |
-| [[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t186-om | Turbocharger - Turbine Seal Oil Leak | 05-Jan-2015 |
+| [[[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t052-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/2883583/2883583-t052-om.html) | Engine Noise Excessive - Turbocharger | 05-Jan-2015 |
+| [[[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t185-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/2883583/2883583-t185-om.html) | Turbocharger - Compressor Seal Oil Leak | 05-Jan-2015 |
+| [[[2883583 — Marine Auxiliary QSM11-DM CM570 Operation and Maintenance Manual\|2883583]]-t186-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/2883583/2883583-t186-om.html) | Turbocharger - Turbine Seal Oil Leak | 05-Jan-2015 |
 
 ### Section V - Specifications
 

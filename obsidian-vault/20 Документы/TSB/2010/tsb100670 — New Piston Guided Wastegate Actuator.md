@@ -28,12 +28,14 @@ parts:
   - "4044633"
   - "4047148"
   - "4955813"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100670.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100670.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # New Piston Guided Wastegate Actuator
@@ -44,74 +46,82 @@ tags:
 > **Даты:** изменён 2008-02-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100670.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100670.pdf)
 
-## New Piston Guided Wastegate Actuator
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый привод турбины Piston Guided с обходным клапаном Actuator
 
-### Contents
+### Положение о гарантии
 
-This Service Parts/Topic announces the introduction of a new Piston Guided Wastegate Actuator for service and production on ISX CM570 engines built January 1, 1999 or later. This actuator has an improved turnbuckle design to reduce wear. Refer to the following tables for the superseded part numbers.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The release date for the new ISX CM570 Wastegate Actuator Service Kit and Turbocharger Kit for service and production is November 12th, 2007. This parts release will affect Parts Catalog 3672142.
+### Содержание
 
-| Table, 1 Actuator Service Kit [[4032304]] (supersedes 4030227) |  |  |  |
+Компания Topic объявляет о введении нового привода обходного клапана Piston Guided для обслуживания и производства двигателей ISX CM570, построенных 1 января 1999 года или позже. Этот привод имеет улучшенную конструкцию пряжки, чтобы уменьшить износ. См. следующие таблицы для номеров замещенных частей.
+
+Дата выхода нового газотурбинного обводного клапана ISX CM570 Actuator Service Kit и Turbocharger Kit для обслуживания и производства - 12 ноября 2007 года. Это решение будет касаться каталога 3672142.
+
+| Таблица 1 Актуаторский сервисный комплект[[4032304]](выдержка 4030227) |  |  |  |
 |---|---|---|---|
-| Old Part Number | New Part Number | Description | Quantity |
-| [[3528204]] |  | Lock Nut | 2 |
-|  | [[3592050]] | Hexagon Flange Nut | 2 |
-| [[3528221]] | [[3528221]] | Retaining Ring | 1 |
-| [[3528414]] | [[3528414]] | Regular Hexagon Jam Nut | 1 |
-| [[3580533]] | [[3580533]] | Turbocharger Actuator Service Tool | 1 |
-| [[3580766]] | [[3580766]] | Wastegate Data Sheet | 1 |
-| 3593848 | [[4044633]] | Turbocharger Actuator | 1 |
-| [[3597518]] | 4047164 | Adjusting Link End | 1 |
+| Прежний номер детали | Новый номер детали | Наименование | Количество |
+| [[3528204]] |  | Контргайка | 2 |
+|  | [[3592050]] | Гайка шестигранная с фланцем | 2 |
+| [[3528221]] | [[3528221]] | Стопорное кольцо | 1 |
+| [[3528414]] | [[3528414]] | Гайка шестигранная низкая (контргайка) | 1 |
+| [[3580533]] | [[3580533]] | Оборудование для обслуживания турбокомпрессора Actuator | 1 |
+| [[3580766]] | [[3580766]] | Спецификация перепускного клапана турбины | 1 |
+| 3593848 | [[4044633]] | Привод турбокомпрессора | 1 |
+| [[3597518]] | 4047164 | Наконечник регулировочной тяги | 1 |
 
-| Table, 2 Actuator Service Kit 4032305 (supersedes 4030228) |  |  |  |
+| Таблица, 2 комплекта обслуживания привода 4032305 (заменяется 4030228) |  |  |  |
 |---|---|---|---|
-| Old Part Number | New Part Number | Description | Quantity |
-| [[3528204]] |  | Lock Nut | 2 |
-|  | [[3592050]] | Hexagon Flange Nut | 2 |
-| [[3528221]] | [[3528221]] | Retaining Ring | 1 |
-| [[3528414]] | [[3528414]] | Regular Hexagon Jam Nut | 1 |
-| [[3580533]] | [[3580533]] | Turbocharger Actuator Service Tool | 1 |
-| [[3580766]] | [[3580766]] | Wastegate Data Sheet | 1 |
-| 3596011 | 4045656 | Turbocharger Actuator | 1 |
-| [[3597518]] | 4047164 | Adjusting Link End | 1 |
+| Прежний номер детали | Новый номер детали | Наименование | Количество |
+| [[3528204]] |  | Контргайка | 2 |
+|  | [[3592050]] | Гайка шестигранная с фланцем | 2 |
+| [[3528221]] | [[3528221]] | Стопорное кольцо | 1 |
+| [[3528414]] | [[3528414]] | Гайка шестигранная низкая (контргайка) | 1 |
+| [[3580533]] | [[3580533]] | Оборудование для обслуживания турбокомпрессора Actuator | 1 |
+| [[3580766]] | [[3580766]] | Спецификация перепускного клапана турбины | 1 |
+| 3596011 | 4045656 | Привод турбокомпрессора | 1 |
+| [[3597518]] | 4047164 | Наконечник регулировочной тяги | 1 |
 
-| Table, 3 Turbocharger Service Kit [[4955813]] (supersedes 4955216) |  |  |  |
+| Таблица, 3 комплекта турбокомпрессора[[4955813]](преемственность 4955216) |  |  |  |
 |---|---|---|---|
-| Old Part Number | New Part Number | Description | Quantity |
-| [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
-| [[3202117]] | [[3202117]] | Connection Gasket | 1 |
-| [[3679139]] | [[3679139]] | O Ring Seal | 1 |
-| [[3682177]] | [[3682177]] | O Ring Seal | 1 |
-| [[3922794]] | [[3922794]] | O Ring Seal | 1 |
-| 4041154 | [[4047148]] | Turbocharger | 1 |
+| Прежний номер детали | Новый номер детали | Наименование | Количество |
+| [[3171368]] | [[3171368]] | Прокладка турбокомпрессора | 1 |
+| [[3202117]] | [[3202117]] | Прокладка соединения | 1 |
+| [[3679139]] | [[3679139]] | Уплотнительное кольцо | 1 |
+| [[3682177]] | [[3682177]] | Уплотнительное кольцо | 1 |
+| [[3922794]] | [[3922794]] | Уплотнительное кольцо | 1 |
+| 4041154 | [[4047148]] | Турбокомпрессор | 1 |
 
-| Table, 4 Turbocharger Service Kit 4955814 (supersedes 4955217) |  |  |  |
+| Таблица, 4 Турбокомпрессорный сервисный комплект 4955814 (превышает 4955217) |  |  |  |
 |---|---|---|---|
-| Old Part Number | New Part Number | Description | Quantity |
-| [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
-| [[3202117]] | [[3202117]] | Connection Gasket | 1 |
-| [[3679139]] | [[3679139]] | O Ring Seal | 1 |
-| [[3682177]] | [[3682177]] | O Ring Seal | 1 |
-| [[3922794]] | [[3922794]] | O Ring Seal | 1 |
-| 4041158 | 4047149 | Turbocharger | 1 |
+| Прежний номер детали | Новый номер детали | Наименование | Количество |
+| [[3171368]] | [[3171368]] | Прокладка турбокомпрессора | 1 |
+| [[3202117]] | [[3202117]] | Прокладка соединения | 1 |
+| [[3679139]] | [[3679139]] | Уплотнительное кольцо | 1 |
+| [[3682177]] | [[3682177]] | Уплотнительное кольцо | 1 |
+| [[3922794]] | [[3922794]] | Уплотнительное кольцо | 1 |
+| 4041158 | 4047149 | Турбокомпрессор | 1 |
 
-| Table, 5 Turbocharger Service Kit 4955815 (supersedes 4955218) |  |  |  |
+| Таблица, 5 Турбокомпрессорный сервисный комплект 4955815 (превышает 4955218) |  |  |  |
 |---|---|---|---|
-| Old Part Number | New Part Number | Description | Quantity |
-| [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
-| [[3202117]] | [[3202117]] | Connection Gasket | 1 |
-| [[3678912]] | [[3678912]] | O Ring Seal | 1 |
-| [[3679139]] | [[3679139]] | O Ring Seal | 1 |
-| [[3682177]] | [[3682177]] | O Ring Seal | 1 |
-| [[3922794]] | [[3922794]] | O Ring Seal | 2 |
-| [[3949708]] | [[3949708]] | O Ring Seal | 1 |
-| [[3957131]] | [[3957131]] | O Ring Seal | 1 |
-| 4041965 | 4047147 | Turbocharger | 1 |
+| Прежний номер детали | Новый номер детали | Наименование | Количество |
+| [[3171368]] | [[3171368]] | Прокладка турбокомпрессора | 1 |
+| [[3202117]] | [[3202117]] | Прокладка соединения | 1 |
+| [[3678912]] | [[3678912]] | Уплотнительное кольцо | 1 |
+| [[3679139]] | [[3679139]] | Уплотнительное кольцо | 1 |
+| [[3682177]] | [[3682177]] | Уплотнительное кольцо | 1 |
+| [[3922794]] | [[3922794]] | Уплотнительное кольцо | 2 |
+| [[3949708]] | [[3949708]] | Уплотнительное кольцо | 1 |
+| [[3957131]] | [[3957131]] | Уплотнительное кольцо | 1 |
+| 4041965 | 4047147 | Турбокомпрессор | 1 |
 
 ## Детали, упомянутые в документе
 
@@ -136,3 +146,73 @@ The release date for the new ISX CM570 Wastegate Actuator Service Kit and Turboc
 | [[4044633]] | Turbocharger Actuator | Привод турбокомпрессора |
 | [[4047148]] | TURBOCHARGER | Турбокомпрессор |
 | [[4955813]] | Turbocharger Kit | Комплект турбокомпрессора |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Piston Guided Wastegate Actuator
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service Parts/Topic announces the introduction of a new Piston Guided Wastegate Actuator for service and production on ISX CM570 engines built January 1, 1999 or later. This actuator has an improved turnbuckle design to reduce wear. Refer to the following tables for the superseded part numbers.
+>
+> The release date for the new ISX CM570 Wastegate Actuator Service Kit and Turbocharger Kit for service and production is November 12th, 2007. This parts release will affect Parts Catalog 3672142.
+>
+> | Table, 1 Actuator Service Kit [[4032304]] (supersedes 4030227) |  |  |  |
+> |---|---|---|---|
+> | Old Part Number | New Part Number | Description | Quantity |
+> | [[3528204]] |  | Lock Nut | 2 |
+> |  | [[3592050]] | Hexagon Flange Nut | 2 |
+> | [[3528221]] | [[3528221]] | Retaining Ring | 1 |
+> | [[3528414]] | [[3528414]] | Regular Hexagon Jam Nut | 1 |
+> | [[3580533]] | [[3580533]] | Turbocharger Actuator Service Tool | 1 |
+> | [[3580766]] | [[3580766]] | Wastegate Data Sheet | 1 |
+> | 3593848 | [[4044633]] | Turbocharger Actuator | 1 |
+> | [[3597518]] | 4047164 | Adjusting Link End | 1 |
+>
+> | Table, 2 Actuator Service Kit 4032305 (supersedes 4030228) |  |  |  |
+> |---|---|---|---|
+> | Old Part Number | New Part Number | Description | Quantity |
+> | [[3528204]] |  | Lock Nut | 2 |
+> |  | [[3592050]] | Hexagon Flange Nut | 2 |
+> | [[3528221]] | [[3528221]] | Retaining Ring | 1 |
+> | [[3528414]] | [[3528414]] | Regular Hexagon Jam Nut | 1 |
+> | [[3580533]] | [[3580533]] | Turbocharger Actuator Service Tool | 1 |
+> | [[3580766]] | [[3580766]] | Wastegate Data Sheet | 1 |
+> | 3596011 | 4045656 | Turbocharger Actuator | 1 |
+> | [[3597518]] | 4047164 | Adjusting Link End | 1 |
+>
+> | Table, 3 Turbocharger Service Kit [[4955813]] (supersedes 4955216) |  |  |  |
+> |---|---|---|---|
+> | Old Part Number | New Part Number | Description | Quantity |
+> | [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
+> | [[3202117]] | [[3202117]] | Connection Gasket | 1 |
+> | [[3679139]] | [[3679139]] | O Ring Seal | 1 |
+> | [[3682177]] | [[3682177]] | O Ring Seal | 1 |
+> | [[3922794]] | [[3922794]] | O Ring Seal | 1 |
+> | 4041154 | [[4047148]] | Turbocharger | 1 |
+>
+> | Table, 4 Turbocharger Service Kit 4955814 (supersedes 4955217) |  |  |  |
+> |---|---|---|---|
+> | Old Part Number | New Part Number | Description | Quantity |
+> | [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
+> | [[3202117]] | [[3202117]] | Connection Gasket | 1 |
+> | [[3679139]] | [[3679139]] | O Ring Seal | 1 |
+> | [[3682177]] | [[3682177]] | O Ring Seal | 1 |
+> | [[3922794]] | [[3922794]] | O Ring Seal | 1 |
+> | 4041158 | 4047149 | Turbocharger | 1 |
+>
+> | Table, 5 Turbocharger Service Kit 4955815 (supersedes 4955218) |  |  |  |
+> |---|---|---|---|
+> | Old Part Number | New Part Number | Description | Quantity |
+> | [[3171368]] | [[3171368]] | Turbocharger Gasket | 1 |
+> | [[3202117]] | [[3202117]] | Connection Gasket | 1 |
+> | [[3678912]] | [[3678912]] | O Ring Seal | 1 |
+> | [[3679139]] | [[3679139]] | O Ring Seal | 1 |
+> | [[3682177]] | [[3682177]] | O Ring Seal | 1 |
+> | [[3922794]] | [[3922794]] | O Ring Seal | 2 |
+> | [[3949708]] | [[3949708]] | O Ring Seal | 1 |
+> | [[3957131]] | [[3957131]] | O Ring Seal | 1 |
+> | 4041965 | 4047147 | Turbocharger | 1 |

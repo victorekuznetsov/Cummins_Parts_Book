@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-024-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-024-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Seal, Rear
@@ -35,12 +37,28 @@ tags:
 > **Даты:** изменён 2014-05-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-024-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-024-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the four rear crankshaft seal mounting capscrews.
+
+### Снятие
+
+Удалите четыре задних болта для крепления коленчатого вала.
 
 ![[01400066.png]]
 
-Remove and discard the rear crankshaft seal from the flywheel housing. Use the Front and Rear Crankshaft Seal Installation and Removal Tool Kit, Part Number 3163349.
+Удалить и выбросить заднюю уплотнение коленчатого вала из корпуса маховика. Используйте комплект инструментов для установки и удаления передней и задней уплотнений коленчатого вала, номер детали 3163349.
 
 ![[01400069.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the four rear crankshaft seal mounting capscrews.
+>
+> Remove and discard the rear crankshaft seal from the flywheel housing. Use the Front and Rear Crankshaft Seal Installation and Removal Tool Kit, Part Number 3163349.

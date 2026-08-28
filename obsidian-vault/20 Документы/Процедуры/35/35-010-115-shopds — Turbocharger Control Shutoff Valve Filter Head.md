@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-115-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-115-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Control Shutoff Valve Filter Head
@@ -31,10 +33,26 @@ tags:
 > **Даты:** изменён 2006-09-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-115-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-115-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the two mounting capscrews and separate the turbocharger control shutoff valve filter head from the turbocharger control shutoff valve filter head mounting bracket.
 
-Remove the air shutoff valve. Refer to Procedure 019-386 in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381.
+### Снятие
+
+Удалите два крепежных болта и отделите головку фильтра запорного клапана управления турбокомпрессором от головки крепления запорного фильтра запорного клапана управления турбокомпрессора.
+
+Удалите клапан отключения воздуха. См. процедуру 019-386 в Руководстве по устранению неполадок и ремонту, Электронная система управления CM870, Двигатели ISM, Вестник 4021381.
 
 ![[10200115.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the two mounting capscrews and separate the turbocharger control shutoff valve filter head from the turbocharger control shutoff valve filter head mounting bracket.
+>
+> Remove the air shutoff valve. Refer to Procedure 019-386 in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381.

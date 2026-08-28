@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-114-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-114-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Air Shutoff Valve Filter
@@ -31,8 +33,22 @@ tags:
 > **Даты:** изменён 2006-09-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-114-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-114-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use filter wrench and remove the air filter from the turbocharger control shutoff valve.
+
+### Снятие
+
+Используйте фильтр-гаечный ключ и удалите фильтр воздухоочистителя из клапана отключения управления турбокомпрессором.
 
 ![[10c00068.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Use filter wrench and remove the air filter from the turbocharger control shutoff valve.

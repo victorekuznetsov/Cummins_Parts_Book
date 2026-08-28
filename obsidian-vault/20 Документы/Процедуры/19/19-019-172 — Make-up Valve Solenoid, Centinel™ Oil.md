@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-172.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-172.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Make-up Valve Solenoid, Centinel™ Oil
@@ -34,61 +36,118 @@ tags:
 > **Даты:** изменён 2021-10-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-172.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-172.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Make-up Solenoid Coil
 
-Disconnect the make-up solenoid connector from the Centinel™ wiring harness.
+### Снятие
+
+Соленоидная катушка
+
+Отсоедините соленоидный разъем макияжа от проводной упряжки CentinelTM.
 
 ![[19s00175.png]]
 
-Remove the oil bypass hose (1) from the bypass tube elbow fitting (4).
+Удалите масляный шунтирующий шланг (1) из локтевой арматуры шунтирующей трубки (4).
 
-While holding the solenoid nut (3) loosen and remove the elbow fitting (4) from the solenoid.
+При удержании соленоидного гайки (3) ослабить и удалить локтевой фитинг (4) из соленоида.
 
-> [!warning] CAUTION · Осторожно
-> Do not bend the bypass oil tube. Damage to the tube and the control valve can result.
+> [!warning] ОСТОРОЖНО
+> Не согните шунтирующую масляную трубку. Повреждение трубки и управляющего клапана может привести к этому.
 
 ![[19s00176.png]]
 
-Loosen and remove the solenoid retaining capscrews (1).
+Удалить и удалить соленоидные удерживающие болты (1).
 
-Lift and remove the solenoid (2) from the valve.
+Поднимите и удалите соленоид (2) из клапана.
 
-Remove the o-ring (3) from the solenoid mounting.
+Удалите кольцо (3) из соленоидного крепления.
 
-Discard o-ring.
+Отбросьте кольцо.
 
 ![[19s00177.png]]
 
-### Install
+### Установка
 
-Lubricate and install a new o-ring (3) on the solenoid.
+Смазать и установить новое кольцо (3) на соленоид.
 
-Place the new solenoid (2) on the valve mounting.
+Поместите новый соленоид (2) на крепление клапана.
 
-Install the solenoid retaining capscrews (1) and tighten.
+Установите соленоидные удерживающие болты (1) и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[19s00178.png]]
 
-> [!note] Note · Примечание
-> Inspect the nylon washers and o-rings for damage. Replace if necessary.
+> [!note] Примечание
+> Осмотрите нейлоновые шайбы и кольца на предмет повреждения. Заменить, если это необходимо.
 
-> [!warning] CAUTION · Осторожно
-> Do not bend the bypass oil tube. Damage to the tube and the control valve can result.
+> [!warning] ОСТОРОЖНО
+> Не согните шунтирующую масляную трубку. Повреждение трубки и управляющего клапана может привести к этому.
 
-While holding the solenoid nut (3) install the elbow fitting (4) onto the solenoid.
+При удержании соленоидного гайки (3) установите локтевую фитинг (4) на соленоид.
 
-Fit the oil bypass hose (1) onto the bypass tube elbow fitting (4).
+Подгонять масляный шунтирующий шланг (1) к локтевой установке шунтирующей трубки (4).
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
 ![[19s00176.png]]
 
-Connect the make-up solenoid connector to the Centinel™ wiring harness.
+Подключите косметичекий соленоидный разъем к проводной упряжке CentinelTM.
 
 ![[19s00175.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Make-up Solenoid Coil
+>
+> Disconnect the make-up solenoid connector from the Centinel™ wiring harness.
+>
+> Remove the oil bypass hose (1) from the bypass tube elbow fitting (4).
+>
+> While holding the solenoid nut (3) loosen and remove the elbow fitting (4) from the solenoid.
+>
+> **CAUTION · Осторожно**
+> Do not bend the bypass oil tube. Damage to the tube and the control valve can result.
+>
+> Loosen and remove the solenoid retaining capscrews (1).
+>
+> Lift and remove the solenoid (2) from the valve.
+>
+> Remove the o-ring (3) from the solenoid mounting.
+>
+> Discard o-ring.
+>
+> ### Install
+>
+> Lubricate and install a new o-ring (3) on the solenoid.
+>
+> Place the new solenoid (2) on the valve mounting.
+>
+> Install the solenoid retaining capscrews (1) and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> **Note · Примечание**
+> Inspect the nylon washers and o-rings for damage. Replace if necessary.
+>
+> **CAUTION · Осторожно**
+> Do not bend the bypass oil tube. Damage to the tube and the control valve can result.
+>
+> While holding the solenoid nut (3) install the elbow fitting (4) onto the solenoid.
+>
+> Fit the oil bypass hose (1) onto the bypass tube elbow fitting (4).
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Connect the make-up solenoid connector to the Centinel™ wiring harness.

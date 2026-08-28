@@ -66,7 +66,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 6458299 | Latin America M15N Series Automotive | 30-Mar-2023 |
+| [6458299](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/6458299/6458299-history.html) | Latin America M15N Series Automotive | 30-Mar-2023 |
 
 ### Section 2 - Daily Maintenance
 

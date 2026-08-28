@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-007-014.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-007-014.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter Bypass Valve
@@ -30,85 +32,160 @@ tags:
 > **Даты:** изменён 2002-06-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-007-014.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-007-014.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Whenever the pressure drop across the lubricating oil filter exceeds 862 kPa \[125 psi\], the oil filter bypass valve opens and allows lubricating oil to bypass the lubricating oil filter.
 
-This condition can occur during cold ambient (cold lubricating oil) engine start-ups.
+### Общие сведения
 
-The purpose of the bypass valve is to maintain lubricating oil flow to the engine and prevent an oil filter collapse.
+Всякий раз, когда падение давления на фильтре моторного масла превышает 862 кПа \[125 psi\], клапан обхода масляного фильтра открывается и позволяет смазочному маслу обходить фильтр моторного масла.
+
+Это состояние может возникнуть во время запуска двигателя с холодным окружающим (холодным моторным маслом).
+
+Цель обходного клапана состоит в том, чтобы поддерживать поток моторного масла к двигателю и предотвращать обрушение масляного фильтра.
 
 ![[07c00209.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Loosen the retaining plug with a 7-millimeter Allen wrench.
+Освободите удерживающую пробку с 7-миллиметровым гаечным ключом Аллена.
 
 ![[07c00210.png]]
 
-Remove the retaining plug (1), spring (2), and plunger (3) from the lubricating oil cooler housing (4).
+Удалите удерживающую пробку (1), пружину (2) и плунжер (3) из кожуха охладителя моторного масла (4).
 
 ![[07c00211.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to avoid personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Носите очки и защитную одежду, чтобы избежать травм.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Clean the spring, plunger, and retaining plug with solvent. Dry with compressed air.
+Очистите пружину, плунжер и удерживающую пробку растворителем. Просушите сжатым воздухом.
 
 ![[07c00083.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the o-ring on the retaining plug for cuts or tears. Replace the o-ring if damaged.
+Осмотрите кольцо на удерживающей вилке на порезы или слезы. Замените кольцо, если оно повреждено.
 
 ![[lc1orsa.png]]
 
-Use a spring compression tester, Part Number 3375182, to measure the relief valve spring tension.
+Используйте пружинный компрессионный тестер, часть 3375182, для измерения напряжения пружины клапана.
 
-Compress the spring to 29.65-mm \[1.17-in\] height. The force required to compress the spring **must** be:
+Сжимайте пружину до высоты 29,65 мм \[1,17-в\]. Сила, необходимая для сжатия пружины, должна быть:
 
-| n |  | lbf |
+| n |  | хулиган |
 |---|---|---|
-| 115.7 | NOM | 26 |
+| 115.7 | НМ | 26 |
 
-If the spring does **not** meet this specification, it **must** be replaced.
+Если пружина не соответствует этой спецификации, она должна быть заменена.
 
 ![[lp2vata.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> The notched end of the bypass valve (3) must be installed toward the spring (2). If the bypass valve is installed incorrectly, it will bypass the filter continuously which can cause engine damage.
+> [!warning] ОСТОРОЖНО
+> Закрепленный конец обходного клапана (3) должен быть установлен по направлению к пружине (2). Если обводной клапан установлен неправильно, он будет непрерывно обходить фильтр, что может привести к повреждению двигателя.
 
-Lubricate all pieces and the o-ring seal. Install the plunger (3) with the notched end toward the spring into the lubricating oil cooler housing (4).
+Смазать все кусочки и уплотнение. Установите плунжер (3) с зазубренным концом к пружине в корпус охладителя моторного масла (4).
 
-Install the spring (2), and retaining plug (1) into the lubricating oil cooler housing (4).
+Установите пружину (2) и удерживающую вилку (1) в корпус охладителя моторного масла (4).
 
-Tighten the retaining plug.
+Затяните удерживающую вилку.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07c00212.png]]
 
-Prime the lubricating oil system. Refer to Procedure 007-037.
+В первую очередь система моторного масла. См. процедуру 007-037.
 
 ![[07c00160.png]]
 
-Operate the engine to normal operating temperature and check for leaks.
+Управляйте двигателем до нормальной рабочей температуры и проверяйте наличие утечек.
 
 ![[00c00030.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Whenever the pressure drop across the lubricating oil filter exceeds 862 kPa \[125 psi\], the oil filter bypass valve opens and allows lubricating oil to bypass the lubricating oil filter.
+>
+> This condition can occur during cold ambient (cold lubricating oil) engine start-ups.
+>
+> The purpose of the bypass valve is to maintain lubricating oil flow to the engine and prevent an oil filter collapse.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Loosen the retaining plug with a 7-millimeter Allen wrench.
+>
+> Remove the retaining plug (1), spring (2), and plunger (3) from the lubricating oil cooler housing (4).
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to avoid personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Clean the spring, plunger, and retaining plug with solvent. Dry with compressed air.
+>
+> ### Inspect for Reuse
+>
+> Inspect the o-ring on the retaining plug for cuts or tears. Replace the o-ring if damaged.
+>
+> Use a spring compression tester, Part Number 3375182, to measure the relief valve spring tension.
+>
+> Compress the spring to 29.65-mm \[1.17-in\] height. The force required to compress the spring **must** be:
+>
+> | n |  | lbf |
+> |---|---|---|
+> | 115.7 | NOM | 26 |
+>
+> If the spring does **not** meet this specification, it **must** be replaced.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> The notched end of the bypass valve (3) must be installed toward the spring (2). If the bypass valve is installed incorrectly, it will bypass the filter continuously which can cause engine damage.
+>
+> Lubricate all pieces and the o-ring seal. Install the plunger (3) with the notched end toward the spring into the lubricating oil cooler housing (4).
+>
+> Install the spring (2), and retaining plug (1) into the lubricating oil cooler housing (4).
+>
+> Tighten the retaining plug.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Prime the lubricating oil system. Refer to Procedure 007-037.
+>
+> Operate the engine to normal operating temperature and check for leaks.

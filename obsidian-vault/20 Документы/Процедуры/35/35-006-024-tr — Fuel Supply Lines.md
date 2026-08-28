@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-024-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-024-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel Supply Lines
@@ -35,46 +37,88 @@ tags:
 > **Даты:** изменён 2017-12-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-024-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the fuel line or fuel hose.
+
+### Снятие
+
+Удалите топливный шланг или топливный шланг.
 
 ![[fp8homd.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the inside of the fuel hose.
+Проверьте внутреннюю часть топливного шланга.
 
-- The inner lining of the hose can separate from the center hose section.
-- A separation or flap can cause a restriction in the fuel flow.
+- Внутренняя обшивка шланга может отделяться от центральной секции шланга.
+- Разделение или клапан может вызвать ограничение в потоке топлива.
 
 ![[fp8hoca.png]]
 
-Replace the fuel hose if damage is found.
+Замените топливный шланг, если обнаружены повреждения.
 
 ![[fp8hohh.png]]
 
-Check for cracks that can cause a pressure loss.
+Проверьте наличие трещин, которые могут вызвать потерю давления.
 
-Check the metal fuel lines for sharp bends that can cause a pressure restriction.
+Проверьте металлические топливные линии на наличие резких изгибов, которые могут вызвать ограничение давления.
 
 ![[06200027.png]]
 
-If a line(s) is damaged, replace the line(s).
+Если линия (линии) повреждена, замените линию (линии).
 
-Inspect for cracks/damage on spring steel diaphragm. [[35-005-031-tr — Fuel Pump Pulsation Damper|Refer to Procedure 005-031 in Section 5.]]
+Освидетельствование на наличие трещин/повреждений на пружинной стальной диафрагме.[[35-005-031-tr — Fuel Pump Pulsation Damper|См. процедуру 005-031 в разделе 5.]]
 
 ![[fp8tuma.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use compressed air to flush the lines and remove any loose dirt particles.
+Используйте сжатый воздух, чтобы промыть линии и удалить любые свободные частицы грязи.
 
-Install the fuel lines.
+Установите топливные линии.
 
-Install any brackets that were in place on the fuel plumbing.
+Установите любые скобки, которые были на месте на топливной сантехнике.
 
 ![[ft1tbea.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the fuel line or fuel hose.
+>
+> ### Inspect for Reuse
+>
+> Inspect the inside of the fuel hose.
+>
+> - The inner lining of the hose can separate from the center hose section.
+> - A separation or flap can cause a restriction in the fuel flow.
+>
+> Replace the fuel hose if damage is found.
+>
+> Check for cracks that can cause a pressure loss.
+>
+> Check the metal fuel lines for sharp bends that can cause a pressure restriction.
+>
+> If a line(s) is damaged, replace the line(s).
+>
+> Inspect for cracks/damage on spring steel diaphragm. [[35-005-031-tr — Fuel Pump Pulsation Damper|Refer to Procedure 005-031 in Section 5.]]
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use compressed air to flush the lines and remove any loose dirt particles.
+>
+> Install the fuel lines.
+>
+> Install any brackets that were in place on the fuel plumbing.

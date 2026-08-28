@@ -14,13 +14,15 @@ manuals:
   - "4021374"
   - "4021375"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-002.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -34,110 +36,208 @@ tags:
 > **Даты:** изменён 2017-12-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-002.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
 
-> [!danger] WARNING · Опасно
-> The belt tensioner is under pressure. Relieve and restore belt tension slowly to reduce the possibility of personal injury.
+### Снятие
 
-Place an open-ended wrench on the tensioner lug, as shown.
+Промышленное применение
+
+> [!danger] ОПАСНО
+> Натяжитель ремня находится под давлением. Снять и восстановить напряжение пояса медленно, чтобы уменьшить вероятность получения травмы.
+
+Поместите открытый гаечный ключ на натяжной коврик, как показано.
 
 ![[08400370.png]]
 
-Turn the wrench to relieve the tension on the belt.
+Поверните гаечный ключ, чтобы снять напряжение на поясе.
 
-Remove the belt(s).
+Удалите ремень(ы).
 
-Slowly release pressure on the wrench until the tensioner stops.
+Медленно отпустите давление на гаечный ключ, пока натяжитель не остановится.
 
 ![[08400371.png]]
 
-Power Generation
+Генерация электроэнергии
 
-Loosen the three clamping bolts (1).
+Устранить три зажимных болта (1).
 
-Loosen the adjusting screw locknut (2).
+Устранить корректирующий винтовой локон (2).
 
-Turn the adjusting screw (3) **counterclockwise** to relieve the tension on the belt.
+Поверните регулирующий винт (3)** против часовой стрелки**, чтобы снять напряжение на ремне.
 
 ![[08400372.png]]
 
-Remove the belt.
+Снимите ремень.
 
 ![[08400373.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the tensioner assembly (1) and idler pulley (2) for any cracks or excessive wear.
+Осмотрите натяжной блок (1) и шкив (2) для любых трещин или чрезмерного износа.
 
-If the parts are cracked or worn, they **must** be replaced.
+Если детали сломаны или изношены, они должны быть заменены.
 
-- Make sure the idler pulley moves freely.
-- Make sure bearing operation is smooth and does **not** have any free play.
-- Inspect the idler pulley for damage or wear.
+- Убедитесь, что шкив бездельника свободно перемещается.
+- Убедитесь, что подшипник работает гладко и не имеет никакой бесплатной игры.
+- Осмотрите шкив холостого хода на предмет повреждения или износа.
 
 ![[08k00031.png]]
 
-Inspect the belt for:
+Осмотрите пояс для:
 
-- Cracks
-- Glazing
-- Tears or cuts.
+- Трещины
+- остекление
+- Слезы или порезы.
 
 ![[fa800sa.png]]
 
-### Install
+### Установка
 
-Industrial Applications
+Промышленное применение
 
-> [!danger] WARNING · Опасно
-> The belt tensioner is under pressure. Relieve and restore belt tension slowly to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Натяжитель ремня находится под давлением. Снять и восстановить напряжение пояса медленно, чтобы уменьшить вероятность получения травмы.
 
-Place a wrench on the tensioner lug, as shown.
+Положите гаечный ключ на натяжной коврик, как показано.
 
 ![[08400370.png]]
 
-Turn the wrench to position the tensioner for belt installation.
+Поверните гаечный ключ, чтобы расположить натяжитель для установки ремня.
 
-Install the belt(s).
+Установите ремень(ы).
 
-Slowly release pressure on the wrench until the tensioner is in position.
+Медленно отпустите давление на гаечный ключ, пока натяжитель не окажется в положении.
 
 ![[08400371.png]]
 
-Power Generation
+Генерация электроэнергии
 
-If necessary, loosen the adjusting screw (2) and clamping bolts (1) to allow belt installation.
+При необходимости ослабить регулирующий винт (2) и зажимные болты (1), чтобы обеспечить установку ремня.
 
-Install the belt.
+Установите ремень.
 
 ![[08400373.png]]
 
-### Adjust
+### Регулировка
 
-Power Generation
+Генерация электроэнергии
 
-Loosen the tensioner clamping bolts (1).
+Устранить зажимные болты натяжителя (1).
 
-Loosen the adjusting screw locknut (2).
+Устранить корректирующий винтовой локон (2).
 
-Turn the adjusting screw (3) **clockwise** to increase belt tension and **counterclockwise** to decrease belt tension.
+Поверните регулирующий винт (3) **по часовой стрелке** для увеличения напряжения ремня и **против часовой стрелки** для уменьшения напряжения ремня.
 
-| Belt Tension |  |  |
+| Напряженность в поясе |  |  |
 |---|---|---|
-| n.m |  | ft-lb |
-| 230 | MIN | 170 |
-| 345 | MAX | 255 |
+| Н·м |  | фунт-фут |
+| 230 | Мин | 170 |
+| 345 | Макс | 255 |
 
-Once the desired tension is obtained, tighten the locknut against the tensioner bracket.
+Как только желаемое напряжение получено, затяните кронштейн с натяжителем.
 
-> [!tip] Момент затяжки · Torque Value
-> 196 n•m [125 ft-lb]
+> [!tip] Момент затяжки
+> 196 Н·м [125 фунт-фут]
 
-Tighten the clamping bolts (1).
+Затягивать зажимные болты (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 66 n•m [49 ft-lb]
+> [!tip] Момент затяжки
+> 66 Н·м [49 фунт-фут]
 
 ![[08400374.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Industrial Applications
+>
+> **WARNING · Опасно**
+> The belt tensioner is under pressure. Relieve and restore belt tension slowly to reduce the possibility of personal injury.
+>
+> Place an open-ended wrench on the tensioner lug, as shown.
+>
+> Turn the wrench to relieve the tension on the belt.
+>
+> Remove the belt(s).
+>
+> Slowly release pressure on the wrench until the tensioner stops.
+>
+> Power Generation
+>
+> Loosen the three clamping bolts (1).
+>
+> Loosen the adjusting screw locknut (2).
+>
+> Turn the adjusting screw (3) **counterclockwise** to relieve the tension on the belt.
+>
+> Remove the belt.
+>
+> ### Inspect for Reuse
+>
+> Inspect the tensioner assembly (1) and idler pulley (2) for any cracks or excessive wear.
+>
+> If the parts are cracked or worn, they **must** be replaced.
+>
+> - Make sure the idler pulley moves freely.
+> - Make sure bearing operation is smooth and does **not** have any free play.
+> - Inspect the idler pulley for damage or wear.
+>
+> Inspect the belt for:
+>
+> - Cracks
+> - Glazing
+> - Tears or cuts.
+>
+> ### Install
+>
+> Industrial Applications
+>
+> **WARNING · Опасно**
+> The belt tensioner is under pressure. Relieve and restore belt tension slowly to reduce the possibility of personal injury.
+>
+> Place a wrench on the tensioner lug, as shown.
+>
+> Turn the wrench to position the tensioner for belt installation.
+>
+> Install the belt(s).
+>
+> Slowly release pressure on the wrench until the tensioner is in position.
+>
+> Power Generation
+>
+> If necessary, loosen the adjusting screw (2) and clamping bolts (1) to allow belt installation.
+>
+> Install the belt.
+>
+> ### Adjust
+>
+> Power Generation
+>
+> Loosen the tensioner clamping bolts (1).
+>
+> Loosen the adjusting screw locknut (2).
+>
+> Turn the adjusting screw (3) **clockwise** to increase belt tension and **counterclockwise** to decrease belt tension.
+>
+> | Belt Tension |  |  |
+> |---|---|---|
+> | n.m |  | ft-lb |
+> | 230 | MIN | 170 |
+> | 345 | MAX | 255 |
+>
+> Once the desired tension is obtained, tighten the locknut against the tensioner bracket.
+>
+> **Момент затяжки · Torque Value**
+> 196 n•m [125 ft-lb]
+>
+> Tighten the clamping bolts (1).
+>
+> **Момент затяжки · Torque Value**
+> 66 n•m [49 ft-lb]

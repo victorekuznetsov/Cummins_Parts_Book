@@ -16,7 +16,8 @@ manuals:
   - "3666239"
   - "3666322"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-012-024-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-012-024-tr.pdf"
 tags:
@@ -24,6 +25,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Air Pressure Relief Valve
@@ -36,48 +38,92 @@ tags:
 > **Даты:** изменён 2014-06-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-012-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-012-024-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the air governor or air governor line from the air compressor. Remove the air intake line from the air compressor cylinder head.
+
+### Первичная проверка
+
+Удалите воздухообменник или линию воздухообмена из воздушного компрессора. Удалите линию воздухозаборника из головки воздушного компрессора.
 
 ![[12800073.png]]
 
-Operate the engine to activate the air compressor.
+Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-Under normal operating conditions, the air compressor intake port will create a vacuum.
+В нормальных условиях эксплуатации воздухозаборник с воздушным компрессором будет создавать вакуум.
 
-To check for the presence of a vacuum, hold a piece of paper or cardstock 5 cm \[2 in\] in front of the air compressor intake port.
+Чтобы проверить наличие вакуума, держите лист бумаги или картотека 5 см \[2 в\] перед портом впуска воздушного компрессора.
 
-Observe the response of the paper.
+Обратите внимание на ответ газеты.
 
-Shut the engine off.
+Выключи двигатель.
 
 ![[12800075.png]]
 
-If the paper is blow away from the air compressor intake port, replace these components:
+Если бумага выдувается из воздухозаборника компрессора, замените эти компоненты:
 
-- Air pressure relief valve. See equipment manufacturer service information.
+- Клапан для сброса давления воздуха. См. сервисную документацию изготовителя оборудования.
 
-> [!note] Note · Примечание
-> For engines equipped with Wabco™ air compressors, the air pressure relief valve is an integral part of the air compressor cylinder head.
+> [!note] Примечание
+> Для двигателей, оснащенных воздушными компрессорами WabcoTM, клапан сброса давления воздуха является неотъемлемой частью головки воздушного компрессора.
 
-- Air compressor cylinder head.
+- Голова цилиндра воздушного компрессора.
 
 ![[12p00008.png]]
 
-If the paper does **not** move:
+Если документ не передвигается:
 
-- Check the downstream air system components for damage or restriction.
-- Make sure the intake and exhaust valves are functioning properly.
+- Проверьте компоненты системы подачи воздуха вниз по течению на предмет повреждения или ограничения.
+- Убедитесь, что впускной и выпускной клапаны функционируют должным образом.
 
 ![[12p00009.png]]
 
-If the paper is pulled toward the air compressor intake, the air compressor relief valve is working properly.
+Если бумага тянутся к воздухозаборнику компрессора, клапан рельсового давления воздушного компрессора работает должным образом.
 
 ![[12p00010.png]]
 
-Install the air intake line to the cylinder head.
+Установите линию воздухозаборника на головку цилиндра.
 
-Install the air governor or air governor line to the air compressor.
+Установите линию воздухообмена или воздухообменника на воздушный компрессор.
 
 ![[12800073.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Remove the air governor or air governor line from the air compressor. Remove the air intake line from the air compressor cylinder head.
+>
+> Operate the engine to activate the air compressor.
+>
+> Under normal operating conditions, the air compressor intake port will create a vacuum.
+>
+> To check for the presence of a vacuum, hold a piece of paper or cardstock 5 cm \[2 in\] in front of the air compressor intake port.
+>
+> Observe the response of the paper.
+>
+> Shut the engine off.
+>
+> If the paper is blow away from the air compressor intake port, replace these components:
+>
+> - Air pressure relief valve. See equipment manufacturer service information.
+>
+> **Note · Примечание**
+> For engines equipped with Wabco™ air compressors, the air pressure relief valve is an integral part of the air compressor cylinder head.
+>
+> - Air compressor cylinder head.
+>
+> If the paper does **not** move:
+>
+> - Check the downstream air system components for damage or restriction.
+> - Make sure the intake and exhaust valves are functioning properly.
+>
+> If the paper is pulled toward the air compressor intake, the air compressor relief valve is working properly.
+>
+> Install the air intake line to the cylinder head.
+>
+> Install the air governor or air governor line to the air compressor.

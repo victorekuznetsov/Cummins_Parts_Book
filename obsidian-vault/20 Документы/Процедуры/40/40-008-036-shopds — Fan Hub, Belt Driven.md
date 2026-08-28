@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-036-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-036-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -33,11 +35,28 @@ tags:
 > **Даты:** изменён 2008-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-036-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-036-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> There are many available fan hub configurations. Be sure to note the location, orientation, and mounting pattern of the hub prior to removal from the engine.
 
-Remove the four capscrews and the fan hub.
+### Снятие
+
+> [!note] Примечание
+> Существует множество доступных конфигураций фан-хабов. Обязательно обратите внимание на местоположение, ориентацию и схему крепления концентратора перед удалением из двигателя.
+
+Удалите четыре болта и фан-хаб.
 
 ![[fa900mc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> There are many available fan hub configurations. Be sure to note the location, orientation, and mounting pattern of the hub prior to removal from the engine.
+>
+> Remove the four capscrews and the fan hub.

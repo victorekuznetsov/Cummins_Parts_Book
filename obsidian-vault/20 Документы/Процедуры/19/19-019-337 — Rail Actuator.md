@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-337.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-337.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Rail Actuator
@@ -34,27 +36,56 @@ tags:
 > **Даты:** изменён 2002-09-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-337.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-337.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean the area around the actuator.
 
-Disconnect the connector from the engine harness.
+### Снятие
+
+Очистите область вокруг привода.
+
+Отсоедините разъем от жгута проводов двигателя.
 
 ![[19400368.png]]
 
-Remove the actuator with a ratchet and a 1 1/4-inch deep flange drive socket, Part Number 3823843.
+Удалите привод с помощью герметика и розетки с глубоким фланцем 1 1/4 дюйма, номер детали 3823843.
 
-Inspect the new actuator for o-rings.
+Осмотрите новый привод для колец.
 
 ![[19400369.png]]
 
-### Install
+### Установка
 
-Install a new actuator.
+Установите новый привод.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Connect the engine harness to the actuator.
+Подключите жгут электропроводки двигателя к приводу.
 
 ![[19400370.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Clean the area around the actuator.
+>
+> Disconnect the connector from the engine harness.
+>
+> Remove the actuator with a ratchet and a 1 1/4-inch deep flange drive socket, Part Number 3823843.
+>
+> Inspect the new actuator for o-rings.
+>
+> ### Install
+>
+> Install a new actuator.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Connect the engine harness to the actuator.

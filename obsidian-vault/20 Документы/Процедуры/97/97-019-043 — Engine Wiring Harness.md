@@ -18,7 +18,8 @@ families:
 manuals:
   - "3666415"
 figures: 22
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-043.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-043.pdf"
 tags:
@@ -26,6 +27,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Engine Wiring Harness
@@ -39,124 +41,212 @@ tags:
 > **Даты:** изменён 2003-06-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-043.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-ICON™
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+### Снятие
 
-Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery, if necessary.
+Икона
 
-> [!note] Note · Примечание
-> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+Переведите замок зажигания в положение OFF. Отключите кабели аккумулятора автомобиля от батареи, если это необходимо.
+
+> [!note] Примечание
+> Отключение аккумуляторных батарей автомобиля может потребовать сброса часов ECM в режиме реального времени с помощью INSITETM.
 
 ![[ea8coha.png]]
 
-Disconnect the ICON™ engine harness battery connectors from the batteries. Disconnect the ICON™ harness negative (-) ring terminal (black wire) wire No. 003 from the negative (-) battery connector first.
+Отключите разъемы аккумуляторных батарей ICONTM от проводов двигателя. Отключите провода ICONTM с помощью отрицательного (-) кольцевого терминала (черного провода) провода No. 003 от отрицательного (-) разъема батареи.
 
-Disconnect the ICON™ harness positive (+) ring terminal (red wire) wire No. 013 from the positive (+) battery connector.
+Отключите провода ICONTM с помощью положительного (+) кольцевого терминала (красного провода) провода No. 013 от положительного (+) разъема батареи.
 
 ![[15800045.png]]
 
-Remove the fuse from the fuse holder on the ICON™ engine harness.
+Удалите предохранитель из держателя предохранителя на ремне электропроводки двигателя ICONTM.
 
-Remove the fuse from the fuse holder on the ICON™ cab harness.
+Удалите предохранитель из держателя предохранителя на ремне проводов ICONTM.
 
 ![[15800036.png]]
 
-Disconnect the hood tilt switch from the ICON™ engine harness.
+Отсоедините переключатель наклона капота от электропроводки двигателя ICONTM.
 
 ![[19c00918.png]]
 
-Disconnect the starter relay from the ICON™ engine harness.
+Отсоедините стартовую реле от ремня электропроводки двигателя ICONTM.
 
 ![[19c00919.png]]
 
-Disconnect the engine start alarm from the ICON™ engine harness.
+Отключите сигнализацию запуска двигателя от электропроводки ICONTM.
 
 ![[19c00920.png]]
 
-Disconnect the ICON™ idle control module A and B connectors from the ICON™ engine harness.
+Отсоедините неработающий модуль управления ICONTM разъемы A и B от электропроводки двигателя ICONTM.
 
 ![[19c00917.png]]
 
-Remove the boot from around the gearshift and disconnect the neutral position switch connector from the ICON™ engine harness.
+Удалите загрузку из-за переключения передач и отсоедините разъем переключателя нейтрального положения от электропроводки двигателя ICONTM.
 
 ![[19c00921.png]]
 
-Locate and disconnect the OEM connector that contains the engine ECM keyswitch input wire splice to the ICON™ idle control module keyswitch input wire.
+Найдите и отсоедините OEM-разъем, который содержит провод входного зажигания переключателя зажигания двигателя ECM, к проводу входного зажигания переключателя управления ICONTM.
 
-Cut the spliced wire using wire crimp tool, Part Number 3822930.
+Разрежьте сплайсированный провод с помощью инструмента для обжимания проводов, номер детали 3822930.
 
 ![[15800047.png]]
 
-Disconnect the ICON™ engine harness 14-pin pass-through connector from the mating 14-pin pass-through connector mounted on the firewall.
+Отсоедините проводку двигателя ICONTM от 14-контактного проходного разъема от спаривающего 14-контактного проходного разъема, установленного на брандмауэре.
 
 ![[15800040.png]]
 
-Remove any nylon wire ties used to secure the engine harness to the vehicle or other wiring.
+Удалите любые нейлоновые проводные связи, используемые для обеспечения электропроводки двигателя, к транспортному средству или другой электропроводке.
 
-Remove the ICON™ engine harness.
+Удалите электропроводку двигателя ICONTM.
 
 ![[19c00924.png]]
 
-### Install
+### Установка
 
-ICON™
+Икона
 
-> [!warning] CAUTION · Осторожно
-> Prior to connecting the engine harness connectors to the electrical components, coat the connectors with lubricant DS-ES, Part Number 3824934, or equivalent. This lubricant prevents corrosion, enabling good electrical contact.
+> [!warning] ОСТОРОЖНО
+> Перед подключением разъёмов ремней электропроводки двигателя к электрическим компонентам покройте разъёмы смазочным материалом DS-ES, Part Number 3824934 или эквивалентом. Эта смазка предотвращает коррозию, обеспечивая хороший электрический контакт.
 
-Connect the ICON™ engine harness 14-pin pass-through connector to the mating 14-pin pass-through connector mounted on the vehicle's firewall.
+Подключите к разъёму 14-контактный проходной разъем с 14-контактным проходным разъемом, установленным на брандмауэре автомобиля.
 
 ![[15800040.png]]
 
-Connect the ICON™ idle control module A and B connectors to the ICON™ engine harness.
+Подключите к ремню проводов двигателя ICONTM разъемы A и B холостого управления ICONTM.
 
 ![[19c00917.png]]
 
-Connect the engine start alarm connector to the ICON™ engine harness connector.
+Подключите разъем аварийной сигнализации двигателя к разъему жгута проводов двигателя ICONTM.
 
 ![[19c00920.png]]
 
-Connect the starter relay to the ICON™ engine harness connector.
+Подключите стартер реле к разъему жгута проводов двигателя ICONTM.
 
 ![[19c00919.png]]
 
-Connect the hood tilt switch connector to the ICON™ engine harness connector.
+Подключите разъем переключателя наклона капота к разъему жгута проводов двигателя ICONTM.
 
 ![[19c00918.png]]
 
-Connect the neutral position switch connector to the ICON™ engine harness connector and install the boot around the gearshift.
+Подключите разъем переключателя нейтрального положения к разъему ремня электропроводки двигателя ICONTM и установите загрузку вокруг переключения передач.
 
 ![[19c00921.png]]
 
-Locate the disconnected OEM connector containing the severed keyswitch input wire butt splice. Using the appropriate butt splice, splice the engine ECM keyswitch input wire to the ICON™ idle control module keyswitch input wire. Heat-shrink the splice.
+Найдите отсоединенный OEM-разъем, содержащий разорванный переключатель зажигания входной сплайс провода. Используя соответствующую сплайс-сплайс, сплайсируйте входной провод переключателя зажигания двигателя ECM на провод входного переключателя зажигания модуля управления ICONTM. Сплайс сжимает температуру.
 
-Connect the OEM connector.
+Подключите OEM-разъем.
 
 ![[19c00925.png]]
 
-Install the fuse into the fuse holder on the ICON™ cab harness.
+Установите предохранитель в держатель предохранителя на ремне проводов ICONTM.
 
-Install the fuse into the fuse holder on the ICON™ engine harness.
+Установите предохранитель в держатель предохранителя на ремне электропроводки двигателя ICONTM.
 
 ![[15800036.png]]
 
-Connect the ICON™ engine harness battery connectors to the batteries.
+Подключите к батареям разъемы для аккумуляторов ICONTM.
 
-Connect the ICON™ harness positive (+) ring terminal (red wire) wire Number 013 to the positive (+) battery connector first. Connect the ICON™ harness negative (-) ring terminal (black wire) wire Number 003 to the negative (-) battery connector last.
+Подключите провода ICONTM с положительной (+) кольцевой клеммой (красный провод) к проводу 013 с положительным (+) разъемом батареи. Подключите провода ICONTM с жгутом отрицательного (-) кольца (черный провод) к проводу № 003 с отрицательным (-) разъемом батареи последним.
 
 ![[15800045.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Connect the vehicle battery cables to the battery.
+Подключите кабели аккумулятора автомобиля к батарее.
 
 ![[ea8coha.png]]
 
-Use nylon wire ties to secure the engine harness to the vehicle frame or to other wiring.
+Используйте нейлоновые проводные стяжки, чтобы обеспечить привязку проводов двигателя к раме автомобиля или к другой проводах.
 
 ![[19c00924.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> ICON™
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery, if necessary.
+>
+> **Note · Примечание**
+> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+>
+> Disconnect the ICON™ engine harness battery connectors from the batteries. Disconnect the ICON™ harness negative (-) ring terminal (black wire) wire No. 003 from the negative (-) battery connector first.
+>
+> Disconnect the ICON™ harness positive (+) ring terminal (red wire) wire No. 013 from the positive (+) battery connector.
+>
+> Remove the fuse from the fuse holder on the ICON™ engine harness.
+>
+> Remove the fuse from the fuse holder on the ICON™ cab harness.
+>
+> Disconnect the hood tilt switch from the ICON™ engine harness.
+>
+> Disconnect the starter relay from the ICON™ engine harness.
+>
+> Disconnect the engine start alarm from the ICON™ engine harness.
+>
+> Disconnect the ICON™ idle control module A and B connectors from the ICON™ engine harness.
+>
+> Remove the boot from around the gearshift and disconnect the neutral position switch connector from the ICON™ engine harness.
+>
+> Locate and disconnect the OEM connector that contains the engine ECM keyswitch input wire splice to the ICON™ idle control module keyswitch input wire.
+>
+> Cut the spliced wire using wire crimp tool, Part Number 3822930.
+>
+> Disconnect the ICON™ engine harness 14-pin pass-through connector from the mating 14-pin pass-through connector mounted on the firewall.
+>
+> Remove any nylon wire ties used to secure the engine harness to the vehicle or other wiring.
+>
+> Remove the ICON™ engine harness.
+>
+> ### Install
+>
+> ICON™
+>
+> **CAUTION · Осторожно**
+> Prior to connecting the engine harness connectors to the electrical components, coat the connectors with lubricant DS-ES, Part Number 3824934, or equivalent. This lubricant prevents corrosion, enabling good electrical contact.
+>
+> Connect the ICON™ engine harness 14-pin pass-through connector to the mating 14-pin pass-through connector mounted on the vehicle's firewall.
+>
+> Connect the ICON™ idle control module A and B connectors to the ICON™ engine harness.
+>
+> Connect the engine start alarm connector to the ICON™ engine harness connector.
+>
+> Connect the starter relay to the ICON™ engine harness connector.
+>
+> Connect the hood tilt switch connector to the ICON™ engine harness connector.
+>
+> Connect the neutral position switch connector to the ICON™ engine harness connector and install the boot around the gearshift.
+>
+> Locate the disconnected OEM connector containing the severed keyswitch input wire butt splice. Using the appropriate butt splice, splice the engine ECM keyswitch input wire to the ICON™ idle control module keyswitch input wire. Heat-shrink the splice.
+>
+> Connect the OEM connector.
+>
+> Install the fuse into the fuse holder on the ICON™ cab harness.
+>
+> Install the fuse into the fuse holder on the ICON™ engine harness.
+>
+> Connect the ICON™ engine harness battery connectors to the batteries.
+>
+> Connect the ICON™ harness positive (+) ring terminal (red wire) wire Number 013 to the positive (+) battery connector first. Connect the ICON™ harness negative (-) ring terminal (black wire) wire Number 003 to the negative (-) battery connector last.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Connect the vehicle battery cables to the battery.
+>
+> Use nylon wire ties to secure the engine harness to the vehicle frame or to other wiring.

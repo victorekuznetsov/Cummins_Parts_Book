@@ -12,13 +12,15 @@ families:
   - "6B5.9"
 manuals:
   - "3810205"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-020-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-020-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -32,8 +34,24 @@ tags:
 > **Даты:** изменён 2007-04-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-020-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-020-om.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Maximum Allowable Exhaust Restriction at Rated Speed and Loaded
 
-1991 to 1993 EPA Certified 114.3 mm Hg \[4.5 in Hg\]1994 to 1998 EPA Certified (with oxidation catalyst) 152.4 mm Hg \[6 in Hg\]
+### Спецификации
+
+#### Максимально допустимое ограничение выхлопа при номинальной скорости и загрузке
+
+С 1991 по 1993 год EPA Сертифицировано 114,3 мм рт.ст. \[4,5 в рт.ст.\]1994 по 1998 год EPA Сертифицировано (с катализатором окисления) 152,4 мм рт.ст. \[6 в рт.ст.\]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Maximum Allowable Exhaust Restriction at Rated Speed and Loaded
+>
+> 1991 to 1993 EPA Certified 114.3 mm Hg \[4.5 in Hg\]1994 to 1998 EPA Certified (with oxidation catalyst) 152.4 mm Hg \[6 in Hg\]

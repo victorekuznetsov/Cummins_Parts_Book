@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc353.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc353.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module - Internal Hardware Failure
@@ -30,68 +32,142 @@ tags:
 > **Даты:** изменён 2021-09-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc353.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc353.pdf)
 
-### Fault Code: 353
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Control Module - Internal Hardware Failure
 
-Printable Version
+### Код неисправности: 353
 
-### Overview
+### Модуль управления двигателем - сбой внутреннего оборудования
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 353 PID(P): S251 SPN: FMI: 12 Lamp: On SRT: 00-631 | Erasable programmable read-only memory memory read/write error. | None on performance. |
+| Код неисправности: 353 PID (P): S251 SPN: ФМИ: 12 ламп: На SRT: 00-631 | Стираемая программируемая ошибка показаний/записи только для показаний памяти. | Ни одного на выступление. |
 
 ![[19802469.png]]
 
-Engine Control Module (ECM)
+Модуль управления двигателем (ECM)
 
-### Circuit Description
+### Описание цепи
 
-The ECM has internal diagnostics that continuously run and check the internal memory.
+ECM имеет внутреннюю диагностику, которая постоянно работает и проверяет внутреннюю память.
 
-### Component Location
+### Расположение компонента
 
-The ECM is bolted to the fuel pump on the left side of the engine.
+ECM прикреплен к топливному насосу на левой стороне двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected a read or write error internal to the ECM.
+Модуль управления двигателем (ECM) обнаружил ошибку показаний или записи внутри ECM.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM logs the amber CHECK fault code immediately when the diagnostic runs and fails.
+- ECM регистрирует код ошибки янтаря CHECK сразу же, когда диагностика проходит и выходит из строя.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит лампу янтарного CHECK ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Internal ECM failure.
+- Внутренний сбой ECM.
 
-Refer to Troubleshooting Fault Code t05-353
+См. Код устранения неполадок t05-353
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 353
+>
+> ### Engine Control Module - Internal Hardware Failure
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 353 PID(P): S251 SPN: FMI: 12 Lamp: On SRT: 00-631 | Erasable programmable read-only memory memory read/write error. | None on performance. |
+>
+> Engine Control Module (ECM)
+>
+> ### Circuit Description
+>
+> The ECM has internal diagnostics that continuously run and check the internal memory.
+>
+> ### Component Location
+>
+> The ECM is bolted to the fuel pump on the left side of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected a read or write error internal to the ECM.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM logs the amber CHECK fault code immediately when the diagnostic runs and fails.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Internal ECM failure.
+>
+> Refer to Troubleshooting Fault Code t05-353

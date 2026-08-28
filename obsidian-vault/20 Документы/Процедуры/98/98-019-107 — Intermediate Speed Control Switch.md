@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666070"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-019-107.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-019-107.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Intermediate Speed Control Switch
@@ -34,46 +36,90 @@ tags:
 > **Даты:** изменён 2003-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-019-107.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-019-107.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The intermediate-speed switch is located on the CENTRY™ driver interface panel.
 
-> [!note] Note · Примечание
-> Some applications will use a relay instead of an interface panel switch. Refer to the OEM manual to see how a particular system is wired.
+### Общие сведения
+
+Переключатель средней скорости расположен на панели интерфейса драйвера CENTRYTM.
+
+> [!note] Примечание
+> Некоторые приложения будут использовать реле вместо переключателя панели интерфейса. Посмотрите руководство OEM, чтобы увидеть, как конкретная система подключена.
 
 ![[19801910.png]]
 
-### Resistance Check
+### Проверка сопротивления
 
-Locate the switch on the driver interface panel and remove it. Refer to the OEM troubleshooting and repair manual for the procedure.
+Найдите переключатель на панели интерфейса драйвера и удалите его. См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
-Disconnect the wires connected to the switch (wire Nos. C6-C, C6-E, C6-H).
+Отсоедините провода, подключенные к коммутатору (провод Nos). C6-C, C6-E, C6-H.
 
-> [!note] Note · Примечание
-> The switch is a normally open switch.
+> [!note] Примечание
+> Коммутатор обычно является открытым коммутатором.
 
 ![[19801911.png]]
 
-Select the resistance function on the multimeter.
+Выберите функцию сопротивления на мультиметре.
 
-Touch the multimeter leads to the switch terminals.
+Прикосновение к мультиметру приводит к переключательным терминалам.
 
-Toggle the switch to the OFF (closed) position.
+Переключитесь на положение выключения (закрытое).
 
 ![[19801912.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit within the switch.
+Мультиметр **должен **показывать более 100k ом, что является открытой схемой. Если схема **не **открыта, то внутри переключателя есть короткое замыкание.
 
-Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+Замените выключатель. См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
 ![[19801621.png]]
 
-Toggle the switch to the ON position.
+Переключите переключатель на положение ON.
 
-Measure the resistance. The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is an open circuit within the switch.
+Измерьте сопротивление. Мультиметр **должен **показывать менее 10 Ом, что является замкнутой схемой. Если схема **не **закрыта, то в переключателе есть открытая схема.
 
-Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+Замените выключатель. См. руководство по устранению неполадок и ремонту OEM для процедуры.
 
 ![[19801914.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The intermediate-speed switch is located on the CENTRY™ driver interface panel.
+>
+> **Note · Примечание**
+> Some applications will use a relay instead of an interface panel switch. Refer to the OEM manual to see how a particular system is wired.
+>
+> ### Resistance Check
+>
+> Locate the switch on the driver interface panel and remove it. Refer to the OEM troubleshooting and repair manual for the procedure.
+>
+> Disconnect the wires connected to the switch (wire Nos. C6-C, C6-E, C6-H).
+>
+> **Note · Примечание**
+> The switch is a normally open switch.
+>
+> Select the resistance function on the multimeter.
+>
+> Touch the multimeter leads to the switch terminals.
+>
+> Toggle the switch to the OFF (closed) position.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show more than 100k ohms, which is an open circuit. If the circuit is **not** open, then there is a short circuit within the switch.
+>
+> Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.
+>
+> Toggle the switch to the ON position.
+>
+> Measure the resistance. The multimeter **must** show less than 10 ohms, which is a closed circuit. If the circuit is **not** closed, then there is an open circuit within the switch.
+>
+> Replace the switch. Refer to the OEM troubleshooting and repair manual for the procedure.

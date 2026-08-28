@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 13
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-063-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-063-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Pre-Lubricating Oil Pump
@@ -35,160 +37,302 @@ tags:
 > **Даты:** изменён 2010-08-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-063-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-063-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following explains the installation of the "High Volume" PRELUB™ pump.
 
-Install the bracket and tighten the capscrews.
+### Установка
 
-Torque Value:
+Ниже объясняется установка насоса PRELUBTM «Высокого объема».
 
-M12
+Установите кронштейн и затяните болты.
 
-Torque Value:
+Момент затяжки:
 
-M10
+М12
+
+Момент затяжки:
+
+М10
 
 ![[07600453.png]]
 
-Apply Loctite™ 641 to the capscrew threads.
+Применять LoctiteTM 641 к резьбе болтов.
 
-Place the PRELUB™ pump into the machined blocks of the bracket.
+Поместите насос PRELUBTM в обработанные блоки скобки.
 
-Place the two U-shaped brackets over the PRELUB™ pump.
+Поместите две U-образные скобки над насосом PRELUBTM.
 
-Install the capscrews and tighten in an alternating sequence.
+Установите болты и затяните в чередующейся последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-Make sure the gap is even under each side of the clamp.
+Убедитесь, что зазор находится даже под каждой стороной зажима.
 
 ![[07600456.png]]
 
-Install the elbow into the oil pan and tighten. The final position of the elbow after it has been tightened will be facing toward the rear of the engine.
+Установите локтем в масляную кастрюлю и затяните. Окончательное положение локтя после его сжатия будет обращено к задней части двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 74 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 74 Н·м [55 фунт-фут]
 
 ![[07600454.png]]
 
-Connect the supply hose to the PRELUB™ pump.
+Подключите шланг питания к насосу PRELUBTM.
 
-Connect the other end of the hose to the filter head male adapter.
+Подсоедините другой конец шланга к головке фильтра штуцера с наружной резьбой.
 
-Tighten the fittings.
+Затяните фитинги.
 
-> [!tip] Момент затяжки · Torque Value
-> 163 n•m [120 ft-lb]
+> [!tip] Момент затяжки
+> 163 Н·м [120 фунт-фут]
 
-Attach the hose to the hose bracket and tighten the capscrew.
+Прикрепите шланг к кронштейну шланга и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07600463.png]]
 
-Connect the suction hose to the PRELUB™ pump.
+Подсоедините всасывающий шланг к насосу PRELUBTM.
 
-Connect the other end of the suction hose to the elbow in the oil pan.
+Подсоедините другой конец всасывающего шланга к локтю в масляной кастрюле.
 
-Tighten the fittings.
+Затяните фитинги.
 
-> [!tip] Момент затяжки · Torque Value
-> 190 n•m [140 ft-lb]
+> [!tip] Момент затяжки
+> 190 Н·м [140 фунт-фут]
 
-Attach a p-clip to the hose and secure it to an oil pan adapter capscrew.
+Прикрепите p-клип к шлангу и прикрепите его к болтам адаптера масляной подкладки.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07600462.png]]
 
-Install the post timer relay wire (1) and the ground wire (2) to the PRELUB™ pump.
+Установите провод реле реле таймера (1) и наземный провод (2) на насос PRELUBTM.
 
 ![[07600467.png]]
 
-The following steps explain the installation of the ".
+Следующие шаги объясняют установку ".
 
-#### Compact" PRELUB™ Pump Installation
+#### Компактная установка насосов PRELUBTM
 
-- Install the bracket and tighten the capscrews.
+- Установите кронштейн и затяните болты.
 
-Torque Value:
+Момент затяжки:
 
-M12
+М12
 
-Torque Value:
+Момент затяжки:
 
-M10
+М10
 
 ![[07601287.png]]
 
-If the single piece 'loop' clamps are installed then loosely fit the lower capscrews (1) retaining the clamps to the mounting bracket.Install the pump into the clamps.Install the upper capscrews (2). Tighten the 4 retaining capscrews in an alternating sequence.
+Если установлены однокомпонентные зажимы "петли", то свободно устанавливаются нижние болты (1), удерживающие зажимы на монтажном скобке.Установите насос в зажимы.Установите верхние болты (2). Затягивайте 4 удерживающих болта в чередующейся последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07601288.png]]
 
-If the 2 piece 'U shaped' clamp is installed fit the clamps to the mounting bracket.
+Если установлена зажим "U-образной формы" из 2 частей, то зажимы должны быть прикреплены к крепежной скобке.
 
-Tighten **only** the lower capscrews (1).
+Затягивать только нижние болты (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Install the pump into the clamps.
+Установите насос в зажимы.
 
-Loosely install the nuts and bolts that join the ends of the clamps (3).
+Установите гайки и болты, которые соединяются с концами зажимов (3).
 
-Tighten the upper capscrews (2).
+Затягивать верхние болты (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Tighten the clamping nut and bolt (3).
+Затягивать зажимную гайку и болт (3).
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[07601289.png]]
 
-Install the elbow into the oil pan and tighten. The final position of the elbow, after it has been tightened, **must** be correct for the suction tube routing.
+Установите локтем в масляную кастрюлю и затяните. Окончательное положение локтя после его затягивания должно быть правильным для маршрутизации всасывающей трубки.
 
-> [!tip] Момент затяжки · Torque Value
-> 74 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 74 Н·м [55 фунт-фут]
 
 ![[07600454.png]]
 
-Connect the supply hose to the PRELUB™ pump.
+Подключите шланг питания к насосу PRELUBTM.
 
-Connect the other end of the hose to the filter head male adapter.
+Подсоедините другой конец шланга к головке фильтра штуцера с наружной резьбой.
 
-Tighten the fittings.
+Затяните фитинги.
 
-> [!tip] Момент затяжки · Torque Value
-> 163 n•m [120 ft-lb]
+> [!tip] Момент затяжки
+> 163 Н·м [120 фунт-фут]
 
 ![[07600463.png]]
 
-Connect the suction hose to the PRELUB™ pump.
+Подсоедините всасывающий шланг к насосу PRELUBTM.
 
-Connect the other end of the suction hose to the elbow in the oil pan.
+Подсоедините другой конец всасывающего шланга к локтю в масляной кастрюле.
 
-Tighten the fittings.
+Затяните фитинги.
 
-> [!tip] Момент затяжки · Torque Value
-> 190 n•m [140 ft-lb]
+> [!tip] Момент затяжки
+> 190 Н·м [140 фунт-фут]
 
-Replace any hose clips that were removed.
+Замените все зажимы, которые были удалены.
 
 ![[07600462.png]]
 
-Install the positive wire (1) and the ground wire (2) to the PRELUB™ pump.
+Установите положительный провод (1) и наземный провод (2) на насос PRELUBTM.
 
-> [!note] Note · Примечание
-> Make sure of correct polarity for the connections. The pump may be orientated in the opposite direction as compared to the illustration.
+> [!note] Примечание
+> Убедитесь в правильной полярности для соединений. Насос может быть ориентирован в противоположном направлении по сравнению с иллюстрацией.
 
 ![[07601285.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> The following explains the installation of the "High Volume" PRELUB™ pump.
+>
+> Install the bracket and tighten the capscrews.
+>
+> Torque Value:
+>
+> M12
+>
+> Torque Value:
+>
+> M10
+>
+> Apply Loctite™ 641 to the capscrew threads.
+>
+> Place the PRELUB™ pump into the machined blocks of the bracket.
+>
+> Place the two U-shaped brackets over the PRELUB™ pump.
+>
+> Install the capscrews and tighten in an alternating sequence.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Make sure the gap is even under each side of the clamp.
+>
+> Install the elbow into the oil pan and tighten. The final position of the elbow after it has been tightened will be facing toward the rear of the engine.
+>
+> **Момент затяжки · Torque Value**
+> 74 n•m [55 ft-lb]
+>
+> Connect the supply hose to the PRELUB™ pump.
+>
+> Connect the other end of the hose to the filter head male adapter.
+>
+> Tighten the fittings.
+>
+> **Момент затяжки · Torque Value**
+> 163 n•m [120 ft-lb]
+>
+> Attach the hose to the hose bracket and tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Connect the suction hose to the PRELUB™ pump.
+>
+> Connect the other end of the suction hose to the elbow in the oil pan.
+>
+> Tighten the fittings.
+>
+> **Момент затяжки · Torque Value**
+> 190 n•m [140 ft-lb]
+>
+> Attach a p-clip to the hose and secure it to an oil pan adapter capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the post timer relay wire (1) and the ground wire (2) to the PRELUB™ pump.
+>
+> The following steps explain the installation of the ".
+>
+> #### Compact" PRELUB™ Pump Installation
+>
+> - Install the bracket and tighten the capscrews.
+>
+> Torque Value:
+>
+> M12
+>
+> Torque Value:
+>
+> M10
+>
+> If the single piece 'loop' clamps are installed then loosely fit the lower capscrews (1) retaining the clamps to the mounting bracket.Install the pump into the clamps.Install the upper capscrews (2). Tighten the 4 retaining capscrews in an alternating sequence.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> If the 2 piece 'U shaped' clamp is installed fit the clamps to the mounting bracket.
+>
+> Tighten **only** the lower capscrews (1).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the pump into the clamps.
+>
+> Loosely install the nuts and bolts that join the ends of the clamps (3).
+>
+> Tighten the upper capscrews (2).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Tighten the clamping nut and bolt (3).
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the elbow into the oil pan and tighten. The final position of the elbow, after it has been tightened, **must** be correct for the suction tube routing.
+>
+> **Момент затяжки · Torque Value**
+> 74 n•m [55 ft-lb]
+>
+> Connect the supply hose to the PRELUB™ pump.
+>
+> Connect the other end of the hose to the filter head male adapter.
+>
+> Tighten the fittings.
+>
+> **Момент затяжки · Torque Value**
+> 163 n•m [120 ft-lb]
+>
+> Connect the suction hose to the PRELUB™ pump.
+>
+> Connect the other end of the suction hose to the elbow in the oil pan.
+>
+> Tighten the fittings.
+>
+> **Момент затяжки · Torque Value**
+> 190 n•m [140 ft-lb]
+>
+> Replace any hose clips that were removed.
+>
+> Install the positive wire (1) and the ground wire (2) to the PRELUB™ pump.
+>
+> **Note · Примечание**
+> Make sure of correct polarity for the connections. The pump may be orientated in the opposite direction as compared to the illustration.

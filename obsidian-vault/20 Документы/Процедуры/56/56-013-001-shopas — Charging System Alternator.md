@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-001-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-001-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator
@@ -35,60 +37,116 @@ tags:
 > **Даты:** изменён 2024-11-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-001-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-001-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Lubricate the shaft with clean engine oil. Install the pulley and nut on the alternator shaft. Tighten the nut.
 
-> [!tip] Момент затяжки · Torque Value
-> 95 n•m [70 ft-lb]
+### Установка
+
+Смазать вал чистым моторным маслом. Установите шкив и гайку на вал генератора. Затяните гайку.
+
+> [!tip] Момент затяжки
+> 95 Н·м [70 фунт-фут]
 
 ![[ea8puhb.png]]
 
-The belt **must** be installed and adjusted before the capscrews are tightened.
+Ремень должен быть установлен и отрегулирован до того, как затворы будут затянуты.
 
-The end of the adjusting link with the largest area at the capscrew hole **must** be nearest to the alternator.
+Конец регулировочного звена с наибольшей площадью на затворе должен быть ближе всего к генератору.
 
-Install the alternator and the adjusting link, as shown.
+Установите генератор переменного тока и корректирующую линию, как показано.
 
 ![[13600005.png]]
 
-Do **not** attempt to pry the belt on the pulley.
+Не пытайтесь пощипать пояс на шкиве.
 
-Install the belt. Turn the adjusting screw **counterclockwise** to shorten the link if necessary.
+Установите ремень. Поверните регулировочный винт **против часовой стрелки**, чтобы сократить соединение, если это необходимо.
 
 ![[13600006.png]]
 
-Use a belt tension gauge (Borroughs), Part Number ST-1293, to measure the poly V-belt tension.
+Используйте измеритель напряжения ремня (Borroughs), номер детали ST-1293, для измерения напряжения поли V-ремня.
 
-Refer to the Drive Belt Tension Table in Section V.
+См. натяжение приводного ремня Таблица в разделе V.
 
-A belt is considered used if it has been in operation for 10 minutes or longer.
+Ремень считается использованным, если он находится в эксплуатации в течение 10 минут или дольше.
 
-If used belt tension is below the minimum value, tighten to the maximum value.
+Если используемое натяжение ремня ниже минимального значения, подтяните его до максимального значения.
 
-Replace the belt if it will **not** maintain the correct tension.
+Замените ремень, если он будет **не** поддерживать правильное напряжение.
 
 ![[eh4toga.png]]
 
-The lower jam nut has left-hand threads.
+Нижний локон имеет левую резьба.
 
-Tighten the jam nuts on the adjusting screw.
+Затяните гайки на регулировочном винте.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
-Tighten the adjusting link and alternator mounting capscrews.
+Затягивать регулировочные звенья и крепления генераторов переменного тока.
 
-> [!tip] Момент затяжки · Torque Value
-> 115 n•m [85 ft-lb]
+> [!tip] Момент затяжки
+> 115 Н·м [85 фунт-фут]
 
 ![[eh4blmb.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Connect the wiring to the alternator.
+Подключите проводку к генератору.
 
-Connect the batteries.
+Подсоедините аккумуляторные батареи.
 
 ![[19400050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Lubricate the shaft with clean engine oil. Install the pulley and nut on the alternator shaft. Tighten the nut.
+>
+> **Момент затяжки · Torque Value**
+> 95 n•m [70 ft-lb]
+>
+> The belt **must** be installed and adjusted before the capscrews are tightened.
+>
+> The end of the adjusting link with the largest area at the capscrew hole **must** be nearest to the alternator.
+>
+> Install the alternator and the adjusting link, as shown.
+>
+> Do **not** attempt to pry the belt on the pulley.
+>
+> Install the belt. Turn the adjusting screw **counterclockwise** to shorten the link if necessary.
+>
+> Use a belt tension gauge (Borroughs), Part Number ST-1293, to measure the poly V-belt tension.
+>
+> Refer to the Drive Belt Tension Table in Section V.
+>
+> A belt is considered used if it has been in operation for 10 minutes or longer.
+>
+> If used belt tension is below the minimum value, tighten to the maximum value.
+>
+> Replace the belt if it will **not** maintain the correct tension.
+>
+> The lower jam nut has left-hand threads.
+>
+> Tighten the jam nuts on the adjusting screw.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Tighten the adjusting link and alternator mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 115 n•m [85 ft-lb]
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Connect the wiring to the alternator.
+>
+> Connect the batteries.

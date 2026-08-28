@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102077.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102077.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Procedure, Fuel Pump Pressurizing Assembly
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2006-12-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102077.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102077.pdf)
 
-## New Procedure, Fuel Pump Pressurizing Assembly
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новая процедура, сборка под давлением топливного насоса
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic introduces a new common Procedure 005-232, Fuel Pump Pressurizing Assembly, to be used in the QSK60 modular common rail system engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Тема «Служба/Части» представляет новую общую процедуру 005-232, сборку для давления на топливный насос, которая будет использоваться в модульных двигателях системы общего железнодорожного сообщения QSK60.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Procedure, Fuel Pump Pressurizing Assembly
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic introduces a new common Procedure 005-232, Fuel Pump Pressurizing Assembly, to be used in the QSK60 modular common rail system engines.

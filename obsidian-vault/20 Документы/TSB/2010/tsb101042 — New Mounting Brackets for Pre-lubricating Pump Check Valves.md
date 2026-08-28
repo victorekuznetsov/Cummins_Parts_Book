@@ -16,12 +16,14 @@ parts:
   - "3920115"
   - "4007601"
   - "4065979"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101042.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101042.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Mounting Brackets for Pre-lubricating Pump Check Valves.
@@ -32,73 +34,81 @@ tags:
 > **Даты:** изменён 2011-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101042.pdf)
 
-## New Mounting Brackets for Pre-lubricating Pump Check Valves.
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые монтажные скобки для предварительно смазывающих клапанов проверки насоса.
 
-### Contents
+### Положение о гарантии
 
-This document describes a design improvement made to the mounting brackets for the QSK45/60/78 pre-lubricating pump check valves. The design has changed from a solid u-bolt to a two-piece rubber clamp. This new design prevents the check valve from being crushed if overtightening of the mounting hardware should occur during installation, which can lead to an external oil leak from the pre-lubricating pump motor. A new check valve has also been released with improvements to the internal locknut.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-| This change was implemented at the Daventry Engine Plant starting with the following engines: |  |  |
+### Содержание
+
+В настоящем документе описывается усовершенствование конструкции крепежных скобок для предосвежающих клапанов насоса QSK45/60/78. Конструкция изменилась с твердого u-bolt на двухсекционный резиновый зажим. Эта новая конструкция предотвращает раздавливание контрольного клапана, если во время установки должно произойти затяжное монтажное оборудование, что может привести к внешней утечке масла из двигателя смазочного насоса. Также был выпущен новый контрольный клапан с улучшениями внутреннего локона.
+
+| Это изменение было реализовано на заводе Daventry Engine Plant, начиная со следующих двигателей: |  |  |
 |---|---|---|
-| Engine | Engine Serial Number (ESN) | Build Date |
-| QSK45/QSK60 | 33184025 | 22-Nov-2010 |
-| QSK78 | 66301586 | 29-Nov-2010 |
+| Двигатель | Серийный номер двигателя (ESN) | Дата постройки |
+| QSK45/QSK60 | 33184025 | 22 ноября 2010 |
+| QSK78 | 66301586 | 29 ноября 2010 |
 
-If a malfunction of the pre-lubricating pump or check valve does occur, the following parts should be replaced in order to upfit an engine to the latest design. Service parts for the previous design will **not** be available.
+Если неисправность смазочного насоса или контрольного клапана действительно происходит, следующие части должны быть заменены, чтобы подогнать двигатель к последней конструкции. Сервисные детали для предыдущего дизайна будут доступны **не**.
 
-| Affected options: PL 6769, PL 6787, PL 6800, PL 6804, PL 6818, PL 6819, PL 6832, and PL 6837 |  |  |  |  |  |
+| Пострадавшие варианты: PL 6769, PL 6787, PL 6800, PL 6804, PL 6818, PL 6819, PL 6832 и PL 6837 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3639025 | 1 | Bracket, Check Valve | 3643712 | 1 | Bracket, Check Valve |
-| 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
-| 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
-|  |  |  | [[4007601]] | 2 | Nut, Lock |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3639025 | 1 | Брекет, проверь клапан | 3643712 | 1 | Брекет, проверь клапан |
+| 3625826 | 4 | Гайка, Замок | [[3643722]] | 1 | Зажим, трубка |
+| 4007584 | 2 | Зажим, U-болт | [[3920115]] | 2 | К черту Хекса Флэнджа. |
+|  |  |  | [[4007601]] | 2 | Гайка, Замок |
 
-| Affected options: PL 6850, PL 6851, PL 6852, and PL 6853 |  |  |  |  |  |
+| Пострадавшие варианты: PL 6850, PL 6851, PL 6852 и PL 6853 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
-| 3639025 | 1 | Bracket, Check Valve | 3643712 | 1 | Bracket, Check Valve |
-| 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
-| 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
-|  |  |  | [[4007601]] | 2 | Nut, Lock |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3625826 | 4 | Гайка, Замок | [[3643722]] | 1 | Зажим, трубка |
+| 3639025 | 1 | Брекет, проверь клапан | 3643712 | 1 | Брекет, проверь клапан |
+| 4007204 | 1 | Валве, проверь | [[3643839]] | 1 | Валве, проверь |
+| 4007584 | 2 | Зажим, U-болт | [[3920115]] | 2 | К черту Хекса Флэнджа. |
+|  |  |  | [[4007601]] | 2 | Гайка, Замок |
 
-| Affected options: PL 6724, PL 6727, PL 6843, PL 6844, PL 6845, PL 6847, PL 6848, and PL 6849 |  |  |  |  |  |
+| Пострадавшие варианты: PL 6724, PL 6727, PL 6843, PL 6844, PL 6845, PL 6847, PL 6848 и PL 6849 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
-| 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
-| 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
-|  |  |  | [[4007601]] | 2 | Nut, Lock |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3625826 | 4 | Гайка, Замок | [[3643722]] | 1 | Зажим, трубка |
+| 4007204 | 1 | Валве, проверь | [[3643839]] | 1 | Валве, проверь |
+| 4007584 | 2 | Зажим, U-болт | [[3920115]] | 2 | К черту Хекса Флэнджа. |
+|  |  |  | [[4007601]] | 2 | Гайка, Замок |
 
-| Affected options: PL 6757, PL 6759, and PL 6743 |  |  |  |  |  |
+| Пострадавшие варианты: PL 6757, PL 6759 и PL 6743 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 4007204 | 1 | Валве, проверь | [[3643839]] | 1 | Валве, проверь |
 
-| Affected option: PL 6806 |  |  |  |  |  |
+| Пострадавший вариант: PL 6806 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
-| [[4065979]] | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
-| 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
-|  |  |  | [[4007601]] | 2 | Nut, Lock |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3625826 | 4 | Гайка, Замок | [[3643722]] | 1 | Зажим, трубка |
+| [[4065979]] | 1 | Валве, проверь | [[3643839]] | 1 | Валве, проверь |
+| 4007584 | 2 | Зажим, U-болт | [[3920115]] | 2 | К черту Хекса Флэнджа. |
+|  |  |  | [[4007601]] | 2 | Гайка, Замок |
 
-| Affected option: LF 6067 |  |  |  |  |  |
+| Пострадавший вариант: LF 6067 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3637648 | 1 | Bracket, Connection | 3643718 | 1 | Bracket, Connection |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3637648 | 1 | Брекет, соединение | 3643718 | 1 | Брекет, соединение |
 
-| Affected option: LF 6711 |  |  |  |  |  |
+| Пострадавший вариант: LF 6711 |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
-| 3642187 | 1 | Bracket, Connection | [[3643715]] | 1 | Bracket, Connection |
+| **Старый номер** | **Количество** | **Часть названия** | **Новый номер** | **Количество** | **Часть названия** |
+| 3642187 | 1 | Брекет, соединение | [[3643715]] | 1 | Брекет, соединение |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -110,3 +120,72 @@ If a malfunction of the pre-lubricating pump or check valve does occur, the foll
 | [[3920115]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 | [[4007601]] | LOCK NUT | Контргайка |
 | [[4065979]] | CHECK VALVE | Обратный клапан |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Mounting Brackets for Pre-lubricating Pump Check Valves.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document describes a design improvement made to the mounting brackets for the QSK45/60/78 pre-lubricating pump check valves. The design has changed from a solid u-bolt to a two-piece rubber clamp. This new design prevents the check valve from being crushed if overtightening of the mounting hardware should occur during installation, which can lead to an external oil leak from the pre-lubricating pump motor. A new check valve has also been released with improvements to the internal locknut.
+>
+> | This change was implemented at the Daventry Engine Plant starting with the following engines: |  |  |
+> |---|---|---|
+> | Engine | Engine Serial Number (ESN) | Build Date |
+> | QSK45/QSK60 | 33184025 | 22-Nov-2010 |
+> | QSK78 | 66301586 | 29-Nov-2010 |
+>
+> If a malfunction of the pre-lubricating pump or check valve does occur, the following parts should be replaced in order to upfit an engine to the latest design. Service parts for the previous design will **not** be available.
+>
+> | Affected options: PL 6769, PL 6787, PL 6800, PL 6804, PL 6818, PL 6819, PL 6832, and PL 6837 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3639025 | 1 | Bracket, Check Valve | 3643712 | 1 | Bracket, Check Valve |
+> | 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
+> | 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
+> |  |  |  | [[4007601]] | 2 | Nut, Lock |
+>
+> | Affected options: PL 6850, PL 6851, PL 6852, and PL 6853 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
+> | 3639025 | 1 | Bracket, Check Valve | 3643712 | 1 | Bracket, Check Valve |
+> | 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
+> | 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
+> |  |  |  | [[4007601]] | 2 | Nut, Lock |
+>
+> | Affected options: PL 6724, PL 6727, PL 6843, PL 6844, PL 6845, PL 6847, PL 6848, and PL 6849 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
+> | 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
+> | 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
+> |  |  |  | [[4007601]] | 2 | Nut, Lock |
+>
+> | Affected options: PL 6757, PL 6759, and PL 6743 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 4007204 | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
+>
+> | Affected option: PL 6806 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3625826 | 4 | Nut, Lock | [[3643722]] | 1 | Clamp, Tube |
+> | [[4065979]] | 1 | Valve, Check | [[3643839]] | 1 | Valve, Check |
+> | 4007584 | 2 | Clamp, U-bolt | [[3920115]] | 2 | Screw, Hex Flange Head |
+> |  |  |  | [[4007601]] | 2 | Nut, Lock |
+>
+> | Affected option: LF 6067 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3637648 | 1 | Bracket, Connection | 3643718 | 1 | Bracket, Connection |
+>
+> | Affected option: LF 6711 |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **Old Part Number** | **Quantity** | **Part Name** | **New Part Number** | **Quantity** | **Part Name** |
+> | 3642187 | 1 | Bracket, Connection | [[3643715]] | 1 | Bracket, Connection |
+>
+> ### Document History

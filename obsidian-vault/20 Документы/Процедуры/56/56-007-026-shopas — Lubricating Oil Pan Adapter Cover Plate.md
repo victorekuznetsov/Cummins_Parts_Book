@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-026-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-026-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pan Adapter Cover Plate
@@ -35,23 +37,50 @@ tags:
 > **Даты:** изменён 2005-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-026-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-026-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
 
-Position the cover plates (2) and gaskets (3) on the oil pan adapter (4) with capscrews (1).
+### Установка
+
+> [!warning] ОСТОРОЖНО
+> Не используйте прокладочный цемент. Гаскетный цемент не позволит прокладке должным образом запечататься.
+
+Поместите пластины (2) крышки и прокладки (3) на адаптер (4) масляной поддонной панели с болтами (1).
 
 ![[07600306.png]]
 
-Tighten the capscrews in the sequence as shown.
+Затягивайте болты в последовательности, как показано.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Install and tighten the drain plug(s).
+Установите и затяните дренажную (дренажные) пробку (плагины).
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[07600350.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+>
+> Position the cover plates (2) and gaskets (3) on the oil pan adapter (4) with capscrews (1).
+>
+> Tighten the capscrews in the sequence as shown.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install and tighten the drain plug(s).
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]

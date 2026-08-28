@@ -15,13 +15,15 @@ manuals:
   - "4021389"
   - "4021538"
 figures: 15
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-004-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-004-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Overhead Set
@@ -35,152 +37,282 @@ tags:
 > **Даты:** изменён 2006-04-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-004-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-004-om.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-> [!note] Note · Примечание
-> The timing pin is used to accurately locate TDC for setting the overhead. The timing pin is typically located below the fuel pump.
+> [!note] Примечание
+> Запирающий штифт коленчатого вала используется для точного определения TDC для установки накладных расходов. Запирающий штифт коленчатого вала обычно расположен ниже топливного насоса.
 
-- for front gear train engines, in the front gear housing (shown)
-- for rear gear train engines, in the rear gear housing (not shown)
+- для передних передних двигателей, в корпусе передних передач (показан)
+- для двигателей задних зубчатых колес, в корпусе задних зубчатых колес (не показан)
 
 ![[cg9gega.png]]
 
-Locate top dead center (TDC) for cylinder number 1 by barring the crankshaft slowly while pressing on the engine timing pin. Barring the engine is recommended from the flywheel on the rear of the engine.
+Найдите верхняя мёртвая точка (TDC) для цилиндра № 1, медленно перекрывая коленчатый вал, нажимая на штифт блокировки коленчатого вала. Запрет двигателя рекомендуется с маховика на задней части двигателя.
 
-> [!note] Note · Примечание
-> Engine coolant temperature **must** be less than 60°C \[140°F\].
+> [!note] Примечание
+> Температура охлаждающей жидкости двигателя должна быть менее 60°C \[140°F\].
 
-Using the barring tool Part Number 3824591, rotate the crankshaft slowly while pressing on the engine timing pin to locate TDC for cylinder number 1.
+Используя инструмент заграждения Номер детали 3824591, медленно вращайте коленчатый вал, нажимая на штифт блокировки коленчатого вала, чтобы найти TDC для цилиндра № 1.
 
 ![[bc9piua.png]]
 
-When the timing pin engages in the hole in the camshaft gear, cylinder number 1 is at TDC on the compression stroke.
+Когда штифт блокировки коленчатого вала вовлекается в отверстие в распределительной передаче, цилиндр № 1 находится на TDC на ходе сжатия.
 
 ![[bc9gewa.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine or timing pin damage, you must disengage the timing pin after locating top dead center.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения штифта блокировки двигателя или коленчатого вала, вы должны отключить штифт блокировки коленчатого вала после обнаружения верхней мёртвой точки.
 
 ![[bc9piba.png]]
 
-### Remove
+### Снятие
 
-B3.9, B5.9, and B4.5 Engines
+Двигатели B3.9, B5.9 и B4.5
 
-Remove the capscrews, capscrew seals, rocker lever covers, and rocker lever cover gaskets.
+Удалите болты, уплотнения болтов, крышки рычага качения клапанного клапана и прокладки качения клапанного клапана.
 
 ![[vc9cvma.png]]
 
-### Adjust
+### Регулировка
 
-B3.9, B5.9, and B4.5 Engines
+Двигатели B3.9, B5.9 и B4.5
 
-> [!note] Note · Примечание
-> The clearance is correct when some resistance is “felt” when the feeler gauge is slipped between the valve stem and the rocker lever.
+> [!note] Примечание
+> Зазор является правильным, когда некоторое сопротивление «чувствуется», когда калибр проскальзывает между стволом клапана и рычагом качения клапанного клапана.
 
-> [!note] Note · Примечание
-> Caution **must** be used when setting the exhaust valve lash on marine cylinder heads with rotators. The top of the valve stem is slightly recessed below the top of the valve rotator.
+> [!note] Примечание
+> Внимание должно быть использовано при установке удара выпускного клапана на головки морских цилиндров с винтами. Верхняя часть стебля клапана слегка утоплена ниже верхней части винта поворота.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | mm | in |
-| Intake Clearance: | 0.254 | 0.010 |
+|  | мм | в |
+| впускной клапанный зазор: | 0.254 | 0.010 |
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | mm | in |
-| Exhaust Clearance: | 0.508 | 0.020 |
+|  | мм | в |
+| Зазор выхлопных клапанов: | 0.508 | 0.020 |
 
 ![[rh9lvsa.png]]
 
-Four-Cylinder Engine Adjustment
+Четырехцилиндровая регулировка двигателя
 
-Make sure the engine is at top dead center (TDC) for cylinder number 1.
+Убедитесь, что двигатель находится в верхней мертвой точке (TDC) для цилиндра № 1.
 
-Set **only** valves indicated by the arrows (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+Установить **только **клапаны, обозначенные стрелками (E = выхлоп, I = впуск). **не** устанавливайте клапаны, которые **не** указаны.
 
-Holding the locknut steady with the wrench, adjust the valve clearance with the screwdriver or Allen wrench.
+Держа гаечный гайка устойчиво с гаечным ключом, отрегулируйте зазор клапана с помощью отвертки или гаечного ключа Аллена.
 
-Tighten the locknut and measure the valve lash again.
+Затяните локон и измерьте удар клапана снова.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[rh9lvsb.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine or pin damage, be sure the timing pin is disengaged.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения двигателя или штифта, убедитесь, что штифт блокировки коленчатого вала отключен.
 
-Mark the vibration damper and rotate the crankshaft 360 degrees.
+Отметьте вибрационный демпфер и поверните коленчатый вал на 360 градусов.
 
 ![[da9shwa.png]]
 
-Adjust the valves as indicated in the illustration.
+Регулируйте клапаны, как указано на иллюстрации.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
-Set **only** valves indicated by the arrows (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+Установить **только **клапаны, обозначенные стрелками (E = выхлоп, I = впуск). **не** устанавливайте клапаны, которые **не** указаны.
 
 ![[rh9vaua.png]]
 
-Six-Cylinder Engine Valve Adjustment
+Шестицилиндровая регулировка клапана двигателя
 
-Make sure the engine is at top dead center (TDC) for cylinder number 1.
+Убедитесь, что двигатель находится в верхней мертвой точке (TDC) для цилиндра № 1.
 
-Set **only** the valves indicated by the arrows in the illustration (E = exhaust, I = intake).
+Установите **только **клапаны, обозначенные стрелками на иллюстрации (E = выхлоп, I = впуск).
 
-Holding the locknut steady with the wrench, adjust the valve clearance with the screwdriver or Allen wrench.
+Держа гаечный гайка устойчиво с гаечным ключом, отрегулируйте зазор клапана с помощью отвертки или гаечного ключа Аллена.
 
-Tighten the locknut, and measure the valve lash again.
+Затяните локон и измерьте удар клапана снова.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[rh9vaub.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of engine or pin damage, be sure timing pin is disengaged.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения двигателя или штифта, убедитесь, что штифт блокировки коленчатого вала отключен.
 
-Mark the pulley, and rotate the crankshaft 360 degrees.
+Отметьте шкив и поверните коленчатый вал на 360 градусов.
 
 ![[da9shwa.png]]
 
-Adjust the valves as indicated in the illustration.
+Регулируйте клапаны, как указано на иллюстрации.
 
-Set **only** the valves indicated by the arrows in the illustration (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+Установите **только **клапаны, обозначенные стрелками на иллюстрации (E = выхлоп, I = впуск). **не** устанавливайте клапаны, которые **не** указаны.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[rh9vauc.png]]
 
-### Install
+### Установка
 
-B3.9, B5.9, and B4.5 Engines
+Двигатели B3.9, B5.9 и B4.5
 
-Install rocker lever covers with new rocker lever cover gaskets. Next install the capscrews with new capscrew seals.
+Установите крышки клапанного клапана с новой крышкой клапанного клапана. Далее устанавливают болты с новыми уплотнениями болтов.
 
-Tighten the rocker lever cover capscrews.
+Затягивайте клапанные клапанные затворы для крышки рычага.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 mm [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 мм [18 футов-lb]
 
 ![[rh9cvha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries
-- Operate the engine and check for leaks.
+- Подключите батареи
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> **Note · Примечание**
+> The timing pin is used to accurately locate TDC for setting the overhead. The timing pin is typically located below the fuel pump.
+>
+> - for front gear train engines, in the front gear housing (shown)
+> - for rear gear train engines, in the rear gear housing (not shown)
+>
+> Locate top dead center (TDC) for cylinder number 1 by barring the crankshaft slowly while pressing on the engine timing pin. Barring the engine is recommended from the flywheel on the rear of the engine.
+>
+> **Note · Примечание**
+> Engine coolant temperature **must** be less than 60°C \[140°F\].
+>
+> Using the barring tool Part Number 3824591, rotate the crankshaft slowly while pressing on the engine timing pin to locate TDC for cylinder number 1.
+>
+> When the timing pin engages in the hole in the camshaft gear, cylinder number 1 is at TDC on the compression stroke.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine or timing pin damage, you must disengage the timing pin after locating top dead center.
+>
+> ### Remove
+>
+> B3.9, B5.9, and B4.5 Engines
+>
+> Remove the capscrews, capscrew seals, rocker lever covers, and rocker lever cover gaskets.
+>
+> ### Adjust
+>
+> B3.9, B5.9, and B4.5 Engines
+>
+> **Note · Примечание**
+> The clearance is correct when some resistance is “felt” when the feeler gauge is slipped between the valve stem and the rocker lever.
+>
+> **Note · Примечание**
+> Caution **must** be used when setting the exhaust valve lash on marine cylinder heads with rotators. The top of the valve stem is slightly recessed below the top of the valve rotator.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Intake Clearance: | 0.254 | 0.010 |
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Exhaust Clearance: | 0.508 | 0.020 |
+>
+> Four-Cylinder Engine Adjustment
+>
+> Make sure the engine is at top dead center (TDC) for cylinder number 1.
+>
+> Set **only** valves indicated by the arrows (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+>
+> Holding the locknut steady with the wrench, adjust the valve clearance with the screwdriver or Allen wrench.
+>
+> Tighten the locknut and measure the valve lash again.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine or pin damage, be sure the timing pin is disengaged.
+>
+> Mark the vibration damper and rotate the crankshaft 360 degrees.
+>
+> Adjust the valves as indicated in the illustration.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Set **only** valves indicated by the arrows (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+>
+> Six-Cylinder Engine Valve Adjustment
+>
+> Make sure the engine is at top dead center (TDC) for cylinder number 1.
+>
+> Set **only** the valves indicated by the arrows in the illustration (E = exhaust, I = intake).
+>
+> Holding the locknut steady with the wrench, adjust the valve clearance with the screwdriver or Allen wrench.
+>
+> Tighten the locknut, and measure the valve lash again.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of engine or pin damage, be sure timing pin is disengaged.
+>
+> Mark the pulley, and rotate the crankshaft 360 degrees.
+>
+> Adjust the valves as indicated in the illustration.
+>
+> Set **only** the valves indicated by the arrows in the illustration (E = exhaust, I = intake). Do **not** set valves that are **not** indicated.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> ### Install
+>
+> B3.9, B5.9, and B4.5 Engines
+>
+> Install rocker lever covers with new rocker lever cover gaskets. Next install the capscrews with new capscrew seals.
+>
+> Tighten the rocker lever cover capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 24 mm [18 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries
+> - Operate the engine and check for leaks.

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc346.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc346.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Electronic Control Module (ECM) Powerdown Error
@@ -34,36 +36,78 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc346.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc346.pdf)
 
-### Fault Code: 346
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Electronic Control Module (ECM) Powerdown Error
 
-Printable Version
+### Код неисправности: 346
 
-### Overview
+### Электронный модуль управления (ECM) с ошибкой выключения
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 346 PID(P): S253 SPN: 630 FMI: 12 Lamp: Yellow SRT: 00-366 | ECM powerdown internal data store error. | Powerdown data are lost. Powerdown data include maintenance monitoring, present ECM and engine delta times, and past fault data. |
+| Код неисправности: 346 P(P): S253 SPN: 630 FMI: 12 ламп: Желтая СТО: 00-366 | ECM Powerdown - внутренняя ошибка хранения данных. | Данные Powerdown теряются. Данные Powerdown включают мониторинг технического обслуживания, текущее время ECM и дельта двигателя, а также прошлые данные о неисправности. |
 
 ![[19400081.png]]
 
-Battery Power and Ground Circuit
+Мощность аккумулятора и наземная схема
 
-### Circuit Description
+### Описание цепи
 
-The ECM is a computer that is responsible for engine control, diagnostics, and user features.
+ECM - это компьютер, который отвечает за управление двигателем, диагностику и функции пользователя.
 
-### Component Location
+### Расположение компонента
 
-The ECM is bolted to the control valve body on the left side of the engine.
+ECM прикреплен к корпусу управляющего клапана на левой стороне двигателя.
 
-### Shoptalk
+### Практические замечания
 
-- This is a fault with the internal memory of the ECM. This fault can be caused by a power interruption to the ECM or a total loss of battery power.
+- Это связано с внутренней памятью ECM. Эта неисправность может быть вызвана перебоем питания в ECM или полной потерей мощности батареи.
 
-- Fault Code 346 can be caused by **not** following the correct engine shutdown procedure. If a master disconnect switch is being used, you **must** turn the keyswitch OFF, wait 30 seconds, then disconnect the batteries using the master disconnect switch. If the operator does **not** wait 30 seconds before disconnecting the batteries, Fault Code 346 will be logged.
+- Код 346 неисправности может быть вызван **не** после правильной процедуры отключения двигателя. Если используется главный выключатель отключения, вы должны выключить замок зажигания, подождать 30 секунд, а затем отключить батареи с помощью главного выключателя отключения. Если оператор не будет ждать 30 секунд, прежде чем отсоединить батареи, код 346 по умолчанию будет зарегистрирован.
 
-- If Fault Code 346 is active, turn the keyswitch ON, then turn it to OFF and wait 30 seconds. Repeat this step three times with a 30-second delay between each key cycle.
+- Если код 346 ошибки активен, включите переключатель зажигания, затем выключите его и подождите 30 секунд. Повторите этот шаг три раза с 30-секундной задержкой между каждым ключевым циклом.
 
-Refer to Troubleshooting Fault Code t05-346
+Устранение неполадок код t05-346
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 346
+>
+> ### Electronic Control Module (ECM) Powerdown Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 346 PID(P): S253 SPN: 630 FMI: 12 Lamp: Yellow SRT: 00-366 | ECM powerdown internal data store error. | Powerdown data are lost. Powerdown data include maintenance monitoring, present ECM and engine delta times, and past fault data. |
+>
+> Battery Power and Ground Circuit
+>
+> ### Circuit Description
+>
+> The ECM is a computer that is responsible for engine control, diagnostics, and user features.
+>
+> ### Component Location
+>
+> The ECM is bolted to the control valve body on the left side of the engine.
+>
+> ### Shoptalk
+>
+> - This is a fault with the internal memory of the ECM. This fault can be caused by a power interruption to the ECM or a total loss of battery power.
+>
+> - Fault Code 346 can be caused by **not** following the correct engine shutdown procedure. If a master disconnect switch is being used, you **must** turn the keyswitch OFF, wait 30 seconds, then disconnect the batteries using the master disconnect switch. If the operator does **not** wait 30 seconds before disconnecting the batteries, Fault Code 346 will be logged.
+>
+> - If Fault Code 346 is active, turn the keyswitch ON, then turn it to OFF and wait 30 seconds. Repeat this step three times with a 30-second delay between each key cycle.
+>
+> Refer to Troubleshooting Fault Code t05-346

@@ -15,7 +15,8 @@ families:
 manuals:
   - "3666415"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-299.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-299.pdf"
 tags:
@@ -23,6 +24,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Parking Brake Switch
@@ -35,44 +37,80 @@ tags:
 > **Даты:** изменён 2003-06-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-299.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-299.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Turn the keyswitch to the OFF position.
 
-Activate the parking brake.
+### Снятие
+
+Переведите замок зажигания в положение OFF.
+
+Приведи в действие стояночный тормоз.
 
 ![[15800051.png]]
 
-Remove the dash panel to gain access to the parking brake switch assembly.
+Удалите панель приборов, чтобы получить доступ к сборке выключателя стояночного тормоза.
 
 ![[15800051.png]]
 
-Disconnect the parking brake switch from the cab harness.
+Отключите выключатель стояночного тормоза от электропроводки кабины.
 
 ![[19802872.png]]
 
-Loosen the nut securing the parking brake switch assembly into the tee fitting.
+Удалите гайку, закрепляющую блокировку парковочного тормоза, в фитинг.
 
-Remove the parking brake switch.
+Удалите выключатель стояночного тормоза.
 
 ![[19802873.png]]
 
-### Install
+### Установка
 
-Turn the keyswitch to the OFF position.
+Переведите замок зажигания в положение OFF.
 
-Check to make sure the parking brake line is relieved of air pressure by activating the vehicle parking brake.
+Убедитесь, что линия стояночного тормоза снимает давление воздуха, активируя стояночный тормоз транспортного средства.
 
 ![[15800051.png]]
 
-Install the parking brake switch into the tee fitting in the brake line, and then tighten the switch assembly nut to secure it into the fitting.
+Установите выключатель стояночного тормоза в фитинг в тормозной линии, а затем затяните гайку сборки переключателя, чтобы закрепить ее в фитинге.
 
 ![[19802873.png]]
 
-Connect the parking brake switch to the cab harness.
+Подключите переключатель стояночного тормоза к электропроводке кабины.
 
 ![[19802872.png]]
 
-Install the dash panel that was previously removed to gain access to the parking brake switch.
+Установите панель приборов, которая была ранее удалена, чтобы получить доступ к выключателю стояночного тормоза.
 
 ![[15800051.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Turn the keyswitch to the OFF position.
+>
+> Activate the parking brake.
+>
+> Remove the dash panel to gain access to the parking brake switch assembly.
+>
+> Disconnect the parking brake switch from the cab harness.
+>
+> Loosen the nut securing the parking brake switch assembly into the tee fitting.
+>
+> Remove the parking brake switch.
+>
+> ### Install
+>
+> Turn the keyswitch to the OFF position.
+>
+> Check to make sure the parking brake line is relieved of air pressure by activating the vehicle parking brake.
+>
+> Install the parking brake switch into the tee fitting in the brake line, and then tighten the switch assembly nut to secure it into the fitting.
+>
+> Connect the parking brake switch to the cab harness.
+>
+> Install the dash panel that was previously removed to gain access to the parking brake switch.

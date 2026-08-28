@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-011-007-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-011-007-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Exhaust Manifold, Dry
@@ -33,30 +35,62 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-011-007-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-011-007-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Coat all capscrew threads with an unleaded anti-seize compound.
+
+### Установка
+
+Все болты с резьбой с неэтилированным анти-захватным соединением.
 
 ![[xm9xsaa.png]]
 
-For 6 cylinder engines, install the exhaust manifold, new gaskets, spacers and mounting capscrews.
+Для 6-цилиндровых двигателей устанавливают выпускной коллектор, новые прокладки, спейсеры и крепежные болты.
 
-Follow the tightening sequence shown in the illustration.
+Следуйте за последовательностью затягивания, показанной на иллюстрации.
 
-Tighten the exhaust manifold mounting capscrews.
+Затянуть болты крепления выхлопного коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> 43 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 43 Н·м [32 фунт-фут]
 
 ![[xm9gkhc.png]]
 
-For 4 cylinder engines, install the exhaust manifold, new gaskets, spacers and mounting capscrews.
+Для 4-цилиндровых двигателей устанавливают выпускной коллектор, новые прокладки, спейсеры и крепежные болты.
 
-Follow the tightening sequence shown in the illustration.
+Следуйте за последовательностью затягивания, показанной на иллюстрации.
 
-Tighten the exhaust manifold mounting capscrews.
+Затянуть болты крепления выхлопного коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> 43 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> 43 Н·м [32 фунт-фут]
 
 ![[11900078.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Coat all capscrew threads with an unleaded anti-seize compound.
+>
+> For 6 cylinder engines, install the exhaust manifold, new gaskets, spacers and mounting capscrews.
+>
+> Follow the tightening sequence shown in the illustration.
+>
+> Tighten the exhaust manifold mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 43 n•m [32 ft-lb]
+>
+> For 4 cylinder engines, install the exhaust manifold, new gaskets, spacers and mounting capscrews.
+>
+> Follow the tightening sequence shown in the illustration.
+>
+> Tighten the exhaust manifold mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 43 n•m [32 ft-lb]

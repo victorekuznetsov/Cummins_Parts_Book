@@ -14,13 +14,15 @@ families:
   - "QSM11"
 manuals:
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-021-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-021-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Electrical System
@@ -34,21 +36,29 @@ tags:
 > **Даты:** изменён 2011-04-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-018-021-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-018-021-om-ind.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Starting Motor Circuit:
 
-#### Maximum resistance:
+### Спецификации
 
-| 12-VDC | 0.00075 ohm |
+#### Запуск автодрома:
+
+#### Максимальное сопротивление:
+
+| 12-VDC | 0,00075 Ом |
 |---|---|
 
-| 24-VDC | 0.002 ohm |
+| 24-VDC | 0,002 Ом |
 |---|---|
 
-#### Starting Motor Circuit:
+#### Запуск автодрома:
 
-#### Maximum Voltage Drop:
+#### Максимальное падение напряжения:
 
 | 12-VDC | 1.95-VDC |
 |---|---|
@@ -56,35 +66,92 @@ tags:
 | 24-VDC | 1.7-VDC |
 |---|---|
 
-#### Industrial Applications
+#### Промышленное применение
 
-#### Unaided Cold Start:
+#### Холодный старт:
 
-| Maximum Ambient Temperature | -12°C \[10°F\] |
+| Максимальная температура окружающей среды | -12°C \[10°F\] |
 |---|---|
 
-| Minimum Cranking Speed Required | 120 rpm |
+| Минимальная скорость прокрутки требуется | 120 об/мин |
 |---|---|
 
-#### Generator Drive Applications
+#### Приложения Generator Drive
 
-| Minimum Ambient Temperature for Cold Start With Coolant Heated to Rated Speed | -14°C \[7°F\] |
+| Минимальная температура окружающей среды для холодного старта с охлажденным нагретым до номинальной скорости | -14°C[7°F] |
 |---|---|
 
-| Minimum Ambient Temperature for Unaided Cold Start to Low Idle Speed | -4°C \[25°F\] |
+| Минимальная температура окружающей среды для холодного бездействия начинается с низкой скорости холостого хода | -4°C[25°F] |
 |---|---|
 
-| Minimum Ambient Temperature for NFPA 110 Cold Start (90°F minimum coolant temperature) | 0°C \[32°F\] |
+| Минимальная температура окружающей среды для NFPA 110 холодный пуск (минимальная температура охлаждающей жидкости 90 ° F) | 0°C[32°F] |
 |---|---|
 
-Minimum recommended battery capacity:
+Минимальная рекомендуемая емкость батареи:
 
-| System Voltage | Ambient Temperature |  |  |  |
+| Напряжение системы | Температура окружающей среды |  |  |  |
 |---|---|---|---|---|
-| -18°C \[0°F\] | 0°C \[32°F\] |  |  |  |
-| Cold Cranking Amperes | ReserveCapacity 1 Minutes | Cold Cranking Amperes | ReserveCapacity 1 Minutes |  |
+| -18°C \[0°F\] | 0°C[32°F] |  |  |  |
+| Холодный проворачивающий ампер | Резервная емкость 1 минута | Холодный проворачивающий ампер | Резервная емкость 1 минута |  |
 | 12-VDC | 1800 | 640 | 1280 | 480 |
 | 24-VDC 2 | 900 | 320 | 640 | 240 |
-| The number of plates within a given battery size determines reserve capacity. Reserve capacity determines the length of time that sustained cranking can occur. Cold Cranking Amperes rating are based on two 12-VDC batteries in series. |  |  |  |  |
+| Количество пластин в пределах заданного размера батареи определяет резервную емкость. Резервная емкость определяет продолжительность времени, в течение которого может происходить устойчивое скручивание. Рейтинг Cold Cranking Amperes основан на двух 12-VDC аккумуляторах. |  |  |  |  |
 
-A minimum of 6.5 VDC at the power connector is required to power up the ECM.
+Для питания ECM требуется минимум 6,5 VDC на разъеме питания.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Starting Motor Circuit:
+>
+> #### Maximum resistance:
+>
+> | 12-VDC | 0.00075 ohm |
+> |---|---|
+>
+> | 24-VDC | 0.002 ohm |
+> |---|---|
+>
+> #### Starting Motor Circuit:
+>
+> #### Maximum Voltage Drop:
+>
+> | 12-VDC | 1.95-VDC |
+> |---|---|
+>
+> | 24-VDC | 1.7-VDC |
+> |---|---|
+>
+> #### Industrial Applications
+>
+> #### Unaided Cold Start:
+>
+> | Maximum Ambient Temperature | -12°C \[10°F\] |
+> |---|---|
+>
+> | Minimum Cranking Speed Required | 120 rpm |
+> |---|---|
+>
+> #### Generator Drive Applications
+>
+> | Minimum Ambient Temperature for Cold Start With Coolant Heated to Rated Speed | -14°C \[7°F\] |
+> |---|---|
+>
+> | Minimum Ambient Temperature for Unaided Cold Start to Low Idle Speed | -4°C \[25°F\] |
+> |---|---|
+>
+> | Minimum Ambient Temperature for NFPA 110 Cold Start (90°F minimum coolant temperature) | 0°C \[32°F\] |
+> |---|---|
+>
+> Minimum recommended battery capacity:
+>
+> | System Voltage | Ambient Temperature |  |  |  |
+> |---|---|---|---|---|
+> | -18°C \[0°F\] | 0°C \[32°F\] |  |  |  |
+> | Cold Cranking Amperes | ReserveCapacity 1 Minutes | Cold Cranking Amperes | ReserveCapacity 1 Minutes |  |
+> | 12-VDC | 1800 | 640 | 1280 | 480 |
+> | 24-VDC 2 | 900 | 320 | 640 | 240 |
+> | The number of plates within a given battery size determines reserve capacity. Reserve capacity determines the length of time that sustained cranking can occur. Cold Cranking Amperes rating are based on two 12-VDC batteries in series. |  |  |  |  |
+>
+> A minimum of 6.5 VDC at the power connector is required to power up the ECM.

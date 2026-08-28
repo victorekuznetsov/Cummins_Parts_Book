@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-011-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-011-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -35,16 +37,36 @@ tags:
 > **Даты:** изменён 2014-10-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-011-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-011-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the air piping from the intake manifold.
 
-Remove the hose from the crankcase breather.
+### Снятие
+
+Удалите воздушные трубопроводы из впускного коллектора.
+
+Снимите шланг с задувки из картерного шкафа.
 
 ![[03200037.png]]
 
-Remove the 16 capscrews and the rocker lever cover.
+Удалите 16 болтов и крышку рычага клапанного клапана.
 
-Remove the 16 isolators from the cover.
+Удалите 16 изоляторов с крышки.
 
 ![[03200047.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the air piping from the intake manifold.
+>
+> Remove the hose from the crankcase breather.
+>
+> Remove the 16 capscrews and the rocker lever cover.
+>
+> Remove the 16 isolators from the cover.

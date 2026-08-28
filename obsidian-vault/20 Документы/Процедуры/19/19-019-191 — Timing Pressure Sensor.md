@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-191.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-191.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Timing Pressure Sensor
@@ -38,55 +40,104 @@ tags:
 > **Даты:** изменён 2002-09-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-191.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-191.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect an electronic service tool to the vehicle datalink.
+
+### Первичная проверка
+
+Подключите электронный инструмент к шине данных CAN транспортного средства.
 
 ![[19400357.png]]
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
-Monitor the timing pressure with the electronic service tool.
+Мониторинг давления с помощью электронного инструментария обслуживания.
 
-Timing pressure should be zero psi.
+Давление должно быть нулевым psi.
 
 ![[19800978.png]]
 
-Start the engine and let it idle.
+Запустите двигатель и запускайте его на холостом ходу.
 
-Monitor the timing pressure with the electronic service tool.
+Мониторинг давления с помощью электронного инструментария обслуживания.
 
-The timing pressure should be 60 psi.
+Давление в синхронизации должно составлять 60 psi.
 
 ![[19800979.png]]
 
-### Remove
+### Снятие
 
-Remove the ECM. Refer to Procedure 019-031.
+Удалить ECM. См. процедуру 019-031.
 
-Clean the control valve body around the pressure sensor.
+Очистите корпус управляющего клапана вокруг датчика давления.
 
-Disconnect the sensor connector from the engine harness.
+Отсоедините разъем датчика от жгута проводов двигателя.
 
 ![[19400306.png]]
 
-Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
+Удалите датчик давления с помощью 1 1/4-дюймовой фланговой розетки, части 3823843 и скобы.
 
 ![[19400307.png]]
 
-### Install
+### Установка
 
-Inspect the new sensor for an o-ring.
+Осмотрите новый датчик на наличие кольца.
 
-Install the new pressure sensor and tighten.
+Установите новый датчик давления и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Connect the sensor connection.
+Подключите сенсорное соединение.
 
 ![[19400308.png]]
 
-Install the ECM. Refer to Procedure 019-031.
+Установите ECM. См. процедуру 019-031.
 
 ![[19400295.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect an electronic service tool to the vehicle datalink.
+>
+> Turn the keyswitch to the ON position.
+>
+> Monitor the timing pressure with the electronic service tool.
+>
+> Timing pressure should be zero psi.
+>
+> Start the engine and let it idle.
+>
+> Monitor the timing pressure with the electronic service tool.
+>
+> The timing pressure should be 60 psi.
+>
+> ### Remove
+>
+> Remove the ECM. Refer to Procedure 019-031.
+>
+> Clean the control valve body around the pressure sensor.
+>
+> Disconnect the sensor connector from the engine harness.
+>
+> Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
+>
+> ### Install
+>
+> Inspect the new sensor for an o-ring.
+>
+> Install the new pressure sensor and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Connect the sensor connection.
+>
+> Install the ECM. Refer to Procedure 019-031.

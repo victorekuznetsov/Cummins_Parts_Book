@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101165.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101165.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Main Bearing Cap Side Capscrew Torque
@@ -25,18 +27,44 @@ tags:
 > **Даты:** изменён 2002-06-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101165.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101165.pdf)
 
-## Main Bearing Cap Side Capscrew Torque
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Главная Bearing Cap Side болты Torque
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic is to revise the stated torque value in the QSK45/60 Troubleshooting and Repair manual, bulletin number, 3666261.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-On page 1-24, the manual states the main bearing cap side capscrew torque value as 390 N•m \[288 ft-lb\].
+### Содержание
 
-The correct torque value is 304 N•m \[225 ft-lb\].
+Эта тема службы/частей заключается в пересмотре заявленного значения крутящего момента в руководстве по устранению неполадок и ремонту QSK45/60, номер бюллетеня, 3666261.
 
-Please alter your manuals to reflect this change.
+На странице 1-24 в руководстве указано момент затяжки боковых болтов главного подшипника как 390 Н•м \[288 фут-лб\].
+
+Правильное момент затяжки составляет 304 Н•м \[225 фунт-фут\].
+
+Пожалуйста, измените свои руководства, чтобы отразить это изменение.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Main Bearing Cap Side Capscrew Torque
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic is to revise the stated torque value in the QSK45/60 Troubleshooting and Repair manual, bulletin number, 3666261.
+>
+> On page 1-24, the manual states the main bearing cap side capscrew torque value as 390 N•m \[288 ft-lb\].
+>
+> The correct torque value is 304 N•m \[225 ft-lb\].
+>
+> Please alter your manuals to reflect this change.

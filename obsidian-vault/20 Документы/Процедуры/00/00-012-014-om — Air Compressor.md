@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021389"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-012-014-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-012-014-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Air Compressor
@@ -33,37 +35,80 @@ tags:
 > **Даты:** изменён 2016-11-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-012-014-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-012-014-om.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No Cummins® service tools required.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Не требуется никаких инструментов обслуживания Cummins®.
 
-### Maintenance Check
+#### Дополнительные сервисные позиции
 
-> [!note] Note · Примечание
-> Depending on the application, it is possible engines will **not** be equipped with an air compressor.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-Inspect the compressor housing for cracks and damage.
+### Контроль при обслуживании
 
-Inspect the hydraulic pump couplings for cracks, wear, or other damage, if equipped.
+> [!note] Примечание
+> В зависимости от применения, возможно, двигатели будут **не** оснащаться воздушным компрессором.
 
-Inspect the air plumbing for splits or cracks.
+Осмотрите корпус компрессора на наличие трещин и повреждений.
 
-Inspect the air compressor mounting nuts, including support bracket, for loose or damaged hardware.
+Осмотрите гидравлические насосные муфты на наличие трещин, износа или других повреждений, если они оборудованы.
 
-Operate the engine and check for correct compressor operation.
+Проверьте сантехнику для расколов или трещин.
 
-Check for air, oil, and coolant leaks.
+Осмотрите крепление воздушных компрессоров, включая опорный кронштейн, на наличие свободного или поврежденного оборудования.
 
-> [!tip] Момент затяжки · Torque Value
-> Mounting 18 mm 77 n•m [57 ft-lb]
+Управляйте двигателем и проверяйте правильность работы компрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> Bracket 10 mm 45 n•m [33 ft-lb]
+Проверьте на наличие воздуха, масла и утечки охлаждающей жидкости.
+
+> [!tip] Момент затяжки
+> Монтаж 18 мм 77 Н·м [57 футов-lb]
+
+> [!tip] Момент затяжки
+> Брекет 10 мм 45 Н·м [33 фут-лб]
 
 ![[12d00043.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No Cummins® service tools required.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Maintenance Check
+>
+> **Note · Примечание**
+> Depending on the application, it is possible engines will **not** be equipped with an air compressor.
+>
+> Inspect the compressor housing for cracks and damage.
+>
+> Inspect the hydraulic pump couplings for cracks, wear, or other damage, if equipped.
+>
+> Inspect the air plumbing for splits or cracks.
+>
+> Inspect the air compressor mounting nuts, including support bracket, for loose or damaged hardware.
+>
+> Operate the engine and check for correct compressor operation.
+>
+> Check for air, oil, and coolant leaks.
+>
+> **Момент затяжки · Torque Value**
+> Mounting 18 mm 77 n•m [57 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Bracket 10 mm 45 n•m [33 ft-lb]

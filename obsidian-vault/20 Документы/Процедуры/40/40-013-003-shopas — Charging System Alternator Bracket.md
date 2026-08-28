@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-003-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-003-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Bracket
@@ -29,53 +31,108 @@ tags:
 > **Даты:** изменён 2020-11-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-003-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-003-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Spool Mount:
 
-Install the upper alternator bracket and mounting capscrews.
+### Установка
 
-Tighten the upper and lower alternator bracket mounting capscrew.
+Гора Спул:
 
-Torque Value:
+Установите верхний кронштейн генератора и крепежные болты.
 
-M8
+Затянуть верхние и нижние кронштейны генератора крепления болтов.
 
-Torque Value:
+Момент затяжки:
 
-M10
+М8
+
+Момент затяжки:
+
+М10
 
 ![[13900125.png]]
 
-> [!note] Note · Примечание
-> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+> [!note] Примечание
+> В некоторых случаях кронштейн генератора и впуск воды объединяются в одну кронштейн. Видишь?[[40-008-082-tr — Water Inlet Connection|См. процедуру 008-082]]где это применимо.
 
-Install the lower alternator mounting bracket over the two dowel pins.
+Установите нижнюю кронштейну крепления генератора на два штифта.
 
-Install the two alternator bracket mounting capscrews and tighten.
+Установите два крепежных болта генератора и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[13d00045.png]]
 
-Hinge Mount:
+Гора Хингэ:
 
-Install the upper alternator bracket and mounting capscrews.
+Установите верхний кронштейн генератора и крепежные болты.
 
-Install the lower alternator bracket and mounting capscrew.
+Установите нижнюю кронштейн генератора и крепежные болты.
 
-> [!note] Note · Примечание
-> Depending on the alternator configuration, it may be necessary to wait until the alternator is installed before tightening the lower alternator bracket. This will allow adjustment of the bracket.
+> [!note] Примечание
+> В зависимости от конфигурации генератора переменного тока может потребоваться подождать, пока генератор не будет установлен, прежде чем затянуть нижнюю скобу генератора. Это позволит корректировать скобки.
 
-Tighten the upper and lower alternator bracket mounting capscrew.
+Затянуть верхние и нижние кронштейны генератора крепления болтов.
 
-Torque Value:
+Момент затяжки:
 
-M8
+М8
 
-Torque Value:
+Момент затяжки:
 
-M10
+М10
 
 ![[13d00027.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Spool Mount:
+>
+> Install the upper alternator bracket and mounting capscrews.
+>
+> Tighten the upper and lower alternator bracket mounting capscrew.
+>
+> Torque Value:
+>
+> M8
+>
+> Torque Value:
+>
+> M10
+>
+> **Note · Примечание**
+> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+>
+> Install the lower alternator mounting bracket over the two dowel pins.
+>
+> Install the two alternator bracket mounting capscrews and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Hinge Mount:
+>
+> Install the upper alternator bracket and mounting capscrews.
+>
+> Install the lower alternator bracket and mounting capscrew.
+>
+> **Note · Примечание**
+> Depending on the alternator configuration, it may be necessary to wait until the alternator is installed before tightening the lower alternator bracket. This will allow adjustment of the bracket.
+>
+> Tighten the upper and lower alternator bracket mounting capscrew.
+>
+> Torque Value:
+>
+> M8
+>
+> Torque Value:
+>
+> M10

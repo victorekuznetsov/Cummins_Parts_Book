@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 11
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-011-001-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-011-001-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Exhaust Connection Pipe
@@ -35,138 +37,262 @@ tags:
 > **Даты:** изменён 2020-11-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-011-001-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-011-001-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the bolts securing the original equipment manufacturer (OEM) exhaust connection to the exhaust connection pipe. See equipment manufacturer service information.
-- Repeat for the exhaust connection pipe on the other bank.
+
+### Подготовительные операции
+
+- Удалите болты, обеспечивающие подключение выхлопных газов изготовителя оригинального оборудования (OEM) к трубе соединения выхлопных газов. См. сервисную документацию изготовителя оборудования.
+- Повторите для выхлопной трубы на другом берегу.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Single Stage
+Одиночная стадия
 
-> [!note] Note · Примечание
-> The same procedure is used on either side of the exhaust connection pipe.
+> [!note] Примечание
+> Та же процедура используется по обе стороны от выхлопной трубы.
 
-Remove the four capscrews and nuts securing the bellows to the exhaust connection pipe. Discard the gasket.
+Удалите четыре болта и гайки, закрепляющие сильфоны на выхлопной трубе. Прокладку утилизируйте.
 
 ![[11600203.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> The same procedure is used on either side of the exhaust connection pipe.
+> [!note] Примечание
+> Та же процедура используется по обе стороны от выхлопной трубы.
 
-Remove the four capscrews securing the exhaust connection to the rocker lever housings.
+Удалите четыре болта, обеспечивающие соединение выхлопных газов с корпусами рычага качения клапана.
 
-Remove the capscrews securing the exhaust connection pipe to the rocker lever housings. Remove the exhaust connection pipe.
+Удалите болты, обеспечивающие подключение выхлопной трубы к корпусам рычага качения клапанного клапана. Удалите выхлопную трубу.
 
-Repeat for the other side.
+Повторите для другой стороны.
 
 ![[11600161.png]]
 
-Two Stage
+Два этапа
 
-Remove the four capscrews and nuts securing the bellows to the exhaust connection pipe. Discard the gasket.
+Удалите четыре болта и гайки, закрепляющие сильфоны на выхлопной трубе. Прокладку утилизируйте.
 
 ![[11600173.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the seven capscrews and spacers securing the exhaust connection pipe to the two-stage frame. Remove the exhaust connection pipe.
+Удалите семь болтов и прокладок, обеспечивающих подключение выхлопной трубы к двухступенчатой раме. Удалите выхлопную трубу.
 
 ![[11600162.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к травмам.
 
-Use solvent to clean the exhaust connection pipe.
+Используйте растворитель для очистки выхлопной трубы.
 
-Clean the exhaust connection pipe with a steam cleaner to remove any remaining residue.
+Очистите выхлопную трубу с помощью пароочистителя, чтобы удалить любой оставшийся остаток.
 
-Inspect the exhaust connection pipe for any signs of damage or deterioration.
+Проверить трубу соединения выхлопных газов на наличие каких-либо признаков повреждения или ухудшения состояния.
 
-If damage is found that will allow exhaust gas leakage, replace the exhaust connection pipe.
+Если обнаружено повреждение, которое позволит утечку выхлопных газов, замените выхлопную трубу.
 
 ![[11600050.png]]
 
-### Install
+### Установка
 
-Single Stage
+Одиночная стадия
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> The same procedure is used on either side of the exhaust connection pipe.
+> [!note] Примечание
+> Та же процедура используется по обе стороны от выхлопной трубы.
 
-Install the four capscrews securing the exhaust connection to the rocker lever housings.
+Установите четыре болта, обеспечивающие соединение выхлопных газов с корпусами рычага качения клапанного клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection to Rocker Lever Housing 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопное соединение с корпусом клапанного клапана 45 Н·м [33 фут-лб]
 
-Install the three capscrews securing the exhaust connection pipe to the rocker lever housing.
+Установите три болта, обеспечивающие подключение выхлопной трубы к корпусу рычага качения клапанного клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection to Rocker Lever Housing 80 n•m [60 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопное соединение с корпусом 80 Н·м клапанного клапана [60 футов-lb]
 
-Repeat for the other side.
+Повторите для другой стороны.
 
 ![[11600161.png]]
 
-Secure each bellow to the turbocharger first.
+Сначала закрепите каждый удар на турбокомпрессоре.
 
-Install a new gasket and the four capscrews and nuts securing the bellows to the exhaust connection pipe. The nuts **must** be located on the exhaust outlet connection side.
+Установите новую прокладку и четыре болта и гайки, обеспечивающие сильную связь с выхлопной трубой. Гайки **должны** располагаться на стороне соединения выпускного отверстия.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection to Bellows 195 n•m [144 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопное соединение с Bellows 195 Н·м [144 фут-лб]
 
-Repeat for the other side.
+Повторите для другой стороны.
 
 ![[11600203.png]]
 
-Two Stage
+Два этапа
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> The same procedure is used on either side of the exhaust connection pipe.
+> [!note] Примечание
+> Та же процедура используется по обе стороны от выхлопной трубы.
 
-Install the seven capscrews and spacers securing the exhaust connection pipe to the two-stage frame.
+Установите семь болтов и прокладок, обеспечивающих подключение выхлопной трубы к двухступенчатой раме.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection to Frame 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопное соединение с кадром 45 Н·м [33 фут-лб]
 
-Repeat for the other side.
+Повторите для другой стороны.
 
 ![[11600162.png]]
 
-Secure each bellow to the turbocharger first.
+Сначала закрепите каждый удар на турбокомпрессоре.
 
-Install a new gasket and the four capscrews and nuts securing the bellows to the exhaust connection pipe. The nuts **must** be located on the exhaust outlet connection side.
+Установите новую прокладку и четыре болта и гайки, обеспечивающие сильную связь с выхлопной трубой. Гайки **должны** располагаться на стороне соединения выпускного отверстия.
 
-> [!tip] Момент затяжки · Torque Value
-> Exhaust Connection to Bellows 195 n•m [144 ft-lb]
+> [!tip] Момент затяжки
+> Выхлопное соединение с Bellows 195 Н·м [144 фут-лб]
 
-Repeat for the other side.
+Повторите для другой стороны.
 
 ![[11600173.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the bolts securing the OEM exhaust connection to the exhaust connection pipe. See equipment manufacturer service information.
-- Repeat for the exhaust connection pipe on the other bank.
+- Установите болты, обеспечивающие соединение выхлопных газов OEM с выхлопной трубой. См. сервисную документацию изготовителя оборудования.
+- Повторите для выхлопной трубы на другом берегу.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the bolts securing the original equipment manufacturer (OEM) exhaust connection to the exhaust connection pipe. See equipment manufacturer service information.
+> - Repeat for the exhaust connection pipe on the other bank.
+>
+> ### Remove
+>
+> Single Stage
+>
+> **Note · Примечание**
+> The same procedure is used on either side of the exhaust connection pipe.
+>
+> Remove the four capscrews and nuts securing the bellows to the exhaust connection pipe. Discard the gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> The same procedure is used on either side of the exhaust connection pipe.
+>
+> Remove the four capscrews securing the exhaust connection to the rocker lever housings.
+>
+> Remove the capscrews securing the exhaust connection pipe to the rocker lever housings. Remove the exhaust connection pipe.
+>
+> Repeat for the other side.
+>
+> Two Stage
+>
+> Remove the four capscrews and nuts securing the bellows to the exhaust connection pipe. Discard the gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the seven capscrews and spacers securing the exhaust connection pipe to the two-stage frame. Remove the exhaust connection pipe.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
+>
+> Use solvent to clean the exhaust connection pipe.
+>
+> Clean the exhaust connection pipe with a steam cleaner to remove any remaining residue.
+>
+> Inspect the exhaust connection pipe for any signs of damage or deterioration.
+>
+> If damage is found that will allow exhaust gas leakage, replace the exhaust connection pipe.
+>
+> ### Install
+>
+> Single Stage
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> The same procedure is used on either side of the exhaust connection pipe.
+>
+> Install the four capscrews securing the exhaust connection to the rocker lever housings.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection to Rocker Lever Housing 45 n•m [33 ft-lb]
+>
+> Install the three capscrews securing the exhaust connection pipe to the rocker lever housing.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection to Rocker Lever Housing 80 n•m [60 ft-lb]
+>
+> Repeat for the other side.
+>
+> Secure each bellow to the turbocharger first.
+>
+> Install a new gasket and the four capscrews and nuts securing the bellows to the exhaust connection pipe. The nuts **must** be located on the exhaust outlet connection side.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection to Bellows 195 n•m [144 ft-lb]
+>
+> Repeat for the other side.
+>
+> Two Stage
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> The same procedure is used on either side of the exhaust connection pipe.
+>
+> Install the seven capscrews and spacers securing the exhaust connection pipe to the two-stage frame.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection to Frame 45 n•m [33 ft-lb]
+>
+> Repeat for the other side.
+>
+> Secure each bellow to the turbocharger first.
+>
+> Install a new gasket and the four capscrews and nuts securing the bellows to the exhaust connection pipe. The nuts **must** be located on the exhaust outlet connection side.
+>
+> **Момент затяжки · Torque Value**
+> Exhaust Connection to Bellows 195 n•m [144 ft-lb]
+>
+> Repeat for the other side.
+>
+> ### Finishing Steps
+>
+> - Install the bolts securing the OEM exhaust connection to the exhaust connection pipe. See equipment manufacturer service information.
+> - Repeat for the exhaust connection pipe on the other bank.

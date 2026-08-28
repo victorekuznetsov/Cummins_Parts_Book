@@ -18,7 +18,8 @@ families:
 manuals:
   - "3666415"
 figures: 40
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-308.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-308.pdf"
 tags:
@@ -26,6 +27,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Ignition Relay Circuit
@@ -39,354 +41,636 @@ tags:
 > **Даты:** изменён 2004-10-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-308.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-308.pdf)
 
-### Resistance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+### Проверка сопротивления
 
-> [!note] Note · Примечание
-> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+Переведите замок зажигания в положение OFF. Отсоедините кабели аккумулятора автомобиля от батареи. Отсоедините разъемы ICONTM от батареи.
+
+> [!note] Примечание
+> Отключение аккумуляторных батарей автомобиля может потребовать сброса часов ECM в режиме реального времени с помощью INSITETM.
 
 ![[ea8coha.png]]
 
-Disconnect the ignition bus relay from the ICON™ cab wiring harness.
+Отсоедините реле шины зажигания от электропроводки ICONTM.
 
-Measure the resistance from pin 85 to pin 86 on the relay.
+Измерить сопротивление от контакта 85 до контакта 86 на реле.
 
-Read the value displayed on the multimeter. The multimeter **must** display a reading of 70 to 100 ohms.
+Считайте показания мультиметра. Мультиметр **должен **отображать значение от 70 до 100 Ом.
 
-Measure the resistance from pin 85 of the ignition bus relay(s) to pin 30, 87, and 87A.
+Измерить сопротивление от контакта 85 реле шины зажигания до контакта 30, 87 и 87А.
 
-Read the value displayed on the multimeter. The multimeter **must** display a reading of more than 100k ohms (open circuit).
+Считайте показания мультиметра. Мультиметр должен отображать показания более 100k ом (открытая схема).
 
 ![[19803846.png]]
 
-> [!warning] CAUTION · Осторожно
-> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+> [!warning] ОСТОРОЖНО
+> Чтобы избежать повреждения штифта и проводов, используйте пробный щуп, номер детали 3822758 и 3822917, при проведении измерения.
 
-Disconnect the ICON™ idle control module B connector.
+Отключите разъем B модуля управления ICONTM.
 
-Disconnect the 14-pin pass through connector at the vehicle's firewall.
+Отключите 14-контактный проход через разъем на брандмауэре автомобиля.
 
-Disconnect the ignition bus relay from the cab harness.
+Отсоедините реле зажигания от проводов кабины.
 
-Set the multimeter to measure resistance.
+Установите мультиметр для измерения сопротивления.
 
 ![[19c00961.png]]
 
-Check the output wire.
+Проверьте выходной провод.
 
-Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector.
+Прикосновение к одному из мультиметров приводит к контакту 4 с неработающим модулем управления ICONTM B проводов ремня разъема.
 
-Touch the other multimeter lead to pin F of the 14-pin pass-through connector, engine harness side.
+Прикосновение к другому мультиметру приводит к контакту F 14-контактного пропускного разъема, проводов двигателя с ремнями безопасности.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00955.png]]
 
-The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+Мультиметр **должен **отображать значение менее 10 Ом, что является замкнутой схемой.
 
-If the circuit is **not** closed, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** закрыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]]или[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801619.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, проводов кабины с ремнями безопасности.
 
-Touch the other multimeter lead to pin 85 of the ignition bus relay harness connector.
+Прикосновение к другому мультиметру приводит к контакту 85 с разъемом релейной проводов зажигания шины.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802925.png]]
 
-The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+Мультиметр **должен **отображать значение менее 10 Ом, что является замкнутой схемой.
 
-If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+Если цепь **не** закрыта, отремонтируйте или замените проводку кабины. См. процедуру[[99-019-204 — Deutsch DRC Connector Series|019-204]]или[[97-019-305 — Cab Wiring Harness|019-305]].
 
 ![[19801619.png]]
 
-Check the return wire.
+Проверьте обратный провод.
 
-Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, engine harness side.
+Прикосновение одного из мультиметров приводит к контакту С 14-контактного пропускного разъема, проводов двигателя с ремнями безопасности.
 
-Touch the other multimeter lead to the negative (-) battery terminal post.
+Прикосновение к другому мультиметру приводит к отрицательному (-) посту терминала батареи.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802926.png]]
 
-The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+Мультиметр **должен **отображать значение менее 10 Ом, что является замкнутой схемой.
 
-If the circuit is **not** closed, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-197 — Ring Terminal|019-197]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** закрыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[99-019-197 — Ring Terminal|019-197]]или[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801619.png]]
 
-Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, cab harness side.
+Прикосновение к одному из мультиметров приводит к контакту С 14-контактного пропускного разъема, кабины проводов упряжки.
 
-Touch the other multimeter lead to pin 86 of the ignition bus relay harness connector.
+Прикосновение к другому мультиметру приводит к контакту 86 с разъемом релейной проводов шины зажигания.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802925.png]]
 
-The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+Мультиметр **должен **отображать значение менее 10 Ом, что является замкнутой схемой.
 
-If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+Если цепь **не** закрыта, отремонтируйте или замените проводку кабины. См. процедуру[[99-019-204 — Deutsch DRC Connector Series|019-204]]или[[97-019-305 — Cab Wiring Harness|019-305]].
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19801619.png]]
 
-### Check for Short Circuit to Ground
+### Проверка на замыкание на массу
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+Переведите замок зажигания в положение OFF. Отсоедините кабели аккумулятора автомобиля от батареи. Отсоедините разъемы ICONTM от батареи.
 
-> [!note] Note · Примечание
-> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+> [!note] Примечание
+> Отключение аккумуляторных батарей автомобиля может потребовать сброса часов ECM в режиме реального времени с помощью INSITETM.
 
 ![[ea8coha.png]]
 
-> [!warning] CAUTION · Осторожно
-> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+> [!warning] ОСТОРОЖНО
+> Чтобы избежать повреждения штифта и проводов, используйте пробный щуп, номер детали 3822758 и 3822917, при проведении измерения.
 
-Disconnect the ICON™ idle control module B connector.
+Отключите разъем B модуля управления ICONTM.
 
-Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+Отсоедините 14-контактный проходной разъем на брандмауэре автомобиля.
 
-Disconnect the ignition bus relay from the cab harness.
+Отсоедините реле зажигания от проводов кабины.
 
-Set the multimeter to measure resistance.
+Установите мультиметр для измерения сопротивления.
 
 ![[19c00961.png]]
 
-Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector.
+Прикосновение к одному из мультиметров приводит к контакту 4 с неработающим модулем управления ICONTM B проводов ремня разъема.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802900.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]]или[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, ICON™ engine harness side.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, ICONTM с проводкой двигателя с ремнями безопасности.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00940.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, проводов кабины с ремнями безопасности.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00933.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[97-019-305 — Cab Wiring Harness|019-305]].
+Если цепь **не** закрыта, отремонтируйте или замените проводку кабины. См. процедуру[[97-019-305 — Cab Wiring Harness|019-305]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin 86 of the ignition bus relay harness connector.
+Прикосновение к одному из мультиметров приводит к контакту 86 ретранслятора зажигания шины с проводкой ремня разъема.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802927.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+Если схема **не** открыта, отремонтируйте или замените проводку кабины. См. процедуру[[99-019-204 — Deutsch DRC Connector Series|019-204]]или[[97-019-305 — Cab Wiring Harness|019-305]].
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19801621.png]]
 
-### Check for Short Circuit from Pin to Pin
+### Проверка на замыкание между контактами
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+Переведите замок зажигания в положение OFF. Отсоедините кабели аккумулятора автомобиля от батареи. Отсоедините разъемы ICONTM от батареи.
 
-> [!note] Note · Примечание
-> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+> [!note] Примечание
+> Отключение аккумуляторных батарей автомобиля может потребовать сброса часов ECM в режиме реального времени с помощью INSITETM.
 
 ![[ea8coha.png]]
 
-> [!warning] CAUTION · Осторожно
-> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+> [!warning] ОСТОРОЖНО
+> Чтобы избежать повреждения штифта и проводов, используйте пробный щуп, номер детали 3822758 и 3822917, при проведении измерения.
 
-Disconnect the ICON™ idle control module A and B connectors.
+Отключите разъемы ICONTM idle Control module A и B.
 
-Disconnect the 14-pin pass through connector at the vehicle's firewall.
+Отключите 14-контактный проход через разъем на брандмауэре автомобиля.
 
-Disconnect the ignition bus relay from the cab harness.
+Отсоедините реле зажигания от проводов кабины.
 
-Set the multimeter to measure resistance.
+Установите мультиметр для измерения сопротивления.
 
 ![[19c00917.png]]
 
-Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Прикосновение к одному из мультиметров приводит к контакту 4 с неработающим модулем управления ICONTM B проводов ремня разъема. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00962.png]]
 
-Then, touch one of the multimeter leads to pin 2 of the ICON™ idle control module A harness connector. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Затем касание одного из мультиметров приводит к контакту 2 с неработающим модулем управления ICONTM Разъем проводной упряжки. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00943.png]]
 
-For both pin-to-pin checks, the multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Для обеих проверок «контакт-контакт» мультиметр должен отображать показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]]или[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, ICON™ engine harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, ICONTM с проводкой двигателя с ремнями безопасности. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
-Repeat the pin-to-pin check from pin C. Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, ICON™ engine harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Повторите контактную проверку от контакта С. Прикосновение к одному из мультиметров приводит к контакту С 14-контактного пропускного разъема, сцепленного с двигателем ICONTM. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00942.png]]
 
-For both pin-to-pin checks, the multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Для обеих проверок «контакт-контакт» мультиметр должен отображать показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[97-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя ICONTM. См. процедуру[[97-019-043 — Engine Wiring Harness|019-043]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, проводов кабины с ремнями безопасности. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
-Repeat the pin-to-pin check from pin C. Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, cab harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+Повторите контактную проверку от контакта С. Прикосновение к одному из мультиметров приводит к контакту С 14-контактного пропускного разъема, кабины проводов упряжки. Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00935.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[97-019-305 — Cab Wiring Harness|019-305]].
+Если цепь **не** закрыта, отремонтируйте или замените проводку кабины. См. процедуру[[97-019-305 — Cab Wiring Harness|019-305]].
 
 ![[19801621.png]]
 
-Touch one of the multimeter leads to pin 86 of the ignition bus relay harness connector.
+Прикосновение к одному из мультиметров приводит к контакту 86 ретранслятора зажигания шины с проводкой ремня разъема.
 
-Touch the other multimeter lead to all other pins in the relay harness connector, one at a time
+Прикосновение к другому мультиметру приводит ко всем другим штифтам в разъеме релейной проводов ремня, по одному за раз.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19802885.png]]
 
-The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+Мультиметр **must** отображает показания более 100k ом, что является открытой схемой.
 
-If the circuit is **not** open, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+Если схема **не** открыта, отремонтируйте или замените проводку кабины. См. процедуру[[99-019-204 — Deutsch DRC Connector Series|019-204]]или[[97-019-305 — Cab Wiring Harness|019-305]].
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19801621.png]]
 
-### Voltage Check
+### Проверка напряжения
 
-> [!warning] CAUTION · Осторожно
-> To avoid pin and harness damage, use test lead, Part Number 3822917, when taking a measurement.
+> [!warning] ОСТОРОЖНО
+> Чтобы избежать повреждения штифта и проводов, используйте пробный щуп, номер детали 3822917, при проведении измерения.
 
-Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+Отсоедините 14-контактный проходной разъем на брандмауэре автомобиля.
 
-Set the multimeter to measure VDC.
+Установите мультиметр для измерения VDC.
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
 ![[15800040.png]]
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, проводов кабины с ремнями безопасности.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00935.png]]
 
-The multimeter **must** display a reading of less than 0.5 VDC.
+Мультиметр **must** отображает показания менее 0,5 VDC.
 
-If the voltage is **not** less than 0.5 VDC, repair or replace the ignition bus relay. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-301 — Ignition Bus Relay 1 and 2|019-301]].
+Если напряжение **не** менее 0,5 ВДК, отремонтируйте или замените реле шины зажигания. См. процедуру[[99-019-204 — Deutsch DRC Connector Series|019-204]]или[[97-019-301 — Ignition Bus Relay 1 and 2|019-301]].
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19c00954.png]]
 
-### Check for Short Circuit to External Voltage Source
+### Проверьте короткое замыкание на источнике внешнего напряжения
 
-Turn the keyswitch to the OFF position. Disconnect the ICON™ idle control module B connector. Set the multimeter to measure VDC.
+Переведите замок зажигания в положение OFF. Отключите разъем B модуля управления ICONTM. Установите мультиметр для измерения VDC.
 
 ![[19c00961.png]]
 
-> [!warning] CAUTION · Осторожно
-> To avoid pin and harness damage, use test lead, Part Number 3822917, when taking a measurement.
+> [!warning] ОСТОРОЖНО
+> Чтобы избежать повреждения штифта и проводов, используйте пробный щуп, номер детали 3822917, при проведении измерения.
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
-Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector. Touch the other multimeter lead to ground.
+Прикосновение к одному из мультиметров приводит к контакту 4 с неработающим модулем управления ICONTM B проводов ремня разъема. Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Measure the voltage.
+Измерьте напряжение.
 
 ![[19802900.png]]
 
-The multimeter **must** display a reading of less than 0.5 VDC.
+Мультиметр **must** отображает показания менее 0,5 VDC.
 
-If the voltage is **not** less than 0.5 VDC, there is a short circuit to an external voltage source.
+Если напряжение **не** меньше 0,5 ВДК, то происходит короткое замыкание к внешнему источнику напряжения.
 
-> [!note] Note · Примечание
-> An external voltage source is any wire in the cab or engine harness that carries voltage.
+> [!note] Примечание
+> Внешним источником напряжения является любой провод в кабине или проводах двигателя, который несет напряжение.
 
-Isolate the short to the proper portion of the circuit.
+Изолируйте короткую часть цепи до нужной.
 
 ![[19c00954.png]]
 
-Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+Отсоедините 14-контактный проходной разъем на брандмауэре автомобиля.
 
-Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+Прикосновение к одному из мультиметров приводит к контакту F 14-контактного пропускного разъема, проводов кабины с ремнями безопасности.
 
-Touch the other multimeter lead to ground.
+Прикоснитесь к другому мультиметру, который ведет на землю.
 
-Read the value displayed on the multimeter.
+Считайте показания мультиметра.
 
 ![[19c00933.png]]
 
-The multimeter **must** display a reading of less than 0.5 VDC.
+Мультиметр **must** отображает показания менее 0,5 VDC.
 
-If the voltage is **not** less than 0.5 VDC, there is a short circuit to an external voltage source on the cab harness side of the circuit.
+Если напряжение **не** менее 0,5 ВДК, на стороне проводов кабины цепи имеется короткое замыкание к внешнему источнику напряжения.
 
-If the VDC is less than 0.5 VDC, the short circuit is on the ICON™ engine harness side of the circuit.
+Если VDC меньше 0,5 VDC, короткое замыкание находится на стороне ремня электропроводки двигателя ICONTM.
 
-Remove the external voltage source.
+Удалите внешний источник напряжения.
 
-Connect all components after completing the repair.
+После ремонта подсоедините все компоненты.
 
 ![[19c00954.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Resistance Check
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+>
+> **Note · Примечание**
+> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+>
+> Disconnect the ignition bus relay from the ICON™ cab wiring harness.
+>
+> Measure the resistance from pin 85 to pin 86 on the relay.
+>
+> Read the value displayed on the multimeter. The multimeter **must** display a reading of 70 to 100 ohms.
+>
+> Measure the resistance from pin 85 of the ignition bus relay(s) to pin 30, 87, and 87A.
+>
+> Read the value displayed on the multimeter. The multimeter **must** display a reading of more than 100k ohms (open circuit).
+>
+> **CAUTION · Осторожно**
+> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+>
+> Disconnect the ICON™ idle control module B connector.
+>
+> Disconnect the 14-pin pass through connector at the vehicle's firewall.
+>
+> Disconnect the ignition bus relay from the cab harness.
+>
+> Set the multimeter to measure resistance.
+>
+> Check the output wire.
+>
+> Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector.
+>
+> Touch the other multimeter lead to pin F of the 14-pin pass-through connector, engine harness side.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+>
+> If the circuit is **not** closed, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+>
+> Touch the other multimeter lead to pin 85 of the ignition bus relay harness connector.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+>
+> If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Check the return wire.
+>
+> Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, engine harness side.
+>
+> Touch the other multimeter lead to the negative (-) battery terminal post.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+>
+> If the circuit is **not** closed, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-197 — Ring Terminal|019-197]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, cab harness side.
+>
+> Touch the other multimeter lead to pin 86 of the ignition bus relay harness connector.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 10 ohms, which is a closed circuit.
+>
+> If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Connect all components after completing the repair.
+>
+> ### Check for Short Circuit to Ground
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+>
+> **Note · Примечание**
+> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+>
+> **CAUTION · Осторожно**
+> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+>
+> Disconnect the ICON™ idle control module B connector.
+>
+> Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+>
+> Disconnect the ignition bus relay from the cab harness.
+>
+> Set the multimeter to measure resistance.
+>
+> Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, ICON™ engine harness side.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Touch one of the multimeter leads to pin 86 of the ignition bus relay harness connector.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Connect all components after completing the repair.
+>
+> ### Check for Short Circuit from Pin to Pin
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Turn the keyswitch to the OFF position. Disconnect the vehicle battery cables from the battery. Disconnect the ICON™ battery harness connectors from the battery.
+>
+> **Note · Примечание**
+> Disconnecting the vehicle battery connections can require that the engine ECM real-time clock be reset using INSITE™.
+>
+> **CAUTION · Осторожно**
+> To avoid pin and harness damage, use test leads, Part Number 3822758 and 3822917, when taking a measurement.
+>
+> Disconnect the ICON™ idle control module A and B connectors.
+>
+> Disconnect the 14-pin pass through connector at the vehicle's firewall.
+>
+> Disconnect the ignition bus relay from the cab harness.
+>
+> Set the multimeter to measure resistance.
+>
+> Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> Then, touch one of the multimeter leads to pin 2 of the ICON™ idle control module A harness connector. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> For both pin-to-pin checks, the multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[99-019-208 — Deutsch HDP20 and HD30 Connector Series|019-208]] or [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, ICON™ engine harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> Repeat the pin-to-pin check from pin C. Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, ICON™ engine harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> For both pin-to-pin checks, the multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the ICON™ engine harness. Refer to Procedure [[97-019-043 — Engine Wiring Harness|019-043]].
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> Repeat the pin-to-pin check from pin C. Touch one of the multimeter leads to pin C of the 14-pin pass-through connector, cab harness side. Touch the other multimeter lead to all other pins in the connector, one at a time.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** closed, repair or replace the cab harness. Refer to Procedure [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Touch one of the multimeter leads to pin 86 of the ignition bus relay harness connector.
+>
+> Touch the other multimeter lead to all other pins in the relay harness connector, one at a time
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of more than 100k ohms, which is an open circuit.
+>
+> If the circuit is **not** open, repair or replace the cab harness. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-305 — Cab Wiring Harness|019-305]].
+>
+> Connect all components after completing the repair.
+>
+> ### Voltage Check
+>
+> **CAUTION · Осторожно**
+> To avoid pin and harness damage, use test lead, Part Number 3822917, when taking a measurement.
+>
+> Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+>
+> Set the multimeter to measure VDC.
+>
+> Turn the keyswitch to the ON position.
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 0.5 VDC.
+>
+> If the voltage is **not** less than 0.5 VDC, repair or replace the ignition bus relay. Refer to Procedure [[99-019-204 — Deutsch DRC Connector Series|019-204]] or [[97-019-301 — Ignition Bus Relay 1 and 2|019-301]].
+>
+> Connect all components after completing the repair.
+>
+> ### Check for Short Circuit to External Voltage Source
+>
+> Turn the keyswitch to the OFF position. Disconnect the ICON™ idle control module B connector. Set the multimeter to measure VDC.
+>
+> **CAUTION · Осторожно**
+> To avoid pin and harness damage, use test lead, Part Number 3822917, when taking a measurement.
+>
+> Turn the keyswitch to the ON position.
+>
+> Touch one of the multimeter leads to pin 4 of the ICON™ idle control module B harness connector. Touch the other multimeter lead to ground.
+>
+> Measure the voltage.
+>
+> The multimeter **must** display a reading of less than 0.5 VDC.
+>
+> If the voltage is **not** less than 0.5 VDC, there is a short circuit to an external voltage source.
+>
+> **Note · Примечание**
+> An external voltage source is any wire in the cab or engine harness that carries voltage.
+>
+> Isolate the short to the proper portion of the circuit.
+>
+> Disconnect the 14-pin pass-through connector at the vehicle's firewall.
+>
+> Touch one of the multimeter leads to pin F of the 14-pin pass-through connector, cab harness side.
+>
+> Touch the other multimeter lead to ground.
+>
+> Read the value displayed on the multimeter.
+>
+> The multimeter **must** display a reading of less than 0.5 VDC.
+>
+> If the voltage is **not** less than 0.5 VDC, there is a short circuit to an external voltage source on the cab harness side of the circuit.
+>
+> If the VDC is less than 0.5 VDC, the short circuit is on the ICON™ engine harness side of the circuit.
+>
+> Remove the external voltage source.
+>
+> Connect all components after completing the repair.

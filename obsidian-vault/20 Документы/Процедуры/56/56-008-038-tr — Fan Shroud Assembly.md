@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-038-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-038-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Shroud Assembly
@@ -35,10 +37,26 @@ tags:
 > **Даты:** изменён 2004-01-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-038-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-038-tr.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the fan shroud for the correct fan clearance. Refer to the vehicle manufacturer's specifications and the appropriate installation recommendations bulletin.
 
-Inspect the fan shroud for cracks, air leaks, or other damage. Replace the part if damaged. Refer to the manufacturer's instructions.
+### Проверка при повторном использовании
+
+Проверьте плащ вентилятора на правильный зазор вентилятора. См. спецификации производителя транспортного средства и соответствующие рекомендации по установке бюллетеня.
+
+Осмотрите плащ вентилятора на наличие трещин, утечек воздуха или других повреждений. Замените часть, если она повреждена. См. указания изготовителя.
 
 ![[fn8sdsa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> Inspect the fan shroud for the correct fan clearance. Refer to the vehicle manufacturer's specifications and the appropriate installation recommendations bulletin.
+>
+> Inspect the fan shroud for cracks, air leaks, or other damage. Replace the part if damaged. Refer to the manufacturer's instructions.

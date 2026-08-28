@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-022-001_12-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-022-001_12-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -35,10 +37,24 @@ tags:
 > **Даты:** изменён 2005-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-022-001_12-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-022-001_12-tr.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[3377132.png]]
 
 ![[ad8toga.png]]
 
-| **Tool Number** 3824879 | **Anti-seize Compound** Lubricant that speeds assembly and disassembly of studs, bolts, capscrews, flanges, and fittings. |  |
+| **Инструментальный номер **3824879 | Смазка с анти-захватом, которая ускоряет сборку и демонтаж шпиль, болтов, болтов, фланцев и фитингов. |  |
 |---|---|---|
-| **Tool Number** ST-647 | **Standard Puller** Use to pull the drive gear. Use with puller capscrews that have M8 x 1.25-6H thread. |  |
+| **Номер инструмента** ST-647 | **Стандартный пуллер** Используйте для тяги привода. Используйте болты для съёмника, которые имеют резьбу M8 x 1,25-6H. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** 3824879 | **Anti-seize Compound** Lubricant that speeds assembly and disassembly of studs, bolts, capscrews, flanges, and fittings. |  |
+> |---|---|---|
+> | **Tool Number** ST-647 | **Standard Puller** Use to pull the drive gear. Use with puller capscrews that have M8 x 1.25-6H thread. |  |

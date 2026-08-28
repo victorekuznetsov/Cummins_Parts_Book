@@ -9,12 +9,14 @@ engines:
 families:
   - "QSX15"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101596.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101596.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Cylinder Head and Main Bearing Capscrew Thread Repair
@@ -25,55 +27,114 @@ tags:
 > **Даты:** изменён 2016-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101596.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101596.pdf)
 
-## Cylinder Head and Main Bearing Capscrew Thread Repair
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Голова цилиндра и основные несущие болты Ремонт резьбы
 
-### Contents
+### Положение о гарантии
 
-This document introduces the required components to salvage damaged cylinder head and main bearing capscrew hole threads on the ISX and QSX15 series engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The illustration and table below show the items required in addition to the thread salvage kit, Part Number 3164021.
+### Содержание
+
+В этом документе представлены необходимые компоненты для спасения поврежденной головки цилиндра и резьбы в отверстиях подшипников на двигателях серии ISX и QSX15.
+
+На иллюстрации и в таблице ниже показаны предметы, необходимые в дополнение к набору для спасения резьбы, номер детали 3164021.
 
 ![[22a00124.png]]
 
-Figure 1, Items Purchased Separately.
+Рисунок 1. предметы, купленные отдельно.
 
-| Table 1: Items Use to Salvage ISX Main Bearing and Cylinder Head Capscrew Hole Threads |  |  |
+| Таблица 1: Элементы, используемые для спасения основной подшипниковой и цилиндрической головки ISX, резьба по отверстиям |  |  |
 |---|---|---|
-| Item Number | Part Number | Description |
-| 1 | 3163842 | Jam nut |
-| 2 | 3164445 | Thread insert - 50 mm \[2 in\] |
-| 2 | 3163717 | Thread insert - 76 mm \[3 in\] |
-| 3 | 3163899 | Reamer |
-| 4 | 3163901 | Tap |
-| 5 | 3164335 | Drill |
+| Номер позиции | Номер детали | Наименование |
+| 1 | 3163842 | локон |
+| 2 | 3164445 | Вставка для резьбы - 50 мм \[2 in\] |
+| 2 | 3163717 | Вставка для резьбы - 76 мм \[3 in\] |
+| 3 | 3163899 | Лук |
+| 4 | 3163901 | нажатие |
+| 5 | 3164335 | бурение |
 
 ![[22a00081.png]]
 
-Figure 2, Thread Salvage Kit, Part Number 3164021.
+Рисунок 2, Набор для спасения ниток, Часть Номер 3164021.
 
-1. Mounting plate
-2. Drilling fixture
-3. Hexagon head capscrews
-4. Heavy washer
-5. Universal drive socket
-6. Chip vacuum
-7. Thread-locking compound
-8. Primer
-9. Locating pin
-10. Locating pin
-11. Stop collar
-12. Stop collar
-13. Spacer
-14. Spacer
-15. Spacer
+1. Горячая пластина
+2. буровая установка
+3. Затворы шестиугольника
+4. Тяжелая шайба
+5. Универсальная розетка
+6. Чип-вакуум
+7. Соединение, блокирующее резьба
+8. Первопроходец
+9. Пин для поиска
+10. Пин для поиска
+11. Остановите ошейник
+12. Остановите ошейник
+13. Проставка
+14. Проставка
+15. Проставка
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> В комплект для спасения резьбы, но **не** показаны простые шайбы и ящик для хранения.
+
+Для связанных процедур ссылаются на следующую процедуру.[[10-001-026-tr — Cylinder Block|См. процедуру 001-026 в разделе 1.]]
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cylinder Head and Main Bearing Capscrew Thread Repair
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document introduces the required components to salvage damaged cylinder head and main bearing capscrew hole threads on the ISX and QSX15 series engines.
+>
+> The illustration and table below show the items required in addition to the thread salvage kit, Part Number 3164021.
+>
+> Figure 1, Items Purchased Separately.
+>
+> | Table 1: Items Use to Salvage ISX Main Bearing and Cylinder Head Capscrew Hole Threads |  |  |
+> |---|---|---|
+> | Item Number | Part Number | Description |
+> | 1 | 3163842 | Jam nut |
+> | 2 | 3164445 | Thread insert - 50 mm \[2 in\] |
+> | 2 | 3163717 | Thread insert - 76 mm \[3 in\] |
+> | 3 | 3163899 | Reamer |
+> | 4 | 3163901 | Tap |
+> | 5 | 3164335 | Drill |
+>
+> Figure 2, Thread Salvage Kit, Part Number 3164021.
+>
+> 1. Mounting plate
+> 2. Drilling fixture
+> 3. Hexagon head capscrews
+> 4. Heavy washer
+> 5. Universal drive socket
+> 6. Chip vacuum
+> 7. Thread-locking compound
+> 8. Primer
+> 9. Locating pin
+> 10. Locating pin
+> 11. Stop collar
+> 12. Stop collar
+> 13. Spacer
+> 14. Spacer
+> 15. Spacer
+>
+> **Note · Примечание**
 > Included in the thread salvage kit, but **not** shown, are plain washers and a storage case.
-
-For Related Procedures reference to the following procedure. [[10-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
-
-### Document History
+>
+> For Related Procedures reference to the following procedure. [[10-001-026-tr — Cylinder Block|Refer to Procedure 001-026 in Section 1.]]
+>
+> ### Document History

@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-023-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-023-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Closed Crankcase Ventilation Valve
@@ -29,83 +31,156 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-023-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-023-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The closed crankcase ventilation valve is used on engines in which the crankcase gases are vented back into the intake of engine. The purpose of the valve is to aid in regulating crankcase gas flow to the intake of the engine. Under high intake vacuum situations, the closed crankcase ventilation will prevent the engine from syphoning crankcase gases/oil from the crankcase of the engine.
+
+### Общие сведения
+
+Закрытый клапан вентиляции используется на двигателях, в которых картерные газы вентилируются обратно в впускной механизм. Цель клапана - помочь в регулировании потока газообразного картерного газа к приему двигателя. В условиях высокого впускного вакуума закрытая вентиляция картерного шкафа предотвратит сифонирование газом / маслом картерного ящика двигателя.
 
 ![[nobox.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries.
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-### Remove
+### Снятие
 
-Front Gear Train
+Поезд Front Gear
 
-For front gear train engines, the closed crankcase ventilation valve is located between the tappet cover breather and intake manifold/cover of the engine.
+Для двигателей передних передних передних тяг, закрытый клапан вентиляции картер расположен между капотом крышки передатчика и впускным коллектором / крышкой двигателя.
 
-The tappet cover closed crankcase ventilation valve is held in place by the molded closed crankcase ventilation hoses.
+Закрытый клапан вентиляции из картера удерживается на месте формованными закрытыми шлангами вентиляции из картера.
 
-Removing the hoses will remove the valve.
+Удаление шлангов удалит клапан.
 
 ![[03900095.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-For rear gear train engines, the closed crankcase ventilation valve is connected between the flywheel housing and intake manifold/cover of the engine.
+Для двигателей задних зубчатых составов закрытый клапан вентиляции коленчатого шкафа соединен между корпусом маховика и впускным коллектором/покровом двигателя.
 
-The tappet cover closed crankcase ventilation valve is held in place by the molded closed crankcase ventilation hoses.
+Закрытый клапан вентиляции из картера удерживается на месте формованными закрытыми шлангами вентиляции из картера.
 
-Removing the hoses will remove the valve.
+Удаление шлангов удалит клапан.
 
 ![[03d00170.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Inspect the valve for signs of damage or obstruction.
+Осмотрите клапан на наличие признаков повреждения или обструкции.
 
 ![[03900098.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-If the valve is obstructed it **must** be cleaned with a solution of detergent or replaced to prevent excessive crankcase pressure buildup.
+Если клапан затрудняется, его необходимо очистить раствором моющего средства или заменить, чтобы предотвратить чрезмерное нарастание давления в картере.
 
-Dry components with compressed air.
+Сухие компоненты со сжатым воздухом.
 
 ![[03900099.png]]
 
-### Install
+### Установка
 
-Front Gear Train
+Поезд Front Gear
 
-Connect the tappet cover closed crankcase ventilation valve to the closed crankcase ventilation hoses and tighten the hose clamps.
+Подсоедините крышку крана закрытого вентиляционного клапана к закрытым вентиляционным шлангам и затяните зажимы шланга.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[03900095.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Connect the closed crankcase ventilation valve to the closed crankcase ventilation hoses and secure the hose clamps.
+Подключите закрытый клапан вентиляции к закрытым шлангам вентиляции и закрепите зажимы шланга.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[03d00170.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries.
+- Подсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The closed crankcase ventilation valve is used on engines in which the crankcase gases are vented back into the intake of engine. The purpose of the valve is to aid in regulating crankcase gas flow to the intake of the engine. Under high intake vacuum situations, the closed crankcase ventilation will prevent the engine from syphoning crankcase gases/oil from the crankcase of the engine.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> ### Remove
+>
+> Front Gear Train
+>
+> For front gear train engines, the closed crankcase ventilation valve is located between the tappet cover breather and intake manifold/cover of the engine.
+>
+> The tappet cover closed crankcase ventilation valve is held in place by the molded closed crankcase ventilation hoses.
+>
+> Removing the hoses will remove the valve.
+>
+> Rear Gear Train
+>
+> For rear gear train engines, the closed crankcase ventilation valve is connected between the flywheel housing and intake manifold/cover of the engine.
+>
+> The tappet cover closed crankcase ventilation valve is held in place by the molded closed crankcase ventilation hoses.
+>
+> Removing the hoses will remove the valve.
+>
+> ### Clean and Inspect for Reuse
+>
+> Inspect the valve for signs of damage or obstruction.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> If the valve is obstructed it **must** be cleaned with a solution of detergent or replaced to prevent excessive crankcase pressure buildup.
+>
+> Dry components with compressed air.
+>
+> ### Install
+>
+> Front Gear Train
+>
+> Connect the tappet cover closed crankcase ventilation valve to the closed crankcase ventilation hoses and tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Rear Gear Train
+>
+> Connect the closed crankcase ventilation valve to the closed crankcase ventilation hoses and secure the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries.

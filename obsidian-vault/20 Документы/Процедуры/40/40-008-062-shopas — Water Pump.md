@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-062-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-062-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -33,20 +35,44 @@ tags:
 > **Даты:** изменён 2010-11-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-062-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-062-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the new sealing ring into the pump groove.
+
+### Установка
+
+Установите новое уплотнительное кольцо в канавку насоса.
 
 ![[wp9riha.png]]
 
-Install the water pump (with seal) and mounting capscrews.
+Установите водяной насос (с уплотнением) и крепежные болты.
 
-Torque Value:
+Момент затяжки:
 
-9.8 Grade
+9.8 Класс
 
-Torque Value:
+Момент затяжки:
 
-10.9 Grade
+10.9 Класс
 
 ![[wp9bdma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the new sealing ring into the pump groove.
+>
+> Install the water pump (with seal) and mounting capscrews.
+>
+> Torque Value:
+>
+> 9.8 Grade
+>
+> Torque Value:
+>
+> 10.9 Grade

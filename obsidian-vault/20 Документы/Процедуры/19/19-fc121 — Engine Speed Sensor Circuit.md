@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc121.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc121.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Engine Speed Sensor Circuit
@@ -38,34 +40,74 @@ tags:
 > **Даты:** изменён 2024-12-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc121.pdf)
 
-### Fault Code: 121
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Speed Sensor Circuit
 
-Printable Version
+### Код неисправности: 121
 
-### Overview
+### Цепь датчика частоты вращения двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 121 PID(P): P190 SPN: 190 FMI: 10 Lamp: Yellow SRT: 00-345 | Engine Speed Sensor Circuit. No engine speed signal detected at one pair of pins, either pin 27, 28, 37, or 38 of the engine harness. | No action by the engine control module (ECM) is taken. |
+| Код неисправности: 121 PID(P): P190 SPN: 190 FMI: 10 ламп: Желтая СТО: 00-345 | Цепь датчика частоты вращения двигателя. Ни один сигнал скорости двигателя не обнаруживается на одной паре контактов, ни 27, 28, 37, ни 38 с жгутом проводов двигателя. | Не предпринимается никаких действий со стороны модуля управления двигателем (ECM). |
 
 ![[19j00575.png]]
 
-Engine Speed Sensor Circuit
+Цепь датчика частоты вращения двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine speed sensor is a dual-coil circuit that provides the engine speed signal to the ECM through the engine harness.
+Датчик скорости двигателя представляет собой схему с двумя катушками, которая обеспечивает сигнал скорости двигателя к ECM через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The engine speed sensor is located on the flywheel housing.
+Датчик скорости двигателя расположен на корпусе маховика.
 
-### Shoptalk
+### Практические замечания
 
-- If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor circuit while the engine is at that particular temperature.
+- Если проблема возникает только при определенной температуре двигателя, обязательно проверьте схему датчика скорости двигателя, пока двигатель находится при этой конкретной температуре.
 
-- Measure camshaft end clearance to make sure that camshaft gear is **not** moving too far away from the end of the engine speed sensor.
+- Измерьте зазор конца распределительного вала, чтобы убедиться, что передача распределительного вала **не **движется слишком далеко от конца датчика скорости двигателя.
 
-Refer to Troubleshooting Fault Code t05-121
+См. Код устранения неполадок t05-121
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 121
+>
+> ### Engine Speed Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 121 PID(P): P190 SPN: 190 FMI: 10 Lamp: Yellow SRT: 00-345 | Engine Speed Sensor Circuit. No engine speed signal detected at one pair of pins, either pin 27, 28, 37, or 38 of the engine harness. | No action by the engine control module (ECM) is taken. |
+>
+> Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine speed sensor is a dual-coil circuit that provides the engine speed signal to the ECM through the engine harness.
+>
+> ### Component Location
+>
+> The engine speed sensor is located on the flywheel housing.
+>
+> ### Shoptalk
+>
+> - If the problem occurs **only** at a certain engine temperature, be sure to check the engine speed sensor circuit while the engine is at that particular temperature.
+>
+> - Measure camshaft end clearance to make sure that camshaft gear is **not** moving too far away from the end of the engine speed sensor.
+>
+> Refer to Troubleshooting Fault Code t05-121

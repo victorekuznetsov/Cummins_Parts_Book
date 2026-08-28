@@ -16,12 +16,14 @@ parts:
   - "4902720"
   - "5371865"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190118.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190118.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Jumper Harness for Lead-Free Transition of Ambient Air Pressure (AAP) Sensor
@@ -32,23 +34,31 @@ tags:
 > **Даты:** изменён 2025-01-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190118.pdf)
 
-## Jumper Harness for Lead-Free Transition of Ambient Air Pressure (AAP) Sensor
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Жесткая проводка для датчика без свинца для перехода давления окружающего воздуха (AAP)
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Engine platforms affected:
+### Содержание
+
+**Затронутая продукция**
+
+Пострадали двигательные платформы:
 
 - KTA38-C
-- KTTA38
+- TTA38
 - KTA50-C
-- KTTA50
-- KTA50
+- TTA50
+- ТА50
 - QSK23 CM500
 - QSK23 CM2250
 - QSK23 CM2350
@@ -59,47 +69,47 @@ Engine platforms affected:
 - QSK60-G
 - QTA60-C
 
-**Description of Change**
+**Описание изменения**
 
-Due to the Cummins lead-free transition, leaded Ambient Air Pressure (AAP) sensors have been replaced by lead-free AAP sensors. The changes in some early sensor designs results in a difference in connector.
+Благодаря переходу Cummins без свинца, датчики атмосферного давления (AAP) были заменены датчиками AAP без свинца. Изменения в некоторых ранних конструкциях датчиков приводят к разнице в разъеме.
 
 ![[00h00179.png]]
 
-Figure 1, Current Scenario
+Рисунок 1 Текущий сценарий
 
 ![[00h00180.png]]
 
-Figure 2, Proposed Solution
+Рисунок 2, Предлагаемое решение
 
-The jumper harness listed in Table 1 will allow customers using the existing harness listed in Table 1 to use the new AAP sensor.
+Связь с прыгунами, перечисленная в таблице 1, позволит клиентам использовать существующую электропроводку, указанную в таблице 1, для использования нового датчика AAP.
 
-Use the correct Ambient Air Pressure sensor. If applicable, install jumper harness. Some engine wire harnesses require the jumper harness to match the sensor connector. Using the incorrect replacement Ambient Air Pressure Sensor can cause engine shutdowns or derates with no associated fault codes.
+Используйте правильный датчик атмосферного давления. Если применимо, установите прыгунную проводку. Некоторые проводные ремни двигателя требуют ремни перемычки для подключения датчика. Использование неправильной замены датчика атмосферного давления может привести к выключению двигателя или ухудшению состояния без связанных с этим кодов неисправностей.
 
-The pressure range in which the different sensors operate and the harness connector keys being the same for both pressure ratings.
+Диапазон давления, в котором работают различные датчики, и ключи разъема проводов, одинаковые для обоих рейтингов давления.
 
-Refer to Table 1.
+См. таблицу 1.
 
-**Reason for Change**
+**Причина изменения**
 
-Cummins is transitioning away from lead based product to an alternative unleaded equivalent.
+Cummins переходит от свинцового продукта к альтернативному неэтилованному эквиваленту.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| AAP sensor \[ 0-15 PSIA \] | [[4902720]] | Yes | Yes | [[4359572]] |
-| AAP sensor \[ 6-16 PSIA \] | 4076493 | Yes | Yes | [[2897331]] |
-| Jumper Harness | N/A | No | No | [[4384743]] |
-| Engine Harness | 3639186 3646913 4323225 4328452 [[5371865]] 3640128 4323226 4328451 | No | Yes | 5538717 5538718 5538719 5538720 5538721 5538728 5538729 5538730 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| AAP-датчик[0-15 PSIA] | [[4902720]] | Да | Да | [[4359572]] |
+| AAP сенсор[6-16 PSIA] | 4076493 | Да | Да | [[2897331]] |
+| Жумпер-проводник | Не применяется | Нет | Нет | [[4384743]] |
+| Жгут проводов двигателя | 3639186 3646913 4323225 4328452[[5371865]]3640128 4323226 4328451 | Нет | Да | 5538717 5538718 5538719 5538720 5538721 5538728 5538729 5538730 |
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Use existing part number inventory before using the new part number.
+Используйте существующий инвентарь номеров деталей перед использованием нового номера деталей.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -110,3 +120,69 @@ Use existing part number inventory before using the new part number.
 | [[4384743]] | WIRING HARNESS | Жгут проводов |
 | [[4902720]] | PRESSURE SENSOR | Датчик давления |
 | [[5371865]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Jumper Harness for Lead-Free Transition of Ambient Air Pressure (AAP) Sensor
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> Engine platforms affected:
+>
+> - KTA38-C
+> - KTTA38
+> - KTA50-C
+> - KTTA50
+> - KTA50
+> - QSK23 CM500
+> - QSK23 CM2250
+> - QSK23 CM2350
+> - QST30 CM552
+> - QST30 CM2350
+> - QSK45-C
+> - QSK60-C
+> - QSK60-G
+> - QTA60-C
+>
+> **Description of Change**
+>
+> Due to the Cummins lead-free transition, leaded Ambient Air Pressure (AAP) sensors have been replaced by lead-free AAP sensors. The changes in some early sensor designs results in a difference in connector.
+>
+> Figure 1, Current Scenario
+>
+> Figure 2, Proposed Solution
+>
+> The jumper harness listed in Table 1 will allow customers using the existing harness listed in Table 1 to use the new AAP sensor.
+>
+> Use the correct Ambient Air Pressure sensor. If applicable, install jumper harness. Some engine wire harnesses require the jumper harness to match the sensor connector. Using the incorrect replacement Ambient Air Pressure Sensor can cause engine shutdowns or derates with no associated fault codes.
+>
+> The pressure range in which the different sensors operate and the harness connector keys being the same for both pressure ratings.
+>
+> Refer to Table 1.
+>
+> **Reason for Change**
+>
+> Cummins is transitioning away from lead based product to an alternative unleaded equivalent.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | AAP sensor \[ 0-15 PSIA \] | [[4902720]] | Yes | Yes | [[4359572]] |
+> | AAP sensor \[ 6-16 PSIA \] | 4076493 | Yes | Yes | [[2897331]] |
+> | Jumper Harness | N/A | No | No | [[4384743]] |
+> | Engine Harness | 3639186 3646913 4323225 4328452 [[5371865]] 3640128 4323226 4328451 | No | Yes | 5538717 5538718 5538719 5538720 5538721 5538728 5538729 5538730 |
+>
+> **Part Inventory Action**
+>
+> Use existing part number inventory before using the new part number.
+>
+> ### Document History

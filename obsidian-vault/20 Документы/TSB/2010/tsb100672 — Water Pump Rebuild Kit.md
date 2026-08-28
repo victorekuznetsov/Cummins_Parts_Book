@@ -9,12 +9,14 @@ engines:
   - "71156161"
 families:
   - "QSM11"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100672.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100672.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSM11"
+  - "перевод/машинный"
 ---
 
 # Water Pump Rebuild Kit
@@ -25,19 +27,46 @@ tags:
 > **Даты:** изменён 2008-02-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100672.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100672.pdf)
 
-## Water Pump Rebuild Kit
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Реконструкция водяного насоса Kit
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin introduces a new ISM/QSM water pump rebuild kit which obsoletes and supersedes the old water pump rebuild kit, as indicated in the table below. The new water pump rebuild kit contains a new water seal which provides increased resistance to the entrance of abrasive material.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-It is necessary to use the correct water seal installation tool, Part Number 4918797, with this kit.
+### Содержание
 
-| Water Pump Rebuild Kit Part Numbers |  |  |
+В этом бюллетене технической службы представлен новый комплект для восстановления водяного насоса ISM / QSM, который устарел и заменяет старый комплект для восстановления водяного насоса, как указано в таблице ниже. Новый комплект для восстановления водяного насоса содержит новый водяной уплотнитель, который обеспечивает повышенное сопротивление входу абразивного материала.
+
+Необходимо использовать правильный инструмент для установки водяного уплотнения, номер детали 4918797, с этим набором.
+
+| Ремонт водяного насоса - часть номера |  |  |
 |---|---|---|
-| Description | Old Part Number | New Part Number |
-| Kit, Water Pump Repair | 4024817 | 4955802 |
+| Наименование | Прежний номер детали | Новый номер детали |
+| Кит, Ремонт водяного насоса | 4024817 | 4955802 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Water Pump Rebuild Kit
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin introduces a new ISM/QSM water pump rebuild kit which obsoletes and supersedes the old water pump rebuild kit, as indicated in the table below. The new water pump rebuild kit contains a new water seal which provides increased resistance to the entrance of abrasive material.
+>
+> It is necessary to use the correct water seal installation tool, Part Number 4918797, with this kit.
+>
+> | Water Pump Rebuild Kit Part Numbers |  |  |
+> |---|---|---|
+> | Description | Old Part Number | New Part Number |
+> | Kit, Water Pump Repair | 4024817 | 4955802 |

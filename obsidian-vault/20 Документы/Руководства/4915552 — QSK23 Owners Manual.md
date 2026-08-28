@@ -28,10 +28,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915552 — QSK23 Owners Manual\|4915552]]-toc | Table of Contents |  |
-| [[4915552 — QSK23 Owners Manual\|4915552]]-titlepage | Titlepage | 10-Mar-2004 |
+| [[[4915552 — QSK23 Owners Manual\|4915552]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/4915552-toc.html) | Table of Contents |  |
+| [[[4915552 — QSK23 Owners Manual\|4915552]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/4915552-titlepage.html) | Titlepage | 10-Mar-2004 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -80,18 +80,18 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | California Emission Control System Warranty, Off-Highway | 14-Oct-2003 |
-| ind-qsk19-qsk23 | Coverage | 22-Dec-2004 |
-| 3381322 | Off-Highway Engines International | 23-Apr-2007 |
-| 3381321 | Off-Highway Engines United States and Canada | 20-Jun-2007 |
-| 3381307 | Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/ind-bck.html) | California Emission Control System Warranty, Off-Highway | 14-Oct-2003 |
+| [ind-qsk19-qsk23](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/ind-qsk19-qsk23.html) | Coverage | 22-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | Off-Highway Engines International | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | Off-Highway Engines United States and Canada | 20-Jun-2007 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | Worldwide Generator Drive | 25-Aug-2009 |
 
 ### back
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915552 — QSK23 Owners Manual\|4915552]]-backcover | Backcover | 22-Sep-2004 |
+| [[[4915552 — QSK23 Owners Manual\|4915552]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915552/4915552-backcover.html) | Backcover | 22-Sep-2004 |
 
 ### Section L - Service Literature
 

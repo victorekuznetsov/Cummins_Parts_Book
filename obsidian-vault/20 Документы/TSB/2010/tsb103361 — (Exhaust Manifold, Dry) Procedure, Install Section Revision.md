@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103361.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103361.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # (Exhaust Manifold, Dry) Procedure, Install Section Revision
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-02-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103361.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103361.pdf)
 
-## (Exhaust Manifold, Dry) Procedure, Install Section Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## (Выхлопной коллектор, сухой), установить раздел пересмотра
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the Install Section of Procedure 011-007 (Exhaust Manifold, Dry) in the Service Manual, QSK45 and QSK60, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. The installation of the lockplates has been revised.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает раздел «Установка» процедуры 011-007 (Выхлопной коллектор, сухой) в Руководстве по обслуживанию, QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. Установка локаторов была пересмотрена.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## (Exhaust Manifold, Dry) Procedure, Install Section Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the Install Section of Procedure 011-007 (Exhaust Manifold, Dry) in the Service Manual, QSK45 and QSK60, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. The installation of the lockplates has been revised.

@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 14
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-035-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-035-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Engine Barring Device
@@ -35,199 +37,378 @@ tags:
 > **Даты:** изменён 2014-10-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-035-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-035-tr.pdf)
 
-### Exploded View
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Взрывной вид
 
 ![[bc6drga.png]]
 
-1. Compression spring
-2. Engine barring device gear
-3. Engine barring device housing
-4. Retaining E-ring
-5. Woodruff key
-6. External cotter clip
-7. Engine barring device shaft
-8. O-ring.
+1. Пружина сжатия
+2. 3.2.1.3 Передача устройства с заграждением двигателя
+3. Запрещающий двигатель корпус устройства
+4. Сохранение электронного кольца
+5. Ключ Вудраффа
+6. Внешний клип Коттера
+7. Вал двигателя, запирающий устройство
+8. О-ринг.
 
-### Remove
+### Снятие
 
-> [!note] Note · Примечание
-> **Only** engines equipped with wet type flywheel housings have the gaskets (5).
+> [!note] Примечание
+> Только двигатели, оснащенные мокрыми корпусами маховиков, имеют прокладки (5).
 
-Remove the starter cover capscrews (7) and lock washers (8).
+Удалите затворы крышки стартера (7) и шайбы замка (8).
 
-Remove the starter cover (6) and gasket (5).
+Удалите стартовую крышку (6) и прокладку (5).
 
-Remove the access hole cover capscrew (4) and lock washer (3).
+Удалите затворы крышки (4) и замкните шайбу (3).
 
-Remove the access hole cover (2), and remove the o-ring (1) from the access cover.
+Удалите крышку (2) отверстия доступа и удалите кольцо (1) доступа из крышки.
 
-Remove the engine barring device capscrews (10) and lock washers (7).
+Удалите болты (10) устройства для блокировки двигателя и шайбы (7).
 
-Remove the engine barring device (9), and gasket (5).
+Удалите устройство для блокировки двигателя (9) и прокладку (5).
 
-Discard the gaskets and o-ring.
+Отбросьте прокладки и кольцо.
 
 ![[bc600ha.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the barring device with solvent and dry with compressed air.
+Очистить заслоночное устройство растворителем и высушить сжатым воздухом.
 
 ![[09600114.png]]
 
-### Disassemble
+### Разборка
 
-Remove the external cotter clip (1).
+Удалить внешний зажим коттера (1).
 
-Push the shaft in and remove the retaining E-ring (2).
+Вставьте вал и удалите удерживающее E-кольцо (2).
 
 ![[bc6drfa.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to press the shaft out with spacers or supports between the gear and the housing. The key in the shaft will damage the housing.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь нажать вал с помощью прокладок или опор между шестерней и корпусом. Ключ в шахте повредит кожух.
 
-Place the engine barring device in a arbor press.
+Поместите устройство для блокировки двигателя в пресс-конструкцию беседки.
 
-The supports **must** be a minimum of 21 mm \[0.813 in\] long to allow the key to clear the gear and **not** contact the housing.
+Опоры **должны быть не менее 21 мм \[0,813 дюйма \] в длину, чтобы ключ мог очистить передачу и **не связаться с корпусом.
 
-A steel pipe coupling, sizef 3.18 mm \[0.125 in\], has been used successfully for the supports.
+Для опор успешно используется стальная трубная связь размером 3,18 мм \[0,125 дюйма\].
 
-Place supports (4) between the gear (5) and the housing (6).
+4) между шестерней (5) и корпусом (6).
 
-Push the shaft in until the key (7) is exposed.
+Подталкивайте вал до тех пор, пока ключ (7) не будет открыт.
 
 ![[bc6drfb.png]]
 
-Remove the key (7).
+Удалить ключ (7).
 
-Remove the supports.
+Удалите опоры.
 
 ![[bc6drfc.png]]
 
-Remove the following:
+Удалить следующее:
 
-- Shaft (8)
-- Spring (9)
-- Gear (5)
-- O-ring (10).
+- Вал (8)
+- Пружина (9)
+- Гир (5)
+- О-кольцо (10).
 
 ![[bc6drfd.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> Носите защиту глаз и лица при использовании сжатого воздуха. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the parts with solvent and dry with compressed air.
+Очистите детали растворителем и высушите сжатым воздухом.
 
-Check the gear teeth for damage and wear.
+Проверьте зубья зубчатой передачи на предмет повреждения и износа.
 
-Replace the gear if the teeth are damaged.
+Замените зубную шестерню, если зубы повреждены.
 
-Measure the inside diameter of the gear.
+Измерьте внутренний диаметр шестерни.
 
-| Engine Barring Device Gear Inside Diameter |  |  |
+| Устройство для блокировки двигателя застегивается внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 18.77 | MIN | 0.739 |
-| 18.80 | MAX | 0.740 |
+| мм |  | в |
+| 18.77 | Мин | 0.739 |
+| 18.80 | Макс | 0.740 |
 
-If the gear is **not** within specifications, the gear **must** be replaced.
+Если передача **не** в пределах спецификаций, то передача должна быть заменена.
 
 ![[dp8geta.png]]
 
-Measure the outside diameter gear area of the shaft.
+Измерить внешний диаметр зубчатой зоны вала.
 
-| Engine Barring Device Shaft Outside Diameter |  |  |
+| Двигатель блокирует вал устройства вне диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 18.82 | MIN | 0.741 |
-| 18.84 | MAX | 0.742 |
+| мм |  | в |
+| 18.82 | Мин | 0.741 |
+| 18.84 | Макс | 0.742 |
 
-If the shaft is **not** within specifications, the shaft **must** be replaced.
+Если вал **не** в пределах спецификаций, вал должен быть заменен.
 
 ![[bc6shta.png]]
 
-### Assemble
+### Сборка
 
-Install the o-ring (10) into the second groove from the hexagon head end of the shaft (8).
+Установите кольцо (10) во вторую канавку из шестиугольника головки вала (8).
 
-Lubricate the o-ring and shaft with clean engine oil.
+Смазать кольцо и вал чистым моторным маслом.
 
-Install the gear (5) and spring (9) into the housing. The spring will secure the gear in the housing.
+Установите шестерни (5) и пружину (9) в корпус. Пружина будет закреплять шестерни в корпусе.
 
-Install the shaft (8) through the housing and in the gear until the shoulder touches the gear.
+Установите вал (8) через кожух и в шестерню, пока плечо не коснется шестерни.
 
 ![[bc6drfd.png]]
 
-Push in the shaft until the keyway is exposed.
+Нажмите в шахту, пока ключ не будет открыт.
 
-Install the key (7) into the shaft.
+Установите ключ (7) в вал.
 
-Align the keyway in the gear with the key.
+Выровняйте ключ в шестерне с ключом.
 
 ![[bc6drfc.png]]
 
-> [!warning] CAUTION · Осторожно
-> Make sure the key is aligned with the keyway in the gear before pressing the shaft into the gear. If the key is not aligned properly, damage to the engine barring device will result.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что ключ выровнен с ключом в шестерне, прежде чем нажимать вал в шестерне. Если ключ не выровнен должным образом, повреждение устройства заграждения двигателя приведет к повреждению.
 
-Place the engine barring device in an arbor press with the hexagon side of the shaft positioned up.
+Поместите устройство заграждения двигателя в пресс-конструкцию беседки с шестиугольной стороной вала, расположенной вверх.
 
-Install the supports (4) into the housing as shown in the illustration.
+Установите опоры (4) в корпус, как показано на иллюстрации.
 
-Press the shaft into the gear until the end of the key is even with the face of the gear.
+Нажмите вал в шестерню, пока конец ключа не будет даже с лицевой стороной шестерни.
 
-Remove the supports.
+Удалите опоры.
 
 ![[bc6drab.png]]
 
-Push the shaft in until the groove for the E-ring is exposed.
+Подтолкните вал, пока не обнажится канавка для E-кольца.
 
-Install the E-ring (2).
+Установите E-кольцо (2).
 
-Allow the shaft to extend until the E-ring rests against the housing.
+Пусть вал продлевается до тех пор, пока E-кольцо не упирается в кожух.
 
-Install the external cotter clip (1).
+Установите внешний зажим коттера (1).
 
 ![[bc6drfa.png]]
 
-### Install
+### Установка
 
-Install the o-ring seal (1) onto the access hole cover (2).
+Установите уплотнение (1) на крышку отверстия доступа (2).
 
-Lubricate the o-ring seal with vegetable oil.
+Смазать уплотнение с помощью растительного масла.
 
-Install the access hole cover (2) in the bore in the flywheel housing.
+Установите крышку (2) отверстия доступа в цилиндре, который находится в корпусе маховика.
 
-Install the lock washer (3) and capscrew (4) and tighten the capscrew.
+Установите шлюзовую шайбу (3) и болты (4) и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Gaskets are **not** required on a dry type flywheel housing.
+> [!note] Примечание
+> Гаскеты **не** требуются на корпусе маховика сухого типа.
 
-Install the gasket (5), cover plate (6), lock washers (7), and capscrews (8).
+Установите прокладку (5), крышку (6), шайбы (7) и болты (8).
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
-Install the gasket (5), engine barring device (9), lock washers (7), and capscrews (10).
+Установите прокладку (5), устройство заграждения двигателя (9), шайбы (7) и болты (10).
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 185 n•m [136 ft-lb]
+> [!tip] Момент затяжки
+> 185 Н·м [136 фунт-фут]
 
 ![[bc600ha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Exploded View
+>
+> 1. Compression spring
+> 2. Engine barring device gear
+> 3. Engine barring device housing
+> 4. Retaining E-ring
+> 5. Woodruff key
+> 6. External cotter clip
+> 7. Engine barring device shaft
+> 8. O-ring.
+>
+> ### Remove
+>
+> **Note · Примечание**
+> **Only** engines equipped with wet type flywheel housings have the gaskets (5).
+>
+> Remove the starter cover capscrews (7) and lock washers (8).
+>
+> Remove the starter cover (6) and gasket (5).
+>
+> Remove the access hole cover capscrew (4) and lock washer (3).
+>
+> Remove the access hole cover (2), and remove the o-ring (1) from the access cover.
+>
+> Remove the engine barring device capscrews (10) and lock washers (7).
+>
+> Remove the engine barring device (9), and gasket (5).
+>
+> Discard the gaskets and o-ring.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the barring device with solvent and dry with compressed air.
+>
+> ### Disassemble
+>
+> Remove the external cotter clip (1).
+>
+> Push the shaft in and remove the retaining E-ring (2).
+>
+> **CAUTION · Осторожно**
+> Do not attempt to press the shaft out with spacers or supports between the gear and the housing. The key in the shaft will damage the housing.
+>
+> Place the engine barring device in a arbor press.
+>
+> The supports **must** be a minimum of 21 mm \[0.813 in\] long to allow the key to clear the gear and **not** contact the housing.
+>
+> A steel pipe coupling, sizef 3.18 mm \[0.125 in\], has been used successfully for the supports.
+>
+> Place supports (4) between the gear (5) and the housing (6).
+>
+> Push the shaft in until the key (7) is exposed.
+>
+> Remove the key (7).
+>
+> Remove the supports.
+>
+> Remove the following:
+>
+> - Shaft (8)
+> - Spring (9)
+> - Gear (5)
+> - O-ring (10).
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the parts with solvent and dry with compressed air.
+>
+> Check the gear teeth for damage and wear.
+>
+> Replace the gear if the teeth are damaged.
+>
+> Measure the inside diameter of the gear.
+>
+> | Engine Barring Device Gear Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 18.77 | MIN | 0.739 |
+> | 18.80 | MAX | 0.740 |
+>
+> If the gear is **not** within specifications, the gear **must** be replaced.
+>
+> Measure the outside diameter gear area of the shaft.
+>
+> | Engine Barring Device Shaft Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 18.82 | MIN | 0.741 |
+> | 18.84 | MAX | 0.742 |
+>
+> If the shaft is **not** within specifications, the shaft **must** be replaced.
+>
+> ### Assemble
+>
+> Install the o-ring (10) into the second groove from the hexagon head end of the shaft (8).
+>
+> Lubricate the o-ring and shaft with clean engine oil.
+>
+> Install the gear (5) and spring (9) into the housing. The spring will secure the gear in the housing.
+>
+> Install the shaft (8) through the housing and in the gear until the shoulder touches the gear.
+>
+> Push in the shaft until the keyway is exposed.
+>
+> Install the key (7) into the shaft.
+>
+> Align the keyway in the gear with the key.
+>
+> **CAUTION · Осторожно**
+> Make sure the key is aligned with the keyway in the gear before pressing the shaft into the gear. If the key is not aligned properly, damage to the engine barring device will result.
+>
+> Place the engine barring device in an arbor press with the hexagon side of the shaft positioned up.
+>
+> Install the supports (4) into the housing as shown in the illustration.
+>
+> Press the shaft into the gear until the end of the key is even with the face of the gear.
+>
+> Remove the supports.
+>
+> Push the shaft in until the groove for the E-ring is exposed.
+>
+> Install the E-ring (2).
+>
+> Allow the shaft to extend until the E-ring rests against the housing.
+>
+> Install the external cotter clip (1).
+>
+> ### Install
+>
+> Install the o-ring seal (1) onto the access hole cover (2).
+>
+> Lubricate the o-ring seal with vegetable oil.
+>
+> Install the access hole cover (2) in the bore in the flywheel housing.
+>
+> Install the lock washer (3) and capscrew (4) and tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> **Note · Примечание**
+> Gaskets are **not** required on a dry type flywheel housing.
+>
+> Install the gasket (5), cover plate (6), lock washers (7), and capscrews (8).
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> Install the gasket (5), engine barring device (9), lock washers (7), and capscrews (10).
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 185 n•m [136 ft-lb]

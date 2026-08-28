@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-041-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-041-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Coolant Hoses
@@ -35,91 +37,176 @@ tags:
 > **Даты:** изменён 2013-05-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-041-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-041-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM875, CM870 and CM570
 
-> [!warning] CAUTION · Осторожно
-> Do not bend or kink hoses while tightening. Doing so may damage the line.
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Do not use thread sealant on fittings. Doing so can possibility damage internal components.
+Автомобильные модели CM875, CM870 и CM570
 
-> [!warning] CAUTION · Осторожно
-> Check the face of the coolant fitting on the engine and on theturbocharger to make sure o-ring is in place and is not damaged. A damaged or missing o-ring will result in a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не сгибайте и не изгибайте шланги при затягивании. Это может повредить линию.
 
-Use a second wrench to hold the coolant line coupling while tightening the line.
+> [!warning] ОСТОРОЖНО
+> Не используйте герметик на фитингах. Это может привести к повреждению внутренних компонентов.
 
-Install the turbocharger coolant supply line to the EGR supply and the turbocharger, and the return line to the water manifold and turbocharger.
+> [!warning] ОСТОРОЖНО
+> Проверьте лицо охлаждающей жидкости, установленной на двигателе и турбокомпрессоре, чтобы убедиться, что кольцо на месте и не повреждено. Поврежденное или отсутствующее кольцо приведет к утечке охлаждающей жидкости.
 
-> [!tip] Момент затяжки · Torque Value
-> 46 n•m [34 ft-lb]
+Используйте второй ключ, чтобы удерживать соединение линии охлаждающей жидкости при затягивании линии.
+
+Установите линию подачи хладагента турбокомпрессора на источник питания EGR и турбокомпрессор, а также обратную линию на водяной коллектор и турбокомпрессор.
+
+> [!tip] Момент затяжки
+> 46 Н·м [34 фунт-фут]
 
 ![[10200096.png]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum products on the banjo sealing washers. The sealing material will swell and cause the connection to leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте нефтепродукты на герметичных шайбах банджо. Уплотнительный материал будет набухать и вызывать утечку соединения.
 
-Install the coolant inlet and outlet fitting adapters into the turbocharger bearing housing.
+Установите впускные и выпускные адаптеры охлаждающей жидкости в корпус подшипника турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[10200182.png]]
 
-Lubricate the banjo sealing washer with clean engine coolant, soapy water, or vegetable oil.
+Смазать шайбу банджо чистой охлаждающей жидкостью двигателя, мыльной водой или растительным маслом.
 
 ![[10200183.png]]
 
-Install the banjo washers on each side of both coolant return tube ports.
+Установите шайбы банджо с каждой стороны обоих портов возврата охлаждающей жидкости.
 
-Install the turbocharger actuator coolant return line (1) to the turbocharger coolant outlet fitting (2) by installing the retaining nut (3). Do **not** torque.
+Установите обратную линию хладагента привода турбокомпрессора (1) на выходную точку хладагента турбокомпрессора (2), установив удерживающий гайку (3). Не крути крутящий момент.
 
-Install the banjo bolt. Tighten the banjo bolt and washers (4).
+Установите болт банджо. Затягивать болт банджо и шайбы (4).
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
-Tighten the turbocharger coolant outlet retaining nut (3).
+Затянуть выходную точку охлаждающей жидкости турбокомпрессора, удерживающую гайку (3).
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
-Install the turbocharger coolant return line on top of the turbocharger and the water manifold housing.
+Установите обратную линию хладагента турбокомпрессора поверх турбокомпрессора и корпуса водяного коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> 46 n•m [34 ft-lb]
+> [!tip] Момент затяжки
+> 46 Н·м [34 фунт-фут]
 
 ![[10200179.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum products on the banjo sealing washers. The sealing material will swell and cause the connection to leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте нефтепродукты на герметичных шайбах банджо. Уплотнительный материал будет набухать и вызывать утечку соединения.
 
-Lubricate the banjo sealing washer with clean engine coolant, soapy water, or vegetable oil.
+Смазать шайбу банджо чистой охлаждающей жидкостью двигателя, мыльной водой или растительным маслом.
 
 ![[10200183.png]]
 
-Install the banjo washers on each side of both coolant supply tube ports.
+Установите мойки банджо с каждой стороны обоих портов трубки подачи охлаждающей жидкости.
 
-Install the turbocharger coolant supply line to the bottom of the turbocharger bearing housing by installing the retaining nut (1). Do **not** torque.
+Установите линию подачи охлаждающей жидкости турбокомпрессора на дно корпуса подшипника турбокомпрессора, установив удерживающий гайку (1). Не крути крутящий момент.
 
-Install the turbocharger actuator coolant supply banjo bolt (2).
+Установите болт банджо для подачи хладагента на турбокомпрессорный привод (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [132 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [132 фунт-дюйм]
 
-Tighten the turbocharger coolant supply retaining nut (1).
+Затягивать турбокомпрессорную охлаждающую жидкость, удерживающую гайку (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 46 n•m [34 ft-lb]
+> [!tip] Момент затяжки
+> 46 Н·м [34 фунт-фут]
 
 ![[10200178.png]]
 
-Install the coolant supply line.
+Установите линию подачи охлаждающей жидкости.
 
-> [!tip] Момент затяжки · Torque Value
-> 46 n•m [34 ft-lb]
+> [!tip] Момент затяжки
+> 46 Н·м [34 фунт-фут]
 
 ![[10200177.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Automotive with CM875, CM870 and CM570
+>
+> **CAUTION · Осторожно**
+> Do not bend or kink hoses while tightening. Doing so may damage the line.
+>
+> **CAUTION · Осторожно**
+> Do not use thread sealant on fittings. Doing so can possibility damage internal components.
+>
+> **CAUTION · Осторожно**
+> Check the face of the coolant fitting on the engine and on theturbocharger to make sure o-ring is in place and is not damaged. A damaged or missing o-ring will result in a coolant leak.
+>
+> Use a second wrench to hold the coolant line coupling while tightening the line.
+>
+> Install the turbocharger coolant supply line to the EGR supply and the turbocharger, and the return line to the water manifold and turbocharger.
+>
+> **Момент затяжки · Torque Value**
+> 46 n•m [34 ft-lb]
+>
+> Automotive with CM876
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum products on the banjo sealing washers. The sealing material will swell and cause the connection to leak.
+>
+> Install the coolant inlet and outlet fitting adapters into the turbocharger bearing housing.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Lubricate the banjo sealing washer with clean engine coolant, soapy water, or vegetable oil.
+>
+> Install the banjo washers on each side of both coolant return tube ports.
+>
+> Install the turbocharger actuator coolant return line (1) to the turbocharger coolant outlet fitting (2) by installing the retaining nut (3). Do **not** torque.
+>
+> Install the banjo bolt. Tighten the banjo bolt and washers (4).
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Tighten the turbocharger coolant outlet retaining nut (3).
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Install the turbocharger coolant return line on top of the turbocharger and the water manifold housing.
+>
+> **Момент затяжки · Torque Value**
+> 46 n•m [34 ft-lb]
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum products on the banjo sealing washers. The sealing material will swell and cause the connection to leak.
+>
+> Lubricate the banjo sealing washer with clean engine coolant, soapy water, or vegetable oil.
+>
+> Install the banjo washers on each side of both coolant supply tube ports.
+>
+> Install the turbocharger coolant supply line to the bottom of the turbocharger bearing housing by installing the retaining nut (1). Do **not** torque.
+>
+> Install the turbocharger actuator coolant supply banjo bolt (2).
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [132 in-lb]
+>
+> Tighten the turbocharger coolant supply retaining nut (1).
+>
+> **Момент затяжки · Torque Value**
+> 46 n•m [34 ft-lb]
+>
+> Install the coolant supply line.
+>
+> **Момент затяжки · Torque Value**
+> 46 n•m [34 ft-lb]

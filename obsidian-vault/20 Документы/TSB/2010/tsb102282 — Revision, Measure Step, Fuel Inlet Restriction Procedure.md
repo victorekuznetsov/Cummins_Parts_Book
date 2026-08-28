@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102282.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102282.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Measure Step, Fuel Inlet Restriction Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-06-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102282.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102282.pdf)
 
-## Revision, Measure Step, Fuel Inlet Restriction Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, шаг меры, процедура ограничения входа в топливо
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the measure step in Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает этап измерения в Процедуре 006-020 (Ограничение впуска топлива) в разделе 6 Руководства по обслуживанию QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Measure Step, Fuel Inlet Restriction Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the measure step in Procedure 006-020 (Fuel Inlet Restriction) in Section 6 of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].

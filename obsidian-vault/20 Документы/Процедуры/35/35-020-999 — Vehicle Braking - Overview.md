@@ -11,13 +11,15 @@ families:
   - "QSM11"
 manuals:
   - "3666322"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-020-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-020-999.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Vehicle Braking - Overview
@@ -30,8 +32,24 @@ tags:
 > **Даты:** изменён 2002-09-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-020-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-020-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Engine Brake Solenoid
 
-The 2002 ISM engine uses case-grounded engine brake solenoids for a more direct and reliable ground. The engine brake solenoids have both low voltage and high voltage fault codes.
+### Общие сведения
+
+Электромагнит моторного тормоза
+
+Двигатель ISM 2002 года использует заземленные соленоиды тормозов двигателя для более прямой и надежной заземления. Соленоиды тормоза двигателя имеют как низковольтные, так и высоковольтные коды неисправностей.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Engine Brake Solenoid
+>
+> The 2002 ISM engine uses case-grounded engine brake solenoids for a more direct and reliable ground. The engine brake solenoids have both low voltage and high voltage fault codes.

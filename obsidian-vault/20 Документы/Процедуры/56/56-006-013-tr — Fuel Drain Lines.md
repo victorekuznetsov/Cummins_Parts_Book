@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 46
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-013-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fuel Drain Lines
@@ -35,461 +37,838 @@ tags:
 > **Даты:** изменён 2021-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-013-tr.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No recommended Cummins® service tools.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Не рекомендуется использовать инструменты Cummins®.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-with Electronically Actuated Injector
+- Никаких дополнительных предметов обслуживания не требуется.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+### Подготовительные операции
 
-- Clean debris from the fittings.
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the electronic control module cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128 in Section 8.]]
+с форсункой электронного управления
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-with Mechanically Actuated Injector
+- Чистые обломки фитингов.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите электронный модуль управления охлаждающей пластиной.[[56-008-128 — ECM Cooling Plate|См. процедуру 008-128 в разделе 8.]]
 
-> [!note] Note · Примечание
-> This portion of the Remove section is for engines with mechanically actuated injectors and the new style fuel drain line bracket.
+### Снятие
 
-Remove the fuel return line from the engine. Refer to the OEM service manual.
+с форсункой механического управления
 
-Remove the fuel drain tube.
+> [!note] Примечание
+> Эта часть раздела Remove предназначена для двигателей с механически приводимой в действие форсунки и нового стиля сливной линии слива топлива.
+
+Удалите обратную линию топлива из двигателя. См. сервисное руководство изготовителя машины.
+
+Удалите трубку слива топлива.
 
 ![[06600552.png]]
 
-Note the location and orientation of the check valve and coupling. They **must** be installed in the same location.
+Обратите внимание на расположение и ориентацию контрольного клапана и муфты. Они должны быть установлены в одном и том же месте.
 
-Remove the two capscrews securing the bracket to the tee line connector block.
+Удалите два болта, крепящих кронштейн, в блок разъёма линии тис.
 
-Remove the two capscrews securing the bracket to the front of the gear housing.
+Удалите два болта, крепящих кронштейн, в переднюю часть корпуса зубчатой передачи.
 
 ![[06600553.png]]
 
-Loosen the fuel drain nut closest to the fuel manifold.
+Освободите гайку для слива топлива, ближайшую к топливному коллектора.
 
-Remove the fuel drain line and tee line connector assembly from the front of the right bank fuel manifold.
+Удалите линию слива топлива и соединительную линию тифовой линии с передней части правого берегового топливного коллектора.
 
 ![[06600554.png]]
 
-Remove the fuel drain line, check valve, and coupling from the tee line connector. This can require a vise.
+Удалите линию слива топлива, проверьте клапан и соединение с разъёмом линии тить. Это может потребовать глотка.
 
 ![[06600555.png]]
 
-> [!note] Note · Примечание
-> This portion of the Remove section is for engines with mechanically actuated injectors and the old style fuel drain line bracket.
+> [!note] Примечание
+> Эта часть раздела Remove предназначена для двигателей с механически приводимой в действие форсунки и кронштейном линии слива топлива старого стиля.
 
-> [!note] Note · Примечание
-> The option illustrated is a left rear fuel drain location. The fuel drain can also be located at the right rear, left front, and right front.
+> [!note] Примечание
+> Проиллюстрированный вариант - левое заднее место слива топлива. Слив топлива также может быть расположен в правом заднем, левом переднем и правом переднем.
 
-Remove the fuel drain hose from the fuel drain line connector.
+Удалите шланг для слива топлива из разъёма линии слива топлива.
 
 ![[06600076.png]]
 
-Remove the two capscrews from each fuel drain line support block.
+Удалите два болта из каждого блока поддержки линии слива топлива.
 
-Remove the support block cap from the support block.
+Удалите блок поддержки из блока поддержки.
 
 ![[06600077.png]]
 
-Disconnect the fuel drain line from each fuel manifold.
+Отсоедините линию слива топлива от каждого топливного коллектора.
 
-Remove the fuel drain line assembly.
+Удалите сборку линии слива топлива.
 
 ![[06600078.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the capscrew and p-clip which clamp the drain line between the mechanical dump valve and the drain manifold block, to the brace that secures it to the engine.
+Удалите болты и р-затвор, которые зажимают дренажную линию между механическим клапаном сброса и блоком сливного коллектора, в скобу, которая обеспечивает его для двигателя.
 
 ![[06600240.png]]
 
-Remove the banjo capscrews and the sealing washers securing the drain line between the mechanical dump valve and the drain manifold block. Discard the sealing washers.
+Удалите болты банджо и уплотнительные шайбы, обеспечивающие сливную линию между механическим клапаном сброса и блоком сливного коллектора. Отбросьте уплотнительные шайбы.
 
 ![[06600241.png]]
 
-Remove the banjo capscrew and sealing washers securing the air bleed line from the drain manifold block to the fuel pump (1). Discard the sealing washers.
+Удалите болты банджо и уплотнительные шайбы, обеспечивающие линию воздушного кровотечения из блока сливного коллектора в топливный насос (1). Отбросьте уплотнительные шайбы.
 
-Remove the air bleed line from the drain manifold block (2). Discard the o-ring.
+Удалите линию воздушного кровотечения из блока сливного коллектора (2). Отбросьте кольцо.
 
 ![[06600242.png]]
 
-Remove the capscrew, nut, and p-clip which clamp the fuel drain line between the drain manifold block and the fuel block manifold, to the brace that secures it to the engine.
+Удалите болты, гайки и p-клип, которые зажимают линию слива топлива между блоком сливного коллектора и коллектором топливного блока, в скобку, которая обеспечивает его для двигателя.
 
 ![[06600243.png]]
 
-Remove the fuel drain line that connects the drain manifold to the fuel block manifold. Discard the o-rings.
+Удалите линию слива топлива, которая соединяет сливной коллектор с топливным блоком коллектор. Уплотнительные кольца утилизируйте.
 
 ![[06600244.png]]
 
-If it is necessary to remove the main fuel manifold, the aftercooler assembly will need to be removed. [[56-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+Если необходимо снять основной топливный коллектор, то послеохладительный сбор должен быть снят.[[56-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
 
 ![[10600424.png]]
 
-Remove the double banjo capscrew and sealing washers that secure the main fuel drain manifold to the block. Discard the sealing washers.
+Удалите двойные болты банджо и уплотнительные шайбы, которые обеспечивают защиту основного сливного коллектора топлива на блок. Отбросьте уплотнительные шайбы.
 
 ![[06600245.png]]
 
-Remove the remaining eight banjo capscrews, sealing washers, and fuel drain manifold. Discard the sealing washers.
+Удалите оставшиеся восемь болтов банджо, герметизирующие шайбы и коллектор слива топлива. Отбросьте уплотнительные шайбы.
 
-Repeat these procedures on the opposite cylinder bank.
+Повторите эти процедуры на противоположном цилиндре.
 
 ![[06600246.png]]
 
-**For Generator Model DQKAN with Low NOx Emissions Capability**
+**Для генераторной модели DQKAN с низким уровнем выбросов NOx**
 
-There are four fuel drain lines that connect to the fuel drain manifold:
+Существует четыре линии слива топлива, которые соединяются с коллектором слива топлива:
 
-1. Fuel pressure relief valve return
-2. High-pressure pump return
-3. Fuel manifold Drain line
-4. Injector return line
+1. Возвращение клапана сброса давления топлива
+2. Возвращение насоса высокого давления
+3. Топливный коллектор Drain Line
+4. обратная линия форсунки
 
-There is an injector return manifold that runs the length of four cylinders
+Существует форсунка возвратного коллектора, который работает длиной четыре цилиндра.
 
-located behind the aftercooler assemblies on each bank.
+расположенные за послеохлажденными сборками на каждом банке.
 
 ![[00r01513.png]]
 
-Disconnect fittings at the fuel pressure relief valve and fuel drain manifold.
+Отсоедините фитинги на клапане сброса давления топлива и коллекторе слива топлива.
 
-Remove fuel pressure relief valve return line.
+Снять линию возврата клапана сброса давления топлива.
 
-Discard O-rings.
+Отбросьте O-кольца.
 
 ![[00r01514.png]]
 
-> [!danger] WARNING · Опасно
-> The high-pressure pump return line may be hot. Do not touch the line while the engine is running, and allow adequate time for the line to cool before servicing.
+> [!danger] ОПАСНО
+> Линия возврата насоса высокого давления может быть горячей. Не касайтесь линии во время работы двигателя и дайте достаточно времени для охлаждения линии перед обслуживанием.
 
-Loosen the block securing the pump return line to the bracket.
+Удалите блок, обеспечивающий обратную линию насоса в скобку.
 
-Disconnect the fittings securing the pipe to the high-pressure pump and fuel drain manifold.
+Отсоедините фитинги, обеспечивающие безопасность трубы, к насосу высокого давления и коллектору слива топлива.
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
-Remove the line.
+Удалите линию.
 
 ![[00r01515.png]]
 
-Disconnect the fitting at the fuel pump gerotor and drain manifold block.
+Отсоедините фитинг на героторе топливного насоса и блоке сливного коллектора.
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
 ![[00r01516.png]]
 
-Remove p-clip from camshaft follower housing.
+Удалите p-клип из корпуса последователя распредвала.
 
-Disconnect the fitting at the drain manifold block and fuel manifold block.
+Отсоедините фитинг на блоке сливного коллектора и блоке топливного коллектора.
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
 ![[00r01517.png]]
 
-The procedure for removal of the main fuel manifold, if necessary, is the same as detailed above for standard product.
+Процедура удаления основного топливного коллектора при необходимости такая же, как и описанная выше для стандартного продукта.
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Inspect the inside of the engine-to-fuel tank hose for the following:
+Осмотрите внутреннюю часть шланга бака двигателя-топлива на предмет:
 
-- The inner lining of the hose can separate from the center hose section
-- A separation of the inner flap can cause a restriction in the fuel flow.
+- Внутренняя обшивка шланга может отделяться от центральной секции шланга
+- Разделение внутреннего клапана может вызвать ограничение в потоке топлива.
 
-Inspect for any pinches in the hose that can restrict the flow.
+Осмотрите любые зажимы в шланге, которые могут ограничить поток.
 
 ![[fp8hoca.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Flush the fuel drain lines and remove any loose dirt particles using compressed air.
+Промывать линии слива топлива и удалять любые свободные частицы грязи с использованием сжатого воздуха.
 
-Inspect the fuel drain line for cracks or sharp bends that can cause a loss of pressure.
+Проверьте линию слива топлива на наличие трещин или резких изгибов, которые могут вызвать потерю давления.
 
 ![[06400040.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Inspect the drain lines for cracks and other visible damage. The drain lines **must** be replaced if they are cracked or otherwise damaged.
+Осмотрите линии стока на наличие трещин и других видимых повреждений. Сливные линии должны быть заменены, если они повреждены или повреждены иным образом.
 
-Inspect the banjo capscrews for visible damage. Replace if damage is found.
+Проверьте болты банджо на предмет видимых повреждений. Заменить, если обнаружен ущерб.
 
 ![[06400226.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> This portion of the Install section is for engines with mechanically actuated injectors and the new style fuel drain line bracket.
+> [!note] Примечание
+> Эта часть раздела «Установка» предназначена для двигателей с механически приводимой в действие форсунки и кронштейном линии слива топлива нового стиля.
 
-Check that the o-ring has been fitted to the check valve.
+Проверьте, что кольцо было установлено на контрольный клапан.
 
-Lubricate the o-ring with clean engine oil.
+Смажьте уплотнительное кольцо чистым моторным маслом.
 
-install the check valve into the tee line connector and tighten. It will be necessary to hold the line connector in a vise.
+Установите контрольный клапан в разъём линии тхэ и затяните. Необходимо будет удерживать линейный разъем в пробирке.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
 ![[06600556.png]]
 
-Install the o-ring to the coupling.
+Установите кольцо o-ring на соединение.
 
-Lubricate the o-ring with clean engine oil.
+Смажьте уплотнительное кольцо чистым моторным маслом.
 
-Install the coupling in the same location and orientation as it was removed.
+Установите соединение в том же месте и ориентации, в котором оно было удалено.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Line Coupling
+Соединение топливной линии
 
 ![[06600557.png]]
 
-Install an o-ring to the tee line connector where the fuel drain line connects. Use clean engine oil to keep the o-rings in place.
+Установите кольцо o-ring к разъему линии тхэ, где соединяется линия слива топлива. Используйте чистое моторное масло, чтобы держать кольца на месте.
 
-Hold the drain line in the upright position to make sure the o-ring does **not** get dislodged. Install the fuel drain line to the tee line connector.
+Держите линию стока в вертикальном положении, чтобы убедиться, что кольцо **не **вывихнуто. Установите линию слива топлива на разъём линии тхэ.
 
-Hand tighten **only** at this time.
+В это время руки затягиваются только.
 
 ![[06600567.png]]
 
-Install an o-ring onto the face of the male connector at the front of the right bank fuel manifold. Lubricate the o-ring with clean engine oil.
+Установите кольцо на лицевую сторону разъема штепсельной заслонки в передней части правого берегового топливного коллектора. Смажьте уплотнительное кольцо чистым моторным маслом.
 
-Install the tee line connector assembly to the male connector as shown in the illustration.
+Установите сборку разъёма линии тихих к разъему штепсельной вилки, как показано на иллюстрации.
 
-Hand tighten **only** at this time.
+В это время руки затягиваются только.
 
-The check valve **must** be in the same location and orientation as it was removed.
+Контрольный клапан должен быть в том же месте и ориентации, в котором он был удален.
 
 ![[06600558.png]]
 
-Install the support bracket to the front mounting holes in the side of the front gear housing with two mounting capscrews.
+Установите опорный кронштейн на передние монтажные отверстия в боковой части корпуса передней передачи с двумя монтажными болтами.
 
-Hand tighten **only** at this time.
+В это время руки затягиваются только.
 
 ![[06600559.png]]
 
-Install the support bracket to the tee line connector with two mounting capscrews.
+Установите опорный кронштейн на разъём линии тхэ с двумя крепежными болтами.
 
-Hand tighten **only** at this time.
+В это время руки затягиваются только.
 
-Tighten the fuel drain line nut nearest the fuel manifold, while holding the male connector in place.
+Затяните гайку топливной сливной линии, ближайшую к топливному коллектору, удерживая разъем штепселя на месте.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Line Nut Nearest Fuel Manifold
+Топливная линия Nut Ближайший топливный коллектор
 
-Tighten the fuel drain line nut nearest the connector block.
+Затяните гайку топливной сливной линии, ближайшую к блоку разъема.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Line Nut Nearest Connector Block
+Топливная линия сухих орешков рядом с блоком разъёма
 
 ![[06600560.png]]
 
-Tighten the two capscrews that secure the tee line connector to the bracket.
+Затяните два болта, которые обеспечивают подключение линии тить к скобке.
 
-Torque Value:
+Момент затяжки:
 
-Bracket to Connector Capscrews
+Брекет к соединительным болтам
 
-Tighten the two capscrews that secure the bracket to the front of the gear housing.
+Закрепите два болта, которые обеспечивают крепление кронштейна к передней части корпуса зубчатой передачи.
 
-Torque Value:
+Момент затяжки:
 
-Bracket to Gear Housing Capscrews
+Затворы для гильзы Gear
 
 ![[06600561.png]]
 
-Check the fuel drain line and nuts at each end of the line.
+Проверьте линию слива топлива и гайки на каждом конце линии.
 
-Install an o-ring onto the male connector at the tee line and an o-ring to the male connector at the fuel manifold.
+Установите кольцо на разъем для разъема на линии тис и кольцо для разъема для разъема для разъема для разъема для разъема для разъема для разъема для топлива.
 
-Lubricate the o-rings with clean engine oil.
+Смазать кольца чистым моторным маслом.
 
-Install the fuel drain line to the male connector at the tee line. Make sure the o-ring does **not** get dislodged. Tighten the fuel drain line nut at the tee line.
+Установите линию слива топлива на разъём штепсельной ветки на линии тхэ. Убедитесь, что кольцо **не **вывихнуто. Затяните гайку линии слива топлива на линии тиса.
 
-> [!tip] Момент затяжки · Torque Value
-> 120 n•m [89 ft-lb]
+> [!tip] Момент затяжки
+> 120 Н·м [89 фунт-фут]
 
-Install the fuel drain line nut at the fuel manifold male connector and tighten.
+Установите гайку топливной сливной линии на разъем топливного коллектора и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 120 n•m [89 ft-lb]
+> [!tip] Момент затяжки
+> 120 Н·м [89 фунт-фут]
 
-Install the fuel return line. Refer to the OEM service manual.
+Установите обратную линию топлива. См. сервисное руководство изготовителя машины.
 
 ![[06600562.png]]
 
-> [!note] Note · Примечание
-> This portion of the Install section is for engines with mechanically actuated injectors and the old style fuel drain line bracket.
+> [!note] Примечание
+> Эта часть раздела «Установка» предназначена для двигателей с механически приводимой в действие форсунки и кронштейном для линии слива топлива старого стиля.
 
-> [!note] Note · Примечание
-> The option illustrated is a left rear fuel drain location. The fuel drain can also be located at the right rear, left front, and right front.
+> [!note] Примечание
+> Проиллюстрированный вариант - левое заднее место слива топлива. Слив топлива также может быть расположен в правом заднем, левом переднем и правом переднем.
 
-Install and tighten the fuel drain line to the fuel manifold.
+Установите и подтяните линию слива топлива к топливному коллектору.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[06600078.png]]
 
-Install the support block clamp over the fuel drain line and tighten.
+Установите опорный блок зажима над линией отвода топлива и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[06600077.png]]
 
-Install and tighten the drain hose to the fuel drain line.
+Установите и подтяните дренажный шланг к линии слива топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[06600076.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the fuel drain manifold, eight banjo capscrews, and new sealing washers.
+Установите топливный сливной коллектор, восемь болтов банджо и новые уплотнительные шайбы.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Manifold Capscrews
+Снаряды для топливных сливов
 
 ![[06600246.png]]
 
-Install the double banjo capscrew and new sealing washers that secure the fuel drain manifold to the block.
+Установите двойные болты банджо и новые уплотнительные шайбы, которые обеспечивают защиту коллектора слива топлива в блок.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Manifold
+Коллектор слива топлива
 
-Repeat these procedures on the opposite cylinder bank.
+Повторите эти процедуры на противоположном цилиндре.
 
 ![[06600245.png]]
 
-Install the fuel drain line that connects the drain manifold block to the fuel block manifold. Use new o-rings at each end.
+Установите линию слива топлива, которая соединяет блок сливного коллектора с коллектором топливного блока. Используйте новые кольца на каждом конце.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Line
+Линия топливных ливней
 
 ![[06600244.png]]
 
-Install the screw, nut and p-clips which clamp the fuel drain line between the drain manifold block and the fuel block manifold, to the brace that secures it to the cylinder block.
+Установите винт, гайку и p-затворы, которые зажимают линию слива топлива между блоком сливного коллектора и коллектором топливного блока, к скобке, которая обеспечивает его блок цилиндра.
 
-Torque Value:
+Момент затяжки:
 
-P-Clip Capscrew
+5.2.1 Зажимные болты
 
 ![[06600243.png]]
 
-Install the banjo capscrew and new sealing washers securing the air bleed line from the drain manifold block (2) to the fuel pump (1).
+Установите болты банджо и новые уплотнительные шайбы, обеспечивающие линию воздушного кровотечения от блока сливного коллектора (2) до топливного насоса (1).
 
-Torque Value:
+Момент затяжки:
 
-Air Bleed Line
+Линия Air Bleed
 
-Install the air bleed line to the drain manifold block. Use a new o-ring.
+Установите линию воздушного кровотечения на блок дренажного коллектора. Используйте новое кольцо.
 
-Torque Value:
+Момент затяжки:
 
-Air Bleed Line
+Линия Air Bleed
 
 ![[06600242.png]]
 
-Install the banjo capscrews and new sealing washers securing the drain line between the mechanical dump valve and the drain manifold block.
+Установите болты банджо и новые уплотнительные шайбы, обеспечивающие сливную линию между механическим клапаном сброса и блоком сливного коллектора.
 
-Torque Value:
+Момент затяжки:
 
-Fuel Drain Line Banjo Capscrew
+Затворы для топливных дрен Банджо
 
 ![[06600241.png]]
 
-Install the capscrew and p-clip which clamp the drain line between the mechanical dump valve and the drain manifold block, to the brace that secures it to the cylinder block.
+Установите болты и р-затвор, которые зажимают дренажную линию между механическим клапаном сброса и блоком сливного коллектора, к скобке, которая обеспечивает его к блоку цилиндра.
 
-Torque Value:
+Момент затяжки:
 
-P-Clip Capscrew
+5.2.1 Зажимные болты
 
 ![[06600240.png]]
 
-**For Generator Model DQKAN with Low NOx Emissions Capability**
+**Для генераторной модели DQKAN с низким уровнем выбросов NOx**
 
-The procedure for installation of the main fuel manifold, if necessary, is the same as detailed above for standard product.
+Процедура установки основного топливного коллектора при необходимости такая же, как и описанная выше для стандартного изделия.
 
-Install new o-rings.
+Установите новые кольца.
 
-Connect the fitting at the drain manifold block and fuel manifold block.
+Подключите фитинг на блоке дренажного коллектора и блоке топливного коллектора.
 
-Install p-clip to the camshaft follower housing.
+Установите p-клип на корпус последователя распредвала.
 
-> [!tip] Момент затяжки · Torque Value
-> P-Clip 43 n•m [32 ft-lb]
+> [!tip] Момент затяжки
+> P-зажим 43 Н·м [32 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Fittings 55 n•m [41 ft-lb]
+> [!tip] Момент затяжки
+> Hose Fittings 55 Н·м [41 фунт-фут]
 
 ![[00r01517.png]]
 
-Install new o-rings.
+Установите новые кольца.
 
-Install the fitting at the fuel pump gerotor and drain manifold block.
+Установите фитинг на геротор топливного насоса и блок сливного коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Fittings 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> Hose Fittings 60 Н·м [44 фут-лб]
 
 ![[00r01516.png]]
 
-Install new o-rings.
+Установите новые кольца.
 
-Install the line, securing the fittings at the high-pressure pump and fuel drain manifold hand tight.
+Установите линию, крепя фитинги на насосе высокого давления и жесткой руке сливного коллектора топлива.
 
-Install the line to the block clamp securing the Pump return line to the bracket and tighten.
+Установите линию на блок-зажим, закрепляющий обратную линию насоса в скобке и затягивайте.
 
-Torque the fittings securing the line at the high-pressure pump and fuel drain manifold.
+Вращение фитингов, обеспечивающих защиту линии на насосе высокого давления и сливном коллекторе топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Fittings 55 n•m [41 ft-lb]
+> [!tip] Момент затяжки
+> Hose Fittings 55 Н·м [41 фунт-фут]
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Bracket 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> Hose Bracket 10 Н·м [89 фунт-дюйм]
 
 ![[00r01515.png]]
 
-Install new o-rings.
+Установите новые кольца.
 
-Connect and torque the fittings at the fuel pressure relief valve and the fuel drain manifold.
+Соедините и крутите фитинги на клапане сброса давления топлива и коллекторе слива топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Fittings 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Hose Fittings 45 Н·м [33 фут-лб]
 
 ![[00r01514.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Install the aftercooler assembly. [[56-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
-- Install the Electronic Control Module cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128 in Section 8.]]
-- Reconnect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for leaks.
+- Установите сборку послеохладителя.[[56-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
+- Установите охлаждающую пластину электронного модуля управления.[[56-008-128 — ECM Cooling Plate|См. процедуру 008-128 в разделе 8.]]
+- Подсоедините батареи. См. сервисную документацию изготовителя оборудования.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No recommended Cummins® service tools.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Preparatory Steps
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Clean debris from the fittings.
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the electronic control module cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128 in Section 8.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> This portion of the Remove section is for engines with mechanically actuated injectors and the new style fuel drain line bracket.
+>
+> Remove the fuel return line from the engine. Refer to the OEM service manual.
+>
+> Remove the fuel drain tube.
+>
+> Note the location and orientation of the check valve and coupling. They **must** be installed in the same location.
+>
+> Remove the two capscrews securing the bracket to the tee line connector block.
+>
+> Remove the two capscrews securing the bracket to the front of the gear housing.
+>
+> Loosen the fuel drain nut closest to the fuel manifold.
+>
+> Remove the fuel drain line and tee line connector assembly from the front of the right bank fuel manifold.
+>
+> Remove the fuel drain line, check valve, and coupling from the tee line connector. This can require a vise.
+>
+> **Note · Примечание**
+> This portion of the Remove section is for engines with mechanically actuated injectors and the old style fuel drain line bracket.
+>
+> **Note · Примечание**
+> The option illustrated is a left rear fuel drain location. The fuel drain can also be located at the right rear, left front, and right front.
+>
+> Remove the fuel drain hose from the fuel drain line connector.
+>
+> Remove the two capscrews from each fuel drain line support block.
+>
+> Remove the support block cap from the support block.
+>
+> Disconnect the fuel drain line from each fuel manifold.
+>
+> Remove the fuel drain line assembly.
+>
+> with Electronically Actuated Injector
+>
+> Remove the capscrew and p-clip which clamp the drain line between the mechanical dump valve and the drain manifold block, to the brace that secures it to the engine.
+>
+> Remove the banjo capscrews and the sealing washers securing the drain line between the mechanical dump valve and the drain manifold block. Discard the sealing washers.
+>
+> Remove the banjo capscrew and sealing washers securing the air bleed line from the drain manifold block to the fuel pump (1). Discard the sealing washers.
+>
+> Remove the air bleed line from the drain manifold block (2). Discard the o-ring.
+>
+> Remove the capscrew, nut, and p-clip which clamp the fuel drain line between the drain manifold block and the fuel block manifold, to the brace that secures it to the engine.
+>
+> Remove the fuel drain line that connects the drain manifold to the fuel block manifold. Discard the o-rings.
+>
+> If it is necessary to remove the main fuel manifold, the aftercooler assembly will need to be removed. [[56-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+>
+> Remove the double banjo capscrew and sealing washers that secure the main fuel drain manifold to the block. Discard the sealing washers.
+>
+> Remove the remaining eight banjo capscrews, sealing washers, and fuel drain manifold. Discard the sealing washers.
+>
+> Repeat these procedures on the opposite cylinder bank.
+>
+> **For Generator Model DQKAN with Low NOx Emissions Capability**
+>
+> There are four fuel drain lines that connect to the fuel drain manifold:
+>
+> 1. Fuel pressure relief valve return
+> 2. High-pressure pump return
+> 3. Fuel manifold Drain line
+> 4. Injector return line
+>
+> There is an injector return manifold that runs the length of four cylinders
+>
+> located behind the aftercooler assemblies on each bank.
+>
+> Disconnect fittings at the fuel pressure relief valve and fuel drain manifold.
+>
+> Remove fuel pressure relief valve return line.
+>
+> Discard O-rings.
+>
+> **WARNING · Опасно**
+> The high-pressure pump return line may be hot. Do not touch the line while the engine is running, and allow adequate time for the line to cool before servicing.
+>
+> Loosen the block securing the pump return line to the bracket.
+>
+> Disconnect the fittings securing the pipe to the high-pressure pump and fuel drain manifold.
+>
+> Discard the o-rings.
+>
+> Remove the line.
+>
+> Disconnect the fitting at the fuel pump gerotor and drain manifold block.
+>
+> Discard the o-rings.
+>
+> Remove p-clip from camshaft follower housing.
+>
+> Disconnect the fitting at the drain manifold block and fuel manifold block.
+>
+> Discard the o-rings.
+>
+> The procedure for removal of the main fuel manifold, if necessary, is the same as detailed above for standard product.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> Inspect the inside of the engine-to-fuel tank hose for the following:
+>
+> - The inner lining of the hose can separate from the center hose section
+> - A separation of the inner flap can cause a restriction in the fuel flow.
+>
+> Inspect for any pinches in the hose that can restrict the flow.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Flush the fuel drain lines and remove any loose dirt particles using compressed air.
+>
+> Inspect the fuel drain line for cracks or sharp bends that can cause a loss of pressure.
+>
+> with Electronically Actuated Injector
+>
+> Inspect the drain lines for cracks and other visible damage. The drain lines **must** be replaced if they are cracked or otherwise damaged.
+>
+> Inspect the banjo capscrews for visible damage. Replace if damage is found.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> This portion of the Install section is for engines with mechanically actuated injectors and the new style fuel drain line bracket.
+>
+> Check that the o-ring has been fitted to the check valve.
+>
+> Lubricate the o-ring with clean engine oil.
+>
+> install the check valve into the tee line connector and tighten. It will be necessary to hold the line connector in a vise.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> Install the o-ring to the coupling.
+>
+> Lubricate the o-ring with clean engine oil.
+>
+> Install the coupling in the same location and orientation as it was removed.
+>
+> Torque Value:
+>
+> Fuel Line Coupling
+>
+> Install an o-ring to the tee line connector where the fuel drain line connects. Use clean engine oil to keep the o-rings in place.
+>
+> Hold the drain line in the upright position to make sure the o-ring does **not** get dislodged. Install the fuel drain line to the tee line connector.
+>
+> Hand tighten **only** at this time.
+>
+> Install an o-ring onto the face of the male connector at the front of the right bank fuel manifold. Lubricate the o-ring with clean engine oil.
+>
+> Install the tee line connector assembly to the male connector as shown in the illustration.
+>
+> Hand tighten **only** at this time.
+>
+> The check valve **must** be in the same location and orientation as it was removed.
+>
+> Install the support bracket to the front mounting holes in the side of the front gear housing with two mounting capscrews.
+>
+> Hand tighten **only** at this time.
+>
+> Install the support bracket to the tee line connector with two mounting capscrews.
+>
+> Hand tighten **only** at this time.
+>
+> Tighten the fuel drain line nut nearest the fuel manifold, while holding the male connector in place.
+>
+> Torque Value:
+>
+> Fuel Drain Line Nut Nearest Fuel Manifold
+>
+> Tighten the fuel drain line nut nearest the connector block.
+>
+> Torque Value:
+>
+> Fuel Drain Line Nut Nearest Connector Block
+>
+> Tighten the two capscrews that secure the tee line connector to the bracket.
+>
+> Torque Value:
+>
+> Bracket to Connector Capscrews
+>
+> Tighten the two capscrews that secure the bracket to the front of the gear housing.
+>
+> Torque Value:
+>
+> Bracket to Gear Housing Capscrews
+>
+> Check the fuel drain line and nuts at each end of the line.
+>
+> Install an o-ring onto the male connector at the tee line and an o-ring to the male connector at the fuel manifold.
+>
+> Lubricate the o-rings with clean engine oil.
+>
+> Install the fuel drain line to the male connector at the tee line. Make sure the o-ring does **not** get dislodged. Tighten the fuel drain line nut at the tee line.
+>
+> **Момент затяжки · Torque Value**
+> 120 n•m [89 ft-lb]
+>
+> Install the fuel drain line nut at the fuel manifold male connector and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 120 n•m [89 ft-lb]
+>
+> Install the fuel return line. Refer to the OEM service manual.
+>
+> **Note · Примечание**
+> This portion of the Install section is for engines with mechanically actuated injectors and the old style fuel drain line bracket.
+>
+> **Note · Примечание**
+> The option illustrated is a left rear fuel drain location. The fuel drain can also be located at the right rear, left front, and right front.
+>
+> Install and tighten the fuel drain line to the fuel manifold.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the support block clamp over the fuel drain line and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Install and tighten the drain hose to the fuel drain line.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the fuel drain manifold, eight banjo capscrews, and new sealing washers.
+>
+> Torque Value:
+>
+> Fuel Drain Manifold Capscrews
+>
+> Install the double banjo capscrew and new sealing washers that secure the fuel drain manifold to the block.
+>
+> Torque Value:
+>
+> Fuel Drain Manifold
+>
+> Repeat these procedures on the opposite cylinder bank.
+>
+> Install the fuel drain line that connects the drain manifold block to the fuel block manifold. Use new o-rings at each end.
+>
+> Torque Value:
+>
+> Fuel Drain Line
+>
+> Install the screw, nut and p-clips which clamp the fuel drain line between the drain manifold block and the fuel block manifold, to the brace that secures it to the cylinder block.
+>
+> Torque Value:
+>
+> P-Clip Capscrew
+>
+> Install the banjo capscrew and new sealing washers securing the air bleed line from the drain manifold block (2) to the fuel pump (1).
+>
+> Torque Value:
+>
+> Air Bleed Line
+>
+> Install the air bleed line to the drain manifold block. Use a new o-ring.
+>
+> Torque Value:
+>
+> Air Bleed Line
+>
+> Install the banjo capscrews and new sealing washers securing the drain line between the mechanical dump valve and the drain manifold block.
+>
+> Torque Value:
+>
+> Fuel Drain Line Banjo Capscrew
+>
+> Install the capscrew and p-clip which clamp the drain line between the mechanical dump valve and the drain manifold block, to the brace that secures it to the cylinder block.
+>
+> Torque Value:
+>
+> P-Clip Capscrew
+>
+> **For Generator Model DQKAN with Low NOx Emissions Capability**
+>
+> The procedure for installation of the main fuel manifold, if necessary, is the same as detailed above for standard product.
+>
+> Install new o-rings.
+>
+> Connect the fitting at the drain manifold block and fuel manifold block.
+>
+> Install p-clip to the camshaft follower housing.
+>
+> **Момент затяжки · Torque Value**
+> P-Clip 43 n•m [32 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Hose Fittings 55 n•m [41 ft-lb]
+>
+> Install new o-rings.
+>
+> Install the fitting at the fuel pump gerotor and drain manifold block.
+>
+> **Момент затяжки · Torque Value**
+> Hose Fittings 60 n•m [44 ft-lb]
+>
+> Install new o-rings.
+>
+> Install the line, securing the fittings at the high-pressure pump and fuel drain manifold hand tight.
+>
+> Install the line to the block clamp securing the Pump return line to the bracket and tighten.
+>
+> Torque the fittings securing the line at the high-pressure pump and fuel drain manifold.
+>
+> **Момент затяжки · Torque Value**
+> Hose Fittings 55 n•m [41 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Hose Bracket 10 n•m [89 in-lb]
+>
+> Install new o-rings.
+>
+> Connect and torque the fittings at the fuel pressure relief valve and the fuel drain manifold.
+>
+> **Момент затяжки · Torque Value**
+> Hose Fittings 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the aftercooler assembly. [[56-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+> - Install the Electronic Control Module cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128 in Section 8.]]
+> - Reconnect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for leaks.

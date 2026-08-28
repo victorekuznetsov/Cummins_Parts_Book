@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-021-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-021-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # EGR Mixer
@@ -31,16 +33,38 @@ tags:
 > **Даты:** изменён 2011-10-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-021-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-021-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the capscrews at the three bolt flange between the EGR mixer and the air intake horn.
 
-Remove the capscrews at the EGR mixer support bracket.
+### Снятие
 
-Remove the EGR mixer.
+Удалите болты на трех болтовых фланцах между смесителем EGR и рогом воздухозаборника.
 
-Remove the mixer support bracket.
+Удалите болты в подложке поддержки смесителя EGR.
 
-Remove the EGR return tube hose.
+Удалите смеситель EGR.
+
+Снимите подложку поддержки микшера.
+
+Удалите обратно трубчатый шланг EGR.
 
 ![[11200058.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the capscrews at the three bolt flange between the EGR mixer and the air intake horn.
+>
+> Remove the capscrews at the EGR mixer support bracket.
+>
+> Remove the EGR mixer.
+>
+> Remove the mixer support bracket.
+>
+> Remove the EGR return tube hose.

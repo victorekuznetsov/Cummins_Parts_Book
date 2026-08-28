@@ -14,13 +14,15 @@ families:
   - "QSK60"
 manuals:
   - "4021530"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -34,8 +36,24 @@ tags:
 > **Даты:** изменён 2003-10-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-008.pdf)
 
-## **Camshaft ([[56-001-008 — Manual Not Available\|56-001-008]])**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 11-Oct-2003
+## **Распредвал ([[56-001-008 — Manual Not Available\|56-001-008]])**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 11 октября 2003 года
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **Camshaft ([[56-001-008 — Manual Not Available\|56-001-008]])**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 11-Oct-2003

@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-055.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-055.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Gear Train Backlash, Front
@@ -35,19 +37,44 @@ tags:
 > **Даты:** изменён 2005-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-055.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-055.pdf)
 
-### Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This check **must** be performed after the gear cover is removed or before installation.
 
-The adjacent (engaging) gear **must not** turn as the gear being measured is turned.
+### Измерение
 
-Position a dial indicator so the tip is contacting the surface of the gear tooth as shown. Do **not** allow the mating gear to turn.
+Эта проверка должна быть выполнена после того, как крышка передач удалена или до установки.
 
-Rotate the gear being measured **clockwise**. Position the indicator to “0.” Rotate the gear **counterclockwise**, and read the indicator.
+Прилегающая (зацепляющая) передача **не должна** поворачиваться по мере поворота измеряемой передачи.
 
-| mm |  | in |
+Поместите индикатор циферблата, чтобы наконечник контактировал с поверхностью зуба зубчатой передачи, как показано. Не позволяйте спаривающему механизму поворачиваться.
+
+Вращайте измеряемую передачу **по часовой стрелке**. Поместите индикатор на "0". Вращайте передачу **против часовой стрелки** и читайте индикатор.
+
+| мм |  | в |
 |---|---|---|
-| 0.07 | MIN | 0.003 |
-| 0.51 | MAX | 0.020 |
+| 0.07 | Мин | 0.003 |
+| 0.51 | Макс | 0.020 |
 
 ![[01600087.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Measure
+>
+> This check **must** be performed after the gear cover is removed or before installation.
+>
+> The adjacent (engaging) gear **must not** turn as the gear being measured is turned.
+>
+> Position a dial indicator so the tip is contacting the surface of the gear tooth as shown. Do **not** allow the mating gear to turn.
+>
+> Rotate the gear being measured **clockwise**. Position the indicator to “0.” Rotate the gear **counterclockwise**, and read the indicator.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.07 | MIN | 0.003 |
+> | 0.51 | MAX | 0.020 |

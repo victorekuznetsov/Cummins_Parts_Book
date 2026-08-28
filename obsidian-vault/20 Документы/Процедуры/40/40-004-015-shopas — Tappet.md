@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-004-015-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-004-015-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Tappet
@@ -33,15 +35,36 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-004-015-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-004-015-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Lubricate the tappets with assembly lubricant, Part Number 3163087, or equivalent.
 
-Prior to installing the camshaft, install the tappets through the bottom of the engine.
+### Установка
 
-If reusing the tappets, the tappets **must** be installed in the same location in which the tappets where removed.
+Смазать краны с помощью сборочного смазочного материала, номер детали 3163087, или эквивалент.
 
-> [!note] Note · Примечание
-> Anytime new tappets are used, the push rods **must** be replaced as well.
+Перед установкой распределительного вала установите краны через дно двигателя.
+
+При повторном использовании кранов краны должны быть установлены в том же месте, в котором краны были удалены.
+
+> [!note] Примечание
+> Каждый раз, когда используются новые краны, толкатели должны быть заменены.
 
 ![[kf900ha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Lubricate the tappets with assembly lubricant, Part Number 3163087, or equivalent.
+>
+> Prior to installing the camshaft, install the tappets through the bottom of the engine.
+>
+> If reusing the tappets, the tappets **must** be installed in the same location in which the tappets where removed.
+>
+> **Note · Примечание**
+> Anytime new tappets are used, the push rods **must** be replaced as well.

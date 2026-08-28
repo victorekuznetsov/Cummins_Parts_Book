@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103306.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103306.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Procedure, Multple Section Revisions
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-01-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103306.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103306.pdf)
 
-## Fuel Pump Procedure, Multple Section Revisions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура топливных насосов, изменения в разделе Multple
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 005-016 in Section 5 to include information about painting the fuel pump after it is installed.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Служба/Части» пересматривает Процедура 005-016 в разделе 5, чтобы включить информацию о покраске топливного насоса после его установки.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fuel Pump Procedure, Multple Section Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 005-016 in Section 5 to include information about painting the fuel pump after it is installed.

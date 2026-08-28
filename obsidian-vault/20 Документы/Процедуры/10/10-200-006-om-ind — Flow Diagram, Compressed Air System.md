@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666423"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-200-006-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-200-006-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Compressed Air System
@@ -34,21 +36,46 @@ tags:
 > **Даты:** изменён 2008-02-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-200-006-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-200-006-om-ind.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[00c00007.png]]
 
-1. Coolant
-2. Air
-3. Lubricant.
+1. охлаждающий
+2. Воздух
+3. Смазочный материал.
 
 ![[00c00008.png]]
 
-WABCO - Type System with Air Dryer
+WABCO - Типовая система с воздушным сушилкой
 
-1. Governor
-2. Discharge
-3. Intake
-4. Reservoir (wet tank)
-5. Air compressor
-6. Air dryer.
+1. губернатор
+2. Выгрузка
+3. принимать
+4. Резервуар (мокрый танк)
+5. Воздушный компрессор
+6. Воздушная сушилка.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> 1. Coolant
+> 2. Air
+> 3. Lubricant.
+>
+> WABCO - Type System with Air Dryer
+>
+> 1. Governor
+> 2. Discharge
+> 3. Intake
+> 4. Reservoir (wet tank)
+> 5. Air compressor
+> 6. Air dryer.

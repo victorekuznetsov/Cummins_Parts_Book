@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-001-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-001-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Cam Follower Assembly
@@ -35,53 +37,108 @@ tags:
 > **Даты:** изменён 2005-09-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-001-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-001-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!warning] CAUTION · Осторожно
-> Do not touch the machined surfaces of the camshaft follower roller with bare hands. This will cause rust to form; before handling, lubricate the camshaft follower roller with clean engine oil.
+### Установка
 
-Use clean engine oil to lubricate the camshaft and cam followers.
+с форсункой механического управления
 
-Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+> [!warning] ОСТОРОЖНО
+> Не прикасайтесь к обработанным поверхностям рулона-последователя распредвала голыми руками. Это вызовет образование ржавчины; перед обработкой смазать валочный ролик-последователь чистым моторным маслом.
 
-Install and tighten the mounting capscrews.
+Используйте чистое моторное масло для смазки распределительного вала и кранов.
 
-| **Torque Value:** | Step 1 | 35 n.m \[26 ft-lb\] |
+Установите сборку крана. Вал **должен** поместиться на обоих кольцевых долотах.
+
+Установите и затяните крепежные болты.
+
+| **Момент затяжки:** | ШАГ 1. | 35 Н·м[26 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 140 n.m \[103 ft-lb\] |
+|  | ШАГ 2. | 140 Н·м[103 фунт-фут] |
 |---|---|---|
 
-|  | Step 3 | 280 n.m \[207 ft-lb\] |
+|  | ШАГ 3. | 280 н.м.[207 фунт-фут] |
 |---|---|---|
 
 ![[kf400ha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine. Use clean engine oil to lubricate the cam follower assembly and camshaft.
+> [!note] Примечание
+> Сервисные краны для замены покрыты тяжелым консервантом для предотвращения ржавчины. Этот консервант должен быть полностью удален с помощью растворителя до установки деталей на двигатель. Используйте чистое моторное масло для смазки кранового узла и распределительного вала.
 
-Lubricate the cam follower assembly.
+Смазать крановый сбор.
 
 ![[04600031.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not touch the machined surfaces of the camshaft follower roller with bare hands. This will cause rust to form; before handling, lubricate the camshaft follower roller with clean engine oil.
+> [!warning] ОСТОРОЖНО
+> Не прикасайтесь к обработанным поверхностям рулона-последователя распредвала голыми руками. Это вызовет образование ржавчины; перед обработкой смазать валочный ролик-последователь чистым моторным маслом.
 
-Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+Установите сборку крана. Вал **должен** поместиться на обоих кольцевых долотах.
 
-Lubricate the threads and install and tighten the mounting capscrews.
+Смазать резьбу и установить и затянуть крепежные болты.
 
-| **Torque Value:** | Step 1 | 35 n.m \[26 ft-lb\] |
+| **Момент затяжки:** | ШАГ 1. | 35 Н·м[26 фунт-фут] |
 |---|---|---|
 
-|  | Step 2 | 140 n.m \[103 ft-lb\] |
+|  | ШАГ 2. | 140 Н·м[103 фунт-фут] |
 |---|---|---|
 
-|  | Step 3 | 280 n.m \[207 ft-lb\] |
+|  | ШАГ 3. | 280 н.м.[207 фунт-фут] |
 |---|---|---|
 
 ![[03400083.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not touch the machined surfaces of the camshaft follower roller with bare hands. This will cause rust to form; before handling, lubricate the camshaft follower roller with clean engine oil.
+>
+> Use clean engine oil to lubricate the camshaft and cam followers.
+>
+> Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+>
+> Install and tighten the mounting capscrews.
+>
+> | **Torque Value:** | Step 1 | 35 n.m \[26 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 140 n.m \[103 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 3 | 280 n.m \[207 ft-lb\] |
+> |---|---|---|
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> Service replacement cam followers are coated with a heavy preservative to prevent rust. This preservative **must** be removed completely with solvent before the parts are installed on the engine. Use clean engine oil to lubricate the cam follower assembly and camshaft.
+>
+> Lubricate the cam follower assembly.
+>
+> **CAUTION · Осторожно**
+> Do not touch the machined surfaces of the camshaft follower roller with bare hands. This will cause rust to form; before handling, lubricate the camshaft follower roller with clean engine oil.
+>
+> Install the cam follower assembly. The shaft **must** fit on both ring dowels.
+>
+> Lubricate the threads and install and tighten the mounting capscrews.
+>
+> | **Torque Value:** | Step 1 | 35 n.m \[26 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 2 | 140 n.m \[103 ft-lb\] |
+> |---|---|---|
+>
+> |  | Step 3 | 280 n.m \[207 ft-lb\] |
+> |---|---|---|

@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-030.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-030.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Pulley Assembly
@@ -33,10 +35,26 @@ tags:
 > **Даты:** изменён 2003-04-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-030.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-030.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the fan drive idler pulley assembly. Rebuild or replace the assembly as necessary.
 
-Contact a Local Cummins Authorized Repair Facility to schedule this maintenance.
+### Контроль при обслуживании
+
+Проверьте сборку движка вентилятора. Восстановление или замена сборки по мере необходимости.
+
+Свяжитесь с местным авторизованным ремонтным центром Cummins, чтобы запланировать это обслуживание.
 
 ![[08400041.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Inspect the fan drive idler pulley assembly. Rebuild or replace the assembly as necessary.
+>
+> Contact a Local Cummins Authorized Repair Facility to schedule this maintenance.

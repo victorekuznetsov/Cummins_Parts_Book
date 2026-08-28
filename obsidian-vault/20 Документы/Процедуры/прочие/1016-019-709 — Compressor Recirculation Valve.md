@@ -10,12 +10,14 @@ families:
 manuals:
   - "5659763"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-019-709.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-019-709.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Compressor Recirculation Valve
@@ -28,87 +30,170 @@ tags:
 > **Даты:** изменён 2026-02-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-019-709.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-019-709.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Digital Multimeter Kit, Part Number 3400162
-- Electrical Test Lead Kit, Part Number 5299367
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Цифровой мультиметр, часть 3400162
+- Электрический испытательный щуп Kit, номер детали 5299367
 
-### General Information
+#### Дополнительные сервисные позиции
 
-The compressor recirculation valve (1) recirculates air from the turbocharger outlet to the turbocharger inlet when the throttle closes. The compressor recirculation valve is mounted on the turbocharger. The valve is controlled by the Engine Control Module (ECM).
+- Никаких дополнительных предметов обслуживания не требуется.
 
-The valve is closed when the valve is **not** energized. The valve will open when the ECM detects the throttle is closed.
+### Общие сведения
+
+Клапан (1) рециркуляции компрессора перенаправляет воздух от розетки турбокомпрессора к входу турбокомпрессора, когда дроссель закрывается. Клапан рециркуляции компрессора установлен на турбокомпрессоре. Клапан управляется модулем управления двигателем (ECM).
+
+Клапан закрывается, когда клапан **не** заряжен. Клапан откроется, когда ECM обнаружит, что дроссел закрыт.
 
 ![[19s00256.png]]
 
-### Initial Check
+### Первичная проверка
 
-Disconnect the compressor recirculation valve from the engine wiring harness.
+Отсоедините клапан рециркуляции компрессора от электропроводки двигателя.
 
-Measure the resistance between the compressor recirculation valve (+) pin and the compressor recirculation valve (-) pin. Use digital multimeter, Part Number 3164489, from Digital Multimeter Kit, Part Number 3400162, and test leads from Electrical Test Lead Kit, Part Number 5299367.
+Измерить сопротивление между штифтом рециркуляции компрессора (+) и штифтом рециркуляции компрессора (-). Используйте цифровой мультиметр, Часть Номер 3164489, из Цифровой мультиметрический комплект, Часть Номер 3400162, и измерительный щуп из Электрического испытательного щупа, Часть Номер 5299367.
 
-| Resistance |  |
+| Сопротивление |  |
 |---|---|
-|  | Ohms |
-| Min | 14.7 |
-| Max | 16.7 |
+|  | Омс |
+| Минь | 14.7 |
+| Макс | 16.7 |
 
 ![[3377161.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-### Remove
+### Снятие
 
-Disconnect the engine harness connector from the compressor recirculation valve.
+Отсоедините разъём ремня электропроводки двигателя от клапана рециркуляции компрессора.
 
-Remove the four capscrews alternately and the compressor recirculation valve from turbocharger.
+Удалите четыре болта поочередно и клапан рециркуляции компрессора из турбокомпрессора.
 
 ![[19s00257.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the compressor recirculation valve for oil contamination, damaged or exposed wires, bent or broken pins, damaged o-ring, and damaged connectors.
+Проверить клапан рециркуляции компрессора на наличие загрязнения маслом, поврежденных или открытых проводов, изогнутых или сломанных штифтов, поврежденного кольца и поврежденных разъёмов.
 
-Replace the compressor recirculation valve if damage is found.
+Замените клапан рециркуляции компрессора, если обнаружено повреждение.
 
 ![[19s00258.png]]
 
-Measure the free state height of the valve cover head. Replace the compressor recirculation valve if the measurement does **not** meet the specification.
+Измерить высоту свободного состояния головки клапанного чехла. Заменить клапан рециркуляции компрессора, если измерение не соответствует спецификации.
 
-| Free State Height of Valve Cover Head |  |  |
+| Свободное состояние Высота клапанного чехла Головка |  |  |
 |---|---|---|
-| mm |  | in |
-| 29.5 | MIN | 1.16 |
-| 30.5 | MAX | 1.20 |
+| мм |  | в |
+| 29.5 | Мин | 1.16 |
+| 30.5 | Макс | 1.20 |
 
 ![[19s00259.png]]
 
-### Install
+### Установка
 
-Install the compressor recirculation valve and four capscrews.
+Установите клапан рециркуляции компрессора и четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-Connect the engine harness connector to the compressor recirculation valve.
+Подключите разъём ремня электропроводки двигателя к клапану рециркуляции компрессора.
 
 ![[19s00257.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем. Проверьте правильность операции.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Digital Multimeter Kit, Part Number 3400162
+> - Electrical Test Lead Kit, Part Number 5299367
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> The compressor recirculation valve (1) recirculates air from the turbocharger outlet to the turbocharger inlet when the throttle closes. The compressor recirculation valve is mounted on the turbocharger. The valve is controlled by the Engine Control Module (ECM).
+>
+> The valve is closed when the valve is **not** energized. The valve will open when the ECM detects the throttle is closed.
+>
+> ### Initial Check
+>
+> Disconnect the compressor recirculation valve from the engine wiring harness.
+>
+> Measure the resistance between the compressor recirculation valve (+) pin and the compressor recirculation valve (-) pin. Use digital multimeter, Part Number 3164489, from Digital Multimeter Kit, Part Number 3400162, and test leads from Electrical Test Lead Kit, Part Number 5299367.
+>
+> | Resistance |  |
+> |---|---|
+> |  | Ohms |
+> | Min | 14.7 |
+> | Max | 16.7 |
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine. Check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> Disconnect the engine harness connector from the compressor recirculation valve.
+>
+> Remove the four capscrews alternately and the compressor recirculation valve from turbocharger.
+>
+> ### Inspect for Reuse
+>
+> Inspect the compressor recirculation valve for oil contamination, damaged or exposed wires, bent or broken pins, damaged o-ring, and damaged connectors.
+>
+> Replace the compressor recirculation valve if damage is found.
+>
+> Measure the free state height of the valve cover head. Replace the compressor recirculation valve if the measurement does **not** meet the specification.
+>
+> | Free State Height of Valve Cover Head |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 29.5 | MIN | 1.16 |
+> | 30.5 | MAX | 1.20 |
+>
+> ### Install
+>
+> Install the compressor recirculation valve and four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Connect the engine harness connector to the compressor recirculation valve.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine. Check for proper operation.

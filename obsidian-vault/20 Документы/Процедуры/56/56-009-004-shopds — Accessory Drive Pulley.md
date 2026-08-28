@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-004-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-004-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Pulley
@@ -35,17 +37,38 @@ tags:
 > **Даты:** изменён 2021-03-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-004-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-004-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Improper use of the standard puller, Part Number ST-647, will damage the internal threads of the accessory driveshaft.
 
-Use a standard puller, Part Number ST-647, or equivalent, to remove the accessory drive pulley.
+### Снятие
+
+> [!warning] ОСТОРОЖНО
+> Неправильное использование стандартного съёмника, Части № ST-647, повредит внутреннюю резьбу вспомогательного вала привода.
+
+Используйте стандартный шкив, номер детали ST-647 или эквивалент, чтобы удалить дополнительный приводной шкив.
 
 ![[01600052.png]]
 
-Remove and discard oil seal sleeve from pulley.
+Удалить и выбросить масляный тюлень из шкива.
 
-Remove and discard oil seal. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+Удалить и выбросить масляную уплотнение.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
 
 ![[09200041.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> Improper use of the standard puller, Part Number ST-647, will damage the internal threads of the accessory driveshaft.
+>
+> Use a standard puller, Part Number ST-647, or equivalent, to remove the accessory drive pulley.
+>
+> Remove and discard oil seal sleeve from pulley.
+>
+> Remove and discard oil seal. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]

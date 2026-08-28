@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666251"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-200-004-om-auto.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-200-004-om-auto.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -34,29 +36,62 @@ tags:
 > **Даты:** изменён 2008-02-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-200-004-om-auto.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-200-004-om-auto.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM570
+
+### Диаграмма потока
+
+Автомобильный с CM570
 
 ![[00c00005.png]]
 
-1. Intake air inlet to turbocharger
-2. Turbocharger air to charge air cooler
-3. Charge air cooler
-4. From charge air cooler to intake manifold
-5. Intake valve port
-6. Intake valves.
+1. Впуск воздуха в турбокомпрессор
+2. Турбонаддув воздух для зарядки воздушного охладителя
+3. Зарядка воздушного охладителя
+4. От воздушного охладителя заряда до впускного коллектора
+5. Впускной клапанный порт
+6. Впускные клапаны.
 
-Automotive with CM870
+Автомобильный с CM870
 
 ![[10c00126.png]]
 
-1. Intake air inlet to turbocharger
-2. Turbocharger air to charge air cooler
-3. Charge air cooler
-4. From charge air cooler to intake manifold
-5. Exhaust gas to EGR mixer
-6. EGR mixer
-7. Air intake connection
-8. Intake valve port
-9. Intake valves.
+1. Впуск воздуха в турбокомпрессор
+2. Турбонаддув воздух для зарядки воздушного охладителя
+3. Зарядка воздушного охладителя
+4. От воздушного охладителя заряда до впускного коллектора
+5. Выхлопной газ для смесителя EGR
+6. Смеситель EGR
+7. Патрубок впуска воздуха
+8. Впускной клапанный порт
+9. Впускные клапаны.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Automotive with CM570
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger air to charge air cooler
+> 3. Charge air cooler
+> 4. From charge air cooler to intake manifold
+> 5. Intake valve port
+> 6. Intake valves.
+>
+> Automotive with CM870
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger air to charge air cooler
+> 3. Charge air cooler
+> 4. From charge air cooler to intake manifold
+> 5. Exhaust gas to EGR mixer
+> 6. EGR mixer
+> 7. Air intake connection
+> 8. Intake valve port
+> 9. Intake valves.

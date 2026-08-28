@@ -10,12 +10,14 @@ engines:
 families:
   - "QSK60"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100156.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100156.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Cavitation Fix Injector
@@ -26,36 +28,78 @@ tags:
 > **Даты:** изменён 2002-05-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100156.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100156.pdf)
 
-## New Cavitation Fix Injector
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый форсунка Cavitation Fix
 
-### Contents
+### Положение о гарантии
 
-> [!note] Note · Примечание
-> This Technical Service Bulletin supersedes Topic 01T6-8; replace 01T6-8 with this one.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This Technical Service Bulletin introduces a new cavitation fix injector for QSK45 and QSK60 engines.
+### Содержание
 
-The new injector has been redesigned to address the injector cavitation issue that has been seen in some high-horsepower applications. The new injectors will supersede the present injectors and will have new part numbers. Table 1 provides the supersession matrix.
+> [!note] Примечание
+> Настоящий Бюллетень технического обслуживания заменяет тему 01Т6-8; заменить 01Т6-8 на эту.
 
-The new cavitation fix injectors are transparent to the field and can be used in combination with the older part numbers in the same engine. A calibration change is **not** necessary.
+В этом бюллетене технического обслуживания представлен новый форсунка для кавитационного фиксирования для двигателей QSK45 и QSK60.
 
-The new injectors are presently used in production and can be identified by the part number inscribed on the top stop housing. See Fig. 1 for the location of the part number.
+Новый форсунка был переработан для решения проблемы кавитации форсунки, которая была замечена в некоторых высокопроизводительных приложениях. Новый форсунка заменит существующий форсунка и будет иметь новые номера деталей. В таблице 1 приведена матрица суперсессии.
 
-The engine serial number first for this change is 33150382 and was built on August 14, 2001.
+Новый форсунка с кавитационным фиксированием прозрачен для работы в полевых условиях и может использоваться в сочетании со старыми номерами деталей в том же двигателе. Изменение калибровки не обязательно.
+
+Новый форсунка в настоящее время используется в производстве и может быть идентифицирован по номеру детали, вписанному в верхнюю стоп-кассу. См. Фиг. 1 для расположения номера детали.
+
+Серийный номер двигателя, первый для этого изменения, составляет 33150382 и был построен 14 августа 2001 года.
 
 ![[06600107.png]]
 
-Fig. 1, Location of New Stamped Part Number
+Фиг. 1 Местонахождение нового номера запчасти
 
-| Table 1, Injector Supersession Parts Matrix |  |  |  |
+| Таблица 1, форсунка Суперсессионная часть Матрица |  |  |  |
 |---|---|---|---|
-| Old Injector Part Number | New Injector Part Number | Affected PP Options and CPLs | Detail |
-| 4010025 | 4087893NX | 2820, 2821, 2823, 2824, 2848, 2849, 2850, 2851, 2854 | QSK45 and QSK60 high BMEP 1 |
-| 4010158 | 4087892NX | 2469, 2853, 2855, 2948 | QSK45 and QSK60 low BMEP 1 |
-| 4010160 | 4087894NX | 2655, 2656, 2665, 2666, 2667, 2887, 2888, 2920, 2935 | QSK45 and QSK60 power generation |
+| Старый форсунка Часть Номер | Новый форсунка Part Number | Пострадавшие PP опционы и CPL | Подробнее |
+| 4010025 | 4087893NX | 2820, 2821, 2823, 2824, 2848, 2849, 2850, 2851, 2854 | QSK45 и QSK60 BMEP 1 |
+| 4010158 | 4087892NX | 2469, 2853, 2855, 2948 | QSK45 и QSK60 с низким BMEP 1 |
+| 4010160 | 40878984NX | 2655, 2656, 2665, 2666, 2667, 2887, 2888, 2920, 2935 | QSK45 и QSK60 для производства электроэнергии |
 
-1 BMEP = Brake Mean Effective Pressure
+1 BMEP = Тормозное среднее эффективное давление
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Cavitation Fix Injector
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Note · Примечание**
+> This Technical Service Bulletin supersedes Topic 01T6-8; replace 01T6-8 with this one.
+>
+> This Technical Service Bulletin introduces a new cavitation fix injector for QSK45 and QSK60 engines.
+>
+> The new injector has been redesigned to address the injector cavitation issue that has been seen in some high-horsepower applications. The new injectors will supersede the present injectors and will have new part numbers. Table 1 provides the supersession matrix.
+>
+> The new cavitation fix injectors are transparent to the field and can be used in combination with the older part numbers in the same engine. A calibration change is **not** necessary.
+>
+> The new injectors are presently used in production and can be identified by the part number inscribed on the top stop housing. See Fig. 1 for the location of the part number.
+>
+> The engine serial number first for this change is 33150382 and was built on August 14, 2001.
+>
+> Fig. 1, Location of New Stamped Part Number
+>
+> | Table 1, Injector Supersession Parts Matrix |  |  |  |
+> |---|---|---|---|
+> | Old Injector Part Number | New Injector Part Number | Affected PP Options and CPLs | Detail |
+> | 4010025 | 4087893NX | 2820, 2821, 2823, 2824, 2848, 2849, 2850, 2851, 2854 | QSK45 and QSK60 high BMEP 1 |
+> | 4010158 | 4087892NX | 2469, 2853, 2855, 2948 | QSK45 and QSK60 low BMEP 1 |
+> | 4010160 | 4087894NX | 2655, 2656, 2665, 2666, 2667, 2887, 2888, 2920, 2935 | QSK45 and QSK60 power generation |
+>
+> 1 BMEP = Brake Mean Effective Pressure

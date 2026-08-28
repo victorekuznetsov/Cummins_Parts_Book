@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-010-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-010-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick Housing
@@ -31,35 +33,70 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-010-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-010-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the four capscrews and the housing.
+
+### Снятие
+
+Удалите четыре болта и корпус.
 
 ![[lg2hshb.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean the housing gasket surface.
+Очистите поверхность прокладки корпуса.
 
-Clean the cylinder block gasket surface.
+Очистите поверхность прокладки блока цилиндров.
 
 ![[lg2hsea.png]]
 
-Inspect the dipstick guide tube.
+Осмотрите контрольную трубку для измерения уровня масла.
 
-If the guide tube is cracked, missing, or **not** angled downward into the oil pan, replace the dipstick tube housing.
+Если направляющая трубка треснула, отсутствует или **не** угловом вниз в масляную поддонную панель, замените обшивку измерительной трубки для измерения уровня масла.
 
 ![[lg2hssb.png]]
 
-### Install
+### Установка
 
-Install a new gasket and the dipstick tube housing.
+Установите новую прокладку и корпус измерительной трубки уровня масла.
 
-Install the four capscrews.
+Установите четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Check the dipstick calibration. [[35-007-009-tr — Lubricating Oil Dipstick|Refer to Procedure 007-009 in Section 7.]]
+Проверьте калибровку калибра уровня масла.[[35-007-009-tr — Lubricating Oil Dipstick|См. процедуру 007-009 в разделе 7.]]
 
 ![[lg2hshb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the four capscrews and the housing.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean the housing gasket surface.
+>
+> Clean the cylinder block gasket surface.
+>
+> Inspect the dipstick guide tube.
+>
+> If the guide tube is cracked, missing, or **not** angled downward into the oil pan, replace the dipstick tube housing.
+>
+> ### Install
+>
+> Install a new gasket and the dipstick tube housing.
+>
+> Install the four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Check the dipstick calibration. [[35-007-009-tr — Lubricating Oil Dipstick|Refer to Procedure 007-009 in Section 7.]]

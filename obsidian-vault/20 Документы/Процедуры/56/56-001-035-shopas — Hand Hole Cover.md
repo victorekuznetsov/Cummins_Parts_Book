@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Hand Hole Cover
@@ -31,82 +33,160 @@ tags:
 > **Даты:** изменён 2021-02-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Standard
 
-> [!note] Note · Примечание
-> **:** For Low NOx emissions capability products, the dipstick hand hole cover is reversed, with dipstick on the left, and filling point on the right. Ensure this is fitted, to prevent interference between the filling cap and Fuel Tubes.
+### Установка
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Стандартный стандарт
 
-Install a new o-ring into the groove of the hand hole cover.
+> [!note] Примечание
+>**:** Для продуктов с низким уровнем выбросов NOx покрытие ручного отверстия для измерения уровня масла поворачивается вспять, а калибр уровня масла находится слева, а точка наполнения - справа. Убедитесь, что это установлено, чтобы предотвратить помехи между крышкой наполнения и топливными трубами.
 
-Lubricate the o-ring seal with clean engine oil.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
+
+Установите новое кольцо в канавку крышки ручного отверстия.
+
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[03600022.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block
+Поместите крышку ручного отверстия в блок цилиндра
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600370.png]]
 
-Block Mounted Crankcase Breather
+Заблокированный капкан дышащий
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
 
-Install a new o-ring into the groove of the hand hole cover.
+Установите новое кольцо в канавку крышки ручного отверстия.
 
-Lubricate the o-ring seal with clean engine oil.
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[01600367.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block.
+Поместите крышку ручного отверстия в блок цилиндра.
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600368.png]]
 
-Eliminator™
+Элиминатор
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
 
-Install a new o-ring into the groove of the hand hole cover.
+Установите новое кольцо в канавку крышки ручного отверстия.
 
-Lubricate the o-ring seal with clean engine oil.
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[01600363.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block.
+Поместите крышку ручного отверстия в блок цилиндра.
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600369.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Standard
+>
+> **Note · Примечание**
+> **:** For Low NOx emissions capability products, the dipstick hand hole cover is reversed, with dipstick on the left, and filling point on the right. Ensure this is fitted, to prevent interference between the filling cap and Fuel Tubes.
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Block Mounted Crankcase Breather
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block.
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Eliminator™
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block.
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]

@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-010-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-010-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Pulley
@@ -35,10 +37,26 @@ tags:
 > **Даты:** изменён 2017-04-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-010-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-010-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Using puller, Part Number ST-647, remove the pulley from the alternator drive pulley shaft.
 
-Remove the puller.
+### Снятие
+
+Используя съёмник, часть номер ST-647, удалите шкив из вала шкива генератора привода.
+
+Уберите съёмник.
 
 ![[01600040.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Using puller, Part Number ST-647, remove the pulley from the alternator drive pulley shaft.
+>
+> Remove the puller.

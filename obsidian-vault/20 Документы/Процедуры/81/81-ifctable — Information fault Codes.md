@@ -14,13 +14,15 @@ families:
   - "QSK60"
 manuals:
   - "3666410"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-ifctable.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-ifctable.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # Information fault Codes
@@ -34,3231 +36,6470 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-ifctable.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-ifctable.pdf)
 
-> [!note] Note · Примечание
-> Information Fault Codes have simple, corrective actions and no fault code troubleshooting tree. - SRT 00-394 applies to all of the Information Fault Codes listed below. - After correcting the condition that caused the fault, let the engine warm up; then let the engine run for 1 minute to inactivate the fault code. Then, use INSITE™ for CENSE™ to clear the fault code. Certain applications base vehicle operation on the status of the lamps, which are controlled by CENSE™. For the effect of fault codes/lamp activity, please refer to the OEM manual for the equipment being serviced.
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-CODE:
+
+> [!note] Примечание
+> Коды ошибок информации имеют простые корректирующие действия и не имеют дерева устранения неисправностей кода. SRT 00-394 применяется ко всем кодам ошибок, перечисленным ниже. После исправления состояния, вызвавшего неисправность, пусть двигатель прогреется; затем пусть двигатель работает в течение 1 минуты, чтобы инактивировать код неисправности. Затем используйте INSITETM для CENSETM для очистки кода ошибки. Некоторые приложения основывают работу транспортного средства на состоянии ламп, которые контролируются CENSETM. Для определения влияния кодов неисправностей/заряда лампы просьба обратиться к руководству по ОЭМ для обслуживаемого оборудования.
+
+КОД:
 
 111
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 112
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 113
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 114
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 115
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 116
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 117
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 118
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 119
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 121
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 122
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 123
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 124
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Intake Manifold pressure is above the normal operating range (overboost).
+Давление левобережного коллектора превышает нормальный диапазон (перегрузка).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Pressure symptom troubleshooting procedure.
+См. процедуру устранения неполадок с симптомом высокого давления при приеме внутрь.
 
-CODE:
+КОД:
 
 125
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Left Bank Intake Manifold Pressure is below the normal operating range.
+Давление левого впуска коллектора ниже нормального операционного диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Low Intake Manifold Pressure symptom troubleshooting procedure.
+См. Низкое давление Манифольда Процедура устранения неполадок.
 
-CODE:
+КОД:
 
 126
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Intake Manifold Pressure is above the normal operating range (overboost).
+Давление коллектора правого берега выше нормального диапазона работы (перегрузка).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Pressure symptom troubleshooting procedure.
+См. процедуру устранения неполадок с симптомом высокого давления при приеме внутрь.
 
-CODE:
+КОД:
 
 127
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Right Bank Intake Manifold Pressure is below the normal operating range.
+Давление коллектора правого берега ниже нормального диапазона работы.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Low Intake Manifold Pressure symptom troubleshooting procedure.
+См. Низкое давление Манифольда Процедура устранения неполадок.
 
-CODE:
+КОД:
 
 131
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 132
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 133
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 134
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 135
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 141
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 143
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 144
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 145
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 147
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 148
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 151
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 153
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 154
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 155
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 158
 
-LAMP:
+Лэмп:
 
-Engine Protection
+Защита двигателя
 
-REASON:
+Причина:
 
-Left Bank Rear Intake Manifold Temperature is above the normal operating range.
+Температура заднего коллектора левобережного входа выше нормального диапазона работы.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+См. Процедуру устранения неполадок при высоком потреблении многообразного температурного симптома.
 
-CODE:
+КОД:
 
 162
 
-LAMP:
+Лэмп:
 
-Engine Protection
+Защита двигателя
 
-REASON:
+Причина:
 
-Right Bank Rear Intake Manifold Temperature is above the normal operating range.
+Температура заднего коллектора Right Bank выше нормального диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+См. Процедуру устранения неполадок при высоком потреблении многообразного температурного симптома.
 
-CODE:
+КОД:
 
 165
 
-LAMP:
+Лэмп:
 
-Engine Protection
+Защита двигателя
 
-REASON:
+Причина:
 
-Right Bank Rear Intake Manifold Temperature is above the normal operating range.
+Температура заднего коллектора Right Bank выше нормального диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+См. Процедуру устранения неполадок при высоком потреблении многообразного температурного симптома.
 
-CODE:
+КОД:
 
 211
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-An OEM connected component is broadcasting failure code information.
+Соединенный с OEM компонент транслирует информацию о коде отказа.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the appropriate OEM manual for assistance in troubleshooting this fault.
+См. соответствующее руководство OEM для помощи в устранении неполадок по этой вине.
 
-CODE:
+КОД:
 
 214
 
-LAMP:
+Лэмп:
 
-Engine Protection
+Защита двигателя
 
-REASON:
+Причина:
 
-Lubricating Oil Temperature is above the normal operating range.
+Температура моторного масла выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Oil Temperature symptom troubleshooting procedure.
+См. процедуру устранения неполадок при высокой температуре масла.
 
-CODE:
+КОД:
 
 219
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 221
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 222
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 223
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 224
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 225
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 226
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 231
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 232
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 233
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 234
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 235
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 237
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 252
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 253
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 254
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 259
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 261
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 263
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 265
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 292
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 293
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 294
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 296
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 297
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 298
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 299
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 316
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 318
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 335
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 343
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 346
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-ECM powerdown, internal data store error.
+Отключение ECM, ошибка хранения данных.
 
-EFFECT:
+Последствие:
 
-The powerdown data is lost. The powerdown data includes maintenance monitor, current ECM and engine delta times, and past fault data.
+Данные о отключении электроэнергии теряются. Данные об отключении включают в себя монитор технического обслуживания, текущее время ECM и дельта-времени двигателя и прошлые данные о неисправности.
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 349
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 384
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 415
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 418
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 422
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 423
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 426
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Data communication error over the J1939 Datalink Circuit.
+Ошибка передачи данных по схеме шины данных J1939 CAN.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Public Datalink Circuit, Procedure 019-026 for troubleshooting information.
+См. Public CAN data bus Circuit, Procedure 019-026 for troubleshooting information.
 
-CODE:
+КОД:
 
 427
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 431
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 432
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 441
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 442
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 446
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-RS422 Communication Failure.
+RS422 Сбой связи.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the OEM System Troubleshooting Manual.
+См. Руководство по устранению неполадок в системе OEM.
 
-CODE:
+КОД:
 
 447
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The RPC (Remote Procedure Called) Number is not supported.
+Номер RPC (Remote Procedure Called) не поддерживается.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the OEM System Troubleshooting Manual.
+См. Руководство по устранению неполадок в системе OEM.
 
-CODE:
+КОД:
 
 448
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-RPC (Remote Procedure Called) argument mismatch.
+RPC (Remote Procedure Called) — несоответствие аргументов.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the OEM System Troubleshooting Manual.
+См. Руководство по устранению неполадок в системе OEM.
 
-CODE:
+КОД:
 
 449
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 451
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 452
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 455
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 467
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 468
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 471
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 472
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 473
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 487
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 489
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 511
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 514
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 524
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 527
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 528
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 529
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 551
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 553
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 554
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 555
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 611
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The engine was shut down without the proper cool down period.
+Двигатель был выключен без надлежащего периода охлаждения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Engine Hot Shutdown symptom troubleshooting procedure.
+Смотрите процедуру устранения неполадок с симптомом горячего отключения двигателя.
 
-CODE:
+КОД:
 
 612
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-The difference in Post-Filter Oil Pressure and Prefilter Oil Pressure indicates that the Lubrication Oil filters are restricted.
+Разница в масляном давлении после фильтра и масляном давлении после фильтра указывает на то, что фильтры моторного масла ограничены.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Lubricating Oil Filter Restriction symptom troubleshooting procedure.
+См. процедуру устранения неполадок с фильтром высокого моторного масла.
 
-CODE:
+КОД:
 
 616
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Left Bank Rear Turbocharger Compressor Inlet Temperature is above the normal operating range.
+Задний задний турбокомпрессор левобережного типа имеет температуру выше нормального диапазона работы.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the High Intake Air Temperature symptom troubleshooting procedure.
+См. Процедуру устранения неполадок при высокой температуре воздуха.
 
-CODE:
+КОД:
 
 621
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 1 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 1 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 622
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 2 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 2 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 623
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 3 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 3 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 624
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 4 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 4 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 625
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 5 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 5 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 626
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 6 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 6 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 627
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 7 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. Температура выхлопных газов 7 ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 628
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 8 exhaust temperature is below the normal operating range.
+Левобережный цилиндр No. 8 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 631
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 1 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 1 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 632
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 2 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 2 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 633
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 3 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 3 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 634
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 4 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 4 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 635
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 5 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 5 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 636
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 6 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 6 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 637
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 7 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. Температура выхлопных газов 7 ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 638
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 8 exhaust temperature is below the normal operating range.
+Правый цилиндр - нет. 8 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+См. процедуру устранения неполадок с одним цилиндром Power Low.
 
-CODE:
+КОД:
 
 641
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 1 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 1 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 642
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 2 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 2 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 643
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 3 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 3 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 644
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 4 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 4 температура выхлопа выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 645
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 5 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 5 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 646
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 6 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 6 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 647
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 7 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 7 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 648
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 8 exhaust temperature is above the maximum allowable value.
+Левобережный цилиндр No. 8 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 649
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The lubricating oil requires changing.
+Моторное масло требует изменения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Change the lubricating oil. Refer to the Maintenance Procedures in the base engine Operation and Maintenance Manual. Reset the Oil Change Maintenance Monitor using INSITE™ for CENSE™.
+Измените моторное масло. См. Процедуры технического обслуживания в руководстве по эксплуатации и техническому обслуживанию базового двигателя. Сброс монитора технического обслуживания изменений масла с помощью INSITETM для CENSETM.
 
-CODE:
+КОД:
 
 651
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 1 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 1 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 652
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 2 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 2 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 653
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 3 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 3 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 654
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 4 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 4 температура выхлопа выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 655
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 5 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 5 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 656
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 6 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 6 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 657
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 7 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 7 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 658
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 8 exhaust temperature is above the maximum allowable value.
+Правый цилиндр - нет. 8 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 659
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The fuel filter requires changing.
+Топливный фильтр требует замены.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Change the fuel filter. Refer to the Maintenance Procedures in the base engine operation and maintenance manual.
+Измените топливный фильтр. См. Процедуры технического обслуживания в руководстве по эксплуатации и техническому обслуживанию базового двигателя.
 
-CODE:
+КОД:
 
 661
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 1 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 1 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 662
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 2 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 2 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 663
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 3 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 3 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 664
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 4 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 4 температура выхлопа выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 665
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 5 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 5 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 666
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 6 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 6 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 667
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 7 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 7 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 668
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left Bank Cylinder No. 8 exhaust temperature is above the normal operating range.
+Левобережный цилиндр No. 8 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 669
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The coolant filter requires changing.
+Фильтр охлаждающей жидкости требует изменения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Change the coolant filter. Refer to the Maintenance Procedures in the base engine operation and maintenance manual. Reset the Coolant Filter Maintenance Monitor using INSITE™ for CENSE™.
+Измените фильтр охлаждающей жидкости. См. Процедуры технического обслуживания в руководстве по эксплуатации и техническому обслуживанию базового двигателя. Сбросьте монитор технического обслуживания фильтра охлаждающих жидкостей с помощью INSITETM для CENSETM.
 
-CODE:
+КОД:
 
 679
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The coolant requires changing.
+Охлаждение требует изменения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Change the coolant. Refer to the Maintenance Procedures in the base engine operation and maintenance manual. Reset the Coolant Maintenance Monitor using INSITE™ for CENSE™.
+Измените охлаждающую жидкость. См. Процедуры технического обслуживания в руководстве по эксплуатации и техническому обслуживанию базового двигателя. Сброс монитора технического обслуживания охлаждающих жидкостей с помощью INSITETM для CENSETM.
 
-CODE:
+КОД:
 
 711
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 1 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 1 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 712
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 2 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 2 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 713
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 3 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 3 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 714
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 4 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 4 температура выхлопа выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 715
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 5 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 5 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 716
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 6 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 6 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 717
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 7 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 7 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 718
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right Bank Cylinder No. 8 exhaust temperature is above the normal operating range.
+Правый цилиндр - нет. 8 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+См. Процедуру устранения неполадок с одним цилиндром при высокой температуре выхлопа.
 
-CODE:
+КОД:
 
 719
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 729
 
-LAMP:
+Лэмп:
 
-REASON:
+Причина:
 
-EFFECT:
+Последствие:
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 747
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The ECM trend data memory is 90 percent full.
+Память данных тренда ECM заполнена на 90%.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Use INSITE™ for CENSE™ to read and clear the ECM trend data. For instructions on reading ECM trend data, refer to the INSITE™ for CENSE™ User's Manual.
+Используйте INSITETM для CENSETM для показаний и очистки данных о тенденциях ECM. Инструкции по чтению данных о тенденциях ECM см. в руководстве пользователя INSITETM for CENSETM.
 
-CODE:
+КОД:
 
 748
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The ECM trend data memory is full.
+Память данных тренда ECM заполнена.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Use INSITE™ for CENSE™ to read and clear the ECM trend data. For instructions on reading ECM trend data, refer to the INSITE™ for CENSE™ User's Manual.
+Используйте INSITETM для CENSETM для показаний и очистки данных о тенденциях ECM. Инструкции по чтению данных о тенденциях ECM см. в руководстве пользователя INSITETM for CENSETM.
 
-CODE:
+КОД:
 
 749
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The ECM fault code datalog is 90 percent full.
+База данных кода ошибок ECM заполнена на 90%.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Use INSITE™ for CENSE™ to clear inactive fault codes. For instructions on clearing inactive fault codes, refer to the INSITE™ for CENSE™ User's Manual. NOTE: Troubleshoot all fault codes before erasing the inactive fault codes.
+Используйте INSITETM для CENSETM для очистки кодов неактивных ошибок. Инструкции по очистке неактивных кодов неисправностей см. в руководстве пользователя INSITETM для CENSETM. Примечание: Устранение неисправностей всех кодов, прежде чем стереть неактивные коды ошибок.
 
-CODE:
+КОД:
 
 753
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Engine position signal detected on pins 27, 28 and 37, 38 of the ECM do not match.
+Сигнал положения двигателя, обнаруженный на контактах 27, 28 и 37, 38 ЭХМ, не совпадает.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+См. Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], для процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 754
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The ECM fault code datalog is full.
+В базе данных кода ошибок ECM полно.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Use INSITE™ for CENSE™ to clear inactive fault codes. For instructions on clearing inactive fault codes, refer to the INSITE™ for CENSE™ User's Manual. NOTE: Troubleshoot all fault codes before erasing the inactive fault codes.
+Используйте INSITETM для CENSETM для очистки кодов неактивных ошибок. Инструкции по очистке неактивных кодов неисправностей см. в руководстве пользователя INSITETM для CENSETM. Примечание: Устранение неисправностей всех кодов, прежде чем стереть неактивные коды ошибок.
 
-CODE:
+КОД:
 
 756
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The lubricating oil filters require changing.
+Фильтры для моторного масла требуют изменения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Change the lubricating oil filters. Refer to the Maintenance Procedures in the base engine Operation and Maintenance Manual. Reset the Lubricating Oil Filter Maintenance Monitor using INSITE™ for CENSE™.
+Измените фильтры моторного масла. См. Процедуры технического обслуживания в руководстве по эксплуатации и техническому обслуживанию базового двигателя. Сбросьте монитор технического обслуживания фильтра моторного масла с помощью INSITETM для CENSETM.
 
-CODE:
+КОД:
 
 757
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The ECM power was disconnected while the engine was running.
+Мощность ECM была отключена во время работы двигателя.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Inspect the OEM wiring and CENSE wiring for evidence of bad wiring or tampering.
+Проверить проводку OEM и CENSE на наличие доказательств плохой проводов или подделки.
 
-CODE:
+КОД:
 
 777
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-The turbo inlet air temperature has exceeded the standard ambient air temperature limit.
+Температура воздуха в турбонаддуве превысила стандартный предел температуры окружающего воздуха.
 
-EFFECT:
+Последствие:
 
-The engine will derate until the turbo inlet air temperature drops to normal.
+Двигатель будет разрушаться до тех пор, пока температура воздуха на входе в турбонаддув не упадет до нормы.
 
-ACTION:
+Действие:
 
-Inspect the air intake for blockage, proximity to any heating elements, or proximity to the exhaust.
+Осмотрите воздухозаборник на блокировку, близость к любым нагревательным элементам или близость к выхлопу.
 
-CODE:
+КОД:
 
 783
 
-LAMP:
+Лэмп:
 
-Engine Protection
+Защита двигателя
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the left bank front quadrant from QUANTUM™.
+Быстрое повышение температуры коллектора в левобережном переднем квадранте от QUANTUMTM.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 1000
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-The vehicle control system initiated a fault code datalog.
+Система управления транспортным средством инициировала ведение журнала данных кода неисправности.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to the OEM service manuals for information on this fault code.
+См. руководства по обслуживанию OEM для получения информации об этом коде неисправности.
 
-CODE:
+КОД:
 
 2144
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left bank cylinder No. 9 exhaust temperature is above maximum allowable value.
+Левый цилиндр No. 9 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+Температура выхлопа - высокая (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2145
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right bank cylinder No. 9 exhaust temperature is above maximum allowable value.
+Правый цилиндр No. 9 температура выхлопных газов выше максимально допустимого значения.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+Температура выхлопа - высокая (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2148
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left bank cylinder No. 9 exhaust temperature is above normal operating range.
+Левый цилиндр No. 9 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+Температура выхлопа - высокая (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2149
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right bank cylinder No. 9 exhaust temperature is above normal operating range.
+Правый цилиндр No. 9 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+Температура выхлопа - высокая (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2151
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Left bank cylinder No. 9 exhaust temperature is below normal operating range.
+Левый цилиндр No. 9 температура выхлопных газов ниже нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is Low (Single Cylinder) troubleshooting procedure.
+Температура выхлопа является низкой (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2152
 
-LAMP:
+Лэмп:
 
-Yellow
+желтый
 
-REASON:
+Причина:
 
-Right bank cylinder No. 9 exhaust temperature is above normal operating range.
+Правый цилиндр No. 9 температура выхлопных газов выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Exhaust Temperature is Low (Single Cylinder) troubleshooting procedure.
+Температура выхлопа является низкой (один цилиндр) процедура устранения неполадок.
 
-CODE:
+КОД:
 
 2157
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the left bank rear quadrant.
+Быстрое повышение температуры коллектора в левобережном заднем квадранте.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 2158
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the right bank front quadrant.
+Быстрое повышение температуры коллектора в правом переднем квадранте.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 2159
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the right bank rear quadrant.
+Быстрое повышение температуры коллектора в правом заднем квадранте.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 2161
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Right bank rear turbocharger compressor inlet temperature is above the normal operating range.
+Температура впуска заднего компрессора турбокомпрессора на правом берегу выше нормального рабочего диапазона.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+Температура воздуха в коллекторе потребления является высокой процедурой устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 2241
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Left bank middle intake manifold temperature is above the normal operating range.
+Температура среднего впускного коллектора левого берега выше нормального диапазона работы.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+Температура воздуха в коллекторе потребления является высокой процедурой устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 2244
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the left bank middle cylinders.
+Быстрое повышение температуры впускного коллектора в средних цилиндрах левого берега.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 2245
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Right bank middle intake manifold temperature is above the normal operating range.
+Температура среднего впускного коллектора правого берега выше нормального диапазона работы.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+Температура воздуха в коллекторе потребления является высокой процедурой устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 2248
 
-LAMP:
+Лэмп:
 
-Red
+красный
 
-REASON:
+Причина:
 
-Rapid rise in intake manifold temperature in the right bank middle cylinders.
+Быстрое повышение температуры впускного коллектора в правом боковом среднем цилиндре.
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+См. Процедура устранения неполадок при приеме многообразной температуры воздуха является высокой (быстрый рост).
 
-CODE:
+КОД:
 
 2251
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Front intercooler air pressure is above normal operating range (over boost).
+Переднее межхолодное давление воздуха выше нормального рабочего диапазона (сверх наддува).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+Температура воздуха в коллекторе потребления является высокой процедурой устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 2252
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Front intercooler air pressure is below the normal operating range (over boost).
+Переднее межхолодное давление воздуха ниже нормального рабочего диапазона (сверх наддува).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Pressure (Boost) Is Below Normal symptom troubleshooting procedure.
+См. давление в коллекторе приема (рост) ниже нормальной процедуры устранения неполадок симптомов.
 
-CODE:
+КОД:
 
 2255
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Rear intercooler air pressure is above the normal operating range (over boost).
+Заднее межхолодное давление воздуха выше нормального рабочего диапазона (сверх наддува).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Pressure Is High symptom troubleshooting procedure.
+См. Прием многообразного давления является высокой симптоматической процедурой устранения неполадок.
 
-CODE:
+КОД:
 
 2256
 
-LAMP:
+Лэмп:
 
-None
+Нет
 
-REASON:
+Причина:
 
-Rear intercooler air pressure is below the normal operating range (over boost).
+Заднее межхолодное давление воздуха ниже нормального рабочего диапазона (сверх наддува).
 
-EFFECT:
+Последствие:
 
-No action taken.
+Никаких действий.
 
-ACTION:
+Действие:
 
-Refer to Intake Manifold Pressure (Boost) Is Below Normal symptom troubleshooting procedure.
+См. давление в коллекторе приема (рост) ниже нормальной процедуры устранения неполадок симптомов.
+
+
+> [!quote]- Original (English) · английский оригинал
+> **Note · Примечание**
+> Information Fault Codes have simple, corrective actions and no fault code troubleshooting tree. - SRT 00-394 applies to all of the Information Fault Codes listed below. - After correcting the condition that caused the fault, let the engine warm up; then let the engine run for 1 minute to inactivate the fault code. Then, use INSITE™ for CENSE™ to clear the fault code. Certain applications base vehicle operation on the status of the lamps, which are controlled by CENSE™. For the effect of fault codes/lamp activity, please refer to the OEM manual for the equipment being serviced.
+>
+> CODE:
+>
+> 111
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 112
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 113
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 114
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 115
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 116
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 117
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 118
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 119
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 121
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 122
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 123
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 124
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Intake Manifold pressure is above the normal operating range (overboost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Pressure symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 125
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Left Bank Intake Manifold Pressure is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Low Intake Manifold Pressure symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 126
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Intake Manifold Pressure is above the normal operating range (overboost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Pressure symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 127
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Right Bank Intake Manifold Pressure is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Low Intake Manifold Pressure symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 131
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 132
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 133
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 134
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 135
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 141
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 143
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 144
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 145
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 147
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 148
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 151
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 153
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 154
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 155
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 158
+>
+> LAMP:
+>
+> Engine Protection
+>
+> REASON:
+>
+> Left Bank Rear Intake Manifold Temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 162
+>
+> LAMP:
+>
+> Engine Protection
+>
+> REASON:
+>
+> Right Bank Rear Intake Manifold Temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 165
+>
+> LAMP:
+>
+> Engine Protection
+>
+> REASON:
+>
+> Right Bank Rear Intake Manifold Temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 211
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> An OEM connected component is broadcasting failure code information.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the appropriate OEM manual for assistance in troubleshooting this fault.
+>
+> CODE:
+>
+> 214
+>
+> LAMP:
+>
+> Engine Protection
+>
+> REASON:
+>
+> Lubricating Oil Temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Oil Temperature symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 219
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 221
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 222
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 223
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 224
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 225
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 226
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 231
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 232
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 233
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 234
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 235
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 237
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 252
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 253
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 254
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 259
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 261
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 263
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 265
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 292
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 293
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 294
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 296
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 297
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 298
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 299
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 316
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 318
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 335
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 343
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 346
+>
+> LAMP:
+>
+> REASON:
+>
+> ECM powerdown, internal data store error.
+>
+> EFFECT:
+>
+> The powerdown data is lost. The powerdown data includes maintenance monitor, current ECM and engine delta times, and past fault data.
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 349
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 384
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 415
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 418
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 422
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 423
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 426
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Data communication error over the J1939 Datalink Circuit.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Public Datalink Circuit, Procedure 019-026 for troubleshooting information.
+>
+> CODE:
+>
+> 427
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 431
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 432
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 441
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 442
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 446
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> RS422 Communication Failure.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the OEM System Troubleshooting Manual.
+>
+> CODE:
+>
+> 447
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The RPC (Remote Procedure Called) Number is not supported.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the OEM System Troubleshooting Manual.
+>
+> CODE:
+>
+> 448
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> RPC (Remote Procedure Called) argument mismatch.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the OEM System Troubleshooting Manual.
+>
+> CODE:
+>
+> 449
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 451
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 452
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 455
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 467
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 468
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 471
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 472
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 473
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 487
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 489
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 511
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 514
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 524
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 527
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 528
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 529
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 551
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 553
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 554
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 555
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 611
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The engine was shut down without the proper cool down period.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Engine Hot Shutdown symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 612
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> The difference in Post-Filter Oil Pressure and Prefilter Oil Pressure indicates that the Lubrication Oil filters are restricted.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Lubricating Oil Filter Restriction symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 616
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Left Bank Rear Turbocharger Compressor Inlet Temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the High Intake Air Temperature symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 621
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 1 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 622
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 2 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 623
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 3 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 624
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 4 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 625
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 5 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 626
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 6 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 627
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 7 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 628
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 8 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 631
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 1 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 632
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 2 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 633
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 3 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 634
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 4 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 635
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 5 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 636
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 6 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 637
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 7 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 638
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 8 exhaust temperature is below the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Power Low symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 641
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 1 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 642
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 2 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 643
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 3 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 644
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 4 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 645
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 5 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 646
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 6 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 647
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 7 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 648
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left Bank Cylinder No. 8 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 649
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The lubricating oil requires changing.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Change the lubricating oil. Refer to the Maintenance Procedures in the base engine Operation and Maintenance Manual. Reset the Oil Change Maintenance Monitor using INSITE™ for CENSE™.
+>
+> CODE:
+>
+> 651
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 1 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 652
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 2 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 653
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 3 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 654
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 4 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 655
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 5 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 656
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 6 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 657
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 7 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 658
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right Bank Cylinder No. 8 exhaust temperature is above the maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 659
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The fuel filter requires changing.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Change the fuel filter. Refer to the Maintenance Procedures in the base engine operation and maintenance manual.
+>
+> CODE:
+>
+> 661
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 1 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 662
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 2 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 663
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 3 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 664
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 4 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 665
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 5 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 666
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 6 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 667
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 7 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 668
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left Bank Cylinder No. 8 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 669
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The coolant filter requires changing.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Change the coolant filter. Refer to the Maintenance Procedures in the base engine operation and maintenance manual. Reset the Coolant Filter Maintenance Monitor using INSITE™ for CENSE™.
+>
+> CODE:
+>
+> 679
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The coolant requires changing.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Change the coolant. Refer to the Maintenance Procedures in the base engine operation and maintenance manual. Reset the Coolant Maintenance Monitor using INSITE™ for CENSE™.
+>
+> CODE:
+>
+> 711
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 1 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 712
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 2 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 713
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 3 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 714
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 4 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 715
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 5 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 716
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 6 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 717
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 7 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 718
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right Bank Cylinder No. 8 exhaust temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the Single Cylinder Exhaust Temperature High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 719
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 729
+>
+> LAMP:
+>
+> REASON:
+>
+> EFFECT:
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 747
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The ECM trend data memory is 90 percent full.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Use INSITE™ for CENSE™ to read and clear the ECM trend data. For instructions on reading ECM trend data, refer to the INSITE™ for CENSE™ User's Manual.
+>
+> CODE:
+>
+> 748
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The ECM trend data memory is full.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Use INSITE™ for CENSE™ to read and clear the ECM trend data. For instructions on reading ECM trend data, refer to the INSITE™ for CENSE™ User's Manual.
+>
+> CODE:
+>
+> 749
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The ECM fault code datalog is 90 percent full.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Use INSITE™ for CENSE™ to clear inactive fault codes. For instructions on clearing inactive fault codes, refer to the INSITE™ for CENSE™ User's Manual. NOTE: Troubleshoot all fault codes before erasing the inactive fault codes.
+>
+> CODE:
+>
+> 753
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Engine position signal detected on pins 27, 28 and 37, 38 of the ECM do not match.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Troubleshooting and Repair Manual, QSK Fuel System, QSK19, QSK45, QSK60 and QSK78 Series Engines, Bulletin No. [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]], for symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 754
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The ECM fault code datalog is full.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Use INSITE™ for CENSE™ to clear inactive fault codes. For instructions on clearing inactive fault codes, refer to the INSITE™ for CENSE™ User's Manual. NOTE: Troubleshoot all fault codes before erasing the inactive fault codes.
+>
+> CODE:
+>
+> 756
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The lubricating oil filters require changing.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Change the lubricating oil filters. Refer to the Maintenance Procedures in the base engine Operation and Maintenance Manual. Reset the Lubricating Oil Filter Maintenance Monitor using INSITE™ for CENSE™.
+>
+> CODE:
+>
+> 757
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The ECM power was disconnected while the engine was running.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Inspect the OEM wiring and CENSE wiring for evidence of bad wiring or tampering.
+>
+> CODE:
+>
+> 777
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> The turbo inlet air temperature has exceeded the standard ambient air temperature limit.
+>
+> EFFECT:
+>
+> The engine will derate until the turbo inlet air temperature drops to normal.
+>
+> ACTION:
+>
+> Inspect the air intake for blockage, proximity to any heating elements, or proximity to the exhaust.
+>
+> CODE:
+>
+> 783
+>
+> LAMP:
+>
+> Engine Protection
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the left bank front quadrant from QUANTUM™.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 1000
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> The vehicle control system initiated a fault code datalog.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to the OEM service manuals for information on this fault code.
+>
+> CODE:
+>
+> 2144
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left bank cylinder No. 9 exhaust temperature is above maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2145
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right bank cylinder No. 9 exhaust temperature is above maximum allowable value.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2148
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left bank cylinder No. 9 exhaust temperature is above normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2149
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right bank cylinder No. 9 exhaust temperature is above normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is High (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2151
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Left bank cylinder No. 9 exhaust temperature is below normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is Low (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2152
+>
+> LAMP:
+>
+> Yellow
+>
+> REASON:
+>
+> Right bank cylinder No. 9 exhaust temperature is above normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Exhaust Temperature is Low (Single Cylinder) troubleshooting procedure.
+>
+> CODE:
+>
+> 2157
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the left bank rear quadrant.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2158
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the right bank front quadrant.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2159
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the right bank rear quadrant.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2161
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Right bank rear turbocharger compressor inlet temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2241
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Left bank middle intake manifold temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2244
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the left bank middle cylinders.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2245
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Right bank middle intake manifold temperature is above the normal operating range.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2248
+>
+> LAMP:
+>
+> Red
+>
+> REASON:
+>
+> Rapid rise in intake manifold temperature in the right bank middle cylinders.
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High (Rapid Rise) symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2251
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Front intercooler air pressure is above normal operating range (over boost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Air Temperature Is High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2252
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Front intercooler air pressure is below the normal operating range (over boost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Pressure (Boost) Is Below Normal symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2255
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Rear intercooler air pressure is above the normal operating range (over boost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Pressure Is High symptom troubleshooting procedure.
+>
+> CODE:
+>
+> 2256
+>
+> LAMP:
+>
+> None
+>
+> REASON:
+>
+> Rear intercooler air pressure is below the normal operating range (over boost).
+>
+> EFFECT:
+>
+> No action taken.
+>
+> ACTION:
+>
+> Refer to Intake Manifold Pressure (Boost) Is Below Normal symptom troubleshooting procedure.

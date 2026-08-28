@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-012-014-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-012-014-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Air Compressor
@@ -33,14 +35,32 @@ tags:
 > **Даты:** изменён 2011-06-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-012-014-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-012-014-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the oil supply line.
+
+### Снятие
+
+Удалите линию поставок масла.
 
 ![[12d00021.png]]
 
-Remove the air compressor support bracket and capscrews.
+Снимите воздушный компрессор с опорной кронштейна и болтов.
 
-Remove the air compressor mounting capscrews and the air compressor.
+Удалите воздушные компрессорные крепежные болты и воздушный компрессор.
 
 ![[12d00020.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the oil supply line.
+>
+> Remove the air compressor support bracket and capscrews.
+>
+> Remove the air compressor mounting capscrews and the air compressor.

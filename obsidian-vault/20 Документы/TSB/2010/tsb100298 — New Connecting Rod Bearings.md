@@ -10,12 +10,14 @@ engines:
 families:
   - "QSK60"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100298.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100298.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Connecting Rod Bearings
@@ -26,31 +28,68 @@ tags:
 > **Даты:** изменён 2004-08-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100298.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100298.pdf)
 
-## New Connecting Rod Bearings
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые подшипники Connecting Rod
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Announcement introduces new connecting rod bearings.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The affected applications are all QSK45 and QSK60 engines made on or after June 30, 2003, with approximate engine serial number first 33154283.
+### Содержание
 
-> [!note] Note · Примечание
-> This is a product improvement and is **not** subject to campaign.
+Это объявление о сервисе / частях вводит новые подшипники для шатунов.
+
+Все затронутые приложения - двигатели QSK45 и QSK60, изготовленные 30 июня 2003 года или после этой даты, с приблизительным серийным номером двигателя 33154283.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
 
 ![[01600308.png]]
 
-Figure 1, Old Bearing Tang versus New Bearing Tang
+Рисунок 1 Старый несущий Тан против нового несущий Тан
 
-In order to increase the serration surface area on the new connecting rod, Part Number 3635125 and Part Number 3635126, the rod bearing tang had to be modified to eliminate the interference with the added serrated area. The new rod bearing features a 'drop notch' tang, that is cut slightly shorter than the edge of the bearing shell, in order to clear the serrations without interference.
+Для увеличения площади поверхности зазубрины на новом шатуне, номере 3635125 и номере 3635126, штангу подшипника пришлось модифицировать, чтобы устранить помехи с добавленной сертифицированной областью. Новый подшипник стержня имеет «выпадающий» танг, который разрезается немного короче, чем край подшипниковой оболочки, чтобы очистить серрации без помех.
 
-The new connecting rod bearings are fully compatible with the new connecting rods, Part Number 3635125 and Part Number 3635126, and with the old connecting rods, Part Number 3171060 and Part Number 3171061. No stock of the old connecting rod bearing is left in factory production as of July, 2004. Please replace all entries of the old connecting rod bearing part numbers with the new part numbers on hard copies of the QSK45 and QSK60 Parts Catalogs, per the following table.
+Новые подшипники полностью совместимы с новыми соединительными стержнями, Частью № 3635125 и Частью № 3635126, а также со старыми соединительными стержнями, Частью № 3171060 и Частью № 3171061. На заводском производстве по состоянию на июль 2004 года не осталось ни одного запаса старого подшипника шатуна. Пожалуйста, замените все записи старых номеров шатунов с новыми номерами деталей на печатных копиях каталогов частей QSK45 и QSK60 в следующей таблице.
 
-| Table 1, New and Old Connecting Rod Bearings |  |  |  |  |  |
+| Таблица 1, Новые и старые подшипники для соединительных штанов |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Size | Standard | .25 mm \[.01 in\] Undersize | .50 mm \[.02 in\] Undersize | .75 mm \[.03 in\] Undersize | 1.00 mm \[.04 in\] Undersize |
-| Old Rod Bearing | 3089872 | 3089873 | 3089874 | 3089875 | 3089876 |
-| New Rod Bearing | 4100932 | 4100935 | 4100936 | 4100937 | 4100938 |
+| Размер | Стандартный стандарт | .25 мм \[.01 в\] Негабаритный размер | .50 мм \[.02 в\] Негабаритный размер | .75 мм \[.03 в\] Недоразмер | 1.00 мм \[.04 в\] Негабаритный размер |
+| Старый Род Беринг | 3089872 | 3089873 | 3089874 | 3089875 | 3089876 |
+| Новый Род-Беар | 4100932 | 4100935 | 4100936 | 4100937 | 4100938 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Connecting Rod Bearings
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Announcement introduces new connecting rod bearings.
+>
+> The affected applications are all QSK45 and QSK60 engines made on or after June 30, 2003, with approximate engine serial number first 33154283.
+>
+> **Note · Примечание**
+> This is a product improvement and is **not** subject to campaign.
+>
+> Figure 1, Old Bearing Tang versus New Bearing Tang
+>
+> In order to increase the serration surface area on the new connecting rod, Part Number 3635125 and Part Number 3635126, the rod bearing tang had to be modified to eliminate the interference with the added serrated area. The new rod bearing features a 'drop notch' tang, that is cut slightly shorter than the edge of the bearing shell, in order to clear the serrations without interference.
+>
+> The new connecting rod bearings are fully compatible with the new connecting rods, Part Number 3635125 and Part Number 3635126, and with the old connecting rods, Part Number 3171060 and Part Number 3171061. No stock of the old connecting rod bearing is left in factory production as of July, 2004. Please replace all entries of the old connecting rod bearing part numbers with the new part numbers on hard copies of the QSK45 and QSK60 Parts Catalogs, per the following table.
+>
+> | Table 1, New and Old Connecting Rod Bearings |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | Size | Standard | .25 mm \[.01 in\] Undersize | .50 mm \[.02 in\] Undersize | .75 mm \[.03 in\] Undersize | 1.00 mm \[.04 in\] Undersize |
+> | Old Rod Bearing | 3089872 | 3089873 | 3089874 | 3089875 | 3089876 |
+> | New Rod Bearing | 4100932 | 4100935 | 4100936 | 4100937 | 4100938 |

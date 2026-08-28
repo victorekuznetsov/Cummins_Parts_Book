@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc292.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc292.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # OEM Temperature - Engine Protection
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc292.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc292.pdf)
 
-### Fault Code: 292
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### OEM Temperature - Engine Protection
 
-Printable Version
+### Код неисправности: 292
 
-### Overview
+### OEM температура - защита двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 292 PID(P): P223 SPN: 1083 FMI: 14 Lamp: Engine Protection SRT: | OEM temperature out-of-range has been detected. Voltage signal at OEM temperature signal pin 27 indicates OEM temperature beyond the OEM-specified threshold. | Calibration-dependent progressive power and speed derate and engine shutdown with increasing time after alert. |
+| Код неисправности: 292 PID(P): P223 SPN: 1083 FMI: 14 ламп: Защита двигателя SRT: | Выявлена температура OEM вне диапазона. Сигнал напряжения при контакте 27 с сигналом температуры OEM указывает на температуру OEM за пределами порога, определенного OEM. | Калибровочная зависимость прогрессивной мощности и скорости ухудшается, а выключение двигателя увеличивается с увеличением времени после оповещения. |
 
 ![[19400893.png]]
 
-OEM Temperature Circuit
+ОЭМ температурный контур
 
-### Circuit Description
+### Описание цепи
 
-The OEM resistive signal is used by the ECM to monitor an OEM temperature. The OEM temperature is used by the ECM for the engine protection system.
+OEM-резистивный сигнал используется ECM для мониторинга температуры OEM. Температура OEM используется ECM для системы защиты двигателя.
 
-### Component Location
+### Расположение компонента
 
-The location varies with the OEM. Refer to the OEM manual.
+Месторасположение варьируется в зависимости от OEM. См. руководство по OEM.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of all temperature sensors varies with the ambient temperature.
+Сопротивление всех датчиков температуры изменяется в зависимости от температуры окружающей среды.
 
-Refer to Troubleshooting Fault Code t05-292
+См. Код устранения неполадок t05-292
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 292
+>
+> ### OEM Temperature - Engine Protection
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 292 PID(P): P223 SPN: 1083 FMI: 14 Lamp: Engine Protection SRT: | OEM temperature out-of-range has been detected. Voltage signal at OEM temperature signal pin 27 indicates OEM temperature beyond the OEM-specified threshold. | Calibration-dependent progressive power and speed derate and engine shutdown with increasing time after alert. |
+>
+> OEM Temperature Circuit
+>
+> ### Circuit Description
+>
+> The OEM resistive signal is used by the ECM to monitor an OEM temperature. The OEM temperature is used by the ECM for the engine protection system.
+>
+> ### Component Location
+>
+> The location varies with the OEM. Refer to the OEM manual.
+>
+> ### Shoptalk
+>
+> The resistance of all temperature sensors varies with the ambient temperature.
+>
+> Refer to Troubleshooting Fault Code t05-292

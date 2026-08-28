@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021389"
   - "4021391"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # General Engine
@@ -33,67 +35,142 @@ tags:
 > **Даты:** изменён 2019-12-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-om-ind.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Horsepower | Refer to engine dataplate |
+
+### Спецификации
+
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-#### Engine Weight (Dry) Less Flywheel and Electronics
+#### Вес двигателя (сухой) меньше колеса и электроники
 
-| B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+| B4.5 (естественно аспирированный) | 326 кг[721 фунт] |
 |---|---|
 
-| B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+| B4.5 и B3.9 (с турбонаддувом) | 338 кг[745 фунтов] |
 |---|---|
 
-| B5.9 | 432 kg \[952 lb\] |
+| В5.9 | 432 кг[952 фунта] |
 |---|---|
 
-| Compression Ratio | 18:1 |
+| Соотношение сжатия | 18:1 |
 |---|---|
 
-#### Bore
+#### цилиндр
 
-| B3.9 and B5.9 | 102 mm \[4.02 in\] |
+| B3.9 и B5.9 | 102 мм \[4.02 in\] |
 |---|---|
 
-| B4.5 | 107 mm \[4.21 in\] |
+| В4.5 | 107 мм \[4.21 in\] |
 |---|---|
 
-#### Stroke
+#### инсульт
 
-| B3.9 and B5.9 | 120 mm \[4.72 in\] |
+| B3.9 и B5.9 | 120 мм \[4,72 в\] |
 |---|---|
 
-| B4.5 | 138 mm \[5.42 in\] |
+| В4.5 | 138 мм \[5,42 дюйма \] |
 |---|---|
 
-#### Displacement
+#### вытеснение
 
-| B3.9 | 3.9 liters \[238 C.I.D.\] |
+| В3.9 | 3,9 литра[238 C.I.D.] |
 |---|---|
 
-| B4.5 | 4.5 liters \[275 C.I.D.\] |
+| В4.5 | 4,5 литра[275 C.I.D.] |
 |---|---|
 
-| B5.9 | 5.9 liters \[359 C.I.D.\] |
+| В5.9 | 5,9 литра[359 C.I.D.] |
 |---|---|
 
-#### Firing Order
+#### Огнестрельное предписание
 
-| B3.9 and B4.5 | 1-3-4-2 |
+| B3.9 и B4.5 | 1-3-4-2 |
 |---|---|
 
-| B5.9 | 1-5-3-6-2-4 |
+| В5.9 | 1-5-3-6-2-4 |
 |---|---|
 
-#### Valve Clearance
+#### зазор клапана
 
-| Intake | 0.25 mm \[0.010 in\] |
+| принимать | 0,25 мм \[0,010 в\] |
 |---|---|
 
-| Exhaust | 0.51 mm \[0.020 in\] |
+| выхлоп | 0,51 мм \[0,020 in\] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> #### Engine Weight (Dry) Less Flywheel and Electronics
+>
+> | B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+> |---|---|
+>
+> | B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+> |---|---|
+>
+> | B5.9 | 432 kg \[952 lb\] |
+> |---|---|
+>
+> | Compression Ratio | 18:1 |
+> |---|---|
+>
+> #### Bore
+>
+> | B3.9 and B5.9 | 102 mm \[4.02 in\] |
+> |---|---|
+>
+> | B4.5 | 107 mm \[4.21 in\] |
+> |---|---|
+>
+> #### Stroke
+>
+> | B3.9 and B5.9 | 120 mm \[4.72 in\] |
+> |---|---|
+>
+> | B4.5 | 138 mm \[5.42 in\] |
+> |---|---|
+>
+> #### Displacement
+>
+> | B3.9 | 3.9 liters \[238 C.I.D.\] |
+> |---|---|
+>
+> | B4.5 | 4.5 liters \[275 C.I.D.\] |
+> |---|---|
+>
+> | B5.9 | 5.9 liters \[359 C.I.D.\] |
+> |---|---|
+>
+> #### Firing Order
+>
+> | B3.9 and B4.5 | 1-3-4-2 |
+> |---|---|
+>
+> | B5.9 | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Valve Clearance
+>
+> | Intake | 0.25 mm \[0.010 in\] |
+> |---|---|
+>
+> | Exhaust | 0.51 mm \[0.020 in\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|

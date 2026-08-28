@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102254.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102254.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Test Step, Engine Run In (Engine Dynamometer) Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102254.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102254.pdf)
 
-## Revision, Test Step, Engine Run In (Engine Dynamometer) Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, этап испытания, запуск двигателя (динамический двигатель)
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic updates Procedure 014-006, Engine Run In (Engine Dynamometer), to remove a reference to a service tool that is not available through QuickServe Online.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема обновления службы / части Тема процедуры 014-006, двигатель запущен (Динамометр двигателя), чтобы удалить ссылку на инструмент обслуживания, который не доступен через QuickServe Online.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Test Step, Engine Run In (Engine Dynamometer) Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic updates Procedure 014-006, Engine Run In (Engine Dynamometer), to remove a reference to a service tool that is not available through QuickServe Online.

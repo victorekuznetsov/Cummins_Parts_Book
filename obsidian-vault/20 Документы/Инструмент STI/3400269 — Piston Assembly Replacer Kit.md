@@ -11,12 +11,14 @@ engines:
 families:
   - "QSK60"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400269.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400269.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Piston Assembly Replacer Kit
@@ -27,28 +29,62 @@ tags:
 > **Даты:** выпущен 2008-06-09 · изменён 2008-06-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400269.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400269.pdf)
 
-### Description
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Piston Assembly Replacer Kit
 
-### Purpose
+### Наименование
 
-This document provides information for Piston Assembly Replacer Kit, Part Number 4919227. The kit is used to remove and install the piston and liner assembly in the QSK45 and QSK60 engines due to a design change of the connecting rod from an angle split to a horizontal split.
+Piston Assembly заменитель
 
-- [[56-001-045-tr — Piston and Cylinder Liner|For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Service Manual, QSK45 and QSK60, Bulletin 4021530]]
-- For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Troubleshooting and Repair Manual, QSK45G and QSK60G Industrial Series Engines, Bulletin 4021383
-- For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Troubleshooting and Repair Manual, QSK60G Generator CM700, Bulletin 4021396.
+### Назначение
+
+В этом документе содержится информация для комплекта замены сборки Piston, номер детали 4919227. Набор используется для снятия и установки поршневой и линейной сборки в двигателях QSK45 и QSK60 за счет изменения конструкции шатуна с углового разреза на горизонтальный разрез.
+
+- [[56-001-045-tr — Piston and Cylinder Liner|Для получения дополнительной информации обратитесь к процедуре 001-045 (Piston and Cylinder Liner) в разделе 1 Руководства по обслуживанию, QSK45 и QSK60, Вестник 4021530.]]
+- Для получения дополнительной информации обратитесь к процедуре 001-045 (Пистон и цилиндрический гильза) в разделе 1 Руководства по устранению неполадок и ремонту, двигатели промышленной серии QSK45G и QSK60G, Бюллетень 4021383
+- Для получения дополнительной информации обратитесь к процедуре 001-045 (Piston and Cylinder Liner) в разделе 1 Руководства по устранению неполадок и ремонту, генератор QSK60G CM700, вестник 4021396.
 
 ![[22600457.png]]
 
-| Table 1, Piston Assembly Replacer Kit, Part Number 4919227. Items can be purchased separately |  |  |  |
+| Таблица 1, комплект замены сборки Piston, номер детали 4919227. Предметы можно приобрести отдельно |  |  |  |
 |---|---|---|---|
-| Item Number | Part Number | Description | Quantity |
-| 1 | 4918985 | Cylinder liner replacer | 1 |
-| 2 | 4918986 | Replacer fixture | 1 |
-| 4 | 4919120 | Cylinder liner remover | 1 |
+| Номер позиции | Номер детали | Наименование | Количество |
+| 1 | 4918985 | Замена цилиндрового гильзы | 1 |
+| 2 | 4918986 | Замещающий крепеж | 1 |
+| 4 | 4919120 | Удаление цилиндров | 1 |
 
-| Table 2, Items included with the Replacer Fixture, can be purchased separately |  |  |  |
+| Таблица 2, Элементы, включенные в сменную смесь, можно приобрести отдельно |  |  |  |
 |---|---|---|---|
-| Item Number | Part Number | Description | Quantity |
-| 3 | 4918939 | Replacer housing | 1 |
+| Номер позиции | Номер детали | Наименование | Количество |
+| 3 | 4918939 | Заменитель корпуса | 1 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Description
+>
+> Piston Assembly Replacer Kit
+>
+> ### Purpose
+>
+> This document provides information for Piston Assembly Replacer Kit, Part Number 4919227. The kit is used to remove and install the piston and liner assembly in the QSK45 and QSK60 engines due to a design change of the connecting rod from an angle split to a horizontal split.
+>
+> - [[56-001-045-tr — Piston and Cylinder Liner|For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Service Manual, QSK45 and QSK60, Bulletin 4021530]]
+> - For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Troubleshooting and Repair Manual, QSK45G and QSK60G Industrial Series Engines, Bulletin 4021383
+> - For additional information, refer to Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the Troubleshooting and Repair Manual, QSK60G Generator CM700, Bulletin 4021396.
+>
+> | Table 1, Piston Assembly Replacer Kit, Part Number 4919227. Items can be purchased separately |  |  |  |
+> |---|---|---|---|
+> | Item Number | Part Number | Description | Quantity |
+> | 1 | 4918985 | Cylinder liner replacer | 1 |
+> | 2 | 4918986 | Replacer fixture | 1 |
+> | 4 | 4919120 | Cylinder liner remover | 1 |
+>
+> | Table 2, Items included with the Replacer Fixture, can be purchased separately |  |  |  |
+> |---|---|---|---|
+> | Item Number | Part Number | Description | Quantity |
+> | 3 | 4918939 | Replacer housing | 1 |

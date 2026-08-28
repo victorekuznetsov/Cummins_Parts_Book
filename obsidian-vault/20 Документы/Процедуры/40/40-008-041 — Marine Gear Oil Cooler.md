@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021538"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-041.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-041.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Marine Gear Oil Cooler
@@ -33,28 +35,54 @@ tags:
 > **Даты:** изменён 2005-11-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-008-041.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-008-041.pdf)
 
-### Flush
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Shut off the sea water inlet valve on the vessel hull, if so equipped.
+
+### флеш
+
+Отключите впускной клапан морской воды на корпусе судна, если он оборудован таким образом.
 
 ![[08600044.png]]
 
-Remove the marine gear oil cooler drain plug and drain the sea water from the gear oil cooler.
+Удалите штепсель слива судового каскада и сливайте морскую воду из кулера с маслом качалки.
 
-Disconnect the sea water inlet and outlet connections.
+Отключите впускные и выпускные соединения морской воды.
 
 ![[08900257.png]]
 
-Use clean water to flush all the debris from the cooler.
+Используйте чистую воду, чтобы смыть все мусор из холодильника.
 
-Make sure the debris flushed from the cooler does **not** enter the water supply hoses.
+Убедитесь, что мусор, смытый из кулера, не попадает в шланги для водоснабжения.
 
 ![[08900256.png]]
 
-Install the drain plug and sea water hose connections.
+Установите сливную пробку и соединения шланга морской воды.
 
 ![[08900257.png]]
 
-Open the sea water valve on the vessel hull, if closed.
+Откройте клапан морской воды на корпусе судна, если он закрыт.
 
 ![[17600022.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flush
+>
+> Shut off the sea water inlet valve on the vessel hull, if so equipped.
+>
+> Remove the marine gear oil cooler drain plug and drain the sea water from the gear oil cooler.
+>
+> Disconnect the sea water inlet and outlet connections.
+>
+> Use clean water to flush all the debris from the cooler.
+>
+> Make sure the debris flushed from the cooler does **not** enter the water supply hoses.
+>
+> Install the drain plug and sea water hose connections.
+>
+> Open the sea water valve on the vessel hull, if closed.

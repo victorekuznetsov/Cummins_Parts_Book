@@ -11,13 +11,15 @@ manuals:
   - "4326166"
   - "4326167"
   - "4326168"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/216/216-100-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/216-100-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSB6.7"
   - "группа/216"
+  - "перевод/машинный"
 ---
 
 # Cummins® Product Technology
@@ -30,64 +32,136 @@ tags:
 > **Даты:** изменён 2025-03-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/216/216-100-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/216-100-006.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The service model name for this product is **QSB6.7 CM2150 B109**.
 
-This engine is being released to meet the following emission regulations:
+### Общие сведения
 
-#### European Union
+Название модели сервиса для этого продукта - **QSB6.7 CM2150 B109**.
 
-- Stage III (Euro)
+Этот двигатель выпускается в соответствии со следующими правилами выбросов:
 
-#### Brazil
+#### Европейский Союз
 
-- CONAMA MAR-1
+- III этап (Евро)
 
-#### China
+#### Бразилия
 
-- China Tier 2.
+- КОНАМА МАР-1
 
-This engine uses the following product technology:
+#### Китай
 
-#### Engine
+- Китайский уровень 2.
 
-- Number of Cylinders - 6
-- Engine Configuration - Inline
-- Cylinder Block Material - Cast Iron
-- Cylinder Head Material - Cast Iron
-- Camshaft Location - Cylinder Block
-- Crankshaft Location - Cylinder Block
-- Engine Brake Option.
+Этот двигатель использует следующую технологию продукта:
 
-#### Electronic Control System
+#### Двигатель
 
-- Engine Control Module: CM2150
-- Electrical System Voltage: 24-VDC
-- Engine Coolant Level Sensor
-- Engine Coolant Temperature Sensor
-- Engine Oil Pressure Sensor
-- Engine Oil Pressure Switch
-- Fuel Rail Pressure Sensor
-- Fuel Pump Actuator
-- Water-in-Fuel Sensor
-- Camshaft Position Sensor
-- Crankshaft Position Sensor
-- Ambient Air Pressure Sensor
+- Количество цилиндров - 6
+- Конфигурация двигателя - Inline
+- Цилиндровый блок материала - чугун
+- Материал для цилиндрической головки - чугун
+- Местоположение Camshaft - Cylinder Block
+- Месторасположение коленчатого вала - цилиндрический блок
+- Вариант тормоза двигателя.
 
-#### Air Handling
+#### Электронная система управления
 
-- Turbocharger (Single)
-- Charge-Air Cooler
-- Intake Air Heater.
+- Электронный блок управления двигателем: CM2150
+- Напряжение электрической системы: 24-VDC
+- Датчик уровня охлаждающей жидкости
+- Датчик температуры охлаждающей жидкости
+- Датчик давления моторного масла
+- Коммутатор давления масла в двигателе
+- Датчик давления на топливных рельсах
+- Исполнительный механизм топливного насоса
+- Водный датчик
+- Датчик положения распределительного вала
+- Датчик положения коленчатого вала
+- Датчик атмосферного давления
 
-#### Fuel System
+#### Воздушная обработка
 
-- Diesel
-- Common Rail Fuel System
+- Турбокомпрессор (один)
+- Охладитель наддувочного воздуха
+- Подогреватель впускного воздуха.
 
-Market application that will use this engine include, but **not** limited to:
+#### Топливная система
 
-#### Industry
+- Дизель
+- Железнодорожная топливная система Common Rail Fuel
 
-- Construction.
+Маркетинговое приложение, которое будет использовать этот двигатель, включает, но не ограничивается:
+
+#### промышленность
+
+- Строительство.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The service model name for this product is **QSB6.7 CM2150 B109**.
+>
+> This engine is being released to meet the following emission regulations:
+>
+> #### European Union
+>
+> - Stage III (Euro)
+>
+> #### Brazil
+>
+> - CONAMA MAR-1
+>
+> #### China
+>
+> - China Tier 2.
+>
+> This engine uses the following product technology:
+>
+> #### Engine
+>
+> - Number of Cylinders - 6
+> - Engine Configuration - Inline
+> - Cylinder Block Material - Cast Iron
+> - Cylinder Head Material - Cast Iron
+> - Camshaft Location - Cylinder Block
+> - Crankshaft Location - Cylinder Block
+> - Engine Brake Option.
+>
+> #### Electronic Control System
+>
+> - Engine Control Module: CM2150
+> - Electrical System Voltage: 24-VDC
+> - Engine Coolant Level Sensor
+> - Engine Coolant Temperature Sensor
+> - Engine Oil Pressure Sensor
+> - Engine Oil Pressure Switch
+> - Fuel Rail Pressure Sensor
+> - Fuel Pump Actuator
+> - Water-in-Fuel Sensor
+> - Camshaft Position Sensor
+> - Crankshaft Position Sensor
+> - Ambient Air Pressure Sensor
+>
+> #### Air Handling
+>
+> - Turbocharger (Single)
+> - Charge-Air Cooler
+> - Intake Air Heater.
+>
+> #### Fuel System
+>
+> - Diesel
+> - Common Rail Fuel System
+>
+> Market application that will use this engine include, but **not** limited to:
+>
+> #### Industry
+>
+> - Construction.

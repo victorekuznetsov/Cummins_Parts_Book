@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-005-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Belt
@@ -35,106 +37,200 @@ tags:
 > **Даты:** изменён 2016-09-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-005-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Insert a 3/8-inch breaker bar into the space provided on the tensioner.
 
-Rotate the tensioner away from the belt until it stops.
+### Снятие
 
-Remove the alternator belt while holding the tensioner.
+Вставьте 3/8-дюймовый выключатель в пространство, предусмотренное на натяжителе.
+
+Поверните натяжитель подальше от пояса, пока он не остановится.
+
+Снимите ремень генератора, удерживая натяжитель.
 
 ![[ea2blma.png]]
 
-Loosen the adjusting screw locknut (1).
+Устранить корректирующий винтовой локон (1).
 
-Loosen the adjusting link locking capscrew (2).
+Устранить блокировочные болты (2).
 
-Loosen the alternator mounting capscrew (3).
+Устранить затворы генератора переменного тока (3).
 
-Turn the adjusting screw (4) **counterclockwise** to release tension.
+Поверните регулирующий винт (4) **против часовой стрелки**, чтобы снять напряжение.
 
-Remove the alternator belt.
+Снимите ремень генератора.
 
 ![[eh8aswb.png]]
 
-### Install
+### Установка
 
-Install a new belt over the pulleys while holding the tensioner back. Be careful **not** to damage the belt while working it over the flanged pulleys.
+Установите новый ремень над шкивами, удерживая натяжитель назад. Будьте осторожны, чтобы не повредить ремень, работая над фланцевыми шкивами.
 
-Release the tensioner, and remove the breaker bar.
+Отпустите натяжитель и удалите выключатель.
 
-Belt drive systems equipped with an automatic belt tensioner can **not** be adjusted. A belt tension gauge will **not** give an accurate measure of the belt tension. The automatic belt tensioner is designed to maintain the proper belt tension over the life of the belt. **Only** an inspection of the tensioner is required.
+Системы привода ремня, оснащенные автоматическим натяжителем ремня, могут **не** регулироваться. Измеритель напряжения ремня **не** дает точную меру напряжения ремня. Автоматический натяжитель ремня предназначен для поддержания надлежащего напряжения ремня в течение срока службы ремня. Требуется только осмотр натяжителя.
 
 ![[ea2blhb.png]]
 
-The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops when the belt length and geometry are correct.
+Натяжитель ремня предназначен для работы в пределах предела движения руки, обеспечиваемого остановками литья, когда длина ремня и геометрия верны.
 
-If the tensioner is hitting either of the limits during operation, check the mounting brackets and belt length. Loose brackets, bracket malfunctions, alternator movement, incorrect belt length, or belt malfunctions can cause the tensioner to hit the limits.
+Если натяжитель нажимает на любой из пределов во время работы, проверьте крепежные скобки и длину ремня. Свободные скобки, сбои в скобках, движение генератора переменного тока, неправильная длина ремня или сбои в ремне могут привести к тому, что натяжитель достигнет пределов.
 
 ![[ea200da.png]]
 
-> [!note] Note · Примечание
-> A belt is considered used if it has been in operation for ten minutes or longer.
+> [!note] Примечание
+> Ремень считается использованным, если он был в эксплуатации в течение десяти минут или дольше.
 
-Install a new belt on the water pump and alternator pulleys. To prevent damage, do **not** roll a belt over the pulley or pry on it with a tool.
+Установите новый ремень на водяной насос и шкивы генератора. Чтобы предотвратить повреждение, сделайте **не** перекатывайте ремень через шкив или поджаривайте его инструментом.
 
-Turn the adjusting screw (1) **clockwise** to increase the belt tension.
+Поверните регулирующий винт (1)** по часовой стрелке** для увеличения напряжения ремня.
 
-Use belt tension gauge, Part Number ST-1293, or equivalent, to measure the belt tension. [[99-018-005 — Drive Belt Tension|Refer to Procedure 018-005 in Section V]] for the correct tension value for the belt that is installed.
+Используйте измеритель напряжения ремня, номер детали ST-1293, или эквивалент, для измерения напряжения ремня.[[99-018-005 — Drive Belt Tension|См. процедуру 018-005 в разделе V.]]для правильного значения напряжения для установленного ремня.
 
 ![[eh8blud.png]]
 
-Tighten the adjusting screw locknut (2) against the retainer.
+Затягивать регулирующий винтовой шлюзовый гайка (2) против фиксатора.
 
-Tighten the adjustment link locking capscrew (3).
+Затягивать запирающие болты регулировочного звена (3).
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
-Tighten the pivot capscrew (4) and nut (5).
+Затягивать болты поворота (4) и гайки (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[eh2ajhb.png]]
 
-### Adjust
+### Регулировка
 
-Loosen the adjusting screw locknut (1).
+Устранить корректирующий винтовой локон (1).
 
-Loosen the adjustment link locking capscrew (2).
+Устранить блокировку затворов линии регулировки (2).
 
-Loosen the pivot capscrew and nut (3).
+Освободите болты и гайку (3).
 
 ![[eh8aswc.png]]
 
-> [!note] Note · Примечание
-> A belt is considered used if it has been in operation for ten minutes or longer.
+> [!note] Примечание
+> Ремень считается использованным, если он был в эксплуатации в течение десяти минут или дольше.
 
-Use belt tension gauge, Part Number ST-1293, to measure belt tension.
+Используйте измеритель напряжения ремня, часть номер ST-1293, для измерения напряжения ремня.
 
-Turn the alternator adjusting screw (1) **clockwise** to tighten the belt. [[99-018-005 — Drive Belt Tension|Refer to Procedure 018-005 in Section V.]]
+Поверните винт, регулирующий генератор (1) **по часовой стрелке**, чтобы затянуть ремень.[[99-018-005 — Drive Belt Tension|См. процедуру 018-005 в разделе V.]]
 
 ![[eh8blub.png]]
 
-Tighten the adjusting screw locknut (2) against the retainer.
+Затягивать регулирующий винтовой шлюзовый гайка (2) против фиксатора.
 
-Tighten the adjustment link locking capscrew (3).
+Затягивать запирающие болты регулировочного звена (3).
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
-Tighten the pivot capscrew (4) and nut (5).
+Затягивать болты поворота (4) и гайки (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[eh2ajhb.png]]
 
-Belt drive systems equipped with an automatic belt tensioner can **not** be adjusted. A belt tension gauge will **not** give an accurate measure of the belt tension. The automatic belt tensioner is designed to maintain proper belt tension over the life of the belt. **Only** inspection of the tensioner is required.
+Системы привода ремня, оснащенные автоматическим натяжителем ремня, могут **не** регулироваться. Измеритель напряжения ремня **не** дает точную меру напряжения ремня. Автоматический натяжитель ремня предназначен для поддержания надлежащего напряжения ремня в течение срока службы ремня. Требуется только осмотр натяжителя.
 
-The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops, when the belt length and geometry are correct.
+Натяжитель ремня предназначен для работы в пределах предела движения руки, обеспечиваемого остановками литья, когда длина ремня и геометрия верны.
 
-If the tensioner is hitting either of the limits during operation, check the mounting brackets and the belt length. Loose brackets, bracket failure, alternator movement, incorrect belt length, or belt failure can cause the tensioner to hit the limits.
+Если натяжитель нажимает на любой из пределов во время работы, проверьте крепежные скобки и длину ремня. Свободные скобки, отказ скобок, движение генератора переменного тока, неправильная длина ремня или отказ ремня могут привести к тому, что натяжитель достигнет пределов.
 
 ![[ea200da.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Insert a 3/8-inch breaker bar into the space provided on the tensioner.
+>
+> Rotate the tensioner away from the belt until it stops.
+>
+> Remove the alternator belt while holding the tensioner.
+>
+> Loosen the adjusting screw locknut (1).
+>
+> Loosen the adjusting link locking capscrew (2).
+>
+> Loosen the alternator mounting capscrew (3).
+>
+> Turn the adjusting screw (4) **counterclockwise** to release tension.
+>
+> Remove the alternator belt.
+>
+> ### Install
+>
+> Install a new belt over the pulleys while holding the tensioner back. Be careful **not** to damage the belt while working it over the flanged pulleys.
+>
+> Release the tensioner, and remove the breaker bar.
+>
+> Belt drive systems equipped with an automatic belt tensioner can **not** be adjusted. A belt tension gauge will **not** give an accurate measure of the belt tension. The automatic belt tensioner is designed to maintain the proper belt tension over the life of the belt. **Only** an inspection of the tensioner is required.
+>
+> The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops when the belt length and geometry are correct.
+>
+> If the tensioner is hitting either of the limits during operation, check the mounting brackets and belt length. Loose brackets, bracket malfunctions, alternator movement, incorrect belt length, or belt malfunctions can cause the tensioner to hit the limits.
+>
+> **Note · Примечание**
+> A belt is considered used if it has been in operation for ten minutes or longer.
+>
+> Install a new belt on the water pump and alternator pulleys. To prevent damage, do **not** roll a belt over the pulley or pry on it with a tool.
+>
+> Turn the adjusting screw (1) **clockwise** to increase the belt tension.
+>
+> Use belt tension gauge, Part Number ST-1293, or equivalent, to measure the belt tension. [[99-018-005 — Drive Belt Tension|Refer to Procedure 018-005 in Section V]] for the correct tension value for the belt that is installed.
+>
+> Tighten the adjusting screw locknut (2) against the retainer.
+>
+> Tighten the adjustment link locking capscrew (3).
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Tighten the pivot capscrew (4) and nut (5).
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> ### Adjust
+>
+> Loosen the adjusting screw locknut (1).
+>
+> Loosen the adjustment link locking capscrew (2).
+>
+> Loosen the pivot capscrew and nut (3).
+>
+> **Note · Примечание**
+> A belt is considered used if it has been in operation for ten minutes or longer.
+>
+> Use belt tension gauge, Part Number ST-1293, to measure belt tension.
+>
+> Turn the alternator adjusting screw (1) **clockwise** to tighten the belt. [[99-018-005 — Drive Belt Tension|Refer to Procedure 018-005 in Section V.]]
+>
+> Tighten the adjusting screw locknut (2) against the retainer.
+>
+> Tighten the adjustment link locking capscrew (3).
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Tighten the pivot capscrew (4) and nut (5).
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Belt drive systems equipped with an automatic belt tensioner can **not** be adjusted. A belt tension gauge will **not** give an accurate measure of the belt tension. The automatic belt tensioner is designed to maintain proper belt tension over the life of the belt. **Only** inspection of the tensioner is required.
+>
+> The belt tensioner is designed to operate within the limit of arm movement provided by the cast stops, when the belt length and geometry are correct.
+>
+> If the tensioner is hitting either of the limits during operation, check the mounting brackets and the belt length. Loose brackets, bracket failure, alternator movement, incorrect belt length, or belt failure can cause the tensioner to hit the limits.

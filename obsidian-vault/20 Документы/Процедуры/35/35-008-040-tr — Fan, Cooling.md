@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-040-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-040-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fan, Cooling
@@ -35,49 +37,94 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-040-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-040-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the fan drive belt. [[35-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
 
-Remove the fan and fan clutch assembly.
+### Снятие
+
+Удалите ремень привода вентилятора.[[35-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
+
+Удалите вентилятор и сборку вентилятора.
 
 ![[fa2blhd.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Do not rotate the engine by pulling or prying the fan. The fan blade(s) can be damaged, causing the fan to fail, which can cause serious personal injury or property damage. Use the accessory driveshaft to rotate the crankshaft.
+> [!danger] ОПАСНО
+> Не вращайте двигатель, тяну или пощупывая вентилятор. Лопатки вентилятора (-ов) могут быть повреждены, в результате чего вентилятор выходит из строя, что может привести к серьезным личным травмам или имущественному ущербу. Используйте вспомогательный вал привода для вращения коленчатого вала.
 
 ![[er200ba.png]]
 
-An inspection of the cooling fan is required daily. Check for cracks, loose rivets, and bent or loose blades. Check the fan to make sure it is securely mounted. Tighten the capscrews, if necessary.
+Ежедневно требуется проверка вентилятора охлаждения. Проверьте наличие трещин, рыхлых заклепок и согнутых или рыхлых лезвий. Проверьте вентилятор, чтобы убедиться, что он надежно установлен. Затягивайте болты, если это необходимо.
 
 ![[fn8bdsb.png]]
 
-> [!danger] WARNING · Опасно
-> Do not straighten a bent fan blade or continue to use a damaged fan. A bent or damaged fan blade can fail during operation, causing serious personal injury or property damage.
+> [!danger] ОПАСНО
+> Не выпрямляйте изогнутый вентилятор или продолжайте использовать поврежденный вентилятор. Согнутый или поврежденный лопасти вентилятора могут выйти из строя во время работы, вызывая серьезные личные травмы или повреждения имущества.
 
 ![[fn800qa.png]]
 
-Replace any original equipment fan that is damaged with a fan of the identical part number. Cummins Inc. **must** approve any other fan changes.
+Замените любой оригинальный вентилятор оборудования, который поврежден вентилятором с идентичным номером детали. Cummins Inc.
 
 ![[fn800ba.png]]
 
-### Install
+### Установка
 
-Install the fan on the fan clutch assembly.
+Установите вентилятор на сборку вентиляторного сцепления.
 
-Tighten the mounting nuts to the manufacturer's specifications.
+Уплотните крепежные гайки до спецификаций производителя.
 
-Install the fan clutch and fan assembly on the engine.
+Установите сцепление вентилятора и сборку вентилятора на двигатель.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 68 n•m [50 ft-lb]
+> [!tip] Момент затяжки
+> 68 Н·м [50 фунт-фут]
 
-Install, adjust, and tighten the fan drive belt. [[35-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+Установите, настройте и затяните ремень привода вентилятора.[[35-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
 
-Operate the engine and check for proper operation.
+Управляйте двигателем и проверяйте его правильность.
 
 ![[fa2blhe.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the fan drive belt. [[35-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+>
+> Remove the fan and fan clutch assembly.
+>
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Do not rotate the engine by pulling or prying the fan. The fan blade(s) can be damaged, causing the fan to fail, which can cause serious personal injury or property damage. Use the accessory driveshaft to rotate the crankshaft.
+>
+> An inspection of the cooling fan is required daily. Check for cracks, loose rivets, and bent or loose blades. Check the fan to make sure it is securely mounted. Tighten the capscrews, if necessary.
+>
+> **WARNING · Опасно**
+> Do not straighten a bent fan blade or continue to use a damaged fan. A bent or damaged fan blade can fail during operation, causing serious personal injury or property damage.
+>
+> Replace any original equipment fan that is damaged with a fan of the identical part number. Cummins Inc. **must** approve any other fan changes.
+>
+> ### Install
+>
+> Install the fan on the fan clutch assembly.
+>
+> Tighten the mounting nuts to the manufacturer's specifications.
+>
+> Install the fan clutch and fan assembly on the engine.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 68 n•m [50 ft-lb]
+>
+> Install, adjust, and tighten the fan drive belt. [[35-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+>
+> Operate the engine and check for proper operation.

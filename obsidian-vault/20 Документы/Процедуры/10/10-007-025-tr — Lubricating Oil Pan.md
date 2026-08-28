@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666239"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-007-025-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-007-025-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pan
@@ -34,74 +36,142 @@ tags:
 > **Даты:** изменён 2021-11-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-007-025-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-007-025-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-- Drain the lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 (Lubricating Oil System) in Section 7.]]
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-### Remove
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Remove the oil pan mounting capscrews, oil pan, and gasket.
+- Слить моторное масло.[[10-007-037-tr — Lubricating Oil System|См. процедуру 007-037 (Система моторного масла) в разделе 7.]]
 
-Discard the oil pan gasket.
+### Снятие
+
+Удалите крепежные болты масляной панели, масляную панель и прокладку.
+
+Отбросьте прокладку масляного щита.
 
 ![[07c00149.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Steam clean and dry with compressed air.
+чистый с паром и сухой со сжатым воздухом.
 
 ![[07c00152.png]]
 
-Inspect the inside and the outside of the oil pan for cracks.
+Осмотрите внутреннюю и внешнюю часть масляной кастрюли на наличие трещин.
 
-Replace the oil pan if cracked or broken.
+Замените масляную кастрюлю, если она сломана или треснула.
 
 ![[07c00153.png]]
 
-### Install
+### Установка
 
-Apply a 1.97 mm \[1/8 in\] bead of silicon sealant, Part Number 3164067, to each of the four T-joints where the front gear housing and flywheel housing gaskets intersect the oil pan gasket.
+Нанесите 1,97 мм \[1/8 в\] бусину кремниевого герметика, номер детали 3164067, на каждый из четырех T-соединений, где передняя коробка передач и прокладки маховика пересекают прокладку масляного резервуара.
 
 ![[07c00253.png]]
 
-Install a new oil pan gasket.
+Установите новую прокладку для масляных панелей.
 
-Install the oil pan onto the cylinder block. Install one of the 13 mm oil pan mounting capscrews, hand-tight, on each side of the oil pan, halfway between the front and the rear of the oil pan.
+Установите масляную поддон на блок цилиндров. Установите один из 13-мм болтов для монтажа масляной поддонной панели, ручной, с каждой стороны масляной поддона, на полпути между передней и задней частью масляной поддона.
 
-Finger tighten all or the mounting capscrews.
+Пальцы затягивают все или крепления болтов.
 
 ![[07c00149.png]]
 
-Tighten the thirty-two 13 mm capscrews in the sequence shown.
+Затягивайте тридцать два 13-мм болта в показанной последовательности.
 
-At the end of the sequence, loosen and tighten capscrew number 1 again.
+В конце последовательности снова ослабляйте и затягивайте болты № 1.
 
-> [!tip] Момент затяжки · Torque Value
-> 55 n•m [41 ft-lb]
+> [!tip] Момент затяжки
+> 55 Н·м [41 фунт-фут]
 
 ![[07c00267.png]]
 
-Install the oil drain plug(s).
+Установите масляную сливную пробку (плагины).
 
-> [!tip] Момент затяжки · Torque Value
-> 55 n•m [41 ft-lb]
+> [!tip] Момент затяжки
+> 55 Н·м [41 фунт-фут]
 
 ![[07t00014.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Fill the lubricating oil pan. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037(Lubricating Oil System) in Section 7.]]
+Заполните смазочный маслослив.[[10-007-037-tr — Lubricating Oil System|См. процедуру 007-037 (Система моторного масла) в разделе 7.]]
 
-Operate the engine until the water temperature reaches 82°C \[180°F\]. Check for leaks.
+Работайте с двигателем до тех пор, пока температура воды не достигнет 82 ° C \[180° F \]. Проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Drain the lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 (Lubricating Oil System) in Section 7.]]
+>
+> ### Remove
+>
+> Remove the oil pan mounting capscrews, oil pan, and gasket.
+>
+> Discard the oil pan gasket.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Steam clean and dry with compressed air.
+>
+> Inspect the inside and the outside of the oil pan for cracks.
+>
+> Replace the oil pan if cracked or broken.
+>
+> ### Install
+>
+> Apply a 1.97 mm \[1/8 in\] bead of silicon sealant, Part Number 3164067, to each of the four T-joints where the front gear housing and flywheel housing gaskets intersect the oil pan gasket.
+>
+> Install a new oil pan gasket.
+>
+> Install the oil pan onto the cylinder block. Install one of the 13 mm oil pan mounting capscrews, hand-tight, on each side of the oil pan, halfway between the front and the rear of the oil pan.
+>
+> Finger tighten all or the mounting capscrews.
+>
+> Tighten the thirty-two 13 mm capscrews in the sequence shown.
+>
+> At the end of the sequence, loosen and tighten capscrew number 1 again.
+>
+> **Момент затяжки · Torque Value**
+> 55 n•m [41 ft-lb]
+>
+> Install the oil drain plug(s).
+>
+> **Момент затяжки · Torque Value**
+> 55 n•m [41 ft-lb]
+>
+> ### Finishing Steps
+>
+> Fill the lubricating oil pan. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037(Lubricating Oil System) in Section 7.]]
+>
+> Operate the engine until the water temperature reaches 82°C \[180°F\]. Check for leaks.

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc219.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc219.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Make-Up Tank Oil Level Low Fault
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc219.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc219.pdf)
 
-### Fault Code: 219
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Make-Up Tank Oil Level Low Fault
 
-Printable Version
+### Код неисправности: 219
 
-### Overview
+### Макияж танка уровень масла низкий
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 219 PID(P): S153 SPN: 1380 FMI: 1 Lamp: Engine Protection SRT: | Low oil level detected in the remote oil reservoir used in the Centinel™ system. | Centinel™ system is disabled. |
+| Код неисправности: 219 P(P): S153 SPN: 1380 FMI: 1 лампа: Защита двигателя SRT: | Низкий уровень масла обнаружен в удаленном масляном резервуаре, используемом в системе CentinelTM. | Система CentinelTM отключена. |
 
 ![[19400659.png]]
 
-Make-up Tank Oil Level Low Sensor
+Макияж танка масло уровень низкий датчик
 
-### Circuit Description
+### Описание цепи
 
-The make-up tank oil level low sensor monitors the oil level in the make-up oil tank and reports to the ECM when the oil drops below the specified level.
+Низкий датчик уровня масла в масляном баке для макияжа контролирует уровень масла в масляном баке для макияжа и сообщает в ECM, когда масло опускается ниже указанного уровня.
 
-### Component Location
+### Расположение компонента
 
-The make-up tank oil level low sensor is located on the lower portion of the Centinel™ system make-up oil tank.
+Низкий датчик уровня масла в масляном масле расположен на нижней части масляного резервуара системы CentinelTM.
 
-### Shoptalk
+### Практические замечания
 
-Verify that the make-up tank has the appropriate level of oil.
+Убедитесь, что в макияже есть соответствующий уровень масла.
 
-Refer to Troubleshooting Fault Code t05-219
+См. Код устранения неполадок t05-219
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 219
+>
+> ### Make-Up Tank Oil Level Low Fault
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 219 PID(P): S153 SPN: 1380 FMI: 1 Lamp: Engine Protection SRT: | Low oil level detected in the remote oil reservoir used in the Centinel™ system. | Centinel™ system is disabled. |
+>
+> Make-up Tank Oil Level Low Sensor
+>
+> ### Circuit Description
+>
+> The make-up tank oil level low sensor monitors the oil level in the make-up oil tank and reports to the ECM when the oil drops below the specified level.
+>
+> ### Component Location
+>
+> The make-up tank oil level low sensor is located on the lower portion of the Centinel™ system make-up oil tank.
+>
+> ### Shoptalk
+>
+> Verify that the make-up tank has the appropriate level of oil.
+>
+> Refer to Troubleshooting Fault Code t05-219

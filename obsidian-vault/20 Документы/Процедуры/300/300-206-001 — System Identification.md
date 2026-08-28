@@ -16,13 +16,15 @@ manuals:
   - "4332828"
   - "4332829"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-206-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-206-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/300"
+  - "перевод/машинный"
 ---
 
 # System Identification
@@ -36,11 +38,28 @@ tags:
 > **Даты:** изменён 2021-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-206-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-206-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Общие сведения
 
 ![[25900002.png]]
 
-C Command HD Elite Marine Panel System PS106 & C Command HD Elite Marine Panel System PS107
+C Command HD Elite Marine Panel System PS106 и C Command HD Elite Marine Panel System PS107
 
-1. Customer interface box (C.I.B.)
-2. Remote panels.
+1. Коробка интерфейса клиента (C.I.B.)
+2. Дистанционные панели.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> C Command HD Elite Marine Panel System PS106 & C Command HD Elite Marine Panel System PS107
+>
+> 1. Customer interface box (C.I.B.)
+> 2. Remote panels.

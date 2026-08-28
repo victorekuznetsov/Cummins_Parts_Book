@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc221.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc221.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Ambient Air Pressure Sensor Circuit
@@ -38,36 +40,78 @@ tags:
 > **Даты:** изменён 2026-05-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc221.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc221.pdf)
 
-### Fault Code: 221
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Ambient Air Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 221
 
-### Overview
+### Цепь датчика атмосферного давления
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 221 PID(P): P108 SPN: 108 FMI: 3 Lamp: Yellow SRT: 00-361 | More than 4.78-VDC detected at the ambient air pressure sensor signal pin 34 of the engine harness. | Derate in power output of the engine. |
+| Код неисправности: 221 P(P): P108 SPN: 108 FMI: 3 лампы: Желтая СТО: 00-361 | Более 4,78-VDC обнаружен при контакте датчика давления окружающего воздуха 34 проводов двигателя. | Уменьшите выходную мощность двигателя. |
 
 ![[19400069.png]]
 
-Ambient Air Pressure Sensor Circuit
+Цепь датчика атмосферного давления
 
-### Circuit Description
+### Описание цепи
 
-The ambient air pressure sensor provides the ambient air pressure signal to the ECM through the engine harness. The ECM uses the ambient air pressure sensor to adjust fueling based on the altitude.
+Датчик давления окружающего воздуха обеспечивает сигнал давления окружающего воздуха к ECM через электропроводку двигателя. ECM использует датчик давления окружающего воздуха для регулировки заправки топливом в зависимости от высоты.
 
-### Component Location
+### Расположение компонента
 
-The ambient air pressure sensor is located below the ECM on the control valve body.
+Датчик давления окружающего воздуха расположен ниже ECM на корпусе управляющего клапана.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged ambient air pressure sensor
+- Неисправность или повреждение датчика давления окружающего воздуха
 
-- Malfunctioning or damaged engine wiring harness
+- Неисправная или поврежденная электропроводка двигателя
 
-Refer to Troubleshooting Fault Code t05-221
+См. Код устранения неполадок t05-221
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 221
+>
+> ### Ambient Air Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 221 PID(P): P108 SPN: 108 FMI: 3 Lamp: Yellow SRT: 00-361 | More than 4.78-VDC detected at the ambient air pressure sensor signal pin 34 of the engine harness. | Derate in power output of the engine. |
+>
+> Ambient Air Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The ambient air pressure sensor provides the ambient air pressure signal to the ECM through the engine harness. The ECM uses the ambient air pressure sensor to adjust fueling based on the altitude.
+>
+> ### Component Location
+>
+> The ambient air pressure sensor is located below the ECM on the control valve body.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged ambient air pressure sensor
+>
+> - Malfunctioning or damaged engine wiring harness
+>
+> Refer to Troubleshooting Fault Code t05-221

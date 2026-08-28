@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021538"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter Adapter
@@ -33,31 +35,62 @@ tags:
 > **Даты:** изменён 2006-03-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-016.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean debris from around the filter head area.
 
-Remove the fuel filters.
+### Подготовительные операции
+
+Чистый мусор вокруг области головки фильтра.
+
+Удалите топливные фильтры.
 
 ![[ff9etma.png]]
 
-### Remove
+### Снятие
 
-Remove the retaining nut, fuel filter head adapter, and sealing washers.
-
-![[ff9hdmb.png]]
-
-### Install
-
-Install the sealing washers, fuel filter head adapter, and the retaining nut.
-
-> [!tip] Момент затяжки · Torque Value
-> 32 n•m [24 ft-lb]
+Удалите удерживающий гайку, топливный фильтр, монтажный головной адаптер и уплотнительные шайбы.
 
 ![[ff9hdmb.png]]
 
-### Finishing Steps
+### Установка
 
-Install the fuel filters as specified by the filter manufacturer.
+Установите уплотнительные шайбы, топливный фильтр, монтажный головной адаптер, и удерживающий гайку.
+
+> [!tip] Момент затяжки
+> 32 Н·м [24 фунт-фут]
+
+![[ff9hdmb.png]]
+
+### Завершающие операции
+
+Установите топливные фильтры, как указано производителем фильтров.
 
 ![[lf9ethc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Clean debris from around the filter head area.
+>
+> Remove the fuel filters.
+>
+> ### Remove
+>
+> Remove the retaining nut, fuel filter head adapter, and sealing washers.
+>
+> ### Install
+>
+> Install the sealing washers, fuel filter head adapter, and the retaining nut.
+>
+> **Момент затяжки · Torque Value**
+> 32 n•m [24 ft-lb]
+>
+> ### Finishing Steps
+>
+> Install the fuel filters as specified by the filter manufacturer.

@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 80
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-001-088-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-001-088-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Engine Base Timing
@@ -30,747 +32,1342 @@ tags:
 > **Даты:** изменён 2024-07-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-001-088-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-001-088-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Assembly Configuration
 
-Two front gear train combinations are presently utilized on the Signature™, ISX, and QSX15 engines. Signature™, ISX3, ISX2, and QSX15 engines use a scissor gear for the lower idler gear and the injector cam gear. ISX1 does **not** use a scissor gear at the idler location.
+### Общие сведения
 
-ISX2 engines built between January 1999, and January 2000, utilize a scissor gear for the lower idler gear **only**. The injector cam gear is a straight cut spur gear, similar to the ISX1. After January, 2000, the ISX2 has scissor gears for both the cam and lower idler.
+Конфигурация Front Gear Assembly
 
-This procedure describes the removal, inspection, and installation of the different gear combinations.
+В настоящее время на двигателях SignatureTM, ISX и QSX15 используются две комбинации передних передних передач. Двигатели SignatureTM, ISX3, ISX2 и QSX15 используют ножницную передачу для нижней шестерни холостого хода и топливную форсунок. ISX1 не использует ножницы в месте нахождения холостяка.
+
+Двигатели ISX2, построенные в период с января 1999 года по январь 2000 года, используют ножницную передачу для нижней бездельничной передачи **только**. Камера форсунки представляет собой прямое шпоровое устройство, аналогичное ISX1. После января 2000 года ISX2 имеет ножницы для кулачков и нижних холостых.
+
+Эта процедура описывает удаление, проверку и установку различных комбинаций передач.
 
 ![[00c00035.png]]
 
-Front Gear Assembly without Scissor Gear
+Сборка передних ворот без ножницы
 
-View shown is from left to right and top to bottom.
+Показываемый вид слева направо и сверху вниз.
 
-- Valve camshaft gear
-- Injector camshaft gear
-- Adjustable idler gear
-- Lower idler gear
-- Accessory gear
-- Crankshaft gear.
+- Валовая каскадная передача
+- 3.3.1 Транспортное средство вала форсунки
+- 5.2.1 Регулируемое снаряжение холостого хода
+- Нижняя шестерня
+- Аппаратное снаряжение
+- Шестерня коленчатого вала.
 
 ![[01c00349.png]]
 
-Front Gear Assembly with Scissor Gear
+Front Gear Assembly с ножницами
 
-View shown is from left to right and top to bottom.
+Показываемый вид слева направо и сверху вниз.
 
-- Valve camshaft gear
-- Injector camshaft scissor gear
-- Adjustable idler gear
-- Lower idler scissor gear
-- Accessory gear
-- Crankshaft gear.
-
-![[00c00035.png]]
-
-Scissor Gear Definitions
-
-> [!danger] WARNING · Опасно
-> Do not attempt to remove any gears before reading scissor gear definitions. Serious personal injury or engine damage can result if instructions are not followed.
-
-The following terms describe the conditions of the scissor gears for removal, installation, and operation.
+- Валовая каскадная передача
+- 3.3.1.1 Ножница форсунки
+- 5.2.1 Регулируемое снаряжение холостого хода
+- Нижняя ножница бездельника
+- Аппаратное снаряжение
+- Шестерня коленчатого вала.
 
 ![[00c00035.png]]
 
-#### Unloaded
+Scissor Gear - определение
 
-- The gear will be unloaded when removing, installing, and setting gear backlash.
+> [!danger] ОПАСНО
+> Не пытайтесь удалить какие-либо зубчатые передачи, прежде чем читать определения зубчатых колес. Серьезные травмы или повреждение двигателя могут возникнуть, если инструкции не выполняются.
 
-Unload the gear by backing out two gear adjusting screws until the gear teeth align.
+Следующие термины описывают условия ножничных шестерен для удаления, установки и эксплуатации.
 
-The idler scissor gear is loaded when the gear backlash is set.
+![[00c00035.png]]
+
+#### Незагруженный
+
+- Передача будет разгружена при удалении, установке и настройке обратной реакции передачи.
+
+Разгрузите передачу, выставив два винта, регулирующих передачу, пока зубья передачи не выровняются.
+
+Ножница бездельника заряжается при установке обратной реакции передачи.
 
 ![[00c00037.png]]
 
-#### Loaded
+#### загруженный
 
-- The gear teeth are loaded (functional) and are spread between the mating gear teeth.
+- Зубы зубчатой передачи загружены (функциональны) и распределены между зубцами зубчатой передачи.
 
-The gear is loaded by tightening all the adjusting screws. The gear teeth will be spread and no movement will be felt against the valve cam gear. The gear will be in the loaded condition for engine operation.
+Передача заряжается затягиванием всех регулировочных винтов. Зубы зубчатой коробки будут распространяться, и не будет ощущаться никакого движения против клапанной кулачковой передачи. Передача будет находиться в загруженном состоянии для работы двигателя.
 
 ![[01c00111.png]]
 
-### Initial Check
+### Первичная проверка
 
-> [!note] Note · Примечание
-> Use the following steps to check base engine timing.
+> [!note] Примечание
+> Используйте следующие шаги для проверки времени базового двигателя.
 
-Timing Wedges:
+Сроки затвора:
 
-The timing code is located on the engine dataplate.
+Код синхронизации расположен на табличке с данными двигателя.
 
-- First number - injector wedge.
-- Second number - valve wedge.
+- Первое число — форсунканый клин.
+- Второе число — клапанный клин.
 
-If the engine dataplate is missing, a new dataplate should be ordered. Use the following procedure to identify the timing code for an engine with a missing dataplate. Refer to Procedure 850-029 in Section V.
+Если табличка с данными двигателя отсутствует, следует заказать новую табличку. Используйте следующую процедуру для идентификации кода времени для двигателя с отсутствующей табличкой данных. См. процедуру 850-029 в разделе V.
 
 ![[07c00169.png]]
 
-Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+Снимите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[03c00002.png]]
 
-> [!note] Note · Примечание
-> Use this step if the engine is equipped with an air compressor:
+> [!note] Примечание
+> Используйте этот шаг, если двигатель оснащен воздушным компрессором:
 
-Remove the oil fill connector from the lower gear case cover.
+Удалите масляный разъем из нижней крышки коробки передач.
 
-Insert a 3/4-inch drive ratchet and extension into the air compressor drive.
+Вставьте 3/4-дюймовый приводной скоб и удлинитель в привод воздушного компрессора.
 
-Rotate the air compressor drive **clockwise**, as viewed from the front of the engine.
+Вращайте привод воздушного компрессора **по часовой стрелке**, как видно с передней части двигателя.
 
 ![[17c00091.png]]
 
-> [!note] Note · Примечание
-> Use this step if the engine is **not** equipped with an air compressor:
+> [!note] Примечание
+> Используйте этот шаг, если двигатель **не** оборудован воздушным компрессором:
 
-Loosen the cover plate capscrews and rotate the cover or remove the oil fill tube, if equipped.
+Освободите болты крышки и поверните крышку или удалите масляную трубку, если она оборудована.
 
 ![[00c00060.png]]
 
-Use a 1½ inch socket to push the barring gear into the gear mesh. Rotate the barring adapter to bar the engine.
+Используйте 11⁄2-дюймовую розетку, чтобы подтолкнуть двигатель, превращающий передачу в сетку передач. Поверните запорный адаптер, чтобы перекрыть двигатель.
 
 ![[00c00061.png]]
 
-Rotate the crankshaft **clockwise** until the insert pin mark on the outside diameter of the engine vibration damper is aligned with the mark on the gear housing.
+Вращайте коленчатый вал **по часовой стрелке** до тех пор, пока на внешнем диаметре виброгасителя двигателя не будет установлен знак на корпусе зубчатой коробки.
 
-QSX15 engines are equipped with dual vibration dampers. The crank pin mark is located on the damper closest to the engine.
+Двигатели QSX15 оснащены двойными вибрационными амортизаторами. Отметка коленчатого штифта расположена на демпфере, ближайшем к двигателю.
 
 ![[00c00021.png]]
 
-Verify that the wedge flats of the camshaft are visible when viewed from above.
+Убедитесь, что клиновые плоскости распределительного вала видны при взгляде сверху.
 
-If wedge flats are **not** visible when at insert pin, the engine is **not** on the timing stroke (timing is performed at cylinder number 1 compression stroke). Rotate the crankshaft 360 degrees. This will change the orientation of the camshaft 180 degrees and the wedge flats will be visible from above. This indicates cylinder number 1 is on the compression stroke.
+Если клиновидные плоскости **не** видны при вставке, двигатель **не** на ходу тайминга (нажатие выполняется при такте сжатия цилиндра № 1). Поверните коленчатый вал на 360 градусов. Это изменит ориентацию распределительного вала на 180 градусов, и клиновые плоскости будут видны сверху. Это указывает на то, что цилиндр № 1 находится на сжатии.
 
 ![[01a00327.png]]
 
-Remove the plug from the timing pin boss.
+Удалите вилку от босса блокировки коленчатого вала.
 
-Lock the crankshaft in place with the crankshaft locking pin, Part Number 3163020.
+Заблокируйте коленчатый вал на месте с помощью запирающего штифта коленчатого вала, номер детали 3163020.
 
-The pin **must** be in good condition; **not** bent, mushroomed, oval, etc.
+Штырь **должен** быть в хорошем состоянии; **не** изогнут, грибной, овальный и т.д.
 
-When properly installed, the colored band on the timing pin will be lined up with the surface of the timing pin boss of the block.
+При правильной установке цветная полоса на запирающем штифте коленчатого вала будет выровнена с поверхностью запирающего штифта коленчатого вала босса блока.
 
-The pin is **not** correctly seated in the crank notch if the green band is either completely visible outside the block, or is **not** visible at all.
+Штырь **не** правильно расположен в коленчатой выемке, если зеленая полоса либо полностью видна за пределами блока, либо вообще не видна.
 
 ![[00c00025.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not drive the wedges into place. Component damage can occur. Install wedges by hand.
+> [!warning] ОСТОРОЖНО
+> Не вбивайте клинья в место. Могут возникнуть повреждения компонентов. Установите клинья вручную.
 
-Insert the timing wedges listed on the dataplate. The wedges **must** be in good condition, with smooth flats and spine. Using damaged wedges can result in poor timing. Replace worn and damaged wedges.
+Вставьте временные клинья, перечисленные на табличке. Клины должны быть в хорошем состоянии, с гладкими ровными ровными и позвоночником. Использование поврежденных клиньев может привести к плохому времени. Замените изношенные и поврежденные клинья.
 
-Proper fits should leave no gap between the wedge face and cam, or between the back of the wedge and the head.
+Правильные приспособления не должны оставлять зазора между клином и кулаком или между задней частью клина и головой.
 
-**Not** all wedges have lines; if the wedge has a line, the line should be level with the top of the head/cover rail.
+Не все клинья имеют линии; если клин имеет линию, линия должна быть ровной с верхней частью рельса головы / крышки.
 
 ![[00c00026.png]]
 
-For properly fitted wedges with lines, timing variation represented by the position of the line is small.
+Для правильно подобранных клиньев с линиями вариация времени, представленная положением линии, невелика.
 
-> [!note] Note · Примечание
-> If the line is high for CM871 engines:
+> [!note] Примечание
+> Если линия является высокой для двигателей CM871:
 
-Valve Cam: No performance complaints arise from valve timing variation of this amount. The line on a valve cam wedge should be disregarded.
+клапан Cam: Никаких жалоб на производительность не возникает из-за изменения времени клапана этой суммы. Линия на клапанном кулачке должна быть проигнорирована.
 
-Injector Cam: Timing may need to be physically measured to address potential performance issues if they exist. Review engine history for performance complaints including filter plugging, white smoke, etc.
+форсунка Cam: Возможно, потребуется физически измерить время для решения потенциальных проблем с производительностью, если они существуют. Просмотрите историю двигателя для жалоб на производительность, включая заглушку фильтра, белый дым и т. Д.
 
-Discuss the next steps with appropriate Cummins Inc. technical support resource if engine has history of these complaints and the line on the injector wedge is higher than the head cover rail.
+Обсудите следующие шаги с соответствующей компанией Cummins Inc. ресурс технической поддержки, если двигатель имеет историю этих жалоб и линия на топливном форсуночном клине выше, чем рельс крышки.
 
-> [!note] Note · Примечание
-> If the line is high for all other 15L engines (except CM871):
+> [!note] Примечание
+> Если линия является высокой для всех других 15L двигателей (кроме CM871):
 
-Both the valve and injection timing is robust to timing variation of this amount, the line should be disregarded.
+Как клапан, так и время впрыска устойчивы к изменению времени этого количества, линия должна быть проигнорирована.
 
-Use the following procedure if static injection timing requires further measurement or adjustment. [[10-006-025 — Static Injection Timing|Refer to Procedure 006-025 in Section 6.]]
+Используйте следующую процедуру, если статический впрыск требует дальнейшего измерения или регулировки.[[10-006-025 — Static Injection Timing|См. процедуру 006-025 в разделе 6.]]
 
 ![[01a00328.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-> [!warning] CAUTION · Осторожно
-> The timing pin and wedges must be installed before any gears are removed and must remain in place until all gears are fully installed and tightened. Failure to install the timing pin and wedge can lead to improper timing of the engine, resulting in severe engine damage or engine failure.
+> [!warning] ОСТОРОЖНО
+> Запирающий штифт коленчатого вала и клинья должны быть установлены до того, как какие-либо передачи будут сняты, и должны оставаться на месте до тех пор, пока все передачи не будут полностью установлены и затянуты. Неустановка штифта и клина блокировки коленчатого вала может привести к неправильному синхронизации двигателя, что приведет к серьезным повреждениям двигателя или отказу двигателя.
 
-> [!note] Note · Примечание
-> Perform Initial Check section before removing gears.
+> [!note] Примечание
+> Выполните начальную проверку раздела перед удалением передач.
 
-Removal of the lower cover is **not** required when setting the gear backlash on engines that utilize all non-scissor gears. An access hole is provided to insert a shim between the lower non-scissor idler gear and the adjustable idler gear. The access hole is sealed with a plug.
+Удаление нижней крышки не требуется при настройке реверса на двигатели, которые используют все неножницы. Предусмотрено отверстие доступа для вставки тряпки между нижним неножным снаряжением холостого хода и регулируемым снаряжением холостого хода. Отверстие доступа запечатано вилкой.
 
-It will be helpful to push the gear cover plug out from the rear. It is **not** necessary to remove the lower gear cover to push out the plug.
+Будет полезно вытолкнуть крышку передач сзади. **не** необходимо снять нижнюю крышку передач, чтобы вытолкнуть пробку.
 
 ![[01c00337.png]]
 
-Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+Снимите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
 
-Remove the lower gear cover, if needed. Refer to Procedure 001-080 in Section 1.
+Удалите нижнюю крышку, если это необходимо. См. процедуру 001-080 в разделе 1.
 
 ![[01c00035.png]]
 
-### Remove
+### Снятие
 
-Valve Camshaft Gear
+клапан Camshaft Gear
 
-The injector camshaft scissor gear **must** be unloaded during removal of the valve camshaft gear. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+Ножница распределительного вала форсунки **должна быть выгружена во время снятия клапанной распределительной передачи. Для разгрузки зубчатой передачи два винта зубчатой передачи **должны быть заглушены достаточно далеко, чтобы зубы на ножнице были выровнены.
 
-Unload the injector camshaft scissor gear.
+Разгрузить топливную форсуну ножницы распределительного вала.
 
-Remove the valve camshaft gear mounting capscrew and washer.
+Удалите клапанные распределительные валы, крепящие болты и шайбу.
 
 ![[01c00188.png]]
 
-Early production engines were **not** equipped with puller holes in the valve camshaft gear. A three-jaw gear puller **must** be used for gears that do **not** have puller holes. The injector and valve gear puller, Part Number 3163069, can be used for gears that have puller holes.
+Ранние двигатели производства были **не** оснащены отверстиями в клапане распределительного механизма. Трех-челюстный съёмник **должен использоваться для шестерен, которые **не имеют отверстия для съёмника. Форсунка и клапанный съёмник, номер детали 3163069, могут использоваться для шестерен, которые имеют отверстия для съёмника.
 
-Install the gear puller, Part Number 3163069.
+Установите съёмник, номер детали 3163069.
 
-Install the valve camshaft gear mounting capscrew completely.
+Установите клапанные распределительные валы, устанавливающие болты полностью.
 
-Loosen the capscrew two turns.
+Уберите болты на два оборота.
 
-Use the gear puller to remove the valve camshaft gear from the camshaft nose.
+Используйте рычаг переключения передач, чтобы снять клапанную передачу распределительного вала с носа распределительного вала.
 
 ![[01c00350.png]]
 
-Remove the puller.
+Уберите съёмник.
 
-Do **not** completely remove the camshaft gear mounting capscrew when the three-jaw puller is used. The capscrew serves as a safety catch by preventing the gear from shooting off the camshaft nose.
+**не** полностью убрать болты крепления распределительного механизма при использовании трехъядерного съёмника. Болты служат уловом безопасности, предотвращая отстрел шестеренки из носа распределительного вала.
 
-Remove the valve camshaft gear mounting capscrew, spacer, and valve camshaft gear.
+Удалите клапанные распределительные валы, распорки и клапанные распределительные валы.
 
 ![[01c00217.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+Используйте свободную от ворсинок ткань и растворитель для очистки остатка LoctiteTM от носа распределительного вала.
 
 ![[01c00503.png]]
 
-Injector Camshaft Scissor Gear
+форсунка Camshaft Scissor Gear
 
-> [!warning] CAUTION · Осторожно
-> Remove the rear injector camshaft cover plate before removal of the injector camshaft gear or camshaft. The force required to remove the camshaft gear creates sufficient backward movement of the camshaft to crack the rear cover plate.
+> [!warning] ОСТОРОЖНО
+> Удалите заднюю крышку топливного вала перед удалением топливного вала или распределительного вала. Сила, необходимая для удаления распределительного механизма, создает достаточное обратное движение распределительного вала для взлома задней пластины крышки.
 
-Remove the injector camshaft rear cover plate.
+Снять форсунка с задней крышки распределительного вала.
 
 ![[01c00220.png]]
 
-Remove the injector camshaft scissor gear mounting capscrew and washer.
+Удалите форсунка ножницы распределительного вала, устанавливающие болты и шайбу.
 
-Install gear puller, Part Number 3163069.
+Установите съёмник, номер детали 3163069.
 
-Install the injector camshaft scissor gear mounting capscrew. Loosen the capscrew one turn.
+Установите форсунку ножницы распределительного вала, устанавливающие болты. Освободите болты на один оборот.
 
 ![[01c00038.png]]
 
-Use the gear puller to force the injector camshaft scissor gear off the camshaft taper.
+Используйте съёмник для тягивания, чтобы вынудить ножницы топливных форсунок от сужения распределительного вала.
 
-Remove the gear puller.
+Снимите съёмник.
 
-Remove the capscrew.
+Удалите болты.
 
-Remove the injector camshaft scissor gear.
+Снимите ножницы топливных форсунок.
 
 ![[01c00047.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+Используйте свободную от ворсинок ткань и растворитель для очистки остатка LoctiteTM от носа распределительного вала.
 
 ![[01c00503.png]]
 
-Injector Camshaft Non-Scissor Gear
+форсунка Camshaft Non-Scissor Gear
 
-> [!warning] CAUTION · Осторожно
-> Remove the rear injector camshaft cover plate before removal of the injector camshaft gear or camshaft. The force required to remove the camshaft gear creates sufficient backward movement of the camshaft to crack the rear cover plate.
+> [!warning] ОСТОРОЖНО
+> Удалите заднюю крышку топливного вала перед удалением топливного вала или распределительного вала. Сила, необходимая для удаления распределительного механизма, создает достаточное обратное движение распределительного вала для взлома задней пластины крышки.
 
-Remove the injector camshaft rear cover plate.
+Снять форсунка с задней крышки распределительного вала.
 
 ![[01c00220.png]]
 
-Remove the injector camshaft gear mounting capscrew and washer.
+Удалите топливные валы и шайбы, устанавливающие валы и шайбы.
 
-Install gear puller, Part Number 3163069.
+Установите съёмник, номер детали 3163069.
 
-Install the injector camshaft gear mounting capscrew. Loosen the capscrew one turn.
+Установите топливные валы вала, устанавливающие болты. Освободите болты на один оборот.
 
 ![[01c00351.png]]
 
-Use the gear puller to force the injector camshaft gear off the camshaft taper.
+Используйте съёмник для тягивания, чтобы вынудить топливную форсуну выключить суппорт распределительного вала.
 
-Remove the gear puller.
+Снимите съёмник.
 
-Remove the capscrew.
+Удалите болты.
 
-Remove the injector camshaft gear.
+Снимите валовую передачу форсунки.
 
 ![[01c00352.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+Используйте свободную от ворсинок ткань и растворитель для очистки остатка LoctiteTM от носа распределительного вала.
 
 ![[01c00503.png]]
 
-Adjustable Idler Gear
+Регулируемый Idler Gear
 
-The adjustable idler gear shaft can fall out when the adjustable idler gear is removed.
+Регулируемый вал бездельников может выпадать при снятии регулируемого бездельника.
 
-Remove the retainer capscrews, retainer, gear, and adjustable idler gear shaft.
+Удалите болты, фиксатор, зубчатую передачу и регулируемый вал зубчатой передачи.
 
 ![[01c00071.png]]
 
-Remove the mounting spacer.
+Удалить монтажный прокладочный.
 
 ![[01c00048.png]]
 
-Lower Idler Scissor Gear
+Нижний ножница Idler
 
-The lower idler scissor gear **must** be unloaded during removal. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+Нижняя ножница ножн **должна быть разгружена во время удаления. Для разгрузки зубчатой передачи два винта зубчатой передачи **должны быть заглушены достаточно далеко, чтобы зубы на ножнице были выровнены.
 
-Unload the lower idler scissor gear.
+Разгрузите нижнюю ножницу.
 
-Remove the idler scissor gear capscrews.
+Удалите болты ножничной шестерни.
 
 ![[01c00045.png]]
 
-Remove the retainer, gear, shaft, and thrust bearing.
+Удалите фиксатор, передачу, вал и подшипник тяги.
 
 ![[01c00072.png]]
 
-Lower Idler Non-Scissor Gear
+Нижний Idler Non-Scissor Gear
 
-Remove the idler non-scissor gear capscrews and retainer.
+Удалите болты безножников и фиксатор.
 
 ![[01c00353.png]]
 
-Remove the gear, shaft, and thrust bearing.
+Удалите шестерню, вал и подшипник тяги.
 
 ![[01c00354.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the inner diameter bushings for heavy wear or pitting. For bushings with a clinch joint on the inner diameter, inspect the connection for any separation or delamination that exposes underlying steel.
+Осмотрите втулки внутреннего диаметра на предмет тяжелого износа или питтинга. Для втулок с клинчевым суставом на внутреннем диаметре проверьте соединение на предмет любого разделения или расслоения, которое подвергается подстилающей стали.
 
-Inspect the gear teeth on all gears for pitting, heavy wear, or breakage.
+Осмотрите зубья шестерни на всех шестернях для питтинга, тяжелого износа или поломки.
 
-Inspect the gear for cracking around the puller holes.
+Проверьте механизм для растрескивания вокруг выдвижных отверстий.
 
-Replace any pitted, heavily worn, or damaged gear, and inspect the mating gear for associated damage.
+Замените любую пит-стоп, сильно изношенную или поврежденную передачу и проверьте спаривающуюся передачу на предмет сопутствующего повреждения.
 
 ![[01c00355.png]]
 
-> [!note] Note · Примечание
-> There are two types of gear retaining washer, powdered metal and machined-from-solid. Powdered metal retaining washers have a profiled surface and are **not** to be reused. Machined-from-solid washers have a flat surface and can be reused, if no damage is found during inspection.
+> [!note] Примечание
+> Существует два типа шайбы для удержания шестерни, порошкообразный металл и обработанный из твердого материала. Порошкообразные металлоупорные шайбы имеют профилированную поверхность и не подлежат повторному использованию. Машинные из твердых шайб имеют плоскую поверхность и могут быть повторно использованы, если во время осмотра не обнаружено повреждений.
 
-Inspect the machined-from-solid gear retaining washer for cracking or other damage.
+Осмотрите шайбу с механической твердой передачей для взлома или других повреждений.
 
-Replace the gear retaining washer if any damage is found.
+Замените шайбу, если обнаружены какие-либо повреждения.
 
 ![[01a00337.png]]
 
-Inspect the lower idler shaft, and adjustable idler shaft for heavy wear.
+Осмотрите нижний вал холостого хода и регулируемый вал холостого хода на предмет тяжелого износа.
 
-Measure the idler shafts' outside diameter.
+Измерьте внешний диаметр валов холостого хода.
 
-| Lower Idler Shaft Outside Diameter |  |  |
+| Нижний идлерный вал снаружи диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 88.88 | MIN | 3.4992 |
-| 88.89 | MAX | 3.4997 |
+| мм |  | в |
+| 88.88 | Мин | 3.4992 |
+| 88.89 | Макс | 3.4997 |
 
-| Adjustable Idler Shaft Outside Diameter |  |  |
+| Регулируемый вал Idler снаружи диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 88.88 | MIN | 3.4992 |
-| 88.89 | MAX | 3.4997 |
+| мм |  | в |
+| 88.88 | Мин | 3.4992 |
+| 88.89 | Макс | 3.4997 |
 
 ![[01c00356.png]]
 
-Inspect the lower idler gear bore and adjustable idler gear bore for heavy wear.
+Осмотрите цилиндр с нижним бездельником и регулируемый цилиндр с бездельником для тяжелого износа.
 
-Measure the inside diameter of the lower idler and adjustable idler gear bore.
+Измерить внутренний диаметр нижней бездельницы и регулируемого цилиндра переключения передач бездельника.
 
-> [!note] Note · Примечание
-> **:** If the gear bushing replacement is necessary, purchasing the assembled gear and bushing is recommended. Gear bushings are available separately but require final machining of the inside diameter once installed into the gear.
+> [!note] Примечание
+>**:** Если необходима замена втулки передач, рекомендуется приобрести собранную передачу и втулку. Шестерни доступны отдельно, но требуют окончательной обработки внутреннего диаметра после установки в зубчатую передачу.
 
-| Lower Idler Gear Bore Inside Diameter |  |  |
+| Нижний цилиндр Idler Gear с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 88.962 | MIN | 3.5024 |
-| 88.988 | MAX | 3.5035 |
+| мм |  | в |
+| 88.962 | Мин | 3.5024 |
+| 88.988 | Макс | 3.5035 |
 
-| Adjustable Idler Gear Bore Inside Diameter |  |  |
+| Настраиваемый цилиндр Idler Gear с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 88.962 | MIN | 3.5024 |
-| 88.988 | MAX | 3.5035 |
+| мм |  | в |
+| 88.962 | Мин | 3.5024 |
+| 88.988 | Макс | 3.5035 |
 
-Inspect the thrust bearing(s) for pitting, cracking, scratching, uneven wear, or other damage. Replace the thrust bearing(s) and inspect the corresponding gear, if damage is found.
+Осмотрите подшипник(ы) тяги на наличие ям, трещин, царапин, неравномерного износа или других повреждений. Заменить подшипник(ы) тяги и осмотреть соответствующую передачу, если обнаружено повреждение.
 
 ![[01c00357.png]]
 
-### Install
+### Установка
 
-If removed, install the injector camshaft and valve camshaft rear cover plates.
+Если вынуть, установите форсунканый распределительный вал и клапанные распределительные пластины задней крышки.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[01c00220.png]]
 
-Verify the correct wedges are installed and properly fitted as described in the Initial Check section.
+Проверьте, установлены ли правильные клинья и правильно ли они установлены, как описано в разделе «Первоначальная проверка».
 
 ![[07c00169.png]]
 
-Lower Idler Scissor Gear
+Нижний ножница Idler
 
-The lower scissor idler gear **must** be unloaded during installation. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+Нижняя ножновая стойка бездельника **должна быть разгружена во время установки. Для разгрузки зубчатой передачи два винта зубчатой передачи **должны быть заглушены достаточно далеко, чтобы зубы на ножнице были выровнены.
 
-Apply Lubriplate™ to the thrust bearing, shaft, and lower scissor idler gear.
+Нанесите LubriplateTM на подшипник тяги, вал и нижнюю шестерню без ножниц.
 
-Install the thrust bearing, shaft, and lower scissor idler gear. The shaft **must** be installed with the word “TOP” (stamped on the end of the shaft) toward the top of the engine.
+Установите подшипник тяги, вал и нижнюю ножничную шестерню. Вал должен быть установлен со словом «TOP» (наклеен на конец вала) к верхней части двигателя.
 
 ![[01c00233.png]]
 
-The slots in the gear retainer plate go toward the scissor gear.
+Прорези в пластине ремесла идут к ножницевому механизму.
 
-Install the retainer and capscrews.
+Установите фиксатор и болты.
 
-Tighten all capscrews in a star pattern.
+Затяните все болты в звездном узоре.
 
-Torque Value:
+Момент затяжки:
 
 ![[01c00234.png]]
 
-> [!warning] CAUTION · Осторожно
-> Make sure all the scissor gear screws are tightened to the proper torque so that they do not back out during engine operation. Severe engine damage can occur.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что все винты зубчатой передачи ножниц затянуты до правильного крутящего момента, чтобы они не отступали во время работы двигателя. Могут возникнуть серьезные повреждения двигателя.
 
-Load the lower idler scissor gear by tightening all the gear screws.
+Загрузите нижнюю ножницу бездельника, затянув все винты передач.
 
-> [!tip] Момент затяжки · Torque Value
-> 28 n•m [248 in-lb]
+> [!tip] Момент затяжки
+> 28 Н·м [248 фунт-дюйм]
 
 ![[01c00036.png]]
 
-Lower Idler Non-Scissor Gear
+Нижний Idler Non-Scissor Gear
 
-Apply Lubriplate™ to the thrust bearing, shaft, and lower non-scissor idler gear.
+Нанесите LubriplateTM на подшипник тяги, вал и нижнюю неножницу бездельника.
 
-Install the thrust bearing, shaft, and lower non-scissor idler gear. The shaft **must** be installed with the word “TOP” (stamped on the end of the shaft) toward the top of the engine.
+Установите подшипник тяги, вал и нижнюю неножницу бездельника. Вал должен быть установлен со словом «TOP» (наклеен на конец вала) к верхней части двигателя.
 
 ![[01c00358.png]]
 
-The slots in the gear retainer plate go toward the scissor gear.
+Прорези в пластине ремесла идут к ножницевому механизму.
 
-Install the retainer and capscrews.
+Установите фиксатор и болты.
 
-Tighten all capscrews in a star pattern.
+Затяните все болты в звездном узоре.
 
-Torque Value:
+Момент затяжки:
 
 ![[01c00353.png]]
 
-Adjustable Idler Gear
+Регулируемый Idler Gear
 
-The spacer plate is doweled to the block with two standard dowels.
+Пластина прокладки прилеплена к блоку двумя стандартными дюбелями.
 
-Install the mounting spacer plate.
+Установите монтажную пластину.
 
 ![[01c00048.png]]
 
-Apply Lubriplate™ to the spacer, shaft, and adjustable idler gear.
+Нанесите LubriplateTM на распорку, вал и регулируемую передачу холостого хода.
 
-It is possible to install the shaft in an incorrect orientation; however, it will **not** be possible to set the gear backlash correctly.
+Можно установить вал в неправильной ориентации; однако, это будет **не **можно установить реверсию передачи правильно.
 
-Install the spacer, shaft, and adjustable idler gear. If the upper idler gear idler shaft has the word “TOP” stamped on the front face, the upper idler gear idler shaft **must** be installed with the word “TOP” oriented toward the top of the engine. If the upper idler gear idler shaft has an arrow stamped on the face, the upper idler gear idler shaft **must** be installed with the arrow oriented in the 9 o'clock position.
+Установите прокладку, вал и регулируемую передачу холостого хода. Если верхний вал idler экипировки имеет слово «TOP», проштампованное на передней стороне, верхний вал idler экипировки idler **должен быть установлен со словом «TOP», ориентированным на верхнюю часть двигателя. Если верхний вал бездельничного механизма имеет стрелку, проштампованную на лице, верхний вал бездельничного механизма **должен быть установлен со стрелкой, ориентированной в положении 9 часов.
 
 ![[01c00070.png]]
 
-The slots on the gear retainer plate go toward the gear.
+Слоты на пластине ремесла идут к шестеренцированию.
 
-The adjustable idler gear is installed loosely, because it is moved into its final position later in the timing process.
+Регулируемое бездельниковое снаряжение устанавливается свободно, потому что оно перемещается в свое окончательное положение позже в процессе синхронизации.
 
-Install the retainer and capscrews. Hand-tighten the capscrews and then loosen by one “flat,” which is 60 degrees.
+Установите фиксатор и болты. Рукоять затягивать болты, а затем ослаблять одним «плоском», который составляет 60 градусов.
 
 ![[01c00044.png]]
 
-Injector Camshaft Scissor Gear
+форсунка Camshaft Scissor Gear
 
-> [!warning] CAUTION · Осторожно
-> The injector camshaft nose and injector camshaft scissor gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean, lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+> [!warning] ОСТОРОЖНО
+> Носовая часть форсунки и ножница форсунки должны быть чистыми и сухими перед сборкой. Смывать сужающуюся поверхность чистой, свободной от винта тканью и наносить тонкий слой LoctiteTM 609, Номер детали 3823718, на внутренний диаметр распределительного механизма. Используйте осторожность, чтобы не загрязнять сустав маслом до того, как может произойти повреждение сборки или двигателя.
 
-The injector camshaft scissor gear **must** be unloaded during installation. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+Ножница распределительного вала форсунки **должна быть разгружена во время установки. Для разгрузки зубчатой передачи два винта зубчатой передачи **должны быть заглушены достаточно далеко, чтобы зубы на ножнице были выровнены.
 
 ![[01c00225.png]]
 
-Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+Нанесите тонкий слой LoctiteTM 609, номер детали 3823718, на внутренний диаметр распределительного механизма.
 
 ![[01c00504.png]]
 
-> [!warning] CAUTION · Осторожно
-> There are two types of gear retaining washer, powdered metal and machined-from-solid. Powdered metal retaining washers have a profiled surface and are not to be reused. Machined-from-solid washers have a flat surface and can be reused if no damage is found during inspection.
+> [!warning] ОСТОРОЖНО
+> Существует два типа шайбы для удержания шестерни, порошкообразный металл и обработанный из твердого материала. Порошкообразные металлоупорные шайбы имеют профилированную поверхность и не подлежат повторному использованию. Машинные из твердых шайб имеют плоскую поверхность и могут быть повторно использованы, если во время осмотра не обнаружено повреждений.
 
-The injector camshaft scissor gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+Ножница распределительного вала форсунки должна быть полностью включена на сужении носового вала распределительного вала, но достаточно рыхлой, чтобы она могла вращаться на носу распределительного вала.
 
-Install the injector camshaft scissor gear loosely on the camshaft nose taper.
+Установите ножницы распределительного вала форсунки на носовой суппорт распределительного вала.
 
-The injector camshaft scissor gear mounting washer is larger in diameter than the valve camshaft mounting washer.
+Шахтовая машина для установки топливных форсунок вала-ножницы больше по диаметру, чем шаховая шайба клапанного вала.
 
-Install the mounting washer and capscrew.
+Установите монтажную шайбу и болты.
 
 ![[01c00061.png]]
 
-Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+Рукоять затягивать болты, а затем ослаблять одним «плоском», который составляет 60 градусов.
 
-The injector camshaft scissor gear is still loose at this point, to allow the adjustable idler gear to be properly positioned.
+В этот момент механизм ножницы распределительного вала форсунки все еще свободен, чтобы обеспечить правильное расположение регулируемой передачи холостого хода.
 
-Do **not** seat the gear.
+Не сядьте на шестерёнку.
 
 ![[01c00051.png]]
 
-Injector Camshaft Non-Scissor Gear
+форсунка Camshaft Non-Scissor Gear
 
-> [!warning] CAUTION · Осторожно
-> The injector camshaft nose and injector camshaft non-scissor gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+> [!warning] ОСТОРОЖНО
+> Носовой вал форсунки и неножница топливного вала перед сборкой должны быть чистыми и сухими. Смывать сужающуюся поверхность чистой тканью без краски и наносить тонкий слой LoctiteTM 609, Номер детали 3823718, на внутренний диаметр распределительного механизма. Используйте осторожность, чтобы не загрязнять сустав маслом до того, как может произойти повреждение сборки или двигателя.
 
 ![[01c00360.png]]
 
-Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+Нанесите тонкий слой LoctiteTM 609, номер детали 3823718, на внутренний диаметр распределительного механизма.
 
 ![[01c00504.png]]
 
-> [!warning] CAUTION · Осторожно
-> Powdered metal injector gear retaining washers, identified by profiled surface, are not to be reused, and must be replaced with a machined-from-solid retaining washer, identified by a flat surface. Machined-from-solid retainers can be reused if no damage is found during inspection.
+> [!warning] ОСТОРОЖНО
+> Порошкообразные металлические топливные форсунки, удерживающие шайбы, идентифицированные по профилированной поверхности, не должны повторно использоваться и должны быть заменены механической из твердой удерживающей шайбой, идентифицированной плоской поверхностью. Обрабатываемые из твердых фиксирующих устройств могут быть повторно использованы, если во время осмотра не обнаружено повреждений.
 
-The injector camshaft non-scissor gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+Форсунка распредвала неножницы должен быть полностью включен на распредвальном носовом сужении, но достаточно рыхлый, чтобы он мог вращаться на носу распредвала.
 
-Install the injector camshaft non-scissor gear loosely on camshaft nose taper.
+Установите неножницы топливных форсунок на носовой суппорт.
 
-The injector camshaft non-scissor gear mounting washer is larger in diameter than the valve camshaft mounting washer.
+Топливный вал для установки неножницой передачи больше по диаметру, чем вал для установки клапана.
 
-Install the mounting washer and capscrew.
+Установите монтажную шайбу и болты.
 
 ![[01c00361.png]]
 
-Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+Рукоять затягивать болты, а затем ослаблять одним «плоском», который составляет 60 градусов.
 
-The injector camshaft non-scissor gear is still loose at this point to allow the adjustable idler gear to be properly positioned.
+В этот момент неножница вала форсунки все еще свободна, чтобы позволить правильно расположить регулируемую передачу холостого хода.
 
-Do **not** seat the gear.
+Не сядьте на шестерёнку.
 
 ![[01c00362.png]]
 
-Valve Camshaft Gear
+клапан Camshaft Gear
 
-> [!warning] CAUTION · Осторожно
-> The valve camshaft nose and valve camshaft gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean, lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+> [!warning] ОСТОРОЖНО
+> Нос клапанного распределительного вала и механизм клапанного распределительного вала должны быть чистыми и сухими до сборки. Смывать сужающуюся поверхность чистой, свободной от винта тканью и наносить тонкий слой LoctiteTM 609, Номер детали 3823718, на внутренний диаметр распределительного механизма. Используйте осторожность, чтобы не загрязнять сустав маслом до того, как может произойти повреждение сборки или двигателя.
 
 ![[01c00317.png]]
 
-Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+Нанесите тонкий слой LoctiteTM 609, номер детали 3823718, на внутренний диаметр распределительного механизма.
 
 ![[01c00504.png]]
 
-The valve camshaft gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+Клапанная передача распределительного вала должна быть полностью включена на сужении носа распределительного вала, но достаточно рыхлой, чтобы она могла вращаться на носу распределительного вала.
 
-Install the valve camshaft gear loosely on the camshaft nose taper.
+Установите клапанную кулачную передачу свободно на носовой суппорт кулачного вала.
 
-The valve camshaft mounting washer is smaller in diameter than the injector camshaft scissor gear mounting washer.
+Шахтовая машина для монтажа клапанного распределительного вала имеет меньший диаметр, чем шаховая шайба для установки топливных форсунок.
 
-Install the mounting washer and capscrew.
+Установите монтажную шайбу и болты.
 
 ![[01c00217.png]]
 
-Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+Рукоять затягивать болты, а затем ослаблять одним «плоском», который составляет 60 градусов.
 
-The valve camshaft gear is still loose at this point to allow the adjustable idler gear to be properly positioned.
+В этом месте клапанная распределительная передача все еще свободна, чтобы позволить правильно расположить регулируемую бездельничную передачу.
 
-Do **not** seat the gear.
+Не сядьте на шестерёнку.
 
 ![[01c00110.png]]
 
-### Adjust
+### Регулировка
 
-Backlash (Scissor Gear Combinations)
+Backlash (комбинации ножниц)
 
-> [!warning] CAUTION · Осторожно
-> Do not set backlash between the adjustable idler gear and the lower scissor idler gear. Severe engine damage can occur.
+> [!warning] ОСТОРОЖНО
+> Не устанавливайте обратную реакцию между регулируемой шестерней холостого хода и шестерней нижнего ножничного хода. Могут возникнуть серьезные повреждения двигателя.
 
-This backlash step works with the scissor type injector camshaft gear and lower idler gear, and the non-scissor injector camshaft gear with a scissor type lower idler gear.
+Этот шаг обратной реакции работает с распредвальным механизмом вала ножницы типа топлива и нижним механизмом бездействия, а также с камшафным механизмом неножницы форсунки с ножничным типом нижнего рычага.
 
-The injector camshaft scissor gear **must** still be unloaded during this step. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+Ножница распределительного вала форсунки **должна** быть разгружена во время этого шага. Для разгрузки зубчатой передачи два винта зубчатой передачи должны быть заглушены достаточно далеко, чтобы зубы на ножнице были выровнены.
 
-Insert, as shown, a narrow shim (0.25 mm \[0.010 in\]) into the gear teeth mesh between the adjustable idler gear and the **wide** (rear side) gear of the injector camshaft scissor gear.
+Включить, как показано, узкую шампунь (0,25 мм \[0,010 дюйма \]) в зубчатую сетку зубчатой передачи между регулируемой бездельниковой передачей и шестерней **широкой** (задней стороной) ножницы распределительного вала форсунки.
 
-| Shim Tolerance |  |  |
+| Шимская толерантность |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.225 | MIN | 0.009 |
-| 0.275 | MAX | 0.011 |
+| мм |  | в |
+| 0.225 | Мин | 0.009 |
+| 0.275 | Макс | 0.011 |
 
 ![[00c00036.png]]
 
-> [!note] Note · Примечание
-> The gear backlash set procedure for engines that have a non-scissor injector camshaft gear and a scissor type lower idler gear is the same as that of engines that utilize two scissor type gears.
+> [!note] Примечание
+> Процедура установки обратной реакции на передачу для двигателей, которые имеют неножницу, топливную форсунок распределительного вала и ножницу типа нижнего бездельника, такая же, как и для двигателей, которые используют две шестерни типа ножницы.
 
-Use hand pressure, **only**, to move the adjustable idler gear toward the center of the engine (into mesh), so there is no gap on either side of the shim.
+Используйте давление руки, только для того, чтобы переместить регулируемую бездельничную передачу к центру двигателя (в сетку), так что нет зазора по обе стороны от шима.
 
-Both of the camshaft gears will rotate slightly on the camshafts during this step.
+Обе передачи распредвала будут слегка вращаться на распредвалах во время этого шага.
 
-Slight drag will be felt on the shim while pulling the shim in and out.
+Небольшое сопротивление будет ощущаться на шиме, в то время как вытаскивание шима внутрь и наружу.
 
 ![[01c00180.png]]
 
-Backlash (Non-Scissor Gear Combinations)
+Неножницы (Non-Scissor Gear Combinations)
 
-Removal of the lower front cover is **not** required when setting the gear backlash on engines that utilize all non-scissor gears. An access hole is provided to insert a shim between the lower non-scissor idler gear and the adjustable idler gear. The access hole is sealed with a plug. The plug can be pushed out from the rear side without removing the gear cover.
+Удаление нижней передней крышки не требуется при настройке обратной реакции на передачу на двигателях, которые используют все неножницы. Предусмотрено отверстие доступа для вставки тряпки между нижним неножным снаряжением холостого хода и регулируемым снаряжением холостого хода. Отверстие доступа запечатано вилкой. Заглушка может быть выталкиваема с задней стороны без снятия крышки передач.
 
-The following procedure will be shown with the lower gear cover removed.
+Следующая процедура будет показана с удаленным нижним чехлом передач.
 
 ![[01c00337.png]]
 
-Insert, as shown, a shim 0.25 mm \[0.010 in\] into the gear teeth mesh between the adjustable idler gear and the injector camshaft gear.
+Включить, как показано, стрелку 0,25 мм \[0,010 дюйма \] в зубчатую сетку зубчатой передачи между регулируемой бездельничной передачей и камшафом форсунки.
 
-Insert, as shown, a shim 0.25 mm \[0.010 in\] into the gear teeth mesh between the adjustable idler and the lower non-scissor idler gear.
+Включить, как показано, шим 0,25 мм \[0,010 in\] в зубчатую сетку зубчатой передачи между регулируемым холостым ходом и нижним безножным ходом холостого хода.
 
-Use hand pressure, **only**, to move the adjustable idler gear so there is no gap between the teeth and either side of the shims.
+Используйте давление руки, только для перемещения регулируемого снаряжения бездельника, чтобы не было зазора между зубами и любой стороной трусов.
 
-Both of the camshaft gears will rotate slightly on the camshafts during this step.
+Обе передачи распредвала будут слегка вращаться на распредвалах во время этого шага.
 
-Slight drag will be felt on the shim while pulling the shim in and out.
+Небольшое сопротивление будет ощущаться на шиме, в то время как вытаскивание шима внутрь и наружу.
 
 ![[01a00284.png]]
 
-Adjustable Idler Gear
+Регулируемый Idler Gear
 
-While holding the adjustable idler gear in position, tighten the adjustable idler gear mounting capscrews.
+При удерживании регулируемой передачи холостого хода в положении затягивайте регулируемые болты крепления холостого хода.
 
-Torque Value:
+Момент затяжки:
 
-Remove the feeler gauge(s).
+Удалите калибр(ы) для ощупывания.
 
 ![[01c00008.png]]
 
-Injector Camshaft Scissor Gear
+форсунка Camshaft Scissor Gear
 
-> [!warning] CAUTION · Осторожно
-> Make sure all the scissor gear screws are tightened to the proper torque so that they do not back out during engine operation. Severe engine damage can occur.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что все винты зубчатой передачи ножниц затянуты до правильного крутящего момента, чтобы они не отступали во время работы двигателя. Могут возникнуть серьезные повреждения двигателя.
 
-Load the injector camshaft scissor gear by tightening all the gear screws.
+Загрузите ножницы распределительного вала форсунки, затянув все винты передач.
 
-> [!tip] Момент затяжки · Torque Value
-> 28 n•m [248 in-lb]
+> [!tip] Момент затяжки
+> 28 Н·м [248 фунт-дюйм]
 
-The valve camshaft gear will rotate slightly on the valve camshaft during this step.
+Клапанная распределительная передача будет слегка вращаться на клапанном распределительном вале во время этой стадии.
 
 ![[01c00052.png]]
 
-Tighten the injector camshaft scissor gear retaining capscrew.
+Затянуть болты удерживающего вала распределительного вала форсунки.
 
-Torque Value:
+Момент затяжки:
 
-Loosen the capscrew 360 degrees and tighten again using the torque-plus-angle method.
+Уменьшите болты на 360 градусов и снова затяните с помощью метода крутящего момента плюс угол.
 
-Torque Value:
+Момент затяжки:
 
 ![[01c00012.png]]
 
-Injector Camshaft Non-Scissor Gear
+форсунка Camshaft Non-Scissor Gear
 
-Use hand pressure **only** to rotate the injector camshaft gear **clockwise** until the gear train backlash is taken up. Obtain tooth-to-tooth contact between the crankshaft gear and the injector camshaft gear.
+Используйте давление руки **только **для поворота распредвалной передачи форсунки **по часовой стрелке** до тех пор, пока не будет достигнута обратная реакция редуктора. Получить зубной зубной контакт между коленчатым валом и топливным форсункой распределительного вала.
 
 ![[01c00275.png]]
 
-Tighten the injector camshaft non-scissor gear retaining capscrew.
+Затянуть болты удержания неножниц вала форсунки.
 
-Torque Value:
+Момент затяжки:
 
-Loosen the capscrew 360 degrees and tighten again using the torque-plus-angle method.
+Уменьшите болты на 360 градусов и снова затяните с помощью метода крутящего момента плюс угол.
 
-Torque Value:
+Момент затяжки:
 
 ![[01c00276.png]]
 
-Valve Camshaft Scissor Gear
+Ножница клапан Camshaft Scissor Gear
 
-Tighten the valve camshaft scissor gear retaining capscrew.
+Затянуть клапанные ножницы распределительного вала, удерживающие болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 102 n•m [75 ft-lb]
+> [!tip] Момент затяжки
+> 102 Н·м [75 фунт-фут]
 
-Rotate the valve camshaft gear mounting capscrew an additional 120 degrees.
+Поверните клапанные распределительные валы, устанавливающие болты, дополнительно на 120 градусов.
 
 ![[01c00017.png]]
 
-Valve Camshaft Non-Scissor Gear
+клапан Camshaft Non-Scissor Gear (не на ножницах)
 
-Use hand pressure **only** to rotate the valve camshaft gear **counterclockwise** until the backlash between the injector camshaft gear is taken up. Obtain tooth-to-tooth contact between the injector camshaft gear and the valve camshaft gear.
+Используйте давление руки **только **для поворота клапанной распределительной передачи **против часовой стрелки **до тех пор, пока не будет достигнута обратная реакция между топливным форсуночным распределительным механизмом. Получить зуб-зубной контакт между топливным форсункой распределительного вала и клапанной распределительной передачи.
 
 ![[01c00277.png]]
 
-Tighten the valve camshaft non-scissor gear retaining capscrew.
+Затянуть клапанные распределительные валы неножниц, удерживающие болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 102 n•m [75 ft-lb]
+> [!tip] Момент затяжки
+> 102 Н·м [75 фунт-фут]
 
-Rotate the valve camshaft gear mounting capscrew an additional 120 degrees.
+Поверните клапанные распределительные валы, устанавливающие болты, дополнительно на 120 градусов.
 
 ![[01c00278.png]]
 
-Coat the entire gear train with clean 15W-40 oil.
+Покрыть весь передаточный состав чистым маслом 15В-40.
 
 ![[00c00035.png]]
 
-Use the access hole in the lower gear cover to lubricate the lower idler gear and crankshaft.
+Используйте отверстие доступа в нижней крышке передач, чтобы смазать нижнюю передачу бездействия и коленчатый вал.
 
 ![[01c00321.png]]
 
-Remove the injector and valve camshaft timing wedges.
+Удалите форсунка и клапанные распределительные валы.
 
-A sudden jerking motion upward is the most effective way to remove wedges.
+Внезапное рывковое движение вверх является наиболее эффективным способом удаления клиньев.
 
 ![[00c00026.png]]
 
-Remove the crankshaft locking pin and install the plug.
+Удалите запирающий штифт коленчатого вала и установите штепсель.
 
 ![[00c00025.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
-- Install the lower gear cover. Refer to Procedure 001-080 in Section 1.
+- Установите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
+- Установите нижнюю крышку передач. См. процедуру 001-080 в разделе 1.
 
 ![[01c00035.png]]
 
-- Install the rocker lever cover and gasket. Refer to Procedure 003-011 in Section 3.
-- If coolant, oil, excessive fuel, or excessive black smoke has entered the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013-tr — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]
-- Operate the engine and check for leaks.
+- Установите крышку рычага клапанного клапана и прокладку. См. процедуру 003-011 в разделе 3.
+- Если в выхлопную систему попала хладагент, масло, чрезмерное топливо или чрезмерный черный дым, необходимо проверить систему последующей обработки.[[101-014-013-tr — Aftertreatment Testing|См. процедуру 014-013 в разделе 14.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[03c00002.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries. See equipment manufacturer service information.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Front Gear Assembly Configuration
+>
+> Two front gear train combinations are presently utilized on the Signature™, ISX, and QSX15 engines. Signature™, ISX3, ISX2, and QSX15 engines use a scissor gear for the lower idler gear and the injector cam gear. ISX1 does **not** use a scissor gear at the idler location.
+>
+> ISX2 engines built between January 1999, and January 2000, utilize a scissor gear for the lower idler gear **only**. The injector cam gear is a straight cut spur gear, similar to the ISX1. After January, 2000, the ISX2 has scissor gears for both the cam and lower idler.
+>
+> This procedure describes the removal, inspection, and installation of the different gear combinations.
+>
+> Front Gear Assembly without Scissor Gear
+>
+> View shown is from left to right and top to bottom.
+>
+> - Valve camshaft gear
+> - Injector camshaft gear
+> - Adjustable idler gear
+> - Lower idler gear
+> - Accessory gear
+> - Crankshaft gear.
+>
+> Front Gear Assembly with Scissor Gear
+>
+> View shown is from left to right and top to bottom.
+>
+> - Valve camshaft gear
+> - Injector camshaft scissor gear
+> - Adjustable idler gear
+> - Lower idler scissor gear
+> - Accessory gear
+> - Crankshaft gear.
+>
+> Scissor Gear Definitions
+>
+> **WARNING · Опасно**
+> Do not attempt to remove any gears before reading scissor gear definitions. Serious personal injury or engine damage can result if instructions are not followed.
+>
+> The following terms describe the conditions of the scissor gears for removal, installation, and operation.
+>
+> #### Unloaded
+>
+> - The gear will be unloaded when removing, installing, and setting gear backlash.
+>
+> Unload the gear by backing out two gear adjusting screws until the gear teeth align.
+>
+> The idler scissor gear is loaded when the gear backlash is set.
+>
+> #### Loaded
+>
+> - The gear teeth are loaded (functional) and are spread between the mating gear teeth.
+>
+> The gear is loaded by tightening all the adjusting screws. The gear teeth will be spread and no movement will be felt against the valve cam gear. The gear will be in the loaded condition for engine operation.
+>
+> ### Initial Check
+>
+> **Note · Примечание**
+> Use the following steps to check base engine timing.
+>
+> Timing Wedges:
+>
+> The timing code is located on the engine dataplate.
+>
+> - First number - injector wedge.
+> - Second number - valve wedge.
+>
+> If the engine dataplate is missing, a new dataplate should be ordered. Use the following procedure to identify the timing code for an engine with a missing dataplate. Refer to Procedure 850-029 in Section V.
+>
+> Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> **Note · Примечание**
+> Use this step if the engine is equipped with an air compressor:
+>
+> Remove the oil fill connector from the lower gear case cover.
+>
+> Insert a 3/4-inch drive ratchet and extension into the air compressor drive.
+>
+> Rotate the air compressor drive **clockwise**, as viewed from the front of the engine.
+>
+> **Note · Примечание**
+> Use this step if the engine is **not** equipped with an air compressor:
+>
+> Loosen the cover plate capscrews and rotate the cover or remove the oil fill tube, if equipped.
+>
+> Use a 1½ inch socket to push the barring gear into the gear mesh. Rotate the barring adapter to bar the engine.
+>
+> Rotate the crankshaft **clockwise** until the insert pin mark on the outside diameter of the engine vibration damper is aligned with the mark on the gear housing.
+>
+> QSX15 engines are equipped with dual vibration dampers. The crank pin mark is located on the damper closest to the engine.
+>
+> Verify that the wedge flats of the camshaft are visible when viewed from above.
+>
+> If wedge flats are **not** visible when at insert pin, the engine is **not** on the timing stroke (timing is performed at cylinder number 1 compression stroke). Rotate the crankshaft 360 degrees. This will change the orientation of the camshaft 180 degrees and the wedge flats will be visible from above. This indicates cylinder number 1 is on the compression stroke.
+>
+> Remove the plug from the timing pin boss.
+>
+> Lock the crankshaft in place with the crankshaft locking pin, Part Number 3163020.
+>
+> The pin **must** be in good condition; **not** bent, mushroomed, oval, etc.
+>
+> When properly installed, the colored band on the timing pin will be lined up with the surface of the timing pin boss of the block.
+>
+> The pin is **not** correctly seated in the crank notch if the green band is either completely visible outside the block, or is **not** visible at all.
+>
+> **CAUTION · Осторожно**
+> Do not drive the wedges into place. Component damage can occur. Install wedges by hand.
+>
+> Insert the timing wedges listed on the dataplate. The wedges **must** be in good condition, with smooth flats and spine. Using damaged wedges can result in poor timing. Replace worn and damaged wedges.
+>
+> Proper fits should leave no gap between the wedge face and cam, or between the back of the wedge and the head.
+>
+> **Not** all wedges have lines; if the wedge has a line, the line should be level with the top of the head/cover rail.
+>
+> For properly fitted wedges with lines, timing variation represented by the position of the line is small.
+>
+> **Note · Примечание**
+> If the line is high for CM871 engines:
+>
+> Valve Cam: No performance complaints arise from valve timing variation of this amount. The line on a valve cam wedge should be disregarded.
+>
+> Injector Cam: Timing may need to be physically measured to address potential performance issues if they exist. Review engine history for performance complaints including filter plugging, white smoke, etc.
+>
+> Discuss the next steps with appropriate Cummins Inc. technical support resource if engine has history of these complaints and the line on the injector wedge is higher than the head cover rail.
+>
+> **Note · Примечание**
+> If the line is high for all other 15L engines (except CM871):
+>
+> Both the valve and injection timing is robust to timing variation of this amount, the line should be disregarded.
+>
+> Use the following procedure if static injection timing requires further measurement or adjustment. [[10-006-025 — Static Injection Timing|Refer to Procedure 006-025 in Section 6.]]
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> **CAUTION · Осторожно**
+> The timing pin and wedges must be installed before any gears are removed and must remain in place until all gears are fully installed and tightened. Failure to install the timing pin and wedge can lead to improper timing of the engine, resulting in severe engine damage or engine failure.
+>
+> **Note · Примечание**
+> Perform Initial Check section before removing gears.
+>
+> Removal of the lower cover is **not** required when setting the gear backlash on engines that utilize all non-scissor gears. An access hole is provided to insert a shim between the lower non-scissor idler gear and the adjustable idler gear. The access hole is sealed with a plug.
+>
+> It will be helpful to push the gear cover plug out from the rear. It is **not** necessary to remove the lower gear cover to push out the plug.
+>
+> Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+>
+> Remove the lower gear cover, if needed. Refer to Procedure 001-080 in Section 1.
+>
+> ### Remove
+>
+> Valve Camshaft Gear
+>
+> The injector camshaft scissor gear **must** be unloaded during removal of the valve camshaft gear. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+>
+> Unload the injector camshaft scissor gear.
+>
+> Remove the valve camshaft gear mounting capscrew and washer.
+>
+> Early production engines were **not** equipped with puller holes in the valve camshaft gear. A three-jaw gear puller **must** be used for gears that do **not** have puller holes. The injector and valve gear puller, Part Number 3163069, can be used for gears that have puller holes.
+>
+> Install the gear puller, Part Number 3163069.
+>
+> Install the valve camshaft gear mounting capscrew completely.
+>
+> Loosen the capscrew two turns.
+>
+> Use the gear puller to remove the valve camshaft gear from the camshaft nose.
+>
+> Remove the puller.
+>
+> Do **not** completely remove the camshaft gear mounting capscrew when the three-jaw puller is used. The capscrew serves as a safety catch by preventing the gear from shooting off the camshaft nose.
+>
+> Remove the valve camshaft gear mounting capscrew, spacer, and valve camshaft gear.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+>
+> Injector Camshaft Scissor Gear
+>
+> **CAUTION · Осторожно**
+> Remove the rear injector camshaft cover plate before removal of the injector camshaft gear or camshaft. The force required to remove the camshaft gear creates sufficient backward movement of the camshaft to crack the rear cover plate.
+>
+> Remove the injector camshaft rear cover plate.
+>
+> Remove the injector camshaft scissor gear mounting capscrew and washer.
+>
+> Install gear puller, Part Number 3163069.
+>
+> Install the injector camshaft scissor gear mounting capscrew. Loosen the capscrew one turn.
+>
+> Use the gear puller to force the injector camshaft scissor gear off the camshaft taper.
+>
+> Remove the gear puller.
+>
+> Remove the capscrew.
+>
+> Remove the injector camshaft scissor gear.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+>
+> Injector Camshaft Non-Scissor Gear
+>
+> **CAUTION · Осторожно**
+> Remove the rear injector camshaft cover plate before removal of the injector camshaft gear or camshaft. The force required to remove the camshaft gear creates sufficient backward movement of the camshaft to crack the rear cover plate.
+>
+> Remove the injector camshaft rear cover plate.
+>
+> Remove the injector camshaft gear mounting capscrew and washer.
+>
+> Install gear puller, Part Number 3163069.
+>
+> Install the injector camshaft gear mounting capscrew. Loosen the capscrew one turn.
+>
+> Use the gear puller to force the injector camshaft gear off the camshaft taper.
+>
+> Remove the gear puller.
+>
+> Remove the capscrew.
+>
+> Remove the injector camshaft gear.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> Use a lint-free cloth and solvent to clean the Loctite™ residue from the nose of the camshaft.
+>
+> Adjustable Idler Gear
+>
+> The adjustable idler gear shaft can fall out when the adjustable idler gear is removed.
+>
+> Remove the retainer capscrews, retainer, gear, and adjustable idler gear shaft.
+>
+> Remove the mounting spacer.
+>
+> Lower Idler Scissor Gear
+>
+> The lower idler scissor gear **must** be unloaded during removal. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+>
+> Unload the lower idler scissor gear.
+>
+> Remove the idler scissor gear capscrews.
+>
+> Remove the retainer, gear, shaft, and thrust bearing.
+>
+> Lower Idler Non-Scissor Gear
+>
+> Remove the idler non-scissor gear capscrews and retainer.
+>
+> Remove the gear, shaft, and thrust bearing.
+>
+> ### Inspect for Reuse
+>
+> Inspect the inner diameter bushings for heavy wear or pitting. For bushings with a clinch joint on the inner diameter, inspect the connection for any separation or delamination that exposes underlying steel.
+>
+> Inspect the gear teeth on all gears for pitting, heavy wear, or breakage.
+>
+> Inspect the gear for cracking around the puller holes.
+>
+> Replace any pitted, heavily worn, or damaged gear, and inspect the mating gear for associated damage.
+>
+> **Note · Примечание**
+> There are two types of gear retaining washer, powdered metal and machined-from-solid. Powdered metal retaining washers have a profiled surface and are **not** to be reused. Machined-from-solid washers have a flat surface and can be reused, if no damage is found during inspection.
+>
+> Inspect the machined-from-solid gear retaining washer for cracking or other damage.
+>
+> Replace the gear retaining washer if any damage is found.
+>
+> Inspect the lower idler shaft, and adjustable idler shaft for heavy wear.
+>
+> Measure the idler shafts' outside diameter.
+>
+> | Lower Idler Shaft Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 88.88 | MIN | 3.4992 |
+> | 88.89 | MAX | 3.4997 |
+>
+> | Adjustable Idler Shaft Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 88.88 | MIN | 3.4992 |
+> | 88.89 | MAX | 3.4997 |
+>
+> Inspect the lower idler gear bore and adjustable idler gear bore for heavy wear.
+>
+> Measure the inside diameter of the lower idler and adjustable idler gear bore.
+>
+> **Note · Примечание**
+> **:** If the gear bushing replacement is necessary, purchasing the assembled gear and bushing is recommended. Gear bushings are available separately but require final machining of the inside diameter once installed into the gear.
+>
+> | Lower Idler Gear Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 88.962 | MIN | 3.5024 |
+> | 88.988 | MAX | 3.5035 |
+>
+> | Adjustable Idler Gear Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 88.962 | MIN | 3.5024 |
+> | 88.988 | MAX | 3.5035 |
+>
+> Inspect the thrust bearing(s) for pitting, cracking, scratching, uneven wear, or other damage. Replace the thrust bearing(s) and inspect the corresponding gear, if damage is found.
+>
+> ### Install
+>
+> If removed, install the injector camshaft and valve camshaft rear cover plates.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Verify the correct wedges are installed and properly fitted as described in the Initial Check section.
+>
+> Lower Idler Scissor Gear
+>
+> The lower scissor idler gear **must** be unloaded during installation. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+>
+> Apply Lubriplate™ to the thrust bearing, shaft, and lower scissor idler gear.
+>
+> Install the thrust bearing, shaft, and lower scissor idler gear. The shaft **must** be installed with the word “TOP” (stamped on the end of the shaft) toward the top of the engine.
+>
+> The slots in the gear retainer plate go toward the scissor gear.
+>
+> Install the retainer and capscrews.
+>
+> Tighten all capscrews in a star pattern.
+>
+> Torque Value:
+>
+> **CAUTION · Осторожно**
+> Make sure all the scissor gear screws are tightened to the proper torque so that they do not back out during engine operation. Severe engine damage can occur.
+>
+> Load the lower idler scissor gear by tightening all the gear screws.
+>
+> **Момент затяжки · Torque Value**
+> 28 n•m [248 in-lb]
+>
+> Lower Idler Non-Scissor Gear
+>
+> Apply Lubriplate™ to the thrust bearing, shaft, and lower non-scissor idler gear.
+>
+> Install the thrust bearing, shaft, and lower non-scissor idler gear. The shaft **must** be installed with the word “TOP” (stamped on the end of the shaft) toward the top of the engine.
+>
+> The slots in the gear retainer plate go toward the scissor gear.
+>
+> Install the retainer and capscrews.
+>
+> Tighten all capscrews in a star pattern.
+>
+> Torque Value:
+>
+> Adjustable Idler Gear
+>
+> The spacer plate is doweled to the block with two standard dowels.
+>
+> Install the mounting spacer plate.
+>
+> Apply Lubriplate™ to the spacer, shaft, and adjustable idler gear.
+>
+> It is possible to install the shaft in an incorrect orientation; however, it will **not** be possible to set the gear backlash correctly.
+>
+> Install the spacer, shaft, and adjustable idler gear. If the upper idler gear idler shaft has the word “TOP” stamped on the front face, the upper idler gear idler shaft **must** be installed with the word “TOP” oriented toward the top of the engine. If the upper idler gear idler shaft has an arrow stamped on the face, the upper idler gear idler shaft **must** be installed with the arrow oriented in the 9 o'clock position.
+>
+> The slots on the gear retainer plate go toward the gear.
+>
+> The adjustable idler gear is installed loosely, because it is moved into its final position later in the timing process.
+>
+> Install the retainer and capscrews. Hand-tighten the capscrews and then loosen by one “flat,” which is 60 degrees.
+>
+> Injector Camshaft Scissor Gear
+>
+> **CAUTION · Осторожно**
+> The injector camshaft nose and injector camshaft scissor gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean, lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+>
+> The injector camshaft scissor gear **must** be unloaded during installation. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+>
+> Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+>
+> **CAUTION · Осторожно**
+> There are two types of gear retaining washer, powdered metal and machined-from-solid. Powdered metal retaining washers have a profiled surface and are not to be reused. Machined-from-solid washers have a flat surface and can be reused if no damage is found during inspection.
+>
+> The injector camshaft scissor gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+>
+> Install the injector camshaft scissor gear loosely on the camshaft nose taper.
+>
+> The injector camshaft scissor gear mounting washer is larger in diameter than the valve camshaft mounting washer.
+>
+> Install the mounting washer and capscrew.
+>
+> Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+>
+> The injector camshaft scissor gear is still loose at this point, to allow the adjustable idler gear to be properly positioned.
+>
+> Do **not** seat the gear.
+>
+> Injector Camshaft Non-Scissor Gear
+>
+> **CAUTION · Осторожно**
+> The injector camshaft nose and injector camshaft non-scissor gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+>
+> Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+>
+> **CAUTION · Осторожно**
+> Powdered metal injector gear retaining washers, identified by profiled surface, are not to be reused, and must be replaced with a machined-from-solid retaining washer, identified by a flat surface. Machined-from-solid retainers can be reused if no damage is found during inspection.
+>
+> The injector camshaft non-scissor gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+>
+> Install the injector camshaft non-scissor gear loosely on camshaft nose taper.
+>
+> The injector camshaft non-scissor gear mounting washer is larger in diameter than the valve camshaft mounting washer.
+>
+> Install the mounting washer and capscrew.
+>
+> Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+>
+> The injector camshaft non-scissor gear is still loose at this point to allow the adjustable idler gear to be properly positioned.
+>
+> Do **not** seat the gear.
+>
+> Valve Camshaft Gear
+>
+> **CAUTION · Осторожно**
+> The valve camshaft nose and valve camshaft gear must be clean and dry prior to assembly. Wipe off the taper surface with a clean, lint-free cloth and apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear. Use care not to contaminate the joint with oil prior to assembly or engine damage may occur.
+>
+> Apply a thin coat of Loctite™ 609, Part Number 3823718, to the inside diameter of the camshaft gear.
+>
+> The valve camshaft gear needs to be fully engaged on the camshaft nose taper, yet loose enough so it can rotate on the camshaft nose.
+>
+> Install the valve camshaft gear loosely on the camshaft nose taper.
+>
+> The valve camshaft mounting washer is smaller in diameter than the injector camshaft scissor gear mounting washer.
+>
+> Install the mounting washer and capscrew.
+>
+> Hand-tighten the capscrew and then loosen by one “flat,” which is 60 degrees.
+>
+> The valve camshaft gear is still loose at this point to allow the adjustable idler gear to be properly positioned.
+>
+> Do **not** seat the gear.
+>
+> ### Adjust
+>
+> Backlash (Scissor Gear Combinations)
+>
+> **CAUTION · Осторожно**
+> Do not set backlash between the adjustable idler gear and the lower scissor idler gear. Severe engine damage can occur.
+>
+> This backlash step works with the scissor type injector camshaft gear and lower idler gear, and the non-scissor injector camshaft gear with a scissor type lower idler gear.
+>
+> The injector camshaft scissor gear **must** still be unloaded during this step. To unload the gear, two of the gear screws **must** be backed out far enough to allow the teeth on the scissor gear to be aligned.
+>
+> Insert, as shown, a narrow shim (0.25 mm \[0.010 in\]) into the gear teeth mesh between the adjustable idler gear and the **wide** (rear side) gear of the injector camshaft scissor gear.
+>
+> | Shim Tolerance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.225 | MIN | 0.009 |
+> | 0.275 | MAX | 0.011 |
+>
+> **Note · Примечание**
+> The gear backlash set procedure for engines that have a non-scissor injector camshaft gear and a scissor type lower idler gear is the same as that of engines that utilize two scissor type gears.
+>
+> Use hand pressure, **only**, to move the adjustable idler gear toward the center of the engine (into mesh), so there is no gap on either side of the shim.
+>
+> Both of the camshaft gears will rotate slightly on the camshafts during this step.
+>
+> Slight drag will be felt on the shim while pulling the shim in and out.
+>
+> Backlash (Non-Scissor Gear Combinations)
+>
+> Removal of the lower front cover is **not** required when setting the gear backlash on engines that utilize all non-scissor gears. An access hole is provided to insert a shim between the lower non-scissor idler gear and the adjustable idler gear. The access hole is sealed with a plug. The plug can be pushed out from the rear side without removing the gear cover.
+>
+> The following procedure will be shown with the lower gear cover removed.
+>
+> Insert, as shown, a shim 0.25 mm \[0.010 in\] into the gear teeth mesh between the adjustable idler gear and the injector camshaft gear.
+>
+> Insert, as shown, a shim 0.25 mm \[0.010 in\] into the gear teeth mesh between the adjustable idler and the lower non-scissor idler gear.
+>
+> Use hand pressure, **only**, to move the adjustable idler gear so there is no gap between the teeth and either side of the shims.
+>
+> Both of the camshaft gears will rotate slightly on the camshafts during this step.
+>
+> Slight drag will be felt on the shim while pulling the shim in and out.
+>
+> Adjustable Idler Gear
+>
+> While holding the adjustable idler gear in position, tighten the adjustable idler gear mounting capscrews.
+>
+> Torque Value:
+>
+> Remove the feeler gauge(s).
+>
+> Injector Camshaft Scissor Gear
+>
+> **CAUTION · Осторожно**
+> Make sure all the scissor gear screws are tightened to the proper torque so that they do not back out during engine operation. Severe engine damage can occur.
+>
+> Load the injector camshaft scissor gear by tightening all the gear screws.
+>
+> **Момент затяжки · Torque Value**
+> 28 n•m [248 in-lb]
+>
+> The valve camshaft gear will rotate slightly on the valve camshaft during this step.
+>
+> Tighten the injector camshaft scissor gear retaining capscrew.
+>
+> Torque Value:
+>
+> Loosen the capscrew 360 degrees and tighten again using the torque-plus-angle method.
+>
+> Torque Value:
+>
+> Injector Camshaft Non-Scissor Gear
+>
+> Use hand pressure **only** to rotate the injector camshaft gear **clockwise** until the gear train backlash is taken up. Obtain tooth-to-tooth contact between the crankshaft gear and the injector camshaft gear.
+>
+> Tighten the injector camshaft non-scissor gear retaining capscrew.
+>
+> Torque Value:
+>
+> Loosen the capscrew 360 degrees and tighten again using the torque-plus-angle method.
+>
+> Torque Value:
+>
+> Valve Camshaft Scissor Gear
+>
+> Tighten the valve camshaft scissor gear retaining capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 102 n•m [75 ft-lb]
+>
+> Rotate the valve camshaft gear mounting capscrew an additional 120 degrees.
+>
+> Valve Camshaft Non-Scissor Gear
+>
+> Use hand pressure **only** to rotate the valve camshaft gear **counterclockwise** until the backlash between the injector camshaft gear is taken up. Obtain tooth-to-tooth contact between the injector camshaft gear and the valve camshaft gear.
+>
+> Tighten the valve camshaft non-scissor gear retaining capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 102 n•m [75 ft-lb]
+>
+> Rotate the valve camshaft gear mounting capscrew an additional 120 degrees.
+>
+> Coat the entire gear train with clean 15W-40 oil.
+>
+> Use the access hole in the lower gear cover to lubricate the lower idler gear and crankshaft.
+>
+> Remove the injector and valve camshaft timing wedges.
+>
+> A sudden jerking motion upward is the most effective way to remove wedges.
+>
+> Remove the crankshaft locking pin and install the plug.
+>
+> ### Finishing Steps
+>
+> - Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
+> - Install the lower gear cover. Refer to Procedure 001-080 in Section 1.
+>
+> - Install the rocker lever cover and gasket. Refer to Procedure 003-011 in Section 3.
+> - If coolant, oil, excessive fuel, or excessive black smoke has entered the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013-tr — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]
+> - Operate the engine and check for leaks.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.

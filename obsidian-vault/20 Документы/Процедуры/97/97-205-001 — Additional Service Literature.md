@@ -18,7 +18,8 @@ families:
 manuals:
   - "3666415"
   - "3666422"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-205-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-205-001.pdf"
 tags:
@@ -26,6 +27,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Additional Service Literature
@@ -39,26 +41,60 @@ tags:
 > **Даты:** изменён 2004-10-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-205-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following publications can be purchased from Cummins, Inc.
 
-| Bulletin No. | Title of Publication |
+### Общие сведения
+
+Следующие публикации можно приобрести у Cummins, Inc.
+
+| Вестник нет. | Название публикации |
 |---|---|
-| 3606310 | ICON™ Professional Driving Techniques Video |
-| 3666130 | Troubleshooting and Repair Manual, CELECT™ Plus Fuel System |
-| 3666139 | Troubleshooting and Repair Manual, M11 Series Engines |
-| 3666142 | Troubleshooting and Repair Manual, N14 Series Engines |
-| 3666146 | Wiring Diagram, CELECT™ Plus |
-| [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Troubleshooting and Repair Manual, Signature, ISX and QSX15 Series Engines |
-| 3666259 | Troubleshooting and Repair Manual, Signature, ISX and QSX15 Electronic Control System |
-| [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] | Troubleshooting and Repair Manual, ISM and QSM11 Electronic Control System |
-| 3666268 | Wiring Diagram, Signature |
-| 3666269 | Wiring Diagram, ISM |
-| [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
-| 3666420 | Wiring Diagram, Aftermarket ICON™ |
-| [[3666422 — ICON™ Idle Control System\|3666422]] | Operation and Maintenance Manual, ICON™ Idle Control System, Aftermarket Kit and OEM Installations |
-| 3898706 | Aftermarket ICON™ Installation Training Video |
-| 4021334 | CM870 Electronic Control System, Signature and ISX Engines Troubleshooting and Repair Manual |
-| 4021381 | CM870 and CM570 Electronic Control System, ISM Troubleshooting and Repair Manual |
-| 4021477 | ISM CM875 Electronic Control System Troubleshooting and Repair Manual |
+| 3606310 | Профессиональные технологии вождения ICONTM Видео |
+| 3666130 | Руководство по устранению неполадок и ремонту, топливная система CELECTTM Plus |
+| 3666139 | Руководство по устранению неполадок и ремонту двигателей серии M11 |
+| 3666142 | Руководство по устранению неполадок и ремонту двигателей серии N14 |
+| 3666146 | Диаграмма проводов, CELECTTM Plus |
+| [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Руководство по устранению неполадок и ремонту, подпись, двигатели серии ISX и QSX15 |
+| 3666259 | Руководство по устранению неполадок и ремонту, подпись, ISX и QSX15 Электронная система управления |
+| [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] | Руководство по устранению неполадок и ремонту, электронная система управления ISM и QSM11 |
+| 3666268 | Диаграмма проводов, подпись |
+| 3666269 | Диаграмма проводов, ISM |
+| [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Руководство по устранению неполадок и ремонту, двигатели серии ISM и QSM11 |
+| 3666420 | Диаграмма проводов, Aftermarket ICONTM |
+| [[3666422 — ICON™ Idle Control System\|3666422]] | Руководство по эксплуатации и техническому обслуживанию, система управления ICONTM Idle, комплекты Aftermarket и OEM-установки |
+| 3898706 | Aftermarket ICONTM - обучающее видео |
+| 4021334 | CM870 Электронная система управления, подпись и ISX Двигатели Устранение неполадок и ремонт Руководство |
+| 4021381 | CM870 и CM570 Электронная система управления, руководство по устранению неполадок ISM |
+| 4021477 | ISM CM875 Электронная система управления Устранение неполадок и ремонт Руководства |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following publications can be purchased from Cummins, Inc.
+>
+> | Bulletin No. | Title of Publication |
+> |---|---|
+> | 3606310 | ICON™ Professional Driving Techniques Video |
+> | 3666130 | Troubleshooting and Repair Manual, CELECT™ Plus Fuel System |
+> | 3666139 | Troubleshooting and Repair Manual, M11 Series Engines |
+> | 3666142 | Troubleshooting and Repair Manual, N14 Series Engines |
+> | 3666146 | Wiring Diagram, CELECT™ Plus |
+> | [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Troubleshooting and Repair Manual, Signature, ISX and QSX15 Series Engines |
+> | 3666259 | Troubleshooting and Repair Manual, Signature, ISX and QSX15 Electronic Control System |
+> | [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]] | Troubleshooting and Repair Manual, ISM and QSM11 Electronic Control System |
+> | 3666268 | Wiring Diagram, Signature |
+> | 3666269 | Wiring Diagram, ISM |
+> | [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
+> | 3666420 | Wiring Diagram, Aftermarket ICON™ |
+> | [[3666422 — ICON™ Idle Control System\|3666422]] | Operation and Maintenance Manual, ICON™ Idle Control System, Aftermarket Kit and OEM Installations |
+> | 3898706 | Aftermarket ICON™ Installation Training Video |
+> | 4021334 | CM870 Electronic Control System, Signature and ISX Engines Troubleshooting and Repair Manual |
+> | 4021381 | CM870 and CM570 Electronic Control System, ISM Troubleshooting and Repair Manual |
+> | 4021477 | ISM CM875 Electronic Control System Troubleshooting and Repair Manual |

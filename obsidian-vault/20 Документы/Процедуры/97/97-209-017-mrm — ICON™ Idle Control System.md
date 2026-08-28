@@ -15,7 +15,8 @@ families:
 manuals:
   - "3666415"
 figures: 24
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-209-017-mrm.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-209-017-mrm.pdf"
 tags:
@@ -23,6 +24,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # ICON™ Idle Control System
@@ -35,290 +37,298 @@ tags:
 > **Даты:** изменён 2007-01-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-209-017-mrm.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-209-017-mrm.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Introduction
 
-The ICON™ Idle Control System is designed to reduce excessive idle time when accomplishing the following tasks:
+### Общие сведения
 
-- The ICON™ system keeps the engine oil temperature above the minimum specification in cold weather environments. When the ICON™ system senses that the engine oil temperature is below the minimum specification, it starts the engine and lets it idle until the engine oil temperature rises to above the maximum specification.
-- The ICON™ system keeps the batteries charged at all times. When the batteries drop below the minimum specification, the ICON™ system orders an engine start. The engine will idle for a minimum specified time, and will **not** shut off until the battery voltage is above maximum specification.
-- The ICON™ system maintains a desired temperature inside the cab (this feature requires the cab thermostat be installed). The driver or occupant programs the thermostat to maintain a desired temperature. A temperature sensor inside the thermostat monitors the temperature inside the vehicle cab. When the temperature drops below or exceeds the set temperature (outside a specific range), the ICON™ system starts the engine and lets it idle until the specified cab temperature is reestablished.
+Введение
 
-Refer to Procedure [[97-018-025 — ICON™ System|018-025]], Specifications, for all ICON™ system specifications.
+Система контроля холостого хода ICONTM предназначена для сокращения чрезмерного времени простоя при выполнении следующих задач:
 
-There are two versions of the ICON™ system:
+- Система ICONTM поддерживает температуру моторного масла выше минимальной спецификации в условиях холодной погоды. Когда система ICONTM чувствует, что температура моторного масла ниже минимальной спецификации, она запускает двигатель и позволяет ему простаивать до тех пор, пока температура моторного масла не поднимется выше максимальной спецификации.
+- Система ICONTM постоянно поддерживает зарядку аккумуляторов. Когда батареи падают ниже минимальной спецификации, система ICONTM заказывает запуск двигателя. Двигатель будет простаивать в течение минимального заданного времени и будет **не** выключаться до тех пор, пока напряжение батареи не превысит максимальную спецификацию.
+- Система ICONTM поддерживает желаемую температуру внутри кабины (эта функция требует установки термостата кабины). Водитель или пассажир программирует термостат для поддержания желаемой температуры. Датчик температуры внутри термостата контролирует температуру внутри кабины автомобиля. Когда температура опускается ниже или превышает заданную температуру (за пределами определенного диапазона), система ICONTM запускает двигатель и позволяет ему простаивать до тех пор, пока не будет восстановлена заданная температура кабины.
 
-- Integrated - installed at the OEM
-- Aftermarket - a kit which can be installed by the distributor, dealer, or OEM.
+См. процедуру[[97-018-025 — ICON™ System|018-025]], Спецификации, для всех спецификаций системы ICONTM.
 
-> [!note] Note · Примечание
-> The terms Integrated and Aftermarket will be used frequently throughout this manual to identify the version of the ICON™ system and information specific to that version.
+Существует две версии системы ICONTM:
 
-The ICON™ system has with three basic modes of operation:
+- Интегрированный - установлен на OEM
+- Aftermarket – комплект, который может быть установлен дистрибьютором, дилером или OEM.
 
-- Engine Mode
-- Cab Comfort Mode
-- Mandatory Shutdown Mode.
+> [!note] Примечание
+> Термины «Интегрированный» и «Послепродажный» будут часто использоваться в этом руководстве для идентификации версии системы ICONTM и информации, относящейся к этой версии.
 
-Engine Mode - In engine mode the engine will be shut off and restarted periodically to keep the batteries charged and the engine oil temperature above the minimum specification. The engine will restart once the engine oil temperature or the battery voltage drop below the minimum specification. When the ICON™ system starts the engine in engine mode, the engine will continue to run until both the engine oil temperature and battery voltage requirements are met.
+Система ICONTM имеет три основных режима работы:
 
-Cab Comfort Mode - In cab comfort mode, the engine will be shut off and restarted as required to keep the batteries charged, the engine oil temperature above the minimum specification, and the cab temperature at the specified temperature. Cab temperature is controlled by the cab thermostat, which can be programmed by the operator to maintain the desired warm or cool cab temperature. The thermostat is installed inside the cab, usually mounted in the bunk area of the vehicle. Cab comfort mode will be explained in detail in the Cab Comfort Mode Feature section.
+- Режим двигателя
+- Режим комфорта Каба
+- Обязательный режим остановки.
 
-Mandatory Shutdown Mode - Mandatory shutdown mode is automatically activated whenever the other two ICON™ system modes are **not** active. Anytime the vehicle wheels stop moving (zero vehicle speed) and the parking brake is set, the ICON™ system starts a timer. If the wheels of the vehicle have **not** moved after a minimum specified time, the engine will automatically shut off. The timer's option is selected through the cab thermostat further detailed under the Cab Thermostat Setup Mode section. The mandatory shutdown mode can **not** be bypassed unless the ICON™ system is active in one of the other two modes. The ignition bus circuits will be shut off if the engine is shut off while in mandatory shutdown mode. To restart the engine after the ICON™ system has shut it off, the operator **must** turn the keyswitch from on to off, then back to on.
+Режим двигателя - В режиме двигателя двигатель будет отключаться и периодически перезагружаться, чтобы поддерживать заряженные батареи и температуру масла двигателя выше минимальной спецификации. Двигатель будет перезагружаться после того, как температура масла двигателя или напряжение батареи упадет ниже минимальной спецификации. Когда система ICONTM запустит двигатель в режиме двигателя, двигатель будет продолжать работать до тех пор, пока не будут выполнены требования к температуре масла двигателя и напряжению батареи.
 
-ICON™ idle control module (revision 19) will shut the engine down in 3 minutes when the vehicle speed is 0 kph \[0 mph\] and when the parking brake is ON. However, both module versions will shut the engine down in 15 minutes if the vehicle speed is zero and the parking brake is OFF.
+Режим комфорта Кабина - В режиме комфорта кабины двигатель будет отключен и перезапущен, как это требуется для поддержания заряда аккумуляторов, температуры масла двигателя выше минимальной спецификации и температуры кабины при заданной температуре. Температура кабины контролируется термостатом кабины, который может быть запрограммирован оператором для поддержания желаемой теплой или прохладной температуры кабины. Термостат установлен внутри кабины, обычно установлен в зоне багажника автомобиля. Режим комфорта Кабины будет подробно описан в разделе «Режим комфорта Кабины».
 
-Harness Identification
+Обязательный режим отключения - Обязательный режим отключения автоматически активируется всякий раз, когда два других режима системы ICONTM не активны. В любое время, когда колеса автомобиля перестают двигаться (ноль скорости транспортного средства) и устанавливается стояночный тормоз, система ICONTM запускает таймер. Если колеса транспортного средства не двигались по истечении минимального заданного времени, двигатель автоматически выключается. Вариант таймера выбирается через термостат кабины, дополнительно детализированный в разделе «Режим настройки кабины термостата». Обязательный режим отключения можно обойти, если только система ICONTM не активна в одном из двух других режимов. шинный цепи зажигания будут отключены, если двигатель выключен во время обязательного режима выключения. Чтобы перезапустить двигатель после того, как система ICONTM выключила его, оператор **должен** включить переключатель зажигания, а затем снова включить.
 
-There are various versions of the ICON™ system. To identify if a system is an Aftermarket or **not**, inspect the bulkhead for a 14-pin connector. An Aftermarket system will have labels on this harness near the connector with a Cummins Inc. part number. See Figure 1.
+Модуль управления холостым ходом ICONTM (ревизия 19) выключит двигатель за 3 минуты, когда скорость транспортного средства составляет 0 км/ч[0 миль/ч] и когда парковочный тормоз включен. Однако оба варианта модулей выключат двигатель за 15 минут, если скорость автомобиля равна нулю, а стояночный тормоз выключен.
+
+Интерфейс Identification
+
+Существуют различные версии системы ICONTM. Чтобы определить, является ли система Aftermarket или **not**, проверьте переборку на 14-контактный разъем. Система Aftermarket будет иметь этикетки на этой проводах рядом с разъемом с Cummins Inc. Номер детали. См. рисунок 1.
 
 ![[19803820.png]]
 
-Figure 1, ICON™ System Identification
+Рисунок 1 Идентификация системы ICONTM
 
-Applications
+Приложения
 
-The Aftermarket version of the ICON™ system can be installed on the following engines:
+Версия Aftermarket системы ICONTM может быть установлена на следующих двигателях:
 
-- CELECT™ Plus Engines
-- ISM Series Engines
-- ISM CM870 Series Engines
-- ISM CM875 Series Engines
-- ISX or Signature Series Engines
-- ISX CM870 Series Engines
-- ISX CM871 Series Engines
-- ISM CM876 Series Engines.
+- Двигатели CELECTTM Plus
+- Двигатели серии ISM
+- Двигатели серии ISM CM870
+- Двигатели серии ISM CM875
+- Двигатели серии ISX или Signature
+- Двигатели серии ISX CM870
+- Двигатели серии ISX CM871
+- Двигатели серии ISM CM876.
 
-> [!note] Note · Примечание
-> The ICON™ Integrated version can **only** be installed at the OEM.
+> [!note] Примечание
+> Интегрированная версия ICONTM может быть установлена только на OEM-производителях.
 
-The ICON™ system is designed for use **only** with CELECT™ Plus engines (engine ECM calibration Phase 4.2 or later), ISM, ISX, and Signature engines (engine ECM calibration Phase 8.2 or later). The ICON™ system will work with all ISM CM870, ISM CM875, ISX CM870, ISM CM876, and ISX CM871 engines.
+Система ICONTM предназначена для использования только с двигателями CELECTTM Plus (калибровочный этап 4.2 или более поздней калибровки двигателя ECM), двигателями ISM, ISX и Signature (калибровочный этап 8.2 или более поздней калибровки двигателя ECM). Система ICONTM будет работать со всеми двигателями ISM CM870, ISM CM875, ISX CM870, ISM CM876 и ISX CM871.
 
-> [!note] Note · Примечание
-> Cummins Inc. recommends Phase 9.3 on ISM, ISX, and Signatures engines to improve the ICON™ system operation.
+> [!note] Примечание
+> Cummins Inc. Фаза 9.3 для двигателей ISM, ISX и Signatures, чтобы улучшить работу системы ICONTM.
 
-### ICON™ Activation and Function
+### ICONTM Активация и функция
 
-To activate the ICON™ system, perform the following steps:
+Для активации системы ICONTM выполните следующие действия:
 
-- Idle the engine. Do **not** turn on the PTO. Do **not** touch the accelerator pedal.
+- Запускайте двигатель на холостом ходу. Не включайте PTO. Не касайтесь педали акселератора.
 
 ![[15800015.png]]
 
-- Set the parking brake.
+- Установите стояночный тормоз.
 
 ![[15800016.png]]
 
-- Place the transmission in neutral.
+- Поместите трансмиссию в нейтральное положение.
 
 ![[oi800v03.png]]
 
-- Make sure the hood is closed.
+- Убедитесь, что капот закрыт.
 
 ![[15800038.png]]
 
-- Turn the cruise control switch from the OFF position to the ON position.
+- Переключатель круиз-контроля переключайтесь с положения OFF на положение ON.
 
-> [!note] Note · Примечание
-> If the switch is already on, you **must** turn it off then back on. At this point, the ICON™ lamp will start flashing quickly. This lamp flashing pattern confirms that the ICON™ system is ready to be activated.
+> [!note] Примечание
+> Если выключатель уже включен, вы должны выключить его, а затем снова включить. В этот момент лампа ICONTM начнет быстро мигать. Этот мигающий рисунок лампы подтверждает, что система ICONTM готова к активации.
 
 ![[gp8swku.png]]
 
-> [!note] Note · Примечание
-> The following step **must** be completed within 1 minute of turning on the cruise control switch, or the ICON™ system will be deactivated automatically.
+> [!note] Примечание
+> Следующий шаг должен быть завершен в течение 1 минуты после включения коммутатора круиз-контроля, или система ICONTM будет автоматически отключена.
 
-- The ICON™ system will verify that the vehicle is in neutral. While continuously holding the clutch pedal in, shift the transmission into gear. The ICON™ lamp will flash at a slow rate (approximately 2-Hz per second). Then, shift the transmission back into neutral, and release the clutch pedal. The ICON™ lamp will light and pulse at a rate of approximately 1-Hz per second.
+- Система ICONTM будет проверять, что автомобиль находится в нейтральном состоянии. Непрерывно удерживая педаль сцепления, переключайте передачу на передачу. Лампа ICONTM будет мигать с медленной скоростью (приблизительно 2 Гц в секунду). Затем переведите передачу обратно в нейтральную и отпустите педаль сцепления. Лампа ICONTM будет светиться и пульсировать со скоростью примерно 1 Гц в секунду.
 
-The ICON™ system is now active and will default to engine mode.
+Система ICONTM теперь активна и будет работать по умолчанию в режиме двигателя.
 
 ![[15800017.png]]
 
-### Engine Mode Feature
+### Особенность режима Engine
 
-> [!note] Note · Примечание
-> The ICON™ system's engine start alarm, mounted on the vehicle firewall, can sound for 14 seconds prior to an automatic start initiated by the ICON™ system, depending on how it has been programmed through the cab thermostat.
+> [!note] Примечание
+> Сигнализация запуска двигателя системы ICONTM, установленная на брандмауэре автомобиля, может звучать в течение 14 секунд до автоматического запуска, инициированного системой ICONTM, в зависимости от того, как она была запрограммирована через термостат кабины.
 
-Once the ICON™ system has been activated, the default mode is the engine mode. The engine will be shut off and restarted as required to keep the batteries charged and the engine oil temperature above the minimum specification. The following steps will occur automatically while the ICON™ system is in engine mode.
+После активации системы ICONTM режим по умолчанию является режимом двигателя. Двигатель будет отключен и перезапущен, как это требуется для поддержания заряда аккумуляторов и температуры масла двигателя выше минимальной спецификации. Следующие шаги будут происходить автоматически, пока система ICONTM находится в режиме работы двигателя.
 
-1. Engine rpm will slowly ramp up to the ICON™ idle speed. The ICON™ system can initially ramp the engine up to a higher rpm (ICON™ system maximum rpm) to supply a higher alternator output required to charge the batteries then lower the idle speed back down to the ICON™ idle speed.
-2. The engine will run for a minimum set time if the engine oil temperature or battery voltage is low. If the battery charge and engine oil temperature is above the maximum specification, the ICON™ system will slowly ramp down the idle speed to the ICON™ system minimum rpm, or the idle speed, whichever is higher. When the lower engine speed is reached, the ICON™ system shuts down the engine after the minimum run time. If the battery is **not** charged or the engine oil is too cold, the engine will continue to run until these thresholds are met. When the engine is off, the ignition power will also be turned off.
+1. Двигатель rpm будет медленно набирать скорость до холостого хода ICONTM. Система ICONTM может первоначально подтолкнуть двигатель к более высокой оборотной массе (максимальная оборотная масса системы ICONTM), чтобы обеспечить более высокий выход генератора переменного тока, необходимый для зарядки батарей, а затем снизить скорость холостого хода обратно до скорости холостого хода ICONTM.
+2. Двигатель будет работать в течение минимального установленного времени, если температура масла двигателя или напряжение батареи низкие. Если заряд батареи и температура моторного масла выше максимальной спецификации, система ICONTM будет медленно снижать скорость холостого хода до минимальной скорости оборота системы ICONTM или скорости холостого хода, в зависимости от того, что выше. Когда достигается более низкая скорость двигателя, система ICONTM отключает двигатель после минимального времени работы. Если батарея не заряжена или моторное масло слишком холодное, двигатель будет продолжать работать до тех пор, пока эти пороги не будут выполнены. Когда двигатель выключен, мощность зажигания также будет отключена.
 
-> [!note] Note · Примечание
-> The ICON™ idle speed rpm, ICON™ maximum rpm, and ICON™ minimum rpm are different than the normal idle rpm and maximum rpm settings for the engine. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for ICON™ rpm settings and to the appropriate Operations and Maintenance manual for the normal idle rpm and maximum rpm settings for your engine.
+> [!note] Примечание
+> ICONTM idle speed rpm, ICONTM maximum rpm, и ICONTM minimum rpm отличаются от обычных rpm и максимальных настроек rpm для двигателя. См. процедуру[[97-018-025 — ICON™ System|018-025]]для настроек оборотов в минуту ICONTM и для соответствующего руководства по эксплуатации и техническому обслуживанию для обычных пустых оборотов в минуту и максимальных настроек оборотов в минуту для вашего двигателя.
 
-1. When the engine is **not** running, the ICON™ system remains in a wait period. During the wait period, the ICON™ lamp will remain on, pulsing at a slow rate. The ICON™ system continuously monitors the status of the engine oil temperature and the battery voltage. If the battery voltage or engine oil temperature drops below the minimum specification, the ICON™ system will restart the engine.
-2. After engine restart, step 1 and step 2 will repeat with one exception; the ignition power to the accessories will remain **off** for the first 20 seconds after the engine has started and is running at the ICON™ idle speed.
+1. Когда двигатель не работает, система ICONTM остается в ожидании. В течение периода ожидания лампа ICONTM будет оставаться включенной, пульсируя с медленной скоростью. Система ICONTM постоянно контролирует состояние температуры моторного масла и напряжения батареи. Если напряжение батареи или температура масла двигателя падает ниже минимальной спецификации, система ICONTM перезапустит двигатель.
+2. После перезапуска двигателя этап 1 и этап 2 повторяются за одним исключением; мощность зажигания на аксессуарах будет оставаться **выключенной** в течение первых 20 секунд после запуска двигателя и работы на холостой скорости ICONTM.
 
-### Keyless Engine Mode
+### Режим Keyless Engine
 
-Aftermarket
+Послепродажный рынок
 
-An enhancement to the ICON™ engine mode allows the ignition key to be removed. This optional feature is activated as previously described in ICON™ Activation and Function. In keyless engine mode, the key **must** be switched back to the OFF position, then removed before the first automatic engine shutdown occurs. Several conditions for proper function of the ICON™ system **must** be met while the keyless engine mode feature is enabled:
+Усовершенствование режима работы двигателя ICONTM позволяет удалить ключ зажигания. Эта опция активируется, как описано ранее в ICONTM Activation and Function. В режиме без ключа ключ **должен быть переключен обратно в положение выключения, а затем удален до первого автоматического отключения двигателя. Несколько условий для правильной работы системы ICONTM** должны быть выполнены при включенной функции режима работы двигателя без ключа:
 
-1. The key **must** be removed before the first automatic engine shutdown sequence occurs. If the operator removes the key after the first automatic engine shutdown has occurred, the ICON™ system will be deactivated and the engine will shut down.
-2. If the accelerator pedal is depressed before the first automatic engine shutdown sequence occurs, the ICON™ system will be deactivated and shut down the engine.
-3. All of the accessory devices (such as blower motors, interior lights, and so forth) should be shut off to improve battery charge. Any devices left on will operate once the ICON™ system restarts the engine, using some of the electrical energy available for accessories rather than charging the batteries. Therefore, the batteries will take longer to charge.
+1. Ключ должен быть удален до того, как произойдет первая последовательность автоматического отключения двигателя. Если оператор удалит ключ после первого автоматического отключения двигателя, система ICONTM будет отключена, а двигатель выключен.
+2. Если педаль акселератора будет подавлена до того, как произойдет первая последовательность автоматического отключения двигателя, система ICONTM будет отключена и выключена двигатель.
+3. Все вспомогательные устройства (такие как двигатели воздуходувки, внутренние фонари и т. Д.) должны быть отключены для улучшения заряда батареи. Любые устройства, оставшиеся в силе, будут работать после перезапуска двигателя системой ICONTM, используя часть электрической энергии, доступной для аксессуаров, а не для зарядки аккумуляторов. Поэтому батареи будут заряжаться дольше.
 
-> [!note] Note · Примечание
-> If the engine is restarted three times within 3 hours when ICON™ idle control module is revision 11 or 14 (because of low battery charge) or is restarted three times within 5 hours when ICON™ idle control module is revision 15, 16, 18, or 19 (because of low battery charge), the engine will remain running continuously. This is an indication of excessive electrical load, a defective battery charging system, or defective batteries. An ICON™ fault code will be logged. If the ICON™ system attempts to restart the engine two consecutive times and fails both times, The ICON™ system will be deactivated and a fault code will be logged. The second restart attempt occurs 1 minute after the first attempt fails.
+> [!note] Примечание
+> Если двигатель перезапускается три раза в течение 3 часов, когда модуль управления ICONTM бездействует, является ревизией 11 или 14 (из-за низкого заряда батареи) или перезапускается три раза в течение 5 часов, когда модуль управления ICONTM бездействует, является ревизией 15, 16, 18 или 19 (из-за низкого заряда батареи), двигатель будет работать непрерывно. Это является признаком чрезмерной электрической нагрузки, дефектной системы зарядки аккумулятора или дефектных батарей. Будет зарегистрирован код ошибки ICONTM. Если система ICONTM попытается перезапустить двигатель два раза подряд и выйдет из строя оба раза, система ICONTM будет отключена и будет зарегистрирован код неисправности. Вторая попытка перезапуска происходит через 1 минуту после того, как первая попытка не удалась.
 
-### Cab Comfort Mode Activation and Function
+### Cab Comfort Mode Активация и функция
 
-> [!note] Note · Примечание
-> The cab thermostat **must** be installed to activate cab comfort mode.
+> [!note] Примечание
+> Термостат кабины должен быть установлен для активации режима комфорта кабины.
 
-The ICON™ system can be put in cab comfort mode by the user when it is activated. The cab comfort mode will shut off and restart the engine as required to keep the batteries charged, keep the engine oil temperature above the minimum specification, and maintain the cab temperature at a desired level.
+Система ICONTM может быть включена пользователем в режиме комфорта кабины при ее активации. Режим комфорта кабины будет отключаться и перезагружать двигатель, как это требуется для поддержания заряда аккумуляторов, поддержания температуры масла двигателя выше минимальной спецификации и поддержания температуры кабины на желаемом уровне.
 
-> [!note] Note · Примечание
-> At initial turn-on of the cab thermostat, the thermostat will display the revision level of the software loaded in the thermostat, that is 01, 02, 03 and so forth.
+> [!note] Примечание
+> При первоначальном включении термостата кабины термостат будет отображать уровень доработки программного обеспечения, загруженного в термостат, то есть 01, 02, 03 и т.д.
 
-If the thermostat is revision level 01, 02, or 06, the cab comfort mode can be deactivated by deselecting the heat or cool buttons.
+Если термостат имеет уровень 01, 02 или 06, режим комфорта кабины может быть отключен путем отсечки кнопок тепла или охлаждения.
 
-If the thermostat is revision level 03, 04, or 05, the cab comfort mode can be deactivated by deselecting the heat or cool buttons, or by pushing the ON/MODE button and holding for 3 seconds.
+Если термостат имеет уровень 03, 04 или 05, режим комфорта кабины может быть отключен путем отключения кнопок тепла или охлаждения или путем нажатия кнопки ON / MODE и удерживания в течение 3 секунд.
 
-The keyless (Aftermarket systems **only**) enhancement feature (optional in engine mode) is **not** available in cab comfort mode.
+Функция улучшения без ключа (системы Aftermarket **только**) (необязательно в режиме двигателя) **не** доступна в режиме комфорта кабины.
 
-Cab temperature parameters are programmed by the user with the cab thermostat.
+Параметры температуры кабины запрограммированы пользователем с помощью термостата кабины.
 
-After performing steps 1 through 6 under the ICON™ Activation and Function section, the cab comfort mode can be activated by performing the following steps:
+После выполнения этапов 1-6 в разделе Активация и Функция ICONTM режим комфорта кабины может быть активирован путем выполнения следующих шагов:
 
-- Turn the cab thermostat on by pressing the ON/MODE button.
+- Включите термостат кабины, нажав кнопку ON/MODE.
 
 ![[15800018.png]]
 
-- Turn on the vehicle's appropriate environmental controls.
+- Включите соответствующие экологические средства контроля автомобиля.
 
-- If the cab will get hot enough to require cooling, turn on the air conditioner to the maximum setting and set the fan control to a medium setting.
-- If the cab will get cold enough to require heating, turn on the heater to the maximum setting and set the fan control to a medium setting.
+- Если кабина станет достаточно горячей, чтобы требовать охлаждения, включите кондиционер до максимальной настройки и установите управление вентилятором на среднюю настройку.
+- Если кабина станет достаточно холодной, чтобы требовать нагрева, включите нагреватель до максимальной настройки и установите управление вентилятором на среднюю настройку.
 
-These settings will make certain the cab temperature is regulated efficiently.
+Эти настройки позволят обеспечить эффективное регулирование температуры кабины.
 
 ![[15800019.png]]
 
-- Set the cab thermostat with the desired environmental parameters. For cab thermostat programming instructions, see the Cab Thermostat Operation section.
+- Установите термостат кабины с нужными параметрами окружающей среды. Инструкции по программированию термостата см. в разделе Операция Cab Thermostat.
 
 ![[15800020.png]]
 
-### Cab Comfort Mode Feature
+### Cab Comfort Mode Особенности
 
-Once the ICON™ system has been activated, the default mode is the engine mode. When the operator turns on and sets the cab thermostat, the ICON™ system enters cab comfort mode. The cab comfort mode will shut off and restart the engine as required to keep the batteries charged, engine oil temperature above the minimum specification, and maintain the cab temperature at the desired set level. The following steps will occur automatically while the ICON™ system is in cab comfort mode:
+После активации системы ICONTM режим по умолчанию является режимом двигателя. Когда оператор включает и устанавливает термостат кабины, система ICONTM входит в режим комфорта кабины. Режим комфорта кабины отключит и перезапустит двигатель, как это требуется для поддержания заряда аккумуляторов, температуры масла двигателя выше минимальной спецификации и поддержания температуры кабины на желаемом заданном уровне. Следующие шаги будут происходить автоматически, пока система ICONTM находится в режиме комфорта кабины:
 
-- When the ICON™ system is activated, the engine rpm will slowly ramp up to the ICON™ idle speed. The ICON™ system can initially ramp the engine up to a higher rpm (ICON™ maximum rpm) to supply a higher alternator output then lower the idle speed back down to the ICON™ idle speed.
-- The engine will run for a minimum specified time to reach the engine oil temperature and cab comfort temperature. The engine will run for a minimum amount of time if the battery voltage is low. If the battery charge and the engine oil temperature is above the maximum specification, and the cab temperature is within the set temperature parameters, the ICON™ system will slowly ramp down the idle speed to the minimum idle speed or the ICON™ idle speed (whichever is higher). When the lower engine speed is reached, the ICON™ system will shut down the engine after the initial minimum run time. If the battery is **not** charged, the engine oil is too cold, or the cab temperature is **not** within the set temperature parameters, the engine will continue to run until these thresholds are met. When the engine is off, the ignition power will also be turned off.
-- When the engine is **not** running, the ICON™ system remains in a wait period. During the wait period, the ICON™ lamp will remain on, pulsing at a slow rate. The ICON™ system continuously monitors the status of the cab temperature, the engine oil temperature, and the battery voltage level. If cab temperature, engine oil temperature, or battery voltage level drops below the minimum specification, the ICON™ system will restart the engine.
-- After engine restart, step 1 and step 2 will repeat with one exception; the ignition power to the accessories will remain **off** for the first 20 seconds after the engine has started and is running at the ICON™ idle speed.
+- Когда система ICONTM активируется, обороты двигателя будут медленно нарастать до скорости холостого хода ICONTM. Система ICONTM может первоначально наращивать двигатель до более высокой оборотной массы (максимальная оборотная масса ICONTM), чтобы обеспечить более высокий выход генератора переменного тока, а затем снизить скорость холостого хода обратно до скорости холостого хода ICONTM.
+- Двигатель будет работать в течение минимального заданного времени, чтобы достичь температуры масла двигателя и температуры комфорта кабины. Двигатель будет работать в течение минимального количества времени, если напряжение батареи низкое. Если заряд батареи и температура масла двигателя выше максимальной спецификации, а температура кабины находится в пределах заданных температурных параметров, система ICONTM будет медленно снижать скорость холостого хода до минимальной скорости холостого хода или скорости холостого хода ICONTM (в зависимости от того, что выше). Когда будет достигнута более низкая скорость двигателя, система ICONTM отключит двигатель после начального минимального времени работы. Если батарея **не** заряжена, моторное масло слишком холодное, или температура кабины **не** в пределах заданных температурных параметров, двигатель будет продолжать работать до тех пор, пока эти пороги не будут выполнены. Когда двигатель выключен, мощность зажигания также будет отключена.
+- Когда двигатель не работает, система ICONTM остается в ожидании. В течение периода ожидания лампа ICONTM будет оставаться включенной, пульсируя с медленной скоростью. Система ICONTM постоянно контролирует состояние температуры кабины, температуры моторного масла и уровня напряжения батареи. Если температура кабины, температура масла двигателя или уровень напряжения батареи падает ниже минимальной спецификации, система ICONTM перезапустит двигатель.
+- После перезапуска двигателя этап 1 и этап 2 повторяются за одним исключением; мощность зажигания на аксессуарах будет оставаться **выключенной** в течение первых 20 секунд после запуска двигателя и работы на холостой скорости ICONTM.
 
-> [!note] Note · Примечание
-> On Aftermarket or OEM ICON™ systems, if the engine is restarted three times within 3 hours when ICON™ idle control module is revision 11 or 14 (because of low battery charge), or is restarted three times within 5 hours when ICON™ idle control module is revision 15, 16, or 18 (because of low battery charge), the engine will remain running continuously. This is an indication of excessive electrical load, a defective battery charging system, or defective batteries. An ICON™ fault code will be logged. If the ICON™ system attempts to restart the engine two consecutive times and fails both times, the ICON™ system will be deactivated and a fault code will be logged. The second restart attempt occurs 1 minute after the first attempt fails.
+> [!note] Примечание
+> В системах Aftermarket или OEM ICONTM, если двигатель перезапускается три раза в течение 3 часов, когда модуль управления ICONTM бездействует, является ревизией 11 или 14 (из-за низкого заряда батареи), или перезапускается три раза в течение 5 часов, когда модуль управления ICONTM бездействует, является ревизией 15, 16 или 18 (из-за низкого заряда батареи), двигатель будет работать непрерывно. Это является признаком чрезмерной электрической нагрузки, дефектной системы зарядки аккумулятора или дефектных батарей. Будет зарегистрирован код ошибки ICONTM. Если система ICONTM попытается перезапустить двигатель два раза подряд и выйдет из строя оба раза, система ICONTM будет отключена и будет зарегистрирован код неисправности. Вторая попытка перезапуска происходит через 1 минуту после того, как первая попытка не удалась.
 
-> [!note] Note · Примечание
-> ICON™ idle control module revision 19 (regardless of mode) limits restarts to a maximum of 5 per hour.
+> [!note] Примечание
+> Модуль управления бездействия ICONTM версии 19 (независимо от режима) ограничивает перезапуск максимум до 5 в час.
 
-- If the ICON™ idle control module is revision 15, 16, or 18, when the engine is started for an ICON™ system request, the thermostat will control the blowers to maintain the appropriate set point.
+- Если модуль управления холостым приводом ICONTM является модификацией 15, 16 или 18, когда двигатель запускается для запроса системы ICONTM, термостат будет управлять воздуходувками для поддержания соответствующей заданной точки.
 
-### ICON™ Deactivation
+### Деактивация ICONTM
 
-The preferred method of deactivating the ICON™ system is to turn off the cruise control switch. To restart the engine, after deactivating the ICON™ system, cycle the keyswitch from ON to OFF, then manually restart the engine.
+Предпочтительным способом деактивации системы ICONTM является выключение коммутатора круиз-контроля. Для перезапуска двигателя после отключения системы ICONTM циклически переключатель зажигания от Включения к Выключению, затем вручную перезапуска двигателя.
 
-After the ICON™ system has been activated in either engine mode (including keyless engine mode) or cab comfort mode, the ICON™ system will be deactivated if any of the following occurs:
+После активации системы ICONTM в режиме работы двигателя (включая режим работы без ключа) или в режиме комфорта кабины система ICONTM будет отключена, если произойдет следующее:
 
-1. Interlock switch open (neutral, parking, hood)
-2. Vehicle speed greater than 0 mph
-3. A Fault becomes active in the ICON™ system
-4. (Aftermarket systems **only**) accelerator is depressed with keyswitch on or off (keyless engine mode) before first shutdown
-5. Cruise control switch turned off
-6. Keyswitch turned off after first shutdown
-7. (Aftermarket or OEM systems **only**) keyswitch turned on when in keyless engine mode
-8. (Aftermarket systems **only**) PTO is activated with keyswitch on or off (keyless engine mode) before first shutdown
+1. Открытый межблокировочный переключатель (нейтральный, парковочный, капотный)
+2. Скорость автомобиля больше 0 миль в час
+3. В системе ICONTM активируется ошибка
+4. (Системы вторичного рынка **только**) ускоритель подавлен включением или выключением зажигания (режим без ключа двигателя) перед первым отключением
+5. Выключатель круиз-контроля отключен
+6. Замок зажигания выключен после первого отключения
+7. (Системы вторичного рынка или OEM**только**) переключатель зажигания включается в режиме бесключевого двигателя
+8. (Системы вторичного рынка **только**) PTO активируется с включенным или выключенным переключателем зажигания (режим без ключа) перед первым отключением
 
-### Cab Thermostat Operation
+### Операция Cab Thermostat
 
-The ICON™ cab thermostat can be programmed by the operator. The ICON™ system does **not** have control over the environmental controls of the vehicle. In order for the ICON™ cab thermostat to operate correctly, the vehicle's environmental controls **must** be set correctly.
+Термостат ICONTM может быть запрограммирован оператором. Система ICONTM не контролирует экологические элементы управления транспортным средством. Для того, чтобы термостат кабины ICONTM работал правильно, необходимо правильно установить экологические элементы управления транспортным средством.
 
-If the operator expects that the temperature inside the cab will become hotter when the engine is turned off, the operator will turn on the vehicle's air conditioner. If the operator expects that the temperature inside the cab will become colder when the engine is turned off, the operator will turn on the vehicle's heater.
+Если оператор ожидает, что температура внутри кабины станет более высокой при выключении двигателя, оператор включит кондиционер автомобиля. Если оператор ожидает, что температура внутри кабины станет холоднее, когда двигатель выключен, оператор включит нагреватель автомобиля.
 
-> [!note] Note · Примечание
-> It is important that the cab temperature controls be set correctly. On Aftermarket systems, if the ICON™ system commands the engine to start because it senses the cab is too hot and the operator has turned on the heater instead of the air conditioner, the cab thermostat will log a fault after 45 minutes or if the command to restart the engine is within 10 minutes of the last auto-cycle when the ICON™ thermostat is revision level 01 or 02. On Integrated and Aftermarket systems, the ICON™ system will log a fault after 60 minutes or if the command to restart the engine is 4 times within an hour when the ICON™ thermostat is revision level 03. The ICON™ system senses that the set temperature parameters are **not** being met, logs a fault, and can, possibly, shut the engine off. This fault does **not** exist in revision level 04, 05, and 06.
+> [!note] Примечание
+> Важно, чтобы контроль температуры кабины был установлен правильно. В системах Aftermarket, если система ICONTM подает команду на запуск двигателя, потому что он чувствует, что кабина слишком горячая, и оператор включил нагреватель вместо кондиционера, термостат кабины будет регистрировать неисправность через 45 минут или если команда на перезапуск двигателя находится в течение 10 минут после последнего автоматического цикла, когда термостат ICONTM является уровнем 01 или 02 ревизии. В интегрированных и вторичных системах система ICONTM будет регистрировать неисправность через 60 минут или если команда на перезапуск двигателя 4 раза в течение часа, когда термостат ICONTM является уровнем 03 ревизии. Система ICONTM чувствует, что заданные температурные параметры не соблюдаются, регистрирует неисправность и, возможно, может отключить двигатель. Эта ошибка не существует в уровнях 04, 05 и 06 пересмотра.
 
-If the ICON™ thermostat is revision 03, 04, 05, or 06 the thermostat will automatically return to normal operation state once the temperature has been met.
+Если термостат ICONTM имеет видоизменения 03, 04, 05 или 06, то после достижения температуры он автоматически возвращается в нормальное рабочее состояние.
 
-> [!note] Note · Примечание
-> The thermostat trims can also be adjusted. See the Trim Settings and instructions for Thermostat Setup Mode at the end of this section.
+> [!note] Примечание
+> Термостаты также можно регулировать. См. настройки отделки и инструкции для режима настройки термостата в конце этого раздела.
 
 ![[15800001.png]]
 
-There are four buttons on the thermostat. They are:
+На термостате четыре кнопки. Они:
 
-- **ON/MODE** - This button turns the thermostat on and toggles through the different cab thermostat screens.
+- **ON/MODE** - Эта кнопка включает термостат и переключается через различные экраны термостата кабины.
 
-> [!note] Note · Примечание
-> If ICON™ thermostat is revision level 03 and higher, and the thermostat is on, pressing and holding the ON/MODE button for 3 seconds will turn off the thermostat.
+> [!note] Примечание
+> Если термостат ICONTM имеет уровень 03 и выше, а термостат включен, нажатие и удерживание кнопки ON/MODE в течение 3 секунд выключит термостат.
 
-- **ENTER** - This button is used to enter parameter adjustments. After a selection is made by the operator, the ENTER button **must** be pushed so that the ICON™ system will remember the new parameters.
+- **ENTER** - Эта кнопка используется для ввода параметров регулировки. После выбора оператором кнопка ВПЕРЕД должна быть нажата так, чтобы система ICONTM запомнила новые параметры.
 
-- **DOWN** - This button is used to adjust parameters by decreasing the value.
-- **UP** - This button is used to adjust parameters by increasing the value.
+- **DOWN** - Эта кнопка используется для настройки параметров путем уменьшения значения.
+- **UP** - Эта кнопка используется для настройки параметров путем увеличения значения.
 
 ![[15800020.png]]
 
-When the ON/MODE button is pressed during the initial start-up of the ICON™ system, cab comfort mode is activated. The thermostat readout will show the cab temperature.
+При нажатии кнопки ON/MODE во время начального запуска системы ICONTM активируется режим комфорта кабины. Считывание термостата покажет температуру кабины.
 
 ![[15800018.png]]
 
-By pressing the ON/MODE button, the thermostat will toggle through each of the seven displays. These displays are as follows:
+Нажимая кнопку ON/MODE, термостат переключается через каждый из семи дисплеев. Эти дисплеи являются следующими:
 
-Inside Temperature - Displays the temperature inside the cab.
+Температура внутри - показывает температуру внутри кабины.
 
 ![[15800020.png]]
 
-Outside Temperature - Displays the temperature outside the cab as read from the ambient air temperature sensor.
+Внешняя температура - отображает температуру вне кабины, как указано на датчике температуры окружающего воздуха.
 
 ![[15800021.png]]
 
-Set Point - Heat - Displays the desired temperature that has been set for heat mode. When in heat mode of operation, this is the temperature that the cab thermostat **must** sense prior to commanding the engine to shut down. This temperature can be changed by pressing the UP or DOWN button.
+Set Point - Heat - отображает желаемую температуру, которая была установлена для теплового режима. При тепловом режиме работы это температура, которую должен чувствовать термостат кабины, прежде чем послать команду на выключение двигателя. Эту температуру можно изменить, нажав кнопку UP или DOWN.
 
-When the new desired temperature is displayed, the ENTER button **must** be pressed to save the new set point.
+Когда отображается новая желаемая температура, кнопка ВПЕРЕД должна быть нажата, чтобы сохранить новую заданную точку.
 
 ![[15800022.png]]
 
-Set Point - Cool - Displays the temperature that has been set for cool mode. When in cool mode of operation, this is the temperature that the cab thermostat **must** sense prior to commanding the engine to shut down. This temperature can be changed by pressing the UP or DOWN button.
+Set Point - Cool - показывает температуру, установленную для холодного режима. При прохладном режиме работы это температура, которую должен чувствовать термостат кабины, прежде чем приказать двигателю выключиться. Эту температуру можно изменить, нажав кнопку UP или DOWN.
 
-When the new desired temperature is displayed, the ENTER button **must** be pressed to save the new set point.
+Когда отображается новая желаемая температура, кнопка ВПЕРЕД должна быть нажата, чтобы сохранить новую заданную точку.
 
 ![[15800023.png]]
 
-Range - This displays the number of degrees (Fahrenheit) the temperature is allowed to fluctuate before the engine is started.
+Диапазон - это показывает количество градусов (Fahrenheit), температура может колебаться до запуска двигателя.
 
-- If the thermostat is in heat mode, this number is the number of degrees the temperature is allowed to fall below the set point before the engine is started.
-- If the thermostat is in cool mode, this number is the number of degrees the temperature is allowed to rise above the set point before the engine is started.
+- Если термостат находится в тепловом режиме, то это число является числом градусов, температура которых допускается опускаться ниже заданной точки до запуска двигателя.
+- Если термостат находится в прохладном режиме, то это число является числом градусов, температура которых может подняться выше заданной точки до запуска двигателя.
 
-The range is set by pressing the UP or DOWN button. The range will be either 4, 6, or 8 (degrees Fahrenheit). When the range has been selected, the ENTER button **must** be pressed to save the new parameter.
+Диапазон устанавливается путем нажатия кнопки UP или DOWN. Диапазон будет 4, 6 или 8 (градусы по Фаренгейту). Когда диапазон выбран, кнопка ВПЕРЕДЕНИЯ должна быть нажата, чтобы сохранить новый параметр.
 
 ![[15800024.png]]
 
-For example, if the set point heat and the set point cool are both set for 75°F, and the range is set to 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 71°F. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 79°F.
+Например, если заданная точка нагрева и заданная точка охлаждения установлены на 75°F, а диапазон установлен на 4, то, когда термостат находится в тепловом режиме, транспортное средство запускается, когда температура кабины падает до 71°F. Когда термостат находится в прохладном режиме, автомобиль запускается, когда температура кабины достигает 79 ° F.
 
 ![[nobox.png]]
 
-Heat - The word "HEAT" will be displayed if heat mode is active. Two dashes displayed indicates that Heat Mode is **not** activated. To activate the heat mode, press the ENTER button until the display reads "On" The HEAT indicator will flash if the cab thermostat requires the engine to start to achieve the heat set point.
+Тепло - слово «Тепло» будет отображаться, если тепловой режим активен. Два отображаемых тире указывают на то, что режим нагрева не активирован. Чтобы активировать тепловой режим, нажмите кнопку ВПУСКА до тех пор, пока дисплей не прочтет «Включено» Тепловой индикатор мигнет, если термостат кабины требует, чтобы двигатель начал достигать точки заданного тепла.
 
-> [!note] Note · Примечание
-> If the outside temperature is above 26.6°C \[80°F\], heat mode can **not** be activated. Or, if the outside temperature is below 15.5°C \[60°F\], heat mode will automatically be activated. See the Thermostat Setup Mode - Trim Settings, later in this section, for details on the cab thermostat trim setup mode.
+> [!note] Примечание
+> Если температура наружных сред выше 26,6 °C[80 °F], режим нагрева может быть активирован. Или, если температура на улице ниже 15,5 ° C \[60 ° F \], автоматически будет активирован тепловой режим. См. Thermostat Setup Mode - Trim Settings, позже в этом разделе, для получения подробной информации о режиме настройки термостата кабины.
 
-> [!note] Note · Примечание
-> ICON™ thermostat revision level 06 features an expanded range to improve overall ICON™ efficiency. For example, if the set point heat and the set point cool are both set to 21°C \[70°F\], and the range is 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 19°C \[66°F\] and continue to run until the cab temperature reaches 22°C \[72°F\]. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 23°C \[74°F\] and will continue to run until the temperature had dropped to 20°C \[68°F\]. This feature is adjustable.
+> [!note] Примечание
+> Уровень 06 пересмотра термостата ICONTM имеет расширенный диапазон для повышения общей эффективности ICONTM. Например, если заданная точка нагрева и заданная точка охлаждения установлены на 21 ° C \[70° F\], а диапазон составляет 4, то, когда термостат находится в тепловом режиме, транспортное средство запускается, когда температура кабины падает до 19 ° C \[66 ° F\] и продолжает работать до тех пор, пока температура кабины не достигнет 22 ° C \[72 ° F\]. Когда термостат находится в прохладном режиме, транспортное средство запускается, когда температура кабины достигает 23 ° C \[74 ° F \] и будет продолжать работать до тех пор, пока температура не опустится до 20 ° C \[68 ° F \]. Эта функция является регулируемой.
 
 ![[15800025.png]]
 
-Cool - The word "COOL" will be displayed if cool mode is active. Two dashes displayed indicates that cool mode is **not** activated. To activate the cool mode, press the ENTER button until the display reads "On". The COOL indicator will flash if the cab thermostat requires the engine to start to achieve the cool set point.
+Слово «COOL» будет отображаться, если активен холодный режим. Два отображаемых тире указывают на то, что режим охлаждения **не** активирован. Чтобы активировать режим прохлады, нажмите кнопку ВПУСКА до тех пор, пока дисплей не прочитает «Включено». Индикатор COOL мигает, если термостат кабины требует, чтобы двигатель начал достигать точки охлаждения.
 
-> [!note] Note · Примечание
-> If the outside temperature is below 15.5°C \[60°F\], cool mode can **not** be activated. Or, if the outside temperature is above 29.4°C \[85°F\], cool mode will automatically be activated. See the Thermostat Setup Mode - Trim Settings, later in this section, for details on the cab thermostat trim setup mode.
+> [!note] Примечание
+> Если температура наружных сред ниже 15,5 °C[60 °F], можно активировать режим охлаждения **не**. Или, если температура на улице выше 29,4 ° C \[85 ° F \], автоматически активируется режим охлаждения. См. Thermostat Setup Mode - Trim Settings, позже в этом разделе, для получения подробной информации о режиме настройки термостата кабины.
 
 ![[15800026.png]]
 
-With the ICON™ system in cab comfort mode, the ICON™ system will monitor the engine oil temperature, monitor the battery voltage, and keep the cab temperature within the specified range that has been programmed into the ICON™ cab thermostat.
+С системой ICONTM в режиме комфорта кабины система ICONTM будет контролировать температуру моторного масла, контролировать напряжение батареи и поддерживать температуру кабины в пределах заданного диапазона, который был запрограммирован в термостате кабины ICONTM.
 
 ![[nobox.png]]
 
@@ -326,167 +336,577 @@ With the ICON™ system in cab comfort mode, the ICON™ system will monitor the
 
 ![[15800028.png]]
 
-The two illustrations above show the thermostat display when it is in heat mode or in cool mode. The word "COOL" or "HEAT" in the bottom left corner of the display screen indicates the thermostat mode.
+На двух иллюстрациях выше показан дисплей термостата, когда он находится в тепловом режиме или в прохладном режиме. Слово «COOL» или «HEAT» в левом нижнем углу экрана дисплея указывает на режим термостата.
 
-### ICON™ Idle Adjustment
+### ICONTM Idle адаптация
 
-Aftermarket
+Послепродажный рынок
 
-After the ICON™ system has restarted the engine, the idle speed can be adjusted by pressing the clutch pedal, or the brake pedal on ICON™ idle control module revisions 18 and 19, to decrease the engine speed, or pressing the accelerator pedal to increase the engine speed. The new ICON™ idle speed will be saved and used until it is adjusted again. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for correct specifications.
+После перезапуска двигателя системой ICONTM скорость холостого хода может регулироваться путем нажатия на педаль сцепления, или педаль тормоза на модуле управления холостым ходом ICONTM доработок 18 и 19, для уменьшения скорости двигателя, или нажатия на педаль акселератора для увеличения скорости двигателя. Новая скорость холостого хода ICONTM будет сохранена и использоваться до тех пор, пока она не будет снова отрегулирована. См. процедуру[[97-018-025 — ICON™ System|018-025]]Для правильных спецификаций.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Для оптимальной производительности системы ICONTM в тепловом режиме, Cummins Inc. Рекомендуется использовать более высокую номинальную скорость бездействия rpm. Однако, когда в прохладном режиме, Cummins Inc. Рекомендуется более низкая настройка для снижения расхода топлива.
+
+интегрированный
+
+Скорость холостого хода можно регулировать с помощью инструментария электронного сервиса INSITETM. Новая скорость холостого хода ICONTM будет сохранена и использоваться до тех пор, пока она не будет снова отрегулирована. См. процедуру[[97-018-025 — ICON™ System|018-025]]Для правильных спецификаций.
+
+> [!note] Примечание
+> Для оптимальной производительности системы ICONTM, Cummins Inc. Рекомендуется использовать высокую номинальную скорость бездействия rpm.
+
+### Уведомление кода ошибки
+
+Послепродажный рынок
+
+Модуль управления ICONTM отслеживает различные сигналы, которые он получает, чтобы определить, существует ли состояние неисправности в системе ICONTM. Если обнаружены какие-либо неисправности, система ICONTM регистрирует неисправность в своей памяти. Лампа ICONTM уведомляет оператора о неисправности, мигая трехзначным кодом неисправности ICONTM каждый раз, когда циклы переключения зажигания включаются. Чтобы продемонстрировать код неисправности, лампа проблескивает несколько раз для первой цифры кода; затем, после короткой паузы, лампа проблески второй цифры кода неисправности, и снова, после другой короткой паузы, проблески третьей цифры кода неисправности. После более длительной паузы лампа повторяет мигающую последовательность.
+
+Если одновременно активируется более одного кода неисправности, система ICONTM выдает наиболее приоритетную ошибку до тех пор, пока она не будет исправлена, и затем будет высвечиваться следующая активная ошибка.
+
+> [!note] Примечание
+> Система ICONTM может быть активирована до тех пор, пока не будет завершена последовательность мигания лампы с кодом неисправности.
+
+> [!note] Примечание
+> Инструмент ICONTM позволяет просматривать все коды активных и неактивных ошибок одновременно.
+
+интегрированный
+
+Двигатель ECM контролирует различные сигналы, которые он получает, чтобы определить, существует ли состояние неисправности в системе ICONTM. Если обнаружены какие-либо неисправности, двигатель ECM регистрирует неисправность в своей памяти. Неисправности считываются с помощью инструментария электронного сервиса INSITETM.
+
+### Режим установки термостата
+
+Чтобы войти в режим обрезки термостата кабины, сначала включите переключатель зажигания. Нажмите кнопку UP или DOWN на термостате кабины 7 раз, пока версия программного обеспечения мигает на дисплее термостата кабины. У вас есть 10 секунд, чтобы начать этот процесс.
+
+После ввода режима TRIM нажмите кнопку UP, чтобы все чаще прокручивать отделки, и нажмите кнопку DOWN, чтобы прокручивать уменьшающимся образом через отделки. Используя этот процесс, выберите отделку, которую нужно настроить. Нажмите Enter, чтобы сохранить настройки.
+
+Для регулировки температуры нажмите кнопку UP или DOWN, чтобы соответствующим образом отрегулировать температуру, затем нажмите ENTER, чтобы сохранить настройку.
+
+Для Enables нажмите кнопку UP или DOWN, чтобы переключаться между отображаемым «E» в непосредственном праве от номера отделки или без отображаемого «E». Нажмите Enter, чтобы сохранить настройки.
+
+Чтобы выйти из режима отделки термостата, нажмите кнопку ON/MODE.
+
+### Настройки Trim
+
+1. экстремально жарко
+
+  1. Уровень 01 или 02 (только для вторичного рынка)
+
+    - Ниже этой температуры окружающей среды (внешней), если температура кабины не достигает желаемой заданной точки в течение 45 минут или если отправка запроса на термостат кабины (старт) в течение 10 минут после последнего автоматического цикла, будет зарегистрирована ошибка E3 (код ошибки 469).
+    - Настройка по умолчанию: 100°F
+
+  2. Уровень термостата 03 или 06
+
+    - Ниже этой температуры окружающей среды (внешней), если температура кабины не достигает желаемой заданной точки в течение 60 минут или если отправка четырех запросов термостата кабины (запуск) в течение 1 часа после последнего автоцикла, будет зарегистрирована ошибка E3 (код ошибки 469).
+    - Настройка по умолчанию: 90°F (уровень 04 и 05)
+
+2. Крайняя холодность
+
+  1. Уровень 01 или 02 (только для вторичного рынка)
+
+    - При температуре выше этой внешней (внешней) температуры, если температура кабины не достигает требуемой заданной точки в течение 45 минут или если отправка запроса на термостат кабины (старт) в течение 10 минут после последнего автоматического цикла, будет зарегистрирована ошибка E3 (код ошибки 469).
+    - Настройка по умолчанию: 0°F
+
+  2. Уровень термостата 03 или 06
+
+    - Выше этой температуры окружающей среды (внешней), если температура кабины не достигает желаемой заданной точки в течение 60 минут или если отправка четырех запросов термостата кабины (запуск) в течение 1 часа после последнего автоматического цикла, будет зарегистрирована ошибка E3 (код ошибки 469).
+    - Настройка по умолчанию: 20°F (уровень 04 и 05)
+
+3. Автогрев
+
+  1. Ниже этой окружающей (внешней) температуры термостат будет по умолчанию включен в тепловой режим, когда включен переключатель зажигания и включен термостат.
+  2. Уровень 01 или 02 (только для вторичного рынка)
+
+    - Настройка по умолчанию: 60°F
+
+  3. Уровень 03, 04, 05 и 06 пересмотра термостата
+
+    - Настройка по умолчанию: 69°F
+
+4. Автопромхолодный
+
+  1. Над этой окружающей (внешней) температурой термостат по умолчанию переходит в режим охлаждения, когда включается переключатель зажигания и включается термостат.
+  2. Уровень 01, 02 или 06 (только для вторичного рынка)
+
+    - Настройка по умолчанию: 85°F
+
+  3. Уровень пересмотра термостата 03, 04 и 05
+
+    - Настройка по умолчанию: 70°F
+
+5. Отключать тепло
+
+  1. При температуре выше этой внешней (средней) температуры оператор не сможет активировать тепловой режим.
+  2. Настройка по умолчанию: 80°F (уровень пересмотра 03, 04, 05 и 06)
+
+6. Отключить Cool
+
+  1. Ниже этой температуры окружающей среды (внешней) оператор будет **не** иметь возможность активировать холодный режим.
+  2. Настройка по умолчанию: 60°F (уровень пересмотра 03, 04, 05 и 06)
+
+7. Ответ на ошибку E3
+
+  1. Если термостат регистрирует неисправность E3, включение этой отделки приведет к тому, что двигатель будет работать от 20 минут до 15 минут, независимо от температуры кабины. Отключив эту отделку, двигатель будет **не** автоматически запускаться, независимо от температуры кабины.
+  2. Настройка по умолчанию: включенный
+
+8. Тревога в режиме комфорта Каба, уровень 01, 02 и 03 (только на вторичном рынке)
+
+  1. Включение этой отделки позволит сигнализации запуска двигателя звучать до любого автоматического запуска двигателя. Отключение этой отделки выключит сигнализацию запуска двигателя, когда в режиме комфорта кабины. Отключение этой отделки не допускается с помощью интегрированной системы.
+  2. Настройка по умолчанию: включенный
+
+> [!note] Примечание
+> Эта функция не доступна в версии 04, 05 и 06.
+
+1. Автоматическое отключение E3
+
+  1. Термостат автоматически отключается, когда термостат находится в состоянии Е3 непрерывно более двух часов.
+  2. Настройка по умолчанию: включенный
+
+2. Выходной таймер
+
+  1. Термостат автоматически выключается, когда термостат не работает более 12 часов.
+  2. Настройка по умолчанию: включенный
+
+3. Узкие температурные настройки
+
+  1. Термостат может быть установлен на более узкие температурные точки для тепла и охлаждения. Эти точки составляют 68°F и 73°F.
+  2. Настройка по умолчанию: инвалид
+
+4. Шкала температуры
+
+  1. Позволяет изменять температурные шкалы между Фаренгейтом и Цельсия
+  2. Настройка по умолчанию: Фаренгейт
+
+5. Короткий холостой доступ
+
+  1. В режиме обязательного выключения, включение этой отделки позволит двигателю работать максимум 5 минут, если модуль управления холостым ходом является пересмотренным 11 или 13, или максимум 5 минут, регулируемых до 18 часов, если модуль управления холостым ходом является пересмотренным 14. Отключение этой отделки позволит двигателю работать максимум 15 минут. (Интегрированные системы **должны **использовать инструмент электронного обслуживания INSITETM для настройки этой функции; системы вторичного рынка **должны **использовать инструмент обслуживания ICONTM, модуль 15 и 16 управления ICONTM для настройки этой функции.)
+  2. Настройка по умолчанию: Инвалиды (Ревизия термостата 04 и 05)
+
+> [!note] Примечание
+> Эта функция больше не доступна. Обязательное отключение будет 15 минут, если скорость автомобиля равна нулю, а стояночный тормоз выключен. Обязательное отключение будет происходить через 5 минут, когда скорость транспортного средства будет равна нулю, а стояночный тормоз включен для модуля управления ICONTM уровня 18. Модуль управления холостым ходом ICONTM (ревизия 19) закроет двигатель за 3 минуты, когда скорость транспортного средства составляет 0 км/ч [0 миль/ч] и когда включен стояночный тормоз".
+
+1. Настройка диапазона температур повышения эффективности
+
+  1. Позволяет расширить ассортимент для повышения общей эффективности ICONTM. Например, если заданная точка нагрева и заданная точка охлаждения установлены на 21 ° C \[70° F\], а диапазон составляет 4, то, когда термостат находится в тепловом режиме, транспортное средство запускается, когда температура кабины падает до 19 ° C \[66 ° F\] и продолжает работать до тех пор, пока температура кабины не достигнет 22 ° C \[72 ° F\]. Когда термостат находится в прохладном режиме, транспортное средство запускается, когда температура кабины достигает 23 ° C \[74 ° F \] и будет продолжать работать до тех пор, пока температура не упадет до 20 ° C \[68 ° F \].
+  2. Настройка по умолчанию: -17°C \[2°F\]
+
+2. Прелюбия позволяет
+
+  1. Если транспортное средство оснащено системой предварительного смазывания, эта отделка соответствующим образом настраивает систему ICONTM.
+  2. Настройка по умолчанию: инвалид
+
+> [!note] Примечание
+> Эта функция больше не доступна в версиях 04, 05 и 06.
+
+1. Перезагрузка до дефолтов
+
+  1. Сбрасывает все настройки обратно в заводские настройки по умолчанию.
+  2. Настройка по умолчанию: Не применяется
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Introduction
+>
+> The ICON™ Idle Control System is designed to reduce excessive idle time when accomplishing the following tasks:
+>
+> - The ICON™ system keeps the engine oil temperature above the minimum specification in cold weather environments. When the ICON™ system senses that the engine oil temperature is below the minimum specification, it starts the engine and lets it idle until the engine oil temperature rises to above the maximum specification.
+> - The ICON™ system keeps the batteries charged at all times. When the batteries drop below the minimum specification, the ICON™ system orders an engine start. The engine will idle for a minimum specified time, and will **not** shut off until the battery voltage is above maximum specification.
+> - The ICON™ system maintains a desired temperature inside the cab (this feature requires the cab thermostat be installed). The driver or occupant programs the thermostat to maintain a desired temperature. A temperature sensor inside the thermostat monitors the temperature inside the vehicle cab. When the temperature drops below or exceeds the set temperature (outside a specific range), the ICON™ system starts the engine and lets it idle until the specified cab temperature is reestablished.
+>
+> Refer to Procedure [[97-018-025 — ICON™ System|018-025]], Specifications, for all ICON™ system specifications.
+>
+> There are two versions of the ICON™ system:
+>
+> - Integrated - installed at the OEM
+> - Aftermarket - a kit which can be installed by the distributor, dealer, or OEM.
+>
+> **Note · Примечание**
+> The terms Integrated and Aftermarket will be used frequently throughout this manual to identify the version of the ICON™ system and information specific to that version.
+>
+> The ICON™ system has with three basic modes of operation:
+>
+> - Engine Mode
+> - Cab Comfort Mode
+> - Mandatory Shutdown Mode.
+>
+> Engine Mode - In engine mode the engine will be shut off and restarted periodically to keep the batteries charged and the engine oil temperature above the minimum specification. The engine will restart once the engine oil temperature or the battery voltage drop below the minimum specification. When the ICON™ system starts the engine in engine mode, the engine will continue to run until both the engine oil temperature and battery voltage requirements are met.
+>
+> Cab Comfort Mode - In cab comfort mode, the engine will be shut off and restarted as required to keep the batteries charged, the engine oil temperature above the minimum specification, and the cab temperature at the specified temperature. Cab temperature is controlled by the cab thermostat, which can be programmed by the operator to maintain the desired warm or cool cab temperature. The thermostat is installed inside the cab, usually mounted in the bunk area of the vehicle. Cab comfort mode will be explained in detail in the Cab Comfort Mode Feature section.
+>
+> Mandatory Shutdown Mode - Mandatory shutdown mode is automatically activated whenever the other two ICON™ system modes are **not** active. Anytime the vehicle wheels stop moving (zero vehicle speed) and the parking brake is set, the ICON™ system starts a timer. If the wheels of the vehicle have **not** moved after a minimum specified time, the engine will automatically shut off. The timer's option is selected through the cab thermostat further detailed under the Cab Thermostat Setup Mode section. The mandatory shutdown mode can **not** be bypassed unless the ICON™ system is active in one of the other two modes. The ignition bus circuits will be shut off if the engine is shut off while in mandatory shutdown mode. To restart the engine after the ICON™ system has shut it off, the operator **must** turn the keyswitch from on to off, then back to on.
+>
+> ICON™ idle control module (revision 19) will shut the engine down in 3 minutes when the vehicle speed is 0 kph \[0 mph\] and when the parking brake is ON. However, both module versions will shut the engine down in 15 minutes if the vehicle speed is zero and the parking brake is OFF.
+>
+> Harness Identification
+>
+> There are various versions of the ICON™ system. To identify if a system is an Aftermarket or **not**, inspect the bulkhead for a 14-pin connector. An Aftermarket system will have labels on this harness near the connector with a Cummins Inc. part number. See Figure 1.
+>
+> Figure 1, ICON™ System Identification
+>
+> Applications
+>
+> The Aftermarket version of the ICON™ system can be installed on the following engines:
+>
+> - CELECT™ Plus Engines
+> - ISM Series Engines
+> - ISM CM870 Series Engines
+> - ISM CM875 Series Engines
+> - ISX or Signature Series Engines
+> - ISX CM870 Series Engines
+> - ISX CM871 Series Engines
+> - ISM CM876 Series Engines.
+>
+> **Note · Примечание**
+> The ICON™ Integrated version can **only** be installed at the OEM.
+>
+> The ICON™ system is designed for use **only** with CELECT™ Plus engines (engine ECM calibration Phase 4.2 or later), ISM, ISX, and Signature engines (engine ECM calibration Phase 8.2 or later). The ICON™ system will work with all ISM CM870, ISM CM875, ISX CM870, ISM CM876, and ISX CM871 engines.
+>
+> **Note · Примечание**
+> Cummins Inc. recommends Phase 9.3 on ISM, ISX, and Signatures engines to improve the ICON™ system operation.
+>
+> ### ICON™ Activation and Function
+>
+> To activate the ICON™ system, perform the following steps:
+>
+> - Idle the engine. Do **not** turn on the PTO. Do **not** touch the accelerator pedal.
+>
+> - Set the parking brake.
+>
+> - Place the transmission in neutral.
+>
+> - Make sure the hood is closed.
+>
+> - Turn the cruise control switch from the OFF position to the ON position.
+>
+> **Note · Примечание**
+> If the switch is already on, you **must** turn it off then back on. At this point, the ICON™ lamp will start flashing quickly. This lamp flashing pattern confirms that the ICON™ system is ready to be activated.
+>
+> **Note · Примечание**
+> The following step **must** be completed within 1 minute of turning on the cruise control switch, or the ICON™ system will be deactivated automatically.
+>
+> - The ICON™ system will verify that the vehicle is in neutral. While continuously holding the clutch pedal in, shift the transmission into gear. The ICON™ lamp will flash at a slow rate (approximately 2-Hz per second). Then, shift the transmission back into neutral, and release the clutch pedal. The ICON™ lamp will light and pulse at a rate of approximately 1-Hz per second.
+>
+> The ICON™ system is now active and will default to engine mode.
+>
+> ### Engine Mode Feature
+>
+> **Note · Примечание**
+> The ICON™ system's engine start alarm, mounted on the vehicle firewall, can sound for 14 seconds prior to an automatic start initiated by the ICON™ system, depending on how it has been programmed through the cab thermostat.
+>
+> Once the ICON™ system has been activated, the default mode is the engine mode. The engine will be shut off and restarted as required to keep the batteries charged and the engine oil temperature above the minimum specification. The following steps will occur automatically while the ICON™ system is in engine mode.
+>
+> 1. Engine rpm will slowly ramp up to the ICON™ idle speed. The ICON™ system can initially ramp the engine up to a higher rpm (ICON™ system maximum rpm) to supply a higher alternator output required to charge the batteries then lower the idle speed back down to the ICON™ idle speed.
+> 2. The engine will run for a minimum set time if the engine oil temperature or battery voltage is low. If the battery charge and engine oil temperature is above the maximum specification, the ICON™ system will slowly ramp down the idle speed to the ICON™ system minimum rpm, or the idle speed, whichever is higher. When the lower engine speed is reached, the ICON™ system shuts down the engine after the minimum run time. If the battery is **not** charged or the engine oil is too cold, the engine will continue to run until these thresholds are met. When the engine is off, the ignition power will also be turned off.
+>
+> **Note · Примечание**
+> The ICON™ idle speed rpm, ICON™ maximum rpm, and ICON™ minimum rpm are different than the normal idle rpm and maximum rpm settings for the engine. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for ICON™ rpm settings and to the appropriate Operations and Maintenance manual for the normal idle rpm and maximum rpm settings for your engine.
+>
+> 1. When the engine is **not** running, the ICON™ system remains in a wait period. During the wait period, the ICON™ lamp will remain on, pulsing at a slow rate. The ICON™ system continuously monitors the status of the engine oil temperature and the battery voltage. If the battery voltage or engine oil temperature drops below the minimum specification, the ICON™ system will restart the engine.
+> 2. After engine restart, step 1 and step 2 will repeat with one exception; the ignition power to the accessories will remain **off** for the first 20 seconds after the engine has started and is running at the ICON™ idle speed.
+>
+> ### Keyless Engine Mode
+>
+> Aftermarket
+>
+> An enhancement to the ICON™ engine mode allows the ignition key to be removed. This optional feature is activated as previously described in ICON™ Activation and Function. In keyless engine mode, the key **must** be switched back to the OFF position, then removed before the first automatic engine shutdown occurs. Several conditions for proper function of the ICON™ system **must** be met while the keyless engine mode feature is enabled:
+>
+> 1. The key **must** be removed before the first automatic engine shutdown sequence occurs. If the operator removes the key after the first automatic engine shutdown has occurred, the ICON™ system will be deactivated and the engine will shut down.
+> 2. If the accelerator pedal is depressed before the first automatic engine shutdown sequence occurs, the ICON™ system will be deactivated and shut down the engine.
+> 3. All of the accessory devices (such as blower motors, interior lights, and so forth) should be shut off to improve battery charge. Any devices left on will operate once the ICON™ system restarts the engine, using some of the electrical energy available for accessories rather than charging the batteries. Therefore, the batteries will take longer to charge.
+>
+> **Note · Примечание**
+> If the engine is restarted three times within 3 hours when ICON™ idle control module is revision 11 or 14 (because of low battery charge) or is restarted three times within 5 hours when ICON™ idle control module is revision 15, 16, 18, or 19 (because of low battery charge), the engine will remain running continuously. This is an indication of excessive electrical load, a defective battery charging system, or defective batteries. An ICON™ fault code will be logged. If the ICON™ system attempts to restart the engine two consecutive times and fails both times, The ICON™ system will be deactivated and a fault code will be logged. The second restart attempt occurs 1 minute after the first attempt fails.
+>
+> ### Cab Comfort Mode Activation and Function
+>
+> **Note · Примечание**
+> The cab thermostat **must** be installed to activate cab comfort mode.
+>
+> The ICON™ system can be put in cab comfort mode by the user when it is activated. The cab comfort mode will shut off and restart the engine as required to keep the batteries charged, keep the engine oil temperature above the minimum specification, and maintain the cab temperature at a desired level.
+>
+> **Note · Примечание**
+> At initial turn-on of the cab thermostat, the thermostat will display the revision level of the software loaded in the thermostat, that is 01, 02, 03 and so forth.
+>
+> If the thermostat is revision level 01, 02, or 06, the cab comfort mode can be deactivated by deselecting the heat or cool buttons.
+>
+> If the thermostat is revision level 03, 04, or 05, the cab comfort mode can be deactivated by deselecting the heat or cool buttons, or by pushing the ON/MODE button and holding for 3 seconds.
+>
+> The keyless (Aftermarket systems **only**) enhancement feature (optional in engine mode) is **not** available in cab comfort mode.
+>
+> Cab temperature parameters are programmed by the user with the cab thermostat.
+>
+> After performing steps 1 through 6 under the ICON™ Activation and Function section, the cab comfort mode can be activated by performing the following steps:
+>
+> - Turn the cab thermostat on by pressing the ON/MODE button.
+>
+> - Turn on the vehicle's appropriate environmental controls.
+>
+> - If the cab will get hot enough to require cooling, turn on the air conditioner to the maximum setting and set the fan control to a medium setting.
+> - If the cab will get cold enough to require heating, turn on the heater to the maximum setting and set the fan control to a medium setting.
+>
+> These settings will make certain the cab temperature is regulated efficiently.
+>
+> - Set the cab thermostat with the desired environmental parameters. For cab thermostat programming instructions, see the Cab Thermostat Operation section.
+>
+> ### Cab Comfort Mode Feature
+>
+> Once the ICON™ system has been activated, the default mode is the engine mode. When the operator turns on and sets the cab thermostat, the ICON™ system enters cab comfort mode. The cab comfort mode will shut off and restart the engine as required to keep the batteries charged, engine oil temperature above the minimum specification, and maintain the cab temperature at the desired set level. The following steps will occur automatically while the ICON™ system is in cab comfort mode:
+>
+> - When the ICON™ system is activated, the engine rpm will slowly ramp up to the ICON™ idle speed. The ICON™ system can initially ramp the engine up to a higher rpm (ICON™ maximum rpm) to supply a higher alternator output then lower the idle speed back down to the ICON™ idle speed.
+> - The engine will run for a minimum specified time to reach the engine oil temperature and cab comfort temperature. The engine will run for a minimum amount of time if the battery voltage is low. If the battery charge and the engine oil temperature is above the maximum specification, and the cab temperature is within the set temperature parameters, the ICON™ system will slowly ramp down the idle speed to the minimum idle speed or the ICON™ idle speed (whichever is higher). When the lower engine speed is reached, the ICON™ system will shut down the engine after the initial minimum run time. If the battery is **not** charged, the engine oil is too cold, or the cab temperature is **not** within the set temperature parameters, the engine will continue to run until these thresholds are met. When the engine is off, the ignition power will also be turned off.
+> - When the engine is **not** running, the ICON™ system remains in a wait period. During the wait period, the ICON™ lamp will remain on, pulsing at a slow rate. The ICON™ system continuously monitors the status of the cab temperature, the engine oil temperature, and the battery voltage level. If cab temperature, engine oil temperature, or battery voltage level drops below the minimum specification, the ICON™ system will restart the engine.
+> - After engine restart, step 1 and step 2 will repeat with one exception; the ignition power to the accessories will remain **off** for the first 20 seconds after the engine has started and is running at the ICON™ idle speed.
+>
+> **Note · Примечание**
+> On Aftermarket or OEM ICON™ systems, if the engine is restarted three times within 3 hours when ICON™ idle control module is revision 11 or 14 (because of low battery charge), or is restarted three times within 5 hours when ICON™ idle control module is revision 15, 16, or 18 (because of low battery charge), the engine will remain running continuously. This is an indication of excessive electrical load, a defective battery charging system, or defective batteries. An ICON™ fault code will be logged. If the ICON™ system attempts to restart the engine two consecutive times and fails both times, the ICON™ system will be deactivated and a fault code will be logged. The second restart attempt occurs 1 minute after the first attempt fails.
+>
+> **Note · Примечание**
+> ICON™ idle control module revision 19 (regardless of mode) limits restarts to a maximum of 5 per hour.
+>
+> - If the ICON™ idle control module is revision 15, 16, or 18, when the engine is started for an ICON™ system request, the thermostat will control the blowers to maintain the appropriate set point.
+>
+> ### ICON™ Deactivation
+>
+> The preferred method of deactivating the ICON™ system is to turn off the cruise control switch. To restart the engine, after deactivating the ICON™ system, cycle the keyswitch from ON to OFF, then manually restart the engine.
+>
+> After the ICON™ system has been activated in either engine mode (including keyless engine mode) or cab comfort mode, the ICON™ system will be deactivated if any of the following occurs:
+>
+> 1. Interlock switch open (neutral, parking, hood)
+> 2. Vehicle speed greater than 0 mph
+> 3. A Fault becomes active in the ICON™ system
+> 4. (Aftermarket systems **only**) accelerator is depressed with keyswitch on or off (keyless engine mode) before first shutdown
+> 5. Cruise control switch turned off
+> 6. Keyswitch turned off after first shutdown
+> 7. (Aftermarket or OEM systems **only**) keyswitch turned on when in keyless engine mode
+> 8. (Aftermarket systems **only**) PTO is activated with keyswitch on or off (keyless engine mode) before first shutdown
+>
+> ### Cab Thermostat Operation
+>
+> The ICON™ cab thermostat can be programmed by the operator. The ICON™ system does **not** have control over the environmental controls of the vehicle. In order for the ICON™ cab thermostat to operate correctly, the vehicle's environmental controls **must** be set correctly.
+>
+> If the operator expects that the temperature inside the cab will become hotter when the engine is turned off, the operator will turn on the vehicle's air conditioner. If the operator expects that the temperature inside the cab will become colder when the engine is turned off, the operator will turn on the vehicle's heater.
+>
+> **Note · Примечание**
+> It is important that the cab temperature controls be set correctly. On Aftermarket systems, if the ICON™ system commands the engine to start because it senses the cab is too hot and the operator has turned on the heater instead of the air conditioner, the cab thermostat will log a fault after 45 minutes or if the command to restart the engine is within 10 minutes of the last auto-cycle when the ICON™ thermostat is revision level 01 or 02. On Integrated and Aftermarket systems, the ICON™ system will log a fault after 60 minutes or if the command to restart the engine is 4 times within an hour when the ICON™ thermostat is revision level 03. The ICON™ system senses that the set temperature parameters are **not** being met, logs a fault, and can, possibly, shut the engine off. This fault does **not** exist in revision level 04, 05, and 06.
+>
+> If the ICON™ thermostat is revision 03, 04, 05, or 06 the thermostat will automatically return to normal operation state once the temperature has been met.
+>
+> **Note · Примечание**
+> The thermostat trims can also be adjusted. See the Trim Settings and instructions for Thermostat Setup Mode at the end of this section.
+>
+> There are four buttons on the thermostat. They are:
+>
+> - **ON/MODE** - This button turns the thermostat on and toggles through the different cab thermostat screens.
+>
+> **Note · Примечание**
+> If ICON™ thermostat is revision level 03 and higher, and the thermostat is on, pressing and holding the ON/MODE button for 3 seconds will turn off the thermostat.
+>
+> - **ENTER** - This button is used to enter parameter adjustments. After a selection is made by the operator, the ENTER button **must** be pushed so that the ICON™ system will remember the new parameters.
+>
+> - **DOWN** - This button is used to adjust parameters by decreasing the value.
+> - **UP** - This button is used to adjust parameters by increasing the value.
+>
+> When the ON/MODE button is pressed during the initial start-up of the ICON™ system, cab comfort mode is activated. The thermostat readout will show the cab temperature.
+>
+> By pressing the ON/MODE button, the thermostat will toggle through each of the seven displays. These displays are as follows:
+>
+> Inside Temperature - Displays the temperature inside the cab.
+>
+> Outside Temperature - Displays the temperature outside the cab as read from the ambient air temperature sensor.
+>
+> Set Point - Heat - Displays the desired temperature that has been set for heat mode. When in heat mode of operation, this is the temperature that the cab thermostat **must** sense prior to commanding the engine to shut down. This temperature can be changed by pressing the UP or DOWN button.
+>
+> When the new desired temperature is displayed, the ENTER button **must** be pressed to save the new set point.
+>
+> Set Point - Cool - Displays the temperature that has been set for cool mode. When in cool mode of operation, this is the temperature that the cab thermostat **must** sense prior to commanding the engine to shut down. This temperature can be changed by pressing the UP or DOWN button.
+>
+> When the new desired temperature is displayed, the ENTER button **must** be pressed to save the new set point.
+>
+> Range - This displays the number of degrees (Fahrenheit) the temperature is allowed to fluctuate before the engine is started.
+>
+> - If the thermostat is in heat mode, this number is the number of degrees the temperature is allowed to fall below the set point before the engine is started.
+> - If the thermostat is in cool mode, this number is the number of degrees the temperature is allowed to rise above the set point before the engine is started.
+>
+> The range is set by pressing the UP or DOWN button. The range will be either 4, 6, or 8 (degrees Fahrenheit). When the range has been selected, the ENTER button **must** be pressed to save the new parameter.
+>
+> For example, if the set point heat and the set point cool are both set for 75°F, and the range is set to 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 71°F. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 79°F.
+>
+> Heat - The word "HEAT" will be displayed if heat mode is active. Two dashes displayed indicates that Heat Mode is **not** activated. To activate the heat mode, press the ENTER button until the display reads "On" The HEAT indicator will flash if the cab thermostat requires the engine to start to achieve the heat set point.
+>
+> **Note · Примечание**
+> If the outside temperature is above 26.6°C \[80°F\], heat mode can **not** be activated. Or, if the outside temperature is below 15.5°C \[60°F\], heat mode will automatically be activated. See the Thermostat Setup Mode - Trim Settings, later in this section, for details on the cab thermostat trim setup mode.
+>
+> **Note · Примечание**
+> ICON™ thermostat revision level 06 features an expanded range to improve overall ICON™ efficiency. For example, if the set point heat and the set point cool are both set to 21°C \[70°F\], and the range is 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 19°C \[66°F\] and continue to run until the cab temperature reaches 22°C \[72°F\]. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 23°C \[74°F\] and will continue to run until the temperature had dropped to 20°C \[68°F\]. This feature is adjustable.
+>
+> Cool - The word "COOL" will be displayed if cool mode is active. Two dashes displayed indicates that cool mode is **not** activated. To activate the cool mode, press the ENTER button until the display reads "On". The COOL indicator will flash if the cab thermostat requires the engine to start to achieve the cool set point.
+>
+> **Note · Примечание**
+> If the outside temperature is below 15.5°C \[60°F\], cool mode can **not** be activated. Or, if the outside temperature is above 29.4°C \[85°F\], cool mode will automatically be activated. See the Thermostat Setup Mode - Trim Settings, later in this section, for details on the cab thermostat trim setup mode.
+>
+> With the ICON™ system in cab comfort mode, the ICON™ system will monitor the engine oil temperature, monitor the battery voltage, and keep the cab temperature within the specified range that has been programmed into the ICON™ cab thermostat.
+>
+> The two illustrations above show the thermostat display when it is in heat mode or in cool mode. The word "COOL" or "HEAT" in the bottom left corner of the display screen indicates the thermostat mode.
+>
+> ### ICON™ Idle Adjustment
+>
+> Aftermarket
+>
+> After the ICON™ system has restarted the engine, the idle speed can be adjusted by pressing the clutch pedal, or the brake pedal on ICON™ idle control module revisions 18 and 19, to decrease the engine speed, or pressing the accelerator pedal to increase the engine speed. The new ICON™ idle speed will be saved and used until it is adjusted again. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for correct specifications.
+>
+> **Note · Примечание**
 > For optimum ICON™ system performance when in the heat mode, Cummins Inc. recommends using the higher nominal rpm idle speed setting. However, when in the cool mode, Cummins Inc. recommends a lower setting to reduce fuel consumption.
-
-Integrated
-
-The idle speed can be adjusted by using the INSITE™ electronic service tool. The new ICON™ idle speed will be saved and used until it is adjusted again. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for correct specifications.
-
-> [!note] Note · Примечание
+>
+> Integrated
+>
+> The idle speed can be adjusted by using the INSITE™ electronic service tool. The new ICON™ idle speed will be saved and used until it is adjusted again. Refer to Procedure [[97-018-025 — ICON™ System|018-025]] for correct specifications.
+>
+> **Note · Примечание**
 > For optimum ICON™ system performance, Cummins Inc. recommends using the high nominal rpm idle speed setting.
-
-### Fault Code Notification
-
-Aftermarket
-
-The ICON™ idle control module monitors the various signals it receives to determine whether a fault condition exists with the ICON™ system. If any faults are detected, the ICON™ system logs the fault in its memory. The ICON™ lamp notifies the operator of a fault by flashing a three digit ICON™ fault code each time the keyswitch cycles from off to on. To flash a fault code, the lamp flashes a number of times for the first digit of the code; then, after a short pause, the lamp flashes out the second digit of the fault code, and again, after another short pause, flashes out the third digit of the fault code. After a longer pause, the lamp repeats the flashing sequence.
-
-If more than one fault code is active at the same time, the ICON™ system flashes out the highest priority fault until it has been corrected and then the next active fault will be flashed out.
-
-> [!note] Note · Примечание
+>
+> ### Fault Code Notification
+>
+> Aftermarket
+>
+> The ICON™ idle control module monitors the various signals it receives to determine whether a fault condition exists with the ICON™ system. If any faults are detected, the ICON™ system logs the fault in its memory. The ICON™ lamp notifies the operator of a fault by flashing a three digit ICON™ fault code each time the keyswitch cycles from off to on. To flash a fault code, the lamp flashes a number of times for the first digit of the code; then, after a short pause, the lamp flashes out the second digit of the fault code, and again, after another short pause, flashes out the third digit of the fault code. After a longer pause, the lamp repeats the flashing sequence.
+>
+> If more than one fault code is active at the same time, the ICON™ system flashes out the highest priority fault until it has been corrected and then the next active fault will be flashed out.
+>
+> **Note · Примечание**
 > The ICON™ system can **not** be activated until the fault code lamp flashing sequence is complete.
-
-> [!note] Note · Примечание
+>
+> **Note · Примечание**
 > The ICON™ service tool will allow viewing of all of the active and inactive fault codes at the same time.
-
-Integrated
-
-The engine ECM monitors the various signals it receives to determine whether a fault condition exists with the ICON™ system. If any faults are detected, the engine ECM logs the fault in its memory. The faults are read using the INSITE™ electronic service tool.
-
-### Thermostat Setup Mode
-
-To enter the cab thermostat trim mode, first turn on the keyswitch. Press the UP or DOWN button on the cab thermostat 7 times while the software version is flashing on the cab thermostat display. You have 10 seconds to start this process.
-
-After entering the TRIM mode, press the UP button to scroll increasingly through the trims, and press the DOWN button to scroll decreasingly through the trims. Using this process, select the trim desired to adjust. Press ENTER to save the setting.
-
-For temperature adjustments, press the UP or DOWN button to adjust the temperature accordingly, then press ENTER to save the setting.
-
-For Enables, press the UP or DOWN button to toggle between the "E" displayed to the immediate right of the trim number, or no "E" displayed. Press ENTER to save the setting.
-
-To exit the thermostat trim mode, press ON/MODE button.
-
-### Trim Settings
-
-1. Extreme Hot
-
-  1. Thermostat revision level 01 or 02 (Aftermarket Only)
-
-    - Below this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 45 minutes or if sending a cab thermostat request (start) within 10 minutes of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
-    - Default Setting: 100°F
-
-  2. Thermostat revision level 03 or 06
-
-    - Below this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 60 minutes or if sending four cab thermostat requests (starts) within 1 hour of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
-    - Default Setting: 90°F (revision level 04 and 05)
-
-2. Extreme Cold
-
-  1. Thermostat revision level 01 or 02 (Aftermarket Only)
-
-    - Above this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 45 minutes or if sending a cab thermostat request (start) within 10 minutes of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
-    - Default Setting: 0°F
-
-  2. Thermostat revision level 03 or 06
-
-    - Above this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 60 minutes or if sending four cab thermostat requests (starts) within 1 hour of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
-    - Default Setting: 20°F (revision level 04 and 05)
-
-3. Auto Heat
-
-  1. Below this ambient (outside) temperature, the thermostat will default into the heat mode when the key switch is turned on and the thermostat is on.
-  2. Thermostat revision level 01 or 02 (Aftermarket Only)
-
-    - Default Setting: 60°F
-
-  3. Thermostat revision level 03, 04, 05, and 06
-
-    - Default Setting: 69°F
-
-4. Auto Cool
-
-  1. Above this ambient (outside) temperature, the thermostat will default into the Cool Mode when the keyswitch is turned on and thermostat is on.
-  2. Thermostat revision level 01, 02, or 06 (Aftermarket Only)
-
-    - Default Setting: 85°F
-
-  3. Thermostat revision level 03, 04 and 05
-
-    - Default Setting: 70°F
-
-5. Disable Heat
-
-  1. Above this ambient (outside) temperature, the operator will **not** be able to activate the heat mode.
-  2. Default Setting: 80°F (revision level 03, 04, 05, and 06)
-
-6. Disable Cool
-
-  1. Below this ambient (outside) temperature, the operator will **not** be able to activate the cool mode.
-  2. Default Setting: 60°F (revision level 03, 04, 05, and 06)
-
-7. Response to E3 Fault
-
-  1. If the thermostat logs an E3 fault, enabling this trim will cause the engine to cycle between 20 minutes running and 15 minutes shutdown regardless of the cab temperature. By disabling this trim, the engine will **not** auto start, regardless of the cab temperature.
-  2. Default Setting: Enabled
-
-8. Alarm in Cab Comfort Mode, revision level 01, 02 and 03 (Aftermarket Only)
-
-  1. Enabling this trim will allow the engine start alarm to sound prior to any auto start of the engine. Disabling this trim will turn off the engine start alarm when in cab comfort mode. Disabling this trim is **not** allowed with Integrated system.
-  2. Default Setting: Enabled
-
-> [!note] Note · Примечание
+>
+> Integrated
+>
+> The engine ECM monitors the various signals it receives to determine whether a fault condition exists with the ICON™ system. If any faults are detected, the engine ECM logs the fault in its memory. The faults are read using the INSITE™ electronic service tool.
+>
+> ### Thermostat Setup Mode
+>
+> To enter the cab thermostat trim mode, first turn on the keyswitch. Press the UP or DOWN button on the cab thermostat 7 times while the software version is flashing on the cab thermostat display. You have 10 seconds to start this process.
+>
+> After entering the TRIM mode, press the UP button to scroll increasingly through the trims, and press the DOWN button to scroll decreasingly through the trims. Using this process, select the trim desired to adjust. Press ENTER to save the setting.
+>
+> For temperature adjustments, press the UP or DOWN button to adjust the temperature accordingly, then press ENTER to save the setting.
+>
+> For Enables, press the UP or DOWN button to toggle between the "E" displayed to the immediate right of the trim number, or no "E" displayed. Press ENTER to save the setting.
+>
+> To exit the thermostat trim mode, press ON/MODE button.
+>
+> ### Trim Settings
+>
+> 1. Extreme Hot
+>
+>   1. Thermostat revision level 01 or 02 (Aftermarket Only)
+>
+>     - Below this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 45 minutes or if sending a cab thermostat request (start) within 10 minutes of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
+>     - Default Setting: 100°F
+>
+>   2. Thermostat revision level 03 or 06
+>
+>     - Below this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 60 minutes or if sending four cab thermostat requests (starts) within 1 hour of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
+>     - Default Setting: 90°F (revision level 04 and 05)
+>
+> 2. Extreme Cold
+>
+>   1. Thermostat revision level 01 or 02 (Aftermarket Only)
+>
+>     - Above this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 45 minutes or if sending a cab thermostat request (start) within 10 minutes of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
+>     - Default Setting: 0°F
+>
+>   2. Thermostat revision level 03 or 06
+>
+>     - Above this ambient (outside) temperature, if the cab temperature does **not** reach the desired set point within 60 minutes or if sending four cab thermostat requests (starts) within 1 hour of the last auto-cycle, an E3 fault (Fault Code 469) will be logged.
+>     - Default Setting: 20°F (revision level 04 and 05)
+>
+> 3. Auto Heat
+>
+>   1. Below this ambient (outside) temperature, the thermostat will default into the heat mode when the key switch is turned on and the thermostat is on.
+>   2. Thermostat revision level 01 or 02 (Aftermarket Only)
+>
+>     - Default Setting: 60°F
+>
+>   3. Thermostat revision level 03, 04, 05, and 06
+>
+>     - Default Setting: 69°F
+>
+> 4. Auto Cool
+>
+>   1. Above this ambient (outside) temperature, the thermostat will default into the Cool Mode when the keyswitch is turned on and thermostat is on.
+>   2. Thermostat revision level 01, 02, or 06 (Aftermarket Only)
+>
+>     - Default Setting: 85°F
+>
+>   3. Thermostat revision level 03, 04 and 05
+>
+>     - Default Setting: 70°F
+>
+> 5. Disable Heat
+>
+>   1. Above this ambient (outside) temperature, the operator will **not** be able to activate the heat mode.
+>   2. Default Setting: 80°F (revision level 03, 04, 05, and 06)
+>
+> 6. Disable Cool
+>
+>   1. Below this ambient (outside) temperature, the operator will **not** be able to activate the cool mode.
+>   2. Default Setting: 60°F (revision level 03, 04, 05, and 06)
+>
+> 7. Response to E3 Fault
+>
+>   1. If the thermostat logs an E3 fault, enabling this trim will cause the engine to cycle between 20 minutes running and 15 minutes shutdown regardless of the cab temperature. By disabling this trim, the engine will **not** auto start, regardless of the cab temperature.
+>   2. Default Setting: Enabled
+>
+> 8. Alarm in Cab Comfort Mode, revision level 01, 02 and 03 (Aftermarket Only)
+>
+>   1. Enabling this trim will allow the engine start alarm to sound prior to any auto start of the engine. Disabling this trim will turn off the engine start alarm when in cab comfort mode. Disabling this trim is **not** allowed with Integrated system.
+>   2. Default Setting: Enabled
+>
+> **Note · Примечание**
 > This feature is **not** available in revision level 04, 05, and 06.
-
-1. Automatic E3 Shutdown
-
-  1. Thermostat will automatically turn off when thermostat has been in an E3 condition continuously for more than two hours.
-  2. Default Setting: Enabled
-
-2. Weekend Timer
-
-  1. Thermostat will automatically turn off when thermostat has been no for more than 12 hours.
-  2. Default Setting: Enabled
-
-3. Narrower Temperature Settings
-
-  1. Thermostat can be set to narrower temperature set points for heat and cool. These points are 68°F and 73°F.
-  2. Default Setting: Disabled
-
-4. Temperature Scale
-
-  1. Allows for changing between Fahrenheit and Celsius temperature scales
-  2. Default Setting: Fahrenheit
-
-5. Short Idle Enable
-
-  1. In mandatory shutdown mode, enabling this trim will allow the engine to run for a maximum of 5 minutes if idle control module is revision 11 or 13, or a maximum of 5 minutes adjustable to 18 hours if idle control module is revision 14. Disabling this trim will allow the engine to run for a maximum of 15 minutes. (Integrated systems **must** use INSITE™ electronic service tool to adjust this feature; Aftermarket systems **must** use the ICON™ service tool, ICON™ idle control module 15 and 16, to adjust this feature.)
-  2. Default Setting: Disabled (Thermostat Revision 04 and 05)
-
-> [!note] Note · Примечание
+>
+> 1. Automatic E3 Shutdown
+>
+>   1. Thermostat will automatically turn off when thermostat has been in an E3 condition continuously for more than two hours.
+>   2. Default Setting: Enabled
+>
+> 2. Weekend Timer
+>
+>   1. Thermostat will automatically turn off when thermostat has been no for more than 12 hours.
+>   2. Default Setting: Enabled
+>
+> 3. Narrower Temperature Settings
+>
+>   1. Thermostat can be set to narrower temperature set points for heat and cool. These points are 68°F and 73°F.
+>   2. Default Setting: Disabled
+>
+> 4. Temperature Scale
+>
+>   1. Allows for changing between Fahrenheit and Celsius temperature scales
+>   2. Default Setting: Fahrenheit
+>
+> 5. Short Idle Enable
+>
+>   1. In mandatory shutdown mode, enabling this trim will allow the engine to run for a maximum of 5 minutes if idle control module is revision 11 or 13, or a maximum of 5 minutes adjustable to 18 hours if idle control module is revision 14. Disabling this trim will allow the engine to run for a maximum of 15 minutes. (Integrated systems **must** use INSITE™ electronic service tool to adjust this feature; Aftermarket systems **must** use the ICON™ service tool, ICON™ idle control module 15 and 16, to adjust this feature.)
+>   2. Default Setting: Disabled (Thermostat Revision 04 and 05)
+>
+> **Note · Примечание**
 > This feature is no longer available. Mandatory shut down will be 15 minutes if vehicle speed is zero and parking brake is off. Mandatory shut down will be 5 minutes when vehicle speed is zero and parking brake is ON for ICON™ control module revision level 18. ICON™ idle control module (revision 19) will shut the engine down in 3 minutes when the vehicle speed is 0 kph \[0 mph\] and when the parking brake is ON.”
-
-1. Efficiency Improvement Temperature Range Setting
-
-  1. Allows an expanded range to improve overall ICON™ efficiency. For example, if the set point heat and the set point cool are both set to 21°C \[70°F\], and the range is 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 19°C \[66°F\] and continue to run until the cab temperature reaches 22°C \[72°F\]. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 23°C \[74°F\] and will continue to run until the temperature has dropped to 20°C \[68°F\].
-  2. Default Setting: -17°C \[2°F\]
-
-2. Prelube Enable
-
-  1. If the vehicle is equipped with a pre-lube system, this trim configures the ICON™ system appropriately.
-  2. Default Setting: Disabled
-
-> [!note] Note · Примечание
+>
+> 1. Efficiency Improvement Temperature Range Setting
+>
+>   1. Allows an expanded range to improve overall ICON™ efficiency. For example, if the set point heat and the set point cool are both set to 21°C \[70°F\], and the range is 4, then, when the thermostat is in heat mode, the vehicle will start when the cab temperature drops to 19°C \[66°F\] and continue to run until the cab temperature reaches 22°C \[72°F\]. When the thermostat is in cool mode, the vehicle will start when the cab temperature reaches 23°C \[74°F\] and will continue to run until the temperature has dropped to 20°C \[68°F\].
+>   2. Default Setting: -17°C \[2°F\]
+>
+> 2. Prelube Enable
+>
+>   1. If the vehicle is equipped with a pre-lube system, this trim configures the ICON™ system appropriately.
+>   2. Default Setting: Disabled
+>
+> **Note · Примечание**
 > This feature is no longer available in revision level 04, 05, and 06.
-
-1. Reset to Defaults
-
-  1. Resets all the trims back to the factory default settings.
-  2. Default Setting: N/A
+>
+> 1. Reset to Defaults
+>
+>   1. Resets all the trims back to the factory default settings.
+>   2. Default Setting: N/A

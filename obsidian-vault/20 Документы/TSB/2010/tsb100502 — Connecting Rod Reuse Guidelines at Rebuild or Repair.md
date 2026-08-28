@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100502.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100502.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Connecting Rod Reuse Guidelines at Rebuild or Repair
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-12-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100502.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100502.pdf)
 
-## Connecting Rod Reuse Guidelines at Rebuild or Repair
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Подключение Rod Reuse Guidelines при восстановлении или ремонте
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin has been superseded by topic 10T1-1. Replace 06T1-34 with Topic 10T1-1.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Данный бюллетень технического обслуживания был заменен темой 10Т1-1. Заменить 06Т1-34 на Тема 10Т1-1.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Connecting Rod Reuse Guidelines at Rebuild or Repair
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin has been superseded by topic 10T1-1. Replace 06T1-34 with Topic 10T1-1.

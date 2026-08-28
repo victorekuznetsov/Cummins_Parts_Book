@@ -12,13 +12,15 @@ families:
 manuals:
   - "5411480"
 figures: 13
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-107.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-107.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # Display Software
@@ -31,497 +33,976 @@ tags:
 > **Даты:** изменён 2025-05-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-107.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-107.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-ED-4
 
-#### Recommended Cummins® Service Tools
+### Выбор сервисного инструмента
 
-- USB (universal serial bus) extension cable, Part Number 5394862 (if needed for access).
+ЭД-4
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- USB drive
+- USB (универсальная последовательная шина) - удлинитель, номер детали 5394862 (при необходимости для доступа).
 
-ED-5 and ED-7
+#### Дополнительные сервисные позиции
 
-#### Recommended Cummins® Service Tools
+- USB-накопитель
 
-- USB (universal serial bus) extension cable, Part Number 5394862 (if needed for access).
+ED-5 и ED-7
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- USB drive
+- USB (универсальная последовательная шина) - удлинитель, номер детали 5394862 (при необходимости для доступа).
 
-### General Information
+#### Дополнительные сервисные позиции
 
-ED-4
+- USB-накопитель
 
-The Cummins® C Command Connect and Connect Premier Marine Panel System ED-4 display(s) are preloaded with software from the factory. The Cummins® ED-4 Display software and vessel personality file **must** be updated and configured prior to proper operation of the display.
+### Общие сведения
 
-> [!note] Note · Примечание
-> A tag is located in the C.I.B. for referencing the software and vessel personality file file loaded in the helm and C.I.B. ED-4s during initial system installation at the original equipment manufacturer (OEM). This tag should be updated after ED-4 software or vessel personality file modification.
+ЭД-4
 
-> [!note] Note · Примечание
-> Updating software erases the configuration settings, event logs, controller area network (CAN) logs, and all vessel personality files in the ED-4.
+Дисплей Cummins® C Command Connect и Connect Premier Marine Panel System ED-4 предварительно загружены программным обеспечением с завода. Программное обеспечение Cummins® ED-4 Display и файл личности сосуда должны быть обновлены и настроены до надлежащей работы дисплея.
 
-The Cummins QuickServe® Online contains a tracking sheet and files. After entering the engine serial number or engine model search, the webpage can be found by clicking the following links: Service, Related Information, Marine Panel Firmware Updates, and ED-4.
+> [!note] Примечание
+> Тег находится в C.I.B. для ссылки на программное обеспечение и файл личности судна, загруженный во главе и C.I.B. ЭД-4 при первоначальной установке системы у изготовителя оригинального оборудования (ОЭМ). Этот тег должен быть обновлен после модификации программного обеспечения ED-4 или файла личности сосуда.
 
-Cummins QuickServe® Online Marine Panel Firmware Updates – ED-4, contains files and a tracking sheet with information about each file, which helps select the correct file and revision level for the component
+> [!note] Примечание
+> Обновление программного обеспечения стирает настройки конфигурации, журналы событий, журналы сети контроллеров (CAN) и все файлы личности судна в ED-4.
 
-> [!note] Note · Примечание
-> The Cummins® Marine Application Engineering group updates the “Cummins ED-4 Display Software File Tracking Sheet” with file name, version, and description of the component it is intended for.
+Cummins QuickServe® Online содержит таблицу отслеживания и файлы. После ввода серийного номера двигателя или поиска модели двигателя веб-страницу можно найти, нажав на следующие ссылки: Сервис, связанная с ним информация, обновления прошивки для морских панелей и ED-4.
 
-The file name format below is an example. Refer to the software file tracking sheet for specific information.
+Cummins QuickServe® Online Marine Panel Firmware Updates – ED-4, содержит файлы и таблицу отслеживания с информацией о каждом файле, которая помогает выбрать правильный уровень файла и уровня редактирования для компонента.
 
-Software File Folder Name format: “AAA xxx.zip”
+> [!note] Примечание
+> Группа Cummins® Marine Application Engineering обновляет «Справочник отслеживания файлов программного обеспечения Cummins ED-4 Display» с именем файла, версией и описанием компонента, для которого он предназначен.
 
-Where:
+Формат имени файла ниже является примером. См. таблицу отслеживания файлов программного обеспечения для конкретной информации.
 
-AAA = product name.
+Формат файла папки программного обеспечения: «AAA xxx.zip»
+
+Где:
+
+AAA = название продукта.
 
 - ED4 = ED-4 Display Software.
 
-xxx = Software version (examples)
+xxx = версия программного обеспечения (примеры)
 
 - 5.5 = 505
 - 5.12 = 512
 - 5.30 = 530
 - 5.50 = 550
 
-The software file **must** be unzipped and saved in the root directory of the USB drive before the ED-4 can recognize it.
+Файл программного обеспечения должен быть разблокирован и сохранен в корневом каталоге USB-накопителя, прежде чем ED-4 сможет распознать его.
 
-> [!note] Note · Примечание
-> WINZIP may **not** function properly in unzipping ED-4 software files and may result in partial unzipping. The Windows Explorer Extraction Tool or WINRAR, available on the Cummins software shelf, is recommended for unzipping ED-4 software files.
+> [!note] Примечание
+> WINZIP может **не** функционировать должным образом в распаковке файлов программного обеспечения ED-4 и может привести к частичному распаковке. Инструмент извлечения Windows Explorer или WINRAR, доступный на полке программного обеспечения Cummins, рекомендуется для удаления файлов программного обеспечения ED-4.
 
-Example of a typical file / folder structure of the USB drive for ED-4 software and vessel personality file.
+Пример типичной структуры файла/папки USB-накопителя для программного обеспечения ED-4 и файла личности сосуда.
 
 ![[15e00090.png]]
 
-> [!note] Note · Примечание
-> Except for the folder named “vessel personality file” and “LOGS”, all remaining files and folders should be removed from the USB drive prior to saving software from the Cummins QuickServe® Online.
+> [!note] Примечание
+> За исключением папки с именем «файл личности судна» и «LOGS», все оставшиеся файлы и папки должны быть удалены с USB-накопителя до сохранения программного обеспечения из Cummins QuickServe® Online.
 
-> [!note] Note · Примечание
-> Prior to installing the USB drive into an ED-4, **only** one software file / folder structure should be saved on the USB drive. Multiple software files on the USB drive may cause the ED-4 to lock up or fail the update process.
+> [!note] Примечание
+> Перед установкой USB-накопителя в ED-4 на USB-накопителе должна быть сохранена только одна структура файла / папки программного обеспечения. Несколько файлов программного обеспечения на USB-накопителе могут привести к блокировке ED-4 или отказу процесса обновления.
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-The Cummins® C Command Connect and Connect Premier Marine Panel System ED-5 / ED-7 display(s) are preloaded with software packaged with vessel personality file from the factory. The Cummins® ED-5 / ED-7 display vessel personality file **must** be configured prior to proper operation of the display.
+Дисплей Cummins® C Command Connect и Connect Premier Marine Panel System ED-5 / ED-7 предварительно загружены программным обеспечением, упакованным с файлом личности судна с завода. Файл личности сосуда Cummins® ED-5/ED-7 должен быть сконфигурирован до надлежащей работы дисплея.
 
-> [!note] Note · Примечание
-> Updating software erases the configuration settings, event logs, controller area network (CAN) logs, in the ED-5/ED-7.
+> [!note] Примечание
+> Обновление программного обеспечения стирает настройки конфигурации, журналы событий, журналы области контроллера (CAN) в ED-5/ED-7.
 
-The Cummins QuickServe® Online contains a tracking sheet to ensure selection of the display vessel personality file(s) for application type. After entering the engine serial number or engine model search, the webpage can be found by clicking the following links: Service, Related Information, Marine Panel Firmware Updates, and ED-5 / ED-7.
+Cummins QuickServe® Online содержит лист отслеживания для обеспечения выбора файла(ов) личности судна отображения для типа приложения. После ввода серийного номера двигателя или поиска модели двигателя веб-страницу можно найти, нажав на следующие ссылки: Сервис, Связанная информация, Обновления прошивки для морских панелей и ED-5 / ED-7.
 
-Cummins QuickServe® Online Marine Panel Firmware Updates – ED-5 / ED-7, contains software files and a tracking sheet with information about preloaded software and vessel personality file(s) for application types, which helps select the correct file and revision level for the display use.
+Cummins QuickServe® Online Marine Panel Firmware Updates – ED-5/ED-7, содержит программные файлы и таблицу отслеживания с информацией о предварительно загруженном программном обеспечении и файле(ах) личности судна для типов приложений, что помогает выбрать правильный уровень файла и изменения для использования дисплея.
 
-> [!note] Note · Примечание
-> The Cummins® Marine Application Engineering group updates the “Cummins ED-5 ED-7 Display Software File Tracking Sheet” with description of Vessel Personality files / themes preloaded with the software the component it is intended for.
+> [!note] Примечание
+> Группа Cummins® Marine Application Engineering обновляет «Справочник отслеживания файлов дисплея Cummins ED-5 ED-7» с описанием файлов / тем Vessel Personality, предварительно загруженных с программным обеспечением, для которого он предназначен.
 
-The file name format below is an example. Refer to the software file tracking sheet for specific information.
+Формат имени файла ниже является примером. См. таблицу отслеживания файлов программного обеспечения для конкретной информации.
 
-Software File Folder Name format: “AAA xxxxx.zip”
+Формат файла папки программного обеспечения: «AAA xxxxx.zip»
 
-Where:
+Где:
 
-AAA = product name.
+AAA = название продукта.
 
-- ED5 / ED-7 = ED-5 / ED-7 Display Software.
+- ED5/ED-7 = ED-5/ED-7 Display Software.
 
-xxxxx = Software version (examples)
+xxxxx = версия программного обеспечения (примеры)
 
 - 0.1.0 = 010
 - 0.2.0 = 020
 - 0.3.0 = 030
 - 0.4.0 = 040
 
-The software file **must** be unzipped and saved in the root directory of the USB drive before the ED-5/ED-7 can recognize it.
+Файл программного обеспечения должен быть разблокирован и сохранен в корневом каталоге USB-накопителя, прежде чем ED-5/ED-7 сможет распознать его.
 
-> [!note] Note · Примечание
-> WINZIP may **not** function properly in unzipping ED-5/ED-7 software files and may result in partial unzipping. The Windows Explorer Extraction Tool or WINRAR, available on the Cummins software shelf, is recommended for unzipping ED-5/ED-7 software files.
+> [!note] Примечание
+> WINZIP может **не** функционировать должным образом в распаковке файлов программного обеспечения ED-5/ED-7 и может привести к частичному распаковке. Инструмент извлечения Windows Explorer или WINRAR, доступный на полке программного обеспечения Cummins, рекомендуется для удаления файлов программного обеспечения ED-5 / ED-7.
 
-Example of a typical file / folder structure of the USB drive for ED-5/ED-7 software and vessel personality file.
+Пример типичной структуры файла/папки USB-накопителя для программного обеспечения ED-5/ED-7 и файла личности сосуда.
 
 ![[00e00321.png]]
 
-> [!note] Note · Примечание
-> Except for the folder named “config” and “LOGS”, all remaining files and folders should be removed from the USB drive prior to saving software from the Cummins QuickServe® Online.
+> [!note] Примечание
+> За исключением папки с именем «config» и «LOGS», все оставшиеся файлы и папки должны быть удалены с USB-накопителя до сохранения программного обеспечения из Cummins QuickServe® Online.
 
-> [!note] Note · Примечание
-> Prior to installing the USB drive into an ED-5/ED-7, **only** one software file / folder structure should be saved on the USB drive. Multiple software files on the USB drive may cause the ED-5/ED-7 to lock up or fail the update process.
+> [!note] Примечание
+> Перед установкой USB-накопителя в ED-5/ED-7 на USB-накопителе должна быть сохранена только одна структура файла/папки программного обеспечения. Несколько файлов программного обеспечения на USB-накопителе могут привести к блокировке ED-5/ED-7 или отказу процесса обновления.
 
-### Preparatory Steps
+### Подготовительные операции
 
-ED-4
+ЭД-4
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм или повреждения оборудования, эта процедура должна выполняться только квалифицированными специалистами по обслуживанию.
 
-> [!warning] CAUTION · Осторожно
-> Before updating the software or vessel personality file in any control system component, verify that the vessel control system is completely operational. It is also important to test and document the configuration settings and vessel personality of the component.
+> [!warning] ОСТОРОЖНО
+> Перед обновлением программного обеспечения или файла личности судна в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и задокументировать настройки конфигурации и индивидуальность сосуда компонента.
 
 ![[15e00153.png]]
 
-The software and vessel personality file information of the ED-4 display can be viewed by pressing key 5 or “Menu” on the data screen page.
+Программное обеспечение и информация о файле личности сосуда дисплея ED-4 можно просмотреть, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”.
-- Select “About” and press key 4 or “Enter”.
-- Press key 3 or “vessel personality file” for vessel personality file information.
-- Press key 4 or “Info” for software information.
+- Нажмите клавишу 5 или «Меню».
+- Выберите «О нас» и нажмите клавишу 4 или «Войти».
+- Нажмите клавишу 3 или «файл личности судна» для информации о файле личности судна.
+- Нажмите клавишу 4 или «Информация» для информации о программном обеспечении.
 
-Important information on the page.
+Важная информация на странице.
 
-- Part number – for software compatibility.
-- SW Serial Number – Serial Number of the ED-4 display.
-- SW Version – Software version loaded in display.
+- Номер детали – для совместимости программного обеспечения.
+- SW Serial Number — серийный номер дисплея ED-4.
+- SW Version — версия программного обеспечения, загруженная на дисплей.
 
-When finished:
+Когда закончите:
 
-Press key 5 or “Back” to exit the page.
+Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
-Press key 5 or “Exit” to return to the data screen page.
+Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
-Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
+Перед загрузкой программного обеспечения задокументируйте и поймите производительность судна и коды аварийной сигнализации / неисправности. Следуйте коду тревоги / ошибки или соответствующему дереву симптомов устранения неполадок, чтобы понять проблемы.
 
-Reference the following procedures for testing and configuration setup information:
+Ссылка на следующие процедуры для тестирования и настройки конфигурации информации:
 
-- Verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15]].
-- Download log files from the ED-4 display for future use. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15]].
-- Document the ED-4 display software, vessel personality file, source address(s), and configuration settings. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 1]] 5.
-- If needed, export the existing vessel personality file used by the ED-4. Use the following procedure to find and select ED-4 vessel personality file when updates are required. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
+- Проверить правильность функции.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]].
+- Загрузите файлы журналов с дисплея ED-4 для будущего использования.[[513-015-035 — Display(s) and Instrumentation|См. процедуру 015-035 в разделе 15.]].
+- Документируйте программное обеспечение отображения ED-4, файл личности судна, адрес(ы) источника и настройки конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 1.]]5.
+- При необходимости экспортируйте существующий файл личности судна, используемый ED-4. Используйте следующую процедуру для поиска и выбора файла личности сосуда ED-4, когда требуется обновление.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]].
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм или повреждения оборудования, эта процедура должна выполняться только квалифицированными специалистами по обслуживанию.
 
-> [!warning] CAUTION · Осторожно
-> Before updating the software or vessel personality file in any control system component, verify that the vessel control system is completely operational. It is also important to test and document the configuration settings and vessel personality of the component.
+> [!warning] ОСТОРОЖНО
+> Перед обновлением программного обеспечения или файла личности судна в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и задокументировать настройки конфигурации и индивидуальность сосуда компонента.
 
 ![[00e00322.png]]
 
-The software and vessel personality file information of the ED-5/ED-7 display can be viewed by press in the middle of data screen page or press and hold the “Enter/Select” button on the remote keypad.
+Программное обеспечение и информация о файле личности сосуда дисплея ED-5/ED-7 можно просматривать нажатием в середине страницы экрана данных или нажать и удерживать кнопку «Ввести/выбрать» на удаленной клавиатуре.
 
-Action:
+Действие:
 
-- Press in the middle of the data screen or press and hold the “Enter/Select” button on the remote keypad.
-- Select “About” or press “Down” to select “About” and press “Enter/Select” button on the remote keypad.
-- Press “Config” or press “Down” and press “Enter/Select” button for vessel personality file information.
+- Нажмите в середине экрана данных или нажмите и удерживайте кнопку «Ввести/Выбрать» на удаленной клавиатуре.
+- Выберите «О» или нажмите «Вниз», чтобы выбрать «О» и нажмите кнопку «Введите/Выберите» на удаленной клавиатуре.
+- Нажмите «Конфигурация» или нажмите «Вниз» и нажмите кнопку «Введите/Выберите» для информации о файле личности судна.
 
-Important information on the page.
+Важная информация на странице.
 
-- Part number – for software compatibility.
-- Serial Number – Serial Number of the ED-5/ED-7 display.
-- Software Version – Software version loaded in display.
+- Номер детали – для совместимости программного обеспечения.
+- Серийный номер - Серийный номер дисплея ED-5/ED-7.
+- Software Version — версия программного обеспечения, загруженная на дисплей.
 
-When finished:
+Когда закончите:
 
-Swipe left to right or use “Back”(IV) soft key on the screen or “Return/Exit” to exit the page.
+Прокрутите слева направо или используйте мягкий ключ «Назад» (IV) на экране или «Возвращение / выход» для выхода из страницы.
 
-Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
+Перед загрузкой программного обеспечения задокументируйте и поймите производительность судна и коды аварийной сигнализации / неисправности. Следуйте коду тревоги / ошибки или соответствующему дереву симптомов устранения неполадок, чтобы понять проблемы.
 
-Reference the following procedures for testing and configuration setup information:
+Ссылка на следующие процедуры для тестирования и настройки конфигурации информации:
 
-- Verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
-- Download log files from the ED-5/ED-7 display for future use. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15.]]
-- Document the ED-5/ED-7 display software, vessel personality file, source address(s), and configuration settings. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+- Проверить правильность функции.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+- Загрузите файлы журналов с дисплея ED-5/ED-7 для дальнейшего использования.[[513-015-035 — Display(s) and Instrumentation|См. процедуру 015-035 в разделе 15.]]
+- Документируйте программное обеспечение отображения ED-5/ED-7, файл личности судна, адрес(ы) источника и настройки конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
 
-### Setup Information
+### Настройка информации
 
-ED-4
+ЭД-4
 
-Access the USB port on the rear of the ED-4 display by removing the seal port.
+Доступ к USB-порту на задней панели дисплея ED-4 путем удаления порта уплотнения.
 
-For C.I.B. mounted ED-4 displays, use the following procedure for information on accessing the ED-4 display USB port. Refer to Procedure 015-023 in Section 15
+Для Си Би. ED-4 дисплеи, используйте следующую процедуру для получения информации о доступе к ED-4 дисплею USB порта. См. процедуру 015-023 в разделе 15.
 
-> [!note] Note · Примечание
-> It is important to verify the rubber USB seal port is properly installed after a software or vessel personality file update. If **not**, the ED-4 may be exposed to the environment and result in internal damage.
+> [!note] Примечание
+> Важно проверить, правильно ли установлен резиновый порт USB-уплотнения после обновления программного обеспечения или файла личности судна. Если ED-4 не находится в состоянии покоя, то он может подвергаться воздействию окружающей среды и вызывать внутренние повреждения.
 
 ![[15e00095.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-Access the USB port on the rear of the ED-5/ED-7 display by removing the seal port. The USB port seal should be moved 90 degrees towards the top of the display to help retain and secure the USB port seal back on the display.
+Доступ к USB-порту на задней панели дисплея ED-5/ED-7 путем удаления порта уплотнения. Уплотнение порта USB должно быть перемещено на 90 градусов к верхней части дисплея, чтобы помочь сохранить и защитить уплотнение порта USB обратно на дисплее.
 
-> [!note] Note · Примечание
-> It is important to verify the rubber USB seal port is properly installed after a software or vessel personality file update. If **not**, the ED-5/ED-7 may be exposed to the environment and result in internal damage.
+> [!note] Примечание
+> Важно проверить, правильно ли установлен резиновый порт USB-уплотнения после обновления программного обеспечения или файла личности судна. Если ED-5/ED-7 не подвергается воздействию окружающей среды и может привести к внутреннему повреждению.
 
 ![[00e00323.png]]
 
-### Importing
+### импортировать
 
-ED-4
+ЭД-4
 
-> [!note] Note · Примечание
-> Prior to software update, document the ED-4 display(s) source address(s) and configuration settings. See the Preparatory Steps section above.
+> [!note] Примечание
+> Перед обновлением программного обеспечения документируйте адрес(ы) источника (источников) ED-4 и настройки конфигурации. См. раздел подготовительные шаги выше.
 
-Each ED-4 display on the vessel has its own USB connection and the software **must** be updated separately to each.
+Каждый дисплей ED-4 на судне имеет собственное USB-соединение, и программное обеспечение должно быть обновлено отдельно для каждого.
 
-The process of loading a software to the ED-4 display is as follows.
+Процесс загрузки программного обеспечения на дисплей ED-4 выглядит следующим образом.
 
-1. Turn the system enable switch power ON, engine OFF, and verify the ED-4 display screen is on.
-2. Connect the USB drive to the ED-4 USB port.
+1. Включите систему, включите включение питания переключателя, выключите двигатель и проверьте, включен ли экран дисплея ED-4.
+2. Подключите USB-накопитель к порту ED-4 USB.
 
-Once the USB drive is detected by the ED-4, the following options will be shown:
+После того, как USB-накопитель будет обнаружен ED-4, будут показаны следующие параметры:
 
-1. Load vessel personality file
-2. Save current vessel personality file
-3. Export log(s)
-4. Perform software update.
+1. Файл личности судна груза
+2. Сохранить текущий файл личности судна
+3. Экспортный журнал(ы)
+4. Выполняйте обновление программного обеспечения.
 
-Action:
+Действие:
 
-- Press key 2 or “Down” to scroll to “Load vessel personality file”.
-- Press key 4 or “Choose”.
+- Нажмите клавишу 2 или «Вниз», чтобы прокрутить до «Файл личности судна нагрузки».
+- Нажмите клавишу 4 или «Выбрать».
 
-Read the prompts on the ED-4 screen during the importing process.
+Прочитайте подсказки на экране ED-4 во время импорта.
 
-Do **not** remove power to the ED-4 or remove the USB drive during the import process.
+**Не** Удалите питание на ED-4 или USB-накопитель во время импорта.
 
-> [!note] Note · Примечание
-> If an alarm pop up message occurs while the USB drive is installed, press key 5 or “Close” to acknowledge and remove the message. Then, press key 5 or “Menu” to return to the USB drive options.
+> [!note] Примечание
+> Если сообщение с сигналом тревоги появляется во время установки USB-накопителя, нажмите клавишу 5 или «Закрыть», чтобы подтвердить и удалить сообщение. Затем нажмите клавишу 5 или «Menu», чтобы вернуться к параметрам USB-накопителя.
 
 ![[15e00128.png]]
 
-> [!note] Note · Примечание
-> Pressing key 3 or “Leave” will return to main selection screen.
+> [!note] Примечание
+> Нажатие клавиши 3 или «Уйти» вернется на главный экран выбора.
 
-To initialize software update, press and hold down keys 1 and 5 until a bright blue screen appears.
+Для инициализации обновления программного обеспечения нажмите и удерживайте клавиши 1 и 5 до появления ярко-синего экрана.
 
-Read the prompts on the ED-4 screen during the importing process.
+Прочитайте подсказки на экране ED-4 во время импорта.
 
-Do **not** remove power to the ED-4 or remove the USB drive during the import process.
+**Не** Удалите питание на ED-4 или USB-накопитель во время импорта.
 
-> [!note] Note · Примечание
-> It takes approximately 3 minutes to import software from the USB drive.
+> [!note] Примечание
+> Для импорта программного обеспечения с USB-накопителя требуется около 3 минут.
 
 ![[15e00195.png]]
 
-Do **not** remove the USB drive from the ED-4 unless instructed to do so.
+Не удаляйте USB-накопитель из ED-4, если не указано это сделать.
 
-The ED-4 will cycle its power and restart after a software download is complete and the USB drive is removed.
+ED-4 будет циклично использовать свою мощность и перезагружаться после завершения загрузки программного обеспечения и удаления USB-накопителя.
 
-Verify the ED-4 software is updated by accessing the “About” page. See Preparatory Steps above.
+Проверить программное обеспечение ED-4 можно, перейдя на страницу «О нас». См. подготовительные шаги выше.
 
 ![[15e00130.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-> [!note] Note · Примечание
-> Prior to software update, document the ED-5/ED-7 display(s) source address(s) and configuration settings. See the Preparatory Steps section above.
+> [!note] Примечание
+> Перед обновлением программного обеспечения документируйте адрес (адреса) источника (адреса) дисплея (экранов) ED-5/ED-7 и настройки конфигурации. См. раздел подготовительные шаги выше.
 
-Each ED-5/ED-7 display on the vessel has its own USB connection and the software **must** be updated separately to each.
+Каждый дисплей ED-5/ED-7 на судне имеет собственное USB-соединение, и программное обеспечение должно быть обновлено отдельно для каждого.
 
-The process of loading a software to the ED-5/ED-7 display is as follows.
+Процесс загрузки программного обеспечения на дисплей ED-5/ED-7 выглядит следующим образом.
 
-1. Turn the system enable switch power ON, engine OFF, and verify the ED-5/ED-7 display screen is on.
-2. Connect the USB drive to the ED-5/ED-7 USB port.
+1. Включите систему, включите включение питания переключателя, выключите двигатель и проверьте, включен ли экран дисплея ED-5/ED-7.
+2. Подключите USB-накопитель к порту ED-5/ED-7 USB.
 
-Once the USB drive is detected by the ED-5/ED-7, the following options will be shown:
+После того, как USB-накопитель будет обнаружен ED-5/ED-7, будут показаны следующие параметры:
 
-1. Software update
-2. Offload log files
-3. Offload configuration files
+1. Обновление программного обеспечения
+2. Скачать log файл
+3. Скачать Confiction Files
 
-Action:
+Действие:
 
-- Select Software Update or “Offload Log Files” to import log files.
-- Select “Offload Config Files” to import configuration settings from the ED-5/ED-7.
-- Swipe left to right on the screen to exit the screen and safely ejecting the USB drive.
+- Выберите «Обновление программного обеспечения» или «Загрузить файлы журнала» для импорта файлов журнала.
+- Выберите «Загрузить файлы конфигурации» для импорта настроек конфигурации из ED-5/ED-7.
+- Прокрутите слева направо на экране, чтобы выйти из экрана и безопасно выбросить USB-накопитель.
 
-Read the prompts on the ED-5/ED-7 screen during the importing process.
+Прочитайте подсказки на экране ED-5/ED-7 во время процесса импорта.
 
-Do **not** remove power to the ED-5/ED-7 or remove the USB drive during the import process.
+**Не** Удалите питание на ED-5/ED-7 или USB-накопитель во время процесса импорта.
 
-> [!note] Note · Примечание
-> If an alarm pop up message occurs while the USB drive is installed, Swipe left to right on the screen to acknowledge and remove the message.
+> [!note] Примечание
+> Если сообщение с сигналом тревоги появляется во время установки USB-накопителя, прокрутите слева направо на экране, чтобы распознать и удалить сообщение.
 
 ![[00e00324.png]]
 
-> [!note] Note · Примечание
-> Swipe left to right on the screen or use “Back”(IV) soft key on the screen to return to main screen and safe ejection of USB drive.
+> [!note] Примечание
+> Прокрутите слева направо на экране или используйте мягкий ключ «Назад» (IV) на экране, чтобы вернуться на главный экран и безопасно выбросить USB-накопитель.
 
-To initialize software update, press Software Update. It takes approximately one minute to perform software update.
+Чтобы инициализировать обновление программного обеспечения, нажмите «Обновление программного обеспечения». Для обновления программного обеспечения требуется примерно одна минута.
 
-Do **not** remove power to the ED-5/ED-7 or remove the USB drive during the software update process.
+**Не** Удалите питание на ED-5/ED-7 или удалите USB-накопитель во время процесса обновления программного обеспечения.
 
 ![[00e00325.png]]
 
-Do **not** remove the USB drive from the ED-5/ED-7 unless instructed to do so.
+Не удаляйте USB-накопитель из ED-5/ED-7, если не указано это сделать.
 
-The ED-5/ED-7 will cycle its power and restart after a software download is complete and the USB drive is removed.
+ED-5/ED-7 будет циклично использовать свою мощность и перезагружаться после завершения загрузки программного обеспечения и удаления USB-накопителя.
 
-Verify the ED-5/ED-7 software is updated by accessing the “About” page. See Preparatory Steps above.
+Проверить программное обеспечение ED-5/ED-7 можно, перейдя на страницу «О нас». См. подготовительные шаги выше.
 
-Once the ED-5/ED-7 restarts, follow the prompts on the display screen to calibrate the touch. After the touch calibration is complete, the data screen is loaded, and display is ready to use.
+После перезапуска ED-5/ED-7 следуйте подсказкам на экране дисплея, чтобы откалибровать прикосновение. После завершения калибровки сенсора экран данных загружается, и дисплей готов к использованию.
 
 ![[00e00326.png]]
 
-### Troubleshooting
+### устранение неполадок
 
-ED-4
+ЭД-4
 
-USB Error Message
+USB ошибка
 
-After a USB drive is connected to an ED-4, a USB error message may be noticed when plugged into a computer. This is normal due to the operating system interoperability between development environment (Linux) used to create and run the ED-4 software with the computer running on different operating system (Windows). It is **not** a functional issue, and will be how the system behaves. If software is changed due to a boot loader issue, a red screen error will display before continuing and a reboot of ED-4 will required to complete the software download process.
+После подключения USB-накопителя к ED-4 сообщение об ошибке USB может быть замечено при подключении к компьютеру. Это нормально из-за совместимости операционной системы между средой разработки (Linux), используемой для создания и запуска программного обеспечения ED-4 с компьютером, работающим на разных операционных системах (Windows). Это не функциональная проблема, и это будет то, как система ведет себя. Если программное обеспечение изменяется из-за проблемы загрузки, перед продолжением будет отображаться ошибка красного экрана, и для завершения процесса загрузки программного обеспечения потребуется перезагрузка ED-4.
 
-If unable to transfer a file from the computer to the USB drive, try the following:
+Если вы не можете перенести файл с компьютера на USB-накопитель, попробуйте следующее:
 
-Get a new file, save it to the USB drive, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+Получите новый файл, сохраните его на USB-накопитель и попробуйте снова. Файл может быть поврежден или изменен. Файлы, измененные из несанкционированного источника, будут **не** читаться правильно и могут **не** загружаться.
 
-If there is an issue that keeps the ED-4 software from loading, try the following:
+Если есть проблема, которая не позволяет загрузить программное обеспечение ED-4, попробуйте следующее:
 
-1. Verify a proper USB drive is being used. If needed, try using a different USB drive.
-2. Verify the software has been unzipped on the USB drive and has the proper file structure.
-3. Verify the system enable switch is ON and ED-4 display is powered up.
-4. Verify the USB and extension cable, if used, is plugged in securely.
-5. After installing the USB drive, leave the USB drive plugged into the display for 1 minute to allow time to recognize the USB drive.
-6. After installing the USB drive, cycle power to the ED-4 using the system enable switch.
-7. Try the load process again.
+1. Проверьте, используется ли правильный USB-накопитель. Если необходимо, попробуйте использовать другой USB-накопитель.
+2. Проверьте, что программное обеспечение было отключено на USB-накопителе и имеет правильную структуру файла.
+3. Проверьте, включен ли переключатель системы, и включен дисплей ED-4.
+4. Проверьте, что USB и кабель расширения, если они используются, подключены надежно.
+5. После установки USB-накопителя оставьте USB-накопитель подключенным к дисплею в течение 1 минуты, чтобы дать время для распознавания USB-накопителя.
+6. После установки USB-накопителя, питание цикла на ED-4 с помощью системы включает переключатель.
+7. Попробуйте снова процесс загрузки.
 
-If the ED-4 does **not** recognize the USB drive after it is plugged in, cycle power to the ED-4 using the system enable switch.
+Если ED-4 не распознает USB-накопитель после его подключения, питание цикла к ED-4 с помощью системы включает переключатель.
 
-> [!note] Note · Примечание
-> If the USB drive is removed without pressing key 5 or “eject”, the ED-4 will **not** recognize the USB drive again until the power to the ED-4 is cycled.
+> [!note] Примечание
+> Если USB-накопитель удален без нажатия клавиши 5 или «выброс», ED-4 будет **не** распознавать USB-накопитель снова, пока питание на ED-4 не будет циклично.
 
-If the USB drive is removed before the software download completes, the ED-4 will get stuck at the message “Preparing For Update...” screen message indefinitely.
+Если USB-накопитель удаляется до завершения загрузки программного обеспечения, ED-4 будет застревать в сообщении «Подготовка к обновлению...» на экране.
 
-If error occurs, try the following:
+Если ошибка произошла, попробуйте следующее:
 
-- Install the USB drive and try again.
+- Установите USB-накопитель и попробуйте снова.
 
-> [!note] Note · Примечание
-> System enable switch cycle OFF-ON can be done to reboot ED-4 with previous installed version of software.
+> [!note] Примечание
+> Система включения цикла переключения OFF-ON может быть выполнена для перезагрузки ED-4 с предыдущей установленной версией программного обеспечения.
 
-File related failures:
+Связанные с файлами сбои:
 
-- If the software file package is corrupt or incomplete on the USB drive, a blue screen will be followed by a red screen. The ED-4 will get stuck at the red screen during the software download.
-- If the software file package is incomplete on the USB drive, a blue screen will flash constantly on the ED-4.
-- If the software file package is incomplete on the USB drive, the ED-4 shows the message "Error During Update. Please Remove USB Drive And Retry." on a flashing red screen.
+- Если пакет программного обеспечения поврежден или неполен на USB-накопителе, за синим экраном будет следовать красный экран. ED-4 застрянет на красном экране во время загрузки программного обеспечения.
+- Если пакет файлов программного обеспечения неполный на USB-накопителе, на ED-4 постоянно будет мигать синий экран.
+- Если пакет программных файлов неполный на USB-накопителе, на ED-4 отображается сообщение "Ошибка во время обновления". Пожалуйста, удалите USB-накопитель и вернитесь на мигающий красный экран.
 
-If error occurs, try the following:
+Если ошибка произошла, попробуйте следующее:
 
-- Get a new file, save it to the USB drive, and try again.
+- Получите новый файл, сохраните его на USB-накопитель и попробуйте снова.
 
-> [!note] Note · Примечание
-> System enable switch cycle OFF-ON can be done to reboot ED-4 with previous installed version of software.
+> [!note] Примечание
+> Система включения цикла переключения OFF-ON может быть выполнена для перезагрузки ED-4 с предыдущей установленной версией программного обеспечения.
 
-Process related failures requiring an ED-4 recovery:
+Неисправности, связанные с процессом, требующие восстановления ЭД-4:
 
-- If the USB drive has multiple software file packages, during the download the ED-4 will get stuck at a red screen. After a system enable switch OFF-ON, the ED-4 will be stuck at a gray screen.
-- If the system enable switch is pushed OFF or power is interrupted to the ED-4 before the software download completes, then the ED-4 will go into a loop of restarts showing the Cummins® Splash screen after reboot.
-- If the USB drive is removed before the software download completes, the ED-4 will get stuck at the message “Updating - Please Wait…” screen message indefinitely. After a system enable OFF-ON, the ED-4 will be stuck at gray screen.
+- Если на USB-накопителе имеется несколько пакетов программных файлов, то во время загрузки ED-4 застрянет на красном экране. После того, как система включает переключение OFF-ON, ED-4 будет застревать на сером экране.
+- Если выключатель системы включен выключен или питание прервано на ED-4 до завершения загрузки программного обеспечения, то ED-4 перейдет в цикл перезапуска, показывающий экран Cummins® Splash после перезагрузки.
+- Если USB-накопитель удален до завершения загрузки программного обеспечения, ED-4 будет застревать в сообщении экрана «Обновление - Пожалуйста, подождите...» на неопределенный срок. После включения системы OFF-ON ED-4 будет застревать на сером экране.
 
-If an error occurs, recovery steps for ED-4 are:
+Если ошибка возникает, этапы восстановления для ED-4:
 
-1. Turn system enable switch OFF.
-2. Load the correct ED-4 software package on the USB drive.
-3. Install the USB drive.
-4. Hold Key 1 and Key 5.
-5. Turn system enable switch ON.
-6. ED-4 will start loading the software to recover from the intermediate non-functional state the ED-4 unit had been in.
+1. Система поворота позволяет выключать переключение.
+2. Загрузите правильный пакет программного обеспечения ED-4 на USB-накопитель.
+3. Установите USB-накопитель.
+4. Держите ключ 1 и ключ 5.
+5. Система включения включает переключатель.
+6. ED-4 начнет загрузку программного обеспечения для восстановления из промежуточного нефункционального состояния, в котором находился блок ED-4.
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-If unable to transfer a file from the computer to the USB drive, try the following:
+Если вы не можете перенести файл с компьютера на USB-накопитель, попробуйте следующее:
 
-Get a new file, save it to the USB drive, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+Получите новый файл, сохраните его на USB-накопитель и попробуйте снова. Файл может быть поврежден или изменен. Файлы, измененные из несанкционированного источника, будут **не** читаться правильно и могут **не** загружаться.
 
-During the software update process, if the Software Update option is selected and ED-5/ED-7 screen shows eject successful message this means that were problems reading the information on the USB Stick or the display is unable to load the software update.
+В процессе обновления программного обеспечения, если выбрана опция «Обновление программного обеспечения» и экран ED-5/ED-7 показывает выброшенное успешное сообщение, это означает, что были проблемы с чтением информации на USB Stick или дисплей не может загрузить обновление программного обеспечения.
 
-If there is an issue that keeps the ED-5 / ED-7 software from loading, try the following:
+Если есть проблема, которая не позволяет загрузить программное обеспечение ED-5 / ED-7, попробуйте следующее:
 
-1. Verify a proper USB drive is being used. If needed, try using a different USB drive.
-2. Verify the software has been unzipped on the USB drive and has the proper file structure.
-3. Verify the USB and extension cable, if used, is plugged in securely.
-4. Locate the red button beside the USB port on the display.
-5. Using a little screwdriver hold the red button.
-6. Switch the system enable switch ON and ED-5 / ED-7 display is powered up.
-7. The display shall start loading the software displaying “Updating – Please wait”.
-8. Once software load is completed.
+1. Проверьте, используется ли правильный USB-накопитель. Если необходимо, попробуйте использовать другой USB-накопитель.
+2. Проверьте, что программное обеспечение было отключено на USB-накопителе и имеет правильную структуру файла.
+3. Проверьте, что USB и кабель расширения, если они используются, подключены надежно.
+4. Найдите красную кнопку рядом с портом USB на дисплее.
+5. Используя маленькую отвертку, держите красную кнопку.
+6. Переключатель системы включает включение переключателя и включается дисплей ED-5/ED-7.
+7. Дисплей должен начать загрузку программного обеспечения с отображением «Обновление - Пожалуйста, подождите».
+8. После завершения загрузки программного обеспечения.
 
-If the ED-5 / ED-7 does **not** recognize the USB drive after it is plugged in, cycle power to the ED-5 / ED-7 using the system enable switch.
+Если ED-5/ED-7 не распознает USB-накопитель после его подключения, то питание от цикла к ED-5/ED-7 с помощью системы включает переключатель.
 
-If the USB drive is removed before the software download completes, the ED-5/ED-7 will get stuck at the message “Preparing For Update...” screen message indefinitely.
+Если USB-накопитель удален до завершения загрузки программного обеспечения, ED-5/ED-7 будет застревать в сообщении «Подготовка к обновлению...» на экране сообщения на неопределенный срок.
 
-If error occurs, try the following:
+Если ошибка произошла, попробуйте следующее:
 
-- Install the USB drive and try again.
+- Установите USB-накопитель и попробуйте снова.
 
-> [!note] Note · Примечание
-> System enable switch cycle OFF-ON can be done to reboot ED-5/ED-7 with previous installed version of software.
+> [!note] Примечание
+> Система включения переключателя цикла OFF-ON может быть выполнена для перезагрузки ED-5/ED-7 с предыдущей установленной версией программного обеспечения.
 
-File related failures:
+Связанные с файлами сбои:
 
-- If the software file package is corrupt or incomplete on the USB drive, the ED-5/ED-7 shows the message “Error During Update. Please Remove USB Stick And Retry.” on a flashing red screen.
-- If the software file package installed is incomplete, the ED-5/ED-7 shows the message “Invalid Configuration. Insert valid USB stick.”
+- Если программный пакет файлов поврежден или неполен на USB-накопителе, на ED-5/ED-7 отображается сообщение "Ошибка во время обновления. Пожалуйста, удалите USB Stick and Retry" на мигающем красном экране.
+- Если установленный пакет программных файлов неполный, то на ED-5/ED-7 указывается сообщение "Недействительная конфигурация. Включить действующую USB-накопитель".
 
-If error occurs, try the following:
+Если ошибка произошла, попробуйте следующее:
 
-- Get a new file, save it to the USB drive, and try again.
+- Получите новый файл, сохраните его на USB-накопитель и попробуйте снова.
 
-> [!note] Note · Примечание
-> System enable switch cycle OFF-ON can be done to reboot ED-5/ED-7 with previous installed version of software.
+> [!note] Примечание
+> Система включения переключателя цикла OFF-ON может быть выполнена для перезагрузки ED-5/ED-7 с предыдущей установленной версией программного обеспечения.
 
-Process related failures requiring an ED-5/ED-7 recovery:
+Неисправности, связанные с процессом, требующие восстановления ED-5/ED-7:
 
-- If the system enable switch is pushed OFF or power is interrupted to the ED-5/ED-7 before the software download completes, then the ED-5/ED-7 will go into a loop of restarts showing the Cummins® Splash screen after reboot
-- If the ED-5/ED-7 keeps showing “Eject USB. Successful” message when trying to upload the software.
-- If the USB drive is removed before the software download completes, the ED-5/ED-7 will get stuck at the message “Updating - Please Wait…” screen message indefinitely. After a system enable OFF-ON, the ED-5/ED-7 will be stuck at gray screen.
+- Если выключатель системы включен выключен или питание прервано на ED-5/ED-7 до завершения загрузки программного обеспечения, то ED-5/ED-7 перейдет в цикл перезапуска, показывающий экран Cummins® Splash после перезагрузки.
+- Если ED-5/ED-7 продолжает показывать "Выбросить USB. Успешное сообщение при попытке загрузить программное обеспечение.
+- Если USB-накопитель удален до завершения загрузки программного обеспечения, ED-5/ED-7 будет застревать в сообщении экрана «Обновление - Пожалуйста, подождите...» на неопределенный срок. После включения системы ED-5/ED-7 будет застревать на сером экране.
 
-If an error occurs, recovery steps for ED-5/ED-7 are:
+Если ошибка возникает, этапы восстановления для ED-5/ED-7:
 
-- Turn system enable switch OFF.
-- Load the correct ED-5/ED-7 software package on the USB drive.
-- Install the USB drive.
-- Using a little screwdriver hold the red button.
-- Switch the system enable switch ON and ED-5 / ED-7 display is powered up.
-- The display shall start loading the software displaying “Updating – Please wait”.
-- Once software load is completed.
+- Система поворота позволяет выключать переключение.
+- Загрузите правильный пакет программного обеспечения ED-5 / ED-7 на USB-накопитель.
+- Установите USB-накопитель.
+- Используя маленькую отвертку, держите красную кнопку.
+- Переключатель системы включает включение переключателя и включается дисплей ED-5/ED-7.
+- Дисплей должен начать загрузку программного обеспечения с отображением «Обновление - Пожалуйста, подождите».
+- После завершения загрузки программного обеспечения.
 
-If the ED-5/ED-7 display does **not** recognize the touch screen accurately, touch screen calibration steps for ED-5/ED-7 are:
+Если дисплей ED-5/ED-7 не распознает сенсорный экран точно, то для ED-5/ED-7 используются следующие шаги калибровки:
 
-1. Turn system enable switch ON.
-2. Press and hold at any location on the screen for 30 seconds.
-3. The display shall load the screen to calibrate touch displaying “Calibrate Touch”.
-4. Follow the screen prompts to touch each of the crosses as they appear on the screen in the different location on the screen.
-5. Once the touch calibration process is completed, the display data screen will be loaded.
+1. Система включения включает переключатель.
+2. Нажмите и удерживайте в любом месте на экране в течение 30 секунд.
+3. Дисплей должен загружать экран для калибровки сенсорного отображения «Calibrate Touch».
+4. Следуйте за экраном, чтобы коснуться каждого из крестов, когда они появляются на экране в разных местах на экране.
+5. После завершения процесса калибровки касания экран данных дисплея будет загружен.
 
 ![[00e00327.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-ED-4
+ЭД-4
 
-> [!warning] CAUTION · Осторожно
+> [!warning] ОСТОРОЖНО
+> После обновления программного обеспечения или файла личности судна в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и обновить настройки конфигурации и индивидуальность сосуда компонента.
+
+После обновления программного обеспечения ED-4 обратитесь к следующим процедурам для настройки конфигурации и тестирования:
+
+- Необходимо будет обновить файл личности судна. Используйте следующую процедуру для получения информации об управлении персоналом судна.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]].
+- Для настройки используйте следующую процедуру.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]. Дисплей ED-4 может быть настроен по-разному в зависимости от его местоположения.
+- Для настройки используйте следующую процедуру.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе]]1.
+- Все функции управления Cummins® Marine Controls должны быть протестированы перед выходом из дока после служебного мероприятия.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]].
+
+После обновления программного обеспечения, если есть новый код тревоги или жалоба на производительность, следуйте коду тревоги или соответствующему дереву симптомов устранения неполадок, чтобы понять, работает ли программное обеспечение должным образом и является ли оно подходящим программным обеспечением для приложения.
+
+Если есть подозрение, что программное обеспечение работает неправильно, убедитесь, что соответствующий файл был загружен для ED-4, двигателя, оборудования и приложения.
+
+> [!note] Примечание
+> В «Справочнике отслеживания файлов программного обеспечения Cummins ED-4 Display» в онлайн-версии Cummins QuickServe® «Справочник Cummins ED-4 Display» содержится информация об изменениях, внесенных в файл программного обеспечения. Эта информация может быть использована для установления, существует ли общность между изменениями, внесенными в программное обеспечение, и наблюдаемыми симптомами.
+
+ED-5 и ED-7
+
+> [!warning] ОСТОРОЖНО
+> После обновления программного обеспечения или конфигурации в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и обновить настройки конфигурации компонента.
+
+После обновления программного обеспечения ED-5/ED-7 обратитесь к следующим процедурам для настройки конфигурации и тестирования:
+
+- Необходимо будет обновить файл личности судна. Используйте следующую процедуру для получения информации об управлении персоналом судна.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]]
+- Для настройки используйте следующую процедуру.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
+- Для настройки используйте следующую процедуру.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе 1.]]
+- Все функции управления Cummins® Marine Controls должны быть протестированы перед выходом из дока после служебного мероприятия.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+
+После обновления программного обеспечения, если есть новый код тревоги или жалоба на производительность, следуйте коду тревоги или соответствующему дереву симптомов устранения неполадок, чтобы понять, работает ли программное обеспечение должным образом и является ли оно подходящим программным обеспечением для приложения.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> ED-4
+>
+> #### Recommended Cummins® Service Tools
+>
+> - USB (universal serial bus) extension cable, Part Number 5394862 (if needed for access).
+>
+> #### Additional Service Items
+>
+> - USB drive
+>
+> ED-5 and ED-7
+>
+> #### Recommended Cummins® Service Tools
+>
+> - USB (universal serial bus) extension cable, Part Number 5394862 (if needed for access).
+>
+> #### Additional Service Items
+>
+> - USB drive
+>
+> ### General Information
+>
+> ED-4
+>
+> The Cummins® C Command Connect and Connect Premier Marine Panel System ED-4 display(s) are preloaded with software from the factory. The Cummins® ED-4 Display software and vessel personality file **must** be updated and configured prior to proper operation of the display.
+>
+> **Note · Примечание**
+> A tag is located in the C.I.B. for referencing the software and vessel personality file file loaded in the helm and C.I.B. ED-4s during initial system installation at the original equipment manufacturer (OEM). This tag should be updated after ED-4 software or vessel personality file modification.
+>
+> **Note · Примечание**
+> Updating software erases the configuration settings, event logs, controller area network (CAN) logs, and all vessel personality files in the ED-4.
+>
+> The Cummins QuickServe® Online contains a tracking sheet and files. After entering the engine serial number or engine model search, the webpage can be found by clicking the following links: Service, Related Information, Marine Panel Firmware Updates, and ED-4.
+>
+> Cummins QuickServe® Online Marine Panel Firmware Updates – ED-4, contains files and a tracking sheet with information about each file, which helps select the correct file and revision level for the component
+>
+> **Note · Примечание**
+> The Cummins® Marine Application Engineering group updates the “Cummins ED-4 Display Software File Tracking Sheet” with file name, version, and description of the component it is intended for.
+>
+> The file name format below is an example. Refer to the software file tracking sheet for specific information.
+>
+> Software File Folder Name format: “AAA xxx.zip”
+>
+> Where:
+>
+> AAA = product name.
+>
+> - ED4 = ED-4 Display Software.
+>
+> xxx = Software version (examples)
+>
+> - 5.5 = 505
+> - 5.12 = 512
+> - 5.30 = 530
+> - 5.50 = 550
+>
+> The software file **must** be unzipped and saved in the root directory of the USB drive before the ED-4 can recognize it.
+>
+> **Note · Примечание**
+> WINZIP may **not** function properly in unzipping ED-4 software files and may result in partial unzipping. The Windows Explorer Extraction Tool or WINRAR, available on the Cummins software shelf, is recommended for unzipping ED-4 software files.
+>
+> Example of a typical file / folder structure of the USB drive for ED-4 software and vessel personality file.
+>
+> **Note · Примечание**
+> Except for the folder named “vessel personality file” and “LOGS”, all remaining files and folders should be removed from the USB drive prior to saving software from the Cummins QuickServe® Online.
+>
+> **Note · Примечание**
+> Prior to installing the USB drive into an ED-4, **only** one software file / folder structure should be saved on the USB drive. Multiple software files on the USB drive may cause the ED-4 to lock up or fail the update process.
+>
+> ED-5 and ED-7
+>
+> The Cummins® C Command Connect and Connect Premier Marine Panel System ED-5 / ED-7 display(s) are preloaded with software packaged with vessel personality file from the factory. The Cummins® ED-5 / ED-7 display vessel personality file **must** be configured prior to proper operation of the display.
+>
+> **Note · Примечание**
+> Updating software erases the configuration settings, event logs, controller area network (CAN) logs, in the ED-5/ED-7.
+>
+> The Cummins QuickServe® Online contains a tracking sheet to ensure selection of the display vessel personality file(s) for application type. After entering the engine serial number or engine model search, the webpage can be found by clicking the following links: Service, Related Information, Marine Panel Firmware Updates, and ED-5 / ED-7.
+>
+> Cummins QuickServe® Online Marine Panel Firmware Updates – ED-5 / ED-7, contains software files and a tracking sheet with information about preloaded software and vessel personality file(s) for application types, which helps select the correct file and revision level for the display use.
+>
+> **Note · Примечание**
+> The Cummins® Marine Application Engineering group updates the “Cummins ED-5 ED-7 Display Software File Tracking Sheet” with description of Vessel Personality files / themes preloaded with the software the component it is intended for.
+>
+> The file name format below is an example. Refer to the software file tracking sheet for specific information.
+>
+> Software File Folder Name format: “AAA xxxxx.zip”
+>
+> Where:
+>
+> AAA = product name.
+>
+> - ED5 / ED-7 = ED-5 / ED-7 Display Software.
+>
+> xxxxx = Software version (examples)
+>
+> - 0.1.0 = 010
+> - 0.2.0 = 020
+> - 0.3.0 = 030
+> - 0.4.0 = 040
+>
+> The software file **must** be unzipped and saved in the root directory of the USB drive before the ED-5/ED-7 can recognize it.
+>
+> **Note · Примечание**
+> WINZIP may **not** function properly in unzipping ED-5/ED-7 software files and may result in partial unzipping. The Windows Explorer Extraction Tool or WINRAR, available on the Cummins software shelf, is recommended for unzipping ED-5/ED-7 software files.
+>
+> Example of a typical file / folder structure of the USB drive for ED-5/ED-7 software and vessel personality file.
+>
+> **Note · Примечание**
+> Except for the folder named “config” and “LOGS”, all remaining files and folders should be removed from the USB drive prior to saving software from the Cummins QuickServe® Online.
+>
+> **Note · Примечание**
+> Prior to installing the USB drive into an ED-5/ED-7, **only** one software file / folder structure should be saved on the USB drive. Multiple software files on the USB drive may cause the ED-5/ED-7 to lock up or fail the update process.
+>
+> ### Preparatory Steps
+>
+> ED-4
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+>
+> **CAUTION · Осторожно**
+> Before updating the software or vessel personality file in any control system component, verify that the vessel control system is completely operational. It is also important to test and document the configuration settings and vessel personality of the component.
+>
+> The software and vessel personality file information of the ED-4 display can be viewed by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”.
+> - Select “About” and press key 4 or “Enter”.
+> - Press key 3 or “vessel personality file” for vessel personality file information.
+> - Press key 4 or “Info” for software information.
+>
+> Important information on the page.
+>
+> - Part number – for software compatibility.
+> - SW Serial Number – Serial Number of the ED-4 display.
+> - SW Version – Software version loaded in display.
+>
+> When finished:
+>
+> Press key 5 or “Back” to exit the page.
+>
+> Press key 5 or “Exit” to return to the data screen page.
+>
+> Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
+>
+> Reference the following procedures for testing and configuration setup information:
+>
+> - Verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15]].
+> - Download log files from the ED-4 display for future use. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15]].
+> - Document the ED-4 display software, vessel personality file, source address(s), and configuration settings. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 1]] 5.
+> - If needed, export the existing vessel personality file used by the ED-4. Use the following procedure to find and select ED-4 vessel personality file when updates are required. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
+>
+> ED-5 and ED-7
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+>
+> **CAUTION · Осторожно**
+> Before updating the software or vessel personality file in any control system component, verify that the vessel control system is completely operational. It is also important to test and document the configuration settings and vessel personality of the component.
+>
+> The software and vessel personality file information of the ED-5/ED-7 display can be viewed by press in the middle of data screen page or press and hold the “Enter/Select” button on the remote keypad.
+>
+> Action:
+>
+> - Press in the middle of the data screen or press and hold the “Enter/Select” button on the remote keypad.
+> - Select “About” or press “Down” to select “About” and press “Enter/Select” button on the remote keypad.
+> - Press “Config” or press “Down” and press “Enter/Select” button for vessel personality file information.
+>
+> Important information on the page.
+>
+> - Part number – for software compatibility.
+> - Serial Number – Serial Number of the ED-5/ED-7 display.
+> - Software Version – Software version loaded in display.
+>
+> When finished:
+>
+> Swipe left to right or use “Back”(IV) soft key on the screen or “Return/Exit” to exit the page.
+>
+> Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
+>
+> Reference the following procedures for testing and configuration setup information:
+>
+> - Verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+> - Download log files from the ED-5/ED-7 display for future use. [[513-015-035 — Display(s) and Instrumentation|Refer to Procedure 015-035 in Section 15.]]
+> - Document the ED-5/ED-7 display software, vessel personality file, source address(s), and configuration settings. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+>
+> ### Setup Information
+>
+> ED-4
+>
+> Access the USB port on the rear of the ED-4 display by removing the seal port.
+>
+> For C.I.B. mounted ED-4 displays, use the following procedure for information on accessing the ED-4 display USB port. Refer to Procedure 015-023 in Section 15
+>
+> **Note · Примечание**
+> It is important to verify the rubber USB seal port is properly installed after a software or vessel personality file update. If **not**, the ED-4 may be exposed to the environment and result in internal damage.
+>
+> ED-5 and ED-7
+>
+> Access the USB port on the rear of the ED-5/ED-7 display by removing the seal port. The USB port seal should be moved 90 degrees towards the top of the display to help retain and secure the USB port seal back on the display.
+>
+> **Note · Примечание**
+> It is important to verify the rubber USB seal port is properly installed after a software or vessel personality file update. If **not**, the ED-5/ED-7 may be exposed to the environment and result in internal damage.
+>
+> ### Importing
+>
+> ED-4
+>
+> **Note · Примечание**
+> Prior to software update, document the ED-4 display(s) source address(s) and configuration settings. See the Preparatory Steps section above.
+>
+> Each ED-4 display on the vessel has its own USB connection and the software **must** be updated separately to each.
+>
+> The process of loading a software to the ED-4 display is as follows.
+>
+> 1. Turn the system enable switch power ON, engine OFF, and verify the ED-4 display screen is on.
+> 2. Connect the USB drive to the ED-4 USB port.
+>
+> Once the USB drive is detected by the ED-4, the following options will be shown:
+>
+> 1. Load vessel personality file
+> 2. Save current vessel personality file
+> 3. Export log(s)
+> 4. Perform software update.
+>
+> Action:
+>
+> - Press key 2 or “Down” to scroll to “Load vessel personality file”.
+> - Press key 4 or “Choose”.
+>
+> Read the prompts on the ED-4 screen during the importing process.
+>
+> Do **not** remove power to the ED-4 or remove the USB drive during the import process.
+>
+> **Note · Примечание**
+> If an alarm pop up message occurs while the USB drive is installed, press key 5 or “Close” to acknowledge and remove the message. Then, press key 5 or “Menu” to return to the USB drive options.
+>
+> **Note · Примечание**
+> Pressing key 3 or “Leave” will return to main selection screen.
+>
+> To initialize software update, press and hold down keys 1 and 5 until a bright blue screen appears.
+>
+> Read the prompts on the ED-4 screen during the importing process.
+>
+> Do **not** remove power to the ED-4 or remove the USB drive during the import process.
+>
+> **Note · Примечание**
+> It takes approximately 3 minutes to import software from the USB drive.
+>
+> Do **not** remove the USB drive from the ED-4 unless instructed to do so.
+>
+> The ED-4 will cycle its power and restart after a software download is complete and the USB drive is removed.
+>
+> Verify the ED-4 software is updated by accessing the “About” page. See Preparatory Steps above.
+>
+> ED-5 and ED-7
+>
+> **Note · Примечание**
+> Prior to software update, document the ED-5/ED-7 display(s) source address(s) and configuration settings. See the Preparatory Steps section above.
+>
+> Each ED-5/ED-7 display on the vessel has its own USB connection and the software **must** be updated separately to each.
+>
+> The process of loading a software to the ED-5/ED-7 display is as follows.
+>
+> 1. Turn the system enable switch power ON, engine OFF, and verify the ED-5/ED-7 display screen is on.
+> 2. Connect the USB drive to the ED-5/ED-7 USB port.
+>
+> Once the USB drive is detected by the ED-5/ED-7, the following options will be shown:
+>
+> 1. Software update
+> 2. Offload log files
+> 3. Offload configuration files
+>
+> Action:
+>
+> - Select Software Update or “Offload Log Files” to import log files.
+> - Select “Offload Config Files” to import configuration settings from the ED-5/ED-7.
+> - Swipe left to right on the screen to exit the screen and safely ejecting the USB drive.
+>
+> Read the prompts on the ED-5/ED-7 screen during the importing process.
+>
+> Do **not** remove power to the ED-5/ED-7 or remove the USB drive during the import process.
+>
+> **Note · Примечание**
+> If an alarm pop up message occurs while the USB drive is installed, Swipe left to right on the screen to acknowledge and remove the message.
+>
+> **Note · Примечание**
+> Swipe left to right on the screen or use “Back”(IV) soft key on the screen to return to main screen and safe ejection of USB drive.
+>
+> To initialize software update, press Software Update. It takes approximately one minute to perform software update.
+>
+> Do **not** remove power to the ED-5/ED-7 or remove the USB drive during the software update process.
+>
+> Do **not** remove the USB drive from the ED-5/ED-7 unless instructed to do so.
+>
+> The ED-5/ED-7 will cycle its power and restart after a software download is complete and the USB drive is removed.
+>
+> Verify the ED-5/ED-7 software is updated by accessing the “About” page. See Preparatory Steps above.
+>
+> Once the ED-5/ED-7 restarts, follow the prompts on the display screen to calibrate the touch. After the touch calibration is complete, the data screen is loaded, and display is ready to use.
+>
+> ### Troubleshooting
+>
+> ED-4
+>
+> USB Error Message
+>
+> After a USB drive is connected to an ED-4, a USB error message may be noticed when plugged into a computer. This is normal due to the operating system interoperability between development environment (Linux) used to create and run the ED-4 software with the computer running on different operating system (Windows). It is **not** a functional issue, and will be how the system behaves. If software is changed due to a boot loader issue, a red screen error will display before continuing and a reboot of ED-4 will required to complete the software download process.
+>
+> If unable to transfer a file from the computer to the USB drive, try the following:
+>
+> Get a new file, save it to the USB drive, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+>
+> If there is an issue that keeps the ED-4 software from loading, try the following:
+>
+> 1. Verify a proper USB drive is being used. If needed, try using a different USB drive.
+> 2. Verify the software has been unzipped on the USB drive and has the proper file structure.
+> 3. Verify the system enable switch is ON and ED-4 display is powered up.
+> 4. Verify the USB and extension cable, if used, is plugged in securely.
+> 5. After installing the USB drive, leave the USB drive plugged into the display for 1 minute to allow time to recognize the USB drive.
+> 6. After installing the USB drive, cycle power to the ED-4 using the system enable switch.
+> 7. Try the load process again.
+>
+> If the ED-4 does **not** recognize the USB drive after it is plugged in, cycle power to the ED-4 using the system enable switch.
+>
+> **Note · Примечание**
+> If the USB drive is removed without pressing key 5 or “eject”, the ED-4 will **not** recognize the USB drive again until the power to the ED-4 is cycled.
+>
+> If the USB drive is removed before the software download completes, the ED-4 will get stuck at the message “Preparing For Update...” screen message indefinitely.
+>
+> If error occurs, try the following:
+>
+> - Install the USB drive and try again.
+>
+> **Note · Примечание**
+> System enable switch cycle OFF-ON can be done to reboot ED-4 with previous installed version of software.
+>
+> File related failures:
+>
+> - If the software file package is corrupt or incomplete on the USB drive, a blue screen will be followed by a red screen. The ED-4 will get stuck at the red screen during the software download.
+> - If the software file package is incomplete on the USB drive, a blue screen will flash constantly on the ED-4.
+> - If the software file package is incomplete on the USB drive, the ED-4 shows the message "Error During Update. Please Remove USB Drive And Retry." on a flashing red screen.
+>
+> If error occurs, try the following:
+>
+> - Get a new file, save it to the USB drive, and try again.
+>
+> **Note · Примечание**
+> System enable switch cycle OFF-ON can be done to reboot ED-4 with previous installed version of software.
+>
+> Process related failures requiring an ED-4 recovery:
+>
+> - If the USB drive has multiple software file packages, during the download the ED-4 will get stuck at a red screen. After a system enable switch OFF-ON, the ED-4 will be stuck at a gray screen.
+> - If the system enable switch is pushed OFF or power is interrupted to the ED-4 before the software download completes, then the ED-4 will go into a loop of restarts showing the Cummins® Splash screen after reboot.
+> - If the USB drive is removed before the software download completes, the ED-4 will get stuck at the message “Updating - Please Wait…” screen message indefinitely. After a system enable OFF-ON, the ED-4 will be stuck at gray screen.
+>
+> If an error occurs, recovery steps for ED-4 are:
+>
+> 1. Turn system enable switch OFF.
+> 2. Load the correct ED-4 software package on the USB drive.
+> 3. Install the USB drive.
+> 4. Hold Key 1 and Key 5.
+> 5. Turn system enable switch ON.
+> 6. ED-4 will start loading the software to recover from the intermediate non-functional state the ED-4 unit had been in.
+>
+> ED-5 and ED-7
+>
+> If unable to transfer a file from the computer to the USB drive, try the following:
+>
+> Get a new file, save it to the USB drive, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+>
+> During the software update process, if the Software Update option is selected and ED-5/ED-7 screen shows eject successful message this means that were problems reading the information on the USB Stick or the display is unable to load the software update.
+>
+> If there is an issue that keeps the ED-5 / ED-7 software from loading, try the following:
+>
+> 1. Verify a proper USB drive is being used. If needed, try using a different USB drive.
+> 2. Verify the software has been unzipped on the USB drive and has the proper file structure.
+> 3. Verify the USB and extension cable, if used, is plugged in securely.
+> 4. Locate the red button beside the USB port on the display.
+> 5. Using a little screwdriver hold the red button.
+> 6. Switch the system enable switch ON and ED-5 / ED-7 display is powered up.
+> 7. The display shall start loading the software displaying “Updating – Please wait”.
+> 8. Once software load is completed.
+>
+> If the ED-5 / ED-7 does **not** recognize the USB drive after it is plugged in, cycle power to the ED-5 / ED-7 using the system enable switch.
+>
+> If the USB drive is removed before the software download completes, the ED-5/ED-7 will get stuck at the message “Preparing For Update...” screen message indefinitely.
+>
+> If error occurs, try the following:
+>
+> - Install the USB drive and try again.
+>
+> **Note · Примечание**
+> System enable switch cycle OFF-ON can be done to reboot ED-5/ED-7 with previous installed version of software.
+>
+> File related failures:
+>
+> - If the software file package is corrupt or incomplete on the USB drive, the ED-5/ED-7 shows the message “Error During Update. Please Remove USB Stick And Retry.” on a flashing red screen.
+> - If the software file package installed is incomplete, the ED-5/ED-7 shows the message “Invalid Configuration. Insert valid USB stick.”
+>
+> If error occurs, try the following:
+>
+> - Get a new file, save it to the USB drive, and try again.
+>
+> **Note · Примечание**
+> System enable switch cycle OFF-ON can be done to reboot ED-5/ED-7 with previous installed version of software.
+>
+> Process related failures requiring an ED-5/ED-7 recovery:
+>
+> - If the system enable switch is pushed OFF or power is interrupted to the ED-5/ED-7 before the software download completes, then the ED-5/ED-7 will go into a loop of restarts showing the Cummins® Splash screen after reboot
+> - If the ED-5/ED-7 keeps showing “Eject USB. Successful” message when trying to upload the software.
+> - If the USB drive is removed before the software download completes, the ED-5/ED-7 will get stuck at the message “Updating - Please Wait…” screen message indefinitely. After a system enable OFF-ON, the ED-5/ED-7 will be stuck at gray screen.
+>
+> If an error occurs, recovery steps for ED-5/ED-7 are:
+>
+> - Turn system enable switch OFF.
+> - Load the correct ED-5/ED-7 software package on the USB drive.
+> - Install the USB drive.
+> - Using a little screwdriver hold the red button.
+> - Switch the system enable switch ON and ED-5 / ED-7 display is powered up.
+> - The display shall start loading the software displaying “Updating – Please wait”.
+> - Once software load is completed.
+>
+> If the ED-5/ED-7 display does **not** recognize the touch screen accurately, touch screen calibration steps for ED-5/ED-7 are:
+>
+> 1. Turn system enable switch ON.
+> 2. Press and hold at any location on the screen for 30 seconds.
+> 3. The display shall load the screen to calibrate touch displaying “Calibrate Touch”.
+> 4. Follow the screen prompts to touch each of the crosses as they appear on the screen in the different location on the screen.
+> 5. Once the touch calibration process is completed, the display data screen will be loaded.
+>
+> ### Finishing Steps
+>
+> ED-4
+>
+> **CAUTION · Осторожно**
 > After updating the software or vessel personality file in any control system component, verify that the vessel control system is completely operational. It is also important to test and update the configuration settings and vessel personality of the component.
-
-After ED-4 display software update, refer to the following procedures for configuration setup information and testing:
-
-- It will be necessary to update the vessel personality file. Use the following procedure for information on managing vessel personalities. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
-- For configuration, use the following procedure. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15]]. The ED-4 display may need to be set up differently based on its location.
-- For setup, use the following procedure. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section]] 1.
-- All control functionality of the Cummins® Marine Controls **must** be tested before leaving the dock after a service event. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15]].
-
-Following a software update, if there is a new alarm code or performance complaint, follow the alarm code or the appropriate troubleshooting symptom tree in order to understand if the software is working properly and is the appropriate software for the application.
-
-If it is suspected that the software is **not** working correctly, make sure that the appropriate file was loaded for the ED-4, engine, equipment, and application.
-
-> [!note] Note · Примечание
+>
+> After ED-4 display software update, refer to the following procedures for configuration setup information and testing:
+>
+> - It will be necessary to update the vessel personality file. Use the following procedure for information on managing vessel personalities. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
+> - For configuration, use the following procedure. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15]]. The ED-4 display may need to be set up differently based on its location.
+> - For setup, use the following procedure. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section]] 1.
+> - All control functionality of the Cummins® Marine Controls **must** be tested before leaving the dock after a service event. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15]].
+>
+> Following a software update, if there is a new alarm code or performance complaint, follow the alarm code or the appropriate troubleshooting symptom tree in order to understand if the software is working properly and is the appropriate software for the application.
+>
+> If it is suspected that the software is **not** working correctly, make sure that the appropriate file was loaded for the ED-4, engine, equipment, and application.
+>
+> **Note · Примечание**
 > The “Cummins ED-4 Display Software File Tracking Sheet” in the Cummins QuickServe® Online “Cummins ED-4 Display” provides information relating to changes made to a software file. This information can be used to establish if there is a commonality between changes made to the software and the symptoms being observed.
-
-ED-5 and ED-7
-
-> [!warning] CAUTION · Осторожно
+>
+> ED-5 and ED-7
+>
+> **CAUTION · Осторожно**
 > After updating the software or configuration in any control system component, verify that the vessel control system is completely operational. It is also important to test and update the configuration settings of the component.
-
-After ED-5/ED-7 display software update, refer to the following procedures for configuration setup information and testing:
-
-- It will be necessary to update the vessel personality file. Use the following procedure for information on managing vessel personalities. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
-- For configuration, use the following procedure. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
-- For setup, use the following procedure. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
-- All control functionality of the Cummins® Marine Controls **must** be tested before leaving the dock after a service event. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
-
-Following a software update, if there is a new alarm code or performance complaint, follow the alarm code or the appropriate troubleshooting symptom tree in order to understand if the software is working properly and is the appropriate software for the application.
+>
+> After ED-5/ED-7 display software update, refer to the following procedures for configuration setup information and testing:
+>
+> - It will be necessary to update the vessel personality file. Use the following procedure for information on managing vessel personalities. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
+> - For configuration, use the following procedure. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+> - For setup, use the following procedure. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
+> - All control functionality of the Cummins® Marine Controls **must** be tested before leaving the dock after a service event. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+>
+> Following a software update, if there is a new alarm code or performance complaint, follow the alarm code or the appropriate troubleshooting symptom tree in order to understand if the software is working properly and is the appropriate software for the application.

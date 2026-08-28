@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-007-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-007-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Exhaust Manifold, Dry
@@ -35,48 +37,96 @@ tags:
 > **Даты:** изменён 2020-01-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-007-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-007-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the EGR cooler coolant return tube bracket from the exhaust manifold.
 
-Remove the exhaust manifold.
+### Снятие
 
-Cover all open points on the exhaust manifold and cylinder head with the appropriate protective caps or heavy tape, if needed.
+Удалите кронштейн хладагента EGR из коллектора выхлопных газов.
 
-Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+Удалите выхлопной коллектор.
 
-Remove the remaining capscrews, exhaust manifold, and gaskets.
+Накройте все открытые точки на выпускном коллекторе и головке цилиндра соответствующими защитными колпачками или тяжелой лентой, если это необходимо.
 
-Discard the gaskets.
+Удалите два верхних болта с конца секций выпускного коллектора и установите два направляющих шпилька, номер детали 3376488.
+
+Удалите оставшиеся болты, выхлопной коллектор и прокладки.
+
+Отбросьте прокладки.
 
 ![[11200126.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+Удалите два верхних болта с конца секций выпускного коллектора и установите два направляющих шпилька, номер детали 3376488.
 
-Remove the remaining capscrews, exhaust manifold, and gaskets.
+Удалите оставшиеся болты, выхлопной коллектор и прокладки.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[xm200mb.png]]
 
-Marine Applications
+Судовое применение
 
-Remove the heat shield mounting capscrews.
+Удалите крепежные болты теплового экрана.
 
-Remove the heat shield.
+Удалите тепловой экран.
 
-Remove the insulation blanket mounting capscrews.
+Удалите изоляционные одеяла, устанавливающие болты.
 
-Remove the insulation blanket.
+Удалите изоляционное одеяло.
 
 ![[11z00071.png]]
 
-Remove an upper capscrew and spacer from each end of the exhaust manifold and install guide studs, Part Number 3376488.
+Удалите верхние болты и прокладку с каждого конца выпускного коллектора и установите направляющие шпильки, номер детали 3376488.
 
-Remove the remaining capscrews, spacers, exhaust manifold, and gaskets.
+Удалите оставшиеся болты, спейсеры, выхлопной коллектор и прокладки.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[11z00072.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the EGR cooler coolant return tube bracket from the exhaust manifold.
+>
+> Remove the exhaust manifold.
+>
+> Cover all open points on the exhaust manifold and cylinder head with the appropriate protective caps or heavy tape, if needed.
+>
+> Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.
+>
+> Automotive with CM570
+>
+> Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.
+>
+> Marine Applications
+>
+> Remove the heat shield mounting capscrews.
+>
+> Remove the heat shield.
+>
+> Remove the insulation blanket mounting capscrews.
+>
+> Remove the insulation blanket.
+>
+> Remove an upper capscrew and spacer from each end of the exhaust manifold and install guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, spacers, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.

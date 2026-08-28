@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 11
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-087-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-087-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Cooling Fan Belt Tensioner
@@ -33,103 +35,192 @@ tags:
 > **Даты:** изменён 2015-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-087-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-087-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the cooling fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+
+### Подготовительные операции
+
+- Удалите охлаждающий ремень вентилятора.[[89-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Industrial Applications
+Промышленное применение
 
-Remove the three capscrews and tensioner from the front cover.
+Удалите три болта и натяжитель с передней крышки.
 
 ![[08400358.png]]
 
-Power Generation
+Генерация электроэнергии
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Remove the three capscrews that fasten the tensioner to the front cover. Do **not** remove the three clamping bolts at the base of the adjusting screw.
+Удалите три болта, которые прикрепляют натяжитель к передней крышке. **Не** Удалите три зажимных болта в основании регулирующего винта.
 
 ![[08400364.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Industrial Applications
+Промышленное применение
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the tensioner with a brush and solvent.
+Очистить натяжитель щеткой и растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[08400359.png]]
 
-Check the tensioner arm, spring, and pulley for cracks and other damage.
+Проверьте руку натяжителя, пружину и шкив на наличие трещин и других повреждений.
 
 ![[08400360.png]]
 
-Inspect the tensioner pulley.
+Проверьте натяжной шкив.
 
-Rotate the pulley to check for rough bearings.
+Поверните шкив, чтобы проверить наличие грубых подшипников.
 
 ![[08400367.png]]
 
-Power Generation
+Генерация электроэнергии
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the tensioner with a brush and solvent.
+Очистить натяжитель щеткой и растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[08400365.png]]
 
-Inspect the tensioner pulley.
+Проверьте натяжной шкив.
 
-Check the cooling fan belt tensioner bracket and tensioner for damage or deterioration. Check the adjustable tensioner for cracks and broken bolts.
+Проверьте натяжную кронштейн и натяжитель ремня охлаждения для повреждения или ухудшения. Проверьте регулируемый натяжитель на наличие трещин и сломанных болтов.
 
-Rotate the pulley to check for rough bearings.
+Поверните шкив, чтобы проверить наличие грубых подшипников.
 
 ![[08400366.png]]
 
-### Install
+### Установка
 
-Industrial Applications
+Промышленное применение
 
-Install the tensioner and three capscrews.
+Установите натяжитель и три болта.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[08400358.png]]
 
-Power Generation
+Генерация электроэнергии
 
-Install the tensioner and three mounting capscrews.
+Установите натяжитель и три крепежных болта.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[08400364.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the cooling fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002]] in Section 8.
+- Установите охлаждающий ремень вентилятора.[[89-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002]]В разделе 8.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the cooling fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8]].
+>
+> ### Remove
+>
+> Industrial Applications
+>
+> Remove the three capscrews and tensioner from the front cover.
+>
+> Power Generation
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Remove the three capscrews that fasten the tensioner to the front cover. Do **not** remove the three clamping bolts at the base of the adjusting screw.
+>
+> ### Clean and Inspect for Reuse
+>
+> Industrial Applications
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the tensioner with a brush and solvent.
+>
+> Dry with compressed air.
+>
+> Check the tensioner arm, spring, and pulley for cracks and other damage.
+>
+> Inspect the tensioner pulley.
+>
+> Rotate the pulley to check for rough bearings.
+>
+> Power Generation
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the tensioner with a brush and solvent.
+>
+> Dry with compressed air.
+>
+> Inspect the tensioner pulley.
+>
+> Check the cooling fan belt tensioner bracket and tensioner for damage or deterioration. Check the adjustable tensioner for cracks and broken bolts.
+>
+> Rotate the pulley to check for rough bearings.
+>
+> ### Install
+>
+> Industrial Applications
+>
+> Install the tensioner and three capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> Power Generation
+>
+> Install the tensioner and three mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the cooling fan belt. [[89-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002]] in Section 8.

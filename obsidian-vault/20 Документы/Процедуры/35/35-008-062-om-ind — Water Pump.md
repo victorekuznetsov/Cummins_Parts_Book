@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021942"
 figures: 24
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-062-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-062-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -35,202 +37,364 @@ tags:
 > **Даты:** изменён 2012-01-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-062-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-062-om-ind.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A streak or chemical buildup at the weep hole is **not** justification for water pump replacement.
 
-If a steady flow or drip of coolant or oil is observed at the weep hole, replace the water pump with a new or rebuilt unit. Reference the Remove and Install sections of this procedure.
+### Контроль при обслуживании
+
+Пролив или химическое накопление в дыре для плача является **не **оправданием для замены водяного насоса.
+
+Если на рычажном отверстии наблюдается устойчивый поток или капля теплоносителя или масла, замените водяной насос новым или перестроенным агрегатом. Ссылка на разделы Удалить и Установить этой процедуры.
 
 ![[wp2hska.png]]
 
-A small screwdriver or similair tool can be used to remove any debris.
+Небольшая отвертка или инструмент для симулятора может быть использована для удаления любого мусора.
 
-Make sure the weep hole is open.
+Убедитесь, что дыра в плаче открыта.
 
 ![[wp2hskb.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Remove the pressure cap when the engine is cool.
+Удалите крышку радиатора, когда двигатель остынет.
 
 ![[ra800qa.png]]
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Drain the cooling system. [[35-008-018-om-ind — Cooling System|Refer to Procedure 008-018 in Section 6.]]
+Слейте охлаждающую жидкость.[[35-008-018-om-ind — Cooling System|См. процедуру 008-018 в разделе 6.]]
 
 ![[ra8homa.png]]
 
-> [!note] Note · Примечание
-> Make sure the puller capscrews are threaded all the way through the puller before applying pressure to the puller screw.
+> [!note] Примечание
+> Убедитесь, что болты съёмника пронизаны через съёмник, прежде чем нажимать на винт съёмника.
 
-Remove the alternator drive belt. [[35-013-005-om-ind — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section A.]]
+Снимите ремень привода генератора.[[35-013-005-om-ind — Charging System Alternator Drive Belt|См. процедуру 013-005 в разделе A.]]
 
-Remove the water pump pulley retaining capscrew.
+Удалите шкив водяного насоса, удерживающий болты.
 
-Use the standard pulley puller, Part Number ST-647, or equivalent, and two 5/16 x 18 x 2 capscrews to remove the pulley.
+Используйте стандартный шкивный съёмник, номер детали ST-647 или эквивалент, и два болта 5/16 x 18 x 2 для удаления шкива.
 
 ![[wp2pumh.png]]
 
-Remove the alternator. Refer to a Cummins® Authorized Repair Location.
+Удалите генератор. См. авторизованное место ремонта Cummins®.
 
 ![[eh2bkme.png]]
 
-> [!note] Note · Примечание
-> Remove the dust seal as the seal carrier is removed, or use a heel bar, or similar tool, to pry the dust seal away from the seal case. Then remove the dust seal by hand.
+> [!note] Примечание
+> Удалите пылевую уплотнение, когда убирается носитель уплотнения, или используйте штангу на пятке или аналогичный инструмент, чтобы отобрать пылевую уплотнение от корпуса уплотнения. Затем удаляют пыль вручную.
 
-Remove the dust seal.
+Удалите пылевую уплотнение.
 
-Remove the five water pump oil seal capscrews, clamping ring, oil seal, and gasket.
+Удалите пять болтов для уплотнения масляного насоса, зажимное кольцо, масляный уплотнитель и прокладку.
 
-Discard the oil seal and dust seal.
+Отбросьте масляную и пылевую уплотнения.
 
 ![[08200017.png]]
 
-Loosen the coolant bypass hose clamps on both the upper and lower hoses.
+Освободите шланги для обхода охлаждающей жидкости как на верхних, так и на нижних шлангах.
 
-Remove the upper coolant hose from the thermostat housing.
+Удалите верхний шланг охлаждающей жидкости из корпуса термостата.
 
 ![[th2homa.png]]
 
-Remove the four thermostat housing mounting capscrews and the thermostat housing.
+Удалите четыре крепежных болта термостата и корпус термостата.
 
 ![[th2hsha.png]]
 
-The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+Поток охлаждающей жидкости, обеспечивающий охлаждение крутящего момента (если он оборудован), достигается различными способами.
 
-ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+Двигатели серии ISM и QSM используют диск охладителя крутящего момента внутри шланга обхода охлаждающей жидкости для направления охлаждающей жидкости двигателя на входную сторону охладителя крутящего момента.
 
-1. Torque converter coolant supply.
-2. Torque converter disc (orifice).
-3. Bypass hose.
-4. Water pump.
+1. Подача охлаждающей жидкости крутящего момента.
+2. Диск преобразователя крутящего момента (или отверстие).
+3. Обходной шланг.
+4. Водяной насос.
 
 ![[08200076.png]]
 
-Remove the two water pump water transfer connection capscrews.
+Удалите два болта для передачи воды водяным насосом.
 
-Remove the three water pump mounting capscrews.
+Удалите три болта для установки водяного насоса.
 
-Rotate the water pump outward so the water transfer connection can be removed from the water pump.
+Поверните водяной насос наружу, чтобы соединение для передачи воды можно было удалить из водяного насоса.
 
-Remove the water transfer connection from the water pump.
+Удалите соединение для передачи воды из водяного насоса.
 
 ![[wp200md.png]]
 
-Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+Удалите водяной насос. Выведите насос наружу сверху и наклоните заднюю часть насоса вниз, когда он удаляется, чтобы насос мог пройти поддержку корпуса термостата.
 
 ![[wp200mi.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> The water pump **must** be twisted outward from the top until the transfer outlet clears the thermostat housing support during installation.
+> [!note] Примечание
+> Водяной насос **должен** выкручиваться наружу с вершины до тех пор, пока передаточный выпуск не очистит корпус термостата во время установки.
 
-Install a new o-ring on the water pump mounting flange.
+Установите новое кольцо на фланце установки водяного насоса.
 
-Install the water pump.
+Установите водяной насос.
 
 ![[wp200hk.png]]
 
-Install a new o-ring on the water pump water transfer tube.
+Установите новое о-кольцо на водонасосную водопроводную трубу.
 
-Install the connection into the water pump.
+Установите соединение в водяной насос.
 
-Twist the water pump inward, and install the three water pump mounting capscrews.
+Вкрутите водяной насос внутрь и установите три болта для установки водяного насоса.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Install a new gasket on the water pump water transfer connection. Install and tighten the water transfer connection capscrews.
+Установите новую прокладку на водонасосное водопроводное соединение. Установите и затяните болты соединения для передачи воды.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[wp200hi.png]]
 
-If the engine is equipped with a torque converter cooler, install the disc in the bypass hose before installing the thermostat housing.
+Если двигатель оснащен охладитель крутящего момента, установите диск в шунтирующий шланг перед установкой корпуса термостата.
 
-1. Torque converter cooler coolant supply.
-2. Torque converter cooler disc (orifice).
-3. Bypass hose.
-4. Water pump.
+1. Подача охлаждающей жидкости с крутящим моментом.
+2. Диск охладителя крутящего момента (или отверстие).
+3. Обходной шланг.
+4. Водяной насос.
 
 ![[08200075.png]]
 
-Install the thermostat in the housing.
+Установите термостат в корпус.
 
-Install a new seal in the groove on the thermostat housing mounting surface.
+Установите новое уплотнение в канавку на поверхности крепления корпуса термостата.
 
 ![[ec200hb.png]]
 
-Install the hose on the thermostat housing bypass outlet.
+Установите шланг на корпус термостата обводной розетки.
 
-Install the thermostat housing and four mounting capscrews.
+Установите корпус термостата и четыре крепежных болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[th2hsha.png]]
 
-Equally space the bypass hose over the water pump connection and thermostat housing connection, and tighten the bypass hose clamps.
+Равным образом разместите шланг обхода над соединением водяного насоса и термостатным корпусным соединением и затяните зажимы шланга обхода.
 
-> [!tip] Момент затяжки · Torque Value
-> 3 n•m [27 in-lb]
+> [!tip] Момент затяжки
+> 3 Н·м [27 фунт-дюйм]
 
-Install the upper and lower coolant hoses. Refer to the OEM's specifications for the correct torque value.
+Установите верхние и нижние шланги охлаждающей жидкости. См. спецификации OEM для правильного значения крутящего момента.
 
 ![[th2hohb.png]]
 
-The oil seal **must** be installed with the lip of the seal and the shaft clean and dry. Do **not** lubricate. The yellow dust lip **must** be facing out.
+Масляная уплотнение **должна быть установлена с губой уплотнения и валом чистым и сухим. **не смазать. Желтая пыльная губа должна быть обращена в сторону.
 
-Install the new gasket and oil seal. Use the installation sleeve provided with the new seal to install the seal.
+Установите новую прокладку и масляную уплотнение. Используйте установочный рукав, снабженный новой уплотнением, для установки уплотнения.
 
-The capscrew threads **must** be coated with thread sealant, Part Number 3823494 or equivalent, to prevent oil leakage.
+Затворы, резьбу которых следует покрывать герметиком, номер детали 3823494 или эквивалентом, для предотвращения утечки масла.
 
-Torque Value:
+Момент затяжки:
 
 ![[wp2sehn.png]]
 
-Place a light film of oil or antifreeze on the inside diameter of the dust seal.
+Поместите легкую пленку масла или антифриз на внутренний диаметр пылевого уплотнения.
 
-Install the dust seal onto the shaft with the larger outside diameter facing the engine.
+Установите пылевое уплотнение на вал с большим внешним диаметром, обращенным к двигателю.
 
-Push the dust seal back by hand on the shaft until the entire dust seal contacts the oil seal case.
+Отодвиньте пылевое уплотнение вручную на вал до тех пор, пока вся пылевая уплотнитель не соприкоснется с корпусом масляного уплотнения.
 
 ![[wp2seho.png]]
 
-Use pulley pusher adapter (1), Part Number 3377401, or equivalent, and pulley pusher (2), Part Number 3376326, or equivalent, to install the pulley.
+Используйте адаптер шкивов (1), номер детали 3377401 или эквивалент, и шкивов щипцов (2), номер детали 3376326 или эквивалент, чтобы установить шкив.
 
-Install the capscrew in the shaft.
+Установите болты в шахте.
 
-> [!tip] Момент затяжки · Torque Value
-> 75 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 75 Н·м [55 фунт-фут]
 
 ![[ad200hb.png]]
 
-Install the alternator. Refer to a Cummins® Authorized Repair Location.
+Установите генератор. См. авторизованное место ремонта Cummins®.
 
-Install and adjust the alternator drive belt. [[35-013-005-om-ind — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section A.]]
+Установите и отрегулируйте ремень привода генератора переменного тока.[[35-013-005-om-ind — Charging System Alternator Drive Belt|См. процедуру 013-005 в разделе A.]]
 
 ![[eh200ha.png]]
 
-Close the cooling system draincock, and install the lower coolant hose.
+Закройте сливной клапан системы охлаждения и установите нижний шланг охлаждающей жидкости.
 
-Tighten the hose clamps(s). Refer to the manufacturer's specifications for the correct torque value.
+Закрепить зажимы (зажимы) шланга. См. спецификации производителя для правильного значения крутящего момента.
 
 ![[ra8hsha.png]]
 
-The correct concentration of coolant additives **must** be used in the cooling system. [[101-018-004 — Coolant Recommendations and Specifications|Refer to Procedure 018-004 in Section V]].
+Правильная концентрация добавок хладагента должна использоваться в системе охлаждения.[[101-018-004 — Coolant Recommendations and Specifications|См. процедуру 018-004 в разделе V.]].
 
-Fill the cooling system.
+Заправьте систему охлаждения.
 
-[[35-008-018-om-ind — Cooling System|Refer to Procedure 008-018 in Section 7.]]
+[[35-008-018-om-ind — Cooling System|См. процедуру 008-018 в разделе 7.]]
 
-Operate the engine until it reaches a temperature of 71°C \[160°F\] and check for coolant leaks.
+Управляйте двигателем до тех пор, пока он не достигнет температуры 71 ° C \[160° F \] и не проверьте утечки охлаждающей жидкости.
 
 ![[oi803vn.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> A streak or chemical buildup at the weep hole is **not** justification for water pump replacement.
+>
+> If a steady flow or drip of coolant or oil is observed at the weep hole, replace the water pump with a new or rebuilt unit. Reference the Remove and Install sections of this procedure.
+>
+> A small screwdriver or similair tool can be used to remove any debris.
+>
+> Make sure the weep hole is open.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Remove the pressure cap when the engine is cool.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Drain the cooling system. [[35-008-018-om-ind — Cooling System|Refer to Procedure 008-018 in Section 6.]]
+>
+> **Note · Примечание**
+> Make sure the puller capscrews are threaded all the way through the puller before applying pressure to the puller screw.
+>
+> Remove the alternator drive belt. [[35-013-005-om-ind — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section A.]]
+>
+> Remove the water pump pulley retaining capscrew.
+>
+> Use the standard pulley puller, Part Number ST-647, or equivalent, and two 5/16 x 18 x 2 capscrews to remove the pulley.
+>
+> Remove the alternator. Refer to a Cummins® Authorized Repair Location.
+>
+> **Note · Примечание**
+> Remove the dust seal as the seal carrier is removed, or use a heel bar, or similar tool, to pry the dust seal away from the seal case. Then remove the dust seal by hand.
+>
+> Remove the dust seal.
+>
+> Remove the five water pump oil seal capscrews, clamping ring, oil seal, and gasket.
+>
+> Discard the oil seal and dust seal.
+>
+> Loosen the coolant bypass hose clamps on both the upper and lower hoses.
+>
+> Remove the upper coolant hose from the thermostat housing.
+>
+> Remove the four thermostat housing mounting capscrews and the thermostat housing.
+>
+> The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+>
+> ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+>
+> 1. Torque converter coolant supply.
+> 2. Torque converter disc (orifice).
+> 3. Bypass hose.
+> 4. Water pump.
+>
+> Remove the two water pump water transfer connection capscrews.
+>
+> Remove the three water pump mounting capscrews.
+>
+> Rotate the water pump outward so the water transfer connection can be removed from the water pump.
+>
+> Remove the water transfer connection from the water pump.
+>
+> Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+>
+> ### Install
+>
+> **Note · Примечание**
+> The water pump **must** be twisted outward from the top until the transfer outlet clears the thermostat housing support during installation.
+>
+> Install a new o-ring on the water pump mounting flange.
+>
+> Install the water pump.
+>
+> Install a new o-ring on the water pump water transfer tube.
+>
+> Install the connection into the water pump.
+>
+> Twist the water pump inward, and install the three water pump mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Install a new gasket on the water pump water transfer connection. Install and tighten the water transfer connection capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> If the engine is equipped with a torque converter cooler, install the disc in the bypass hose before installing the thermostat housing.
+>
+> 1. Torque converter cooler coolant supply.
+> 2. Torque converter cooler disc (orifice).
+> 3. Bypass hose.
+> 4. Water pump.
+>
+> Install the thermostat in the housing.
+>
+> Install a new seal in the groove on the thermostat housing mounting surface.
+>
+> Install the hose on the thermostat housing bypass outlet.
+>
+> Install the thermostat housing and four mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Equally space the bypass hose over the water pump connection and thermostat housing connection, and tighten the bypass hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 3 n•m [27 in-lb]
+>
+> Install the upper and lower coolant hoses. Refer to the OEM's specifications for the correct torque value.
+>
+> The oil seal **must** be installed with the lip of the seal and the shaft clean and dry. Do **not** lubricate. The yellow dust lip **must** be facing out.
+>
+> Install the new gasket and oil seal. Use the installation sleeve provided with the new seal to install the seal.
+>
+> The capscrew threads **must** be coated with thread sealant, Part Number 3823494 or equivalent, to prevent oil leakage.
+>
+> Torque Value:
+>
+> Place a light film of oil or antifreeze on the inside diameter of the dust seal.
+>
+> Install the dust seal onto the shaft with the larger outside diameter facing the engine.
+>
+> Push the dust seal back by hand on the shaft until the entire dust seal contacts the oil seal case.
+>
+> Use pulley pusher adapter (1), Part Number 3377401, or equivalent, and pulley pusher (2), Part Number 3376326, or equivalent, to install the pulley.
+>
+> Install the capscrew in the shaft.
+>
+> **Момент затяжки · Torque Value**
+> 75 n•m [55 ft-lb]
+>
+> Install the alternator. Refer to a Cummins® Authorized Repair Location.
+>
+> Install and adjust the alternator drive belt. [[35-013-005-om-ind — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section A.]]
+>
+> Close the cooling system draincock, and install the lower coolant hose.
+>
+> Tighten the hose clamps(s). Refer to the manufacturer's specifications for the correct torque value.
+>
+> The correct concentration of coolant additives **must** be used in the cooling system. [[101-018-004 — Coolant Recommendations and Specifications|Refer to Procedure 018-004 in Section V]].
+>
+> Fill the cooling system.
+>
+> [[35-008-018-om-ind — Cooling System|Refer to Procedure 008-018 in Section 7.]]
+>
+> Operate the engine until it reaches a temperature of 71°C \[160°F\] and check for coolant leaks.

@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Battery Cables and Connections
@@ -33,32 +35,66 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-009.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cranking Circuit or Battery Cable Test
 
-Attach the carbon pile tester and multimeter. Apply 500 amps of load (250 amps for a 24-VDC system), and measure the positive and negative voltage losses. Add (V1) and (V2) together for a total battery cable voltage drop. The measured voltage drop **must** be less than 0.5 VDC for a 12-VDC system or less than 1 VDC for a 24-VDC system. If the voltage drops are excessive, repair or replace the wiring system.
+### Первичная проверка
 
-| System Voltage | Maximum Voltage Drop |
+Тест коленчатой цепи или кабеля батареи
+
+Прикрепите тестер углеродной сваи и мультиметр. Применяйте 500 ампер нагрузки (250 ампер для системы 24-VDC) и измеряйте положительные и отрицательные потери напряжения. Добавить (V1) и (V2) вместе для общего падения напряжения кабеля батареи. Измеренное падение напряжения должно быть менее 0,5 VDC для системы 12-VDC или менее 1 VDC для системы 24-VDC. Если падение напряжения является чрезмерным, отремонтируйте или замените проводку.
+
+| Напряжение системы | Максимальное падение напряжения |
 |---|---|
-| 12 VDC | 0.5 VDC |
+| 12 VDC | 0,5 VDC |
 | 24 VDC | 1.0 VDC |
 
 ![[13900041.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Inspect the battery terminals for loose, broken, or corroded connections.
+Проверьте клеммы батареи на наличие свободных, сломанных или разъединенных соединений.
 
-Repair or replace broken cables or terminals.
+Ремонт или замена сломанных кабелей или терминалов.
 
 ![[ea8cosa.png]]
 
-If the connections are corroded, remove the cables, and use a battery brush to clean the cable and battery terminals.
+Если соединения разъединены, удалите кабели и используйте щетку батареи для очистки кабеля и клемм батареи.
 
-Install and tighten the battery cables.
+Установите и затяните кабели батареи.
 
-Use dielectric grease to coat the battery terminals to prevent corrosion.
+Используйте диэлектрическую смазку для покрытия терминалов батареи для предотвращения коррозии.
 
 ![[ea8coea.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Cranking Circuit or Battery Cable Test
+>
+> Attach the carbon pile tester and multimeter. Apply 500 amps of load (250 amps for a 24-VDC system), and measure the positive and negative voltage losses. Add (V1) and (V2) together for a total battery cable voltage drop. The measured voltage drop **must** be less than 0.5 VDC for a 12-VDC system or less than 1 VDC for a 24-VDC system. If the voltage drops are excessive, repair or replace the wiring system.
+>
+> | System Voltage | Maximum Voltage Drop |
+> |---|---|
+> | 12 VDC | 0.5 VDC |
+> | 24 VDC | 1.0 VDC |
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+>
+> Inspect the battery terminals for loose, broken, or corroded connections.
+>
+> Repair or replace broken cables or terminals.
+>
+> If the connections are corroded, remove the cables, and use a battery brush to clean the cable and battery terminals.
+>
+> Install and tighten the battery cables.
+>
+> Use dielectric grease to coat the battery terminals to prevent corrosion.

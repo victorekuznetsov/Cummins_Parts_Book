@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-035-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-035-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Suction Tube (Block-Mounted)
@@ -35,14 +37,34 @@ tags:
 > **Даты:** изменён 2021-01-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-035-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-035-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-There are different lubricating oil suction tube arrangements depending on the oil pan style.
 
-Remove the nuts (5), capscrews (4), and strap (3) from the vertical support bracket assembly (2).
+### Снятие
 
-Remove the capscrews (8) and remove the vertical support bracket assembly.
+Существуют различные схемы всасывания моторного масла в зависимости от стиля масляной поддона.
 
-Remove the three capscrews (6), and the oil suction tube (1).
+Удалите гайки (5), болты (4) и ремешок (3) из вертикального опорного скобчатого узла (2).
+
+Удалите болты (8) и удалите вертикальный опорный скоб.
+
+Удалите три болта (6) и масляную всасывающую трубку (1).
 
 ![[07600387.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> There are different lubricating oil suction tube arrangements depending on the oil pan style.
+>
+> Remove the nuts (5), capscrews (4), and strap (3) from the vertical support bracket assembly (2).
+>
+> Remove the capscrews (8) and remove the vertical support bracket assembly.
+>
+> Remove the three capscrews (6), and the oil suction tube (1).
