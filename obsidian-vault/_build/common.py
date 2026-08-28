@@ -7,17 +7,18 @@ import re
 import unicodedata
 
 SRC = os.environ.get("KB_SRC", "/home/user/Cummins_Parts_Book")
+# каталоги машин NHL: единый репозиторий NHL_Parts_Book, папка на машину
 NHL = {
-    "NTE200": os.environ.get("KB_NTE200", "/home/user/NHL_Parts_Book-NTE200"),
-    "NTE240": os.environ.get("KB_NTE240", "/home/user/NHL_Parts_Book-NTE240"),
-    "TR100A": os.environ.get("KB_TR100", "/home/user/NHL_Parts_Book-TR100"),
+    "NTE200": os.environ.get("KB_NTE200", "/home/user/NHL_Parts_Book/nte200"),
+    "NTE240": os.environ.get("KB_NTE240", "/home/user/NHL_Parts_Book/nte240"),
+    "TR100A": os.environ.get("KB_TR100", "/home/user/NHL_Parts_Book/tr100"),
 }
-VAULT = os.environ.get("KB_VAULT", "/home/user/kb_vault")
+VAULT = os.environ.get("KB_VAULT", os.path.join(SRC, "obsidian-vault"))
 BUILD = os.path.join(SRC, "kb_build")
 
 # ссылка на исходные PDF в репозитории (ветка с полной выгрузкой)
 PDF_BASE = ("https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/"
-            "claude/cummins-parts-knowledge-base-qa0n50/bulletins/")
+            "main/bulletins/")
 
 DIRS = {
     "docs": "20 Документы",
@@ -74,9 +75,30 @@ CAT_TAG = {
 DOC_ESN = {
     "33239899": ("K38/K50 · QSK38, QSK50, QSK60", ["33239899", "33239746"]),
     "37292556": ("QST30", ["37292556", "37295879"]),
-    "41353297": ("QSK19", ["41349633"]),
-    "41370103": ("NT/NTA855 · ISM/QSM11", ["41343322"]),
-    "93087701": ("C8.3 · 6C8.3", ["93058669"]),
+    "41353297": ("QSK19", ["41349633", "41353297"]),
+    "41370103": ("NT/NTA855 · ISM/QSM11", ["41343322", "41370103"]),
+    "93087701": ("C8.3 · 6C8.3", ["93058669", "93087701"]),
+
+    # Документация парка «Полюс»: выгружалась по каждому двигателю отдельно,
+    # поэтому doc-ESN совпадает с ESN каталога.
+    "33210083": ("QSK60", ["33210083"]),
+    "33219033": ("QSK60", ["33219033"]),
+    "33224343": ("QSK60", ["33224343"]),
+    "33224404": ("QSK50", ["33224404"]),
+    "35354607": ("QSM11", ["35354607"]),
+    "35373113": ("QSM11", ["35373113"]),
+    "37269910": ("K19", ["37269910"]),
+    "37280605": ("K19", ["37280605"]),
+    "41340468": ("QSK50", ["41340468"]),
+    "71156161": ("QSM11", ["71156161"]),
+    "77804793": ("A8.5", ["77804793"]),
+    "77804810": ("15N", ["77804810"]),
+    "80141463": ("QSX15", ["80141463"]),
+    "80248213": ("QSX15", ["80248213"]),
+    "82099327": ("QSB6.7", ["82099327"]),
+    "85017333": ("QSK23", ["85017333"]),
+    "93047320": ("6B5.9", ["93047320"]),
+    "93948840": ("QSZ13", ["93948840"]),
 }
 FAMILY_OF_CAT = {}
 for _doc_esn, (_fam, _cats) in DOC_ESN.items():

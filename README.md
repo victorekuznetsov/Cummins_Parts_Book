@@ -176,6 +176,46 @@ python3 build/build_catalog.py --all --photos   # плюс скопироват�
 неполная, и `crawler.py <ESN>` нужно догнать на машине с доступом к
 parts.cummins.com.
 
+## Техническая документация и база знаний
+
+Документы QuickServe лежат в `bulletins/` (HTML + PDF, реестр — `bulletins/index.json`):
+**6775 документов** — процедуры ремонта, TSB, сервисные бюллетени, инструкции по
+инструменту и установке, руководства. Из них собираются:
+
+* раздел «База знаний» самого каталога — `data/kb_*.js` и `data/kb/body_*.js`;
+* хранилище Obsidian в `obsidian-vault/` (22 653 заметки: документы, детали,
+  узлы, комплекты, двигатели, парк, темы).
+
+Документация привязана к 28 двигателям каталога из 30 (нет по CPL 4342 и 8761 —
+двум DH46C3). Русский текст есть у 3112 документов и русские заголовки у 5000;
+остальные — по-английски: перевод делается отдельным прогоном
+(`translate_docs.py`, офлайн-модель en→ru) и в готовые файлы попадает при
+следующей пересборке.
+
+### Пересборка базы знаний
+
+```
+python3 obsidian-vault/_build/build_docs.py        # HTML -> Markdown, иллюстрации из PDF
+python3 obsidian-vault/_build/build_catalog.py     # детали/узлы/комплекты из data/<ESN>.js
+python3 obsidian-vault/_build/build_machines.py    # каталоги машин NHL
+python3 obsidian-vault/_build/build_fleet.py       # парк: машина -> VIN -> ESN -> CPL
+python3 obsidian-vault/_build/write_docs.py        # заметки документов
+python3 obsidian-vault/_build/write_catalog.py     # заметки каталога
+python3 obsidian-vault/_build/write_machines.py obsidian-vault/_build/write_fleet.py
+python3 obsidian-vault/_build/write_fleet_polyus.py
+python3 obsidian-vault/_build/build_index.py       # главная, индексы, темы
+python3 obsidian-vault/_build/web_data.py          # data/kb_*.js для каталога
+```
+
+Промежуточное состояние пишется в `kb_build/` (в репозиторий не попадает).
+Уже переведённые документы сохраняются между пересборками: `web_data.py` берёт
+их из `kb_build/_cache_ru_html/` — русский текст не теряется, даже если
+`translate_docs.py` не запускался. Новую выгрузку QuickServe нужно
+скопировать в `bulletins/<категория>/` и слить её `index.json` с общим
+реестром, после чего прогнать конвейер заново.
+
+Нужны пакеты: `beautifulsoup4`, `lxml`, `pymupdf`, `pillow`.
+
 ## Деплой на Vercel
 
 Статический сайт + Edge-функции для входа, сборка не нужна. Vercel обслуживает

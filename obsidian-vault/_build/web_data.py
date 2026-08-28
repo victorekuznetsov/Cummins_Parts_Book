@@ -17,6 +17,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from urllib.parse import quote
+
 from common import BUILD, CAT_RU, DOC_ESN, FAMILY_OF_CAT, NHL, load_json, catalogs
 from web_render import Renderer
 
@@ -162,6 +164,13 @@ def main():
         ru_file = os.path.join(cache_ru, cat, did + ".md")
         if os.path.exists(ru_file):
             body_ru = rend.render(open(ru_file, encoding="utf-8").read())
+        else:
+            # Готовый русский текст из прошлой сборки (_cache_ru_html/<id>.html):
+            # перевод — отдельный долгий прогон, и пересборка каталога на новой
+            # выгрузке не должна терять уже переведённые документы.
+            html_file = os.path.join(BUILD, "_cache_ru_html", quote(did, safe="") + ".html")
+            if os.path.exists(html_file):
+                body_ru = open(html_file, encoding="utf-8").read()
         chunk = n // CHUNK
         if cat != "manual":
             chunks[chunk][did] = body

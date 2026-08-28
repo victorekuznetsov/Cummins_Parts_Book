@@ -20,3 +20,6 @@ quickserve/portal.html
 quickserve/chrome_profile/
 quickserve/doc_manifest.json
 quickserve/procedures.json
+
+# промежуточное состояние сборки базы знаний (пересобирается из bulletins/)
+kb_build/
