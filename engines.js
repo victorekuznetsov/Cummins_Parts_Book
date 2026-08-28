@@ -93,8 +93,8 @@ window.ENGINES = [
   "machine": "Komatsu PC-4000",
   "build": "2021-03-24",
   "config": "D593001CC18",
-  "options": 91,
-  "parts": 1015,
+  "options": 96,
+  "parts": 1041,
   "fleet": [],
   "owner": "АО \"Полюс Магадан\"",
   "place": "УОГР_ПаркЭкскаватор_Komatsu PC-4000"

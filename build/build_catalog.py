@@ -313,6 +313,44 @@ def build(esn, copy_photos=False):
             "parts": parts,
         })
 
+    # Узлы дополнительной комплектации (upf-opt, «Distributor Upfit»): Cummins не
+    # отдаёт по ним componentDetails — crawler.py фиксирует ошибку API, файла
+    # options/<узел>.json нет. Состав такого узла известен из спецификации
+    # двигателя, поэтому собираем его оттуда: номера не теряются, а чертежа и
+    # номеров позиций у этих узлов нет и в самом EPC (graphic: null).
+    built = {o["no"] for o in options}
+    for o in (engine.get("optionList") or []):
+        no = o.get("optionNo")
+        if not no or no in built:
+            continue
+        parts = []
+        for pp in (o.get("parts") or []):
+            pn = (pp.get("partNo") or "").strip()
+            if not pn:
+                continue
+            photo = f"{safe(pn)}_iso.png"
+            has_photo = (src / "parts" / photo).exists()
+            if has_photo:
+                all_photos.add(photo)
+            parts.append({"pos": "", "no": pn, "name": (pp.get("partDesc") or "").strip(),
+                          "qty": "", "dim": "", "rem": "", "lvl": 0,
+                          "img": photo if has_photo else ""})
+        if not parts:
+            continue
+        build_name = (o.get("build") or "").strip()
+        options.append({
+            "no": no,
+            "name": o.get("optionName") or no,
+            "systems": sys_of_option.get(no) or ["UNCLASSIFIED"],
+            "remarks": "Узел дополнительной комплектации"
+                       + (f" ({build_name})" if build_name else "")
+                       + ". Cummins не публикует по нему схему и номера позиций — "
+                         "состав взят из спецификации двигателя.",
+            "sheets": [],
+            "parts": parts,
+            "partial": True,
+        })
+
     kits = load_kits(src)
 
     systems = []
@@ -365,6 +403,7 @@ def build(esn, copy_photos=False):
     engines = update_registry(catalog, info)
     update_index(engines)
 
+    partial = [o["no"] for o in options if o.get("partial")]
     total_pos = sum(len(o["parts"]) for o in options)
     size = (ROOT / "data" / f"{esn}.js").stat().st_size / 1024
     print(f">>> {esn} · {catalog['model']} · CPL {catalog['cpl']}"
@@ -375,6 +414,9 @@ def build(esn, copy_photos=False):
     print(f"    комплектов {len(kits)}, чертежей {len(all_sheets)} (скопировано {copied['drawings']}), "
           f"фото {len(all_photos)}" + (f" (скопировано {copied['parts']})" if copy_photos else " (из rawdata)"))
     print(f"    data/{esn}.js — {size:.0f} КБ; всего двигателей в каталоге: {len(engines)}")
+    if partial:
+        print(f"    узлов доп. комплектации без схемы (состав из спецификации): "
+              f"{len(partial)} -> {', '.join(partial)}")
 
     from_engine = {p["partNo"] for o in (engine.get("optionList") or [])
                    for p in (o.get("parts") or []) if p.get("partNo")}
