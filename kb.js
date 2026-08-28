@@ -44,6 +44,19 @@ var CAT_MANY = {
   manual: "Руководства"
 };
 var PDF_BASE = "bulletins/";
+/* На «тонком» деплое (ветка deploy-vercel) тяжёлые файлы — PDF документов и
+   иллюстрации — не выкладываются: страница ставит window.KB_LOCAL_FILES =
+   false, и вместо них показываются ссылки на QuickServe, а фотографии
+   деталей берутся с CDN Cummins. */
+var LOCAL_FILES = window.KB_LOCAL_FILES !== false;
+/* адрес иллюстрации на сервере Cummins: 08600044.png ->
+   /rtgraphics/english/service/08/6/08600044.png */
+function figureCdn(name) {
+  var base = String(name).replace(/\.[a-z]+$/i, "");
+  return base.length < 3 ? "" :
+    "https://quickserve.cummins.com/rtgraphics/english/service/" +
+    base.slice(0, 2).toLowerCase() + "/" + base.charAt(2).toLowerCase() + "/" + name;
+}
 var ENGINE_TITLE = {};
 (window.ENGINES || []).forEach(function (e) {
   ENGINE_TITLE[e.esn] = (e.model || "") + (e.cpl ? " CPL " + e.cpl : "");
@@ -93,7 +106,7 @@ function badge(cat) {
 }
 function photoUrl(file) {
   var base = String(file).replace(/\.[a-z]+$/i, "");
-  return PHOTOS[base] ? "assets/photos/" + base + ".jpg" : photoCdn(file);
+  return (LOCAL_FILES && PHOTOS[base]) ? "assets/photos/" + base + ".jpg" : photoCdn(file);
 }
 function photoCdn(file) {
   var num = String(file).split("_")[0];
@@ -143,8 +156,23 @@ function setMode(on) {
 }
 function render(html) {
   root.innerHTML = html;
+  fixFigures(root);
   setMode(true);
   root.scrollTop = 0;
+}
+/* Иллюстрация не выгружена (тонкий деплой или пропуск в сборке) — вместо
+   битой картинки даём ссылку на оригинал. */
+function fixFigures(box) {
+  Array.prototype.forEach.call(box.querySelectorAll("figure.fig img"), function (im) {
+    im.onerror = function () {
+      var name = this.alt || "", url = figureCdn(name), fig = this.parentNode;
+      if (!fig) return;
+      fig.outerHTML = '<div class="fig-missing">Иллюстрация <code>' + esc(name) +
+        "</code> не выгружена" +
+        (url ? ' — <a href="' + url + '" target="_blank" rel="noopener">открыть на QuickServe ↗</a>' : "") +
+        "</div>";
+    };
+  });
 }
 
 /* ---------------------------------------------------------- заголовок */
@@ -295,7 +323,7 @@ function viewDoc(id) {
     (d.g ? '<span class="mi">' + esc(d.g) + "</span>" : "") + "</div>");
   h.push('<div class="doc-links">' +
     '<a class="btn-mini" href="' + esc(d.u) + '" target="_blank" rel="noopener">Оригинал в QuickServe ↗</a>' +
-    (d.pdf ? ' <a class="btn-mini" href="' + PDF_BASE + esc(d.pdf.replace(/\\/g, "/")) +
+    (d.pdf && LOCAL_FILES ? ' <a class="btn-mini" href="' + PDF_BASE + esc(d.pdf.replace(/\\/g, "/")) +
              '" target="_blank" rel="noopener">PDF ↗</a>' : "") +
     ' <a class="btn-mini" href="#" onclick="window.print();return false;">Печать</a>' +
     "</div>");
